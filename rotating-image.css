@@ -1,0 +1,18 @@
+/* Rotating Image */
+.circle-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 25%;
+    border: 2px solid #fff;
+    animation: rotate 10s linear infinite;
+}
+
+/* Rotation Animation */
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
