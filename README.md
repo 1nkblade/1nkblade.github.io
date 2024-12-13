@@ -1,2 +1,3 @@
-# 1nkblade's Portfolio  |  <a href="https://1nkblade.github.io/" target="_blank">Check it out!</a>
- 	--- work in progress
+# 1nkblade's Portfolio
+## [Check it out!](https://1nkblade.github.io/)
+`work in progress...`
