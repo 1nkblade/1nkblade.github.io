@@ -16,3 +16,9 @@
         transform: rotate(360deg);
     }
 }
+
+/* Background Image */
+.background-image {
+    background: url('images/bg.jpg') no-repeat center center/cover;
+    z-index: -1; /* Place behind the content */
+}
