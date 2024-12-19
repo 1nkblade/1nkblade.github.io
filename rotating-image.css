@@ -22,3 +22,45 @@
     background: url('images/bg.jpg') no-repeat center center/cover;
     z-index: -1; /* Place behind the content */
 }
+
+.sidebar-expanded {
+    transition: all 0.3s ease;
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+
+#right-content.expanded {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100vw !important;
+    max-width: 100vw !important;
+    height: 100vh;
+    z-index: 1000;
+    margin: 0;
+    padding: 2rem;
+}
+
+#toggleSidebar {
+    z-index: 1001;
+}
+
+@media (max-width: 768px) {
+    #right-content {
+        width: 100% !important;
+        max-width: 100% !important;
+        padding: 1rem;
+    }
+    
+    #right-content.expanded {
+        padding: 1rem;
+    }
+    
+    #toggleSidebar {
+        top: 10px;
+        right: 10px;
+    }
+}

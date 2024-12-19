@@ -21,3 +21,16 @@ image.addEventListener("click", () => {
     const audioFile = image.getAttribute("data-sound");
     playSound(audioFile);
 });
+
+document.getElementById('toggleSidebar').addEventListener('click', function() {
+    const sidebar = document.getElementById('right-content');
+    const expandText = this.querySelector('.expand-text');
+    const collapseText = this.querySelector('.collapse-text');
+    
+    sidebar.classList.toggle('expanded');
+    sidebar.classList.toggle('col-3');
+    
+    // Toggle button text
+    expandText.classList.toggle('d-none');
+    collapseText.classList.toggle('d-none');
+});
