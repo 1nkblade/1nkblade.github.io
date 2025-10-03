@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feed - 1nkblade's Portfolio</title>
+    <meta name="description" content="Latest updates, projects, and insights from 1nkblade">
+    
+    <!-- External Stylesheets -->
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/rotating-image.css">
+    
+    <!-- External Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body class="bg-dark-subtle">
+    <!-- Header Section -->
+    <header class="navbar navbar-expand-lg sticky-top bg-dark">
+        <nav class="container-fluid">
+            <div id="clock" class="container-fluid text-light rounded-4">
+                <div class="row align-items-center">
+                    <!-- Time Display -->
+                    <div class="col-4">
+                        <div id="time" class="fs-6 text-dark-emphasis"></div>
+                        <div id="date" class="fs-5 text-dark"></div>
+                    </div>
+                    
+                    <!-- Spacer for layout balance -->
+                    <div class="col-4 text-center">
+                        <h5 class="mb-0 text-light">📰 Latest Feed</h5>
+                    </div>
+                    
+                    <!-- Theme Toggle & Home Button -->
+                    <div class="col-4 text-end d-flex align-items-center justify-content-end">
+                        <!-- Theme Toggle -->
+                        <div class="theme-toggle" id="theme-toggle" title="Toggle Dark/Light Mode">
+                            <div class="theme-toggle-slider"></div>
+                        </div>
+                        
+                        <!-- Home Button -->
+                        <a href="./index.html" class="btn btn-outline-light btn-sm ms-2" aria-label="Go to Home page">
+                            <i class="bi bi-house-door"></i> Home
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="container-fluid" id="main-container">
+        <div class="row">
+            <!-- Main Content -->
+            <section class="col-12 col-md-10 bg-dark" id="main-content">
+                <!-- Feed Header -->
+                <div class="feed-header container-fluid bg-primary-subtle rounded-3 mb-4">
+                    <div class="row align-items-center py-4">
+                        <!-- Profile Area -->
+                        <div class="col-md-3 text-center">
+                            <img src="https://i.pinimg.com/736x/cd/df/01/cddf0179a206fd051473d27b674c4b43.jpg" 
+                                 class="circle-image img-fluid shadow-lg rounded-circle sound-img mb-3" 
+                                 alt="1nkblade's Avatar" 
+                                 data-sound="assets/audio/Erm.mp3"
+                                 role="button"
+                                 tabindex="0">
+                            <h4 class="text-light mb-0">1nkblade</h4>
+                            <small class="text-light-50">Full-Stack Developer</small>
+                        </div>
+                        
+                        <!-- Feed Info -->
+                        <div class="col-md-9">
+                            <h1 class="h2 text-light mb-2">📰 RSS Feed Aggregator</h1>
+                            <p class="text-light-50 mb-1">Curated RSS feeds from my favorite security, development, and tech sources</p>
+                            <div class="d-flex gap-3 text-light-50">
+                                <span><i class="bi bi-rss"></i> Live RSS feeds</span>
+                                <span><i class="bi bi-shield-check"></i> Security insights</span>
+                                <span><i class="bi bi-code-slash"></i> Dev articles</span>
+                                <span><i class="bi bi-lightbulb"></i> Tech news</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Feed Content -->
+                <div class="feed-content container py-4">
+                    <div class="row">
+                        <!-- Sidebar -->
+                        <div class="col-lg-3 mb-4">
+                            <!-- Quick Stats -->
+                            <div class="feed-stats card bg-dark-subtle border-0 mb-4">
+                                <div class="card-body">
+                                    <h5 class="card-title text-light"><i class="bi bi-rss"></i> RSS Sources</h5>
+                                    <div class="stats-grid">
+                                        <div class="stat-item">
+                                            <div class="stat-number">4</div>
+                                            <div class="stat-label">Sources</div>
+                                        </div>
+                                        <div class="stat-item">
+                                            <div class="stat-number">24</div>
+                                            <div class="stat-label">Articles</div>
+                                        </div>
+                                        <div class="stat-item">
+                                            <div class="stat-number">6</div>
+                                            <div class="stat-label">Today</div>
+                                        </div>
+                                        <div class="stat-item">
+                                            <div class="stat-number">Auto</div>
+                                            <div class="stat-label">Refresh</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Recent Tags -->
+                            <div class="feed-tags card bg-dark-subtle border-0">
+                                <div class="card-body">
+                                    <h5 class="card-title text-light"><i class="bi bi-tags"></i> RSS Categories</h5>
+                                    <div class="tag-cloud">
+                                        <span class="tag tag-danger">Security</span>
+                                        <span class="tag tag-info">Development</span>
+                                        <span class="tag tag-warning">Tech News</span>
+                                        <span class="tag tag-primary">Frontend</span>
+                                        <span class="tag tag-success">Ethical Hacking</span>
+                                        <span class="tag tag-secondary">API Security</span>
+                                        <span class="tag tag-light">React</span>
+                                        <span class="tag tag-dark">Performance</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Main Feed -->
+                        <div class="col-lg-8">
+                            <!-- Filter Buttons -->
+                            <div class="d-flex justify-content-between align-items-center mb-4">
+                                <div class="feed-filters btn-group" role="group">
+                                    <button type="button" class="btn btn-outline-secondary active" data-filter="all">
+                                        <i class="bi bi-grid"></i> All RSS
+                                    </button>
+                                    <button type="button" class="btn btn-outline-secondary" data-filter="security">
+                                        <i class="bi bi-shield-check"></i> Security
+                                    </button>
+                                    <button type="button" class="btn btn-outline-secondary" data-filter="development">
+                                        <i class="bi bi-code-slash"></i> Development
+                                    </button>
+                                    <button type="button" class="btn btn-outline-secondary" data-filter="frontend">
+                                        <i class="bi bi-palette"></i> Frontend
+                                    </button>
+                                </div>
+                                <button id="refresh-feeds-btn" class="btn btn-outline-light btn-sm" onclick="refreshRSSFeeds()">
+                                    <i class="bi bi-arrow-clockwise"></i> Refresh Feeds
+                                </button>
+                            </div>
+
+                            <!-- Feed Items -->
+                            <div class="feed-items" id="feed-items">
+                                <!-- Feed Item 1 -->
+                                <article class="feed-item card mb-4" data-type="projects">
+                                    <div class="card-header bg-gradient bg-secondary d-flex justify-content-between align-items-center">
+                                        <div class="d-flex align-items-center">
+                                            <img src="https://github.com/identicons/1nkblade.png" class="avatar me-3" alt="Avatar">
+                                            <div>
+                                                <h6 class="mb-0 text-light">1nkblade</h6>
+                                                <small class="text-light-50">2 hours ago</small>
+                                            </div>
+                                        </div>
+                                        <span class="badge bg-primary"><i class="bi bi-code-slash"></i> Project</span>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title text-light">🚀 New Portfolio Website Launched!</h5>
+                                        <p class="card-text text-light-50">
+                                            Just finished implementing advanced cursor system and enhanced animations. 
+                                            The site now features custom gauntlet cursors and smooth parallax effects!
+                                        </p>
+                                        <div class="project-preview bg-dark rounded p-3 mb-3">
+                                            <div class="d-flex align-items-center mb-2">
+                                                <i class="bi bi-file-code text-success me-2"></i>
+                                                <span class="text-light">portfolio-website</span>
+                                            </div>
+                                            <div class="code-snippet">
+                                                <code class="text-info">cursor: url('../assets/gauntletCursor/cursor_final.png'), auto;</code>
+                                            </div>
+                                        </div>
+                                        <div class="feed-actions">
+                                            <button class="btn btn-sm btn-outline-light me-2">
+                                                <i class="bi bi-hand-thumbs-up"></i> Like (24)
+                                            </button>
+                                            <button class="btn btn-sm btn-outline-light me-2">
+                                                <i class="bi bi-chat-dots"></i> Comment (8)
+                                            </button>
+                                            <button class="btn btn-sm btn-outline-light">
+                                                <i class="bi bi-share"></i> Share
+                                            </button>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <!-- Feed Item 2 -->
+                                <article class="feed-item card mb-4" data-type="posts">
+                                    <div class="card-header bg-gradient bg-info d-flex justify-content-between align-items-center">
+                                        <div class="d-flex align-items-center">
+                                            <img src="https://github.com/identicons/1nkblade.png" class="avatar me-3" alt="Avatar">
+                                            <div>
+                                                <h6 class="mb-0 text-light">1nkblade</h6>
+                                                <small class="text-light-50">5 hours ago</small>
+                                            </div>
+                                        </div>
+                                        <span class="badge bg-info"><i class="bi bi-file-text"></i> Article</span>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title text-light">💡 CSS Custom Properties Deep Dive</h5>
+                                        <p class="card-text text-light-50">
+                                            Exploring advanced CSS custom properties for theming and dynamic styling. 
+                                            Perfect for creating flexible design systems that adapt to user preferences.
+                                        </p>
+                                        <div class="post-excerpt bg-dark rounded p-3 mb-3">
+                                            <blockquote class="blockquote mb-0">
+                                                <p class="mb-2 text-light">
+                                                    <em>"CSS custom properties (CSS variables) provide a powerful way to create 
+                                                    dynamic, maintainable stylesheets that respond to user interactions and 
+                                                    system preferences."</em>
+                                                </p>
+                                                <footer class="blockquote-footer">
+                                                    <cite>CSS Working Group Specification</cite>
+                                                </footer>
+                                            </blockquote>
+                                        </div>
+                                        <div class="feed-actions">
+                                            <button class="btn btn-sm btn-outline-light me-2">
+                                                <i class="bi bi-hand-thumbs-up"></i> Like (18)
+                                            </button>
+                                            <button class="btn btn-sm btn-outline-light me-2">
+                                                <i class="bi bi-bookmark"></i> Save (12)
+                                            </button>
+                                            <button class="btn btn-sm btn-outline-light">
+                                                <i class="bi bi-share"></i> Share
+                                            </button>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <!-- Feed Item 3 -->
+                                <article class="feed-item card mb-4" data-type="updates">
+                                    <div class="card-header bg-gradient bg-warning d-flex justify-content-between align-items-center">
+                                        <div class="d-flex align-items-center">
+                                            <img src="https://github.com/identicons/1nkblade.png" class="avatar me-3" alt="Avatar">
+                                            <div>
+                                                <h6 class="mb-0 text-light">1nkblade</h6>
+                                                <small class="text-light-50">1 day ago</small>
+                                            </div>
+                                        </div>
+                                        <span class="badge bg-warning"><i class="bi bi-bell"></i> Update</span>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title text-light">🔧 Development Environment Update</h5>
+                                        <p class="card-text text-light-50">
+                                            Updated to latest versions of development tools and dependencies. 
+                                            Improved build performance by 40% and enhanced code quality checks.
+                                        </p>
+                                        <div class="update-stats bg-dark rounded p-3 mb-3">
+                                            <div class="row text-center">
+                                                <div class="col-4">
+                                                    <div class="stat-value text-success">+40%</div>
+                                                    <div class="stat-label text-light-50">Performance</div>
+                                                </div>
+                                                <div class="col-4">
+                                                    <div class="stat-value text-info">v2.1.0</div>
+                                                    <div class="stat-label text-light-50">New Version</div>
+                                                </div>
+                                                <div class="col-4">
+                                                    <div class="stat-value text-warning">98%</div>
+                                                    <div class="stat-label text-light-50">Coverage</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="feed-actions">
+                                            <button class="btn btn-sm btn-outline-light me-2">
+                                                <i class="bi bi-hand-thumbs-up"></i> Like (31)
+                                            </button>
+                                            <button class="btn btn-sm btn-outline-light me-2">
+                                                <i class="bi bi-chat-dots"></i> Comment (15)
+                                            </button>
+                                            <button class="btn btn-sm btn-outline-light">
+                                                <i class="bi bi-share"></i> Share
+                                            </button>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <!-- Feed Item 4 -->
+                                <article class="feed-item card mb-4" data-type="projects">
+                                    <div class="card-header bg-gradient bg-success d-flex justify-content-between align-items-center">
+                                        <div class="d-flex align-items-center">
+                                            <img src="https://github.com/identicons/1nkblade.png" class="avatar me-3" alt="Avatar">
+                                            <div>
+                                                <h6 class="mb-0 text-light">1nkblade</h6>
+                                                <small class="text-light-50">3 days ago</small>
+                                            </div>
+                                        </div>
+                                        <span class="badge bg-success"><i class="bi bi-code-slash"></i> Project</span>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title text-light">🎨 Interactive CSS Art Project</h5>
+                                        <p class="card-text text-light-50">
+                                            Created an animated CSS art piece using only HTML and CSS. 
+                                            Features fluid animations, gradient effects, and responsive design.
+                                        </p>
+                                        <div class="art-preview bg-dark rounded p-3 mb-3 text-center">
+                                            <div class="css-art-demo mb-3">
+                                                <div class="animated-shape"></div>
+                                            </div>
+                                            <small class="text-light-50">Pure CSS animation</small>
+                                        </div>
+                                        <div class="feed-actions">
+                                            <button class="btn btn-sm btn-outline-light me-2">
+                                                <i class="bi bi-hand-thumbs-up"></i> Like (67)
+                                            </button>
+                                            <button class="btn btn-sm btn-outline-light me-2">
+                                                <i class="bi bi-github"></i> View Code
+                                            </button>
+                                            <button class="btn btn-sm btn-outline-light">
+                                                <i class="bi bi-share"></i> Share
+                                            </button>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <!-- RSS Feed Loading Message -->
+                                <div class="text-center mt-4" id="loading-message">
+                                    <div class="loading-spinner"></div>
+                                    <p class="text-light-50 mt-2">Loading RSS feeds...</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Right Sidebar Navigation -->
+            <aside class="col-12 col-md-2 d-none d-md-block bg-dark text-light" id="right-content" aria-label="Navigation sidebar">
+                <div class="container rounded-5 bg-dark-subtle h-100 text-dark text-center d-flex flex-column">
+                    <h2 class="fs-4 mt-3 mb-0">Navigation</h2>
+                    <hr>
+                    <nav>
+                        <ul class="list-group list-group-flush text-start">
+                            <li class="list-group-item bg-transparent border-0">
+                                <a href="./index.html" class="text-decoration-none">Home</a>
+                            </li>
+                            <li class="list-group-item bg-transparent border-0">
+                                <a href="./gallery.html" class="text-decoration-none">Gallery</a>
+                            </li>
+                            <li class="list-group-item bg-transparent border-0">
+                                <a href="./feed.html" class="text-decoration-none active-link">Feed</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer-custom mt-5">
+        <div class="container">
+            <div class="row">
+                <!-- Quick Links -->
+                <div class="col-md-4 mb-3">
+                    <h5 class="footer-title">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="./index.html" class="footer-link">Home</a></li>
+                        <li><a href="./gallery.html" class="footer-link">Gallery</a></li>
+                        <li><a href="./feed.html" class="footer-link">Feed</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Social Media -->
+                <div class="col-md-4 mb-3">
+                    <h5 class="footer-title">Connect</h5>
+                    <div class="social-links">
+                        <a href="https://github.com/1nkblade" target="_blank" aria-label="Visit GitHub profile" class="social-link">       
+                            <img src="assets/images/github-64.png" alt="GitHub logo" class="footer-social-icon">
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/alaouiomar01/" target="_blank" aria-label="Visit LinkedIn profile" class="social-link">
+                            <img src="assets/images/Likedin-64.png" alt="LinkedIn logo" class="footer-social-icon">
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://instagram.com" target="_blank" aria-label="Visit Instagram profile" class="social-link">
+                            <img src="assets/images/instagram-64.png" alt="Instagram logo" class="footer-social-icon">
+                            <span>Instagram</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Contact Info -->
+                <div class="col-md-4 mb-3">
+                    <h5 class="footer-title">Contact</h5>
+                    <p class="footer-text">
+                        <i class="bi bi-envelope"></i> mail@1nkblade.com<br>
+                        <i class="bi bi-geo-alt"></i> Available Worldwide<br>
+                        <i class="bi bi-clock"></i> Mon-Fri 9:00-18:00
+                    </p>
+                </div>
+            </div>
+            
+            <!-- Copyright -->
+            <hr class="footer-divider">
+            <div class="text-center">
+                <p class="footer-copyright">&copy; 2024 1nkblade's Portfolio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/time.js"></script>
+    <script src="js/gauntlet-cursor.js"></script>
+    <script src="js/rss-feed-reader.js"></script>
+    <script src="js/feed-script.js"></script>
+    
+    <!-- Theme Toggle Script -->
+    <script>
+        // Theme Toggle Functionality (same as other pages)
+        class ThemeManager {
+            constructor() {
+                this.currentTheme = this.getStoredTheme() || this.getSystemTheme();
+                this.init();
+            }
+
+            init() {
+                this.applyTheme(this.currentTheme);
+                this.setupEventListeners();
+            }
+
+            getStoredTheme() {
+                return localStorage.getItem('theme');
+            }
+
+            getSystemTheme() {
+                return window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+            }
+
+            applyTheme(theme) {
+                document.documentElement.setAttribute('data-theme', theme);
+                this.updateToggleButton(theme);
+                localStorage.setItem('theme', theme);
+                this.currentTheme = theme;
+            }
+
+            updateToggleButton(theme) {
+                const toggle = document.getElementById('theme-toggle');
+                if (toggle) {
+                    toggle.setAttribute('data-theme', theme);
+                }
+            }
+
+            toggleTheme() {
+                const newTheme = this.currentTheme === 'dark' ? 'light' : 'dark';
+                this.applyTheme(newTheme);
+                
+                // Add a subtle animation effect
+                document.body.style.transition = 'all 0.3s ease';
+                setTimeout(() => {
+                    document.body.style.transition = '';
+                }, 300);
+            }
+
+            setupEventListeners() {
+                const toggle = document.getElementById('theme-toggle');
+                if (toggle) {
+                    toggle.addEventListener('click', () => this.toggleTheme());
+                    
+                    // Keyboard accessibility
+                    toggle.addEventListener('keydown', (e) => {
+                        if (e.key === 'Enter' || e.key === ' ') {
+                            e.preventDefault();
+                            this.toggleTheme();
+                        }
+                    });
+                    
+                    // Make it focusable
+                    toggle.setAttribute('tabindex', '0');
+                    toggle.setAttribute('role', 'button');
+                    toggle.setAttribute('aria-label', 'Toggle dark and light mode');
+                }
+
+                // Listen for system theme changes
+                window.matchMedia('(prefers-color-scheme: light)').addEventListener('change', (e) => {
+                    if (!this.getStoredTheme()) {
+                        this.applyTheme(e.matches ? 'light' : 'dark');
+                    }
+                });
+            }
+
+            // Public method to get current theme
+            getCurrentTheme() {
+                return this.currentTheme;
+            }
+        }
+
+        // Initialize theme manager when DOM is loaded
+        document.addEventListener('DOMContentLoaded', () => {
+            window.themeManager = new ThemeManager();
+        });
+    </script>
+</body>
+</html>

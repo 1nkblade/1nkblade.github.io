@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Page Not Found | 1nkblade's Portfolio</title>
+    <meta name="description" content="The page you're looking for doesn't exist. Let's get you back on track!">
+    
+    <!-- External Stylesheets -->
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/rotating-image.css">
+    
+    <!-- 404 Page Specific Meta Tags -->
+    <meta name="robots" content="noindex, nofollow">
+    <meta http-equiv="refresh" content="10; url=./index.html">
+    
+    <!-- External Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <style>
+        /* Custom 404 Animations */
+        .error-404 {
+            animation: float 3s ease-in-out infinite;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+        }
+        
+        .error-broken {
+            animation: shake 2s ease-in-out infinite;
+        }
+        
+        @keyframes shake {
+            0%, 100% { transform: rotate(0deg); }
+            25% { transform: rotate(-5deg); }
+            75% { transform: rotate(5deg); }
+        }
+        
+        .error-code {
+            font-size: clamp(4rem, 15vw, 12rem);
+            font-weight: 900;
+            background: linear-gradient(45deg, var(--danger-color), var(--warning-color), var(--primary-color));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-shadow: 0 0 30px rgba(220, 53, 53, 0.3);
+        }
+        
+        .error-message {
+            animation: fadeInUp 1s ease 0.5s both;
+        }
+        
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .error-suggestions {
+            animation: fadeInUp 1s ease 1s both;
+        }
+        
+        .error-automatic {
+            animation: fadeInUp 1s ease 1.5s both;
+        }
+        
+        .broken-link {
+            opacity: 0.7;
+            filter: grayscale(50%);
+        }
+        
+        .broken-link:hover {
+            opacity: 1;
+            filter: grayscale(0%);
+        }
+        
+        /* Custom Cursor for 404 page */
+        body {
+            cursor: url('../assets/gauntletCursor/cursor_final.png'), auto !important;
+        }
+        
+        a, button {
+            cursor: url('../assets/gauntletCursor/cursor_outline_blue.png'), pointer !important;
+        }
+        
+        .countdown {
+            font-family: 'JetBrains Mono', monospace;
+            font-weight: 600;
+            color: var(--warning-color);
+        }
+        
+        .glitch {
+            position: relative;
+            color: var(--danger-color);
+            animation: glitch 2s infinite;
+        }
+        
+        .glitch::before,
+        .glitch::after {
+            content: attr(data-text);
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .glitch::before {
+            animation: glitch-1 1s infinite;
+            color: #ff0000;
+            z-index: -1;
+        }
+        
+        .glitch::after {
+            animation: glitch-2 1s infinite;
+            color: #00ff00;
+            z-index: -2;
+        }
+        
+        @keyframes glitch {
+            0% { transform: translate(0); }
+            20% { transform: translate(-2px, 2px); }
+            40% { transform: translate(-2px, -2px); }
+            60% { transform: translate(2px, 2px); }
+            80% { transform: translate(2px, -2px); }
+            100% { transform: translate(0); }
+        }
+        
+        @keyframes glitch-1 {
+            0%, 14%, 15%, 49%, 50%, 99%, 100% { transform: translate(0, 0); }
+            15% { transform: translate(-3px, -3px); }
+            16% { transform: translate(3px, -3px); }
+            17% { transform: translate(-3px, 3px); }
+            18% { transform: translate(3px, 3px); }
+        }
+        
+        @keyframes glitch-2 {
+            0%, 20%, 21%, 62%, 63%, 99%, 100% { transform: translate(0, 0); }
+            21% { transform: translate(3px, -3px); }
+            22% { transform: translate(-3px, -3px); }
+            23% { transform: translate(3px, 3px); }
+            24% { transform: translate(-3px, 3px); }
+        }
+    </style>
+</head>
+
+<body class="bg-dark-subtle">
+    <!-- Header Section -->
+    <header class="navbar navbar-expand-lg sticky-top bg-dark">
+        <nav class="container-fluid">
+            <div id="clock" class="container-fluid text-light rounded-4">
+                <div class="row align-items-center">
+                    <!-- Time Display -->
+                    <div class="col-4">
+                        <div id="time" class="fs-6 text-dark-emphasis"></div>
+                        <div id="date" class="fs-5 text-dark"></div>
+                    </div>
+                    
+                    <!-- Spacer for layout balance -->
+                    <div class="col-4 text-center">
+                        <h5 class="mb-0 text-light">🚫 Error 404</h5>
+                    </div>
+                    
+                    <!-- Theme Toggle & Home Button -->
+                    <div class="col-4 text-end d-flex align-items-center justify-content-end">
+                        <!-- Theme Toggle -->
+                        <div class="theme-toggle" id="theme-toggle" title="Toggle Dark/Light Mode">
+                            <div class="theme-toggle-slider"></div>
+                        </div>
+                        
+                        <!-- Home Button -->
+                        <a href="./index.html" class="btn btn-outline-light btn-sm ms-2" aria-label="Go to Home page">
+                            <i class="bi bi-house-door"></i> Home
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="container-fluid" id="main-container">
+        <div class="row justify-content-center">
+            <!-- Error Content -->
+            <section class="col-12 col-md-10 bg-dark" id="main-content">
+                <!-- 404 Error Section -->
+                <div class="error-section container-fluid bg-primary-subtle rounded-3 mb-4 hero-bg-image">
+                    <div class="text-center py-5 position-relative">
+                        <!-- Broken 404 Emoji -->
+                        <div class="error-404 mb-4">
+                            <i class="bi bi-exclamation-triangle text-warning" style="font-size: 8rem;"></i>
+                        </div>
+                        
+                        <!-- Error Code -->
+                        <div class="error-code mb-3">
+                            404
+                        </div>
+                        
+                        <!-- Error Message -->
+                        <div class="error-message">
+                            <h1 class="display-4 text-center text-white mb-3">
+                                <span class="glitch" data-text="Page Not Found">Page Not Found</span>
+                            </h1>
+                            <p class="lead text-center text-white-50 mb-4">
+                                The page you're looking for seems to have broken into digital fragments. 
+                                It might never have existed, or perhaps it's hiding in cyberspace!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Error Suggestions -->
+                <div class="error-suggestions container py-4">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="alert alert-warning shadow-lg rounded-5 text-center" role="alert">
+                                <h4 class="alert-heading">⚠️ What happened?</h4>
+                                <p class="mb-3">
+                                    This could be due to:
+                                </p>
+                                <div class="row text-start">
+                                    <div class="col-md-6">
+                                        <ul class="list-unstyled">
+                                            <li class="mb-2"><i class="bi bi-x-circle text-danger me-2"></i> Moved or deleted page</li>
+                                            <li class="mb-2"><i class="bi bi-link text-warning me-2"></i> Broken or invalid link</li>
+                                            <li class="mb-2"><i class="bi bi-type text-info me-2"></i> Typo in URL</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <ul class="list-unstyled">
+                                            <li class="mb-2"><i class="bi bi-search text-primary me-2"></i> Page doesn't exist yet</li>
+                                            <li class="mb-2"><i class="bi bi-shield-exclamation text-danger me-2"></i> Access restricted</li>
+                                            <li class="mb-2"><i class="bi bi-gear text-secondary me-2"></i> Server maintenance</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Action Buttons -->
+                <div class="action-buttons container pb-4">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-6">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <a href="./index.html" class="btn btn-outline-primary btn-lg w-100">
+                                        <i class="bi bi-house-door me-2"></i>
+                                        Go Home
+                                    </a>
+                                </div>
+                                <div class="col-md-6">
+                                    <a href="./gallery.html" class="btn btn-outline-success btn-lg w-100">
+                                        <i class="bi bi-images me-2"></i>
+                                        View Gallery
+                                    </a>
+                                </div>
+                                <div class="col-md-6">
+                                    <a href="./feed.html" class="btn btn-outline-info btn-lg w-100">
+                                        <i class="bi bi-rss me-2"></i>
+                                        Read Feed
+                                    </a>
+                                </div>
+                                <div class="col-md-6">
+                                    <button onclick="history.back()" class="btn btn-outline-secondary btn-lg w-100">
+                                        <i class="bi bi-arrow-left me-2"></i>
+                                        Go Back
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Auto Redirect Info -->
+                <div class="error-automatic container pb-4">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-6">
+                            <div class="card bg-dark-subtle border-0">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title text-light">
+                                        <i class="bi bi-clock-history me-2"></i>
+                                        Automatic Redirect
+                                    </h5>
+                                    <p class="text-light-50 mb-2">
+                                        You will be automatically redirected to the home page in 
+                                        <span class="countdown" id="countdown">10</span> seconds
+                                    </p>
+                                    <div class="progress mb-3" style="height: 6px;">
+                                        <div class="progress-bar bg-warning" role="progressbar" style="width: 100%" id="progress-bar"></div>
+                                    </div>
+                                    <small class="text-light-50">
+                                        Click "Go Home" to redirect immediately
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Available Pages Info -->
+                <div class="available-pages container pb-4">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="card bg-dark-subtle border-0">
+                                <div class="card-body">
+                                    <h5 class="card-title text-light text-center mb-4">
+                                        <i class="bi bi-list-task me-2"></i>
+                                        Available Pages
+                                    </h5>
+                                    <div class="row">
+                                        <div class="col-md-4 text-center mb-3">
+                                            <a href="./index.html" class="broken-link text-decoration-none">
+                                                <div class="card bg-secondary h-100">
+                                                    <div class="card-body">
+                                                        <i class="bi bi-house-door text-primary" style="font-size: 2rem;"></i>
+                                                        <h6 class="card-title text-light mt-2">Home</h6>
+                                                        <small class="text-light-50">Main portfolio page</small>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-4 text-center mb-3">
+                                            <a href="./gallery.html" class="broken-link text-decoration-none">
+                                                <div class="card bg-secondary h-100">
+                                                    <div class="card-body">
+                                                        <i class="bi bi-images text-success" style="font-size: 2rem;"></i>
+                                                        <h6 class="card-title text-light mt-2">Gallery</h6>
+                                                        <small class="text-light-50">Cat photo collection</small>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-4 text-center mb-3">
+                                            <a href="./feed.html" class="broken-link text-decoration-none">
+                                                <div class="card bg-secondary h-100">
+                                                    <div class="card-body">
+                                                        <i class="bi bi-rss text-info" style="font-size: 2rem;"></i>
+                                                        <h6 class="card-title text-light mt-2">Feed</h6>
+                                                        <small class="text-light-50">RSS feed aggregator</small>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer-custom mt-5">
+        <div class="container">
+            <div class="row">
+                <!-- Quick Links -->
+                <div class="col-md-4 mb-3">
+                    <h5 class="footer-title">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="./index.html" class="footer-link">Home</a></li>
+                        <li><a href="./gallery.html" class="footer-link">Gallery</a></li>
+                        <li><a href="./feed.html" class="footer-link">Feed</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Contact Info -->
+                <div class="col-md-4 mb-3">
+                    <h5 class="footer-title">Contact</h5>
+                    <p class="footer-text">
+                        <i class="bi bi-envelope"></i> mail@1nkblade.com<br>
+                        <i class="bi bi-github"></i> github.com/1nkblade<br>
+                        <i class="bi bi-linkedin"></i> LinkedIn Profile
+                    </p>
+                </div>
+                
+                <!-- Error Report -->
+                <div class="col-md-4 mb-3">
+                    <h5 class="footer-title">Report Issue</h5>
+                    <p class="footer-text">
+                        If you believe this page should exist, 
+                        please contact me with the details of what you were looking for.
+                    </p>
+                </div>
+            </div>
+            
+            <!-- Copyright -->
+            <hr class="footer-divider">
+            <div class="text-center">
+                <p class="footer-copyright">&copy; 2024 1nkblade's Portfolio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/time.js"></script>
+    <script src="js/gauntlet-cursor.js"></script>
+    
+    <!-- 404 Page Script -->
+    <script>
+        // Countdown timer for auto-redirect
+        let countdown = 10;
+        const countdownElement = document.getElementById('countdown');
+        const progressBar = document.getElementById('progress-bar');
+        
+        function updateCountdown() {
+            countdown--;
+            if (countdownElement) {
+                countdownElement.textContent = countdown;
+            }
+            if (progressBar) {
+                const percentage = (countdown / 10) * 100;
+                progressBar.style.width = percentage + '%';
+            }
+            
+            if (countdown <= 0) {
+                window.location.href = './index.html';
+            } else {
+                setTimeout(updateCountdown, 1000);
+            }
+        }
+        
+        // Start countdown when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            updateCountdown();
+            
+            // Add some random glitch effects
+            setInterval(() => {
+                const glitchElements = document.querySelectorAll('.glitch');
+                glitchElements.forEach(element => {
+                    if (Math.random() < 0.1) { // 10% chance
+                        element.style.animation = 'none';
+                        setTimeout(() => {
+                            element.style.animation = '';
+                        }, 100);
+                    }
+                });
+            }, 2000);
+        });
+
+        // Theme Toggle Functionality
+        class ThemeManager {
+            constructor() {
+                this.currentTheme = this.getStoredTheme() || this.getSystemTheme();
+                this.init();
+            }
+
+            init() {
+                this.applyTheme(this.currentTheme);
+                this.setupEventListeners();
+            }
+
+            getStoredTheme() {
+                return localStorage.getItem('theme');
+            }
+
+            getSystemTheme() {
+                return window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+            }
+
+            applyTheme(theme) {
+                document.documentElement.setAttribute('data-theme', theme);
+                this.updateToggleButton(theme);
+                localStorage.setItem('theme', theme);
+                this.currentTheme = theme;
+            }
+
+            updateToggleButton(theme) {
+                const toggle = document.getElementById('theme-toggle');
+                if (toggle) {
+                    toggle.setAttribute('data-theme', theme);
+                }
+            }
+
+            toggleTheme() {
+                const newTheme = this.currentTheme === 'dark' ? 'light' : 'dark';
+                this.applyTheme(newTheme);
+                
+                document.body.style.transition = 'all 0.3s ease';
+                setTimeout(() => {
+                    document.body.style.transition = '';
+                }, 300);
+            }
+
+            setupEventListeners() {
+                const toggle = document.getElementById('theme-toggle');
+                if (toggle) {
+                    toggle.addEventListener('click', () => this.toggleTheme());
+                    
+                    toggle.addEventListener('keydown', (e) => {
+                        if (e.key === 'Enter' || e.key === ' ') {
+                            e.preventDefault();
+                            this.toggleTheme();
+                        }
+                    });
+                    
+                    toggle.setAttribute('tabindex', '0');
+                    toggle.setAttribute('role', 'button');
+                    toggle.setAttribute('aria-label', 'Toggle dark and light mode');
+                }
+
+                window.matchMedia('(prefers-color-scheme: light)').addEventListener('change', (e) => {
+                    if (!this.getStoredTheme()) {
+                        this.applyTheme(e.matches ? 'light' : 'dark');
+                    }
+                });
+            }
+
+            getCurrentTheme() {
+                return this.currentTheme;
+            }
+        }
+
+        // Initialize theme manager
+        document.addEventListener('DOMContentLoaded', () => {
+            window.themeManager = new ThemeManager();
+        });
+    </script>
+</body>
+</html>

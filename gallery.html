@@ -3,59 +3,497 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/rotating-image.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <title>Gallery - 1nkblade's Portfolio</title>
+    <meta name="description" content="Photo gallery showcasing my work and interests">
+    
+    <!-- External Stylesheets -->
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/rotating-image.css">
+    
+    <!-- External Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
+
 <body class="bg-dark-subtle">
-
-
-
-
-    <div class="container-fluid text-center bg-dark-subtle">   
-        <a href="./index.html" class="text-decoration-none" aria-label="Return to home page">← Home Page</a>
-
-        <hr>
-        
-        <div class="container-sm w-50 h-50"> 
-          <div id="carouselExample" class="carousel slide carousel-dark img-fluid">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="assets/images/cat1.jpg" class="d-block w-100" alt="Cat 1">
+    <!-- Header Section -->
+    <header class="navbar navbar-expand-lg sticky-top bg-dark">
+        <nav class="container-fluid">
+            <div id="clock" class="container-fluid text-light rounded-4">
+                <div class="row align-items-center">
+                    <!-- Time Display -->
+                    <div class="col-4">
+                        <div id="time" class="fs-6 text-dark-emphasis"></div>
+                        <div id="date" class="fs-5 text-dark"></div>
+                    </div>
+                    
+                    <!-- Spacer for layout balance -->
+                    <div class="col-4 text-center">
+                        <!-- Removed expand button - sidebar is now fixed -->
+                    </div>
+                    
+                    <!-- Theme Toggle & Home Button -->
+                    <div class="col-4 text-end d-flex align-items-center justify-content-end">
+                        <!-- Theme Toggle -->
+                        <div class="theme-toggle" id="theme-toggle" title="Toggle Dark/Light Mode">
+                            <div class="theme-toggle-slider"></div>
+                        </div>
+                        
+                        <!-- Home Button -->
+                        <a href="./index.html" class="btn btn-outline-light btn-sm ms-2" aria-label="Go to Home page">
+                            <i class="bi bi-house-door"></i> Home
+                        </a>
+                    </div>
+                </div>
             </div>
-            <div class="carousel-item">
-              <img src="assets/images/cat2.jpg" class="d-block w-100" alt="Cat 2">
+        </nav>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="container-fluid" id="main-container">
+        <div class="row">
+            <!-- Main Content -->
+            <section class="col-12 col-md-10 bg-dark" id="main-content">
+                <!-- Gallery Header -->
+                <div class="gallery-header container-fluid bg-primary-subtle rounded-3 mb-4">
+                    <div class="row align-items-center py-3">
+                        <!-- Cat Photo -->
+                        <div class="col-md-3 text-center">
+                            <img src="https://cataas.com/cat?width=120&height=120" class="rounded-circle gallery-hero-cat" alt="Gallery mascot cat">
+                        </div>
+                        
+                        <!-- Title and Description -->
+                        <div class="col-md-9">
+                            <h1 class="h2 text-light mb-1">Cat Gallery</h1>
+                            <p class="text-light-50 mb-0">A collection of adorable cat moments</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Gallery Grid -->
+                <div class="gallery-grid container py-4">
+                    <div class="row g-4">
+                        <!-- Photo 1 -->
+                        <div class="col-md-4">
+                            <div class="gallery-item">
+                                <img src="https://cataas.com/cat?width=400&height=400&random=1" class="img-fluid rounded gallery-img" alt="Adorable cat portrait">
+                                <div class="gallery-overlay">
+                                    <div class="gallery-info">
+                                        <h5>Portrait</h5>
+                                        <p>Stunning cat pose</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Photo 2 -->
+                        <div class="col-md-4">
+                            <div class="gallery-item">
+                                <img src="https://cataas.com/cat?width=400&height=400&random=2" class="img-fluid rounded gallery-img" alt="Sleepy cat">
+                                <div class="gallery-overlay">
+                                    <div class="gallery-info">
+                                        <h5>Sleepy Time</h5>
+                                        <p>Peaceful nap moment</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Photo 3 -->
+                        <div class="col-md-4">
+                            <div class="gallery-item">
+                                <img src="https://cataas.com/cat?width=400&height=400&random=3" class="img-fluid rounded gallery-img" alt="Playful cat">
+                                <div class="gallery-overlay">
+                                    <div class="gallery-info">
+                                        <h5>Playful</h5>
+                                        <p>Fun and energetic</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Row 2 -->
+                        <div class="col-md-4">
+                            <div class="gallery-item">
+                                <img src="https://cataas.com/cat?width=400&height=400&random=4" class="img-fluid rounded gallery-img" alt="Curious cat">
+                                <div class="gallery-overlay">
+                                    <div class="gallery-info">
+                                        <h5>Curious</h5>
+                                        <p>Investigating everything</p>
+                                    </div>
+                                </div>
+                            </div>
             </div>
-            <div class="carousel-item">
-              <img src="assets/images/cat3.jpg" class="d-block w-100" alt="Cat 3">
+                        
+                        <div class="col-md-4">
+                            <div class="gallery-item">
+                                <img src="https://cataas.com/cat?width=400&height=400&random=5" class="img-fluid rounded gallery-img" alt="Elegant cat">
+                                <div class="gallery-overlay">
+                                    <div class="gallery-info">
+                                        <h5>Elegant</h5>
+                                        <p>Graceful and regal</p>
+            </div>
             </div>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
         </div>
 
-      
+                        <div class="col-md-4">
+                            <div class="gallery-item">
+                                <img src="https://cataas.com/cat?width=400&height=400&random=6" class="img-fluid rounded gallery-img" alt="Happy cat">
+                                <div class="gallery-overlay">
+                                    <div class="gallery-info">
+                                        <h5>Happy</h5>
+                                        <p>Pure joy and delight</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Row 3 -->
+                        <div class="col-md-4">
+                            <div class="gallery-item">
+                                <img src="https://cataas.com/cat?width=400&height=400&random=7" class="img-fluid rounded gallery-img" alt="Mysterious cat">
+                                <div class="gallery-overlay">
+                                    <div class="gallery-info">
+                                        <h5>Mysterious</h5>
+                                        <p>Deep thoughts</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-4">
+                            <div class="gallery-item">
+                                <img src="https://cataas.com/cat?width=400&height=400&random=8" class="img-fluid rounded gallery-img" alt="Cozy cat">
+                                <div class="gallery-overlay">
+                                    <div class="gallery-info">
+                                        <h5>Cozy</h5>
+                                        <p>Comfortable and warm</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-4">
+                            <div class="gallery-item">
+                                <img src="https://cataas.com/cat?width=400&height=400&random=9" class="img-fluid rounded gallery-img" alt="Adventurous cat">
+                                <div class="gallery-overlay">
+                                    <div class="gallery-info">
+                                        <h5>Adventurous</h5>
+                                        <p>Ready to explore</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Row 4 -->
+                        <div class="col-md-4">
+                            <div class="gallery-item">
+                                <img src="https://cataas.com/cat?width=400&height=400&random=10" class="img-fluid rounded gallery-img" alt="Cuddly cat">
+                                <div class="gallery-overlay">
+                                    <div class="gallery-info">
+                                        <h5>Cuddly</h5>
+                                        <p>Soft and lovable</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-4">
+                            <div class="gallery-item">
+                                <img src="https://cataas.com/cat?width=400&height=400&random=11" class="img-fluid rounded gallery-img" alt="Wise cat">
+                                <div class="gallery-overlay">
+                                    <div class="gallery-info">
+                                        <h5>Wise</h5>
+                                        <p>Ancient wisdom</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-4">
+                            <div class="gallery-item">
+                                <img src="https://cataas.com/cat?width=400&height=400&random=12" class="img-fluid rounded gallery-img" alt="Magical cat">
+                                <div class="gallery-overlay">
+                                    <div class="gallery-info">
+                                        <h5>Magical</h5>
+                                        <p>Enchanted creature</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Additional Cats Grids Container -->
+                <div id="additional-cats-container">
+                    <!-- Additional grids will be inserted here -->
+                </div>
+                
+                <!-- More Cats Button -->
+                <div class="text-center mt-4">
+                    <button id="more-cats-btn" class="btn btn-outline-light btn-lg">
+                        <i class="bi bi-plus-circle me-2"></i>More Cats!
+                    </button>
+                </div>
+            </section>
+            
+            <!-- Right Sidebar Navigation -->
+            <aside class="col-12 col-md-2 d-none d-md-block bg-dark text-light" id="right-content" aria-label="Navigation sidebar">
+                <div class="container rounded-5 bg-dark-subtle h-100 text-dark text-center d-flex flex-column">
+                    <h2 class="fs-4 mt-3 mb-0">Navigation</h2>
+                    <hr>
+                    <nav>
+                        <ul class="list-group list-group-flush text-start">
+                            <li class="list-group-item bg-transparent border-0">
+                                <a href="./index.html" class="text-decoration-none">Home</a>
+                            </li>
+                            <li class="list-group-item bg-transparent border-0">
+                                <a href="./gallery.html" class="text-decoration-none active-link">Gallery</a>
+                            </li>
+                            <li class="list-group-item bg-transparent border-0">
+                                <a href="./feed.html" class="text-decoration-none">Feed</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </aside>
+        </div>
+    </main>
 
-          <hr>
-
-
-
-
-
-        
+    <!-- Footer -->
+    <footer class="footer-custom mt-5">
+        <div class="container">
+            <div class="row">
+                <!-- Quick Links -->
+                <div class="col-md-4 mb-3">
+                    <h5 class="footer-title">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="./index.html" class="footer-link">Home</a></li>
+                        <li><a href="./gallery.html" class="footer-link">Gallery</a></li>
+                        <li><a href="./feed.html" class="footer-link">Feed</a></li>
+                    </ul>
     </div>
 
+                <!-- Social Media -->
+                <div class="col-md-4 mb-3">
+                    <h5 class="footer-title">Connect</h5>
+                    <div class="social-links">
+                        <a href="https://github.com/1nkblade" target="_blank" aria-label="Visit GitHub profile" class="social-link">       
+                            <img src="assets/images/github-64.png" alt="GitHub logo" class="footer-social-icon">
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/alaouiomar01/" target="_blank" aria-label="Visit LinkedIn profile" class="social-link">
+                            <img src="assets/images/Likedin-64.png" alt="LinkedIn logo" class="footer-social-icon">
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://instagram.com" target="_blank" aria-label="Visit Instagram profile" class="social-link">
+                            <img src="assets/images/instagram-64.png" alt="Instagram logo" class="footer-social-icon">
+                            <span>Instagram</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Contact Info -->
+                <div class="col-md-4 mb-3">
+                    <h5 class="footer-title">Contact</h5>
+                    <p class="footer-text">
+                        <i class="bi bi-envelope"></i> mail@1nkblade.com<br>
+                        <i class="bi bi-geo-alt"></i> Available Worldwide<br>
+                        <i class="bi bi-clock"></i> Mon-Fri 9:00-18:00
+                    </p>
+                </div>
+            </div>
+            
+            <!-- Copyright -->
+            <hr class="footer-divider">
+            <div class="text-center">
+                <p class="footer-copyright">&copy; 2024 1nkblade's Portfolio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/time.js"></script>
+    <script src="js/gauntlet-cursor.js"></script>
     
+    <script>
+        // Infinite More Cats functionality
+        let gridCounter = 0;
+        
+        document.getElementById('more-cats-btn').addEventListener('click', function() {
+            const container = document.getElementById('additional-cats-container');
+            
+            // Button feedback
+            const originalText = this.innerHTML;
+            this.innerHTML = '<i class="bi bi-arrow-clockwise me-2"></i>Loading...';
+            this.disabled = true;
+            
+            // Add loading cursor effect
+            if (window.gauntletCursorSystem) {
+                window.gauntletCursorSystem.addLoadingState(this);
+            }
+            
+            // Create new grid
+            const gridId = `cats-grid-${++gridCounter}`;
+            const newGrid = document.createElement('div');
+            newGrid.className = 'gallery-grid container py-4';
+            newGrid.id = gridId;
+            newGrid.style.opacity = '0';
+            newGrid.style.transform = 'translateY(30px)';
+            
+            const row = document.createElement('div');
+            row.className = 'row g-4';
+            
+            // Cat name templates for variety
+            const catNameTemplates = [
+                'Whiskers', 'Fluffy', 'Shadow', 'Sunny', 'Midnight', 'Snowball', 'Ginger', 'Luna', 
+                'Tiger', 'Princess', 'Smokey', 'Patches', 'Cuddles', 'Ninja', 'Mittens', 'Boots',
+                'Felix', 'Garfield', 'Simba', 'Nala', 'Salem', 'Binx', 'Cheshire', 'Mittens Jr',
+                'Shadow Jr', 'Snowball Jr', 'Fluffy Jr', 'Whiskers Jr', 'Tiger Jr', 'Luna Jr'
+            ];
+            
+            const catDescTemplates = [
+                'Elegant mustache', 'Soft and cuddly', 'Mysterious presence', 'Bright personality',
+                'Dark beauty', 'Pure white fur', 'Orange delight', 'Moonlit grace', 'Striped hunter',
+                'Royal attitude', 'Gray elegance', 'Colorful patterns', 'Love seeker', 'Stealth master',
+                'Warm paws', 'Adventure ready', 'Classic charm', 'Lazy luxury', 'Majestic roar',
+                'Graceful dance', 'Witchy vibes', 'Magical mischief', 'Grinning mystery', 'Tiny paws',
+                'Dark explorer', 'Snowy adventurer', 'Soft explorer', 'Young whiskers', 'Little hunter', 'Moonlight grace'
+            ];
+            
+            // Create 15 cat cards (3x5 grid)
+            for (let i = 0; i < 15; i++) {
+                const randomNum = Math.floor(Math.random() * 100000) + 1000;
+                const nameIndex = (gridCounter * 15 + i) % catNameTemplates.length;
+                const descIndex = (gridCounter * 15 + i) % catDescTemplates.length;
+                
+                const colDiv = document.createElement('div');
+                colDiv.className = 'col-md-4';
+                
+                colDiv.innerHTML = `
+                    <div class="gallery-item" style="--item-index: ${i}">
+                        <img src="https://cataas.com/cat?width=400&height=400&random=${randomNum}" 
+                             class="img-fluid rounded gallery-img" 
+                             alt="${catNameTemplates[nameIndex]} cat">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h5>${catNameTemplates[nameIndex]} ${gridCounter > 1 ? `#${gridCounter}` : ''}</h5>
+                                <p>${catDescTemplates[descIndex]}</p>
+                            </div>
+                        </div>
+                    </div>
+                `;
+                
+                row.appendChild(colDiv);
+            }
+            
+            newGrid.appendChild(row);
+            container.appendChild(newGrid);
+            
+            // Animate in
+            setTimeout(() => {
+                newGrid.style.transition = 'all 0.6s ease';
+                newGrid.style.opacity = '1';
+                newGrid.style.transform = 'translateY(0)';
+            }, 100);
+            
+            // Reset button
+            setTimeout(() => {
+                this.innerHTML = originalText;
+                this.disabled = false;
+                
+                // Remove loading cursor effect
+                if (window.gauntletCursorSystem) {
+                    window.gauntletCursorSystem.removeLoadingState(this);
+                }
+            }, 800);
+        });
+
+        // Theme Toggle Functionality
+        class ThemeManager {
+            constructor() {
+                this.currentTheme = this.getStoredTheme() || this.getSystemTheme();
+                this.init();
+            }
+
+            init() {
+                this.applyTheme(this.currentTheme);
+                this.setupEventListeners();
+            }
+
+            getStoredTheme() {
+                return localStorage.getItem('theme');
+            }
+
+            getSystemTheme() {
+                return window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+            }
+
+            applyTheme(theme) {
+                document.documentElement.setAttribute('data-theme', theme);
+                this.updateToggleButton(theme);
+                localStorage.setItem('theme', theme);
+                this.currentTheme = theme;
+            }
+
+            updateToggleButton(theme) {
+                const toggle = document.getElementById('theme-toggle');
+                if (toggle) {
+                    toggle.setAttribute('data-theme', theme);
+                }
+            }
 
 
+            toggleTheme() {
+                const newTheme = this.currentTheme === 'dark' ? 'light' : 'dark';
+                this.applyTheme(newTheme);
+                
+                // Add a subtle animation effect
+                document.body.style.transition = 'all 0.3s ease';
+                setTimeout(() => {
+                    document.body.style.transition = '';
+                }, 300);
+            }
+
+            setupEventListeners() {
+                const toggle = document.getElementById('theme-toggle');
+                if (toggle) {
+                    toggle.addEventListener('click', () => this.toggleTheme());
+                    
+                    // Keyboard accessibility
+                    toggle.addEventListener('keydown', (e) => {
+                        if (e.key === 'Enter' || e.key === ' ') {
+                            e.preventDefault();
+                            this.toggleTheme();
+                        }
+                    });
+                    
+                    // Make it focusable
+                    toggle.setAttribute('tabindex', '0');
+                    toggle.setAttribute('role', 'button');
+                    toggle.setAttribute('aria-label', 'Toggle dark and light mode');
+                }
+
+                // Listen for system theme changes
+                window.matchMedia('(prefers-color-scheme: light)').addEventListener('change', (e) => {
+                    if (!this.getStoredTheme()) {
+                        this.applyTheme(e.matches ? 'light' : 'dark');
+                    }
+                });
+            }
+
+            // Public method to get current theme
+            getCurrentTheme() {
+                return this.currentTheme;
+            }
+        }
+
+        // Initialize theme manager when DOM is loaded
+        document.addEventListener('DOMContentLoaded', () => {
+            window.themeManager = new ThemeManager();
+        });
+    </script>
 </body>
 </html>
