@@ -28,26 +28,34 @@ A modern, responsive portfolio website showcasing my work and projects.
 
 ```
 ink-github/
-├── index.html          # Main portfolio page
-├── test.html           # Gallery/test page
-├── rotating-image.css  # Custom styles and animations
-├── time.js            # Real-time clock functionality
-├── audio-click.js     # Sound effects for interactions
-├── images/            # Image assets
-│   ├── bg.jpg         # Background image
-│   ├── cat1-3.jpg     # Gallery images
-│   └── social-icons/  # Social media icons
-└── audio/             # Audio files
-    └── Erm.mp3        # Click sound effect
+├── assets/
+│   ├── audio/
+│   │   └── Erm.mp3              # Audio effects
+│   └── images/
+│       ├── bg.jpg               # Background image
+│       ├── cat1.jpg             # Gallery images
+│       ├── cat2.jpg
+│       ├── cat3.jpg
+│       ├── github-64.png        # Social media icons
+│       ├── instagram-64.png
+│       └── Likedin-64.png
+├── css/
+│   └── rotating-image.css       # Custom styles and animations
+├── js/
+│   ├── audio-click.js           # Sound effects for interactions
+│   └── time.js                  # Real-time clock functionality
+├── index.html                   # Main portfolio page
+├── gallery.html                 # Image gallery page
+└── README.md                    # Project documentation
 ```
 
 ## 🎨 Customization
 
 The portfolio is easily customizable:
 
-- **Colors**: Modify CSS variables in `rotating-image.css`
+- **Colors**: Modify CSS variables in `css/rotating-image.css`
 - **Content**: Update text and links in HTML files
-- **Images**: Replace images in the `images/` folder
+- **Images**: Replace images in the `assets/images/` folder
 - **Layout**: Adjust Bootstrap classes for different layouts
 
 ## 📱 Responsive Breakpoints

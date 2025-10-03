@@ -15,7 +15,6 @@ class AudioManager {
     init() {
         try {
             this.setupAudioElements();
-            this.setupSidebarToggle();
             console.log('Audio manager initialized successfully');
         } catch (error) {
             console.error('Failed to initialize audio manager:', error);
@@ -57,63 +56,6 @@ class AudioManager {
         }
     }
     
-    setupSidebarToggle() {
-        const toggleButton = document.getElementById('toggleSidebar');
-        const sidebar = document.getElementById('right-content');
-        
-        if (!toggleButton || !sidebar) {
-            console.warn('Sidebar elements not found');
-            return;
-        }
-        
-        const expandText = toggleButton.querySelector('.expand-text');
-        const collapseText = toggleButton.querySelector('.collapse-text');
-        
-        toggleButton.addEventListener('click', (e) => {
-            e.preventDefault();
-            this.toggleSidebar(sidebar, expandText, collapseText);
-        });
-        
-        // Add keyboard support
-        toggleButton.addEventListener('keydown', (e) => {
-            if (e.key === 'Enter' || e.key === ' ') {
-                e.preventDefault();
-                this.toggleSidebar(sidebar, expandText, collapseText);
-            }
-        });
-    }
-    
-    toggleSidebar(sidebar, expandText, collapseText) {
-        try {
-            const isExpanded = sidebar.classList.contains('expanded');
-            
-            if (isExpanded) {
-                // Collapse sidebar
-                sidebar.classList.remove('expanded');
-                sidebar.classList.add('col-3');
-                expandText.classList.remove('d-none');
-                collapseText.classList.add('d-none');
-                
-                // Update ARIA attributes
-                sidebar.setAttribute('aria-expanded', 'false');
-            } else {
-                // Expand sidebar
-                sidebar.classList.add('expanded');
-                sidebar.classList.remove('col-3');
-                expandText.classList.add('d-none');
-                collapseText.classList.remove('d-none');
-                
-                // Update ARIA attributes
-                sidebar.setAttribute('aria-expanded', 'true');
-            }
-            
-            // Play toggle sound if available
-            this.playSound('./audio/Erm.mp3');
-            
-        } catch (error) {
-            console.error('Error toggling sidebar:', error);
-        }
-    }
     
     playSound(audioFile) {
         if (!this.isAudioEnabled || !audioFile) {

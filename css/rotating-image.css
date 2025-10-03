@@ -1,0 +1,470 @@
+/* ========================================
+   1nkblade's Portfolio - Custom Styles
+   ======================================== */
+
+/* CSS Variables for Solarized Dark theme */
+:root {
+    /* Solarized Dark Color Palette */
+    --base03: #002b36;        /* Background darkest */
+    --base02: #073642;        /* Background dark */
+    --base01: #586e75;        /* Content muted */
+    --base00: #657b83;        /* Content default */
+    --base0: #839496;         /* Content light */
+    --base1: #93a1a1;         /* Content lightest */
+    --base2: #eee8d5;         /* Background lightest */
+    --base3: #fdf6e3;         /* Background light */
+    
+    /* Solarized Accent Colors */
+    --yellow: #b58900;
+    --orange: #cb4b16;
+    --red: #dc322f;
+    --magenta: #d33682;
+    --violet: #6c71c4;
+    --blue: #268bd2;
+    --cyan: #2aa198;
+    --green: #859900;
+    
+    /* Theme Variables - Enhanced for better contrast */
+    --primary-color: var(--cyan);
+    --secondary-color: var(--base01);
+    --success-color: var(--green);
+    --danger-color: var(--red);
+    --warning-color: var(--yellow);
+    --info-color: var(--blue);
+    --light-color: var(--base2);
+    --dark-color: var(--base03);
+    --text-color: var(--base1);
+    --text-muted: var(--base00);
+    --text-light: var(--base1);
+    --text-bright: var(--base2);
+    --bg-primary: var(--base03);
+    --bg-secondary: var(--base02);
+    --bg-accent: var(--base01);
+    --bg-elevated: var(--base02);
+    
+    /* UI Variables */
+    --border-radius: 0.375rem;
+    --transition-speed: 0.3s;
+    --shadow-color: rgba(0, 43, 54, 0.3);
+}
+
+/* ========================================
+   Solarized Dark Theme Base Styles
+   ======================================== */
+body {
+    background-color: var(--bg-primary) !important;
+    color: var(--text-color) !important;
+    font-family: 'JetBrains Mono', 'Fira Code', 'Consolas', 'Monaco', 'Courier New', monospace !important;
+    font-weight: 400;
+    line-height: 1.6;
+    letter-spacing: 0.025em;
+}
+
+.bg-dark {
+    background-color: var(--bg-primary) !important;
+}
+
+.bg-dark-subtle {
+    background-color: var(--bg-secondary) !important;
+}
+
+.bg-primary-subtle {
+    background-color: var(--bg-secondary) !important;
+    color: var(--text-light) !important;
+}
+
+.text-light {
+    color: var(--text-color) !important;
+}
+
+.text-dark {
+    color: var(--text-light) !important;
+}
+
+.text-dark-emphasis {
+    color: var(--text-color) !important;
+}
+
+/* ========================================
+   Rotating Image Animation
+   ======================================== */
+.circle-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 25%;
+    border: 2px solid #fff;
+    animation: rotate 10s linear infinite;
+    transition: transform var(--transition-speed) ease;
+}
+
+.circle-image:hover {
+    animation-play-state: paused;
+    transform: scale(1.05);
+}
+
+/* Rotation Animation */
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* ========================================
+   Background and Layout
+   ======================================== */
+.background-image {
+    background: url('../assets/images/bg.jpg') no-repeat center center/cover;
+    z-index: -1;
+    position: relative;
+}
+
+.background-image::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+/* ========================================
+   Layout - Main Content and Navigation
+   ======================================== */
+#main-content {
+    padding: 2rem 1rem;
+    min-height: calc(100vh - 200px);
+}
+
+#right-content {
+    transition: all var(--transition-speed) ease;
+    padding: 2rem 1rem;
+}
+
+/* Removed left sidebar - main content now uses 9 columns */
+
+/* ========================================
+   Clock and Header Styles
+   ======================================== */
+#clock {
+    background: linear-gradient(135deg, var(--base02) 0%, var(--base01) 100%);
+    border: 1px solid var(--base01);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 8px var(--shadow-color);
+}
+
+#time, #date {
+    text-shadow: 0 1px 2px var(--shadow-color);
+    color: var(--text-light) !important;
+}
+
+#time {
+    color: var(--cyan) !important;
+    font-weight: 600;
+}
+
+#date {
+    color: var(--text-color) !important;
+}
+
+/* ========================================
+   Social Media Icons
+   ======================================== */
+.social-icon {
+    transition: all var(--transition-speed) ease;
+    filter: drop-shadow(0 2px 4px var(--shadow-color));
+    opacity: 0.8;
+}
+
+.social-icon:hover {
+    transform: translateY(-2px) scale(1.1);
+    filter: drop-shadow(0 4px 8px var(--shadow-color));
+    opacity: 1;
+}
+
+/* ========================================
+   Content Cards and Alerts
+   ======================================== */
+.alert {
+    border: 1px solid var(--base01) !important;
+    background-color: var(--bg-secondary) !important;
+    color: var(--text-color) !important;
+    box-shadow: 0 4px 6px var(--shadow-color);
+    transition: all var(--transition-speed) ease;
+}
+
+.alert:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px var(--shadow-color);
+}
+
+.alert-warning {
+    background-color: var(--bg-secondary) !important;
+    border-color: var(--yellow) !important;
+    color: var(--text-light) !important;
+}
+
+.alert-heading {
+    color: var(--yellow) !important;
+}
+
+.bg-light {
+    background-color: var(--bg-secondary) !important;
+    color: var(--text-color) !important;
+}
+
+.badge {
+    background-color: var(--base01) !important;
+    color: var(--text-light) !important;
+}
+
+/* ========================================
+   Carousel Enhancements
+   ======================================== */
+.carousel-item img {
+    transition: transform var(--transition-speed) ease;
+}
+
+.carousel-item:hover img {
+    transform: scale(1.02);
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background: var(--base02);
+    border: 1px solid var(--base01);
+    border-radius: var(--border-radius);
+    transition: all var(--transition-speed) ease;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    background: var(--base01);
+    border-color: var(--text-color);
+}
+
+/* ========================================
+   Responsive Design
+   ======================================== */
+@media (max-width: 768px) {
+    .circle-image {
+        width: 120px;
+        height: 120px;
+    }
+    
+    #main-content {
+        padding: 1rem 0.5rem;
+    }
+    
+    #right-content {
+        width: 100% !important;
+        max-width: 100% !important;
+        padding: 1rem 0.5rem;
+    }
+    
+    .display-4 {
+        font-size: 2rem;
+    }
+    
+    .container-sm {
+        width: 90% !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .circle-image {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .display-4 {
+        font-size: 1.75rem;
+    }
+    
+    #clock {
+        padding: 0.5rem;
+    }
+}
+
+/* ========================================
+   Accessibility Improvements
+   ======================================== */
+@media (prefers-reduced-motion: reduce) {
+    .circle-image,
+    .social-icon,
+    .alert,
+    .carousel-item img,
+    .carousel-control-prev,
+    .carousel-control-next {
+        animation: none;
+        transition: none;
+    }
+    
+    .circle-image:hover,
+    .social-icon:hover,
+    .alert:hover,
+    .carousel-item:hover img {
+        transform: none;
+    }
+}
+
+/* Focus styles for keyboard navigation */
+.social-icon:focus,
+.carousel-control-prev:focus,
+.carousel-control-next:focus {
+    outline: 2px solid var(--cyan);
+    outline-offset: 2px;
+}
+
+/* Link and Navigation Styles */
+a {
+    color: var(--cyan) !important;
+    text-decoration: none;
+    transition: all var(--transition-speed) ease;
+    font-weight: 500;
+    position: relative;
+}
+
+a:hover {
+    color: var(--blue) !important;
+    text-decoration: none;
+}
+
+a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: var(--blue);
+    transition: width var(--transition-speed) ease;
+}
+
+a:hover::after {
+    width: 100%;
+}
+
+.list-group-item {
+    background-color: transparent !important;
+    border-color: var(--base01) !important;
+    font-family: 'JetBrains Mono', monospace !important;
+    font-weight: 400;
+    transition: all var(--transition-speed) ease;
+}
+
+.list-group-item:hover {
+    background-color: var(--bg-secondary) !important;
+    border-color: var(--cyan) !important;
+    transform: translateX(4px);
+}
+
+.list-group-item a {
+    font-weight: 500;
+    letter-spacing: 0.025em;
+}
+
+/* Button Styles - Removed as no buttons are used */
+
+/* Typography Enhancements for JetBrains Mono */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'JetBrains Mono', monospace !important;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    color: var(--text-bright) !important;
+}
+
+.display-4 {
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    color: var(--cyan) !important;
+    text-shadow: 0 2px 4px var(--shadow-color);
+}
+
+/* Additional Solarized Dark Theme Enhancements */
+.hero-section {
+    background-color: var(--bg-secondary) !important;
+    border: 1px solid var(--base01);
+    box-shadow: 0 4px 12px var(--shadow-color);
+}
+
+.container.rounded-5 {
+    background-color: var(--bg-elevated) !important;
+    border: 1px solid var(--base01);
+    box-shadow: 0 2px 8px var(--shadow-color);
+}
+
+hr {
+    border-color: var(--base01) !important;
+    opacity: 0.6;
+}
+
+blockquote {
+    color: var(--text-color) !important;
+}
+
+.blockquote-footer {
+    color: var(--text-muted) !important;
+}
+
+code {
+    background-color: var(--base02) !important;
+    color: var(--green) !important;
+    border: 1px solid var(--base01);
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.25rem;
+    font-family: 'JetBrains Mono', monospace !important;
+    font-weight: 500;
+    font-size: 0.9em;
+    letter-spacing: 0.025em;
+}
+
+/* Special text elements */
+.text-muted {
+    color: var(--text-muted) !important;
+}
+
+.text-primary {
+    color: var(--cyan) !important;
+}
+
+.text-success {
+    color: var(--green) !important;
+}
+
+.text-warning {
+    color: var(--yellow) !important;
+}
+
+.text-danger {
+    color: var(--red) !important;
+}
+
+/* Video iframe border */
+iframe {
+    border: 1px solid var(--base01) !important;
+}
+
+/* ========================================
+   Print Styles
+   ======================================== */
+@media print {
+    .navbar,
+    .carousel-control-prev,
+    .carousel-control-next {
+        display: none !important;
+    }
+    
+    .circle-image {
+        animation: none;
+    }
+    
+    body {
+        background: white !important;
+        color: black !important;
+    }
+}
