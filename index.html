@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,18 +21,18 @@
                         <div id="date" class="fs-5 text-dark"></div>
                         </div>
 
-                        <button class="btn btn-primary position-absolute top-0 end-0 mt-2 me-2 z-3" id="toggleSidebar">
+                        <button class="btn btn-primary position-absolute top-0 end-0 mt-2 me-2 z-3" id="toggleSidebar" aria-label="Toggle sidebar navigation" aria-expanded="false">
                             <span class="expand-text">Expand</span>
                             <span class="collapse-text d-none">Collapse</span>
                         </button>
 
                         <div class="col align-items-end text-end form-control-sm">
-                            <a href="https://github.com/1nkblade" target="_blank">
-                            <img src="./images/github-64.png" alt="github-logo" class="m-2"></a>
-                            <a href="https://www.linkedin.com/in/alaouiomar01/" target="_blank">
-                            <img src="./images/Likedin-64.png" alt="linkedin-logo" class="m-2"></a>
-                            <a href="" target="_blank">
-                            <img src="./images/instagram-64.png" alt="instagram-logo" class="m-2"></a>
+                            <a href="https://github.com/1nkblade" target="_blank" aria-label="Visit GitHub profile">
+                            <img src="./images/github-64.png" alt="GitHub logo" class="m-2 social-icon"></a>
+                            <a href="https://www.linkedin.com/in/alaouiomar01/" target="_blank" aria-label="Visit LinkedIn profile">
+                            <img src="./images/Likedin-64.png" alt="LinkedIn logo" class="m-2 social-icon"></a>
+                            <a href="https://instagram.com" target="_blank" aria-label="Visit Instagram profile">
+                            <img src="./images/instagram-64.png" alt="Instagram logo" class="m-2 social-icon"></a>
                         </div>
         
                     </div>
@@ -61,8 +61,11 @@
                             <img 
                                 src="https://i.pinimg.com/736x/cd/df/01/cddf0179a206fd051473d27b674c4b43.jpg" 
                                 class="circle-image img-fluid shadow-lg rounded-circle sound-img mt-3" 
-                                alt="merry christnyas!" 
-                                data-sound="./audio/Erm.mp3">
+                                alt="Merry Christmas! Click to play sound" 
+                                data-sound="./audio/Erm.mp3"
+                                role="button"
+                                tabindex="0"
+                                aria-label="Rotating Christmas image - click to play sound">
                                                    
                         </div>
                         
@@ -79,7 +82,6 @@
                             <iframe 
                             class="rounded-5"
                                 src="https://www.youtube.com/embed/KvasuuAoBAY?autoplay=1&loop=1&playlist=KvasuuAoBAY&mute=1&controls=0&showinfo=0" 
-                                frameborder="0" 
                                 allow="autoplay; fullscreen"
                                 style="border: 1px solid white;">
                             </iframe>
@@ -105,13 +107,13 @@
 
 
 
-                <div class="container col-3 d-none d-md-block bg-dark text-light" id="right-content">
+                <div class="container col-3 d-none d-md-block bg-dark text-light" id="right-content" aria-label="Navigation sidebar">
                     <div class="container rounded-5 bg-dark-subtle h-100 text-dark text-center">
                         <p class="fs-1 badge shadow mt-3">Menu</p>
                         <hr>
                         <ul class="list-group list-group-flush text-start">
-                            <a href="./index.html">Home</a>
-                            <a href="./test.html">Test</a>
+                            <li class="list-group-item bg-transparent border-0"><a href="./index.html" class="text-decoration-none">Home</a></li>
+                            <li class="list-group-item bg-transparent border-0"><a href="./test.html" class="text-decoration-none">Test</a></li>
                           </ul>
                     </div>
                 </div>
