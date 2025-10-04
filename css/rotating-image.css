@@ -239,30 +239,22 @@ body {
     z-index: 1;
 }
 
-/* Hero Section Background */
-.hero-bg-image {
-    background: url('../assets/images/bg.jpg') no-repeat center center;
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
-    min-height: 400px;
+/* Hero Section - Ultra Compact */
+.hero-section {
+    background: var(--bg-secondary);
+    min-height: 180px;
+    border: 1px solid var(--border-color);
 }
 
-.hero-bg-image::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 43, 54, 0.7); /* Solarized Dark overlay */
-    border-radius: 0.375rem;
-    z-index: 1;
+.hero-section .row {
+    height: 100%;
+    min-height: 180px;
 }
 
-.hero-bg-image > * {
-    position: relative;
-    z-index: 2;
+/* Hero Section Typography */
+.hero-section h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
 }
 
 /* ========================================
@@ -737,10 +729,9 @@ footer .social-icon:hover {
     transition: background var(--transition-speed) ease;
 }
 
-[data-theme="light"] .hero-bg-image::before {
-    background: linear-gradient(135deg, 
-        rgba(253, 246, 227, 0.8) 0%, 
-        rgba(238, 232, 213, 0.6) 100%);
+/* Hero Section Light Theme */
+[data-theme="light"] .hero-section {
+    background: var(--bg-secondary);
 }
 
 /* Gallery header theme awareness */
@@ -901,9 +892,6 @@ button:hover, .btn:hover {
 /* Gauntlet sweep effects removed */
 
 /* Cursor glow and click effects removed - keeping only hover cursors */
-a:hover, button:hover, .btn:hover, .theme-toggle:hover, .gallery-item:hover {
-    /* Simple hover effect without glow */
-}
 
 /* Cursor glow effects removed */
 
@@ -1253,10 +1241,6 @@ iframe {
     letter-spacing: 0.05em;
 }
 
-.stat-item:hover {
-    transform: translateY(-2px);
-    border-color: var(--primary-color);
-}
 
 /* Tag Cloud */
 .tag-cloud {
@@ -1933,4 +1917,563 @@ a[target="_blank"]:hover:after {
         background: white !important;
         color: black !important;
     }
+}
+
+/* ========================================
+   Typewriter Effect Styles
+   ======================================== */
+.typing-cursor {
+    animation: blink 1s infinite;
+    color: var(--primary-color);
+}
+
+@keyframes blink {
+    0%, 50% {
+        opacity: 1;
+    }
+    51%, 100% {
+        opacity: 0;
+    }
+}
+
+#typed-text {
+    color: inherit;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+/* Hero Section Ultra Compact Layout */
+.hero-section .lead {
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+}
+
+.hero-section img {
+    width: 80px;
+    height: 80px;
+}
+
+/* Hero Section Layout Optimization */
+.hero-section .row {
+    margin: 0;
+    align-items: center;
+}
+
+.hero-section .col-auto {
+    padding: 0 0.5rem;
+}
+
+.hero-section .col {
+    padding: 0 0.5rem;
+}
+
+/* Weather Widget Styles */
+.weather-widget {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    padding: 12px;
+    min-width: 140px;
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+}
+
+.weather-widget:hover {
+    background: rgba(255, 255, 255, 0.15);
+    transform: translateY(-2px);
+}
+
+.weather-header {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-bottom: 8px;
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.weather-main {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 6px;
+}
+
+.weather-icon {
+    font-size: 1.2rem;
+    color: var(--cyan);
+}
+
+.weather-temp {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: white;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.weather-details {
+    font-size: 0.7rem;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 1.2;
+}
+
+.weather-desc {
+    margin-bottom: 2px;
+    text-transform: capitalize;
+}
+
+.weather-feels {
+    font-size: 0.65rem;
+    opacity: 0.8;
+}
+
+/* Weather Widget Light Theme */
+[data-theme="light"] .weather-widget {
+    background: rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+[data-theme="light"] .weather-widget:hover {
+    background: rgba(0, 0, 0, 0.15);
+}
+
+[data-theme="light"] .weather-header {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+[data-theme="light"] .weather-temp {
+    color: var(--base03);
+}
+
+[data-theme="light"] .weather-details {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+/* ========================================
+   New Portfolio Sections Styles
+   ======================================== */
+
+
+/* Animation Classes */
+.fade-in {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.6s ease;
+}
+
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.slide-in-left {
+    opacity: 0;
+    transform: translateX(-50px);
+    transition: all 0.6s ease;
+}
+
+.slide-in-left.visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.slide-in-right {
+    opacity: 0;
+    transform: translateX(50px);
+    transition: all 0.6s ease;
+}
+
+.slide-in-right.visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* ========================================
+   Content Section - Reusable Layout
+   ======================================== */
+
+.content-section {
+    border: 2px solid var(--border-color);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.content-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+    transition: left 0.5s ease;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.content-section:hover::before {
+    left: 100%;
+}
+
+.content-section:hover {
+    border-color: var(--primary-color);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Ensure content stays above the shimmer effect */
+.content-section > * {
+    position: relative;
+    z-index: 2;
+}
+
+/* Remove hover effects from internal elements in content sections */
+.content-section .btn:hover {
+    transform: none !important;
+    box-shadow: none !important;
+}
+
+.content-section .card:hover {
+    transform: none !important;
+    box-shadow: none !important;
+}
+
+.content-section .stat-item:hover {
+    transform: none !important;
+}
+
+.content-section .fun-icon:hover {
+    transform: none !important;
+}
+
+/* Light theme border adjustments */
+[data-theme="light"] .content-section {
+    border-color: var(--border-light);
+}
+
+[data-theme="light"] .content-section:hover {
+    border-color: var(--primary-color);
+}
+
+/* ========================================
+   Light Mode Text Visibility
+   ======================================== */
+
+/* Override Bootstrap text colors for light theme */
+[data-theme="light"] .text-white {
+    color: var(--base03) !important;
+}
+
+[data-theme="light"] .text-white-50 {
+    color: var(--base01) !important;
+}
+
+[data-theme="light"] .text-white-75 {
+    color: var(--base00) !important;
+}
+
+[data-theme="light"] .lead {
+    color: var(--base00) !important;
+}
+
+[data-theme="light"] h1,
+[data-theme="light"] h2,
+[data-theme="light"] h3,
+[data-theme="light"] h4,
+[data-theme="light"] h5,
+[data-theme="light"] h6 {
+    color: var(--base03) !important;
+}
+
+[data-theme="light"] .badge {
+    color: white !important;
+}
+
+[data-theme="light"] .form-control {
+    color: var(--base03) !important;
+    background-color: var(--base2) !important;
+    border-color: var(--base1) !important;
+}
+
+[data-theme="light"] .form-control:focus {
+    color: var(--base03) !important;
+    background-color: var(--base2) !important;
+    border-color: var(--primary-color) !important;
+    box-shadow: 0 0 0 0.2rem rgba(38, 139, 210, 0.25) !important;
+}
+
+[data-theme="light"] .form-control::placeholder {
+    color: var(--base01) !important;
+}
+
+[data-theme="light"] .btn-outline-primary {
+    color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+}
+
+[data-theme="light"] .btn-outline-secondary {
+    color: var(--base01) !important;
+    border-color: var(--base1) !important;
+}
+
+/* ========================================
+   Mobile Responsiveness (iPhone 14 & others)
+   ======================================== */
+
+/* Mobile-first responsive design */
+@media (max-width: 768px) {
+    /* Hero Section Mobile */
+    .content-section .row.align-items-center {
+        flex-direction: column !important;
+        text-align: center;
+    }
+    
+    .content-section .col-auto {
+        margin-bottom: 1rem;
+    }
+    
+    .content-section .col {
+        margin-bottom: 1rem;
+    }
+    
+    /* Typography adjustments */
+    .display-4 {
+        font-size: 2rem !important;
+    }
+    
+    h2 {
+        font-size: 1.5rem !important;
+    }
+    
+    .lead {
+        font-size: 1rem !important;
+    }
+    
+    /* Padding adjustments */
+    .content-section {
+        padding: 1.5rem !important;
+    }
+    
+    /* Weather widget mobile */
+    .weather-widget {
+        min-width: 120px;
+        padding: 0.75rem;
+        font-size: 0.8rem;
+    }
+    
+    .weather-temp {
+        font-size: 1rem !important;
+    }
+    
+    /* Avatar mobile */
+    .circle-image {
+        width: 80px !important;
+        height: 80px !important;
+    }
+    
+    /* Number trivia mobile */
+    .content-section .row:not(.align-items-center) {
+        flex-direction: column !important;
+    }
+    
+    .content-section .col-md-8,
+    .content-section .col-md-4 {
+        width: 100% !important;
+        margin-bottom: 1rem;
+    }
+    
+    /* Form controls mobile */
+    .form-control {
+        font-size: 16px !important; /* Prevents zoom on iOS */
+        padding: 0.75rem;
+    }
+    
+    /* Buttons mobile */
+    .btn {
+        padding: 0.75rem 1rem;
+        font-size: 0.9rem;
+        min-height: 44px; /* iOS touch target minimum */
+    }
+    
+    .btn-sm {
+        padding: 0.5rem 0.75rem;
+        font-size: 0.8rem;
+        min-height: 36px;
+    }
+    
+    /* Badges mobile */
+    .badge {
+        font-size: 0.75rem;
+        padding: 0.5rem 0.75rem;
+        margin-bottom: 0.5rem;
+        display: inline-block;
+    }
+    
+    /* Sidebar mobile */
+    #right-content {
+        display: none !important;
+    }
+    
+    #main-content {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    
+    /* Header mobile */
+    #clock .row {
+        flex-direction: column !important;
+        text-align: center;
+    }
+    
+    #clock .col-4 {
+        width: 100% !important;
+        margin-bottom: 0.5rem;
+    }
+    
+    /* Theme toggle mobile */
+    .theme-toggle {
+        width: 44px;
+        height: 24px;
+    }
+    
+    /* Footer mobile */
+    .footer-custom .row {
+        flex-direction: column !important;
+        text-align: center;
+    }
+    
+    .footer-custom .col-md-4 {
+        width: 100% !important;
+        margin-bottom: 2rem;
+    }
+    
+    /* Social links mobile */
+    .social-link {
+        display: block !important;
+        margin-bottom: 0.5rem;
+    }
+}
+
+/* iPhone specific adjustments */
+@media (max-width: 428px) {
+    /* iPhone 14 Pro Max width */
+    .container-fluid {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    
+    .content-section {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        padding: 1rem !important;
+    }
+    
+    /* Typography for smaller screens */
+    .display-4 {
+        font-size: 1.75rem !important;
+    }
+    
+    h2 {
+        font-size: 1.25rem !important;
+    }
+    
+    /* Weather widget smaller */
+    .weather-widget {
+        min-width: 100px;
+        padding: 0.5rem;
+        font-size: 0.7rem;
+    }
+    
+    /* Avatar smaller */
+    .circle-image {
+        width: 70px !important;
+        height: 70px !important;
+    }
+    
+    /* Buttons stack vertically */
+    .btn {
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+    
+    .btn:last-child {
+        margin-bottom: 0;
+    }
+}
+
+/* Landscape orientation adjustments */
+@media (max-height: 500px) and (orientation: landscape) {
+    .content-section {
+        padding: 1rem !important;
+        margin-bottom: 1rem !important;
+    }
+    
+    .display-4 {
+        font-size: 1.5rem !important;
+    }
+    
+    h2 {
+        font-size: 1.25rem !important;
+    }
+    
+    .circle-image {
+        width: 60px !important;
+        height: 60px !important;
+    }
+}
+
+/* Touch-friendly interactions */
+@media (hover: none) and (pointer: coarse) {
+    /* Remove hover effects on touch devices */
+    .content-section:hover {
+        border-color: var(--border-color);
+        box-shadow: none;
+    }
+    
+    .content-section:hover::before {
+        left: -100%;
+    }
+    
+    /* Increase touch targets */
+    .btn, .badge, .theme-toggle {
+        min-height: 44px;
+        min-width: 44px;
+    }
+    
+    /* Remove cursor effects */
+    * {
+        cursor: default !important;
+    }
+}
+
+/* ========================================
+   Number Trivia Styles
+   ======================================== */
+
+.number-fact {
+    animation: fadeInUp 0.5s ease;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Loading animation */
+@keyframes pulse {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+}
+
+.number-fact .bi-hourglass-split {
+    animation: pulse 1.5s ease-in-out infinite;
 }

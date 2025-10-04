@@ -2,7 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <title>1nkblade's Portfolio</title>
     <meta name="description" content="Professional portfolio showcasing web development projects and skills">
     
@@ -17,10 +19,15 @@
 </head>
 
 <body class="bg-dark-subtle">
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress-container fixed-top" style="z-index: 9999;">
+        <div class="scroll-progress bg-info" style="height: 3px; width: 0%; transition: width 0.1s ease;"></div>
+    </div>
+
     <!-- Header Section -->
-    <header class="navbar navbar-expand-lg sticky-top bg-dark">
+    <header class="navbar navbar-expand-lg sticky-top bg-dark" style="z-index: 9998;">
         <nav class="container-fluid">
-            <div id="clock" class="container-fluid text-light rounded-4">
+            <div id="clock" class="container-fluid text-light rounded-3">
                 <div class="row align-items-center">
                     <!-- Time Display -->
                     <div class="col-4">
@@ -56,61 +63,113 @@
             <!-- Main Content -->
             <section class="col-12 col-md-10 bg-dark" id="main-content">
                 <!-- Hero Section -->
-                <div class="hero-section container-fluid bg-primary-subtle rounded-3 mb-4 hero-bg-image">
+                <div class="content-section container-fluid bg-primary-subtle rounded-3 mb-3 p-4">
+                    <div class="row align-items-center">
+                        <!-- Avatar - Left Side -->
+                        <div class="col-auto">
+                            <img src="https://i.pinimg.com/736x/cd/df/01/cddf0179a206fd051473d27b674c4b43.jpg" 
+                                 class="circle-image img-fluid shadow-lg rounded-circle sound-img" 
+                                 alt="Merry Christmas! Click to play sound" 
+                                 data-sound="assets/audio/Erm.mp3"
+                                 role="button"
+                                 tabindex="0"
+                                 aria-label="Rotating Christmas image - click to play sound">
+                        </div>
+                        
+                        <!-- Text Content - Center -->
+                        <div class="col">
+                            <h1 class="display-4 text-white mb-1">1nkblade's Portfolio</h1>
+                            <p class="lead text-white-50 mb-0" id="typewriter-text">
+                                <span id="typed-text"></span><span class="typing-cursor">|</span>
+                            </p>
+                        </div>
+                        
+                        <!-- Weather Widget - Right -->
+                        <div class="col-auto">
+                            <div class="weather-widget">
+                                <div class="weather-header">
+                                    <i class="bi bi-geo-alt"></i>
+                                    <span class="weather-location">Modena</span>
+                                </div>
+                                <div class="weather-main">
+                                    <div class="weather-icon" id="weather-icon">
+                                        <i class="bi bi-cloud-sun"></i>
+                                    </div>
+                                    <div class="weather-temp">
+                                        <span id="weather-temperature">--°</span>
+                                    </div>
+                                </div>
+                                <div class="weather-details">
+                                    <div class="weather-desc" id="weather-description">Loading...</div>
+                                    <div class="weather-feels">
+                                        Feels like <span id="weather-feels">--°</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- About Section -->
+                <div class="content-section container-fluid bg-primary-subtle rounded-3 mb-3 p-4">
+                    <h2 class="text-white mb-3">
+                        <i class="bi bi-person-circle me-2"></i>Chi Sono
+                    </h2>
+                    <p class="text-white-50 lead mb-3">
+                        Ciao! Sono <strong class="text-info">1nkblade</strong>, uno sviluppatore web appassionato 
+                        di tecnologia e innovazione digitale.
+                    </p>
+                    <p class="text-white-50 mb-3">
+                        Specializzato nello sviluppo di applicazioni web moderne, mi piace creare esperienze 
+                        digitali coinvolgenti che combinano design accattivante e funzionalità robuste. 
+                        Sono sempre alla ricerca di nuove sfide e tecnologie emergenti.
+                    </p>
+                    <div class="badge bg-primary me-2 mb-2">Full-Stack Developer</div>
+                    <div class="badge bg-success me-2 mb-2">UI/UX Enthusiast</div>
+                    <div class="badge bg-info me-2 mb-2">Tech Innovator</div>
+                </div>
+
+                <!-- Number Trivia Section -->
+                <div class="content-section container-fluid bg-primary-subtle rounded-3 mb-3 p-4">
+                    <h2 class="text-white text-center mb-4">
+                        <i class="bi bi-123 me-2"></i>Number Trivia
+                    </h2>
+                    <p class="text-white-50 text-center mb-4">
+                        Scopri fatti interessanti sui numeri! 🎲
+                    </p>
                     
-                    <div class="text-center py-4 position-relative">
-                        <!-- Profile Image -->
-                        <img src="https://i.pinimg.com/736x/cd/df/01/cddf0179a206fd051473d27b674c4b43.jpg" 
-                             class="circle-image img-fluid shadow-lg rounded-circle sound-img mb-3" 
-                             alt="Merry Christmas! Click to play sound" 
-                             data-sound="assets/audio/Erm.mp3"
-                             role="button"
-                             tabindex="0"
-                             aria-label="Rotating Christmas image - click to play sound">
-                        
-                        <!-- Title -->
-                        <h1 class="display-4 text-center text-white">1nkblade's Portfolio</h1>
-                        
-                        <!-- Description -->
-                        <p class="lead text-center text-white-50 mt-3 mb-0">
-                            Full-Stack Developer & Digital Creative
-                        </p>
-                    </div>
-                </div>
-                
-                <!-- Video Section -->
-                <div class="video-section container my-5">
-                    <div class="ratio ratio-16x9 rounded-4 mx-auto" style="max-width: 800px;">
-                        <iframe class="rounded-5"
-                                src="https://www.youtube.com/embed/KvasuuAoBAY?autoplay=1&loop=1&playlist=KvasuuAoBAY&mute=1&controls=0&showinfo=0" 
-                                allow="autoplay; fullscreen"
-                                style="border: 1px solid white;"
-                                title="Portfolio video">
-                        </iframe>
-                    </div>
-                </div>
-                
-                <!-- Status Section -->
-                <div class="status-section container">
-                    <div class="alert alert-warning shadow-lg rounded-5 text-center" role="alert">
-                        <h4 class="alert-heading">Work in Progress!</h4>
-                        <p class="bg-light badge fs-6 text-wrap mb-0">
-                            <code>Start Date: December 12, 2024</code>
-                        </p>
-                        <hr class="border border-dark border-2 opacity-50">
-                        <blockquote class="blockquote">
-                            "You have power over your mind - not outside events. Realize this, and you will find strength."
-                        </blockquote>
-                        <footer class="blockquote-footer text-center">
-                            — Marcus Aurelius, Meditations
-                        </footer>
+                    <div class="row align-items-center">
+                        <div class="col-md-8">
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="bi bi-123 text-primary me-3" style="font-size: 2rem;"></i>
+                                <div>
+                                    <h5 class="text-white mb-1">Number Trivia</h5>
+                                    <small class="text-white-50">Fascinating number facts</small>
+                                </div>
+                            </div>
+                            <div class="number-fact text-white-50" id="number-fact">
+                                <i class="bi bi-hourglass-split"></i> Loading number fact...
+                            </div>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <input type="number" class="form-control mb-2" id="number-input" 
+                                   placeholder="Enter a number" min="1" max="9999">
+                            <div class="d-grid gap-2 d-md-block">
+                                <button class="btn btn-outline-primary btn-sm" onclick="fetchNumberFact()">
+                                    <i class="bi bi-search"></i> Get Fact
+                                </button>
+                                <button class="btn btn-outline-secondary btn-sm" onclick="fetchRandomNumberFact()">
+                                    <i class="bi bi-shuffle"></i> Random
+                                </button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
             
             <!-- Right Sidebar Navigation -->
             <aside class="col-12 col-md-2 d-none d-md-block bg-dark text-light" id="right-content" aria-label="Navigation sidebar">
-                <div class="container rounded-5 bg-dark-subtle h-100 text-dark text-center d-flex flex-column">
+                <div class="container rounded-3 bg-dark-subtle h-100 text-dark text-center d-flex flex-column">
                     <h2 class="fs-4 mt-3 mb-0">Navigation</h2>
                     <hr>
                     <nav>
@@ -187,6 +246,10 @@
     <script src="js/time.js"></script>
     <script src="js/audio-click.js"></script>
     <script src="js/gauntlet-cursor.js"></script>
+    <script src="js/typewriter.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/scroll-animations.js"></script>
+    <script src="js/number-trivia.js"></script>
     
     <!-- Theme Toggle Script -->
     <script>
