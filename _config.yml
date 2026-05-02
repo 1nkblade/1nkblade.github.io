@@ -25,8 +25,16 @@ exclude:
 
 permalink: /:basename:output_ext
 
+collections:
+  pages:
+    output: true
+
 defaults:
   - scope:
       path: ""
+    values:
+      layout: "default"
+  - scope:
+      type: pages
     values:
       layout: "default"

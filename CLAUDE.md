@@ -101,6 +101,12 @@ The `fast-xml-parser` is used with `processEntities: false` to bypass its XML en
 - `assets/audio/` — UI sound effects
 - `assets/cursors/` — custom cursor sprites (Warcraft 3 gauntlet style)
 
+## Page organization
+
+- `index.html` and `404.html` live at the repo root (GitHub Pages requires both there: `index.html` is the entry point, `404.html` must be at root for GitHub Pages to serve it on missing paths).
+- All other pages live in `_pages/` (a Jekyll collection declared in `_config.yml`). Each file sets `permalink: /<name>.html` in its front-matter so the public URL stays at the root.
+- To add a new page: create `_pages/<name>.html` with at minimum `title`, `permalink: /<name>.html`, and (if it should appear in the sidebar) a matching `nav_key` plus an entry in `_data/nav.yml`.
+
 ## Key files when changing the chrome
 
-To modify the navbar, sidebar, or footer, edit the relevant `_includes/*.html`. **Do not** copy the chrome into individual pages — that's exactly what Jekyll was introduced to avoid. To add a new page, create an HTML file at the root with appropriate front-matter; the `default` layout is applied via `_config.yml`'s `defaults` rule.
+To modify the navbar, sidebar, or footer, edit the relevant `_includes/*.html`. **Do not** copy the chrome into individual pages — that's exactly what Jekyll was introduced to avoid.

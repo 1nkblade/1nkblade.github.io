@@ -41,22 +41,19 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Global refresh function for RSS feeds
-    window.refreshRSSFeeds = function() {
-        const refreshBtn = document.getElementById('refresh-feeds-btn');
-        const originalContent = refreshBtn.innerHTML;
-        
-        refreshBtn.innerHTML = '<i class="bi bi-arrow-clockwise"></i> Refreshing...';
-        refreshBtn.disabled = true;
-        
-        // Refresh the RSS feed data
-        if (window.rssFeedReader) {
-            window.rssFeedReader.refreshFeeds();
-        }
-        
-        setTimeout(() => {
-            refreshBtn.innerHTML = originalContent;
-            refreshBtn.disabled = false;
-        }, 2000);
-    };
+    const refreshBtn = document.getElementById('refresh-feeds-btn');
+    if (refreshBtn) {
+        refreshBtn.addEventListener('click', () => {
+            const originalContent = refreshBtn.innerHTML;
+            refreshBtn.innerHTML = '<i class="bi bi-arrow-clockwise"></i> Refreshing...';
+            refreshBtn.disabled = true;
+
+            window.rssFeedReader?.refresh();
+
+            setTimeout(() => {
+                refreshBtn.innerHTML = originalContent;
+                refreshBtn.disabled = false;
+            }, 2000);
+        });
+    }
 });

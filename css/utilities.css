@@ -1,0 +1,29 @@
+/* Icon sizing utilities — keep markup free of inline font-size styles. */
+.icon-lg  { font-size: 2rem; }
+.icon-xl  { font-size: 3rem; }
+.icon-2xl { font-size: 6rem; }
+.icon-3xl { font-size: 8rem; }
+
+/* Scroll progress bar (used on pages with `scroll_progress: true`).
+   The bar is fixed-top, its width is animated by js/scroll-animations.js. */
+.scroll-progress-container {
+    z-index: 9999;
+    pointer-events: none;
+}
+
+.scroll-progress {
+    height: 3px;
+    width: 0;
+    transition: width 0.1s ease;
+}
+
+/* When the scroll-progress bar is present, the sticky navbar must sit just
+   under it. Apply via `.has-scroll-progress` on the header. */
+.has-scroll-progress {
+    z-index: 9998;
+}
+
+/* Thin progress bar variant used by the 404 countdown. */
+.progress-thin {
+    height: 6px;
+}

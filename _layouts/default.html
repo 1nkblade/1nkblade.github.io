@@ -6,8 +6,8 @@
 <body class="bg-dark-subtle">
 
     {%- if page.scroll_progress -%}
-    <div class="scroll-progress-container fixed-top" style="z-index: 9999;">
-        <div class="scroll-progress bg-info" style="height: 3px; width: 0%; transition: width 0.1s ease;"></div>
+    <div class="scroll-progress-container fixed-top">
+        <div class="scroll-progress bg-info"></div>
     </div>
     {%- endif -%}
 
@@ -35,9 +35,5 @@
     {%- for script in page.scripts -%}
     <script src="{{ script | relative_url }}" defer></script>
     {%- endfor -%}
-
-    {%- if page.inline_script -%}
-    <script>{{ page.inline_script }}</script>
-    {%- endif -%}
 </body>
 </html>

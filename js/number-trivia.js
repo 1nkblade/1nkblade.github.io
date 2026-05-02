@@ -57,22 +57,18 @@ class NumberTrivia {
 
 }
 
-// Global functions for button clicks
-
-function fetchNumberFact() {
-    const numberInput = document.getElementById('number-input');
-    const number = numberInput.value ? parseInt(numberInput.value) : null;
-    window.numberTrivia.fetchNumberFact(number);
-}
-
-function fetchRandomNumberFact() {
-    window.numberTrivia.fetchNumberFact();
-}
-
-// Initialize when DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
     window.numberTrivia = new NumberTrivia();
+
+    document.getElementById('fetch-number-fact-btn')?.addEventListener('click', () => {
+        const input = document.getElementById('number-input');
+        const number = input?.value ? parseInt(input.value, 10) : null;
+        window.numberTrivia.fetchNumberFact(number);
+    });
+
+    document.getElementById('fetch-random-number-btn')?.addEventListener('click', () => {
+        window.numberTrivia.fetchNumberFact();
+    });
 });
 
-// Expose class globally for debugging
 window.NumberTrivia = NumberTrivia;

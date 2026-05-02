@@ -160,5 +160,4 @@ class RSSFeedReader {
 
 document.addEventListener('DOMContentLoaded', () => {
     window.rssFeedReader = new RSSFeedReader();
-    window.refreshRSSFeeds = () => window.rssFeedReader.refresh();
 });

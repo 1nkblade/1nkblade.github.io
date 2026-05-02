@@ -1,4 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
+    document.getElementById('go-back-btn')?.addEventListener('click', () => history.back());
+
     const countdownElement = document.getElementById('countdown');
     const progressBar = document.getElementById('progress-bar');
     if (!countdownElement) return;

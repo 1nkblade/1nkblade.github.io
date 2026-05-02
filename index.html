@@ -86,7 +86,7 @@ scripts:
     <div class="row align-items-center">
         <div class="col-md-8">
             <div class="d-flex align-items-center mb-3">
-                <i class="bi bi-123 text-primary me-3" style="font-size: 2rem;"></i>
+                <i class="bi bi-123 text-primary me-3 icon-lg"></i>
                 <div>
                     <h5 class="text-white mb-1">Number Trivia</h5>
                     <small class="text-white-50">Fascinating number facts</small>
@@ -100,10 +100,10 @@ scripts:
             <input type="number" class="form-control mb-2" id="number-input"
                    placeholder="Enter a number" min="1" max="9999">
             <div class="d-grid gap-2 d-md-block">
-                <button class="btn btn-outline-primary btn-sm" onclick="fetchNumberFact()">
+                <button id="fetch-number-fact-btn" class="btn btn-outline-primary btn-sm">
                     <i class="bi bi-search"></i> Get Fact
                 </button>
-                <button class="btn btn-outline-secondary btn-sm" onclick="fetchRandomNumberFact()">
+                <button id="fetch-random-number-btn" class="btn btn-outline-secondary btn-sm">
                     <i class="bi bi-shuffle"></i> Random
                 </button>
             </div>

@@ -15,7 +15,7 @@ scripts:
 <div class="error-section container-fluid bg-primary-subtle rounded-3 mb-4 hero-bg-image">
     <div class="text-center py-5 position-relative">
         <div class="error-404 mb-4">
-            <i class="bi bi-exclamation-triangle text-warning" style="font-size: 8rem;"></i>
+            <i class="bi bi-exclamation-triangle text-warning icon-3xl"></i>
         </div>
 
         <div class="error-code mb-3">404</div>
@@ -81,7 +81,7 @@ scripts:
                     </a>
                 </div>
                 <div class="col-md-6">
-                    <button onclick="history.back()" class="btn btn-outline-secondary btn-lg w-100">
+                    <button id="go-back-btn" class="btn btn-outline-secondary btn-lg w-100">
                         <i class="bi bi-arrow-left me-2"></i> Go Back
                     </button>
                 </div>
@@ -103,8 +103,8 @@ scripts:
                         You will be automatically redirected to the home page in
                         <span class="countdown" id="countdown">10</span> seconds
                     </p>
-                    <div class="progress mb-3" style="height: 6px;">
-                        <div class="progress-bar bg-warning" role="progressbar" style="width: 100%" id="progress-bar"></div>
+                    <div class="progress progress-thin mb-3">
+                        <div class="progress-bar bg-warning countdown-progress" role="progressbar" id="progress-bar"></div>
                     </div>
                     <small class="text-light-50">Click "Go Home" to redirect immediately</small>
                 </div>
@@ -127,7 +127,7 @@ scripts:
                             <a href="{{ '/' | relative_url }}" class="broken-link text-decoration-none">
                                 <div class="card bg-secondary h-100">
                                     <div class="card-body">
-                                        <i class="bi bi-house-door text-primary" style="font-size: 2rem;"></i>
+                                        <i class="bi bi-house-door text-primary icon-lg"></i>
                                         <h6 class="card-title text-light mt-2">Home</h6>
                                         <small class="text-light-50">Main portfolio page</small>
                                     </div>
@@ -138,7 +138,7 @@ scripts:
                             <a href="{{ '/gallery.html' | relative_url }}" class="broken-link text-decoration-none">
                                 <div class="card bg-secondary h-100">
                                     <div class="card-body">
-                                        <i class="bi bi-images text-success" style="font-size: 2rem;"></i>
+                                        <i class="bi bi-images text-success icon-lg"></i>
                                         <h6 class="card-title text-light mt-2">Gallery</h6>
                                         <small class="text-light-50">Cat photo collection</small>
                                     </div>
@@ -149,7 +149,7 @@ scripts:
                             <a href="{{ '/feed.html' | relative_url }}" class="broken-link text-decoration-none">
                                 <div class="card bg-secondary h-100">
                                     <div class="card-body">
-                                        <i class="bi bi-rss text-info" style="font-size: 2rem;"></i>
+                                        <i class="bi bi-rss text-info icon-lg"></i>
                                         <h6 class="card-title text-light mt-2">Feed</h6>
                                         <small class="text-light-50">RSS feed aggregator</small>
                                     </div>
