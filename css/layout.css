@@ -369,7 +369,7 @@ footer .social-icon:hover {
    Enhanced Footer Styles
    ======================================== */
 .footer-custom {
-    background: linear-gradient(135deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
+    background: var(--bg-primary);
     color: var(--text-light);
     border-top: 1px solid var(--base01);
     padding: 3rem 0 1.5rem;

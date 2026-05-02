@@ -2,7 +2,7 @@
    Gallery Styles
    ======================================== */
 .gallery-header {
-    background: linear-gradient(135deg, var(--bg-secondary) 0%, var(--bg-accent) 100%);
+    background: var(--bg-secondary);
     border: 1px solid var(--base01);
     min-height: auto;
 }
@@ -76,9 +76,7 @@
 
 /* Hero section theme awareness */
 .hero-bg-image::before {
-    background: linear-gradient(135deg, 
-        rgba(0, 43, 54, 0.7) 0%, 
-        rgba(7, 54, 66, 0.5) 100%);
+    background: rgba(0, 43, 54, 0.6);
     transition: background var(--transition-speed) ease;
 }
 
@@ -89,21 +87,21 @@
 
 /* Gallery header theme awareness */
 .gallery-header {
-    background: linear-gradient(135deg, var(--bg-secondary) 0%, var(--bg-accent) 100%);
+    background: var(--bg-secondary);
     border-bottom: 2px solid var(--border-color);
     transition: all var(--transition-speed) ease;
 }
 
 /* Footer theme awareness */
 .footer-custom {
-    background: linear-gradient(135deg, var(--bg-secondary) 0%, var(--bg-accent) 100%);
+    background: var(--bg-secondary);
     border-top: 2px solid var(--border-color);
     transition: all var(--transition-speed) ease;
 }
 
 /* Sidebar theme awareness */
 .sidebar-container {
-    background: linear-gradient(180deg, var(--bg-secondary) 0%, var(--bg-accent) 100%);
+    background: var(--bg-secondary);
     border-right: 2px solid var(--border-color);
     transition: all var(--transition-speed) ease;
 }
@@ -148,16 +146,12 @@
 
 /* Gallery overlay theme awareness */
 .gallery-overlay {
-    background: linear-gradient(135deg, 
-        rgba(0, 43, 54, 0.9) 0%, 
-        rgba(7, 54, 66, 0.8) 100%);
+    background: rgba(0, 43, 54, 0.85);
     transition: background var(--transition-speed) ease;
 }
 
 [data-theme="light"] .gallery-overlay {
-    background: linear-gradient(135deg, 
-        rgba(253, 246, 227, 0.95) 0%, 
-        rgba(238, 232, 213, 0.85) 100%);
+    background: rgba(253, 246, 227, 0.9);
 }
 
 /* Clock container theme awareness */

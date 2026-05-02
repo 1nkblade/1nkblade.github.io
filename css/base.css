@@ -110,7 +110,7 @@
 .theme-toggle-slider {
     width: 20px;
     height: 20px;
-    background: linear-gradient(45deg, var(--yellow), var(--orange));
+    background: var(--orange);
     border-radius: 50%;
     transition: all var(--transition-speed) ease;
     position: relative;
@@ -129,7 +129,7 @@
 
 [data-theme="light"] .theme-toggle-slider {
     transform: translateX(24px);
-    background: linear-gradient(45deg, var(--cyan), var(--blue));
+    background: var(--blue);
 }
 
 [data-theme="light"] .theme-toggle-slider::before {

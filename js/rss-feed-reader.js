@@ -76,7 +76,7 @@ class RSSFeedReader {
 
         return `
             <article class="feed-item card mb-4" data-type="${safeCategory.toLowerCase()}" data-source="${safeSource}">
-                <div class="card-header bg-gradient bg-${meta.color} d-flex justify-content-between align-items-center">
+                <div class="card-header bg-${meta.color} d-flex justify-content-between align-items-center">
                     <div class="d-flex align-items-center">
                         <span class="avatar me-3" aria-hidden="true">${meta.icon}</span>
                         <div>

@@ -3,7 +3,7 @@
 
 /* Feed Header */
 .feed-header {
-    background: linear-gradient(135deg, var(--bg-secondary) 0%, var(--bg-accent) 100%);
+    background: var(--bg-secondary);
     border: 1px solid var(--border-color);
     transition: all var(--transition-speed) ease;
 }
@@ -116,25 +116,6 @@
     transition: all var(--transition-speed) ease;
 }
 
-.bg-gradient {
-    background: linear-gradient(135deg, var(--bg-secondary) 0%, var(--bg-accent) 100%) !important;
-}
-
-.bg-gradient.bg-secondary {
-    background: linear-gradient(135deg, var(--bg-accent) 0%, var(--bg-secondary) 100%) !important;
-}
-
-.bg-gradient.bg-info {
-    background: linear-gradient(135deg, rgba(42, 161, 152, 0.2) 0%, var(--bg-secondary) 100%) !important;
-}
-
-.bg-gradient.bg-warning {
-    background: linear-gradient(135deg, rgba(181, 137, 0, 0.2) 0%, var(--bg-secondary) 100%) !important;
-}
-
-.bg-gradient.bg-success {
-    background: linear-gradient(135deg, rgba(133, 153, 0, 0.2) 0%, var(--bg-secondary) 100%) !important;
-}
 
 /* Avatar */
 .avatar {
@@ -234,7 +215,7 @@
 .animated-shape {
     width: 50px;
     height: 50px;
-    background: linear-gradient(45deg, var(--primary-color), var(--orange-yellow));
+    background: var(--primary-color);
     border-radius: 50%;
     margin: 0 auto;
     animation: pulse 2s ease-in-out infinite;
@@ -329,21 +310,6 @@ a[target="_blank"]:hover:after {
 }
 
 /* Feed Source Colors */
-.bg-gradient.bg-danger {
-    background: linear-gradient(135deg, rgba(220, 53, 53, 0.2) 0%, var(--bg-secondary) 100%) !important;
-}
-
-.bg-gradient.bg-info {
-    background: linear-gradient(135deg, rgba(42, 161, 152, 0.2) 0%, var(--bg-secondary) 100%) !important;
-}
-
-.bg-gradient.bg-warning {
-    background: linear-gradient(135deg, rgba(181, 137, 0, 0.2) 0%, var(--bg-secondary) 100%) !important;
-}
-
-.bg-gradient.bg-primary {
-    background: linear-gradient(135deg, rgba(42, 161, 152, 0.2) 0%, var(--bg-secondary) 100%) !important;
-}
 
 /* Additional Badge Colors */
 .badge.bg-danger {

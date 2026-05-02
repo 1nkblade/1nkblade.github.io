@@ -24,10 +24,7 @@
 .error-code {
     font-size: clamp(4rem, 15vw, 12rem);
     font-weight: 900;
-    background: linear-gradient(45deg, var(--danger-color), var(--warning-color), var(--primary-color));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: var(--danger-color);
     text-shadow: 0 0 30px rgba(220, 53, 53, 0.3);
 }
 
@@ -137,7 +134,7 @@
 }
 
 .progress-bar {
-    background: linear-gradient(90deg, var(--warning-color), var(--orange-yellow));
+    background: var(--warning-color);
     transition: width 1s ease;
 }
 
