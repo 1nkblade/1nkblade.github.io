@@ -1,0 +1,359 @@
+   Warcraft 3 Gauntlet Cursor Styles
+   ======================================== */
+
+/* Custom Gauntlet Cursor using PNG variations */
+body, html {
+    cursor: url('../assets/gauntletCursor/cursor_final.png'), auto !important;
+}
+
+/* Interactive elements */
+a, button, .btn, .theme-toggle, .gallery-item, input, textarea, select {
+    cursor: url('../assets/gauntletCursor/cursor_outline_blue.png'), pointer !important;
+}
+
+/* Text selection cursor */
+input[type="text"], input[type="email"], input[type="password"], textarea {
+    cursor: url('../assets/gauntletCursor/cursor_final.png'), text !important;
+}
+
+/* Busy/loading cursor */
+.loading, .busy {
+    cursor: url('../assets/gauntletCursor/cursor_outline_blue.png'), wait !important;
+}
+
+/* Not allowed cursor */
+.disabled, .no-drop {
+    cursor: url('../assets/gauntletCursor/cursor_final.png'), not-allowed !important;
+}
+
+/* Cursor hover effects */
+a:hover {
+    cursor: url('../assets/gauntletCursor/cursor_outline_blue.png'), pointer !important;
+    transform: scale(1.02);
+    transition: transform 0.2s ease;
+}
+
+button:hover, .btn:hover {
+    cursor: url('../assets/gauntletCursor/cursor_outline_blue.png'), pointer !important;
+    transform: scale(1.02);
+    transition: transform 0.2s ease;
+}
+
+.theme-toggle:hover {
+    cursor: url('../assets/gauntletCursor/cursor_outline_blue.png'), pointer !important;
+    transform: scale(1.02);
+    transition: transform 0.2s ease;
+}
+
+.gallery-item:hover {
+    cursor: url('../assets/gauntletCursor/cursor_outline_blue.png'), pointer !important;
+    transform: scale(1.02);
+    transition: transform 0.2s ease;
+}
+
+/* Gauntlet sweep effects removed */
+
+/* Cursor glow and click effects removed - keeping only hover cursors */
+
+/* Cursor glow effects removed */
+
+/* Cursor trail effect removed */
+
+/* Loading state cursor */
+.loading-cursor {
+    cursor: url('../assets/gauntletCursor/cursor_outline_blue.png'), wait !important;
+}
+
+/* Disabled state cursor */
+.disabled-cursor {
+    cursor: url('../assets/gauntletCursor/cursor_final.png'), not-allowed !important;
+}
+
+/* Special cursor states for different interactions */
+/* Danger/warning elements */
+.danger, .warning, .delete {
+    cursor: url('../assets/gauntletCursor/cursor_outline_blue.png'), pointer !important;
+}
+
+/* Info/primary elements */
+.info, .primary, .theme-toggle {
+    cursor: url('../assets/gauntletCursor/cursor_outline_blue.png'), pointer !important;
+}
+
+/* Success elements */
+.success, .confirm {
+    cursor: url('../assets/gauntletCursor/cursor_final.png'), pointer !important;
+}
+
+/* High contrast elements */
+.high-contrast, .important {
+    cursor: url('../assets/gauntletCursor/cursor_outline_blue.png'), pointer !important;
+}
+
+/* Light theme elements */
+.light-element, .subtle {
+    cursor: url('../assets/gauntletCursor/cursor_final.png'), pointer !important;
+}
+
+/* Shiny/premium elements */
+.premium, .special {
+    cursor: url('../assets/gauntletCursor/cursor_outline_blue.png'), pointer !important;
+}
+
+/* More Cats button special cursor */
+#more-cats-btn {
+    cursor: url('../assets/gauntletCursor/cursor_outline_blue.png'), pointer !important;
+}
+
+#more-cats-btn:hover {
+    cursor: url('../assets/gauntletCursor/cursor_outline_blue.png'), pointer !important;
+}
+
+/* Navigation links special cursor */
+.list-group-item a {
+    cursor: url('../assets/gauntletCursor/cursor_final.png'), pointer !important;
+}
+
+.list-group-item a:hover {
+    cursor: url('../assets/gauntletCursor/cursor_outline_blue.png'), pointer !important;
+}
+
+/* Footer links */
+.footer-link {
+    cursor: url('../assets/gauntletCursor/cursor_final.png'), pointer !important;
+}
+
+.footer-link:hover {
+    cursor: url('../assets/gauntletCursor/cursor_outline_blue.png'), pointer !important;
+}
+
+/* Social media icons */
+.footer-social-icon {
+    cursor: url('../assets/gauntletCursor/cursor_outline_blue.png'), pointer !important;
+}
+
+.footer-social-icon:hover {
+    cursor: url('../assets/gauntletCursor/cursor_outline_blue.png'), pointer !important;
+}
+.gallery-grid {
+    padding: 2rem 0;
+}
+
+.gallery-item {
+    position: relative;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    transition: all var(--transition-speed) ease;
+    cursor: pointer;
+    aspect-ratio: 1;
+    height: 250px;  /* Fixed height for consistency */
+    width: 100%;
+}
+
+.gallery-item:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+}
+
+.gallery-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: all var(--transition-speed) ease;
+    display: block;
+}
+
+.gallery-item:hover .gallery-img {
+    transform: scale(1.05);
+}
+
+.gallery-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(transparent, rgba(0, 43, 54, 0.9));
+    padding: 1.5rem 1rem 1rem;
+    color: white;
+    opacity: 0;
+    transition: all var(--transition-speed) ease;
+}
+
+.gallery-item:hover .gallery-overlay {
+    opacity: 1;
+}
+
+.gallery-info h5 {
+    color: var(--orange-yellow);
+    font-weight: 600;
+    margin: 0;
+    font-size: 1rem;
+}
+
+.gallery-info p {
+    color: var(--text-light);
+    margin: 0.25rem 0 0 0;
+    font-size: 0.85rem;
+    opacity: 0.9;
+}
+
+/* Gallery responsive */
+@media (max-width: 768px) {
+    .gallery-header .row {
+        text-align: center;
+    }
+    
+    .gallery-header .col-md-9 {
+        margin-top: 1rem;
+    }
+    
+    .gallery-hero-cat {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .gallery-item {
+        height: 200px;  /* Slightly smaller on tablets */
+    }
+    
+    .gallery-item:hover {
+        transform: translateY(-4px);
+    }
+    
+    .gallery-item:hover .gallery-img {
+        transform: scale(1.02);
+    }
+    
+    .gallery-overlay {
+        opacity: 1;  /* Always visible on mobile */
+        background: rgba(0, 43, 54, 0.7);
+    }
+}
+
+@media (max-width: 576px) {
+    .gallery-item {
+        height: 180px;  /* Even smaller on phones */
+    }
+}
+
+/* Home Button Styles */
+.btn-outline-light {
+    color: var(--text-light) !important;
+    border-color: var(--base01) !important;
+    background-color: transparent !important;
+    transition: all var(--transition-speed) ease;
+    font-family: 'JetBrains Mono', monospace !important;
+    font-weight: 500;
+    letter-spacing: 0.025em;
+}
+
+.btn-outline-light:hover {
+    background-color: var(--orange-yellow) !important;
+    border-color: var(--orange-yellow) !important;
+    color: var(--text-light) !important;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px var(--shadow-color);
+}
+
+.btn-outline-light:focus {
+    box-shadow: 0 0 0 0.2rem rgba(217, 119, 6, 0.25) !important;  /* Yellow-orange focus */
+    border-color: var(--orange-yellow) !important;
+}
+
+/* Button Styles - Now we have Home button */
+
+/* Typography Enhancements for JetBrains Mono */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'JetBrains Mono', monospace !important;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    color: var(--text-bright) !important;
+}
+
+.display-4 {
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    color: var(--cyan) !important;
+    text-shadow: 0 2px 4px var(--shadow-color);
+}
+
+/* Hero section specific styles */
+.hero-bg-image .display-4 {
+    color: #ffffff !important;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
+    font-weight: 800;
+}
+
+.hero-bg-image .lead {
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.7);
+    opacity: 0.9;
+}
+
+/* Additional Solarized Dark Theme Enhancements */
+.hero-section {
+    background-color: var(--bg-secondary) !important;
+    border: 1px solid var(--base01);
+    box-shadow: 0 4px 12px var(--shadow-color);
+}
+
+.container.rounded-5 {
+    background-color: var(--bg-elevated) !important;
+    border: 1px solid var(--base01);
+    box-shadow: 0 2px 8px var(--shadow-color);
+}
+
+hr {
+    border-color: var(--base01) !important;
+    opacity: 0.6;
+}
+
+blockquote {
+    color: var(--text-color) !important;
+}
+
+.blockquote-footer {
+    color: var(--text-muted) !important;
+}
+
+code {
+    background-color: var(--base02) !important;
+    color: var(--green) !important;
+    border: 1px solid var(--base01);
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.25rem;
+    font-family: 'JetBrains Mono', monospace !important;
+    font-weight: 500;
+    font-size: 0.9em;
+    letter-spacing: 0.025em;
+}
+
+/* Special text elements */
+.text-muted {
+    color: var(--text-muted) !important;
+}
+
+.text-primary {
+    color: var(--cyan) !important;
+}
+
+.text-success {
+    color: var(--green) !important;
+}
+
+.text-warning {
+    color: var(--yellow) !important;
+}
+
+.text-danger {
+    color: var(--red) !important;
+}
+
+/* Video iframe border */
+iframe {
+    border: 1px solid var(--base01) !important;
+}
+
+/* ========================================

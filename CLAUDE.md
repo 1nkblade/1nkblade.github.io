@@ -53,8 +53,20 @@ The default scripts loaded on every page are: `time.js`, `audio-click.js`, `gaun
 `js/theme.js` (extracted from inline duplication) reads/writes `data-theme` on `<html>` and persists to `localStorage`. CSS in `css/rotating-image.css` keys off `[data-theme="light"]` / `[data-theme="dark"]` selectors. When adding theme-aware styles, define both variants.
 
 ### CSS
-- `css/rotating-image.css` — main stylesheet (~2.5k lines, monolithic — see to-do.md for split plan)
-- `css/404.css` — page-specific styles for the 404 page (loaded via `extra_head`)
+Split into modules; cascade order matters and matches the order they're loaded in `_includes/head.html`:
+
+**Always loaded (every page):**
+- `css/base.css` — `:root` variables (Solarized dark/light), theme toggle, theme-aware base styles
+- `css/layout.css` — rotating image animation, background, main/sidebar grid, header/clock, social icons, content cards, carousel, responsive, accessibility, footer
+- `css/gallery.css` — gallery + theme-aware component overrides
+- `css/cursor.css` — Warcraft 3 gauntlet cursor system
+- `css/extras.css` — print, typewriter, portfolio sections, content section, light mode visibility, mobile responsiveness, number trivia
+
+**Page-specific (loaded via front-matter `stylesheets:` list):**
+- `css/page-feed.css` — feed page styles (loaded only on `feed.html`)
+- `css/page-404.css` — 404 error page styles + cursor overrides (loaded only on `404.html`)
+
+When adding new styles, place them in the file matching their concern. Do **not** create a new monolithic file — the prior `css/rotating-image.css` was a 2478-line monolith that this split replaced.
 
 ### JavaScript modules
 Scripts in `js/` are independent vanilla-JS files. Each is self-initializing on `DOMContentLoaded` and tied to specific DOM hooks; if hooks aren't present (e.g. `audio-click.js` on a page without `.sound-img`), the script no-ops.

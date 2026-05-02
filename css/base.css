@@ -1,0 +1,194 @@
+/* ========================================
+   1nkblade's Portfolio - Custom Styles
+   ======================================== */
+
+/* CSS Variables for Solarized Dark theme (default) */
+:root {
+    /* Solarized Dark Color Palette */
+    --base03: #002b36;        /* Background darkest */
+    --base02: #073642;        /* Background dark */
+    --base01: #586e75;        /* Content muted */
+    --base00: #657b83;        /* Content default */
+    --base0: #839496;         /* Content light */
+    --base1: #93a1a1;         /* Content lightest */
+    --base2: #eee8d5;         /* Background lightest */
+    --base3: #fdf6e3;         /* Background light */
+    
+    /* Solarized Accent Colors */
+    --yellow: #b58900;
+    --orange: #cb4b16;
+    --orange-yellow: #d97706;
+    --red: #dc322f;
+    --magenta: #d33682;
+    --violet: #6c71c4;
+    --blue: #268bd2;
+    --cyan: #2aa198;
+    --green: #859900;
+    
+    /* Theme Variables - Dark Mode (default) */
+    --primary-color: var(--cyan);
+    --secondary-color: var(--base01);
+    --success-color: var(--green);
+    --danger-color: var(--red);
+    --warning-color: var(--yellow);
+    --info-color: var(--blue);
+    --light-color: var(--base2);
+    --dark-color: var(--base03);
+    --text-color: var(--base1);
+    --text-muted: var(--base00);
+    --text-light: var(--base1);
+    --text-bright: var(--base2);
+    --bg-primary: var(--base03);
+    --bg-secondary: var(--base02);
+    --bg-accent: var(--base01);
+    --bg-elevated: var(--base02);
+    --bg-card: var(--base02);
+    --bg-hover: var(--base01);
+    --border-color: var(--base01);
+    --border-light: var(--base00);
+    
+    /* UI Variables */
+    --border-radius: 0.375rem;
+    --transition-speed: 0.3s;
+    --shadow-color: rgba(0, 43, 54, 0.3);
+    --shadow-light: rgba(0, 43, 54, 0.1);
+}
+
+/* Solarized Light theme */
+[data-theme="light"] {
+    /* Theme Variables - Light Mode */
+    --primary-color: var(--blue);
+    --secondary-color: var(--base01);
+    --success-color: var(--green);
+    --danger-color: var(--red);
+    --warning-color: var(--yellow);
+    --info-color: var(--cyan);
+    --light-color: var(--base2);
+    --dark-color: var(--base03);
+    --text-color: var(--base00);
+    --text-muted: var(--base01);
+    --text-light: var(--base00);
+    --text-bright: var(--base03);
+    --bg-primary: var(--base3);
+    --bg-secondary: var(--base2);
+    --bg-accent: var(--base1);
+    --bg-elevated: var(--base2);
+    --bg-card: var(--base2);
+    --bg-hover: var(--base1);
+    --border-color: var(--base1);
+    --border-light: var(--base0);
+    
+    /* UI Variables for light mode */
+    --shadow-color: rgba(0, 43, 54, 0.15);
+    --shadow-light: rgba(0, 43, 54, 0.05);
+}
+
+/* ========================================
+   Theme Toggle Button Styles
+   ======================================== */
+.theme-toggle {
+    position: relative;
+    width: 50px;
+    height: 26px;
+    background-color: var(--bg-accent);
+    border-radius: 15px;
+    border: 2px solid var(--border-color);
+    cursor: pointer;
+    transition: all var(--transition-speed) ease;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    margin: 0 10px;
+}
+
+.theme-toggle:hover {
+    background-color: var(--bg-hover);
+    border-color: var(--primary-color);
+    transform: scale(1.05);
+}
+
+.theme-toggle-slider {
+    width: 20px;
+    height: 20px;
+    background: linear-gradient(45deg, var(--yellow), var(--orange));
+    border-radius: 50%;
+    transition: all var(--transition-speed) ease;
+    position: relative;
+    box-shadow: 0 2px 4px var(--shadow-color);
+}
+
+.theme-toggle-slider::before {
+    content: '☀️';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 12px;
+    transition: all var(--transition-speed) ease;
+}
+
+[data-theme="light"] .theme-toggle-slider {
+    transform: translateX(24px);
+    background: linear-gradient(45deg, var(--cyan), var(--blue));
+}
+
+[data-theme="light"] .theme-toggle-slider::before {
+    content: '🌙';
+}
+
+
+/* ========================================
+   Theme-aware Base Styles
+   ======================================== */
+body {
+    background-color: var(--bg-primary) !important;
+    color: var(--text-color) !important;
+    font-family: 'JetBrains Mono', 'Fira Code', 'Consolas', 'Monaco', 'Courier New', monospace !important;
+    font-weight: 400;
+    line-height: 1.6;
+    letter-spacing: 0.025em;
+    transition: background-color var(--transition-speed) ease, color var(--transition-speed) ease;
+}
+
+.bg-dark {
+    background-color: var(--bg-primary) !important;
+}
+
+.bg-dark-subtle {
+    background-color: var(--bg-secondary) !important;
+}
+
+.bg-primary-subtle {
+    background-color: var(--bg-secondary) !important;
+    color: var(--text-light) !important;
+}
+
+.text-light {
+    color: var(--text-color) !important;
+}
+
+.text-dark {
+    color: var(--text-light) !important;
+}
+
+.text-dark-emphasis {
+    color: var(--text-color) !important;
+}
+
+/* Theme-aware card and container styles */
+.card, .container, .row {
+    transition: background-color var(--transition-speed) ease, 
+                color var(--transition-speed) ease,
+                border-color var(--transition-speed) ease;
+}
+
+.card {
+    background-color: var(--bg-card);
+    border-color: var(--border-color);
+    color: var(--text-color);
+}
+
+.border {
+    border-color: var(--border-color) !important;
+}
+

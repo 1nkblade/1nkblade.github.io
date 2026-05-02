@@ -19,15 +19,17 @@
 
 ## 🔧 Da fare
 
-### 1. Spezzare `css/rotating-image.css` (2478 righe)
-Il file è monolitico. Suddividere per concern:
-- [ ] `css/base.css` — reset, variabili CSS, tipografia
-- [ ] `css/theme.css` — varianti `[data-theme]`
-- [ ] `css/layout.css` — header, sidebar, footer, grid
-- [ ] `css/components.css` — card, gallery, feed, social, rotating image
-- [ ] `css/animations.css` — keyframes e transizioni
-- [ ] Aggiornare `_includes/head.html` con i nuovi `<link>`
-- [ ] Rinominare il file principale: `rotating-image.css` non descrive il contenuto
+### 1. ~~Spezzare `css/rotating-image.css`~~ ✅ FATTO
+Diviso in 7 file modulari:
+- [x] `css/base.css` (194 righe) — variabili tema, theme toggle, base
+- [x] `css/layout.css` (453 righe) — rotating image, layout, header, footer, ecc.
+- [x] `css/gallery.css` (191 righe) — gallery + theme-aware
+- [x] `css/cursor.css` (359 righe) — gauntlet cursor
+- [x] `css/extras.css` (577 righe) — print, typewriter, portfolio, mobile, number trivia
+- [x] `css/page-feed.css` (405 righe) — caricato solo su feed.html
+- [x] `css/page-404.css` (302 righe) — caricato solo su 404.html (merge inline + main CSS)
+- [x] Meccanismo `stylesheets:` in front-matter per CSS page-specific
+- [x] Monolite `rotating-image.css` eliminato
 
 ### 2. RSS feed reader robusto
 Dipende da un proxy CORS pubblico (vedere `js/rss-feed-reader.js`).

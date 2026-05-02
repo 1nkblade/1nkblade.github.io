@@ -1,0 +1,453 @@
+/* ========================================
+   Rotating Image Animation
+   ======================================== */
+.circle-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 25%;
+    border: 2px solid #fff;
+    animation: rotate 10s linear infinite;
+    transition: transform var(--transition-speed) ease;
+}
+
+.circle-image:hover {
+    animation-play-state: paused;
+    transform: scale(1.05);
+}
+
+/* Rotation Animation */
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* ========================================
+   Background and Layout
+   ======================================== */
+.background-image {
+    background: url('../assets/images/bg.jpg') no-repeat center center/cover;
+    z-index: -1;
+    position: relative;
+}
+
+.background-image::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+/* Hero Section - Ultra Compact */
+.hero-section {
+    background: var(--bg-secondary);
+    min-height: 180px;
+    border: 1px solid var(--border-color);
+}
+
+.hero-section .row {
+    height: 100%;
+    min-height: 180px;
+}
+
+/* Hero Section Typography */
+.hero-section h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+/* ========================================
+   Layout - Main Content and Navigation
+   ======================================== */
+#main-content {
+    padding: 2rem 1rem;
+    min-height: calc(100vh - 200px);
+}
+
+#right-content {
+    transition: all var(--transition-speed) ease;
+    padding: 1.5rem 0.75rem;
+}
+
+#right-content .container {
+    min-height: calc(100vh - 200px);
+    border: 1px solid var(--base01);
+    box-shadow: 0 4px 12px var(--shadow-color);
+}
+
+/* Sidebar title styling */
+#right-content h2 {
+    font-size: 1.1rem !important;
+    font-weight: 600;
+    color: var(--text-light) !important;
+    margin-bottom: 1rem;
+}
+
+/* Layout: main content uses 10 columns, sidebar uses 2 columns */
+
+/* ========================================
+   Clock and Header Styles
+   ======================================== */
+#clock {
+    background: var(--bg-secondary);  /* Usando il colore di sfondo secondario del tema */
+    border: 1px solid var(--bg-accent);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 8px var(--shadow-color);
+}
+
+#time, #date {
+    text-shadow: 0 1px 2px var(--shadow-color);
+    color: var(--text-light) !important;
+}
+
+#time {
+    color: var(--cyan) !important;
+    font-weight: 600;
+}
+
+#date {
+    color: var(--text-color) !important;
+}
+
+/* ========================================
+   Social Media Icons
+   ======================================== */
+.social-icon {
+    width: 32px;      /* Reduced from default 64px */
+    height: 32px;     /* Reduced from default 64px */
+    transition: all var(--transition-speed) ease;
+    filter: drop-shadow(0 2px 4px var(--shadow-color));
+    opacity: 0.8;
+}
+
+.social-icon:hover {
+    transform: translateY(-2px) scale(1.1);
+    filter: drop-shadow(0 4px 8px var(--shadow-color));
+    opacity: 1;
+}
+
+/* ========================================
+   Content Cards and Alerts
+   ======================================== */
+.alert {
+    border: 1px solid var(--base01) !important;
+    background-color: var(--bg-secondary) !important;
+    color: var(--text-color) !important;
+    box-shadow: 0 4px 6px var(--shadow-color);
+    transition: all var(--transition-speed) ease;
+}
+
+.alert:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px var(--shadow-color);
+}
+
+.alert-warning {
+    background-color: var(--bg-secondary) !important;
+    border-color: var(--yellow) !important;
+    color: var(--text-light) !important;
+}
+
+.alert-heading {
+    color: var(--yellow) !important;
+}
+
+.bg-light {
+    background-color: var(--bg-secondary) !important;
+    color: var(--text-color) !important;
+}
+
+.badge {
+    background-color: var(--base01) !important;
+    color: var(--text-light) !important;
+}
+
+/* ========================================
+   Carousel Enhancements
+   ======================================== */
+.carousel-item img {
+    transition: transform var(--transition-speed) ease;
+}
+
+.carousel-item:hover img {
+    transform: scale(1.02);
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background: var(--base02);
+    border: 1px solid var(--base01);
+    border-radius: var(--border-radius);
+    transition: all var(--transition-speed) ease;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    background: var(--base01);
+    border-color: var(--text-color);
+}
+
+/* ========================================
+   Responsive Design
+   ======================================== */
+@media (max-width: 768px) {
+    .circle-image {
+        width: 120px;
+        height: 120px;
+    }
+    
+    #main-content {
+        padding: 1rem 0.5rem;
+    }
+    
+    #right-content {
+        width: 100% !important;
+        max-width: 100% !important;
+        padding: 1rem 0.5rem;
+    }
+    
+    .display-4 {
+        font-size: 2rem;
+    }
+    
+    .container-sm {
+        width: 90% !important;
+    }
+    
+    /* Disable fixed background on mobile for better performance */
+    .hero-bg-image {
+        background-attachment: scroll;
+        min-height: 300px;
+    }
+    
+    /* Footer responsive */
+    .footer-custom {
+        padding: 2rem 0 1rem;
+    }
+    
+    .footer-custom .row {
+        text-align: center;
+    }
+    
+    .social-links {
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .circle-image {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .display-4 {
+        font-size: 1.75rem;
+    }
+    
+    #clock {
+        padding: 0.5rem;
+    }
+    
+    /* Even smaller social icons on mobile */
+    .social-icon {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+/* ========================================
+   Accessibility Improvements
+   ======================================== */
+@media (prefers-reduced-motion: reduce) {
+    .circle-image,
+    .social-icon,
+    .alert,
+    .carousel-item img,
+    .carousel-control-prev,
+    .carousel-control-next {
+        animation: none;
+        transition: none;
+    }
+    
+    .circle-image:hover,
+    .social-icon:hover,
+    .alert:hover,
+    .carousel-item:hover img {
+        transform: none;
+    }
+}
+
+/* Focus styles for keyboard navigation */
+.social-icon:focus,
+.carousel-control-prev:focus,
+.carousel-control-next:focus {
+    outline: 2px solid var(--orange-yellow);
+    outline-offset: 2px;
+}
+
+/* Link and Navigation Styles */
+a {
+    color: var(--cyan) !important;
+    text-decoration: none;
+    transition: all var(--transition-speed) ease;
+    font-weight: 500;
+    position: relative;
+}
+
+a:hover {
+    color: var(--blue) !important;
+    text-decoration: none;
+}
+
+a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: var(--blue);
+    transition: width var(--transition-speed) ease;
+}
+
+a:hover::after {
+    width: 100%;
+}
+
+.list-group-item {
+    background-color: transparent !important;
+    border-color: var(--base01) !important;
+    font-family: 'JetBrains Mono', monospace !important;
+    font-weight: 400;
+    transition: all var(--transition-speed) ease;
+}
+
+.list-group-item:hover {
+    background-color: var(--bg-secondary) !important;
+    border-color: var(--cyan) !important;
+    transform: translateX(4px);
+}
+
+.list-group-item a {
+    font-weight: 500;
+    letter-spacing: 0.025em;
+    color: var(--text-color) !important;
+    transition: all var(--transition-speed) ease;
+}
+
+.list-group-item a:hover {
+    color: var(--orange-yellow) !important;  /* More yellow orange accent */
+    transform: translateX(4px);
+}
+
+/* Social Media in Footer */
+footer .social-icon {
+    width: 40px;
+    height: 40px;
+    transition: all var(--transition-speed) ease;
+    filter: drop-shadow(0 2px 4px var(--shadow-color));
+    opacity: 0.8;
+}
+
+footer .social-icon:hover {
+    transform: translateY(-3px) scale(1.1);
+    filter: drop-shadow(0 4px 8px var(--shadow-color));
+    opacity: 1;
+}
+
+/* ========================================
+   Enhanced Footer Styles
+   ======================================== */
+.footer-custom {
+    background: linear-gradient(135deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
+    color: var(--text-light);
+    border-top: 1px solid var(--base01);
+    padding: 3rem 0 1.5rem;
+}
+
+.footer-title {
+    color: var(--orange-yellow) !important;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    letter-spacing: 0.025em;
+}
+
+.footer-link {
+    color: var(--text-color) !important;
+    text-decoration: none;
+    transition: all var(--transition-speed) ease;
+    font-weight: 400;
+}
+
+.footer-link:hover {
+    color: var(--orange-yellow) !important;
+    transform: translateX(4px);
+}
+
+/* Social Links in Footer */
+.social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--text-color) !important;
+    text-decoration: none;
+    transition: all var(--transition-speed) ease;
+    padding: 0.25rem 0;
+}
+
+.social-link:hover {
+    color: var(--orange-yellow) !important;
+    transform: translateX(2px);
+}
+
+.footer-social-icon {
+    width: 24px;
+    height: 24px;
+    transition: all var(--transition-speed) ease;
+}
+
+.social-link:hover .footer-social-icon {
+    transform: scale(1.1);
+}
+
+.footer-text {
+    color: var(--text-color);
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.footer-text i {
+    color: var(--orange-yellow);
+    margin-right: 0.5rem;
+}
+
+.footer-divider {
+    border-color: var(--base01);
+    margin: 2rem 0 1rem;
+    opacity: 0.6;
+}
+
+.footer-copyright {
+    color: var(--text-muted);
+    font-size: 0.85rem;
+    margin: 0;
+}
+
