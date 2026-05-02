@@ -12,26 +12,26 @@ scripts:
 ---
 
 <!-- Hero Section -->
-<div class="content-section container-fluid bg-primary-subtle rounded-3 mb-3 p-4">
-    <div class="row align-items-center">
-        <div class="col-auto">
+<div class="content-section section-hero container-fluid bg-primary-subtle rounded-3 mb-3 p-4 p-md-5">
+    <div class="row align-items-center g-4">
+        <div class="col-12 col-md-auto text-center text-md-start">
             <img src="https://i.pinimg.com/736x/cd/df/01/cddf0179a206fd051473d27b674c4b43.jpg"
                  class="circle-image img-fluid shadow-lg rounded-circle sound-img"
-                 alt="Merry Christmas! Click to play sound"
+                 alt="1nkblade avatar"
                  data-sound="{{ '/assets/audio/Erm.mp3' | relative_url }}"
                  role="button"
                  tabindex="0"
-                 aria-label="Rotating Christmas image - click to play sound">
+                 aria-label="1nkblade avatar — click to play sound">
         </div>
 
-        <div class="col">
+        <div class="col-12 col-md text-center text-md-start">
             <h1 class="display-4 text-white mb-1">1nkblade's Portfolio</h1>
             <p class="lead text-white-50 mb-0" id="typewriter-text">
                 <span id="typed-text"></span><span class="typing-cursor">|</span>
             </p>
         </div>
 
-        <div class="col-auto">
+        <div class="col-12 col-md-auto">
             <div class="weather-widget">
                 <div class="weather-header">
                     <i class="bi bi-geo-alt"></i>
@@ -59,16 +59,16 @@ scripts:
 <!-- About Section -->
 <div class="content-section container-fluid bg-primary-subtle rounded-3 mb-3 p-4">
     <h2 class="text-white mb-3">
-        <i class="bi bi-person-circle me-2"></i>Chi Sono
+        <i class="bi bi-person-circle me-2"></i>About Me
     </h2>
     <p class="text-white-50 lead mb-3">
-        Ciao! Sono <strong class="text-info">1nkblade</strong>, uno sviluppatore web appassionato
-        di tecnologia e innovazione digitale.
+        Hi! I'm <strong class="text-info">1nkblade</strong>, a web developer passionate
+        about technology and digital innovation.
     </p>
     <p class="text-white-50 mb-3">
-        Specializzato nello sviluppo di applicazioni web moderne, mi piace creare esperienze
-        digitali coinvolgenti che combinano design accattivante e funzionalità robuste.
-        Sono sempre alla ricerca di nuove sfide e tecnologie emergenti.
+        Specialized in building modern web applications, I enjoy creating engaging
+        digital experiences that combine appealing design with robust functionality.
+        I'm always on the lookout for new challenges and emerging technologies.
     </p>
     <div class="badge bg-primary me-2 mb-2">Full-Stack Developer</div>
     <div class="badge bg-success me-2 mb-2">UI/UX Enthusiast</div>
@@ -81,30 +81,24 @@ scripts:
         <i class="bi bi-123 me-2"></i>Number Trivia
     </h2>
     <p class="text-white-50 text-center mb-4">
-        Scopri fatti interessanti sui numeri! 🎲
+        Discover interesting facts about numbers! 🎲
     </p>
 
-    <div class="row align-items-center">
+    <div class="row align-items-center g-4">
         <div class="col-md-8">
-            <div class="d-flex align-items-center mb-3">
-                <i class="bi bi-123 text-primary me-3 icon-lg"></i>
-                <div>
-                    <h5 class="text-white mb-1">Number Trivia</h5>
-                    <small class="text-white-50">Fascinating number facts</small>
-                </div>
-            </div>
-            <div class="number-fact text-white-50" id="number-fact">
+            <div class="number-fact text-white-50" id="number-fact" aria-live="polite">
                 <i class="bi bi-hourglass-split"></i> Loading number fact...
             </div>
         </div>
-        <div class="col-md-4 text-center">
+        <div class="col-md-4">
+            <label for="number-input" class="visually-hidden">Choose a number between 1 and 9999</label>
             <input type="number" class="form-control mb-2" id="number-input"
-                   placeholder="Enter a number" min="1" max="9999">
-            <div class="d-grid gap-2 d-md-block">
-                <button id="fetch-number-fact-btn" class="btn btn-outline-primary btn-sm">
+                   placeholder="Enter a number" min="1" max="9999" inputmode="numeric">
+            <div class="d-grid gap-2 d-md-flex">
+                <button id="fetch-number-fact-btn" class="btn btn-outline-primary btn-sm flex-fill">
                     <i class="bi bi-search"></i> Get Fact
                 </button>
-                <button id="fetch-random-number-btn" class="btn btn-outline-secondary btn-sm">
+                <button id="fetch-random-number-btn" class="btn btn-outline-secondary btn-sm flex-fill">
                     <i class="bi bi-shuffle"></i> Random
                 </button>
             </div>

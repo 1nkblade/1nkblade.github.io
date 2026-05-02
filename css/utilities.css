@@ -27,3 +27,24 @@
 .progress-thin {
     height: 6px;
 }
+
+/* Hero section: subtle Solarized accent stripe to lift visual hierarchy
+   above sibling content-sections without changing density or color tokens. */
+.section-hero {
+    position: relative;
+    overflow: hidden;
+}
+
+.section-hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 4px;
+    background: var(--cyan);
+}
+
+[data-theme="light"] .section-hero::before {
+    background: var(--orange);
+}
