@@ -38,10 +38,13 @@ Dipende da un proxy CORS pubblico (vedere `js/rss-feed-reader.js`).
 - [ ] Aggiungere fallback graceful se il fetch fallisce
 
 ### 3. Pulizia asset
-- [ ] Eliminare il vecchio `assets/images/Likedin-64.png` una volta verificato che non sia referenziato esternamente
+- [x] Eliminato il vecchio `assets/images/Likedin-64.png`
+- [x] `assets/gauntletCursor/` → `assets/cursors/`
+- [x] `config/rss.txt` → `_data/rss.yml` (Jekyll-native), cartella `config/` rimossa
 - [ ] Rinominare `cat1.jpg`, `cat2.jpg`, `cat3.jpg` con nomi descrittivi (se ancora usati)
 - [ ] Verificare che nessuna immagine sia >500KB; eventualmente convertire in WebP
 - [ ] Considerare di sostituire le immagini hard-coded (Pinterest URL nell'avatar) con asset locali
+- [ ] Aggiornare `js/rss-feed-reader.js` per leggere da `_data/rss.yml` (via JSON renderizzato da Jekyll) invece dell'array hardcoded
 
 ### 4. Accessibilità e qualità
 - [ ] Verificare contrasto colori in entrambi i temi (axe DevTools)

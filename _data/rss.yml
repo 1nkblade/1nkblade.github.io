@@ -1,0 +1,16 @@
+# RSS feed sources used by js/rss-feed-reader.js.
+# Currently consumed only by the legacy mock loader; future work may have
+# Jekyll render this list to a JSON the client fetches at runtime.
+sources:
+  - name: "Hack The Box Security Blog"
+    url: "https://www.hackthebox.com/rss/blog/security-101"
+    category: "Security"
+  - name: "Dev.to Feed"
+    url: "https://dev.to/rss"
+    category: "Development"
+  - name: "Hacker News"
+    url: "https://hnrss.org/frontpage"
+    category: "Tech News"
+  - name: "CSS Tricks"
+    url: "https://css-tricks.com/feed/rss/"
+    category: "Frontend"

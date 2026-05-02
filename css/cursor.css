@@ -3,50 +3,50 @@
 
 /* Custom Gauntlet Cursor using PNG variations */
 body, html {
-    cursor: url('../assets/gauntletCursor/cursor_final.png'), auto !important;
+    cursor: url('../assets/cursors/cursor_final.png'), auto !important;
 }
 
 /* Interactive elements */
 a, button, .btn, .theme-toggle, .gallery-item, input, textarea, select {
-    cursor: url('../assets/gauntletCursor/cursor_outline_blue.png'), pointer !important;
+    cursor: url('../assets/cursors/cursor_outline_blue.png'), pointer !important;
 }
 
 /* Text selection cursor */
 input[type="text"], input[type="email"], input[type="password"], textarea {
-    cursor: url('../assets/gauntletCursor/cursor_final.png'), text !important;
+    cursor: url('../assets/cursors/cursor_final.png'), text !important;
 }
 
 /* Busy/loading cursor */
 .loading, .busy {
-    cursor: url('../assets/gauntletCursor/cursor_outline_blue.png'), wait !important;
+    cursor: url('../assets/cursors/cursor_outline_blue.png'), wait !important;
 }
 
 /* Not allowed cursor */
 .disabled, .no-drop {
-    cursor: url('../assets/gauntletCursor/cursor_final.png'), not-allowed !important;
+    cursor: url('../assets/cursors/cursor_final.png'), not-allowed !important;
 }
 
 /* Cursor hover effects */
 a:hover {
-    cursor: url('../assets/gauntletCursor/cursor_outline_blue.png'), pointer !important;
+    cursor: url('../assets/cursors/cursor_outline_blue.png'), pointer !important;
     transform: scale(1.02);
     transition: transform 0.2s ease;
 }
 
 button:hover, .btn:hover {
-    cursor: url('../assets/gauntletCursor/cursor_outline_blue.png'), pointer !important;
+    cursor: url('../assets/cursors/cursor_outline_blue.png'), pointer !important;
     transform: scale(1.02);
     transition: transform 0.2s ease;
 }
 
 .theme-toggle:hover {
-    cursor: url('../assets/gauntletCursor/cursor_outline_blue.png'), pointer !important;
+    cursor: url('../assets/cursors/cursor_outline_blue.png'), pointer !important;
     transform: scale(1.02);
     transition: transform 0.2s ease;
 }
 
 .gallery-item:hover {
-    cursor: url('../assets/gauntletCursor/cursor_outline_blue.png'), pointer !important;
+    cursor: url('../assets/cursors/cursor_outline_blue.png'), pointer !important;
     transform: scale(1.02);
     transition: transform 0.2s ease;
 }
@@ -61,79 +61,79 @@ button:hover, .btn:hover {
 
 /* Loading state cursor */
 .loading-cursor {
-    cursor: url('../assets/gauntletCursor/cursor_outline_blue.png'), wait !important;
+    cursor: url('../assets/cursors/cursor_outline_blue.png'), wait !important;
 }
 
 /* Disabled state cursor */
 .disabled-cursor {
-    cursor: url('../assets/gauntletCursor/cursor_final.png'), not-allowed !important;
+    cursor: url('../assets/cursors/cursor_final.png'), not-allowed !important;
 }
 
 /* Special cursor states for different interactions */
 /* Danger/warning elements */
 .danger, .warning, .delete {
-    cursor: url('../assets/gauntletCursor/cursor_outline_blue.png'), pointer !important;
+    cursor: url('../assets/cursors/cursor_outline_blue.png'), pointer !important;
 }
 
 /* Info/primary elements */
 .info, .primary, .theme-toggle {
-    cursor: url('../assets/gauntletCursor/cursor_outline_blue.png'), pointer !important;
+    cursor: url('../assets/cursors/cursor_outline_blue.png'), pointer !important;
 }
 
 /* Success elements */
 .success, .confirm {
-    cursor: url('../assets/gauntletCursor/cursor_final.png'), pointer !important;
+    cursor: url('../assets/cursors/cursor_final.png'), pointer !important;
 }
 
 /* High contrast elements */
 .high-contrast, .important {
-    cursor: url('../assets/gauntletCursor/cursor_outline_blue.png'), pointer !important;
+    cursor: url('../assets/cursors/cursor_outline_blue.png'), pointer !important;
 }
 
 /* Light theme elements */
 .light-element, .subtle {
-    cursor: url('../assets/gauntletCursor/cursor_final.png'), pointer !important;
+    cursor: url('../assets/cursors/cursor_final.png'), pointer !important;
 }
 
 /* Shiny/premium elements */
 .premium, .special {
-    cursor: url('../assets/gauntletCursor/cursor_outline_blue.png'), pointer !important;
+    cursor: url('../assets/cursors/cursor_outline_blue.png'), pointer !important;
 }
 
 /* More Cats button special cursor */
 #more-cats-btn {
-    cursor: url('../assets/gauntletCursor/cursor_outline_blue.png'), pointer !important;
+    cursor: url('../assets/cursors/cursor_outline_blue.png'), pointer !important;
 }
 
 #more-cats-btn:hover {
-    cursor: url('../assets/gauntletCursor/cursor_outline_blue.png'), pointer !important;
+    cursor: url('../assets/cursors/cursor_outline_blue.png'), pointer !important;
 }
 
 /* Navigation links special cursor */
 .list-group-item a {
-    cursor: url('../assets/gauntletCursor/cursor_final.png'), pointer !important;
+    cursor: url('../assets/cursors/cursor_final.png'), pointer !important;
 }
 
 .list-group-item a:hover {
-    cursor: url('../assets/gauntletCursor/cursor_outline_blue.png'), pointer !important;
+    cursor: url('../assets/cursors/cursor_outline_blue.png'), pointer !important;
 }
 
 /* Footer links */
 .footer-link {
-    cursor: url('../assets/gauntletCursor/cursor_final.png'), pointer !important;
+    cursor: url('../assets/cursors/cursor_final.png'), pointer !important;
 }
 
 .footer-link:hover {
-    cursor: url('../assets/gauntletCursor/cursor_outline_blue.png'), pointer !important;
+    cursor: url('../assets/cursors/cursor_outline_blue.png'), pointer !important;
 }
 
 /* Social media icons */
 .footer-social-icon {
-    cursor: url('../assets/gauntletCursor/cursor_outline_blue.png'), pointer !important;
+    cursor: url('../assets/cursors/cursor_outline_blue.png'), pointer !important;
 }
 
 .footer-social-icon:hover {
-    cursor: url('../assets/gauntletCursor/cursor_outline_blue.png'), pointer !important;
+    cursor: url('../assets/cursors/cursor_outline_blue.png'), pointer !important;
 }
 .gallery-grid {
     padding: 2rem 0;

@@ -81,12 +81,12 @@ Common to all pages:
 - `time.js`, `theme.js`, `gauntlet-cursor.js`, `audio-click.js`
 
 ### RSS feed
-`js/rss-feed-reader.js` reads `config/rss.txt` (currently HackTheBox blog) and proxies through a public CORS proxy. Brittle by design — see to-do.md for an alternative using a scheduled GitHub Action that pre-commits `data/feed.json`.
+RSS sources live in `_data/rss.yml` (Jekyll-native, accessible via `{{ site.data.rss }}`). The current `js/rss-feed-reader.js` still hardcodes a fallback list and does not yet read from the YAML — see to-do.md for the planned migration to a GitHub Action that pre-commits `_data/feed.json`.
 
 ### Assets
-- `assets/images/` — backgrounds, gallery photos, social icons (note: `linkedin-64.png` is the canonical name; `Likedin-64.png` retained as legacy)
+- `assets/images/` — backgrounds, gallery photos, social icons
 - `assets/audio/` — UI sound effects
-- `assets/gauntletCursor/` — custom cursor sprites
+- `assets/cursors/` — custom cursor sprites (Warcraft 3 gauntlet style)
 
 ## Key files when changing the chrome
 
