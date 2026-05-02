@@ -31,11 +31,15 @@ Diviso in 7 file modulari:
 - [x] Meccanismo `stylesheets:` in front-matter per CSS page-specific
 - [x] Monolite `rotating-image.css` eliminato
 
-### 2. RSS feed reader robusto
-Dipende da un proxy CORS pubblico (vedere `js/rss-feed-reader.js`).
-- [ ] Documentare in CLAUDE.md quale proxy è usato
-- [ ] Alternativa: GitHub Action schedulata che fetcha il feed e committa `_data/feed.json` — il client lo legge senza CORS, niente proxy esterni
-- [ ] Aggiungere fallback graceful se il fetch fallisce
+### 2. ~~RSS feed reader robusto~~ ✅ FATTO
+Pipeline a 3 pezzi, senza CORS proxy:
+- [x] `_data/rss.yml` — sorgenti
+- [x] `scripts/fetch-rss.mjs` — Node script (fast-xml-parser + js-yaml) che aggrega RSS/Atom in `assets/data/feed.json`
+- [x] `.github/workflows/refresh-rss.yml` — esegue ogni 6h + on push quando rss.yml/script cambiano
+- [x] `js/rss-feed-reader.js` rifattorizzato per leggere il JSON statico
+- [x] Fallback graceful se il fetch fallisce
+- [x] Testato localmente: 4/4 fonti, 40 items aggregati
+- [ ] Verificare la prima esecuzione dell'Action dopo il merge (deve creare il primo `feed.json` reale)
 
 ### 3. Pulizia asset
 - [x] Eliminato il vecchio `assets/images/Likedin-64.png`

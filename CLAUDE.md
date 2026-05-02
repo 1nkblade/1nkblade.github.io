@@ -80,8 +80,21 @@ Page-specific:
 Common to all pages:
 - `time.js`, `theme.js`, `gauntlet-cursor.js`, `audio-click.js`
 
-### RSS feed
-RSS sources live in `_data/rss.yml` (Jekyll-native, accessible via `{{ site.data.rss }}`). The current `js/rss-feed-reader.js` still hardcodes a fallback list and does not yet read from the YAML — see to-do.md for the planned migration to a GitHub Action that pre-commits `_data/feed.json`.
+### RSS feed pipeline
+Three-piece flow that avoids any client-side CORS proxy:
+
+1. **`_data/rss.yml`** — list of source feeds (name, url, category)
+2. **`scripts/fetch-rss.mjs`** — Node script that reads the YAML, fetches each feed, parses RSS/Atom, writes a flat sorted aggregate to `assets/data/feed.json`
+3. **`.github/workflows/refresh-rss.yml`** — runs the script every 6 hours (and on push when the YAML or script changes), commits the JSON if it differs
+
+`js/rss-feed-reader.js` fetches `assets/data/feed.json` at runtime and renders. If the fetch fails (e.g. JSON missing or empty), it shows a fallback "feed unavailable" item.
+
+To add a new source: edit `_data/rss.yml`, push, and the action populates the JSON. To test locally:
+```bash
+cd scripts && npm install
+cd .. && node scripts/fetch-rss.mjs
+```
+The `fast-xml-parser` is used with `processEntities: false` to bypass its XML entity-expansion limit (some real-world feeds like dev.to exceed it); common HTML entities are decoded manually in `stripHtml`.
 
 ### Assets
 - `assets/images/` — backgrounds, gallery photos, social icons
