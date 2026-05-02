@@ -1,0 +1,69 @@
+# To-Do: miglioramenti strutturali
+
+## ✅ Completato (migrazione Jekyll)
+
+- [x] **Setup Jekyll**: `_config.yml`, `Gemfile`, `.gitignore` per `_site/` etc.
+- [x] **Layout condiviso**: `_layouts/default.html` + `_includes/{head,header,sidebar,footer}.html`
+- [x] **Nav data centralizzata**: `_data/nav.yml` alimenta sidebar + footer
+- [x] **ThemeManager estratto**: ora in `js/theme.js`, non più inline in ogni pagina
+- [x] **Pagine convertite**: `index.html`, `gallery.html`, `feed.html`, `404.html` usano front-matter + layout
+- [x] **Script inline estratti**: `js/404.js`, `js/gallery-more-cats.js`
+- [x] **Stili 404 estratti**: `css/404.css` (caricato via `extra_head`)
+- [x] **`template.html` rimosso**: rimpiazzato da `_layouts/default.html`
+- [x] **README spostato in root**, cartella `docs/` eliminata
+- [x] **Sidebar links**: erano già puliti nelle pagine pubblicate (3 link); il problema era solo in `template.html`, ora rimosso
+- [x] **SEO**: `jekyll-seo-tag` + `jekyll-sitemap` plugins, `robots.txt`, favicon
+- [x] **`linkedin-64.png`**: aggiunto con nome corretto (vecchio `Likedin-64.png` mantenuto per compatibilità)
+- [x] **`loading="lazy"`** aggiunto alle immagini gallery
+- [x] **`rel="noopener"`** aggiunto ai link `target="_blank"` nel footer
+
+## 🔧 Da fare
+
+### 1. Spezzare `css/rotating-image.css` (2478 righe)
+Il file è monolitico. Suddividere per concern:
+- [ ] `css/base.css` — reset, variabili CSS, tipografia
+- [ ] `css/theme.css` — varianti `[data-theme]`
+- [ ] `css/layout.css` — header, sidebar, footer, grid
+- [ ] `css/components.css` — card, gallery, feed, social, rotating image
+- [ ] `css/animations.css` — keyframes e transizioni
+- [ ] Aggiornare `_includes/head.html` con i nuovi `<link>`
+- [ ] Rinominare il file principale: `rotating-image.css` non descrive il contenuto
+
+### 2. RSS feed reader robusto
+Dipende da un proxy CORS pubblico (vedere `js/rss-feed-reader.js`).
+- [ ] Documentare in CLAUDE.md quale proxy è usato
+- [ ] Alternativa: GitHub Action schedulata che fetcha il feed e committa `_data/feed.json` — il client lo legge senza CORS, niente proxy esterni
+- [ ] Aggiungere fallback graceful se il fetch fallisce
+
+### 3. Pulizia asset
+- [ ] Eliminare il vecchio `assets/images/Likedin-64.png` una volta verificato che non sia referenziato esternamente
+- [ ] Rinominare `cat1.jpg`, `cat2.jpg`, `cat3.jpg` con nomi descrittivi (se ancora usati)
+- [ ] Verificare che nessuna immagine sia >500KB; eventualmente convertire in WebP
+- [ ] Considerare di sostituire le immagini hard-coded (Pinterest URL nell'avatar) con asset locali
+
+### 4. Accessibilità e qualità
+- [ ] Verificare contrasto colori in entrambi i temi (axe DevTools)
+- [ ] Aggiungere skip-link "salta al contenuto" nel layout
+- [ ] Lingua coerente: `_config.yml` ha `lang: en` ma il contenuto homepage è in italiano — decidere `it` o usare `lang` per-page
+- [ ] Verificare focus visibile su tutti gli elementi interattivi
+- [ ] Validare HTML (`https://validator.w3.org`)
+
+### 5. Pagine pianificate (opzionale)
+La sidebar attuale ha solo Home/Gallery/Feed. Se si vogliono creare altre pagine:
+- [ ] About, Projects, Contact, Resume — aggiungerle a `_data/nav.yml` quando esistono
+- [ ] Per ora il codice non ha link rotti
+
+### 6. Tooling opzionale
+- [ ] `.editorconfig` per indentazione consistente
+- [ ] GitHub Action di lint (HTMLProofer per link rotti) su PR
+- [ ] Prettier config
+
+### 7. Performance
+- [ ] Aggiungere `loading="lazy"` alle immagini below-the-fold rimaste
+- [ ] Considerare `<link rel="preconnect">` per `cdn.jsdelivr.net`, `fonts.googleapis.com`
+- [ ] Self-host font JetBrains Mono se la latenza Google Fonts è un problema
+
+### 8. Verifiche post-deploy
+- [ ] Dopo il push, verificare che `https://1nkblade.github.io/sitemap.xml` esista
+- [ ] Verificare che `https://1nkblade.github.io/robots.txt` punti correttamente al sitemap
+- [ ] Verificare i tag `<meta og:*>` con il debugger Facebook/LinkedIn

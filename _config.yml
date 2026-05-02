@@ -1,0 +1,30 @@
+title: "1nkblade's Portfolio"
+description: "Professional portfolio showcasing web development projects and skills"
+url: "https://1nkblade.github.io"
+baseurl: ""
+author:
+  name: "1nkblade"
+  email: "mail@1nkblade.com"
+
+lang: en
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules
+  - to-do.md
+  - CLAUDE.md
+  - docs/
+
+permalink: /:basename:output_ext
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"

@@ -1,0 +1,18 @@
+{%- assign nav_items = site.data.nav | default: site.nav -%}
+<aside class="col-12 col-md-2 d-none d-md-block bg-dark text-light" id="right-content" aria-label="Navigation sidebar">
+    <div class="container rounded-3 bg-dark-subtle h-100 text-dark text-center d-flex flex-column">
+        <h2 class="fs-4 mt-3 mb-0">Navigation</h2>
+        <hr>
+        <nav>
+            <ul class="list-group list-group-flush text-start">
+                {%- for item in site.data.nav -%}
+                {%- assign item_url = item.url | relative_url -%}
+                {%- assign current_url = page.url | relative_url -%}
+                <li class="list-group-item bg-transparent border-0">
+                    <a href="{{ item.url | relative_url }}" class="text-decoration-none{% if page.url == item.url or page.nav_key == item.key %} active-link{% endif %}">{{ item.title }}</a>
+                </li>
+                {%- endfor -%}
+            </ul>
+        </nav>
+    </div>
+</aside>

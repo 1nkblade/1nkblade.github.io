@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en' }}">
+<head>
+    {%- include head.html -%}
+</head>
+<body class="bg-dark-subtle">
+
+    {%- if page.scroll_progress -%}
+    <div class="scroll-progress-container fixed-top" style="z-index: 9999;">
+        <div class="scroll-progress bg-info" style="height: 3px; width: 0%; transition: width 0.1s ease;"></div>
+    </div>
+    {%- endif -%}
+
+    {%- include header.html -%}
+
+    <main class="container-fluid" id="main-container">
+        <div class="row{% if page.center_content %} justify-content-center{% endif %}">
+            <section class="col-12 {% if page.sidebar == false %}col-md-12{% else %}col-md-10{% endif %} bg-dark" id="main-content">
+                {{ content }}
+            </section>
+
+            {%- unless page.sidebar == false -%}
+            {%- include sidebar.html -%}
+            {%- endunless -%}
+        </div>
+    </main>
+
+    {%- include footer.html -%}
+
+    <script src="{{ '/js/time.js' | relative_url }}" defer></script>
+    <script src="{{ '/js/audio-click.js' | relative_url }}" defer></script>
+    <script src="{{ '/js/gauntlet-cursor.js' | relative_url }}" defer></script>
+    <script src="{{ '/js/theme.js' | relative_url }}" defer></script>
+
+    {%- for script in page.scripts -%}
+    <script src="{{ script | relative_url }}" defer></script>
+    {%- endfor -%}
+
+    {%- if page.inline_script -%}
+    <script>{{ page.inline_script }}</script>
+    {%- endif -%}
+</body>
+</html>

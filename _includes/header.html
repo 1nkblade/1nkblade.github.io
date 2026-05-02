@@ -1,0 +1,28 @@
+<header class="navbar navbar-expand-lg sticky-top bg-dark"{% if page.scroll_progress %} style="z-index: 9998;"{% endif %}>
+    <nav class="container-fluid">
+        <div id="clock" class="container-fluid text-light rounded-3">
+            <div class="row align-items-center">
+                <div class="col-4">
+                    <div id="time" class="fs-6 text-dark-emphasis"></div>
+                    <div id="date" class="fs-5 text-dark"></div>
+                </div>
+
+                <div class="col-4 text-center">
+                    {%- if page.header_center -%}
+                    <h5 class="mb-0 text-light">{{ page.header_center }}</h5>
+                    {%- endif -%}
+                </div>
+
+                <div class="col-4 text-end d-flex align-items-center justify-content-end">
+                    <div class="theme-toggle" id="theme-toggle" title="Toggle Dark/Light Mode">
+                        <div class="theme-toggle-slider"></div>
+                    </div>
+
+                    <a href="{{ '/' | relative_url }}" class="btn btn-outline-light btn-sm ms-2" aria-label="Go to Home page">
+                        <i class="bi bi-house-door"></i> Home
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
