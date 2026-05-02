@@ -106,19 +106,6 @@
     transition: all var(--transition-speed) ease;
 }
 
-/* Button theme awareness */
-.btn-outline-light {
-    border-color: var(--border-color);
-    color: var(--text-color);
-    transition: all var(--transition-speed) ease;
-}
-
-.btn-outline-light:hover {
-    background-color: var(--orange-yellow);
-    border-color: var(--orange-yellow);
-    color: var(--text-light);
-}
-
 /* List group theme awareness */
 .list-group-item {
     background-color: transparent;

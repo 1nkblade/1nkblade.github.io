@@ -8,7 +8,6 @@ scripts:
   - /js/typewriter.js
   - /js/weather.js
   - /js/scroll-animations.js
-  - /js/number-trivia.js
 ---
 
 <!-- Hero Section -->
@@ -26,9 +25,18 @@ scripts:
 
         <div class="col-12 col-md text-center text-md-start">
             <h1 class="display-4 text-white mb-1">1nkblade's Portfolio</h1>
-            <p class="lead text-white-50 mb-0" id="typewriter-text">
+            <p class="lead text-white-50 mb-3" id="typewriter-text">
                 <span id="typed-text"></span><span class="typing-cursor">|</span>
             </p>
+            <div class="hero-cta d-flex flex-wrap gap-2 justify-content-center justify-content-md-start">
+                <a href="https://inkblade.cloud" target="_blank" rel="noopener" class="btn btn-primary btn-cta">
+                    <i class="bi bi-briefcase me-2"></i>View Projects
+                    <i class="bi bi-arrow-up-right ms-1 small"></i>
+                </a>
+                <a href="mailto:iamomar1337@gmail.com" class="btn btn-outline-light btn-cta">
+                    <i class="bi bi-envelope me-2"></i>Get in touch
+                </a>
+            </div>
         </div>
 
         <div class="col-12 col-md-auto">
@@ -56,52 +64,134 @@ scripts:
     </div>
 </div>
 
-<!-- About Section -->
-<div class="content-section container-fluid bg-primary-subtle rounded-3 mb-3 p-4">
-    <h2 class="text-white mb-3">
+<!-- Featured Work Section -->
+<section id="featured-work" class="content-section container-fluid bg-primary-subtle rounded-3 mb-3 p-4" aria-labelledby="featured-work-heading">
+    <div class="d-flex justify-content-between align-items-end flex-wrap mb-4 gap-2">
+        <div>
+            <h2 id="featured-work-heading" class="text-white mb-1">
+                <i class="bi bi-briefcase me-2"></i>Featured Work
+            </h2>
+            <p class="text-white-50 mb-0">
+                A taste of what I'm building. The full catalog lives at
+                <a href="https://inkblade.cloud" target="_blank" rel="noopener" class="text-info text-decoration-none">
+                    inkblade.cloud <i class="bi bi-arrow-up-right small"></i>
+                </a>.
+            </p>
+        </div>
+        <div class="d-flex gap-2 flex-wrap">
+            <a href="https://inkblade.cloud" target="_blank" rel="noopener" class="btn btn-sm btn-primary">
+                <i class="bi bi-globe2 me-1"></i>inkblade.cloud
+            </a>
+            <a href="https://github.com/1nkblade" target="_blank" rel="noopener" class="btn btn-sm btn-outline-light">
+                <i class="bi bi-github me-1"></i>GitHub
+            </a>
+        </div>
+    </div>
+
+    <div class="row g-3">
+        <!-- Project: this site -->
+        <div class="col-12 col-md-6 col-lg-4">
+            <article class="project-card h-100">
+                <div class="project-card-thumb" aria-hidden="true">
+                    <i class="bi bi-window-stack"></i>
+                </div>
+                <div class="project-card-body">
+                    <h3 class="project-card-title">1nkblade.github.io</h3>
+                    <p class="project-card-desc">
+                        This very portfolio. Static site with Jekyll, custom Solarized theme,
+                        scheduled RSS aggregation via GitHub Actions.
+                    </p>
+                    <div class="project-card-tags">
+                        <span class="project-tag">Jekyll</span>
+                        <span class="project-tag">Bootstrap 5</span>
+                        <span class="project-tag">GitHub Actions</span>
+                    </div>
+                </div>
+                <div class="project-card-actions">
+                    <a href="https://github.com/1nkblade/1nkblade.github.io" target="_blank" rel="noopener" class="btn btn-sm btn-outline-light">
+                        <i class="bi bi-github"></i> Code
+                    </a>
+                    <a href="{{ '/' | relative_url }}" class="btn btn-sm btn-outline-light">
+                        <i class="bi bi-box-arrow-up-right"></i> Live
+                    </a>
+                </div>
+            </article>
+        </div>
+
+        <!-- Placeholder: coming soon -->
+        <div class="col-12 col-md-6 col-lg-4">
+            <article class="project-card project-card-placeholder h-100" aria-label="Project coming soon">
+                <div class="project-card-thumb" aria-hidden="true">
+                    <i class="bi bi-stars"></i>
+                </div>
+                <div class="project-card-body">
+                    <h3 class="project-card-title">Project name</h3>
+                    <p class="project-card-desc">
+                        Working on something new — drop a line if you'd like to be the first to hear about it.
+                    </p>
+                    <div class="project-card-tags">
+                        <span class="project-tag">Coming soon</span>
+                    </div>
+                </div>
+            </article>
+        </div>
+
+        <!-- Placeholder: coming soon -->
+        <div class="col-12 col-md-6 col-lg-4">
+            <article class="project-card project-card-placeholder h-100" aria-label="Project coming soon">
+                <div class="project-card-thumb" aria-hidden="true">
+                    <i class="bi bi-rocket-takeoff"></i>
+                </div>
+                <div class="project-card-body">
+                    <h3 class="project-card-title">Project name</h3>
+                    <p class="project-card-desc">
+                        Another idea in the workshop. More info will land here soon.
+                    </p>
+                    <div class="project-card-tags">
+                        <span class="project-tag">Coming soon</span>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+
+<!-- About Section (compact) -->
+<section class="content-section container-fluid bg-primary-subtle rounded-3 mb-3 p-4" aria-labelledby="about-heading">
+    <h2 id="about-heading" class="text-white mb-3">
         <i class="bi bi-person-circle me-2"></i>About Me
     </h2>
     <p class="text-white-50 lead mb-3">
-        Hi! I'm <strong class="text-info">1nkblade</strong>, a web developer passionate
-        about technology and digital innovation.
+        Hi! I'm <strong class="text-info">1nkblade</strong>, a web developer who likes
+        building modern, slightly opinionated web apps that pair clean design with solid engineering.
     </p>
-    <p class="text-white-50 mb-3">
-        Specialized in building modern web applications, I enjoy creating engaging
-        digital experiences that combine appealing design with robust functionality.
-        I'm always on the lookout for new challenges and emerging technologies.
-    </p>
-    <div class="badge bg-primary me-2 mb-2">Full-Stack Developer</div>
-    <div class="badge bg-success me-2 mb-2">UI/UX Enthusiast</div>
-    <div class="badge bg-info me-2 mb-2">Tech Innovator</div>
-</div>
-
-<!-- Number Trivia Section -->
-<div class="content-section container-fluid bg-primary-subtle rounded-3 mb-3 p-4">
-    <h2 class="text-white text-center mb-4">
-        <i class="bi bi-123 me-2"></i>Number Trivia
-    </h2>
-    <p class="text-white-50 text-center mb-4">
-        Discover interesting facts about numbers! 🎲
-    </p>
-
-    <div class="row align-items-center g-4">
-        <div class="col-md-8">
-            <div class="number-fact text-white-50" id="number-fact" aria-live="polite">
-                <i class="bi bi-hourglass-split"></i> Loading number fact...
-            </div>
-        </div>
-        <div class="col-md-4">
-            <label for="number-input" class="visually-hidden">Choose a number between 1 and 9999</label>
-            <input type="number" class="form-control mb-2" id="number-input"
-                   placeholder="Enter a number" min="1" max="9999" inputmode="numeric">
-            <div class="d-grid gap-2 d-md-flex">
-                <button id="fetch-number-fact-btn" class="btn btn-outline-primary btn-sm flex-fill">
-                    <i class="bi bi-search"></i> Get Fact
-                </button>
-                <button id="fetch-random-number-btn" class="btn btn-outline-secondary btn-sm flex-fill">
-                    <i class="bi bi-shuffle"></i> Random
-                </button>
-            </div>
-        </div>
+    <div class="mb-2">
+        <span class="badge bg-primary me-2 mb-2">Full-Stack Developer</span>
+        <span class="badge bg-success me-2 mb-2">UI/UX Enthusiast</span>
+        <span class="badge bg-info me-2 mb-2">Tech Tinkerer</span>
     </div>
-</div>
+</section>
+
+<!-- Contact CTA Banner -->
+<section class="content-section contact-banner container-fluid bg-primary-subtle rounded-3 mb-3 p-4 p-md-5 text-center" aria-labelledby="contact-banner-heading">
+    <h2 id="contact-banner-heading" class="text-white mb-2">
+        <i class="bi bi-chat-dots me-2"></i>Got a project in mind?
+    </h2>
+    <p class="text-white-50 mb-4">
+        I'm open to freelance, collaborations, and a good chat about web tech.
+    </p>
+    <div class="d-flex flex-wrap gap-2 justify-content-center">
+        <a href="mailto:iamomar1337@gmail.com" class="btn btn-primary btn-cta">
+            <i class="bi bi-envelope me-2"></i>Send an email
+        </a>
+        <a href="https://inkblade.cloud" target="_blank" rel="noopener" class="btn btn-outline-light btn-cta">
+            <i class="bi bi-globe2 me-2"></i>inkblade.cloud
+        </a>
+        <a href="https://github.com/1nkblade" target="_blank" rel="noopener" class="btn btn-outline-light btn-cta">
+            <i class="bi bi-github me-2"></i>GitHub
+        </a>
+        <a href="https://www.linkedin.com/in/alaouiomar01/" target="_blank" rel="noopener" class="btn btn-outline-light btn-cta">
+            <i class="bi bi-linkedin me-2"></i>LinkedIn
+        </a>
+    </div>
+</section>

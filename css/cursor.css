@@ -35,8 +35,6 @@ a:hover {
 
 button:hover, .btn:hover {
     cursor: url('../assets/cursors/cursor_outline_blue.png'), pointer !important;
-    transform: scale(1.02);
-    transition: transform 0.2s ease;
 }
 
 .theme-toggle:hover {
@@ -235,30 +233,6 @@ button:hover, .btn:hover {
     .gallery-item {
         height: 180px;  /* Even smaller on phones */
     }
-}
-
-/* Home Button Styles */
-.btn-outline-light {
-    color: var(--text-light) !important;
-    border-color: var(--base01) !important;
-    background-color: transparent !important;
-    transition: all var(--transition-speed) ease;
-    font-family: 'JetBrains Mono', monospace !important;
-    font-weight: 500;
-    letter-spacing: 0.025em;
-}
-
-.btn-outline-light:hover {
-    background-color: var(--orange-yellow) !important;
-    border-color: var(--orange-yellow) !important;
-    color: var(--text-light) !important;
-    transform: translateY(-1px);
-    box-shadow: 0 2px 4px var(--shadow-color);
-}
-
-.btn-outline-light:focus {
-    box-shadow: 0 0 0 0.2rem rgba(217, 119, 6, 0.25) !important;  /* Yellow-orange focus */
-    border-color: var(--orange-yellow) !important;
 }
 
 /* Button Styles - Now we have Home button */

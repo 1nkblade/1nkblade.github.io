@@ -15,13 +15,13 @@
 
     <main class="container-fluid" id="main-container">
         <div class="row{% if page.center_content %} justify-content-center{% endif %}">
-            <section class="col-12 {% if page.sidebar == false %}col-md-12{% else %}col-md-10{% endif %} bg-dark" id="main-content">
-                {{ content }}
-            </section>
-
             {%- unless page.sidebar == false -%}
             {%- include sidebar.html -%}
             {%- endunless -%}
+
+            <section class="col-12 {% if page.sidebar == false %}col-md-12{% else %}col-md-10{% endif %} bg-dark" id="main-content">
+                {{ content }}
+            </section>
         </div>
     </main>
 

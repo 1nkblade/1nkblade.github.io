@@ -1,3 +1,77 @@
+/* ============================================================
+   Typography readability — monospace-aware tweaks. No font change,
+   targets line-height, measure, weight, and secondary-text contrast.
+   ============================================================ */
+
+/* Constrain reading measure on long-form copy (§6 line-length-control).
+   ~68ch keeps lines comfortable on wide screens without breaking grids. */
+.content-section p,
+.content-section .lead {
+    max-width: 68ch;
+}
+
+/* When the section centers its text, keep the measure centered too. */
+.content-section.text-center p,
+.content-section .text-center > p,
+.contact-banner p {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Bootstrap's .lead defaults to weight 300 — too thin in JetBrains Mono.
+   Bump to 400 and slightly larger leading. */
+.lead {
+    font-weight: 400 !important;
+    line-height: 1.6;
+}
+
+/* Paragraph rhythm: consistent breathing between blocks. */
+.content-section p {
+    margin-bottom: 1rem;
+}
+
+.content-section p:last-child {
+    margin-bottom: 0;
+}
+
+/* Headings: monospace looks thin at default weights — bump to 600. */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    line-height: 1.25;
+}
+
+/* .display-* headings keep their punchy size but get a sturdier weight
+   so the monospace stems read as confident, not anemic. */
+.display-1, .display-2, .display-3,
+.display-4, .display-5, .display-6 {
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    line-height: 1.15;
+}
+
+/* Secondary text contrast: Bootstrap's text-white-50 = rgba(255,255,255,0.5)
+   gets close to WCAG AA limit on lighter dark surfaces. Bump to 0.72. */
+.text-white-50 {
+    color: rgba(255, 255, 255, 0.72) !important;
+}
+
+[data-theme="light"] .text-white-50 {
+    color: rgba(0, 0, 0, 0.65) !important;
+}
+
+/* Small text (timestamps, captions): never below 0.8125rem (13px) for
+   readability; below that on monospace, glyphs become hard to scan. */
+small,
+.small {
+    font-size: 0.8125rem;
+}
+
+/* Footer copy: slightly bumped from 0.9rem so it stays scannable. */
+.footer-text,
+.footer-link {
+    font-size: 0.95rem;
+}
+
 /* Icon sizing utilities — keep markup free of inline font-size styles. */
 .icon-lg  { font-size: 2rem; }
 .icon-xl  { font-size: 3rem; }
@@ -47,4 +121,226 @@
 
 [data-theme="light"] .section-hero::before {
     background: var(--orange);
+}
+
+/* ============================================================
+   Button system — site-wide consistent interaction states.
+   Overrides Bootstrap defaults where needed. All buttons share
+   the same hover/active/focus/disabled rhythm regardless of variant.
+   ============================================================ */
+.btn {
+    min-height: 44px;
+    padding: 0.5rem 1.1rem;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    border-width: 1px;
+    transition: transform 150ms ease-out,
+                background-color 150ms ease,
+                border-color 150ms ease,
+                color 150ms ease,
+                box-shadow 200ms ease;
+}
+
+.btn-sm {
+    min-height: 36px;
+    padding: 0.375rem 0.75rem;
+    font-size: 0.875rem;
+}
+
+.btn-lg {
+    min-height: 52px;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.05rem;
+}
+
+.btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px var(--shadow-color);
+}
+
+/* Tactile press feedback (§2 press-feedback): subtle scale within ~80ms. */
+.btn:active {
+    transform: translateY(0) scale(0.97);
+    box-shadow: 0 1px 3px var(--shadow-color);
+    transition-duration: 80ms;
+}
+
+/* Solarized focus ring instead of Bootstrap default (§1 focus-states). */
+.btn:focus-visible {
+    outline: 2px solid var(--cyan);
+    outline-offset: 3px;
+    box-shadow: none;
+}
+
+[data-theme="light"] .btn:focus-visible {
+    outline-color: var(--orange);
+}
+
+/* Disabled state (§8 disabled-states). */
+.btn:disabled,
+.btn.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    pointer-events: none;
+    transform: none;
+    box-shadow: none;
+}
+
+/* Make outline-light readable on dark surfaces consistently. */
+.btn-outline-light:hover {
+    background-color: var(--bg-hover);
+    color: var(--orange-yellow);
+    border-color: var(--orange-yellow);
+}
+
+/* CTA is now the "marketing" size variant on top of the global system. */
+.btn-cta {
+    min-height: 48px;
+    padding: 0.625rem 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.025em;
+}
+
+.btn-cta:hover {
+    transform: translateY(-2px);
+}
+
+/* Honor user motion preference. */
+@media (prefers-reduced-motion: reduce) {
+    .btn,
+    .btn:hover,
+    .btn:active {
+        transform: none;
+        transition: background-color 0s, color 0s, border-color 0s;
+    }
+}
+
+/* ---- Project cards -------------------------------------------------- */
+.project-card {
+    display: flex;
+    flex-direction: column;
+    background: var(--bg-secondary);
+    border: 1px solid var(--base01);
+    border-radius: 0.5rem;
+    padding: 1.25rem;
+    transition: transform var(--transition-speed) ease,
+                border-color var(--transition-speed) ease,
+                box-shadow var(--transition-speed) ease;
+}
+
+.project-card:hover {
+    transform: translateY(-2px);
+    border-color: var(--cyan);
+    box-shadow: 0 8px 24px var(--shadow-color);
+}
+
+[data-theme="light"] .project-card:hover {
+    border-color: var(--orange);
+}
+
+.project-card-thumb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    background: var(--bg-accent);
+    border-radius: 0.375rem;
+    margin-bottom: 1rem;
+    color: var(--cyan);
+    font-size: 2.5rem;
+}
+
+[data-theme="light"] .project-card-thumb {
+    color: var(--orange);
+}
+
+.project-card-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-card-title {
+    color: var(--text-light);
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 0 0 0.5rem;
+}
+
+.project-card-desc {
+    color: var(--text-color);
+    opacity: 0.8;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.project-card-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.375rem;
+    margin-bottom: 1rem;
+}
+
+.project-tag {
+    display: inline-block;
+    padding: 0.15rem 0.55rem;
+    background: var(--bg-accent);
+    border: 1px solid var(--base01);
+    border-radius: 999px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    color: var(--text-color);
+    opacity: 0.85;
+}
+
+.project-card-actions {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-top: auto;
+}
+
+/* Placeholder card variant: visually subdued, non-interactive feel */
+.project-card-placeholder {
+    border-style: dashed;
+    opacity: 0.7;
+}
+
+.project-card-placeholder:hover {
+    opacity: 1;
+    transform: none;
+    border-style: dashed;
+    box-shadow: none;
+}
+
+.project-card-placeholder .project-card-thumb {
+    color: var(--text-color);
+    opacity: 0.5;
+}
+
+/* ---- Contact banner ------------------------------------------------- */
+.contact-banner {
+    border: 1px solid var(--base01);
+    position: relative;
+}
+
+.contact-banner h2 {
+    font-size: 1.5rem;
+}
+
+/* Bootstrap-icon variant of the footer social icon (used when no PNG sprite). */
+.footer-social-icon-bi {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    font-size: 1.25rem;
+    color: var(--cyan);
+}
+
+[data-theme="light"] .footer-social-icon-bi {
+    color: var(--orange);
 }

@@ -1,15 +1,26 @@
-{%- assign nav_items = site.data.nav | default: site.nav -%}
-<aside class="col-12 col-md-2 d-none d-md-block bg-dark text-light" id="right-content" aria-label="Navigation sidebar">
-    <div class="container rounded-3 bg-dark-subtle h-100 text-dark text-center d-flex flex-column">
-        <h2 class="fs-4 mt-3 mb-0">Navigation</h2>
-        <hr>
+<aside class="col-12 col-md-2 d-none d-md-block bg-dark text-light" id="sidebar-nav" aria-label="Site navigation">
+    <div class="sidebar-card container rounded-3 bg-dark-subtle h-100 d-flex flex-column">
+        <h2 class="sidebar-title">
+            <i class="bi bi-compass sidebar-title-icon" aria-hidden="true"></i>
+            Navigation
+        </h2>
+        <hr class="sidebar-divider">
         <nav>
-            <ul class="list-group list-group-flush text-start">
+            <ul class="sidebar-nav list-unstyled mb-0">
                 {%- for item in site.data.nav -%}
-                {%- assign item_url = item.url | relative_url -%}
-                {%- assign current_url = page.url | relative_url -%}
-                <li class="list-group-item bg-transparent border-0">
-                    <a href="{{ item.url | relative_url }}" class="text-decoration-none{% if page.url == item.url or page.nav_key == item.key %} active-link{% endif %}">{{ item.title }}</a>
+                {%- assign is_active = false -%}
+                {%- if page.url == item.url or page.nav_key == item.key -%}
+                  {%- assign is_active = true -%}
+                {%- endif -%}
+                <li class="sidebar-nav-item">
+                    <a href="{{ item.url | relative_url }}"
+                       class="sidebar-nav-link{% if is_active %} active-link{% endif %}"
+                       {% if is_active %}aria-current="page"{% endif %}>
+                        {%- if item.icon -%}
+                        <i class="bi {{ item.icon }} sidebar-nav-icon" aria-hidden="true"></i>
+                        {%- endif -%}
+                        <span class="sidebar-nav-label">{{ item.title }}</span>
+                    </a>
                 </li>
                 {%- endfor -%}
             </ul>
