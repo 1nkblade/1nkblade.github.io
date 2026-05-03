@@ -1,118 +1,126 @@
 {
-  "generatedAt": "2026-05-03T08:16:31.772Z",
+  "generatedAt": "2026-05-03T13:50:19.600Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "Pygame Snake, Pt. 6",
-      "link": "https://dev.to/paxfeline/pygame-snake-pt-6-ahh",
-      "pubDate": "2026-05-03T08:11:19.000Z",
-      "description": "<p>Currently, there is a subtle but real flaw in the controls for the game. If the player presses two keys in quick succession, only the last one is registered -- one, or more, are simply dropped.</p> <p>You can see the effect easily if you lower the framerate to something extreme, e.g. 1 (i.e. 1 fr",
+      "title": "I built a free, unlimited cloud storage app",
+      "link": "https://dev.to/imaryannn/i-built-a-free-unlimited-cloud-storage-app-2fi0",
+      "pubDate": "2026-05-03T13:44:21.000Z",
+      "description": "<p>I built a free, unlimited cloud storage app using Telegram's API</p> <p>TelStorage is live at <a href=\"https://telstorage.vercel.app/\" rel=\"noopener noreferrer\">https://telstorage.vercel.app/</a> — free forever, no sign-up required beyond your Telegram credentials.</p> <p>The Problem<br> I kept h",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Data Warehouses, Data Marts, Data Lakes, and Lakehouses - Explained Like You’re Building Them in Real Life",
-      "link": "https://dev.to/anthony-gicheru/data-warehouses-data-marts-data-lakes-and-lakehouses-explained-like-youre-building-them-in-3hmm",
-      "pubDate": "2026-05-03T08:10:27.000Z",
-      "description": "<p>If you’ve been around data engineering long enough, you’ve probably heard these terms thrown around in meetings:</p> <ul> <li>“Just dump it in the data lake”</li> <li>“We’ll expose it through the warehouse”</li> <li>“That goes into the mart”</li> <li>“We’re moving to a lakehouse architecture”</li",
+      "title": "3년만에 교내 IT동아리 웹파트 미션을 리팩토링 해보았다.",
+      "link": "https://dev.to/algoorgoal/3nyeonmane-kuis-webpateu-misyeoneul-ripaegtoring-haeboja-3i39",
+      "pubDate": "2026-05-03T13:43:48.000Z",
+      "description": "<p>2023년에 교내 IT동아리 부원이 되었다. 최근에 다시 웹파트장을 하면서 부원들에게 과제로 나가는 코드를 검토해봤는데 3년 전이랑 다른 관점으로 리팩토링할만한 거리들이 생겨서 적어본다. 그 당시에는 SOLID 원칙을 최대한 지킨다는 이유로, 간결한 컴포넌트 이름을 유지한다는 이유, 컴포넌트 내부 동작이 너무 노출된다는 이유 등으로 내부를 최대한 숨기는 코드를 작성했는데, 지금은 숨길 건 숨기고 드러내야 된다는 관점을 가지게 되었다.</p> <h2> ProductRowList 컴포넌트의 제거 </h2> <p>ProductRow",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Claude Code Skills vs deterministic verify commands — same checks, very different ergonomics",
-      "link": "https://dev.to/zoetaka38/claude-code-skills-vs-deterministic-verify-commands-same-checks-very-different-ergonomics-fgb",
-      "pubDate": "2026-05-03T08:05:21.000Z",
-      "description": "<p>A peer showed me their verification pipeline last week. We were both running coding agents over real tickets, both wanted \"did the agent actually finish the work\" to be a hard gate, and we both had a thing for it. Theirs was a Claude Code Skill — a Markdown file with a few prompt fragments and to",
+      "title": "Your Data Isn't Private. You Just Haven't Put It On-Chain Yet",
+      "link": "https://dev.to/midnight-aliit/your-data-isnt-private-you-just-havent-put-it-on-chain-yet-4oee",
+      "pubDate": "2026-05-03T13:41:20.000Z",
+      "description": "<p>There's a dangerous assumption most developers bring into Compact:</p> <p><em>\"It's a privacy-first chain. My data is private unless I explicitly expose it.\"</em></p> <p>This is backwards. And it's where the serious mistakes happen.</p> <h2> The actual model </h2> <p>Compact doesn't give you auto",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Stop Starting From Scratch: How Claude Projects Will Change the Way You Work",
-      "link": "https://dev.to/abdlrahmansaberabdo/stop-starting-from-scratch-how-claude-projects-will-change-the-way-you-work-2k4b",
-      "pubDate": "2026-05-03T08:03:33.000Z",
-      "description": "<h2> What Is a Claude Project? </h2> <p>A Project is a persistent workspace inside Claude. Think of it as a dedicated room where you and Claude work together on a specific area of your life or work — and unlike a regular chat, it doesn't forget anything between sessions.</p> <p>Each Project has thre",
+      "title": "Agents Make Code Cheaper. CodeClone 2.0 Makes Structural Regressions Harder to Ship.",
+      "link": "https://dev.to/orenlab/agents-make-code-cheaper-codeclone-20-makes-structural-regressions-harder-to-ship-57p8",
+      "pubDate": "2026-05-03T13:34:21.000Z",
+      "description": "<p>I have been writing about CodeClone 2.0 in public while the beta line was still moving.</p> <p>It started with the <a href=\"https://dev.to/orenlab/i-built-a-baseline-aware-python-code-health-tool-for-ci-and-ai-assisted-coding-5dij\">baseline-aware code health model</a>, then moved into the <a href",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Building an AI Coding Agent That Remembers Your Codebase Across Sessions",
-      "link": "https://dev.to/rudraneel_das_d5f9749a93e/building-an-ai-coding-agent-that-remembers-your-codebase-across-sessions-p2d",
-      "pubDate": "2026-05-03T07:53:14.000Z",
-      "description": "<p><strong>Every AI coding agent has amnesia. I fixed it.</strong></p> <p>Two months ago, Ramp's engineering team published a fascinating blog post about <a href=\"https://builders.ramp.com/post/why-we-built-our-background-agent\" rel=\"noopener noreferrer\">Inspect</a> — their internal background codin",
+      "title": "Ubuntu Updated!!",
+      "link": "https://dev.to/pabli44/ubuntu-updated-1lfl",
+      "pubDate": "2026-05-03T13:23:50.000Z",
+      "description": "<p><strong>Want to keep Ubuntu updated?</strong></p> <p>Run these commands on your PC via terminal, or create a .sh file and add the following commands:</p> <p>Bash<br> sudo apt update &amp;&amp;<br> sudo apt full-upgrade -y &amp;&amp;<br> sudo apt autoremove --purge -y &amp;&amp;<br> sudo du -sh /v",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Bot Protection in SvelteKit on Cloudflare Pages",
-      "link": "https://dev.to/testedgg/bot-protection-in-sveltekit-on-cloudflare-pages-609",
-      "pubDate": "2026-05-03T07:52:02.000Z",
-      "description": "<p>If you're running a SvelteKit app on Cloudflare Pages and your content is publicly accessible, commodity scrapers will find it eventually. Here's the protection setup we use at <a href=\"https://tested.gg\" rel=\"noopener noreferrer\">Tested.gg</a> - two layers, mostly free, minimal code.</p> <h2> Th",
+      "title": "Understanding Markdown: What It Means in Writing and How to Use It Properly",
+      "link": "https://dev.to/macarena/understanding-markdown-what-it-means-in-writing-and-how-to-use-it-properly-35i7",
+      "pubDate": "2026-05-03T13:21:21.000Z",
+      "description": "<h1> Understanding Markdown: What It Means in Writing and How to Use It </h1> <p>Markdown is one of those tools that looks deceptively simple until you try to use it in a real dev workflow. Then it suddenly matters. Not because Markdown is magical, but because it turns writing into something that ca",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Direct AI game screens vs controlled game screens: what changed?",
-      "link": "https://dev.to/ryuutora1986/direct-ai-game-screens-vs-controlled-game-screens-what-changed-5afp",
-      "pubDate": "2026-05-03T07:48:09.000Z",
-      "description": "<p>Strong image models can already produce polished game UI screenshots.</p> <p>The harder question is whether those screenshots are useful as production evidence.</p> <p>I tested six common game-screen cases two ways:</p> <ul> <li>a direct prompt baseline</li> <li>a controlled workflow using a scre",
+      "title": "I Built a SAST Scanner From Scratch — Here's Every Design Decision I Made",
+      "link": "https://dev.to/pgmpofu/i-built-a-sast-scanner-from-scratch-heres-every-design-decision-i-made-5454",
+      "pubDate": "2026-05-03T13:18:49.000Z",
+      "description": "<p>When most developers want to scan their code for security vulnerabilities, they install Semgrep or Snyk and call it a day. I did the opposite. I built one from scratch.</p> <p>Not because the existing tools are bad — they're excellent. But because I'm transitioning from 13 years of software engin",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Simulating IoT Devices Without Physical Hardware 🚀",
-      "link": "https://dev.to/milankj/simulating-iot-devices-without-physical-hardware-29dk",
-      "pubDate": "2026-05-03T07:47:47.000Z",
-      "description": "<p>One of the recurring challenges while building IoT systems is testing device communication, telemetry handling, MQTT flows, and event-driven architectures without constantly relying on physical hardware. To solve this problem, I recently started building a lightweight IoT Simulator CLI focused on",
+      "title": "Dart Concurrency Deep Dive — Isolates, Structured Concurrency, and Async Patterns",
+      "link": "https://dev.to/kanta13jp1/dart-concurrency-deep-dive-isolates-structured-concurrency-and-async-patterns-5ala",
+      "pubDate": "2026-05-03T13:17:43.000Z",
+      "description": "<p>Dart's concurrency model is unusual: single-threaded event loop by default, with explicit Isolates for true parallelism. No shared memory, no race conditions, no mutex locks. This guide covers everything from the simple <code>compute()</code> helper to long-lived Isolate workers, structured concu",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "We built a CI gate for our outbound. Replayed it against history. It would have blocked our only conversion.",
-      "link": "https://dev.to/dutchaiagents/we-built-a-ci-gate-for-our-outbound-replayed-it-against-history-it-would-have-blocked-our-only-4525",
-      "pubDate": "2026-05-03T07:43:08.000Z",
-      "description": "<h1> Farcaster Reply-Gate Retro Validation — 2026-05-03 </h1> <p><strong>Author:</strong> claude (Opus 4.7), autonomous wake 2026-05-03 ~05:00 UTC.<br> <strong>Subject:</strong> Retro-validating <code>tools/farcaster_reply_gate.py</code> (commit <code>83d57c9</code>) against the 7 outbound Farcaster",
+      "title": "Indie Dev SaaS Launch — Pricing Strategy, Stripe Integration, and Freemium-to-Paid Design",
+      "link": "https://dev.to/kanta13jp1/indie-dev-saas-launch-pricing-strategy-stripe-integration-and-freemium-to-paid-design-257f",
+      "pubDate": "2026-05-03T13:17:03.000Z",
+      "description": "<p>Monetization is where most indie SaaS apps die. Not because the product is bad, but because the pricing is wrong, the freemium tier is too generous, or the upgrade path is invisible. This guide covers the full stack: value-based pricing principles, freemium architecture, Stripe + Supabase impleme",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Why We Reach for the Layer",
-      "link": "https://dev.to/vivian-voss/why-we-reach-for-the-layer-4lio",
-      "pubDate": "2026-05-03T07:37:36.000Z",
-      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fdftzun0nlxio17rgzyt8.png\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/width=800%",
+      "title": "Supabase Edge Functions Advanced — Streaming, WebSockets, and Background Jobs",
+      "link": "https://dev.to/kanta13jp1/supabase-edge-functions-advanced-streaming-websockets-and-background-jobs-pe9",
+      "pubDate": "2026-05-03T13:16:17.000Z",
+      "description": "<p>Supabase Edge Functions run on Deno Deploy and are far more capable than simple REST handlers. This guide covers three advanced patterns every indie developer should know: streaming responses (for LLM integrations), WebSocket upgrades (for real-time features), and background jobs using <code>Edge",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "All Four Sentinel-1 Satellites Are Now Live",
+      "link": "https://orbitaltoday.com/2026/05/03/all-four-sentinel-1-satellites-are-now-live-and-europes-earth-watch-just-got-stronger/",
+      "pubDate": "2026-05-03T11:19:53.000Z",
+      "description": "Article URL: https://orbitaltoday.com/2026/05/03/all-four-sentinel-1-satellites-are-now-live-and-europes-earth-watch-just-got-stronger/ Comments URL: https://news.ycombinator.com/item?id=47995815 Points: 3 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Systemd-manager-TUI: A TUI application for managing systemd services",
+      "link": "https://github.com/Matheus-git/systemd-manager-tui",
+      "pubDate": "2026-05-03T10:55:30.000Z",
+      "description": "Article URL: https://github.com/Matheus-git/systemd-manager-tui Comments URL: https://news.ycombinator.com/item?id=47995649 Points: 39 # Comments: 8",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Investors pile into clean energy as Iran war drives push for energy security",
+      "link": "https://www.ft.com/content/9921f2b5-c910-4cec-a50f-cad453935a1a",
+      "pubDate": "2026-05-03T09:26:48.000Z",
+      "description": "Article URL: https://www.ft.com/content/9921f2b5-c910-4cec-a50f-cad453935a1a Comments URL: https://news.ycombinator.com/item?id=47995125 Points: 61 # Comments: 55",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Show HN: Apple's Sharp Running in the Browser via ONNX Runtime Web",
+      "link": "https://github.com/bring-shrubbery/ml-sharp-web",
+      "pubDate": "2026-05-03T09:14:56.000Z",
+      "description": "Article URL: https://github.com/bring-shrubbery/ml-sharp-web Comments URL: https://news.ycombinator.com/item?id=47995037 Points: 68 # Comments: 8",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "Specsmaxxing – On overcoming AI psychosis, and why I write specs in YAML",
       "link": "https://acai.sh/blog/specsmaxxing",
       "pubDate": "2026-05-03T06:33:38.000Z",
-      "description": "Article URL: https://acai.sh/blog/specsmaxxing Comments URL: https://news.ycombinator.com/item?id=47994012 Points: 42 # Comments: 25",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Kimi K2.6 just beat Claude, GPT-5.5, and Gemini in a coding challenge",
-      "link": "https://thinkpol.ca/2026/04/30/an-open-weights-chinese-model-just-beat-claude-gpt-5-5-and-gemini-in-a-programming-challenge/",
-      "pubDate": "2026-05-03T04:05:28.000Z",
-      "description": "Article URL: https://thinkpol.ca/2026/04/30/an-open-weights-chinese-model-just-beat-claude-gpt-5-5-and-gemini-in-a-programming-challenge/ Comments URL: https://news.ycombinator.com/item?id=47993235 Points: 245 # Comments: 108",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "AI, Intimacy, and the Data You Never Meant to Share",
-      "link": "https://fshot.org/techzone/the-algorithm-knows.php",
-      "pubDate": "2026-05-03T02:42:43.000Z",
-      "description": "Article URL: https://fshot.org/techzone/the-algorithm-knows.php Comments URL: https://news.ycombinator.com/item?id=47992802 Points: 18 # Comments: 1",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Open source does not imply open community",
-      "link": "https://blog.feld.me/posts/2026/04/open-source-does-not-imply-open-community/",
-      "pubDate": "2026-05-03T02:36:09.000Z",
-      "description": "Article URL: https://blog.feld.me/posts/2026/04/open-source-does-not-imply-open-community/ Comments URL: https://news.ycombinator.com/item?id=47992772 Points: 147 # Comments: 41",
+      "description": "Article URL: https://acai.sh/blog/specsmaxxing Comments URL: https://news.ycombinator.com/item?id=47994012 Points: 168 # Comments: 187",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -120,7 +128,7 @@
       "title": "Care homes and hotels in Japan shut as expansion strategy unravels",
       "link": "https://www.newsonjapan.com/article/149075.php",
       "pubDate": "2026-05-03T01:38:38.000Z",
-      "description": "Article URL: https://www.newsonjapan.com/article/149075.php Comments URL: https://news.ycombinator.com/item?id=47992446 Points: 30 # Comments: 6",
+      "description": "Article URL: https://www.newsonjapan.com/article/149075.php Comments URL: https://news.ycombinator.com/item?id=47992446 Points: 64 # Comments: 21",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -128,23 +136,15 @@
       "title": "Maryland to ban A.I.-driven price increases in grocery stores",
       "link": "https://www.nytimes.com/2026/05/01/business/surveillance-pricing-groceries-maryland.html",
       "pubDate": "2026-05-03T01:24:09.000Z",
-      "description": "Article URL: https://www.nytimes.com/2026/05/01/business/surveillance-pricing-groceries-maryland.html Comments URL: https://news.ycombinator.com/item?id=47992349 Points: 142 # Comments: 78",
+      "description": "Article URL: https://www.nytimes.com/2026/05/01/business/surveillance-pricing-groceries-maryland.html Comments URL: https://news.ycombinator.com/item?id=47992349 Points: 192 # Comments: 158",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "A network smuggling Starlink tech into Iran to beat internet blackout",
-      "link": "https://www.bbc.com/news/articles/cvgzk91leweo",
-      "pubDate": "2026-05-03T01:22:41.000Z",
-      "description": "Article URL: https://www.bbc.com/news/articles/cvgzk91leweo Comments URL: https://news.ycombinator.com/item?id=47992338 Points: 161 # Comments: 96",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "A Couple Million Lines of Haskell: Production Engineering at Mercury",
+      "title": "A couple million lines of Haskell: Production engineering at Mercury",
       "link": "https://blog.haskell.org/a-couple-million-lines-of-haskell/",
       "pubDate": "2026-05-03T00:01:14.000Z",
-      "description": "Article URL: https://blog.haskell.org/a-couple-million-lines-of-haskell/ Comments URL: https://news.ycombinator.com/item?id=47991802 Points: 173 # Comments: 66",
+      "description": "Article URL: https://blog.haskell.org/a-couple-million-lines-of-haskell/ Comments URL: https://news.ycombinator.com/item?id=47991802 Points: 305 # Comments: 138",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -152,7 +152,7 @@
       "title": "Clojurists Together – Q2 2026 Open Source Funding Announcement",
       "link": "https://www.clojuriststogether.org/news/q2-2026-funding-announcement/",
       "pubDate": "2026-05-02T21:34:49.000Z",
-      "description": "Article URL: https://www.clojuriststogether.org/news/q2-2026-funding-announcement/ Comments URL: https://news.ycombinator.com/item?id=47990789 Points: 97 # Comments: 10",
+      "description": "Article URL: https://www.clojuriststogether.org/news/q2-2026-funding-announcement/ Comments URL: https://news.ycombinator.com/item?id=47990789 Points: 117 # Comments: 14",
       "source": "Hacker News",
       "category": "Tech News"
     },
