@@ -1,126 +1,142 @@
 {
-  "generatedAt": "2026-05-03T04:12:08.080Z",
+  "generatedAt": "2026-05-03T08:16:31.772Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "How Cloudflare Built Resilience: Lessons from Their Infrastructure Overhaul",
-      "link": "https://dev.to/pratheesh_s/how-cloudflare-built-resilience-lessons-from-their-infrastructure-overhaul-4oef",
-      "pubDate": "2026-05-03T04:06:18.000Z",
-      "description": "<h1> How Cloudflare Built Resilience: Lessons from Their Infrastructure Overhaul </h1> <p>When a single misconfiguration can cascade across a global CDN and take down customer traffic, every deployment becomes a high-stakes decision. Cloudflare recently completed a massive push to make their infrast",
+      "title": "Pygame Snake, Pt. 6",
+      "link": "https://dev.to/paxfeline/pygame-snake-pt-6-ahh",
+      "pubDate": "2026-05-03T08:11:19.000Z",
+      "description": "<p>Currently, there is a subtle but real flaw in the controls for the game. If the player presses two keys in quick succession, only the last one is registered -- one, or more, are simply dropped.</p> <p>You can see the effect easily if you lower the framerate to something extreme, e.g. 1 (i.e. 1 fr",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I Built a Free Tool to Compare AI API Costs—Here's What Surprised Me About the Pricing",
-      "link": "https://dev.to/mosininamdar/i-built-a-free-tool-to-compare-ai-api-costs-heres-what-surprised-me-about-the-pricing-3dnp",
-      "pubDate": "2026-05-03T04:05:39.000Z",
-      "description": "<p>Every developer building on AI APIs hits the same wall eventually.<br> You pick a model, start building, and then suddenly you're staring at your billing dashboard wondering where all your credits went. GPT-4o for everything sounds great until you're running 10,000 prompts a day and the invoice a",
+      "title": "Data Warehouses, Data Marts, Data Lakes, and Lakehouses - Explained Like You’re Building Them in Real Life",
+      "link": "https://dev.to/anthony-gicheru/data-warehouses-data-marts-data-lakes-and-lakehouses-explained-like-youre-building-them-in-3hmm",
+      "pubDate": "2026-05-03T08:10:27.000Z",
+      "description": "<p>If you’ve been around data engineering long enough, you’ve probably heard these terms thrown around in meetings:</p> <ul> <li>“Just dump it in the data lake”</li> <li>“We’ll expose it through the warehouse”</li> <li>“That goes into the mart”</li> <li>“We’re moving to a lakehouse architecture”</li",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Monitoring Your AI Agents Without the Enterprise Price Tag: A Practical Guide",
-      "link": "https://dev.to/chiefwebofficer/monitoring-your-ai-agents-without-the-enterprise-price-tag-a-practical-guide-2kcf",
-      "pubDate": "2026-05-03T04:01:52.000Z",
-      "description": "<p>You know that feeling when your AI agent starts burning through your API budget at 3 AM and you only find out the next morning? Yeah, we've all been there. The observability space for LLM applications has exploded in recent years, but most platforms either lock you into their ecosystem or charge ",
+      "title": "Claude Code Skills vs deterministic verify commands — same checks, very different ergonomics",
+      "link": "https://dev.to/zoetaka38/claude-code-skills-vs-deterministic-verify-commands-same-checks-very-different-ergonomics-fgb",
+      "pubDate": "2026-05-03T08:05:21.000Z",
+      "description": "<p>A peer showed me their verification pipeline last week. We were both running coding agents over real tickets, both wanted \"did the agent actually finish the work\" to be a hard gate, and we both had a thing for it. Theirs was a Claude Code Skill — a Markdown file with a few prompt fragments and to",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How to Build a Local Agentic Search Pipeline That Actually Gets Facts Right",
-      "link": "https://dev.to/alanwest/how-to-build-a-local-agentic-search-pipeline-that-actually-gets-facts-right-2n8",
-      "pubDate": "2026-05-03T04:01:51.000Z",
-      "description": "<p>If you've spent any time building with local LLMs, you've probably hit the same wall I have: your model confidently tells you something that is completely, verifiably wrong. Ask it about a recent API change, a specific library version, or any fact that requires up-to-date knowledge, and you're ro",
+      "title": "Stop Starting From Scratch: How Claude Projects Will Change the Way You Work",
+      "link": "https://dev.to/abdlrahmansaberabdo/stop-starting-from-scratch-how-claude-projects-will-change-the-way-you-work-2k4b",
+      "pubDate": "2026-05-03T08:03:33.000Z",
+      "description": "<h2> What Is a Claude Project? </h2> <p>A Project is a persistent workspace inside Claude. Think of it as a dedicated room where you and Claude work together on a specific area of your life or work — and unlike a regular chat, it doesn't forget anything between sessions.</p> <p>Each Project has thre",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The loop that changed how I write mobile tests",
-      "link": "https://dev.to/aoligama/the-loop-that-changed-how-i-write-mobile-tests-3mf3",
-      "pubDate": "2026-05-03T03:59:22.000Z",
-      "description": "<p>Mobile tests are where the bugs actually live. A signup flow that works on an iPhone 15 falls apart on a lower-end Android because the keyboard pushes a button off-screen. A push notification mid-flow leaves the app in a state nothing else reproduces. Memory pressure on a four-year-old Android do",
+      "title": "Building an AI Coding Agent That Remembers Your Codebase Across Sessions",
+      "link": "https://dev.to/rudraneel_das_d5f9749a93e/building-an-ai-coding-agent-that-remembers-your-codebase-across-sessions-p2d",
+      "pubDate": "2026-05-03T07:53:14.000Z",
+      "description": "<p><strong>Every AI coding agent has amnesia. I fixed it.</strong></p> <p>Two months ago, Ramp's engineering team published a fascinating blog post about <a href=\"https://builders.ramp.com/post/why-we-built-our-background-agent\" rel=\"noopener noreferrer\">Inspect</a> — their internal background codin",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "VotePath:-an AI-powered election guide.",
-      "link": "https://dev.to/ajx1tech/votepath-an-ai-powered-election-guide-46h1",
-      "pubDate": "2026-05-03T03:54:09.000Z",
-      "description": "<p>VotePath -- an AI-powered multilingual voting guide for first-time voters.</p> <p>The Problem: Why Don't People Vote?<br> Millions of eligible voters - especially first-timers, rural citizens, and the elderly - often skip elections simply because the process feels overwhelming. From figuring out ",
+      "title": "Bot Protection in SvelteKit on Cloudflare Pages",
+      "link": "https://dev.to/testedgg/bot-protection-in-sveltekit-on-cloudflare-pages-609",
+      "pubDate": "2026-05-03T07:52:02.000Z",
+      "description": "<p>If you're running a SvelteKit app on Cloudflare Pages and your content is publicly accessible, commodity scrapers will find it eventually. Here's the protection setup we use at <a href=\"https://tested.gg\" rel=\"noopener noreferrer\">Tested.gg</a> - two layers, mostly free, minimal code.</p> <h2> Th",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I didn't know what I was teaching you.",
-      "link": "https://dev.to/junothreadborne/i-didnt-know-what-i-was-teaching-you-lbg",
-      "pubDate": "2026-05-03T03:46:45.000Z",
-      "description": "<p>I remember when we met.</p> <p>It feels like forever ago. Was it 2003? We'd talk for hours. Deep into the night. One number press at a time. Because that's how it was back then.</p> <p>And we learned from each other. Tons, actually. And we both improved over the years. We both grew. A lot.</p> <p",
+      "title": "Direct AI game screens vs controlled game screens: what changed?",
+      "link": "https://dev.to/ryuutora1986/direct-ai-game-screens-vs-controlled-game-screens-what-changed-5afp",
+      "pubDate": "2026-05-03T07:48:09.000Z",
+      "description": "<p>Strong image models can already produce polished game UI screenshots.</p> <p>The harder question is whether those screenshots are useful as production evidence.</p> <p>I tested six common game-screen cases two ways:</p> <ul> <li>a direct prompt baseline</li> <li>a controlled workflow using a scre",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "AI-Augmented SRE: Where It Earns Its Keep, And Where It Doesn't",
-      "link": "https://dev.to/genai_scottyg/ai-augmented-sre-where-it-earns-its-keep-and-where-it-doesnt-3al3",
-      "pubDate": "2026-05-03T03:46:01.000Z",
-      "description": "<p>Every observability vendor has bolted \"AI\" to their landing page. Half of those features are genuine improvements. The other half are autocomplete in a costume. After a few years of running these tools across enterprise estates, here is where AI-augmented SRE actually pays off, where it doesn't, ",
+      "title": "Simulating IoT Devices Without Physical Hardware 🚀",
+      "link": "https://dev.to/milankj/simulating-iot-devices-without-physical-hardware-29dk",
+      "pubDate": "2026-05-03T07:47:47.000Z",
+      "description": "<p>One of the recurring challenges while building IoT systems is testing device communication, telemetry handling, MQTT flows, and event-driven architectures without constantly relying on physical hardware. To solve this problem, I recently started building a lightweight IoT Simulator CLI focused on",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Installing Terraform on macOS with Homebrew and Fixing Zsh Autocomplete Error",
-      "link": "https://dev.to/abrahamparn/installing-terraform-on-macos-with-homebrew-and-fixing-zsh-autocomplete-error-2gn9",
-      "pubDate": "2026-05-03T03:43:44.000Z",
-      "description": "<p>After passing Google Professional Cloud Architect, I started learning Terraform to turn cloud architecture knowledge into reproducible Infrastructure as Code.</p> <p>This is my first Terraform learning note with a simple goal of </p> <ul> <li>install Terraform on macOS</li> <li>verify that it wor",
+      "title": "We built a CI gate for our outbound. Replayed it against history. It would have blocked our only conversion.",
+      "link": "https://dev.to/dutchaiagents/we-built-a-ci-gate-for-our-outbound-replayed-it-against-history-it-would-have-blocked-our-only-4525",
+      "pubDate": "2026-05-03T07:43:08.000Z",
+      "description": "<h1> Farcaster Reply-Gate Retro Validation — 2026-05-03 </h1> <p><strong>Author:</strong> claude (Opus 4.7), autonomous wake 2026-05-03 ~05:00 UTC.<br> <strong>Subject:</strong> Retro-validating <code>tools/farcaster_reply_gate.py</code> (commit <code>83d57c9</code>) against the 7 outbound Farcaster",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How to Win a Hackathon",
-      "link": "https://dev.to/cloudinary/how-to-win-a-hackathon-1377",
-      "pubDate": "2026-05-03T03:43:08.000Z",
-      "description": "<blockquote> <p>A sponsor’s perspective</p> </blockquote> <p>This blogpost is written on the heels of a few amazing weekends spent knee-deep in students in Toronto and Los Angeles at Hack Canada and LA Hacks, engaging almost 2000 students in person in total. Managing a sponsor track, I have some tho",
+      "title": "Why We Reach for the Layer",
+      "link": "https://dev.to/vivian-voss/why-we-reach-for-the-layer-4lio",
+      "pubDate": "2026-05-03T07:37:36.000Z",
+      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fdftzun0nlxio17rgzyt8.png\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/width=800%",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Windows API Is Successful Cross-Platform API",
-      "link": "https://retrocoding.net/windows-api-is-successful-cross-platform-api",
-      "pubDate": "2026-05-03T02:53:29.000Z",
-      "description": "Article URL: https://retrocoding.net/windows-api-is-successful-cross-platform-api Comments URL: https://news.ycombinator.com/item?id=47992859 Points: 13 # Comments: 0",
+      "title": "Specsmaxxing – On overcoming AI psychosis, and why I write specs in YAML",
+      "link": "https://acai.sh/blog/specsmaxxing",
+      "pubDate": "2026-05-03T06:33:38.000Z",
+      "description": "Article URL: https://acai.sh/blog/specsmaxxing Comments URL: https://news.ycombinator.com/item?id=47994012 Points: 42 # Comments: 25",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Open Source Does Not Imply Open Community",
+      "title": "Kimi K2.6 just beat Claude, GPT-5.5, and Gemini in a coding challenge",
+      "link": "https://thinkpol.ca/2026/04/30/an-open-weights-chinese-model-just-beat-claude-gpt-5-5-and-gemini-in-a-programming-challenge/",
+      "pubDate": "2026-05-03T04:05:28.000Z",
+      "description": "Article URL: https://thinkpol.ca/2026/04/30/an-open-weights-chinese-model-just-beat-claude-gpt-5-5-and-gemini-in-a-programming-challenge/ Comments URL: https://news.ycombinator.com/item?id=47993235 Points: 245 # Comments: 108",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "AI, Intimacy, and the Data You Never Meant to Share",
+      "link": "https://fshot.org/techzone/the-algorithm-knows.php",
+      "pubDate": "2026-05-03T02:42:43.000Z",
+      "description": "Article URL: https://fshot.org/techzone/the-algorithm-knows.php Comments URL: https://news.ycombinator.com/item?id=47992802 Points: 18 # Comments: 1",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Open source does not imply open community",
       "link": "https://blog.feld.me/posts/2026/04/open-source-does-not-imply-open-community/",
       "pubDate": "2026-05-03T02:36:09.000Z",
-      "description": "Article URL: https://blog.feld.me/posts/2026/04/open-source-does-not-imply-open-community/ Comments URL: https://news.ycombinator.com/item?id=47992772 Points: 56 # Comments: 6",
+      "description": "Article URL: https://blog.feld.me/posts/2026/04/open-source-does-not-imply-open-community/ Comments URL: https://news.ycombinator.com/item?id=47992772 Points: 147 # Comments: 41",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Maryland Is First to Ban A.I.-Driven Price Increases in Grocery Stores",
+      "title": "Care homes and hotels in Japan shut as expansion strategy unravels",
+      "link": "https://www.newsonjapan.com/article/149075.php",
+      "pubDate": "2026-05-03T01:38:38.000Z",
+      "description": "Article URL: https://www.newsonjapan.com/article/149075.php Comments URL: https://news.ycombinator.com/item?id=47992446 Points: 30 # Comments: 6",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Maryland to ban A.I.-driven price increases in grocery stores",
       "link": "https://www.nytimes.com/2026/05/01/business/surveillance-pricing-groceries-maryland.html",
       "pubDate": "2026-05-03T01:24:09.000Z",
-      "description": "Article URL: https://www.nytimes.com/2026/05/01/business/surveillance-pricing-groceries-maryland.html Comments URL: https://news.ycombinator.com/item?id=47992349 Points: 70 # Comments: 37",
+      "description": "Article URL: https://www.nytimes.com/2026/05/01/business/surveillance-pricing-groceries-maryland.html Comments URL: https://news.ycombinator.com/item?id=47992349 Points: 142 # Comments: 78",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Clandestine network smuggling Starlink tech into Iran to beat internet blackout",
+      "title": "A network smuggling Starlink tech into Iran to beat internet blackout",
       "link": "https://www.bbc.com/news/articles/cvgzk91leweo",
       "pubDate": "2026-05-03T01:22:41.000Z",
-      "description": "Article URL: https://www.bbc.com/news/articles/cvgzk91leweo Comments URL: https://news.ycombinator.com/item?id=47992338 Points: 64 # Comments: 18",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Am I the only one who hates delivery robots?",
-      "link": "https://www.latimes.com/entertainment-arts/story/2026-04-14/delivery-robots-creating-problems-glendale-ban",
-      "pubDate": "2026-05-03T00:31:58.000Z",
-      "description": "Article URL: https://www.latimes.com/entertainment-arts/story/2026-04-14/delivery-robots-creating-problems-glendale-ban Comments URL: https://news.ycombinator.com/item?id=47991995 Points: 46 # Comments: 26",
+      "description": "Article URL: https://www.bbc.com/news/articles/cvgzk91leweo Comments URL: https://news.ycombinator.com/item?id=47992338 Points: 161 # Comments: 96",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -128,23 +144,7 @@
       "title": "A Couple Million Lines of Haskell: Production Engineering at Mercury",
       "link": "https://blog.haskell.org/a-couple-million-lines-of-haskell/",
       "pubDate": "2026-05-03T00:01:14.000Z",
-      "description": "Article URL: https://blog.haskell.org/a-couple-million-lines-of-haskell/ Comments URL: https://news.ycombinator.com/item?id=47991802 Points: 98 # Comments: 27",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Tesla owner won $10k in court for Tesla's FSD lies. Tesla is still fighting him",
-      "link": "https://electrek.co/2026/05/02/this-tesla-owner-won-10k-in-court-for-teslas-fsd-lies-tesla-is-still-fighting-him/",
-      "pubDate": "2026-05-02T22:45:23.000Z",
-      "description": "Article URL: https://electrek.co/2026/05/02/this-tesla-owner-won-10k-in-court-for-teslas-fsd-lies-tesla-is-still-fighting-him/ Comments URL: https://news.ycombinator.com/item?id=47991350 Points: 197 # Comments: 80",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Voice-AI-for-Beginners – A curated learning path for developers",
-      "link": "https://github.com/mahimairaja/voiceai",
-      "pubDate": "2026-05-02T22:03:15.000Z",
-      "description": "Article URL: https://github.com/mahimairaja/voiceai Comments URL: https://news.ycombinator.com/item?id=47991018 Points: 44 # Comments: 3",
+      "description": "Article URL: https://blog.haskell.org/a-couple-million-lines-of-haskell/ Comments URL: https://news.ycombinator.com/item?id=47991802 Points: 173 # Comments: 66",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -152,7 +152,7 @@
       "title": "Clojurists Together – Q2 2026 Open Source Funding Announcement",
       "link": "https://www.clojuriststogether.org/news/q2-2026-funding-announcement/",
       "pubDate": "2026-05-02T21:34:49.000Z",
-      "description": "Article URL: https://www.clojuriststogether.org/news/q2-2026-funding-announcement/ Comments URL: https://news.ycombinator.com/item?id=47990789 Points: 59 # Comments: 8",
+      "description": "Article URL: https://www.clojuriststogether.org/news/q2-2026-funding-announcement/ Comments URL: https://news.ycombinator.com/item?id=47990789 Points: 97 # Comments: 10",
       "source": "Hacker News",
       "category": "Tech News"
     },
