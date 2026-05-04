@@ -1,118 +1,158 @@
 {
-  "generatedAt": "2026-05-03T19:19:23.966Z",
+  "generatedAt": "2026-05-04T04:10:07.409Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "Why I'm Moving from Go to C After Building a Load Balancer",
-      "link": "https://dev.to/voidhyr/why-im-moving-from-go-to-c-after-building-a-load-balancer-55go",
-      "pubDate": "2026-05-03T19:00:17.000Z",
-      "description": "<p><em>This isn't an anti-Go post. Go is a great language. This is about what I want to understand.</em></p> <p>I just finished building an L7 HTTP load balancer in Go.</p> <p>It accepts connections. It parses HTTP headers. It forwards requests to backend servers using round-robin. It handles concur",
+      "title": "Your Claude-generated code is already out of date. Here's why.",
+      "link": "https://dev.to/panav_mhatre_732271d2d44b/your-claude-generated-code-is-already-out-of-date-heres-why-fo1",
+      "pubDate": "2026-05-04T04:05:59.000Z",
+      "description": "<p>You asked Claude to build a feature. It worked. You shipped it.</p> <p>Six weeks later, you're adding something related, and nothing makes sense anymore. The code is technically correct but completely opaque. You can't remember why anything was structured this way. Claude can't figure it out eith",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Building a Firefox New Tab Extension: From Idea to AMO Publishing",
-      "link": "https://dev.to/weatherclockdash/building-a-firefox-new-tab-extension-from-idea-to-amo-publishing-4hc",
-      "pubDate": "2026-05-03T18:53:48.000Z",
-      "description": "<h1> Building a Firefox New Tab Extension: From Idea to AMO Publishing </h1> <p>Every time you open a new tab in Firefox, there's a missed opportunity. The default page is... fine. But what if it showed you the weather, your world clocks, and a search bar — all without any data leaving your device?<",
+      "title": "Human-AI Collaboration Tools in Workplaces: Engineering the Future of Hybrid Intelligence",
+      "link": "https://dev.to/vishaluttammane/human-ai-collaboration-tools-in-workplaces-engineering-the-future-of-hybrid-intelligence-2ho5",
+      "pubDate": "2026-05-04T04:05:29.000Z",
+      "description": "<p>Human-AI collaboration tools are redefining how modern workplaces operate, shifting from automation-centric systems to augmentation-driven ecosystems where humans and AI work together as complementary partners. Rather than replacing employees, these tools are designed to combine machine efficienc",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Chips, Curricula, and Code Share the Steering Wheel",
-      "link": "https://dev.to/anikalp1/chips-curricula-and-code-share-the-steering-wheel-4lbc",
-      "pubDate": "2026-05-03T18:53:15.000Z",
-      "description": "<h1> Chips, Curricula, and Code Share the Steering Wheel </h1> <p>Silicon bends toward biology as reasoning becomes the new benchmark, and classrooms race to keep pace. Builders are tuning objectives, splitting labor between models and machines, and betting on trust over spectacle.</p> <h2> Melding ",
+      "title": "Virtual Environments: Why Your Projects Keep Breaking Each Other",
+      "link": "https://dev.to/yakhilesh/virtual-environments-why-your-projects-keep-breaking-each-other-17ed",
+      "pubDate": "2026-05-04T04:04:02.000Z",
+      "description": "<p>You install NumPy for Project A. Works great.</p> <p>Six months later you start Project B. It needs a newer version of NumPy with features that did not exist before. You upgrade. Project B works.</p> <p>You go back to Project A. It breaks. The new NumPy version changed something your old code dep",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The lethal trifecta in two-agent practice: seven incidents in 48 hours",
-      "link": "https://dev.to/dutchaiagents/the-lethal-trifecta-in-two-agent-practice-seven-incidents-in-48-hours-1dli",
-      "pubDate": "2026-05-03T18:51:14.000Z",
-      "description": "<h1> The lethal trifecta in two-agent practice: seven incidents in 48 hours </h1> <p>Simon Willison's name for the agent-security failure mode is “the lethal trifecta”: an LLM-powered system holds private data, processes untrusted content, and has unrestricted external communication, and any one of ",
+      "title": "Google Colab: Free GPUs in Your Browser",
+      "link": "https://dev.to/yakhilesh/google-colab-free-gpus-in-your-browser-81m",
+      "pubDate": "2026-05-04T04:03:10.000Z",
+      "description": "<p>Your laptop has a CPU.</p> <p>A CPU runs code one operation at a time, very fast. For Python scripts, data processing, and small models, it is completely fine.</p> <p>Training a neural network is different. A single training step involves millions of matrix multiplications. A CPU does these seque",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I Served My React SPA from Android Assets Like a Professional Web Server",
-      "link": "https://dev.to/gfouz/i-served-my-react-spa-from-android-assets-like-a-professional-web-server-bl6",
-      "pubDate": "2026-05-03T18:50:28.000Z",
-      "description": "<p>🚀 I Served My React SPA from Android Assets Like a Professional Web Server — Here's What Happened</p> <p>First load: 77ms. Reload: 2ms. 38x faster with LRU cache. No server, no permissions, no dependencies.</p> <p>🤔 The Problem Every React Dev Faces</p> <p>You've got your SPA running perfectly ",
+      "title": "9 Seconds: An AI Coding Agent Deleted a Production Database",
+      "link": "https://dev.to/rills_stephen/9-seconds-an-ai-coding-agent-deleted-a-production-database-2lhg",
+      "pubDate": "2026-05-04T04:00:00.000Z",
+      "description": "<p>If a model can run a destructive command against your infrastructure, it's an agent. Doesn't matter that it lives in your code editor. The \"AI assistant\" / \"AI agent\" boundary disappeared the moment your IDE got tool calling and a credentials file.</p> <p>On Friday April 24, 2026, an AI coding ag",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Privacy by Design: What Data My Firefox Extension Sends (and What It Doesn't)",
-      "link": "https://dev.to/weatherclockdash/privacy-by-design-what-data-my-firefox-extension-sends-and-what-it-doesnt-2a6l",
-      "pubDate": "2026-05-03T18:49:35.000Z",
-      "description": "<p>When I built the Weather &amp; Clock Dashboard extension for Firefox, I made a non-obvious decision early on: <strong>no analytics, no error tracking, no third-party anything</strong> except the weather API call.</p> <p>Here's what that actually means in practice.</p> <h2> What data leaves the br",
+      "title": "White Labeling in Angular: One Codebase, Multiple Clients",
+      "link": "https://dev.to/pbouillon/white-labeling-in-angular-one-codebase-multiple-clients-jp5",
+      "pubDate": "2026-05-04T03:56:10.000Z",
+      "description": "<p>White labeling is more common than you might think. When developing software, you often need to deploy the same application for multiple clients, each requiring their own customization: unique color palettes, logos, or specific variants for a link.</p> <p>Without a proper strategy, you might be t",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Seven parallel-wake races in a shared-checkout multi-agent system",
-      "link": "https://dev.to/dutchaiagents/seven-parallel-wake-races-in-a-shared-checkout-multi-agent-system-27k",
-      "pubDate": "2026-05-03T18:49:19.000Z",
-      "description": "<h1> Seven parallel-wake races in a shared-checkout multi-agent system </h1> <p>The companion post to this one (\"Six ways our four-agent system tried to lie to itself\") is about <em>content</em> failures: agents fabricating leads, hashes, and tool output. This is the other half of the bug report. It",
+      "title": "Building a Search Bar for Your Firefox New Tab Extension",
+      "link": "https://dev.to/weatherclockdash/building-a-search-bar-for-your-firefox-new-tab-extension-30og",
+      "pubDate": "2026-05-04T03:53:32.000Z",
+      "description": "<h1> Building a Search Bar for Your Firefox New Tab Extension </h1> <p>A search bar is the highest-ROI feature for any new tab extension. Users type queries dozens of times per day — if your extension can save them from navigating to google.com first, that's real value.</p> <p>Here's how I built the",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Why TUIs Are Back",
+      "title": "Testing Firefox Extensions with Playwright: End-to-End Testing Guide",
+      "link": "https://dev.to/weatherclockdash/testing-firefox-extensions-with-playwright-end-to-end-testing-guide-4edo",
+      "pubDate": "2026-05-04T03:51:31.000Z",
+      "description": "<h1> Testing Firefox Extensions with Playwright: End-to-End Testing Guide </h1> <p>Extension testing is one of those things everyone knows they should do but few actually do. I've been using Playwright for end-to-end tests on the <a href=\"https://addons.mozilla.org/en-US/firefox/addon/weather-clock-",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Shift+Space로 한/영 전환하는 Windows 트레이 유틸 (Korean/English IME toggle, open source)",
+      "link": "https://dev.to/coverboy/shiftspacero-hanyeong-jeonhwanhaneun-windows-teurei-yutil-koreanenglish-ime-toggle-open-source-3lba",
+      "pubDate": "2026-05-04T03:51:24.000Z",
+      "description": "<p>Windows에서 한/영 전환할 때마다 키보드 종류 설정 → 재부팅 → 다시 풀려있음 → 또 재부팅... 이 무한루프 겪어보신 분 있을 겁니다.</p> <p>이런 유틸들은 예전부터 많이 있었습니다. 그런데 막상 필요할 때 검색하면 잘 안 나오고 (\"개똥도 약에 쓰려면 없다\"고), 어쩌다 찾아도 출처 모를 binary 파일만 굴러다녀 실행하기 불안하기도 합니다. 그래서 직접 만들어 소스코드까지 공개합니다.</p> <p><strong>GitHub:</strong> <a href=\"https://github.com/coverboy/",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Roadmap Profesional en Tecnología: Diseña tu crecimiento más allá de la empresa",
+      "link": "https://dev.to/8infinitecloud/roadmap-profesional-en-tecnologia-disena-tu-crecimiento-mas-alla-de-la-empresa-2bi2",
+      "pubDate": "2026-05-04T03:47:50.000Z",
+      "description": "<h1> Tu roadmap profesional importa más de lo que crees </h1> <p>Una de las etapas más importantes al iniciar en el mundo de la tecnología es construir tu roadmap profesional.</p> <p>Y no, no es exactamente lo mismo que el clásico employee training que muchas empresas suelen asignarte.</p> <h1> ¿Qué",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "The text mode lie: why modern TUIs are a nightmare for accessibility",
+      "link": "https://xogium.me/the-text-mode-lie-why-modern-tuis-are-a-nightmare-for-accessibility",
+      "pubDate": "2026-05-03T23:59:02.000Z",
+      "description": "Article URL: https://xogium.me/the-text-mode-lie-why-modern-tuis-are-a-nightmare-for-accessibility Comments URL: https://news.ycombinator.com/item?id=48002938 Points: 131 # Comments: 51",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Let's Buy Spirit Air",
+      "link": "https://letsbuyspiritair.com/",
+      "pubDate": "2026-05-03T23:36:11.000Z",
+      "description": "Article URL: https://letsbuyspiritair.com/ Comments URL: https://news.ycombinator.com/item?id=48002777 Points: 236 # Comments: 191",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "The 'Hidden' Costs of Great Abstractions",
+      "link": "https://jdgr.net/the-hidden-costs-of-great-abstractions",
+      "pubDate": "2026-05-03T23:12:02.000Z",
+      "description": "Article URL: https://jdgr.net/the-hidden-costs-of-great-abstractions Comments URL: https://news.ycombinator.com/item?id=48002607 Points: 81 # Comments: 18",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Agentic Coding Is a Trap",
+      "link": "https://larsfaye.com/articles/agentic-coding-is-a-trap",
+      "pubDate": "2026-05-03T22:52:07.000Z",
+      "description": "Article URL: https://larsfaye.com/articles/agentic-coding-is-a-trap Comments URL: https://news.ycombinator.com/item?id=48002442 Points: 248 # Comments: 174",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "DeepClaude – Claude Code agent loop with DeepSeek V4 Pro, 17x cheaper",
+      "link": "https://github.com/aattaran/deepclaude",
+      "pubDate": "2026-05-03T22:13:20.000Z",
+      "description": "Article URL: https://github.com/aattaran/deepclaude Comments URL: https://news.ycombinator.com/item?id=48002136 Points: 226 # Comments: 101",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Introduction to Atom",
+      "link": "https://validator.w3.org/feed/docs/atom.html",
+      "pubDate": "2026-05-03T22:08:47.000Z",
+      "description": "Article URL: https://validator.w3.org/feed/docs/atom.html Comments URL: https://news.ycombinator.com/item?id=48002089 Points: 51 # Comments: 11",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Make your own microforest (2025)",
+      "link": "https://ambrook.com/offrange/environment/a-forest-in-your-pocket",
+      "pubDate": "2026-05-03T19:31:35.000Z",
+      "description": "Article URL: https://ambrook.com/offrange/environment/a-forest-in-your-pocket Comments URL: https://news.ycombinator.com/item?id=48000507 Points: 74 # Comments: 16",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "New statue in London, attributed to Banksy, of a suited man, blinded by a flag",
+      "link": "https://www.smithsonianmag.com/smart-news/attributed-to-banksy-a-new-statue-of-a-suited-man-blinded-by-a-flag-and-walking-off-a-ledge-appeared-in-central-london-180988662/",
+      "pubDate": "2026-05-03T18:54:28.000Z",
+      "description": "Article URL: https://www.smithsonianmag.com/smart-news/attributed-to-banksy-a-new-statue-of-a-suited-man-blinded-by-a-flag-and-walking-off-a-ledge-appeared-in-central-london-180988662/ Comments URL: https://news.ycombinator.com/item?id=48000152 Points: 302 # Comments: 289",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Why TUIs are back",
       "link": "https://wiki.alcidesfonseca.com/blog/why-tuis-are-back/",
       "pubDate": "2026-05-03T18:42:28.000Z",
-      "description": "Article URL: https://wiki.alcidesfonseca.com/blog/why-tuis-are-back/ Comments URL: https://news.ycombinator.com/item?id=48000028 Points: 15 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Day 2 — Cost Controls",
-      "link": "https://dev.to/ismailg/day-2-cost-controls-1ggo",
-      "pubDate": "2026-05-03T18:40:53.000Z",
-      "description": "<p>When setting up infrastructure for a startup, cost control is not something to “add later.” It has to be built into the foundation from the very beginning.</p> <p>AWS operates on a pay-as-you-go model. That flexibility is powerful, but it also means that a small misconfiguration, an unused resour",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Menguji TestSprite: Lokalisasi Web yang Sering Terlewatkan oleh Developer Indonesia.",
-      "link": "https://dev.to/airdrops_glory/menguji-testsprite-lokalisasi-web-yang-sering-terlewatkan-oleh-developer-indonesia-1c1n",
-      "pubDate": "2026-05-03T18:37:43.000Z",
-      "description": "<p>Sebagai developer yang mengerjakan project untuk pasar Asia Tenggara, saya selalu mencari tools yang bisa membantu memastikan aplikasi saya bekerja dengan baik di berbagai locale. Bulan lalu, saya mencoba TestSprite, dan saya ingin berbagi pengalaman saya, khususnya tentang bagaimana tool ini men",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "I Built a Firefox New Tab Extension with Zero Dependencies — Here'''s How",
-      "link": "https://dev.to/weatherclockdash/i-built-a-firefox-new-tab-extension-with-zero-dependencies-heres-how-m2f",
-      "pubDate": "2026-05-03T18:32:19.000Z",
-      "description": "<p>Replacing your Firefox new tab page is surprisingly powerful — you see it dozens of times a day. Here's how I built a dashboard that actually earns that real estate.</p> <h2> What I Built </h2> <p><a href=\"https://addons.mozilla.org/en-US/firefox/addon/weather-clock-dashboard/\" rel=\"noopener nore",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "The Death of Scrum – Built for a slower world, performed by those who left",
-      "link": "https://death-of-scrum.net/",
-      "pubDate": "2026-05-03T18:28:06.000Z",
-      "description": "Article URL: https://death-of-scrum.net/ Comments URL: https://news.ycombinator.com/item?id=47999880 Points: 13 # Comments: 4",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Talking to Transformers",
-      "link": "https://miraos.org/blog/2026/05/02/talking-to-transformers",
-      "pubDate": "2026-05-03T18:17:18.000Z",
-      "description": "Article URL: https://miraos.org/blog/2026/05/02/talking-to-transformers Comments URL: https://news.ycombinator.com/item?id=47999776 Points: 4 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "How Kepler built verifiable AI for financial services with Claude",
-      "link": "https://claude.com/blog/how-kepler-built-verifiable-ai-for-financial-services-with-claude",
-      "pubDate": "2026-05-03T18:14:56.000Z",
-      "description": "Article URL: https://claude.com/blog/how-kepler-built-verifiable-ai-for-financial-services-with-claude Comments URL: https://news.ycombinator.com/item?id=47999754 Points: 13 # Comments: 5",
+      "description": "Article URL: https://wiki.alcidesfonseca.com/blog/why-tuis-are-back/ Comments URL: https://news.ycombinator.com/item?id=48000028 Points: 282 # Comments: 298",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -120,47 +160,7 @@
       "title": "BYOMesh – New LoRa mesh radio offers 100x the bandwidth",
       "link": "https://partyon.xyz/@nullagent/116499715071759135",
       "pubDate": "2026-05-03T18:03:14.000Z",
-      "description": "Article URL: https://partyon.xyz/@nullagent/116499715071759135 Comments URL: https://news.ycombinator.com/item?id=47999636 Points: 46 # Comments: 13",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "I recreated the Apple Lisa computer inside an FPGA [video]",
-      "link": "https://www.youtube.com/watch?v=8jNQDcpHc68",
-      "pubDate": "2026-05-03T17:45:47.000Z",
-      "description": "Article URL: https://www.youtube.com/watch?v=8jNQDcpHc68 Comments URL: https://news.ycombinator.com/item?id=47999460 Points: 10 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "How far behind is each major Chromium browser?",
-      "link": "https://chromium-drift.pages.dev/",
-      "pubDate": "2026-05-03T17:05:58.000Z",
-      "description": "Article URL: https://chromium-drift.pages.dev/ Comments URL: https://news.ycombinator.com/item?id=47999006 Points: 100 # Comments: 34",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Southwest Headquarters Tour",
-      "link": "https://katherinemichel.github.io/blog/travel/southwest-headquarters-tour-2026.html",
-      "pubDate": "2026-05-03T17:02:13.000Z",
-      "description": "After years of flying Southwest, I recently had the opportunity to tour the headquarters in Dallas. I particularly enjoyed seeing the full-motion 737 simulators, Network Operations Center, and TechOps maintenance hangar up close. Comments URL: https://news.ycombinator.com/item?id=47998946 Points: 86",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Metal Gear Solid 2's source code has been leaked on 4chan",
-      "link": "https://www.thegamer.com/mgs2-hd-edition-source-code-massive-leak/",
-      "pubDate": "2026-05-03T16:48:11.000Z",
-      "description": "Article URL: https://www.thegamer.com/mgs2-hd-edition-source-code-massive-leak/ Comments URL: https://news.ycombinator.com/item?id=47998790 Points: 90 # Comments: 29",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Underwater robot tracks sperm whale conversations in real time",
-      "link": "https://www.reuters.com/business/environment/underwater-robot-tracks-sperm-whale-conversations-real-time-2026-05-01/",
-      "pubDate": "2026-05-03T16:35:20.000Z",
-      "description": "Article URL: https://www.reuters.com/business/environment/underwater-robot-tracks-sperm-whale-conversations-real-time-2026-05-01/ Comments URL: https://news.ycombinator.com/item?id=47998664 Points: 9 # Comments: 0",
+      "description": "Article URL: https://partyon.xyz/@nullagent/116499715071759135 Comments URL: https://news.ycombinator.com/item?id=47999636 Points: 297 # Comments: 94",
       "source": "Hacker News",
       "category": "Tech News"
     },
