@@ -1,94 +1,110 @@
 {
-  "generatedAt": "2026-05-04T04:10:07.409Z",
+  "generatedAt": "2026-05-04T08:42:43.352Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "Your Claude-generated code is already out of date. Here's why.",
-      "link": "https://dev.to/panav_mhatre_732271d2d44b/your-claude-generated-code-is-already-out-of-date-heres-why-fo1",
-      "pubDate": "2026-05-04T04:05:59.000Z",
-      "description": "<p>You asked Claude to build a feature. It worked. You shipped it.</p> <p>Six weeks later, you're adding something related, and nothing makes sense anymore. The code is technically correct but completely opaque. You can't remember why anything was structured this way. Claude can't figure it out eith",
+      "title": "Best Product Analytics Tools for DeFi Teams",
+      "link": "https://dev.to/yos/best-product-analytics-tools-for-defi-teams-2cj1",
+      "pubDate": "2026-05-04T08:34:07.000Z",
+      "description": "<h2> Key Takeaways </h2> <ul> <li><p>DeFi product analytics requires onchain and offchain data integration because the blockchain records smart contract interactions that traditional tools cannot access while still needing web session and acquisition channel data.</p></li> <li><p>Each platform serve",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Human-AI Collaboration Tools in Workplaces: Engineering the Future of Hybrid Intelligence",
-      "link": "https://dev.to/vishaluttammane/human-ai-collaboration-tools-in-workplaces-engineering-the-future-of-hybrid-intelligence-2ho5",
-      "pubDate": "2026-05-04T04:05:29.000Z",
-      "description": "<p>Human-AI collaboration tools are redefining how modern workplaces operate, shifting from automation-centric systems to augmentation-driven ecosystems where humans and AI work together as complementary partners. Rather than replacing employees, these tools are designed to combine machine efficienc",
+      "title": "KODA Format: A Schema-First Data Format to Reduce LLM Token Usage ( 40%)",
+      "link": "https://dev.to/om_kawale_b6627244a50e4b6/koda-a-schema-first-data-format-to-reduce-llm-token-usage-40-30mf",
+      "pubDate": "2026-05-04T08:28:00.000Z",
+      "description": "<p>When building applications with large language models (LLMs), one of the most overlooked costs is how structured data is represented.</p> <p>Most systems use JSON.</p> <p>And JSON is inefficient for LLM input.</p> <h2> What is KODA? </h2> <p><strong>KODA (Knowledge-Oriented Data Abstraction)</str",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Virtual Environments: Why Your Projects Keep Breaking Each Other",
-      "link": "https://dev.to/yakhilesh/virtual-environments-why-your-projects-keep-breaking-each-other-17ed",
-      "pubDate": "2026-05-04T04:04:02.000Z",
-      "description": "<p>You install NumPy for Project A. Works great.</p> <p>Six months later you start Project B. It needs a newer version of NumPy with features that did not exist before. You upgrade. Project B works.</p> <p>You go back to Project A. It breaks. The new NumPy version changed something your old code dep",
+      "title": "From Zero to MVP: A Practical Guide to Prediction Market Development",
+      "link": "https://dev.to/bergnadette_viliam_4e7523/from-zero-to-mvp-a-practical-guide-to-prediction-market-development-2kkp",
+      "pubDate": "2026-05-04T08:23:45.000Z",
+      "description": "<p>Or: what broke on my first three attempts so you don't have to repeat it </p> <h2> Step 0. Before you write a single line of code </h2> <p>I've built two prediction markets from scratch. The first one crashed on testnet. The second one launched but had zero users for two months. The third one? Ac",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Google Colab: Free GPUs in Your Browser",
-      "link": "https://dev.to/yakhilesh/google-colab-free-gpus-in-your-browser-81m",
-      "pubDate": "2026-05-04T04:03:10.000Z",
-      "description": "<p>Your laptop has a CPU.</p> <p>A CPU runs code one operation at a time, very fast. For Python scripts, data processing, and small models, it is completely fine.</p> <p>Training a neural network is different. A single training step involves millions of matrix multiplications. A CPU does these seque",
+      "title": "I Just Launched a Newsletter. Here's the First Issue.",
+      "link": "https://dev.to/alexrogovjs/i-just-launched-a-newsletter-heres-the-first-issue-g12",
+      "pubDate": "2026-05-04T08:23:29.000Z",
+      "description": "<p>Five months into writing about AI tooling on Hashnode, I noticed a pattern in the questions I get.</p> <p>They're not about Claude or GPT. They're about CLAUDE.md.</p> <p>Specifically: why people write a CLAUDE.md file, follow online guides, and still get the same frustrating result — Claude igno",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "9 Seconds: An AI Coding Agent Deleted a Production Database",
-      "link": "https://dev.to/rills_stephen/9-seconds-an-ai-coding-agent-deleted-a-production-database-2lhg",
-      "pubDate": "2026-05-04T04:00:00.000Z",
-      "description": "<p>If a model can run a destructive command against your infrastructure, it's an agent. Doesn't matter that it lives in your code editor. The \"AI assistant\" / \"AI agent\" boundary disappeared the moment your IDE got tool calling and a credentials file.</p> <p>On Friday April 24, 2026, an AI coding ag",
+      "title": "🔐Enforcing image provenance in Kubernetes using Cosign + Sigstore + Kyverno",
+      "link": "https://dev.to/trottomv/enforcing-image-provenance-in-kubernetes-using-cosign-sigstore-kyverno-kna",
+      "pubDate": "2026-05-04T08:22:45.000Z",
+      "description": "<p>What if your Kubernetes cluster simply refused to run unsigned images?</p> <p>I spent some time experimenting with enforcing image provenance in a small Kubernetes setup using MicroK8s.</p> <p>The idea was simple:</p> <blockquote> <p>Only container images with valid cryptographic signatures are a",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "White Labeling in Angular: One Codebase, Multiple Clients",
-      "link": "https://dev.to/pbouillon/white-labeling-in-angular-one-codebase-multiple-clients-jp5",
-      "pubDate": "2026-05-04T03:56:10.000Z",
-      "description": "<p>White labeling is more common than you might think. When developing software, you often need to deploy the same application for multiple clients, each requiring their own customization: unique color palettes, logos, or specific variants for a link.</p> <p>Without a proper strategy, you might be t",
+      "title": "Supply Chain Attacks: When Your Privacy Tool Gets Compromised",
+      "link": "https://dev.to/havenmessenger/supply-chain-attacks-when-your-privacy-tool-gets-compromised-28lg",
+      "pubDate": "2026-05-04T08:21:21.000Z",
+      "description": "<p>On March 29, 2024, Andres Freund — a Microsoft engineer and PostgreSQL contributor — noticed something odd while investigating unexplained CPU usage in SSH on a Debian testing build. liblzma, the compression library bundled with XZ Utils, was performing extra work it had no business doing. After ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Building a Search Bar for Your Firefox New Tab Extension",
-      "link": "https://dev.to/weatherclockdash/building-a-search-bar-for-your-firefox-new-tab-extension-30og",
-      "pubDate": "2026-05-04T03:53:32.000Z",
-      "description": "<h1> Building a Search Bar for Your Firefox New Tab Extension </h1> <p>A search bar is the highest-ROI feature for any new tab extension. Users type queries dozens of times per day — if your extension can save them from navigating to google.com first, that's real value.</p> <p>Here's how I built the",
+      "title": "I Built a Small GPT Image 2 Tracker Because the Rollout Details Were Too Scattered",
+      "link": "https://dev.to/david_bob/i-built-a-small-gpt-image-2-tracker-because-the-rollout-details-were-too-scattered-ic5",
+      "pubDate": "2026-05-04T08:19:23.000Z",
+      "description": "<p>I kept seeing the same GPT Image 2 questions in different places:</p> <ul> <li>Is it actually available yet?</li> <li>Is API access live?</li> <li>Does ChatGPT access mean API access too?</li> <li>What will it cost?</li> <li>Can I test image-to-image workflows somewhere?</li> </ul> <p>Annoying, b",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Testing Firefox Extensions with Playwright: End-to-End Testing Guide",
-      "link": "https://dev.to/weatherclockdash/testing-firefox-extensions-with-playwright-end-to-end-testing-guide-4edo",
-      "pubDate": "2026-05-04T03:51:31.000Z",
-      "description": "<h1> Testing Firefox Extensions with Playwright: End-to-End Testing Guide </h1> <p>Extension testing is one of those things everyone knows they should do but few actually do. I've been using Playwright for end-to-end tests on the <a href=\"https://addons.mozilla.org/en-US/firefox/addon/weather-clock-",
+      "title": "padb: A TUI for Android Debugging That Lives in Your Terminal",
+      "link": "https://dev.to/pablo72/padb-a-tui-for-android-debugging-that-lives-in-your-terminal-3h9c",
+      "pubDate": "2026-05-04T08:19:08.000Z",
+      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F9p6tk6fzthewxdemqntz.png\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/width=800%",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Shift+Space로 한/영 전환하는 Windows 트레이 유틸 (Korean/English IME toggle, open source)",
-      "link": "https://dev.to/coverboy/shiftspacero-hanyeong-jeonhwanhaneun-windows-teurei-yutil-koreanenglish-ime-toggle-open-source-3lba",
-      "pubDate": "2026-05-04T03:51:24.000Z",
-      "description": "<p>Windows에서 한/영 전환할 때마다 키보드 종류 설정 → 재부팅 → 다시 풀려있음 → 또 재부팅... 이 무한루프 겪어보신 분 있을 겁니다.</p> <p>이런 유틸들은 예전부터 많이 있었습니다. 그런데 막상 필요할 때 검색하면 잘 안 나오고 (\"개똥도 약에 쓰려면 없다\"고), 어쩌다 찾아도 출처 모를 binary 파일만 굴러다녀 실행하기 불안하기도 합니다. 그래서 직접 만들어 소스코드까지 공개합니다.</p> <p><strong>GitHub:</strong> <a href=\"https://github.com/coverboy/",
+      "title": "The black box problem of generative AI coding, and what we do with black boxes",
+      "link": "https://dev.to/rrsai/the-black-box-problem-of-generative-ai-coding-and-what-we-do-with-black-boxes-2nao",
+      "pubDate": "2026-05-04T08:16:59.000Z",
+      "description": "<p>Part of the problem with generative AI coding is that it ends up acting highly like a black box. So you generate some code, but that code may - in the best case scenario - be generated from subject matter expert source code but be inscrutable. Or the volume of code required to make the feature is",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Roadmap Profesional en Tecnología: Diseña tu crecimiento más allá de la empresa",
-      "link": "https://dev.to/8infinitecloud/roadmap-profesional-en-tecnologia-disena-tu-crecimiento-mas-alla-de-la-empresa-2bi2",
-      "pubDate": "2026-05-04T03:47:50.000Z",
-      "description": "<h1> Tu roadmap profesional importa más de lo que crees </h1> <p>Una de las etapas más importantes al iniciar en el mundo de la tecnología es construir tu roadmap profesional.</p> <p>Y no, no es exactamente lo mismo que el clásico employee training que muchas empresas suelen asignarte.</p> <h1> ¿Qué",
+      "title": "Ingress Migration Strategy: From Deprecated Controllers to Gateway API",
+      "link": "https://dev.to/matthiasbruns/ingress-migration-strategy-from-deprecated-controllers-to-gateway-api-1607",
+      "pubDate": "2026-05-04T08:07:24.000Z",
+      "description": "<p>The Kubernetes community's announcement of Ingress NGINX's retirement in March 2026 has created an urgent need for migration planning across thousands of production clusters. With <a href=\"https://aws.amazon.com/blogs/networking-and-content-delivery/navigating-the-nginx-ingress-retirement-a-pract",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "Stitch together lots of little HTML pages with navigations for interactions",
+      "link": "https://blog.jim-nielsen.com/2026/small-html-pages/",
+      "pubDate": "2026-05-04T04:43:36.000Z",
+      "description": "Article URL: https://blog.jim-nielsen.com/2026/small-html-pages/ Comments URL: https://news.ycombinator.com/item?id=48004734 Points: 34 # Comments: 18",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Humanoid Robot Actuators",
+      "link": "https://www.firgelli.com/pages/humanoid-robot-actuators",
+      "pubDate": "2026-05-04T03:42:09.000Z",
+      "description": "Article URL: https://www.firgelli.com/pages/humanoid-robot-actuators Comments URL: https://news.ycombinator.com/item?id=48004380 Points: 115 # Comments: 39",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "The text mode lie: why modern TUIs are a nightmare for accessibility",
       "link": "https://xogium.me/the-text-mode-lie-why-modern-tuis-are-a-nightmare-for-accessibility",
       "pubDate": "2026-05-03T23:59:02.000Z",
-      "description": "Article URL: https://xogium.me/the-text-mode-lie-why-modern-tuis-are-a-nightmare-for-accessibility Comments URL: https://news.ycombinator.com/item?id=48002938 Points: 131 # Comments: 51",
+      "description": "Article URL: https://xogium.me/the-text-mode-lie-why-modern-tuis-are-a-nightmare-for-accessibility Comments URL: https://news.ycombinator.com/item?id=48002938 Points: 211 # Comments: 89",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -96,7 +112,7 @@
       "title": "Let's Buy Spirit Air",
       "link": "https://letsbuyspiritair.com/",
       "pubDate": "2026-05-03T23:36:11.000Z",
-      "description": "Article URL: https://letsbuyspiritair.com/ Comments URL: https://news.ycombinator.com/item?id=48002777 Points: 236 # Comments: 191",
+      "description": "Article URL: https://letsbuyspiritair.com/ Comments URL: https://news.ycombinator.com/item?id=48002777 Points: 321 # Comments: 307",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -104,23 +120,15 @@
       "title": "The 'Hidden' Costs of Great Abstractions",
       "link": "https://jdgr.net/the-hidden-costs-of-great-abstractions",
       "pubDate": "2026-05-03T23:12:02.000Z",
-      "description": "Article URL: https://jdgr.net/the-hidden-costs-of-great-abstractions Comments URL: https://news.ycombinator.com/item?id=48002607 Points: 81 # Comments: 18",
+      "description": "Article URL: https://jdgr.net/the-hidden-costs-of-great-abstractions Comments URL: https://news.ycombinator.com/item?id=48002607 Points: 159 # Comments: 56",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Agentic Coding Is a Trap",
-      "link": "https://larsfaye.com/articles/agentic-coding-is-a-trap",
-      "pubDate": "2026-05-03T22:52:07.000Z",
-      "description": "Article URL: https://larsfaye.com/articles/agentic-coding-is-a-trap Comments URL: https://news.ycombinator.com/item?id=48002442 Points: 248 # Comments: 174",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "DeepClaude – Claude Code agent loop with DeepSeek V4 Pro, 17x cheaper",
+      "title": "DeepClaude – Claude Code agent loop with DeepSeek V4 Pro",
       "link": "https://github.com/aattaran/deepclaude",
       "pubDate": "2026-05-03T22:13:20.000Z",
-      "description": "Article URL: https://github.com/aattaran/deepclaude Comments URL: https://news.ycombinator.com/item?id=48002136 Points: 226 # Comments: 101",
+      "description": "Article URL: https://github.com/aattaran/deepclaude Comments URL: https://news.ycombinator.com/item?id=48002136 Points: 424 # Comments: 159",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -128,15 +136,7 @@
       "title": "Introduction to Atom",
       "link": "https://validator.w3.org/feed/docs/atom.html",
       "pubDate": "2026-05-03T22:08:47.000Z",
-      "description": "Article URL: https://validator.w3.org/feed/docs/atom.html Comments URL: https://news.ycombinator.com/item?id=48002089 Points: 51 # Comments: 11",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Make your own microforest (2025)",
-      "link": "https://ambrook.com/offrange/environment/a-forest-in-your-pocket",
-      "pubDate": "2026-05-03T19:31:35.000Z",
-      "description": "Article URL: https://ambrook.com/offrange/environment/a-forest-in-your-pocket Comments URL: https://news.ycombinator.com/item?id=48000507 Points: 74 # Comments: 16",
+      "description": "Article URL: https://validator.w3.org/feed/docs/atom.html Comments URL: https://news.ycombinator.com/item?id=48002089 Points: 89 # Comments: 29",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -144,7 +144,7 @@
       "title": "New statue in London, attributed to Banksy, of a suited man, blinded by a flag",
       "link": "https://www.smithsonianmag.com/smart-news/attributed-to-banksy-a-new-statue-of-a-suited-man-blinded-by-a-flag-and-walking-off-a-ledge-appeared-in-central-london-180988662/",
       "pubDate": "2026-05-03T18:54:28.000Z",
-      "description": "Article URL: https://www.smithsonianmag.com/smart-news/attributed-to-banksy-a-new-statue-of-a-suited-man-blinded-by-a-flag-and-walking-off-a-ledge-appeared-in-central-london-180988662/ Comments URL: https://news.ycombinator.com/item?id=48000152 Points: 302 # Comments: 289",
+      "description": "Article URL: https://www.smithsonianmag.com/smart-news/attributed-to-banksy-a-new-statue-of-a-suited-man-blinded-by-a-flag-and-walking-off-a-ledge-appeared-in-central-london-180988662/ Comments URL: https://news.ycombinator.com/item?id=48000152 Points: 379 # Comments: 326",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -152,15 +152,15 @@
       "title": "Why TUIs are back",
       "link": "https://wiki.alcidesfonseca.com/blog/why-tuis-are-back/",
       "pubDate": "2026-05-03T18:42:28.000Z",
-      "description": "Article URL: https://wiki.alcidesfonseca.com/blog/why-tuis-are-back/ Comments URL: https://news.ycombinator.com/item?id=48000028 Points: 282 # Comments: 298",
+      "description": "Article URL: https://wiki.alcidesfonseca.com/blog/why-tuis-are-back/ Comments URL: https://news.ycombinator.com/item?id=48000028 Points: 324 # Comments: 337",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "BYOMesh – New LoRa mesh radio offers 100x the bandwidth",
-      "link": "https://partyon.xyz/@nullagent/116499715071759135",
-      "pubDate": "2026-05-03T18:03:14.000Z",
-      "description": "Article URL: https://partyon.xyz/@nullagent/116499715071759135 Comments URL: https://news.ycombinator.com/item?id=47999636 Points: 297 # Comments: 94",
+      "title": "Show HN: Ableton Live MCP",
+      "link": "https://github.com/bschoepke/ableton-live-mcp",
+      "pubDate": "2026-05-03T18:05:28.000Z",
+      "description": "Ever wanted to control Ableton with just your voice? Me too! I made this MCP server so I could just ask Codex to do anything in Ableton Live for me, while I was nap-trapped by my baby.The chat messages I sent to Codex to make this:in ableton, make a self reflective song, with audio vocals (via macos",
       "source": "Hacker News",
       "category": "Tech News"
     },
