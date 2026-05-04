@@ -1,94 +1,150 @@
 {
-  "generatedAt": "2026-05-04T08:42:43.352Z",
+  "generatedAt": "2026-05-04T14:32:00.629Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "Best Product Analytics Tools for DeFi Teams",
-      "link": "https://dev.to/yos/best-product-analytics-tools-for-defi-teams-2cj1",
-      "pubDate": "2026-05-04T08:34:07.000Z",
-      "description": "<h2> Key Takeaways </h2> <ul> <li><p>DeFi product analytics requires onchain and offchain data integration because the blockchain records smart contract interactions that traditional tools cannot access while still needing web session and acquisition channel data.</p></li> <li><p>Each platform serve",
+      "title": "Your First Autonomous Agent Mesh – Easier Than You Think",
+      "link": "https://dev.to/nmaroulis21/your-first-autonomous-agent-mesh-easier-than-you-think-4p97",
+      "pubDate": "2026-05-04T14:26:05.000Z",
+      "description": "<p>In this guide we’ll build a Decentralized, Autonomous Vacation Booking System in Python using the <a href=\"https://github.com/nMaroulis/protolink\" rel=\"noopener noreferrer\">Protolink</a> library.</p> <p>The original post can be found on <a href=\"https://levelup.gitconnected.com/your-first-autonom",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "KODA Format: A Schema-First Data Format to Reduce LLM Token Usage ( 40%)",
-      "link": "https://dev.to/om_kawale_b6627244a50e4b6/koda-a-schema-first-data-format-to-reduce-llm-token-usage-40-30mf",
-      "pubDate": "2026-05-04T08:28:00.000Z",
-      "description": "<p>When building applications with large language models (LLMs), one of the most overlooked costs is how structured data is represented.</p> <p>Most systems use JSON.</p> <p>And JSON is inefficient for LLM input.</p> <h2> What is KODA? </h2> <p><strong>KODA (Knowledge-Oriented Data Abstraction)</str",
+      "title": "Building AI Agents with Spring AI and Amazon Bedrock AgentCore - Part 2 Deploy Conference Search application on AgentCore Runtime",
+      "link": "https://dev.to/aws-heroes/building-ai-agents-with-spring-ai-and-amazon-bedrock-agentcore-part-2-deploy-conference-search-2bo8",
+      "pubDate": "2026-05-04T14:23:19.000Z",
+      "description": "<h2> Introduction </h2> <p>In the article <a href=\"https://dev.to/aws-heroes/spring-ai-with-amazon-bedrock-part-1-introduction-and-the-sample-application-4hof\">Introduction to Spring AI</a>, we introduced the sample application to search for conferences. We also exposed its functionality as a set of",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "From Zero to MVP: A Practical Guide to Prediction Market Development",
-      "link": "https://dev.to/bergnadette_viliam_4e7523/from-zero-to-mvp-a-practical-guide-to-prediction-market-development-2kkp",
-      "pubDate": "2026-05-04T08:23:45.000Z",
-      "description": "<p>Or: what broke on my first three attempts so you don't have to repeat it </p> <h2> Step 0. Before you write a single line of code </h2> <p>I've built two prediction markets from scratch. The first one crashed on testnet. The second one launched but had zero users for two months. The third one? Ac",
+      "title": "CLMA Frame Test",
+      "link": "https://dev.to/surimple/clma-frame-test-446",
+      "pubDate": "2026-05-04T14:20:16.000Z",
+      "description": "<h1> CLMA vs Web Chat: Putting Iterative Verification to the Test </h1> <p><em>Posted on May 6, 2026 · #CLMA #MultiAgent #CodeGeneration #EventSourcing #Comparison #Python</em></p> <p>All code is open source on GitHub: <a href=\"https://github.com/kriely/CLMA\" rel=\"noopener noreferrer\">github.com/kri",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I Just Launched a Newsletter. Here's the First Issue.",
-      "link": "https://dev.to/alexrogovjs/i-just-launched-a-newsletter-heres-the-first-issue-g12",
-      "pubDate": "2026-05-04T08:23:29.000Z",
-      "description": "<p>Five months into writing about AI tooling on Hashnode, I noticed a pattern in the questions I get.</p> <p>They're not about Claude or GPT. They're about CLAUDE.md.</p> <p>Specifically: why people write a CLAUDE.md file, follow online guides, and still get the same frustrating result — Claude igno",
+      "title": "From Glue to Horizon: Our Real Journey Building an Iceberg Lakehouse on Snowflake",
+      "link": "https://dev.to/swaroop_krishna_e2f4b83b2/iceberg-lakehouse-on-snowflake-journey-3ln4",
+      "pubDate": "2026-05-04T14:18:45.000Z",
+      "description": "<p>We set out to build an open lakehouse: Iceberg tables on AWS S3, Spark/Glue for pipelines, Snowflake for analytics compute power. What could go wrong? Everything—from query performance implosions to uncloneable dynamic tables. Here's the unfiltered journey, including why we pivoted to Snowflake-m",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "🔐Enforcing image provenance in Kubernetes using Cosign + Sigstore + Kyverno",
-      "link": "https://dev.to/trottomv/enforcing-image-provenance-in-kubernetes-using-cosign-sigstore-kyverno-kna",
-      "pubDate": "2026-05-04T08:22:45.000Z",
-      "description": "<p>What if your Kubernetes cluster simply refused to run unsigned images?</p> <p>I spent some time experimenting with enforcing image provenance in a small Kubernetes setup using MicroK8s.</p> <p>The idea was simple:</p> <blockquote> <p>Only container images with valid cryptographic signatures are a",
+      "title": "Stop Using Regex for Invoices: Use AI to Extract Line-Items in Seconds",
+      "link": "https://dev.to/peterboro/stop-using-regex-for-invoices-use-ai-to-extract-line-items-in-seconds-1k5a",
+      "pubDate": "2026-05-04T14:10:23.000Z",
+      "description": "<h2> The Nightmare of Parsing Invoices </h2> <p>If you’ve ever tried to extract structured data from an invoice or receipt, you know exactly how painful it is. </p> <p>You write a perfect regular expression to extract the total amount from one vendor. It works beautifully. Then, a new vendor comes a",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Supply Chain Attacks: When Your Privacy Tool Gets Compromised",
-      "link": "https://dev.to/havenmessenger/supply-chain-attacks-when-your-privacy-tool-gets-compromised-28lg",
-      "pubDate": "2026-05-04T08:21:21.000Z",
-      "description": "<p>On March 29, 2024, Andres Freund — a Microsoft engineer and PostgreSQL contributor — noticed something odd while investigating unexplained CPU usage in SSH on a Debian testing build. liblzma, the compression library bundled with XZ Utils, was performing extra work it had no business doing. After ",
+      "title": "The 27-Question Client Intake Form Every Small Agency Actually Needs",
+      "link": "https://dev.to/lisasakura/the-27-question-client-intake-form-every-small-agency-actually-needs-ia4",
+      "pubDate": "2026-05-04T14:10:19.000Z",
+      "description": "<p>Most agency onboarding fails before the kickoff call happens.</p> <p>Not because the team isn't good. Not because the client is difficult. Because nobody collected the right context upfront, and the kickoff call becomes the place where everyone discovers what they don't know yet.</p> <p>The intak",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I Built a Small GPT Image 2 Tracker Because the Rollout Details Were Too Scattered",
-      "link": "https://dev.to/david_bob/i-built-a-small-gpt-image-2-tracker-because-the-rollout-details-were-too-scattered-ic5",
-      "pubDate": "2026-05-04T08:19:23.000Z",
-      "description": "<p>I kept seeing the same GPT Image 2 questions in different places:</p> <ul> <li>Is it actually available yet?</li> <li>Is API access live?</li> <li>Does ChatGPT access mean API access too?</li> <li>What will it cost?</li> <li>Can I test image-to-image workflows somewhere?</li> </ul> <p>Annoying, b",
+      "title": "What are your goals for the week? #177",
+      "link": "https://dev.to/jarvisscript/what-are-your-goals-for-the-week-177-2ka7",
+      "pubDate": "2026-05-04T14:08:34.000Z",
+      "description": "<p>Friday I got a new camera to replace the one that broke last year. It's a Canon Rebel with two lenses. The buttons and functions are different from the previous camera so my muscle memory is no good. I have to relearn it all. </p> <p>Spent the weekend at the Renaissance Festival and got some grea",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "padb: A TUI for Android Debugging That Lives in Your Terminal",
-      "link": "https://dev.to/pablo72/padb-a-tui-for-android-debugging-that-lives-in-your-terminal-3h9c",
-      "pubDate": "2026-05-04T08:19:08.000Z",
-      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F9p6tk6fzthewxdemqntz.png\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/width=800%",
+      "title": "Hyped and Overhyped Programming Languages in 2026",
+      "link": "https://dev.to/pvgomes/hyped-and-overhyped-programming-languages-in-2026-1ahc",
+      "pubDate": "2026-05-04T14:05:42.000Z",
+      "description": "<p>Every few years the industry rediscovers that programming languages are not religions.</p> <p>Then we immediately behave like they are religions.</p> <p>Someone posts a benchmark. Someone else says memory safety. Someone says developer experience. A distributed systems person appears from under a",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The black box problem of generative AI coding, and what we do with black boxes",
-      "link": "https://dev.to/rrsai/the-black-box-problem-of-generative-ai-coding-and-what-we-do-with-black-boxes-2nao",
-      "pubDate": "2026-05-04T08:16:59.000Z",
-      "description": "<p>Part of the problem with generative AI coding is that it ends up acting highly like a black box. So you generate some code, but that code may - in the best case scenario - be generated from subject matter expert source code but be inscrutable. Or the volume of code required to make the feature is",
+      "title": "AI Has Hands Now. You Should Decide What It Can Do.",
+      "link": "https://dev.to/movevaluefast/ai-has-hands-now-you-should-decide-what-it-can-do-1aem",
+      "pubDate": "2026-05-04T14:05:24.000Z",
+      "description": "<p>We’ve crossed a line.</p> <p>AI is no longer just generating text.</p> <p>It’s starting to <strong>take actions</strong>.</p> <p>Your agent can now:</p> <ul> <li>call APIs</li> <li>delete data</li> <li>send emails</li> <li>trigger workflows</li> <li>modify production systems</li> </ul> <p>And in ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Ingress Migration Strategy: From Deprecated Controllers to Gateway API",
-      "link": "https://dev.to/matthiasbruns/ingress-migration-strategy-from-deprecated-controllers-to-gateway-api-1607",
-      "pubDate": "2026-05-04T08:07:24.000Z",
-      "description": "<p>The Kubernetes community's announcement of Ingress NGINX's retirement in March 2026 has created an urgent need for migration planning across thousands of production clusters. With <a href=\"https://aws.amazon.com/blogs/networking-and-content-delivery/navigating-the-nginx-ingress-retirement-a-pract",
+      "title": "I Built a Chrome Extension in 5 Months as a Teenager: Here’s My CometNotes Story",
+      "link": "https://dev.to/a_teen_from_india/i-built-a-chrome-extension-in-5-months-as-a-teenager-heres-my-cometnotes-story-5a97",
+      "pubDate": "2026-05-04T14:03:31.000Z",
+      "description": "<p>“I’m 11, I don’t have a CS degree, Here’s how I built an extension with AI”</p> <h2> The Problem </h2> <p>I had a problem.</p> <p>Every time I had an idea, I’d think: “I should write that down.”</p> <p>By the time I opened Notion, my mind had already moved on.</p> <p>I’d lose the idea.</p> <p>Thi",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Stitch together lots of little HTML pages with navigations for interactions",
-      "link": "https://blog.jim-nielsen.com/2026/small-html-pages/",
-      "pubDate": "2026-05-04T04:43:36.000Z",
-      "description": "Article URL: https://blog.jim-nielsen.com/2026/small-html-pages/ Comments URL: https://news.ycombinator.com/item?id=48004734 Points: 34 # Comments: 18",
+      "title": "Fixed-Height Cards: More Fragile Than They Look",
+      "link": "https://css-tricks.com/fixed-height-cards-more-fragile-than-they-look/",
+      "pubDate": "2026-05-04T14:01:36.000Z",
+      "description": "Getting a multi-column of cards to line up equally is is a headache we've all faced, and it gets even harder when working with fixed heights. Fixed-Height Cards: More Fragile Than They Look originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Someone allegedly used a hairdryer to rig Polymarket weather bets",
+      "link": "https://www.engadget.com/big-tech/someone-allegedly-used-a-hairdryer-to-rig-polymarket-weather-bets-155312411.html",
+      "pubDate": "2026-05-04T13:13:52.000Z",
+      "description": "Article URL: https://www.engadget.com/big-tech/someone-allegedly-used-a-hairdryer-to-rig-polymarket-weather-bets-155312411.html Comments URL: https://news.ycombinator.com/item?id=48008326 Points: 43 # Comments: 15",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "PyInfra 3.8.0 Is Out",
+      "link": "https://github.com/pyinfra-dev/pyinfra/releases/tag/v3.8.0",
+      "pubDate": "2026-05-04T12:53:46.000Z",
+      "description": "Article URL: https://github.com/pyinfra-dev/pyinfra/releases/tag/v3.8.0 Comments URL: https://news.ycombinator.com/item?id=48008083 Points: 58 # Comments: 23",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Newton's law of gravity passes its biggest test",
+      "link": "https://www.science.org/content/article/newton-s-law-gravity-passes-its-biggest-test-ever",
+      "pubDate": "2026-05-04T12:52:57.000Z",
+      "description": "Article URL: https://www.science.org/content/article/newton-s-law-gravity-passes-its-biggest-test-ever Comments URL: https://news.ycombinator.com/item?id=48008074 Points: 40 # Comments: 13",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Why Almost Everyone Loses–Except a Few Sharks–On Prediction Markets",
+      "link": "https://www.wsj.com/finance/investing/polymarket-kalshi-betting-profits-prediction-markets-eb23ac11",
+      "pubDate": "2026-05-04T11:49:16.000Z",
+      "description": "Article URL: https://www.wsj.com/finance/investing/polymarket-kalshi-betting-profits-prediction-markets-eb23ac11 Comments URL: https://news.ycombinator.com/item?id=48007503 Points: 30 # Comments: 20",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Talking to 35 Strangers at the Gym",
+      "link": "https://thienantran.com/talking-to-35-strangers-at-the-gym/",
+      "pubDate": "2026-05-04T11:41:02.000Z",
+      "description": "Article URL: https://thienantran.com/talking-to-35-strangers-at-the-gym/ Comments URL: https://news.ycombinator.com/item?id=48007438 Points: 301 # Comments: 123",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Trademark violation: Fake Notepad++ for Mac",
+      "link": "https://notepad-plus-plus.org/news/npp-trademark-infringement/",
+      "pubDate": "2026-05-04T09:40:06.000Z",
+      "description": "Article URL: https://notepad-plus-plus.org/news/npp-trademark-infringement/ Comments URL: https://news.ycombinator.com/item?id=48006445 Points: 358 # Comments: 147",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "GameStop makes $55.5B takeover offer for eBay",
+      "link": "https://www.bbc.co.uk/news/articles/cn0p8yled1do",
+      "pubDate": "2026-05-04T09:31:12.000Z",
+      "description": "Article URL: https://www.bbc.co.uk/news/articles/cn0p8yled1do Comments URL: https://news.ycombinator.com/item?id=48006402 Points: 347 # Comments: 285",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -96,15 +152,7 @@
       "title": "Humanoid Robot Actuators",
       "link": "https://www.firgelli.com/pages/humanoid-robot-actuators",
       "pubDate": "2026-05-04T03:42:09.000Z",
-      "description": "Article URL: https://www.firgelli.com/pages/humanoid-robot-actuators Comments URL: https://news.ycombinator.com/item?id=48004380 Points: 115 # Comments: 39",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "The text mode lie: why modern TUIs are a nightmare for accessibility",
-      "link": "https://xogium.me/the-text-mode-lie-why-modern-tuis-are-a-nightmare-for-accessibility",
-      "pubDate": "2026-05-03T23:59:02.000Z",
-      "description": "Article URL: https://xogium.me/the-text-mode-lie-why-modern-tuis-are-a-nightmare-for-accessibility Comments URL: https://news.ycombinator.com/item?id=48002938 Points: 211 # Comments: 89",
+      "description": "Article URL: https://www.firgelli.com/pages/humanoid-robot-actuators Comments URL: https://news.ycombinator.com/item?id=48004380 Points: 158 # Comments: 72",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -112,15 +160,7 @@
       "title": "Let's Buy Spirit Air",
       "link": "https://letsbuyspiritair.com/",
       "pubDate": "2026-05-03T23:36:11.000Z",
-      "description": "Article URL: https://letsbuyspiritair.com/ Comments URL: https://news.ycombinator.com/item?id=48002777 Points: 321 # Comments: 307",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "The 'Hidden' Costs of Great Abstractions",
-      "link": "https://jdgr.net/the-hidden-costs-of-great-abstractions",
-      "pubDate": "2026-05-03T23:12:02.000Z",
-      "description": "Article URL: https://jdgr.net/the-hidden-costs-of-great-abstractions Comments URL: https://news.ycombinator.com/item?id=48002607 Points: 159 # Comments: 56",
+      "description": "Article URL: https://letsbuyspiritair.com/ Comments URL: https://news.ycombinator.com/item?id=48002777 Points: 446 # Comments: 420",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -128,39 +168,7 @@
       "title": "DeepClaude – Claude Code agent loop with DeepSeek V4 Pro",
       "link": "https://github.com/aattaran/deepclaude",
       "pubDate": "2026-05-03T22:13:20.000Z",
-      "description": "Article URL: https://github.com/aattaran/deepclaude Comments URL: https://news.ycombinator.com/item?id=48002136 Points: 424 # Comments: 159",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Introduction to Atom",
-      "link": "https://validator.w3.org/feed/docs/atom.html",
-      "pubDate": "2026-05-03T22:08:47.000Z",
-      "description": "Article URL: https://validator.w3.org/feed/docs/atom.html Comments URL: https://news.ycombinator.com/item?id=48002089 Points: 89 # Comments: 29",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "New statue in London, attributed to Banksy, of a suited man, blinded by a flag",
-      "link": "https://www.smithsonianmag.com/smart-news/attributed-to-banksy-a-new-statue-of-a-suited-man-blinded-by-a-flag-and-walking-off-a-ledge-appeared-in-central-london-180988662/",
-      "pubDate": "2026-05-03T18:54:28.000Z",
-      "description": "Article URL: https://www.smithsonianmag.com/smart-news/attributed-to-banksy-a-new-statue-of-a-suited-man-blinded-by-a-flag-and-walking-off-a-ledge-appeared-in-central-london-180988662/ Comments URL: https://news.ycombinator.com/item?id=48000152 Points: 379 # Comments: 326",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Why TUIs are back",
-      "link": "https://wiki.alcidesfonseca.com/blog/why-tuis-are-back/",
-      "pubDate": "2026-05-03T18:42:28.000Z",
-      "description": "Article URL: https://wiki.alcidesfonseca.com/blog/why-tuis-are-back/ Comments URL: https://news.ycombinator.com/item?id=48000028 Points: 324 # Comments: 337",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Show HN: Ableton Live MCP",
-      "link": "https://github.com/bschoepke/ableton-live-mcp",
-      "pubDate": "2026-05-03T18:05:28.000Z",
-      "description": "Ever wanted to control Ableton with just your voice? Me too! I made this MCP server so I could just ask Codex to do anything in Ableton Live for me, while I was nap-trapped by my baby.The chat messages I sent to Codex to make this:in ableton, make a self reflective song, with audio vocals (via macos",
+      "description": "Article URL: https://github.com/aattaran/deepclaude Comments URL: https://news.ycombinator.com/item?id=48002136 Points: 551 # Comments: 233",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -233,14 +241,6 @@
       "link": "https://css-tricks.com/whats-important-9/",
       "pubDate": "2026-04-17T14:00:41.000Z",
       "description": "This issue of What’s !important brings you clip-path jigsaws, a view transitions toolkit, name-only containers, the usual roundup of new, notable web platform features, and more. What’s !important #9: clip-path Jigsaws, View Transitions Toolkit, Name-only Containers, and More originally handwritten ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "A Well-Designed JavaScript Module System is Your First Architecture Decision",
-      "link": "https://css-tricks.com/the-javascript-module-system-architecture/",
-      "pubDate": "2026-04-16T13:53:58.000Z",
-      "description": "Behind every technology, there should be a guide for its use. While JavaScript modules make it easier to write “big” programs, if there are no principles or systems for using them, things could easily become difficult to maintain. A Well-Designed JavaScript Module System is Your First Architecture D",
       "source": "CSS Tricks",
       "category": "Frontend"
     },
