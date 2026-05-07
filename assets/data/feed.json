@@ -1,126 +1,158 @@
 {
-  "generatedAt": "2026-05-06T20:02:06.507Z",
+  "generatedAt": "2026-05-07T04:06:12.415Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "Day 6 of 60 — and today Python stopped being theory.",
-      "link": "https://dev.to/mbugua_cessy/day-6-of-60-and-today-python-stopped-being-theory-51in",
-      "pubDate": "2026-05-06T19:53:59.000Z",
-      "description": "<p>No new concepts today. Instead I sat down with real life challenges built around everything I've learned so far: variables, data types, operators, strings, lists, functions, loops, classes, objects, inheritance, exception handling and file handling.</p> <p>And that's where it got interesting.</p>",
+      "title": "The Scam Campaign Lifecycle: Message, Trust, Infrastructure, Action",
+      "link": "https://dev.to/bhausfeld1/the-scam-campaign-lifecycle-message-trust-infrastructure-action-o33",
+      "pubDate": "2026-05-07T04:01:24.000Z",
+      "description": "<p>Most scam analysis begins too late. A suspicious website is found, a fake profile is reported, a phone number is flagged, or a victim submits a screenshot after the damage has already started. By that point, the scam is already in motion. The better way to understand scam campaigns is to look at ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Shipped my first iOS app entirely with Codex — what worked, what surprised me",
-      "link": "https://dev.to/hoosber_neo_a01c7e4da0e7c/shipped-my-first-ios-app-entiiosiosrely-with-codex-what-worked-what-surprised-me-53il",
-      "pubDate": "2026-05-06T19:52:41.000Z",
-      "description": "<p>Just shipped Rushi — my first iOS app, built solo with Codex over the past 4 months. Wanted to share what I learned, especially for anyone considering Codex as their primary coding partner for an iOS project.</p> <h2> Background </h2> <p>I'd never written Swift before. Started with Codex as my pa",
+      "title": "More ‘Kryten’ and Less ‘Replicant’: The Case for the Mechanical Tell",
+      "link": "https://dev.to/gigaelk/more-kryten-and-less-replicant-the-case-for-the-mechanical-tell-2gp2",
+      "pubDate": "2026-05-07T03:59:58.000Z",
+      "description": "<p>In Star Trek, why does the computer sound so mechanical and emotionless when the holodeck can create characters who can converse indistinguishably from humans? In Voyager, the Doctor himself is as realistic as it gets, complete with a receding hairline and a snarky attitude.</p> <p>Why does Data ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Understanding Decoder-Only Transformers Part 2: Decoder-Only vs Regular Transformers",
-      "link": "https://dev.to/rijultp/understanding-decoder-only-transformers-part-2-decoder-only-vs-regular-transformers-3200",
-      "pubDate": "2026-05-06T19:44:50.000Z",
-      "description": "<p>In this article, we will look at the differences between a <strong>decoder-only transformer</strong> and a <strong>standard (encoder–decoder) transformer</strong>.</p> <h2> How Decoder-Only Transformers Work </h2> <p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-dow",
+      "title": "How to Use WireGuard 2.0 with Kubernetes 1.38 for Secure Cluster Networking",
+      "link": "https://dev.to/johalputt/how-to-use-wireguard-20-with-kubernetes-138-for-secure-cluster-networking-1de7",
+      "pubDate": "2026-05-07T03:59:28.000Z",
+      "description": "<p>In 2024, 68% of Kubernetes clusters still rely on legacy CNI plugins with unpatched CVEs in their encryption layers. WireGuard 2.0 combined with Kubernetes 1.38’s native network policy engine cuts cluster networking latency by 42%, reduces attack surface by 79%, and eliminates $12k/year in legacy",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The Tailwind debate is really about abstraction",
-      "link": "https://dev.to/davidslv/the-tailwind-debate-is-really-about-abstraction-470c",
-      "pubDate": "2026-05-06T19:44:15.000Z",
-      "description": "<p>Two posts appeared on Dev.to a few days ago. One titled <a href=\"https://dev.to/sylwia-lask/i-love-tailwind-sorry-not-sorry-5cfh\">\"I Love Tailwind — Sorry Not Sorry.\"</a> The other: <a href=\"https://dev.to/freshcaffeine/i-dont-like-tailwind-sorry-not-sorry-50b5\">\"I Don't Like Tailwind — Sorry Not",
+      "title": "From Zero to Job Data Visualization vs Power BI: Which Wins?",
+      "link": "https://dev.to/johalputt/from-zero-to-job-data-visualization-vs-power-bi-which-wins-l9p",
+      "pubDate": "2026-05-07T03:56:31.000Z",
+      "description": "<p>In Q3 2024, 72% of engineering teams building job data pipelines reported wasted spend on BI tools they couldn't customize—we benchmarked custom viz from zero against Power BI to find the breaking point.</p> <h3> 📡 Hacker News Top Stories Right Now </h3> <ul> <li> <strong>Valve releases Steam Co",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "How to Install NVIDIA Drivers on Fedora 44",
+      "link": "https://dev.to/kavindotdev/how-to-install-nvidia-drivers-on-fedora-44-1b9a",
+      "pubDate": "2026-05-07T03:53:34.000Z",
+      "description": "<p>This guide covers the <strong>RPM Fusion method</strong> — the recommended and most maintainable way to install NVIDIA proprietary drivers on Fedora. No manual <code>.run</code> installers, no broken <code>dnf</code> states.</p> <h2> Prerequisites </h2> <p>Before you start, make sure your system ",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Building EDIFlow - Infrastructure Layer: Parsers, Repositories &amp; Data Packages (Part 4)",
+      "link": "https://dev.to/helloediflow/building-ediflow-infrastructure-layer-parsers-repositories-data-packages-part-4-4hjn",
+      "pubDate": "2026-05-07T03:44:18.000Z",
+      "description": "<p><strong>Series:</strong> Building EDIFlow - A Clean Architecture Journey in TypeScript (Part 4/6)<br> <strong>Reading Time:</strong> ~12 minutes</p> <h2> Recap — Where We Left Off </h2> <p>In <a href=\"https://dev.to/helloediflow/building-ediflow-application-layer-use-cases-ports-factories-part-3-",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "SwiftDeploy: A Tool That Writes Its Own Infrastructure",
+      "link": "https://dev.to/mordecai_amehson/swiftdeploy-a-tool-that-writes-its-own-infrastructure-170d",
+      "pubDate": "2026-05-07T03:39:01.000Z",
+      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fzm4vc5m3pi51b180aen5.png\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/width=800%",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "I built a 200 line AI router in TypeScript. My monthly bill dropped 41%.",
+      "link": "https://dev.to/thegdsks/i-built-a-200-line-ai-router-in-typescript-my-monthly-bill-dropped-41-23ok",
+      "pubDate": "2026-05-07T03:34:05.000Z",
+      "description": "<p>I track my own AI spend across three projects. In March, the line item that grew fastest was not Claude or GPT calls. It was my Cursor seat plus my Copilot seat plus the Anthropic API I was hitting from a personal CLI. Three subscriptions, three meters, and the same Opus tokens billed twice becau",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "⚖️ Case File 1.2: The Irreversibility Trap",
+      "link": "https://dev.to/manojsatna31/case-file-12-the-irreversibility-trap-blueprint-felonies-continued-49g7",
+      "pubDate": "2026-05-07T03:30:00.000Z",
+      "description": "<blockquote> <h3> Blueprint Felonies Continued.. </h3> <p><em>The most expensive mistake in architecture isn’t making the wrong decision—it’s making it too early.</em></p> </blockquote> <p>In 17+ years of building enterprise systems, I’ve seen developers sprint toward \"final\" decisions as if they we",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Cloudflare and Stripe just let agents buy domains and ship code. Here is the API.",
+      "link": "https://dev.to/thegdsks/cloudflare-and-stripe-just-let-agents-buy-domains-and-ship-code-here-is-the-api-59pb",
+      "pubDate": "2026-05-07T03:27:56.000Z",
+      "description": "<p>On April 30, Cloudflare quietly published a blog post and a docs page that nobody outside the agentic AI crowd noticed for about 24 hours. The headline buried a real shift. AI agents can now provision a Cloudflare account, register a domain, attach a Stripe payment method, deploy a Worker, and ha",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Permacomputing Principles",
+      "link": "https://permacomputing.net/principles/",
+      "pubDate": "2026-05-07T02:18:23.000Z",
+      "description": "Article URL: https://permacomputing.net/principles/ Comments URL: https://news.ycombinator.com/item?id=48044638 Points: 24 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "The Vatican's Website in Latin",
+      "link": "https://www.vatican.va/latin/latin_index.html",
+      "pubDate": "2026-05-07T01:26:03.000Z",
+      "description": "Article URL: https://www.vatican.va/latin/latin_index.html Comments URL: https://news.ycombinator.com/item?id=48044311 Points: 68 # Comments: 43",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "What British people mean when they say 'sorry'",
+      "link": "https://www.bbc.com/travel/article/20260506-what-british-people-really-mean-when-they-say-sorry",
+      "pubDate": "2026-05-06T23:21:53.000Z",
+      "description": "Article URL: https://www.bbc.com/travel/article/20260506-what-british-people-really-mean-when-they-say-sorry Comments URL: https://news.ycombinator.com/item?id=48043184 Points: 24 # Comments: 12",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "SQLite Is a Library of Congress Recommended Storage Format",
+      "link": "https://sqlite.org/locrsf.html",
+      "pubDate": "2026-05-06T21:58:43.000Z",
+      "description": "Article URL: https://sqlite.org/locrsf.html Comments URL: https://news.ycombinator.com/item?id=48042434 Points: 55 # Comments: 18",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Show HN: PHP-fts – Full-text search engine in pure PHP, no extensions",
+      "link": "https://github.com/olivier-ls/php-fts",
+      "pubDate": "2026-05-06T20:28:17.000Z",
+      "description": "Article URL: https://github.com/olivier-ls/php-fts Comments URL: https://news.ycombinator.com/item?id=48041316 Points: 37 # Comments: 9",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "Google’s Prompt API",
       "link": "https://css-tricks.com/googles-prompt-api/",
       "pubDate": "2026-05-06T19:41:29.000Z",
-      "description": "Mat Marquis on Google pulling the webs standards equivalent of U2 album marketing: As a Chrome user, you’ll have received Gemini Nano in the form of a 4GB transfer recently; no permission asked or required. If you remove it, … Google’s Prompt API originally handwritten and published with love on CSS",
+      "description": "Mat Marquis on Google pulling the web standards equivalent of U2 album marketing: As a Chrome user, you’ll have received Gemini Nano in the form of a 4GB transfer recently; no permission asked or required. If you remove it, … Google’s Prompt API originally handwritten and published with love on CSS-",
       "source": "CSS Tricks",
       "category": "Frontend"
     },
     {
-      "title": "What Code is About (IMO)",
-      "link": "https://dev.to/tavari/what-code-is-about-imo-3i0g",
-      "pubDate": "2026-05-06T19:38:58.000Z",
-      "description": "<p>I want to talk about what code is about and what did to my life and mind, not as a career or hobby, but as a way of thinking that I didn't expect and won't let go of.</p> <p>I've been building <a href=\"https://github.com/TavariAgent/Py-TokenGate\" rel=\"noopener noreferrer\">TokenGate</a> and learne",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Building Mithridatium: Detecting Hidden Backdoors in ML Models",
-      "link": "https://dev.to/pelsky1/building-mithridatium-detecting-hidden-backdoors-in-ml-models-3gh7",
-      "pubDate": "2026-05-06T19:36:25.000Z",
-      "description": "<p>As pretrained AI models become more common, one growing concern is whether those models can actually be trusted.</p> <p>A model may appear completely normal during testing, but behave maliciously when exposed to a hidden trigger. These attacks are known as backdoor or poisoning attacks, and they ",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Inkscape 1.4.4 Is Out",
+      "title": "Inkscape 1.4.4",
       "link": "https://inkscape.org/doc/release_notes/1.4.4/Inkscape_1.4.4.html",
       "pubDate": "2026-05-06T19:33:25.000Z",
-      "description": "Article URL: https://inkscape.org/doc/release_notes/1.4.4/Inkscape_1.4.4.html Comments URL: https://news.ycombinator.com/item?id=48040622 Points: 15 # Comments: 0",
+      "description": "Article URL: https://inkscape.org/doc/release_notes/1.4.4/Inkscape_1.4.4.html Comments URL: https://news.ycombinator.com/item?id=48040622 Points: 241 # Comments: 68",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "The Last Human-First Programming Language",
-      "link": "https://dev.to/andreasbergstrom/the-last-human-first-programming-language-24gl",
-      "pubDate": "2026-05-06T19:24:49.000Z",
-      "description": "<p>Programming spent forty years climbing away from the machine — garbage collection, ORMs, dynamic typing, magical frameworks — trading runtime cost for human comfort while a person was at the keyboard. If LLMs are writing most of the code, the next generation of languages won't optimise for what's",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Sign In With LinkedIn Using OpenID Connect in Next.js 16",
-      "link": "https://dev.to/nicolasai/sign-in-with-linkedin-using-openid-connect-in-nextjs-16-1p48",
-      "pubDate": "2026-05-06T19:24:12.000Z",
-      "description": "<p>LinkedIn finally moved Sign In to OpenID Connect a while back. Most of the tutorials still floating around the internet show the legacy v1 OAuth dance with <code>r_liteprofile</code> and <code>r_emailaddress</code> scopes. Those are deprecated. If you copy them, your callback will work for a whil",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "I built a code snippet manager — and it's live",
-      "link": "https://dev.to/emhamitay/i-built-a-code-snippet-manager-and-its-live-58nc",
-      "pubDate": "2026-05-06T19:23:28.000Z",
-      "description": "<p>בעה\"י <br> If you've ever found yourself searching through old projects just to copy that one utility function you wrote six months ago (or telling claude to make it again) — this is for you.<br> Snippr is a personal code snippet library. Save your snippets, organize them by language and tags, sh",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "How To Limit The Number Of Words Or Characters Shown With SFMC's AMPscript",
-      "link": "https://dev.to/ampscript-ninja/how-to-limit-the-number-of-words-or-characters-shown-with-sfmcs-ampscript-3jk2",
-      "pubDate": "2026-05-06T19:19:13.000Z",
-      "description": "<p>Ever had a scenario where you were putting a product name or some other kind of dynamic content into a subject line, and you wanted to only show the first X words or characters? Or featuring article content in an email and wanted to include a short blurb with the first X words as a preview?</p> <",
-      "source": "Dev.to Feed",
-      "category": "Development"
+      "title": "Programming Still Sucks",
+      "link": "https://www.stvn.sh/writing/programming-still-sucks-fqffhyp",
+      "pubDate": "2026-05-06T19:06:41.000Z",
+      "description": "Article URL: https://www.stvn.sh/writing/programming-still-sucks-fqffhyp Comments URL: https://news.ycombinator.com/item?id=48040269 Points: 169 # Comments: 36",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "Learning the Integral of a Diffusion Model",
       "link": "https://sander.ai/2026/05/06/flow-maps.html",
       "pubDate": "2026-05-06T18:46:27.000Z",
-      "description": "Article URL: https://sander.ai/2026/05/06/flow-maps.html Comments URL: https://news.ycombinator.com/item?id=48040002 Points: 13 # Comments: 1",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "BYD overtakes Tesla and Kia as the best-selling EV brand in key overseas markets",
-      "link": "https://electrek.co/2026/05/05/byd-overtakes-tesla-kia-best-selling-ev-brand-key-overseas-markets/",
-      "pubDate": "2026-05-06T18:25:06.000Z",
-      "description": "Article URL: https://electrek.co/2026/05/05/byd-overtakes-tesla-kia-best-selling-ev-brand-key-overseas-markets/ Comments URL: https://news.ycombinator.com/item?id=48039739 Points: 133 # Comments: 160",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Proton Meet",
-      "link": "https://proton.me/business/blog/introducing-proton-meet",
-      "pubDate": "2026-05-06T18:19:49.000Z",
-      "description": "Article URL: https://proton.me/business/blog/introducing-proton-meet Comments URL: https://news.ycombinator.com/item?id=48039674 Points: 43 # Comments: 7",
+      "description": "Article URL: https://sander.ai/2026/05/06/flow-maps.html Comments URL: https://news.ycombinator.com/item?id=48040002 Points: 112 # Comments: 19",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -128,15 +160,7 @@
       "title": "Google Cloud fraud defense, the next evolution of reCAPTCHA",
       "link": "https://cloud.google.com/blog/products/identity-security/introducing-google-cloud-fraud-defense-the-next-evolution-of-recaptcha/",
       "pubDate": "2026-05-06T17:59:33.000Z",
-      "description": "Article URL: https://cloud.google.com/blog/products/identity-security/introducing-google-cloud-fraud-defense-the-next-evolution-of-recaptcha/ Comments URL: https://news.ycombinator.com/item?id=48039362 Points: 46 # Comments: 32",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Going Full Time on Open Source",
-      "link": "https://jdx.dev/posts/2026-04-17-going-full-time-on-open-source/",
-      "pubDate": "2026-05-06T17:22:49.000Z",
-      "description": "Article URL: https://jdx.dev/posts/2026-04-17-going-full-time-on-open-source/ Comments URL: https://news.ycombinator.com/item?id=48038864 Points: 80 # Comments: 8",
+      "description": "Article URL: https://cloud.google.com/blog/products/identity-security/introducing-google-cloud-fraud-defense-the-next-evolution-of-recaptcha/ Comments URL: https://news.ycombinator.com/item?id=48039362 Points: 234 # Comments: 223",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -144,31 +168,7 @@
       "title": "From Supabase to Clerk to Better Auth",
       "link": "https://blog.val.town/better-auth",
       "pubDate": "2026-05-06T17:19:34.000Z",
-      "description": "Article URL: https://blog.val.town/better-auth Comments URL: https://news.ycombinator.com/item?id=48038827 Points: 100 # Comments: 40",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "SoundOff: Low-Cost Passive Ultrasound Tags",
-      "link": "https://yibo-fu.com/SoundOff-Low-cost-Passive-Ultrasound-Tags-for-Non-invasive-and-Non",
-      "pubDate": "2026-05-06T17:13:54.000Z",
-      "description": "Article URL: https://yibo-fu.com/SoundOff-Low-cost-Passive-Ultrasound-Tags-for-Non-invasive-and-Non Comments URL: https://news.ycombinator.com/item?id=48038750 Points: 10 # Comments: 1",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Colombia hosts talks on exiting fossil fuels as global energy crisis deepens",
-      "link": "https://www.latimes.com/environment/story/2026-04-26/colombia-hosts-talks-on-exiting-fossil-fuels-as-global-energy-crisis-deepens",
-      "pubDate": "2026-05-06T16:54:21.000Z",
-      "description": "Article URL: https://www.latimes.com/environment/story/2026-04-26/colombia-hosts-talks-on-exiting-fossil-fuels-as-global-energy-crisis-deepens Comments URL: https://news.ycombinator.com/item?id=48038489 Points: 85 # Comments: 52",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Show HN: I built an open-source email builder, alternative to Beefree/Unlayer",
-      "link": "https://play.templatical.com",
-      "pubDate": "2026-05-06T16:20:00.000Z",
-      "description": "Article URL: https://play.templatical.com Comments URL: https://news.ycombinator.com/item?id=48038019 Points: 51 # Comments: 15",
+      "description": "Article URL: https://blog.val.town/better-auth Comments URL: https://news.ycombinator.com/item?id=48038827 Points: 221 # Comments: 150",
       "source": "Hacker News",
       "category": "Tech News"
     },
