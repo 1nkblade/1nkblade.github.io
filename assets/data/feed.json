@@ -1,88 +1,168 @@
 {
-  "generatedAt": "2026-05-07T14:51:39.224Z",
+  "generatedAt": "2026-05-07T19:54:54.620Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "Angular DI Is Not Type-Safe, So I Fixed It",
-      "link": "https://dev.to/romain_geffrault_10d88369/angular-di-is-not-type-safe-so-i-fixed-it-mgo",
-      "pubDate": "2026-05-07T14:49:08.000Z",
-      "description": "<p>According to a poll I ran on LinkedIn, there are two main ways people use Angular dependency injection.</p> <ol> <li>Only creating <code>root</code> services, meaning services are singletons shared across the whole application.</li> <li>Creating local services, meaning they are provided at the co",
+      "title": "Asterisk CDR Analysis — Extract Insights from Call Detail Records",
+      "link": "https://dev.to/moisi_trungu_31647b7ac300/asterisk-cdr-analysis-extract-insights-from-call-detail-records-1382",
+      "pubDate": "2026-05-07T19:50:02.000Z",
+      "description": "<h1> Asterisk CDR Analysis — Extract Insights from Call Detail Records </h1> <p><strong>Master the complete workflow for analyzing Asterisk Call Detail Records in production ViciDial environments—from database queries to real-time metrics and automated reporting.</strong></p> <h2> Introduction </h2>",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Why 1000 != 1000 in Payments",
-      "link": "https://dev.to/gopikrishna000/why-1000-1000-in-payments-38hb",
-      "pubDate": "2026-05-07T14:43:41.000Z",
-      "description": "<p>Money is deceptively simple. You have an amount, you have a currency. How hard can it be?</p> <p>Turns out — very. A tiny mistake in how you represent a number can silently drain a business, trigger fraud alerts, or accidentally charge customers ten times what they owe. This post is about the mon",
+      "title": "Comparison: AI Tools for DevOps – Claude 3.5 Sonnet vs. GitHub Copilot 2.0 for Terraform 1.10",
+      "link": "https://dev.to/johalputt/comparison-ai-tools-for-devops-claude-35-sonnet-vs-github-copilot-20-for-terraform-110-3co1",
+      "pubDate": "2026-05-07T19:49:41.000Z",
+      "description": "<p>In a 1200-run benchmark across 14 Terraform 1.10 resource types, Claude 3.5 Sonnet generated valid, production-ready HCL 22% faster than GitHub Copilot 2.0, but Copilot’s IDE integration reduced context-switching by 37% for senior DevOps engineers.</p> <h3> 🔴 Live Ecosystem Stats </h3> <ul> <li>",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "HTML is Not Just You Think...",
-      "link": "https://dev.to/imsurajx/html-is-not-just-you-think-3mgb",
-      "pubDate": "2026-05-07T14:43:02.000Z",
-      "description": "<h2> 1. Introduction </h2> <h3> What is HTML? </h3> <p>HTML (HyperText Markup Language) is the standard markup language used to create and structure web pages. It helps browsers display content such as text, images, links, tables, forms, audio, and video.</p> <p>HTML is not a programming language. I",
+      "title": "Codeable Alternatives 2026 — Real Pricing, Real Hidden Costs",
+      "link": "https://dev.to/guardlabs_team/codeable-alternatives-2026-real-pricing-real-hidden-costs-5533",
+      "pubDate": "2026-05-07T19:48:06.000Z",
+      "description": "<h1> Codeable Alternatives 2026 — Real Pricing, Real Hidden Costs </h1> <p>You need to add a custom field to your WooCommerce checkout page. It seems simple. You post the job on Codeable, the platform known for its pre-vetted WordPress experts. A few hours later, the estimates roll in. The lowest is",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Creativity Is Theft. And Nature Stole First.",
-      "link": "https://dev.to/kushal1o1/creativity-is-theft-and-nature-stole-first-3l94",
-      "pubDate": "2026-05-07T14:41:57.000Z",
-      "description": "<p>Let me ask you something weird.</p> <p>Why does the human brain look like a neural network?</p> <p>Not metaphorically. Actually. Literally. The thing we built and called \"artificial intelligence\" — the thing we're all losing sleep over — looks suspiciously like the thing already sitting inside yo",
+      "title": "I Audited My Own SaaS Pricing and Found a Conversion Leak",
+      "link": "https://dev.to/elistrattondev/i-audited-my-own-saas-pricing-and-found-a-conversion-leak-4766",
+      "pubDate": "2026-05-07T19:46:16.000Z",
+      "description": "<p>A few weeks after launching PageCalm, I sat down to write a one-page product description. Halfway through, the document said something like \"I'm building for small teams who can't justify $29/month for a status page.\" Then a few lines down it listed my Pro tier at $29/month.</p> <p>That contradic",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Node Voltage Analysis: The Method That Makes Circuits Easy",
-      "link": "https://dev.to/researcher_alpha00/node-voltage-analysis-the-method-that-makes-circuits-easy-341f",
-      "pubDate": "2026-05-07T14:40:22.000Z",
-      "description": "<h1> Node Voltage Analysis: The Method That Makes Circuits Easy </h1> <p><strong>The first real analysis technique — and why it's just organized common sense</strong></p> <p>If you've been following this series, you know voltage, current, Ohm's law, KCL, and KVL. Now it's time to put them all togeth",
+      "title": "Best Free Website Monitoring Tools (2026): No Credit Card, No Bullshit",
+      "link": "https://dev.to/guardlabs_team/best-free-website-monitoring-tools-2026-no-credit-card-no-bullshit-59p3",
+      "pubDate": "2026-05-07T19:46:09.000Z",
+      "description": "<h1> Best Free Website Monitoring Tools (2026): No Credit Card, No Bullshit </h1> <p>Your site went down at 3 AM on a Saturday. A database connection timed out, a server process crashed, or maybe your hosting provider had a network blip. The real problem isn't that it went down—things break. The rea",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Code Story: Optimizing Our PostgreSQL 16 Queries with EXPLAIN and Drizzle 0.30 Cut Response Time by 40%",
-      "link": "https://dev.to/johalputt/code-story-optimizing-our-postgresql-16-queries-with-explain-and-drizzle-030-cut-response-time-by-2ign",
-      "pubDate": "2026-05-07T14:39:38.000Z",
-      "description": "<p>At 2:14 PM on a Tuesday in Q3 2024, our production PostgreSQL 16 cluster hit a p99 query latency of 2.8 seconds for our core order lookup endpoint, triggering 12 customer support tickets in 10 minutes and costing us an estimated $4,200 in lost conversion revenue before we even noticed the alert. ",
+      "title": "From React to React Native: what web devs get wrong on day one",
+      "link": "https://dev.to/malik_chohra/from-react-to-react-native-what-web-devs-get-wrong-on-day-one-46i5",
+      "pubDate": "2026-05-07T19:46:01.000Z",
+      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fwrdm53yq1s7uos140fcp.png\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/width=800%",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Shipping Paid MCP Tools on Base Mainnet: the Build Pattern and What I Got Wrong",
-      "link": "https://dev.to/godspeed2077/shipping-paid-mcp-tools-on-base-mainnet-the-build-pattern-and-what-i-got-wrong-135i",
-      "pubDate": "2026-05-07T14:38:04.000Z",
-      "description": "<p>A couple of months ago I shipped ForgePoint Signal — a regulatory monitoring MCP server with x402 micropayments on Base mainnet. The first post was about what I built and how. This one is the harder one: what I learned, what I got wrong, and the part of the build that's actually portable.<br> If ",
+      "title": "What PocketOS Teaches Us About Agentic Architecture",
+      "link": "https://dev.to/waxell/what-pocketos-teaches-us-about-agentic-architecture-k0o",
+      "pubDate": "2026-05-07T19:42:08.000Z",
+      "description": "<p>Nine seconds. That's how long it took a Cursor AI coding agent running Claude Opus 4.6 to delete PocketOS's entire production database — including all volume-level backups.</p> <p>The founder, Jer Crane, had assigned the agent a routine task: sort out a credential mismatch in the staging environm",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "[Boost]",
-      "link": "https://dev.to/supaluckn/-3323",
-      "pubDate": "2026-05-07T14:37:06.000Z",
-      "description": "<div class=\"ltag__link--embedded\"> <div class=\"crayons-story \"> <a href=\"https://dev.to/ferdibrgl/complete-roadmap-for-cyber-security-career-path-554m\" class=\"crayons-story__hidden-navigation-link\">Complete Roadmap for Cyber Security Career Path</a> <div class=\"crayons-story__body crayons-story__bod",
+      "title": "How to Authorize AI Agents Using Token Exchange Open Standards",
+      "link": "https://dev.to/kimmaida/how-to-authorize-ai-agents-using-token-exchange-open-standards-288d",
+      "pubDate": "2026-05-07T19:41:53.000Z",
+      "description": "<h2> Your agents have too much access </h2> <p>You have a coding agent. It needs to call an API, so you generate a static API key, paste it into an <code>.env</code> file, and tell the agent to use that file whenever it needs API access.</p> <p>Then you ask the agent to <code>GET</code> API data. It",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I Was a Human AI Agent Before it was Cool",
-      "link": "https://dev.to/sym/i-was-a-human-ai-agent-before-it-was-cool-3kd8",
-      "pubDate": "2026-05-07T14:35:14.000Z",
-      "description": "<p>In 2026, what I'm about to describe would be a three-tool agent loop. An LLM instance with computer use, a couple of MCP servers, maybe a router for the edge cases. A weekend project.</p> <p>When I actually built it, none of that existed. What I had was Puppeteer, three vastly different internal ",
+      "title": "Indeed Data API: Extract Structured JSON in 2026",
+      "link": "https://dev.to/alterlab/indeed-data-api-extract-structured-json-in-2026-p28",
+      "pubDate": "2026-05-07T19:41:12.000Z",
+      "description": "<p><em>Disclaimer: This guide covers extracting publicly accessible data. Always review a site's robots.txt and Terms of Service before scraping.</em></p> <p>When building data pipelines for labor market intelligence, treating job boards as raw HTML sources is a losing battle. Selectors change, layo",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Why Most ATS Systems Reject Good Resumes",
-      "link": "https://dev.to/wasi_hussain/why-most-ats-systems-reject-good-resumes-38ng",
-      "pubDate": "2026-05-07T14:34:58.000Z",
-      "description": "<p>Many job seekers believe their resume is strong enough for recruiters, but in reality, most applications are filtered by ATS (Applicant Tracking Systems) before a human even sees them.</p> <p>That means even qualified candidates can get rejected because of small resume issues.</p> <p>Some of the ",
+      "title": "ClickHouse Managed Service: The Hard Truth About Not Managing Your Own Data Infrastructure",
+      "link": "https://dev.to/heleo/clickhouse-managed-service-the-hard-truth-about-not-managing-your-own-data-infrastructure-4n43",
+      "pubDate": "2026-05-07T19:40:15.000Z",
+      "description": "<p>Liquid syntax error: 'raw' tag was never closed</p>",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "Dirtyfrag: Universal Linux LPE",
+      "link": "https://www.openwall.com/lists/oss-security/2026/05/07/8",
+      "pubDate": "2026-05-07T19:21:32.000Z",
+      "description": "Article URL: https://www.openwall.com/lists/oss-security/2026/05/07/8 Comments URL: https://news.ycombinator.com/item?id=48053623 Points: 9 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Colored Shadow Penumbra",
+      "link": "https://chosker.github.io/blog/colored-shadow-penumbra",
+      "pubDate": "2026-05-07T19:04:30.000Z",
+      "description": "Article URL: https://chosker.github.io/blog/colored-shadow-penumbra Comments URL: https://news.ycombinator.com/item?id=48053435 Points: 5 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "AI Slop Is Killing Online Communities",
+      "link": "https://rmoff.net/2026/05/06/ai-slop-is-killing-online-communities/",
+      "pubDate": "2026-05-07T18:46:25.000Z",
+      "description": "Article URL: https://rmoff.net/2026/05/06/ai-slop-is-killing-online-communities/ Comments URL: https://news.ycombinator.com/item?id=48053203 Points: 107 # Comments: 75",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Natural Language Autoencoders: Turning Claude's Thoughts into Text",
+      "link": "https://www.anthropic.com/research/natural-language-autoencoders",
+      "pubDate": "2026-05-07T17:54:02.000Z",
+      "description": "Article URL: https://www.anthropic.com/research/natural-language-autoencoders Comments URL: https://news.ycombinator.com/item?id=48052537 Points: 65 # Comments: 12",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Brazil's Pix Payment System Faces Pressure from Visa and Mastercard",
+      "link": "https://www.elciudadano.com/en/brazils-pix-payment-system-faces-pressure-from-visa-and-mastercard/04/04/",
+      "pubDate": "2026-05-07T17:42:58.000Z",
+      "description": "Article URL: https://www.elciudadano.com/en/brazils-pix-payment-system-faces-pressure-from-visa-and-mastercard/04/04/ Comments URL: https://news.ycombinator.com/item?id=48052371 Points: 57 # Comments: 37",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Principles for agent-native CLIs",
+      "link": "https://twitter.com/trevin/status/2051316002730991795",
+      "pubDate": "2026-05-07T17:40:05.000Z",
+      "description": "Article URL: https://twitter.com/trevin/status/2051316002730991795 Comments URL: https://news.ycombinator.com/item?id=48052333 Points: 23 # Comments: 5",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Agents need control flow, not more prompts",
+      "link": "https://bsuh.bearblog.dev/agents-need-control-flow/",
+      "pubDate": "2026-05-07T16:43:35.000Z",
+      "description": "Article URL: https://bsuh.bearblog.dev/agents-need-control-flow/ Comments URL: https://news.ycombinator.com/item?id=48051562 Points: 147 # Comments: 74",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Chrome removes claim of On-device Al not sending data to Google Servers",
+      "link": "https://old.reddit.com/r/chrome/comments/1t5qayz/chrome_removes_claim_of_ondevice_al_not_sending/",
+      "pubDate": "2026-05-07T15:56:33.000Z",
+      "description": "Article URL: https://old.reddit.com/r/chrome/comments/1t5qayz/chrome_removes_claim_of_ondevice_al_not_sending/ Comments URL: https://news.ycombinator.com/item?id=48050964 Points: 262 # Comments: 91",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "DeepSeek 4 Flash local inference engine for Metal",
+      "link": "https://github.com/antirez/ds4",
+      "pubDate": "2026-05-07T15:40:24.000Z",
+      "description": "Article URL: https://github.com/antirez/ds4 Comments URL: https://news.ycombinator.com/item?id=48050751 Points: 159 # Comments: 51",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Show HN: Stage CLI – an easier way of reading your AI generated changes locally",
+      "link": "https://github.com/ReviewStage/stage-cli",
+      "pubDate": "2026-05-07T15:38:36.000Z",
+      "description": "Hey HN! We're Charles and Dean. A few weeks ago we posted about Stage, a code review tool that guides you through reading a PR step by step - https://news.ycombinator.com/item?id=47796818.We got a lot of great feedback but also heard from many people that they wanted to have the chapters experience ",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "A Scrollytelling Gift for Mum on Mother’s Day 2026",
@@ -91,86 +171,6 @@
       "description": "I will explain how my mum inspired this 2026 Mother’s Day scrollytelling experiment — but also, how she inspired my approach to dev and life. A Scrollytelling Gift for Mum on Mother’s Day 2026 originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
       "source": "CSS Tricks",
       "category": "Frontend"
-    },
-    {
-      "title": "The map that keeps Burning Man honest",
-      "link": "https://www.not-ship.com/burning-man-moop/",
-      "pubDate": "2026-05-07T14:06:10.000Z",
-      "description": "Article URL: https://www.not-ship.com/burning-man-moop/ Comments URL: https://news.ycombinator.com/item?id=48049653 Points: 55 # Comments: 5",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Child marriages plunged when girls stayed in school in Nigeria",
-      "link": "https://www.nature.com/articles/d41586-026-00796-2",
-      "pubDate": "2026-05-07T13:30:04.000Z",
-      "description": "Article URL: https://www.nature.com/articles/d41586-026-00796-2 Comments URL: https://news.ycombinator.com/item?id=48049208 Points: 4 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Cloudflare responded to the \"Copy Fail\" Linux vulnerability",
-      "link": "https://blog.cloudflare.com/copy-fail-linux-vulnerability-mitigation/",
-      "pubDate": "2026-05-07T13:25:31.000Z",
-      "description": "Article URL: https://blog.cloudflare.com/copy-fail-linux-vulnerability-mitigation/ Comments URL: https://news.ycombinator.com/item?id=48049160 Points: 23 # Comments: 9",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "GovernGPT (YC W24) Is Hiring Engineers to Build Thinking Systems in Montreal",
-      "link": "https://www.ycombinator.com/companies/governgpt/jobs/hRyltS0-backend-engineer-thinking-systems",
-      "pubDate": "2026-05-07T12:01:13.000Z",
-      "description": "Article URL: https://www.ycombinator.com/companies/governgpt/jobs/hRyltS0-backend-engineer-thinking-systems Comments URL: https://news.ycombinator.com/item?id=48048339 Points: 0 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "The Upper Middle Class Trap",
-      "link": "https://ofdollarsanddata.com/the-upper-middle-class-trap/",
-      "pubDate": "2026-05-07T11:51:59.000Z",
-      "description": "Article URL: https://ofdollarsanddata.com/the-upper-middle-class-trap/ Comments URL: https://news.ycombinator.com/item?id=48048262 Points: 30 # Comments: 27",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Grand Theft Oil Futures: Insider traders keep making a killing at our expense",
-      "link": "https://paulkrugman.substack.com/p/grand-theft-oil-futures",
-      "pubDate": "2026-05-07T11:10:24.000Z",
-      "description": "Article URL: https://paulkrugman.substack.com/p/grand-theft-oil-futures Comments URL: https://news.ycombinator.com/item?id=48047981 Points: 239 # Comments: 158",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "LinkedIn profile visitor lists belong to the people, says Noyb",
-      "link": "https://www.theregister.com/offbeat/2026/05/05/noyb-cries-foul-on-linkedin-withholding-profile-visitor-data/5225338",
-      "pubDate": "2026-05-07T11:08:43.000Z",
-      "description": "Article URL: https://www.theregister.com/offbeat/2026/05/05/noyb-cries-foul-on-linkedin-withholding-profile-visitor-data/5225338 Comments URL: https://news.ycombinator.com/item?id=48047970 Points: 115 # Comments: 60",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Agent-harness-kit scaffolding for multi-agent workflows (MCP, provider-agnostic)",
-      "link": "https://ahk.cardor.dev",
-      "pubDate": "2026-05-07T10:45:59.000Z",
-      "description": "Article URL: https://ahk.cardor.dev Comments URL: https://news.ycombinator.com/item?id=48047826 Points: 46 # Comments: 8",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Making LLM Training Faster with Unsloth and NVIDIA",
-      "link": "https://unsloth.ai/blog/nvidia-collab",
-      "pubDate": "2026-05-07T07:15:11.000Z",
-      "description": "Article URL: https://unsloth.ai/blog/nvidia-collab Comments URL: https://news.ycombinator.com/item?id=48046397 Points: 87 # Comments: 13",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Show HN: Agent-skills-eval – Test whether Agent Skills improve outputs",
-      "link": "https://github.com/darkrishabh/agent-skills-eval",
-      "pubDate": "2026-05-07T06:12:25.000Z",
-      "description": "Article URL: https://github.com/darkrishabh/agent-skills-eval Comments URL: https://news.ycombinator.com/item?id=48046023 Points: 41 # Comments: 17",
-      "source": "Hacker News",
-      "category": "Tech News"
     },
     {
       "title": "Google’s Prompt API",
