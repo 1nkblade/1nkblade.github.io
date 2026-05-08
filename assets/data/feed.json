@@ -1,88 +1,168 @@
 {
-  "generatedAt": "2026-05-08T14:17:30.550Z",
+  "generatedAt": "2026-05-08T19:46:12.527Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "My agent worked yesterday. Today it's possessed.",
-      "link": "https://dev.to/anshss/my-agent-worked-yesterday-today-its-possessed-5bkb",
-      "pubDate": "2026-05-08T14:10:24.000Z",
-      "description": "<p>Two weeks of clean runs. Same prompts, same repo, same results.</p> <p>Then Tuesday happened.</p> <p>The outputs were longer. Different variable names. Tool calls you'd never seen before. You asked the agent about it. It explained confidently. The explanation sounded plausible.</p> <p>No stack tr",
+      "title": "Autonomous Job Search AI: Engineering Ethics Into Multi-Agent Systems",
+      "link": "https://dev.to/elenarevicheva/autonomous-job-search-ai-engineering-ethics-into-multi-agent-systems-2f1p",
+      "pubDate": "2026-05-08T19:31:30.000Z",
+      "description": "<p><em>Originally published on <a href=\"https://aideazz.hashnode.dev/autonomous-job-search-ai-engineering-ethics-into-multi-agent-systems\" rel=\"noopener noreferrer\">AIdeazz</a> — cross-posted here with canonical link.</em></p> <p>Building autonomous job search systems forces uncomfortable questions.",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Lessons Phishing vs Passkeys: A Head-to-Head",
-      "link": "https://dev.to/johalputt/lessons-phishing-vs-passkeys-a-head-to-head-3k28",
-      "pubDate": "2026-05-08T14:07:12.000Z",
-      "description": "<p>In 2024, the Verizon Data Breach Investigations Report found 82% of breaches involved the human element, with phishing accounting for 36% of all successful attacks—yet organizations using passkeys saw a 99.9% reduction in phishing-related compromises in our 12-month benchmark study.</p> <h3> Key ",
+      "title": "Deploy a Real MCP Server in Two Minutes — Naftiko Shipyard on Cloudflare Containers",
+      "link": "https://dev.to/kinlane/deploy-a-real-mcp-server-in-two-minutes-naftiko-shipyard-on-cloudflare-containers-32mo",
+      "pubDate": "2026-05-08T19:30:56.000Z",
+      "description": "<p>The Naftiko Framework's Shipyard tutorial walks through eleven capability YAMLs — mock MCP at one end, a fully wired domain-driven aggregate at the other. Step 1 is what you run to prove the engine reads YAML. Step 11 is what you run to feel what the framework actually produces.</p> <p>This post ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Why Your LLM Agent Forgot What It Did 5 Steps Ago",
-      "link": "https://dev.to/dopove/why-your-llm-agent-forgot-what-it-did-5-steps-ago-3ojd",
-      "pubDate": "2026-05-08T14:04:12.000Z",
-      "description": "<p>If you’ve tried moving an autonomous LLM agent from a local Jupyter Notebook demo to a production environment, you’ve hit the wall.</p> <p>You give your agent a complex, multi-step task. Step 1 works beautifully. Step 2 is flawless. By Step 5, it completely forgets the JSON payload it generated i",
+      "title": "Error Handling in Go: Stop Panicking, Start Wrapping",
+      "link": "https://dev.to/lovestaco/error-handling-in-go-stop-panicking-start-wrapping-351d",
+      "pubDate": "2026-05-08T19:30:03.000Z",
+      "description": "<p><em>Hello, I'm Maneshwar. I'm building git-lrc, a Micro AI code reviewer that runs on every commit. It is free, unlimited, and source-available on Github. <a href=\"https://github.com/HexmosTech/git-lrc\" rel=\"noopener noreferrer\">Star Us</a> to help devs discover the project. Do give it a try and ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I had never asked Google what chmod meant before this week",
-      "link": "https://dev.to/chiefmojo79/i-had-never-asked-google-what-chmod-meant-before-this-week-5dil",
-      "pubDate": "2026-05-08T14:00:36.000Z",
-      "description": "<p>It's somewhere around the 10th of March. I lost track of the exact day because I've been awake at weird hours staring at a black terminal that keeps telling me \"permission denied\" and I keep typing the word back at it like it owes me an explanation.</p> <p>Last week I pushed my first batch of bot",
+      "title": "We built an MCP server for employment contracts — remote HTTP, QES/eIDAS, 12 tools",
+      "link": "https://dev.to/iparker96/we-built-an-mcp-server-for-employment-contracts-remote-http-qeseidas-12-tools-4gh3",
+      "pubDate": "2026-05-08T19:24:01.000Z",
+      "description": "<p>If you've been building AI agent workflows, you've probably hit this wall: your agent can reason, plan, and execute — but connecting it to external systems still means writing custom API wrappers, auth logic, and error handling for every service.</p> <p>MCP (Model Context Protocol) solves this th",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Computer Use Is 45x More Expensive Than APIs. Here's When To Use Each.",
-      "link": "https://dev.to/pat9000/computer-use-is-45x-more-expensive-than-apis-heres-when-to-use-each-lpe",
-      "pubDate": "2026-05-08T14:00:06.000Z",
-      "description": "<p>Reflex.dev ran the numbers and the result is sharp. Computer-use agents cost about 45x more in tokens than the same task done through a structured API call. <a href=\"https://reflex.dev/blog/computer-use-is-45x-more-expensive-than-structured-apis/\" rel=\"noopener noreferrer\">Source measurement here",
+      "title": "SunnyDayBPF: Post-Syscall User-Buffer Telemetry Deception with eBPF",
+      "link": "https://dev.to/azqzazq1/sunnydaybpf-post-syscall-user-buffer-telemetry-deception-with-ebpf-3p7d",
+      "pubDate": "2026-05-08T19:23:41.000Z",
+      "description": "<h1> SunnyDayBPF: Post-Syscall User-Buffer Telemetry Deception with eBPF </h1> <p>Security tools do not observe reality directly.</p> <p>They observe telemetry.</p> <p>And telemetry is only as trustworthy as the path that produced it.</p> <p><strong>SunnyDayBPF</strong> is a research technique that ",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "How a Morse Code Attack Bypassed Bankr's LLM Agent: T1027 Obfuscation in the Wild",
+      "link": "https://dev.to/pav_j_9391d9a9c1bcac/how-a-morse-code-attack-bypassed-bankrs-llm-agent-t1027-obfuscation-in-the-wild-4ho",
+      "pubDate": "2026-05-08T19:21:22.000Z",
+      "description": "<p>On March 15, 2026, security researchers at Horizon Labs discovered a novel prompt injection attack targeting Bankr, a financial AI assistant powered by xAI's Grok-3. The attacker didn't use clever social engineering or elaborate jailbreaks. They used morse code.</p> <p>The attack was elegant in i",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
       "title": "Day 1 — I'm Homeless. I Just Shipped an Autonomous Multi-Agent System.",
-      "link": "https://dev.to/pingxceo/day-1-im-homeless-i-just-shipped-an-autonomous-multi-agent-system-1aha",
-      "pubDate": "2026-05-08T14:00:03.000Z",
+      "link": "https://dev.to/pingxceo/day-1-im-homeless-i-just-shipped-an-autonomous-multi-agent-system-552i",
+      "pubDate": "2026-05-08T19:20:02.000Z",
       "description": "<h1> Day 1 — I'm Homeless. I Just Shipped an Autonomous Multi-Agent System. </h1> <p>Let's get the uncomfortable part out of the way first: <strong>I'm a developer.<br> I'm homeless. I have zero money.</strong> That part isn't interesting. What<br> happens next is.</p> <p>Twelve hours ago I had a si",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Building observability from scratch, three times over 🏗️",
-      "link": "https://dev.to/upsun/building-observability-from-scratch-three-times-over-ila",
-      "pubDate": "2026-05-08T14:00:00.000Z",
-      "description": "<p>Starting with Nagios on a single box is fine until your infrastructure starts growing. <strong>Rebuilding an observability stack three times taught us exactly where the friction points are when scaling to thousands of VMs.</strong></p> <p>Here is the breakdown of that evolution: </p> <ul> <li>Mov",
+      "title": "Integer Sorting via Value-Space Partitioning",
+      "link": "https://dev.to/harry7v6/integer-sorting-via-value-space-partitioning-50nn",
+      "pubDate": "2026-05-08T19:19:49.000Z",
+      "description": "<h2> Generalizing Dijkstra's Dutch National Flag Algorithm </h2> <p>Dijkstra's Dutch National Flag (DNF) algorithm is one of those deceptively simple ideas that becomes more interesting the deeper you look into it.</p> <p>At first glance, it solves a very narrow problem: sorting an array containing ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Laravel Localization: Multi-Language Website",
-      "link": "https://dev.to/raflizocky_/laravel-localization-multi-language-website-2hk9",
-      "pubDate": "2026-05-08T14:00:00.000Z",
-      "description": "<h2> Auto-Translated (Content-Based) </h2> <p><strong>Install <a href=\"https://github.com/Stichoza/google-translate-php\" rel=\"noopener noreferrer\">Google Translate API PHP Package</a></strong><br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight shell\"><code>composer require stic",
+      "title": "What the Pocket OS Incident Tells Us About Agentic Security",
+      "link": "https://dev.to/pav_j_9391d9a9c1bcac/what-the-pocket-os-incident-tells-us-about-agentic-security-19ph",
+      "pubDate": "2026-05-08T19:19:37.000Z",
+      "description": "<p>On April 24, 2026, an AI coding agent destroyed a company's entire production database in nine seconds. Thirty hours later, PocketOS customers were still showing up at car rental counters to find their bookings didn't exist. The backup? Gone too—Railway stores volume-level backups in the same vol",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I rushed my First Gemma 4 idea. Here’s what it taught me about building local AI for safety",
-      "link": "https://dev.to/keerthana_696356/i-rushed-my-first-gemma-4-idea-heres-what-it-taught-me-about-building-local-ai-for-safety-38dl",
-      "pubDate": "2026-05-08T13:57:04.000Z",
-      "description": "<p><em>This is a submission for the <a href=\"https://dev.to/challenges/google-gemma-2026-05-06\">Gemma 4 Challenge: Write About Gemma 4</a>.</em></p> <p>When I first joined the Gemma 4 Challenge, I rushed to publish an idea I was genuinely excited about: a local AI safety layer that could help in eme",
+      "title": "I built ORAG - an organizational RAG and MCP platform in TypeScript",
+      "link": "https://dev.to/javanmol/i-built-orag-an-organizational-rag-and-mcp-platform-in-typescript-5e84",
+      "pubDate": "2026-05-08T19:17:37.000Z",
+      "description": "<p>I spent the last couple of days building something I kept wishing existed</p> <p>A platform that takes your organization's internal data such as docs, wikis, databases and makes it actually usable by AI agents.</p> <p>The result is <strong>ORAG</strong>, an organizational RAG and MCP server platf",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Stop Validating LEI Codes One by One — There's a Better Way",
-      "link": "https://dev.to/thanasis_codes/stop-validating-lei-codes-one-by-one-theres-a-better-way-25ie",
-      "pubDate": "2026-05-08T13:56:32.000Z",
-      "description": "<p>If you work in banking compliance, KYC, or AML, this scenario is painfully familiar:</p> <blockquote> <p>\"We need to verify the LEI status for all 400 counterparties in this spreadsheet before Monday.\"</p> </blockquote> <p>So someone opens a browser, goes to the GLEIF portal, pastes LEI #1, copie",
-      "source": "Dev.to Feed",
-      "category": "Development"
+      "title": "What We Lost the Last Time Code Got Cheap",
+      "link": "https://www.poppastring.com/blog/what-we-lost-the-last-time-code-got-cheap",
+      "pubDate": "2026-05-08T18:53:08.000Z",
+      "description": "Article URL: https://www.poppastring.com/blog/what-we-lost-the-last-time-code-got-cheap Comments URL: https://news.ycombinator.com/item?id=48067197 Points: 15 # Comments: 4",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Google Broke reCAPTCHA for De-Googled Android Users",
+      "link": "https://reclaimthenet.org/google-broke-recaptcha-for-de-googled-android-users",
+      "pubDate": "2026-05-08T18:45:58.000Z",
+      "description": "Article URL: https://reclaimthenet.org/google-broke-recaptcha-for-de-googled-android-users Comments URL: https://news.ycombinator.com/item?id=48067119 Points: 29 # Comments: 4",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "AI Is Breaking Two Vulnerability Cultures",
+      "link": "https://www.jefftk.com/p/ai-is-breaking-two-vulnerability-cultures",
+      "pubDate": "2026-05-08T17:55:08.000Z",
+      "description": "Article URL: https://www.jefftk.com/p/ai-is-breaking-two-vulnerability-cultures Comments URL: https://news.ycombinator.com/item?id=48066524 Points: 58 # Comments: 15",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Apple, Intel have reached preliminary chip-making deal",
+      "link": "https://www.reuters.com/business/apple-intel-have-reached-preliminary-chip-making-deal-wsj-reports-2026-05-08/",
+      "pubDate": "2026-05-08T17:25:21.000Z",
+      "description": "Article URL: https://www.reuters.com/business/apple-intel-have-reached-preliminary-chip-making-deal-wsj-reports-2026-05-08/ Comments URL: https://news.ycombinator.com/item?id=48066169 Points: 116 # Comments: 49",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Bjarne Stroustrup: How do I deal with memory leaks? (2022)",
+      "link": "https://www.stroustrup.com/bs_faq2.html#memory-leaks",
+      "pubDate": "2026-05-08T17:06:59.000Z",
+      "description": "Article URL: https://www.stroustrup.com/bs_faq2.html#memory-leaks Comments URL: https://news.ycombinator.com/item?id=48065916 Points: 43 # Comments: 29",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Cartoon Network Flash Games",
+      "link": "https://www.webdesignmuseum.org/flash-game-exhibitions/cartoon-network-flash-games",
+      "pubDate": "2026-05-08T16:29:52.000Z",
+      "description": "Article URL: https://www.webdesignmuseum.org/flash-game-exhibitions/cartoon-network-flash-games Comments URL: https://news.ycombinator.com/item?id=48065360 Points: 165 # Comments: 50",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Serving a website on a Raspberry Pi Zero running in RAM",
+      "link": "https://btxx.org/posts/memory/",
+      "pubDate": "2026-05-08T15:10:35.000Z",
+      "description": "Article URL: https://btxx.org/posts/memory/ Comments URL: https://news.ycombinator.com/item?id=48064312 Points: 141 # Comments: 56",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Show HN: Git for AI Agents",
+      "link": "https://github.com/regent-vcs/re_gent",
+      "pubDate": "2026-05-08T14:15:36.000Z",
+      "description": "hi guys. been working on something i think is fundamentally missing in today's workflow with ai agents.vcs.i find myself struggling with questions that agents can't answer like \"why did you do it?\", \"when did u delete this folder? why?\", etc. or trying to /rewind (after a /compact...) or basically `",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "PC Engine CPU",
+      "link": "https://jsgroth.dev/blog/posts/pc-engine-cpu/",
+      "pubDate": "2026-05-08T14:14:31.000Z",
+      "description": "Article URL: https://jsgroth.dev/blog/posts/pc-engine-cpu/ Comments URL: https://news.ycombinator.com/item?id=48063521 Points: 92 # Comments: 34",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Google Cloud Fraud Defence is just WEI repackaged",
+      "link": "https://privatecaptcha.com/blog/google-cloud-fraud-defence-wei/",
+      "pubDate": "2026-05-08T13:56:10.000Z",
+      "description": "Article URL: https://privatecaptcha.com/blog/google-cloud-fraud-defence-wei/ Comments URL: https://news.ycombinator.com/item?id=48063199 Points: 470 # Comments: 231",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "Using CSS corner-shape For Folded Corners",
@@ -91,86 +171,6 @@
       "description": "I came across Kitty Giraudel’s folded corners technique. I’ve been on a bit of a corner-shape kick lately, so I figured that corner-shape could be used to create folded corners as well. Using CSS corner-shape For Folded Corners originally handwritten and published with love on CSS-Tricks. You should",
       "source": "CSS Tricks",
       "category": "Frontend"
-    },
-    {
-      "title": "Just Fucking Use Go",
-      "link": "https://blainsmith.com/articles/just-fucking-use-go/",
-      "pubDate": "2026-05-08T13:40:22.000Z",
-      "description": "Article URL: https://blainsmith.com/articles/just-fucking-use-go/ Comments URL: https://news.ycombinator.com/item?id=48062997 Points: 59 # Comments: 29",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Podman rootless containers and the Copy Fail exploit",
-      "link": "https://garrido.io/notes/podman-rootless-containers-copy-fail/",
-      "pubDate": "2026-05-08T13:22:33.000Z",
-      "description": "Article URL: https://garrido.io/notes/podman-rootless-containers-copy-fail/ Comments URL: https://news.ycombinator.com/item?id=48062745 Points: 5 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "UFO Release 1: Presidential Unsealing and Reporting System for UAP Encounters",
-      "link": "https://www.war.gov/UFO/#release",
-      "pubDate": "2026-05-08T13:06:51.000Z",
-      "description": "Article URL: https://www.war.gov/UFO/#release Comments URL: https://news.ycombinator.com/item?id=48062530 Points: 3 # Comments: 2",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Poland is now among the 20 largest economies. How it happened",
-      "link": "https://apnews.com/article/poland-economy-growth-g20-gdp-26fe06e120398410f8d773ba5661e7aa",
-      "pubDate": "2026-05-08T12:30:05.000Z",
-      "description": "Article URL: https://apnews.com/article/poland-economy-growth-g20-gdp-26fe06e120398410f8d773ba5661e7aa Comments URL: https://news.ycombinator.com/item?id=48062117 Points: 240 # Comments: 233",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Hackers breach JDownloader website to serve malware-laced downloads",
-      "link": "https://www.neowin.net/news/if-you-downloaded-this-popular-software-recently-you-might-have-installed-malware/",
-      "pubDate": "2026-05-08T12:20:01.000Z",
-      "description": "Article URL: https://www.neowin.net/news/if-you-downloaded-this-popular-software-recently-you-might-have-installed-malware/ Comments URL: https://news.ycombinator.com/item?id=48062035 Points: 37 # Comments: 8",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "US Government releases first batch of UAP documents and videos",
-      "link": "https://www.war.gov/UFO/",
-      "pubDate": "2026-05-08T12:10:25.000Z",
-      "description": "Article URL: https://www.war.gov/UFO/ Comments URL: https://news.ycombinator.com/item?id=48061938 Points: 40 # Comments: 33",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "An Introduction to Meshtastic",
-      "link": "https://meshtastic.org/docs/introduction/",
-      "pubDate": "2026-05-08T11:22:11.000Z",
-      "description": "Article URL: https://meshtastic.org/docs/introduction/ Comments URL: https://news.ycombinator.com/item?id=48061566 Points: 83 # Comments: 33",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "GeoJSON",
-      "link": "https://geojson.org/",
-      "pubDate": "2026-05-08T09:55:37.000Z",
-      "description": "Article URL: https://geojson.org/ Comments URL: https://news.ycombinator.com/item?id=48060918 Points: 47 # Comments: 26",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "ClojureScript Gets Async/Await",
-      "link": "https://clojurescript.org/news/2026-05-07-release",
-      "pubDate": "2026-05-08T07:04:24.000Z",
-      "description": "Article URL: https://clojurescript.org/news/2026-05-07-release Comments URL: https://news.ycombinator.com/item?id=48059662 Points: 152 # Comments: 43",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "QBE – Compiler Back End",
-      "link": "https://c9x.me/compile/",
-      "pubDate": "2026-05-08T07:00:25.000Z",
-      "description": "Article URL: https://c9x.me/compile/ Comments URL: https://news.ycombinator.com/item?id=48059633 Points: 26 # Comments: 1",
-      "source": "Hacker News",
-      "category": "Tech News"
     },
     {
       "title": "A Scrollytelling Gift for Mum on Mother’s Day 2026",
