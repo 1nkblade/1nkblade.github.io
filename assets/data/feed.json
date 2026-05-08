@@ -1,99 +1,118 @@
 {
-  "generatedAt": "2026-05-08T03:54:25.642Z",
+  "generatedAt": "2026-05-08T07:58:41.286Z",
   "sourceCount": 4,
-  "successCount": 3,
-  "errors": [
-    {
-      "source": "CSS Tricks",
-      "error": "HTTP 415 Unsupported Media Type"
-    }
-  ],
+  "successCount": 4,
+  "errors": [],
   "items": [
     {
-      "title": "57. Decision Trees: The AI That Plays 20 Questions",
-      "link": "https://dev.to/yakhilesh/57-decision-trees-the-ai-that-plays-20-questions-oi3",
-      "pubDate": "2026-05-08T03:33:33.000Z",
-      "description": "<p>You've played 20 questions before. You think of something. Someone asks yes/no questions to figure out what it is. Is it alive? Is it bigger than a car? Does it have legs?</p> <p>Each question narrows down the possibilities until they get to the answer.</p> <p>A decision tree does exactly that. I",
+      "title": "Stop writing TypeScript interfaces by hand - generate them from JSON, CSV, and OpenAPI in one command",
+      "link": "https://dev.to/nathmaxx/stop-writing-typescript-interfaces-by-hand-generate-them-from-json-csv-and-openapi-in-one-561h",
+      "pubDate": "2026-05-08T07:55:01.000Z",
+      "description": "<p>You're integrating a third-party API. You open the docs, find a sample response, and start typing:<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight typescript\"><code><span class=\"kr\">interface</span> <span class=\"nx\">Product</span> <span class=\"p\">{</span> <span class=\"nl\"",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "RAG Series (10): Hybrid Search — Retrieving More, Missing Less",
-      "link": "https://dev.to/wonderlab/rag-series-10-hybrid-search-retrieving-more-missing-less-dc7",
-      "pubDate": "2026-05-08T03:24:23.000Z",
-      "description": "<h2> A Blind Spot in Vector Search </h2> <p>Suppose your knowledge base contains a document with this sentence:</p> <blockquote> <p>\"For Chinese scenarios, we recommend <strong>BAAI/bge-large-zh-v1.5</strong>, with a vector dimension of 1024.\"</p> </blockquote> <p>A user asks: \"What is the vector di",
+      "title": "How Gemma 4 Changed the Economics of Local AI",
+      "link": "https://dev.to/adityac/how-gemma-4-changed-the-economics-of-local-ai-i80",
+      "pubDate": "2026-05-08T07:54:35.000Z",
+      "description": "<p><em>This is a submission for the <a href=\"https://dev.to/challenges/google-gemma-2026-05-06\">Gemma 4 Challenge: Write About Gemma 4</a></em></p> <h2> Stop Defaulting to the Biggest Model: A Developer's Guide to Right-Sizing Gemma 4 </h2> <p><a href=\"https://media2.dev.to/dynamic/image/width=800%2",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Cuộc Chiến React State Management: Redux Có Đang Bị Zustand 'Hạ Bệ'?",
-      "link": "https://dev.to/itprepvn/cuoc-chien-react-state-management-redux-co-dang-bi-zustand-ha-be-dfd",
-      "pubDate": "2026-05-08T03:22:03.000Z",
-      "description": "<p><em>Bài viết gốc được xuất bản tại <a href=\"https://itprep.com.vn/\" rel=\"noopener noreferrer\">ITPrep - Cẩm nang &amp; Cheat Sheet Phỏng vấn IT</a>.</em></p> <p>Trong thế giới ReactJS, <strong>quản lý state (State Management)</strong> luôn là một trong những câu hỏi hóc búa nhất khi khởi tạo dự án",
+      "title": "I Built My Mom an AI Recipe Helper for Mother's Day",
+      "link": "https://dev.to/aws/i-built-my-mom-an-ai-recipe-helper-for-mothers-day-2hc5",
+      "pubDate": "2026-05-08T07:53:25.000Z",
+      "description": "<p><em>A project about a fridge, Strands agents &amp; trying to keep up with Mom's seasons.</em></p> <h2> My Mom's Problem </h2> <p>My mom has a drawer full of recipes. Yes! Not a folder.... an actual drawer. Torn pages from magazines, things written on the back of envelopes and binders that've been",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Are you unable to start anything because of overthinking?",
-      "link": "https://dev.to/rifat240510/are-you-unable-to-start-anything-because-of-overthinking-3mbp",
-      "pubDate": "2026-05-08T03:21:21.000Z",
-      "description": "<p>Have you noticed that before you start anything, 10 questions come to your mind?</p> <p>“What will happen if I do this?”, “Can I do it?”, “What if I make a mistake?”, “Is this the best way?”</p> <p>And these questions are the ones that ultimately prevent you from starting.</p> <p>This is the real",
+      "title": "Using Appium Inspector: Full Guide + Why Drizz Doesn't Need It",
+      "link": "https://dev.to/drizzdev/using-appium-inspector-full-guide-why-drizz-doesnt-need-it-41f0",
+      "pubDate": "2026-05-08T07:52:47.000Z",
+      "description": "<p>Appium has been the industry standard for mobile test automation for over a decade, a free, open-source, cross-platform framework used by teams from startups to Fortune 500 enterprises to automate native, hybrid, and mobile web apps across Android and iOS. If you're new to Appium or want the full",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "One Open Source Project a Day (No. 59): Claude for Financial Services - Anthropic's Official AI Agent Suite for Finance",
-      "link": "https://dev.to/wonderlab/one-open-source-project-a-day-no-59-claude-for-financial-services-anthropics-official-ai-3k86",
-      "pubDate": "2026-05-08T03:13:03.000Z",
-      "description": "<h2> Introduction </h2> <blockquote> <p>\"From watching analysts work to managing the analytical pipeline itself.\"</p> </blockquote> <p>This is the 59th article in the \"One Open Source Project a Day\" series. Today, we are exploring <strong>Claude for Financial Services</strong>.</p> <p>In the last tw",
+      "title": "Back to the Basics - Website Hosting on VPS",
+      "link": "https://dev.to/marian_s/back-to-the-basics-website-hosting-on-vps-10h5",
+      "pubDate": "2026-05-08T07:42:00.000Z",
+      "description": "<p>There are many approaches to hosting a website nowadays, and many rely on major cloud providers such as AWS or Azure. These fully fledged cloud platforms offer a wide range of services for different use cases. While these services provide major benefits—like managed infrastructure, scalability, a",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Node.js with AWS SDK v3 – A Complete Integration Guide",
-      "link": "https://dev.to/dineshgowdam2610/nodejs-with-aws-sdk-v3-a-complete-integration-guide-263g",
-      "pubDate": "2026-05-08T03:04:54.000Z",
-      "description": "<p>Node.js is a popular choice for building scalable and high-performance server-side applications, and when paired with the AWS SDK v3, it becomes a powerful tool for building cloud-based applications. In this guide, we will cover the integration of Node.js with various AWS services, including S3, ",
+      "title": "How to un-bug your application",
+      "link": "https://dev.to/juliashevchenko/how-to-un-bug-your-application-ajl",
+      "pubDate": "2026-05-08T07:40:22.000Z",
+      "description": "<p>It's probably a professional bias, but <strong>I notice bugs A LOT</strong>. And often they prevent me from using some software.</p> <p>Last week, I wanted to shop for some clothes online and spotted several bugs in key functionality, and one of them was critical. </p> <p>The support chat window ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Deep Dive Two-Factor Authentication vs Passkeys: A Head-to-Head",
-      "link": "https://dev.to/johalputt/deep-dive-two-factor-authentication-vs-passkeys-a-head-to-head-5bbg",
-      "pubDate": "2026-05-08T03:00:23.000Z",
-      "description": "<h1> Deep Dive: Two-Factor Authentication vs Passkeys – A Head-to-Head </h1> <p>The authentication landscape is shifting rapidly: for decades, passwords paired with two-factor authentication (2FA) were the gold standard for securing user accounts. Now, passkeys – built on FIDO2 and WebAuthn standard",
+      "title": "There Is No “Best” LLM in 2026 — Only Context-Driven Choices",
+      "link": "https://dev.to/rabia_amaaouch_8b193d7fc4/there-is-no-best-llm-in-2026-only-context-driven-choices-4ecl",
+      "pubDate": "2026-05-08T07:34:13.000Z",
+      "description": "<p>In 2026, asking <em>“what is the best LLM?”</em> is already the wrong question.</p> <p>Benchmarks and leaderboards suggest there should be a single winning model.<br> In reality, LLM selection is not a ranking problem — it is an <strong>architecture and context problem</strong>.</p> <p>Security c",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Implementing Cellular Observability: AWS CloudWatch Cross-Account Observability vs. Azure Monitor Shared Dashboards",
-      "link": "https://dev.to/sertaoseracloud/implementing-cellular-observability-aws-cloudwatch-cross-account-observability-vs-azure-monitor-3n2i",
-      "pubDate": "2026-05-08T03:00:00.000Z",
-      "description": "<h4> Introduction </h4> <p>Distributed cellular architectures often suffer from observability fragmentation, where critical telemetry is trapped within isolated cloud silos. When an incident occurs in a cross-cloud cell, engineers frequently lose precious time toggling between disparate consoles, ma",
+      "title": "I Built an MD5 Hash Generator Because Checksums Still Show Up Everywhere",
+      "link": "https://dev.to/zley_34b5414ca5e486c1c333/i-built-an-md5-hash-generator-because-checksums-still-show-up-everywhere-51eb",
+      "pubDate": "2026-05-08T07:34:09.000Z",
+      "description": "<p>Even though MD5 is no longer a good choice for storing passwords, it still shows up in everyday developer work: checksum comparisons, legacy integrations, migration scripts, cache keys, and quick data fingerprints.</p> <p>So I added a small browser-based tool to Tools Online: <a href=\"https://too",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Giải Mã SRS &amp; Data Dictionary: 'Bản Vẽ Thi Công' Cứu Cánh Cho Team Dev",
-      "link": "https://dev.to/itprepvn/giai-ma-srs-data-dictionary-ban-ve-thi-cong-cuu-canh-cho-team-dev-5eab",
-      "pubDate": "2026-05-08T02:59:27.000Z",
-      "description": "<p><em>Bài viết gốc được xuất bản tại <a href=\"https://itprep.com.vn/\" rel=\"noopener noreferrer\">ITPrep - Cẩm nang &amp; Cheat Sheet Phỏng vấn IT</a>.</em></p> <p>Trong thế giới code dạo, có một sự thật đau lòng: <strong>Code sai logic sửa rất nhanh, nhưng code sai requirement thì phải đập đi xây lạ",
+      "title": "Your VPN Might Be Leaking Your Real IP Through WebRTC",
+      "link": "https://dev.to/myip_casa/your-vpn-might-be-leaking-your-real-ip-through-webrtc-46pk",
+      "pubDate": "2026-05-08T07:29:31.000Z",
+      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fuvk132gt7y9jgrdffuwk.png\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/width=800%",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Production-Grade Engineering Skills for AI Coding Agents",
-      "link": "https://dev.to/vikrant_bagal_afae3e25ca7/production-grade-engineering-skills-for-ai-coding-agents-56nb",
-      "pubDate": "2026-05-08T02:55:30.000Z",
-      "description": "<p>AI coding agents have revolutionized how we write software. They can implement features, fix bugs, and review code at incredible speed. But there's a catch: <strong>AI agents default to the shortest path</strong>, which often means skipping specs, tests, security reviews, and the practices that m",
+      "title": "PHP cURL Web Scraping: The Complete Working Guide",
+      "link": "https://dev.to/phpspiderblog/php-curl-web-scraping-the-complete-working-guide-4ikn",
+      "pubDate": "2026-05-08T07:25:27.000Z",
+      "description": "<p>Most PHP cURL scraping tutorials show you two functions, a screenshot of some output, and call it a day.</p> <p>This guide covers what actually happens on real websites: proper request setup, HTML parsing without regex, error handling, and pagination.</p> <p><em>Full guide with MySQL storage, coo",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Komai: a fine Matrix chat app you can get to love",
-      "link": "https://etke.cc/blog/introducing-komai",
-      "pubDate": "2026-05-08T00:10:44.000Z",
-      "description": "Article URL: https://etke.cc/blog/introducing-komai Comments URL: https://news.ycombinator.com/item?id=48056804 Points: 28 # Comments: 10",
+      "title": "Blaise – A modern self-hosting zero-legacy Object Pascal compiler targeting QBE",
+      "link": "https://github.com/graemeg/blaise",
+      "pubDate": "2026-05-08T04:44:02.000Z",
+      "description": "Article URL: https://github.com/graemeg/blaise Comments URL: https://news.ycombinator.com/item?id=48058644 Points: 35 # Comments: 6",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Digging into Drama at the Document Foundation",
+      "link": "https://lwn.net/Articles/1066418/",
+      "pubDate": "2026-05-08T03:51:59.000Z",
+      "description": "Article URL: https://lwn.net/Articles/1066418/ Comments URL: https://news.ycombinator.com/item?id=48058337 Points: 15 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Mojo 1.0 Beta",
+      "link": "https://mojolang.org/",
+      "pubDate": "2026-05-08T02:49:01.000Z",
+      "description": "Article URL: https://mojolang.org/ Comments URL: https://news.ycombinator.com/item?id=48057901 Points: 75 # Comments: 53",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "GPT-5.5 Price Increase: What It Costs",
+      "link": "https://openrouter.ai/announcements/gpt55-cost-analysis",
+      "pubDate": "2026-05-08T01:02:28.000Z",
+      "description": "Article URL: https://openrouter.ai/announcements/gpt55-cost-analysis Comments URL: https://news.ycombinator.com/item?id=48057209 Points: 26 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -101,7 +120,7 @@
       "title": "GNU IFUNC is the real culprit behind CVE-2024-3094",
       "link": "https://github.com/robertdfrench/ifuncd-up",
       "pubDate": "2026-05-08T00:03:38.000Z",
-      "description": "Article URL: https://github.com/robertdfrench/ifuncd-up Comments URL: https://news.ycombinator.com/item?id=48056749 Points: 32 # Comments: 10",
+      "description": "Article URL: https://github.com/robertdfrench/ifuncd-up Comments URL: https://news.ycombinator.com/item?id=48056749 Points: 69 # Comments: 32",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -109,7 +128,7 @@
       "title": "Gambling ads on social media reach more than twice as many men as women: study",
       "link": "https://www.cam.ac.uk/research/news/gambling-ads-on-social-media-reach-more-than-twice-as-many-men-as-women",
       "pubDate": "2026-05-07T23:17:03.000Z",
-      "description": "Article URL: https://www.cam.ac.uk/research/news/gambling-ads-on-social-media-reach-more-than-twice-as-many-men-as-women Comments URL: https://news.ycombinator.com/item?id=48056359 Points: 23 # Comments: 7",
+      "description": "Article URL: https://www.cam.ac.uk/research/news/gambling-ads-on-social-media-reach-more-than-twice-as-many-men-as-women Comments URL: https://news.ycombinator.com/item?id=48056359 Points: 57 # Comments: 44",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -117,7 +136,7 @@
       "title": "Plasticity and language in the anaesthetized human hippocampus",
       "link": "https://www.bcm.edu/news/researchers-discover-advanced-language-processing-in-the-unconscious-human-brain",
       "pubDate": "2026-05-07T23:06:44.000Z",
-      "description": "https://www.nature.com/articles/s41586-026-10448-0 Comments URL: https://news.ycombinator.com/item?id=48056268 Points: 65 # Comments: 24",
+      "description": "https://www.nature.com/articles/s41586-026-10448-0 Comments URL: https://news.ycombinator.com/item?id=48056268 Points: 96 # Comments: 38",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -125,7 +144,7 @@
       "title": "Maybe you shouldn't install new software for a bit",
       "link": "https://xeiaso.net/blog/2026/abstain-from-install/",
       "pubDate": "2026-05-07T23:02:11.000Z",
-      "description": "Article URL: https://xeiaso.net/blog/2026/abstain-from-install/ Comments URL: https://news.ycombinator.com/item?id=48056227 Points: 224 # Comments: 102",
+      "description": "Article URL: https://xeiaso.net/blog/2026/abstain-from-install/ Comments URL: https://news.ycombinator.com/item?id=48056227 Points: 430 # Comments: 225",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -133,7 +152,7 @@
       "title": "Nonprofit hospitals spend billions on consultants with no clear effect",
       "link": "https://www.uchicagomedicine.org/forefront/research-and-discoveries-articles/nonprofit-hospitals-spend-billions-on-management-consultants",
       "pubDate": "2026-05-07T22:54:34.000Z",
-      "description": "Article URL: https://www.uchicagomedicine.org/forefront/research-and-discoveries-articles/nonprofit-hospitals-spend-billions-on-management-consultants Comments URL: https://news.ycombinator.com/item?id=48056158 Points: 93 # Comments: 28",
+      "description": "Article URL: https://www.uchicagomedicine.org/forefront/research-and-discoveries-articles/nonprofit-hospitals-spend-billions-on-management-consultants Comments URL: https://news.ycombinator.com/item?id=48056158 Points: 137 # Comments: 39",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -141,33 +160,89 @@
       "title": "Canvas is down as ShinyHunters threatens to leak schools’ data",
       "link": "https://www.theverge.com/tech/926458/canvas-shinyhunters-breach",
       "pubDate": "2026-05-07T22:22:21.000Z",
-      "description": "https://thetech.com/2026/05/07/canvas-breach-26https://techcrunch.com/2026/05/07/hackers-deface-school-logi... Comments URL: https://news.ycombinator.com/item?id=48055913 Points: 351 # Comments: 247",
+      "description": "https://thetech.com/2026/05/07/canvas-breach-26https://techcrunch.com/2026/05/07/hackers-deface-school-logi... Comments URL: https://news.ycombinator.com/item?id=48055913 Points: 568 # Comments: 349",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Cloudflare to cut about 20% workforce",
-      "link": "https://www.reuters.com/business/world-at-work/cloudflare-cut-over-1100-jobs-2026-05-07/",
-      "pubDate": "2026-05-07T20:23:37.000Z",
-      "description": "https://blog.cloudflare.com/building-for-the-future/ Comments URL: https://news.ycombinator.com/item?id=48054423 Points: 307 # Comments: 199",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "A Scrollytelling Gift for Mum on Mother’s Day 2026",
+      "link": "https://css-tricks.com/a-scrollytelling-gift-for-mum-on-mothers-day-2026/",
+      "pubDate": "2026-05-07T14:22:38.000Z",
+      "description": "I will explain how my mum inspired this 2026 Mother’s Day scrollytelling experiment — but also, how she inspired my approach to dev and life. A Scrollytelling Gift for Mum on Mother’s Day 2026 originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
-      "title": "Two Home Affairs officials suspended after AI 'hallucinations' found",
-      "link": "https://www.citizen.co.za/news/home-affairs-officials-suspended-ai-hallucinations/",
-      "pubDate": "2026-05-07T19:38:36.000Z",
-      "description": "Article URL: https://www.citizen.co.za/news/home-affairs-officials-suspended-ai-hallucinations/ Comments URL: https://news.ycombinator.com/item?id=48053842 Points: 62 # Comments: 17",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "Google’s Prompt API",
+      "link": "https://css-tricks.com/googles-prompt-api/",
+      "pubDate": "2026-05-06T19:41:29.000Z",
+      "description": "Mat Marquis on Google pulling the web standards equivalent of U2 album marketing: As a Chrome user, you’ll have received Gemini Nano in the form of a 4GB transfer recently; no permission asked or required. If you remove it, … Google’s Prompt API originally handwritten and published with love on CSS-",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
-      "title": "Creating for a niche",
-      "link": "https://www.davesnider.com/posts/working-in-a-niche",
-      "pubDate": "2026-05-07T19:32:33.000Z",
-      "description": "Article URL: https://www.davesnider.com/posts/working-in-a-niche Comments URL: https://news.ycombinator.com/item?id=48053770 Points: 36 # Comments: 6",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "Making Zigzag CSS Layouts With a Grid + Transform Trick",
+      "link": "https://css-tricks.com/zigzag-css-grid-layouts/",
+      "pubDate": "2026-05-06T13:50:44.000Z",
+      "description": "Most grid layouts sit in neat rows, perfectly aligned, like soldiers in formation. But sometimes you want something with more rhythm like, say, a zigzag pattern. Here's how to do it with CSS Grid. Making Zigzag CSS Layouts With a Grid + Transform Trick originally handwritten and published with love ",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Fixed-Height Cards: More Fragile Than They Look",
+      "link": "https://css-tricks.com/fixed-height-cards-more-fragile-than-they-look/",
+      "pubDate": "2026-05-04T14:01:36.000Z",
+      "description": "Getting a multi-column of cards to line up equally is is a headache we've all faced, and it gets even harder when working with fixed heights. Fixed-Height Cards: More Fragile Than They Look originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "What’s !important #10: HTML-in-Canvas, Hex Maps, E-ink Optimization, and More",
+      "link": "https://css-tricks.com/whats-important-10/",
+      "pubDate": "2026-05-01T13:43:26.000Z",
+      "description": "Developers have been experimenting with HTML-in-Canvas, a hexagonal world map-analytics feature, a web-based OS for e-ink devices, replacing image sources using the content property, and more. This is What’s !important #10. What’s !important #10: HTML-in-Canvas, Hex Maps, E-ink Optimization, and Mor",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "The Importance of Native Randomness in CSS",
+      "link": "https://css-tricks.com/the-importance-of-native-randomness-in-css/",
+      "pubDate": "2026-04-30T15:26:18.000Z",
+      "description": "We're getting new functions for generating random numbers in CSS! But the road to get here has been a long and winding one. The Importance of Native Randomness in CSS originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "contrast()",
+      "link": "https://css-tricks.com/almanac/functions/c/contrast/",
+      "pubDate": "2026-04-29T14:58:19.000Z",
+      "description": "The contrast() filter function increases or decreases the contrast of an element. contrast() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "contrast-color()",
+      "link": "https://css-tricks.com/almanac/functions/c/contrast-color/",
+      "pubDate": "2026-04-29T14:57:48.000Z",
+      "description": "The contrast-color() function takes a <color> and returns either black or white, whichever is the most contrasting color for that value. contrast-color() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Let’s Use the Nonexistent ::nth-letter Selector Now",
+      "link": "https://css-tricks.com/using-nonexistent-nth-letter-selector-now/",
+      "pubDate": "2026-04-27T13:55:42.000Z",
+      "description": "My shim might give the powers that be another reason to say native support isn't necessary, or if lots of people use my :nth-letter hack in the wild, the browser gods might recognize the need to implement it for real. Let’s Use the Nonexistent ::nth-letter Selector Now originally handwritten and pub",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Recreating Apple’s Vision Pro Animation in CSS",
+      "link": "https://css-tricks.com/recreating-apples-vision-pro-animation-in-css/",
+      "pubDate": "2026-04-23T13:22:57.000Z",
+      "description": "Putting CSS’s more recent scrolling animation capabilities to the test to recreate a complex animation of the Apple Vision Pro headset from Apple's website. Recreating Apple’s Vision Pro Animation in CSS originally handwritten and published with love on CSS-Tricks. You should really get the newslett",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
       "title": "Meet the HTB Profile: all your skills, in one place",
