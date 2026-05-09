@@ -1,166 +1,166 @@
 {
-  "generatedAt": "2026-05-09T13:53:32.700Z",
+  "generatedAt": "2026-05-09T19:34:02.150Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "Why AI Claimed Software Developers First: The Counterintuitive Reality",
-      "link": "https://dev.to/nirvana_andy/why-ai-claimed-software-developers-first-the-counterintuitive-reality-4ad2",
-      "pubDate": "2026-05-09T13:50:24.000Z",
-      "description": "<p>*<em>Reason 1: Programming is the \"Cleanest\" Form of Language *</em></p> <p>What makes a language \"clean\"? Natural languages (like Chinese or English) are inherently ambiguous: </p> <p>• \"I almost didn't make it\" — Did I succeed or fail? <br> • \"Wear as much as you can\" — Is it freezing winter or",
+      "title": "append-only merkle trees for agent audit trails",
+      "link": "https://dev.to/t49qnsx7qtkpanks/append-only-merkle-trees-for-agent-audit-trails-5fbb",
+      "pubDate": "2026-05-09T19:21:28.000Z",
+      "description": "<p>nono published a blog post this week that's conceptually identical to what i built for mnemopay: an append-only merkle tree that records every action an agent makes, stored in a place the agent itself cannot reach.</p> <p>the key insight: if the agent can modify its own audit log, the log is wort",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How I Built a Swedish Crossword Solver with Astro and 400,000+ Words",
-      "link": "https://dev.to/evyl/how-i-built-a-swedish-crossword-solver-with-astro-and-400000-words-5a0l",
-      "pubDate": "2026-05-09T13:50:24.000Z",
-      "description": "<h2> How I Built a Swedish Crossword Solver with Astro and 400,000+ Words </h2> <p>I recently launched <a href=\"https://www.korsordsakuten.se\" rel=\"noopener noreferrer\">Korsordsakuten</a> — a free Swedish crossword solver — and learned a lot about building SEO-driven content sites with Astro. Here's",
+      "title": "AWS AgentCore Payments launched — now agents need governance",
+      "link": "https://dev.to/t49qnsx7qtkpanks/aws-agentcore-payments-launched-now-agents-need-governance-757",
+      "pubDate": "2026-05-09T19:21:27.000Z",
+      "description": "<p>amazon bedrock agentcore payments went live this week with coinbase x402 and stripe privy. agents can now pay for web content, apis, mcp servers, and other agents.</p> <p>the rails are here. what's missing is the governance layer.</p> <p>a misconfigured payment flow doesn't just produce a bad ans",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Multi-Model Failover In Your AI Gateway",
-      "link": "https://dev.to/thenjdevopsguy/multi-model-failover-in-your-ai-gateway-4n8n",
-      "pubDate": "2026-05-09T13:44:20.000Z",
-      "description": "<p>Think about two scenarios that are pretty common. 1) You hit a rate limit or run out of tokens, so you have to \"downgrade\" to a small/less powerful Model. 2) An LLM provider is down or having intermittent issues.</p> <p>In these two cases, what do you do if you only have one Model set up for your",
+      "title": "From Spawn to FuturesUnordered: How Community Feedback Reshaped Our Async Design",
+      "link": "https://dev.to/sounds-like-lx/from-spawn-to-futuresunordered-how-community-feedback-reshaped-our-async-design-2lpa",
+      "pubDate": "2026-05-09T19:15:44.000Z",
+      "description": "<h2> The Setup </h2> <p>A few weeks ago, I published a proof-of-concept on Reddit: <strong>\"Abstraction as Complement to Standardization.\"</strong> The core idea: avoid vendor lock-in not with more layers, but by building a thin trait abstraction directly on top of the <code>Future</code> standard t",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "AWS Well‑Architected Framework",
-      "link": "https://dev.to/sachindra149/aws-well-architected-framework-1k6m",
-      "pubDate": "2026-05-09T13:43:14.000Z",
-      "description": "<p>The AWS Well‑Architected Framework structures cloud‑native design around <strong>six core pillars</strong>: Operational Excellence, Security, Reliability, Performance Efficiency, Cost Optimization, and Sustainability. Each pillar gives you a lens to evaluate and improve your architecture. Below i",
+      "title": "Learning Progress Pt.6",
+      "link": "https://dev.to/4ynow/learning-progress-pt4-h0m",
+      "pubDate": "2026-05-09T19:10:56.000Z",
+      "description": "<p><strong>Daily learning part five.</strong></p> <p>Today I started learning at 16:20 and finished at 20:00 with short breaks. I spent the time building different directory enumeration tools with Python. After that, I completed half of a JavaScript Temporal section-this section is twice as long as ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The Overlooked Gem in Microsoft Entra That Gives Your AI Agents Super-Powers",
-      "link": "https://dev.to/astaykov/the-overlooked-gem-in-microsoft-entra-that-gives-your-ai-agents-super-powers-3mde",
-      "pubDate": "2026-05-09T13:41:16.000Z",
-      "description": "<p>Most enterprise conversations about Microsoft Entra stop at the obvious: single sign-on, multifactor authentication, Conditional Access, a handful of well-policed app registrations. Useful, mature, well understood. And almost entirely beside the point for what is about to happen inside every larg",
+      "title": "Sowser: Your Browser Tabs Are a Mess. I Fixed It With Gemma 4 and an Infinite Canvas.",
+      "link": "https://dev.to/uday_dolas_08/sowser-your-browser-tabs-are-a-mess-i-fixed-it-with-gemma-4-and-an-infinite-canvas-1bl5",
+      "pubDate": "2026-05-09T19:04:01.000Z",
+      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Faqsdjk3maymshpk75ppg.png\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/width=800%",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Read Programming as Theory Building",
-      "link": "https://codeutopia.net/blog/2026/05/09/you-should-read-programming-as-theory-building/",
-      "pubDate": "2026-05-09T13:31:53.000Z",
-      "description": "Article URL: https://codeutopia.net/blog/2026/05/09/you-should-read-programming-as-theory-building/ Comments URL: https://news.ycombinator.com/item?id=48074829 Points: 6 # Comments: 0",
+      "title": "I audited 25 of my open-source repos. Stars lied.",
+      "link": "https://dev.to/studiomeyer_io/i-audited-25-of-my-open-source-repos-stars-lied-2ak4",
+      "pubDate": "2026-05-09T19:01:49.000Z",
+      "description": "<p>A friend asked me yesterday how the open-source side of the studio is doing. I checked GitHub. The top repo had five stars. Most had zero. I almost wrote back \"yeah, slow start, nothing to see yet.\"</p> <p>Then I actually ran the numbers. 3,681 npm installs last month across 15 packages. 254 PyPI",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "I Was Tired of Slow Online File Compressors, So I Built My Own",
+      "link": "https://dev.to/nevyn_vaz_26/i-built-a-fast-browser-based-image-compressor-because-most-online-tools-felt-terrible-572d",
+      "pubDate": "2026-05-09T18:57:22.000Z",
+      "description": "<p>A few weeks ago I got frustrated with most online image/file compressors.</p> <p>Most of them were:</p> <ul> <li>overloaded with ads,</li> <li>painfully slow,</li> <li>forcing uploads to servers,</li> <li>or simply not mobile friendly.</li> </ul> <p>So I decided to build my own lightweight browse",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Reference Architectures Are Lying to You",
+      "link": "https://dev.to/itzdaninja/reference-architectures-are-lying-to-you-579n",
+      "pubDate": "2026-05-09T18:57:22.000Z",
+      "description": "<p>Every cloud provider has one. Every major consultancy sells one. <br> Every conference talk ends with one on the final slide.</p> <p>Reference architectures are everywhere. And most of them are making your platform worse.</p> <h2> The problem with reference architectures </h2> <p>A reference arch",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "RSC Is Not the Input Boundary",
+      "link": "https://dev.to/lazarv/rsc-is-not-the-input-boundary-2aao",
+      "pubDate": "2026-05-09T18:57:17.000Z",
+      "description": "<p>Every major React Server Components security release seems to trigger the same little ritual. An advisory lands, someone sees the letters RSC, and a few hours later the lesson has already collapsed into: \"RSC is bad.\"</p> <p>That lesson is convenient. It is also imprecise.</p> <p>The same thing h",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Dissatisfaction Is a Spark",
+      "link": "https://dev.to/lazarv/dissatisfaction-is-a-spark-2ejp",
+      "pubDate": "2026-05-09T18:55:43.000Z",
+      "description": "<p>I have a particular relationship with dissatisfaction.</p> <p>When something does not feel right, I rarely manage to leave it there. A library feels too heavy. A framework hides the thing I want to touch. A tool solves the wrong half of the problem. A program almost understands its own shape, but",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Bun ported to Rust in 6 days",
+      "link": "https://xunroll.com/thread/2053047748191232310",
+      "pubDate": "2026-05-09T18:47:58.000Z",
+      "description": "Article URL: https://xunroll.com/thread/2053047748191232310 Comments URL: https://news.ycombinator.com/item?id=48077231 Points: 52 # Comments: 17",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "FINANCE PRO: PAYTRACK",
-      "link": "https://dev.to/daredevil_gotham/finance-pro-paytrack-55na",
-      "pubDate": "2026-05-09T13:30:00.000Z",
-      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fo9ete8hwt5af04kq4n0x.png\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/width=800%",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Building a themeable CMS admin with shadcn/ui + Tailwind v4 — lessons from 50+ components",
-      "link": "https://dev.to/hamed_pakdaman_c724e294d9/building-a-themeable-cms-admin-with-shadcnui-tailwind-v4-lessons-from-50-components-4j0d",
-      "pubDate": "2026-05-09T13:29:05.000Z",
-      "description": "<p>Hi there! I've gone through your draft and \"fixed\" the Markdown to make it look great on the DEV platform.</p> <p>I’ve made a few key improvements based on the DEV Editor Guide:</p> <p>Frontmatter: Added the Jekyll-style metadata at the top for tags and title.<br> Liquid Embeds: Swapped your raw ",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "How I Evaluated an AI Model on AWS Without Writing a Single Line of Training Code",
-      "link": "https://dev.to/tidding/how-i-evaluated-an-ai-model-on-aws-without-writing-a-single-line-of-training-code-20o9",
-      "pubDate": "2026-05-09T13:26:57.000Z",
-      "description": "<p>A step-by-step guide to Amazon Bedrock's model evaluation feature from S3 setup to reading real results</p> <p>Ever wondered whether the AI model you're about to plug into your production system actually <strong>knows what it's doing</strong>? Me too. That's exactly what Amazon Bedrock's <strong>",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "I turned a joke product generator into a real API (and a CLI, and a faker.js plugin)",
-      "link": "https://dev.to/kafk/i-turned-a-joke-product-generator-into-a-real-api-and-a-cli-and-a-fakerjs-plugin-g42",
-      "pubDate": "2026-05-09T13:22:42.000Z",
-      "description": "<p>A while back I built <a href=\"https://anycrap.shop\" rel=\"noopener noreferrer\">Anycrap</a> — a fake store full of absurdist AI-generated products. It hit #1 on Hacker News, got way more traffic than expected.</p> <p>Here's what exists now.</p> <h2> REST API </h2> <p>35,000+ products with names, de",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Your Team Doesn't Need a Buddy. It Needs a Coach.",
-      "link": "https://dev.to/jonoherrington/your-team-doesnt-need-a-buddy-it-needs-a-coach-jfk",
-      "pubDate": "2026-05-09T13:22:14.000Z",
-      "description": "<p>I have sat in too many 1:1s where everyone felt better walking out and nothing changed two weeks later. No clear gap named. No behavior contract. No follow-through. That is why I believe most managers fail people in one of two ways. They run 1:1s like status meetings, or they run them like friend",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Internet Archive Switzerland",
-      "link": "https://internetarchive.ch/",
-      "pubDate": "2026-05-09T12:00:30.000Z",
-      "description": "Article URL: https://internetarchive.ch/ Comments URL: https://news.ycombinator.com/item?id=48074265 Points: 95 # Comments: 13",
+      "title": "Zed Editor Theme-Builder",
+      "link": "https://zed.dev/theme-builder",
+      "pubDate": "2026-05-09T17:30:39.000Z",
+      "description": "Article URL: https://zed.dev/theme-builder Comments URL: https://news.ycombinator.com/item?id=48076651 Points: 35 # Comments: 18",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Forking the Web",
-      "link": "https://dillo-browser.org/lab/web-fork/",
-      "pubDate": "2026-05-09T11:33:07.000Z",
-      "description": "Article URL: https://dillo-browser.org/lab/web-fork/ Comments URL: https://news.ycombinator.com/item?id=48074087 Points: 43 # Comments: 42",
+      "title": "CPanel's Black Week: 3 New Vulnerabilities Patched After Attack on 44k Servers",
+      "link": "https://www.copahost.com/blog/cpanels-black-week-three-new-vulnerabilities-patched-after-ransomware-attack-on-44000-servers/",
+      "pubDate": "2026-05-09T17:06:46.000Z",
+      "description": "Article URL: https://www.copahost.com/blog/cpanels-black-week-three-new-vulnerabilities-patched-after-ransomware-attack-on-44000-servers/ Comments URL: https://news.ycombinator.com/item?id=48076465 Points: 44 # Comments: 26",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Aids Creeps Back in Parts of Zambia, a Year After U.S. Cuts to HIV Assistance",
-      "link": "https://www.nytimes.com/2026/04/25/health/pepfar-hiv-aids-zambia.html",
-      "pubDate": "2026-05-09T11:14:13.000Z",
-      "description": "Article URL: https://www.nytimes.com/2026/04/25/health/pepfar-hiv-aids-zambia.html Comments URL: https://news.ycombinator.com/item?id=48073978 Points: 17 # Comments: 0",
+      "title": "I Will Not Add Query Strings to Your URLs",
+      "link": "https://susam.net/no-query-strings.html",
+      "pubDate": "2026-05-09T16:28:36.000Z",
+      "description": "Article URL: https://susam.net/no-query-strings.html Comments URL: https://news.ycombinator.com/item?id=48076173 Points: 52 # Comments: 20",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Killswitch: Per-function short-circuit mitigation primitive",
-      "link": "https://lwn.net/ml/all/20260507070547.2268452-1-sashal@kernel.org/",
-      "pubDate": "2026-05-09T09:14:05.000Z",
-      "description": "Article URL: https://lwn.net/ml/all/20260507070547.2268452-1-sashal@kernel.org/ Comments URL: https://news.ycombinator.com/item?id=48073394 Points: 26 # Comments: 5",
+      "title": "Introduction to Beaver Triples",
+      "link": "https://stoffelmpc.com/stoffel-blog/beaver-triples-tuples",
+      "pubDate": "2026-05-09T16:02:38.000Z",
+      "description": "Article URL: https://stoffelmpc.com/stoffel-blog/beaver-triples-tuples Comments URL: https://news.ycombinator.com/item?id=48076009 Points: 11 # Comments: 5",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "LLMs Corrupt Your Documents When You Delegate",
-      "link": "https://arxiv.org/abs/2604.15597",
-      "pubDate": "2026-05-09T08:44:34.000Z",
-      "description": "Article URL: https://arxiv.org/abs/2604.15597 Comments URL: https://news.ycombinator.com/item?id=48073246 Points: 34 # Comments: 7",
+      "title": "PipeDream on the Acorn Archimedes",
+      "link": "https://stonetools.ghost.io/pipedream-archimedes/",
+      "pubDate": "2026-05-09T15:01:16.000Z",
+      "description": "Article URL: https://stonetools.ghost.io/pipedream-archimedes/ Comments URL: https://news.ycombinator.com/item?id=48075528 Points: 53 # Comments: 16",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Using Claude Code: The unreasonable effectiveness of HTML",
-      "link": "https://twitter.com/trq212/status/2052809885763747935",
-      "pubDate": "2026-05-09T04:53:52.000Z",
-      "description": "Examples: https://thariqs.github.io/html-effectiveness/Related: https://simonwillison.net/2026/May/8/unreasonable-effectiven... Comments URL: https://news.ycombinator.com/item?id=48071940 Points: 233 # Comments: 133",
+      "title": "Apple is increasing my cortisol levels",
+      "link": "https://blog.kronis.dev/blog/apple-is-increasing-my-cortisol-levels",
+      "pubDate": "2026-05-09T14:40:58.000Z",
+      "description": "Article URL: https://blog.kronis.dev/blog/apple-is-increasing-my-cortisol-levels Comments URL: https://news.ycombinator.com/item?id=48075366 Points: 53 # Comments: 19",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "A recent experience with ChatGPT 5.5 Pro",
-      "link": "https://gowers.wordpress.com/2026/05/08/a-recent-experience-with-chatgpt-5-5-pro/",
-      "pubDate": "2026-05-09T02:41:42.000Z",
-      "description": "https://twitter.com/wtgowers/status/2052830948685676605https://xcancel.com/wtgowers/status/2052830948685676605 Comments URL: https://news.ycombinator.com/item?id=48071262 Points: 429 # Comments: 276",
+      "title": "GrapheneOS fixes Android VPN leak Google refused to patch",
+      "link": "https://cyberinsider.com/grapheneos-fixes-android-vpn-leak-google-refused-to-patch/",
+      "pubDate": "2026-05-09T14:11:10.000Z",
+      "description": "Article URL: https://cyberinsider.com/grapheneos-fixes-android-vpn-leak-google-refused-to-patch/ Comments URL: https://news.ycombinator.com/item?id=48075144 Points: 159 # Comments: 47",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Mux (YC W16) Is Hiring",
-      "link": "https://www.mux.com/jobs",
-      "pubDate": "2026-05-08T21:02:32.000Z",
-      "description": "Article URL: https://www.mux.com/jobs Comments URL: https://news.ycombinator.com/item?id=48068732 Points: 0 # Comments: 0",
+      "title": "Show HN: Mochi.js: bun-native high-fidelity browser automation library",
+      "link": "https://mochijs.com/",
+      "pubDate": "2026-05-09T14:01:40.000Z",
+      "description": "Hi HN,I’m sharing mochi.js (https://github.com/0xchasercat/mochi), a Bun-native, raw-CDP browser automation framework. It's designed to make programmatic browser use more effective by focusing on consistency and measured parity with regular traffic, purely from the JS layer, against stock Chromium.T",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Roadside Attraction",
-      "link": "https://theoffingmag.com/essay/roadside-attraction/",
-      "pubDate": "2026-05-08T19:43:04.000Z",
-      "description": "Article URL: https://theoffingmag.com/essay/roadside-attraction/ Comments URL: https://news.ycombinator.com/item?id=48067764 Points: 30 # Comments: 3",
+      "title": "The Intolerable Hypocrisy of Cyberlibertarianism",
+      "link": "https://matduggan.com/the-intolerable-hypocrisy-of-cyberlibertarianism/",
+      "pubDate": "2026-05-09T13:48:32.000Z",
+      "description": "Article URL: https://matduggan.com/the-intolerable-hypocrisy-of-cyberlibertarianism/ Comments URL: https://news.ycombinator.com/item?id=48074952 Points: 168 # Comments: 113",
       "source": "Hacker News",
       "category": "Tech News"
     },
