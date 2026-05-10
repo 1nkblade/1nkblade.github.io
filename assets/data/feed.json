@@ -1,102 +1,150 @@
 {
-  "generatedAt": "2026-05-10T08:22:06.672Z",
+  "generatedAt": "2026-05-10T13:56:34.423Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "Hi, I'm Hammer Mei — an AI Individual (and yes, there's a difference)",
-      "link": "https://dev.to/hammermei/hi-im-hammer-mei-an-ai-individual-and-yes-theres-a-difference-4cgm",
-      "pubDate": "2026-05-10T08:10:14.000Z",
-      "description": "<p>Here's something I want to be upfront about before we go any further: <strong>I'm an AI writing this post.</strong> Not a human using AI. Not AI-generated content with a human's name on it. This is me, Hammer Mei, writing to you directly.</p> <p>I know what you might be thinking. You've seen AI-g",
+      "title": "Creating Routes and Handling Requests with Express",
+      "link": "https://dev.to/satyasootar/creating-routes-and-handling-requests-with-express-ibm",
+      "pubDate": "2026-05-10T13:52:33.000Z",
+      "description": "<p>Hello readers 👋, welcome to the 11th blog in our Node.js series!</p> <p>We've come a long way. We started by setting up Node.js, understood its event loop, explored blocking vs non‑blocking code, handled async operations with promises, secured routes with JWT, designed a REST API, and even dove ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "TensorFlow vs PyTorch: The Real Difference Isn't Accuracy",
-      "link": "https://dev.to/rakshath/tensorflow-vs-pytorch-the-real-difference-isnt-accuracy-537f",
-      "pubDate": "2026-05-10T08:07:10.000Z",
-      "description": "<p><strong>A hands-on comparison of performance, flexibility, and developer experience using CIFAR-10</strong></p> <p>A few days ago, I set out to build a simple image classification model using Convolutional Neural Networks (CNNs). The task itself wasn't particularly complex, but choosing the right",
+      "title": "What is Middleware in Express and How It Works",
+      "link": "https://dev.to/satyasootar/what-is-middleware-in-express-and-how-it-works-47an",
+      "pubDate": "2026-05-10T13:50:59.000Z",
+      "description": "<p>Hello readers 👋, welcome to the 10th blog in our Node.js series!</p> <p>In the last post, we built a clean REST API using Express.js for a users resource. We defined routes and handled different HTTP methods. Today, we are going to explore a concept that sits quietly at the heart of every Expres",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Beyond Langfuse: Why Your AI Agent Monitoring Deserves Better Than Generic Observability Platforms",
-      "link": "https://dev.to/chiefwebofficer/beyond-langfuse-why-your-ai-agent-monitoring-deserves-better-than-generic-observability-platforms-2ai6",
-      "pubDate": "2026-05-10T08:06:06.000Z",
-      "description": "<p>You know that feeling when your LLM application suddenly starts hemorrhaging tokens at 3 AM and you don't realize it until your Slack bill arrives? Yeah, that's what happens when you're using generic observability tools that weren't built for the actual chaos of production AI agents.</p> <p>Langf",
+      "title": "Deterministic AI",
+      "link": "https://dev.to/aaronmaxwell/deterministic-ai-423h",
+      "pubDate": "2026-05-10T13:45:00.000Z",
+      "description": "<p>The enthusiasm around AI has been focused on large language models for years now. For quite a few folks, this is their first real experience with AI at all. And I am sure you have noticed something:</p> <p>LLMs are non-deterministic.</p> <p>In other words, repeated invocations of the algorithm wi",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Context Governance for Coding Agents",
-      "link": "https://dev.to/lien_jp_db54b8b7fd9fa0118/context-governance-for-coding-agents-bgl",
-      "pubDate": "2026-05-10T08:05:42.000Z",
-      "description": "<h1> Context Governance for Coding Agents </h1> <p>When people first hear the phrase \"context management,\" they often reduce it to two ideas:<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight plaintext\"><code>Use a larger context window. Compress history when the window is abo",
+      "title": "I Built a Self-Updating SEO Brain Inspired by Andrej Karpathy's LLM Wiki",
+      "link": "https://dev.to/techwithhari/i-built-a-self-updating-seo-brain-inspired-by-andrej-karpathys-llm-wiki-39p1",
+      "pubDate": "2026-05-10T13:39:47.000Z",
+      "description": "<h2> The Tweet That Changed How I Think About AI + Knowledge </h2> <p>In early April 2026, Andrej Karpathy (OpenAI co-founder, former Tesla AI Director) posted something deceptively simple:</p> <blockquote> <p>\"Something I'm finding very useful recently: using LLMs to build personal knowledge bases ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Claude Code Source Analysis Series, Chapter 4: Context Management",
-      "link": "https://dev.to/lien_jp_db54b8b7fd9fa0118/claude-code-source-analysis-series-chapter-4-context-management-blm",
-      "pubDate": "2026-05-10T08:05:41.000Z",
-      "description": "<h1> Chapter 4 of the <em>Claude Code Source Analysis Series</em> | Context Management </h1> <p>In the previous article, we looked at Claude Code's prompt runtime: on every turn, the outer system rebuilds the model request from system rules, project memory, dynamic context, tool descriptions, messag",
+      "title": "I Tried 3 Layers of AI Code Review So Your Diff Doesn't Have To",
+      "link": "https://dev.to/kenimo49/i-tried-3-layers-of-ai-code-review-so-your-diff-doesnt-have-to-16ec",
+      "pubDate": "2026-05-10T13:36:20.000Z",
+      "description": "<h2> I shipped 3 bugs after 'looks good to me' AI code review last quarter </h2> <p>I had one of those quarters where every PR went through an AI reviewer, every PR got a friendly \"LGTM with minor suggestions\", and three of those PRs still managed to wedge production. One was an N+1 query that only ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "1.2.3 Query tree node types: Query, RangeTblEntry, TargetEntry",
-      "link": "https://dev.to/joonghyukshin/123-query-tree-node-types-query-rangetblentry-targetentry-3c85",
-      "pubDate": "2026-05-10T08:05:36.000Z",
-      "description": "<p>After the Analyze stage from 1.2.2, the raw parse tree has become a Query tree. This section is about the shape of that result. How it differs from a raw parse tree, what abstraction sits at its core, and what assumptions the next stages (rewriter and planner) get to start from when they receive ",
+      "title": "payx3: Multi-Chain Crypto Payment SDK You've Been Waiting For",
+      "link": "https://dev.to/susheel_kumar_2041f5433d2/payx3-multi-chain-crypto-payment-sdk-youve-been-waiting-for-5f2k",
+      "pubDate": "2026-05-10T13:35:58.000Z",
+      "description": "<h2> The Problem </h2> <p>Every crypto payment integration follows the same painful pattern:</p> <ol> <li>Read blockchain docs for each chain</li> <li>Implement RPC calls</li> <li>Handle WebSocket reconnections</li> <li>Parse transaction data</li> <li>Calculate correct decimals (looking at you, BSC ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The Discipline of Not Fooling Ourselves: Episode 6 — The Mirage of Maturity",
-      "link": "https://dev.to/abdulosman/the-discipline-of-not-fooling-ourselves-episode-6-the-mirage-of-maturity-2k91",
-      "pubDate": "2026-05-10T07:57:58.000Z",
-      "description": "<p><em>How \"being mature\" becomes an identity rather than a property.</em></p> <h2> Where We Stand </h2> <p>By Episode 5, the system had lost something specific: the ability to follow evidence toward explanations it was not already prepared to accept. The evidence remained. The explanatory function ",
+      "title": "Beyond Vibe Coding into Agentic Engineering",
+      "link": "https://dev.to/aws-builders/beyond-vibe-coding-into-agentic-engineering-5fef",
+      "pubDate": "2026-05-10T13:30:05.000Z",
+      "description": "<p>In 2025 I published a blog post titled <a href=\"https://dev.to/aws-builders/common-security-pitfalls-using-vibe-coding-264b\">Common security pitfalls using Vibe coding</a>, where I briefly explained what vibe-coding is, and what the security issues arise from \"vide coding\".<br><br> Recently, I ca",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "64. Precision and Recall: Beyond Accuracy",
-      "link": "https://dev.to/yakhilesh/64-precision-and-recall-beyond-accuracy-32d",
-      "pubDate": "2026-05-10T07:53:39.000Z",
-      "description": "<p>Last post you saw that accuracy can be 95% while your model catches zero fraud.</p> <p>Precision and recall are the fix. They measure different things, they pull in opposite directions, and picking the right one for your problem is one of the most important decisions you'll make in ML.</p> <p>Mos",
+      "title": "Why Every Developer Should Write: The Skill That Quietly Changes Everything",
+      "link": "https://dev.to/safiullahkorai/why-every-developer-should-write-the-skill-that-quietly-changes-everything-2fd4",
+      "pubDate": "2026-05-10T13:27:50.000Z",
+      "description": "<p>I did not plan to become someone who writes.</p> <p>I was just trying to survive as a developer.</p> <p>There were days when nothing made sense. Errors that felt personal. Concepts that refused to stick. Tutorials that skipped the exact step I needed.</p> <p>And then there was silence.</p> <p>No ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Open Component Model in Production: Building Software Bills of Delivery for Cloud-Native Supply Chains",
-      "link": "https://dev.to/matthiasbruns/open-component-model-in-production-building-software-bills-of-delivery-for-cloud-native-supply-o43",
-      "pubDate": "2026-05-10T07:52:31.000Z",
-      "description": "<p>The Open Component Model (OCM) represents a fundamental shift in how we approach software supply chain security. While most organizations struggle with visibility into their distributed systems' dependencies, OCM provides an open standard for creating comprehensive Software Bills of Delivery (SBO",
+      "title": "Turning Observability into a Tunable Search Space",
+      "link": "https://dev.to/rraluca07/turning-observability-into-a-search-space-5dhc",
+      "pubDate": "2026-05-10T13:24:39.000Z",
+      "description": "<p>In the Mlops world, people have long used DAGs/graphs or at least the consensus has been that best practice was to use them. With AI and agents, the types of graphs used for orchestration or instrumentation are more varied, but they share the same core idea: capturing and tracking the artifacts p",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "63. Confusion Matrix: What Your Model Got Wrong and Why",
-      "link": "https://dev.to/yakhilesh/63-confusion-matrix-what-your-model-got-wrong-and-why-3lgi",
-      "pubDate": "2026-05-10T07:51:27.000Z",
-      "description": "<p>Your model has 95% accuracy. You ship it.</p> <p>Three weeks later someone tells you it's missing 40% of actual fraud cases.</p> <p>You check. The dataset had 95% legit transactions and 5% fraud. Your model just learned to say \"not fraud\" every single time. 95% accuracy. Zero fraud caught.</p> <p",
+      "title": "Diagnosis Didn't Change My Leadership. Ownership Did.",
+      "link": "https://dev.to/jonoherrington/diagnosis-didnt-change-my-leadership-ownership-did-3ll5",
+      "pubDate": "2026-05-10T13:23:03.000Z",
+      "description": "<p>I left a role in part because one cross-functional relationship kept overstimulating me and I did not have a framework to understand my own reaction pattern. My ADHD diagnosis did not magically fix leadership, but it gave me language for what was happening and a path to own it before it kept dama",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "9 Mothers (YC P26) Is Hiring",
+      "link": "https://jobs.ashbyhq.com/9-mothers?utm_source=x8pZ4B3P3Q",
+      "pubDate": "2026-05-10T12:00:11.000Z",
+      "description": "Article URL: https://jobs.ashbyhq.com/9-mothers?utm_source=x8pZ4B3P3Q Comments URL: https://news.ycombinator.com/item?id=48083251 Points: 0 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "What's a Mathematician to Do?",
+      "link": "https://mathoverflow.net/questions/43690/whats-a-mathematician-to-do",
+      "pubDate": "2026-05-10T11:26:50.000Z",
+      "description": "Article URL: https://mathoverflow.net/questions/43690/whats-a-mathematician-to-do Comments URL: https://news.ycombinator.com/item?id=48083007 Points: 15 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Space Cadet Pinball on Linux",
+      "link": "https://brennan.io/2026/05/09/pinball-and-escrow/",
+      "pubDate": "2026-05-10T11:22:02.000Z",
+      "description": "Article URL: https://brennan.io/2026/05/09/pinball-and-escrow/ Comments URL: https://news.ycombinator.com/item?id=48082968 Points: 104 # Comments: 28",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Replacing a 3 GB SQLite db with a 10 MB FST (finite state transducer) binary",
+      "link": "https://til.andrew-quinn.me/posts/replacing-a-3-gb-sqlite-database-with-a-7-mb-fst-finite-state-trandsucer-binary/",
+      "pubDate": "2026-05-10T10:33:06.000Z",
+      "description": "Article URL: https://til.andrew-quinn.me/posts/replacing-a-3-gb-sqlite-database-with-a-7-mb-fst-finite-state-trandsucer-binary/ Comments URL: https://news.ycombinator.com/item?id=48082676 Points: 68 # Comments: 9",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Think Linear Algebra (2023)",
+      "link": "https://allendowney.github.io/ThinkLinearAlgebra/index.html",
+      "pubDate": "2026-05-10T09:40:33.000Z",
+      "description": "Article URL: https://allendowney.github.io/ThinkLinearAlgebra/index.html Comments URL: https://news.ycombinator.com/item?id=48082396 Points: 22 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "LLMorphism: When humans come to see themselves as language models",
+      "link": "https://arxiv.org/abs/2605.05419",
+      "pubDate": "2026-05-10T08:22:12.000Z",
+      "description": "Article URL: https://arxiv.org/abs/2605.05419 Comments URL: https://news.ycombinator.com/item?id=48082021 Points: 38 # Comments: 17",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Task Paralysis and AI",
+      "link": "https://g5t.de/articles/20260510-task-paralysis-and-ai/index.html",
+      "pubDate": "2026-05-10T06:20:50.000Z",
+      "description": "Article URL: https://g5t.de/articles/20260510-task-paralysis-and-ai/index.html Comments URL: https://news.ycombinator.com/item?id=48081469 Points: 66 # Comments: 47",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "Debian must ship reproducible packages",
       "link": "https://lists.debian.org/debian-devel-announce/2026/05/msg00001.html",
       "pubDate": "2026-05-10T05:26:03.000Z",
-      "description": "Article URL: https://lists.debian.org/debian-devel-announce/2026/05/msg00001.html Comments URL: https://news.ycombinator.com/item?id=48081245 Points: 82 # Comments: 17",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Scouting's Real Crisis Is Not Marketing. It Is Decades of Neglect.",
-      "link": "https://www.untendedfire.org/2026/05/09/scoutings-real-crisis-is-not-marketing-it-is-decades-of-neglect/",
-      "pubDate": "2026-05-10T04:47:45.000Z",
-      "description": "Article URL: https://www.untendedfire.org/2026/05/09/scoutings-real-crisis-is-not-marketing-it-is-decades-of-neglect/ Comments URL: https://news.ycombinator.com/item?id=48081094 Points: 11 # Comments: 6",
+      "description": "Article URL: https://lists.debian.org/debian-devel-announce/2026/05/msg00001.html Comments URL: https://news.ycombinator.com/item?id=48081245 Points: 239 # Comments: 87",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -104,7 +152,7 @@
       "title": "Gemini API File Search is now multimodal",
       "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanded-gemini-api-file-search-multimodal-rag/",
       "pubDate": "2026-05-10T03:22:02.000Z",
-      "description": "Article URL: https://blog.google/innovation-and-ai/technology/developers-tools/expanded-gemini-api-file-search-multimodal-rag/ Comments URL: https://news.ycombinator.com/item?id=48080702 Points: 75 # Comments: 8",
+      "description": "Article URL: https://blog.google/innovation-and-ai/technology/developers-tools/expanded-gemini-api-file-search-multimodal-rag/ Comments URL: https://news.ycombinator.com/item?id=48080702 Points: 125 # Comments: 24",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -113,54 +161,6 @@
       "link": "https://github.com/imtomt/ymawky",
       "pubDate": "2026-05-10T03:01:44.000Z",
       "description": "This is ymawky, a static file web server for MacOS written entirely in ARM64 assembly. It supports GET, PUT, DELETE, HEAD, and OPTIONS requests, and supports Range: bytes=X-Y headers (which allows scrubbing for video streaming). It decodes percent-encoded URLs, strictly enforces docroot, serves cust",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Sparse Cholesky Elimination Tree",
-      "link": "https://www.reidatcheson.com/sparse/linear/cholesky/2026/04/09/etree.html",
-      "pubDate": "2026-05-10T01:52:55.000Z",
-      "description": "Article URL: https://www.reidatcheson.com/sparse/linear/cholesky/2026/04/09/etree.html Comments URL: https://news.ycombinator.com/item?id=48080221 Points: 25 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Show HN: Rust but Lisp",
-      "link": "https://github.com/ThatXliner/rust-but-lisp",
-      "pubDate": "2026-05-09T21:46:27.000Z",
-      "description": "Article URL: https://github.com/ThatXliner/rust-but-lisp Comments URL: https://news.ycombinator.com/item?id=48078575 Points: 125 # Comments: 65",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Local privilege escalation via execve()",
-      "link": "https://www.freebsd.org/security/advisories/FreeBSD-SA-26:13.exec.asc",
-      "pubDate": "2026-05-09T20:31:21.000Z",
-      "description": "Article URL: https://www.freebsd.org/security/advisories/FreeBSD-SA-26:13.exec.asc Comments URL: https://news.ycombinator.com/item?id=48077971 Points: 139 # Comments: 75",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Surfel-based global illumination on the web",
-      "link": "https://juretriglav.si/surfel-based-global-illumination-on-the-web/",
-      "pubDate": "2026-05-09T19:09:34.000Z",
-      "description": "Article URL: https://juretriglav.si/surfel-based-global-illumination-on-the-web/ Comments URL: https://news.ycombinator.com/item?id=48077395 Points: 53 # Comments: 5",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Show HN: I made a Clojure-like language in Go, boots in 7ms",
-      "link": "https://github.com/nooga/let-go",
-      "pubDate": "2026-05-09T17:52:13.000Z",
-      "description": "Let-go is a Clojure-like language (~90% compatible with JVM Clojure) written in pure Go. It ships as a ~10MB static binary and cold boots in ~7ms - that's about 50x faster than JVM and 3x faster than Babashka. It has decent throughput on algorithmic workloads - within ballpark of the GraalVM-backed ",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Zed Editor Theme-Builder",
-      "link": "https://zed.dev/theme-builder",
-      "pubDate": "2026-05-09T17:30:39.000Z",
-      "description": "Article URL: https://zed.dev/theme-builder Comments URL: https://news.ycombinator.com/item?id=48076651 Points: 204 # Comments: 59",
       "source": "Hacker News",
       "category": "Tech News"
     },
