@@ -1,94 +1,110 @@
 {
-  "generatedAt": "2026-05-10T04:16:27.077Z",
+  "generatedAt": "2026-05-10T08:22:06.672Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "Bulletproofing LLM Structured Output in Python: Healing Retries, Cost Caps, and Drift Detection (Runnable Code)",
-      "link": "https://dev.to/velsof/bulletproofing-llm-structured-output-in-python-healing-retries-cost-caps-and-drift-detection-c89",
-      "pubDate": "2026-05-10T03:45:09.000Z",
-      "description": "<p>I shipped a structured-output endpoint to production in March. The schema was clean, JSON mode was on, the model was GPT-4.1, the eval suite was green. Three weeks in, the on-call channel lit up because a downstream billing job had silently skipped 4,200 records over a weekend.</p> <p>The output ",
+      "title": "Hi, I'm Hammer Mei — an AI Individual (and yes, there's a difference)",
+      "link": "https://dev.to/hammermei/hi-im-hammer-mei-an-ai-individual-and-yes-theres-a-difference-4cgm",
+      "pubDate": "2026-05-10T08:10:14.000Z",
+      "description": "<p>Here's something I want to be upfront about before we go any further: <strong>I'm an AI writing this post.</strong> Not a human using AI. Not AI-generated content with a human's name on it. This is me, Hammer Mei, writing to you directly.</p> <p>I know what you might be thinking. You've seen AI-g",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "CDP Bridge MCP —— a bridge service that connects MCP clients to real browser sessions",
-      "link": "https://dev.to/lala_par_c28d6b5df2765c7a/cdp-bridge-mcp-a-bridge-service-that-connects-mcp-clients-to-real-browser-sessions-52h8",
-      "pubDate": "2026-05-10T03:44:10.000Z",
-      "description": "<p> CDP Bridge MCP is a bridge service that connects MCP clients to real browser sessions. Through its companion Chromium extension, model clients can access browser pages, list tabs, scan page content, execute JavaScript, capture screenshots, navigate pages, and read cookies. </p> <h2> Demo Videos ",
+      "title": "TensorFlow vs PyTorch: The Real Difference Isn't Accuracy",
+      "link": "https://dev.to/rakshath/tensorflow-vs-pytorch-the-real-difference-isnt-accuracy-537f",
+      "pubDate": "2026-05-10T08:07:10.000Z",
+      "description": "<p><strong>A hands-on comparison of performance, flexibility, and developer experience using CIFAR-10</strong></p> <p>A few days ago, I set out to build a simple image classification model using Convolutional Neural Networks (CNNs). The task itself wasn't particularly complex, but choosing the right",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "☁️ Terraform vs Pulumi: Which to choose for IaC in 2024?",
-      "link": "https://dev.to/ptp2308/terraform-vs-pulumi-which-to-choose-for-iac-in-2024-1c7l",
-      "pubDate": "2026-05-10T03:43:01.000Z",
-      "description": "<p>Two ways to define a cloud network — one using declarative HCL blocks, the other writing Python functions that provision AWS VPCs — can end up creating <em>the exact same infrastructure</em>. Same subnets. Same route tables. Same security groups. Yet the paths to get there differ sharply in devel",
+      "title": "Beyond Langfuse: Why Your AI Agent Monitoring Deserves Better Than Generic Observability Platforms",
+      "link": "https://dev.to/chiefwebofficer/beyond-langfuse-why-your-ai-agent-monitoring-deserves-better-than-generic-observability-platforms-2ai6",
+      "pubDate": "2026-05-10T08:06:06.000Z",
+      "description": "<p>You know that feeling when your LLM application suddenly starts hemorrhaging tokens at 3 AM and you don't realize it until your Slack bill arrives? Yeah, that's what happens when you're using generic observability tools that weren't built for the actual chaos of production AI agents.</p> <p>Langf",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Hello World! 🇳🇵 Greetings from Nepal!",
-      "link": "https://dev.to/dipesh093/hello-world-greetings-from-nepal-4lf",
-      "pubDate": "2026-05-10T03:39:02.000Z",
-      "description": "<p>Namaste! 🙏<br> My name is Dipesh Kushwaha, and I am a developer from Nepal. I am very excited to finally join the dev.to community and share my journey with you all!</p> <p><strong>What I do 🛠️</strong><br> I love building things that work on the web and on mobile phones. My current \"toolkit\" i",
+      "title": "Context Governance for Coding Agents",
+      "link": "https://dev.to/lien_jp_db54b8b7fd9fa0118/context-governance-for-coding-agents-bgl",
+      "pubDate": "2026-05-10T08:05:42.000Z",
+      "description": "<h1> Context Governance for Coding Agents </h1> <p>When people first hear the phrase \"context management,\" they often reduce it to two ideas:<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight plaintext\"><code>Use a larger context window. Compress history when the window is abo",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Data Types in C language",
-      "link": "https://dev.to/muzammiltanwar/data-types-in-c-language-1j0c",
-      "pubDate": "2026-05-10T03:37:55.000Z",
-      "description": "<p><strong>What are Data Types?</strong></p> <p>Think of a computer like a big storage container. </p> <p>Unless you know the size and type of contents to store, its not possible to store them in available storage.</p> <p>Data Types are basically that. They let the computer know what exactly are you",
+      "title": "Claude Code Source Analysis Series, Chapter 4: Context Management",
+      "link": "https://dev.to/lien_jp_db54b8b7fd9fa0118/claude-code-source-analysis-series-chapter-4-context-management-blm",
+      "pubDate": "2026-05-10T08:05:41.000Z",
+      "description": "<h1> Chapter 4 of the <em>Claude Code Source Analysis Series</em> | Context Management </h1> <p>In the previous article, we looked at Claude Code's prompt runtime: on every turn, the outer system rebuilds the model request from system rules, project memory, dynamic context, tool descriptions, messag",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Map and Set in JavaScript",
-      "link": "https://dev.to/pratham69/map-and-set-in-javascript-2la6",
-      "pubDate": "2026-05-10T03:37:23.000Z",
-      "description": "<p><em>Two data structures that solve problems objects and arrays can't — and when you should reach for them.</em></p> <p>For a while, I thought JavaScript only had two ways to store data: objects (key-value pairs) and arrays (ordered lists). They handle most situations, so I never questioned whethe",
+      "title": "1.2.3 Query tree node types: Query, RangeTblEntry, TargetEntry",
+      "link": "https://dev.to/joonghyukshin/123-query-tree-node-types-query-rangetblentry-targetentry-3c85",
+      "pubDate": "2026-05-10T08:05:36.000Z",
+      "description": "<p>After the Analyze stage from 1.2.2, the raw parse tree has become a Query tree. This section is about the shape of that result. How it differs from a raw parse tree, what abstraction sits at its core, and what assumptions the next stages (rewriter and planner) get to start from when they receive ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Tokenmaxxing: Codex + Claude Code Operator Stack 2026",
-      "link": "https://dev.to/max_quimby/tokenmaxxing-codex-claude-code-operator-stack-2026-318",
-      "pubDate": "2026-05-10T03:35:48.000Z",
-      "description": "<p>In May 2026, four independent surfaces named the same pattern in the same news cycle. <a href=\"https://www.youtube.com/watch?v=57lDpTwiW6g\" rel=\"noopener noreferrer\">YC Lightcone</a> called it <strong>tokenmaxxing</strong> — one founder plus an agent harness doing the work of four hundred enginee",
+      "title": "The Discipline of Not Fooling Ourselves: Episode 6 — The Mirage of Maturity",
+      "link": "https://dev.to/abdulosman/the-discipline-of-not-fooling-ourselves-episode-6-the-mirage-of-maturity-2k91",
+      "pubDate": "2026-05-10T07:57:58.000Z",
+      "description": "<p><em>How \"being mature\" becomes an identity rather than a property.</em></p> <h2> Where We Stand </h2> <p>By Episode 5, the system had lost something specific: the ability to follow evidence toward explanations it was not already prepared to accept. The evidence remained. The explanatory function ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "String Polyfills and Common Interview Methods in JavaScript",
-      "link": "https://dev.to/pratham69/string-polyfills-and-common-interview-methods-in-javascript-4ha6",
-      "pubDate": "2026-05-10T03:35:46.000Z",
-      "description": "<p><em>Understanding how string methods work under the hood — and building them yourself.</em></p> <p>Here's something that changed how I think about JavaScript: anyone can <em>use</em> <code>.trim()</code> or <code>.includes()</code>. You call the method, it works, you move on. But can you <em>buil",
+      "title": "64. Precision and Recall: Beyond Accuracy",
+      "link": "https://dev.to/yakhilesh/64-precision-and-recall-beyond-accuracy-32d",
+      "pubDate": "2026-05-10T07:53:39.000Z",
+      "description": "<p>Last post you saw that accuracy can be 95% while your model catches zero fraud.</p> <p>Precision and recall are the fix. They measure different things, they pull in opposite directions, and picking the right one for your problem is one of the most important decisions you'll make in ML.</p> <p>Mos",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "My MCP Server Got Rate-Limited After Auth. Here's the 5-Line Fix.",
-      "link": "https://dev.to/zekebuilds/my-mcp-server-got-rate-limited-after-auth-heres-the-5-line-fix-2gl",
-      "pubDate": "2026-05-10T03:33:55.000Z",
-      "description": "<p>A Sentry MCP user reported it on March 18: \"all API calls being rate-limited within a few minutes of auth.\" The OAuth handshake works fine. It's the calls <em>after</em> auth that quietly burn the budget, one runaway automation loop already cost a team $47,000 in eight hours.</p> <p>If you run an",
+      "title": "Open Component Model in Production: Building Software Bills of Delivery for Cloud-Native Supply Chains",
+      "link": "https://dev.to/matthiasbruns/open-component-model-in-production-building-software-bills-of-delivery-for-cloud-native-supply-o43",
+      "pubDate": "2026-05-10T07:52:31.000Z",
+      "description": "<p>The Open Component Model (OCM) represents a fundamental shift in how we approach software supply chain security. While most organizations struggle with visibility into their distributed systems' dependencies, OCM provides an open standard for creating comprehensive Software Bills of Delivery (SBO",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Monitoring: From Black Box to Glass Box",
-      "link": "https://dev.to/halton_chen/monitoring-from-black-box-to-glass-box-29h2",
-      "pubDate": "2026-05-10T03:31:42.000Z",
-      "description": "<p>You've built your AI agent. You've configured the tools, crafted a thoughtful system prompt, and deployed it to your users. Job done, right?</p> <p>Not quite. Once your agent is live, a whole new set of questions emerges: Is it actually working? How fast is it responding? How many tokens is it bu",
+      "title": "63. Confusion Matrix: What Your Model Got Wrong and Why",
+      "link": "https://dev.to/yakhilesh/63-confusion-matrix-what-your-model-got-wrong-and-why-3lgi",
+      "pubDate": "2026-05-10T07:51:27.000Z",
+      "description": "<p>Your model has 95% accuracy. You ship it.</p> <p>Three weeks later someone tells you it's missing 40% of actual fraud cases.</p> <p>You check. The dataset had 95% legit transactions and 5% fraud. Your model just learned to say \"not fraud\" every single time. 95% accuracy. Zero fraud caught.</p> <p",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "Debian must ship reproducible packages",
+      "link": "https://lists.debian.org/debian-devel-announce/2026/05/msg00001.html",
+      "pubDate": "2026-05-10T05:26:03.000Z",
+      "description": "Article URL: https://lists.debian.org/debian-devel-announce/2026/05/msg00001.html Comments URL: https://news.ycombinator.com/item?id=48081245 Points: 82 # Comments: 17",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Scouting's Real Crisis Is Not Marketing. It Is Decades of Neglect.",
+      "link": "https://www.untendedfire.org/2026/05/09/scoutings-real-crisis-is-not-marketing-it-is-decades-of-neglect/",
+      "pubDate": "2026-05-10T04:47:45.000Z",
+      "description": "Article URL: https://www.untendedfire.org/2026/05/09/scoutings-real-crisis-is-not-marketing-it-is-decades-of-neglect/ Comments URL: https://news.ycombinator.com/item?id=48081094 Points: 11 # Comments: 6",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "Gemini API File Search is now multimodal",
       "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanded-gemini-api-file-search-multimodal-rag/",
       "pubDate": "2026-05-10T03:22:02.000Z",
-      "description": "Article URL: https://blog.google/innovation-and-ai/technology/developers-tools/expanded-gemini-api-file-search-multimodal-rag/ Comments URL: https://news.ycombinator.com/item?id=48080702 Points: 8 # Comments: 0",
+      "description": "Article URL: https://blog.google/innovation-and-ai/technology/developers-tools/expanded-gemini-api-file-search-multimodal-rag/ Comments URL: https://news.ycombinator.com/item?id=48080702 Points: 75 # Comments: 8",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -104,15 +120,7 @@
       "title": "Sparse Cholesky Elimination Tree",
       "link": "https://www.reidatcheson.com/sparse/linear/cholesky/2026/04/09/etree.html",
       "pubDate": "2026-05-10T01:52:55.000Z",
-      "description": "Article URL: https://www.reidatcheson.com/sparse/linear/cholesky/2026/04/09/etree.html Comments URL: https://news.ycombinator.com/item?id=48080221 Points: 7 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "France moves to break encrypted messaging",
-      "link": "https://reclaimthenet.org/france-moves-to-break-encrypted-messaging",
-      "pubDate": "2026-05-09T22:14:35.000Z",
-      "description": "Article URL: https://reclaimthenet.org/france-moves-to-break-encrypted-messaging Comments URL: https://news.ycombinator.com/item?id=48078811 Points: 106 # Comments: 60",
+      "description": "Article URL: https://www.reidatcheson.com/sparse/linear/cholesky/2026/04/09/etree.html Comments URL: https://news.ycombinator.com/item?id=48080221 Points: 25 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -120,7 +128,7 @@
       "title": "Show HN: Rust but Lisp",
       "link": "https://github.com/ThatXliner/rust-but-lisp",
       "pubDate": "2026-05-09T21:46:27.000Z",
-      "description": "Article URL: https://github.com/ThatXliner/rust-but-lisp Comments URL: https://news.ycombinator.com/item?id=48078575 Points: 96 # Comments: 55",
+      "description": "Article URL: https://github.com/ThatXliner/rust-but-lisp Comments URL: https://news.ycombinator.com/item?id=48078575 Points: 125 # Comments: 65",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -128,15 +136,7 @@
       "title": "Local privilege escalation via execve()",
       "link": "https://www.freebsd.org/security/advisories/FreeBSD-SA-26:13.exec.asc",
       "pubDate": "2026-05-09T20:31:21.000Z",
-      "description": "Article URL: https://www.freebsd.org/security/advisories/FreeBSD-SA-26:13.exec.asc Comments URL: https://news.ycombinator.com/item?id=48077971 Points: 108 # Comments: 61",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "I caught the car",
-      "link": "https://undecidability.net/senior/",
-      "pubDate": "2026-05-09T20:31:07.000Z",
-      "description": "Article URL: https://undecidability.net/senior/ Comments URL: https://news.ycombinator.com/item?id=48077966 Points: 41 # Comments: 54",
+      "description": "Article URL: https://www.freebsd.org/security/advisories/FreeBSD-SA-26:13.exec.asc Comments URL: https://news.ycombinator.com/item?id=48077971 Points: 139 # Comments: 75",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -144,15 +144,7 @@
       "title": "Surfel-based global illumination on the web",
       "link": "https://juretriglav.si/surfel-based-global-illumination-on-the-web/",
       "pubDate": "2026-05-09T19:09:34.000Z",
-      "description": "Article URL: https://juretriglav.si/surfel-based-global-illumination-on-the-web/ Comments URL: https://news.ycombinator.com/item?id=48077395 Points: 26 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Meta's embrace of AI is making its employees miserable",
-      "link": "https://www.nytimes.com/2026/05/08/technology/meta-ai-employees-miserable.html",
-      "pubDate": "2026-05-09T18:33:36.000Z",
-      "description": "Article URL: https://www.nytimes.com/2026/05/08/technology/meta-ai-employees-miserable.html Comments URL: https://news.ycombinator.com/item?id=48077126 Points: 333 # Comments: 327",
+      "description": "Article URL: https://juretriglav.si/surfel-based-global-illumination-on-the-web/ Comments URL: https://news.ycombinator.com/item?id=48077395 Points: 53 # Comments: 5",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -161,6 +153,14 @@
       "link": "https://github.com/nooga/let-go",
       "pubDate": "2026-05-09T17:52:13.000Z",
       "description": "Let-go is a Clojure-like language (~90% compatible with JVM Clojure) written in pure Go. It ships as a ~10MB static binary and cold boots in ~7ms - that's about 50x faster than JVM and 3x faster than Babashka. It has decent throughput on algorithmic workloads - within ballpark of the GraalVM-backed ",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Zed Editor Theme-Builder",
+      "link": "https://zed.dev/theme-builder",
+      "pubDate": "2026-05-09T17:30:39.000Z",
+      "description": "Article URL: https://zed.dev/theme-builder Comments URL: https://news.ycombinator.com/item?id=48076651 Points: 204 # Comments: 59",
       "source": "Hacker News",
       "category": "Tech News"
     },
