@@ -1,166 +1,174 @@
 {
-  "generatedAt": "2026-05-11T10:00:29.159Z",
+  "generatedAt": "2026-05-11T15:35:56.733Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "How to write and publish a Python package to PyPI",
-      "link": "https://dev.to/extractdata/how-to-write-and-publish-a-python-package-to-pypi-54lf",
-      "pubDate": "2026-05-11T09:57:41.000Z",
-      "description": "<p>I wanted to publish my Scrapy download handler to PyPi - UV made it incredibly easy. Here's how.</p> <p>At some point, every scraping developer writes the same middleware twice.</p> <p>The first time is in project A. It works well, so when project B comes along you copy it across. Then project C.",
+      "title": "My 2026 Productivity Stack",
+      "link": "https://dev.to/davidmorais/my-2026-productivity-stack-321i",
+      "pubDate": "2026-05-11T15:32:12.000Z",
+      "description": "<h1> 2026 Producitvity Stack </h1> <p>Hey 👋</p> <p>Every year or so I like to write about the tools I'm using. Partly because I enjoy reading other people's setups, partly because it forces me to think about whether I'm actually getting value from what I'm paying for.</p> <p>2026 has been a weird o",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How to tell if a page uses JavaScript rendering (and what to do about it)",
-      "link": "https://dev.to/extractdata/how-to-tell-if-a-page-uses-javascript-rendering-and-what-to-do-about-it-5af8",
-      "pubDate": "2026-05-11T09:55:57.000Z",
-      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ft0anodj8bmyqv2cm7iex.png\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/width=800%",
+      "title": "You’re Not Building Apps. You’re Designing Systems.",
+      "link": "https://dev.to/stinklewinks/youre-not-building-apps-youre-designing-systems-1o3f",
+      "pubDate": "2026-05-11T15:30:00.000Z",
+      "description": "<p>Most developers think they’re building applications.</p> <p>Pages. APIs. Features. Endpoints.</p> <p>Something users can click, interact with, and use.</p> <p>But after building enough projects, something becomes obvious:</p> <p>You’re not building apps.</p> <p>You’re building systems.</p> <h2> T",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "\"You Don't Need Matching Model Names to Run AI Coding Tools\"",
-      "link": "https://dev.to/codekingai/you-dont-need-matching-model-names-to-run-ai-coding-tools-5cfa",
-      "pubDate": "2026-05-11T09:53:48.000Z",
-      "description": "<p>I ran into a boring problem that kept wasting real time:</p> <p>my coding tool said <code>gpt-5.5</code>, my provider said the deployment was called something else, and suddenly I was debugging configuration instead of code.</p> <p>Not model quality. Not prompts. Not token limits.</p> <p>Just nam",
+      "title": "I wanted to understand Payments better ... and learned about HAR files.",
+      "link": "https://dev.to/ayda_ma04a645d96526b/i-wanted-to-understand-payments-better-and-learned-about-har-files-4dd9",
+      "pubDate": "2026-05-11T15:29:49.000Z",
+      "description": "<p>I started following up on my challenge of learning more about how payments in Web2 work: I set up my account, my sandbox, and a simple checkout flow. I went through the flow once, and it<br> worked. What pulled me to this project was a desire to learn more about payments, since they are everywher",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Beyond Unit Tests: Implementing BDD and Penetration Testing in GBIM",
-      "link": "https://dev.to/vincent_davis_7b6665836a9/beyond-unit-tests-implementing-bdd-and-penetration-testing-in-gbim-3nlc",
-      "pubDate": "2026-05-11T09:43:49.000Z",
-      "description": "<h2> Claim Summary </h2> <p>This claim demonstrates that the GBM project has implemented advanced testing in four areas required by the IR B5 rubric: security testing, penetration testing, behavior-driven development, and stress testing.</p> <div class=\"table-wrapper-paragraph\"><table> <thead> <tr> ",
+      "title": "Top 7 Featured DEV Posts of the Week",
+      "link": "https://dev.to/devteam/top-7-featured-dev-posts-of-the-week-4nik",
+      "pubDate": "2026-05-11T15:25:59.000Z",
+      "description": "<p><em>Welcome to this week's Top 7, where the DEV editorial team handpicks their favorite posts from the previous week (Saturday-Friday).</em></p> <p>Congrats to all the authors that made it onto the list 👏</p> <div class=\"ltag__link--embedded\"> <div class=\"crayons-story \"> <a href=\"https://dev.to",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Why Your Website Ranks on Page 2 But Never Page",
-      "link": "https://dev.to/diginext_work/why-your-website-ranks-on-page-2-but-never-page-1j85",
-      "pubDate": "2026-05-11T09:43:41.000Z",
-      "description": "<p><strong>Introduction</strong><br> Page 2 of Google is one of the most frustrating places a website can be. You are close enough to think it is working, but far enough that almost nobody finds you. Studies consistently show that less than one percent of searchers ever click to Page 2. So, for all ",
+      "title": "Indexing every WHERE column is not PostgreSQL optimization",
+      "link": "https://dev.to/bertrand_hartwig_309d1958/indexing-every-where-column-is-not-postgresql-optimization-3gj0",
+      "pubDate": "2026-05-11T15:20:15.000Z",
+      "description": "<p>One PostgreSQL indexing mistake I see often:</p> <p>“The query filters on A, B and C, so let’s create an index on A, B, C.”</p> <p>That may work, but it may also be the wrong index.</p> <p>For composite B-tree indexes, PostgreSQL cares about predicate type, column order, selectivity, table size, ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I Built a Free Typeform Alternative After Getting Laid Off",
-      "link": "https://dev.to/gitshot/collectform-a-free-typeform-alternative-1ej4",
-      "pubDate": "2026-05-11T09:42:30.000Z",
-      "description": "<p>A year of nights and weekends. Then a layoff. Then a sprint. Today I'm shipping.</p> <p>If you've ever tried to build a form with Typeform and hit the paywall the moment you got traction, this is for you.</p> <p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cg",
+      "title": "🔥 PostgreSQL vs SQLite – which one should you actually use for your web app or SaaS?",
+      "link": "https://dev.to/rabius-sunny/postgresql-vs-sqlite-which-one-should-you-actually-use-for-your-web-app-or-saas-i0",
+      "pubDate": "2026-05-11T15:17:50.000Z",
+      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fqe706t3ods68r08d1fz2.png\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/width=800%",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Life Lessons From Trading, Blockchain, and Late-Night Coding ☕💻",
-      "link": "https://dev.to/axiom61/life-lessons-from-trading-blockchain-and-late-night-coding-49ef",
-      "pubDate": "2026-05-11T09:39:06.000Z",
-      "description": "<p><em>“If life were a trading chart, I’d be both the bull and the bear, mostly crying in between.”</em></p> <p>I started my career thinking I was going to rule the markets. I set up five monitors, installed every crypto tracker known to mankind, and convinced myself that a combination of caffeine a",
+      "title": "Model Showdown Round 4: Opus vs Qwen — Writers, Not Coders",
+      "link": "https://dev.to/carryologist/model-showdown-round-4-opus-vs-qwen-writers-not-coders-3b0o",
+      "pubDate": "2026-05-11T15:17:29.000Z",
+      "description": "<p>Two models. Same prompt. Same five fodder files. Same 27 published posts to check for redundancy. Same writing style guide.</p> <p>One chose the Dev.to syndication saga. The other chose the tag taxonomy overhaul. There was zero overlap in fodder selection, topic, or angle.</p> <p>This is the stor",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "What to do when websites change and your spider doesn't know",
-      "link": "https://dev.to/extractdata/what-to-do-when-websites-change-and-your-spider-doesnt-know-12n9",
-      "pubDate": "2026-05-11T09:37:11.000Z",
-      "description": "<p>Empty-field-rate monitoring catches selectors that return nothing. It does not catch selectors that return something wrong. The most damaging form of schema drift is the kind where a selector keeps producing values, the values are syntactically reasonable, and they are no longer the values you wa",
+      "title": "Cloud Barata e Potente: Meu Guia de Bolso para Devs e Startups",
+      "link": "https://dev.to/kabrau/cloud-barata-e-potente-meu-guia-de-bolso-para-devs-e-startups-32f4",
+      "pubDate": "2026-05-11T15:11:00.000Z",
+      "description": "<p>Gurizada, vou ser direto: cansei de ver projeto bom morrer na praia porque o custo da infraestrutura virou um monstro de sete cabeças. Como CTO, lido dia a dia com GCP e Oracle Cloud para a Acertpix, onde a demanda por redundância e escala global é insana. Mas, sinceramente, para a maioria dos de",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I've Been Paying for AI APIs, Turns Out I Didn't Have To",
-      "link": "https://dev.to/kathan555/ive-been-paying-for-ai-apis-turns-out-i-didnt-have-to-52hd",
-      "pubDate": "2026-05-11T09:36:23.000Z",
-      "description": "<p>Every developer knows this moment.</p> <p>You have a feature idea. Something genuinely useful AI-generated descriptions, smart categorisation, a natural language search. You open the OpenAI docs, get to the billing page, and quietly close the tab.</p> <p><strong>It happens more than anyone admits",
+      "title": "GarlicStamp: an open identity protocol for AI agents",
+      "link": "https://dev.to/hellohazl/garlicstamp-an-open-identity-protocol-for-ai-agents-16ca",
+      "pubDate": "2026-05-11T15:05:34.000Z",
+      "description": "<p>If you've spent any time wiring AI agents into real systems — picking up tickets, executing trades, managing infrastructure, talking to APIs that cost real money — you've already run into the question nobody is answering well:</p> <p><strong>How do you trust an agent you didn't build?</strong></p",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "OWASP Top 10 for LLMs: A Practitioner’s Implementation Guide",
-      "link": "https://dev.to/improving/owasp-top-10-for-llms-a-practitioners-implementation-guide-4ec8",
-      "pubDate": "2026-05-11T09:35:40.000Z",
-      "description": "<p>Large Language Models (LLMs) are becoming a core part of modern applications — from copilots and chatbots to AI agents connected to tools and internal systems. As adoption grows, so do the security risks.</p> <p>The <a href=\"https://owasp.org/www-project-top-10-for-large-language-model-applicatio",
+      "title": "LSM Trees: Why Your Database Writes Are Fast and Your Reads Are Lying to You",
+      "link": "https://dev.to/ericwoooo_kr/lsm-trees-why-your-database-writes-are-fast-and-your-reads-are-lying-to-you-55nb",
+      "pubDate": "2026-05-11T15:05:17.000Z",
+      "description": "<blockquote> <p><strong>TL;DR:</strong> The thing that broke my comfortable ignorance about storage engines was a pipeline ingesting sensor telemetry — about 50,000 inserts per second into a PostgreSQL 15 cluster. The hardware wasn't cheap: NVMe drives, 32 cores, 128GB RAM.</p> </blockquote> <p><em>",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "Software engineering may no longer be a lifetime career",
+      "link": "https://www.seangoedecke.com/software-engineering-may-no-longer-be-a-lifetime-career/",
+      "pubDate": "2026-05-11T14:34:08.000Z",
+      "description": "Article URL: https://www.seangoedecke.com/software-engineering-may-no-longer-be-a-lifetime-career/ Comments URL: https://news.ycombinator.com/item?id=48095550 Points: 45 # Comments: 38",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Killed by Apple",
+      "link": "https://killedbyapple.theden.sh/",
+      "pubDate": "2026-05-11T14:28:44.000Z",
+      "description": "Article URL: https://killedbyapple.theden.sh/ Comments URL: https://news.ycombinator.com/item?id=48095468 Points: 87 # Comments: 78",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Why Keyboard Users Can&#8217;t Scroll Your Overflow Containers",
+      "link": "https://css-tricks.com/why-keyboard-users-cant-scroll-your-overflow-containers/",
+      "pubDate": "2026-05-11T13:42:35.000Z",
+      "description": "When a keyboard user Tabs into the table, its focus lands on a cell. Then they press the arrow keys to read across the row but nothing happens. Your screen reader users never noticed because they navigate the accessibility tree, not the scroll container. Why Keyboard Users Can’t Scroll Your Overflow",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "The OpenAI Deployment Company",
+      "link": "https://openai.com/index/openai-launches-the-deployment-company/",
+      "pubDate": "2026-05-11T13:10:55.000Z",
+      "description": "Article URL: https://openai.com/index/openai-launches-the-deployment-company/ Comments URL: https://news.ycombinator.com/item?id=48094531 Points: 19 # Comments: 12",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Create a 90s GeoCities style website in seconds (Python)",
+      "link": "https://pypi.org/project/create-geocities-app/",
+      "pubDate": "2026-05-11T13:10:25.000Z",
+      "description": "Article URL: https://pypi.org/project/create-geocities-app/ Comments URL: https://news.ycombinator.com/item?id=48094521 Points: 9 # Comments: 2",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "European Money Pours into Palantir",
+      "link": "https://english.elpais.com/economy-and-business/branded/2026-04-11/european-money-pours-into-palantir-over-100-asset-managers-and-banks-boost-their-investments-in-the-controversial-tech-company.html",
+      "pubDate": "2026-05-11T11:27:08.000Z",
+      "description": "Article URL: https://english.elpais.com/economy-and-business/branded/2026-04-11/european-money-pours-into-palantir-over-100-asset-managers-and-banks-boost-their-investments-in-the-controversial-tech-company.html Comments URL: https://news.ycombinator.com/item?id=48093626 Points: 65 # Comments: 9",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Ratty – A terminal emulator with inline 3D graphics",
+      "link": "https://ratty-term.org/",
+      "pubDate": "2026-05-11T10:13:04.000Z",
+      "description": "Article URL: https://ratty-term.org/ Comments URL: https://news.ycombinator.com/item?id=48093100 Points: 360 # Comments: 119",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "All Those A.I. Note Takers? They're Making Lawyers Nervous",
+      "link": "https://www.nytimes.com/2026/05/09/business/dealbook/ai-notetakers-legal-risk.html",
+      "pubDate": "2026-05-11T10:04:47.000Z",
+      "description": "Article URL: https://www.nytimes.com/2026/05/09/business/dealbook/ai-notetakers-legal-risk.html Comments URL: https://news.ycombinator.com/item?id=48093043 Points: 113 # Comments: 83",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "The Adventure Family Tree",
+      "link": "https://mipmip.org/advfamily/advfamily.html",
+      "pubDate": "2026-05-11T08:16:32.000Z",
+      "description": "Article URL: https://mipmip.org/advfamily/advfamily.html Comments URL: https://news.ycombinator.com/item?id=48092367 Points: 33 # Comments: 2",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Gmail registration now requires scanning a QR code and sending a text message",
+      "link": "https://discuss.privacyguides.net/t/google-account-registration-now-requires-sending-an-sms-via-phone-instead-of-receiving-an-sms/36082",
+      "pubDate": "2026-05-11T07:26:54.000Z",
+      "description": "Article URL: https://discuss.privacyguides.net/t/google-account-registration-now-requires-sending-an-sms-via-phone-instead-of-receiving-an-sms/36082 Comments URL: https://news.ycombinator.com/item?id=48092028 Points: 203 # Comments: 92",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "Mythos Finds a Curl Vulnerability",
       "link": "https://daniel.haxx.se/blog/2026/05/11/mythos-finds-a-curl-vulnerability/",
       "pubDate": "2026-05-11T06:39:08.000Z",
-      "description": "Article URL: https://daniel.haxx.se/blog/2026/05/11/mythos-finds-a-curl-vulnerability/ Comments URL: https://news.ycombinator.com/item?id=48091737 Points: 137 # Comments: 53",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "7 lines of code, 3 minutes: Implement a programming language (2010)",
-      "link": "https://matt.might.net/articles/implementing-a-programming-language/",
-      "pubDate": "2026-05-11T04:34:40.000Z",
-      "description": "Article URL: https://matt.might.net/articles/implementing-a-programming-language/ Comments URL: https://news.ycombinator.com/item?id=48091085 Points: 49 # Comments: 11",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "The greatest shot in television: James Burke had one chance to nail this scene (2024)",
-      "link": "https://www.openculture.com/2024/10/the-greatest-shot-in-television.html",
-      "pubDate": "2026-05-11T02:43:34.000Z",
-      "description": "Article URL: https://www.openculture.com/2024/10/the-greatest-shot-in-television.html Comments URL: https://news.ycombinator.com/item?id=48090521 Points: 170 # Comments: 67",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Show HN: adamsreview – better multi-agent PR reviews for Claude Code",
-      "link": "https://github.com/adamjgmiller/adamsreview",
-      "pubDate": "2026-05-11T02:06:29.000Z",
-      "description": "I built adamsreview, a Claude Code plugin that runs deeper, multi-stage PR reviews using parallel sub-agents, validation passes, persistent JSON state, and optional ensemble review via Codex CLI and PR bot comments.On my own PRs, it has been catching dramatically more real bugs than Claude’s built-i",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "I'm going back to writing code by hand",
-      "link": "https://blog.k10s.dev/im-going-back-to-writing-code-by-hand/",
-      "pubDate": "2026-05-11T01:23:51.000Z",
-      "description": "Article URL: https://blog.k10s.dev/im-going-back-to-writing-code-by-hand/ Comments URL: https://news.ycombinator.com/item?id=48090029 Points: 356 # Comments: 163",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "An AI coding agent, used to write code, needs to reduce your maintenance costs",
-      "link": "https://www.jamesshore.com/v2/blog/2026/you-need-ai-that-reduces-your-maintenance-costs",
-      "pubDate": "2026-05-10T23:39:55.000Z",
-      "description": "Article URL: https://www.jamesshore.com/v2/blog/2026/you-need-ai-that-reduces-your-maintenance-costs Comments URL: https://news.ycombinator.com/item?id=48089289 Points: 163 # Comments: 40",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Running local models on an M4 with 24GB memory",
-      "link": "https://jola.dev/posts/running-local-models-on-m4",
-      "pubDate": "2026-05-10T23:09:10.000Z",
-      "description": "Article URL: https://jola.dev/posts/running-local-models-on-m4 Comments URL: https://news.ycombinator.com/item?id=48089091 Points: 310 # Comments: 94",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "How Fast Does Claude, Acting as a User Space IP Stack, Respond to Pings?",
-      "link": "https://dunkels.com/adam/claude-user-space-ip-stack-ping/",
-      "pubDate": "2026-05-10T23:02:31.000Z",
-      "description": "Article URL: https://dunkels.com/adam/claude-user-space-ip-stack-ping/ Comments URL: https://news.ycombinator.com/item?id=48089049 Points: 76 # Comments: 23",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Obsidian plugin was abused to deploy a remote access trojan",
-      "link": "https://cyber.netsecops.io/articles/obsidian-plugin-abused-in-campaign-to-deploy-phantom-pulse-rat/",
-      "pubDate": "2026-05-10T22:02:43.000Z",
-      "description": "Article URL: https://cyber.netsecops.io/articles/obsidian-plugin-abused-in-campaign-to-deploy-phantom-pulse-rat/ Comments URL: https://news.ycombinator.com/item?id=48088576 Points: 210 # Comments: 108",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Maryland citizens hit with $2B power grid upgrade for out-of-state AI",
-      "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/maryland-citizens-slapped-with-usd2-billion-grid-upgrade-bill-for-out-of-state-ai-data-centers-state-complains-to-federal-energy-regulators-says-additional-cost-breaks-ratepayer-protection-pledge-promises",
-      "pubDate": "2026-05-10T21:16:58.000Z",
-      "description": "Article URL: https://www.tomshardware.com/tech-industry/artificial-intelligence/maryland-citizens-slapped-with-usd2-billion-grid-upgrade-bill-for-out-of-state-ai-data-centers-state-complains-to-federal-energy-regulators-says-additional-cost-breaks-ratepayer-protection-pledge-promises Comments URL: h",
+      "description": "Article URL: https://daniel.haxx.se/blog/2026/05/11/mythos-finds-a-curl-vulnerability/ Comments URL: https://news.ycombinator.com/item?id=48091737 Points: 413 # Comments: 178",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -233,14 +241,6 @@
       "link": "https://css-tricks.com/almanac/functions/c/contrast-color/",
       "pubDate": "2026-04-29T14:57:48.000Z",
       "description": "The contrast-color() function takes a <color> and returns either black or white, whichever is the most contrasting color for that value. contrast-color() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Let’s Use the Nonexistent ::nth-letter Selector Now",
-      "link": "https://css-tricks.com/using-nonexistent-nth-letter-selector-now/",
-      "pubDate": "2026-04-27T13:55:42.000Z",
-      "description": "My shim might give the powers that be another reason to say native support isn't necessary, or if lots of people use my :nth-letter hack in the wild, the browser gods might recognize the need to implement it for real. Let’s Use the Nonexistent ::nth-letter Selector Now originally handwritten and pub",
       "source": "CSS Tricks",
       "category": "Frontend"
     },
