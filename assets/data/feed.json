@@ -1,166 +1,166 @@
 {
-  "generatedAt": "2026-05-10T19:34:20.899Z",
+  "generatedAt": "2026-05-11T04:37:18.016Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "I built a custom Codex-powered code review bot for GitLab",
-      "link": "https://dev.to/sleeyax/i-built-a-custom-codex-powered-code-review-bot-for-gitlab-5eap",
-      "pubDate": "2026-05-10T19:21:10.000Z",
-      "description": "<p>A merge-request review by <a href=\"https://docs.gitlab.com/user/gitlab_duo/code_review/\" rel=\"noopener noreferrer\">GitLab Duo Code Review</a> costs us about $0.20. We're a small team of developers, so $1 for ~5 MR reviews gets expensive quickly.</p> <p>We had a ChatGPT subscription on the team bu",
+      "title": "The 5 Principles Behind Agent-Native Software Architecture",
+      "link": "https://dev.to/clawgear/the-5-principles-behind-agent-native-software-architecture-5d0e",
+      "pubDate": "2026-05-11T04:20:50.000Z",
+      "description": "<p>Most AI applications are chatbots wearing a thin veneer of features. The agent is an afterthought — a chat interface bolted onto existing code. Users ask it to do things. It apologizes and explains what it can't do.</p> <p>Agent-native architecture inverts that entirely.</p> <p>In an agent-native",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "PRD Intelligence: Turn Your Product Ideas into Strategic Reports",
-      "link": "https://dev.to/ihssmaheel/prd-intelligence-turn-your-product-ideas-into-strategic-reports-3l1",
-      "pubDate": "2026-05-10T19:10:44.000Z",
-      "description": "<h3> What is PRD Intelligence? </h3> <p>PRD Intelligence is a tool that helps product teams analyze their ideas quickly. Just paste your Product Requirements Document (PRD) and get a complete analysis in minutes.</p> <h4> How it Works </h4> <ol> <li>You write down your product idea</li> <li>The tool",
+      "title": "The itgps-agent: Bringing Studio-Managed Configs to Your Local Workflow",
+      "link": "https://dev.to/prakashm88/the-itgps-agent-bringing-studio-managed-configs-to-your-local-workflow-fhl",
+      "pubDate": "2026-05-11T04:14:20.000Z",
+      "description": "<h1> The itgps-agent: Bringing Studio-Managed Configs to Your Local Workflow </h1> <p>In <a href=\"https://dev.tolink-to-part-1\">Part 1</a> and <a href=\"https://dev.tolink-to-part-2\">Part 2</a>, we explored ITG Playwright Studio's web interface for managing tests. But what if you're a developer who p",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Feature Based Clean Architecture. Part 1: How a NestJS Application Evolves Into an Unmaintainable State",
-      "link": "https://dev.to/pendulum/feature-based-clean-architecture-part-1-how-a-nestjs-application-evolves-into-an-unmaintainable-8bd",
-      "pubDate": "2026-05-10T19:04:54.000Z",
-      "description": "<blockquote> <p>An architectural doctrine for NestJS projects: a breakdown of typical codebase degradation scenarios and the structural constraints that keep them from emerging as the feature set grows.</p> </blockquote> <p>This article is a breakdown of how a typical NestJS backend degrades as the ",
+      "title": "A Visual Tour of ITG Playwright Studio: Managing Tests Through a Web Interface",
+      "link": "https://dev.to/prakashm88/a-visual-tour-of-itg-playwright-studio-managing-tests-through-a-web-interface-3ahp",
+      "pubDate": "2026-05-11T04:13:42.000Z",
+      "description": "<h1> A Visual Tour of ITG Playwright Studio </h1> <p>In <a href=\"https://dev.tolink-to-part-1\">Part 1</a>, we discussed why managing Playwright tests at scale is challenging and introduced ITG Playwright Studio as a solution. Now let's take a detailed tour of the interface and see how it actually wo",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Client-Side Price Manipulation: Pay Whatever You Want at Checkout",
-      "link": "https://dev.to/oopssec-store/client-side-price-manipulation-pay-whatever-you-want-at-checkout-2g6a",
-      "pubDate": "2026-05-10T19:00:00.000Z",
-      "description": "<blockquote> <p>Exploiting a server-side validation failure in <a href=\"https://github.com/kOaDT/oss-oopssec-store\" rel=\"noopener noreferrer\">OopsSec Store</a>'s checkout process to purchase products at arbitrary prices.</p> </blockquote> <p><a href=\"https://github.com/kOaDT/oss-oopssec-store\" rel=\"",
+      "title": "Playwright is Powerful, But Managing It at Scale? That's Another Story",
+      "link": "https://dev.to/prakashm88/playwright-is-powerful-but-managing-it-at-scale-thats-another-story-2g37",
+      "pubDate": "2026-05-11T04:12:45.000Z",
+      "description": "<h2> Playwright is Powerful, But Managing It at Scale? That's Another Story </h2> <p>If you've worked with Playwright, you know it's an incredible tool for end-to-end testing. The API is clean, the cross-browser support is solid, and the developer experience is generally great. But here's the thing:",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How I Built a Perceptual Color Quantization Engine for LEGO Mosaics",
-      "link": "https://dev.to/bmbrick/how-i-built-a-perceptual-color-quantization-engine-for-lego-mosaics-4lkm",
-      "pubDate": "2026-05-10T18:48:16.000Z",
-      "description": "<h2> The Problem </h2> <p>Converting a photo into a LEGO mosaic sounds simple: resize the image, find the closest LEGO color for each pixel, done.</p> <p>Except it looks terrible. Skin tones turn green. Hair becomes a muddy blob. The algorithm picks colors that are mathematically close in RGB but pe",
+      "title": "Building an MCP server — lessons from thunderbit-mcp",
+      "link": "https://dev.to/ethan_thunderbit/building-an-mcp-server-lessons-from-thunderbit-mcp-opf",
+      "pubDate": "2026-05-11T04:05:23.000Z",
+      "description": "<p>When we started building <a href=\"https://thunderbit.com/mcp\" rel=\"noopener noreferrer\">thunderbit-mcp</a>, the plan sounded straightforward: expose Thunderbit's web extraction API to AI coding agents through the Model Context Protocol.</p> <p>In practice, the hard parts were not the SDK calls. T",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Your AWS bill is lying to you — it shows services, not features",
-      "link": "https://dev.to/arpitstack/your-aws-bill-is-lying-to-you-it-shows-services-not-features-5817",
-      "pubDate": "2026-05-10T18:47:55.000Z",
-      "description": "<p>Our AWS bill crossed $180K in a single month.</p> <p>We had Datadog. We had CloudWatch dashboards. We had a PagerDuty integration, three runbooks, and a Grafana board that took an intern two weeks to build. We had <em>observability</em>.</p> <p>What we didn't have — what I didn't realize we were ",
+      "title": "Four Pillars, One Platform: How Cybrium Unifies Code, Cloud, AI, and GRC",
+      "link": "https://dev.to/grumpysage/four-pillars-one-platform-how-cybrium-unifies-code-cloud-ai-and-grc-jff",
+      "pubDate": "2026-05-11T04:05:22.000Z",
+      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F31vdp0w0pjq4vrlerzly.png\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/width=800%",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Software Design Patterns",
-      "link": "https://dev.to/kashafabdullah/software-design-patterns-558a",
-      "pubDate": "2026-05-10T18:30:37.000Z",
-      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fr446incofkkbym2obspk.png\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/width=800%",
+      "title": "67. DBSCAN: Clustering That Handles Messy Data",
+      "link": "https://dev.to/yakhilesh/67-dbscan-clustering-that-handles-messy-data-5he7",
+      "pubDate": "2026-05-11T03:55:47.000Z",
+      "description": "<p>Last post K-Means failed on crescent-shaped data. It cut across the natural curves instead of following them. You also had to tell it K upfront. And one outlier could drag a centroid completely off course.</p> <p>DBSCAN fixes all three problems.</p> <p>It finds clusters based on density, not dist",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I Built a Chrome Extension to Sync AI Studio System Instructions. Here's Why chrome.storage.sync Couldn't Do It",
-      "link": "https://dev.to/codewithahsan/i-built-a-chrome-extension-to-sync-ai-studio-system-instructions-heres-why-chromestoragesync-2llm",
-      "pubDate": "2026-05-10T18:28:13.000Z",
-      "description": "<p><em>This is a submission for the <a href=\"https://dev.to/challenges/google-gemma-2026-05-06\">Gemma 4 Challenge: Write About Gemma 4</a></em></p> <p>I use Google AI Studio on three machines — laptop, desktop, and occasionally a work machine. Lately that's meant a lot of time with Gemma 4: testing ",
+      "title": "OpenCode Integration Practice: Architectural Evolution from Standalone Process to Shared Runtime",
+      "link": "https://dev.to/newbe36524/opencode-integration-practice-architectural-evolution-from-standalone-process-to-shared-runtime-3mj0",
+      "pubDate": "2026-05-11T03:54:48.000Z",
+      "description": "<h1> OpenCode Integration Practice: Architectural Evolution from Standalone Process to Shared Runtime </h1> <blockquote> <p>This article shares the complete practice of HagiCode integrating the OpenCode AI assistant, including key design decisions during the architectural evolution process, pitfalls",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How Python Powers Real-World Data Analytics",
-      "link": "https://dev.to/adev3loper/how-python-powers-real-world-data-analytics-3m6m",
-      "pubDate": "2026-05-10T18:27:29.000Z",
-      "description": "<h2> Python Isn't a Trend. It's the Standard. </h2> <p>If you work with data in any capacity, whether wrangling CSVs for a monthly report or building production dashboards for executive stakeholders, you will eventually encounter Python. Not as an option. As the default.</p> <p>A decade ago, data an",
+      "title": "Created a agent friendly API directory \nhttps://findapi.dev/",
+      "link": "https://dev.to/sobchakkk/created-a-agent-friendly-api-directory-httpsfindapidev-4e7o",
+      "pubDate": "2026-05-11T03:46:07.000Z",
+      "description": "<div class=\"crayons-card c-embed text-styles text-styles--secondary\"> <div class=\"c-embed__content\"> <div class=\"c-embed__cover\"> <a href=\"https://www.findapi.dev/\" class=\"c-link align-middle\" rel=\"noopener noreferrer\"> <img alt=\"\" src=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=s",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I built 14 VS Code extensions to fix the workflows developers quietly suffer through",
-      "link": "https://dev.to/imatulsrivas/i-built-14-vs-code-extensions-to-fix-the-workflows-developers-quietly-suffer-through-pba",
-      "pubDate": "2026-05-10T18:24:02.000Z",
-      "description": "<p>Every developer I know has the same quiet frustrations.</p> <p>Leaked API keys that slipped past .gitignore. VS Code that got slow somewhere between extension 15 and 20. Architecture nobody fully understands anymore. Regex tested in a browser tab, then pasted back. Focus sessions interrupted by a",
+      "title": "What Does \"Building in Public\" Actually Mean in 2026?",
+      "link": "https://dev.to/udit_kapoor/what-does-building-in-public-actually-mean-in-2026-31oe",
+      "pubDate": "2026-05-11T03:45:00.000Z",
+      "description": "<p>If you've spent any time on developer Twitter, you've seen it.</p> <p>Founders posting their MRR. Sharing what broke this week. Documenting every step of building their product in real time.</p> <p>But what does building in public actually mean? And is it worth doing?</p> <p>This is the honest br",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "The Greatest Shot in Television: James Burke Had One Chance to Nail This Scene",
+      "link": "https://www.openculture.com/2024/10/the-greatest-shot-in-television.html",
+      "pubDate": "2026-05-11T02:43:34.000Z",
+      "description": "Article URL: https://www.openculture.com/2024/10/the-greatest-shot-in-television.html Comments URL: https://news.ycombinator.com/item?id=48090521 Points: 41 # Comments: 14",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "BSides Austin Is on Hold",
+      "link": "https://bsidesaustin.com/",
+      "pubDate": "2026-05-11T02:18:35.000Z",
+      "description": "Article URL: https://bsidesaustin.com/ Comments URL: https://news.ycombinator.com/item?id=48090349 Points: 5 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "I'm going back to writing code by hand",
+      "link": "https://blog.k10s.dev/im-going-back-to-writing-code-by-hand/",
+      "pubDate": "2026-05-11T01:23:51.000Z",
+      "description": "Article URL: https://blog.k10s.dev/im-going-back-to-writing-code-by-hand/ Comments URL: https://news.ycombinator.com/item?id=48090029 Points: 140 # Comments: 56",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "An AI coding agent, used to write code, needs to reduce your maintenance costs",
+      "link": "https://www.jamesshore.com/v2/blog/2026/you-need-ai-that-reduces-your-maintenance-costs",
+      "pubDate": "2026-05-10T23:39:55.000Z",
+      "description": "Article URL: https://www.jamesshore.com/v2/blog/2026/you-need-ai-that-reduces-your-maintenance-costs Comments URL: https://news.ycombinator.com/item?id=48089289 Points: 73 # Comments: 12",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "PS3 Emulator Devs Politely Ask That People Stop Flooding It with AI PRs",
+      "link": "https://kotaku.com/playstation-3-emulator-devs-politely-ask-that-people-stop-flooding-it-with-ai-code-pull-requests-2000694656",
+      "pubDate": "2026-05-10T23:36:48.000Z",
+      "description": "Article URL: https://kotaku.com/playstation-3-emulator-devs-politely-ask-that-people-stop-flooding-it-with-ai-code-pull-requests-2000694656 Comments URL: https://news.ycombinator.com/item?id=48089263 Points: 116 # Comments: 76",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Running local models on an M4 with 24GB memory",
+      "link": "https://jola.dev/posts/running-local-models-on-m4",
+      "pubDate": "2026-05-10T23:09:10.000Z",
+      "description": "Article URL: https://jola.dev/posts/running-local-models-on-m4 Comments URL: https://news.ycombinator.com/item?id=48089091 Points: 175 # Comments: 65",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "How Fast Does Claude, Acting as a User Space IP Stack, Respond to Pings?",
+      "link": "https://dunkels.com/adam/claude-user-space-ip-stack-ping/",
+      "pubDate": "2026-05-10T23:02:31.000Z",
+      "description": "Article URL: https://dunkels.com/adam/claude-user-space-ip-stack-ping/ Comments URL: https://news.ycombinator.com/item?id=48089049 Points: 25 # Comments: 4",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Obsidian plugin was abused to deploy a remote access trojan",
+      "link": "https://cyber.netsecops.io/articles/obsidian-plugin-abused-in-campaign-to-deploy-phantom-pulse-rat/",
+      "pubDate": "2026-05-10T22:02:43.000Z",
+      "description": "Article URL: https://cyber.netsecops.io/articles/obsidian-plugin-abused-in-campaign-to-deploy-phantom-pulse-rat/ Comments URL: https://news.ycombinator.com/item?id=48088576 Points: 116 # Comments: 64",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Maryland citizens hit with $2B power grid upgrade for out-of-state AI",
+      "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/maryland-citizens-slapped-with-usd2-billion-grid-upgrade-bill-for-out-of-state-ai-data-centers-state-complains-to-federal-energy-regulators-says-additional-cost-breaks-ratepayer-protection-pledge-promises",
+      "pubDate": "2026-05-10T21:16:58.000Z",
+      "description": "Article URL: https://www.tomshardware.com/tech-industry/artificial-intelligence/maryland-citizens-slapped-with-usd2-billion-grid-upgrade-bill-for-out-of-state-ai-data-centers-state-complains-to-federal-energy-regulators-says-additional-cost-breaks-ratepayer-protection-pledge-promises Comments URL: h",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "Hardware Attestation as Monopoly Enabler",
       "link": "https://grapheneos.social/@GrapheneOS/116550899908879585",
       "pubDate": "2026-05-10T17:54:02.000Z",
-      "description": "Article URL: https://grapheneos.social/@GrapheneOS/116550899908879585 Comments URL: https://news.ycombinator.com/item?id=48086190 Points: 286 # Comments: 79",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Incident Report: CVE-2024-YIKES",
-      "link": "https://nesbitt.io/2026/02/03/incident-report-cve-2024-yikes.html",
-      "pubDate": "2026-05-10T17:43:10.000Z",
-      "description": "Article URL: https://nesbitt.io/2026/02/03/incident-report-cve-2024-yikes.html Comments URL: https://news.ycombinator.com/item?id=48086082 Points: 129 # Comments: 29",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Traces Of Humanity",
-      "link": "https://tracesofhumanity.org/hello-world/",
-      "pubDate": "2026-05-10T17:15:10.000Z",
-      "description": "Article URL: https://tracesofhumanity.org/hello-world/ Comments URL: https://news.ycombinator.com/item?id=48085782 Points: 66 # Comments: 10",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Spain became one of Europe’s cheapest power markets",
-      "link": "https://janrosenow.substack.com/p/spain-just-became-one-of-europes",
-      "pubDate": "2026-05-10T16:31:51.000Z",
-      "description": "Article URL: https://janrosenow.substack.com/p/spain-just-became-one-of-europes Comments URL: https://news.ycombinator.com/item?id=48085330 Points: 65 # Comments: 43",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "GitHub is sinking",
-      "link": "https://dbushell.com/2026/04/29/github-is-sinking/",
-      "pubDate": "2026-05-10T16:07:26.000Z",
-      "description": "Article URL: https://dbushell.com/2026/04/29/github-is-sinking/ Comments URL: https://news.ycombinator.com/item?id=48085095 Points: 126 # Comments: 77",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "The Locals Don't Know",
-      "link": "https://www.quarter--mile.com/The-Locals-Dont-Know",
-      "pubDate": "2026-05-10T16:03:37.000Z",
-      "description": "Article URL: https://www.quarter--mile.com/The-Locals-Dont-Know Comments URL: https://news.ycombinator.com/item?id=48085055 Points: 34 # Comments: 23",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Chrome's AI features may be hogging 4GB of your computer storage",
-      "link": "https://www.theverge.com/tech/924933/google-chrome-4gb-gemini-nano-ai-features",
-      "pubDate": "2026-05-10T15:22:46.000Z",
-      "description": "Article URL: https://www.theverge.com/tech/924933/google-chrome-4gb-gemini-nano-ai-features Comments URL: https://news.ycombinator.com/item?id=48084710 Points: 59 # Comments: 30",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Shunting-Yard Animation",
-      "link": "https://somethingorotherwhatever.com/shunting-yard-animation/",
-      "pubDate": "2026-05-10T15:00:40.000Z",
-      "description": "Article URL: https://somethingorotherwhatever.com/shunting-yard-animation/ Comments URL: https://news.ycombinator.com/item?id=48084547 Points: 29 # Comments: 11",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Louis Rossmann offers to pay legal fees for a threatened OrcaSlicer developer",
-      "link": "https://www.tomshardware.com/3d-printing/louis-rossmann-tells-3d-printer-maker-bambu-lab-to-go-bleep-yourself-over-its-lawsuit-against-enthusiast-right-to-repair-advocate-offers-to-pay-the-legal-fees-for-a-threatened-orcaslicer-developer",
-      "pubDate": "2026-05-10T14:47:05.000Z",
-      "description": "Article URL: https://www.tomshardware.com/3d-printing/louis-rossmann-tells-3d-printer-maker-bambu-lab-to-go-bleep-yourself-over-its-lawsuit-against-enthusiast-right-to-repair-advocate-offers-to-pay-the-legal-fees-for-a-threatened-orcaslicer-developer Comments URL: https://news.ycombinator.com/item?i",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Academic Research Skills for Claude Code",
-      "link": "https://github.com/Imbad0202/academic-research-skills",
-      "pubDate": "2026-05-10T13:42:00.000Z",
-      "description": "Article URL: https://github.com/Imbad0202/academic-research-skills Comments URL: https://news.ycombinator.com/item?id=48083919 Points: 63 # Comments: 21",
+      "description": "Article URL: https://grapheneos.social/@GrapheneOS/116550899908879585 Comments URL: https://news.ycombinator.com/item?id=48086190 Points: 1070 # Comments: 373",
       "source": "Hacker News",
       "category": "Tech News"
     },
