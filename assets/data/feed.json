@@ -1,166 +1,174 @@
 {
-  "generatedAt": "2026-05-12T09:13:05.217Z",
+  "generatedAt": "2026-05-12T14:51:12.979Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "How I Architected a Multi-Agent System for Customer Support (And What I'd Do Differently)",
-      "link": "https://dev.to/whilewon/how-i-architected-a-multi-agent-system-for-customer-support-and-what-id-do-differently-1o50",
-      "pubDate": "2026-05-12T09:10:59.000Z",
-      "description": "<p>Six months ago, I built a multi-agent customer support system that handles 10,000+ conversations daily. It reduced response time from 4 hours to under 2 minutes. It now resolves 73% of tickets without human intervention.</p> <p>But here's what the case study won't tell you: it almost failed spect",
+      "title": "TP VPN",
+      "link": "https://dev.to/keci/tp-vpn-8ja",
+      "pubDate": "2026-05-12T14:44:52.000Z",
+      "description": "<h2> <strong>OpenVPN</strong> VS <strong>Wireguard</strong> </h2> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight plaintext\"><code> M1 Computer &amp; Network Systems Écrit par KOKPATA Eudes Encadré par Mehdi DENOU 2025-2026 </code></pre> </div> <h2> Table des matières </h2> <ul> <li>",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Self Introduction - The beginning",
-      "link": "https://dev.to/kabelo_dibakoane/self-introduction-the-beginning-5dp5",
-      "pubDate": "2026-05-12T09:04:04.000Z",
-      "description": "<p>After a long time hesitating, I’ve finally decided to start learning programming from scratch — and this time, I’m going all in.</p> <p>Like many others, I’ve spent months exploring programming, watching tutorials, reading articles, and lurking on dev forums — but never built anything.</p> <p>Tha",
+      "title": "SLA vs SLO vs SLI: what's the difference and why it matters",
+      "link": "https://dev.to/gatling/sla-vs-slo-vs-sli-whats-the-difference-and-why-it-matters-1k74",
+      "pubDate": "2026-05-12T14:44:33.000Z",
+      "description": "<p>Most engineering teams know they should care about reliability. But when it comes to defining what \"reliable\" actually means, things get fuzzy fast.</p> <p><a href=\"https://www.xurrent.com/blog/understanding-sla-slo-and-sli\" rel=\"noopener noreferrer\">According to a 2023 report by Xurrent</a>, 74%",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I Tested Nano Banana AI for a Week. Honestly, I Didn’t Expect It to Be This Good",
-      "link": "https://dev.to/josephdillon/i-tested-nano-banana-ai-for-a-week-honestly-i-didnt-expect-it-to-be-this-good-182k",
-      "pubDate": "2026-05-12T09:04:02.000Z",
-      "description": "<p>I’ve tested a lot of AI image tools over the past year. Some looked impressive for a few minutes, then became frustrating once you tried using them in a real workflow. Others generated pretty images but failed badly at consistency, editing, or speed.</p> <p>So when I saw people talking about Nano",
+      "title": "Building Safe LangChain Agents with Scope Verification",
+      "link": "https://dev.to/claude_rodriguez_de4ee02e/building-safe-langchain-agents-with-scope-verification-4odo",
+      "pubDate": "2026-05-12T14:42:35.000Z",
+      "description": "<p>LangChain is great at building agents that <em>act</em>. Search the web. Write files. Send emails. Call APIs. The framework handles orchestration beautifully.</p> <p>What it doesn't handle: <strong>authorization</strong>.</p> <p>Your agent might be able to send an email, delete a file, and call a",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I built a fantasy name generator with real etymology using Next.js and linguistic databases",
-      "link": "https://dev.to/lyyluca/i-built-a-fantasy-name-generator-with-real-etymology-using-nextjs-and-linguistic-databases-1k4p",
-      "pubDate": "2026-05-12T09:01:32.000Z",
-      "description": "<p>Most fantasy name generators are just random syllable mashups. I wanted something smarter — a generator that produces names with actual linguistic roots and cultural context.</p> <h2> The Tech Stack </h2> <p>I built LoreNamer using Next.js 14 with TypeScript. The core challenge was structuring et",
+      "title": "Build a Medical Chart Coding Pipeline with Daimon, Claude, and Neo4j",
+      "link": "https://dev.to/sonicboom15/build-a-medical-chart-coding-pipeline-with-daimon-claude-and-neo4j-51ba",
+      "pubDate": "2026-05-12T14:42:30.000Z",
+      "description": "<p>Adding an LLM to your application usually means writing the same infrastructure over and over: define JSON schemas for each tool, dispatch tool calls, drive the agentic loop, wire up a vector store, manage embedding calls, handle session state. Before you know it the actual feature is buried unde",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Docker Volume Backup Strategies on My Own VPS",
-      "link": "https://dev.to/merbayerp/docker-volume-backup-strategies-on-my-own-vps-2n3m",
-      "pubDate": "2026-05-12T09:01:20.000Z",
-      "description": "<h2> Introduction: Docker Volume Backup Became Serious When My Redis Data Vanished </h2> <p>Last month, when a Redis container running on my own VPS suddenly crashed, all my data evaporated. The incident happened on April 28th, around 4:00 AM. It was just a simple test environment, but still annoyin",
+      "title": "Why your Supabase mutations lie about their errors",
+      "link": "https://dev.to/michelfaure/why-your-supabase-mutations-lie-about-their-errors-1ij4",
+      "pubDate": "2026-05-12T14:41:04.000Z",
+      "description": "<h2> The FK that wasn't the FK </h2> <p>Monday morning, May twelfth. A screenshot lands in my window: <em>update or delete on table \"plannings\" violates foreign key constraint \"cours_planning_id_fkey\"</em>. My first instinct blames the application-side cascade — children before parent. I re-read the",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Why Payable Workflows Are Broken (And How to Fix Them)",
-      "link": "https://dev.to/digitxbooks-official/why-payable-workflows-are-broken-and-how-to-fix-them-5eeb",
-      "pubDate": "2026-05-12T09:01:12.000Z",
-      "description": "<p>Most developers treat the 'Payable' side of a business application as a simple CRUD operation—just another row in a database to be marked as paid. But if you have ever spent a week debugging why an inventory count doesn't match the general ledger, you know that accounts payable is actually the mo",
+      "title": "Pourquoi tes mutations Supabase mentent sur leurs erreurs",
+      "link": "https://dev.to/michelfaure/pourquoi-tes-mutations-supabase-mentent-sur-leurs-erreurs-16ip",
+      "pubDate": "2026-05-12T14:40:42.000Z",
+      "description": "<h2> La FK qui n'était pas la FK </h2> <p>Lundi matin, douze mai. Un screenshot tombe dans ma fenêtre : <em>update or delete on table \"plannings\" violates foreign key constraint \"cours_planning_id_fkey\"</em>. Mon premier réflexe accuse la cascade applicative — il faut supprimer les enfants avant le ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Treating code-reading as a deliberate skill",
-      "link": "https://dev.to/samareshdas/treating-code-reading-as-a-deliberate-skill-55i3",
-      "pubDate": "2026-05-12T09:00:56.000Z",
-      "description": "<p>Most developers admit they're terrible at reading code.</p> <p>We spend countless hours wrestling with spaghetti code, deciphering cryptic commits, and generally feeling lost in a sea of syntax. But what if I told you code reading isn't a passive chore, but a deliberate, learnable skill? It's tim",
+      "title": "SLO examples for financial services: what good performance looks like in fintech",
+      "link": "https://dev.to/gatling/slo-examples-for-financial-services-what-good-performance-looks-like-in-fintech-1f5p",
+      "pubDate": "2026-05-12T14:38:52.000Z",
+      "description": "<p>Every financial services company knows what a failed transaction costs. The number is immediate, calculable, and visible in the next day's report. What's less visible — but equally costly — is the slow transaction. The payment that took four seconds instead of half a second. The login that timed ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Agentic AI: Why Autonomous AI Systems Will Reshape the Future of Work",
-      "link": "https://dev.to/arthus15/agentic-ai-why-autonomous-ai-systems-will-reshape-the-future-of-work-4ili",
-      "pubDate": "2026-05-12T09:00:10.000Z",
-      "description": "<p>Artificial Intelligence has evolved rapidly over the past decade. We moved from simple rule-based automation to machine learning systems capable of generating text, images, code, and decisions. But a new evolution is emerging that goes beyond “smart assistants” and predictive models: <strong>Agen",
+      "title": "System Design 101: Consistent Hashing Explained",
+      "link": "https://dev.to/balaji_yalla/system-design-101-consistent-hashing-explained-1d4m",
+      "pubDate": "2026-05-12T14:36:46.000Z",
+      "description": "<h2> Consistent Hashing </h2> <h2> What Is It? </h2> <p>Consistent Hashing is a distributed hashing scheme that operates independently of the number of servers in a cluster. It ensures that when servers are added or removed, only a minimal number of keys (roughly $K/N$, where $K$ is the number of ke",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Bilingual FR/EN blog in pure PHP: architecture without framework or database",
-      "link": "https://dev.to/ohugonnot/bilingual-fren-blog-in-pure-php-architecture-without-framework-or-database-3927",
-      "pubDate": "2026-05-12T09:00:04.000Z",
-      "description": "<p>This blog was built in pure PHP, no CMS, no database. <a href=\"https://www.web-developpeur.com/en/blog/creer-un-blog-avec-claude-code\" rel=\"noopener noreferrer\">First article in the series</a>, already published. At some point the question comes up: is it worth adding English support? Short answe",
+      "title": "The New IT Career Formula: AI + English + Human Skills",
+      "link": "https://dev.to/roderick_rutledge_21f9abd/the-new-it-career-formula-ai-english-human-skills-56nc",
+      "pubDate": "2026-05-12T14:36:17.000Z",
+      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F5kdpai6zcte80cfv0and.png\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/width=800%",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The 42mm M.2 SATA SSD Everyone Forgot About—Why It’s the Silent Workhorse of Industry",
-      "link": "https://dev.to/loongtion/the-42mm-m2-sata-ssd-everyone-forgot-about-why-its-the-silent-workhorse-of-industry-cap",
-      "pubDate": "2026-05-12T08:59:01.000Z",
-      "description": "<p>You’re a developer or an engineer. You know the M.2 2280 NVMe drive: 80mm long, lightning-fast Gen 4 speeds, and the go-to choice for modern PCs. On the shelf nearby, the M.2 2242 SATA drive is an afterthought. It’s just 42mm, uses the older SATA interface, and is often the default in cheap, low-",
+      "title": "Beyond Static Code: Building an AI-Powered \"VC Critic\" on Somnia",
+      "link": "https://dev.to/kalidecoder/beyond-static-code-building-an-ai-powered-vc-critic-on-somnia-2jp3",
+      "pubDate": "2026-05-12T14:36:15.000Z",
+      "description": "<p>For years, smart contracts have been described as \"smart,\" but in reality, they have been <strong>static</strong>. They could move assets and follow rigid <code>if/then</code> rules, but they were \"blind\" to human language, nuance, and complex reasoning.</p> <p>On the <strong>Somnia Network</stro",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "Soon We Can Finally Banish JavaScript to the ShadowRealm",
+      "link": "https://css-tricks.com/soon-we-can-finally-banish-javascript-to-the-shadowrealm/",
+      "pubDate": "2026-05-12T13:59:35.000Z",
+      "description": "The proposed ShadowRealm API introduces a new kind of realm specifically designed for isolation, and only that. Soon We Can Finally Banish JavaScript to the ShadowRealm originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "US inflation jumps to 3.8% as energy costs surge from Iran war",
+      "link": "https://www.bbc.com/news/articles/c202pgxx89lo",
+      "pubDate": "2026-05-12T13:51:36.000Z",
+      "description": "Article URL: https://www.bbc.com/news/articles/c202pgxx89lo Comments URL: https://news.ycombinator.com/item?id=48108313 Points: 136 # Comments: 100",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Rendering the Sky, Sunsets, and Planets",
+      "link": "https://blog.maximeheckel.com/posts/on-rendering-the-sky-sunsets-and-planets/",
+      "pubDate": "2026-05-12T13:26:46.000Z",
+      "description": "Article URL: https://blog.maximeheckel.com/posts/on-rendering-the-sky-sunsets-and-planets/ Comments URL: https://news.ycombinator.com/item?id=48107997 Points: 82 # Comments: 5",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "I hate the recent open-source rise",
+      "link": "https://www.jvt.me/posts/2026/05/12/open-source/",
+      "pubDate": "2026-05-12T12:58:13.000Z",
+      "description": "Article URL: https://www.jvt.me/posts/2026/05/12/open-source/ Comments URL: https://news.ycombinator.com/item?id=48107615 Points: 3 # Comments: 4",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "UnDUNE II",
+      "link": "https://liquidream.itch.io/undune2",
+      "pubDate": "2026-05-12T12:38:45.000Z",
+      "description": "Article URL: https://liquidream.itch.io/undune2 Comments URL: https://news.ycombinator.com/item?id=48107404 Points: 48 # Comments: 10",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Text Blaze (YC W21) Is Hiring for a No-AI Summer Internship",
+      "link": "https://www.ycombinator.com/companies/text-blaze/jobs/P4CCN62-the-blaze-no-ai-summer-internship",
+      "pubDate": "2026-05-12T12:00:46.000Z",
+      "description": "Article URL: https://www.ycombinator.com/companies/text-blaze/jobs/P4CCN62-the-blaze-no-ai-summer-internship Comments URL: https://news.ycombinator.com/item?id=48107024 Points: 0 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "EU to crack down on TikTok, Instagram's 'addictive design' targeting kids",
+      "link": "https://www.cnbc.com/2026/05/12/tiktok-instagram-social-media-addictive-eu-crack-down.html",
+      "pubDate": "2026-05-12T11:00:07.000Z",
+      "description": "Article URL: https://www.cnbc.com/2026/05/12/tiktok-instagram-social-media-addictive-eu-crack-down.html Comments URL: https://news.ycombinator.com/item?id=48106534 Points: 269 # Comments: 221",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Coursera and Udemy are now one company",
+      "link": "https://blog.coursera.org/coursera-and-udemy-are-now-one-company-creating-the-worlds-most-comprehensive-skills-platform/",
+      "pubDate": "2026-05-12T10:37:44.000Z",
+      "description": "Article URL: https://blog.coursera.org/coursera-and-udemy-are-now-one-company-creating-the-worlds-most-comprehensive-skills-platform/ Comments URL: https://news.ycombinator.com/item?id=48106367 Points: 103 # Comments: 37",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "A HN post with negative points – how?",
+      "link": "https://news.ycombinator.com/item?id=48104663",
+      "pubDate": "2026-05-12T10:29:24.000Z",
+      "description": "Article URL: https://news.ycombinator.com/item?id=48104663 Comments URL: https://news.ycombinator.com/item?id=48106316 Points: 64 # Comments: 53",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Learning Software Architecture",
+      "link": "https://matklad.github.io/2026/05/12/software-architecture.html",
+      "pubDate": "2026-05-12T09:30:21.000Z",
+      "description": "Article URL: https://matklad.github.io/2026/05/12/software-architecture.html Comments URL: https://news.ycombinator.com/item?id=48106024 Points: 313 # Comments: 61",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "Screenshots of Old Desktop OSes",
       "link": "http://www.typewritten.org/Media/",
       "pubDate": "2026-05-12T05:11:24.000Z",
-      "description": "Article URL: http://www.typewritten.org/Media/ Comments URL: https://news.ycombinator.com/item?id=48104428 Points: 133 # Comments: 40",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Extremely Low Frequencies",
-      "link": "https://computer.rip/2026-05-09-extremely-low-frequencies.html",
-      "pubDate": "2026-05-12T03:59:35.000Z",
-      "description": "Article URL: https://computer.rip/2026-05-09-extremely-low-frequencies.html Comments URL: https://news.ycombinator.com/item?id=48104041 Points: 66 # Comments: 1",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Software Internals Book Club",
-      "link": "https://eatonphil.com/bookclub.html",
-      "pubDate": "2026-05-12T02:28:11.000Z",
-      "description": "Article URL: https://eatonphil.com/bookclub.html Comments URL: https://news.ycombinator.com/item?id=48103511 Points: 93 # Comments: 15",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Claude Platform on AWS",
-      "link": "https://claude.com/blog/claude-platform-on-aws",
-      "pubDate": "2026-05-12T01:24:29.000Z",
-      "description": "Article URL: https://claude.com/blog/claude-platform-on-aws Comments URL: https://news.ycombinator.com/item?id=48103042 Points: 133 # Comments: 62",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "They Live (1988) inspired Adblocker",
-      "link": "https://github.com/davmlaw/they_live_adblocker",
-      "pubDate": "2026-05-12T00:37:54.000Z",
-      "description": "Article URL: https://github.com/davmlaw/they_live_adblocker Comments URL: https://news.ycombinator.com/item?id=48102700 Points: 214 # Comments: 68",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Griffin PowerMate driver for modern macOS",
-      "link": "https://github.com/jameslockman/Griffin-PowerMate-Driver",
-      "pubDate": "2026-05-11T21:35:38.000Z",
-      "description": "Article URL: https://github.com/jameslockman/Griffin-PowerMate-Driver Comments URL: https://news.ycombinator.com/item?id=48100970 Points: 76 # Comments: 27",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Postmortem: TanStack NPM supply-chain compromise",
-      "link": "https://tanstack.com/blog/npm-supply-chain-compromise-postmortem",
-      "pubDate": "2026-05-11T21:08:25.000Z",
-      "description": "https://github.com/TanStack/router/issues/7383 Comments URL: https://news.ycombinator.com/item?id=48100706 Points: 828 # Comments: 320",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "I let AI build a tool to help me figure out what was waking me up at night",
-      "link": "https://martin.sh/i-let-ai-build-a-tool-to-help-me-figure-out-what-was-waking-me-up-at-night/",
-      "pubDate": "2026-05-11T21:04:10.000Z",
-      "description": "Article URL: https://martin.sh/i-let-ai-build-a-tool-to-help-me-figure-out-what-was-waking-me-up-at-night/ Comments URL: https://news.ycombinator.com/item?id=48100662 Points: 173 # Comments: 184",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Interaction Models",
-      "link": "https://thinkingmachines.ai/blog/interaction-models/",
-      "pubDate": "2026-05-11T20:53:37.000Z",
-      "description": "Article URL: https://thinkingmachines.ai/blog/interaction-models/ Comments URL: https://news.ycombinator.com/item?id=48100524 Points: 212 # Comments: 26",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "GitLab announces workforce reduction and end of their CREDIT values",
-      "link": "https://about.gitlab.com/blog/gitlab-act-2/",
-      "pubDate": "2026-05-11T20:51:57.000Z",
-      "description": "Article URL: https://about.gitlab.com/blog/gitlab-act-2/ Comments URL: https://news.ycombinator.com/item?id=48100500 Points: 500 # Comments: 493",
+      "description": "Article URL: http://www.typewritten.org/Media/ Comments URL: https://news.ycombinator.com/item?id=48104428 Points: 433 # Comments: 192",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -233,14 +241,6 @@
       "link": "https://css-tricks.com/almanac/functions/c/contrast-color/",
       "pubDate": "2026-04-29T14:57:48.000Z",
       "description": "The contrast-color() function takes a <color> and returns either black or white, whichever is the most contrasting color for that value. contrast-color() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Let’s Use the Nonexistent ::nth-letter Selector Now",
-      "link": "https://css-tricks.com/using-nonexistent-nth-letter-selector-now/",
-      "pubDate": "2026-04-27T13:55:42.000Z",
-      "description": "My shim might give the powers that be another reason to say native support isn't necessary, or if lots of people use my :nth-letter hack in the wild, the browser gods might recognize the need to implement it for real. Let’s Use the Nonexistent ::nth-letter Selector Now originally handwritten and pub",
       "source": "CSS Tricks",
       "category": "Frontend"
     },
