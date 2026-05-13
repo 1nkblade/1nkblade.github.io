@@ -1,110 +1,158 @@
 {
-  "generatedAt": "2026-05-12T20:09:16.588Z",
+  "generatedAt": "2026-05-13T04:13:13.430Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "Scraping Chinese Social Platforms for LLM Training Data: A Practical Multi-Source Pipeline (Python, 2026)",
-      "link": "https://dev.to/sami_8858131362756585e4f4/scraping-chinese-social-platforms-for-llm-training-data-a-practical-multi-source-pipeline-python-584",
-      "pubDate": "2026-05-12T20:02:05.000Z",
-      "description": "<p>If you're training Chinese-language models — or multilingual models that need real Chinese coverage, not just translated English — the data problem is the bottleneck. Common Crawl gives you the open web. HuggingFace gives you the curated stuff. But the linguistic patterns that matter most for cul",
+      "title": "What Happens During an Incident (Part 4)",
+      "link": "https://dev.to/aws-builders/what-happens-during-an-incident-part-4-2i8j",
+      "pubDate": "2026-05-13T04:00:00.000Z",
+      "description": "<p>In Part 3, we separated signals on purpose: </p> <ul> <li> <strong>metrics</strong> tell you <em>where to look</em> </li> <li> <strong>logs and traces</strong> tell you <em>what happened</em> </li> <li> <strong>audit</strong> tells you <em>what can be proven later</em>. </li> </ul> <p>This articl",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Why AI-Native Databases Are Replacing Traditional Vector Stores",
-      "link": "https://dev.to/petediano/why-ai-native-databases-are-replacing-traditional-vector-stores-42me",
-      "pubDate": "2026-05-12T20:01:08.000Z",
-      "description": "<h1> Why AI-Native Databases Are Replacing Traditional Vector Stores </h1> <p>For the past year, 'Vector Search' has been the buzzword of the AI engineering world. But as we move from RAG (Retrieval-Augmented Generation) prototypes to production systems, we are hitting a ceiling with traditional bol",
+      "title": "6 architectures I considered for a privacy-first personal SaaS — and why I built two of them",
+      "link": "https://dev.to/deeshansharma/6-architectures-i-considered-for-a-privacy-first-personal-saas-and-why-i-built-two-of-them-pcc",
+      "pubDate": "2026-05-13T04:00:00.000Z",
+      "description": "<p>Every architectural decision I made building OvertimeIQ came from the same four constraints. Not preferences — constraints. Things that were non-negotiable before I wrote a line of code.</p> <ol> <li> <strong>Work data cannot leave the user's control.</strong> Hours, rates, employer names, projec",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Celery worker monitoring: detecting silent failures",
-      "link": "https://dev.to/kadam257/celery-worker-monitoring-detecting-silent-failures-32no",
-      "pubDate": "2026-05-12T20:00:53.000Z",
-      "description": "<p><em>Originally posted on <a href=\"https://celeryradar.com/guides/celery-worker-monitoring/\" rel=\"noopener noreferrer\">celeryradar.com</a>.</em></p> <p>Workers are the part of Celery that actually do the work. When they stop, your application's background processing stops. That's the easy part to ",
+      "title": "I asked Cursor to rename a function. It sent 8,400 tokens. I checked.",
+      "link": "https://dev.to/thegdsks/i-asked-cursor-to-rename-a-function-it-sent-8400-tokens-i-checked-434h",
+      "pubDate": "2026-05-13T03:58:11.000Z",
+      "description": "<p><em>The afternoon I learned what my AI subscription was actually doing, and the 200 lines that took my next bill down 41 percent.</em></p> <p>I had been using Cursor for six months when I noticed the discrepancy. I was renaming a function. A short one. Three lines of body. One call site. The kind",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I Turned My Cloud-Native Learning Journey into an Open-Source Handbook",
-      "link": "https://dev.to/muhammad_sadiqali_f04de9/i-turned-my-cloud-native-learning-journey-into-an-open-source-handbook-ioo",
-      "pubDate": "2026-05-12T20:00:19.000Z",
-      "description": "<h1> Open-Source Cloud-Native Agentic Engineering Handbook </h1> <p>Hi everyone 👋</p> <p>I recently published an open-source handbook focused on practical cloud-native and AI-native engineering systems.</p> <p>The goal of this project was to create a structured learning resource that helps bridge:<",
+      "title": "I built an AI Agent that lives directly in your CLI and Desktop",
+      "link": "https://dev.to/pheem49/i-built-an-ai-agent-that-lives-directly-in-your-cli-and-desktop-3dkf",
+      "pubDate": "2026-05-13T03:54:45.000Z",
+      "description": "<p>Let's be real: the current AI coding workflow is tedious. </p> <p>You hit a bug. You copy your code. You tab out to ChatGPT/Claude. You paste it. You copy the fix. You paste it back. Oh wait, it broke something else? Repeat the cycle. </p> <p>I got tired of being a middleman between my codebase a",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I deliberately vibe-coded a real product end-to-end. Here's what AI couldn't do for me",
-      "link": "https://dev.to/jrbayguade/i-deliberately-vibe-coded-a-real-product-end-to-end-heres-what-ai-couldnt-do-for-me-boc",
-      "pubDate": "2026-05-12T19:59:14.000Z",
-      "description": "<h1> I deliberately vibe-coded a real product end-to-end. Here's what AI couldn't do for me </h1> <p>A few months ago I decided to run a deliberate experiment: build and ship a real product using AI as much as humanly possible. The Chrome extension itself, the backend, the marketing website at zinkf",
+      "title": "Tired of typing `cd`? I built a Proton-T is a smarter cd command, blazing-fast directory jumper in Rust",
+      "link": "https://dev.to/pheem49/tired-of-typing-cd-i-built-a-smarter-blazing-fast-directory-jumper-in-rust-407b",
+      "pubDate": "2026-05-13T03:32:00.000Z",
+      "description": "<p>As developers, we live in the terminal. And for me, living in the terminal is a choice for two things: <strong>speed</strong> and <strong>coolness</strong>. </p> <p>But let's be honest, typing <code>cd ../../../some/deep/workspace</code> over and over again is neither fast nor cool. You either ha",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Best Pay Per Download Platforms for Beginners",
-      "link": "https://dev.to/theape/best-pay-per-download-platforms-for-beginners-10f0",
-      "pubDate": "2026-05-12T19:51:58.000Z",
-      "description": "<h2> Pay Per Download (PPD) platforms </h2> <p>allow users to earn money whenever people download their uploaded files. For beginners, choosing the right platform is important because many older file hosts suffer from slow downloads, low payouts, and poor user experience.</p> <p>The best beginner-fr",
+      "title": "Building a Stock Advisor on a Coral Dev Board: From Edge TPU Bugs to Working TPU Inference",
+      "link": "https://dev.to/charbull/building-a-stock-advisor-on-a-coral-dev-board-from-edge-tpu-bugs-to-working-tpu-inference-156",
+      "pubDate": "2026-05-13T03:25:20.000Z",
+      "description": "<p>A few months ago I set out to answer a simple question: can I build a <strong>scientific framework for deciding when to sell my Google RSUs</strong> instead of making decisions based on gut feeling?</p> <p>The answer turned out to be \"sort of, but the process taught me far more than the answer di",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Why does nobody talk about how expensive idle OpenClaw agents are?",
-      "link": "https://dev.to/lars_winstand/why-does-nobody-talk-about-how-expensive-idle-openclaw-agents-are-56bo",
-      "pubDate": "2026-05-12T19:51:02.000Z",
-      "description": "<h1> Why does nobody talk about how expensive idle OpenClaw agents are? </h1> <p>I keep seeing the same OpenClaw cost mistake:</p> <p>People try to save money by making the assistant write shorter replies.</p> <p>Meanwhile the real bill is coming from the agent waking up all night, reloading bootstr",
+      "title": "The 3 i18n mistakes every open-source LMS makes",
+      "link": "https://dev.to/arvavit/the-3-i18n-mistakes-every-open-source-lms-makes-2lfk",
+      "pubDate": "2026-05-13T03:21:32.000Z",
+      "description": "<blockquote> <p><strong>TL;DR.</strong> Every open-source LMS treats internationalization as one problem. It's three. UI strings, user-generated content, and canonical artifacts each need a different mechanism. Most codebases collapse them into one — that's the bug.</p> </blockquote> <p>We've been b",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "AWS Tools, AI Reliability, and Prompt Engineering Hacks",
-      "link": "https://dev.to/anikalp1/aws-tools-ai-reliability-and-prompt-engineering-hacks-2h9o",
-      "pubDate": "2026-05-12T19:48:57.000Z",
-      "description": "<h1> AWS Tools, AI Reliability, and Prompt Engineering Hacks </h1> <p>Developers got new tools from AWS for navigating EU AI Act compliance and building web-searchable agents. Meanwhile, research offers fresh insights into AI reliability and prompt engineering, challenging old assumptions and improv",
+      "title": "Replacing Myself with an AI Talking Avatar in 48 Hours",
+      "link": "https://dev.to/bank_gwen_tech/replacing-myself-with-an-ai-talking-avatar-in-48-hours-p45",
+      "pubDate": "2026-05-13T03:20:42.000Z",
+      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fgro7rd4sulkmp55tsu04.png\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/width=800%",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The best Jira time trackers for engineering teams in 2026",
-      "link": "https://dev.to/jorrygo_dev/the-best-jira-time-trackers-for-engineering-teams-in-2026-n94",
-      "pubDate": "2026-05-12T19:48:53.000Z",
-      "description": "<p>I co-founded <a href=\"https://time.planim.app/jira?utm_source=devto&amp;utm_medium=blog&amp;utm_campaign=best-jira-trackers\" rel=\"noopener noreferrer\">Planim Time</a>, one of the trackers in this list, so factor that in. The flip side of building one of these for a year is that I know which of th",
+      "title": "India Court API for Legal Tech",
+      "link": "https://dev.to/rchtjn2/india-court-api-for-legal-tech-1fm5",
+      "pubDate": "2026-05-13T03:20:25.000Z",
+      "description": "<p>If you're building a legal tech application in India or need to access court case data programmatically, the <strong>eCourtsIndia API</strong> is worth exploring.</p> <h2> What is it? </h2> <p>The <a href=\"https://ecourtsindia.com/api\" rel=\"noopener noreferrer\">eCourtsIndia API</a> provides devel",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Slack alternative: We didn't build an AI agent, we built a shell",
-      "link": "https://dev.to/rubenflam/we-didnt-build-an-ai-agent-we-built-a-shell-12hf",
-      "pubDate": "2026-05-12T19:48:26.000Z",
-      "description": "<p>Look around. Everyone is busy building another AI agent right now but we decided to go a different route and built an alternative to Slack instead. We wanted a fast, loud, wide-awake room for your team, but when it came to the AI part we made a concious choice not to roll our own agent or just wr",
+      "title": "The Silent Failure I Never Saw Coming: What VaultPay Taught Me About Consistency Under Failure",
+      "link": "https://dev.to/ravigupta97/the-silent-failure-i-never-saw-coming-what-vaultpay-taught-me-about-consistency-under-failure-2e0f",
+      "pubDate": "2026-05-13T03:20:00.000Z",
+      "description": "<p><em>VaultPay is a wallet microservice I built on top of AuthShield. This is the first technical post in the series if you want the origin story, that's in the previous post.<br> Previous parts: <br> Part 1 is here: <a href=\"https://dev.to/ravigupta97/i-built-authshield-and-immediately-knew-it-was",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Snowflake Postgres, Lakebase, HorizonDB: Picking the Lock-In You Want",
-      "link": "https://thebuild.com/blog/2026/05/12/snowflake-postgres-lakebase-horizondb-picking-the-lock-in-you-want/",
-      "pubDate": "2026-05-12T19:45:02.000Z",
-      "description": "Article URL: https://thebuild.com/blog/2026/05/12/snowflake-postgres-lakebase-horizondb-picking-the-lock-in-you-want/ Comments URL: https://news.ycombinator.com/item?id=48113425 Points: 3 # Comments: 0",
+      "title": "Starship V3",
+      "link": "https://www.spacex.com/updates#starship-v3",
+      "pubDate": "2026-05-13T01:29:31.000Z",
+      "description": "Article URL: https://www.spacex.com/updates#starship-v3 Comments URL: https://news.ycombinator.com/item?id=48116781 Points: 142 # Comments: 89",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "The Rise of the Bullshittery",
-      "link": "https://xn--gckvb8fzb.com/the-rise-of-the-bullshittery/",
-      "pubDate": "2026-05-12T19:18:30.000Z",
-      "description": "Article URL: https://xn--gckvb8fzb.com/the-rise-of-the-bullshittery/ Comments URL: https://news.ycombinator.com/item?id=48113079 Points: 43 # Comments: 11",
+      "title": "My graduation cap runs Rust",
+      "link": "https://ericswpark.com/blog/2026/2026-05-12-my-graduation-cap-runs-rust/",
+      "pubDate": "2026-05-13T00:04:21.000Z",
+      "description": "Article URL: https://ericswpark.com/blog/2026/2026-05-12-my-graduation-cap-runs-rust/ Comments URL: https://news.ycombinator.com/item?id=48116207 Points: 96 # Comments: 27",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Unauthorized Anthropic stock sales and investment scams",
-      "link": "https://support.claude.com/en/articles/13704655-unauthorized-anthropic-stock-sales-and-investment-scams",
-      "pubDate": "2026-05-12T18:20:44.000Z",
-      "description": "Article URL: https://support.claude.com/en/articles/13704655-unauthorized-anthropic-stock-sales-and-investment-scams Comments URL: https://news.ycombinator.com/item?id=48112190 Points: 13 # Comments: 1",
+      "title": "When \"idle\" isn't idle: how a Linux kernel optimization became a QUIC bug",
+      "link": "https://blog.cloudflare.com/quic-death-spiral-fix/",
+      "pubDate": "2026-05-12T23:46:28.000Z",
+      "description": "Article URL: https://blog.cloudflare.com/quic-death-spiral-fix/ Comments URL: https://news.ycombinator.com/item?id=48116064 Points: 34 # Comments: 1",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Kraftwerk's radical 1976 track",
+      "link": "https://www.bbc.com/culture/article/20260511-kraftwerks-radical-1976-track-radioactivity-became-an-anti-nuclear-anthem",
+      "pubDate": "2026-05-12T23:13:01.000Z",
+      "description": "Article URL: https://www.bbc.com/culture/article/20260511-kraftwerks-radical-1976-track-radioactivity-became-an-anti-nuclear-anthem Comments URL: https://news.ycombinator.com/item?id=48115823 Points: 88 # Comments: 28",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Tell NYT, Atlantic, USA Today to keep Wayback Machine",
+      "link": "https://www.savethearchive.com/newsleaders/",
+      "pubDate": "2026-05-12T23:11:40.000Z",
+      "description": "Article URL: https://www.savethearchive.com/newsleaders/ Comments URL: https://news.ycombinator.com/item?id=48115807 Points: 223 # Comments: 53",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Restore full BambuNetwork support for Bambu Lab printers",
+      "link": "https://github.com/FULU-Foundation/OrcaSlicer-bambulab",
+      "pubDate": "2026-05-12T21:55:21.000Z",
+      "description": "Article URL: https://github.com/FULU-Foundation/OrcaSlicer-bambulab Comments URL: https://news.ycombinator.com/item?id=48115127 Points: 252 # Comments: 105",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "EFF to 4th Circuit: Electronic Device Searches at the Border Require a Warrant",
+      "link": "https://www.eff.org/deeplinks/2026/05/eff-fourth-circuit-electronic-device-searches-border-require-warrant",
+      "pubDate": "2026-05-12T21:48:24.000Z",
+      "description": "Article URL: https://www.eff.org/deeplinks/2026/05/eff-fourth-circuit-electronic-device-searches-border-require-warrant Comments URL: https://news.ycombinator.com/item?id=48115059 Points: 139 # Comments: 19",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Scrcpy v4.0",
+      "link": "https://github.com/Genymobile/scrcpy/releases/tag/v4.0",
+      "pubDate": "2026-05-12T20:50:02.000Z",
+      "description": "Article URL: https://github.com/Genymobile/scrcpy/releases/tag/v4.0 Comments URL: https://news.ycombinator.com/item?id=48114356 Points: 63 # Comments: 9",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "How to make your text look futuristic (2016)",
+      "link": "https://typesetinthefuture.com/2016/02/18/futuristic/",
+      "pubDate": "2026-05-12T20:16:26.000Z",
+      "description": "Article URL: https://typesetinthefuture.com/2016/02/18/futuristic/ Comments URL: https://news.ycombinator.com/item?id=48113895 Points: 250 # Comments: 32",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -112,55 +160,7 @@
       "title": "CERT is releasing six CVEs for serious security vulnerabilities in dnsmasq",
       "link": "https://lists.thekelleys.org.uk/pipermail/dnsmasq-discuss/2026q2/018471.html",
       "pubDate": "2026-05-12T18:12:28.000Z",
-      "description": "Article URL: https://lists.thekelleys.org.uk/pipermail/dnsmasq-discuss/2026q2/018471.html Comments URL: https://news.ycombinator.com/item?id=48112042 Points: 108 # Comments: 25",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model",
-      "link": "https://github.com/cactus-compute/needle",
-      "pubDate": "2026-05-12T18:03:11.000Z",
-      "description": "Hey HN, Henry here from Cactus. We open-sourced Needle, a 26M parameter function-calling (tool use) model. It runs at 6000 tok/s prefill and 1200 tok/s decode on consumer devices.We were always frustrated by the little effort made towards building agentic models that run on budget phones, so we cond",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "SQL: Incorrect by Construction",
-      "link": "https://chreke.com/posts/sql-incorrect-by-construction",
-      "pubDate": "2026-05-12T17:56:40.000Z",
-      "description": "Article URL: https://chreke.com/posts/sql-incorrect-by-construction Comments URL: https://news.ycombinator.com/item?id=48111798 Points: 7 # Comments: 1",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Quack: The DuckDB Client-Server Protocol",
-      "link": "https://duckdb.org/2026/05/12/quack-remote-protocol",
-      "pubDate": "2026-05-12T17:54:12.000Z",
-      "description": "Article URL: https://duckdb.org/2026/05/12/quack-remote-protocol Comments URL: https://news.ycombinator.com/item?id=48111765 Points: 51 # Comments: 2",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Dead.Letter (CVE-2026-45185) – How XBOW found an unauthenticated RCE on Exim",
-      "link": "https://xbow.com/blog/dead-letter-cve-2026-45185-xbow-found-rce-exim",
-      "pubDate": "2026-05-12T17:52:34.000Z",
-      "description": "Article URL: https://xbow.com/blog/dead-letter-cve-2026-45185-xbow-found-rce-exim Comments URL: https://news.ycombinator.com/item?id=48111748 Points: 40 # Comments: 14",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Googlebook",
-      "link": "https://googlebook.google/",
-      "pubDate": "2026-05-12T17:37:36.000Z",
-      "description": "https://www.reddit.com/r/Android/comments/1tb8xls/introducin... Comments URL: https://news.ycombinator.com/item?id=48111545 Points: 304 # Comments: 422",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Canada’s Bill C-22 Is a Repackaged Version of Last Year’s Surveillance Nightmare",
-      "link": "https://www.eff.org/deeplinks/2026/05/canadas-bill-c-22-repackaged-version-last-years-surveillance-nightmare",
-      "pubDate": "2026-05-12T17:35:58.000Z",
-      "description": "Article URL: https://www.eff.org/deeplinks/2026/05/canadas-bill-c-22-repackaged-version-last-years-surveillance-nightmare Comments URL: https://news.ycombinator.com/item?id=48111531 Points: 97 # Comments: 33",
+      "description": "Article URL: https://lists.thekelleys.org.uk/pipermail/dnsmasq-discuss/2026q2/018471.html Comments URL: https://news.ycombinator.com/item?id=48112042 Points: 265 # Comments: 122",
       "source": "Hacker News",
       "category": "Tech News"
     },
