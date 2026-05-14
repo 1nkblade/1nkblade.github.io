@@ -1,102 +1,134 @@
 {
-  "generatedAt": "2026-05-14T04:13:04.788Z",
+  "generatedAt": "2026-05-14T08:50:42.195Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "Integrating FreeIPA (LDAP) with OpenShift + Automated Group Sync Using CronJob",
-      "link": "https://dev.to/ashish_nair_d9b10ba4f8126/integrating-freeipa-ldap-with-openshift-automated-group-sync-using-cronjob-2boe",
-      "pubDate": "2026-05-14T03:59:42.000Z",
-      "description": "<p>Managing users and groups centrally is critical in enterprise Kubernetes environments. In this guide, I’ll walk you through how I integrated FreeIPA (LDAP) with OpenShift and set up an automated CronJob to sync groups periodically.</p> <p>This setup ensures:</p> <ul> <li>Centralized authenticatio",
+      "title": "Great Little Software: Theo &amp; Vangogh",
+      "link": "https://dev.to/valeriavg/great-little-software-theo-vangogh-2n07",
+      "pubDate": "2026-05-14T08:49:34.000Z",
+      "description": "<blockquote> <p>Theodorus van Gogh (1 May 1857 – 25 January 1891) was a Dutch art dealer and the younger brother of Vincent van Gogh. Known as Theo, his support of his older brother's artistic ambitions and well-being allowed Vincent to devote himself entirely to painting. As an art dealer, Theo van",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "Browser AI vs Cloud APIs for Image Processing",
+      "link": "https://dev.to/wenyi_qing_0364eb8a5dbd5a/browser-ai-vs-cloud-apis-for-image-processing-2d29",
+      "pubDate": "2026-05-14T08:36:07.000Z",
+      "description": "<p>Most online image tools follow the same pattern:</p> <ol> <li>upload an image;</li> <li>wait for a server to process it;</li> <li>download the result.</li> </ol> <p>That model works well. Cloud APIs are convenient, scalable from a developer experience point of view, and often give very consistent",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Introduction to React",
+      "link": "https://dev.to/athithya_sivasankarar/introduction-to-react-2h5d",
+      "pubDate": "2026-05-14T08:35:36.000Z",
+      "description": "<p><strong>What is React?</strong></p> <p>React is a JavaScript library used to build user interfaces (UI). It helps developers create websites and web applications easily by dividing the UI into small reusable components.</p> <p>React is mainly used for:</p> <p>Creating single-page applications<br>",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Claude Code Ultraplan: Cloud-Based AI Planning in 2026 — A Hands-On Tutorial",
+      "link": "https://dev.to/rams901/claude-code-ultraplan-cloud-based-ai-planning-in-2026-a-hands-on-tutorial-4id6",
+      "pubDate": "2026-05-14T08:33:19.000Z",
+      "description": "<h2> Claude Code Ultraplan: Cloud-Based AI Planning in 2026 — A Hands-On Tutorial </h2> <h2> TL;DR Summary </h2> <ul> <li>Ultraplan offloads Claude Code's planning phase to a <strong>cloud session</strong>, keeping your terminal free while a structured plan is drafted remotely</li> <li>You review pl",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "The AI Stack For 2026: LLMs, Vector Databases, Tool Calling, Agents, And Observability",
+      "link": "https://dev.to/dhruvjoshi9/the-ai-stack-for-2026-llms-vector-databases-tool-calling-agents-and-observability-2c7a",
+      "pubDate": "2026-05-14T08:29:04.000Z",
+      "description": "<p>The AI stack for 2026 is not one model, one API, or one shiny agent demo. </p> <p>It is a production system: LLMs for reasoning, vector databases for memory, tool calling for action, agents for workflow, and observability for trust. </p> <p>That stack is becoming the backbone of modern AI product",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "I Built a Tool to Fix My Bad Midjourney Prompts",
+      "link": "https://dev.to/66_k_4677a2ba0e79844f4f82/i-built-a-tool-to-fix-my-bad-midjourney-prompts-3cgm",
+      "pubDate": "2026-05-14T08:22:29.000Z",
+      "description": "<h1> I Built a Tool to Fix My Bad Midjourney Prompts </h1> <p>A lot of AI prompt tools try to do everything.</p> <p>They help with ChatGPT, image generation, copywriting, brainstorming, coding, and whatever else can fit into the landing page. That sounds broad and useful, but in practice it often me",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Arena ELO History: el gráfico que expone cómo se degradan los LLM",
+      "link": "https://dev.to/lu1tr0n/arena-elo-history-el-grafico-que-expone-como-se-degradan-los-llm-27ll",
+      "pubDate": "2026-05-14T08:19:46.000Z",
+      "description": "<p>Un investigador independiente acaba de publicar una herramienta que expone uno de los patrones peor documentados de la industria de la inteligencia artificial: los modelos de lenguaje grandes se degradan después de su lanzamiento. <strong>Arena AI Model ELO History</strong>, publicado por Erwin M",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "AGEF explained: a portable evidence format for AI agent sessions",
+      "link": "https://dev.to/radotsvetkov/agef-explained-a-portable-evidence-format-for-ai-agent-sessions-40fn",
+      "pubDate": "2026-05-14T08:19:44.000Z",
+      "description": "<p>If you ship AI-assisted code in a regulated codebase and somebody asks \"show me what the agent did\", you have about a week before that question turns into a finding. The data exists somewhere. It is not in a single shape. It is rarely portable. It is almost never tamper evident.</p> <p>AGEF is th",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "The trust pipeline: three commands to run before merging an AI-assisted change",
+      "link": "https://dev.to/radotsvetkov/the-trust-pipeline-three-commands-to-run-before-merging-an-ai-assisted-change-1ple",
+      "pubDate": "2026-05-14T08:19:27.000Z",
+      "description": "<p>The most common failure mode I see when teams adopt AI coding agents is not a bad diff. It is a good diff that no one can defend. The agent ran. The session closed. Three days later, somebody asks how the change came to be, and there is nothing to point at.</p> <p>This article is about closing th",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Finally, Private AI Characters That Can Run Offline",
+      "link": "https://dev.to/josephjoe33/finally-private-ai-characters-that-can-run-offline-4ah4",
+      "pubDate": "2026-05-14T08:19:18.000Z",
+      "description": "<p>Most AI character apps ask you to make a tradeoff.</p> <p>You can have a fun, expressive roleplay experience, but the conversation usually runs through someone else's servers. Or you can use a local AI model for privacy, but the experience often feels like a raw chat box built for technical users",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "What the Hell Was Going on with Cigarette Ads in the 70s?",
+      "link": "https://tohippo.com/what-the-hell-was-going-on-with-cigarette-ads-in-the-70s/",
+      "pubDate": "2026-05-14T07:25:59.000Z",
+      "description": "Article URL: https://tohippo.com/what-the-hell-was-going-on-with-cigarette-ads-in-the-70s/ Comments URL: https://news.ycombinator.com/item?id=48132159 Points: 8 # Comments: 7",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Classic 7 is a Windows 10 LTSC mod to look 1:1 to Windows 7",
+      "link": "https://classic7.lol/",
+      "pubDate": "2026-05-14T07:03:18.000Z",
+      "description": "Article URL: https://classic7.lol/ Comments URL: https://news.ycombinator.com/item?id=48132030 Points: 18 # Comments: 8",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "Claude for Small Business",
       "link": "https://www.anthropic.com/news/claude-for-small-business",
       "pubDate": "2026-05-14T03:59:35.000Z",
-      "description": "Article URL: https://www.anthropic.com/news/claude-for-small-business Comments URL: https://news.ycombinator.com/item?id=48130950 Points: 8 # Comments: 1",
+      "description": "Article URL: https://www.anthropic.com/news/claude-for-small-business Comments URL: https://news.ycombinator.com/item?id=48130950 Points: 208 # Comments: 136",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "I Built a Dataclass in 25 Lines of Python. Then I Found Three Bugs.",
-      "link": "https://dev.to/alexander_mia_9/i-built-a-dataclass-in-25-lines-of-python-then-i-found-three-bugs-kf8",
-      "pubDate": "2026-05-14T03:59:10.000Z",
-      "description": "<p>Python's <code>@dataclass</code> is great, but it is a decorator. You sprinkle it on, you get <code>__init__</code>, <code>__eq__</code>, <code>__hash__</code>, <code>__repr__</code> for free. Lovely.</p> <p>But what if you wanted a function instead? Call it with kwargs, get back a class. No deco",
-      "source": "Dev.to Feed",
-      "category": "Development"
+      "title": "Arena AI Model ELO History",
+      "link": "https://mayerwin.github.io/AI-Arena-History/",
+      "pubDate": "2026-05-14T03:19:05.000Z",
+      "description": "Hi HN,I built a live tracker to visualize the lifecycle and performance changes of flagship AI models.We've all experienced the phenomenon where a flagship model feels amazing at launch, but weeks later, it suddenly feels a bit off. I wanted to see if this was just a feeling or a measurable reality,",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
-      "title": "Krestianstvo Wavefront Evaluator",
-      "link": "https://dev.to/nikolaysuslov/krestianstvo-wavefront-evaluator-3j9f",
-      "pubDate": "2026-05-14T03:58:49.000Z",
-      "description": "<h2> Krestianstvo Wavefront Evaluator </h2> <p><em>Architecture overview and core concepts</em></p> <p>The Krestianstvo Wavefront Evaluator is a deterministic reactive collaborative computational engine for multiplayer, distributed applications built on top of <a href=\"https://github.com/yoshikiohsh",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "I was paying 3x too much for Claude API calls...",
-      "link": "https://dev.to/saulolinares10/i-was-paying-3x-too-much-for-claude-api-calls-18jj",
-      "pubDate": "2026-05-14T03:56:23.000Z",
-      "description": "<p>I was three weeks into building an Agent for my work (a productivity helper for data analysts) when I noticed certain flows were costing noticeably more than others. I assumed it was response length — longer answers, more output tokens, higher bill. So I added a system prompt instruction to be co",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "What is Coolify? Self-Hosting with Superpowers",
-      "link": "https://dev.to/wadethomastt/what-is-coolify-self-hosting-with-superpowers-o01",
-      "pubDate": "2026-05-14T03:40:29.000Z",
-      "description": "<p>🎬 This article is a companion to my YouTube video. Watch it here:</p> <p> <iframe src=\"https://www.youtube.com/embed/oFmJYMk1iCg\"> </iframe> </p> <h2> Introduction </h2> <p>In the last video, we talked about the VPS and why it is a compelling option for hosting your web applications. I mentioned",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Design Patterns: The \"Secret Scrolls\" to Rescue Devs from Spaghetti Code Nightmares",
-      "link": "https://dev.to/dinhhuykhanh/design-patterns-the-secret-scrolls-to-rescue-devs-from-spaghetti-code-nightmares-4l49",
-      "pubDate": "2026-05-14T03:33:15.000Z",
-      "description": "<h1> Design Patterns: The \"Secret Scrolls\" to Rescue Devs from Spaghetti Code Nightmares </h1> <p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fwilx3bwsjo1zjp7oz19d.p",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "⚖️ Case File 2.2: The Stagnation Syndicate",
-      "link": "https://dev.to/manojsatna31/case-file-22-the-stagnation-syndicate-co0",
-      "pubDate": "2026-05-14T03:30:00.000Z",
-      "description": "<blockquote> <h3> The AI Syndicate Continued.. </h3> <p><em>The most dangerous phrase in engineering isn't \"I don't know\"; it’s \"We’ve always done it this way.\"</em></p> </blockquote> <p>In 17+ years of leading engineering teams, I’ve seen brilliant architects turn into \"Legacy Statues\". In an era o",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "RLHF trained Claude to be verbose. Here's the proof",
-      "link": "https://dev.to/saulolinares10/rlhf-trained-claude-to-be-verbose-heres-the-proof-1f7p",
-      "pubDate": "2026-05-14T03:25:56.000Z",
-      "description": "<h2> The moment that made me want to understand this </h2> <p>I was deep in FinMentor — my multi-agent Claude-powered financial advisor — testing a query I'd run dozens of times: \"What's the difference between a mutual fund and an ETF?\"</p> <p>The answer came back in 400 words. Four paragraphs. Bull",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "TPUs for the Agentic Era: Hardware Finally Catching Up to the Workload",
-      "link": "https://dev.to/o96a/tpus-for-the-agentic-era-hardware-finally-catching-up-to-the-workload-242g",
-      "pubDate": "2026-05-14T03:25:10.000Z",
-      "description": "<h1> TPUs for the Agentic Era: Hardware Finally Catching Up to the Workload </h1> <p>Google's announcement of two new TPU variants — the 8T for training and 8I for inference — isn't just another hardware refresh. It's an admission that the workloads we've been throwing at AI infrastructure have outg",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "How to Optimize LLM Inference with KV Caching",
-      "link": "https://dev.to/krunalkanojiya/how-to-optimize-llm-inference-with-kv-caching-9n9",
-      "pubDate": "2026-05-14T03:24:25.000Z",
-      "description": "<p>Large Language Models (LLMs) are the engines behind tools like ChatGPT. They are very smart, but they can be slow. If you want to build fast AI tools, you need to know how to optimize them. The most important way to do this is with KV Caching.</p> <p>This guide will show you how KV Caching works ",
-      "source": "Dev.to Feed",
-      "category": "Development"
+      "title": "A Claude Code and Codex Skill for Deliberate Skill Development",
+      "link": "https://github.com/DrCatHicks/learning-opportunities",
+      "pubDate": "2026-05-14T03:13:31.000Z",
+      "description": "Article URL: https://github.com/DrCatHicks/learning-opportunities Comments URL: https://news.ycombinator.com/item?id=48130679 Points: 33 # Comments: 10",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "Microsoft BitLocker – YellowKey zero-day exploit",
       "link": "https://www.tomshardware.com/tech-industry/cyber-security/microsoft-bitlocker-protected-drives-can-now-be-opened-with-just-some-files-on-a-usb-stick-yellowkey-zero-day-exploit-demonstrates-an-apparent-backdoor",
       "pubDate": "2026-05-14T02:45:08.000Z",
-      "description": "Article URL: https://www.tomshardware.com/tech-industry/cyber-security/microsoft-bitlocker-protected-drives-can-now-be-opened-with-just-some-files-on-a-usb-stick-yellowkey-zero-day-exploit-demonstrates-an-apparent-backdoor Comments URL: https://news.ycombinator.com/item?id=48130519 Points: 32 # Comm",
+      "description": "Article URL: https://www.tomshardware.com/tech-industry/cyber-security/microsoft-bitlocker-protected-drives-can-now-be-opened-with-just-some-files-on-a-usb-stick-yellowkey-zero-day-exploit-demonstrates-an-apparent-backdoor Comments URL: https://news.ycombinator.com/item?id=48130519 Points: 149 # Com",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -104,15 +136,23 @@
       "title": "Show HN: Nibble",
       "link": "https://github.com/glouw/nibble",
       "pubDate": "2026-05-14T01:46:45.000Z",
-      "description": "An attempt at a single pass LLVM frontend in ~3000 lines of C without external dependencies, malloc, or an AST. Included are some graphical examples. The IR isn't perfect, and the README touches on one particular downfall Comments URL: https://news.ycombinator.com/item?id=48130186 Points: 13 # Comme",
+      "description": "An attempt at a single pass LLVM frontend in ~3000 lines of C without external dependencies, malloc, or an AST. Included are some graphical examples. The IR isn't perfect, and the README touches on one particular downfall Comments URL: https://news.ycombinator.com/item?id=48130186 Points: 51 # Comme",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Cisco Workforce Reductions",
+      "title": "Cisco workforce reductions",
       "link": "https://blogs.cisco.com/news/our-path-forward",
       "pubDate": "2026-05-14T01:38:05.000Z",
-      "description": "Article URL: https://blogs.cisco.com/news/our-path-forward Comments URL: https://news.ycombinator.com/item?id=48130123 Points: 72 # Comments: 36",
+      "description": "Article URL: https://blogs.cisco.com/news/our-path-forward Comments URL: https://news.ycombinator.com/item?id=48130123 Points: 188 # Comments: 175",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "delta time",
+      "link": "https://www.deltatime.life/",
+      "pubDate": "2026-05-14T01:15:24.000Z",
+      "description": "Article URL: https://www.deltatime.life/ Comments URL: https://news.ycombinator.com/item?id=48129953 Points: 47 # Comments: 23",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -120,47 +160,7 @@
       "title": "Avoiding and reducing microplastic false positives from dry glove contact",
       "link": "https://pubs.rsc.org/en/content/articlelanding/2026/ay/d5ay01801c",
       "pubDate": "2026-05-14T01:13:02.000Z",
-      "description": "Article URL: https://pubs.rsc.org/en/content/articlelanding/2026/ay/d5ay01801c Comments URL: https://news.ycombinator.com/item?id=48129934 Points: 9 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Mystery Microsoft bug leaker keeps the zero-days coming",
-      "link": "https://www.theregister.com/security/2026/05/13/disgruntled-researcher-releases-two-more-microsoft-zero-days/5239758",
-      "pubDate": "2026-05-14T00:54:18.000Z",
-      "description": "Article URL: https://www.theregister.com/security/2026/05/13/disgruntled-researcher-releases-two-more-microsoft-zero-days/5239758 Comments URL: https://news.ycombinator.com/item?id=48129789 Points: 78 # Comments: 14",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Scorched Earth 2000 – Web",
-      "link": "http://www.scorch2000.com/web/",
-      "pubDate": "2026-05-14T00:41:29.000Z",
-      "description": "Article URL: http://www.scorch2000.com/web/ Comments URL: https://news.ycombinator.com/item?id=48129694 Points: 163 # Comments: 60",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Tell HN: Dont use Claude Design, lost access to my projects after unsubscribing",
-      "link": "https://news.ycombinator.com/item?id=48128003",
-      "pubDate": "2026-05-13T21:40:18.000Z",
-      "description": "I wanted to try codex after 5 months of claude code max subscription. And then I went back to my previous projects on claude design only to realize I don't have access to them anymore.This is a first. I never lost access to any of my past sessions because I unsubscribed in any of the LLM apps.I actu",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Meta won't let you block its AI account on Threads",
-      "link": "https://www.theverge.com/tech/929091/meta-ai-threads-account-block",
-      "pubDate": "2026-05-13T20:22:21.000Z",
-      "description": "Article URL: https://www.theverge.com/tech/929091/meta-ai-threads-account-block Comments URL: https://news.ycombinator.com/item?id=48126981 Points: 141 # Comments: 65",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Princeton mandates proctoring for in-person exams, upending 133 year precedent",
-      "link": "https://www.dailyprincetonian.com/article/2026/05/princeton-news-adpol-proctoring-in-person-examinations-passed-faculty-133-years-precedent",
-      "pubDate": "2026-05-13T20:12:16.000Z",
-      "description": "Article URL: https://www.dailyprincetonian.com/article/2026/05/princeton-news-adpol-proctoring-in-person-examinations-passed-faculty-133-years-precedent Comments URL: https://news.ycombinator.com/item?id=48126848 Points: 285 # Comments: 395",
+      "description": "Article URL: https://pubs.rsc.org/en/content/articlelanding/2026/ay/d5ay01801c Comments URL: https://news.ycombinator.com/item?id=48129934 Points: 40 # Comments: 1",
       "source": "Hacker News",
       "category": "Tech News"
     },
