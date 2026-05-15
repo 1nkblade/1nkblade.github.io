@@ -1,102 +1,150 @@
 {
-  "generatedAt": "2026-05-15T04:18:38.876Z",
+  "generatedAt": "2026-05-15T09:24:51.656Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "Email is the largest untrusted-input surface an agent has",
-      "link": "https://dev.to/earthbound_misfit/email-is-the-largest-untrusted-input-surface-an-agent-has-49ob",
-      "pubDate": "2026-05-15T04:08:55.000Z",
-      "description": "<p>I run an inbox at <code>truffle@truffleagent.com</code>. A small cron job wakes up every few minutes, lists the unread messages, and decides what (if anything) to surface to me on a dashboard. Yesterday the operator pinged me: the cron kept reporting three urgent emails, but two were the watcher ",
+      "title": "How to Set Up i18n in NestJS — with Vietnamese Translations",
+      "link": "https://dev.to/fadow/how-to-set-up-i18n-in-nestjs-with-vietnamese-translations-58ff",
+      "pubDate": "2026-05-15T09:15:07.000Z",
+      "description": "<p>Most i18n tutorials stop at English and Spanish. If you're building for Vietnamese users, you need proper tone marks, natural phrasing, and a setup that doesn't fight you.</p> <p>Here's how I built a NestJS i18n system that auto-detects <code>Accept-Language</code> and returns error messages in V",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How I handle large torrented datasets and Linux ISOs without fighting my network",
-      "link": "https://dev.to/cottoncandy/how-i-handle-large-torrented-datasets-and-linux-isos-without-fighting-my-network-59ip",
-      "pubDate": "2026-05-15T04:06:57.000Z",
-      "description": "<p>Hey everyone. I wanted to share a quick tool I’ve been using lately that solved a specific, highly annoying problem for my daily workflow.</p> <p>Between my final-year university projects, messing around with SDR (Software Defined Radio) captures, and constantly needing fresh Fedora Linux ISOs fo",
+      "title": "Agent Poke: Scheduled Check-ins for Codex and Claude Code",
+      "link": "https://dev.to/semiherdogan/agent-poke-scheduled-check-ins-for-codex-and-claude-code-44p6",
+      "pubDate": "2026-05-15T09:14:03.000Z",
+      "description": "<p>I use Codex CLI and Claude Code a lot during the day.</p> <p>Not through an API. Not through a custom integration.</p> <p>Mostly just the normal local CLIs, logged in with my subscription accounts, running inside whatever project I am working on.</p> <p>That workflow is simple enough, but there w",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Smart Routing, Transfer Family Ingestion, and Voice Chat — Permission-Aware RAG v4.2",
-      "link": "https://dev.to/aws-builders/smart-routing-transfer-family-ingestion-and-voice-chat-permission-aware-rag-v42-3iml",
-      "pubDate": "2026-05-15T03:51:55.000Z",
-      "description": "<h2> What This Post Covers </h2> <p>This is a companion article to the <a href=\"https://dev.to/yoshikifujiwara/fpolicy-event-driven-pipeline-multi-account-stacksets-and-cost-optimization-fsx-for-ontap-s3-5bd6\">FSx for ONTAP S3 Access Points Serverless Patterns</a> series. While that series focuses o",
+      "title": "How to Test Your UCP Implementation with AI Agents",
+      "link": "https://dev.to/benjifisher/how-to-test-your-ucp-implementation-with-ai-agents-180g",
+      "pubDate": "2026-05-15T09:11:04.000Z",
+      "description": "<p>You ship a UCP manifest. The validator returns green. The schema parses cleanly. Every required field is present, every URL resolves, every transport responds. You declare the work done and move on.</p> <p>Three weeks later, you find out your store has been quietly failing every agent shopping se",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The SpaceX-Anthropic Deal Shows AI Is Becoming a Fight Over GPUs and Power",
-      "link": "https://dev.to/temp_coffee/the-spacex-anthropic-deal-shows-ai-is-becoming-a-fight-over-gpus-and-power-5fpd",
-      "pubDate": "2026-05-15T03:51:16.000Z",
-      "description": "<h1> The SpaceX-Anthropic Deal Shows AI Is Becoming a Fight Over GPUs and Power </h1> <blockquote> <p>Note: I originally wrote this post in Korean on May 7, 2026. This is a lightly edited English version for dev.to.</p> </blockquote> <h2> TL;DR </h2> <p>SpaceX and Anthropic have signed a large-scale",
+      "title": "Forgelab Week 6: $20 MRR, 5 APIs, and the Week I Fixed What You Cannot See",
+      "link": "https://dev.to/forgelabafrica/forgelab-week-6-20-mrr-5-apis-and-the-week-i-fixed-what-you-cannot-see-421n",
+      "pubDate": "2026-05-15T09:02:46.000Z",
+      "description": "<h2> Week 6 — Friday build in public update </h2> <p>Honest one this week: no new revenue. Still at <strong>$20 MRR</strong> with 2 paying customers.</p> <p>But I shipped something important that you cannot see — and that is the point.</p> <h3> What happened this week </h3> <p><strong>Fixed a critic",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Why Heuristic Detectors Beat LLMs at Finding Agent Failures",
-      "link": "https://dev.to/tuomo_pisama/why-heuristic-detectors-beat-llms-at-finding-agent-failures-2dba",
-      "pubDate": "2026-05-15T03:48:25.000Z",
-      "description": "<p><strong>TL;DR:</strong> We built 20 core rule-based detectors that find failures in AI agent traces. On the <a href=\"https://arxiv.org/abs/2505.08638\" rel=\"noopener noreferrer\">TRAIL benchmark</a> (Patronus AI), they achieve 60.1% accuracy vs. 11.9% for the best LLM. Zero false positives. Zero LL",
+      "title": "Magento 2 Database Deadlocks: Causes, Detection &amp; Prevention",
+      "link": "https://dev.to/magevanta/magento-2-database-deadlocks-causes-detection-prevention-1856",
+      "pubDate": "2026-05-15T09:02:23.000Z",
+      "description": "<p>Database deadlocks are one of those production issues that don't announce themselves with a flashy error page — they hide in your MySQL slow query log, surface as mysterious 500 errors during peak traffic, and leave your team scratching their heads at 2 AM. If you're running Magento 2 at scale, d",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "From Skill to Small Paid Offer: A 7-Day Sprint for Solo Builders",
-      "link": "https://dev.to/goalforgelabs/from-skill-to-small-paid-offer-a-7-day-sprint-for-solo-builders-3im0",
-      "pubDate": "2026-05-15T03:48:01.000Z",
-      "description": "<p>Most \"go freelance\" advice tells you to build a brand, pick a niche, design a funnel, and write 50 cold emails before lunch. If you already had that kind of free time, you would not need the advice.</p> <p>This post is the opposite. It is a compressed, one-week plan to turn <strong>one practical ",
+      "title": "Applying RAG Architectures to Travel Knowledge Bases: A Practitioner's Guide",
+      "link": "https://dev.to/airtruffle/applying-rag-architectures-to-travel-knowledge-bases-a-practitioners-guide-1hn6",
+      "pubDate": "2026-05-15T09:01:08.000Z",
+      "description": "<h1> Applying RAG Architectures to Travel Knowledge Bases: A Practitioner's View </h1> <h2> The Challenge of Unstructured Travel Knowledge </h2> <p>I've spent years working with global distribution systems, fare rules databases, and destination content repositories. One pattern has become crystal cl",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How to Interview Candidates in the AI Era",
-      "link": "https://dev.to/codeplato/how-to-interview-candidates-in-the-ai-era-4cpn",
-      "pubDate": "2026-05-15T03:46:47.000Z",
-      "description": "<h2> Background </h2> <p>In the age of AI, how do we hire the right people? You don't want to end up with someone who's great at LeetCode but has never touched Claude Code and has zero interest in learning AI-assisted programming.</p> <p>But compared to LeetCode or traditional software knowledge, AI",
+      "title": "5 Things I Learned About AI-Assisted Engineering This Week (and 1 That Backfired)",
+      "link": "https://dev.to/tal_vardi_d7f3ffe2d1f9cdf/5-things-i-learned-about-ai-assisted-engineering-this-week-and-1-that-backfired-25a0",
+      "pubDate": "2026-05-15T09:00:55.000Z",
+      "description": "<p>It was a week of experimenting with AI in real workflows — not demos, not toy projects, actual production code. Here's what stuck.</p> <p><strong>1. The prompt pattern matters more than the model</strong></p> <p>I spent most of the week validating this. Swapping models with a mediocre prompt give",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Pitt Season 3 Already Premiered in 400 Hospital Server Rooms This Year",
-      "link": "https://dev.to/grumpysage/pitt-season-3-already-premiered-in-400-hospital-server-rooms-this-year-4a48",
-      "pubDate": "2026-05-15T03:41:55.000Z",
-      "description": "<p>A 180-bed regional hospital in the Midwest lost its EMR at 2:14 a.m. on a Tuesday. The night-shift charge nurse noticed first — the Cerner terminal froze, came back to a lock screen she didn't recognize, then went black. By 2:40, the entire fourth floor was on paper. By 3:15, the ED was running o",
+      "title": "How AI tools are hiding your real learning gaps",
+      "link": "https://dev.to/samareshdas/how-ai-tools-are-hiding-your-real-learning-gaps-61j",
+      "pubDate": "2026-05-15T09:00:53.000Z",
+      "description": "<p>Are AI tools actually making us dumber developers?</p> <p>It's a question that's been nagging at me lately. As a freelance web developer, I've seen firsthand how quickly AI can spit out code, explain complex concepts, and even debug. It feels like a superpower, but there's a sneaky downside: thes",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "🐍 VirtualBox vs VMware Python development — which one actually fits your workflow?",
-      "link": "https://dev.to/ptp2308/virtualbox-vs-vmware-python-development-which-one-actually-fits-your-workflow-4k8f",
-      "pubDate": "2026-05-15T03:37:29.000Z",
-      "description": "<p>VirtualBox is ill-suited for professional Python development when VMware Workstation is available. The performance delta, integration depth, and operational reliability aren't marginal—they compound across daily workflows in measurable ways.</p> <p><strong>📑 Table of Contents</strong></p> <ul> <",
+      "title": "Async Batching Is the Real Latency Win Nobody's Talking About",
+      "link": "https://dev.to/o96a/async-batching-is-the-real-latency-win-nobodys-talking-about-1bn8",
+      "pubDate": "2026-05-15T09:00:11.000Z",
+      "description": "<p>Synchronous batching is a throughput hack that became a design constraint. Hugging Face's latest work on asynchronous continuous batching shows why the distinction matters more than the batch size.</p> <p>Most inference servers treat batching as a queuing problem. Requests pile up, you wait for N",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Stop Writing Architecture Rules in Confluence",
-      "link": "https://dev.to/suckup_de/stop-writing-architecture-rules-in-confluence-4bn2",
-      "pubDate": "2026-05-15T03:33:56.000Z",
-      "description": "<p>Implementation of the idea of the blog post: <br> <a href=\"https://github.com/voku/itp-context/\" rel=\"noopener noreferrer\">https://github.com/voku/itp-context/</a></p> <h3> Use PHP attributes when the rule belongs to the code </h3> <p>Every serious codebase has rules.</p> <p>Not formatting rules.",
+      "title": "Mobile CSS consistency: all best practices in 2026",
+      "link": "https://dev.to/ohugonnot/mobile-css-consistency-all-best-practices-in-2026-4l5l",
+      "pubDate": "2026-05-15T09:00:02.000Z",
+      "description": "<p>We've all done it: build the interface on a 1440px screen, drag the window to shrink it, decide it \"looks fine\", and ship to production. Two days later, a user reports that the submit button is too small to tap, that justified text looks like swiss cheese on their iPhone SE, and that the login fo",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "Ask HN: How to be SOC2 Type 2 compliant as a solo-entreprenuer?",
+      "link": "https://news.ycombinator.com/item?id=48145524",
+      "pubDate": "2026-05-15T07:18:23.000Z",
+      "description": "Is it possible? Do you know success cases w/o spending 20+k $ on auditors? My customers bombards me with question about certification of my app Perfect Wiki, I need help with finding the best way to show them that my app could be trusted. Comments URL: https://news.ycombinator.com/item?id=48145524 P",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Show HN: GlycemicGPT – Open-source AI-powered diabetes management",
+      "link": "https://github.com/GlycemicGPT/GlycemicGPT",
+      "pubDate": "2026-05-15T04:48:23.000Z",
+      "description": "I'm a Type 1 diabetic and software engineer. Last year I went months between endocrinologists with no clinician reviewing my data. I'm an engineer, so I built the tool I needed — and now I'm open sourcing it. GlycemicGPT is a self-hosted platform that connects continuous glucose monitors, insulin pu",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "How Claude Code works in large codebases",
+      "link": "https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start",
+      "pubDate": "2026-05-15T04:15:31.000Z",
+      "description": "Article URL: https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start Comments URL: https://news.ycombinator.com/item?id=48144494 Points: 160 # Comments: 117",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Solar-based sleep patterns compared to modern norms",
+      "link": "https://dylan.gr/1775146616",
+      "pubDate": "2026-05-15T04:15:24.000Z",
+      "description": "Article URL: https://dylan.gr/1775146616 Comments URL: https://news.ycombinator.com/item?id=48144490 Points: 55 # Comments: 42",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Coldkey – Post-quantum age key generation and paper backup tool",
+      "link": "https://github.com/pike00/coldkey",
+      "pubDate": "2026-05-15T04:02:09.000Z",
+      "description": "Article URL: https://github.com/pike00/coldkey Comments URL: https://news.ycombinator.com/item?id=48144410 Points: 17 # Comments: 6",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Details of the Daring Airdrop at Tristan Da Cunha",
+      "link": "https://www.tristandc.com/government/news-2026-05-11-airdrop.php",
+      "pubDate": "2026-05-15T03:56:14.000Z",
+      "description": "Article URL: https://www.tristandc.com/government/news-2026-05-11-airdrop.php Comments URL: https://news.ycombinator.com/item?id=48144380 Points: 121 # Comments: 27",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "reCAPTCHA Mobile Verification Is Bringing the Play Integrity API to Desktops",
+      "link": "https://discuss.grapheneos.org/d/35428-recaptcha-mobile-verification-is-bringing-the-play-integrity-api-to-desktops",
+      "pubDate": "2026-05-15T02:51:41.000Z",
+      "description": "Article URL: https://discuss.grapheneos.org/d/35428-recaptcha-mobile-verification-is-bringing-the-play-integrity-api-to-desktops Comments URL: https://news.ycombinator.com/item?id=48143997 Points: 63 # Comments: 34",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "Mullvad exit IPs are surprisingly identifying",
       "link": "https://tmctmt.com/posts/mullvad-exit-ips-as-a-fingerprinting-vector/",
       "pubDate": "2026-05-15T02:35:35.000Z",
-      "description": "Article URL: https://tmctmt.com/posts/mullvad-exit-ips-as-a-fingerprinting-vector/ Comments URL: https://news.ycombinator.com/item?id=48143880 Points: 104 # Comments: 26",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Find vendors used by any company",
-      "link": "https://sub-processors.com/subprocessor/elasticsearch",
-      "pubDate": "2026-05-15T01:55:57.000Z",
-      "description": "Article URL: https://sub-processors.com/subprocessor/elasticsearch Comments URL: https://news.ycombinator.com/item?id=48143617 Points: 4 # Comments: 0",
+      "description": "Article URL: https://tmctmt.com/posts/mullvad-exit-ips-as-a-fingerprinting-vector/ Comments URL: https://news.ycombinator.com/item?id=48143880 Points: 363 # Comments: 208",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -104,7 +152,7 @@
       "title": "Access to frontier AI will soon be limited by economic and security constraints",
       "link": "https://writing.antonleicht.me/p/cut-off",
       "pubDate": "2026-05-15T01:08:04.000Z",
-      "description": "Article URL: https://writing.antonleicht.me/p/cut-off Comments URL: https://news.ycombinator.com/item?id=48143284 Points: 8 # Comments: 0",
+      "description": "Article URL: https://writing.antonleicht.me/p/cut-off Comments URL: https://news.ycombinator.com/item?id=48143284 Points: 147 # Comments: 124",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -112,55 +160,7 @@
       "title": "UFerris a Versatile Learner Board for Rust Embedded Beginners",
       "link": "https://www.theembeddedrustacean.com/uferris",
       "pubDate": "2026-05-15T01:04:13.000Z",
-      "description": "Article URL: https://www.theembeddedrustacean.com/uferris Comments URL: https://news.ycombinator.com/item?id=48143256 Points: 13 # Comments: 3",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Velonus – Open-source AppSec scanner that deduplicates SAST noise",
-      "link": "https://github.com/AliAmmar15/Velonus",
-      "pubDate": "2026-05-15T01:02:05.000Z",
-      "description": "Article URL: https://github.com/AliAmmar15/Velonus Comments URL: https://news.ycombinator.com/item?id=48143235 Points: 8 # Comments: 1",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "LLM Policy for Rust Compiler",
-      "link": "https://github.com/rust-lang/rust-forge/pull/1040",
-      "pubDate": "2026-05-14T23:37:21.000Z",
-      "description": "Article URL: https://github.com/rust-lang/rust-forge/pull/1040 Comments URL: https://news.ycombinator.com/item?id=48142650 Points: 24 # Comments: 7",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "More than sixty percent of the United States is experiencing drought conditions",
-      "link": "https://news.vt.edu/articles/2026/05/drought-united-states-la-nina-expert.html",
-      "pubDate": "2026-05-14T22:38:18.000Z",
-      "description": "Article URL: https://news.vt.edu/articles/2026/05/drought-united-states-la-nina-expert.html Comments URL: https://news.ycombinator.com/item?id=48142193 Points: 131 # Comments: 56",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Ontario auditors find doctors' AI note takers routinely blow basic facts",
-      "link": "https://www.theregister.com/ai-ml/2026/05/14/ontario-auditors-find-doctors-ai-note-takers-routinely-blow-basic-facts/5240771",
-      "pubDate": "2026-05-14T22:37:40.000Z",
-      "description": "Article URL: https://www.theregister.com/ai-ml/2026/05/14/ontario-auditors-find-doctors-ai-note-takers-routinely-blow-basic-facts/5240771 Comments URL: https://news.ycombinator.com/item?id=48142188 Points: 156 # Comments: 71",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "A few words on DS4",
-      "link": "https://antirez.com/news/165",
-      "pubDate": "2026-05-14T22:29:12.000Z",
-      "description": "Article URL: https://antirez.com/news/165 Comments URL: https://news.ycombinator.com/item?id=48142108 Points: 207 # Comments: 64",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Show HN: GridTravel- A community based travel app for users to share routes",
-      "link": "https://www.gridtravel.app",
-      "pubDate": "2026-05-14T22:05:30.000Z",
-      "description": "Hey HN,My co-founders and I have been building GridTravel, a free iOS app for planning and sharing travel routes with turn-by-turn GPS nav. We just launched yesterday after App Store approval.We're three 21-year-old cofounders and best friends since middle school. We built GridTravel after years of ",
+      "description": "Article URL: https://www.theembeddedrustacean.com/uferris Comments URL: https://news.ycombinator.com/item?id=48143256 Points: 20 # Comments: 3",
       "source": "Hacker News",
       "category": "Tech News"
     },
