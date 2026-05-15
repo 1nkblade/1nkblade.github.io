@@ -1,134 +1,166 @@
 {
-  "generatedAt": "2026-05-15T14:36:24.107Z",
+  "generatedAt": "2026-05-15T19:54:52.953Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "the agent identity debate at w3c",
-      "link": "https://dev.to/t49qnsx7qtkpanks/the-agent-identity-debate-at-w3c-36g",
-      "pubDate": "2026-05-15T14:33:38.000Z",
-      "description": "<p>w3c issue 37 has 40+ comments debating how to standardize identity and authorization for ai agents that execute payments.</p> <p>the core question — do agents get their own cryptographic identities or do they inherit credentials from human principals.</p> <h2> option 1: inherited identity </h2> <",
+      "title": "How to setup a Linux Virtual machine on Azure Portal",
+      "link": "https://dev.to/emmanuel_banjo_df6d8074c7/how-to-setup-a-linux-virtual-machine-on-azure-portal-5484",
+      "pubDate": "2026-05-15T19:43:21.000Z",
+      "description": "<h2> Introduction </h2> <p>I always thought Linux servers were complicated and only for experts. Turns out, setting one up in Azure is pretty straightforward.<br> This guide shows you exactly how to create a Linux VM in Azure, connect to it from your computer, and run your first commands. No prior L",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "ai agent payments need web standards now",
-      "link": "https://dev.to/t49qnsx7qtkpanks/ai-agent-payments-need-web-standards-now-46n6",
-      "pubDate": "2026-05-15T14:32:56.000Z",
-      "description": "<p>w3c issue 37 is tracking how ai agents executing payments will impact the web's technical and economic foundation.</p> <p>the thread's worth reading because it's not just fintech people — it's browser vendors, standards bodies, and web platform engineers realizing the current payment request api ",
+      "title": "Ovie for Absolute Beginners: Your First Programming Language Could Be This One",
+      "link": "https://dev.to/southwarridev/ovie-for-absolute-beginners-your-first-programming-language-could-be-this-one-4h6j",
+      "pubDate": "2026-05-15T19:38:36.000Z",
+      "description": "<p>If you’ve never written a line of code before and the idea of programming feels overwhelming, this post is for you.</p> <p>Today I’m introducing <strong>Ovie</strong> — a modern, beginner-friendly programming language that combines low-level power with high-level readability. It’s especially welc",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Building a Batch Image Converter for Android: Overcoming Mobile Memory Limits",
-      "link": "https://dev.to/getinfotoyou/building-a-batch-image-converter-for-android-overcoming-mobile-memory-limits-3m78",
-      "pubDate": "2026-05-15T14:31:31.000Z",
-      "description": "<p>As developers, web designers, and digital creators, we frequently encounter the surprisingly tedious problem of image formatting. You might have a batch of heavy PNGs, but a client's website strict upload rules require WebPs under 500KB. Or maybe you just need to share a dozen high-res photos wit",
+      "title": "What Is Token 2022 and Why Solana Built It",
+      "link": "https://dev.to/100daysofsolana/what-is-token-2022-and-why-solana-built-it-53io",
+      "pubDate": "2026-05-15T19:29:20.000Z",
+      "description": "<p>Last week, we examined the economic theories that underpin the value of Web3 tokens. This week, we are shifting our focus to the engineering reality of how these assets actually function on the Solana blockchain. As you begin building with tokens in the upcoming challenges, the nuances of account",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Don't Use SERP APIs in Your AI Agents for Search Data",
-      "link": "https://dev.to/chandan-kumar/dont-use-serp-apis-in-your-ai-agents-for-search-data-339e",
-      "pubDate": "2026-05-15T14:31:19.000Z",
-      "description": "<p>If you're building AI agents that need to search the web, the first thing that comes to mind is using a SERP API. After all, they scrape Google results and hand you back the top 10 results. Sounds easy, right?</p> <p>Well no, I'll explain why.</p> <p>SERP APIs were built for SEO professionals tra",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Violence Detection in Video Files: Training AI to detect human-centric emotional responses",
-      "link": "https://dev.to/troywebconsulting/violence-detection-in-video-files-training-ai-to-detect-human-centric-emotional-responses-2483",
-      "pubDate": "2026-05-15T14:31:12.000Z",
-      "description": "<p>Can a machine distinguish between a high-five and a physical altercation? We brought this question to <a href=\"https://www.troyweb.com/lab/ai-violence-detection\" rel=\"noopener noreferrer\">The R&amp;D Lab</a> to experiment on which resulted in a functional Computer Vision prototype.</p> <p>Executi",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "GemmaFin - Breaking the Cycle of Debt with Conversational AI",
-      "link": "https://dev.to/gde/gemmafin-breaking-the-cycle-of-debt-with-conversational-ai-4l7n",
-      "pubDate": "2026-05-15T14:31:00.000Z",
-      "description": "<p><em>This is a submission for the <a href=\"https://dev.to/challenges/google-gemma-2026-05-06\">Gemma 4 Challenge: Build with Gemma 4</a></em></p> <p>Note: This project is aimed at solving a critical social issue in Brazil, but we are submitting it in English to align with the global nature of the D",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Every JPEG Is a Model of Your Retina",
-      "link": "https://dev.to/arthurpro/every-jpeg-is-a-model-of-your-retina-50ld",
-      "pubDate": "2026-05-15T14:30:00.000Z",
-      "description": "<p>There is, sitting on every disk and every phone and every web server in the world, a thirty-year-old standard that contains, layer by careful layer, an engineering description of how the human visual system works. The standard is JPEG. The description is mostly invisible because the engineers who",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "No, the AI didn't compromise your npm packages. You did.",
-      "link": "https://dev.to/pranta/no-the-ai-didnt-compromise-your-npm-packages-you-did-2e12",
-      "pubDate": "2026-05-15T14:29:43.000Z",
-      "description": "<p>Okay, story time. Last Tuesday I'm scrolling Twitter (sorry, \"X\", whatever) and I see the fifth take of the week along the lines of:</p> <blockquote> <p>\"AI is destroying software security. The Shai-Hulud worm proves AI is dangerous.\"</p> </blockquote> <p>And I'm sitting there like… my brother in",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Stop Playing Russian Roulette with Your TVL: Architecting a Zero-Trust EVM Airlock for Autonomous AI Agents",
-      "link": "https://dev.to/lokii_ding/stop-playing-russian-roulette-with-your-tvl-architecting-a-zero-trust-evm-airlock-for-autonomous-4dp5",
-      "pubDate": "2026-05-15T14:29:32.000Z",
-      "description": "<p><strong>Connecting autonomous AI Agents directly to the Ethereum Virtual Machine (EVM) is a disaster waiting to happen.</strong><br><br> We are living in the golden age of Agentic DeFi. LLMs are analyzing yield curves, routing trades, and executing complex arbitrage strategies autonomously.</p> <",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Clipy: a free no-watermark screen recorder for instant share links",
-      "link": "https://dev.to/shubham_agrawal_147bd44ce/clipy-a-free-no-watermark-screen-recorder-for-instant-share-links-3i81",
-      "pubDate": "2026-05-15T14:24:44.000Z",
-      "description": "<h1> Clipy: a free no-watermark screen recorder for instant share links </h1> <p>Clipy is a free, no-watermark screen recorder for Mac, Chrome, and the web — a Loom alternative for fast async communication. Hit record, stop, and an instant shareable link is in your clipboard. Viewers need no account",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "ASCII by Jason Scott",
-      "link": "https://ascii.textfiles.com/",
-      "pubDate": "2026-05-15T14:02:36.000Z",
-      "description": "Article URL: https://ascii.textfiles.com/ Comments URL: https://news.ycombinator.com/item?id=48148726 Points: 6 # Comments: 0",
+      "title": "Judge Bars Kars4Kids from Broadcasting 'Misleading' Ads in California",
+      "link": "https://www.nytimes.com/2026/05/15/us/kars4kids-advertising-banned-california.html",
+      "pubDate": "2026-05-15T19:27:15.000Z",
+      "description": "Article URL: https://www.nytimes.com/2026/05/15/us/kars4kids-advertising-banned-california.html Comments URL: https://news.ycombinator.com/item?id=48152777 Points: 16 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "A 0-click exploit chain for the Pixel 10",
-      "link": "https://projectzero.google/2026/05/pixel-10-exploit.html",
-      "pubDate": "2026-05-15T13:39:54.000Z",
-      "description": "Article URL: https://projectzero.google/2026/05/pixel-10-exploit.html Comments URL: https://news.ycombinator.com/item?id=48148460 Points: 40 # Comments: 1",
+      "title": "React Performance: 8 Fixes That Actually Matter (2026)",
+      "link": "https://dev.to/armorbreak/react-performance-8-fixes-that-actually-matter-2026-151f",
+      "pubDate": "2026-05-15T19:24:30.000Z",
+      "description": "<h1> React Performance: 8 Fixes That Actually Matter (2026) </h1> <p><em>I audited 15 React apps. These 8 optimizations appeared in every slow one.</em></p> <h2> 1. Stop Re-rendering Everything </h2> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight jsx\"><code><span class=\"c1\">// ❌ BAD",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Intentional Model Selection — How to Actually Choose the Right Gemma 4 Variant for Your Workload",
+      "link": "https://dev.to/abhishekmauryageek/intentional-model-selection-how-to-actually-choose-the-right-gemma-4-variant-for-your-workload-4lj7",
+      "pubDate": "2026-05-15T19:24:03.000Z",
+      "description": "<p>Most AI articles tell you what a model <em>can</em> do. This one tells you what it <em>costs</em> — in VRAM, latency, and deployment complexity — and how those numbers drive the decision between E2B, E4B, 27B dense, and 26B MoE.</p> <h2> Why \"Intentional Model Selection\" Is the Real Challenge </h",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Error Handling in Node.js: The Missing Guide",
+      "link": "https://dev.to/armorbreak/error-handling-in-nodejs-the-missing-guide-4ll6",
+      "pubDate": "2026-05-15T19:23:00.000Z",
+      "description": "<h1> Error Handling in Node.js: The Missing Guide </h1> <p><em>Most Node.js tutorials skip error handling. Here's what they don't tell you.</em></p> <h2> The Three Types of Errors </h2> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight javascript\"><code><span class=\"c1\">// 1. Operation",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Why I built browser-based tools instead of server uploads",
+      "link": "https://dev.to/everytools_4u_3d089af1a5e/why-i-built-browser-based-tools-instead-of-server-uploads-3pcc",
+      "pubDate": "2026-05-15T19:22:05.000Z",
+      "description": "<div class=\"highlight js-code-highlight\"> <pre class=\"highlight markdown\"><code>privacy webdevEvery time I uploaded a file to an online PDF tool, I wondered: what happens to it after? Some services delete files after 2 hours. Some after 24. Some never specify. None let you verify. So I rebuilt the t",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Docker in 20 Minutes: Everything You Need to Start Containerizing",
+      "link": "https://dev.to/armorbreak/docker-in-20-minutes-everything-you-need-to-start-containerizing-3417",
+      "pubDate": "2026-05-15T19:21:58.000Z",
+      "description": "<h1> Docker in 20 Minutes: Everything You Need to Start Containerizing </h1> <p><em>Stop saying \"it works on my machine.\" Here's Docker, explained simply.</em></p> <h2> What Problem Does Docker Solve? </h2> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight plaintext\"><code>WITHOUT Dock",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "When 'Google can read JavaScript now' isn't enough: a teardown of a React SPA marketing site in 2026",
+      "link": "https://dev.to/richardwrobinson/when-google-can-read-javascript-now-isnt-enough-a-teardown-of-a-react-spa-marketing-site-in-2026-1a5m",
+      "pubDate": "2026-05-15T19:20:46.000Z",
+      "description": "<p>If you're an engineering leader at a dev-tools company, an AI infrastructure platform, or an API-first SaaS, there's a good chance your marketing site is a React SPA — Vite, Create React App, or something similar — that your team built five-to-eight years ago, shipped, and never had a reason to r",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Week 1: Linux Wargames &amp; Hardware Fundamentals",
+      "link": "https://dev.to/amirtghnki/week-1-linux-wargames-hardware-fundamentals-1oh3",
+      "pubDate": "2026-05-15T19:20:39.000Z",
+      "description": "<p>What I studied</p> <p>This week I worked through the first 6 levels of Linux Wargames while also starting my CompTIA A+ studies.<br> I focused mainly on hardware fundamentals, cable types, motherboard basics, CPU architecture, and common ports/connectors.</p> <p>At the same time, the Linux Wargam",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "ABC News has taken all FiveThirtyEight articles offline",
+      "link": "https://twitter.com/baseballot/status/2055309076209492208",
+      "pubDate": "2026-05-15T19:07:08.000Z",
+      "description": "Article URL: https://twitter.com/baseballot/status/2055309076209492208 Comments URL: https://news.ycombinator.com/item?id=48152553 Points: 41 # Comments: 14",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "AI is wiping out entry-level jobs",
-      "link": "https://fortune.com/2026/05/15/ai-entry-level-jobs-higher-education-experience-gap/",
-      "pubDate": "2026-05-15T13:38:13.000Z",
-      "description": "Article URL: https://fortune.com/2026/05/15/ai-entry-level-jobs-higher-education-experience-gap/ Comments URL: https://news.ycombinator.com/item?id=48148440 Points: 32 # Comments: 37",
+      "title": "Waymo recalls 3,800 robotaxis after they drive into flood waters",
+      "link": "https://www.cnbc.com/2026/05/12/waymo-recalls-3800-robotaxis-after-able-drive-into-standing-water.html",
+      "pubDate": "2026-05-15T18:00:43.000Z",
+      "description": "Article URL: https://www.cnbc.com/2026/05/12/waymo-recalls-3800-robotaxis-after-able-drive-into-standing-water.html Comments URL: https://news.ycombinator.com/item?id=48151767 Points: 49 # Comments: 57",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "The Wonders of AI: We Are Retiring Our Bug Bounty Program",
-      "link": "https://turso.tech/blog/the-wonders-of-ai",
-      "pubDate": "2026-05-15T13:33:15.000Z",
-      "description": "Article URL: https://turso.tech/blog/the-wonders-of-ai Comments URL: https://news.ycombinator.com/item?id=48148391 Points: 90 # Comments: 42",
+      "title": "Building a UMatrix Replacement",
+      "link": "https://lock.cmpxchg8b.com/umatrix.html",
+      "pubDate": "2026-05-15T18:00:03.000Z",
+      "description": "Article URL: https://lock.cmpxchg8b.com/umatrix.html Comments URL: https://news.ycombinator.com/item?id=48151761 Points: 4 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Amazon workers under pressure to up their AI usage–so they're making up tasks",
-      "link": "https://www.fastcompany.com/91541586/amazon-workers-pressured-to-up-ai-use-extraneous-tasks",
-      "pubDate": "2026-05-15T13:28:55.000Z",
-      "description": "Article URL: https://www.fastcompany.com/91541586/amazon-workers-pressured-to-up-ai-use-extraneous-tasks Comments URL: https://news.ycombinator.com/item?id=48148337 Points: 27 # Comments: 15",
+      "title": "U.S. DOJ demands Apple and Google unmask over 100k users of car-tinkering app",
+      "link": "https://macdailynews.com/2026/05/15/u-s-doj-demands-apple-and-google-unmask-over-100000-users-of-popular-car-tinkering-app-in-emissions-crackdown/",
+      "pubDate": "2026-05-15T17:28:24.000Z",
+      "description": "Article URL: https://macdailynews.com/2026/05/15/u-s-doj-demands-apple-and-google-unmask-over-100000-users-of-popular-car-tinkering-app-in-emissions-crackdown/ Comments URL: https://news.ycombinator.com/item?id=48151383 Points: 182 # Comments: 98",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "High dimensional geometry is transforming the MRI industry(2017) [pdf]",
-      "link": "https://www.ams.org/government/DonohoPresentation06-28-17Final.pdf",
-      "pubDate": "2026-05-15T13:25:53.000Z",
-      "description": "Article URL: https://www.ams.org/government/DonohoPresentation06-28-17Final.pdf Comments URL: https://news.ycombinator.com/item?id=48148309 Points: 15 # Comments: 0",
+      "title": "Feedr v0.8.0 – a TUI RSS reader, now read the full article from your terminal",
+      "link": "https://github.com/bahdotsh/feedr",
+      "pubDate": "2026-05-15T17:22:53.000Z",
+      "description": "Article URL: https://github.com/bahdotsh/feedr Comments URL: https://news.ycombinator.com/item?id=48151317 Points: 14 # Comments: 6",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "I designed a nibble-oriented CPU in Verilog to build a scientific calculator",
+      "link": "https://github.com/gdevic/FPGA-Calculator",
+      "pubDate": "2026-05-15T17:15:58.000Z",
+      "description": "Article URL: https://github.com/gdevic/FPGA-Calculator Comments URL: https://news.ycombinator.com/item?id=48151237 Points: 41 # Comments: 5",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Show HN: Sx – an open-source package manager for AI skills, MCPs, and commands",
+      "link": "https://github.com/sleuth-io/sx",
+      "pubDate": "2026-05-15T17:03:22.000Z",
+      "description": "Article URL: https://github.com/sleuth-io/sx Comments URL: https://news.ycombinator.com/item?id=48151058 Points: 18 # Comments: 10",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Hightouch (YC S19) Is Hiring",
+      "link": "https://hightouch.com/careers",
+      "pubDate": "2026-05-15T17:01:15.000Z",
+      "description": "Article URL: https://hightouch.com/careers Comments URL: https://news.ycombinator.com/item?id=48151034 Points: 0 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Bun Rust rewrite: \"codebase fails basic miri checks, allows for UB in safe rust\"",
+      "link": "https://github.com/oven-sh/bun/issues/30719",
+      "pubDate": "2026-05-15T16:51:25.000Z",
+      "description": "Article URL: https://github.com/oven-sh/bun/issues/30719 Comments URL: https://news.ycombinator.com/item?id=48150900 Points: 236 # Comments: 151",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -139,38 +171,6 @@
       "description": "If 3D voxel scenes (that you can style), flying focus animations, or new CSS syntaxes sound like your kinda thing, then this issue of What’s !important is definitely for you. What’s !important #11: 3D Voxel Scenes, Flying Focus, CSS Syntaxes, and More originally handwritten and published with love o",
       "source": "CSS Tricks",
       "category": "Frontend"
-    },
-    {
-      "title": "Trade Dollars with other startups. Book it as revenue",
-      "link": "https://www.revswap.ai/",
-      "pubDate": "2026-05-15T13:05:29.000Z",
-      "description": "Article URL: https://www.revswap.ai/ Comments URL: https://news.ycombinator.com/item?id=48148084 Points: 33 # Comments: 10",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Too dangerous or just too expensive? The real reason Anthropic is hiding Mythos",
-      "link": "https://kingy.ai/ai/too-dangerous-to-release-or-just-too-expensive-the-real-reason-anthropic-is-hiding-its-most-powerful-ai/",
-      "pubDate": "2026-05-15T12:49:27.000Z",
-      "description": "Article URL: https://kingy.ai/ai/too-dangerous-to-release-or-just-too-expensive-the-real-reason-anthropic-is-hiding-its-most-powerful-ai/ Comments URL: https://news.ycombinator.com/item?id=48147945 Points: 87 # Comments: 89",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "The old world of tech is dying and the new cannot be born",
-      "link": "https://www.baldurbjarnason.com/2026/the-old-world-of-tech-is-dying/",
-      "pubDate": "2026-05-15T12:29:47.000Z",
-      "description": "Article URL: https://www.baldurbjarnason.com/2026/the-old-world-of-tech-is-dying/ Comments URL: https://news.ycombinator.com/item?id=48147793 Points: 71 # Comments: 28",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Power Tools Got Worse on Purpose. Who Owns DeWalt, Craftsman, and Milwaukee?",
-      "link": "https://www.worseonpurpose.com/p/your-power-tools-got-worse-on-purpose",
-      "pubDate": "2026-05-15T12:15:16.000Z",
-      "description": "Article URL: https://www.worseonpurpose.com/p/your-power-tools-got-worse-on-purpose Comments URL: https://news.ycombinator.com/item?id=48147665 Points: 38 # Comments: 6",
-      "source": "Hacker News",
-      "category": "Tech News"
     },
     {
       "title": "Computing and Displaying Discounted Prices in CSS",
