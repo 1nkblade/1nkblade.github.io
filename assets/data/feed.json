@@ -1,110 +1,134 @@
 {
-  "generatedAt": "2026-05-19T04:33:57.258Z",
+  "generatedAt": "2026-05-19T10:08:03.597Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "Building Hybrid Semantic Search in ASP.NET Core — SQL Vector, Azure AI Search, and the Bugs Between Them",
-      "link": "https://dev.to/sharad_kumar_45b990921489/building-hybrid-semantic-search-in-aspnet-core-sql-vector-azure-ai-search-and-the-bugs-between-aed",
-      "pubDate": "2026-05-19T04:31:22.000Z",
-      "description": "<p><em>Part 2 of building a public AI learning series on top of an existing Bulky MVC bookstore. Code is live at <a href=\"https://readify-eph9gsh4exanaafg.canadacentral-01.azurewebsites.net\" rel=\"noopener noreferrer\">readify</a></em></p> <p>Most semantic search tutorials start with a fresh project, ",
+      "title": "The Hidden $450,000 Leak in Your CI/CD Pipeline (And How to Fix It)",
+      "link": "https://dev.to/monkey_dluffy_b1914a5ff2/the-hidden-450000-leak-in-your-cicd-pipeline-and-how-to-fix-it-4o6f",
+      "pubDate": "2026-05-19T10:00:18.000Z",
+      "description": "<h2> The Macro-Economics of CI/CD Failures: An ROI Analysis of AI Triage Agents </h2> <p>In modern software engineering, the Continuous Integration and Continuous Deployment (CI/CD) pipeline serves as the operational backbone of product delivery. However, pipeline failures present a hidden, compound",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The Future of Architecture in the AI Era -A Backend Developer’s Perspective",
-      "link": "https://dev.to/kailasvs_94/the-future-of-architecture-in-the-ai-era-a-backend-developers-perspective-345l",
-      "pubDate": "2026-05-19T04:30:00.000Z",
-      "description": "<p>For years, backend engineering culture treated architecture as a sign of engineering maturity.</p> <p>We debated:</p> <ul> <li>Monoliths vs Microservices</li> <li>Clean Architecture</li> <li>Hexagonal Architecture</li> <li>CQRS</li> <li>Event-Driven Systems</li> <li>Repository Patterns</li> <li>D",
+      "title": "Comparing Traffic Data APIs: Road511 vs HERE vs TomTom vs INRIX",
+      "link": "https://dev.to/road511/comparing-traffic-data-apis-road511-vs-here-vs-tomtom-vs-inrix-55cg",
+      "pubDate": "2026-05-19T10:00:00.000Z",
+      "description": "<p>If you're building an app that needs traffic data, you have a few options. The big names — HERE, TomTom, INRIX — dominate the market. But they all sell the same thing: traffic flow from probe data (GPS traces from phones and connected vehicles).</p> <p>Road511 is different. It aggregates infrastr",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "What's new in llm-cli-gateway",
-      "link": "https://dev.to/wernerk_au/whats-new-in-llm-cli-gateway-58b8",
-      "pubDate": "2026-05-19T04:27:38.000Z",
-      "description": "<p>A few weeks ago I wrote <a href=\"https://medium.com/@wernerk/why-cli-wrapping-beats-api-proxying-for-multi-llm-development-1ddd492c7153\" rel=\"noopener noreferrer\">Why CLI Wrapping Beats API Proxying for Multi-LLM Development</a>, the case for spawning <code>claude</code>, <code>codex</code>, and ",
+      "title": "What I Learned From Reading 50 Data Pipeline Postmortems",
+      "link": "https://dev.to/andrew_tan_layline/what-i-learned-from-reading-50-data-pipeline-postmortems-1moi",
+      "pubDate": "2026-05-19T09:58:18.000Z",
+      "description": "<p><em>After analyzing 50 public postmortems from Uber, Netflix, Stripe, and others, four failure patterns emerge again and again. Most of them are preventable at the design stage.</em></p> <h2> The postmortem paradox </h2> <p>Every major tech company publishes them now. Stripe has a status page ful",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Stop Treating Google Forms Responses as Rows",
-      "link": "https://dev.to/lovanaut55/stop-treating-google-forms-responses-as-rows-2gfe",
-      "pubDate": "2026-05-19T04:24:43.000Z",
-      "description": "<p>Google Forms responses often start as rows.</p> <p>That is fine.</p> <p>The first version is simple:<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight plaintext\"><code>Google Form -&gt; Google Sheet -&gt; rows of responses </code></pre> </div> <p>For a small survey, that ma",
+      "title": "SEO Mistakes That Are Silently Killing Your Dev Projects",
+      "link": "https://dev.to/mitudas/seo-mistakes-that-are-silently-killing-your-dev-projects-5bbm",
+      "pubDate": "2026-05-19T09:58:03.000Z",
+      "description": "<p>I spent 3 hours debugging why Google couldn't crawl my React app. Lighthouse scores were green. The app loaded fine in the browser. But Googlebot was seeing a blank <code>&lt;div id=\"root\"&gt;&lt;/div&gt;</code> and walking away confused. The fix was 4 lines of meta tags and a prerender config I'",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Building 11 Free Finance Calculators in React: What I Learned About State, Forms, SEO, and Shipping Without a Backend",
-      "link": "https://dev.to/solomonwealthcode/building-11-free-finance-calculators-in-react-what-i-learned-about-state-forms-seo-and-shipping-176m",
-      "pubDate": "2026-05-19T04:20:59.000Z",
-      "description": "<p>I shipped a site called Solomon Wealth Code with 11 free finance calculators (tithe, debt snowball, compound interest, mortgage payoff, net worth, emergency fund, generosity, retirement longevity, budget). Stack: React 18 + Vite + Tailwind + TypeScript, no backend, no database, no auth.</p> <p>Th",
+      "title": "I Needed a Faster Way to Make VTT Tokens for DnD, So I Built a Local-First Token Maker",
+      "link": "https://dev.to/sir_97b7841232683cb925c9/i-needed-a-faster-way-to-make-vtt-tokens-for-dnd-so-i-built-a-local-first-token-maker-3b7h",
+      "pubDate": "2026-05-19T09:57:28.000Z",
+      "description": "<p>I built a simple token maker for my DnD and VTT workflow<br> Tags: dnd, webdev, gamedev, tooling<br> Making tokens for a tabletop campaign should not take that long.<br> But if you run DnD games, you probably know the small routine:<br> • find character art<br> • open an image editor<br> • crop t",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Blockchain 101: A Web Developer's Introduction",
-      "link": "https://dev.to/enigma06702/blockchain-101-a-web-developers-introduction-2mn8",
-      "pubDate": "2026-05-19T04:14:44.000Z",
-      "description": "<p><strong>What is Blockchain?</strong><br> Blockchain is essentially a distributed database that stores records (transactions) across multiple computers in a network. Think of it like a shared Google Sheet that hundreds of computers maintain simultaneously—no single company or person controls it.</",
+      "title": "Fine-Tuning Llama 3.2 3B on Medical QA: Week 1 Setup and Baseline Inference",
+      "link": "https://dev.to/sarko07/fine-tuning-llama-32-3b-on-medical-qa-week-1-setup-and-baseline-inference-3k25",
+      "pubDate": "2026-05-19T09:56:18.000Z",
+      "description": "<h2> The Problem With General-Purpose LLMs in Healthcare </h2> <p>Ask a general-purpose LLM about the early symptoms of type 2 diabetes and it might tell you:</p> <p><code>\"When your body produces more insulin, it can cause your body to hold onto more water, leading to increased thirst.\"</code></p> ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Raising CVR and AOV Together Beats Pushing One Alone — A Revenue Simulation for 2026",
-      "link": "https://dev.to/toshihiro_shishido/raising-cvr-and-aov-together-beats-pushing-one-alone-a-revenue-simulation-for-2026-49m6",
-      "pubDate": "2026-05-19T04:10:09.000Z",
-      "description": "<p>\"Lift CVR by 30%.\" \"Push AOV up 20%.\" Single-axis goals like these are the default in most ecommerce roadmaps — but they hit a wall faster than the dashboard suggests. CVR plateaus once you drift far from the industry baseline (competitor campaigns claw it back). AOV runs straight into price elas",
+      "title": "5 Production Stacks for Live Data Ingestion at Scale (Without Getting Blocked)",
+      "link": "https://dev.to/prithwish_nath/5-production-stacks-for-live-data-ingestion-at-scale-without-getting-blocked-25k9",
+      "pubDate": "2026-05-19T09:53:42.000Z",
+      "description": "<p><strong>TL;DR:</strong> Most teams over-engineer data ingestion. They use Kafka before they’ve hit their first rate limit, or Playwright before they’ve checked the network tab. This guide shows five production-tested stacks for live data ingestion from minimal fetch + cron up to LLM agents callin",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "\"I built a code intelligence tool that runs on a Samsung A04 in Termux — and it works offline\"",
-      "link": "https://dev.to/junior_jamine_b8344e812c1/i-built-a-code-intelligence-tool-that-runs-on-a-samsung-a04-in-termux-and-it-works-offline-2ko3",
-      "pubDate": "2026-05-19T04:03:32.000Z",
-      "description": "<p>I'm not coding on a MacBook Pro. I'm not on a powerful Linux desktop. I'm coding on a <strong>Samsung A04</strong> using <strong>Termux</strong> — and I got tired of having no real developer tooling.</p> <p>So I built my own.</p> <p>It's called <strong>NIL</strong> — a code intelligence engine wr",
+      "title": "Deepfake Fraud Just Tripled to $1.1B — And You're Looking for the Wrong Thing",
+      "link": "https://dev.to/caracomp/deepfake-fraud-just-tripled-to-11b-and-youre-looking-for-the-wrong-thing-19ig",
+      "pubDate": "2026-05-19T09:50:21.000Z",
+      "description": "<p><strong><a href=\"https://go.caracomp.com/n/0519260948?src=devto\" rel=\"noopener noreferrer\">investigating the $1.1B surge in synthetic media fraud</a></strong></p> <p>The technical landscape of digital evidence just shifted under our feet. Deepfake-related fraud losses in the U.S. didn't just grow",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Energy Grid Observability: What the Power Sector Can Learn from Google SRE",
-      "link": "https://dev.to/npayyappilly/energy-grid-observability-what-the-power-sector-can-learn-from-google-sre-39cd",
-      "pubDate": "2026-05-19T04:00:00.000Z",
-      "description": "<p>On August 14, 2003, a software bug silenced an alarm. The alarm was part of the state estimation system at FirstEnergy Corporation in Ohio — a system whose job was to model the real-time health of the transmission network and alert operators when that model diverged from a safe operating envelope",
+      "title": "Past Tense: A DragonRuby Sound Installation Built on libpd",
+      "link": "https://dev.to/julianrubisch/past-tense-a-dragonruby-sound-installation-built-on-libpd-28lf",
+      "pubDate": "2026-05-19T09:49:13.000Z",
+      "description": "<p>Two to four tablets sit on plinths in a gallery. Each one is listening: a contact mic on the floor, an electromagnetic pickup near the wall, a shortwave radio scanning. A black-hole visualization fills the screen, slowly accreting whatever the room is making. Visitors swipe a circular slider and ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Your Tech Stack Has an AI Problem: How to Audit and Fix It in 2026",
-      "link": "https://dev.to/lycore/your-tech-stack-has-an-ai-problem-how-to-audit-and-fix-it-in-2026-57p3",
-      "pubDate": "2026-05-19T04:00:00.000Z",
-      "description": "<h2> The Stack That Made Sense in 2022 Might Be Working Against You Now </h2> <p>Two years ago, the advice was consistent: pick boring technology. Rails, Django, Postgres, maybe some Redis. Proven tools, well-understood failure modes, strong hiring pools.</p> <p>That advice isn't wrong. But it's inc",
+      "title": "How to Build a Stateful AI Agent with FastAPI, LangGraph, and PostgreSQL.",
+      "link": "https://dev.to/shahzaib_dev/how-to-build-a-stateful-ai-agent-with-fastapi-langgraph-and-postgresql-5b45",
+      "pubDate": "2026-05-19T09:47:38.000Z",
+      "description": "<p>Your AI demo worked perfectly in development.</p> <p>You opened a local notebook, wrote a clean prompt wrapper, and watched the model respond beautifully to your test queries. It felt like magic.</p> <p>Then production traffic hit.</p> <p>User sessions started losing memory. API latency exploded ",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "Mini Shai-Hulud Strikes Again: 314 npm Packages Compromised",
+      "link": "https://safedep.io/mini-shai-hulud-strikes-again-314-npm-packages-compromised/",
+      "pubDate": "2026-05-19T05:04:49.000Z",
+      "description": "Article URL: https://safedep.io/mini-shai-hulud-strikes-again-314-npm-packages-compromised/ Comments URL: https://news.ycombinator.com/item?id=48189368 Points: 92 # Comments: 44",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "PyTorch Landscape",
+      "link": "https://pytorch.landscape2.io",
+      "pubDate": "2026-05-19T04:29:39.000Z",
+      "description": "Article URL: https://pytorch.landscape2.io Comments URL: https://news.ycombinator.com/item?id=48189178 Points: 45 # Comments: 8",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Show HN: Hsrs – Type-Safe Haskell Bindings Generator for Rust",
+      "link": "https://github.com/harmont-dev/hsrs",
+      "pubDate": "2026-05-19T04:06:09.000Z",
+      "description": "Hey everyone! I've been working on hsrs, a type-safe Haskell Bindings Generator for Rust.I couldn't really find any bindings generator that would create type-safe, rich bindings for Haskell from Rust. Naturally, both languages have rich type systems, so I was amazed that no awesome bindings generato",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "LLMCap – A proxy that hard-stops LLM API calls when you hit a dollar cap",
+      "link": "https://www.llmcap.io/",
+      "pubDate": "2026-05-19T03:56:57.000Z",
+      "description": "Article URL: https://www.llmcap.io/ Comments URL: https://news.ycombinator.com/item?id=48188996 Points: 18 # Comments: 15",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Peter Neumann has died",
+      "link": "https://www.tuhs.org/pipermail/tuhs/2026-May/033748.html",
+      "pubDate": "2026-05-19T03:17:45.000Z",
+      "description": "Article URL: https://www.tuhs.org/pipermail/tuhs/2026-May/033748.html Comments URL: https://news.ycombinator.com/item?id=48188787 Points: 108 # Comments: 6",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "Peter Salus has died",
       "link": "https://www.tuhs.org/pipermail/tuhs/2026-May/033750.html",
       "pubDate": "2026-05-19T02:56:42.000Z",
-      "description": "Article URL: https://www.tuhs.org/pipermail/tuhs/2026-May/033750.html Comments URL: https://news.ycombinator.com/item?id=48188665 Points: 73 # Comments: 7",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "War game exposed U.S. vulnerability to low-tech warfare",
-      "link": "https://nsarchive.gwu.edu/news/2024-11-01/rigged-war-game-exposed-us-vulnerability-low-tech-warfare",
-      "pubDate": "2026-05-19T02:25:29.000Z",
-      "description": "Article URL: https://nsarchive.gwu.edu/news/2024-11-01/rigged-war-game-exposed-us-vulnerability-low-tech-warfare Comments URL: https://news.ycombinator.com/item?id=48188506 Points: 13 # Comments: 5",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "The American Rebellion Against AI Is Gaining Steam",
-      "link": "https://www.wsj.com/tech/ai/the-american-rebellion-against-ai-is-gaining-steam-94b72529",
-      "pubDate": "2026-05-19T01:51:48.000Z",
-      "description": "Article URL: https://www.wsj.com/tech/ai/the-american-rebellion-against-ai-is-gaining-steam-94b72529 Comments URL: https://news.ycombinator.com/item?id=48188310 Points: 73 # Comments: 64",
+      "description": "Article URL: https://www.tuhs.org/pipermail/tuhs/2026-May/033750.html Comments URL: https://news.ycombinator.com/item?id=48188665 Points: 135 # Comments: 11",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -112,7 +136,7 @@
       "title": "The last six months in LLMs in five minutes",
       "link": "https://simonwillison.net/2026/May/19/5-minute-llms/",
       "pubDate": "2026-05-19T01:30:42.000Z",
-      "description": "Article URL: https://simonwillison.net/2026/May/19/5-minute-llms/ Comments URL: https://news.ycombinator.com/item?id=48188183 Points: 82 # Comments: 25",
+      "description": "Article URL: https://simonwillison.net/2026/May/19/5-minute-llms/ Comments URL: https://news.ycombinator.com/item?id=48188183 Points: 440 # Comments: 304",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -120,7 +144,7 @@
       "title": "Pope Leo XIV’s first encyclical Magnifica humanitas to be published May 25",
       "link": "https://www.vaticannews.va/en/pope/news/2026-05/pope-leo-xiv-first-encyclical-magnifica-humanitas.html",
       "pubDate": "2026-05-18T23:18:10.000Z",
-      "description": "Article URL: https://www.vaticannews.va/en/pope/news/2026-05/pope-leo-xiv-first-encyclical-magnifica-humanitas.html Comments URL: https://news.ycombinator.com/item?id=48187201 Points: 146 # Comments: 88",
+      "description": "Article URL: https://www.vaticannews.va/en/pope/news/2026-05/pope-leo-xiv-first-encyclical-magnifica-humanitas.html Comments URL: https://news.ycombinator.com/item?id=48187201 Points: 227 # Comments: 133",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -128,7 +152,7 @@
       "title": "Click (2016)",
       "link": "https://clickclickclick.click/",
       "pubDate": "2026-05-18T23:03:02.000Z",
-      "description": "Article URL: https://clickclickclick.click/ Comments URL: https://news.ycombinator.com/item?id=48187054 Points: 235 # Comments: 56",
+      "description": "Article URL: https://clickclickclick.click/ Comments URL: https://news.ycombinator.com/item?id=48187054 Points: 302 # Comments: 73",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -136,31 +160,7 @@
       "title": "Alignment pretraining: AI discourse creates self-fulfilling (mis)alignment",
       "link": "https://arxiv.org/abs/2601.10160",
       "pubDate": "2026-05-18T21:29:13.000Z",
-      "description": "Article URL: https://arxiv.org/abs/2601.10160 Comments URL: https://news.ycombinator.com/item?id=48185938 Points: 31 # Comments: 13",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "The FBI Wants to Buy Nationwide Access to License Plate Readers",
-      "link": "https://www.404media.co/the-fbi-wants-to-buy-nationwide-access-to-license-plate-readers/",
-      "pubDate": "2026-05-18T19:28:59.000Z",
-      "description": "Article URL: https://www.404media.co/the-fbi-wants-to-buy-nationwide-access-to-license-plate-readers/ Comments URL: https://news.ycombinator.com/item?id=48184350 Points: 251 # Comments: 98",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Hyperpolyglot Lisp: Common Lisp, Racket, Clojure, Emacs Lisp",
-      "link": "https://hyperpolyglot.org/lisp",
-      "pubDate": "2026-05-18T19:27:25.000Z",
-      "description": "Article URL: https://hyperpolyglot.org/lisp Comments URL: https://news.ycombinator.com/item?id=48184322 Points: 143 # Comments: 30",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Loopmaster – Livecoding Music IDE",
-      "link": "https://loopmaster.xyz/",
-      "pubDate": "2026-05-18T18:44:03.000Z",
-      "description": "Article URL: https://loopmaster.xyz/ Comments URL: https://news.ycombinator.com/item?id=48183757 Points: 84 # Comments: 25",
+      "description": "Article URL: https://arxiv.org/abs/2601.10160 Comments URL: https://news.ycombinator.com/item?id=48185938 Points: 56 # Comments: 24",
       "source": "Hacker News",
       "category": "Tech News"
     },
