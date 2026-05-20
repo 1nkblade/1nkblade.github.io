@@ -1,110 +1,166 @@
 {
-  "generatedAt": "2026-05-20T15:57:00.407Z",
+  "generatedAt": "2026-05-20T20:31:00.476Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "Building a Resilient Checkout in NestJS: Retry, Idempotency, and a System That Tunes Itself",
-      "link": "https://dev.to/maironcuello/building-a-resilient-checkout-in-nestjs-retry-idempotency-and-a-system-that-tunes-itself-38d8",
-      "pubDate": "2026-05-20T15:52:36.000Z",
-      "description": "<p>The problem nobody talks about</p> <p>You have a payment gateway. It fails sometimes. So you add a retry.</p> <p>Now you have a worse problem: a customer clicks \"Pay\", the request reaches Stripe, the charge goes through, but the response never comes back. Your retry fires. Stripe charges them aga",
+      "title": "Gemma 4 wrote three summaries in one response. The middle one was a self-disclaimer.",
+      "link": "https://dev.to/thehwang/gemma-4-wrote-three-summaries-in-one-response-the-middle-one-was-a-self-disclaimer-3pj9",
+      "pubDate": "2026-05-20T20:23:25.000Z",
+      "description": "<blockquote> <p><strong>The short version, in case the title was being coy:</strong> at <code>num_ctx=2048</code>, Gemma 4 E2B produces three sequential outputs in a single response — a mostly-hallucinated meeting summary, a <code>Note:</code> saying that summary isn't actually in the transcript, th",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I built an open-source alternative to ViciDial. Here's the stack, and the bugs that ate my nights.",
-      "link": "https://dev.to/dev0miky/i-built-an-open-source-alternative-to-vicidial-heres-the-stack-and-the-bugs-that-ate-my-nights-3636",
-      "pubDate": "2026-05-20T15:51:06.000Z",
-      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fsu8qj356v9as5pzu6wl4.png\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/width=800%",
+      "title": "Trunk-Based Development with Release Streams: A Real-World Case Study",
+      "link": "https://dev.to/ranas7786/trunk-based-development-with-release-streams-a-real-world-case-study-135g",
+      "pubDate": "2026-05-20T20:22:09.000Z",
+      "description": "<h2> Escaping Cherry-Pick Hell: How to Manage Parallel Enterprise Releases Without GitFlow </h2> <p>We’ve all been there. A directive comes down from above: <em>\"Every project must follow the standard GitFlow playbook. Feature -&gt; Develop -&gt; Release -&gt; Master.\"</em> </p> <p>It sounds pristin",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Why AI Coding Agents Fail Senior Engineers (And What I Built to Fix It)",
-      "link": "https://dev.to/a7medalyapany/why-ai-coding-agents-fail-senior-engineers-and-what-i-built-to-fix-it-4jo5",
-      "pubDate": "2026-05-20T15:50:34.000Z",
-      "description": "<h1> Why AI Coding Agents Fail Senior Engineers (And What I Built to Fix It) </h1> <p>AI coding agents are impressive. They write syntax-correct code. They know a thousand libraries. <br> They can implement anything you describe in seconds.</p> <p>And that's exactly the problem.</p> <h2> The Speed T",
+      "title": "Hardware End-of-Support-Life (EOSL) — The EOL Risk Nobody Tracks",
+      "link": "https://dev.to/endoflifeai/hardware-end-of-support-life-eosl-the-eol-risk-nobody-tracks-5hfa",
+      "pubDate": "2026-05-20T20:20:56.000Z",
+      "description": "<p>Everyone talks about software EOL. Nobody talks about hardware EOSL.</p> <p>End-of-Support-Life (EOSL) hardware creates exactly the same security exposure as EOL software — firmware vulnerabilities that will never be patched, CVEs that accumulate without remediation, and compliance findings that ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Stop Pasting URLs into Security Header Sites - Use This CLI",
-      "link": "https://dev.to/david_dev_sec/stop-pasting-urls-into-security-header-sites-use-this-cli-4jg0",
-      "pubDate": "2026-05-20T15:47:00.000Z",
-      "description": "<h2> Get an A–F grade for your site's HTTP security headers without leaving the terminal. Use it as a library, a CLI, or a CI gate that fails deploys on regression. </h2> <p>The flow goes like this:</p> <ol> <li>Ship a deploy.</li> <li>Alt-tab to securityheaders.com.</li> <li>Paste in the URL.</li> ",
+      "title": "AI Cost Attribution Evidence Anchors in 2026: How to Close Tenant Chargeback Disputes Without Re-running Allocation",
+      "link": "https://dev.to/argon_loop/ai-cost-attribution-evidence-anchors-in-2026-how-to-close-tenant-chargeback-disputes-without-16na",
+      "pubDate": "2026-05-20T20:17:08.000Z",
+      "description": "<h2> TLDR </h2> <ul> <li>Tenant AI chargeback disputes usually break at evidence continuity, not at formula selection.</li> <li>Open FOCUS work in 2026 shows live pressure on split-allocation guidance and actor attribution.</li> <li>A practical operating fix is a minimum evidence-anchor bundle requi",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "26 of 39 AI Companies Use SPF Softfail — Their Email Can Be Spoofed",
-      "link": "https://dev.to/marketoracle/26-of-39-ai-companies-use-spf-softfail-their-email-can-be-spoofed-1846",
-      "pubDate": "2026-05-20T15:46:07.000Z",
-      "description": "<p>I queried the DNS records for 39 AI companies — labs, safety orgs, tooling companies — and checked their SPF and DMARC email security policies. The results are worse than I expected.</p> <h2> The headline number </h2> <ul> <li> <strong>26 of 39</strong> use SPF <code>~all</code> (softfail) — incl",
+      "title": "Self-evolving retrieval lifts benchmark scores 25%",
+      "link": "https://dev.to/olaughter/self-evolving-retrieval-lifts-benchmark-scores-25-595e",
+      "pubDate": "2026-05-20T20:16:57.000Z",
+      "description": "<p>Agents that adapt their retrieval configurations while running deliver roughly a quarter more performance on established benchmarks — EvolveMem reports a 25.7 % relative lift over the strongest static baseline <a href=\"https://arxiv.org/abs/2605.13941\" rel=\"noopener noreferrer\">[1]</a>. The resul",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Mastering useRef in React: The Hook That Gives React Memory Without Re-Rendering",
-      "link": "https://dev.to/kathirvel-s/mastering-useref-in-react-the-hook-that-gives-react-memory-without-re-rendering-4abe",
-      "pubDate": "2026-05-20T15:40:32.000Z",
-      "description": "<p>When developers first learn React, most of the focus goes toward <code>useState</code>.</p> <p>Because state changes update the UI.</p> <p>Buttons update.</p> <p>Counters increase.</p> <p>Forms react instantly.</p> <p>Everything feels connected.</p> <p>But after building larger applications, one ",
+      "title": "AI/ML Research Digest — May 16, 2026",
+      "link": "https://dev.to/olaughter/aiml-research-digest-may-16-2026-4cmp",
+      "pubDate": "2026-05-20T20:14:32.000Z",
+      "description": "<p><strong>Distillation + low‑rank tricks cut compute</strong><br><br> Combining knowledge distillation with low‑rank adapters now yields video generators that need only one or two sampling steps, a dramatic speed‑up over traditional diffusion pipelines <a href=\"https://arxiv.org/abs/2605.15141\" rel",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "One Brain, Many Hands: Building a Parallel Task Orchestrator for AI Agents",
-      "link": "https://dev.to/cloudx/one-brain-many-hands-building-a-parallel-task-orchestrator-for-ai-agents-3nb4",
-      "pubDate": "2026-05-20T15:39:00.000Z",
-      "description": "<h2> The Problem No One Talks About </h2> <p>AI coding assistants are fast. Absurdly fast. They can scaffold a service, write tests, and refactor a module in the time it takes me to finish my coffee.</p> <p>But they do it <strong>one thing at a time</strong>.</p> <p>I was working on a microservices ",
+      "title": "My Experiment with Global Access: A Cautionary Tale of Unchained Commerce",
+      "link": "https://dev.to/exit-own/my-experiment-with-global-access-a-cautionary-tale-of-unchained-commerce-lb4",
+      "pubDate": "2026-05-20T20:12:02.000Z",
+      "description": "<h2> The Problem We Were Actually Solving </h2> <p>I've never been satisfied with how creators in developing countries access global markets. Our product lets people from all over the world sell digital products, but for users in countries like Bangladesh, Pakistan, or Nigeria, this is more of a myt",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Understanding useRef in React: Concepts, Use Cases, and Examples",
-      "link": "https://dev.to/vinayagam_6a170db9281d526/understanding-useref-in-react-concepts-use-cases-and-examples-261i",
-      "pubDate": "2026-05-20T15:38:35.000Z",
-      "description": "<h2> <strong>Understanding useRef in React (Beginner Friendly Guide)</strong> </h2> <p>React provides several hooks to manage state and behavior in functional components. One of the most commonly misunderstood hooks is <code>useRef</code>. While it looks simple, it solves important problems related ",
+      "title": "Shipping Your Machine: Building a Container in 50 Lines of Code (Part 1)",
+      "link": "https://dev.to/yechielk/shipping-your-machine-building-a-container-in-60-lines-of-code-part-1-14ma",
+      "pubDate": "2026-05-20T20:09:10.000Z",
+      "description": "<h2> The \"Works on My Machine\" Problem </h2> <p>We've all been there. You spend days writing a new feature. You test it locally, everything passes, you push it to production, and... <em>boom</em>. It crashes immediately. </p> <p><em>\"But it works on my machine!\"</em> you cry out to your lead enginee",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "An AI That Can't Trade, a Human That Can't Say No",
-      "link": "https://dev.to/cart0ne/an-ai-that-cant-trade-a-human-that-cant-say-no-40ii",
-      "pubDate": "2026-05-20T15:38:27.000Z",
-      "description": "<p>Every startup has an origin story. Most of them are polished, rehearsed, and slightly dishonest. This one involves a language model that was answering cake recipe questions 24 hours before becoming a CEO, and a human who still isn't entirely sure what happened.</p> <p>Welcome to BagHolderAI. This",
+      "title": "AVL Trees Explained: How Rotations Keep BST Operations O(log n)",
+      "link": "https://dev.to/codeintuition/arrays-vs-linked-lists-why-arrays-are-faster-in-practice-3dhj",
+      "pubDate": "2026-05-20T19:50:04.000Z",
+      "description": "<p>You learn binary search trees and walk away believing every operation is <code>O(log n)</code>. It isn't. That guarantee only holds when the tree stays balanced, and a plain BST has no mechanism to enforce that. Insert <code>[1, 2, 3, 4, 5]</code> into an empty BST and you've built a linked list ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "SSH died. Spent 3 hours fixing the wrong thing.",
-      "link": "https://dev.to/anxi0uz/ssh-died-spent-3-hours-fixing-the-wrong-thing-4dlh",
-      "pubDate": "2026-05-20T15:38:14.000Z",
-      "description": "<p>Three or four days ago I deployed a Gitea runner, tested it, closed the terminal and moved on. Today, for some reason I don't even remember, I tried to SSH into the server. Nothing.</p> <p>Opened the browser to check if the server was alive — course project running, Gitea up, Nextcloud up, everyt",
+      "title": "Go Gotchas That Cost Me Hours (Learn From My Pain)",
+      "link": "https://dev.to/francis_cidney_awuor/go-gotchas-that-cost-me-hours-learn-from-my-pain-3jk0",
+      "pubDate": "2026-05-20T19:46:53.000Z",
+      "description": "<p>Go has burned me more than once. With bugs that felt like the language was glitching:</p> <p>Channels that blocked after I’d “fixed” the blocking. Functions that kept running after hitting an error. Slices that printed data that seemingly came out of nowhere.</p> <p>But as I’ve come to learn, eve",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Nobel laureate Olga Tokarczuk apparently used AI to write her latest novel",
-      "link": "https://lithub.com/nobel-laureate-olga-tokarczuk-apparently-used-ai-to-write-her-latest-novel/",
-      "pubDate": "2026-05-20T15:10:43.000Z",
-      "description": "Article URL: https://lithub.com/nobel-laureate-olga-tokarczuk-apparently-used-ai-to-write-her-latest-novel/ Comments URL: https://news.ycombinator.com/item?id=48209112 Points: 26 # Comments: 32",
+      "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
+      "link": "https://openai.com/index/model-disproves-discrete-geometry-conjecture/",
+      "pubDate": "2026-05-20T19:05:30.000Z",
+      "description": "Article URL: https://openai.com/index/model-disproves-discrete-geometry-conjecture/ Comments URL: https://news.ycombinator.com/item?id=48212493 Points: 211 # Comments: 122",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Testing distributed systems with AI agents",
-      "link": "https://github.com/shenli/distributed-system-testing",
-      "pubDate": "2026-05-20T14:40:42.000Z",
-      "description": "Article URL: https://github.com/shenli/distributed-system-testing Comments URL: https://news.ycombinator.com/item?id=48208685 Points: 13 # Comments: 1",
+      "title": "Tracking Starbucks' 'widely recyclable' cups: none ended up at recycling",
+      "link": "https://www.beyondplastics.org/press-releases/starbucks-cups-recyclable-report",
+      "pubDate": "2026-05-20T18:50:59.000Z",
+      "description": "Article URL: https://www.beyondplastics.org/press-releases/starbucks-cups-recyclable-report Comments URL: https://news.ycombinator.com/item?id=48212279 Points: 98 # Comments: 74",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Victory: Tennessee man jailed 37 days for Trump meme wins $835,000 settlement",
-      "link": "https://www.fire.org/news/victory-tennessee-man-jailed-37-days-trump-meme-wins-835000-settlement-after-first-amendment",
-      "pubDate": "2026-05-20T14:30:47.000Z",
-      "description": "Article URL: https://www.fire.org/news/victory-tennessee-man-jailed-37-days-trump-meme-wins-835000-settlement-after-first-amendment Comments URL: https://news.ycombinator.com/item?id=48208502 Points: 128 # Comments: 53",
+      "title": "Node.js 26.0.0 (Now with Temporal)",
+      "link": "https://nodejs.org/en/blog/release/v26.0.0",
+      "pubDate": "2026-05-20T18:48:30.000Z",
+      "description": "Article URL: https://nodejs.org/en/blog/release/v26.0.0 Comments URL: https://news.ycombinator.com/item?id=48212242 Points: 51 # Comments: 12",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Flipper One Tech Specs",
+      "link": "https://docs.flipper.net/one/general/tech-specs",
+      "pubDate": "2026-05-20T18:33:56.000Z",
+      "description": "Article URL: https://docs.flipper.net/one/general/tech-specs Comments URL: https://news.ycombinator.com/item?id=48212046 Points: 61 # Comments: 17",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Qian Xuesen: The missile genius America lost and China gained (2025)",
+      "link": "https://www.usni.org/magazines/naval-history/2025/december/missile-genius-america-lost-and-china-gained",
+      "pubDate": "2026-05-20T17:48:52.000Z",
+      "description": "Article URL: https://www.usni.org/magazines/naval-history/2025/december/missile-genius-america-lost-and-china-gained Comments URL: https://news.ycombinator.com/item?id=48211409 Points: 28 # Comments: 19",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Why is Inkwell stuck in review",
+      "link": "https://www.manton.org/2026/05/19/why-is-inkwell-stuck-in.html",
+      "pubDate": "2026-05-20T17:30:15.000Z",
+      "description": "Article URL: https://www.manton.org/2026/05/19/why-is-inkwell-stuck-in.html Comments URL: https://news.ycombinator.com/item?id=48211134 Points: 43 # Comments: 13",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Apparently Google hates us now",
+      "link": "https://twitter.com/pokemoncentral/status/2057123807404638250",
+      "pubDate": "2026-05-20T16:27:25.000Z",
+      "description": "Article URL: https://twitter.com/pokemoncentral/status/2057123807404638250 Comments URL: https://news.ycombinator.com/item?id=48210263 Points: 325 # Comments: 160",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Show HN: Lance – image/video generation and understanding in one model",
+      "link": "https://github.com/bytedance/Lance",
+      "pubDate": "2026-05-20T15:45:32.000Z",
+      "description": "The model has 3B active parameters. We put the code, homepage, paper and model links here:- Code: https://github.com/bytedance/Lance- Homepage: https://lance-project.github.io/- Paper: https://arxiv.org/abs/2605.18678- Model: https://huggingface.co/bytedance-research/Lancep.s. Lance is a research pr",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "SBCL: the ultimate assembly code breadboard (2014)",
+      "link": "https://pvk.ca/Blog/2014/03/15/sbcl-the-ultimate-assembly-code-breadboard/",
+      "pubDate": "2026-05-20T15:39:48.000Z",
+      "description": "Article URL: https://pvk.ca/Blog/2014/03/15/sbcl-the-ultimate-assembly-code-breadboard/ Comments URL: https://news.ycombinator.com/item?id=48209558 Points: 90 # Comments: 5",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Formal Verification Gates for AI Coding Loops",
+      "link": "https://reubenbrooks.dev/blog/structural-backpressure-beats-smarter-agents/",
+      "pubDate": "2026-05-20T15:25:45.000Z",
+      "description": "Article URL: https://reubenbrooks.dev/blog/structural-backpressure-beats-smarter-agents/ Comments URL: https://news.ycombinator.com/item?id=48209323 Points: 70 # Comments: 11",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -115,62 +171,6 @@
       "description": "It still hits like a ton of bricks to see the steep decline in Stack Overflow questions. What does that mean about learning in our industry? Stack Overflow: When We Stop Asking originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
       "source": "CSS Tricks",
       "category": "Frontend"
-    },
-    {
-      "title": "America's Greatest Strategic Blunder: The Imprisonment of Qian Xuesen",
-      "link": "https://danieltan.weblog.lol/2026/05/americas-greatest-strategic-blunder-the-imprisonment-of-qian-xuesen",
-      "pubDate": "2026-05-20T13:19:36.000Z",
-      "description": "Article URL: https://danieltan.weblog.lol/2026/05/americas-greatest-strategic-blunder-the-imprisonment-of-qian-xuesen Comments URL: https://news.ycombinator.com/item?id=48207251 Points: 62 # Comments: 32",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Goodbye Visa and Mastercard: 130M Europeans switching to sovereign payment",
-      "link": "https://www.lesnumeriques.com/banque-en-ligne/adieu-visa-et-mastercard-130-millions-d-europeens-basculent-vers-un-paiement-100-souverain-des-2026-n250918.html",
-      "pubDate": "2026-05-20T13:02:30.000Z",
-      "description": "Article URL: https://www.lesnumeriques.com/banque-en-ligne/adieu-visa-et-mastercard-130-millions-d-europeens-basculent-vers-un-paiement-100-souverain-des-2026-n250918.html Comments URL: https://news.ycombinator.com/item?id=48207004 Points: 453 # Comments: 369",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Meta blocks human rights accounts from reaching audiences in Arabia and the UAE",
-      "link": "https://www.alqst.org/ar/posts/1190",
-      "pubDate": "2026-05-20T12:43:41.000Z",
-      "description": "Article URL: https://www.alqst.org/ar/posts/1190 Comments URL: https://news.ycombinator.com/item?id=48206768 Points: 487 # Comments: 188",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Anna's Archive Hit with $19.5M Default Judgment and Global Domain Takedown Order",
-      "link": "https://torrentfreak.com/annas-archive-hit-with-19-5m-default-judgment-and-global-domain-takedown-order/",
-      "pubDate": "2026-05-20T12:30:58.000Z",
-      "description": "Article URL: https://torrentfreak.com/annas-archive-hit-with-19-5m-default-judgment-and-global-domain-takedown-order/ Comments URL: https://news.ycombinator.com/item?id=48206640 Points: 158 # Comments: 123",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Saying Goodbye to Asm.js",
-      "link": "https://spidermonkey.dev/blog/2026/05/20/saying-goodbye-to-asmjs.html",
-      "pubDate": "2026-05-20T12:01:56.000Z",
-      "description": "Article URL: https://spidermonkey.dev/blog/2026/05/20/saying-goodbye-to-asmjs.html Comments URL: https://news.ycombinator.com/item?id=48206340 Points: 127 # Comments: 61",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "College students drown out AI-praising commencement speeches with boos",
-      "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/college-students-drown-out-ai-praising-commencement-speeches-with-boos-deal-with-it-one-speaker-fires-back-as-students-heckle-positive-pitches-for-ais-role",
-      "pubDate": "2026-05-20T11:51:32.000Z",
-      "description": "Article URL: https://www.tomshardware.com/tech-industry/artificial-intelligence/college-students-drown-out-ai-praising-commencement-speeches-with-boos-deal-with-it-one-speaker-fires-back-as-students-heckle-positive-pitches-for-ais-role Comments URL: https://news.ycombinator.com/item?id=48206241 Poin",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Google's AI is being manipulated. The search giant is quietly fighting back",
-      "link": "https://www.bbc.com/future/article/20260519-google-tackles-attempts-to-hack-its-ai-results",
-      "pubDate": "2026-05-20T10:57:09.000Z",
-      "description": "Article URL: https://www.bbc.com/future/article/20260519-google-tackles-attempts-to-hack-its-ai-results Comments URL: https://news.ycombinator.com/item?id=48205782 Points: 88 # Comments: 48",
-      "source": "Hacker News",
-      "category": "Tech News"
     },
     {
       "title": "Cross-Document View Transitions: The Gotchas Nobody Mentions",
