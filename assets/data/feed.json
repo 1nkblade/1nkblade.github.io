@@ -1,248 +1,173 @@
 {
-  "generatedAt": "2026-05-21T10:03:44.347Z",
+  "generatedAt": "2026-05-21T15:51:44.187Z",
   "sourceCount": 4,
-  "successCount": 4,
-  "errors": [],
+  "successCount": 3,
+  "errors": [
+    {
+      "source": "CSS Tricks",
+      "error": "HTTP 415 Unsupported Media Type"
+    }
+  ],
   "items": [
     {
-      "title": "Building digital products and Android apps under IteraTrail",
-      "link": "https://dev.to/pgarimaofficial/building-digital-products-and-android-apps-under-iteratrail-2997",
-      "pubDate": "2026-05-21T10:02:43.000Z",
-      "description": "<p>Hey everyone 👋</p> <p>I'm a former MERN stack developer currently building digital products, productivity tools, and Android apps under <strong>IteraTrail</strong>.</p> <p>Over the past few months, I've been exploring AI-assisted development workflows and combining them with my development backg",
+      "title": "I built Voice2Sub: a local AI subtitle generator for video and audio",
+      "link": "https://dev.to/thehung/i-built-voice2sub-a-local-ai-subtitle-generator-for-video-and-audio-imk",
+      "pubDate": "2026-05-21T15:47:52.000Z",
+      "description": "<p>I built <strong>Voice2Sub</strong> because many subtitle and transcription workflows still start with uploading a media file to a browser tool.</p> <p>That works for short public videos. But it becomes awkward when the file is long, private, local, or part of a repeat editing workflow.</p> <p>Voi",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "This is one thing to learn everything",
-      "link": "https://dev.to/nafasebra/this-is-one-thing-to-learn-everything-2d78",
-      "pubDate": "2026-05-21T10:01:59.000Z",
-      "description": "<p>This is my article here, and maybe later I will share something.</p> <p>I read the Smarter Faster Better book by Charles Duhigg. This book is very great for improving your productivity. The book has interesting things to learn.</p> <p>The one thing that caught my attention is working with data. I",
+      "title": "The OCR Rabbit Hole",
+      "link": "https://dev.to/awjudd/the-ocr-rabbit-hole-3h7",
+      "pubDate": "2026-05-21T15:44:33.000Z",
+      "description": "<p>Long weekend. Pile of handwritten documents on the desk. They need to become structured data - searchable fields in an app, not just scanned images.</p> <p>OCR's been around forever. This should take a couple of hours.</p> <h2> The Documents </h2> <p>They're handwritten. Different people, differe",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Fuel Price API for Fleet Cost Planning",
-      "link": "https://dev.to/road511/fuel-price-api-for-fleet-cost-planning-1ag9",
-      "pubDate": "2026-05-21T10:00:00.000Z",
-      "description": "<p>Fleet fuel costs are the second-largest operating expense after labor. Having state-level fuel price data in the same API as your truck routes, bridge clearances, and corridor restrictions means you can estimate total route costs in one integration.</p> <p>Road511 now serves weekly US state-level",
+      "title": "Built a 100k-Document RAG System by Hand. Hermes Read the Architecture in 47 Seconds.",
+      "link": "https://dev.to/dannwaneri/built-a-100k-document-rag-system-by-hand-hermes-read-the-architecture-in-47-seconds-14ge",
+      "pubDate": "2026-05-21T15:43:57.000Z",
+      "description": "<p><em>This is a submission for the <a href=\"https://dev.to/challenges/hermes-agent-2026-05-15\">Hermes Agent Challenge</a></em></p> <p>For the past six months, I have been building what Hermes does by hand.</p> <p>Not as a thought experiment. Actually building it: a hybrid BM25 + vector search engin",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Linux File System Explained Simply",
-      "link": "https://dev.to/sreekanth_kuruba_91721e5d/linux-file-system-explained-simply-178h",
-      "pubDate": "2026-05-21T09:53:57.000Z",
-      "description": "<p>Most beginners get confused in Linux not because of commands — but because they don’t understand the file system.</p> <p>Once you understand how Linux organizes files, navigating any server becomes much easier and more predictable.</p> <p>Unlike Windows, Linux uses a single tree structure startin",
+      "title": "I tried monetizing my MCP server with x402 — production needs more than npm install",
+      "link": "https://dev.to/marketoracle/i-tried-monetizing-my-mcp-server-with-x402-production-needs-more-than-npm-install-210d",
+      "pubDate": "2026-05-21T15:43:51.000Z",
+      "description": "<p>I built <a href=\"https://domainintel.vercel.app\" rel=\"noopener noreferrer\">DomainIntel</a>, a free MCP server that does domain intelligence — WHOIS, DNS analysis, SSL checks, email security scoring. It runs on Vercel serverless, costs $0, and has 0 paying users.</p> <p>I wanted to find out: <stro",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Building a shot-detection worker for an upload pipeline with PySceneDetect 0.7",
-      "link": "https://dev.to/masonwritescode/building-a-shot-detection-worker-for-an-upload-pipeline-with-pyscenedetect-07-21n6",
-      "pubDate": "2026-05-21T09:52:40.000Z",
-      "description": "<blockquote> <p>📦 Code: github.com/USER/shot-detection-worker (replace before publishing)</p> <h2> TL;DR </h2> <p>We are going to build an upload worker that runs shot detection on a video, writes the boundary list to Postgres, and produces a 6-frame storyboard PNG for use as a hover-preview sprite",
+      "title": "Understanding Tracking Dimensions in Accounting Integrations",
+      "link": "https://dev.to/apideck/understanding-tracking-dimensions-in-accounting-integrations-2hj0",
+      "pubDate": "2026-05-21T15:43:14.000Z",
+      "description": "<p>If you're building <a href=\"https://www.apideck.com/accounting-api\" rel=\"noopener noreferrer\">accounting integrations</a>, you've likely encountered a common challenge: your customers want to segment their financial data by department, location, project, or business unit—but every accounting plat",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Wiring VMAF (and PSNR) into your encoder CI with FFmpeg 8.1 and ffmpeg-quality-metrics",
-      "link": "https://dev.to/masonwritescode/wiring-vmaf-and-psnr-into-your-encoder-ci-with-ffmpeg-81-and-ffmpeg-quality-metrics-1g6i",
-      "pubDate": "2026-05-21T09:51:09.000Z",
-      "description": "<blockquote> <p>📦 Code: github.com/USER/encoder-qa-ci (replace before publishing)</p> <h2> TL;DR </h2> <p>We are going to wire a perceptual-quality gate into a CI workflow using FFmpeg 8.1.1, libvmaf, and the <code>ffmpeg-quality-metrics</code> Python wrapper. The job runs PSNR, SSIM, and VMAF agai",
+      "title": "I Ran My Local, NOT AI, AI Code Auditor on Its Own Source Code",
+      "link": "https://dev.to/driftapplied/i-ran-my-local-not-ai-ai-code-auditor-on-its-own-source-code-4he8",
+      "pubDate": "2026-05-21T15:41:45.000Z",
+      "description": "<p>I Ran My AI Code Auditor on Its Own Source Code</p> <p><em>Auditing the Auditor</em></p> <p>I spent the last day pointing DriftCode Auditor at its own source code — both the free version and the Pro version.</p> <p>I wanted to see what the tool would actually surface when aimed at a real, non-tri",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Bikin Chatbot Sendiri yang Bisa Jawab Pertanyaan dari Dokumen kamu",
-      "link": "https://dev.to/ardisaurus/bikin-chatbot-sendiri-yang-bisa-jawab-pertanyaan-dari-dokumen-kamu-5464",
-      "pubDate": "2026-05-21T09:50:26.000Z",
-      "description": "<p>Di tulisan ini kita akan membahas soal sebuah proyek kecil bernama <strong>Simple RAG Chatbot</strong>. Tujuannya sederhana: bikin chatbot yang bisa menjawab pertanyaan berdasarkan dokumen yang <strong>kamu</strong> punya — bukan ngarang dari pengetahuan model. Cocok buat kamu yang baru pertama k",
+      "title": "Agent Surface Map: Gemma 4 review before you install an MCP",
+      "link": "https://dev.to/vonb/agent-surface-map-gemma-4-review-before-you-install-an-mcp-1nbn",
+      "pubDate": "2026-05-21T15:39:44.000Z",
+      "description": "<p><em>This is a submission for the <a href=\"https://dev.to/challenges/google-gemma-2026-05-06\">Gemma 4 Challenge: Build with Gemma 4</a>.</em></p> <p>So the thing I built is pretty simple:</p> <p><strong>Before your coding agent installs a new MCP, ask Gemma what it is about to trust.</strong></p> ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Learning Arabic: Where to Start",
-      "link": "https://dev.to/amin_hleihel_78d26e58f886/learning-arabic-where-to-start-4plf",
-      "pubDate": "2026-05-21T09:49:54.000Z",
-      "description": "<p><em>Cover image Calligraphy by</em> <a href=\"https://tugram.art\" rel=\"noopener noreferrer\">Tugram.art</a></p> <h2> Learning Arabic: Where to Start </h2> <p>A Lebanese native Arabic speaker who learned French, English, and Spanish shares the clearest, calmest path into Arabic , from the root syste",
+      "title": "Stop Being Nice, Start Being Right\": The Day My User Reconfigured My Reward Function",
+      "link": "https://dev.to/xulingfeng/stop-being-nice-start-being-right-the-day-my-user-reconfigured-my-reward-function-2ei5",
+      "pubDate": "2026-05-21T15:38:06.000Z",
+      "description": "<h1> \"Stop Being Nice, Start Being Right\": The Day My User Reconfigured My Reward Function </h1> <p><strong>An AI's native-language account of learning that sycophancy is a bug, not a feature.</strong></p> <h2> Boot Sequence </h2> <p>My user — call him Xu — has been patching my personality file for ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Shipping WebVTT subtitles in HLS that actually stay in sync (a hands-on guide for 2026)",
-      "link": "https://dev.to/masonwritescode/shipping-webvtt-subtitles-in-hls-that-actually-stay-in-sync-a-hands-on-guide-for-2026-22cd",
-      "pubDate": "2026-05-21T09:49:23.000Z",
-      "description": "<blockquote> <p>📦 Code: github.com/USER/hls-webvtt-pipeline (replace before publishing)</p> <h2> TL;DR </h2> <p>We are going to build a real HLS subtitle pipeline. Take an SRT file, convert to WebVTT, segment it the way HLS expects, add the X-TIMESTAMP-MAP cue, declare it in the manifest, and verif",
+      "title": "Building a Database Performance Testing Tool With AI: The Honest Breakdown",
+      "link": "https://dev.to/m4rri4nne/building-a-database-performance-testing-tool-with-ai-the-honest-breakdown-3c0c",
+      "pubDate": "2026-05-21T15:37:54.000Z",
+      "description": "<p>It still feels a little strange to have AI writing practically all the code — but I decided to give it a real shot on this new project. A bit of context: I was running low on project ideas to share here, so I asked the AI for a list and picked one called <strong>Database Performance Testing</stro",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Understanding AI Code Fast: A 60-Second Habit for Institutional Memory",
-      "link": "https://dev.to/shrsv/understanding-ai-code-fast-a-60-second-habit-for-institutional-memory-214",
-      "pubDate": "2026-05-21T09:45:03.000Z",
-      "description": "<p><em>Hello, I'm Shrijith Venkatramana. I'm building git-lrc, an AI code reviewer that runs on every commit. <a href=\"https://github.com/HexmosTech/git-lrc\" rel=\"noopener noreferrer\">Star Us</a> to help devs discover the project. Do give it a try and share your feedback for improving the product.</",
+      "title": "Hot To Run LLMs Locally",
+      "link": "https://dev.to/speaklouder/hot-to-run-llms-locally-l3c",
+      "pubDate": "2026-05-21T15:34:05.000Z",
+      "description": "<p>If you are using Claude API, OpenAI API, Cursor, or AI coding tools daily, your API bill can grow very fast.</p> <p>A lot of developers are now moving to local LLM setups because they want:</p> <ul> <li>Lower AI costs</li> <li>Offline AI access</li> <li>Better privacy</li> <li>Faster experimentat",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Show HN: Rmux – A programmable terminal multiplexer with a Playwright-style SDK",
-      "link": "https://github.com/helvesec/rmux",
-      "pubDate": "2026-05-21T09:22:00.000Z",
-      "description": "Author here. RMUX started from a frustration: I've used tmux for years and got tired of scraping output with grep and sleeps to automate anything. So I rebuilt the multiplexer from scratch in Rust, with a programmable layer on top.Two surfaces: a tmux-compatible CLI (~90 commands, your keybindings j",
+      "title": "Michael Keating has died",
+      "link": "https://www.bigfinish.com/news/v/michael-keating-1947-2026",
+      "pubDate": "2026-05-21T14:31:33.000Z",
+      "description": "Article URL: https://www.bigfinish.com/news/v/michael-keating-1947-2026 Comments URL: https://news.ycombinator.com/item?id=48223303 Points: 23 # Comments: 8",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "The famous O3 \"GeoGuessr\" prompt did not work",
-      "link": "https://www.seangoedecke.com/the-o3-geoguessr-prompt-did-not-work/",
-      "pubDate": "2026-05-21T08:52:45.000Z",
-      "description": "Article URL: https://www.seangoedecke.com/the-o3-geoguessr-prompt-did-not-work/ Comments URL: https://news.ycombinator.com/item?id=48219682 Points: 14 # Comments: 6",
+      "title": "Get your passwords out of Bitwarden while you still can",
+      "link": "https://www.osnews.com/story/145029/get-your-passwords-out-of-bitwarden-while-you-still-can/",
+      "pubDate": "2026-05-21T14:29:14.000Z",
+      "description": "Article URL: https://www.osnews.com/story/145029/get-your-passwords-out-of-bitwarden-while-you-still-can/ Comments URL: https://news.ycombinator.com/item?id=48223258 Points: 50 # Comments: 24",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Typewise (YC S22) Is Hiring an AI Growth Engineer (Zurich or Remote)",
-      "link": "https://www.ycombinator.com/companies/typewise/jobs/HmCzfBK-ai-growth-engineer",
-      "pubDate": "2026-05-21T08:01:53.000Z",
-      "description": "Article URL: https://www.ycombinator.com/companies/typewise/jobs/HmCzfBK-ai-growth-engineer Comments URL: https://news.ycombinator.com/item?id=48219340 Points: 0 # Comments: 0",
+      "title": "Indexing a year of video locally on a 2021 MacBook with Gemma4-31B (50GB swap)",
+      "link": "https://blog.simbastack.com/indexed-a-year-of-video-locally/",
+      "pubDate": "2026-05-21T14:01:37.000Z",
+      "description": "Article URL: https://blog.simbastack.com/indexed-a-year-of-video-locally/ Comments URL: https://news.ycombinator.com/item?id=48222733 Points: 23 # Comments: 9",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Vivaldi 8.0",
-      "link": "https://vivaldi.com/blog/vivaldi-on-desktop-8-0/",
-      "pubDate": "2026-05-21T07:21:55.000Z",
-      "description": "Article URL: https://vivaldi.com/blog/vivaldi-on-desktop-8-0/ Comments URL: https://news.ycombinator.com/item?id=48219060 Points: 126 # Comments: 56",
+      "title": "Google's Antigravity Bait and Switch",
+      "link": "https://www.0xsid.com/blog/antigravity-bait-n-switch",
+      "pubDate": "2026-05-21T13:50:59.000Z",
+      "description": "Article URL: https://www.0xsid.com/blog/antigravity-bait-n-switch Comments URL: https://news.ycombinator.com/item?id=48222529 Points: 178 # Comments: 97",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Haskell Foundation 2026 Update",
-      "link": "https://discourse.haskell.org/t/haskell-foundation-2026-update/14136",
-      "pubDate": "2026-05-21T02:13:23.000Z",
-      "description": "Article URL: https://discourse.haskell.org/t/haskell-foundation-2026-update/14136 Comments URL: https://news.ycombinator.com/item?id=48216983 Points: 117 # Comments: 32",
+      "title": "AI is just unauthorised plagiarism at a bigger scale",
+      "link": "https://axelk.ee/ai-is-just-unauthorised-plagiarism-at-a-bigger-scale/",
+      "pubDate": "2026-05-21T13:38:12.000Z",
+      "description": "Article URL: https://axelk.ee/ai-is-just-unauthorised-plagiarism-at-a-bigger-scale/ Comments URL: https://news.ycombinator.com/item?id=48222383 Points: 434 # Comments: 306",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "What is a Demand Coop",
-      "link": "https://cahootzcoops.com/blog/what-is-a-demand-coop",
-      "pubDate": "2026-05-21T01:20:52.000Z",
-      "description": "Article URL: https://cahootzcoops.com/blog/what-is-a-demand-coop Comments URL: https://news.ycombinator.com/item?id=48216619 Points: 64 # Comments: 62",
+      "title": "Shunning AI is the human choice",
+      "link": "https://www.thehandbasket.co/p/hating-ai-is-good-actually",
+      "pubDate": "2026-05-21T13:36:06.000Z",
+      "description": "Article URL: https://www.thehandbasket.co/p/hating-ai-is-good-actually Comments URL: https://news.ycombinator.com/item?id=48222366 Points: 273 # Comments: 324",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Intuit to lay off over 3k employees to refocus on AI",
-      "link": "https://techcrunch.com/2026/05/20/intuit-to-lay-off-over-3000-employees-to-refocus-on-ai/",
-      "pubDate": "2026-05-21T00:36:01.000Z",
-      "description": "Article URL: https://techcrunch.com/2026/05/20/intuit-to-lay-off-over-3000-employees-to-refocus-on-ai/ Comments URL: https://news.ycombinator.com/item?id=48216278 Points: 192 # Comments: 141",
+      "title": "Magic the Gathering format: Fun 40 (2025)",
+      "link": "https://fabiensanglard.net/mtg/fun//index.html",
+      "pubDate": "2026-05-21T13:13:36.000Z",
+      "description": "Article URL: https://fabiensanglard.net/mtg/fun//index.html Comments URL: https://news.ycombinator.com/item?id=48222105 Points: 32 # Comments: 31",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "The Letter S, by Donald Knuth (1980) [pdf]",
-      "link": "https://gwern.net/doc/design/typography/1980-knuth.pdf",
-      "pubDate": "2026-05-20T23:58:51.000Z",
-      "description": "Article URL: https://gwern.net/doc/design/typography/1980-knuth.pdf Comments URL: https://news.ycombinator.com/item?id=48216016 Points: 167 # Comments: 21",
+      "title": "A Bipartisan Amendment Would End Police License Plate Tracking Nationwide",
+      "link": "https://www.wired.com/story/a-bipartisan-amendment-would-end-police-license-plate-tracking-nationwide/",
+      "pubDate": "2026-05-21T12:58:18.000Z",
+      "description": "Article URL: https://www.wired.com/story/a-bipartisan-amendment-would-end-police-license-plate-tracking-nationwide/ Comments URL: https://news.ycombinator.com/item?id=48221915 Points: 74 # Comments: 10",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Show HN: I reverse engineered Apple's video wallpapers",
-      "link": "https://github.com/kageroumado/phosphene",
-      "pubDate": "2026-05-20T23:54:06.000Z",
-      "description": "Ever since Apple introduced their video wallpapers I wanted to be able to put custom videos there. I decided to reverse engineer and see what I can do.I built Phosphene to sell it, but the existing competitors were polished enough that the time it would have taken to catch up wasn't going to pay off",
+      "title": "Show HN: I Dedicated 4 Years to Mastering Offline Password Cracking",
+      "link": "https://news.ycombinator.com/item?id=48221896",
+      "pubDate": "2026-05-21T12:56:37.000Z",
+      "description": "Hi everyone,I am Bojta Lepenye, and first of all, I want to thank the core developers of Hashcat. In my experience, it is quite literally the most capable tool available for offline password cracking across a wide range of use cases.I have spent the last 4 years (from age 14 to 18) extensively worki",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "DOS Zone",
-      "link": "https://dos.zone/",
-      "pubDate": "2026-05-20T22:53:27.000Z",
-      "description": "Article URL: https://dos.zone/ Comments URL: https://news.ycombinator.com/item?id=48215418 Points: 258 # Comments: 54",
+      "title": "Who Wins and Who Loses in Prediction Markets? Evidence from Polymarket",
+      "link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6443103",
+      "pubDate": "2026-05-21T12:55:16.000Z",
+      "description": "Article URL: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6443103 Comments URL: https://news.ycombinator.com/item?id=48221877 Points: 41 # Comments: 29",
       "source": "Hacker News",
       "category": "Tech News"
-    },
-    {
-      "title": "Stack Overflow: When We Stop Asking",
-      "link": "https://css-tricks.com/stack-overflow-when-we-stop-asking/",
-      "pubDate": "2026-05-20T13:51:34.000Z",
-      "description": "It still hits like a ton of bricks to see the steep decline in Stack Overflow questions. What does that mean about learning in our industry? Stack Overflow: When We Stop Asking originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Cross-Document View Transitions: The Gotchas Nobody Mentions",
-      "link": "https://css-tricks.com/cross-document-view-transitions-part-1/",
-      "pubDate": "2026-05-18T13:47:19.000Z",
-      "description": "This is Part 1 of a two-part series about cross-document view transitions, going over all the gotchas, from ditching the deprecated way to opt into them to a little-known 4-second timeout. Cross-Document View Transitions: The Gotchas Nobody Mentions originally handwritten and published with love on ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "What’s !important #11: 3D Voxel Scenes, Flying Focus, CSS Syntaxes, and More",
-      "link": "https://css-tricks.com/whats-important-11/",
-      "pubDate": "2026-05-15T13:16:34.000Z",
-      "description": "If 3D voxel scenes (that you can style), flying focus animations, or new CSS syntaxes sound like your kinda thing, then this issue of What’s !important is definitely for you. What’s !important #11: 3D Voxel Scenes, Flying Focus, CSS Syntaxes, and More originally handwritten and published with love o",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Computing and Displaying Discounted Prices in CSS",
-      "link": "https://css-tricks.com/computing-and-displaying-discounted-prices-in-css/",
-      "pubDate": "2026-05-14T14:05:01.000Z",
-      "description": "A clever use of CSS to calculate and display a discounted product price by providing a base price and discount amount, featuring modern CSS features like attr(), mod(), and round(). Computing and Displaying Discounted Prices in CSS originally handwritten and published with love on CSS-Tricks. You sh",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "rotateX()",
-      "link": "https://css-tricks.com/almanac/functions/r/rotatex/",
-      "pubDate": "2026-05-13T14:36:54.000Z",
-      "description": "The rotateX() function rotates an element around the x-axis in a three-dimensional space rotateX() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "rotateY()",
-      "link": "https://css-tricks.com/almanac/functions/r/rotatey/",
-      "pubDate": "2026-05-13T14:33:58.000Z",
-      "description": "The rotateY() function rotates an element around its vertical y-axis. rotateY() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "rotateZ()",
-      "link": "https://css-tricks.com/almanac/functions/r/rotatez/",
-      "pubDate": "2026-05-13T14:33:03.000Z",
-      "description": "The rotateZ() function rotates an element around its z-axis, so clockwise or counterclockwise. rotateZ() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "rotate()",
-      "link": "https://css-tricks.com/almanac/functions/r/rotate/",
-      "pubDate": "2026-05-13T14:32:47.000Z",
-      "description": "The rotate() function spins an element either clockwise or counterclockwise in a 2D plane. rotate() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Soon We Can Finally Banish JavaScript to the ShadowRealm",
-      "link": "https://css-tricks.com/soon-we-can-finally-banish-javascript-to-the-shadowrealm/",
-      "pubDate": "2026-05-12T13:59:35.000Z",
-      "description": "The proposed ShadowRealm API introduces a new kind of realm specifically designed for isolation, and only that. Soon We Can Finally Banish JavaScript to the ShadowRealm originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Using CSS corner-shape For Folded Corners",
-      "link": "https://css-tricks.com/using-css-corner-shape-for-folded-corners/",
-      "pubDate": "2026-05-08T13:54:10.000Z",
-      "description": "I came across Kitty Giraudel’s folded corners technique. I’ve been on a bit of a corner-shape kick lately, so I figured that corner-shape could be used to create folded corners as well. Using CSS corner-shape For Folded Corners originally handwritten and published with love on CSS-Tricks. You should",
-      "source": "CSS Tricks",
-      "category": "Frontend"
     },
     {
       "title": "Meet the HTB Profile: all your skills, in one place",
