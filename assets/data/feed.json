@@ -1,166 +1,166 @@
 {
-  "generatedAt": "2026-05-22T20:11:30.311Z",
+  "generatedAt": "2026-05-23T04:08:06.851Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "Beyond the Prompt: How to Build an AI Agent That Actually Learns From Its Mistakes",
-      "link": "https://dev.to/programmingcentral/beyond-the-prompt-how-to-build-an-ai-agent-that-actually-learns-from-its-mistakes-4n1j",
-      "pubDate": "2026-05-22T20:00:00.000Z",
-      "description": "<p>We’ve all seen the standard pattern of AI development over the past couple of years. You write a system prompt, wrap it in an API call, hook up a vector database for Retrieval-Augmented Generation (RAG), and call it an \"autonomous agent.\" </p> <p>But let’s be honest: these systems aren't actually",
+      "title": "One backend, four products: why we bet on platform-per-brand",
+      "link": "https://dev.to/rhsumon/one-backend-four-products-why-we-bet-on-platform-per-brand-3j2d",
+      "pubDate": "2026-05-23T04:06:24.000Z",
+      "description": "<p><em>by Rashed</em></p> <p>We shipped an auth bandaid at 2am. Cookies wouldn't flow between <code>platform.ginilab.com</code> and our gateway, which was running under a different registrable domain. Browsers blocked them, correctly. The bandaid that unblocked the demo was a 5-minute bearer token h",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How we reduced coding-agent token usage by 17.9% with an MCP server",
-      "link": "https://dev.to/beardface/how-we-reduced-coding-agent-token-usage-by-179-with-an-mcp-server-3fe6",
-      "pubDate": "2026-05-22T19:56:14.000Z",
-      "description": "<p>Coding agents are powerful, but in day-to-day development they waste a lot of tokens on noisy tool output.</p> <p>A typical <code>cargo test</code> or <code>git status</code> through generic shell tooling sends back a lot of text that an agent doesn’t actually need to reason with. The model still",
+      "title": "AI's tech debt is invisible — even to AI. I solved it at the architecture layer.",
+      "link": "https://dev.to/amingin_ai/ais-tech-debt-is-invisible-even-to-ai-i-solved-it-at-the-architecture-layer-1nh1",
+      "pubDate": "2026-05-23T03:58:23.000Z",
+      "description": "<blockquote> <p><strong>TL;DR</strong> — AI repeats your patterns badly, ignores existing services, and forgets every cross-session lesson you taught it. This isn't laziness — it's a new kind of tech debt: <strong>invisible</strong>, <strong>systemic</strong>, and <strong>architectural</strong>. Pro",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I Ran Gemma 4 on an 8GB Laptop — Here’s What the Experience Was Actually Like",
-      "link": "https://dev.to/vendagency/i-ran-gemma-4-on-an-8gb-laptop-heres-what-the-experience-was-actually-like-4jnp",
-      "pubDate": "2026-05-22T19:47:13.000Z",
-      "description": "<p>I took a screenshot of code with a SQL injection vulnerability, compressed it twice through WhatsApp, and fed it to Gemma 4 running entirely on my 8GB RAM laptop.</p> <p>One minute and forty-seven seconds later, it pointed out the exact dangerous line, explained why it was vulnerable, and showed ",
+      "title": "Why ROAS 300% Can Still Mean Losses — Gross Margin in 5 Ecommerce Verticals",
+      "link": "https://dev.to/toshihiro_shishido/why-roas-300-can-still-mean-losses-gross-margin-in-5-ecommerce-verticals-2ghm",
+      "pubDate": "2026-05-23T03:55:12.000Z",
+      "description": "<p>\"ROAS 300%, so we're profitable.\" I've seen this line in dozens of internal EC reports — and in maybe half of them, the business was actually losing cash. The trap is gross margin. For a 30%-margin product, ROAS 300% is barely above breakeven. Same ROAS, different margin, opposite conclusion.</p>",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Lean 4 101 for Python Programmers: A Gentle Introduction to Theorem Proving",
-      "link": "https://dev.to/shrsv/lean-4-101-for-python-programmers-a-gentle-introduction-to-theorem-proving-1f3e",
-      "pubDate": "2026-05-22T19:46:26.000Z",
-      "description": "<p><em>Before we begin — if you're interested in improving engineering quality and developer workflows, check out <a href=\"https://github.com/HexmosTech/git-lrc\" rel=\"noopener noreferrer\">git-lrc on GitHub</a> — a free micro AI code review tool that runs on every commit. If the idea resonates with y",
+      "title": "You Don’t Need to Try Every AI Tool to Keep Up",
+      "link": "https://dev.to/dechive/you-dont-need-to-try-every-ai-tool-to-keep-up-gc4",
+      "pubDate": "2026-05-23T03:50:18.000Z",
+      "description": "<h2> A practical note on AI tool anxiety, productivity pressure, and choosing better standards. </h2> <p>Every developer feed has started to feel like a speedrun.</p> <p>Someone built an app with AI over the weekend.<br> Someone launched a small SaaS.<br> Someone connected a new model to an agent wo",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "From Assistants to Agents: My Take on Google I/O 2026",
-      "link": "https://dev.to/codedbyasim/from-assistants-to-agents-my-take-on-google-io-2026-52na",
-      "pubDate": "2026-05-22T19:40:21.000Z",
-      "description": "<p><em>This is a submission for the <a href=\"https://dev.to/challenges/google-io-writing-2026-05-19\">Google I/O Writing Challenge</a></em></p> <h1> From Assistants to Agents: My Take on Google I/O 2026 </h1> <p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravi",
+      "title": "NovelPilot: A Novel Writing Agent Powered by Gemma 4",
+      "link": "https://dev.to/doraking/novelpilot-a-novel-writing-agent-powered-by-gemma-4-5caa",
+      "pubDate": "2026-05-23T03:50:06.000Z",
+      "description": "<p><em>This is a submission for the <a href=\"https://dev.to/challenges/google-gemma-2026-05-06\">Gemma 4 Challenge: Build with Gemma 4</a></em></p> <p>Most AI story generators work like this:</p> <blockquote> <p>prompt in → wall of text out</p> </blockquote> <p>That is useful, but it does not feel li",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Learning Progress Pt.16",
-      "link": "https://dev.to/muhamedmaxhuni/learning-progress-pt16-og",
-      "pubDate": "2026-05-22T19:36:51.000Z",
-      "description": "<p><strong>Daily learning part sixteen</strong></p> <p>I started today at 15:40. I did an Access Control lab. It took me quite a bit of time, but I completed it. Then I wrote two Python scripts.</p> <p><strong>Most basic TCP port scanner</strong></p> <p><a href=\"https://media2.dev.to/dynamic/image/w",
+      "title": "BoxAgnts is an Out-Of-The-Box Secure AI Agent ToolBox in a WASM SandBox",
+      "link": "https://dev.to/guyoung/boxagnts-is-an-out-of-the-box-secure-ai-agent-toolbox-in-a-wasm-sandbox-1hif",
+      "pubDate": "2026-05-23T03:49:57.000Z",
+      "description": "<p>BoxAgnts is an open-source AI Agent ToolBox built with Rust, dedicated to delivering an ultimate out-of-the-box experience. Leveraging WebAssembly sandbox, it provides a runtime environment that balances security and flexibility, helping users effortlessly tackle a wide range of complex tasks and",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "From Unfinished Idea to Real Product: My BuildGenAI Comeback",
-      "link": "https://dev.to/samarth28/from-unfinished-idea-to-real-product-my-buildgenai-comeback-1igk",
-      "pubDate": "2026-05-22T19:35:15.000Z",
-      "description": "<p><em>This is a submission for the <a href=\"https://dev.to/challenges/github-2026-05-21\">GitHub Finish-Up-A-Thon Challenge</a></em></p> <h1> I Finally Revived BuildGenAI: Turning an Unfinished Construction AI Idea Into a Real Product </h1> <h2> What I Built </h2> <p>For this challenge, I revived <s",
+      "title": "Gemma 4 deep dive: why a 1.5 GB model scores 37.5% on competition mathematics, how the MoE routing actually works, and which model fits your hardware. Full breakdown inside.",
+      "link": "https://dev.to/coldstartdev/gemma-4-deep-dive-why-a-15-gb-model-scores-375-on-competition-mathematics-how-the-moe-routing-3fjn",
+      "pubDate": "2026-05-23T03:49:50.000Z",
+      "description": "<div class=\"ltag__link--embedded\"> <div class=\"crayons-story \"> <a href=\"https://dev.to/coldstartdev/gemma-4-from-raspberry-pi-to-research-workstation-one-architecture-no-quality-compromise-14n7\" class=\"crayons-story__hidden-navigation-link\">Gemma 4: From Raspberry Pi to Research Workstation — One A",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The Quiet Strategy",
-      "link": "https://dev.to/mrnasdog/the-quiet-strategy-28d",
-      "pubDate": "2026-05-22T19:34:47.000Z",
-      "description": "<blockquote> <p>Originally published at <strong><a href=\"https://mrnasdoggrowth.com/thinking/the-quiet-strategy\" rel=\"noopener noreferrer\">mrnasdoggrowth.com</a></strong> by MrNasdog.</p> </blockquote> <p>Most of what's being written about AI right now is loud.</p> <p>Loud about how AI will replace ",
+      "title": "BeeLlama v0.2.0: 164 tok/s on a 27B model, one RTX 3090",
+      "link": "https://dev.to/thousand_miles_ai/beellama-v020-164-toks-on-a-27b-model-one-rtx-3090-346c",
+      "pubDate": "2026-05-23T03:39:57.000Z",
+      "description": "<p>Speculative decoding has been the rumored 3-5x throughput multiplier for about 18 months. The numbers have stayed muddled because most of the public benchmarks ride on H100s with batch sizes greater than one, where the speedup gets folded into pricing tables nobody outside a serving team reads. W",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I Revived a 9-Year-Old App with OpenAI Codex with a Product Engineer Mindset",
-      "link": "https://dev.to/heriberto_codes/i-revived-a-9-year-old-app-with-openai-codex-with-a-product-engineer-mindset-19c9",
-      "pubDate": "2026-05-22T19:33:03.000Z",
-      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fm1oxx8aqlu5wvcfsap8e.jpg\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/width=800%",
+      "title": "🐧 Resize VM Disk Ubuntu LVM — Common Mistakes and How to Fix Them",
+      "link": "https://dev.to/ptp2308/resize-vm-disk-ubuntu-lvm-common-mistakes-and-how-to-fix-them-41n0",
+      "pubDate": "2026-05-23T03:37:33.000Z",
+      "description": "<p>Two virtual machines, running the same Ubuntu version and application stack, hit disk exhaustion. One was back online with expanded storage in under five minutes. The other remained down for hours, requiring a full rebuild. The difference wasn’t hardware, cloud provider, or administrator skill—it",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "I'm 18, shipped 2 HTML templates this week, got rejected by 3 marketplaces. Still going.",
+      "link": "https://dev.to/nexflow_dev/im-18-shipped-2-html-templates-this-week-got-rejected-by-3-marketplaces-still-going-31kh",
+      "pubDate": "2026-05-23T03:33:47.000Z",
+      "description": "<p>This week I decided to stop watching tutorials and start building real products.<br> I'm a first year IT student in Salem, India. No design degree. No coding bootcamp. Just AI tools and determination.<br> Here's what happened in 5 days:<br> What I built<br> Nexflow — Dark SaaS landing page templa",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Is AI Profitable Yet?",
+      "link": "https://isaiprofitable.com/",
+      "pubDate": "2026-05-23T02:10:38.000Z",
+      "description": "Article URL: https://isaiprofitable.com/ Comments URL: https://news.ycombinator.com/item?id=48243863 Points: 175 # Comments: 114",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "FBI director's Based Apparel site has been spotted hosting a 'ClickFix' attack",
+      "link": "https://www.pcmag.com/news/kash-patels-apparel-site-is-trying-to-trick-visitors-into-installing-malware",
+      "pubDate": "2026-05-23T00:34:25.000Z",
+      "description": "Article URL: https://www.pcmag.com/news/kash-patels-apparel-site-is-trying-to-trick-visitors-into-installing-malware Comments URL: https://news.ycombinator.com/item?id=48243293 Points: 78 # Comments: 20",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "SpaceX launches Starship v3 rocket",
+      "link": "https://www.nbcnews.com/now/video/spacex-successfully-launches-prototype-of-starship-rocket-263835205505",
+      "pubDate": "2026-05-22T23:41:55.000Z",
+      "description": "Article URL: https://www.nbcnews.com/now/video/spacex-successfully-launches-prototype-of-starship-rocket-263835205505 Comments URL: https://news.ycombinator.com/item?id=48242959 Points: 200 # Comments: 102",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "I was bored so I turned my dev tools into an alien planet ruled by my dog",
+      "link": "https://github.com/bkawa-bot/planet-maiko",
+      "pubDate": "2026-05-22T23:40:14.000Z",
+      "description": "Article URL: https://github.com/bkawa-bot/planet-maiko Comments URL: https://news.ycombinator.com/item?id=48242949 Points: 20 # Comments: 1",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Sleep research led to a new sleep apnea drug",
+      "link": "https://temertymedicine.utoronto.ca/news/how-decades-sleep-research-led-new-sleep-apnea-drug",
+      "pubDate": "2026-05-22T22:05:39.000Z",
+      "description": "Article URL: https://temertymedicine.utoronto.ca/news/how-decades-sleep-research-led-new-sleep-apnea-drug Comments URL: https://news.ycombinator.com/item?id=48242278 Points: 92 # Comments: 60",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Shipping a laptop to a refugee camp in Uganda",
+      "link": "https://notesbylex.com/shipping-a-laptop-to-a-refugee-camp-in-uganda",
+      "pubDate": "2026-05-22T21:36:55.000Z",
+      "description": "Article URL: https://notesbylex.com/shipping-a-laptop-to-a-refugee-camp-in-uganda Comments URL: https://news.ycombinator.com/item?id=48241997 Points: 258 # Comments: 78",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Models.dev: open-source database of AI model specs, pricing, and capabilities",
+      "link": "https://github.com/anomalyco/models.dev",
+      "pubDate": "2026-05-22T20:26:07.000Z",
+      "description": "Article URL: https://github.com/anomalyco/models.dev Comments URL: https://news.ycombinator.com/item?id=48241172 Points: 112 # Comments: 20",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "Project Glasswing: An Initial Update",
       "link": "https://www.anthropic.com/research/glasswing-initial-update",
       "pubDate": "2026-05-22T19:31:45.000Z",
-      "description": "Article URL: https://www.anthropic.com/research/glasswing-initial-update Comments URL: https://news.ycombinator.com/item?id=48240419 Points: 40 # Comments: 23",
+      "description": "Article URL: https://www.anthropic.com/research/glasswing-initial-update Comments URL: https://news.ycombinator.com/item?id=48240419 Points: 351 # Comments: 218",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "What Enterprise RAG Is Ready For Today and What Production Deployment Actually Requires",
-      "link": "https://dev.to/manjunath_d35c391da339e5b/what-enterprise-rag-is-ready-for-today-and-what-production-deployment-actually-requires-24jh",
-      "pubDate": "2026-05-22T19:31:00.000Z",
-      "description": "<p><em>Enterprise RAG — A practitioner's build log | Post 6 of 6</em></p> <p>This series has documented a system built to a specific standard: one where access control is enforced before retrieval scoring, where every answer includes traceable citations, and where the evaluation set measures restric",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "USCIS Will Grant 'Adjustment of Status' Only in Extraordinary Circumstances",
-      "link": "https://www.uscis.gov/newsroom/news-releases/us-citizenship-and-immigration-services-will-grant-adjustment-of-status-only-in-extraordinary",
-      "pubDate": "2026-05-22T19:24:58.000Z",
-      "description": "Article URL: https://www.uscis.gov/newsroom/news-releases/us-citizenship-and-immigration-services-will-grant-adjustment-of-status-only-in-extraordinary Comments URL: https://news.ycombinator.com/item?id=48240323 Points: 35 # Comments: 24",
+      "title": "Waymo expands pause to four cities as robotaxis keep driving into floods",
+      "link": "https://techcrunch.com/2026/05/21/waymo-pauses-service-in-four-cities-as-robotaxis-keep-driving-into-floods/",
+      "pubDate": "2026-05-22T19:25:35.000Z",
+      "description": "Article URL: https://techcrunch.com/2026/05/21/waymo-pauses-service-in-four-cities-as-robotaxis-keep-driving-into-floods/ Comments URL: https://news.ycombinator.com/item?id=48240331 Points: 29 # Comments: 1",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Bun's unreleased Rust port has 13,365 unsafe blocks",
-      "link": "https://bun.com/bun-unsafe-audit",
-      "pubDate": "2026-05-22T18:46:25.000Z",
-      "description": "Article URL: https://bun.com/bun-unsafe-audit Comments URL: https://news.ycombinator.com/item?id=48239790 Points: 42 # Comments: 22",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Domain-Camouflaged Injection Attacks Evade Detection in Multi-Agent LLM Systems",
-      "link": "https://arxiv.org/abs/2605.22001",
-      "pubDate": "2026-05-22T18:46:07.000Z",
-      "description": "Article URL: https://arxiv.org/abs/2605.22001 Comments URL: https://news.ycombinator.com/item?id=48239786 Points: 7 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Open source Kanban desktop app that runs parallel agents on every card",
-      "link": "https://www.kanbots.dev/",
-      "pubDate": "2026-05-22T18:17:57.000Z",
-      "description": "Article URL: https://www.kanbots.dev/ Comments URL: https://news.ycombinator.com/item?id=48239413 Points: 61 # Comments: 34",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "A scoping review of bicycling interventions’ impacts on well-being",
-      "link": "https://www.frontiersin.org/journals/sports-and-active-living/articles/10.3389/fspor.2026.1807791/full",
-      "pubDate": "2026-05-22T18:12:28.000Z",
-      "description": "Article URL: https://www.frontiersin.org/journals/sports-and-active-living/articles/10.3389/fspor.2026.1807791/full Comments URL: https://news.ycombinator.com/item?id=48239347 Points: 40 # Comments: 20",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Thinking in an array language (2022)",
-      "link": "https://github.com/razetime/ngn-k-tutorial/blob/main/12-thinking-in-k.md",
-      "pubDate": "2026-05-22T17:42:53.000Z",
-      "description": "Article URL: https://github.com/razetime/ngn-k-tutorial/blob/main/12-thinking-in-k.md Comments URL: https://news.ycombinator.com/item?id=48239023 Points: 8 # Comments: 1",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Microsoft starts canceling Claude Code licenses",
-      "link": "https://www.theverge.com/tech/930447/microsoft-claude-code-discontinued-notepad",
-      "pubDate": "2026-05-22T17:32:04.000Z",
-      "description": "https://archive.ph/WfCta Comments URL: https://news.ycombinator.com/item?id=48238896 Points: 99 # Comments: 56",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "TorQ: Kdb+ Production Framework",
-      "link": "https://github.com/DataIntellectTech/TorQ",
-      "pubDate": "2026-05-22T17:31:17.000Z",
-      "description": "Article URL: https://github.com/DataIntellectTech/TorQ Comments URL: https://news.ycombinator.com/item?id=48238887 Points: 11 # Comments: 1",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Bun support is now limited and deprecated",
-      "link": "https://github.com/yt-dlp/yt-dlp/issues/16766",
-      "pubDate": "2026-05-22T17:24:12.000Z",
-      "description": "Article URL: https://github.com/yt-dlp/yt-dlp/issues/16766 Comments URL: https://news.ycombinator.com/item?id=48238789 Points: 196 # Comments: 158",
+      "title": "A blueprint for formal verification of Apple corecrypto",
+      "link": "https://security.apple.com/blog/formal-verification-corecrypto/",
+      "pubDate": "2026-05-22T18:52:17.000Z",
+      "description": "Article URL: https://security.apple.com/blog/formal-verification-corecrypto/ Comments URL: https://news.ycombinator.com/item?id=48239862 Points: 71 # Comments: 3",
       "source": "Hacker News",
       "category": "Tech News"
     },
