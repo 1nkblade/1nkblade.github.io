@@ -1,173 +1,248 @@
 {
-  "generatedAt": "2026-05-24T14:00:39.736Z",
+  "generatedAt": "2026-05-24T19:41:11.558Z",
   "sourceCount": 4,
-  "successCount": 3,
-  "errors": [
-    {
-      "source": "CSS Tricks",
-      "error": "HTTP 415 Unsupported Media Type"
-    }
-  ],
+  "successCount": 4,
+  "errors": [],
   "items": [
     {
-      "title": "Real-time video classification with PaliGemma: architecture patterns for low-latency VLM inference",
-      "link": "https://dev.to/pasquale_molinaro/real-time-video-classification-with-paligemma-architecture-patterns-for-low-latency-vlm-inference-2aj9",
-      "pubDate": "2026-05-24T13:53:24.000Z",
-      "description": "<p>In a previous article, we benchmarked three open-source Vision-Language Models on zero-shot object detection and arrived at an uncomfortable conclusion: even the fastest contender, Phi-3.5-vision-instruct, takes 4.45 seconds per frame on an NVIDIA L4. LLaVA-v1.6 sits at 8.13 seconds. For any appl",
+      "title": "Do Domínio ao Deploy: Hospedando Arquivos de Deep Links no Cloudflare Pages (Parte 7.1)",
+      "link": "https://dev.to/cdornelles/do-dominio-ao-deploy-hospedando-arquivos-de-deep-links-no-cloudflare-pages-parte-71-5e32",
+      "pubDate": "2026-05-24T19:39:57.000Z",
+      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fp7yv38mhdhwnxtkxdgjl.png\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/width=800%",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Building Dynamic Forms in React + Formik Using JSON Configuration (Part 1)",
-      "link": "https://dev.to/shivani_ravikumar/building-dynamic-forms-in-react-formik-using-json-configuration-part-1-3jod",
-      "pubDate": "2026-05-24T13:48:22.000Z",
-      "description": "<p>Recently, I started working on building a dynamic form system using React + Formik where the entire form UI was driven by JSON configuration instead of hardcoded components.</p> <p>Instead of manually writing fields like this:</p> <p>I wanted the frontend to dynamically render forms based on conf",
+      "title": "Running Gemma 4 26B on an Old GTX 1080 with llama.cpp",
+      "link": "https://dev.to/mdda/running-gemma-4-26b-on-an-old-gtx-1080-with-llamacpp-4fi5",
+      "pubDate": "2026-05-24T19:36:21.000Z",
+      "description": "<p><em>How to get Google's Gemma 4 26B-A4B Mixture-of-Experts model running locally — including speculative decoding — on hardware that has no business running it.</em></p> <p>Google's <strong>Gemma 4 26B-A4B</strong> is a Mixture-of-Experts model: 25.2 billion total parameters, but only 3.8 billion",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Understanding HTML &amp; CSS with Simple project",
-      "link": "https://dev.to/annapoo/understanding-html-css-with-simple-project-4ajb",
-      "pubDate": "2026-05-24T13:39:09.000Z",
-      "description": "<p>Always there is a starting point for anything, here is my starting point where I created my portfolio with deep understanding rather than just copy paste 🫣</p> <p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-u",
+      "title": "Devlog 1: I tried building an SNES game with the super FX chip",
+      "link": "https://dev.to/beey12345/devlog-1-i-tried-building-an-snes-game-with-the-super-fx-chip-4aob",
+      "pubDate": "2026-05-24T19:33:38.000Z",
+      "description": "<h2> Part identifier </h2> <p>This is part 1 of the Making an SNES super FX game series.</p> <h2> What did I do </h2> <p>It started with me using homebrew to download the <strong>cc65 assembler</strong>.</p> <p>After downloading that I used github to download sourmasen/masen2 repository(repo).</p> <",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "🔥 What’s Happening in Tech World Right Now? — AI, React 19, GPT-4o &amp; More",
-      "link": "https://dev.to/prem_gaikwad_316d716c3/whats-happening-in-tech-world-right-now-ai-react-19-gpt-4o-more-4n1p",
-      "pubDate": "2026-05-24T13:36:30.000Z",
-      "description": "<h1> 🔥 What’s Happening in Tech World Right Now? — AI, React 19, GPT-4o &amp; More </h1> <p>The tech world is moving insanely fast right now 🚀</p> <p>Every week we’re seeing:</p> <ul> <li>New AI tools</li> <li>Better developer workflows</li> <li>Faster frameworks</li> <li>Smarter coding assistants",
+      "title": "Why Gemma 4 Feels Like an Important Moment for AI Developers✨",
+      "link": "https://dev.to/anmolpawar_/why-gemma-4-feels-like-an-important-moment-for-ai-developers-2b91",
+      "pubDate": "2026-05-24T19:32:18.000Z",
+      "description": "<p>*This is a submission for the [Gemma 4 Challenge: Write About Gemma 4]</p> <p>Over the past few months, I’ve been spending a lot of time exploring AI development through hackathons, Flask-based AI experiments, prompt engineering workflows, and developer tools surrounding large language models.</p",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Building a Real-Time Kafka + Cassandra Pipeline",
-      "link": "https://dev.to/geraldm/building-a-real-time-kafka-cassandra-pipeline-moe",
-      "pubDate": "2026-05-24T13:32:47.000Z",
-      "description": "<h2> Introduction </h2> <p>Apache Kafka and Apache Cassandra pair effectively because they complement each other's strengths: Kafka handles high throughput, real-time event streaming and ingestion, while Cassandra provides scalable, fault tolerant and low-latency persistent storage for processed dat",
+      "title": "From Zero and Confused, This Is How I Started Learning to Code",
+      "link": "https://dev.to/luminszn/from-zero-and-confused-this-is-how-i-started-learning-to-code-317c",
+      "pubDate": "2026-05-24T19:26:58.000Z",
+      "description": "<p>I still remember that night so clearly. I was sitting alone in my room, laptop on, coffee already cold on the table. I opened YouTube and typed “learn coding for beginners.” Within minutes, I was completely overwhelmed. One video said start with Python, another pushed JavaScript, and some even re",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "A Beginners guide to Real-time Data Streaming with Apache Kafka",
-      "link": "https://dev.to/geraldm/a-beginners-guide-to-real-time-data-streaming-with-apache-kafka-4iaf",
-      "pubDate": "2026-05-24T13:30:53.000Z",
-      "description": "<h2> Introduction </h2> <p>Ever wondered how banks are able to detect and stop fraud in real-time? This is how they do it. <br> Banks process thousands of transactions every second, end each transaction is recorded in backend systems as it happens. Instead of relying on traditional batch processing,",
+      "title": "I Built a Local AI Gateway That Talks to Claude, ChatGPT, DeepSeek and Gemini — Without a Single API Key",
+      "link": "https://dev.to/malikasana/i-built-a-local-ai-gateway-that-talks-to-claude-chatgpt-deepseek-and-gemini-without-a-single-62h",
+      "pubDate": "2026-05-24T19:23:29.000Z",
+      "description": "<h1> I Built a Local AI Gateway That Talks to Claude, ChatGPT, DeepSeek and Gemini — Without a Single API Key </h1> <p>Every developer building with AI hits the same wall eventually.</p> <p>You're prototyping something. It's working. Then the bill arrives — or worse, the rate limit. You stare at <co",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Getting Started with Gemini API Managed Agents — The Quickest Path from Prompt to Deployed Agent",
-      "link": "https://dev.to/pulkitgovrani/getting-started-with-gemini-api-managed-agents-the-quickest-path-from-prompt-to-deployed-agent-120h",
-      "pubDate": "2026-05-24T13:30:00.000Z",
-      "description": "<p><em>This is a submission for the <a href=\"https://dev.to/challenges/google-io-2026\">Google I/O 2026 Challenge</a>: Explore Google I/O 2026</em></p> <p>Google shipped a lot of developer tooling at I/O 2026. The thing I want to actually build with is <strong>Managed Agents in the Gemini API</strong",
+      "title": "Bootstrapping with AI: Why Gemma 4 is the Micro-SaaS Founder’s Best Friend",
+      "link": "https://dev.to/sandman_sh/bootstrapping-with-ai-why-gemma-4-is-the-micro-saas-founders-best-friend-40og",
+      "pubDate": "2026-05-24T19:23:20.000Z",
+      "description": "<p><em>This is a submission for the <a href=\"https://dev.to/challenges/google-gemma-2026-05-06\">Gemma 4 Challenge: Write About Gemma 4</a></em></p> <p>The math behind building a successful micro-SaaS is usually brutal but straightforward: keep your initial investments as close to zero as possible, v",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Vibe Thinking - The Developer Who Codes at the Speed of Thought",
-      "link": "https://dev.to/flytebittechnologies/vibe-thinking-the-developer-who-codes-at-the-speed-of-thought-3hk",
-      "pubDate": "2026-05-24T13:29:02.000Z",
-      "description": "<p>The team's AI coding tools are live. First week - output is genuinely impressive. PR count is up. Everyone's excited.</p> <p>At the sprint review, the board looks the same.</p> <p>Half the PRs are still waiting on review. Several came back with QA flags. A few were blocked by a requirements quest",
+      "title": "MyErp Architecture Series - #02 Cellular Architecture: Mapping Biology to Software Systems",
+      "link": "https://dev.to/scorpion3dd/myerp-architecture-series-02-cellular-architecture-mapping-biology-to-software-systems-1eog",
+      "pubDate": "2026-05-24T19:23:02.000Z",
+      "description": "<div class=\"crayons-card c-embed text-styles text-styles--secondary\"> <div class=\"c-embed__content\"> <div class=\"c-embed__cover\"> <a href=\"https://myerp.com.ua/en/wiki/architecture/cellular_02\" class=\"c-link align-middle\" rel=\"noopener noreferrer\"> <img alt=\"\" src=\"https://media2.dev.to/dynamic/imag",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "🚀 Built a full stack Miro clone with real-time collaboration, infinite canvas, sticky notes, and modern SaaS UI using Next.js, React, TypeScript, Convex, Liveblocks, Clerk, and Tailwind CSS.\n\nWould love feedback from the dev community 🙌",
-      "link": "https://dev.to/prem_gaikwad_316d716c3/built-this-project-to-challenge-myself-with-real-time-collaboration-infinite-canvas-rendering-3c7i",
-      "pubDate": "2026-05-24T13:25:51.000Z",
-      "description": "<div class=\"ltag__link--embedded\"> <div class=\"crayons-story \"> <a href=\"https://dev.to/prem_gaikwad_316d716c3/i-built-a-full-stack-miro-clone-with-real-time-collaboration-using-nextjs-1gda\" class=\"crayons-story__hidden-navigation-link\">🚀 I Built a Full Stack Miro Clone with Real-Time Collaboration",
+      "title": "NodeJS vs Bun vs Go",
+      "link": "https://dev.to/vastavadi/nodejs-vs-bun-vs-go-30a1",
+      "pubDate": "2026-05-24T19:22:29.000Z",
+      "description": "<p>Mon 25 May 2026, </p> <p>Premise:<br> I came across a video discussing the new Bun.image. How the developers at Bun gave it native Image support that was 'Blazing fast'.<br> This lead me to wonder just how much more performant bun was at regular http server as compared to NodeJS.</p> <p>I am a so",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Define Your Product",
-      "link": "https://dev.to/theunsuredev/define-your-product-5e04",
-      "pubDate": "2026-05-24T13:25:44.000Z",
-      "description": "<blockquote> <p><em>“The beginning of wisdom is the definition of terms” - Socrates. Probably.</em></p> </blockquote> <p>The early biblical account of humanity uniting to build a city and tower on the Shinar plains of ancient Mesopotamia has made the \"Tower of Babel\" an enduring reminder of the diff",
+      "title": "🌍 RTL Arabic Style UI",
+      "link": "https://dev.to/naimeshrao/rtl-arabic-style-ui-2cj5",
+      "pubDate": "2026-05-24T19:22:20.000Z",
+      "description": "<p>👉 <a href=\"https://codepen.io/naimeshrao/full/VYmzXwO\" rel=\"noopener noreferrer\">https://codepen.io/naimeshrao/full/VYmzXwO</a></p> <p>Left-to-right is not the whole internet 😄</p> <p>Create a modern RTL webpage with clean layouts, proper text flow, and responsive design support for Arabic, Urd",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Childhood Computing",
-      "link": "https://susam.net/childhood-computing.html",
-      "pubDate": "2026-05-24T12:07:34.000Z",
-      "description": "Article URL: https://susam.net/childhood-computing.html Comments URL: https://news.ycombinator.com/item?id=48256597 Points: 28 # Comments: 10",
+      "title": "Claude Is Not Your Architect. Stop Letting It Pretend",
+      "link": "https://www.hollandtech.net/claude-is-not-your-architect/",
+      "pubDate": "2026-05-24T18:28:11.000Z",
+      "description": "Article URL: https://www.hollandtech.net/claude-is-not-your-architect/ Comments URL: https://news.ycombinator.com/item?id=48259784 Points: 53 # Comments: 26",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Mastering Dyalog APL",
-      "link": "https://mastering.dyalog.com/README.html",
-      "pubDate": "2026-05-24T11:42:15.000Z",
-      "description": "Article URL: https://mastering.dyalog.com/README.html Comments URL: https://news.ycombinator.com/item?id=48256475 Points: 41 # Comments: 3",
+      "title": "Don't know where your data is from? Bayesian modeling for unknown coordinates",
+      "link": "https://christopherkrapu.com/blog/2026/dont-know-where-your-data-is-from/",
+      "pubDate": "2026-05-24T17:18:52.000Z",
+      "description": "Article URL: https://christopherkrapu.com/blog/2026/dont-know-where-your-data-is-from/ Comments URL: https://news.ycombinator.com/item?id=48259158 Points: 6 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Greg Brockman: Inside the 72 Hours That Almost Killed OpenAI",
-      "link": "https://fs.blog/knowledge-project-podcast/greg-brockman/",
-      "pubDate": "2026-05-24T08:29:38.000Z",
-      "description": "Article URL: https://fs.blog/knowledge-project-podcast/greg-brockman/ Comments URL: https://news.ycombinator.com/item?id=48255593 Points: 98 # Comments: 58",
+      "title": "Flick (YC F25) Is Hiring Front End Engineer to Build Figma for AI Filmmaking",
+      "link": "https://www.ycombinator.com/companies/flick/jobs/Tdu6FH6-senior-frontend-engineer",
+      "pubDate": "2026-05-24T17:00:46.000Z",
+      "description": "Article URL: https://www.ycombinator.com/companies/flick/jobs/Tdu6FH6-senior-frontend-engineer Comments URL: https://news.ycombinator.com/item?id=48258995 Points: 0 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Amazon Web Services – Four Years and Out",
-      "link": "https://www.adventuresinoss.com/aws-four-years/",
-      "pubDate": "2026-05-24T04:51:22.000Z",
-      "description": "Article URL: https://www.adventuresinoss.com/aws-four-years/ Comments URL: https://news.ycombinator.com/item?id=48254475 Points: 256 # Comments: 95",
+      "title": "Memory has grown to nearly two-thirds of AI chip component costs",
+      "link": "https://epoch.ai/data-insights/ai-chip-component-cost-shares",
+      "pubDate": "2026-05-24T16:31:29.000Z",
+      "description": "Article URL: https://epoch.ai/data-insights/ai-chip-component-cost-shares Comments URL: https://news.ycombinator.com/item?id=48258684 Points: 156 # Comments: 174",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Why is Vivado 2026.1 dropping Linux support for free tier?",
-      "link": "https://adaptivesupport.amd.com/s/question/0D5Pd00001YQLdMKAX/why-is-vivado-20261-dropping-linux-support-for-free-tier-?language=en_US",
-      "pubDate": "2026-05-24T04:14:52.000Z",
-      "description": "Article URL: https://adaptivesupport.amd.com/s/question/0D5Pd00001YQLdMKAX/why-is-vivado-20261-dropping-linux-support-for-free-tier-?language=en_US Comments URL: https://news.ycombinator.com/item?id=48254309 Points: 231 # Comments: 107",
+      "title": "Ruby for Good",
+      "link": "https://ti.to/codeforgood/rubyforgood",
+      "pubDate": "2026-05-24T15:49:19.000Z",
+      "description": "Article URL: https://ti.to/codeforgood/rubyforgood Comments URL: https://news.ycombinator.com/item?id=48258254 Points: 77 # Comments: 27",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "The C64 Dead Test Font",
-      "link": "https://www.masswerk.at/nowgobang/2026/c64-dead-test-font",
-      "pubDate": "2026-05-24T03:57:01.000Z",
-      "description": "Article URL: https://www.masswerk.at/nowgobang/2026/c64-dead-test-font Comments URL: https://news.ycombinator.com/item?id=48254236 Points: 77 # Comments: 12",
+      "title": "Usborne 1980s Computer Books",
+      "link": "https://usborne.com/us/books/computer-and-coding-books",
+      "pubDate": "2026-05-24T15:43:00.000Z",
+      "description": "Article URL: https://usborne.com/us/books/computer-and-coding-books Comments URL: https://news.ycombinator.com/item?id=48258194 Points: 115 # Comments: 35",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Alexander Grothendieck Revolutionized 20th-Century Mathematics",
-      "link": "https://www.quantamagazine.org/how-alexander-grothendieck-revolutionized-20th-century-mathematics-20260520/",
-      "pubDate": "2026-05-24T03:19:02.000Z",
-      "description": "Article URL: https://www.quantamagazine.org/how-alexander-grothendieck-revolutionized-20th-century-mathematics-20260520/ Comments URL: https://news.ycombinator.com/item?id=48254020 Points: 84 # Comments: 20",
+      "title": "'AI washing': firms are scrambling to rebrand themselves as tech-focused",
+      "link": "https://www.theguardian.com/technology/2026/may/24/ai-washing-pr-firms-scrambling-rebrand",
+      "pubDate": "2026-05-24T15:21:28.000Z",
+      "description": "Article URL: https://www.theguardian.com/technology/2026/may/24/ai-washing-pr-firms-scrambling-rebrand Comments URL: https://news.ycombinator.com/item?id=48257980 Points: 127 # Comments: 100",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Microsoft open-sources \"the earliest DOS source code discovered to date\"",
-      "link": "https://arstechnica.com/gadgets/2026/04/microsoft-open-sources-the-earliest-dos-source-code-discovered-to-date/",
-      "pubDate": "2026-05-24T01:21:13.000Z",
-      "description": "https://opensource.microsoft.com/blog/2026/04/28/continuing-... Comments URL: https://news.ycombinator.com/item?id=48253386 Points: 326 # Comments: 99",
+      "title": "DeepSeek to Make Permanent 75% Discount on Flagship AI Model",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-23/deepseek-to-make-permanent-75-discount-on-flagship-ai-model",
+      "pubDate": "2026-05-24T14:09:33.000Z",
+      "description": "Article URL: https://www.bloomberg.com/news/articles/2026-05-23/deepseek-to-make-permanent-75-discount-on-flagship-ai-model Comments URL: https://news.ycombinator.com/item?id=48257410 Points: 135 # Comments: 2",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Scammers are abusing an internal Microsoft account to send spam links",
-      "link": "https://techcrunch.com/2026/05/21/scammers-are-abusing-an-internal-microsoft-account-to-send-spam/",
-      "pubDate": "2026-05-24T00:51:32.000Z",
-      "description": "Article URL: https://techcrunch.com/2026/05/21/scammers-are-abusing-an-internal-microsoft-account-to-send-spam/ Comments URL: https://news.ycombinator.com/item?id=48253186 Points: 192 # Comments: 92",
+      "title": "DeepSeek reasonix, DeepSeek native coding agent with high caching and low cost",
+      "link": "https://esengine.github.io/DeepSeek-Reasonix/",
+      "pubDate": "2026-05-24T13:02:06.000Z",
+      "description": "Related ongoing thread:DeepSeek makes the V4 Pro price discount permanent - https://news.ycombinator.com/item?id=48237663 - May 2026 (384 comments) Comments URL: https://news.ycombinator.com/item?id=48256953 Points: 249 # Comments: 137",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Wake up! 16b",
-      "link": "https://hellmood.111mb.de/wake_up_16b_writeup.html",
-      "pubDate": "2026-05-24T00:30:50.000Z",
-      "description": "Article URL: https://hellmood.111mb.de/wake_up_16b_writeup.html Comments URL: https://news.ycombinator.com/item?id=48253060 Points: 305 # Comments: 21",
+      "title": "Constraint Decay: The Fragility of LLM Agents in Back End Code Generation",
+      "link": "https://arxiv.org/abs/2605.06445",
+      "pubDate": "2026-05-24T12:55:53.000Z",
+      "description": "Article URL: https://arxiv.org/abs/2605.06445 Comments URL: https://news.ycombinator.com/item?id=48256912 Points: 111 # Comments: 57",
       "source": "Hacker News",
       "category": "Tech News"
+    },
+    {
+      "title": "The State of CSS Centering in 2026",
+      "link": "https://css-tricks.com/the-state-of-css-centering-in-2026/",
+      "pubDate": "2026-05-22T13:44:40.000Z",
+      "description": "Despite the countless number of online resources, it’s easy to get confused when trying to center an element. There are documented solutions, but do you really understand why the code you picked works? Let's look at the current state of centering options today in 2026. The State of CSS Centering in ",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Stack Overflow: When We Stop Asking",
+      "link": "https://css-tricks.com/stack-overflow-when-we-stop-asking/",
+      "pubDate": "2026-05-20T13:51:34.000Z",
+      "description": "It still hits like a ton of bricks to see the steep decline in Stack Overflow questions. What does that mean about learning in our industry? Stack Overflow: When We Stop Asking originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Cross-Document View Transitions: The Gotchas Nobody Mentions",
+      "link": "https://css-tricks.com/cross-document-view-transitions-part-1/",
+      "pubDate": "2026-05-18T13:47:19.000Z",
+      "description": "This is Part 1 of a two-part series about cross-document view transitions, going over all the gotchas, from ditching the deprecated way to opt into them to a little-known 4-second timeout. Cross-Document View Transitions: The Gotchas Nobody Mentions originally handwritten and published with love on ",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "What’s !important #11: 3D Voxel Scenes, Flying Focus, CSS Syntaxes, and More",
+      "link": "https://css-tricks.com/whats-important-11/",
+      "pubDate": "2026-05-15T13:16:34.000Z",
+      "description": "If 3D voxel scenes (that you can style), flying focus animations, or new CSS syntaxes sound like your kinda thing, then this issue of What’s !important is definitely for you. What’s !important #11: 3D Voxel Scenes, Flying Focus, CSS Syntaxes, and More originally handwritten and published with love o",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Computing and Displaying Discounted Prices in CSS",
+      "link": "https://css-tricks.com/computing-and-displaying-discounted-prices-in-css/",
+      "pubDate": "2026-05-14T14:05:01.000Z",
+      "description": "A clever use of CSS to calculate and display a discounted product price by providing a base price and discount amount, featuring modern CSS features like attr(), mod(), and round(). Computing and Displaying Discounted Prices in CSS originally handwritten and published with love on CSS-Tricks. You sh",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "rotateX()",
+      "link": "https://css-tricks.com/almanac/functions/r/rotatex/",
+      "pubDate": "2026-05-13T14:36:54.000Z",
+      "description": "The rotateX() function rotates an element around the x-axis in a three-dimensional space rotateX() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "rotateY()",
+      "link": "https://css-tricks.com/almanac/functions/r/rotatey/",
+      "pubDate": "2026-05-13T14:33:58.000Z",
+      "description": "The rotateY() function rotates an element around its vertical y-axis. rotateY() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "rotateZ()",
+      "link": "https://css-tricks.com/almanac/functions/r/rotatez/",
+      "pubDate": "2026-05-13T14:33:03.000Z",
+      "description": "The rotateZ() function rotates an element around its z-axis, so clockwise or counterclockwise. rotateZ() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "rotate()",
+      "link": "https://css-tricks.com/almanac/functions/r/rotate/",
+      "pubDate": "2026-05-13T14:32:47.000Z",
+      "description": "The rotate() function spins an element either clockwise or counterclockwise in a 2D plane. rotate() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Soon We Can Finally Banish JavaScript to the ShadowRealm",
+      "link": "https://css-tricks.com/soon-we-can-finally-banish-javascript-to-the-shadowrealm/",
+      "pubDate": "2026-05-12T13:59:35.000Z",
+      "description": "The proposed ShadowRealm API introduces a new kind of realm specifically designed for isolation, and only that. Soon We Can Finally Banish JavaScript to the ShadowRealm originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
       "title": "Meet the HTB Profile: all your skills, in one place",
