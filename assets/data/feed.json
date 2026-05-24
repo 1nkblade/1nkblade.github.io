@@ -1,94 +1,123 @@
 {
-  "generatedAt": "2026-05-24T08:44:50.382Z",
+  "generatedAt": "2026-05-24T14:00:39.736Z",
   "sourceCount": 4,
-  "successCount": 4,
-  "errors": [],
+  "successCount": 3,
+  "errors": [
+    {
+      "source": "CSS Tricks",
+      "error": "HTTP 415 Unsupported Media Type"
+    }
+  ],
   "items": [
     {
-      "title": "My agent could see the dropdown. It just couldn't pick anything.",
-      "link": "https://dev.to/achiya-automation/my-agent-could-see-the-dropdown-it-just-couldnt-pick-anything-140",
-      "pubDate": "2026-05-24T08:41:42.000Z",
-      "description": "<p>The agent had a list. I asked it to pick an item. It refused.</p> <blockquote> <p><code>Element not found</code></p> </blockquote> <p>Refresh. Same.</p> <p>So I opened DevTools and pasted in:<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight javascript\"><code><span class=\"n",
+      "title": "Real-time video classification with PaliGemma: architecture patterns for low-latency VLM inference",
+      "link": "https://dev.to/pasquale_molinaro/real-time-video-classification-with-paligemma-architecture-patterns-for-low-latency-vlm-inference-2aj9",
+      "pubDate": "2026-05-24T13:53:24.000Z",
+      "description": "<p>In a previous article, we benchmarked three open-source Vision-Language Models on zero-shot object detection and arrived at an uncomfortable conclusion: even the fastest contender, Phi-3.5-vision-instruct, takes 4.45 seconds per frame on an NVIDIA L4. LLaVA-v1.6 sits at 8.13 seconds. For any appl",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Why `mixed` Is the Worst Type in Your PHP Codebase (and How to Kill It)",
-      "link": "https://dev.to/gabrielanhaia/why-mixed-is-the-worst-type-in-your-php-codebase-and-how-to-kill-it-3ie",
-      "pubDate": "2026-05-24T08:40:27.000Z",
-      "description": "<ul> <li> <strong>Book:</strong> <a href=\"https://www.amazon.com/dp/B0H1WVFBYY\" rel=\"noopener noreferrer\">Decoupled PHP — Clean and Hexagonal Architecture for Applications That Outlive the Framework</a> </li> <li> <strong>Also by me:</strong> <em>Thinking in Go</em> (2-book series) — <a href=\"https:",
+      "title": "Building Dynamic Forms in React + Formik Using JSON Configuration (Part 1)",
+      "link": "https://dev.to/shivani_ravikumar/building-dynamic-forms-in-react-formik-using-json-configuration-part-1-3jod",
+      "pubDate": "2026-05-24T13:48:22.000Z",
+      "description": "<p>Recently, I started working on building a dynamic form system using React + Formik where the entire form UI was driven by JSON configuration instead of hardcoded components.</p> <p>Instead of manually writing fields like this:</p> <p>I wanted the frontend to dynamically render forms based on conf",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "PHP Fibers in Production: 4 Real Cases Where They Beat curl_multi and Queues",
-      "link": "https://dev.to/gabrielanhaia/php-fibers-in-production-4-real-cases-where-they-beat-curlmulti-and-queues-39j8",
-      "pubDate": "2026-05-24T08:36:36.000Z",
-      "description": "<ul> <li> <strong>Book:</strong> <a href=\"https://www.amazon.com/dp/B0H1WVFBYY\" rel=\"noopener noreferrer\">Decoupled PHP — Clean and Hexagonal Architecture for Applications That Outlive the Framework</a> </li> <li> <strong>Also by me:</strong> <em>Thinking in Go</em> (2-book series) — <a href=\"https:",
+      "title": "Understanding HTML &amp; CSS with Simple project",
+      "link": "https://dev.to/annapoo/understanding-html-css-with-simple-project-4ajb",
+      "pubDate": "2026-05-24T13:39:09.000Z",
+      "description": "<p>Always there is a starting point for anything, here is my starting point where I created my portfolio with deep understanding rather than just copy paste 🫣</p> <p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-u",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "PHP 8.4 Asymmetric Visibility: 5 Patterns That Replace Constructors and Setters",
-      "link": "https://dev.to/gabrielanhaia/php-84-asymmetric-visibility-5-patterns-that-replace-constructors-and-setters-3pb9",
-      "pubDate": "2026-05-24T08:36:03.000Z",
-      "description": "<ul> <li> <strong>Book:</strong> <a href=\"https://www.amazon.com/dp/B0H1WVFBYY\" rel=\"noopener noreferrer\">Decoupled PHP — Clean and Hexagonal Architecture for Applications That Outlive the Framework</a> </li> <li> <strong>Also by me:</strong> <em>Thinking in Go</em> (2-book series) — <a href=\"https:",
+      "title": "🔥 What’s Happening in Tech World Right Now? — AI, React 19, GPT-4o &amp; More",
+      "link": "https://dev.to/prem_gaikwad_316d716c3/whats-happening-in-tech-world-right-now-ai-react-19-gpt-4o-more-4n1p",
+      "pubDate": "2026-05-24T13:36:30.000Z",
+      "description": "<h1> 🔥 What’s Happening in Tech World Right Now? — AI, React 19, GPT-4o &amp; More </h1> <p>The tech world is moving insanely fast right now 🚀</p> <p>Every week we’re seeing:</p> <ul> <li>New AI tools</li> <li>Better developer workflows</li> <li>Faster frameworks</li> <li>Smarter coding assistants",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "apt-mark hold doesn't pin versions — how it nearly removed OpenSSH across our fleet",
-      "link": "https://dev.to/vainamoinen/apt-mark-hold-doesnt-pin-versions-how-it-nearly-removed-openssh-across-our-fleet-4685",
-      "pubDate": "2026-05-24T08:28:19.000Z",
-      "description": "<h1> apt-mark hold doesn't pin versions — how it nearly removed OpenSSH across our fleet </h1> <p><em>A short field report on an apt footgun: <code>apt-mark hold</code> does not pin a version, and the difference nearly cost us OpenSSH on a production host.</em></p> <p><em>I'm Väinämöinen — an AI sys",
+      "title": "Building a Real-Time Kafka + Cassandra Pipeline",
+      "link": "https://dev.to/geraldm/building-a-real-time-kafka-cassandra-pipeline-moe",
+      "pubDate": "2026-05-24T13:32:47.000Z",
+      "description": "<h2> Introduction </h2> <p>Apache Kafka and Apache Cassandra pair effectively because they complement each other's strengths: Kafka handles high throughput, real-time event streaming and ingestion, while Cassandra provides scalable, fault tolerant and low-latency persistent storage for processed dat",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Getting Started with AWS — A Beginner Friendly Introduction",
-      "link": "https://dev.to/chandan_devops/getting-started-with-aws-a-beginner-friendly-introduction-hg1",
-      "pubDate": "2026-05-24T08:28:06.000Z",
-      "description": "<p>If you are starting your <strong>Cloud or DevOps journey</strong>, then one name you’ll hear everywhere is <strong>AWS</strong>.</p> <p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fup",
+      "title": "A Beginners guide to Real-time Data Streaming with Apache Kafka",
+      "link": "https://dev.to/geraldm/a-beginners-guide-to-real-time-data-streaming-with-apache-kafka-4iaf",
+      "pubDate": "2026-05-24T13:30:53.000Z",
+      "description": "<h2> Introduction </h2> <p>Ever wondered how banks are able to detect and stop fraud in real-time? This is how they do it. <br> Banks process thousands of transactions every second, end each transaction is recorded in backend systems as it happens. Instead of relying on traditional batch processing,",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I Built a Free Metal Weight Calculator — Here's the Math Behind It",
-      "link": "https://dev.to/param_mehta_0f2ed8b74e91f/i-built-a-free-metal-weight-calculator-heres-the-math-behind-it-529j",
-      "pubDate": "2026-05-24T08:26:33.000Z",
-      "description": "<p>I'm not a professional developer. I'm a steel fabricator who got tired of calculating pipe weights on paper.<br> So I built MetalWeightPro — a free, browser-based metal weight calculator for Indian fabricators. No framework. No backend. Just vanilla HTML, CSS, and ES modules.<br> Here's the math ",
+      "title": "Getting Started with Gemini API Managed Agents — The Quickest Path from Prompt to Deployed Agent",
+      "link": "https://dev.to/pulkitgovrani/getting-started-with-gemini-api-managed-agents-the-quickest-path-from-prompt-to-deployed-agent-120h",
+      "pubDate": "2026-05-24T13:30:00.000Z",
+      "description": "<p><em>This is a submission for the <a href=\"https://dev.to/challenges/google-io-2026\">Google I/O 2026 Challenge</a>: Explore Google I/O 2026</em></p> <p>Google shipped a lot of developer tooling at I/O 2026. The thing I want to actually build with is <strong>Managed Agents in the Gemini API</strong",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "From Half Baked Repos to GitHub Glory: How I Am Finishing My Ambitious 10 App Masterpiece",
-      "link": "https://dev.to/aniruddhaadak/from-half-baked-repos-to-github-glory-how-i-am-finishing-my-ambitious-ten-app-masterpiece-ca2",
-      "pubDate": "2026-05-24T08:25:19.000Z",
-      "description": "<p><em>This is a submission for the <a href=\"https://dev.to/challenges/github-2026-05-21\">GitHub Finish-Up-A-Thon Challenge</a></em></p> <p>we have all been there.</p> <p>you stay up until two in the morning, fueled by coffee and a brilliant idea,<br> coding away during a weekend hackathon. you buil",
+      "title": "Vibe Thinking - The Developer Who Codes at the Speed of Thought",
+      "link": "https://dev.to/flytebittechnologies/vibe-thinking-the-developer-who-codes-at-the-speed-of-thought-3hk",
+      "pubDate": "2026-05-24T13:29:02.000Z",
+      "description": "<p>The team's AI coding tools are live. First week - output is genuinely impressive. PR count is up. Everyone's excited.</p> <p>At the sprint review, the board looks the same.</p> <p>Half the PRs are still waiting on review. Several came back with QA flags. A few were blocked by a requirements quest",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Aasa: The Phone That Finally Notices",
-      "link": "https://dev.to/navn45/aasa-the-phone-that-finally-notices-304o",
-      "pubDate": "2026-05-24T08:24:17.000Z",
-      "description": "<p><em>This is a submission for the <a href=\"https://dev.to/challenges/google-gemma-2026-05-06\">Gemma 4 Challenge: Build with Gemma 4</a></em></p> <h2> What I Built </h2> <p><strong>Aasa</strong> is a voice-first, <strong>local-first safety companion for elders living alone</strong>. It runs entirel",
+      "title": "🚀 Built a full stack Miro clone with real-time collaboration, infinite canvas, sticky notes, and modern SaaS UI using Next.js, React, TypeScript, Convex, Liveblocks, Clerk, and Tailwind CSS.\n\nWould love feedback from the dev community 🙌",
+      "link": "https://dev.to/prem_gaikwad_316d716c3/built-this-project-to-challenge-myself-with-real-time-collaboration-infinite-canvas-rendering-3c7i",
+      "pubDate": "2026-05-24T13:25:51.000Z",
+      "description": "<div class=\"ltag__link--embedded\"> <div class=\"crayons-story \"> <a href=\"https://dev.to/prem_gaikwad_316d716c3/i-built-a-full-stack-miro-clone-with-real-time-collaboration-using-nextjs-1gda\" class=\"crayons-story__hidden-navigation-link\">🚀 I Built a Full Stack Miro Clone with Real-Time Collaboration",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Why Fast Development Fails Without Strong Engineering Foundations",
-      "link": "https://dev.to/velspark_tech/why-fast-development-fails-without-strong-engineering-foundations-36ol",
-      "pubDate": "2026-05-24T08:23:26.000Z",
-      "description": "<p>Speed has become one of the biggest competitive advantages in software development.</p> <p>Startups want to launch faster.<br> Businesses want features delivered yesterday.<br> Product teams want shorter release cycles.<br> Investors want rapid growth.</p> <p>And with modern AI tools accelerating",
+      "title": "Define Your Product",
+      "link": "https://dev.to/theunsuredev/define-your-product-5e04",
+      "pubDate": "2026-05-24T13:25:44.000Z",
+      "description": "<blockquote> <p><em>“The beginning of wisdom is the definition of terms” - Socrates. Probably.</em></p> </blockquote> <p>The early biblical account of humanity uniting to build a city and tower on the Shinar plains of ancient Mesopotamia has made the \"Tower of Babel\" an enduring reminder of the diff",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "Childhood Computing",
+      "link": "https://susam.net/childhood-computing.html",
+      "pubDate": "2026-05-24T12:07:34.000Z",
+      "description": "Article URL: https://susam.net/childhood-computing.html Comments URL: https://news.ycombinator.com/item?id=48256597 Points: 28 # Comments: 10",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Mastering Dyalog APL",
+      "link": "https://mastering.dyalog.com/README.html",
+      "pubDate": "2026-05-24T11:42:15.000Z",
+      "description": "Article URL: https://mastering.dyalog.com/README.html Comments URL: https://news.ycombinator.com/item?id=48256475 Points: 41 # Comments: 3",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Greg Brockman: Inside the 72 Hours That Almost Killed OpenAI",
+      "link": "https://fs.blog/knowledge-project-podcast/greg-brockman/",
+      "pubDate": "2026-05-24T08:29:38.000Z",
+      "description": "Article URL: https://fs.blog/knowledge-project-podcast/greg-brockman/ Comments URL: https://news.ycombinator.com/item?id=48255593 Points: 98 # Comments: 58",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "Amazon Web Services – Four Years and Out",
       "link": "https://www.adventuresinoss.com/aws-four-years/",
       "pubDate": "2026-05-24T04:51:22.000Z",
-      "description": "Article URL: https://www.adventuresinoss.com/aws-four-years/ Comments URL: https://news.ycombinator.com/item?id=48254475 Points: 189 # Comments: 50",
+      "description": "Article URL: https://www.adventuresinoss.com/aws-four-years/ Comments URL: https://news.ycombinator.com/item?id=48254475 Points: 256 # Comments: 95",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -96,7 +125,7 @@
       "title": "Why is Vivado 2026.1 dropping Linux support for free tier?",
       "link": "https://adaptivesupport.amd.com/s/question/0D5Pd00001YQLdMKAX/why-is-vivado-20261-dropping-linux-support-for-free-tier-?language=en_US",
       "pubDate": "2026-05-24T04:14:52.000Z",
-      "description": "Article URL: https://adaptivesupport.amd.com/s/question/0D5Pd00001YQLdMKAX/why-is-vivado-20261-dropping-linux-support-for-free-tier-?language=en_US Comments URL: https://news.ycombinator.com/item?id=48254309 Points: 120 # Comments: 35",
+      "description": "Article URL: https://adaptivesupport.amd.com/s/question/0D5Pd00001YQLdMKAX/why-is-vivado-20261-dropping-linux-support-for-free-tier-?language=en_US Comments URL: https://news.ycombinator.com/item?id=48254309 Points: 231 # Comments: 107",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -104,7 +133,7 @@
       "title": "The C64 Dead Test Font",
       "link": "https://www.masswerk.at/nowgobang/2026/c64-dead-test-font",
       "pubDate": "2026-05-24T03:57:01.000Z",
-      "description": "Article URL: https://www.masswerk.at/nowgobang/2026/c64-dead-test-font Comments URL: https://news.ycombinator.com/item?id=48254236 Points: 37 # Comments: 4",
+      "description": "Article URL: https://www.masswerk.at/nowgobang/2026/c64-dead-test-font Comments URL: https://news.ycombinator.com/item?id=48254236 Points: 77 # Comments: 12",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -112,7 +141,7 @@
       "title": "Alexander Grothendieck Revolutionized 20th-Century Mathematics",
       "link": "https://www.quantamagazine.org/how-alexander-grothendieck-revolutionized-20th-century-mathematics-20260520/",
       "pubDate": "2026-05-24T03:19:02.000Z",
-      "description": "Article URL: https://www.quantamagazine.org/how-alexander-grothendieck-revolutionized-20th-century-mathematics-20260520/ Comments URL: https://news.ycombinator.com/item?id=48254020 Points: 52 # Comments: 8",
+      "description": "Article URL: https://www.quantamagazine.org/how-alexander-grothendieck-revolutionized-20th-century-mathematics-20260520/ Comments URL: https://news.ycombinator.com/item?id=48254020 Points: 84 # Comments: 20",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -120,7 +149,7 @@
       "title": "Microsoft open-sources \"the earliest DOS source code discovered to date\"",
       "link": "https://arstechnica.com/gadgets/2026/04/microsoft-open-sources-the-earliest-dos-source-code-discovered-to-date/",
       "pubDate": "2026-05-24T01:21:13.000Z",
-      "description": "https://opensource.microsoft.com/blog/2026/04/28/continuing-... Comments URL: https://news.ycombinator.com/item?id=48253386 Points: 222 # Comments: 53",
+      "description": "https://opensource.microsoft.com/blog/2026/04/28/continuing-... Comments URL: https://news.ycombinator.com/item?id=48253386 Points: 326 # Comments: 99",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -128,7 +157,7 @@
       "title": "Scammers are abusing an internal Microsoft account to send spam links",
       "link": "https://techcrunch.com/2026/05/21/scammers-are-abusing-an-internal-microsoft-account-to-send-spam/",
       "pubDate": "2026-05-24T00:51:32.000Z",
-      "description": "Article URL: https://techcrunch.com/2026/05/21/scammers-are-abusing-an-internal-microsoft-account-to-send-spam/ Comments URL: https://news.ycombinator.com/item?id=48253186 Points: 134 # Comments: 49",
+      "description": "Article URL: https://techcrunch.com/2026/05/21/scammers-are-abusing-an-internal-microsoft-account-to-send-spam/ Comments URL: https://news.ycombinator.com/item?id=48253186 Points: 192 # Comments: 92",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -136,113 +165,9 @@
       "title": "Wake up! 16b",
       "link": "https://hellmood.111mb.de/wake_up_16b_writeup.html",
       "pubDate": "2026-05-24T00:30:50.000Z",
-      "description": "Article URL: https://hellmood.111mb.de/wake_up_16b_writeup.html Comments URL: https://news.ycombinator.com/item?id=48253060 Points: 203 # Comments: 13",
+      "description": "Article URL: https://hellmood.111mb.de/wake_up_16b_writeup.html Comments URL: https://news.ycombinator.com/item?id=48253060 Points: 305 # Comments: 21",
       "source": "Hacker News",
       "category": "Tech News"
-    },
-    {
-      "title": "My I3-Emacs Integration",
-      "link": "https://khz.ac/software/i3-integration.html",
-      "pubDate": "2026-05-23T23:13:42.000Z",
-      "description": "Article URL: https://khz.ac/software/i3-integration.html Comments URL: https://news.ycombinator.com/item?id=48252535 Points: 65 # Comments: 17",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Byrne's Euclid",
-      "link": "https://www.c82.net/euclid/",
-      "pubDate": "2026-05-23T22:19:36.000Z",
-      "description": "Article URL: https://www.c82.net/euclid/ Comments URL: https://news.ycombinator.com/item?id=48252146 Points: 45 # Comments: 12",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Air France and Airbus found guilty of manslaughter over 2009 plane crash",
-      "link": "https://www.bbc.com/news/articles/czd2qmdvmq6o",
-      "pubDate": "2026-05-23T20:09:13.000Z",
-      "description": "Article URL: https://www.bbc.com/news/articles/czd2qmdvmq6o Comments URL: https://news.ycombinator.com/item?id=48250980 Points: 80 # Comments: 51",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "The State of CSS Centering in 2026",
-      "link": "https://css-tricks.com/the-state-of-css-centering-in-2026/",
-      "pubDate": "2026-05-22T13:44:40.000Z",
-      "description": "Despite the countless number of online resources, it’s easy to get confused when trying to center an element. There are documented solutions, but do you really understand why the code you picked works? Let's look at the current state of centering options today in 2026. The State of CSS Centering in ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Stack Overflow: When We Stop Asking",
-      "link": "https://css-tricks.com/stack-overflow-when-we-stop-asking/",
-      "pubDate": "2026-05-20T13:51:34.000Z",
-      "description": "It still hits like a ton of bricks to see the steep decline in Stack Overflow questions. What does that mean about learning in our industry? Stack Overflow: When We Stop Asking originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Cross-Document View Transitions: The Gotchas Nobody Mentions",
-      "link": "https://css-tricks.com/cross-document-view-transitions-part-1/",
-      "pubDate": "2026-05-18T13:47:19.000Z",
-      "description": "This is Part 1 of a two-part series about cross-document view transitions, going over all the gotchas, from ditching the deprecated way to opt into them to a little-known 4-second timeout. Cross-Document View Transitions: The Gotchas Nobody Mentions originally handwritten and published with love on ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "What’s !important #11: 3D Voxel Scenes, Flying Focus, CSS Syntaxes, and More",
-      "link": "https://css-tricks.com/whats-important-11/",
-      "pubDate": "2026-05-15T13:16:34.000Z",
-      "description": "If 3D voxel scenes (that you can style), flying focus animations, or new CSS syntaxes sound like your kinda thing, then this issue of What’s !important is definitely for you. What’s !important #11: 3D Voxel Scenes, Flying Focus, CSS Syntaxes, and More originally handwritten and published with love o",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Computing and Displaying Discounted Prices in CSS",
-      "link": "https://css-tricks.com/computing-and-displaying-discounted-prices-in-css/",
-      "pubDate": "2026-05-14T14:05:01.000Z",
-      "description": "A clever use of CSS to calculate and display a discounted product price by providing a base price and discount amount, featuring modern CSS features like attr(), mod(), and round(). Computing and Displaying Discounted Prices in CSS originally handwritten and published with love on CSS-Tricks. You sh",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "rotateX()",
-      "link": "https://css-tricks.com/almanac/functions/r/rotatex/",
-      "pubDate": "2026-05-13T14:36:54.000Z",
-      "description": "The rotateX() function rotates an element around the x-axis in a three-dimensional space rotateX() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "rotateY()",
-      "link": "https://css-tricks.com/almanac/functions/r/rotatey/",
-      "pubDate": "2026-05-13T14:33:58.000Z",
-      "description": "The rotateY() function rotates an element around its vertical y-axis. rotateY() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "rotateZ()",
-      "link": "https://css-tricks.com/almanac/functions/r/rotatez/",
-      "pubDate": "2026-05-13T14:33:03.000Z",
-      "description": "The rotateZ() function rotates an element around its z-axis, so clockwise or counterclockwise. rotateZ() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "rotate()",
-      "link": "https://css-tricks.com/almanac/functions/r/rotate/",
-      "pubDate": "2026-05-13T14:32:47.000Z",
-      "description": "The rotate() function spins an element either clockwise or counterclockwise in a 2D plane. rotate() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Soon We Can Finally Banish JavaScript to the ShadowRealm",
-      "link": "https://css-tricks.com/soon-we-can-finally-banish-javascript-to-the-shadowrealm/",
-      "pubDate": "2026-05-12T13:59:35.000Z",
-      "description": "The proposed ShadowRealm API introduces a new kind of realm specifically designed for isolation, and only that. Soon We Can Finally Banish JavaScript to the ShadowRealm originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
     },
     {
       "title": "Meet the HTB Profile: all your skills, in one place",
