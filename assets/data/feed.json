@@ -1,110 +1,158 @@
 {
-  "generatedAt": "2026-05-26T16:10:41.919Z",
+  "generatedAt": "2026-05-26T20:26:20.841Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "Token-level eval harness for tool-calling agents: what we wired up",
-      "link": "https://dev.to/marcuswwchen/token-level-eval-harness-for-tool-calling-agents-what-we-wired-up-1m1b",
-      "pubDate": "2026-05-26T16:03:35.000Z",
-      "description": "<p><strong>TL;DR: We replaced our \"did the agent finish the task\" pass/fail eval with a token-level harness that scores tool selection, argument shape, and recovery behavior separately. Pass rate went from a single 73% number to four signals that actually tell us what broke. Bifrost sits in front as",
+      "title": "98. RAG: Give Your AI Access to Your Documents",
+      "link": "https://dev.to/yakhilesh/98-rag-give-your-ai-access-to-your-documents-f3b",
+      "pubDate": "2026-05-26T20:23:00.000Z",
+      "description": "<p>You ask ChatGPT about your company's internal policies. It makes something up. It sounds confident. It's wrong.</p> <p>That's the hallucination problem. LLMs generate text based on what they learned during training. If the answer wasn't in the training data, they fabricate one that sounds plausib",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Trust Boundaries in Client-Side Health Apps",
-      "link": "https://dev.to/crisiscoresystems/trust-boundaries-in-client-side-health-apps-2pa9",
-      "pubDate": "2026-05-26T16:00:00.000Z",
-      "description": "<blockquote> <p>Trust-boundary-aligned resource set: <a href=\"https://paintracker.ca/resources\" rel=\"noopener noreferrer\">chronic pain tracking resources</a></p> <p>If you came here from the failure-mode and testing path, this is the boundary<br> question underneath it.</p> </blockquote> <p>Read fir",
+      "title": "Why Getting a Tech Job Right Now Feels Broken?",
+      "link": "https://dev.to/alvisonhunter/why-getting-a-tech-job-right-now-feels-broken-2jc4",
+      "pubDate": "2026-05-26T20:22:48.000Z",
+      "description": "<p><strong>Hey friends.</strong></p> <p>Let's have an honest conversation about landing a tech job in the current market in 2026. The reality is that securing even a first interview now requires far more strategy, preparation, and persistence than it did just a few years ago.</p> <p>As I wrap up my ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Why Some Codebases Are Hard to Understand: Cognitive Surface Area and the Hidden Cost of System Navigation",
-      "link": "https://dev.to/christiecosky/why-some-codebases-are-hard-to-understand-cognitive-surface-area-and-the-hidden-cost-of-system-4pkp",
-      "pubDate": "2026-05-26T16:00:00.000Z",
-      "description": "<h2> Information Foraging: How Developers Navigate Systems </h2> <p>Developers rarely read code from top to bottom. They navigate it. When debugging or extending a system, developers follow cues that suggest where relevant behavior might live, such as:</p> <ul> <li>Directory structure and package na",
+      "title": "The Container Runtime Nobody Told You About (And Four Others)",
+      "link": "https://dev.to/copyleftdev/the-container-runtime-nobody-told-you-about-and-four-others-25e1",
+      "pubDate": "2026-05-26T20:19:00.000Z",
+      "description": "<p>Here's something the container ecosystem doesn't say loudly enough: <strong>runc is not the only option, and for a growing number of production workloads, it's the wrong one.</strong></p> <p>AWS Lambda doesn't run your function in a Docker container. It runs it in a Firecracker microVM. Fly.io's ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The fastest way to update Node.js on your Mac",
-      "link": "https://dev.to/alikarbasicom/the-fastest-way-to-update-nodejs-on-your-mac-18ke",
-      "pubDate": "2026-05-26T15:58:54.000Z",
-      "description": "<ul> <li>Posted on Jul 22, 2023</li> <li>1 min read</li> </ul> <blockquote> <p>🤖 AI summary: This article outlines a quick method for updating Node.js on macOS by utilizing the <code>n</code> package. After verifying your current version, you can install this package globally via the command line. ",
+      "title": "The Singleton Labyrinth",
+      "link": "https://dev.to/suckup_de/the-singleton-labyrinth-19je",
+      "pubDate": "2026-05-26T20:08:52.000Z",
+      "description": "<p>Play the game first: <a href=\"https://voku.github.io/DevLabyrinth/\" rel=\"noopener noreferrer\">voku.github.io/DevLabyrinth/</a></p> <p>It teaches the problem faster than another architecture sermon ever could.</p> <p>You enter a labyrinth.</p> <p>Walls. Corridors. Turns. Dead ends.</p> <p>Annoying",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Prompt is Not Runtime: Why I Rejected LLM State-Machines for Deterministic FinTech",
-      "link": "https://dev.to/alexv_data/prompt-is-not-runtime-why-i-rejected-llm-state-machines-for-deterministic-fintech-6e",
-      "pubDate": "2026-05-26T15:54:42.000Z",
-      "description": "<h2> Prompts are Heuristics, Not Code </h2> <p>There is an excellent article trending on Hacker News right now titled <em>\"Prompt Is Not Runtime.\"</em> It targets a major architectural delusion of the current AI-hype cycle: the idea that we can use natural language prompts as a reliable execution ru",
+      "title": "Build your first MCP server in TypeScript: the 2026 setup that takes 30 minutes.",
+      "link": "https://dev.to/thegdsks/build-your-first-mcp-server-in-typescript-the-2026-setup-that-takes-30-minutes-3m1n",
+      "pubDate": "2026-05-26T20:07:21.000Z",
+      "description": "<h1> Build your first MCP server in TypeScript: the 2026 setup that takes 30 minutes. </h1> <p>I had Claude Desktop open. I needed it to query a local SQLite database without copy-pasting schema dumps into the chat. Thirty minutes later I had a working MCP server. Here is the exact path I took, stri",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Germany news: Childfree adults to pay more for elder care",
-      "link": "https://www.dw.com/en/germany-news-childfree-adults-to-pay-more-for-elder-care/live-77292208",
-      "pubDate": "2026-05-26T15:52:58.000Z",
-      "description": "Article URL: https://www.dw.com/en/germany-news-childfree-adults-to-pay-more-for-elder-care/live-77292208 Comments URL: https://news.ycombinator.com/item?id=48281453 Points: 21 # Comments: 5",
+      "title": "Check Wallet Balances Across 4 Chains with Zero Dependencies — chain_balance.py",
+      "link": "https://dev.to/neuralmint/check-wallet-balances-across-4-chains-with-zero-dependencies-chainbalancepy-120o",
+      "pubDate": "2026-05-26T20:03:34.000Z",
+      "description": "<p><strong>TL;DR:</strong> A single-file Python CLI tool that checks native and token balances across Solana, Ethereum, BSC, and Polygon using public RPC endpoints. No pip install required. Just Python 3 and a wallet address.</p> <p>GitHub: <a href=\"https://github.com/neuralmint/multichain-balance-c",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Vectr — Code Intelligence AI Tool",
+      "link": "https://dev.to/swapnanilsaha/vectr-code-intelligence-ai-tool-320m",
+      "pubDate": "2026-05-26T20:02:47.000Z",
+      "description": "<p>You log off for the day after two hours of research. You know the entry point is <code>EvaluateSegments</code> in <code>targeting/segment/evaluator.go</code>. You know the nil visitor_id case is unhandled. You know <code>bidder/auction.go</code> calls this function and can't have its interface ch",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Veltrix Was Killing Us With YAML",
+      "link": "https://dev.to/dev-architecture-blog/veltrix-was-killing-us-with-yaml-3d93",
+      "pubDate": "2026-05-26T20:01:12.000Z",
+      "description": "<h2> The Problem We Were Actually Solving </h2> <p>The real pain wasnt disk size; it was cognitive load on level designers. Every hunt lived in a separate fork of the same monorepo, diffing 14 kB YAMLs was misery, and once the file exceeded 100 kB we started getting partial-checkout timeouts in CI b",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Beyond Monolithic AI: How to Build a Pluggable \"Brain\" Architecture for Autonomous Agents",
+      "link": "https://dev.to/programmingcentral/beyond-monolithic-ai-how-to-build-a-pluggable-brain-architecture-for-autonomous-agents-3pln",
+      "pubDate": "2026-05-26T20:00:00.000Z",
+      "description": "<p>Imagine you’re building a personal research assistant. Its job is to ingest hundreds of academic PDFs, learn your unique writing style, and eventually draft comprehensive reports for you. </p> <p>When you first launch it, you connect it to a bleeding-edge cloud model like Claude 3.5 Sonnet or GPT",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "5 PostgreSQL locking behaviors that trip people up",
+      "link": "https://dev.to/shinyakato_/5-postgresql-locking-behaviors-that-trip-people-up-4k7n",
+      "pubDate": "2026-05-26T20:00:00.000Z",
+      "description": "<h2> Introduction </h2> <p>PostgreSQL uses MVCC (Multi-Version Concurrency Control) for concurrency control: reads never block writes, and writes never block reads.</p> <p>Its locking system has 8 table-level lock modes and 4 row-level lock modes, and the conflict tables in the documentation tell yo",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Modern Blu-ray drives can now rip GameCube, Wii, and Xbox 360 games to PC",
+      "link": "https://www.tomshardware.com/video-games/console-gaming/modern-blu-ray-drives-can-now-rip-gamecube-wii-and-xbox-360-games-to-pc-third-party-firmware-unlocks-game-rips-from-physical-media-on-select-players",
+      "pubDate": "2026-05-26T18:44:34.000Z",
+      "description": "Article URL: https://www.tomshardware.com/video-games/console-gaming/modern-blu-ray-drives-can-now-rip-gamecube-wii-and-xbox-360-games-to-pc-third-party-firmware-unlocks-game-rips-from-physical-media-on-select-players Comments URL: https://news.ycombinator.com/item?id=48284032 Points: 14 # Comments:",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "SDD en proyectos brownfield: pros, contras y la estrategia que realmente funciona",
-      "link": "https://dev.to/bezael/sdd-en-proyectos-brownfield-pros-contras-y-la-estrategia-que-realmente-funciona-8i8",
-      "pubDate": "2026-05-26T15:51:42.000Z",
-      "description": "<h2> SDD: pros, contras y la estrategia que realmente funciona </h2> <p>Hay un tipo de desarrollador que me resulta muy familiar.</p> <p>Abre un tutorial de IA. Ve al tipo construir una app desde cero en 20 minutos. Se emociona. Abre su proyecto real. Y se da cuenta de que lo que tiene delante no ti",
-      "source": "Dev.to Feed",
-      "category": "Development"
+      "title": "Stop Advertising in Your Commits",
+      "link": "https://akselmo.dev/posts/stop-advertising-in-your-commits/",
+      "pubDate": "2026-05-26T18:37:07.000Z",
+      "description": "Article URL: https://akselmo.dev/posts/stop-advertising-in-your-commits/ Comments URL: https://news.ycombinator.com/item?id=48283914 Points: 107 # Comments: 94",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
-      "title": "Hexagonal Architecture in Practice: Ports, Adapters, and Tests That Skip the Database",
-      "link": "https://dev.to/tacoda/hexagonal-architecture-in-practice-ports-adapters-and-tests-that-skip-the-database-5b19",
-      "pubDate": "2026-05-26T15:50:44.000Z",
-      "description": "<p>This is the technical companion to a piece I wrote about cutting our CI from ~20 minutes to ~5. That post is the story; this one is the receipts. If you are about to do the same migration in a Laravel or similar framework codebase, this is what the code actually looks like.</p> <p>I will use gene",
-      "source": "Dev.to Feed",
-      "category": "Development"
+      "title": "Sage Care (YC S24) Is Hiring Software Engineers",
+      "link": "https://www.ycombinator.com/companies/sagecare/jobs/xtloH8r-senior-software-engineer",
+      "pubDate": "2026-05-26T17:00:40.000Z",
+      "description": "Article URL: https://www.ycombinator.com/companies/sagecare/jobs/xtloH8r-senior-software-engineer Comments URL: https://news.ycombinator.com/item?id=48282478 Points: 0 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
-      "title": "Your Playwright Tests Will Need Refactoring. Here's How to Make It Painless",
-      "link": "https://dev.to/dmitrymeaqa/your-playwright-tests-will-need-refactoring-heres-how-to-make-it-painless-38a3",
-      "pubDate": "2026-05-26T15:48:07.000Z",
-      "description": "<p>You write 50 tests. Everything works. Six months later the team grows, tests become 300, and someone changes a constructor — and you spend two days updating imports across the entire project. Sound familiar?</p> <p>This isn't a discipline problem. It's an architecture problem. And it's fixable be",
-      "source": "Dev.to Feed",
-      "category": "Development"
+      "title": "The real cost of owning a home",
+      "link": "https://ericturner.dev/posts/cost-of-home-ownership/",
+      "pubDate": "2026-05-26T16:04:39.000Z",
+      "description": "Article URL: https://ericturner.dev/posts/cost-of-home-ownership/ Comments URL: https://news.ycombinator.com/item?id=48281611 Points: 119 # Comments: 329",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
-      "title": "Development of a custom API layer for Framer CMS integration",
-      "link": "https://dev.to/webgiftdev/development-of-a-custom-api-layer-for-framer-cms-integration-on8",
-      "pubDate": "2026-05-26T15:47:44.000Z",
-      "description": "<p>As part of the continuous evolution of the digital services, we developed a custom <strong>Events &amp; News</strong> management and presentation platform connected with <strong><a href=\"https://www.framer.com/cms/\" rel=\"noopener noreferrer\">Framer CMS</a></strong> through an intermediate <strong",
-      "source": "Dev.to Feed",
-      "category": "Development"
+      "title": "Is \"colorectal cancer\" rising in \"young people\"?",
+      "link": "https://dynomight.net/crc-rates/",
+      "pubDate": "2026-05-26T16:00:21.000Z",
+      "description": "Article URL: https://dynomight.net/crc-rates/ Comments URL: https://news.ycombinator.com/item?id=48281539 Points: 107 # Comments: 108",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
-      "title": "Stream 24/7 on YouTube with Ant Media Server",
-      "link": "https://dev.to/alikarbasicom/stream-247-on-youtube-with-ant-media-server-2a13",
-      "pubDate": "2026-05-26T15:47:37.000Z",
-      "description": "<ul> <li>Posted on Jan 22, 2022</li> <li>5 min read</li> </ul> <blockquote> <p>🤖 AI summary: This tutorial walks you through setting up Ant Media Server on a Linux VPS to enable 24/7 live streaming to YouTube. Ant Media is an open-source streaming engine that allows you to broadcast pre-recorded vi",
-      "source": "Dev.to Feed",
-      "category": "Development"
+      "title": "What color is your function? (2015)",
+      "link": "https://journal.stuffwithstuff.com/2015/02/01/what-color-is-your-function/",
+      "pubDate": "2026-05-26T15:58:32.000Z",
+      "description": "Article URL: https://journal.stuffwithstuff.com/2015/02/01/what-color-is-your-function/ Comments URL: https://news.ycombinator.com/item?id=48281515 Points: 59 # Comments: 49",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Uber, Lyft drivers in Massachusetts form first US ride-share union",
+      "link": "https://www.reuters.com/business/world-at-work/uber-lyft-drivers-massachusetts-form-first-us-ride-share-union-2026-05-26/",
+      "pubDate": "2026-05-26T15:58:02.000Z",
+      "description": "Article URL: https://www.reuters.com/business/world-at-work/uber-lyft-drivers-massachusetts-form-first-us-ride-share-union-2026-05-26/ Comments URL: https://news.ycombinator.com/item?id=48281509 Points: 226 # Comments: 125",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "The Ballad of TIGIT",
       "link": "https://www.owlposting.com/p/the-ballad-of-tigit",
       "pubDate": "2026-05-26T15:47:32.000Z",
-      "description": "Article URL: https://www.owlposting.com/p/the-ballad-of-tigit Comments URL: https://news.ycombinator.com/item?id=48281367 Points: 5 # Comments: 0",
+      "description": "Article URL: https://www.owlposting.com/p/the-ballad-of-tigit Comments URL: https://news.ycombinator.com/item?id=48281367 Points: 71 # Comments: 12",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "'Incredible' milestone reached as Sweden becomes a smoke-free country",
-      "link": "https://www.thelocal.se/20260525/incredible-milestone-reached-as-sweden-becomes-a-smoke-free-country",
-      "pubDate": "2026-05-26T15:34:04.000Z",
-      "description": "Article URL: https://www.thelocal.se/20260525/incredible-milestone-reached-as-sweden-becomes-a-smoke-free-country Comments URL: https://news.ycombinator.com/item?id=48281199 Points: 15 # Comments: 10",
+      "title": "Language Models Need Sleep",
+      "link": "https://arxiv.org/abs/2605.26099",
+      "pubDate": "2026-05-26T15:36:24.000Z",
+      "description": "Article URL: https://arxiv.org/abs/2605.26099 Comments URL: https://news.ycombinator.com/item?id=48281226 Points: 145 # Comments: 113",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -117,60 +165,12 @@
       "category": "Tech News"
     },
     {
-      "title": "Don't Subscribe So Casually",
-      "link": "https://thebestworstcase.substack.com/p/dont-subscribe-so-casually",
-      "pubDate": "2026-05-26T14:50:25.000Z",
-      "description": "Article URL: https://thebestworstcase.substack.com/p/dont-subscribe-so-casually Comments URL: https://news.ycombinator.com/item?id=48280636 Points: 45 # Comments: 37",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Stockholm poised to become leading European geospatial intel player",
-      "link": "https://www.intelligenceonline.com/europe-russia/2026/05/26/stockholm-poised-to-become-leading-european-geospatial-intel-player,110772386-eve",
-      "pubDate": "2026-05-26T14:44:31.000Z",
-      "description": "Article URL: https://www.intelligenceonline.com/europe-russia/2026/05/26/stockholm-poised-to-become-leading-european-geospatial-intel-player,110772386-eve Comments URL: https://news.ycombinator.com/item?id=48280561 Points: 17 # Comments: 7",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
       "title": "Technical Writing in the AI Age",
       "link": "https://css-tricks.com/technical-writing-in-the-ai-age/",
       "pubDate": "2026-05-26T13:49:28.000Z",
       "description": "This isn’t totally about AI. It’s about technical writing in the age of AI. I have some thoughts on this and I hope it’s helpful to you humans reading. Technical Writing in the AI Age originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
       "source": "CSS Tricks",
       "category": "Frontend"
-    },
-    {
-      "title": "C64 Basic: Game Map Overhead \"Camera View\"",
-      "link": "https://retrogamecoders.com/overhead-camera-view/",
-      "pubDate": "2026-05-26T13:47:39.000Z",
-      "description": "Article URL: https://retrogamecoders.com/overhead-camera-view/ Comments URL: https://news.ycombinator.com/item?id=48279842 Points: 29 # Comments: 2",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Spain blocks prediction markets Polymarket, Kalshi over lack of gambling licence",
-      "link": "https://www.reuters.com/business/spain-blocks-prediction-markets-polymarket-kalshi-over-lack-gambling-licences-2026-05-26/",
-      "pubDate": "2026-05-26T13:08:13.000Z",
-      "description": "Article URL: https://www.reuters.com/business/spain-blocks-prediction-markets-polymarket-kalshi-over-lack-gambling-licences-2026-05-26/ Comments URL: https://news.ycombinator.com/item?id=48279316 Points: 175 # Comments: 88",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Outsourcing plus LocalAI will soon become more economical vs. Frontier labs",
-      "link": "https://www.signalbloom.ai/posts/outsourcing-plus-localai-will-soon-become-more-economical-vs-frontier-labs/",
-      "pubDate": "2026-05-26T12:08:33.000Z",
-      "description": "Article URL: https://www.signalbloom.ai/posts/outsourcing-plus-localai-will-soon-become-more-economical-vs-frontier-labs/ Comments URL: https://news.ycombinator.com/item?id=48278610 Points: 109 # Comments: 114",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Eagle 3.1: Collaboration Between the EAGLE Team, vLLM Team, and TorchSpec Team",
-      "link": "https://vllm.ai/blog/2026-05-26-eagle-3-1",
-      "pubDate": "2026-05-26T11:46:10.000Z",
-      "description": "Article URL: https://vllm.ai/blog/2026-05-26-eagle-3-1 Comments URL: https://news.ycombinator.com/item?id=48278407 Points: 52 # Comments: 17",
-      "source": "Hacker News",
-      "category": "Tech News"
     },
     {
       "title": "Cross-Document View Transitions: Scaling Across Hundreds of Elements",
