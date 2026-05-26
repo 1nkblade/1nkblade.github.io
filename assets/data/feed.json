@@ -1,166 +1,174 @@
 {
-  "generatedAt": "2026-05-26T10:18:58.274Z",
+  "generatedAt": "2026-05-26T16:10:41.919Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "Google Wants Developers to “Vibe Code” — And Antigravity 2.0 Proves It",
-      "link": "https://dev.to/mrunal77/google-wants-developers-to-vibe-code-and-antigravity-20-proves-it-4bg4",
-      "pubDate": "2026-05-26T10:13:55.000Z",
-      "description": "<p>At Google I/O 2026, Google quietly made one of the biggest shifts in software development tooling we’ve seen in years.</p> <p>It wasn’t just another AI coding assistant launch.</p> <p>It was a declaration:</p> <blockquote> <p>The future of development is no longer “write code.”<br> The future is ",
+      "title": "Token-level eval harness for tool-calling agents: what we wired up",
+      "link": "https://dev.to/marcuswwchen/token-level-eval-harness-for-tool-calling-agents-what-we-wired-up-1m1b",
+      "pubDate": "2026-05-26T16:03:35.000Z",
+      "description": "<p><strong>TL;DR: We replaced our \"did the agent finish the task\" pass/fail eval with a token-level harness that scores tool selection, argument shape, and recovery behavior separately. Pass rate went from a single 73% number to four signals that actually tell us what broke. Bifrost sits in front as",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I Tracked HN for 168 Days. AI Skepticism Just Crossed a Threshold Nobody's Talking About.",
-      "link": "https://dev.to/member_18b41f7c/i-tracked-hn-for-168-days-ai-skepticism-just-crossed-a-threshold-nobodys-talking-about-28kk",
-      "pubDate": "2026-05-26T10:10:19.000Z",
-      "description": "<p>I tracked every single AI-related post on Hacker News for 168 days. 50+ narratives. 386 data points. What I found changes everything we think we know about AI adoption.</p> <p>The dominant narrative isn't excitement. It's not even concern. It's <strong>permanent, institutionalized skepticism</str",
+      "title": "Trust Boundaries in Client-Side Health Apps",
+      "link": "https://dev.to/crisiscoresystems/trust-boundaries-in-client-side-health-apps-2pa9",
+      "pubDate": "2026-05-26T16:00:00.000Z",
+      "description": "<blockquote> <p>Trust-boundary-aligned resource set: <a href=\"https://paintracker.ca/resources\" rel=\"noopener noreferrer\">chronic pain tracking resources</a></p> <p>If you came here from the failure-mode and testing path, this is the boundary<br> question underneath it.</p> </blockquote> <p>Read fir",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Private AI Inference in 2026: HIPAA + GDPR Without the Hyperscaler Tax",
-      "link": "https://dev.to/voltagegpu/private-ai-inference-in-2026-hipaa-gdpr-without-the-hyperscaler-tax-1l76",
-      "pubDate": "2026-05-26T10:09:10.000Z",
-      "description": "<p><strong>Quick Answer:</strong> Running HIPAA-grade AI on AWS or Azure costs 3-4x more than bare metal, forces you into US jurisdiction, and still leaves your data visible to the hypervisor. I found a way to get hardware-sealed inference on H200 GPUs for <a href=\"https://voltagegpu.com/compare/vol",
+      "title": "Why Some Codebases Are Hard to Understand: Cognitive Surface Area and the Hidden Cost of System Navigation",
+      "link": "https://dev.to/christiecosky/why-some-codebases-are-hard-to-understand-cognitive-surface-area-and-the-hidden-cost-of-system-4pkp",
+      "pubDate": "2026-05-26T16:00:00.000Z",
+      "description": "<h2> Information Foraging: How Developers Navigate Systems </h2> <p>Developers rarely read code from top to bottom. They navigate it. When debugging or extending a system, developers follow cues that suggest where relevant behavior might live, such as:</p> <ul> <li>Directory structure and package na",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Great read! Matches my lean approach 😃",
-      "link": "https://dev.to/danielsc/great-read-matches-my-lean-approach-2lgp",
-      "pubDate": "2026-05-26T10:08:14.000Z",
-      "description": "<div class=\"ltag__link--embedded\"> <div class=\"crayons-story \"> <a href=\"https://dev.to/marrouchi/how-do-i-use-devops-style-i18n-5edm\" class=\"crayons-story__hidden-navigation-link\">How do I use DevOps-style i18n</a> <div class=\"crayons-story__body crayons-story__body-full_post\"> <div class=\"crayons-",
+      "title": "The fastest way to update Node.js on your Mac",
+      "link": "https://dev.to/alikarbasicom/the-fastest-way-to-update-nodejs-on-your-mac-18ke",
+      "pubDate": "2026-05-26T15:58:54.000Z",
+      "description": "<ul> <li>Posted on Jul 22, 2023</li> <li>1 min read</li> </ul> <blockquote> <p>🤖 AI summary: This article outlines a quick method for updating Node.js on macOS by utilizing the <code>n</code> package. After verifying your current version, you can install this package globally via the command line. ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Can a Marketer Vibe-Code a Working App? 6 Lessons From My First Build",
-      "link": "https://dev.to/bironclark/can-a-marketer-vibe-code-a-working-app-6-lessons-from-my-first-build-22ng",
-      "pubDate": "2026-05-26T10:07:50.000Z",
-      "description": "<p>I spent 10 years in digital marketing and SEO and built every site with WordPress.</p> <p>This year, I decided to try to build a finance dashboard to track corporate insider and politician stock trades.</p> <p>WordPress didn't seem right for this, so I decided to try vibe-coding.</p> <p>I built t",
+      "title": "Prompt is Not Runtime: Why I Rejected LLM State-Machines for Deterministic FinTech",
+      "link": "https://dev.to/alexv_data/prompt-is-not-runtime-why-i-rejected-llm-state-machines-for-deterministic-fintech-6e",
+      "pubDate": "2026-05-26T15:54:42.000Z",
+      "description": "<h2> Prompts are Heuristics, Not Code </h2> <p>There is an excellent article trending on Hacker News right now titled <em>\"Prompt Is Not Runtime.\"</em> It targets a major architectural delusion of the current AI-hype cycle: the idea that we can use natural language prompts as a reliable execution ru",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Experienced devs are 19% slower with AI tools. Nobody wants to hear it.",
-      "link": "https://dev.to/adioof/experienced-devs-are-19-slower-with-ai-tools-nobody-wants-to-hear-it-2386",
-      "pubDate": "2026-05-26T10:07:31.000Z",
-      "description": "<p>A recent study has revealed that proficient developers take 19% more time to complete tasks when utilizing AI programming tools. Yes, you read that correctly. More time.</p> <p>How did people on the internet respond? Most of them were in denial. And that tells you everything about where we are ri",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Breaking the Insurance Black Box: Engineering Production Ready, Compliant AI Systems",
-      "link": "https://dev.to/tianayams/breaking-the-insurance-black-box-engineering-production-ready-compliant-ai-systems-4h8k",
-      "pubDate": "2026-05-26T10:06:23.000Z",
-      "description": "<p>Moving a machine learning model from a Jupyter Notebook into a live, regulated enterprise production environment is one of the hardest challenges in modern software engineering. In highly regulated spaces like the Banking, Financial Services, and Insurance (BFSI) sector, the technical stakes are ",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "The Safety Net Is Always Open Source",
-      "link": "https://dev.to/abasu/the-safety-net-is-always-open-source-fn1",
-      "pubDate": "2026-05-26T10:05:20.000Z",
-      "description": "<p>One of the most surprising things I've noticed about modern software is that <strong>open source is not always the first choice.</strong></p> <p>But it is very often <strong>the last line of defense.</strong></p> <p>When everything is working, most people don't think about it.</p> <p>The SaaS pro",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "The Pattern Paradox: When Hypervigilance Helps — and Hurts — Cybersecurity Analysts",
-      "link": "https://dev.to/sujalavnelavai/the-pattern-paradox-when-hypervigilance-helps-and-hurts-cybersecurity-analysts-518n",
-      "pubDate": "2026-05-26T10:05:06.000Z",
-      "description": "<p><strong>1. Defining the Drift: What Exactly Is Pattern Hypervigilance?</strong><br> Pattern hypervigilance is a mental state where the mind becomes exceptionally alert to patterns — not just obvious ones, but subtle, faint, and sometimes imaginary ones. It’s the brain’s instinctive attempt to mak",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Why your AI workflow needs automated time tracking",
-      "link": "https://dev.to/everware/why-your-ai-workflow-needs-automated-time-tracking-3hae",
-      "pubDate": "2026-05-26T10:04:38.000Z",
-      "description": "<p>As developers in 2026, our productivity isn't linear anymore, we dispatch multiple tasks that run simultaneously. Yet, most time trackers still treat work like a single-threaded process, failing to account for the reality of modern, AI-driven work.<br> I built <strong>TripleTime</strong> because ",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Flatpak Will Depend on Systemd",
-      "link": "https://www.osnews.com/story/145071/flatpak-will-depend-on-systemd/",
-      "pubDate": "2026-05-26T09:43:36.000Z",
-      "description": "Article URL: https://www.osnews.com/story/145071/flatpak-will-depend-on-systemd/ Comments URL: https://news.ycombinator.com/item?id=48277355 Points: 7 # Comments: 0",
+      "title": "Germany news: Childfree adults to pay more for elder care",
+      "link": "https://www.dw.com/en/germany-news-childfree-adults-to-pay-more-for-elder-care/live-77292208",
+      "pubDate": "2026-05-26T15:52:58.000Z",
+      "description": "Article URL: https://www.dw.com/en/germany-news-childfree-adults-to-pay-more-for-elder-care/live-77292208 Comments URL: https://news.ycombinator.com/item?id=48281453 Points: 21 # Comments: 5",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "DynIP – Dynamic DNS with RFC 2136, IPv6, DNSSEC, and BYOD",
-      "link": "https://dynip.dev/",
-      "pubDate": "2026-05-26T07:35:20.000Z",
-      "description": "Article URL: https://dynip.dev/ Comments URL: https://news.ycombinator.com/item?id=48276363 Points: 105 # Comments: 33",
+      "title": "SDD en proyectos brownfield: pros, contras y la estrategia que realmente funciona",
+      "link": "https://dev.to/bezael/sdd-en-proyectos-brownfield-pros-contras-y-la-estrategia-que-realmente-funciona-8i8",
+      "pubDate": "2026-05-26T15:51:42.000Z",
+      "description": "<h2> SDD: pros, contras y la estrategia que realmente funciona </h2> <p>Hay un tipo de desarrollador que me resulta muy familiar.</p> <p>Abre un tutorial de IA. Ve al tipo construir una app desde cero en 20 minutos. Se emociona. Abre su proyecto real. Y se da cuenta de que lo que tiene delante no ti",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Hexagonal Architecture in Practice: Ports, Adapters, and Tests That Skip the Database",
+      "link": "https://dev.to/tacoda/hexagonal-architecture-in-practice-ports-adapters-and-tests-that-skip-the-database-5b19",
+      "pubDate": "2026-05-26T15:50:44.000Z",
+      "description": "<p>This is the technical companion to a piece I wrote about cutting our CI from ~20 minutes to ~5. That post is the story; this one is the receipts. If you are about to do the same migration in a Laravel or similar framework codebase, this is what the code actually looks like.</p> <p>I will use gene",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Your Playwright Tests Will Need Refactoring. Here's How to Make It Painless",
+      "link": "https://dev.to/dmitrymeaqa/your-playwright-tests-will-need-refactoring-heres-how-to-make-it-painless-38a3",
+      "pubDate": "2026-05-26T15:48:07.000Z",
+      "description": "<p>You write 50 tests. Everything works. Six months later the team grows, tests become 300, and someone changes a constructor — and you spend two days updating imports across the entire project. Sound familiar?</p> <p>This isn't a discipline problem. It's an architecture problem. And it's fixable be",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Development of a custom API layer for Framer CMS integration",
+      "link": "https://dev.to/webgiftdev/development-of-a-custom-api-layer-for-framer-cms-integration-on8",
+      "pubDate": "2026-05-26T15:47:44.000Z",
+      "description": "<p>As part of the continuous evolution of the digital services, we developed a custom <strong>Events &amp; News</strong> management and presentation platform connected with <strong><a href=\"https://www.framer.com/cms/\" rel=\"noopener noreferrer\">Framer CMS</a></strong> through an intermediate <strong",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Stream 24/7 on YouTube with Ant Media Server",
+      "link": "https://dev.to/alikarbasicom/stream-247-on-youtube-with-ant-media-server-2a13",
+      "pubDate": "2026-05-26T15:47:37.000Z",
+      "description": "<ul> <li>Posted on Jan 22, 2022</li> <li>5 min read</li> </ul> <blockquote> <p>🤖 AI summary: This tutorial walks you through setting up Ant Media Server on a Linux VPS to enable 24/7 live streaming to YouTube. Ant Media is an open-source streaming engine that allows you to broadcast pre-recorded vi",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "The Ballad of TIGIT",
+      "link": "https://www.owlposting.com/p/the-ballad-of-tigit",
+      "pubDate": "2026-05-26T15:47:32.000Z",
+      "description": "Article URL: https://www.owlposting.com/p/the-ballad-of-tigit Comments URL: https://news.ycombinator.com/item?id=48281367 Points: 5 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Logseq Doctor: Heal your flat old Markdown files before importing them to Logseq",
-      "link": "https://github.com/andreoliwa/logseq-doctor",
-      "pubDate": "2026-05-26T05:43:25.000Z",
-      "description": "Article URL: https://github.com/andreoliwa/logseq-doctor Comments URL: https://news.ycombinator.com/item?id=48275462 Points: 8 # Comments: 1",
+      "title": "'Incredible' milestone reached as Sweden becomes a smoke-free country",
+      "link": "https://www.thelocal.se/20260525/incredible-milestone-reached-as-sweden-becomes-a-smoke-free-country",
+      "pubDate": "2026-05-26T15:34:04.000Z",
+      "description": "Article URL: https://www.thelocal.se/20260525/incredible-milestone-reached-as-sweden-becomes-a-smoke-free-country Comments URL: https://news.ycombinator.com/item?id=48281199 Points: 15 # Comments: 10",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "The User Is Visibly Frustrated",
-      "link": "https://pscanf.com/s/354/",
-      "pubDate": "2026-05-26T04:39:03.000Z",
-      "description": "Article URL: https://pscanf.com/s/354/ Comments URL: https://news.ycombinator.com/item?id=48275059 Points: 150 # Comments: 128",
+      "title": "Launch HN: Minicor (YC P26) – Windows desktop automations at scale",
+      "link": "https://www.minicor.com/",
+      "pubDate": "2026-05-26T14:57:27.000Z",
+      "description": "Hey we’re Faiz and Saheed and we built Minicor so AI companies who need to integrate to desktop systems with no API can quickly build scalable desktop RPAs. Demo: https://www.youtube.com/watch?v=MD0GHZIJ1cwWe were working on non-RPA integrations when a customer promised to sign a deal in 2 days if w",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Motorola phones have started hijacking the Amazon app to insert affiliate codes",
-      "link": "https://9to5google.com/2026/05/25/motorola-amazon-app-hijacking-behavior/",
-      "pubDate": "2026-05-26T03:56:09.000Z",
-      "description": "Article URL: https://9to5google.com/2026/05/25/motorola-amazon-app-hijacking-behavior/ Comments URL: https://news.ycombinator.com/item?id=48274794 Points: 156 # Comments: 82",
+      "title": "Don't Subscribe So Casually",
+      "link": "https://thebestworstcase.substack.com/p/dont-subscribe-so-casually",
+      "pubDate": "2026-05-26T14:50:25.000Z",
+      "description": "Article URL: https://thebestworstcase.substack.com/p/dont-subscribe-so-casually Comments URL: https://news.ycombinator.com/item?id=48280636 Points: 45 # Comments: 37",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Earthion: A New Mega Drive-Style Shoot-Em-Up",
-      "link": "https://earthiongame.com/",
-      "pubDate": "2026-05-26T03:42:23.000Z",
-      "description": "Article URL: https://earthiongame.com/ Comments URL: https://news.ycombinator.com/item?id=48274711 Points: 68 # Comments: 28",
+      "title": "Stockholm poised to become leading European geospatial intel player",
+      "link": "https://www.intelligenceonline.com/europe-russia/2026/05/26/stockholm-poised-to-become-leading-european-geospatial-intel-player,110772386-eve",
+      "pubDate": "2026-05-26T14:44:31.000Z",
+      "description": "Article URL: https://www.intelligenceonline.com/europe-russia/2026/05/26/stockholm-poised-to-become-leading-european-geospatial-intel-player,110772386-eve Comments URL: https://news.ycombinator.com/item?id=48280561 Points: 17 # Comments: 7",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Performance of Rust Language [pdf]",
-      "link": "https://github.com/yugr/rust-slides/",
-      "pubDate": "2026-05-25T23:37:31.000Z",
-      "description": "Article URL: https://github.com/yugr/rust-slides/ Comments URL: https://news.ycombinator.com/item?id=48273147 Points: 76 # Comments: 48",
+      "title": "Technical Writing in the AI Age",
+      "link": "https://css-tricks.com/technical-writing-in-the-ai-age/",
+      "pubDate": "2026-05-26T13:49:28.000Z",
+      "description": "This isn’t totally about AI. It’s about technical writing in the age of AI. I have some thoughts on this and I hope it’s helpful to you humans reading. Technical Writing in the AI Age originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "C64 Basic: Game Map Overhead \"Camera View\"",
+      "link": "https://retrogamecoders.com/overhead-camera-view/",
+      "pubDate": "2026-05-26T13:47:39.000Z",
+      "description": "Article URL: https://retrogamecoders.com/overhead-camera-view/ Comments URL: https://news.ycombinator.com/item?id=48279842 Points: 29 # Comments: 2",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Nobody cracks open a programming book anymore",
-      "link": "https://unix.foo/posts/nobody-cracks-open-a-programming-book/",
-      "pubDate": "2026-05-25T23:21:57.000Z",
-      "description": "Article URL: https://unix.foo/posts/nobody-cracks-open-a-programming-book/ Comments URL: https://news.ycombinator.com/item?id=48273030 Points: 202 # Comments: 234",
+      "title": "Spain blocks prediction markets Polymarket, Kalshi over lack of gambling licence",
+      "link": "https://www.reuters.com/business/spain-blocks-prediction-markets-polymarket-kalshi-over-lack-gambling-licences-2026-05-26/",
+      "pubDate": "2026-05-26T13:08:13.000Z",
+      "description": "Article URL: https://www.reuters.com/business/spain-blocks-prediction-markets-polymarket-kalshi-over-lack-gambling-licences-2026-05-26/ Comments URL: https://news.ycombinator.com/item?id=48279316 Points: 175 # Comments: 88",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Using AI to write better code more slowly",
-      "link": "https://nolanlawson.com/2026/05/25/using-ai-to-write-better-code-more-slowly/",
-      "pubDate": "2026-05-25T23:16:59.000Z",
-      "description": "Article URL: https://nolanlawson.com/2026/05/25/using-ai-to-write-better-code-more-slowly/ Comments URL: https://news.ycombinator.com/item?id=48272984 Points: 651 # Comments: 246",
+      "title": "Outsourcing plus LocalAI will soon become more economical vs. Frontier labs",
+      "link": "https://www.signalbloom.ai/posts/outsourcing-plus-localai-will-soon-become-more-economical-vs-frontier-labs/",
+      "pubDate": "2026-05-26T12:08:33.000Z",
+      "description": "Article URL: https://www.signalbloom.ai/posts/outsourcing-plus-localai-will-soon-become-more-economical-vs-frontier-labs/ Comments URL: https://news.ycombinator.com/item?id=48278610 Points: 109 # Comments: 114",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "How Shamir's Secret Sharing Works",
-      "link": "https://ente.com/blog/how-shamirs-secret-sharing-works/",
-      "pubDate": "2026-05-25T22:37:24.000Z",
-      "description": "Article URL: https://ente.com/blog/how-shamirs-secret-sharing-works/ Comments URL: https://news.ycombinator.com/item?id=48272715 Points: 202 # Comments: 35",
+      "title": "Eagle 3.1: Collaboration Between the EAGLE Team, vLLM Team, and TorchSpec Team",
+      "link": "https://vllm.ai/blog/2026-05-26-eagle-3-1",
+      "pubDate": "2026-05-26T11:46:10.000Z",
+      "description": "Article URL: https://vllm.ai/blog/2026-05-26-eagle-3-1 Comments URL: https://news.ycombinator.com/item?id=48278407 Points: 52 # Comments: 17",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -233,14 +241,6 @@
       "link": "https://css-tricks.com/almanac/functions/r/rotatez/",
       "pubDate": "2026-05-13T14:33:03.000Z",
       "description": "The rotateZ() function rotates an element around its z-axis, so clockwise or counterclockwise. rotateZ() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "rotate()",
-      "link": "https://css-tricks.com/almanac/functions/r/rotate/",
-      "pubDate": "2026-05-13T14:32:47.000Z",
-      "description": "The rotate() function spins an element either clockwise or counterclockwise in a 2D plane. rotate() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
       "source": "CSS Tricks",
       "category": "Frontend"
     },
