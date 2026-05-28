@@ -1,94 +1,118 @@
 {
-  "generatedAt": "2026-05-28T04:40:45.934Z",
+  "generatedAt": "2026-05-28T10:33:58.106Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "Verify That Your GitHub Actions Deployment Actually Landed on the Server",
-      "link": "https://dev.to/leo_rio/verify-that-your-github-actions-deployment-actually-landed-on-the-server-2160",
-      "pubDate": "2026-05-28T04:22:01.000Z",
-      "description": "<h2> How to Verify? </h2> <p>GitHub Actions said ✅ <strong>Success</strong>. The server disagreed.</p> <p>We kept running into a subtle CI/CD problem: after pushing to <code>main</code>, GitHub marked the deployment as successful — but checking the server revealed the old code was still there. No er",
+      "title": "🚀 I Built UUIDs That Look Random But Sort Like Timestamps (50% Smaller Indexes!)",
+      "link": "https://dev.to/ineron/i-built-uuids-that-look-random-but-sort-like-timestamps-50-smaller-indexes-1mem",
+      "pubDate": "2026-05-28T10:22:24.000Z",
+      "description": "<h2> TL;DR </h2> <p>Built a PostgreSQL extension that creates UUIDs looking like random v4 but containing hidden timestamps. Result: <strong>50% smaller indexes</strong> with perfect privacy protection. </p> <p><strong>Available now on PGXN</strong>: <code>pgxn install pg_uuid_v8</code></p> <h2> The",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "v0 by Vercel Review: AI-Generated UI Components That Actually Ship",
-      "link": "https://dev.to/pickuma/v0-by-vercel-review-ai-generated-ui-components-that-actually-ship-39j0",
-      "pubDate": "2026-05-28T04:20:26.000Z",
-      "description": "<p>I spent a week generating 35 UI components with v0 by Vercel to understand where it fits in a real development workflow. The tool occupies a narrow but valuable niche: it does not write backend logic, manage state, or replace a frontend engineer. What it does — generating React components with Ta",
+      "title": "The Night Our Event Pipeline Crashed Because We Didn't Measure Memory First",
+      "link": "https://dev.to/built-from-africa/the-night-our-event-pipeline-crashed-because-we-didnt-measure-memory-first-12oa",
+      "pubDate": "2026-05-28T10:22:03.000Z",
+      "description": "<p>The Problem We Were Actually Solving</p> <p>It started with a scream from the observability dashboard. At 02:47 on a Sunday, our event ingestion pipeline hit 98% memory usage and refused to accept new events. The Go runtime we'd trusted for three years suddenly looked like a liability. The profil",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Real-World Recommendation Systems in Fintech: Moving Beyond Collaborative Filtering",
-      "link": "https://dev.to/nicholaswinst14/real-world-recommendation-systems-in-fintech-moving-beyond-collaborative-filtering-479f",
-      "pubDate": "2026-05-28T04:17:55.000Z",
-      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F701lwj4az9qp6zq0dz3g.png\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/width=800%",
+      "title": "How to Control Token Spend in Codex-Style AI Workflows",
+      "link": "https://dev.to/incatai/how-to-control-token-spend-in-codex-style-ai-workflows-50no",
+      "pubDate": "2026-05-28T10:21:28.000Z",
+      "description": "<p>AI coding agents are changing how developers work. Tools like Codex-style coding assistants, agent frameworks, multi-step automation scripts, and AI-powered developer workflows can now read files, plan changes, call tools, generate patches, inspect errors, and iterate on tasks.</p> <p>That is use",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Garden Visualizer - Would Results Improve Using Example Images? (Screenshots Included)",
-      "link": "https://dev.to/cathylai/garden-visualizer-would-results-improve-using-example-images-screenshots-included-jn2",
-      "pubDate": "2026-05-28T04:17:38.000Z",
-      "description": "<h2> Perfect Prompts Needed? </h2> <p>In creating a <a href=\"https://dev.to/cathylai/how-i-stopped-despairing-over-the-backyard-mess-and-started-an-ai-side-project-3f9a\">garden visualizer</a> to help home owners with their landscape decisions, I assumed that I needed to \"program\" the text prompt per",
+      "title": "Understanding the Model Context Protocol (MCP): Complete Guide",
+      "link": "https://dev.to/ndabene/understanding-the-model-context-protocol-mcp-complete-guide-4b1",
+      "pubDate": "2026-05-28T10:15:04.000Z",
+      "description": "<h1> Model Context Protocol (MCP): The Revolutionary Bridge Between AI and Your Systems </h1> <p>Imagine being able to give your favorite AI direct and secure access to your databases, files, or internal systems. No more copying and pasting information or manually reformatting your data. This is exa",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Post-Mortem: How My Web Game Hit 130k MAU with $0 Marketing (and Survived an AdSense Ban)",
-      "link": "https://dev.to/yitao/post-mortem-how-my-web-game-hit-130k-mau-with-0-marketing-and-survived-an-adsense-ban-883",
-      "pubDate": "2026-05-28T04:12:49.000Z",
-      "description": "<blockquote> <p>A transparent case study on indie game growth: from accidental multi-language localization to a successful B2B pivot in the US market, and scaling revenue after an AdSense restriction.</p> </blockquote> <p>For the past few months, I’ve been fighting in the trenches of the indie game ",
+      "title": "185,000 Affected in 7-Eleven Breach: Why Salesforce Is the New Soft Target for ShinyHunters",
+      "link": "https://dev.to/dimitrisk_cyclopt/185000-affected-in-7-eleven-breach-why-salesforce-is-the-new-soft-target-for-shinyhunters-4k6o",
+      "pubDate": "2026-05-28T10:14:09.000Z",
+      "description": "<h2> What happened </h2> <p>7-Eleven has confirmed a data breach that occurred on April 8, with breach notification site HaveIBeenPwned analyzing the leaked dataset and reporting that approximately 185,000 individuals are likely affected. The stolen data includes names, addresses, email addresses, a",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "AI-Assisted Writing: Our Disclosure Policy and Ethics Stance",
-      "link": "https://dev.to/pickuma/ai-assisted-writing-our-disclosure-policy-and-ethics-stance-1mf4",
-      "pubDate": "2026-05-28T04:10:19.000Z",
-      "description": "<p>Every article on Pickuma is produced with AI assistance, and every article tells you so. The <code>aiAssisted: true</code> flag in our frontmatter is not a legal disclaimer we hope you will overlook. It is a deliberate transparency choice that represents a bet I am making about what readers will ",
+      "title": "Hack your AWS CLI to add CloudShell support and turn your terminal into a bastion",
+      "link": "https://dev.to/aws-builders/hack-your-aws-cli-to-add-cloudshell-support-and-turn-your-terminal-into-a-bastion-2ed9",
+      "pubDate": "2026-05-28T10:10:55.000Z",
+      "description": "<p>I've been using AWS CloudShell from the Console for a while. It's convenient: a pre-authenticated shell in your browser, right there in the AWS Console. But I always wondered: why can't I use it from my terminal? Why is there no <code>aws cloudshell</code> command?</p> <p>Turns out, you can make ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Notion AI for PMs in 2026: Workflow, Limits, and What Actually Saves Time",
-      "link": "https://dev.to/pickuma/notion-ai-for-pms-in-2026-workflow-limits-and-what-actually-saves-time-6hp",
-      "pubDate": "2026-05-28T04:06:31.000Z",
-      "description": "<h2> The premise that doesn't survive contact </h2> <p>Notion's pitch for AI inside the workspace is that it eliminates the \"context-switching tax\" — instead of copy-pasting your meeting notes into ChatGPT, summarizing, and pasting the result back, the AI lives where the work already is. The pitch i",
+      "title": "How to Check Telegram Account Age and Estimated Creation Date",
+      "link": "https://dev.to/illvart/how-to-check-telegram-account-age-and-estimated-creation-date-l0f",
+      "pubDate": "2026-05-28T10:07:54.000Z",
+      "description": "<blockquote> <p><strong>Telegram</strong> does not officially provide account creation dates or detailed account age information. Because of that, many users rely on guesswork when reviewing Telegram accounts during communication, moderation, online transactions, or community management.</p> </block",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "LangChain Interrupt: Agents Moved Into the Runtime | Focused",
-      "link": "https://dev.to/focused_dot_io/langchain-interrupt-agents-moved-into-the-runtime-focused-4n3d",
-      "pubDate": "2026-05-28T04:06:28.000Z",
-      "description": "<p>Interrupt felt different this year.</p> <p>Less model worship. More runtime.</p> <p>Instead of another round of model worship, the more useful conversations at the conference took a more practical turn. Agents work best when the workflow is built agentically from the start, but as a reality on th",
+      "title": "ChromaDB vs Qdrant vs Weaviate vs pgvector: vector database shootout 2026",
+      "link": "https://dev.to/ayinedjimi-consultants/chromadb-vs-qdrant-vs-weaviate-vs-pgvector-vector-database-shootout-2026-14n7",
+      "pubDate": "2026-05-28T10:07:46.000Z",
+      "description": "<p>Every RAG pipeline I've reviewed this year hits the same decision point: which vector store do you actually ship? The wrong choice compounds — it shapes your architecture, your operational overhead, and how painful a future migration will be. I've run all four of these in production or near-produ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Agentic Payments Move Spending Authority Into the Runtime | Focused Labs",
-      "link": "https://dev.to/focused_dot_io/agentic-payments-move-spending-authority-into-the-runtime-focused-labs-41i8",
-      "pubDate": "2026-05-28T04:06:26.000Z",
-      "description": "<p>Agentic payments are arriving before payment authority has an owner.</p> <p>At LangChain Interrupt there was a constant return to a payment question for agentic AI: what to do with AI agents that need to spend money. <a href=\"https://x.com/privy_io/status/2057490730558587366\" rel=\"noopener norefe",
+      "title": "Dhrishti Part 1 - Building Runtime Observability for Distributed Systems",
+      "link": "https://dev.to/idiotcoffee/dhrishti-part-1-building-runtime-observability-for-distributed-systems-5f2e",
+      "pubDate": "2026-05-28T10:06:59.000Z",
+      "description": "<p>— <em>written by a human!</em></p> <p>Recently at work, I worked on a major project - Multitenancy.</p> <p>Initially, we used to provide one virtual machine to every customer that we aquired. This meant a lot of manual configuration, multiple deployments for a small hot-fix, and more importantly,",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I Spent My Time Building Tokens on Solana. What Got Me Surprised? Read This.",
-      "link": "https://dev.to/mudimurtala/i-spent-my-time-building-tokens-on-solana-what-got-me-surprised-read-this-4alh",
-      "pubDate": "2026-05-28T04:06:07.000Z",
-      "description": "<p>I want to tell you something nobody told me before I started this.</p> <p>Building tokens on Solana is not complicated. The CLI does most of the heavy lifting. You run a few commands, something appears on-chain, and you can verify it in a block explorer within seconds. That part is genuinely smoo",
+      "title": "CSS Box Shadows: The Complete Guide From Flat to Floating",
+      "link": "https://dev.to/snappy_tools/css-box-shadows-the-complete-guide-from-flat-to-floating-284h",
+      "pubDate": "2026-05-28T10:06:55.000Z",
+      "description": "<p>The <code>box-shadow</code> property is one of the most powerful CSS properties for making UI elements feel real. A well-placed shadow turns a flat button into something you want to click. A subtle card shadow separates content from the background without a hard border. But getting it right from ",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "The Problem with the Ferrari Luce EV Offers a Lesson for Every Leader",
+      "link": "https://www.inc.com/connor-jewiss/the-problem-with-the-ferrari-luce-ev-offers-a-lesson-for-every-leader/91351070",
+      "pubDate": "2026-05-28T09:36:54.000Z",
+      "description": "Article URL: https://www.inc.com/connor-jewiss/the-problem-with-the-ferrari-luce-ev-offers-a-lesson-for-every-leader/91351070 Comments URL: https://news.ycombinator.com/item?id=48306675 Points: 19 # Comments: 14",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "A Eureka machine that thinks like nature and explores what AI cannot",
+      "link": "https://iisc.ac.in/a-eureka-machine-that-thinks-like-nature-and-explores-what-ai-cannot/",
+      "pubDate": "2026-05-28T06:40:31.000Z",
+      "description": "Article URL: https://iisc.ac.in/a-eureka-machine-that-thinks-like-nature-and-explores-what-ai-cannot/ Comments URL: https://news.ycombinator.com/item?id=48305446 Points: 72 # Comments: 25",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "Hallucinate – Massively Multiplayer Online Rave",
       "link": "https://hallucinate.site",
       "pubDate": "2026-05-28T03:50:01.000Z",
-      "description": "Article URL: https://hallucinate.site Comments URL: https://news.ycombinator.com/item?id=48304260 Points: 5 # Comments: 0",
+      "description": "Article URL: https://hallucinate.site Comments URL: https://news.ycombinator.com/item?id=48304260 Points: 214 # Comments: 86",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Biff is a command line datetime Swiss army knife",
+      "link": "https://github.com/BurntSushi/biff",
+      "pubDate": "2026-05-28T02:58:44.000Z",
+      "description": "Article URL: https://github.com/BurntSushi/biff Comments URL: https://news.ycombinator.com/item?id=48303881 Points: 28 # Comments: 11",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -104,7 +128,7 @@
       "title": "Google employee charged with $1M Polymarket insider trading bet on search term",
       "link": "https://www.cnbc.com/2026/05/27/google-employee-polymarket-insider-trading.html",
       "pubDate": "2026-05-28T00:49:58.000Z",
-      "description": "Article URL: https://www.cnbc.com/2026/05/27/google-employee-polymarket-insider-trading.html Comments URL: https://news.ycombinator.com/item?id=48302822 Points: 76 # Comments: 34",
+      "description": "Article URL: https://www.cnbc.com/2026/05/27/google-employee-polymarket-insider-trading.html Comments URL: https://news.ycombinator.com/item?id=48302822 Points: 182 # Comments: 108",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -112,7 +136,15 @@
       "title": "Can we have the day off?",
       "link": "https://mlsu.io/posts/day-off/",
       "pubDate": "2026-05-28T00:40:26.000Z",
-      "description": "Article URL: https://mlsu.io/posts/day-off/ Comments URL: https://news.ycombinator.com/item?id=48302745 Points: 716 # Comments: 421",
+      "description": "Article URL: https://mlsu.io/posts/day-off/ Comments URL: https://news.ycombinator.com/item?id=48302745 Points: 1071 # Comments: 627",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "I analysed 20 years of my chats",
+      "link": "https://drobinin.com/posts/am-i-a-bad-friend/",
+      "pubDate": "2026-05-27T23:31:13.000Z",
+      "description": "Article URL: https://drobinin.com/posts/am-i-a-bad-friend/ Comments URL: https://news.ycombinator.com/item?id=48302220 Points: 133 # Comments: 45",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -120,7 +152,7 @@
       "title": "FBI Arrests CIA Official with $40M in Gold Bars in His Home",
       "link": "https://www.nytimes.com/2026/05/27/us/politics/fbi-arrest-cia-official-gold-bars.html",
       "pubDate": "2026-05-27T23:23:29.000Z",
-      "description": "Article URL: https://www.nytimes.com/2026/05/27/us/politics/fbi-arrest-cia-official-gold-bars.html Comments URL: https://news.ycombinator.com/item?id=48302151 Points: 175 # Comments: 101",
+      "description": "Article URL: https://www.nytimes.com/2026/05/27/us/politics/fbi-arrest-cia-official-gold-bars.html Comments URL: https://news.ycombinator.com/item?id=48302151 Points: 338 # Comments: 222",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -129,38 +161,6 @@
       "link": "https://www.ycombinator.com/companies/pelica/jobs/MDeC49o-machine-learning-engineer",
       "pubDate": "2026-05-27T22:52:15.000Z",
       "description": "Article URL: https://www.ycombinator.com/companies/pelica/jobs/MDeC49o-machine-learning-engineer Comments URL: https://news.ycombinator.com/item?id=48301851 Points: 0 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Warm up your MacBook (2019)",
-      "link": "https://z3ugma.github.io/2019/11/18/warm-up-your-macbook/",
-      "pubDate": "2026-05-27T20:42:01.000Z",
-      "description": "Article URL: https://z3ugma.github.io/2019/11/18/warm-up-your-macbook/ Comments URL: https://news.ycombinator.com/item?id=48300342 Points: 49 # Comments: 47",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Show HN: Open-Source AI Racing Harness",
-      "link": "https://www.elodin.systems/post/elodin-ai-grand-prix-race-sim-harness",
-      "pubDate": "2026-05-27T20:37:42.000Z",
-      "description": "Hi I'm Dan from Elodin, making an open source real-time capable flight software simulation.For AI Grand Prix contestants, the wait for the Round 1 virtual qualifier simulation has been grueling.If you’re competing, check out our simulation harness to tide you over, built to match the published compe",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "YouTube to automatically label AI-generated videos",
-      "link": "https://blog.youtube/news-and-events/improving-ai-labels-viewers-creators/",
-      "pubDate": "2026-05-27T20:00:51.000Z",
-      "description": "https://variety.com/2026/digital/news/youtube-ai-video-label... Comments URL: https://news.ycombinator.com/item?id=48299753 Points: 612 # Comments: 370",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "I'm Getting into Mesh Networks (Meshtastic, MeshCore, and Reticulum)",
-      "link": "https://www.jonaharagon.com/posts/im-getting-into-mesh-networks-meshtastic-meshcore-and-reticulum/",
-      "pubDate": "2026-05-27T19:52:49.000Z",
-      "description": "Article URL: https://www.jonaharagon.com/posts/im-getting-into-mesh-networks-meshtastic-meshcore-and-reticulum/ Comments URL: https://news.ycombinator.com/item?id=48299638 Points: 109 # Comments: 39",
       "source": "Hacker News",
       "category": "Tech News"
     },
