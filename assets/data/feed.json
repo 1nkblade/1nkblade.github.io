@@ -1,94 +1,158 @@
 {
-  "generatedAt": "2026-05-28T10:33:58.106Z",
+  "generatedAt": "2026-05-28T16:34:30.658Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "🚀 I Built UUIDs That Look Random But Sort Like Timestamps (50% Smaller Indexes!)",
-      "link": "https://dev.to/ineron/i-built-uuids-that-look-random-but-sort-like-timestamps-50-smaller-indexes-1mem",
-      "pubDate": "2026-05-28T10:22:24.000Z",
-      "description": "<h2> TL;DR </h2> <p>Built a PostgreSQL extension that creates UUIDs looking like random v4 but containing hidden timestamps. Result: <strong>50% smaller indexes</strong> with perfect privacy protection. </p> <p><strong>Available now on PGXN</strong>: <code>pgxn install pg_uuid_v8</code></p> <h2> The",
+      "title": "The Sovereign Vault: Building High-Integrity AI with MCP &amp; Local Vision",
+      "link": "https://dev.to/kenwalger/the-sovereign-vault-building-high-integrity-ai-with-mcp-local-vision-41ga",
+      "pubDate": "2026-05-28T16:34:00.000Z",
+      "description": "<p>Over the last several weeks, we’ve built a <strong>Sovereign Vault</strong>—a forensic system that uses the Model Context Protocol (MCP) to authenticate rare books. We’ve seen the code, survived the logic-checks, and successfully navigated the \"Airlock\" of local vision and PII redaction.</p> <p>B",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The Night Our Event Pipeline Crashed Because We Didn't Measure Memory First",
-      "link": "https://dev.to/built-from-africa/the-night-our-event-pipeline-crashed-because-we-didnt-measure-memory-first-12oa",
-      "pubDate": "2026-05-28T10:22:03.000Z",
-      "description": "<p>The Problem We Were Actually Solving</p> <p>It started with a scream from the observability dashboard. At 02:47 on a Sunday, our event ingestion pipeline hit 98% memory usage and refused to accept new events. The Go runtime we'd trusted for three years suddenly looked like a liability. The profil",
+      "title": "I Built a Lightweight Python RAG Orchestrator That Works with SQLite, PGVector and Qdrant",
+      "link": "https://dev.to/someone_somewhere_05cad9e/i-built-a-lightweight-python-rag-orchestrator-that-works-with-sqlite-pgvector-and-qdrant-395e",
+      "pubDate": "2026-05-28T16:28:50.000Z",
+      "description": "<p>Most RAG frameworks today assume:</p> <ul> <li>a huge dependency graph</li> <li>mandatory LLM orchestration</li> <li>opinionated pipelines</li> <li>complex configuration</li> </ul> <p>But many real-world systems need something simpler.</p> <p>Especially when:</p> <ul> <li>you already have an exis",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How to Control Token Spend in Codex-Style AI Workflows",
-      "link": "https://dev.to/incatai/how-to-control-token-spend-in-codex-style-ai-workflows-50no",
-      "pubDate": "2026-05-28T10:21:28.000Z",
-      "description": "<p>AI coding agents are changing how developers work. Tools like Codex-style coding assistants, agent frameworks, multi-step automation scripts, and AI-powered developer workflows can now read files, plan changes, call tools, generate patches, inspect errors, and iterate on tasks.</p> <p>That is use",
+      "title": "Redis — The Engine of Instant Gratification",
+      "link": "https://dev.to/hemu1808/redis-the-engine-of-instant-gratification-1io",
+      "pubDate": "2026-05-28T16:26:07.000Z",
+      "description": "<p>Let’s get one thing straight right out of the gate: if you hang around engineering forums, you’ve probably seen the dramatic headlines or Reddit threads claiming “Redis is dead.”</p> <p>Why? Because a couple of years ago, Redis changed its open-source license to protect its business model from cl",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Understanding the Model Context Protocol (MCP): Complete Guide",
-      "link": "https://dev.to/ndabene/understanding-the-model-context-protocol-mcp-complete-guide-4b1",
-      "pubDate": "2026-05-28T10:15:04.000Z",
-      "description": "<h1> Model Context Protocol (MCP): The Revolutionary Bridge Between AI and Your Systems </h1> <p>Imagine being able to give your favorite AI direct and secure access to your databases, files, or internal systems. No more copying and pasting information or manually reformatting your data. This is exa",
+      "title": "The Project I Couldn’t Finish 2 Years Ago - Notebook for ChatGPT",
+      "link": "https://dev.to/saurabh_raj_afaabe1844a4c/notebook-for-chatgpt-the-project-i-couldnt-finish-2-years-ago-41g9",
+      "pubDate": "2026-05-28T16:25:54.000Z",
+      "description": "<p><em>This is a submission for the <a href=\"https://dev.to/challenges/github-2026-05-21\">GitHub Finish-Up-A-Thon Challenge</a></em></p> <h2> What I Built </h2> <p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uplo",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "185,000 Affected in 7-Eleven Breach: Why Salesforce Is the New Soft Target for ShinyHunters",
-      "link": "https://dev.to/dimitrisk_cyclopt/185000-affected-in-7-eleven-breach-why-salesforce-is-the-new-soft-target-for-shinyhunters-4k6o",
-      "pubDate": "2026-05-28T10:14:09.000Z",
-      "description": "<h2> What happened </h2> <p>7-Eleven has confirmed a data breach that occurred on April 8, with breach notification site HaveIBeenPwned analyzing the leaked dataset and reporting that approximately 185,000 individuals are likely affected. The stolen data includes names, addresses, email addresses, a",
+      "title": "Less Greedy Code, Less Misery: The Power of SRP Through a Battle-Tested Lens",
+      "link": "https://dev.to/uy_trn_313dcb2160cc80651/less-greedy-code-less-misery-the-power-of-srp-through-a-battle-tested-lens-1bmg",
+      "pubDate": "2026-05-28T16:25:45.000Z",
+      "description": "<blockquote> <p><strong>Source</strong>: <a href=\"https://manulx.blog/en/posts/understanding-single-responsibility-principle\" rel=\"noopener noreferrer\">Manul X</a><br> <strong>Published</strong>: 2026-05-24T15:13:44.206Z<br> <strong>Modified</strong>: 2026-05-28T00:41:23.787Z<br> <strong>Language</s",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Hack your AWS CLI to add CloudShell support and turn your terminal into a bastion",
-      "link": "https://dev.to/aws-builders/hack-your-aws-cli-to-add-cloudshell-support-and-turn-your-terminal-into-a-bastion-2ed9",
-      "pubDate": "2026-05-28T10:10:55.000Z",
-      "description": "<p>I've been using AWS CloudShell from the Console for a while. It's convenient: a pre-authenticated shell in your browser, right there in the AWS Console. But I always wondered: why can't I use it from my terminal? Why is there no <code>aws cloudshell</code> command?</p> <p>Turns out, you can make ",
+      "title": "Which Cloud Is Best for Containers &amp; Microservices? Why IBM Cloud Stands Out",
+      "link": "https://dev.to/vscottz/which-cloud-is-best-for-containers-microservices-why-ibm-cloud-stands-out-5a8p",
+      "pubDate": "2026-05-28T16:25:22.000Z",
+      "description": "<p>If you are building modern, cloud-native applications, you already know that containers and microservices are the gold standard. They give your architecture portability, scalability, and rapid deployment capabilities.</p> <p>But when it comes to choosing the right cloud provider to orchestrate yo",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How to Check Telegram Account Age and Estimated Creation Date",
-      "link": "https://dev.to/illvart/how-to-check-telegram-account-age-and-estimated-creation-date-l0f",
-      "pubDate": "2026-05-28T10:07:54.000Z",
-      "description": "<blockquote> <p><strong>Telegram</strong> does not officially provide account creation dates or detailed account age information. Because of that, many users rely on guesswork when reviewing Telegram accounts during communication, moderation, online transactions, or community management.</p> </block",
+      "title": "Modern css kills js",
+      "link": "https://dev.to/oleksandr/modern-css-kills-js-234n",
+      "pubDate": "2026-05-28T16:22:54.000Z",
+      "description": "<p>Modern CSS is evolving at an incredible pace. Tasks that previously<br> required heavy libraries or complex JavaScript scripts are now becoming<br> native parts of the browser engine. This not only simplifies code but<br> also makes websites faster by moving animations and calculations to the<br>",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "ChromaDB vs Qdrant vs Weaviate vs pgvector: vector database shootout 2026",
-      "link": "https://dev.to/ayinedjimi-consultants/chromadb-vs-qdrant-vs-weaviate-vs-pgvector-vector-database-shootout-2026-14n7",
-      "pubDate": "2026-05-28T10:07:46.000Z",
-      "description": "<p>Every RAG pipeline I've reviewed this year hits the same decision point: which vector store do you actually ship? The wrong choice compounds — it shapes your architecture, your operational overhead, and how painful a future migration will be. I've run all four of these in production or near-produ",
+      "title": "15 AI Coding Hacks Nobody Talks About (2026)",
+      "link": "https://dev.to/hirak8/15-ai-coding-hacks-nobody-talks-about-2026-39ob",
+      "pubDate": "2026-05-28T16:21:56.000Z",
+      "description": "<p>Every AI coding tutorial shows you the basics. \"Write a function that does X.\" Cool. Thanks.</p> <p>Here are the tricks that actually matter — the ones you only learn after burning hours on real projects.</p> <h2> 1. Feed Your Entire Codebase in One Shot </h2> <p>Most people paste files one at a ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Dhrishti Part 1 - Building Runtime Observability for Distributed Systems",
-      "link": "https://dev.to/idiotcoffee/dhrishti-part-1-building-runtime-observability-for-distributed-systems-5f2e",
-      "pubDate": "2026-05-28T10:06:59.000Z",
-      "description": "<p>— <em>written by a human!</em></p> <p>Recently at work, I worked on a major project - Multitenancy.</p> <p>Initially, we used to provide one virtual machine to every customer that we aquired. This meant a lot of manual configuration, multiple deployments for a small hot-fix, and more importantly,",
+      "title": "Your AI Agents Need an Architecture, Not Just a Prompt",
+      "link": "https://dev.to/ariefwara/your-ai-agents-need-an-architecture-not-just-a-prompt-4ed",
+      "pubDate": "2026-05-28T16:20:27.000Z",
+      "description": "<h1> Your AI Agents Need an Architecture, Not Just a Prompt </h1> <p>Picture your finance team during month-end close. Data is scattered across the ERP, spreadsheets arriving by email, and manual notes from shared services. Reconciliation takes days. Anomaly checks take longer. Approvals are a bottl",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "CSS Box Shadows: The Complete Guide From Flat to Floating",
-      "link": "https://dev.to/snappy_tools/css-box-shadows-the-complete-guide-from-flat-to-floating-284h",
-      "pubDate": "2026-05-28T10:06:55.000Z",
-      "description": "<p>The <code>box-shadow</code> property is one of the most powerful CSS properties for making UI elements feel real. A well-placed shadow turns a flat button into something you want to click. A subtle card shadow separates content from the background without a hard border. But getting it right from ",
+      "title": "AI coding assistants are making juniors worse and seniors lazier",
+      "link": "https://dev.to/adioof/ai-coding-assistants-are-making-juniors-worse-and-seniors-lazier-1h2g",
+      "pubDate": "2026-05-28T16:18:38.000Z",
+      "description": "<p>Copilot is quietly eroding two different skill sets at once. And almost nobody is talking about it honestly.</p> <p>GitHub Copilot has exceeded 1.5 million paid subscribers. It's safe to say it's now an essential tool as it has integrated into the workflow of many developers a large part of the i",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The Problem with the Ferrari Luce EV Offers a Lesson for Every Leader",
-      "link": "https://www.inc.com/connor-jewiss/the-problem-with-the-ferrari-luce-ev-offers-a-lesson-for-every-leader/91351070",
-      "pubDate": "2026-05-28T09:36:54.000Z",
-      "description": "Article URL: https://www.inc.com/connor-jewiss/the-problem-with-the-ferrari-luce-ev-offers-a-lesson-for-every-leader/91351070 Comments URL: https://news.ycombinator.com/item?id=48306675 Points: 19 # Comments: 14",
+      "title": "We replaced Zendesk",
+      "link": "https://tradecore.com/resources/blog/we-replaced-zendesk-in-48-hours",
+      "pubDate": "2026-05-28T15:42:25.000Z",
+      "description": "Article URL: https://tradecore.com/resources/blog/we-replaced-zendesk-in-48-hours Comments URL: https://news.ycombinator.com/item?id=48310604 Points: 70 # Comments: 51",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "The Permanent Upper Crow",
+      "link": "https://permanent-upper-crow.jasonwu.ink/",
+      "pubDate": "2026-05-28T15:23:04.000Z",
+      "description": "Article URL: https://permanent-upper-crow.jasonwu.ink/ Comments URL: https://news.ycombinator.com/item?id=48310280 Points: 10 # Comments: 3",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Creusot helps you prove your Rust code is correct",
+      "link": "https://github.com/creusot-rs/creusot/tree/master",
+      "pubDate": "2026-05-28T14:42:04.000Z",
+      "description": "Article URL: https://github.com/creusot-rs/creusot/tree/master Comments URL: https://news.ycombinator.com/item?id=48309645 Points: 35 # Comments: 3",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "New York Passes Tax on the Ultra-Wealthy",
+      "link": "https://www.cnbc.com/2026/05/28/new-york-mamdani-pied-a-terre-tax-passes.html",
+      "pubDate": "2026-05-28T14:37:51.000Z",
+      "description": "Article URL: https://www.cnbc.com/2026/05/28/new-york-mamdani-pied-a-terre-tax-passes.html Comments URL: https://news.ycombinator.com/item?id=48309584 Points: 98 # Comments: 90",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "EU fines Temu €200M for allowing sale of illegal products",
+      "link": "https://www.bbc.co.uk/news/articles/c1k2ydn1rz8o",
+      "pubDate": "2026-05-28T14:18:18.000Z",
+      "description": "Article URL: https://www.bbc.co.uk/news/articles/c1k2ydn1rz8o Comments URL: https://news.ycombinator.com/item?id=48309302 Points: 119 # Comments: 58",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Citing 'severe' math deficits, UC faculty demand a return to SAT tests for STEM",
+      "link": "https://www.latimes.com/california/story/2026-05-27/uc-math-professors-demand-return-of-sat-for-stem-admissions",
+      "pubDate": "2026-05-28T14:13:00.000Z",
+      "description": "Article URL: https://www.latimes.com/california/story/2026-05-27/uc-math-professors-demand-return-of-sat-for-stem-admissions Comments URL: https://news.ycombinator.com/item?id=48309233 Points: 284 # Comments: 335",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Show HN: Continue? Y/N: A 60-second game about AI agent permission fatigue",
+      "link": "https://llmgame.scalex.dev",
+      "pubDate": "2026-05-28T13:02:00.000Z",
+      "description": "Article URL: https://llmgame.scalex.dev Comments URL: https://news.ycombinator.com/item?id=48308376 Points: 46 # Comments: 27",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Disagreement Among Frontier LLMs on Real-World Fact-Checks",
+      "link": "https://lenz.io/research/llm-disagreement",
+      "pubDate": "2026-05-28T12:20:19.000Z",
+      "description": "Article URL: https://lenz.io/research/llm-disagreement Comments URL: https://news.ycombinator.com/item?id=48307887 Points: 426 # Comments: 300",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "AMD pulls a bait-and-switch on Linux users with Vivado licensing changes",
+      "link": "https://itsfoss.com/news/amd-vivado-bait-and-switch-on-linux-users/",
+      "pubDate": "2026-05-28T10:56:55.000Z",
+      "description": "Article URL: https://itsfoss.com/news/amd-vivado-bait-and-switch-on-linux-users/ Comments URL: https://news.ycombinator.com/item?id=48307231 Points: 304 # Comments: 129",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -96,71 +160,7 @@
       "title": "A Eureka machine that thinks like nature and explores what AI cannot",
       "link": "https://iisc.ac.in/a-eureka-machine-that-thinks-like-nature-and-explores-what-ai-cannot/",
       "pubDate": "2026-05-28T06:40:31.000Z",
-      "description": "Article URL: https://iisc.ac.in/a-eureka-machine-that-thinks-like-nature-and-explores-what-ai-cannot/ Comments URL: https://news.ycombinator.com/item?id=48305446 Points: 72 # Comments: 25",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Hallucinate – Massively Multiplayer Online Rave",
-      "link": "https://hallucinate.site",
-      "pubDate": "2026-05-28T03:50:01.000Z",
-      "description": "Article URL: https://hallucinate.site Comments URL: https://news.ycombinator.com/item?id=48304260 Points: 214 # Comments: 86",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Biff is a command line datetime Swiss army knife",
-      "link": "https://github.com/BurntSushi/biff",
-      "pubDate": "2026-05-28T02:58:44.000Z",
-      "description": "Article URL: https://github.com/BurntSushi/biff Comments URL: https://news.ycombinator.com/item?id=48303881 Points: 28 # Comments: 11",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "RamAIn (YC W26) Is Hiring",
-      "link": "https://www.ycombinator.com/companies/ramain/jobs/hqvmyKN-founding-gtm-engineer",
-      "pubDate": "2026-05-28T02:21:11.000Z",
-      "description": "Article URL: https://www.ycombinator.com/companies/ramain/jobs/hqvmyKN-founding-gtm-engineer Comments URL: https://news.ycombinator.com/item?id=48303599 Points: 0 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Google employee charged with $1M Polymarket insider trading bet on search term",
-      "link": "https://www.cnbc.com/2026/05/27/google-employee-polymarket-insider-trading.html",
-      "pubDate": "2026-05-28T00:49:58.000Z",
-      "description": "Article URL: https://www.cnbc.com/2026/05/27/google-employee-polymarket-insider-trading.html Comments URL: https://news.ycombinator.com/item?id=48302822 Points: 182 # Comments: 108",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Can we have the day off?",
-      "link": "https://mlsu.io/posts/day-off/",
-      "pubDate": "2026-05-28T00:40:26.000Z",
-      "description": "Article URL: https://mlsu.io/posts/day-off/ Comments URL: https://news.ycombinator.com/item?id=48302745 Points: 1071 # Comments: 627",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "I analysed 20 years of my chats",
-      "link": "https://drobinin.com/posts/am-i-a-bad-friend/",
-      "pubDate": "2026-05-27T23:31:13.000Z",
-      "description": "Article URL: https://drobinin.com/posts/am-i-a-bad-friend/ Comments URL: https://news.ycombinator.com/item?id=48302220 Points: 133 # Comments: 45",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "FBI Arrests CIA Official with $40M in Gold Bars in His Home",
-      "link": "https://www.nytimes.com/2026/05/27/us/politics/fbi-arrest-cia-official-gold-bars.html",
-      "pubDate": "2026-05-27T23:23:29.000Z",
-      "description": "Article URL: https://www.nytimes.com/2026/05/27/us/politics/fbi-arrest-cia-official-gold-bars.html Comments URL: https://news.ycombinator.com/item?id=48302151 Points: 338 # Comments: 222",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Pelica (YC P25) Is Hiring",
-      "link": "https://www.ycombinator.com/companies/pelica/jobs/MDeC49o-machine-learning-engineer",
-      "pubDate": "2026-05-27T22:52:15.000Z",
-      "description": "Article URL: https://www.ycombinator.com/companies/pelica/jobs/MDeC49o-machine-learning-engineer Comments URL: https://news.ycombinator.com/item?id=48301851 Points: 0 # Comments: 0",
+      "description": "Article URL: https://iisc.ac.in/a-eureka-machine-that-thinks-like-nature-and-explores-what-ai-cannot/ Comments URL: https://news.ycombinator.com/item?id=48305446 Points: 135 # Comments: 40",
       "source": "Hacker News",
       "category": "Tech News"
     },
