@@ -1,173 +1,248 @@
 {
-  "generatedAt": "2026-05-28T20:37:28.709Z",
+  "generatedAt": "2026-05-29T04:43:29.380Z",
   "sourceCount": 4,
-  "successCount": 3,
-  "errors": [
-    {
-      "source": "CSS Tricks",
-      "error": "HTTP 415 Unsupported Media Type"
-    }
-  ],
+  "successCount": 4,
+  "errors": [],
   "items": [
     {
-      "title": "Voices from the Community: Forewords and Praise for 'Docker and Kubernetes Security'",
-      "link": "https://dev.to/aerabi/voices-from-the-community-forewords-and-praise-for-docker-and-kubernetes-security-1g55",
-      "pubDate": "2026-05-28T20:31:57.000Z",
-      "description": "<p>When I decided to self-publish <em>Docker and Kubernetes Security</em> in early 2025, I never imagined the incredible support from the community that would follow. From Docker Captains to industry leaders, the book has received heartfelt forewords and glowing reviews that have truly humbled me.</",
+      "title": "Why AI Image Generation Should Be Async",
+      "link": "https://dev.to/natalia_c8ace1e6703e8f29f/why-ai-image-generation-should-be-async-k81",
+      "pubDate": "2026-05-29T04:33:18.000Z",
+      "description": "<p>AI image generation can look like a simple request-response feature.</p> <p>A user enters a prompt, clicks generate, and waits for an image.</p> <p>For a prototype, that can work. For a production product, it usually becomes fragile.</p> <p>Image generation may take several seconds or minutes. A ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I gave up on making my AI builder write good media queries",
-      "link": "https://dev.to/pcpranav/i-gave-up-on-making-my-ai-builder-write-good-media-queries-1bl9",
-      "pubDate": "2026-05-28T20:29:44.000Z",
-      "description": "<p>Every site my AI website builder produced looked great on a phone and weak on a desktop. The hero stretched edge-to-edge in a single anemic column. Features grids stayed at one column on a 27\" monitor. Section padding that felt generous on mobile felt empty at desktop widths.</p> <p>I spent two w",
+      "title": "AI Search Systems for Businesses: The Next Big Opportunity for Developers",
+      "link": "https://dev.to/kailasvs_94/ai-search-systems-for-businesses-the-next-big-opportunity-for-developers-567p",
+      "pubDate": "2026-05-29T04:30:00.000Z",
+      "description": "<p>Most businesses have a search problem.</p> <p>Not a Google-scale problem.</p> <p>An operational problem.</p> <p>Employees waste hours searching through:</p> <ul> <li>PDFs</li> <li>CRMs</li> <li>spreadsheets</li> <li>emails</li> <li>dashboards</li> <li>SOPs</li> <li>tickets</li> <li>maintenance lo",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Building software in C#: part 1 - history.",
-      "link": "https://dev.to/czmirek/building-software-in-c-part-1-history-1p1i",
-      "pubDate": "2026-05-28T20:29:09.000Z",
-      "description": "<h2> 3-Layer Architecture </h2> <p>When I started programming in C# back in 2010 in Prague (Czech Republic), the dominant trend was the 3-layer monolithic architecture. This approach splits an application into a presentation layer, a business layer, and a database layer.</p> <p>For some reason, howe",
+      "title": "BoxAgnts Introduction (5) — Rust Has Become a New Option for AI Agents",
+      "link": "https://dev.to/guyoung/boxagnts-introduction-5-rust-has-become-a-new-option-for-ai-agents-2kk4",
+      "pubDate": "2026-05-29T04:22:12.000Z",
+      "description": "<p>Today's AI Agent development landscape has already formed three major language camps:</p> <div class=\"table-wrapper-paragraph\"><table> <thead> <tr> <th>Language</th> <th>Representative Projects</th> <th>Core Strengths</th> <th>Typical Scenarios</th> </tr> </thead> <tbody> <tr> <td><strong>Python<",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Why Most DNS Audit Tools Don't Give You the Actual Fix (And Why We Do)",
-      "link": "https://dev.to/rronyecz/why-most-dns-audit-tools-dont-give-you-the-actual-fix-and-why-we-do-4no2",
-      "pubDate": "2026-05-28T20:23:45.000Z",
-      "description": "<p>You run the audit. The results come back. SPF: <strong>Fail</strong>. DMARC: <strong>Not configured</strong>. Blacklist status: <strong>Listed on 3 databases</strong>.</p> <p>You stare at the screen. The tool has done its job. It found the problems. Now what?</p> <p>There is no \"what.\" The tool s",
+      "title": "5090 vs 4090 for AI Workloads: Buy, Rent, or Validate in the Cloud?",
+      "link": "https://dev.to/runcai/5090-vs-4090-for-ai-workloads-buy-rent-or-validate-in-the-cloud-1mh3",
+      "pubDate": "2026-05-29T04:21:29.000Z",
+      "description": "<p><em>Originally published at <a href=\"https://blog.runc.ai/5090-vs-4090/\" rel=\"noopener noreferrer\">https://blog.runc.ai/5090-vs-4090/</a>.</em></p> <h2 id=\"key-takeaways\">Key Takeaways</h2> <ul> <li>RTX 5090 is the stronger flagship on paper, especially when your AI workflow benefits from <code>3",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Check out my latest project",
-      "link": "https://dev.to/radghost/-2b4g",
-      "pubDate": "2026-05-28T20:23:37.000Z",
-      "description": "<div class=\"ltag__link--embedded\"> <div class=\"crayons-story \"> <a href=\"https://dev.to/radghost/i-turned-an-abandoned-go-project-into-a-full-terminal-arcade-game-4ck2\" class=\"crayons-story__hidden-navigation-link\">I turned an abandoned Go project into a full terminal Arcade Game</a> <div class=\"cra",
+      "title": "The Prometheus label that blew our monitoring bill out 6x",
+      "link": "https://dev.to/claire_nguyen/the-prometheus-label-that-blew-our-monitoring-bill-out-6x-57hj",
+      "pubDate": "2026-05-29T04:21:15.000Z",
+      "description": "<p><strong>TL;DR: Our metrics bill went 6x in a single month. Traffic was flat. One Prometheus label carrying per-build IDs spawned millions of time series, and the backend charges by active series. Here's how we caught it and the label rules we run now so it doesn't happen again.</strong></p> <h2> ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "10 Most Important Things You Should Learn in Lean 4",
-      "link": "https://dev.to/shrsv/10-most-important-things-you-should-learn-in-lean-4-1lgk",
-      "pubDate": "2026-05-28T20:23:16.000Z",
-      "description": "<p>Most programmers spend years learning <em>how to make software work</em>.<br> Very few spend time learning how to make software <em>provably correct</em>.</p> <p>That difference is exactly why systems like compilers, cryptography libraries, kernels, and formal mathematics increasingly rely on pro",
+      "title": "Building a random live webcam discovery site",
+      "link": "https://dev.to/earthlivetv/building-a-random-live-webcam-discovery-site-2j81",
+      "pubDate": "2026-05-29T04:20:03.000Z",
+      "description": "<p>I'm a 32-year-old Brit guy living in Quy Nhon, Vietnam. Travelled 60+ countries, worked as an anti-poaching ranger in Africa and an English teacher in Thailand. Noticed cameras are literally everywhere on Earth and thought - why isn't there one site that pulls them all together?</p> <p><strong>So",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How I Automated My Obsidian Vault with Claude — It Now Works the Night Shift",
-      "link": "https://dev.to/sabahattink/how-i-automated-my-obsidian-vault-with-claude-it-now-works-the-night-shift-3gjl",
-      "pubDate": "2026-05-28T20:21:28.000Z",
-      "description": "<h2> I was drowning in my own notes </h2> <p>For about two years, I lived inside Obsidian. Daily notes, fleeting thoughts, meeting takeaways, half-formed ideas at 2am, voice memos I'd transcribe by hand. My vault had over 3,000 notes.</p> <p>And I remembered almost none of it.</p> <p>Every morning I",
+      "title": "Python utility package for building Claude Code hooks",
+      "link": "https://github.com/RasmusGodske/claude-hook-utils",
+      "pubDate": "2026-05-29T04:18:34.000Z",
+      "description": "Article URL: https://github.com/RasmusGodske/claude-hook-utils Comments URL: https://news.ycombinator.com/item?id=48318978 Points: 5 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "I was tired of security scanners with 90% false positives, so I built my own",
+      "link": "https://dev.to/hnikhil/i-was-tired-of-security-scanners-with-90-false-positives-so-i-built-my-own-5eje",
+      "pubDate": "2026-05-29T04:16:10.000Z",
+      "description": "<p>Every developer knows the pain of running a security scan. You wait for it to finish, only to be handed a giant report filled with hundreds of warnings. You then have to spend the next three hours manually testing each one, only to find out that almost all of them are false positives. </p> <p>It ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The hidden cost of cloud GPU training: egress, idle time, and lock-in",
-      "link": "https://dev.to/asymm/the-hidden-cost-of-cloud-gpu-training-egress-idle-time-and-lock-in-15f5",
-      "pubDate": "2026-05-28T20:20:53.000Z",
-      "description": "<p>The GPU hourly rate is the number everyone compares. It is also the number that tells you the least about what a training run actually costs.</p> <p>The sticker price, say $2 to $3.50 an hour for an H100 on a specialized cloud, is the visible tip. The real bill is built from three things almost n",
+      "title": "📄Paper: RORA-VLM: Robust Retrieval Augmentation for Vision Language Models",
+      "link": "https://dev.to/qq5yu/paper-rora-vlm-robust-retrieval-augmentation-for-vision-language-models-5b4l",
+      "pubDate": "2026-05-29T04:13:04.000Z",
+      "description": "<p><strong>Public At</strong><br> <em>International Conference on Learning Representations (ICLR) 2025</em></p> <blockquote> <p><strong>💡 Why I read this</strong><br> 最近在找論文的 idea 剛好找到這篇，發表在 ICLR 2025，不過被 Reject 了有點可惜<br> 這篇主要是把 RAG 應用到 VLM ，讓模型在回答問題時可以利用外部知識<br> 在很多 VQA 的任務中，答案其實不在圖片裡面，而是需要額外的背景知識",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Control SwiftUI and Compose State Synchronously with Worklets in Expo UI",
-      "link": "https://dev.to/expo/control-swiftui-and-compose-state-synchronously-with-worklets-in-expo-ui-3ado",
-      "pubDate": "2026-05-28T20:20:50.000Z",
-      "description": "<p>React Native developers have long dealt with the friction of bridging JavaScript with native UI threads. Every time you need to update native state, you send a message across the bridge, wait for the round-trip, and hope the user doesn't notice the delay. Expo UI in SDK 56 changes this with workl",
+      "title": "Free Model Providers to Use with Hermes Agent",
+      "link": "https://dev.to/dalenguyen/free-model-providers-to-use-with-hermes-agent-13l9",
+      "pubDate": "2026-05-29T04:12:02.000Z",
+      "description": "<p><a href=\"https://github.com/nousresearch/hermes-agent\" rel=\"noopener noreferrer\">Hermes Agent</a> by NousResearch is an open-source AI agent that does something most frameworks do not: it learns from experience. It creates skills during use, refines its memory across sessions, and supports parall",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "We Didn’t Just Train AI on the Internet. We Started Training It on Itself.",
-      "link": "https://dev.to/arpitstack/we-didnt-just-train-ai-on-the-internet-we-started-training-it-on-itself-24b6",
-      "pubDate": "2026-05-28T20:19:26.000Z",
-      "description": "<p>There’s a quiet assumption in almost every AI discussion right now:</p> <blockquote> <p>“If we scale compute and models, intelligence will keep improving.”</p> </blockquote> <p>That assumption is starting to break.</p> <p>Not loudly.</p> <p>But structurally.</p> <h2> The real bottleneck isn’t com",
+      "title": "I built a backend platform that generates REST APIs from a schema — no code, no server setup",
+      "link": "https://dev.to/mspk97/i-built-a-backend-platform-that-generates-rest-apis-from-a-schema-no-code-no-server-setup-184g",
+      "pubDate": "2026-05-29T04:09:40.000Z",
+      "description": "<p>Every side project I've shipped starts the same way: I have a frontend idea, and I immediately have to stop and go build a backend for it.</p> <p>Not because the backend is hard. Because it's <em>tedious</em>. The same patterns, every time. Define a model. Wire up routes. Handle errors. Write doc",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Sam Altman and Dario Amodei are both walking back AI jobs apocalypse predictions",
-      "link": "https://fortune.com/2026/05/26/sam-altman-dario-amodei-walking-back-ai-jobs-apocalypse-prophecies-ipo/",
-      "pubDate": "2026-05-28T19:43:14.000Z",
-      "description": "Article URL: https://fortune.com/2026/05/26/sam-altman-dario-amodei-walking-back-ai-jobs-apocalypse-prophecies-ipo/ Comments URL: https://news.ycombinator.com/item?id=48314363 Points: 41 # Comments: 22",
+      "title": "The most spectacular rocket explosion since N1 just happened in Florida",
+      "link": "https://arstechnica.com/space/2026/05/blue-origins-new-glenn-rocket-just-exploded-during-a-static-fire-test/",
+      "pubDate": "2026-05-29T03:32:15.000Z",
+      "description": "Article URL: https://arstechnica.com/space/2026/05/blue-origins-new-glenn-rocket-just-exploded-during-a-static-fire-test/ Comments URL: https://news.ycombinator.com/item?id=48318678 Points: 65 # Comments: 20",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Bricks and Minifigs Stole a Man's $200k Lego Collection",
-      "link": "https://mybricklog.com/blog/bricks-minifigs-corporate-stole-old-mans-200000-lego-collection",
-      "pubDate": "2026-05-28T19:24:09.000Z",
-      "description": "Article URL: https://mybricklog.com/blog/bricks-minifigs-corporate-stole-old-mans-200000-lego-collection Comments URL: https://news.ycombinator.com/item?id=48314136 Points: 113 # Comments: 26",
+      "title": "Cars are trying to spy on you, and it's only just the beginning",
+      "link": "https://www.bbc.com/future/article/20260513-your-car-is-spying-on-you-its-about-to-get-worse",
+      "pubDate": "2026-05-29T03:01:00.000Z",
+      "description": "Article URL: https://www.bbc.com/future/article/20260513-your-car-is-spying-on-you-its-about-to-get-worse Comments URL: https://news.ycombinator.com/item?id=48318481 Points: 117 # Comments: 58",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Nitpicking the shell history scene in 'Tron: Legacy'",
-      "link": "https://www.chiark.greenend.org.uk/~sgtatham/quasiblog/tron-legacy/",
-      "pubDate": "2026-05-28T19:15:54.000Z",
-      "description": "Article URL: https://www.chiark.greenend.org.uk/~sgtatham/quasiblog/tron-legacy/ Comments URL: https://news.ycombinator.com/item?id=48314002 Points: 38 # Comments: 4",
+      "title": "Italians and Dutch share the same gestural instinct for teaching",
+      "link": "https://www.mpi.nl/news/italians-and-dutch-share-same-gestural-instinct-teaching",
+      "pubDate": "2026-05-29T02:33:13.000Z",
+      "description": "Article URL: https://www.mpi.nl/news/italians-and-dutch-share-same-gestural-instinct-teaching Comments URL: https://news.ycombinator.com/item?id=48318313 Points: 4 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Separate the Cord from the Device",
-      "link": "https://bookofjoe2.blogspot.com/2026/05/blog-post_27.html",
-      "pubDate": "2026-05-28T19:14:38.000Z",
-      "description": "Article URL: https://bookofjoe2.blogspot.com/2026/05/blog-post_27.html Comments URL: https://news.ycombinator.com/item?id=48313990 Points: 10 # Comments: 8",
+      "title": "Blue Origin's New Glenn blows up during static fire test",
+      "link": "https://twitter.com/nasaspaceflight/status/2060164928472854821",
+      "pubDate": "2026-05-29T01:16:38.000Z",
+      "description": "Article URL: https://twitter.com/nasaspaceflight/status/2060164928472854821 Comments URL: https://news.ycombinator.com/item?id=48317774 Points: 165 # Comments: 83",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Various LLM Smells",
-      "link": "https://shvbsle.in/various-llm-smells/",
-      "pubDate": "2026-05-28T19:02:18.000Z",
-      "description": "Article URL: https://shvbsle.in/various-llm-smells/ Comments URL: https://news.ycombinator.com/item?id=48313810 Points: 5 # Comments: 0",
+      "title": "Where are the economies of scale in homebuilding?",
+      "link": "https://www.construction-physics.com/p/where-are-the-economies-of-scale",
+      "pubDate": "2026-05-29T00:16:20.000Z",
+      "description": "Article URL: https://www.construction-physics.com/p/where-are-the-economies-of-scale Comments URL: https://news.ycombinator.com/item?id=48317339 Points: 64 # Comments: 79",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Just Use Postgres for Durable Workflows",
-      "link": "https://www.dbos.dev/blog/postgres-is-all-you-need-for-durable-execution",
-      "pubDate": "2026-05-28T18:41:46.000Z",
-      "description": "Article URL: https://www.dbos.dev/blog/postgres-is-all-you-need-for-durable-execution Comments URL: https://news.ycombinator.com/item?id=48313530 Points: 140 # Comments: 52",
+      "title": "The mysterious Hy3 LLM is topping OpenRouter Model Rankings by a large margin",
+      "link": "https://minimaxir.com/2026/05/openrouter-hy3/",
+      "pubDate": "2026-05-29T00:09:35.000Z",
+      "description": "Article URL: https://minimaxir.com/2026/05/openrouter-hy3/ Comments URL: https://news.ycombinator.com/item?id=48317294 Points: 35 # Comments: 9",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "The Lone Lisp Heap",
-      "link": "https://www.matheusmoreira.com/articles/lone-lisp-heap",
-      "pubDate": "2026-05-28T18:16:20.000Z",
-      "description": "Article URL: https://www.matheusmoreira.com/articles/lone-lisp-heap Comments URL: https://news.ycombinator.com/item?id=48313142 Points: 13 # Comments: 5",
+      "title": "SF startup is testing robots in Airbnbs, and trashing them, lawsuit claims",
+      "link": "https://sfstandard.com/2026/05/28/sf-startup-secretly-testing-robots-airbnbs-trashing-lawsuit-claims/",
+      "pubDate": "2026-05-28T23:42:47.000Z",
+      "description": "Article URL: https://sfstandard.com/2026/05/28/sf-startup-secretly-testing-robots-airbnbs-trashing-lawsuit-claims/ Comments URL: https://news.ycombinator.com/item?id=48317093 Points: 141 # Comments: 71",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Anthropic raises $65B in Series H funding at $965B post-money valuation",
-      "link": "https://www.anthropic.com/news/series-h",
-      "pubDate": "2026-05-28T18:09:44.000Z",
-      "description": "Article URL: https://www.anthropic.com/news/series-h Comments URL: https://news.ycombinator.com/item?id=48313048 Points: 149 # Comments: 129",
+      "title": "Garnix (A Nix CI) is shutting down",
+      "link": "https://discourse.nixos.org/t/garnix-is-shutting-down-not-oc/77895",
+      "pubDate": "2026-05-28T23:36:41.000Z",
+      "description": "Article URL: https://discourse.nixos.org/t/garnix-is-shutting-down-not-oc/77895 Comments URL: https://news.ycombinator.com/item?id=48317043 Points: 40 # Comments: 20",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Bitburner, programming-based incremental game",
-      "link": "https://bitburner-official.github.io/",
-      "pubDate": "2026-05-28T17:43:36.000Z",
-      "description": "Article URL: https://bitburner-official.github.io/ Comments URL: https://news.ycombinator.com/item?id=48312616 Points: 37 # Comments: 4",
+      "title": "The Silent Critic",
+      "link": "https://www.tft.io/the-silent-critic/",
+      "pubDate": "2026-05-28T23:25:51.000Z",
+      "description": "Article URL: https://www.tft.io/the-silent-critic/ Comments URL: https://news.ycombinator.com/item?id=48316958 Points: 12 # Comments: 7",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "I hated writing–until I learned there's a science to it(2024)",
-      "link": "https://www.science.org/content/article/i-hated-writing-until-i-learned-there-s-science-it",
-      "pubDate": "2026-05-28T17:36:47.000Z",
-      "description": "Article URL: https://www.science.org/content/article/i-hated-writing-until-i-learned-there-s-science-it Comments URL: https://news.ycombinator.com/item?id=48312528 Points: 50 # Comments: 17",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "Revealing Text With CSS letter-spacing",
+      "link": "https://css-tricks.com/revealing-text-with-css-letter-spacing/",
+      "pubDate": "2026-05-27T12:37:33.000Z",
+      "description": "Until we get something like ::nth-letter, there are still some really cool text effects we can make from existing CSS features, like letter-spacing, ::first-word and ::first-line. Revealing Text With CSS letter-spacing originally handwritten and published with love on CSS-Tricks. You should really g",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Technical Writing in the AI Age",
+      "link": "https://css-tricks.com/technical-writing-in-the-ai-age/",
+      "pubDate": "2026-05-26T13:49:28.000Z",
+      "description": "This isn’t totally about AI. It’s about technical writing in the age of AI. I have some thoughts on this and I hope it’s helpful to you humans reading. Technical Writing in the AI Age originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Cross-Document View Transitions: Scaling Across Hundreds of Elements",
+      "link": "https://css-tricks.com/cross-document-view-transitions-part-2/",
+      "pubDate": "2026-05-25T13:46:54.000Z",
+      "description": "Every view-transition-name on a page must be unique. The problem is that every pseudo-element selector in your CSS targets a specific name, so your animation styles explode into an unmanageable wall of selectors. Cross-Document View Transitions: Scaling Across Hundreds of Elements originally handwri",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "The State of CSS Centering in 2026",
+      "link": "https://css-tricks.com/the-state-of-css-centering-in-2026/",
+      "pubDate": "2026-05-22T13:44:40.000Z",
+      "description": "Despite the countless number of online resources, it’s easy to get confused when trying to center an element. There are documented solutions, but do you really understand why the code you picked works? Let's look at the current state of centering options today in 2026. The State of CSS Centering in ",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Stack Overflow: When We Stop Asking",
+      "link": "https://css-tricks.com/stack-overflow-when-we-stop-asking/",
+      "pubDate": "2026-05-20T13:51:34.000Z",
+      "description": "It still hits like a ton of bricks to see the steep decline in Stack Overflow questions. What does that mean about learning in our industry? Stack Overflow: When We Stop Asking originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Cross-Document View Transitions: The Gotchas Nobody Mentions",
+      "link": "https://css-tricks.com/cross-document-view-transitions-part-1/",
+      "pubDate": "2026-05-18T13:47:19.000Z",
+      "description": "This is Part 1 of a two-part series about cross-document view transitions, going over all the gotchas, from ditching the deprecated way to opt into them to a little-known 4-second timeout. Cross-Document View Transitions: The Gotchas Nobody Mentions originally handwritten and published with love on ",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "What’s !important #11: 3D Voxel Scenes, Flying Focus, CSS Syntaxes, and More",
+      "link": "https://css-tricks.com/whats-important-11/",
+      "pubDate": "2026-05-15T13:16:34.000Z",
+      "description": "If 3D voxel scenes (that you can style), flying focus animations, or new CSS syntaxes sound like your kinda thing, then this issue of What’s !important is definitely for you. What’s !important #11: 3D Voxel Scenes, Flying Focus, CSS Syntaxes, and More originally handwritten and published with love o",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Computing and Displaying Discounted Prices in CSS",
+      "link": "https://css-tricks.com/computing-and-displaying-discounted-prices-in-css/",
+      "pubDate": "2026-05-14T14:05:01.000Z",
+      "description": "A clever use of CSS to calculate and display a discounted product price by providing a base price and discount amount, featuring modern CSS features like attr(), mod(), and round(). Computing and Displaying Discounted Prices in CSS originally handwritten and published with love on CSS-Tricks. You sh",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "rotateX()",
+      "link": "https://css-tricks.com/almanac/functions/r/rotatex/",
+      "pubDate": "2026-05-13T14:36:54.000Z",
+      "description": "The rotateX() function rotates an element around the x-axis in a three-dimensional space rotateX() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "rotateY()",
+      "link": "https://css-tricks.com/almanac/functions/r/rotatey/",
+      "pubDate": "2026-05-13T14:33:58.000Z",
+      "description": "The rotateY() function rotates an element around its vertical y-axis. rotateY() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
       "title": "Meet the HTB Profile: all your skills, in one place",
