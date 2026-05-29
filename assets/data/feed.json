@@ -1,110 +1,126 @@
 {
-  "generatedAt": "2026-05-29T04:43:29.380Z",
+  "generatedAt": "2026-05-29T10:14:29.924Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "Why AI Image Generation Should Be Async",
-      "link": "https://dev.to/natalia_c8ace1e6703e8f29f/why-ai-image-generation-should-be-async-k81",
-      "pubDate": "2026-05-29T04:33:18.000Z",
-      "description": "<p>AI image generation can look like a simple request-response feature.</p> <p>A user enters a prompt, clicks generate, and waits for an image.</p> <p>For a prototype, that can work. For a production product, it usually becomes fragile.</p> <p>Image generation may take several seconds or minutes. A ",
+      "title": "What actually happens when you run `go run main.go`",
+      "link": "https://dev.to/lovestaco/what-actually-happens-when-you-run-go-run-maingo-13l4",
+      "pubDate": "2026-05-29T10:11:16.000Z",
+      "description": "<p><em>Hello, I'm Maneshwar. I'm building git-lrc, a Micro AI code reviewer that runs on every commit. It is free and source-available on Github. <a href=\"https://github.com/HexmosTech/git-lrc\" rel=\"noopener noreferrer\">Star git-lrc</a> to help devs discover the project. Do give it a try and share y",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "AI Search Systems for Businesses: The Next Big Opportunity for Developers",
-      "link": "https://dev.to/kailasvs_94/ai-search-systems-for-businesses-the-next-big-opportunity-for-developers-567p",
-      "pubDate": "2026-05-29T04:30:00.000Z",
-      "description": "<p>Most businesses have a search problem.</p> <p>Not a Google-scale problem.</p> <p>An operational problem.</p> <p>Employees waste hours searching through:</p> <ul> <li>PDFs</li> <li>CRMs</li> <li>spreadsheets</li> <li>emails</li> <li>dashboards</li> <li>SOPs</li> <li>tickets</li> <li>maintenance lo",
+      "title": "I got sick of manually converting AI images to SVGs, so I built a tool to automate it.",
+      "link": "https://dev.to/ramio/i-got-sick-of-manually-converting-ai-images-to-svgs-so-i-built-a-tool-to-automate-it-1j3n",
+      "pubDate": "2026-05-29T10:10:55.000Z",
+      "description": "<p>Hey everyone,</p> <p>As a dev handling client projects, I’ve seen a massive surge lately in clients wanting to integrate AI-generated characters and illustrations directly into their layouts.</p> <p>The problem? Raw AI outputs are an absolute mess to work with. Over the last few months, I found m",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "BoxAgnts Introduction (5) — Rust Has Become a New Option for AI Agents",
-      "link": "https://dev.to/guyoung/boxagnts-introduction-5-rust-has-become-a-new-option-for-ai-agents-2kk4",
-      "pubDate": "2026-05-29T04:22:12.000Z",
-      "description": "<p>Today's AI Agent development landscape has already formed three major language camps:</p> <div class=\"table-wrapper-paragraph\"><table> <thead> <tr> <th>Language</th> <th>Representative Projects</th> <th>Core Strengths</th> <th>Typical Scenarios</th> </tr> </thead> <tbody> <tr> <td><strong>Python<",
+      "title": "🧠 Understanding Data Types (The Missing Layer)",
+      "link": "https://dev.to/stillpurrfect/-understanding-data-types-the-missing-layer-4d58",
+      "pubDate": "2026-05-29T10:08:50.000Z",
+      "description": "<p>After working on input and output in Python, I started noticing something small… but important.<br> I could collect data. I could display it.<br> But I didn’t really understand <strong>what kind of data I was working with</strong>.And that’s where data types came in.<br> At first, I was writing c",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "5090 vs 4090 for AI Workloads: Buy, Rent, or Validate in the Cloud?",
-      "link": "https://dev.to/runcai/5090-vs-4090-for-ai-workloads-buy-rent-or-validate-in-the-cloud-1mh3",
-      "pubDate": "2026-05-29T04:21:29.000Z",
-      "description": "<p><em>Originally published at <a href=\"https://blog.runc.ai/5090-vs-4090/\" rel=\"noopener noreferrer\">https://blog.runc.ai/5090-vs-4090/</a>.</em></p> <h2 id=\"key-takeaways\">Key Takeaways</h2> <ul> <li>RTX 5090 is the stronger flagship on paper, especially when your AI workflow benefits from <code>3",
+      "title": "Designing a Resilient Media Orchestration System: Event-Driven Architecture with Real-Time AI",
+      "link": "https://dev.to/claudia-ve/designing-a-resilient-media-orchestration-system-event-driven-architecture-with-real-time-ai-1l0j",
+      "pubDate": "2026-05-29T10:07:40.000Z",
+      "description": "<h1> Designing a Resilient Media Orchestration System: Event-Driven Architecture with Real-Time AI </h1> <p>Every content team eventually faces the same wall: you've got six platforms to publish on, a dozen data sources feeding in, and some AI pipeline generating drafts — but none of it talks to eac",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The Prometheus label that blew our monitoring bill out 6x",
-      "link": "https://dev.to/claire_nguyen/the-prometheus-label-that-blew-our-monitoring-bill-out-6x-57hj",
-      "pubDate": "2026-05-29T04:21:15.000Z",
-      "description": "<p><strong>TL;DR: Our metrics bill went 6x in a single month. Traffic was flat. One Prometheus label carrying per-build IDs spawned millions of time series, and the backend charges by active series. Here's how we caught it and the label rules we run now so it doesn't happen again.</strong></p> <h2> ",
+      "title": "HackCanton Season 1: Canton Builders, Demos, Winners",
+      "link": "https://dev.to/noders/hackcanton-season-1-canton-builders-demos-winners-5bkc",
+      "pubDate": "2026-05-29T10:07:34.000Z",
+      "description": "<p>Some hackathons are built like fireworks.</p> <p>Bright launch. Loud countdown. Forty-eight hours of chaos. A few demos. A few prizes. Then the repo goes quiet, the group chat slowly dies, and everyone moves on.</p> <p><strong>HackCanton Season 1 was built for a different kind of flame.</strong><",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Building a random live webcam discovery site",
-      "link": "https://dev.to/earthlivetv/building-a-random-live-webcam-discovery-site-2j81",
-      "pubDate": "2026-05-29T04:20:03.000Z",
-      "description": "<p>I'm a 32-year-old Brit guy living in Quy Nhon, Vietnam. Travelled 60+ countries, worked as an anti-poaching ranger in Africa and an English teacher in Thailand. Noticed cameras are literally everywhere on Earth and thought - why isn't there one site that pulls them all together?</p> <p><strong>So",
+      "title": "I got tired of useless news, so I built a Firefox extension for Dev.to",
+      "link": "https://dev.to/theitalianceo/i-got-tired-of-useless-news-so-i-built-a-firefox-extension-for-devto-3p3m",
+      "pubDate": "2026-05-29T10:07:16.000Z",
+      "description": "<p>Imagine opening your browser and being flooded with generic ads, clickbait news, or drama you don't care about. As developers, we want to stay updated with high-quality tech content without the noise.</p> <p>That’s exactly why I decided to build my very first browser extension: Dev.to News Feed.<",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Python utility package for building Claude Code hooks",
-      "link": "https://github.com/RasmusGodske/claude-hook-utils",
-      "pubDate": "2026-05-29T04:18:34.000Z",
-      "description": "Article URL: https://github.com/RasmusGodske/claude-hook-utils Comments URL: https://news.ycombinator.com/item?id=48318978 Points: 5 # Comments: 0",
+      "title": "The Age of Architecture: AI Coding Agents Are Forcing Us to Build Better Systems",
+      "link": "https://dev.to/dsfx3d/the-age-of-architecture-ai-coding-agents-are-forcing-us-to-build-better-systems-4357",
+      "pubDate": "2026-05-29T10:07:09.000Z",
+      "description": "<h2> What Good Engineering Looks Like </h2> <p>A few years ago, if you told a team that architecture was more important than implementation, you'd probably get some eye rolls.</p> <p>Most of us became engineers because we enjoy building things.</p> <p>The code was the product.</p> <p>The architectur",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "How I would use local read-only AI for first-pass server incident response",
+      "link": "https://dev.to/sec123/how-i-would-use-local-read-only-ai-for-first-pass-server-incident-response-b96",
+      "pubDate": "2026-05-29T10:05:52.000Z",
+      "description": "<p>Disclosure: I maintain Open Investigator at Arvanta Cyber.</p> <p>Most server incident response does not start with a clean incident narrative. It starts with a weak clue:</p> <ul> <li>one suspicious IP</li> <li>a weird login</li> <li>a possible WebShell</li> <li>a Java service behaving strangely",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "1.4 Planner: Which Path to Take",
+      "link": "https://dev.to/joonghyukshin/14-planner-which-path-to-take-1k2f",
+      "pubDate": "2026-05-29T10:05:31.000Z",
+      "description": "<p>By the time 1.3 ends, the rewriter has let the Query tree through. Views have been expanded, RLS policies have been wedged into WHERE clauses, and missing INSERT columns have been filled with defaults. The starting point of this chapter is one fact: <strong>that Query tree now has \"what to do\" fu",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "I Built India's Missing Local Transport App — Then Abandoned It for 5 Months",
+      "link": "https://dev.to/drishtitripathi2230/from-dead-prototype-to-full-stack-app-how-i-finally-shipped-autoconnect-1m4l",
+      "pubDate": "2026-05-29T10:01:38.000Z",
+      "description": "<p><em>This is a submission for the <a href=\"https://dev.to/challenges/github-2026-05-21\">GitHub Finish-Up-A-Thon Challenge</a></em></p> <h2> What I Built </h2> <p>AutoConnect is India's inclusive local transport app — connecting <br> passengers with auto rickshaws, e-rickshaws, cycle rickshaws, and",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Cache Aware Scheduling Shows Nice Wins for AMD Zen 5 on PostgreSQL, Valkey",
+      "link": "https://www.phoronix.com/review/cache-aware-scheduling-hedt",
+      "pubDate": "2026-05-29T08:36:32.000Z",
+      "description": "Article URL: https://www.phoronix.com/review/cache-aware-scheduling-hedt Comments URL: https://news.ycombinator.com/item?id=48320639 Points: 15 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "I was tired of security scanners with 90% false positives, so I built my own",
-      "link": "https://dev.to/hnikhil/i-was-tired-of-security-scanners-with-90-false-positives-so-i-built-my-own-5eje",
-      "pubDate": "2026-05-29T04:16:10.000Z",
-      "description": "<p>Every developer knows the pain of running a security scan. You wait for it to finish, only to be handed a giant report filled with hundreds of warnings. You then have to spend the next three hours manually testing each one, only to find out that almost all of them are false positives. </p> <p>It ",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "📄Paper: RORA-VLM: Robust Retrieval Augmentation for Vision Language Models",
-      "link": "https://dev.to/qq5yu/paper-rora-vlm-robust-retrieval-augmentation-for-vision-language-models-5b4l",
-      "pubDate": "2026-05-29T04:13:04.000Z",
-      "description": "<p><strong>Public At</strong><br> <em>International Conference on Learning Representations (ICLR) 2025</em></p> <blockquote> <p><strong>💡 Why I read this</strong><br> 最近在找論文的 idea 剛好找到這篇，發表在 ICLR 2025，不過被 Reject 了有點可惜<br> 這篇主要是把 RAG 應用到 VLM ，讓模型在回答問題時可以利用外部知識<br> 在很多 VQA 的任務中，答案其實不在圖片裡面，而是需要額外的背景知識",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Free Model Providers to Use with Hermes Agent",
-      "link": "https://dev.to/dalenguyen/free-model-providers-to-use-with-hermes-agent-13l9",
-      "pubDate": "2026-05-29T04:12:02.000Z",
-      "description": "<p><a href=\"https://github.com/nousresearch/hermes-agent\" rel=\"noopener noreferrer\">Hermes Agent</a> by NousResearch is an open-source AI agent that does something most frameworks do not: it learns from experience. It creates skills during use, refines its memory across sessions, and supports parall",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "I built a backend platform that generates REST APIs from a schema — no code, no server setup",
-      "link": "https://dev.to/mspk97/i-built-a-backend-platform-that-generates-rest-apis-from-a-schema-no-code-no-server-setup-184g",
-      "pubDate": "2026-05-29T04:09:40.000Z",
-      "description": "<p>Every side project I've shipped starts the same way: I have a frontend idea, and I immediately have to stop and go build a backend for it.</p> <p>Not because the backend is hard. Because it's <em>tedious</em>. The same patterns, every time. Define a model. Wire up routes. Handle errors. Write doc",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "The most spectacular rocket explosion since N1 just happened in Florida",
-      "link": "https://arstechnica.com/space/2026/05/blue-origins-new-glenn-rocket-just-exploded-during-a-static-fire-test/",
-      "pubDate": "2026-05-29T03:32:15.000Z",
-      "description": "Article URL: https://arstechnica.com/space/2026/05/blue-origins-new-glenn-rocket-just-exploded-during-a-static-fire-test/ Comments URL: https://news.ycombinator.com/item?id=48318678 Points: 65 # Comments: 20",
+      "title": "Volkswagen blocks Home Assistant by requiring client assertion",
+      "link": "https://github.com/robinostlund/homeassistant-volkswagencarnet/issues/967",
+      "pubDate": "2026-05-29T05:45:36.000Z",
+      "description": "Article URL: https://github.com/robinostlund/homeassistant-volkswagencarnet/issues/967 Comments URL: https://news.ycombinator.com/item?id=48319509 Points: 171 # Comments: 86",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Cars are trying to spy on you, and it's only just the beginning",
+      "title": "HeidiSQL – Lightweight MariaDB, MySQL, SQL Server, PostgreSQL and SQLite Manager",
+      "link": "https://github.com/HeidiSQL/HeidiSQL",
+      "pubDate": "2026-05-29T03:14:39.000Z",
+      "description": "Article URL: https://github.com/HeidiSQL/HeidiSQL Comments URL: https://news.ycombinator.com/item?id=48318568 Points: 23 # Comments: 5",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Let's compile Quake like it's 1997",
+      "link": "https://fabiensanglard.net/compile_like_1997/",
+      "pubDate": "2026-05-29T03:07:22.000Z",
+      "description": "Article URL: https://fabiensanglard.net/compile_like_1997/ Comments URL: https://news.ycombinator.com/item?id=48318522 Points: 30 # Comments: 16",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Cars collect a startling amount of data about you",
       "link": "https://www.bbc.com/future/article/20260513-your-car-is-spying-on-you-its-about-to-get-worse",
       "pubDate": "2026-05-29T03:01:00.000Z",
-      "description": "Article URL: https://www.bbc.com/future/article/20260513-your-car-is-spying-on-you-its-about-to-get-worse Comments URL: https://news.ycombinator.com/item?id=48318481 Points: 117 # Comments: 58",
+      "description": "Article URL: https://www.bbc.com/future/article/20260513-your-car-is-spying-on-you-its-about-to-get-worse Comments URL: https://news.ycombinator.com/item?id=48318481 Points: 334 # Comments: 153",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -112,7 +128,15 @@
       "title": "Italians and Dutch share the same gestural instinct for teaching",
       "link": "https://www.mpi.nl/news/italians-and-dutch-share-same-gestural-instinct-teaching",
       "pubDate": "2026-05-29T02:33:13.000Z",
-      "description": "Article URL: https://www.mpi.nl/news/italians-and-dutch-share-same-gestural-instinct-teaching Comments URL: https://news.ycombinator.com/item?id=48318313 Points: 4 # Comments: 0",
+      "description": "Article URL: https://www.mpi.nl/news/italians-and-dutch-share-same-gestural-instinct-teaching Comments URL: https://news.ycombinator.com/item?id=48318313 Points: 67 # Comments: 24",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Claude Code – Everything You Can Configure That the Docs Don't Tell You",
+      "link": "https://buildingbetter.tech/p/i-read-the-claude-code-source-code",
+      "pubDate": "2026-05-29T02:13:20.000Z",
+      "description": "Article URL: https://buildingbetter.tech/p/i-read-the-claude-code-source-code Comments URL: https://news.ycombinator.com/item?id=48318174 Points: 98 # Comments: 23",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -120,15 +144,7 @@
       "title": "Blue Origin's New Glenn blows up during static fire test",
       "link": "https://twitter.com/nasaspaceflight/status/2060164928472854821",
       "pubDate": "2026-05-29T01:16:38.000Z",
-      "description": "Article URL: https://twitter.com/nasaspaceflight/status/2060164928472854821 Comments URL: https://news.ycombinator.com/item?id=48317774 Points: 165 # Comments: 83",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Where are the economies of scale in homebuilding?",
-      "link": "https://www.construction-physics.com/p/where-are-the-economies-of-scale",
-      "pubDate": "2026-05-29T00:16:20.000Z",
-      "description": "Article URL: https://www.construction-physics.com/p/where-are-the-economies-of-scale Comments URL: https://news.ycombinator.com/item?id=48317339 Points: 64 # Comments: 79",
+      "description": "https://twitter.com/nasaspaceflight/status/20601649284728548...https://xcancel.com/nasaspaceflight/status/20601649284728548...https://twitter.com/SawyerMerritt/status/2060174287563116696...https://xcancel.com/SawyerMerritt/status/2060174287563116696...https://arstechnica.com/space/2026/05/blue-origi",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -136,7 +152,7 @@
       "title": "The mysterious Hy3 LLM is topping OpenRouter Model Rankings by a large margin",
       "link": "https://minimaxir.com/2026/05/openrouter-hy3/",
       "pubDate": "2026-05-29T00:09:35.000Z",
-      "description": "Article URL: https://minimaxir.com/2026/05/openrouter-hy3/ Comments URL: https://news.ycombinator.com/item?id=48317294 Points: 35 # Comments: 9",
+      "description": "Article URL: https://minimaxir.com/2026/05/openrouter-hy3/ Comments URL: https://news.ycombinator.com/item?id=48317294 Points: 80 # Comments: 56",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -144,23 +160,7 @@
       "title": "SF startup is testing robots in Airbnbs, and trashing them, lawsuit claims",
       "link": "https://sfstandard.com/2026/05/28/sf-startup-secretly-testing-robots-airbnbs-trashing-lawsuit-claims/",
       "pubDate": "2026-05-28T23:42:47.000Z",
-      "description": "Article URL: https://sfstandard.com/2026/05/28/sf-startup-secretly-testing-robots-airbnbs-trashing-lawsuit-claims/ Comments URL: https://news.ycombinator.com/item?id=48317093 Points: 141 # Comments: 71",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Garnix (A Nix CI) is shutting down",
-      "link": "https://discourse.nixos.org/t/garnix-is-shutting-down-not-oc/77895",
-      "pubDate": "2026-05-28T23:36:41.000Z",
-      "description": "Article URL: https://discourse.nixos.org/t/garnix-is-shutting-down-not-oc/77895 Comments URL: https://news.ycombinator.com/item?id=48317043 Points: 40 # Comments: 20",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "The Silent Critic",
-      "link": "https://www.tft.io/the-silent-critic/",
-      "pubDate": "2026-05-28T23:25:51.000Z",
-      "description": "Article URL: https://www.tft.io/the-silent-critic/ Comments URL: https://news.ycombinator.com/item?id=48316958 Points: 12 # Comments: 7",
+      "description": "Article URL: https://sfstandard.com/2026/05/28/sf-startup-secretly-testing-robots-airbnbs-trashing-lawsuit-claims/ Comments URL: https://news.ycombinator.com/item?id=48317093 Points: 211 # Comments: 102",
       "source": "Hacker News",
       "category": "Tech News"
     },
