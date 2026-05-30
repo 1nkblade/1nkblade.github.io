@@ -1,126 +1,158 @@
 {
-  "generatedAt": "2026-05-29T20:38:40.361Z",
+  "generatedAt": "2026-05-30T04:17:49.677Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "Inside Uber's Architecture: Engineering Decisions That Power Millions of Rides Every Day",
-      "link": "https://dev.to/codetirtho97/inside-ubers-architecture-engineering-decisions-that-power-millions-of-rides-every-day-1kde",
-      "pubDate": "2026-05-29T20:25:21.000Z",
-      "description": "<h2> Why Study Real-World Architectures? </h2> <p>Most system design discussions focus on theoretical architectures that work well on whiteboards.</p> <p>Real-world systems operate under entirely different constraints. They must handle unpredictable traffic patterns, global scale, hardware failures,",
+      "title": "I Found an AI Agent That Actually Remembers Everything",
+      "link": "https://dev.to/aniruddhaadak/i-found-an-ai-agent-that-actually-remembers-everything-9pm",
+      "pubDate": "2026-05-30T04:00:00.000Z",
+      "description": "<p><strong>This is a submission for the <a href=\"https://dev.to/challenges/hermes-agent-2026-05-15\">Hermes Agent Challenge</a>.</strong></p> <p>I have been playing with different AI agents for a while now. Most of them feel like clever chatbots that forget everything the moment the conversation ends",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Canada in Technical Recession",
-      "link": "https://www.cbc.ca/news/business/recession-gdp-may-2026-statscan-9.7216352",
-      "pubDate": "2026-05-29T20:23:33.000Z",
-      "description": "Article URL: https://www.cbc.ca/news/business/recession-gdp-may-2026-statscan-9.7216352 Comments URL: https://news.ycombinator.com/item?id=48328718 Points: 7 # Comments: 0",
+      "title": "Event-Driven Architectures with Apache Kafka: Powering the Next Generation of Banking Transformation Through Agentic AI and Real-Time Analytics",
+      "link": "https://dev.to/anilmandloi/event-driven-architectures-with-apache-kafka-powering-the-next-generation-of-banking-3379",
+      "pubDate": "2026-05-30T03:52:51.000Z",
+      "description": "<p>It is no secret that in today's fast-moving banking industry, customers require immediate replies, the regulatory environment mandates strict compliance, and there is always an element of uncertainty about market conditions, which change every single moment. In such conditions, traditional reques",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Abusing c_variadic in Rust",
+      "link": "https://dev.to/vars1ty/abusing-cvariadic-in-rust-4hjp",
+      "pubDate": "2026-05-30T03:47:47.000Z",
+      "description": "<h2> What is <code>c_variadic</code>? </h2> <p><code>c_variadic</code> is a recently stabilized feature in Rust that lets you send variadics through C/C++ FFI interop.</p> <p>The best example is with <code>int printf(const char* format, ...)</code>: The <code>...</code> are your variadics and allows",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "인텔이 애플 칩을 제조한다 — 미국 반도체 자립 전략이 만든 거래",
+      "link": "https://dev.to/ai_openfree_b23025ef075cf/inteli-aepeul-cibeul-jejohanda-migug-bandoce-jarib-jeonryagi-mandeun-georae-ido",
+      "pubDate": "2026-05-30T03:40:18.000Z",
+      "description": "<h1> 인텔이 애플의 칩을 만든다, 그런데 진짜 이야기는 '누가 허락했나'이다 </h1> <p><em>트럼프 행정부, 반도체 지형도, 그리고 30년 라이벌의 악수 — 이 거래의 안쪽을 들여다봤다.</em></p> <blockquote> <p><strong>TL;DR</strong>: 인텔이 애플의 칩을 위탁 생산하기로 했다. 표면적으로는 두 기업의 협력이지만, 실제로는 미국 정부의 반도체 자립 전략이 만들어낸 거래다. 오랫동안 경쟁자였던 두 회사가 같은 목표를 향해 손을 잡은 배경에는, 단순한 비즈니스 논리보다 훨씬 복잡한 힘이 ",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Your AI agent has a master key to everything. Here's why that's a problem.",
+      "link": "https://dev.to/srivishnugv/your-ai-agent-has-a-master-key-to-everything-heres-why-thats-a-problem-46h4",
+      "pubDate": "2026-05-30T03:40:09.000Z",
+      "description": "<p>I'm a 19-year-old mechanical engineering student. My cofounder is a 19-year-old AI student. Two months ago we started building infrastructure for something nobody had solved yet.</p> <p>Here's the problem we kept running into while building AI agent systems:<br> Every agent we looked at had unres",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "OpenAI Codex vs Google Antigravity: Architecture, Workflow, and Key Differences",
+      "link": "https://dev.to/poniak-labs/openai-codex-vs-google-antigravity-architecture-workflow-and-key-differences-1b1l",
+      "pubDate": "2026-05-30T03:32:58.000Z",
+      "description": "<p>AI coding tools are no longer just autocomplete engines.</p> <p>For the last few years, developers used AI mainly to write faster: generate a function, explain an error, complete boilerplate, or suggest a code snippet. That was useful, but the human developer still controlled almost every step.</",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "SecAPI: Secure, AI-Driven API Key Management &amp; Leak Prevention",
+      "link": "https://dev.to/binayak_jha/secapi-secure-ai-driven-api-key-management-leak-prevention-2o13",
+      "pubDate": "2026-05-30T03:32:09.000Z",
+      "description": "<p><em>This is a submission for the <a href=\"https://dev.to/challenges/github-2026-05-21\">GitHub Finish-Up-A-Thon Challenge</a></em></p> <h2> What I Built </h2> <p><strong>SecAPI</strong> is a local-first, zero-trust CLI utility and key manager designed to make code security the easiest developer pa",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Tauri Sandbox Permissions — Why Your Command Silently Does Nothing",
+      "link": "https://dev.to/hiyoyok/tauri-sandbox-permissions-why-your-command-silently-does-nothing-hcn",
+      "pubDate": "2026-05-30T03:29:40.000Z",
+      "description": "<p>All tests run on an 8-year-old MacBook Air. All results from shipping 7 Mac apps as a solo developer. No sponsored opinion.</p> <p>The most common Tauri v2 frustration: you write a command, invoke it from the frontend, and nothing happens. No error. No crash. Just silence. It's almost always perm",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "SQL Pattern Series #1: The Presence Pattern",
+      "link": "https://dev.to/baldwin_apps/sql-pattern-series-1-the-presence-pattern-a5f",
+      "pubDate": "2026-05-30T03:26:55.000Z",
+      "description": "<p><em>Thinking in terms of existence instead of lists</em></p> <blockquote> <p>SQL Pattern Series #1 of 21</p> <p>A collection of practical SQL patterns that help developers recognize common solutions to recurring database problems.</p> </blockquote> <h2> What You'll Learn </h2> <p>In this article ",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "You'll not be replaced by AI if ...",
+      "link": "https://dev.to/fm/youll-not-be-replaced-by-ai-if--5c1",
+      "pubDate": "2026-05-30T03:23:59.000Z",
+      "description": "<p>There are many reasons why one may not be replaced by AI, not even by a possible future ASI.</p> <h2> Here's one reason that may just apply to you! ❤️ </h2> <p>You'll not be replaced by AI if you can generate creative ideas faster than AI can implement them! 🫡🚀</p> <h2> Note for critics: </h2> ",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Perry Compiles TypeScript directly to executables using SWC and LLVM",
+      "link": "https://www.perryts.com/",
+      "pubDate": "2026-05-30T03:14:25.000Z",
+      "description": "Article URL: https://www.perryts.com/ Comments URL: https://news.ycombinator.com/item?id=48332151 Points: 11 # Comments: 7",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "When Vibe Coding Stops Working",
-      "link": "https://dev.to/tacoda/when-vibe-coding-stops-working-3nkc",
-      "pubDate": "2026-05-29T20:21:31.000Z",
-      "description": "<p>Vibe coding is real, useful, and produces working software. It is also, past a certain point, a way of generating a mess faster than any one person can clean it.</p> <p>The term has come to mean a specific way of working with an agent: open the chat, describe what you want, look at what comes bac",
-      "source": "Dev.to Feed",
-      "category": "Development"
+      "title": "Naphtha Shortages Having a Growing Impact in Japan",
+      "link": "https://www.nippon.com/en/japan-data/h02783/",
+      "pubDate": "2026-05-30T02:20:40.000Z",
+      "description": "Article URL: https://www.nippon.com/en/japan-data/h02783/ Comments URL: https://news.ycombinator.com/item?id=48331786 Points: 32 # Comments: 10",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
-      "title": "Why I’m Learning Go and JavaScript Together Instead of Separately",
-      "link": "https://dev.to/kev_luciano/why-im-learning-go-and-javascript-together-4ih",
-      "pubDate": "2026-05-29T20:10:27.000Z",
-      "description": "<p>Most programming tutorials teach technologies in isolation.</p> <p>You learn a language.<br> Then a framework.<br> Then a database.<br> Then eventually build a small CRUD project.</p> <p>But real systems are not built in isolation.</p> <p>Modern applications are combinations of specialized servic",
-      "source": "Dev.to Feed",
-      "category": "Development"
+      "title": "WH proposes rules giving political appointees final approval on research grants",
+      "link": "https://www.scientificamerican.com/article/white-house-proposes-new-rules-giving-political-appointees-final-say-on-research-grants/",
+      "pubDate": "2026-05-30T01:39:52.000Z",
+      "description": "Article URL: https://www.scientificamerican.com/article/white-house-proposes-new-rules-giving-political-appointees-final-say-on-research-grants/ Comments URL: https://news.ycombinator.com/item?id=48331511 Points: 76 # Comments: 43",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
-      "title": "Part 8: Free Self-Hosted Mind Mapping for a Home Lab: Why I Put a Significant Part of MindMapVault on GitHub",
-      "link": "https://dev.to/kornel_maraz_5e66a3e4e27d/part-8-free-self-hosted-mind-mapping-for-a-home-lab-why-i-put-a-significant-part-of-mindmapvault-3mfh",
-      "pubDate": "2026-05-29T20:07:55.000Z",
-      "description": "<p>When people say they build a privacy-first product, I ask one simple question:</p> <p>How much of the implementation story is publicly verifiable?</p> <p>For MindMapVault, I decided to put a significant part of the project in public repositories because I do not want trust to depend only on polis",
-      "source": "Dev.to Feed",
-      "category": "Development"
+      "title": "Ember.js 7.0",
+      "link": "https://blog.emberjs.com/ember-released-7-0/",
+      "pubDate": "2026-05-29T23:57:45.000Z",
+      "description": "Article URL: https://blog.emberjs.com/ember-released-7-0/ Comments URL: https://news.ycombinator.com/item?id=48330902 Points: 33 # Comments: 7",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
-      "title": "⭐ State.js Basics — Learn CSS‑Driven Reactivity in 10 Minutes",
-      "link": "https://dev.to/idevgames/statejs-basics-learn-css-driven-reactivity-in-10-minutes-3m80",
-      "pubDate": "2026-05-29T20:05:15.000Z",
-      "description": "<p>State.js looks simple — just HTML attributes — but it introduces a <strong>new mental model</strong> for building UI:</p> <blockquote> <p><strong>HTML holds the data.<br><br> CSS reacts to the data.<br><br> State.js keeps them in sync.</strong></p> </blockquote> <p>If you’re used to React, Vue, o",
-      "source": "Dev.to Feed",
-      "category": "Development"
+      "title": "What Is a Dickover?",
+      "link": "https://daringfireball.net/2026/05/what_is_a_dickover",
+      "pubDate": "2026-05-29T23:54:22.000Z",
+      "description": "Article URL: https://daringfireball.net/2026/05/what_is_a_dickover Comments URL: https://news.ycombinator.com/item?id=48330882 Points: 183 # Comments: 81",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
-      "title": "Building a Self-Healing AI Agent: How to Run Untrusted Code Safely Without Blowing Up Your Server",
-      "link": "https://dev.to/programmingcentral/building-a-self-healing-ai-agent-how-to-run-untrusted-code-safely-without-blowing-up-your-server-4859",
-      "pubDate": "2026-05-29T20:00:00.000Z",
-      "description": "<p>Imagine you are building an autonomous AI agent. You give it a terminal tool, a file-writing tool, and the ability to execute Python scripts. You ask it to \"clean up the temporary files in the project directory.\" </p> <p>The LLM processes the request, formulates a plan, and generates a terminal c",
-      "source": "Dev.to Feed",
-      "category": "Development"
+      "title": "MCP is dead?",
+      "link": "https://www.quandri.io/engineering-blog/mcp-is-dead",
+      "pubDate": "2026-05-29T22:56:49.000Z",
+      "description": "Article URL: https://www.quandri.io/engineering-blog/mcp-is-dead Comments URL: https://news.ycombinator.com/item?id=48330436 Points: 125 # Comments: 106",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
-      "title": "The California State Assembly Has Passed the 'Protect Our Games Act'",
+      "title": "Free full BGP feed. IPv4 and IPv6 (2020)",
+      "link": "https://lukasz.bromirski.net/post/bgp-w-labie-3/",
+      "pubDate": "2026-05-29T22:21:58.000Z",
+      "description": "Article URL: https://lukasz.bromirski.net/post/bgp-w-labie-3/ Comments URL: https://news.ycombinator.com/item?id=48330088 Points: 30 # Comments: 12",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "The California state assembly has passed the 'Protect Our Games Act'",
       "link": "https://www.invenglobal.com/articles/22330/stop-killing-games-movement-gains-momentum-california-assembly-passes-game-protection-bill",
       "pubDate": "2026-05-29T19:55:56.000Z",
-      "description": "Article URL: https://www.invenglobal.com/articles/22330/stop-killing-games-movement-gains-momentum-california-assembly-passes-game-protection-bill Comments URL: https://news.ycombinator.com/item?id=48328365 Points: 44 # Comments: 19",
+      "description": "Article URL: https://www.invenglobal.com/articles/22330/stop-killing-games-movement-gains-momentum-california-assembly-passes-game-protection-bill Comments URL: https://news.ycombinator.com/item?id=48328365 Points: 208 # Comments: 210",
       "source": "Hacker News",
       "category": "Tech News"
-    },
-    {
-      "title": "Knowing Doesn't Mean Feeling (Bite-size Article)",
-      "link": "https://dev.to/koshirok096/knowing-doesnt-mean-feeling-bite-size-article-kke",
-      "pubDate": "2026-05-29T19:55:01.000Z",
-      "description": "<h1> Introduction - Knowing Doesn't Mean Feeling: Why Logic Fails to Stop Our Emotions </h1> <p>When I feel like work is falling slightly behind, I find myself adding tasks along the way, thinking \"if I just push a little harder today, I can catch up.\" In that moment, I'm moving on feeling rather th",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Why Your MCP Integrations Break Silently — And How We Built DriftGuard to Close the Gap",
-      "link": "https://dev.to/kioiek/why-your-mcp-integrations-break-silently-and-how-we-built-driftguard-to-close-the-gap-4m6g",
-      "pubDate": "2026-05-29T19:54:45.000Z",
-      "description": "<p>Every integration team has lived the same incident: <strong>a dependency changed its contract, nothing failed in CI, and production broke on a Tuesday anyway.</strong></p> <p>When Optic shut down, that pain got louder. Teams still need to know when an API they depend on — but do not own — starts ",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Building software in C#: part 2 - code architecture",
-      "link": "https://dev.to/czmirek/building-software-in-c-part-2-code-architecture-1ofo",
-      "pubDate": "2026-05-29T19:52:31.000Z",
-      "description": "<p>In my previous post, I described how historical trends shaped our (or at least my) perception of software architecture.</p> <p>However, with experience and seniority, you learn that code architecture always depends on a variety of context-dependent factors. This is something AI cannot help you wi",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "New PKM tool for MacOS",
-      "link": "https://dev.to/mjwegenka/new-pkm-tool-for-macos-436n",
-      "pubDate": "2026-05-29T19:51:13.000Z",
-      "description": "<p>I just created a MacOS native PKM tool that has a local-first and CLI-first design philosophy. I'd love your feedback!</p> <div class=\"ltag-github-readme-tag\"> <div class=\"readme-overview\"> <h2> <img src=\"https://assets.dev.to/assets/github-logo-5a155e1f9a670af7944dd5e12375bc76ed542ea80224905ecaf",
-      "source": "Dev.to Feed",
-      "category": "Development"
     },
     {
       "title": "Show HN: Tiny-vLLM – high performance LLM inference engine in C++ and CUDA",
       "link": "https://github.com/jmaczan/tiny-vllm",
       "pubDate": "2026-05-29T19:38:27.000Z",
-      "description": "Article URL: https://github.com/jmaczan/tiny-vllm Comments URL: https://news.ycombinator.com/item?id=48328184 Points: 12 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Microsoft 0-day feud escalates as researcher threatens another exploit dump",
-      "link": "https://www.theregister.com/security/2026/05/28/microsoft-0-day-feud-escalates-as-researcher-threatens-another-windows-exploit-dump/5248085",
-      "pubDate": "2026-05-29T19:37:41.000Z",
-      "description": "Article URL: https://www.theregister.com/security/2026/05/28/microsoft-0-day-feud-escalates-as-researcher-threatens-another-windows-exploit-dump/5248085 Comments URL: https://news.ycombinator.com/item?id=48328175 Points: 20 # Comments: 4",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "CVE-Bench: testing LLM agents on real-world vulnerability patches",
-      "link": "https://giovannigatti.github.io/cve-bench/",
-      "pubDate": "2026-05-29T19:28:55.000Z",
-      "description": "Article URL: https://giovannigatti.github.io/cve-bench/ Comments URL: https://news.ycombinator.com/item?id=48328088 Points: 5 # Comments: 1",
+      "description": "Article URL: https://github.com/jmaczan/tiny-vllm Comments URL: https://news.ycombinator.com/item?id=48328184 Points: 107 # Comments: 10",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -128,39 +160,7 @@
       "title": "Shift will clean homes for free to train future robots",
       "link": "https://www.theverge.com/ai-artificial-intelligence/939765/ai-training-data-startup-shift-free-cleaning",
       "pubDate": "2026-05-29T19:16:32.000Z",
-      "description": "Article URL: https://www.theverge.com/ai-artificial-intelligence/939765/ai-training-data-startup-shift-free-cleaning Comments URL: https://news.ycombinator.com/item?id=48327962 Points: 14 # Comments: 23",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "On Rendering Diffs",
-      "link": "https://pierre.computer/writing/on-rendering-diffs",
-      "pubDate": "2026-05-29T19:04:54.000Z",
-      "description": "Article URL: https://pierre.computer/writing/on-rendering-diffs Comments URL: https://news.ycombinator.com/item?id=48327809 Points: 63 # Comments: 15",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Rothko for your current weather conditions",
-      "link": "https://rothko.joonas.wtf/",
-      "pubDate": "2026-05-29T18:31:52.000Z",
-      "description": "Article URL: https://rothko.joonas.wtf/ Comments URL: https://news.ycombinator.com/item?id=48327367 Points: 66 # Comments: 8",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "AI will be used to estimate age of asylum seekers from next year",
-      "link": "https://www.bbc.co.uk/news/articles/ce3pe36qe7ro",
-      "pubDate": "2026-05-29T18:23:03.000Z",
-      "description": "Article URL: https://www.bbc.co.uk/news/articles/ce3pe36qe7ro Comments URL: https://news.ycombinator.com/item?id=48327222 Points: 32 # Comments: 24",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "SQLite is all you need for durable workflows",
-      "link": "https://obeli.sk/blog/sqlite-is-all-you-need-for-durable-workflows/",
-      "pubDate": "2026-05-29T17:54:50.000Z",
-      "description": "Article URL: https://obeli.sk/blog/sqlite-is-all-you-need-for-durable-workflows/ Comments URL: https://news.ycombinator.com/item?id=48326802 Points: 174 # Comments: 84",
+      "description": "Article URL: https://www.theverge.com/ai-artificial-intelligence/939765/ai-training-data-startup-shift-free-cleaning Comments URL: https://news.ycombinator.com/item?id=48327962 Points: 100 # Comments: 149",
       "source": "Hacker News",
       "category": "Tech News"
     },
