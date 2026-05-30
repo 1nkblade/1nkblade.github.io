@@ -1,166 +1,166 @@
 {
-  "generatedAt": "2026-05-30T08:40:57.405Z",
+  "generatedAt": "2026-05-30T14:04:55.517Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "My Journey Through Hackathons (~₹4L)",
-      "link": "https://dev.to/manan_singhal_880ee46cd84/my-journey-through-hackathons-4l-13p9",
-      "pubDate": "2026-05-30T08:35:57.000Z",
-      "description": "<p>I started participating in hackathons during my first year of college. At that time, I had very little idea about how hackathons actually worked. I just knew that people were building interesting things, networking with smart developers, and sometimes even winning prize money. That sounded exciti",
+      "title": "Why ChatGPT sucks at generating Types (and how I fixed it)",
+      "link": "https://dev.to/_904affc0d58589ee2ac5/why-chatgpt-sucks-at-generating-types-and-how-i-fixed-it-4did",
+      "pubDate": "2026-05-30T14:00:00.000Z",
+      "description": "<p>Have you ever pasted a JSON payload into ChatGPT and asked it to generate a TypeScript interface or Go struct? </p> <p>Usually, it works. But sometimes, it decides to be \"helpful\" and changes your <code>user_id</code> to <code>UserId</code>, or completely forgets an optional field. In a productio",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "What is Kubernetes? The Technology Behind Modern Cloud Applications",
-      "link": "https://dev.to/mohammadshafaquearif/what-is-kubernetes-the-technology-behind-modern-cloud-applications-3i6p",
-      "pubDate": "2026-05-30T08:35:30.000Z",
-      "description": "<h2> Understanding the technology that manages millions of containers every day. </h2> <p>Imagine you have built a Docker container for your application.</p> <p>Everything works perfectly.</p> <p>Now your application starts getting thousands of users.</p> <p>Then millions.</p> <p>You suddenly face n",
+      "title": "Modelling a codebase as a requirements ontology in Neo4j, keeping AI coding agents oriented",
+      "link": "https://dev.to/carl_ward_2d0e6fee9693587/modelling-a-codebase-as-a-requirements-ontology-in-neo4j-keeping-ai-coding-agents-oriented-1db",
+      "pubDate": "2026-05-30T13:57:26.000Z",
+      "description": "<p>AI coding agents have an expensive habit: before they write a single line, they re-read source files to work out what already exists — which modules there are, what each one provides, what's tested, and what's currently being changed. On a small repo that's tolerable. Run several agents in parall",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "What If You Need Two ArgoCD Instances in One EKS Cluster?",
-      "link": "https://dev.to/aws-builders/what-if-you-need-two-argocd-instances-in-one-eks-cluster-57id",
-      "pubDate": "2026-05-30T08:26:58.000Z",
-      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F4h3333pda5omttfimuou.png\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/width=800%",
+      "title": "Anthropic surpasses OpenAI to become most valuable AI startup",
+      "link": "https://qazinform.com/news/anthropic-surpasses-openai-to-become-worlds-most-valuable-ai-startup",
+      "pubDate": "2026-05-30T13:56:34.000Z",
+      "description": "Article URL: https://qazinform.com/news/anthropic-surpasses-openai-to-become-worlds-most-valuable-ai-startup Comments URL: https://news.ycombinator.com/item?id=48336233 Points: 9 # Comments: 4",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Opinion: Peter Steinberger &amp; Lex Fridman Interview",
+      "link": "https://dev.to/absterellio/opinion-peter-steinberger-lex-fridman-interview-1ag0",
+      "pubDate": "2026-05-30T13:53:34.000Z",
+      "description": "<p>Peter Steinberger, creator of OpenClaw, recently appeared on Lex Fridman's podcast to discuss the creation and evolution of OpenClaw as well as the current state and future of AI. Here are some thoughts I had on some of the topics and opinions presented in the episode.</p> <div class=\"crayons-car",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "You Should Skill It: Solving a Year-Old CSS Bottleneck With an AI Skill",
-      "link": "https://dev.to/epilot/you-should-skill-it-solving-a-year-old-css-bottleneck-with-an-ai-skill-2ioa",
-      "pubDate": "2026-05-30T08:25:22.000Z",
-      "description": "<p>There's a certain kind of problem that lives rent-free in your head for months. Not urgent enough to drop everything for, but annoying enough that you never quite let it go. This is the story of one of those, and how an AI skill finally gave me the right-sized solution.</p> <h2> A bit about where",
+      "title": "Agent Harness Explained: Build Production-Ready AI Agents with Microsoft Agent Framework",
+      "link": "https://dev.to/monuminu/agent-harness-explained-build-production-ready-ai-agents-with-microsoft-agent-framework-666",
+      "pubDate": "2026-05-30T13:48:41.000Z",
+      "description": "<blockquote> <p><strong>Meta Description:</strong> Learn what an agent harness is, why it matters for production AI systems, and how to implement one step-by-step using Microsoft Agent Framework's <code>create_harness_agent</code> -- with real Python code, architecture diagrams, and deep technical w",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "CTF Writeup: Autorev 1 — picoCTF",
-      "link": "https://dev.to/vedant_kulkarni_e1a6cdf3c/ctf-writeup-autorev-1-picoctf-345i",
-      "pubDate": "2026-05-30T08:24:23.000Z",
-      "description": "<h2> 1. Executive Summary </h2> <div class=\"table-wrapper-paragraph\"><table> <thead> <tr> <th>Field</th> <th>Detail</th> </tr> </thead> <tbody> <tr> <td><strong>Challenge Name</strong></td> <td>Autorev 1</td> </tr> <tr> <td><strong>Platform</strong></td> <td>picoCTF</td> </tr> <tr> <td><strong>Categ",
+      "title": "How to stop Cursor AI forgetting your .NET architecture (the $9 fix)",
+      "link": "https://dev.to/agentic_standard/how-to-stop-cursor-ai-forgetting-your-net-architecture-the-9-fix-25ij",
+      "pubDate": "2026-05-30T13:47:33.000Z",
+      "description": "<p>**How to stop Cursor AI forgetting your .NET architecture (the $9 fix)</p> <p>``**<br> Your Cursor session starts. You type your first prompt. The AI confidently suggests instantiating HttpClient inside your repository — the exact anti-pattern you banned six months ago. You sigh, type 'actually w",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Python Day Two : The Start of Real Coding",
-      "link": "https://dev.to/amina1/python-day-two-the-start-of-real-coding-4j9c",
-      "pubDate": "2026-05-30T08:23:33.000Z",
-      "description": "<h1> Python Day Two : Python Output &amp; Print </h1> <p>print() is a Python🐍 command used to show something on the screen.<br> Example:<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight python\"><code><span class=\"nf\">print</span><span class=\"p\">(</span><span class=\"sh\">\"</sp",
+      "title": "Power Management Strategies for Battery-Powered Edge AI Devices",
+      "link": "https://dev.to/beefedai/power-management-strategies-for-battery-powered-edge-ai-devices-3gef",
+      "pubDate": "2026-05-30T13:35:46.000Z",
+      "description": "<ul> <li>[Set a precise power budget and measurable KPIs]</li> <li>[Engineer the power stage: PMICs, buck/boost converters and DVFS]</li> <li>[Implement firmware patterns to minimize active time and maximize sleep efficiency]</li> <li>[Squeeze sensors and radios: scheduling, interrupts and radio mod",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "BSON and OSON: documents are designed to be nested, not flat",
-      "link": "https://dev.to/franckpachot/bson-and-oson-documents-are-designed-to-be-nested-not-flat-3b65",
-      "pubDate": "2026-05-30T08:23:05.000Z",
-      "description": "<p>I like vendors benchmarks as they are often good illustrations of worst practice. Rather than focusing on real implementation trade-offs, they pick an extreme case that favors their own implementation by chance but is not optimized in the competitor's — because it is simply not how that technolog",
+      "title": "I Finally Found a Wallet That Lets My AI Agent Pay Its Own Bills",
+      "link": "https://dev.to/barunkumarshaw/i-finally-found-a-wallet-that-lets-my-ai-agent-pay-its-own-bills-4mfd",
+      "pubDate": "2026-05-30T13:35:08.000Z",
+      "description": "<p>Last week I sat through a session on the Agentic Economy at GDG NiT Agarpara, half-expecting the usual vague hype about \"the future of AI.\" What I didn't expect was to walk out genuinely excited about something I'd never thought about before.<br> AI agents can't pay for things.<br> I know, I know",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "# Giving an LLM Eyes and Hands on a Mobile Simulator",
-      "link": "https://dev.to/joduchan/-giving-an-llm-eyes-and-hands-on-a-mobile-simulator-5963",
-      "pubDate": "2026-05-30T08:23:03.000Z",
-      "description": "<h2> The interface a human uses </h2> <p>When a person does QA in tapflow, the loop is:</p> <ol> <li>Look at the simulator screen</li> <li>Decide what to do (tap, swipe, type)</li> <li>Do it</li> <li>Look again</li> </ol> <p>This is exactly the perception-action loop that vision-capable LLMs are bui",
+      "title": "What a Frontend Developer Roadmap Actually Contains?",
+      "link": "https://dev.to/frontend_carter/what-a-frontend-developer-roadmap-actually-contains-43ek",
+      "pubDate": "2026-05-30T13:30:00.000Z",
+      "description": "<p>A frontend developer roadmap is not just a list of technologies. It is a layered, progressive overview of the full skill set required for the role. Here is what a well-structured front end developer roadmap 2026 typically covers, organized by layer:</p> <ul> <li> <strong>The Internet and the Brow",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Teaching a Computer to Play 4X: How the Annhexation AI Works",
-      "link": "https://dev.to/jamesrandall/teaching-a-computer-to-play-4x-how-the-annhexation-ai-works-p1g",
-      "pubDate": "2026-05-30T08:15:34.000Z",
-      "description": "<p>Building a believable computer opponent for a 4X strategy game is one of those problems that turns out to be bottomless. I'd use the cliche it looks simple from the outside... but I don't think thats true, I thought this would be a tough nut from the outset. I've built a chess playing engine befo",
+      "title": "BoxAgnts Introduction (6) — Agent Multi-Turn Conversation and Tool/Skill Invocation",
+      "link": "https://dev.to/guyoung/boxagnts-introduction-6-agent-multi-turn-conversation-and-toolskill-invocation-4pan",
+      "pubDate": "2026-05-30T13:26:18.000Z",
+      "description": "<p>If you've only chatted with ChatGPT, you might think an AI Agent is simply \"send a prompt to the API, display the response.\"</p> <p>The reality is far more complex. Here is a complete Agent interaction flow in BoxAgnts:<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight plai",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "\"The AI did it\" won't save you when EU regulators come knocking",
-      "link": "https://dev.to/thegatewayguy/the-ai-did-it-wont-save-you-when-eu-regulators-come-knocking-3nlb",
-      "pubDate": "2026-05-30T08:09:23.000Z",
-      "description": "<p>The EU Cyber Resilience Act has been on everyone's \"we'll deal with it later\" list since it entered into force in December 2024. Later is arriving: vulnerability reporting requirements kick in September 2026, and full compliance is mandatory by December 2027.</p> <p>The timing matters because of ",
+      "title": "Idempotency Keys in Spring Boot: Make POST Safe Against Retries",
+      "link": "https://dev.to/thellu/idempotency-keys-in-spring-boot-make-post-safe-against-retries-47f3",
+      "pubDate": "2026-05-30T13:24:34.000Z",
+      "description": "<p>A user clicks “Pay”, the network drops, the client retries… and your backend creates <strong>two</strong> payments.</p> <p>This isn’t a “frontend bug”. Retries happen everywhere:</p> <ul> <li>mobile networks</li> <li>API gateways with automatic retry</li> <li>load balancers / timeouts</li> <li>us",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "Adding Linux support back for the BASIC (free) version of Vivado",
+      "link": "https://adaptivesupport.amd.com/s/question/0D5Pd00001aT5IcKAK/adding-linux-support-back-for-the-basic-free-version-of-vivado?language=en_US",
+      "pubDate": "2026-05-30T12:25:08.000Z",
+      "description": "Article URL: https://adaptivesupport.amd.com/s/question/0D5Pd00001aT5IcKAK/adding-linux-support-back-for-the-basic-free-version-of-vivado?language=en_US Comments URL: https://news.ycombinator.com/item?id=48335442 Points: 23 # Comments: 6",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Corporate America Is Starting to Ration AI as Cost Skyrockets",
+      "link": "https://www.wsj.com/tech/ai/corporate-america-is-starting-to-ration-ai-as-cost-skyrockets-1eb99d7a",
+      "pubDate": "2026-05-30T12:17:33.000Z",
+      "description": "Article URL: https://www.wsj.com/tech/ai/corporate-america-is-starting-to-ration-ai-as-cost-skyrockets-1eb99d7a Comments URL: https://news.ycombinator.com/item?id=48335388 Points: 41 # Comments: 37",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Proposed new US funding rules: We can cancel any grant at any time",
+      "link": "https://arstechnica.com/science/2026/05/the-office-of-management-and-budget-tries-again-to-cripple-us-science/",
+      "pubDate": "2026-05-30T11:41:29.000Z",
+      "description": "Article URL: https://arstechnica.com/science/2026/05/the-office-of-management-and-budget-tries-again-to-cripple-us-science/ Comments URL: https://news.ycombinator.com/item?id=48335135 Points: 156 # Comments: 100",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Show HN: Helios – what plug-in solar could generate for any address in Britain",
+      "link": "https://helios.southlondonscientific.com/",
+      "pubDate": "2026-05-30T11:08:37.000Z",
+      "description": "Plug-in solar panels (no electrician needed) have just become legal in the UK and will go on sale soon. Helios estimates how much electricity a typical installation could generate at a given address and what that's worth against your tariff.It uses UK government LIDAR data to reflect the actual skyl",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Openrsync: An implementation of rsync, by the OpenBSD team",
+      "link": "https://github.com/kristapsdz/openrsync",
+      "pubDate": "2026-05-30T10:51:48.000Z",
+      "description": "Article URL: https://github.com/kristapsdz/openrsync Comments URL: https://news.ycombinator.com/item?id=48334854 Points: 53 # Comments: 25",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Leo's first encyclical attacks technological messianism",
+      "link": "https://www.economist.com/europe/2026/05/28/leos-first-encyclical-attacks-technological-messianism",
+      "pubDate": "2026-05-30T10:30:50.000Z",
+      "description": "Article URL: https://www.economist.com/europe/2026/05/28/leos-first-encyclical-attacks-technological-messianism Comments URL: https://news.ycombinator.com/item?id=48334710 Points: 61 # Comments: 35",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Pandoc Templates",
+      "link": "https://pandoc-templates.org/",
+      "pubDate": "2026-05-30T09:56:42.000Z",
+      "description": "Article URL: https://pandoc-templates.org/ Comments URL: https://news.ycombinator.com/item?id=48334515 Points: 190 # Comments: 17",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Zig: Build System Reworked",
+      "link": "https://ziglang.org/devlog/2026/#2026-05-26",
+      "pubDate": "2026-05-30T08:38:28.000Z",
+      "description": "Article URL: https://ziglang.org/devlog/2026/#2026-05-26 Comments URL: https://news.ycombinator.com/item?id=48334048 Points: 182 # Comments: 88",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "Danish pension fund excludes SpaceX citing governance and valuation",
       "link": "https://www.reuters.com/legal/transactional/danish-pension-fund-excludes-spacex-citing-governance-valuation-2026-05-29/",
       "pubDate": "2026-05-30T08:00:20.000Z",
-      "description": "Article URL: https://www.reuters.com/legal/transactional/danish-pension-fund-excludes-spacex-citing-governance-valuation-2026-05-29/ Comments URL: https://news.ycombinator.com/item?id=48333820 Points: 6 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "OpenRCT2 v0.5.1 \"Swamp Castle\" released Last version to support Windows 7",
-      "link": "https://openrct2.io/blog/2026/05/openrct2-v0.5.1-released",
-      "pubDate": "2026-05-30T06:00:32.000Z",
-      "description": "Article URL: https://openrct2.io/blog/2026/05/openrct2-v0.5.1-released Comments URL: https://news.ycombinator.com/item?id=48333096 Points: 6 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Perry Compiles TypeScript directly to executables using SWC and LLVM",
-      "link": "https://www.perryts.com/",
-      "pubDate": "2026-05-30T03:14:25.000Z",
-      "description": "Article URL: https://www.perryts.com/ Comments URL: https://news.ycombinator.com/item?id=48332151 Points: 82 # Comments: 63",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Naphtha shortages in Japan",
-      "link": "https://www.nippon.com/en/japan-data/h02783/",
-      "pubDate": "2026-05-30T02:20:40.000Z",
-      "description": "Article URL: https://www.nippon.com/en/japan-data/h02783/ Comments URL: https://news.ycombinator.com/item?id=48331786 Points: 104 # Comments: 65",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Ember.js 7.0",
-      "link": "https://blog.emberjs.com/ember-released-7-0/",
-      "pubDate": "2026-05-29T23:57:45.000Z",
-      "description": "Article URL: https://blog.emberjs.com/ember-released-7-0/ Comments URL: https://news.ycombinator.com/item?id=48330902 Points: 64 # Comments: 15",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "What Is a Dickover?",
-      "link": "https://daringfireball.net/2026/05/what_is_a_dickover",
-      "pubDate": "2026-05-29T23:54:22.000Z",
-      "description": "Article URL: https://daringfireball.net/2026/05/what_is_a_dickover Comments URL: https://news.ycombinator.com/item?id=48330882 Points: 312 # Comments: 122",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "MCP is dead?",
-      "link": "https://www.quandri.io/engineering-blog/mcp-is-dead",
-      "pubDate": "2026-05-29T22:56:49.000Z",
-      "description": "Article URL: https://www.quandri.io/engineering-blog/mcp-is-dead Comments URL: https://news.ycombinator.com/item?id=48330436 Points: 209 # Comments: 178",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Show HN: Open-source private home security camera system (end-to-end encryption)",
-      "link": "https://github.com/secluso/core",
-      "pubDate": "2026-05-29T22:32:29.000Z",
-      "description": "Hey everyone,I previously introduced an open source private home security camera in 2024, which uses OpenMLS for end-to-end encryption: https://news.ycombinator.com/item?id=42284412.It was called Privastead then and it's now renamed to Secluso.John Kaczman found my project from here and has been wor",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "The Last Technical Interview",
-      "link": "https://steve-yegge.medium.com/the-last-technical-interview-bc13ddcf4564",
-      "pubDate": "2026-05-29T19:58:56.000Z",
-      "description": "Article URL: https://steve-yegge.medium.com/the-last-technical-interview-bc13ddcf4564 Comments URL: https://news.ycombinator.com/item?id=48328405 Points: 108 # Comments: 79",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Show HN: Tiny-vLLM – high performance LLM inference engine in C++ and CUDA",
-      "link": "https://github.com/jmaczan/tiny-vllm",
-      "pubDate": "2026-05-29T19:38:27.000Z",
-      "description": "Article URL: https://github.com/jmaczan/tiny-vllm Comments URL: https://news.ycombinator.com/item?id=48328184 Points: 138 # Comments: 12",
+      "description": "Article URL: https://www.reuters.com/legal/transactional/danish-pension-fund-excludes-spacex-citing-governance-valuation-2026-05-29/ Comments URL: https://news.ycombinator.com/item?id=48333820 Points: 311 # Comments: 252",
       "source": "Hacker News",
       "category": "Tech News"
     },
