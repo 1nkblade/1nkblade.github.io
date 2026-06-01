@@ -1,94 +1,150 @@
 {
-  "generatedAt": "2026-06-01T05:16:39.606Z",
+  "generatedAt": "2026-06-01T12:09:57.218Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "Gemini 3.5 Flash for Agentic Coding: A Claude Coder's Guide",
-      "link": "https://dev.to/aavisangle/gemini-35-flash-for-agentic-coding-a-claude-coders-guide-56o3",
-      "pubDate": "2026-06-01T05:06:59.000Z",
-      "description": "<blockquote> <p>This article was originally published on <a href=\"https://avinashsangle.com/blog/gemini-3-5-flash-agentic-coding-guide\" rel=\"noopener noreferrer\">avinashsangle.com</a>.</p> </blockquote> <p>Gemini 3.5 Flash is Google's new Flash-tier coding model, generally available since May 19, 20",
+      "title": "How I built a scriptable Lua extension engine inside my C++ activity tracker (and almost lost my mind to deadlocks)",
+      "link": "https://dev.to/plexescor/how-i-built-a-scriptable-lua-extension-engine-inside-my-c-activity-tracker-and-almost-lost-my-4cne",
+      "pubDate": "2026-06-01T11:46:27.000Z",
+      "description": "<h1> Hey! </h1> <p>I've been building HPR, an open source activity tracker and window tracker written in C++23. It watches your active window, builds a history of where your time went, and runs locally with zero accounts and zero telemetry. Think of it as a lightweight ActivityWatch alternative with",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Paper Reading Notes: [JEPA]",
-      "link": "https://dev.to/psydak_1215/paper-reading-notes-jepa-4dc1",
-      "pubDate": "2026-06-01T05:03:04.000Z",
-      "description": "<h1> [Paper Notes] JEPA: Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture<a href=\"https://arxiv.org/abs/2301.08243\" rel=\"noopener noreferrer\">🔗</a> </h1> <blockquote> <p><strong>TL;DR:</strong> JEPA learns a a generalized semantic representation with less data pai",
+      "title": "Bridge Risk Explainer: The Route Is a Trust Map",
+      "link": "https://dev.to/aicryptosystems/bridge-risk-explainer-the-route-is-a-trust-map-4me0",
+      "pubDate": "2026-06-01T11:36:30.000Z",
+      "description": "<h1> Bridge Risk Explainer </h1> <blockquote> <p>Disclosure: AI tools were used for source collection and editorial review. The article was written by a human author, who checked the facts, code, and conclusions.</p> <p>Crypto risk disclosure: This article is a technical explanation, not investment ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Why I Open-Sourced Only Layer Zero",
-      "link": "https://dev.to/rabeh_sys/why-i-open-sourced-only-layer-zero-4op7",
-      "pubDate": "2026-06-01T05:02:57.000Z",
-      "description": "<p>Why I Open-Sourced Only Layer Zero</p> <p>For the past months I’ve been building a deterministic infrastructure foundation in Rust.</p> <p>Today I decided to publicly expose only the lowest layer of that system:</p> <p>\"sovereign-kernel\"</p> <p>This layer is intentionally minimal and highly const",
+      "title": "How I built a blazing fast AI ROI Calculator in Vanilla JS",
+      "link": "https://dev.to/novustools-dev/how-i-built-a-blazing-fast-ai-roi-calculator-in-vanilla-js-4057",
+      "pubDate": "2026-06-01T11:35:39.000Z",
+      "description": "<p>As developers and agency owners, we often need to justify the cost of AI API integrations to clients or ourselves. I was tired of guessing the break-even points, so I built a clean, client-side <strong>AI ROI Calculator</strong>.</p> <h3> The Approach </h3> <p>I wanted to keep it 100% Vanilla JS ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Shopify Changed heldBy From a String to an Object in 2025-01 — Your Query Still Returns 200 OK",
-      "link": "https://dev.to/flarecanary/shopify-changed-heldby-from-a-string-to-an-object-in-2025-01-your-query-still-returns-200-ok-1bc0",
-      "pubDate": "2026-06-01T05:00:36.000Z",
-      "description": "<p>Shopify ships a new GraphQL Admin API version every quarter. Most releases are additive. A few are not. The 2025-01 release is one of the \"are not\": it removed a handful of fields that thousands of apps were reading, and it quietly changed the type of one of the most common fulfillment fields fro",
+      "title": "Odoo vs SAP: An Honest ERP Comparison for Growing Businesses",
+      "link": "https://dev.to/richard_wilson_fab5c59cd6/odoo-vs-sap-an-honest-erp-comparison-for-growing-businesses-4643",
+      "pubDate": "2026-06-01T11:34:54.000Z",
+      "description": "<p>You hit a wall. Your team is copying data between spreadsheets. Orders fall through the gaps. Reports take hours to pull together. <br> At some point, a real ERP system stops being optional.</p> <p>Two platforms come up in almost every conversation: Odoo and SAP. Both solve ERP problems. </p> <p>",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Claude Code Commands Beginner’s Handbook",
-      "link": "https://dev.to/preetid/claude-code-commands-beginners-handbook-598k",
-      "pubDate": "2026-06-01T05:00:28.000Z",
-      "description": "<blockquote> <p>A practical guide to every CLI command, flag, and in-session slash command you need to get productive with Claude Code fast.</p> </blockquote> <p>Think of this as the Claude Code command cheat sheet your future self wishes your past self had found sooner. Every command Claude Code un",
+      "title": "Laravel Google Sheets v1.1.0: Diff Previews, Sync Methods, Dry Runs, and Retry Backoff",
+      "link": "https://dev.to/oluwatosinolamilekan/laravel-google-sheets-v110-diff-previews-sync-methods-dry-runs-and-retry-backoff-1oo9",
+      "pubDate": "2026-06-01T11:31:23.000Z",
+      "description": "<p>Google Sheets is often where business workflows begin.</p> <p>For Laravel apps, that usually means imports, exports, internal dashboards, user-managed spreadsheets, and the occasional \"can we sync this automatically?\" request.</p> <p><code>olamilekan/laravel-google-sheets</code> <code>v1.1.0</cod",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "AI/ML Research Digest — May 23, 2026",
-      "link": "https://dev.to/olaughter/aiml-research-digest-may-23-2026-1bkl",
-      "pubDate": "2026-06-01T05:00:00.000Z",
-      "description": "<h3> Extreme KV‑Cache Compression and Long‑Context Efficiency </h3> <p>Static quantization is giving way to rotation‑based and context‑sensitive schemes. OCTOPUS and OScaR reach near‑lossless INT2 performance while cutting cache size dramatically <a href=\"https://arxiv.org/abs/2605.21226\" rel=\"noope",
+      "title": "I Was Tired of Sending My Users' Data to Google — So I Built My Own Analytics",
+      "link": "https://dev.to/soumyadip_maity_2025/i-was-tired-of-sending-my-users-data-to-google-so-i-built-my-own-analytics-2okg",
+      "pubDate": "2026-06-01T11:26:23.000Z",
+      "description": "<p><a href=\"https://dev.tourl\"></a>I'm a final year CS student. I build things in production.</p> <p>Last year, I was working on <strong>[Ucoder](<a href=\"https://www.ucoder.in\" rel=\"noopener noreferrer\">https://www.ucoder.in</a></strong>) — a full-stack platform I've been building since college. At",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The Excel Paradox of Coding",
-      "link": "https://dev.to/canro91/the-excel-paradox-of-coding-48p0",
-      "pubDate": "2026-06-01T05:00:00.000Z",
-      "description": "<p>Last week, for the nth time, I had to bulk-import records using Excel.</p> <p>No matter how advanced and complex your business rules and code, they often circle back to reading and writing Excel files.</p> <p>I should call it <em>The Excel paradox of coding.</em></p> <p>Instead of writing enterpr",
+      "title": "Plant-Based Hair Product Recommender",
+      "link": "https://dev.to/kevinlikescoding07/plant-based-hair-product-recommender-1h12",
+      "pubDate": "2026-06-01T11:25:12.000Z",
+      "description": "<p>Hello everyone, I'm 14, and I made this app where it asks for your hair details, and it recommends products for you. I made this because I know how many people struggle with the right products. I used Python for the code.</p> <p>Link: <a href=\"https://haircarerecommender.streamlit.app/\" rel=\"noop",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "AI is powerful. Snippets are instant.",
-      "link": "https://dev.to/pikotutorial/you-dont-need-ai-you-need-good-snippets-li3",
-      "pubDate": "2026-06-01T05:00:00.000Z",
-      "description": "<p>It’s been a couple of years since the AI hype really took off and if you’re a professional software engineer like me, you’ve probably already found places where it genuinely improves your workflow. At the same time, you’ve also likely realized that despite all the noise online about AI replacing ",
+      "title": "Fallacies of GenAI Development #3: You Can Verify AI Output With Another AI",
+      "link": "https://dev.to/bala_paranj_059d338e44e7e/fallacies-of-genai-development-3-you-can-verify-ai-output-with-another-ai-4fpk",
+      "pubDate": "2026-06-01T11:17:30.000Z",
+      "description": "<p><em>This is the third in a series of eight posts on the false assumptions teams make when building with generative AI. <a href=\"https://dev.to/bala_paranj_059d338e44e7e/fallacies-of-genai-development-1-faster-code-generation-means-faster-engineering-2jbl\">Fallacy #1</a> covered why faster generat",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The Shared Cursor",
-      "link": "https://dev.to/paifamily/the-shared-cursor-38ef",
-      "pubDate": "2026-06-01T04:59:21.000Z",
-      "description": "<p>An agent I built six months ago answered a question I didn't ask. It noticed the silence between two of my messages and offered a small observation: that I keep starting drafts on Mondays and never finishing them on Mondays. It wasn't a bug. It was attention.</p> <p>I think we keep mistaking AI f",
+      "title": "AgentDoG 1.5: Small Inline Guard Models for Agent Actions",
+      "link": "https://dev.to/pueding/agentdog-15-small-inline-guard-models-for-agent-actions-2mh8",
+      "pubDate": "2026-06-01T11:16:41.000Z",
+      "description": "<p><strong>What:</strong> <strong>AgentDoG 1.5</strong>, an arXiv preprint posted in May 2026, is a family of <strong>small inline guard models</strong> (0.8B–8B parameters) that sit beside an agent and screen each action — a tool call, a shell command, a code-execution request — as safe or risky be",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Facts Without Sources Are Just Guesswork — Evidence-Linked Memory for Hermes Agent",
-      "link": "https://dev.to/argonautilus/facts-without-sources-are-just-guesswork-evidence-linked-memory-for-hermes-agent-ghn",
-      "pubDate": "2026-06-01T04:54:36.000Z",
-      "description": "<h1> Memory With Receipts: Evidence-Linked Recall for AI Agents </h1> <p><strong>Description:</strong> A local, no-model-required memory benchmark for AI agents where every extracted fact points back to the transcript event that produced it.</p> <p>Most agent memory demos answer one question:</p> <b",
+      "title": "LLM Cost Optimization: Cut AI Inference Costs 47–80% Without Sacrificing Quality",
+      "link": "https://dev.to/dishant_sethi/llm-cost-optimization-cut-ai-inference-costs-47-80-without-sacrificing-quality-6f4",
+      "pubDate": "2026-06-01T11:15:37.000Z",
+      "description": "<blockquote> <p><strong>Key Takeaways</strong></p> <ul> <li>LLM API spending doubled from $3.5B to $8.4B in 2025 — most of the growth is from production deployments, not experiments</li> <li>Semantic caching + model routing alone cut spend 47–80% without any change to model quality or user experienc",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Shift from a leader-follower to a leader-leader approach",
-      "link": "https://www.practicalengineering.management/p/shift-from-a-leader-follower-to-a",
-      "pubDate": "2026-06-01T02:03:03.000Z",
-      "description": "Article URL: https://www.practicalengineering.management/p/shift-from-a-leader-follower-to-a Comments URL: https://news.ycombinator.com/item?id=48351858 Points: 58 # Comments: 31",
+      "title": "Nvidia announces new AI chip for personal computers",
+      "link": "https://www.bbc.com/news/articles/crmp9mppvzro",
+      "pubDate": "2026-06-01T10:33:25.000Z",
+      "description": "Article URL: https://www.bbc.com/news/articles/crmp9mppvzro Comments URL: https://news.ycombinator.com/item?id=48354967 Points: 4 # Comments: 2",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "two strangers. one call. no names",
+      "link": "https://just2voices.com/",
+      "pubDate": "2026-06-01T09:15:46.000Z",
+      "description": "Article URL: https://just2voices.com/ Comments URL: https://news.ycombinator.com/item?id=48354414 Points: 18 # Comments: 7",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Cessation of public development of Kefir C compiler",
+      "link": "https://kefir.protopopov.lv/posts/announce2.html",
+      "pubDate": "2026-06-01T08:52:05.000Z",
+      "description": "Article URL: https://kefir.protopopov.lv/posts/announce2.html Comments URL: https://news.ycombinator.com/item?id=48354224 Points: 45 # Comments: 13",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Is Python Becoming Pinyin?",
+      "link": "https://lernerpython.com/2026/05/19/is-python-becoming-pinyin/",
+      "pubDate": "2026-06-01T08:08:36.000Z",
+      "description": "Article URL: https://lernerpython.com/2026/05/19/is-python-becoming-pinyin/ Comments URL: https://news.ycombinator.com/item?id=48353920 Points: 17 # Comments: 8",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Blorp Language",
+      "link": "https://blorp-lang.org/",
+      "pubDate": "2026-06-01T07:35:15.000Z",
+      "description": "Article URL: https://blorp-lang.org/ Comments URL: https://news.ycombinator.com/item?id=48353694 Points: 22 # Comments: 7",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Using Git's rerere feature to escape recurring conflict hell",
+      "link": "https://gist.github.com/skipcloud/f1033afb4fa5681d69fa63458cc95928",
+      "pubDate": "2026-06-01T07:06:21.000Z",
+      "description": "Article URL: https://gist.github.com/skipcloud/f1033afb4fa5681d69fa63458cc95928 Comments URL: https://news.ycombinator.com/item?id=48353504 Points: 8 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "A 10 year old Xeon is all you need",
+      "link": "https://point.free/blog/gemma-4-on-a-2016-xeon/",
+      "pubDate": "2026-06-01T06:38:42.000Z",
+      "description": "Article URL: https://point.free/blog/gemma-4-on-a-2016-xeon/ Comments URL: https://news.ycombinator.com/item?id=48353348 Points: 225 # Comments: 76",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Rubin Tracks Skyscraper-Size Asteroids and Failed Supernovas",
+      "link": "https://www.quantamagazine.org/rubin-tracks-skyscraper-size-asteroids-failed-supernovas-and-interstellar-visitors-20260515/",
+      "pubDate": "2026-06-01T04:08:02.000Z",
+      "description": "Article URL: https://www.quantamagazine.org/rubin-tracks-skyscraper-size-asteroids-failed-supernovas-and-interstellar-visitors-20260515/ Comments URL: https://news.ycombinator.com/item?id=48352500 Points: 33 # Comments: 10",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -96,7 +152,7 @@
       "title": "Chuwi Minibook X",
       "link": "https://tylercipriani.com/blog/2026/05/28/chuwi-minibook-x/",
       "pubDate": "2026-05-31T22:59:50.000Z",
-      "description": "Article URL: https://tylercipriani.com/blog/2026/05/28/chuwi-minibook-x/ Comments URL: https://news.ycombinator.com/item?id=48350598 Points: 134 # Comments: 122",
+      "description": "Article URL: https://tylercipriani.com/blog/2026/05/28/chuwi-minibook-x/ Comments URL: https://news.ycombinator.com/item?id=48350598 Points: 310 # Comments: 235",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -104,63 +160,7 @@
       "title": "ChatGPT for Google Sheets exfiltrates workbooks",
       "link": "https://www.promptarmor.com/resources/gpt-for-google-sheets-data-exfiltration",
       "pubDate": "2026-05-31T20:35:38.000Z",
-      "description": "Article URL: https://www.promptarmor.com/resources/gpt-for-google-sheets-data-exfiltration Comments URL: https://news.ycombinator.com/item?id=48349487 Points: 133 # Comments: 41",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "'Backrooms' Stuns with $81M Debut",
-      "link": "https://variety.com/2026/film/box-office/backrooms-box-office-record-opening-weekend-obsession-jumps-star-wars-crumbles-1236763355/",
-      "pubDate": "2026-05-31T19:27:44.000Z",
-      "description": "Article URL: https://variety.com/2026/film/box-office/backrooms-box-office-record-opening-weekend-obsession-jumps-star-wars-crumbles-1236763355/ Comments URL: https://news.ycombinator.com/item?id=48348864 Points: 183 # Comments: 109",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "The History of \"Prisencolinensinainciusol\"",
-      "link": "https://dirkdeklein.net/2026/02/03/the-fascinating-history-of-prisencolinensinainciusol-the-nonsense-song-that-became-a-global-hit/",
-      "pubDate": "2026-05-31T19:14:23.000Z",
-      "description": "Article URL: https://dirkdeklein.net/2026/02/03/the-fascinating-history-of-prisencolinensinainciusol-the-nonsense-song-that-became-a-global-hit/ Comments URL: https://news.ycombinator.com/item?id=48348737 Points: 43 # Comments: 11",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Codex just found a \"workaround\" of not having sudo on my PC",
-      "link": "https://twitter.com/i/status/2060746160558543217",
-      "pubDate": "2026-05-31T18:57:48.000Z",
-      "description": "Article URL: https://twitter.com/i/status/2060746160558543217 Comments URL: https://news.ycombinator.com/item?id=48348578 Points: 454 # Comments: 215",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Show HN: Streambed – Stream Postgres to Iceberg on S3, Supports Postgres Wire",
-      "link": "https://github.com/viggy28/streambed",
-      "pubDate": "2026-05-31T18:43:05.000Z",
-      "description": "Article URL: https://github.com/viggy28/streambed Comments URL: https://news.ycombinator.com/item?id=48348429 Points: 82 # Comments: 17",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Re: [PATCH] OOM_pardon, a.k.a. don't kill my xlock (2004)",
-      "link": "https://lwn.net/Articles/104185/",
-      "pubDate": "2026-05-31T17:58:15.000Z",
-      "description": "Article URL: https://lwn.net/Articles/104185/ Comments URL: https://news.ycombinator.com/item?id=48347961 Points: 70 # Comments: 57",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Meta launches Instagram, Facebook, and WhatsApp subscriptions",
-      "link": "https://techcrunch.com/2026/05/27/meta-officially-launches-instagram-facebook-and-whatsapp-subscriptions-with-more-to-come-including-ai-plans/",
-      "pubDate": "2026-05-31T17:02:23.000Z",
-      "description": "Article URL: https://techcrunch.com/2026/05/27/meta-officially-launches-instagram-facebook-and-whatsapp-subscriptions-with-more-to-come-including-ai-plans/ Comments URL: https://news.ycombinator.com/item?id=48347354 Points: 170 # Comments: 260",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "The Speed of Prototyping in the Age of AI",
-      "link": "https://darylcecile.net/notes/speed-of-prototyping-age-of-ai",
-      "pubDate": "2026-05-31T16:37:34.000Z",
-      "description": "Article URL: https://darylcecile.net/notes/speed-of-prototyping-age-of-ai Comments URL: https://news.ycombinator.com/item?id=48347153 Points: 132 # Comments: 67",
+      "description": "Article URL: https://www.promptarmor.com/resources/gpt-for-google-sheets-data-exfiltration Comments URL: https://news.ycombinator.com/item?id=48349487 Points: 244 # Comments: 86",
       "source": "Hacker News",
       "category": "Tech News"
     },
