@@ -1,102 +1,158 @@
 {
-  "generatedAt": "2026-06-02T10:55:08.174Z",
+  "generatedAt": "2026-06-02T16:55:16.515Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "10 Security Mistakes Most Express APIs Make (And How to Fix Them)",
-      "link": "https://dev.to/davanesh/10-security-mistakes-most-express-apis-make-and-how-to-fix-them-4jki",
-      "pubDate": "2026-06-02T10:41:05.000Z",
-      "description": "<p>Building APIs with Express.js is fast and enjoyable, but security is often treated as something to handle later. Unfortunately, small security mistakes can expose applications to attacks, data leaks, and service disruptions.</p> <p>In this article, we'll look at 10 common security mistakes develo",
+      "title": "Flaky Tests You Can't Fix With Better Selectors",
+      "link": "https://dev.to/dmitrymeaqa/flaky-tests-you-cant-fix-with-better-selectors-2997",
+      "pubDate": "2026-06-02T16:47:04.000Z",
+      "description": "<p>You've fixed your <a href=\"https://dev.to/blog/why_your_playwright_tests_fail_in_ci_base/#rule-3-use-the-right-locators--and-know-why\">locators</a>. You've switched to <a href=\"https://dev.to/blog/why_your_playwright_tests_fail_in_ci_base/#rule-4-stop-using-isvisible-in-assertions\">web-first asse",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Agentic Coding Without Guardrails: How AI Can Break Your Software Architecture",
-      "link": "https://dev.to/spekond_152d06042cf902f82/agentic-coding-without-guardrails-how-ai-can-break-your-software-architecture-32am",
-      "pubDate": "2026-06-02T10:39:21.000Z",
-      "description": "<p>Modern AI coding agents can build features faster than most engineering teams ever imagined.</p> <p>Need a REST API?</p> <p>AI can generate it.</p> <p>Need unit tests?</p> <p>AI can write them.</p> <p>Need database migrations?</p> <p>AI can create them in seconds.</p> <p>But there's a problem.</p",
+      "title": "Send your first AI message in one API call",
+      "link": "https://dev.to/backboardio/send-your-first-ai-message-in-one-api-call-4179",
+      "pubDate": "2026-06-02T16:41:37.000Z",
+      "description": "<p>Most AI tutorials start with a setup checklist. Pick a model provider. Create an account. Wire up a vector database for memory. Stand up a server to hold conversation state. Glue it all together. Then, finally, you send a message.</p> <p>Backboard skips all of that. One API call sends your first ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Build a Token-Efficient RAG Pipeline with pgvector &amp; Markdown",
-      "link": "https://dev.to/alterlab/build-a-token-efficient-rag-pipeline-with-pgvector-markdown-bae",
-      "pubDate": "2026-06-02T10:36:49.000Z",
-      "description": "<h2> TL;DR </h2> <p>Converting scraped web content directly into Markdown reduces token consumption by up to 90% while preserving the semantic structure needed by LLMs. Combining Markdown extraction with PostgreSQL and the pgvector extension creates a highly efficient, production-ready Retrieval-Aug",
+      "title": "Add Peppol e-invoicing to your SaaS — the easy way to get ahead of the EU mandates",
+      "link": "https://dev.to/zerolooplabs/add-peppol-e-invoicing-to-your-saas-the-easy-way-to-get-ahead-of-the-eu-mandates-1e1b",
+      "pubDate": "2026-06-02T16:37:57.000Z",
+      "description": "<p>When you're building a young B2B SaaS, Peppol e-invoicing lives in the \"we'll deal with it later\" pile. Invoicing is a feature, not your product. No customer has demanded it yet. And the whole thing looks like XML plumbing for an EU regulation that may not even apply to you this year.</p> <p>Here",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Building an Enterprise Progressive Delivery Platform on AWS EKS with Argo Rollouts, Prometheus, Grafana, Terraform, and GitHub Actions",
-      "link": "https://dev.to/gbadedata/building-an-enterprise-progressive-delivery-platform-on-aws-eks-with-argo-rollouts-prometheus-3lc2",
-      "pubDate": "2026-06-02T10:35:35.000Z",
-      "description": "<p><em>A production-style DevOps project showing secure infrastructure provisioning, canary deployments, automated rollback, observability, CI/CD, and private self-hosted GitHub Actions deployment on AWS EKS.</em></p> <p>Most Kubernetes portfolio projects stop at the same shallow point:</p> <blockqu",
+      "title": "AI Coding Tools for Machine Learning Engineers in 2026: Jupyter, PyTorch, and the CUDA Trap",
+      "link": "https://dev.to/jovan_chan_9500711396d4e6/ai-coding-tools-for-machine-learning-engineers-in-2026-jupyter-pytorch-and-the-cuda-trap-2oaa",
+      "pubDate": "2026-06-02T16:36:42.000Z",
+      "description": "<blockquote> <p>This article was originally published on <a href=\"https://aicoderscope.com/blog/ai-coding-tools-ml-engineers-jupyter-pytorch-2026/\" rel=\"noopener noreferrer\">aicoderscope.com</a></p> </blockquote> <p>ML engineers aren't software engineers who happen to write some Python. They live in",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How to track LLM costs per customer in production",
-      "link": "https://dev.to/credyt/how-to-track-llm-costs-per-customer-in-production-4bpm",
-      "pubDate": "2026-06-02T10:35:26.000Z",
-      "description": "<p>Tracking LLM costs per customer means attributing every model-provider charge to a specific user inside a multi-tenant product. Aggregate dashboards hide which customers are unprofitable; per-customer attribution surfaces it. This article covers instrumentation patterns, the attribution choices t",
+      "title": "Claude API from Scratch: Your First Working Call in 30 Minutes (2026)",
+      "link": "https://dev.to/jovan_chan_9500711396d4e6/claude-api-from-scratch-your-first-working-call-in-30-minutes-2026-12om",
+      "pubDate": "2026-06-02T16:35:50.000Z",
+      "description": "<blockquote> <p>This article was originally published on <a href=\"https://aicoderscope.com/blog/claude-api-beginner-guide-2026/\" rel=\"noopener noreferrer\">aicoderscope.com</a></p> </blockquote> <p>Most Claude API tutorials start in the middle. They assume you already have a key configured, a virtual",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Open-Source AI, Hugging Face, and the Building Blocks of Modern AI Development",
-      "link": "https://dev.to/ashutosh_piprode_cb7575e3/open-source-ai-hugging-face-and-the-building-blocks-of-modern-ai-development-4911",
-      "pubDate": "2026-06-02T10:31:32.000Z",
-      "description": "<p>Open-source AI has made it much easier for developers to experiment with powerful models without building everything from scratch.</p> <p>Today, we have access to platforms, libraries, and tools that allow us to run text models, audio models, image-generation models, and even large language model",
+      "title": "AI coding tools for TypeScript and JavaScript developers in 2026: who actually handles generics, JSX trees, and the module resolution mess?",
+      "link": "https://dev.to/jovan_chan_9500711396d4e6/ai-coding-tools-for-typescript-and-javascript-developers-in-2026-who-actually-handles-generics-4jlc",
+      "pubDate": "2026-06-02T16:35:10.000Z",
+      "description": "<blockquote> <p>This article was originally published on <a href=\"https://aicoderscope.com/blog/ai-coding-tools-typescript-javascript-developers-2026/\" rel=\"noopener noreferrer\">aicoderscope.com</a></p> </blockquote> <p><strong>TL;DR</strong>: Cursor Pro ($20/month) is the strongest daily driver for",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Four HTTP security headers every WordPress site should set",
-      "link": "https://dev.to/jeremy-burgos/four-http-security-headers-every-wordpress-site-should-set-27pd",
-      "pubDate": "2026-06-02T10:30:00.000Z",
-      "description": "<blockquote> <p>TL;DR: Four response headers, a few minutes of work, most of the header-level security gap closed. Exact values below, plus a one-line curl to check any site.</p> </blockquote> <p>Run this against your own site first:<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"hig",
+      "title": "OpenCode review 2026: the open-source terminal coding agent that challenges Claude Code",
+      "link": "https://dev.to/jovan_chan_9500711396d4e6/opencode-review-2026-the-open-source-terminal-coding-agent-that-challenges-claude-code-5a89",
+      "pubDate": "2026-06-02T16:33:44.000Z",
+      "description": "<blockquote> <p>This article was originally published on <a href=\"https://aicoderscope.com/blog/opencode-review-2026/\" rel=\"noopener noreferrer\">aicoderscope.com</a></p> </blockquote> <p><strong>TL;DR</strong>: OpenCode is an MIT-licensed, provider-agnostic terminal coding agent with 167k GitHub sta",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Immutable vs Mutable ||JavaScript Type Conversion",
-      "link": "https://dev.to/dev_saravanan_journey/immutable-vs-mutable-javascript-type-conversion-3c03",
-      "pubDate": "2026-06-02T10:29:16.000Z",
-      "description": "<p><strong>Immutable vs Mutable (Non-Immutable)</strong></p> <p><strong>Immutable</strong></p> <ul> <li>An immutable value cannot be changed after it is created.</li> <li>When you modify it, JavaScript creates a new value instead of changing the original one.</li> </ul> <p><strong>Example</strong><b",
+      "title": "O Marketing do Apocalipse: Como a Ameaça à Democracia Virou a Vaga de Emprego Mais Cobiçada de 2026 no Mercado de T.I.?",
+      "link": "https://dev.to/flavioconca/o-marketing-do-apocalipse-como-a-ameaca-a-democracia-virou-a-vaga-de-emprego-mais-cobicada-de-2026-2k2b",
+      "pubDate": "2026-06-02T16:33:29.000Z",
+      "description": "<p>No saturado mercado de tecnologia, as empresas gastam fortunas tentando convencer o público de que seus produtos vão salvar o mundo. A Anthropic decidiu adotar a estratégia oposta. </p> <p>Ao admitir abertamente que suas ferramentas de inteligência artificial possuem o potencial destrutivo de des",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Building Your First MCP Server in Go",
-      "link": "https://dev.to/monirz001/building-your-first-mcp-server-in-go-1l6a",
-      "pubDate": "2026-06-02T10:29:00.000Z",
-      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fvlelvz0cdszqifcosvo5.jpg\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/width=800%",
+      "title": "Using one LLM API key across OpenAI-compatible clients, Claude Code, and terminal agents",
+      "link": "https://dev.to/tokenhubapi/using-one-llm-api-key-across-openai-compatible-clients-claude-code-and-terminal-agents-3eng",
+      "pubDate": "2026-06-02T16:32:48.000Z",
+      "description": "<p>If you test multiple LLM clients, the annoying part is rarely the first API call. It is the mess around it: keys, base URLs, model names, billing pages, and protocol differences.</p> <p>TokenHub is a prepaid gateway that exposes one endpoint for common LLM workflows:</p> <ul> <li>OpenAI SDKs with",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "CLAUDE.md as a Forcing Function: How Writing a Project Constitution Cleans Up Your Tooling",
-      "link": "https://dev.to/uzoma_uche_3ec83974b4a8a5/claudemd-as-a-forcing-function-how-writing-a-project-constitution-cleans-up-your-tooling-3bhk",
-      "pubDate": "2026-06-02T10:28:32.000Z",
-      "description": "<h1> CLAUDE.md as a Forcing Function: How Writing a Project Constitution Cleans Up Your Tooling </h1> <p>If you have been using Claude Code for a few months across multiple repos, the cheap, ongoing mistake is to keep<br> adding rules to <code>CLAUDE.md</code> every time the model does something wro",
+      "title": "AI Pipeline: Preventing Drift in Production Systems",
+      "link": "https://dev.to/launchdarkly/ai-pipeline-preventing-drift-in-production-systems-3k1g",
+      "pubDate": "2026-06-02T16:32:09.000Z",
+      "description": "<p>A common failure pattern in a retrieval-augmented generation (RAG) system is a progressive decline in performance. This decline, which can be difficult for users to detect initially, often begins with a reduction in retrieval relevance. Over time, it may lead to longer response times and increasi",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "Meta repeatedly snubs EU body over Facebook and Instagram user bans",
+      "link": "https://www.bbc.com/news/articles/c152yvwjwkko",
+      "pubDate": "2026-06-02T15:03:43.000Z",
+      "description": "Article URL: https://www.bbc.com/news/articles/c152yvwjwkko Comments URL: https://news.ycombinator.com/item?id=48371224 Points: 62 # Comments: 82",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Preparing for KDE Plasma's Last X11-Supported Release",
+      "link": "https://blog.davidedmundson.co.uk/blog/596/",
+      "pubDate": "2026-06-02T14:16:30.000Z",
+      "description": "Article URL: https://blog.davidedmundson.co.uk/blog/596/ Comments URL: https://news.ycombinator.com/item?id=48370588 Points: 61 # Comments: 59",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Fidonet: Technology, Use, Tools, and History (1993)",
+      "link": "https://www.fidonet.org/inet92_Randy_Bush.txt",
+      "pubDate": "2026-06-02T13:53:52.000Z",
+      "description": "Article URL: https://www.fidonet.org/inet92_Randy_Bush.txt Comments URL: https://news.ycombinator.com/item?id=48370291 Points: 74 # Comments: 24",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "A walking tour of surveillance infrastructure in Seattle",
+      "link": "https://coveillance.org/a-walking-tour-of-surveillance-infrastructure-in-seattle/",
+      "pubDate": "2026-06-02T13:24:32.000Z",
+      "description": "Article URL: https://coveillance.org/a-walking-tour-of-surveillance-infrastructure-in-seattle/ Comments URL: https://news.ycombinator.com/item?id=48369980 Points: 138 # Comments: 41",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Expanding Project Glasswing",
+      "link": "https://www.anthropic.com/news/expanding-project-glasswing",
+      "pubDate": "2026-06-02T13:15:14.000Z",
+      "description": "Article URL: https://www.anthropic.com/news/expanding-project-glasswing Comments URL: https://news.ycombinator.com/item?id=48369863 Points: 72 # Comments: 70",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "::search-text",
+      "link": "https://css-tricks.com/almanac/pseudo-selectors/s/search-text/",
+      "pubDate": "2026-06-02T12:59:21.000Z",
+      "description": "The CSS ::search-text pseudo-element selects the matching text from your browser's \"find in page\" feature. ::search-text originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Great Question (YC W21) Is Hiring Applied AI Interns",
+      "link": "https://www.ycombinator.com/companies/great-question/jobs/J5TNvQH-ai-engineer-intern",
+      "pubDate": "2026-06-02T12:01:04.000Z",
+      "description": "Article URL: https://www.ycombinator.com/companies/great-question/jobs/J5TNvQH-ai-engineer-intern Comments URL: https://news.ycombinator.com/item?id=48369098 Points: 0 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Apple rejected my dictation app for using the accessibility API",
+      "link": "https://www.mitmllc.com/blog/apple-rejected-my-dictation-app/",
+      "pubDate": "2026-06-02T12:00:03.000Z",
+      "description": "Article URL: https://www.mitmllc.com/blog/apple-rejected-my-dictation-app/ Comments URL: https://news.ycombinator.com/item?id=48369088 Points: 218 # Comments: 132",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "CSS-Native Parallax Effect",
       "link": "https://dan-webnotes.com/posts/2026-06-02-css-native-parallax-effect/",
       "pubDate": "2026-06-02T10:23:37.000Z",
-      "description": "Article URL: https://dan-webnotes.com/posts/2026-06-02-css-native-parallax-effect/ Comments URL: https://news.ycombinator.com/item?id=48368291 Points: 3 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Michael Burry says neither SpaceX nor Anthropic is worth $1T",
-      "link": "https://www.businessinsider.com/big-short-michael-burry-spacex-anthropic-ipo-ai-bubble-claude-2026-6",
-      "pubDate": "2026-06-02T10:09:21.000Z",
-      "description": "Article URL: https://www.businessinsider.com/big-short-michael-burry-spacex-anthropic-ipo-ai-bubble-claude-2026-6 Comments URL: https://news.ycombinator.com/item?id=48368187 Points: 13 # Comments: 3",
+      "description": "Article URL: https://dan-webnotes.com/posts/2026-06-02-css-native-parallax-effect/ Comments URL: https://news.ycombinator.com/item?id=48368291 Points: 94 # Comments: 45",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -104,63 +160,15 @@
       "title": "Adafruit Receives Demand Letter from Fenwick Legal Counsel on Behalf of Flux.ai",
       "link": "https://blog.adafruit.com/",
       "pubDate": "2026-06-02T10:00:56.000Z",
-      "description": "Article URL: https://blog.adafruit.com/ Comments URL: https://news.ycombinator.com/item?id=48368121 Points: 5 # Comments: 0",
+      "description": "Article URL: https://blog.adafruit.com/ Comments URL: https://news.ycombinator.com/item?id=48368121 Points: 427 # Comments: 167",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Why Janet?",
-      "link": "https://ianthehenry.com/posts/why-janet/",
-      "pubDate": "2026-06-02T09:34:31.000Z",
-      "description": "Article URL: https://ianthehenry.com/posts/why-janet/ Comments URL: https://news.ycombinator.com/item?id=48367907 Points: 92 # Comments: 28",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Not Every Byte Gets a Vote",
-      "link": "https://mitander.xyz/posts/not-every-byte-gets-a-vote/",
-      "pubDate": "2026-06-02T07:13:43.000Z",
-      "description": "Article URL: https://mitander.xyz/posts/not-every-byte-gets-a-vote/ Comments URL: https://news.ycombinator.com/item?id=48367009 Points: 5 # Comments: 3",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Strace-ui, Bonsai_term, and the TUI renaissance",
-      "link": "https://blog.janestreet.com/strace-ui-bonsai-term-and-the-tui-renaissance/",
-      "pubDate": "2026-06-02T04:05:23.000Z",
-      "description": "Article URL: https://blog.janestreet.com/strace-ui-bonsai-term-and-the-tui-renaissance/ Comments URL: https://news.ycombinator.com/item?id=48365904 Points: 54 # Comments: 30",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "macOS needs its grid back",
-      "link": "https://blog.hopefullyuseful.com/blog/macos-needs-its-grid-back/",
-      "pubDate": "2026-06-02T01:28:34.000Z",
-      "description": "Article URL: https://blog.hopefullyuseful.com/blog/macos-needs-its-grid-back/ Comments URL: https://news.ycombinator.com/item?id=48364800 Points: 270 # Comments: 155",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Crystal Nights (2008)",
-      "link": "https://www.gregegan.net/MISC/CRYSTAL/Crystal.html",
-      "pubDate": "2026-06-02T01:22:42.000Z",
-      "description": "Article URL: https://www.gregegan.net/MISC/CRYSTAL/Crystal.html Comments URL: https://news.ycombinator.com/item?id=48364754 Points: 45 # Comments: 6",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "How is Groq raising more money?",
-      "link": "https://www.zach.be/p/how-the-hell-is-groq-raising-more",
-      "pubDate": "2026-06-02T01:05:29.000Z",
-      "description": "Article URL: https://www.zach.be/p/how-the-hell-is-groq-raising-more Comments URL: https://news.ycombinator.com/item?id=48364620 Points: 112 # Comments: 50",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Can the stockmarket swallow Anthropic, SpaceX and OpenAI?",
-      "link": "https://www.economist.com/finance-and-economics/2026/06/01/can-the-stockmarket-swallow-anthropic-spacex-and-openai",
-      "pubDate": "2026-06-01T23:45:46.000Z",
-      "description": "https://archive.ph/nKEVw Comments URL: https://news.ycombinator.com/item?id=48364055 Points: 390 # Comments: 677",
+      "title": "Stop Ruining It",
+      "link": "https://seths.blog/2026/06/stop-ruining-it/",
+      "pubDate": "2026-06-02T09:52:42.000Z",
+      "description": "Article URL: https://seths.blog/2026/06/stop-ruining-it/ Comments URL: https://news.ycombinator.com/item?id=48368059 Points: 125 # Comments: 47",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -233,14 +241,6 @@
       "link": "https://css-tricks.com/whats-important-11/",
       "pubDate": "2026-05-15T13:16:34.000Z",
       "description": "If 3D voxel scenes (that you can style), flying focus animations, or new CSS syntaxes sound like your kinda thing, then this issue of What’s !important is definitely for you. What’s !important #11: 3D Voxel Scenes, Flying Focus, CSS Syntaxes, and More originally handwritten and published with love o",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Computing and Displaying Discounted Prices in CSS",
-      "link": "https://css-tricks.com/computing-and-displaying-discounted-prices-in-css/",
-      "pubDate": "2026-05-14T14:05:01.000Z",
-      "description": "A clever use of CSS to calculate and display a discounted product price by providing a base price and discount amount, featuring modern CSS features like attr(), mod(), and round(). Computing and Displaying Discounted Prices in CSS originally handwritten and published with love on CSS-Tricks. You sh",
       "source": "CSS Tricks",
       "category": "Frontend"
     },
