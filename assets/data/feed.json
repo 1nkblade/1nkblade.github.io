@@ -1,173 +1,173 @@
 {
-  "generatedAt": "2026-06-03T17:18:08.496Z",
+  "generatedAt": "2026-06-03T21:30:21.933Z",
   "sourceCount": 4,
   "successCount": 3,
   "errors": [
     {
-      "source": "CSS Tricks",
-      "error": "HTTP 415 Unsupported Media Type"
+      "source": "Hacker News",
+      "error": "fetch failed"
     }
   ],
   "items": [
     {
-      "title": "Why hiring still feels outdated?",
-      "link": "https://dev.to/jacobfoster21/why-hiring-still-feels-outdated-2ook",
-      "pubDate": "2026-06-03T17:12:54.000Z",
-      "description": "<p>It’s honestly strange how startups are so advanced in one part of their work and still so manual in another.</p> <p>We’re using AI to write code, design products, automate workflows… things that used to take hours now happen in minutes.</p> <p>But hiring?</p> <p>Still feels stuck in another era.<",
+      "title": "Building a Local-First Frontend State Sync with Conflict-Free Replicated Data Types (CRDTs)",
+      "link": "https://dev.to/therizwansaleem/building-a-local-first-frontend-state-sync-with-conflict-free-replicated-data-types-crdts-1k55",
+      "pubDate": "2026-06-03T21:20:20.000Z",
+      "description": "<h1> Building a Local-First Frontend State Sync with Conflict-Free Replicated Data Types (CRDTs) </h1> <h3> Building a Local-First Frontend State Sync with Conflict-Free Replicated Data Types (CRDTs) </h3> <p>In modern web apps, users expect instant, offline-capable experiences. A local-first approa",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Building a net/http Middleware Chain From Scratch in Go",
-      "link": "https://dev.to/shayan_holakouee/building-a-nethttp-middleware-chain-from-scratch-in-go-346b",
-      "pubDate": "2026-06-03T17:10:51.000Z",
-      "description": "<p>Every Go web framework ships with middleware. Chi has it. Gin has it. Echo has it. And every tutorial shows you how to use it.</p> <p>But almost none of them show you how it actually works.</p> <p>This article builds a production-grade middleware chain using nothing but the Go standard library. N",
+      "title": "Cognizant AI Labs 副总裁 Risto Miikkulainen谈神经演化（Neuroevolution）与进化AI（Evolutionary AI）",
+      "link": "https://dev.to/cognitalk/cognizant-ai-labs-fu-zong-cai-risto-miikkulainentan-shen-jing-yan-hua-neuroevolutionyu-jin-hua-aievolutionary-ai-44ai",
+      "pubDate": "2026-06-03T21:19:28.000Z",
+      "description": "<p>在这期 <a href=\"http://www.youtube.com/watch?v=bSC_atAilnY\" rel=\"noopener noreferrer\">Eye on AI</a> 的播客中，主持人 Craig Smith 采访了德克萨斯大学奥斯汀分校教授、Cognizant AI Labs 副总裁 <strong>Risto Miikkulainen</strong>。访谈围绕神经演化（Neuroevolution）与进化AI（Evolutionary AI）展开，深入探讨了其核心原理、优势、应用场景以及为何它是AI未来的重要方向。</p> <p>以下是访谈内容的详细总结：",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The one HIPAA requirement you can't hand to a vendor: your risk analysis",
-      "link": "https://dev.to/jvancedev/the-one-hipaa-requirement-you-cant-hand-to-a-vendor-your-risk-analysis-2dmm",
-      "pubDate": "2026-06-03T17:06:06.000Z",
-      "description": "<p>A team I talked to recently had everything that usually signals \"we're on top of compliance.\" BAAs signed with every vendor. Data encrypted at rest and in transit. SSO on. A SOC 2 report from each SaaS tool in the stack. They asked, reasonably, whether that made them HIPAA compliant.</p> <p>It di",
+      "title": "One Markdown File, Two Worlds: How to Build Docs for Both Humans and AI Assistants",
+      "link": "https://dev.to/p-zielinski/one-markdown-file-two-worlds-how-to-build-docs-for-both-humans-and-ai-assistants-52fi",
+      "pubDate": "2026-06-03T21:19:17.000Z",
+      "description": "<p>When building a modern SaaS product with an AI assistant (\"Ask our docs\"), you quickly hit a brutal realization about documentation design:</p> <ul> <li> <strong>Humans</strong> want brevity, beautiful diagrams, clean UI, and zero noise.</li> <li> <strong>LLMs</strong> want absolutely everything.",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Git rerere: the feature you didnt know you needed",
-      "link": "https://dev.to/schiff_heimlich/git-rerere-the-feature-you-didnt-know-you-needed-383o",
-      "pubDate": "2026-06-03T17:02:37.000Z",
-      "description": "<p>Every few weeks I hit the same merge conflict. Same file, same lines, same decisions. For years I just dealt with it — resolve, commit, move on. Then I stumbled over <code>rerere</code> and now I dont go back.</p> <h2> What it does </h2> <p><code>rerere</code> stands for \"Reuse Recorded Resolutio",
+      "title": ".NET Quizzes and Tiny Console Projects Look Beginner-Level — Until You Realize They Are Quietly Training You to Think Like a Systems Engineer",
+      "link": "https://dev.to/cristiansifuentes/net-quizzes-and-tiny-console-projects-look-beginner-level-until-you-realize-they-are-quietly-186k",
+      "pubDate": "2026-06-03T21:17:49.000Z",
+      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fjasgg6o8k16xzy32xykm.png\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/width=800%",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Skyvern (YC S23) Is Hiring Open-Source Loving DevRel Engineers",
-      "link": "https://www.ycombinator.com/companies/skyvern/jobs/1qRTlVx-founding-developer-marketing-open-source-ai",
-      "pubDate": "2026-06-03T17:01:00.000Z",
-      "description": "Article URL: https://www.ycombinator.com/companies/skyvern/jobs/1qRTlVx-founding-developer-marketing-open-source-ai Comments URL: https://news.ycombinator.com/item?id=48386588 Points: 0 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "A Practical Git-First Deployment Orchestration",
-      "link": "https://dev.to/therizwansaleem/a-practical-git-first-deployment-orchestration-1k7l",
-      "pubDate": "2026-06-03T17:00:20.000Z",
-      "description": "<h1> A Practical Git-First Deployment Orchestration </h1> <h3> A Practical Git-First Deployment Orchestration </h3> <p>A solid version-control workflow isn’t just about commits; it’s about turning Git into a reliable launchpad for deployment. This guide walks you through a concrete, hands-on workflo",
+      "title": "The Malleable Foundation: Exploring the Limitations and Expansive Possibilities of Bitcoin's Script Language",
+      "link": "https://dev.to/ice1121/the-malleable-foundation-exploring-the-limitations-and-expansive-possibilities-of-bitcoins-script-l22",
+      "pubDate": "2026-06-03T21:03:22.000Z",
+      "description": "<h2> Introduction </h2> <p>Bitcoin, since its genesis in 2009, has fundamentally reshaped our understanding of digital scarcity and decentralized value transfer. While often lauded for its robust proof-of-work consensus mechanism and immutable ledger, a less visible yet equally critical component un",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "My first 8 months with AI",
-      "link": "https://dev.to/chicks/my-first-8-months-with-ai-390i",
-      "pubDate": "2026-06-03T17:00:00.000Z",
-      "description": "<p>There's a tremendous amount of hype and hate around AI these days. Most techies seem to be on the hype side and most normies are on the hate side. Everybody has \"good enough\" reasons for their takes on this. Nobody is obviously wrong. I don't think the technology is far enough along that we can s",
+      "title": "비트코인 스크립트 언어, 그 투박함 속의 무한한 가능성",
+      "link": "https://dev.to/ice1121/biteukoin-seukeuribteu-eoneo-geu-tubagham-sogyi-muhanhan-ganeungseong-5cdn",
+      "pubDate": "2026-06-03T21:03:18.000Z",
+      "description": "<p>비트코인, 그 이름만으로도 묵직한 존재감을 드러내는 디지털 금. 많은 이들이 비트코인을 단순한 가치 저장 수단이나 투기 자산으로만 바라보지만, 그 깊숙한 곳에는 사토시 나카모토가 설계한 정교하면서도 지극히 단순한 메커니즘이 숨 쉬고 있다. 그 핵심 중 하나가 바로 비트코인 스크립트 언어다. 이 투박하고 불완전해 보이는 언어가 어떻게 비트코인의 모든 거래를 지배하고, 때로는 상상 이상의 가능성을 열어왔는지 우리는 곱씹어볼 필요가 있다. 사토시 나카모토는 비트코인을 설계하며 극도의 단순성과 보안, 그리고 예측 가능성을 최우선 가치",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I Built a Prediction Market Insider Trading Detector in One Afternoon (Because George Santos)",
-      "link": "https://dev.to/lweiss01/i-built-a-prediction-market-insider-trading-detector-in-one-afternoon-because-george-santos-4dkk",
-      "pubDate": "2026-06-03T16:58:13.000Z",
-      "description": "<p>This morning I woke up to news that George Santos is under federal investigation for insider trading on Kalshi. By end of day I had a working anomaly detector monitoring 410 politically-sensitive prediction markets with a live dashboard.</p> <p>Here's how it happened, what I found, and how you ca",
+      "title": "From Minikube to AWS EKS: How I Built a Zero-Downtime Blue-Green Deployment Pipeline for ShopSwift",
+      "link": "https://dev.to/gbadedata/from-minikube-to-aws-eks-how-i-built-a-zero-downtime-blue-green-deployment-pipeline-for-shopswift-299b",
+      "pubDate": "2026-06-03T21:01:05.000Z",
+      "description": "<p><em>I built ShopSwift, a Node.js/Express e-commerce API, and wrapped it in a production-grade <a href=\"https://martinfowler.com/bliki/BlueGreenDeployment.html\" rel=\"noopener noreferrer\">blue-green deployment</a> pipeline: Docker, Kubernetes, <a href=\"https://minikube.sigs.k8s.io/docs/\" rel=\"noope",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "⚡ Revisiting My Old ML Project: Battery Drain Predictor Using Linear Regression",
-      "link": "https://dev.to/manvanthgowda/revisiting-my-old-ml-project-battery-drain-predictor-using-linear-regression-31f0",
-      "pubDate": "2026-06-03T16:55:05.000Z",
-      "description": "<p>This is a submission for the GitHub Finish-Up-A-Thon Challenge</p> <p>What I Built</p> <p>One of the projects I built while learning Machine Learning was a Battery Drain Predictor using Linear Regression. The goal was to explore how machine learning can be used to estimate battery drain patterns ",
+      "title": "Surrogate Testing: Building a Robust QA Pipeline with Mutation Testing and Test Doubles",
+      "link": "https://dev.to/therizwansaleem/surrogate-testing-building-a-robust-qa-pipeline-with-mutation-testing-and-test-doubles-3e8a",
+      "pubDate": "2026-06-03T21:00:19.000Z",
+      "description": "<h1> Surrogate Testing: Building a Robust QA Pipeline with Mutation Testing and Test Doubles </h1> <h3> Surrogate Testing: Building a Robust QA Pipeline with Mutation Testing and Test Doubles </h3> <p>In modern software teams, catching bugs early requires more than just writing unit tests. Surrogate",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "redb.Route 3.0.1 — flat DSL navigation, CRTP refactor, and a silent null fix",
-      "link": "https://dev.to/rinat_kozin_d0a2ef43e7824/redbroute-301-flat-dsl-navigation-crtp-refactor-and-a-silent-null-fix-3m7n",
-      "pubDate": "2026-06-03T16:53:16.000Z",
-      "description": "<p><strong>Series:</strong> <code>redb ecosystem</code></p> <p>Before 3.0.1, deep nested scopes required closing in exact reverse order — tedious and easy to get wrong. Three things changed.</p> <h2> Flat <code>End*()</code> navigation </h2> <p>A typed closer walks the <code>Parent</code> chain and ",
+      "title": "Characterize the AWS Graviton memory subsystem using ASCT",
+      "link": "https://dev.to/aws-builders/characterize-the-aws-graviton-memory-subsystem-using-asct-4e24",
+      "pubDate": "2026-06-03T20:57:57.000Z",
+      "description": "<p>If you've ever deployed memory-bound workloads on AWS Graviton, you know that CPU compute speed is only part of the story. Another factor in real-world performance is how efficiently your code accesses the memory subsystem, specifically the cache hierarchy, interconnects, and physical DRAM.</p> <",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Brute-Force Retrieval Holds Through 5,000 Memories. Then It Doesn't.",
-      "link": "https://dev.to/newtorob/brute-force-retrieval-holds-through-5000-memories-then-it-doesnt-5bm3",
-      "pubDate": "2026-06-03T16:52:56.000Z",
-      "description": "<p>The last post I wrote measured how long it takes to query my Linux box's memory store from my Mac over a WireGuard mesh. The answer was about 20 milliseconds, plus or minus a few for Tailscale jitter, stable across store sizes from 10 to 500 entries. That ended with a sentence I should not have l",
+      "title": "Grouped Batch Sync: Reducing Orphan Records in Offline-First Applications",
+      "link": "https://dev.to/emersonbarcellos0/grouped-batch-sync-reducing-orphan-records-in-offline-first-applications-59ei",
+      "pubDate": "2026-06-03T20:52:59.000Z",
+      "description": "<h1> Grouped Batch Sync: Reducing Orphan Records in Offline-First Applications </h1> <p>Offline-first synchronization sounds simple until one user action creates several related records.</p> <p>Saving data locally is the easy part. The hard part starts later, when the application needs to synchroniz",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Show HN: Nutrepedia – nutrition info in 29 locales built with Clojure and Htmx",
-      "link": "https://nutrepedia.com/en-us/",
-      "pubDate": "2026-06-03T16:24:46.000Z",
-      "description": "Article URL: https://nutrepedia.com/en-us/ Comments URL: https://news.ycombinator.com/item?id=48386129 Points: 12 # Comments: 2",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "offset-path",
+      "link": "https://css-tricks.com/almanac/properties/o/offset-path/",
+      "pubDate": "2026-06-03T15:02:38.000Z",
+      "description": "The offset-path property in CSS defines a movement path for an element to follow during animation. This property began life as motion-path. This, and all other related motion-* properties, are being renamed offset-* in the spec. We’re changing … offset-path originally handwritten and published with ",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
-      "title": "ESP32-S31",
-      "link": "https://www.espressif.com/en/products/socs/esp32-s31",
-      "pubDate": "2026-06-03T16:10:25.000Z",
-      "description": "Article URL: https://www.espressif.com/en/products/socs/esp32-s31 Comments URL: https://news.ycombinator.com/item?id=48385965 Points: 74 # Comments: 13",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "@custom-media",
+      "link": "https://css-tricks.com/almanac/rules/c/custom-media/",
+      "pubDate": "2026-06-03T13:03:21.000Z",
+      "description": "The CSS @custom-media at-rule allows creating aliases for media queries. @custom-media originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
-      "title": "Uber to cut 23% of jobs in HR",
-      "link": "https://stocktwits.com/news-articles/markets/equity/uber-reportedly-slashes-many-senior-roles-in-people-division-retail-calls-the-cuts-aggressive/cZ0j99kReUR",
-      "pubDate": "2026-06-03T16:06:04.000Z",
-      "description": "Article URL: https://stocktwits.com/news-articles/markets/equity/uber-reportedly-slashes-many-senior-roles-in-people-division-retail-calls-the-cuts-aggressive/cZ0j99kReUR Comments URL: https://news.ycombinator.com/item?id=48385919 Points: 17 # Comments: 3",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "@function",
+      "link": "https://css-tricks.com/almanac/rules/f/function/",
+      "pubDate": "2026-06-03T13:02:39.000Z",
+      "description": "The @function at-rule defines CSS custom functions. These custom functions are reusable blocks of CSS that can accept arguments, contain complex logic, and return values based on that logic. @function originally handwritten and published with love on CSS-Tricks. You should really get the newsletter ",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
-      "title": "Gemma 4 12B: A unified, encoder-free multimodal model",
-      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/",
-      "pubDate": "2026-06-03T16:04:42.000Z",
-      "description": "Article URL: https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/ Comments URL: https://news.ycombinator.com/item?id=48385906 Points: 137 # Comments: 48",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "::search-text",
+      "link": "https://css-tricks.com/almanac/pseudo-selectors/s/search-text/",
+      "pubDate": "2026-06-02T12:59:21.000Z",
+      "description": "The CSS ::search-text pseudo-element selects the matching text from your browser's \"find in page\" feature. ::search-text originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
-      "title": "Show HN: Solving complex optimization problems with Google OR-Tools in browser",
-      "link": "https://github.com/Axelwickm/or-tools-wasm",
-      "pubDate": "2026-06-03T15:18:50.000Z",
-      "description": "Article URL: https://github.com/Axelwickm/or-tools-wasm Comments URL: https://news.ycombinator.com/item?id=48385275 Points: 5 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "Astro Markdown Component Utility for Any Framework",
+      "link": "https://css-tricks.com/astro-markdown-component-utility-any-framework/",
+      "pubDate": "2026-06-01T13:25:00.000Z",
+      "description": "In the previous article, I spoke about the why and how to use a Markdown component in Astro. Here, we’re going to expand on that and help you use Markdown everywhere — regardless of the framework you use. So, … Astro Markdown Component Utility for Any Framework originally handwritten and published w",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
-      "title": "A Post-Quantum Future for Let's Encrypt",
-      "link": "https://letsencrypt.org/2026/06/03/pq-certs",
-      "pubDate": "2026-06-03T15:06:09.000Z",
-      "description": "Article URL: https://letsencrypt.org/2026/06/03/pq-certs Comments URL: https://news.ycombinator.com/item?id=48385114 Points: 86 # Comments: 36",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "What’s !important #12: Safari Testing, ::checkmark, HTML Anchor Positioning, and More",
+      "link": "https://css-tricks.com/whats-important-12/",
+      "pubDate": "2026-05-29T13:25:38.000Z",
+      "description": "The old (testing in Safari when you don’t have Safari), the new (::checkmark), the in-between (anchor positioning but with HTML), and more. What’s !important #12: Safari Testing, ::checkmark, HTML Anchor Positioning, and More originally handwritten and published with love on CSS-Tricks. You should r",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
-      "title": "DaVinci Resolve 21",
-      "link": "https://www.blackmagicdesign.com/products/davinciresolve/whatsnew",
-      "pubDate": "2026-06-03T14:18:39.000Z",
-      "description": "Article URL: https://www.blackmagicdesign.com/products/davinciresolve/whatsnew Comments URL: https://news.ycombinator.com/item?id=48384482 Points: 181 # Comments: 100",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "Revealing Text With CSS letter-spacing",
+      "link": "https://css-tricks.com/revealing-text-with-css-letter-spacing/",
+      "pubDate": "2026-05-27T12:37:33.000Z",
+      "description": "Until we get something like ::nth-letter, there are still some really cool text effects we can make from existing CSS features, like letter-spacing, ::first-word and ::first-line. Revealing Text With CSS letter-spacing originally handwritten and published with love on CSS-Tricks. You should really g",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
-      "title": "Shopify Is Down",
-      "link": "https://www.shopifystatus.com",
-      "pubDate": "2026-06-03T14:00:08.000Z",
-      "description": "Article URL: https://www.shopifystatus.com Comments URL: https://news.ycombinator.com/item?id=48384221 Points: 80 # Comments: 54",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "Technical Writing in the AI Age",
+      "link": "https://css-tricks.com/technical-writing-in-the-ai-age/",
+      "pubDate": "2026-05-26T13:49:28.000Z",
+      "description": "This isn’t totally about AI. It’s about technical writing in the age of AI. I have some thoughts on this and I hope it’s helpful to you humans reading. Technical Writing in the AI Age originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
-      "title": "REST3D: Reconstructing Physically Stable 3D Scenes from a Single Image",
-      "link": "https://shirleymaxx.github.io/REST3D/",
-      "pubDate": "2026-06-03T13:53:03.000Z",
-      "description": "Article URL: https://shirleymaxx.github.io/REST3D/ Comments URL: https://news.ycombinator.com/item?id=48384125 Points: 7 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "Cross-Document View Transitions: Scaling Across Hundreds of Elements",
+      "link": "https://css-tricks.com/cross-document-view-transitions-part-2/",
+      "pubDate": "2026-05-25T13:46:54.000Z",
+      "description": "Every view-transition-name on a page must be unique. The problem is that every pseudo-element selector in your CSS targets a specific name, so your animation styles explode into an unmanageable wall of selectors. Cross-Document View Transitions: Scaling Across Hundreds of Elements originally handwri",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "The State of CSS Centering in 2026",
+      "link": "https://css-tricks.com/the-state-of-css-centering-in-2026/",
+      "pubDate": "2026-05-22T13:44:40.000Z",
+      "description": "Despite the countless number of online resources, it’s easy to get confused when trying to center an element. There are documented solutions, but do you really understand why the code you picked works? Let's look at the current state of centering options today in 2026. The State of CSS Centering in ",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
       "title": "Meet the HTB Profile: all your skills, in one place",
