@@ -1,248 +1,173 @@
 {
-  "generatedAt": "2026-06-03T11:23:26.703Z",
+  "generatedAt": "2026-06-03T17:18:08.496Z",
   "sourceCount": 4,
-  "successCount": 4,
-  "errors": [],
+  "successCount": 3,
+  "errors": [
+    {
+      "source": "CSS Tricks",
+      "error": "HTTP 415 Unsupported Media Type"
+    }
+  ],
   "items": [
     {
-      "title": "Semantic use of &lt;del&gt; and &lt;s&gt; tags: How to write an accessible price tag for e-commerces",
-      "link": "https://dev.to/micaavigliano/semantic-use-of-and-tags-how-to-write-an-accessible-price-tag-for-e-commerces-5hje",
-      "pubDate": "2026-06-03T11:13:19.000Z",
-      "description": "<h2> Understanding when to use <code>&lt;del&gt;</code> and <code>&lt;s&gt;</code> HTML tags </h2> <div class=\"table-wrapper-paragraph\"><table> <thead> <tr> <th>Comparative Feature</th> <th> <code>&lt;del&gt;</code> element</th> <th> <code>&lt;s&gt;</code> element</th> </tr> </thead> <tbody> <tr> <t",
+      "title": "Why hiring still feels outdated?",
+      "link": "https://dev.to/jacobfoster21/why-hiring-still-feels-outdated-2ook",
+      "pubDate": "2026-06-03T17:12:54.000Z",
+      "description": "<p>It’s honestly strange how startups are so advanced in one part of their work and still so manual in another.</p> <p>We’re using AI to write code, design products, automate workflows… things that used to take hours now happen in minutes.</p> <p>But hiring?</p> <p>Still feels stuck in another era.<",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "ID-JAG, Transaction Tokens, WIF: The Three Layers of AI Agent Auth",
-      "link": "https://dev.to/kanywst/the-three-layers-of-ai-agent-authentication-what-id-jag-transaction-tokens-and-wif-actually-1mbk",
-      "pubDate": "2026-06-03T11:12:33.000Z",
-      "description": "<h2> Introduction </h2> <p>Something clicked when I looked at the <a href=\"https://platform.claude.com/docs/en/manage-claude/workload-identity-federation\" rel=\"noopener noreferrer\">Workload Identity Federation</a> that Anthropic shipped in May 2026. Delete the <code>sk-ant-...</code> API key, have a",
+      "title": "Building a net/http Middleware Chain From Scratch in Go",
+      "link": "https://dev.to/shayan_holakouee/building-a-nethttp-middleware-chain-from-scratch-in-go-346b",
+      "pubDate": "2026-06-03T17:10:51.000Z",
+      "description": "<p>Every Go web framework ships with middleware. Chi has it. Gin has it. Echo has it. And every tutorial shows you how to use it.</p> <p>But almost none of them show you how it actually works.</p> <p>This article builds a production-grade middleware chain using nothing but the Go standard library. N",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Open RAN Explained for Network Managers Who Don't Have Time for Theory",
-      "link": "https://dev.to/5gworldpro/open-ran-explained-for-network-managers-who-dont-have-time-for-theory-5264",
-      "pubDate": "2026-06-03T11:05:58.000Z",
-      "description": "<p>You've been in meetings about Open RAN for two years. Everyone has an opinion. Nobody has given you a clear, practical explanation of what it actually means for the people running your network. This is that explanation.</p> <p><strong>Let's Skip the Marketing</strong></p> <p>Every vendor in the t",
+      "title": "The one HIPAA requirement you can't hand to a vendor: your risk analysis",
+      "link": "https://dev.to/jvancedev/the-one-hipaa-requirement-you-cant-hand-to-a-vendor-your-risk-analysis-2dmm",
+      "pubDate": "2026-06-03T17:06:06.000Z",
+      "description": "<p>A team I talked to recently had everything that usually signals \"we're on top of compliance.\" BAAs signed with every vendor. Data encrypted at rest and in transit. SSO on. A SOC 2 report from each SaaS tool in the stack. They asked, reasonably, whether that made them HIPAA compliant.</p> <p>It di",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I Thought My AI Code Reviewer Was Finished. Then a Single Hallucinated Line Number Broke Everything.",
-      "link": "https://dev.to/shy_the_a91bfb236d4eeb5bb/i-thought-my-ai-code-reviewer-was-finished-then-a-single-hallucinated-line-number-broke-everything-2a55",
-      "pubDate": "2026-06-03T11:04:20.000Z",
-      "description": "<p><strong>What I Built</strong><br> ReviewFlow is an automated Code Review pipeline built with LangGraph. Instead of relying on a single large prompt, it routes incoming Pull Requests to three specialized agents (Security, Logic, and Style) to perform parallel reviews. The workflow is orchestrated ",
+      "title": "Git rerere: the feature you didnt know you needed",
+      "link": "https://dev.to/schiff_heimlich/git-rerere-the-feature-you-didnt-know-you-needed-383o",
+      "pubDate": "2026-06-03T17:02:37.000Z",
+      "description": "<p>Every few weeks I hit the same merge conflict. Same file, same lines, same decisions. For years I just dealt with it — resolve, commit, move on. Then I stumbled over <code>rerere</code> and now I dont go back.</p> <h2> What it does </h2> <p><code>rerere</code> stands for \"Reuse Recorded Resolutio",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Every Byte Matters",
-      "link": "https://fzakaria.com/2026/06/01/every-byte-matters",
-      "pubDate": "2026-06-03T11:04:04.000Z",
-      "description": "Article URL: https://fzakaria.com/2026/06/01/every-byte-matters Comments URL: https://news.ycombinator.com/item?id=48382382 Points: 4 # Comments: 0",
+      "title": "Skyvern (YC S23) Is Hiring Open-Source Loving DevRel Engineers",
+      "link": "https://www.ycombinator.com/companies/skyvern/jobs/1qRTlVx-founding-developer-marketing-open-source-ai",
+      "pubDate": "2026-06-03T17:01:00.000Z",
+      "description": "Article URL: https://www.ycombinator.com/companies/skyvern/jobs/1qRTlVx-founding-developer-marketing-open-source-ai Comments URL: https://news.ycombinator.com/item?id=48386588 Points: 0 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "I Built a Vector Search Engine from Scratch — Here's What I Learned",
-      "link": "https://dev.to/sameer_ahmed_/i-built-a-vector-search-engine-from-scratch-heres-what-i-learned-4lh5",
-      "pubDate": "2026-06-03T11:01:02.000Z",
-      "description": "<h1> I Built a Vector Search Engine from Scratch — Here's What I Learned </h1> <blockquote> <p>Implementing HNSW (Hierarchical Navigable Small World) graphs, hybrid BM25 + dense retrieval, HyDE query rewriting, and atomic index persistence — achieving recall@10 = 0.984.</p> </blockquote> <h2> Why Bu",
+      "title": "A Practical Git-First Deployment Orchestration",
+      "link": "https://dev.to/therizwansaleem/a-practical-git-first-deployment-orchestration-1k7l",
+      "pubDate": "2026-06-03T17:00:20.000Z",
+      "description": "<h1> A Practical Git-First Deployment Orchestration </h1> <h3> A Practical Git-First Deployment Orchestration </h3> <p>A solid version-control workflow isn’t just about commits; it’s about turning Git into a reliable launchpad for deployment. This guide walks you through a concrete, hands-on workflo",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Rotate Image",
-      "link": "https://dev.to/jaspreet_singh_86ae1740ac/rotate-image-2dcb",
-      "pubDate": "2026-06-03T11:00:53.000Z",
-      "description": "<p>Matrix problems often seem tricky because multiple rows and columns move at the same time. In this problem, we need to rotate an <code>n × n</code> matrix by <strong>90 degrees clockwise</strong> without using any extra matrix.</p> <p>The key insight is that we don't need to perform the rotation ",
+      "title": "My first 8 months with AI",
+      "link": "https://dev.to/chicks/my-first-8-months-with-ai-390i",
+      "pubDate": "2026-06-03T17:00:00.000Z",
+      "description": "<p>There's a tremendous amount of hype and hate around AI these days. Most techies seem to be on the hype side and most normies are on the hate side. Everybody has \"good enough\" reasons for their takes on this. Nobody is obviously wrong. I don't think the technology is far enough along that we can s",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I built an AI agent that runs manual test cases in a real browser",
-      "link": "https://dev.to/broxhq/i-built-an-ai-agent-that-runs-manual-test-cases-in-a-real-browser-4caj",
-      "pubDate": "2026-06-03T11:00:50.000Z",
-      "description": "<h2> The problem </h2> <p>Every deploy — same manual test steps. Login, open the form, <br> fill the fields, check the result. Over and over.</p> <p>I wanted to skip the Playwright/Selenium boilerplate and just <br> paste my existing test cases as plain text.</p> <h2> What I built </h2> <p>qpilot — ",
+      "title": "I Built a Prediction Market Insider Trading Detector in One Afternoon (Because George Santos)",
+      "link": "https://dev.to/lweiss01/i-built-a-prediction-market-insider-trading-detector-in-one-afternoon-because-george-santos-4dkk",
+      "pubDate": "2026-06-03T16:58:13.000Z",
+      "description": "<p>This morning I woke up to news that George Santos is under federal investigation for insider trading on Kalshi. By end of day I had a working anomaly detector monitoring 410 politically-sensitive prediction markets with a live dashboard.</p> <p>Here's how it happened, what I found, and how you ca",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The Art of Influence: A Practical Guide to Soft Skills and Collaboration for Engineers",
-      "link": "https://dev.to/therizwansaleem/the-art-of-influence-a-practical-guide-to-soft-skills-and-collaboration-for-engineers-kgb",
-      "pubDate": "2026-06-03T11:00:20.000Z",
-      "description": "<h1> The Art of Influence: A Practical Guide to Soft Skills and Collaboration for Engineers </h1> <h3> The Art of Influence: A Practical Guide to Soft Skills and Collaboration for Engineers </h3> <p>Engineering excellence isn’t built on code alone. It hinges on how well teammates communicate, negoti",
+      "title": "⚡ Revisiting My Old ML Project: Battery Drain Predictor Using Linear Regression",
+      "link": "https://dev.to/manvanthgowda/revisiting-my-old-ml-project-battery-drain-predictor-using-linear-regression-31f0",
+      "pubDate": "2026-06-03T16:55:05.000Z",
+      "description": "<p>This is a submission for the GitHub Finish-Up-A-Thon Challenge</p> <p>What I Built</p> <p>One of the projects I built while learning Machine Learning was a Battery Drain Predictor using Linear Regression. The goal was to explore how machine learning can be used to estimate battery drain patterns ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "De-Identified and Still Exposed",
-      "link": "https://dev.to/rawveg/de-identified-and-still-exposed-4pkc",
-      "pubDate": "2026-06-03T11:00:00.000Z",
-      "description": "<p>Somewhere inside a foundation model trained on millions of supposedly de-identified electronic health records, a ghost lingers. Not a literal one, of course, but a data spectre: the clinical history of a patient whose records were stripped of names, addresses, and social security numbers before e",
+      "title": "redb.Route 3.0.1 — flat DSL navigation, CRTP refactor, and a silent null fix",
+      "link": "https://dev.to/rinat_kozin_d0a2ef43e7824/redbroute-301-flat-dsl-navigation-crtp-refactor-and-a-silent-null-fix-3m7n",
+      "pubDate": "2026-06-03T16:53:16.000Z",
+      "description": "<p><strong>Series:</strong> <code>redb ecosystem</code></p> <p>Before 3.0.1, deep nested scopes required closing in exact reverse order — tedious and easy to get wrong. Three things changed.</p> <h2> Flat <code>End*()</code> navigation </h2> <p>A typed closer walks the <code>Parent</code> chain and ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Building with mini, Part 0: Why a Minimalist Orchestrator for Claude Code",
-      "link": "https://dev.to/stkremen/building-with-mini-part-0-why-a-minimalist-orchestrator-for-claude-code-jpb",
-      "pubDate": "2026-06-03T11:00:00.000Z",
-      "description": "<p>In my <a href=\"https://dev.to/stkremen/how-i-stopped-burning-tokens-in-claude-code-2okd\">previous article</a> I described the wall I kept hitting with Claude Code: keeping a project on track across dozens of sessions burns an absurd amount of tokens. The fix I landed on was a small CLI called <st",
+      "title": "Brute-Force Retrieval Holds Through 5,000 Memories. Then It Doesn't.",
+      "link": "https://dev.to/newtorob/brute-force-retrieval-holds-through-5000-memories-then-it-doesnt-5bm3",
+      "pubDate": "2026-06-03T16:52:56.000Z",
+      "description": "<p>The last post I wrote measured how long it takes to query my Linux box's memory store from my Mac over a WireGuard mesh. The answer was about 20 milliseconds, plus or minus a few for Tailscale jitter, stable across store sizes from 10 to 500 entries. That ended with a sentence I should not have l",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Hacking your PC using your speaker without ever touching it",
-      "link": "https://blog.nns.ee/2026/06/03/katana-badusb/",
-      "pubDate": "2026-06-03T10:53:00.000Z",
-      "description": "Article URL: https://blog.nns.ee/2026/06/03/katana-badusb/ Comments URL: https://news.ycombinator.com/item?id=48382310 Points: 19 # Comments: 2",
+      "title": "Show HN: Nutrepedia – nutrition info in 29 locales built with Clojure and Htmx",
+      "link": "https://nutrepedia.com/en-us/",
+      "pubDate": "2026-06-03T16:24:46.000Z",
+      "description": "Article URL: https://nutrepedia.com/en-us/ Comments URL: https://news.ycombinator.com/item?id=48386129 Points: 12 # Comments: 2",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Mathematicians issue warning as AI rapidly gains ground",
-      "link": "https://www.science.org/content/article/mathematicians-issue-warning-ai-rapidly-gains-ground",
-      "pubDate": "2026-06-03T10:05:48.000Z",
-      "description": "Article URL: https://www.science.org/content/article/mathematicians-issue-warning-ai-rapidly-gains-ground Comments URL: https://news.ycombinator.com/item?id=48382052 Points: 9 # Comments: 2",
+      "title": "ESP32-S31",
+      "link": "https://www.espressif.com/en/products/socs/esp32-s31",
+      "pubDate": "2026-06-03T16:10:25.000Z",
+      "description": "Article URL: https://www.espressif.com/en/products/socs/esp32-s31 Comments URL: https://news.ycombinator.com/item?id=48385965 Points: 74 # Comments: 13",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "It is an amazing time for programmers",
-      "link": "https://46elks.com/blog/2026/05/29/an-amazing-time-for-programmers",
-      "pubDate": "2026-06-03T08:00:14.000Z",
-      "description": "Article URL: https://46elks.com/blog/2026/05/29/an-amazing-time-for-programmers Comments URL: https://news.ycombinator.com/item?id=48381211 Points: 82 # Comments: 47",
+      "title": "Uber to cut 23% of jobs in HR",
+      "link": "https://stocktwits.com/news-articles/markets/equity/uber-reportedly-slashes-many-senior-roles-in-people-division-retail-calls-the-cuts-aggressive/cZ0j99kReUR",
+      "pubDate": "2026-06-03T16:06:04.000Z",
+      "description": "Article URL: https://stocktwits.com/news-articles/markets/equity/uber-reportedly-slashes-many-senior-roles-in-people-division-retail-calls-the-cuts-aggressive/cZ0j99kReUR Comments URL: https://news.ycombinator.com/item?id=48385919 Points: 17 # Comments: 3",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Recovering Eric Graham's 1987 Amiga Juggler raytracer source code",
-      "link": "https://alphapixeldev.com/recovering-eric-grahams-1987-amiga-juggler-raytracer-source-code/",
-      "pubDate": "2026-06-03T05:49:31.000Z",
-      "description": "Article URL: https://alphapixeldev.com/recovering-eric-grahams-1987-amiga-juggler-raytracer-source-code/ Comments URL: https://news.ycombinator.com/item?id=48380395 Points: 13 # Comments: 2",
+      "title": "Gemma 4 12B: A unified, encoder-free multimodal model",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/",
+      "pubDate": "2026-06-03T16:04:42.000Z",
+      "description": "Article URL: https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/ Comments URL: https://news.ycombinator.com/item?id=48385906 Points: 137 # Comments: 48",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "The Unreasonable Redundancy of Nature's Protein Folds",
-      "link": "https://research.ligo.bio/posts/unreasonable-redundancy-of-natural-protein-folds/",
-      "pubDate": "2026-06-03T03:47:56.000Z",
-      "description": "Article URL: https://research.ligo.bio/posts/unreasonable-redundancy-of-natural-protein-folds/ Comments URL: https://news.ycombinator.com/item?id=48379669 Points: 102 # Comments: 29",
+      "title": "Show HN: Solving complex optimization problems with Google OR-Tools in browser",
+      "link": "https://github.com/Axelwickm/or-tools-wasm",
+      "pubDate": "2026-06-03T15:18:50.000Z",
+      "description": "Article URL: https://github.com/Axelwickm/or-tools-wasm Comments URL: https://news.ycombinator.com/item?id=48385275 Points: 5 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "U of T researchers demonstrate AI worm could target any online device",
-      "link": "https://www.utoronto.ca/news/u-t-researchers-demonstrate-ai-worm-could-target-any-online-device",
-      "pubDate": "2026-06-03T03:47:21.000Z",
-      "description": "Article URL: https://www.utoronto.ca/news/u-t-researchers-demonstrate-ai-worm-could-target-any-online-device Comments URL: https://news.ycombinator.com/item?id=48379664 Points: 51 # Comments: 13",
+      "title": "A Post-Quantum Future for Let's Encrypt",
+      "link": "https://letsencrypt.org/2026/06/03/pq-certs",
+      "pubDate": "2026-06-03T15:06:09.000Z",
+      "description": "Article URL: https://letsencrypt.org/2026/06/03/pq-certs Comments URL: https://news.ycombinator.com/item?id=48385114 Points: 86 # Comments: 36",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Capstone – multi-platform, multi-architecture disassembly framework",
-      "link": "https://www.capstone-engine.org/",
-      "pubDate": "2026-06-03T01:59:46.000Z",
-      "description": "Article URL: https://www.capstone-engine.org/ Comments URL: https://news.ycombinator.com/item?id=48378925 Points: 60 # Comments: 1",
+      "title": "DaVinci Resolve 21",
+      "link": "https://www.blackmagicdesign.com/products/davinciresolve/whatsnew",
+      "pubDate": "2026-06-03T14:18:39.000Z",
+      "description": "Article URL: https://www.blackmagicdesign.com/products/davinciresolve/whatsnew Comments URL: https://news.ycombinator.com/item?id=48384482 Points: 181 # Comments: 100",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Roku LT Operating System open source distribution",
-      "link": "https://blog.roku.com/developer/roku-lt-os",
-      "pubDate": "2026-06-03T01:13:38.000Z",
-      "description": "Article URL: https://blog.roku.com/developer/roku-lt-os Comments URL: https://news.ycombinator.com/item?id=48378495 Points: 79 # Comments: 26",
+      "title": "Shopify Is Down",
+      "link": "https://www.shopifystatus.com",
+      "pubDate": "2026-06-03T14:00:08.000Z",
+      "description": "Article URL: https://www.shopifystatus.com Comments URL: https://news.ycombinator.com/item?id=48384221 Points: 80 # Comments: 54",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "AI outperforms law professors in Stanford Law study",
-      "link": "https://law.stanford.edu/press/ai-outperforms-law-professors-in-stanford-law-study/",
-      "pubDate": "2026-06-02T23:43:12.000Z",
-      "description": "https://law.stanford.edu/wp-content/uploads/2026/06/salinas_... Comments URL: https://news.ycombinator.com/item?id=48377761 Points: 273 # Comments: 216",
+      "title": "REST3D: Reconstructing Physically Stable 3D Scenes from a Single Image",
+      "link": "https://shirleymaxx.github.io/REST3D/",
+      "pubDate": "2026-06-03T13:53:03.000Z",
+      "description": "Article URL: https://shirleymaxx.github.io/REST3D/ Comments URL: https://news.ycombinator.com/item?id=48384125 Points: 7 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
-    },
-    {
-      "title": "::search-text",
-      "link": "https://css-tricks.com/almanac/pseudo-selectors/s/search-text/",
-      "pubDate": "2026-06-02T12:59:21.000Z",
-      "description": "The CSS ::search-text pseudo-element selects the matching text from your browser's \"find in page\" feature. ::search-text originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Astro Markdown Component Utility for Any Framework",
-      "link": "https://css-tricks.com/astro-markdown-component-utility-any-framework/",
-      "pubDate": "2026-06-01T13:25:00.000Z",
-      "description": "In the previous article, I spoke about the why and how to use a Markdown component in Astro. Here, we’re going to expand on that and help you use Markdown everywhere — regardless of the framework you use. So, … Astro Markdown Component Utility for Any Framework originally handwritten and published w",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "What’s !important #12: Safari Testing, ::checkmark, HTML Anchor Positioning, and More",
-      "link": "https://css-tricks.com/whats-important-12/",
-      "pubDate": "2026-05-29T13:25:38.000Z",
-      "description": "The old (testing in Safari when you don’t have Safari), the new (::checkmark), the in-between (anchor positioning but with HTML), and more. What’s !important #12: Safari Testing, ::checkmark, HTML Anchor Positioning, and More originally handwritten and published with love on CSS-Tricks. You should r",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Revealing Text With CSS letter-spacing",
-      "link": "https://css-tricks.com/revealing-text-with-css-letter-spacing/",
-      "pubDate": "2026-05-27T12:37:33.000Z",
-      "description": "Until we get something like ::nth-letter, there are still some really cool text effects we can make from existing CSS features, like letter-spacing, ::first-word and ::first-line. Revealing Text With CSS letter-spacing originally handwritten and published with love on CSS-Tricks. You should really g",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Technical Writing in the AI Age",
-      "link": "https://css-tricks.com/technical-writing-in-the-ai-age/",
-      "pubDate": "2026-05-26T13:49:28.000Z",
-      "description": "This isn’t totally about AI. It’s about technical writing in the age of AI. I have some thoughts on this and I hope it’s helpful to you humans reading. Technical Writing in the AI Age originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Cross-Document View Transitions: Scaling Across Hundreds of Elements",
-      "link": "https://css-tricks.com/cross-document-view-transitions-part-2/",
-      "pubDate": "2026-05-25T13:46:54.000Z",
-      "description": "Every view-transition-name on a page must be unique. The problem is that every pseudo-element selector in your CSS targets a specific name, so your animation styles explode into an unmanageable wall of selectors. Cross-Document View Transitions: Scaling Across Hundreds of Elements originally handwri",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "The State of CSS Centering in 2026",
-      "link": "https://css-tricks.com/the-state-of-css-centering-in-2026/",
-      "pubDate": "2026-05-22T13:44:40.000Z",
-      "description": "Despite the countless number of online resources, it’s easy to get confused when trying to center an element. There are documented solutions, but do you really understand why the code you picked works? Let's look at the current state of centering options today in 2026. The State of CSS Centering in ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Stack Overflow: When We Stop Asking",
-      "link": "https://css-tricks.com/stack-overflow-when-we-stop-asking/",
-      "pubDate": "2026-05-20T13:51:34.000Z",
-      "description": "It still hits like a ton of bricks to see the steep decline in Stack Overflow questions. What does that mean about learning in our industry? Stack Overflow: When We Stop Asking originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Cross-Document View Transitions: The Gotchas Nobody Mentions",
-      "link": "https://css-tricks.com/cross-document-view-transitions-part-1/",
-      "pubDate": "2026-05-18T13:47:19.000Z",
-      "description": "This is Part 1 of a two-part series about cross-document view transitions, going over all the gotchas, from ditching the deprecated way to opt into them to a little-known 4-second timeout. Cross-Document View Transitions: The Gotchas Nobody Mentions originally handwritten and published with love on ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "What’s !important #11: 3D Voxel Scenes, Flying Focus, CSS Syntaxes, and More",
-      "link": "https://css-tricks.com/whats-important-11/",
-      "pubDate": "2026-05-15T13:16:34.000Z",
-      "description": "If 3D voxel scenes (that you can style), flying focus animations, or new CSS syntaxes sound like your kinda thing, then this issue of What’s !important is definitely for you. What’s !important #11: 3D Voxel Scenes, Flying Focus, CSS Syntaxes, and More originally handwritten and published with love o",
-      "source": "CSS Tricks",
-      "category": "Frontend"
     },
     {
       "title": "Meet the HTB Profile: all your skills, in one place",
