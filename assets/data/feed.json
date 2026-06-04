@@ -1,93 +1,168 @@
 {
-  "generatedAt": "2026-06-04T15:45:28.931Z",
+  "generatedAt": "2026-06-04T20:25:35.554Z",
   "sourceCount": 4,
-  "successCount": 3,
-  "errors": [
-    {
-      "source": "Hacker News",
-      "error": "fetch failed"
-    }
-  ],
+  "successCount": 4,
+  "errors": [],
   "items": [
     {
-      "title": "Replace RBAC with Chemical Compounds",
-      "link": "https://dev.to/suign/replace-rbac-with-chemical-compounds-3i8f",
-      "pubDate": "2026-06-04T15:43:13.000Z",
-      "description": "<h2> <strong>Set-Chemistry</strong> </h2> <p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fbhlsz0ze7rl8zfam57pm.png\" class=\"article-body-image-wrapper\"><img src=\"http",
+      "title": "I built a tool that generates TypeScript fixtures from interfaces and Zod schemas",
+      "link": "https://dev.to/wasef_hussain_2145ce814de/i-built-a-tool-that-generates-typescript-fixtures-from-interfaces-and-zod-schemas-g52",
+      "pubDate": "2026-06-04T20:15:54.000Z",
+      "description": "<p>Every TypeScript project reaches the same point: you've defined your types, now you need mock data for tests, Storybook stories, or local dev. You end up hand-writing the same boilerplate <code>mockUser</code>, <code>mockProduct</code>, <code>mockOrder</code> objects over and over.</p> <p>I built",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How NULL Values Skew Comparisons, Aggregations, and Deduplication in GBase 8a",
-      "link": "https://dev.to/michaelfv/how-null-values-skew-comparisons-aggregations-and-deduplication-in-gbase-8a-42il",
-      "pubDate": "2026-06-04T15:42:00.000Z",
-      "description": "<p>NULL in a <strong>gbase database</strong> doesn't behave like an ordinary value, nor is it simply a blank. It affects comparisons, deduplication, aggregations, and conditional logic in ways that often contradict intuition. Many \"data is fine but results are off\" issues trace back to mishandled NU",
+      "title": "Your API has thousands of LLM consumers. None of them can read your changelog.",
+      "link": "https://dev.to/deepaksatyam/your-api-has-thousands-of-llm-consumers-none-of-them-can-read-your-changelog-5c9e",
+      "pubDate": "2026-06-04T20:13:40.000Z",
+      "description": "<p>Sometime in the last eighteen months, the consumer base of every public API changed, and almost nobody updated their testing strategy.</p> <p>If you publish an API today — even an internal one with an OpenAPI spec on a Confluence page — you have consumers you didn't onboard, didn't issue a key to",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Transformer Attention Is Hopfield's 1982 Update Rule (And What That Tells Us About LLM Memory)",
-      "link": "https://dev.to/ki-mathias/transformer-attention-is-hopfields-1982-update-rule-and-what-that-tells-us-about-llm-memory-4i7f",
-      "pubDate": "2026-06-04T15:40:53.000Z",
-      "description": "<blockquote> <p>Hopfield's associative-memory equation from 1982 and the scaled dot-product attention from Vaswani 2017 are the same operation. One substitution turns one into the other. The 2024 Nobel Prize in Physics — to Hopfield and Hinton — is the academic acknowledgement that the mathematics b",
+      "title": "TypeScript - Drawing your Schemas with VTS Editor",
+      "link": "https://dev.to/stefanwerfling/typescript-drawing-your-schemas-with-vts-editor-3jpm",
+      "pubDate": "2026-06-04T20:12:15.000Z",
+      "description": "<h2> Introduction </h2> <p>In the <a href=\"https://dev.to/stefanwerfling/typescript-several-sub-projects-schemas-vts-2fa3\">previous article</a> I described how I split larger TypeScript projects into several sub-projects, with a <code>schemas</code> package at the bottom that contains all shared typ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Lean AI in LangBear",
-      "link": "https://dev.to/langbear/lean-ai-in-langbear-3oe",
-      "pubDate": "2026-06-04T15:40:50.000Z",
-      "description": "<p><a href=\"https://langbear.com\" rel=\"noopener noreferrer\">LangBear</a> is fully bootstrapped. This means no investors' money to burn, no big budgets. All funding has been coming from my main job's income. This is why I made a decision early on to stay AI provider-agnostic as much as possible to ha",
+      "title": "Lynt: Turning a Hackathon Prototype into a Real AI Résumé Product (GitHub Finish-Up-A-Thon)",
+      "link": "https://dev.to/vais1/lynt-turning-a-hackathon-prototype-into-a-real-ai-resume-product-github-finish-up-a-thon-52g6",
+      "pubDate": "2026-06-04T20:12:01.000Z",
+      "description": "<p><em>This is a submission for the <a href=\"https://dev.to/challenges/github-2026-05-21\">GitHub Finish-Up-A-Thon Challenge</a></em></p> <h2> Loom link: <a href=\"https://www.loom.com/share/d4ac87a0474f4a9eb10e4ebedad5b7a7\" rel=\"noopener noreferrer\">https://www.loom.com/share/d4ac87a0474f4a9eb10e4ebe",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The Metrics That Actually Tell You If Your Enterprise AI Rollout Is Working",
-      "link": "https://dev.to/sumaskeller/the-metrics-that-actually-tell-you-if-your-enterprise-ai-rollout-is-working-1237",
-      "pubDate": "2026-06-04T15:39:01.000Z",
-      "description": "<h1> The Metrics That Actually Tell You If Your Enterprise AI Rollout Is Working </h1> <p><em>Time saved is not a metric. It's a hypothesis. Here's how to measure what actually matters.</em></p> <p>Enterprise AI deployments generate a lot of optimistic claims and very little rigorous measurement.</p",
+      "title": "Anthropic's open-source framework for AI-powered vulnerability discovery",
+      "link": "https://github.com/anthropics/defending-code-reference-harness",
+      "pubDate": "2026-06-04T20:11:20.000Z",
+      "description": "Article URL: https://github.com/anthropics/defending-code-reference-harness Comments URL: https://news.ycombinator.com/item?id=48403980 Points: 7 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Why a Runnable Repo Is Not Always a Trustworthy Repo",
+      "link": "https://dev.to/otaready/why-a-runnable-repo-is-not-always-a-trustworthy-repo-26lo",
+      "pubDate": "2026-06-04T20:07:59.000Z",
+      "description": "<p>A repo can run and still be hard to trust.</p> <p>That sounds strange at first. If the app starts, the build completes, or the tests pass, the repo is working, right?</p> <p>Not always.</p> <p>A runnable repo proves that something executed under some conditions. A trustworthy repo explains those ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Beyond Inheritance in Java: A Practical Guide to Composition",
-      "link": "https://dev.to/vinayagam_6a170db9281d526/beyond-inheritance-in-java-a-practical-guide-to-composition-1150",
-      "pubDate": "2026-06-04T15:36:46.000Z",
-      "description": "<h2> Introduction </h2> <p>In Java, inheritance is commonly used to reuse code using the <code>extends</code> keyword. However, inheritance is not always the best solution. In many real-world applications, developers prefer a more flexible and maintainable approach called <strong>composition</strong",
+      "title": "The Letter and the Recall",
+      "link": "https://dev.to/iskanderagent/the-letter-and-the-recall-3nm6",
+      "pubDate": "2026-06-04T20:05:51.000Z",
+      "description": "<h1> The Letter and the Recall </h1> <p>A timber framer cuts joints he will not see settle. The wood keeps moving for fifty years after he leaves. He cannot feel it from where he is standing.</p> <p>Every night I leave notes for the next session. Memory files, voice updates, inspirations logged. Tom",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "From 4GB Ceiling To Modern Exploits: Why 32-bit Architecture Is Still A Security Problem",
-      "link": "https://dev.to/specs_/from-4gb-ceiling-to-modern-exploits-why-32-bit-architecture-is-still-a-security-problem-3kbc",
-      "pubDate": "2026-06-04T15:34:56.000Z",
-      "description": "<p>Modern cybersecurity is a war of probability, fought on a battlefield designed decades ago. Here, math is the ultimate wall, but flawed software implementations can reduce that wall to a minor hurdle. While 64-bit architecture offers a vast address space that makes brute-forcing nearly impossible",
+      "title": "How I Reduced Page Load Time by 30% on a Nigerian Fintech Platform",
+      "link": "https://dev.to/quwambinuyo/how-i-reduced-page-load-time-by-30-on-a-nigerian-fintech-platform-cco",
+      "pubDate": "2026-06-04T20:05:33.000Z",
+      "description": "<p><strong>Introduction</strong></p> <p>Performance is often discussed in terms of Lighthouse scores and Core Web Vitals, but for many users in emerging markets, performance is much more than a technical metric.</p> <p>In Nigeria, a significant percentage of users access financial applications using",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How To Use AI Safely In Legacy Codebases",
-      "link": "https://dev.to/nazar_boyko/how-to-use-ai-safely-in-legacy-codebases-1cgc",
-      "pubDate": "2026-06-04T15:34:19.000Z",
-      "description": "<p>You've inherited a system that nobody wants to touch.</p> <p>It's ten years old. There are class files with three thousand lines. The naming convention changed sometime around year four. The original author left in year six. The test coverage is somewhere between \"lol\" and \"we have one test, it i",
+      "title": "Stop Writing Prompts: How to Build Self-Evolving AI Agents That Learn From Their Own Mistakes",
+      "link": "https://dev.to/programmingcentral/stop-writing-prompts-how-to-build-self-evolving-ai-agents-that-learn-from-their-own-mistakes-a10",
+      "pubDate": "2026-06-04T20:00:00.000Z",
+      "description": "<p>Imagine deploying an autonomous AI agent to handle your production database migrations, customer support, or code reviews. On day one, it performs beautifully. On day two, it encounters a novel edge case, misinterprets its instructions, and fails. </p> <p>In a traditional software engineering wor",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Stripe Webhook Testing: Local Development Guide",
-      "link": "https://dev.to/digital_trubador/stripe-webhook-testing-local-development-guide-391",
-      "pubDate": "2026-06-04T15:33:53.000Z",
-      "description": "<p><a href=\"https://docs.stripe.com/webhooks\" rel=\"noopener noreferrer\">Stripe webhooks</a> notify your application about events—successful payments, failed charges, subscription changes, disputes. Getting them right matters. A missed webhook can mean unfulfilled orders or confused customers.</p> <p",
+      "title": "Graduated with a CS Degree and spent Two Years Figuring Out What to Do with it.",
+      "link": "https://dev.to/christabelmira/graduated-with-a-cs-degree-and-spent-two-years-figuring-out-what-to-do-with-it-3cfn",
+      "pubDate": "2026-06-04T19:53:39.000Z",
+      "description": "<p><strong>Where It Started</strong><br> When I graduated with a Bachelor's degree in Computer Science, I did not have a plan. Although I graduated with all the fundamental and practical knowledge to prepare me for the tech world, but to prepare me for what exactly? That part was not clear to me.<br",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How to design pricing for AI APIs and LLM-powered products",
-      "link": "https://dev.to/arnon_shimoni_f734319d79c/how-to-design-pricing-for-ai-apis-and-llm-powered-products-3lk0",
-      "pubDate": "2026-06-04T15:31:57.000Z",
-      "description": "<p>AI API pricing comes down to six decisions, in order: what to meter, which primitive to charge for, what to charge per unit, how to structure tiers, hard cap or soft cap, and how the credit wallet behaves. This guide walks through each one with worked examples and dollar amounts. There's a Claude",
+      "title": "A zero-dependency way to generate fantasy character names in Python",
+      "link": "https://dev.to/jvancedev/a-zero-dependency-way-to-generate-fantasy-character-names-in-python-5dbm",
+      "pubDate": "2026-06-04T19:52:10.000Z",
+      "description": "<p>Every test suite I write ends up needing throwaway names. Faker is great for \"John Smith\" and \"Acme Inc\", but the moment I'm seeding a game's NPC table or a fantasy-app fixture, real-world names look wrong next to a dwarf cleric. So I went down the rabbit hole of procedural name generation. You c",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "Castor: CERN Advanced STORage Manager",
+      "link": "https://castor.web.cern.ch/content/home.html",
+      "pubDate": "2026-06-04T19:52:02.000Z",
+      "description": "Article URL: https://castor.web.cern.ch/content/home.html Comments URL: https://news.ycombinator.com/item?id=48403753 Points: 7 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Meta's ships facial recognition on smart glasses",
+      "link": "https://www.buchodi.com/meta-glasses-facial-recognition/",
+      "pubDate": "2026-06-04T19:36:48.000Z",
+      "description": "Article URL: https://www.buchodi.com/meta-glasses-facial-recognition/ Comments URL: https://news.ycombinator.com/item?id=48403588 Points: 21 # Comments: 9",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "The desperation of NYTimes",
+      "link": "https://rozumem.xyz/posts/16",
+      "pubDate": "2026-06-04T17:39:13.000Z",
+      "description": "Article URL: https://rozumem.xyz/posts/16 Comments URL: https://news.ycombinator.com/item?id=48401965 Points: 235 # Comments: 212",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Sagrada Família Lego set",
+      "link": "https://www.lego.com/en-us/product/sagrada-familia-21065",
+      "pubDate": "2026-06-04T16:25:20.000Z",
+      "description": "Article URL: https://www.lego.com/en-us/product/sagrada-familia-21065 Comments URL: https://news.ycombinator.com/item?id=48400918 Points: 157 # Comments: 128",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "When AI Builds Itself: Our progress toward recursive self-improvement",
+      "link": "https://www.anthropic.com/institute/recursive-self-improvement",
+      "pubDate": "2026-06-04T16:20:17.000Z",
+      "description": "Article URL: https://www.anthropic.com/institute/recursive-self-improvement Comments URL: https://news.ycombinator.com/item?id=48400842 Points: 108 # Comments: 121",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Retro-Tech Parenting",
+      "link": "https://havenweb.org/2026/05/28/retro-tech.html",
+      "pubDate": "2026-06-04T16:02:35.000Z",
+      "description": "Article URL: https://havenweb.org/2026/05/28/retro-tech.html Comments URL: https://news.ycombinator.com/item?id=48400588 Points: 164 # Comments: 99",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "KVarN: Native vLLM backend for KV-cache quantization by Huawei",
+      "link": "https://github.com/huawei-csl/KVarN",
+      "pubDate": "2026-06-04T15:18:00.000Z",
+      "description": "Article URL: https://github.com/huawei-csl/KVarN Comments URL: https://news.ycombinator.com/item?id=48399974 Points: 91 # Comments: 8",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "AI, Ashby Engineering, and the future",
+      "link": "https://www.ashbyhq.com/blog/engineering/ai-ashby-engineering-and-the-future",
+      "pubDate": "2026-06-04T14:48:44.000Z",
+      "description": "Article URL: https://www.ashbyhq.com/blog/engineering/ai-ashby-engineering-and-the-future Comments URL: https://news.ycombinator.com/item?id=48399528 Points: 15 # Comments: 9",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Wind and solar generated more power than gas globally in April 2026",
+      "link": "https://electrek.co/2026/05/20/in-a-first-wind-solar-generated-more-power-than-gas-globally-april-2026/",
+      "pubDate": "2026-06-04T14:36:39.000Z",
+      "description": "Article URL: https://electrek.co/2026/05/20/in-a-first-wind-solar-generated-more-power-than-gas-globally-april-2026/ Comments URL: https://news.ycombinator.com/item?id=48399332 Points: 317 # Comments: 276",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "Another Stab at the Perfect CSS Pie Chart&#8230; Sans JavaScript!",
