@@ -1,168 +1,101 @@
 {
-  "generatedAt": "2026-06-04T10:12:28.228Z",
+  "generatedAt": "2026-06-04T15:45:28.931Z",
   "sourceCount": 4,
-  "successCount": 4,
-  "errors": [],
+  "successCount": 3,
+  "errors": [
+    {
+      "source": "Hacker News",
+      "error": "fetch failed"
+    }
+  ],
   "items": [
     {
-      "title": "Your Data Engineering Take-Home Is Free Labor",
-      "link": "https://dev.to/datadriven/your-data-engineering-take-home-is-free-labor-2eip",
-      "pubDate": "2026-06-04T10:07:59.000Z",
-      "description": "<p>I got sent a <strong>take-home assignment</strong> last year that asked me to build an end-to-end pipeline: ingest from three APIs, transform in Python, load to a warehouse, write tests, document my design decisions, and prepare a 15-minute presentation for \"the team.\" The recruiter said it shoul",
+      "title": "Replace RBAC with Chemical Compounds",
+      "link": "https://dev.to/suign/replace-rbac-with-chemical-compounds-3i8f",
+      "pubDate": "2026-06-04T15:43:13.000Z",
+      "description": "<h2> <strong>Set-Chemistry</strong> </h2> <p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fbhlsz0ze7rl8zfam57pm.png\" class=\"article-body-image-wrapper\"><img src=\"http",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Native Global State",
-      "link": "https://dev.to/sarath263/native-global-state-1b1",
-      "pubDate": "2026-06-04T10:06:55.000Z",
-      "description": "<p><em>This is a submission for the <a href=\"https://dev.to/challenges/github-2026-05-21\">GitHub Finish-Up-A-Thon Challenge</a></em></p> <h2> What I Built </h2> <p>I built <strong><a href=\"https://github.com/sarath263/native-state\" rel=\"noopener noreferrer\">native-state-react</a></strong>, a lightwe",
+      "title": "How NULL Values Skew Comparisons, Aggregations, and Deduplication in GBase 8a",
+      "link": "https://dev.to/michaelfv/how-null-values-skew-comparisons-aggregations-and-deduplication-in-gbase-8a-42il",
+      "pubDate": "2026-06-04T15:42:00.000Z",
+      "description": "<p>NULL in a <strong>gbase database</strong> doesn't behave like an ordinary value, nor is it simply a blank. It affects comparisons, deduplication, aggregations, and conditional logic in ways that often contradict intuition. Many \"data is fine but results are off\" issues trace back to mishandled NU",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "HashMap Internal Working Explained with Examples",
-      "link": "https://dev.to/naveenkumar1/hashmap-internal-working-explained-with-examples-1i6g",
-      "pubDate": "2026-06-04T10:06:22.000Z",
-      "description": "<p>If you've been working with Java for a while, you've probably used HashMap countless times. It's one of the most essential data structures in Java and is widely used in everything from simple applications to large-scale enterprise systems.</p> <p>Most developers regularly write:</p> <p><strong>ma",
+      "title": "Transformer Attention Is Hopfield's 1982 Update Rule (And What That Tells Us About LLM Memory)",
+      "link": "https://dev.to/ki-mathias/transformer-attention-is-hopfields-1982-update-rule-and-what-that-tells-us-about-llm-memory-4i7f",
+      "pubDate": "2026-06-04T15:40:53.000Z",
+      "description": "<blockquote> <p>Hopfield's associative-memory equation from 1982 and the scaled dot-product attention from Vaswani 2017 are the same operation. One substitution turns one into the other. The 2024 Nobel Prize in Physics — to Hopfield and Hinton — is the academic acknowledgement that the mathematics b",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Duolingo AI Research Engineer Virtual Onsite Real Interview case share",
-      "link": "https://dev.to/oavoservice-cs/duolingo-ai-research-engineer-virtual-onsite-real-interview-case-share-m6a",
-      "pubDate": "2026-06-04T10:06:10.000Z",
-      "description": "<p>Behind Duolingo's language-learning product sits an engine driven by learning science plus machine learning: which question to surface, how soon a user will forget, and how to retain memory with the least practice are all decided by models. The AI Research Engineer role lives between Research Sci",
+      "title": "Lean AI in LangBear",
+      "link": "https://dev.to/langbear/lean-ai-in-langbear-3oe",
+      "pubDate": "2026-06-04T15:40:50.000Z",
+      "description": "<p><a href=\"https://langbear.com\" rel=\"noopener noreferrer\">LangBear</a> is fully bootstrapped. This means no investors' money to burn, no big budgets. All funding has been coming from my main job's income. This is why I made a decision early on to stay AI provider-agnostic as much as possible to ha",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "SQL Formatting: Why It Matters More Than You Think (and How to Do It Right)",
-      "link": "https://dev.to/snappy_tools/sql-formatting-why-it-matters-more-than-you-think-and-how-to-do-it-right-1koa",
-      "pubDate": "2026-06-04T10:05:45.000Z",
-      "description": "<p>Nobody disputes that code should be readable. But somehow, SQL gets a pass — compressed into a single line, aliases that are single letters, subqueries nested four levels deep. Here's why that's a mistake and what good SQL formatting actually looks like.</p> <h2> Why SQL Formatting Gets Ignored <",
+      "title": "The Metrics That Actually Tell You If Your Enterprise AI Rollout Is Working",
+      "link": "https://dev.to/sumaskeller/the-metrics-that-actually-tell-you-if-your-enterprise-ai-rollout-is-working-1237",
+      "pubDate": "2026-06-04T15:39:01.000Z",
+      "description": "<h1> The Metrics That Actually Tell You If Your Enterprise AI Rollout Is Working </h1> <p><em>Time saved is not a metric. It's a hypothesis. Here's how to measure what actually matters.</em></p> <p>Enterprise AI deployments generate a lot of optimistic claims and very little rigorous measurement.</p",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Why Your File Upload Endpoint Times Out at 4GB",
-      "link": "https://dev.to/137foundry/why-your-file-upload-endpoint-times-out-at-4gb-3p5n",
-      "pubDate": "2026-06-04T10:04:14.000Z",
-      "description": "<p>You shipped a file upload endpoint. The unit tests pass, the demo went well, the early adopters seem happy. Then a customer support ticket arrives: \"trying to upload a 4GB video file, it fails after 5 minutes.\" You look at the logs. The request never reached your application server. Or it reached",
+      "title": "Beyond Inheritance in Java: A Practical Guide to Composition",
+      "link": "https://dev.to/vinayagam_6a170db9281d526/beyond-inheritance-in-java-a-practical-guide-to-composition-1150",
+      "pubDate": "2026-06-04T15:36:46.000Z",
+      "description": "<h2> Introduction </h2> <p>In Java, inheritance is commonly used to reuse code using the <code>extends</code> keyword. However, inheritance is not always the best solution. In many real-world applications, developers prefer a more flexible and maintainable approach called <strong>composition</strong",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How to Use Pre-Signed S3 URLs for Direct Browser-to-Storage Uploads",
-      "link": "https://dev.to/137foundry/how-to-use-pre-signed-s3-urls-for-direct-browser-to-storage-uploads-5de4",
-      "pubDate": "2026-06-04T10:04:12.000Z",
-      "description": "<p>When a web application needs to handle file uploads from users at scale, the architectural decision that produces the largest savings is moving the upload bandwidth off the application servers. Pre-signed URLs let you do this cleanly: the browser uploads directly to S3, the application server nev",
+      "title": "From 4GB Ceiling To Modern Exploits: Why 32-bit Architecture Is Still A Security Problem",
+      "link": "https://dev.to/specs_/from-4gb-ceiling-to-modern-exploits-why-32-bit-architecture-is-still-a-security-problem-3kbc",
+      "pubDate": "2026-06-04T15:34:56.000Z",
+      "description": "<p>Modern cybersecurity is a war of probability, fought on a battlefield designed decades ago. Here, math is the ultimate wall, but flawed software implementations can reduce that wall to a minor hurdle. While 64-bit architecture offers a vast address space that makes brute-forcing nearly impossible",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "CSS Gradients in 2026: Linear, Radial, and Conic — A Complete Reference",
-      "link": "https://dev.to/snappy_tools/css-gradients-in-2026-linear-radial-and-conic-a-complete-reference-4bbo",
-      "pubDate": "2026-06-04T10:03:53.000Z",
-      "description": "<p>CSS gradients are one of those features that look simple until you try to do something precise with them. Here's everything you need to know — syntax, angles, colour stops, and the patterns that show up in real projects.</p> <h2> The Three Types </h2> <h3> 1. Linear Gradient </h3> <div class=\"hig",
+      "title": "How To Use AI Safely In Legacy Codebases",
+      "link": "https://dev.to/nazar_boyko/how-to-use-ai-safely-in-legacy-codebases-1cgc",
+      "pubDate": "2026-06-04T15:34:19.000Z",
+      "description": "<p>You've inherited a system that nobody wants to touch.</p> <p>It's ten years old. There are class files with three thousand lines. The naming convention changed sometime around year four. The original author left in year six. The test coverage is somewhere between \"lol\" and \"we have one test, it i",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The Friction Prerequisite: Why We Intentionally Slowed Down the UI",
-      "link": "https://dev.to/crisiscoresystems/the-friction-prerequisite-why-we-intentionally-slowed-down-the-ui-410h",
-      "pubDate": "2026-06-04T10:02:51.000Z",
-      "description": "<blockquote> <p>Printable flow with intentional friction: <a href=\"https://paintracker.ca/resources/daily-pain-tracker-printable\" rel=\"noopener noreferrer\">free pain journal templates</a></p> </blockquote> <p>If you want the short route into this argument, read these first:</p> <ol> <li><a href=\"htt",
+      "title": "Stripe Webhook Testing: Local Development Guide",
+      "link": "https://dev.to/digital_trubador/stripe-webhook-testing-local-development-guide-391",
+      "pubDate": "2026-06-04T15:33:53.000Z",
+      "description": "<p><a href=\"https://docs.stripe.com/webhooks\" rel=\"noopener noreferrer\">Stripe webhooks</a> notify your application about events—successful payments, failed charges, subscription changes, disputes. Getting them right matters. A missed webhook can mean unfulfilled orders or confused customers.</p> <p",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The story of \"liquid gold\" from 3 oil fields in Ghana.",
-      "link": "https://dev.to/maryjonah/the-story-of-liquid-gold-from-3-oil-fields-in-ghana-41i2",
-      "pubDate": "2026-06-04T10:02:33.000Z",
-      "description": "<p>Still in the 2025 Ghanaian budget, it had a section that highlighted Crude oil production from January up till 25th September 2025. Data from 3 oil fields Jubilee, TEN (Tweneboa Enyenra Ntomme), and SGN (Sankofa-Gye Nyame) captured in Table 8 included:</p> <ul> <li>Daily average production (in ba",
+      "title": "How to design pricing for AI APIs and LLM-powered products",
+      "link": "https://dev.to/arnon_shimoni_f734319d79c/how-to-design-pricing-for-ai-apis-and-llm-powered-products-3lk0",
+      "pubDate": "2026-06-04T15:31:57.000Z",
+      "description": "<p>AI API pricing comes down to six decisions, in order: what to meter, which primitive to charge for, what to charge per unit, how to structure tiers, hard cap or soft cap, and how the credit wallet behaves. This guide walks through each one with worked examples and dollar amounts. There's a Claude",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Show HN: Uruky (EU-based Kagi alternative) now has Image Search and URL Rewrites",
-      "link": "https://uruky.com/?il=en",
-      "pubDate": "2026-06-04T08:56:10.000Z",
-      "description": "You can get a 2h free trial by solving a proof-of-work captcha when topping up your account for the first time.If you'd like to learn more, an independent interview was posted a couple of weeks ago [1], and the FAQ [2] has a lot of information as well.For the source code sharing, we've talked with l",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "UK media fails to disclose defence sector links in nearly 60% of cases",
-      "link": "https://aoav.org.uk/2026/military-experts-or-arms-industry-insiders-uk-media-fails-to-disclose-defence-sector-links-in-nearly-60-of-cases/",
-      "pubDate": "2026-06-04T08:45:36.000Z",
-      "description": "Article URL: https://aoav.org.uk/2026/military-experts-or-arms-industry-insiders-uk-media-fails-to-disclose-defence-sector-links-in-nearly-60-of-cases/ Comments URL: https://news.ycombinator.com/item?id=48395938 Points: 58 # Comments: 33",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "I built a vulnerable app and spent $1,500 seeing if LLMs could hack it",
-      "link": "https://kasra.blog/blog/i-spent-1500-seeing-if-llms-could-hack-my-app/",
-      "pubDate": "2026-06-04T00:56:32.000Z",
-      "description": "Article URL: https://kasra.blog/blog/i-spent-1500-seeing-if-llms-could-hack-my-app/ Comments URL: https://news.ycombinator.com/item?id=48392343 Points: 221 # Comments: 96",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Dumbphone 2",
-      "link": "https://dumb.co/",
-      "pubDate": "2026-06-04T00:41:09.000Z",
-      "description": "Article URL: https://dumb.co/ Comments URL: https://news.ycombinator.com/item?id=48392203 Points: 45 # Comments: 39",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "The ways we contain Claude across products",
-      "link": "https://www.anthropic.com/engineering/how-we-contain-claude",
-      "pubDate": "2026-06-04T00:27:52.000Z",
-      "description": "Article URL: https://www.anthropic.com/engineering/how-we-contain-claude Comments URL: https://news.ycombinator.com/item?id=48392082 Points: 127 # Comments: 57",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Failing grades soar with AI usage, dwindling math skills in Berkeley CS classes",
-      "link": "https://www.dailycal.org/news/campus/academics/failing-grades-soar-as-professors-see-greater-ai-usage-dwindling-math-skills-in-uc-berkeley/article_16fad0bf-02cb-4b8c-8d88-888ffd9f8608.html",
-      "pubDate": "2026-06-04T00:18:02.000Z",
-      "description": "Article URL: https://www.dailycal.org/news/campus/academics/failing-grades-soar-as-professors-see-greater-ai-usage-dwindling-math-skills-in-uc-berkeley/article_16fad0bf-02cb-4b8c-8d88-888ffd9f8608.html Comments URL: https://news.ycombinator.com/item?id=48392004 Points: 301 # Comments: 227",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "They’re made out of weights",
-      "link": "https://maxleiter.com/blog/weights",
-      "pubDate": "2026-06-03T23:37:18.000Z",
-      "description": "Article URL: https://maxleiter.com/blog/weights Comments URL: https://news.ycombinator.com/item?id=48391611 Points: 697 # Comments: 264",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Journey to JPEG XL: open-source experiments shaped the future of image coding",
-      "link": "https://opensource.googleblog.com/2026/06/journey-to-jpeg-xl-how-open-source-experiments-shaped-the-future-of-image-coding.html",
-      "pubDate": "2026-06-03T21:55:23.000Z",
-      "description": "Article URL: https://opensource.googleblog.com/2026/06/journey-to-jpeg-xl-how-open-source-experiments-shaped-the-future-of-image-coding.html Comments URL: https://news.ycombinator.com/item?id=48390688 Points: 89 # Comments: 47",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "A Mathematician's Lament (2002) [pdf]",
-      "link": "https://worrydream.com/refs/Lockhart_2002_-_A_Mathematician%27s_Lament.pdf",
-      "pubDate": "2026-06-03T21:32:10.000Z",
-      "description": "Article URL: https://worrydream.com/refs/Lockhart_2002_-_A_Mathematician%27s_Lament.pdf Comments URL: https://news.ycombinator.com/item?id=48390400 Points: 78 # Comments: 5",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Ableton Extensions SDK",
-      "link": "https://www.ableton.com/en/live/extensions/",
-      "pubDate": "2026-06-03T20:39:34.000Z",
-      "description": "Article URL: https://www.ableton.com/en/live/extensions/ Comments URL: https://news.ycombinator.com/item?id=48389681 Points: 122 # Comments: 46",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "Another Stab at the Perfect CSS Pie Chart&#8230; Sans JavaScript!",
+      "link": "https://css-tricks.com/another-stab-at-the-perfect-css-pie-chart-sans-javascript/",
+      "pubDate": "2026-06-04T13:14:49.000Z",
+      "description": "We dive again into CSS Pie Charts! This time, Author Antoine Villepreux delivers semantic and flexible charts without a single line of JS. Another Stab at the Perfect CSS Pie Chart… Sans JavaScript! originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
       "title": "offset-path",
@@ -233,14 +166,6 @@
       "link": "https://css-tricks.com/cross-document-view-transitions-part-2/",
       "pubDate": "2026-05-25T13:46:54.000Z",
       "description": "Every view-transition-name on a page must be unique. The problem is that every pseudo-element selector in your CSS targets a specific name, so your animation styles explode into an unmanageable wall of selectors. Cross-Document View Transitions: Scaling Across Hundreds of Elements originally handwri",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "The State of CSS Centering in 2026",
-      "link": "https://css-tricks.com/the-state-of-css-centering-in-2026/",
-      "pubDate": "2026-05-22T13:44:40.000Z",
-      "description": "Despite the countless number of online resources, it’s easy to get confused when trying to center an element. There are documented solutions, but do you really understand why the code you picked works? Let's look at the current state of centering options today in 2026. The State of CSS Centering in ",
       "source": "CSS Tricks",
       "category": "Frontend"
     },
