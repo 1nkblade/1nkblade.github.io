@@ -1,94 +1,126 @@
 {
-  "generatedAt": "2026-06-05T20:13:48.941Z",
+  "generatedAt": "2026-06-06T04:20:10.114Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "I Spent $200 in Two Hours Watching a Coding Agent Guess",
-      "link": "https://dev.to/muggleai/i-spent-200-in-two-hours-watching-a-coding-agent-guess-285o",
-      "pubDate": "2026-06-05T20:06:24.000Z",
-      "description": "<p>I spent $200 in two hours and the bug was still there at the end of it.</p> <h2> One bug. Two hours. Two hundred dollars. </h2> <p>One bug. Not a feature, not a refactor, one bug. There’s a report page in my product with three columns. Table of contents on the left, the actual content in the midd",
+      "title": "Fine-tuned 7B LLM as a broke student. And Can't even use it 😭.",
+      "link": "https://dev.to/akshat-ray/fine-tuned-7b-llm-as-a-broke-student-and-cant-even-use-it--de7",
+      "pubDate": "2026-06-06T04:15:04.000Z",
+      "description": "<p>Last week, I introduced <strong>Monika</strong>, a discord bot. As a self-taught student running on an absolute zero budget, this project was less about writing code and much more about hitting hard architectural walls.</p> <p>The goal was to completely reshape open-source <strong>Qwen 2.5-7B mod",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I love discoverability...",
-      "link": "https://dev.to/moniquelive/i-love-discoverability-17ip",
-      "pubDate": "2026-06-05T20:01:33.000Z",
-      "description": "<div class=\"ltag__link--embedded\"> <div class=\"crayons-story \"> <a href=\"https://dev.to/moniquelive/finding-man-pages-from-neovim-with-telescope-andor-minipick-4cm0\" class=\"crayons-story__hidden-navigation-link\">Finding man pages from Neovim with Telescope and/or mini.pick</a> <div class=\"crayons-st",
+      "title": "scan() Is Reduce For Infinite Data",
+      "link": "https://dev.to/amrishkhan05/scan-is-reduce-for-infinite-data-5bck",
+      "pubDate": "2026-06-06T04:11:00.000Z",
+      "description": "<p>If you've used RxJS for any meaningful amount of time, you've probably encountered <code>scan()</code>.</p> <p>Maybe you've seen code like this:<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight javascript\"><code><span class=\"nf\">interval</span><span class=\"p\">(</span><span",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How to Prevent Server Action undefined Errors in 2026: Improving User Experience with Stale Client Bundles",
-      "link": "https://dev.to/junhee916/how-to-prevent-server-action-undefined-errors-in-2026-improving-user-experience-with-stale-client-36il",
-      "pubDate": "2026-06-05T20:00:03.000Z",
-      "description": "<p>How to Prevent Server Action <code>undefined</code> Errors in 2026: Improving User Experience with Stale Client Bundles</p> <p>I had a baffling experience where calling a Server Action resulted in an <code>undefined</code> return value. Puzzled, I checked the console and found an unexpected error",
+      "title": "Why Coding Stays in Human-AI Collaboration: A Paradox in Stanford's 51 Deployments",
+      "link": "https://dev.to/aws-builders/why-coding-stays-in-human-ai-collaboration-a-paradox-in-stanfords-51-deployments-1kpi",
+      "pubDate": "2026-06-06T04:09:33.000Z",
+      "description": "<p>\"We rolled out AI and saw no results\" and \"AI made our development dramatically faster\" are being said in the same year, often inside the same company. Where does that gap come from?</p> <p>Stanford Digital Economy Lab's <a href=\"https://digitaleconomy.stanford.edu/publication/enterprise-ai-playb",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The Self-Evolving Agent: How to Build Closed-Loop AI Systems That Write and Optimize Their Own Code",
-      "link": "https://dev.to/programmingcentral/the-self-evolving-agent-how-to-build-closed-loop-ai-systems-that-write-and-optimize-their-own-code-58cc",
-      "pubDate": "2026-06-05T20:00:00.000Z",
-      "description": "<p>We have all been there. You spend hours meticulously crafting the perfect system prompt or tool description for your AI agent. It performs beautifully in your initial tests. But a week later, production data throws a curveball. The team's coding standards shift, edge cases emerge, or the underlyi",
+      "title": "7 Infra Improvement Strategies to Prevent Next.js Deployment Build Failures in 2026",
+      "link": "https://dev.to/junhee916/7-infra-improvement-strategies-to-prevent-nextjs-deployment-build-failures-in-2026-kio",
+      "pubDate": "2026-06-06T04:00:04.000Z",
+      "description": "<p>7 Infra Improvement Strategies to Prevent Next.js Deployment Build Failures in 2026</p> <p>Recently, our team's deployment pipeline started showing serious instability. Specifically, we encountered recurring build failures related to the chat build. As a result, the entire development team was pr",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I Audited LinkedIn Skills Sections on 60 Profiles — 41 Were Listing the Wrong Skills for Their Target Role",
-      "link": "https://dev.to/charliemorrison/i-audited-linkedin-skills-sections-on-60-profiles-41-were-listing-the-wrong-skills-for-their-1lp4",
-      "pubDate": "2026-06-05T19:58:47.000Z",
-      "description": "<p>The Skills section on LinkedIn is the only field on your profile that Recruiter's Boolean search filters as a discrete checkbox. Headline matches by string. About matches by full-text. Skills match by tag. Which means: if the skill is not in the list, your profile is excluded from the search — no",
+      "title": "I built a data-contract validator in pure Python (no pandas, no PyYAML) and it caught a 30% revenue ghost",
+      "link": "https://dev.to/hajirufai/i-built-a-data-contract-validator-in-pure-python-no-pandas-no-pyyaml-and-it-caught-a-30-revenue-hlm",
+      "pubDate": "2026-06-06T03:51:24.000Z",
+      "description": "<p>A few months ago I spent the better part of a day chasing a bug that turned out not to be a bug at all. A downstream dashboard showed revenue had jumped 30% overnight. No deploys, no schema changes, nothing in the logs. After far too long I found it: an upstream system had started sending a <code",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Finding man pages from Neovim with Telescope and/or mini.pick",
-      "link": "https://dev.to/moniquelive/finding-man-pages-from-neovim-with-telescope-andor-minipick-4cm0",
-      "pubDate": "2026-06-05T19:58:41.000Z",
-      "description": "<p>I use man pages all the time, but sometimes I do not know exactly what I want to open.</p> <p><code>printf</code> is a good example.</p> <p>There is <code>printf(1)</code> for the shell command, <code>printf(3)</code> for the C library function, and depending on what is installed locally there ma",
+      "title": "My Claude Code hook silently ate every Korean character, and it took me an hour to figure out why",
+      "link": "https://dev.to/codingjhj/my-claude-code-hook-silently-ate-every-korean-character-and-it-took-me-an-hour-to-figure-out-why-3ii4",
+      "pubDate": "2026-06-06T03:48:06.000Z",
+      "description": "<p>I spent an hour last week debugging a hook that wasn't broken.</p> <p>Here's the setup: I run Claude Code on Windows, and I'd written a little <code>UserPromptSubmit</code> hook in PowerShell — a keyword router that reads my prompt and, if it sees something like <code>mcp 서버</code> or <code>코드 리뷰",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "ZRAM + Distros leves: Guia 2026 para PCs antigos",
-      "link": "https://dev.to/leogif/zram-distros-leves-guia-2026-para-pcs-antigos-585a",
-      "pubDate": "2026-06-05T19:54:17.000Z",
-      "description": "<h1> ZRAM + Distros leves: Guia 2026 para PCs antigos </h1> <p>Se você tem um computador com <strong>8 GB de RAM ou menos</strong> (ou mesmo aqueles com 2 GB), o Linux pode dar uma nova vida a essa máquina. A combinação de <strong>ZRAM</strong> (compressão de memória) com uma <strong>distribuição le",
+      "title": "Chrono Shift: Time Weaver - A Time-Bending Platformer Built with AI",
+      "link": "https://dev.to/aniruddhaadak/chrono-shift-time-weaver-a-time-bending-platformer-built-with-ai-1npl",
+      "pubDate": "2026-06-06T03:44:07.000Z",
+      "description": "<h2> What I Built </h2> <p>I'm thrilled to present <strong>Chrono Shift: Time Weaver</strong> – a time-bending puzzle platformer that challenges players to manipulate time itself to overcome obstacles and solve environmental puzzles.</p> <h3> The Concept </h3> <p>Imagine being able to see two versio",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "NVIDIA’s new model on SageMaker, a CLI for AI pipelines, UK AI rules, and a worm threat",
-      "link": "https://dev.to/anikalp1/nvidias-new-model-on-sagemaker-a-cli-for-ai-pipelines-uk-ai-rules-and-a-worm-threat-d0m",
-      "pubDate": "2026-06-05T19:48:27.000Z",
-      "description": "<h1> NVIDIA’s new model on SageMaker, a CLI for AI pipelines, UK AI rules, and a worm threat </h1> <p>NVIDIA’s latest model is now on SageMaker, and a new CLI gives developers scriptable control over AI pipelines. UK regulators have ordered Google to let publishers block AI scrapers, while a worm is",
+      "title": "AI didn’t invent code drift. It made it harder to ignore.",
+      "link": "https://dev.to/scarab-systems/ai-didnt-invent-code-drift-it-made-it-harder-to-ignore-2ice",
+      "pubDate": "2026-06-06T03:43:58.000Z",
+      "description": "<p>I started noticing this while building a real frontend/backend system with AI assistance.</p> <p>The problem was not that the AI could not code. It could. It could solve local problems, patch visible failures, and make reasonable suggestions. The problem was that as the system became more complex",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "VibeSync- Music Recommendation",
-      "link": "https://dev.to/rudra_pratap_230580/vibesync-music-recommendation-aag",
-      "pubDate": "2026-06-05T19:41:47.000Z",
-      "description": "<p>If you’ve ever gone down a rabbit hole trying to understand how Spotify or Apple Music always knows exactly what song to play next, you know how fascinating recommendation algorithms are. As a B.Tech CSIT student diving into machine learning, I wanted to peek under the hood of these systems.</p> ",
+      "title": "What Is a SERP API and Why Do SEO and AI Teams Need One?",
+      "link": "https://dev.to/cecilia_hill_d7b1b8d510e7/what-is-a-serp-api-and-why-do-seo-and-ai-teams-need-one-1i5m",
+      "pubDate": "2026-06-06T03:41:34.000Z",
+      "description": "<p>Search results look simple from the outside.</p> <p>You type a keyword into Google, Bing, or another search engine, and you get a page of links, snippets, ads, maps, news, images, videos, and sometimes AI-generated answers.</p> <p>But if you have ever tried to collect search results at scale, you",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Magnificent Humanity, Building Cities, and a Special Announcement!",
-      "link": "https://dev.to/jenlooper/magnificent-humanity-building-cities-and-a-special-announcement-54pf",
-      "pubDate": "2026-06-05T19:37:39.000Z",
-      "description": "<p>I'm back from a great vacation and side-quest experience in Asia, where one can always find brilliant human interactions even with imperfect linguistic competence. For example, having a haircut at a random salon in Taipei where the little nephew of the stylist offered fashion advice on the spot, ",
+      "title": "Day 26 - HashiCorp Vault &amp; Secrets Management",
+      "link": "https://dev.to/17j/day-26-hashicorp-vault-secrets-management-171e",
+      "pubDate": "2026-06-06T03:39:02.000Z",
+      "description": "<p>Modern applications depend on secrets.</p> <p>Every application requires:</p> <ul> <li>Database Passwords</li> <li>API Keys</li> <li>SSH Keys</li> <li>TLS Certificates</li> <li>Cloud Credentials</li> <li>OAuth Tokens</li> <li>Service Account Keys</li> </ul> <p>The biggest question is:</p> <blockq",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Accidentally deleted subscriptions for chat integrations (Slack and MS Teams)",
-      "link": "https://www.githubstatus.com/incidents/2nmfnbknhlnv",
-      "pubDate": "2026-06-05T19:15:36.000Z",
-      "description": "Article URL: https://www.githubstatus.com/incidents/2nmfnbknhlnv Comments URL: https://news.ycombinator.com/item?id=48416936 Points: 71 # Comments: 26",
+      "title": "Lockdown Mode",
+      "link": "https://help.openai.com/en/articles/20001061-lockdown-mode",
+      "pubDate": "2026-06-06T03:36:15.000Z",
+      "description": "Article URL: https://help.openai.com/en/articles/20001061-lockdown-mode Comments URL: https://news.ycombinator.com/item?id=48421145 Points: 12 # Comments: 3",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Show HN: ABC Classic 100 Rankings visualised",
+      "link": "https://classic100.gotski.workers.dev/",
+      "pubDate": "2026-06-06T01:32:09.000Z",
+      "description": "This weekend is the ABC Classic FM countdown, which prompted me to dust off an old un-published data visualisation of rankings from previous years.I've considered adding a search function, but I also kind of like that it requires a bit of exploration in the current form.Some of the code is a bit clu",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "The intracies of modern camera lens repair (2024)",
+      "link": "https://salvagedcircuitry.com/sigma-45mm.html",
+      "pubDate": "2026-06-06T00:33:26.000Z",
+      "description": "Article URL: https://salvagedcircuitry.com/sigma-45mm.html Comments URL: https://news.ycombinator.com/item?id=48420148 Points: 93 # Comments: 29",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Nordstjernen 1.0",
+      "link": "https://github.com/nordstjernen-web/nordstjernen/releases/tag/1.0.0",
+      "pubDate": "2026-06-05T23:42:54.000Z",
+      "description": "Article URL: https://github.com/nordstjernen-web/nordstjernen/releases/tag/1.0.0 Comments URL: https://news.ycombinator.com/item?id=48419821 Points: 24 # Comments: 11",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "The perils of UUID primary keys in SQLite",
+      "link": "https://andersmurphy.com/2026/06/05/the-perils-of-uuid-primary-keys-in-sqlite.html",
+      "pubDate": "2026-06-05T23:13:12.000Z",
+      "description": "Article URL: https://andersmurphy.com/2026/06/05/the-perils-of-uuid-primary-keys-in-sqlite.html Comments URL: https://news.ycombinator.com/item?id=48419571 Points: 33 # Comments: 19",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -96,15 +128,23 @@
       "title": "Three of our worst VC stories",
       "link": "https://twitter.com/eastdakota/status/2062860530360959273",
       "pubDate": "2026-06-05T19:08:12.000Z",
-      "description": "https://xcancel.com/eastdakota/status/2062860530360959273 Comments URL: https://news.ycombinator.com/item?id=48416845 Points: 19 # Comments: 3",
+      "description": "https://xcancel.com/eastdakota/status/2062860530360959273More of these (via https://news.ycombinator.com/item?id=48418641 below):https://xcancel.com/gregisenberg/status/2061794787825479818 (https://xcancel.com/dunkhippo33/status/2062768969560510486https://xcancel.com/typesfast/status/206279130709404",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Transformers Are Inherently Succinct",
+      "title": "Transformers are inherently succinct",
       "link": "https://openreview.net/pdf?id=Yxz92UuPLQ",
       "pubDate": "2026-06-05T18:50:26.000Z",
-      "description": "This paper is being published at ICLR 2026 (top AI conference), and was selected as one of three outstanding papers. Comments URL: https://news.ycombinator.com/item?id=48416635 Points: 19 # Comments: 4",
+      "description": "This paper is being published at ICLR 2026 (top AI conference), and was selected as one of three outstanding papers. Comments URL: https://news.ycombinator.com/item?id=48416635 Points: 100 # Comments: 31",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Aging and Eye Problems",
+      "link": "https://ldstephens.net/posts/aging-and-eye-problems/",
+      "pubDate": "2026-06-05T18:30:31.000Z",
+      "description": "Article URL: https://ldstephens.net/posts/aging-and-eye-problems/ Comments URL: https://news.ycombinator.com/item?id=48416392 Points: 68 # Comments: 34",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -112,15 +152,7 @@
       "title": "Gov.uk has replaced Stripe with Dutch provider Adyen",
       "link": "https://www.theregister.com/public-sector/2026/06/04/govuk-goes-dutch-on-payments-as-it-dumps-stripe/5250763",
       "pubDate": "2026-06-05T16:55:30.000Z",
-      "description": "https://gds.blog.gov.uk/2026/06/02/building-for-the-future-m...https://www.adyen.com/press-and-media/adyen-payments-gov-uk Comments URL: https://news.ycombinator.com/item?id=48415217 Points: 163 # Comments: 40",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Mantine-datatable (and others) compromised – owner account suspended",
-      "link": "https://github.com/icflorescu/mantine-datatable/discussions/813",
-      "pubDate": "2026-06-05T16:39:57.000Z",
-      "description": "Article URL: https://github.com/icflorescu/mantine-datatable/discussions/813 Comments URL: https://news.ycombinator.com/item?id=48414978 Points: 46 # Comments: 14",
+      "description": "https://gds.blog.gov.uk/2026/06/02/building-for-the-future-m...https://www.adyen.com/press-and-media/adyen-payments-gov-uk Comments URL: https://news.ycombinator.com/item?id=48415217 Points: 377 # Comments: 132",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -129,38 +161,6 @@
       "link": "https://news.ycombinator.com/item?id=48414869",
       "pubDate": "2026-06-05T16:33:00.000Z",
       "description": "Hey HN, Guanming and Bill here from General Instinct (https://general-instinct.com/).After years of working in robotics, we kept running into the same problem: the best models never fit the hardware we actually had available.The models that performed best were usually designed around datacenter assu",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "The company I work for is losing all of its humanity, I don't know where to go",
-      "link": "https://superlemon.bearblog.dev/the-company-i-work-for-is-losing-all-of-its-humanity-but-i-dont-know-where-else-to-go/",
-      "pubDate": "2026-06-05T16:32:38.000Z",
-      "description": "Article URL: https://superlemon.bearblog.dev/the-company-i-work-for-is-losing-all-of-its-humanity-but-i-dont-know-where-else-to-go/ Comments URL: https://news.ycombinator.com/item?id=48414862 Points: 31 # Comments: 21",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Gemma 4 QAT models: Optimizing compression for mobile and laptop efficiency",
-      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/quantization-aware-training-gemma-4/",
-      "pubDate": "2026-06-05T16:18:48.000Z",
-      "description": "Article URL: https://blog.google/innovation-and-ai/technology/developers-tools/quantization-aware-training-gemma-4/ Comments URL: https://news.ycombinator.com/item?id=48414653 Points: 160 # Comments: 29",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "pg_durable: Microsoft open sources in-database durable execution",
-      "link": "https://github.com/microsoft/pg_durable",
-      "pubDate": "2026-06-05T15:59:57.000Z",
-      "description": "Article URL: https://github.com/microsoft/pg_durable Comments URL: https://news.ycombinator.com/item?id=48414367 Points: 205 # Comments: 43",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Conventional Commits encourages focus on the wrong things",
-      "link": "https://sumnerevans.com/posts/software-engineering/stop-using-conventional-commits/",
-      "pubDate": "2026-06-05T15:39:38.000Z",
-      "description": "Article URL: https://sumnerevans.com/posts/software-engineering/stop-using-conventional-commits/ Comments URL: https://news.ycombinator.com/item?id=48414027 Points: 189 # Comments: 143",
       "source": "Hacker News",
       "category": "Tech News"
     },
