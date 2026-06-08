@@ -1,168 +1,93 @@
 {
-  "generatedAt": "2026-06-07T19:47:03.729Z",
+  "generatedAt": "2026-06-08T05:02:18.699Z",
   "sourceCount": 4,
-  "successCount": 4,
-  "errors": [],
+  "successCount": 3,
+  "errors": [
+    {
+      "source": "Hacker News",
+      "error": "fetch failed"
+    }
+  ],
   "items": [
     {
-      "title": "One AI Vendor Is a Single Point of Failure. Treat It Like One.",
-      "link": "https://dev.to/keithjmackay/one-ai-vendor-is-a-single-point-of-failure-treat-it-like-one-kp1",
-      "pubDate": "2026-06-07T19:35:40.000Z",
-      "description": "<h1> One AI Vendor Is a Single Point of Failure. Treat It Like One. </h1> <p><strong>The AI model you built your workflow on today may be indistinguishable from its competitor next quarter. That's not a problem. Betting on one of them is.</strong></p> <p>Pick up any two frontier models and run the s",
+      "title": "GTest and short-circuit evaluation in C++",
+      "link": "https://dev.to/pikotutorial/gtest-and-short-circuit-evaluation-in-c-45lo",
+      "pubDate": "2026-06-08T05:00:00.000Z",
+      "description": "<h2> What is short-circuit evaluation in C++? </h2> <p>Short-circuit evaluation is a behavior of logical operators in C++ where the second part of an expression is evaluated only if it is necessary to determine the final result.</p> <p>For example, in an expression using the logical OR operator, if ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "DeFi Is Not Just About Crypto — It Is About Rebuilding Financial Access",
-      "link": "https://dev.to/art_light/defi-is-not-just-about-crypto-it-is-about-rebuilding-financial-access-2954",
-      "pubDate": "2026-06-07T19:34:47.000Z",
-      "description": "<p>DeFi, short for Decentralized Finance, is one of the most important ideas to come from blockchain technology.</p> <p>For many people, DeFi simply means trading tokens, farming yield, or using crypto wallets. But the real meaning is much bigger than that. DeFi is about creating financial systems t",
+      "title": "12 Hard Truths About Coding I Learned the Hard Way After 10+ Years",
+      "link": "https://dev.to/canro91/12-hard-truths-about-coding-i-learned-the-hard-way-after-10-years-124j",
+      "pubDate": "2026-06-08T05:00:00.000Z",
+      "description": "<p>I got fired from my first job, took down a database server with a badly written query, and was rejected from a FAANG. That all happened over the past 10 years.</p> <p>But I've learned a lesson or two about coding along the way:</p> <h2> 1. Estimates are just guesses. </h2> <p>The problem is when ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "JavaScript Proxy: One more way to use it I wish I’d known 3 years ago",
-      "link": "https://dev.to/revolist/javascript-proxy-one-more-way-to-use-it-i-wish-id-known-3-years-ago-40lk",
-      "pubDate": "2026-06-07T19:29:52.000Z",
-      "description": "<p>In our everyday work, we do a lot of data shuffling.</p> <p>We work with heavily loaded data grids. We have built our own <a href=\"https://rv-grid.com/\" rel=\"noopener noreferrer\">RevoGrid</a> for this matter hence market didn't offer all options we need back than. Some of our clients want to pull",
+      "title": "Skill, MCP, Plugin, or just a CLI: how I pick a Claude Code extension, lightest first",
+      "link": "https://dev.to/rapls/skill-mcp-plugin-or-just-a-cli-how-i-pick-a-claude-code-extension-lightest-first-3hon",
+      "pubDate": "2026-06-08T04:45:51.000Z",
+      "description": "<p>I was building a plugin release with Claude Code, and the changelog draft came together nicely. Pull <code>git log</code> from the last tag to now, drop it under <code>== Changelog ==</code>. That's a procedure, so it just worked.</p> <p>The next step is where I tripped. I wanted to add the curre",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Meet LLMesh: The Lightweight, Framework-Agnostic AI SDK for PHP",
-      "link": "https://dev.to/fyunusa/meet-llmesh-the-lightweight-framework-agnostic-ai-sdk-for-php-3i82",
-      "pubDate": "2026-06-07T19:25:16.000Z",
-      "description": "<p>Integrating large language models (LLMs) into applications is often complicated and heavily coupled to a specific provider. LLMesh is a lightweight, framework-agnostic PHP SDK designed to standardize AI model integration across supported providers (like OpenAI and Anthropic Claude), allowing you ",
+      "title": "I Built an Adversarial Eval Framework and Attacked 5 LLMs — Every Single One Failed",
+      "link": "https://dev.to/saurav_bhattacharya/i-built-an-adversarial-eval-framework-and-attacked-5-llms-every-single-one-failed-1j81",
+      "pubDate": "2026-06-08T04:32:59.000Z",
+      "description": "<h2> TL;DR </h2> <p>I built <a href=\"https://github.com/sauravbhattacharya001/agent-eval\" rel=\"noopener noreferrer\">agent-eval</a>, a framework that runs real agentic loops with tool calls against live LLM backends, then evaluates outputs through a three-tier assertion pyramid. I threw 10 adversaria",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Run CrewAI With 50% Lower LLM Cost Using Lynkr",
-      "link": "https://dev.to/lynkr/run-crewai-with-50-lower-llm-cost-using-lynkr-4ajh",
-      "pubDate": "2026-06-07T19:24:01.000Z",
-      "description": "<p>If you are building multi-agent systems in Python, <code>CrewAI</code> is one of the biggest frameworks you need to know.</p> <p>And if your CrewAI workloads are starting to get expensive, the simplest way to control that spend is to put an LLM gateway in front of them instead of wiring every age",
+      "title": "You Don't Own the Code AI Wrote for You",
+      "link": "https://dev.to/backrun/you-dont-own-the-code-ai-wrote-for-you-24bp",
+      "pubDate": "2026-06-08T04:30:39.000Z",
+      "description": "<p>AI is getting faster at generating HTML.</p> <p>That sounds like good news. For most people reading this, it probably is.</p> <p>But there is a group of users for whom faster generation is actually making things worse. Not because the output is bad. Because the output is arriving faster than they",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I Made My Terminal 7.5x Faster by Deleting the Tools Everyone Tells You to Install",
-      "link": "https://dev.to/hiteshsisara/i-made-my-terminal-75x-faster-by-deleting-the-tools-everyone-tells-you-to-install-50m2",
-      "pubDate": "2026-06-07T19:20:26.000Z",
-      "description": "<h2> My shell took 2 seconds to start. Then I realized an AI agent was paying that tax hundreds of times a day. </h2> <p>For fifteen years the advice was settled: install oh-my-zsh, add some plugins, get autosuggestions and a pretty git-aware prompt. It made the terminal nicer to <em>sit in front of",
+      "title": "Heart Part 7 - dalCTF 2026",
+      "link": "https://dev.to/exploitnotes/heart-part-7-dalctf-2026-2a77",
+      "pubDate": "2026-06-08T04:25:51.000Z",
+      "description": "<p><strong>Category:</strong> Web<br><br> <strong>Flag:</strong> <code>dalctf{p1mp_p1mp_h00r4y}</code> </p> <h2> Overview </h2> <p>A multi-stage web challenge themed around Kendrick Lamar's <em>m.A.A.d city</em> / Kung Fu Kenny lore. The attack chain involved:</p> <ol> <li>SQL injection to bypass au",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Governing AI Agents in Codebases Like a Linter",
-      "link": "https://dev.to/serifcolakel/governing-ai-agents-in-codebases-like-a-linter-2g6o",
-      "pubDate": "2026-06-07T19:19:12.000Z",
-      "description": "<p>In this article, we introduce <strong>Agent Governance as Code</strong>, a framework for managing AI agents in software development projects. This approach applies the principles of Infrastructure as Code and Policy as Code to agent behavior, ensuring that agents operate within defined boundaries",
+      "title": "BoxAgnts Tool System (1) — Design Motivation &amp; Architecture Overview",
+      "link": "https://dev.to/guyoung/boxagnts-tool-system-1-design-motivation-architecture-overview-ojn",
+      "pubDate": "2026-06-08T04:25:39.000Z",
+      "description": "<p>The AI Agent framework landscape has reached a state one could fairly describe as oversaturated. The Python ecosystem has LangChain, CrewAI, and AutoGen; TypeScript offers the Vercel AI SDK; Go has langchaingo. Yet every one of these frameworks shares the same predicament: <strong>they define too",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The Orba Ecosystem with Orba OS — A sovereign, offline-first multimodal personal assistant (Desktop &amp; Mobile)",
-      "link": "https://dev.to/alexkoncept/the-orba-ecosystem-with-orbaos-a-sovereign-offline-first-multimodal-personal-assistant-desktop-52em",
-      "pubDate": "2026-06-07T19:16:55.000Z",
-      "description": "<h1> This is a submission for the GitHub Finish-Up-A-Thon Challenge </h1> <h2> 🛠️ The Comeback Story </h2> <p>For months, <strong>ORBA_OS</strong> was a quiet ghost hidden in my private repositories. It started as a fragmented collection of Python scripts and mobile prototypes with a grand vision: ",
+      "title": "I built a privacy-first JSON viewer for Chrome after I got tired of waiting",
+      "link": "https://dev.to/connorleebo/i-built-a-privacy-first-json-viewer-for-chrome-after-i-got-tired-of-waiting-34jf",
+      "pubDate": "2026-06-08T04:24:41.000Z",
+      "description": "<p>A few months ago, like many devs, I noticed something off about the JSON viewer extension I'd been using for years.</p> <p>It had been quietly updated. The code went closed-source. Donation popups started appearing on unrelated pages including, in some reports, users' checkout pages. The maintain",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Sending SMS from AWS Lambda with the Sinch SDK",
-      "link": "https://dev.to/gunnargrosch/sending-sms-from-aws-lambda-with-the-sinch-sdk-3jb",
-      "pubDate": "2026-06-07T19:14:34.000Z",
-      "description": "<p>Your payment just failed. The user needs to know before they try to check out again. Your deployment pipeline just finished. The engineer who kicked it off is waiting. A patient's appointment is in 24 hours and they haven't confirmed.</p> <p>These are the moments where SMS works better than email",
+      "title": "Why We're Changing Our Default Eval Model",
+      "link": "https://dev.to/tessl-io/why-were-changing-our-default-eval-model-50i4",
+      "pubDate": "2026-06-08T04:23:30.000Z",
+      "description": "<p>We're changing the default solver model in our eval harness from Claude Sonnet 4.6 to GLM 5.1. This is the default we provide to everyone running evals on the platform. For most of the work the harness does, a frontier model gives you the strongest possible signal. However, that's more signal tha",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The Execution Safety Crisis in Multi-Agent Workflows — And the Architectural Pattern That Solves It",
-      "link": "https://dev.to/vaibhavk289/the-execution-safety-crisis-in-multi-agent-workflows-and-the-architectural-pattern-that-solves-it-4l44",
-      "pubDate": "2026-06-07T19:13:09.000Z",
-      "description": "<blockquote> <p><strong>The biggest unresolved problem in multi-agent workflows is not reasoning. It is execution safety.</strong></p> </blockquote> <p>Most teams building with LLMs today have not encountered this problem yet — because they have not scaled yet. This article is for the ones who are a",
+      "title": "The Tokenpocalypse: What AI Token Pricing Means for SL Builders",
+      "link": "https://dev.to/induwara_ashinsana_9e4d5b/the-tokenpocalypse-what-ai-token-pricing-means-for-sl-builders-1kk8",
+      "pubDate": "2026-06-08T04:23:24.000Z",
+      "description": "<p><strong>AI token pricing</strong> is quietly rewriting the budget of every small team that touches a language model, and the cheap years are ending. TechCrunch published a piece on 7 June 2026 called <a href=\"https://techcrunch.com/2026/06/07/is-this-the-dawn-of-the-tokenpocalypse/\" rel=\"noopener",
       "source": "Dev.to Feed",
       "category": "Development"
-    },
-    {
-      "title": "How's Linear so fast? A technical breakdown",
-      "link": "https://performance.dev/how-is-linear-so-fast-a-technical-breakdown",
-      "pubDate": "2026-06-07T19:01:37.000Z",
-      "description": "Article URL: https://performance.dev/how-is-linear-so-fast-a-technical-breakdown Comments URL: https://news.ycombinator.com/item?id=48437609 Points: 7 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "The curious case of low-protein diets",
-      "link": "https://knowablemagazine.org/content/article/living-world/2026/low-protein-diet-animals-live-longer",
-      "pubDate": "2026-06-07T18:37:17.000Z",
-      "description": "Article URL: https://knowablemagazine.org/content/article/living-world/2026/low-protein-diet-animals-live-longer Comments URL: https://news.ycombinator.com/item?id=48437450 Points: 20 # Comments: 1",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Leiden Declaration on Artificial Intelligence and Mathematics",
-      "link": "https://www.lms.ac.uk/news/leiden-declaration-on-ai-and-mathematics",
-      "pubDate": "2026-06-07T18:36:36.000Z",
-      "description": "Article URL: https://www.lms.ac.uk/news/leiden-declaration-on-ai-and-mathematics Comments URL: https://news.ycombinator.com/item?id=48437442 Points: 20 # Comments: 1",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Building from Zero After Addiction, Prison, and a Felony",
-      "link": "https://gavinray97.github.io/blog/building-from-zero-after-addiction-prison-felony",
-      "pubDate": "2026-06-07T18:33:07.000Z",
-      "description": "Article URL: https://gavinray97.github.io/blog/building-from-zero-after-addiction-prison-felony Comments URL: https://news.ycombinator.com/item?id=48437406 Points: 5 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "My automated doubt development process",
-      "link": "https://www.alexself.dev/blog/automated-doubt",
-      "pubDate": "2026-06-07T18:17:40.000Z",
-      "description": "Article URL: https://www.alexself.dev/blog/automated-doubt Comments URL: https://news.ycombinator.com/item?id=48437305 Points: 10 # Comments: 6",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Making Peace with Your Unlived Dreams",
-      "link": "https://nik.art/making-peace-with-your-unlived-dreams/",
-      "pubDate": "2026-06-07T18:15:47.000Z",
-      "description": "Article URL: https://nik.art/making-peace-with-your-unlived-dreams/ Comments URL: https://news.ycombinator.com/item?id=48437290 Points: 12 # Comments: 4",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Silurus/ooxml: Pixel-faithful Office documents, rendered in the browser",
-      "link": "https://github.com/yukiyokotani/office-open-xml-viewer",
-      "pubDate": "2026-06-07T17:22:28.000Z",
-      "description": "Article URL: https://github.com/yukiyokotani/office-open-xml-viewer Comments URL: https://news.ycombinator.com/item?id=48436863 Points: 38 # Comments: 14",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Powering up a module from the IBM 604: an electronic calculator from 1948",
-      "link": "https://www.righto.com/2026/06/ibm-604-thyraton-tube-module.html",
-      "pubDate": "2026-06-07T17:18:12.000Z",
-      "description": "Article URL: https://www.righto.com/2026/06/ibm-604-thyraton-tube-module.html Comments URL: https://news.ycombinator.com/item?id=48436819 Points: 40 # Comments: 7",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Proliferate (YC S25) is hiring to building open source Codex",
-      "link": "https://www.ycombinator.com/companies/proliferate/jobs/L3copvK-founding-engineer",
-      "pubDate": "2026-06-07T17:01:17.000Z",
-      "description": "Article URL: https://www.ycombinator.com/companies/proliferate/jobs/L3copvK-founding-engineer Comments URL: https://news.ycombinator.com/item?id=48436669 Points: 0 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Vitamin D3 During Pregnancy and Cognitive Performance at 10 Years",
-      "link": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2849122",
-      "pubDate": "2026-06-07T15:08:10.000Z",
-      "description": "Article URL: https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2849122 Comments URL: https://news.ycombinator.com/item?id=48435584 Points: 169 # Comments: 75",
-      "source": "Hacker News",
-      "category": "Tech News"
     },
     {
       "title": "Another Stab at the Perfect CSS Pie Chart&#8230; Sans JavaScript!",
