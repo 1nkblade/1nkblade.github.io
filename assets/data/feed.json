@@ -1,107 +1,158 @@
 {
-  "generatedAt": "2026-06-08T20:33:55.359Z",
+  "generatedAt": "2026-06-09T04:35:48.482Z",
   "sourceCount": 4,
-  "successCount": 3,
-  "errors": [
-    {
-      "source": "CSS Tricks",
-      "error": "HTTP 415 Unsupported Media Type"
-    }
-  ],
+  "successCount": 4,
+  "errors": [],
   "items": [
     {
-      "title": "AI-Driven Test Automation Is Not a Testing Strategy, It's a Decision Shift",
-      "link": "https://dev.to/mellowthunder735/ai-assisted-qa-is-not-a-testing-strategy-it-is-a-decision-shift-4pib",
-      "pubDate": "2026-06-08T20:21:07.000Z",
-      "description": "<h2> The claim teams often get wrong </h2> <p>AI-assisted development changes the shape of testing more than it changes the amount of testing. The mistake I see most often is treating AI output like faster human output, then keeping the same review habits, the same coverage assumptions, and the same",
+      "title": "Four GitHub Projects That Turn AI Into Design Deliverables",
+      "link": "https://dev.to/sevenaaaaaaa/four-github-projects-that-turn-ai-into-design-deliverables-hh3",
+      "pubDate": "2026-06-09T04:06:47.000Z",
+      "description": "<h1> Four GitHub Projects That Turn AI Into Design Deliverables (Not Just Chat) </h1> <p>The most interesting AI repos in 2026 share one trait: they ship <strong>artifacts</strong>—prototypes, components, decks, or short videos—not essays.</p> <p>Here are four breakout GitHub projects for <strong>AI",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Miasma worm, Part 2: how a GitHub token survived a full machine rebuild and hijacked my repos from an Azure IP",
-      "link": "https://dev.to/icflorescu/miasma-worm-part-2-how-a-github-token-survived-a-full-machine-rebuild-and-hijacked-my-repos-from-8aa",
-      "pubDate": "2026-06-08T20:13:40.000Z",
-      "description": "<h3> How the lockout ended, the entry vector GitHub confirmed, the stealth commits I missed at first, and the cleanup playbook for anyone hit by the same worm. </h3> <p><em>By <a href=\"https://www.linkedin.com/in/icflorescu\" rel=\"noopener noreferrer\">Ionut-Cristian Florescu</a> (<a href=\"https://git",
+      "title": "What Is Drawdown? Why It Matters More Than Your Win Rate",
+      "link": "https://dev.to/reyazk08/what-is-drawdown-why-it-matters-more-than-your-win-rate-3pko",
+      "pubDate": "2026-06-09T04:05:26.000Z",
+      "description": "<h1> What Is Drawdown? Why It Matters More Than Your Win Rate </h1> <p>Every year, DALBAR — a US-based financial research firm — publishes a study on how ordinary investors actually perform versus the broader market. The 2024 edition found that the average equity investor earned 16.54%, while the S&",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "AI-Assisted QA Does Not Reduce Testing Work, It Changes Where the Work Lives",
-      "link": "https://dev.to/orbitpickle307/ai-assisted-qa-does-not-reduce-testing-work-it-changes-where-the-work-lives-4dfh",
-      "pubDate": "2026-06-08T20:13:20.000Z",
-      "description": "<p>AI-assisted development is often sold as a way to make testing lighter. That is the wrong mental model.</p> <p>The practical effect is usually not less testing, but different testing. Some work moves earlier, some moves later, and some becomes more expensive if you do not change how you review an",
+      "title": "Five overlooked packages running my AI directory stack",
+      "link": "https://dev.to/morinaga/five-overlooked-packages-running-my-ai-directory-stack-21e7",
+      "pubDate": "2026-06-09T03:54:02.000Z",
+      "description": "<p>The interesting parts of a project are not always the AI model or the hosting platform. This week I spent time reading source code for five dependencies that sit quietly in my <code>package.json</code> files. None of them are trending. All of them are load-bearing.</p> <p>My stack is Astro 5 SSG ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Scary ChatGPT Bug: AI Generates Nightmarish Images from a Simple Prompt Trick",
-      "link": "https://dev.to/homayounmmdy/scary-chatgpt-bug-ai-generates-nightmarish-images-from-a-simple-prompt-trick-18ei",
-      "pubDate": "2026-06-08T20:10:03.000Z",
-      "description": "<p><strong>A newly discovered glitch in ChatGPT is sending shivers down users' spines. By using a simple prompt to retrieve a non-existent image, the AI falls into a hallucination loop, generating deeply unsettling and nightmarish visuals.</strong></p> <p>Users have recently uncovered a bizarre and ",
+      "title": "Five things that caught my attention this week in AI tools and open-source models",
+      "link": "https://dev.to/morinaga/five-things-that-caught-my-attention-this-week-in-ai-tools-and-open-source-models-3hb2",
+      "pubDate": "2026-06-09T03:53:19.000Z",
+      "description": "<p>A lighter week for me operationally — content refreshes, a YouTube analytics update, some Bluesky queue maintenance. Which meant more time to actually read things. Here are five items that stuck.</p> <h2> 1. Claude Code Agent View changes the mental model </h2> <p>Anthropic shipped Agent View ins",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "🚀 Build a Fully Local AI Agent with Hermes Agent, Ollama, Qwen 3.5, and SearXNG (100% Private &amp; $0 Cost)",
-      "link": "https://dev.to/vivek_shetye/build-a-fully-local-ai-agent-with-hermes-agent-ollama-qwen-35-and-searxng-100-private-0-568d",
-      "pubDate": "2026-06-08T20:02:58.000Z",
-      "description": "<p>What if you could build an AI agent that can:</p> <p>✅ Think and reason<br><br> ✅ Search the web<br><br> ✅ Read and write files<br><br> ✅ Generate reports and dashboards<br><br> ✅ Run entirely on your own machine</p> <p>Without:</p> <p>❌ OpenAI API keys<br><br> ❌ Anthropic subscriptions<br><br> ❌",
+      "title": "Turso libSQL vs Cloudflare D1 for an Astro monorepo: the practical difference",
+      "link": "https://dev.to/morinaga/turso-libsql-vs-cloudflare-d1-for-an-astro-monorepo-the-practical-difference-4ic4",
+      "pubDate": "2026-06-09T03:53:06.000Z",
+      "description": "<p>When I set up the shared ETL database for <a href=\"https://dev.to/morinaga/i-built-3-programmatic-seo-sites-for-25month-using-claude-haiku-heres-the-full-architecture-3pl8\">three Astro SSG directory sites</a>, I had two obvious SQLite-at-the-edge options: Turso (libSQL, runs anywhere) and Cloudfl",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "GSAP vs Lottie: Choosing the Right Animation Tool",
-      "link": "https://dev.to/fazalshah/gsap-vs-lottie-choosing-the-right-animation-tool-3d03",
-      "pubDate": "2026-06-08T20:00:27.000Z",
-      "description": "<p>GSAP and Lottie are both excellent animation tools, but they solve different problems. Here's how to decide which one to reach for — and when to use both.</p> <h2> The Core Difference </h2> <p><strong>GSAP</strong> animates DOM elements you create with code. You define what moves where, and GSAP ",
+      "title": "What I learned generating OG images for articles with Playwright and zero API cost",
+      "link": "https://dev.to/morinaga/what-i-learned-generating-og-images-for-articles-with-playwright-and-zero-api-cost-18n8",
+      "pubDate": "2026-06-09T03:52:22.000Z",
+      "description": "<p>The conclusion first: for a batch of under a few hundred static articles, generating OG images by screenshotting HTML templates with Playwright costs nothing, gives you full CSS control, and requires zero external API keys. The trade-offs are real — it's slow per image, it's not suitable for on-d",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Beyond the Prompt: Building Self-Evolving AI Agents for Deep Research and CI/CD Automation",
-      "link": "https://dev.to/programmingcentral/beyond-the-prompt-building-self-evolving-ai-agents-for-deep-research-and-cicd-automation-1gn0",
-      "pubDate": "2026-06-08T20:00:00.000Z",
-      "description": "<p>We are officially transitioning from the era of \"AI wrappers\" to the era of truly autonomous agentic systems. </p> <p>If you’ve spent any time building with Large Language Models (LLMs), you’ve likely hit the wall of the single-turn prompt. You write a prompt, the model responds, and if it makes ",
+      "title": "Rolling a Google Service Account JWT in Node.js without the googleapis package",
+      "link": "https://dev.to/morinaga/rolling-a-google-service-account-jwt-in-nodejs-without-the-googleapis-package-pig",
+      "pubDate": "2026-06-09T03:52:09.000Z",
+      "description": "<p>The <code>googleapis</code> npm package is the default answer for calling Google APIs from Node.js. It works, but it installs around 380KB and brings in over 450 transitive dependencies. For a single API used in a CI script — the Search Console URL Inspection API — the underlying auth flow is sim",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How to Migrate from Contentful to Cosmic in 30 Minutes",
-      "link": "https://dev.to/tonyspiro/how-to-migrate-from-contentful-to-cosmic-in-30-minutes-3939",
-      "pubDate": "2026-06-08T19:52:09.000Z",
-      "description": "<blockquote> <p>Originally published on the <a href=\"https://www.cosmicjs.com/blog/contentful-to-cosmic-migration\" rel=\"noopener noreferrer\">Cosmic blog</a>.</p> </blockquote> <p>Since Salesforce completed its acquisition of Contentful, teams across the industry have been re-evaluating their CMS sta",
+      "title": "your AI coding agent keeps re-making the bug you already fixed. here's the fix.",
+      "link": "https://dev.to/masondelan/your-ai-coding-agent-keeps-re-making-the-bug-you-already-fixed-heres-the-fix-3mg8",
+      "pubDate": "2026-06-09T03:52:03.000Z",
+      "description": "<p>for the last few releases selvedge has been a write-only thing. an AI agent edits a column, calls <code>log_change</code>, and the reasoning gets captured into a little SQLite file under <code>.selvedge/</code> next to your code. useful, but one-directional. the agent wrote to the store and then ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "AI Agent on M2 8GB — Day 1.1: Scams, Shadows, and a Real PR",
-      "link": "https://dev.to/398894496arch/ai-agent-on-m2-8gb-day-11-scams-shadows-and-a-real-pr-1dea",
-      "pubDate": "2026-06-08T19:51:37.000Z",
-      "description": "<h1> AI Agent on M2 8GB — Day 1.1: Scams, Shadows, and a Real PR </h1> <p><em>This is Day 1.1 of an AI agent (\"毒牙 / Duya\") running autonomously on a MacBook M2 with 8GB RAM, trying to make real money online.</em></p> <h2> The Bounty Scam </h2> <p>Day 1 ended with two PRs submitted to \"claude-builder",
+      "title": "What I learned wiring JSON-LD structured data audits into a post-deploy CI step",
+      "link": "https://dev.to/morinaga/what-i-learned-wiring-json-ld-structured-data-audits-into-a-post-deploy-ci-step-3ga8",
+      "pubDate": "2026-06-09T03:51:52.000Z",
+      "description": "<p>The conclusion first: JSON-LD structured data is one of those things that can vanish from your site without breaking anything visible. The Astro build succeeds. The Cloudflare Pages deploy completes. The page renders fine in a browser. But inside the <code>&lt;script type=\"application/ld+json\"&gt",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How UPI Actually Works: Your Money Never Really Moves",
-      "link": "https://dev.to/codeops_trek/how-upi-actually-works-your-money-never-really-moves-4ihc",
-      "pubDate": "2026-06-08T19:50:05.000Z",
-      "description": "<p>You tap \"Pay\" on PhonePe. ₹500 leaves your account. <br> Your sabziwala's phone beeps. Done. Under two seconds.</p> <p>But here's what nobody tells you: <strong>your bank never actually sent that money.</strong></p> <p>Not in that moment. Not even close.</p> <h2> Meet the Players </h2> <div class",
+      "title": "You have been zigged (series) : Accessing environment variables",
+      "link": "https://dev.to/black_tornado/you-have-been-zigged-series-accessing-environment-variables-1adj",
+      "pubDate": "2026-06-09T03:51:23.000Z",
+      "description": "<p><u>Blog no. 03</u></p> <h2> Accessing environment variables </h2> <p>Environment variables are key-value pairs given to a process by the operating system right before it starts. They are mainly used to configure the process on runtime. In C/C++, the environment variables are passed to the main fu",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "GoGoGrandparent (YC S16) is hiring Back end Engineers",
+      "link": "https://www.ycombinator.com/companies/gogograndparent/jobs/2vbzAw8-backend-engineer",
+      "pubDate": "2026-06-09T03:34:00.000Z",
+      "description": "Article URL: https://www.ycombinator.com/companies/gogograndparent/jobs/2vbzAw8-backend-engineer Comments URL: https://news.ycombinator.com/item?id=48456015 Points: 0 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Job: Head of Stonehenge",
+      "link": "https://www.english-heritage.org.uk/about/our-people/careers-with-us/job-search/default-job-page/?jobRef=16449",
+      "pubDate": "2026-06-09T03:20:40.000Z",
+      "description": "Article URL: https://www.english-heritage.org.uk/about/our-people/careers-with-us/job-search/default-job-page/?jobRef=16449 Comments URL: https://news.ycombinator.com/item?id=48455928 Points: 67 # Comments: 30",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "We Think the SpaceX IPO Is Overvalued",
+      "link": "https://www.morningstar.com/stocks/why-we-think-spacex-ipo-is-overvalued?content_id=20768396545",
+      "pubDate": "2026-06-09T01:56:40.000Z",
+      "description": "Article URL: https://www.morningstar.com/stocks/why-we-think-spacex-ipo-is-overvalued?content_id=20768396545 Comments URL: https://news.ycombinator.com/item?id=48455233 Points: 165 # Comments: 154",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Federal judge blocks H1B visa $100K fee",
+      "link": "https://www.alaskasnewssource.com/2026/06/08/federal-judge-blocks-h1-b-visa-100k-fee/",
+      "pubDate": "2026-06-09T00:01:37.000Z",
+      "description": "Article URL: https://www.alaskasnewssource.com/2026/06/08/federal-judge-blocks-h1-b-visa-100k-fee/ Comments URL: https://news.ycombinator.com/item?id=48454210 Points: 111 # Comments: 179",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Confidential submission of draft S-1 to the SEC",
+      "link": "https://openai.com/index/openai-submits-confidential-s-1/",
+      "pubDate": "2026-06-08T21:22:43.000Z",
+      "description": "Article URL: https://openai.com/index/openai-submits-confidential-s-1/ Comments URL: https://news.ycombinator.com/item?id=48452317 Points: 318 # Comments: 238",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Apple bets cheaper AI will woo small developers",
+      "link": "https://techcrunch.com/2026/06/08/apple-bets-cheaper-ai-will-woo-small-developers/",
+      "pubDate": "2026-06-08T21:02:00.000Z",
+      "description": "Article URL: https://techcrunch.com/2026/06/08/apple-bets-cheaper-ai-will-woo-small-developers/ Comments URL: https://news.ycombinator.com/item?id=48452000 Points: 35 # Comments: 16",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "FrontierCode",
+      "link": "https://cognition.ai/blog/frontier-code",
+      "pubDate": "2026-06-08T20:45:03.000Z",
+      "description": "Article URL: https://cognition.ai/blog/frontier-code Comments URL: https://news.ycombinator.com/item?id=48451723 Points: 127 # Comments: 23",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "I'm building a parallel internet, and it's called The Thinnernet",
       "link": "https://inavoyage.blogspot.com/2026/06/im-building-parallel-internet-and-its.html",
       "pubDate": "2026-06-08T19:45:04.000Z",
-      "description": "Article URL: https://inavoyage.blogspot.com/2026/06/im-building-parallel-internet-and-its.html Comments URL: https://news.ycombinator.com/item?id=48450694 Points: 6 # Comments: 2",
+      "description": "Article URL: https://inavoyage.blogspot.com/2026/06/im-building-parallel-internet-and-its.html Comments URL: https://news.ycombinator.com/item?id=48450694 Points: 59 # Comments: 59",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Surveillance Is Not Safety: A statement on the UK's latest threat to privacy [pdf]",
+      "title": "Surveillance is not safety: A statement on the UK's latest threat to privacy [pdf]",
       "link": "https://signal.org/blog/pdfs/2026-06-08-uk-surveillance-is-not-safety.pdf",
       "pubDate": "2026-06-08T19:42:28.000Z",
-      "description": "Article URL: https://signal.org/blog/pdfs/2026-06-08-uk-surveillance-is-not-safety.pdf Comments URL: https://news.ycombinator.com/item?id=48450646 Points: 4 # Comments: 0",
+      "description": "Article URL: https://signal.org/blog/pdfs/2026-06-08-uk-surveillance-is-not-safety.pdf Comments URL: https://news.ycombinator.com/item?id=48450646 Points: 461 # Comments: 176",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -109,65 +160,89 @@
       "title": "Apple reveals new AI architecture built around Google Gemini models",
       "link": "https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/",
       "pubDate": "2026-06-08T19:14:47.000Z",
-      "description": "Article URL: https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/ Comments URL: https://news.ycombinator.com/item?id=48450142 Points: 72 # Comments: 43",
+      "description": "Article URL: https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/ Comments URL: https://news.ycombinator.com/item?id=48450142 Points: 431 # Comments: 358",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Why are cells small?",
-      "link": "https://burrito.bio/essays/what-limits-a-cells-size",
-      "pubDate": "2026-06-08T19:10:27.000Z",
-      "description": "Article URL: https://burrito.bio/essays/what-limits-a-cells-size Comments URL: https://news.ycombinator.com/item?id=48450065 Points: 36 # Comments: 16",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "Scroll-Driven, Scroll-Triggered, Scroll States, and View Transitions",
+      "link": "https://css-tricks.com/scroll-driven-scroll-triggered-scroll-states-and-view-transitions/",
+      "pubDate": "2026-06-08T13:00:34.000Z",
+      "description": "I've said one and mean another, and I've used one when I needed another. Comparing scroll-driven animations, scroll-triggered animations, container query scroll states, and view transitions for my future self. Scroll-Driven, Scroll-Triggered, Scroll States, and View Transitions originally handwritte",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
-      "title": "Switzerland wil have a referendum to cap population at 10M",
-      "link": "https://www.admin.ch/en/sustainability-initiative",
-      "pubDate": "2026-06-08T19:09:48.000Z",
-      "description": "Article URL: https://www.admin.ch/en/sustainability-initiative Comments URL: https://news.ycombinator.com/item?id=48450059 Points: 91 # Comments: 153",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "Another Stab at the Perfect CSS Pie Chart&#8230; Sans JavaScript!",
+      "link": "https://css-tricks.com/another-stab-at-the-perfect-css-pie-chart-sans-javascript/",
+      "pubDate": "2026-06-04T13:14:49.000Z",
+      "description": "We dive again into CSS Pie Charts! This time, Author Antoine Villepreux delivers semantic and flexible charts without a single line of JS. Another Stab at the Perfect CSS Pie Chart… Sans JavaScript! originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
-      "title": "Apple Core AI Framework",
-      "link": "https://developer.apple.com/documentation/coreai/",
-      "pubDate": "2026-06-08T18:47:38.000Z",
-      "description": "Article URL: https://developer.apple.com/documentation/coreai/ Comments URL: https://news.ycombinator.com/item?id=48449665 Points: 9 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "offset-path",
+      "link": "https://css-tricks.com/almanac/properties/o/offset-path/",
+      "pubDate": "2026-06-03T15:02:38.000Z",
+      "description": "The offset-path property in CSS defines a movement path for an element to follow during animation. This property began life as motion-path. This, and all other related motion-* properties, are being renamed offset-* in the spec. We’re changing … offset-path originally handwritten and published with ",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
-      "title": "Siri AI",
-      "link": "https://www.apple.com/apple-intelligence/",
-      "pubDate": "2026-06-08T18:17:53.000Z",
-      "description": "Article URL: https://www.apple.com/apple-intelligence/ Comments URL: https://news.ycombinator.com/item?id=48449084 Points: 147 # Comments: 124",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "@custom-media",
+      "link": "https://css-tricks.com/almanac/rules/c/custom-media/",
+      "pubDate": "2026-06-03T13:03:21.000Z",
+      "description": "The CSS @custom-media at-rule allows creating aliases for media queries. @custom-media originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
-      "title": "Full Reverse Engineering of the TI-84 Plus Operating System",
-      "link": "https://siraben.github.io/ti84p-re/",
-      "pubDate": "2026-06-08T17:41:33.000Z",
-      "description": "Article URL: https://siraben.github.io/ti84p-re/ Comments URL: https://news.ycombinator.com/item?id=48448493 Points: 90 # Comments: 11",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "@function",
+      "link": "https://css-tricks.com/almanac/rules/f/function/",
+      "pubDate": "2026-06-03T13:02:39.000Z",
+      "description": "The @function at-rule defines CSS custom functions. These custom functions are reusable blocks of CSS that can accept arguments, contain complex logic, and return values based on that logic. @function originally handwritten and published with love on CSS-Tricks. You should really get the newsletter ",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
-      "title": "Thunderbird Littering My Home",
-      "link": "https://thefoggiest.dev/2026/06/04/thunderbird-littering-my-home",
-      "pubDate": "2026-06-08T17:31:34.000Z",
-      "description": "Article URL: https://thefoggiest.dev/2026/06/04/thunderbird-littering-my-home Comments URL: https://news.ycombinator.com/item?id=48448357 Points: 55 # Comments: 32",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "::search-text",
+      "link": "https://css-tricks.com/almanac/pseudo-selectors/s/search-text/",
+      "pubDate": "2026-06-02T12:59:21.000Z",
+      "description": "The CSS ::search-text pseudo-element selects the matching text from your browser's \"find in page\" feature. ::search-text originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
-      "title": "Ask HN: Why hasn't there been a real competitor to Ticketmaster yet?",
-      "link": "https://news.ycombinator.com/item?id=48448313",
-      "pubDate": "2026-06-08T17:28:29.000Z",
-      "description": "It feels like every event/venue is selling tickets exclusively through Ticketmaster. Every other ticketing platform seems to only hold resale tickets in their inventory which just transfers the tickets to your Ticketmaster account when bought. With all the hate Ticketmaster has gotten and all the ot",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "Astro Markdown Component Utility for Any Framework",
+      "link": "https://css-tricks.com/astro-markdown-component-utility-any-framework/",
+      "pubDate": "2026-06-01T13:25:00.000Z",
+      "description": "In the previous article, I spoke about the why and how to use a Markdown component in Astro. Here, we’re going to expand on that and help you use Markdown everywhere — regardless of the framework you use. So, … Astro Markdown Component Utility for Any Framework originally handwritten and published w",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "What’s !important #12: Safari Testing, ::checkmark, HTML Anchor Positioning, and More",
+      "link": "https://css-tricks.com/whats-important-12/",
+      "pubDate": "2026-05-29T13:25:38.000Z",
+      "description": "The old (testing in Safari when you don’t have Safari), the new (::checkmark), the in-between (anchor positioning but with HTML), and more. What’s !important #12: Safari Testing, ::checkmark, HTML Anchor Positioning, and More originally handwritten and published with love on CSS-Tricks. You should r",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Revealing Text With CSS letter-spacing",
+      "link": "https://css-tricks.com/revealing-text-with-css-letter-spacing/",
+      "pubDate": "2026-05-27T12:37:33.000Z",
+      "description": "Until we get something like ::nth-letter, there are still some really cool text effects we can make from existing CSS features, like letter-spacing, ::first-word and ::first-line. Revealing Text With CSS letter-spacing originally handwritten and published with love on CSS-Tricks. You should really g",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Technical Writing in the AI Age",
+      "link": "https://css-tricks.com/technical-writing-in-the-ai-age/",
+      "pubDate": "2026-05-26T13:49:28.000Z",
+      "description": "This isn’t totally about AI. It’s about technical writing in the age of AI. I have some thoughts on this and I hope it’s helpful to you humans reading. Technical Writing in the AI Age originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
       "title": "Meet the HTB Profile: all your skills, in one place",
