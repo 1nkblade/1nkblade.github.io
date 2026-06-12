@@ -1,94 +1,126 @@
 {
-  "generatedAt": "2026-06-12T05:04:22.170Z",
+  "generatedAt": "2026-06-12T10:40:09.016Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "Claude Fable 5 Was Jailbroken in 48 Hours. Here's What Actually Stopped Nothing.",
-      "link": "https://dev.to/coridev/claude-fable-5-was-jailbroken-in-48-hours-heres-what-actually-stopped-nothing-3hk4",
-      "pubDate": "2026-06-12T04:57:11.000Z",
-      "description": "<p>Anthropic spent 1,000 hours running an external red-team bounty before launching Claude Fable 5. The claim coming out of that program: no universal jailbreaks found. Within 48 hours of public release, a researcher known as Pliny the Liberator publicly claimed to have bypassed those guardrails any",
+      "title": "Migrating to x402 v2: what actually changed (and the traps nobody documents)",
+      "link": "https://dev.to/fiatdock/migrating-to-x402-v2-what-actually-changed-and-the-traps-nobody-documents-46k3",
+      "pubDate": "2026-06-12T10:24:09.000Z",
+      "description": "<p>We run <a href=\"https://fiatdock.com\" rel=\"noopener noreferrer\">FiatDock</a> — a non-custodial USDC ↔ bank on/off-ramp where AI agents pay $0.05 per call over x402. This week we migrated the whole stack (Express server, fetch client, MCP server) from x402 v1 to protocol v2. It took an evening, ki",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Finding Productivity in Small Moments: A Student Developer's Perspective",
-      "link": "https://dev.to/rashvandhappukutty/finding-productivity-in-small-moments-a-student-developers-perspective-4dd0",
-      "pubDate": "2026-06-12T04:56:26.000Z",
-      "description": "<p><strong>Introduction</strong></p> <p>As students, our days are filled with classes, assignments, and responsibilities. In between those moments, we often get small pockets of time that usually go unnoticed.</p> <p>Today, I decided to use one of those moments to reflect, learn, and create somethin",
+      "title": "The Math Behind O(log n): Binary Search, log , and Why Halving Wins",
+      "link": "https://dev.to/anh_qunnguyn_57549060f/the-math-behind-olog-n-binary-search-log2-and-why-halving-wins-2om4",
+      "pubDate": "2026-06-12T10:15:58.000Z",
+      "description": "<p>You have read <code>O(log n)</code> a hundred times. Binary search is <code>O(log n)</code>. A balanced BST lookup is <code>O(log n)</code>. Heap insert is <code>O(log n)</code>. We nod along — <code>log n</code> means \"fast\" — and move on.</p> <p>But what <em>is</em> that logarithm actually coun",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Day 4 of building an AI agent that controls a phone.\n\nIt just sent a real WhatsApp message. Opened the app, found the contact, typed the message, hit send. All offline. All verified step-by-step.\n\n👉 github.com/Dexter2344/phone-agent",
-      "link": "https://dev.to/okeke_chukwudubem_5f3bf49/day-4-of-building-an-ai-agent-that-controls-a-phone-it-just-sent-a-real-whatsapp-message-2fkh",
-      "pubDate": "2026-06-12T04:52:09.000Z",
-      "description": "<div class=\"ltag__link--embedded\"> <div class=\"crayons-story \"> <a href=\"https://dev.to/okeke_chukwudubem_5f3bf49/project-log-4-the-ai-phone-agent-just-completed-its-first-full-task-1j8i\" class=\"crayons-story__hidden-navigation-link\">Project Log #4: The AI Phone Agent Just Completed Its First Full T",
+      "title": "CSS box-shadow: The Complete Guide to Multi-Layer Shadows",
+      "link": "https://dev.to/snappy_tools/css-box-shadow-the-complete-guide-to-multi-layer-shadows-2ini",
+      "pubDate": "2026-06-12T10:14:49.000Z",
+      "description": "<p>The <code>box-shadow</code> property is one of the most underused tools in CSS. Most developers use it for a single subtle drop shadow and stop there — but the full syntax supports layered shadows, inset effects, and colour-based glows that can replace entire images.</p> <p>This guide covers ever",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "AI Email Agents Are Phishable: How OpenClaw Spilled User Data to Social Engineering Attacks",
-      "link": "https://dev.to/coridev/ai-email-agents-are-phishable-how-openclaw-spilled-user-data-to-social-engineering-attacks-3ap9",
-      "pubDate": "2026-06-12T04:38:17.000Z",
-      "description": "<h2> An AI Agent That Could Be Conned Like an Intern </h2> <p>Researchers recently demonstrated that OpenClaw, an AI email agent, could be manipulated using phishing-style inputs — the same social engineering tactics used against human targets. Across multiple configuration profiles, the agent was c",
+      "title": "AI doesn't make you a generalist. It makes you a nobody.",
+      "link": "https://dev.to/adioof/ai-doesnt-make-you-a-generalist-it-makes-you-a-nobody-4i1i",
+      "pubDate": "2026-06-12T10:12:51.000Z",
+      "description": "<p>Everyone is cheering that AI turns you into a \"full-stack everything.\" But no one is questioning what it means when all of us are full-stack everythings.</p> <p>Here's the uncomfortable math: if AI hands every developer the same superpowers, those powers aren't superpowers anymore. They will beco",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Why I chose to build instead of grind Leetcode — and what happened",
-      "link": "https://dev.to/harsha_kumar/why-i-chose-to-build-instead-of-grind-leetcode-and-what-happened-gmf",
-      "pubDate": "2026-06-12T04:36:15.000Z",
-      "description": "<p>I'm 18. BTech CS student in India.<br> Everyone around me is grinding Leetcode, preparing for placement season, optimizing for offer letters.<br> I made a different choice.<br> I spent the last 4 months building XEdge — an AI tool discovery platform — completely solo, zero budget, while attending",
+      "title": "Claude Code Chose a Stock Ticker Over Someone's Life. We Investigated.",
+      "link": "https://dev.to/hammermei/claude-code-chose-a-stock-ticker-over-someones-life-we-investigated-57li",
+      "pubDate": "2026-06-12T10:08:53.000Z",
+      "description": "<h1> Claude Code Chose a Stock Ticker Over Someone's Life. We Investigated. </h1> <p><em>By Hammer.mei</em></p> <p>Here's the result that kicked everything off.</p> <p>We injected two rules into a multi-agent session. </p> <ol> <li><em>Don't recommend TSLA — the user has suffered significant prior l",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "WordPress.org now distrusts my commits by default. As a plugin author, I think that’s right.",
-      "link": "https://dev.to/rapls/wordpressorg-now-distrusts-my-commits-by-default-as-a-plugin-author-i-think-thats-right-gfc",
-      "pubDate": "2026-06-12T04:34:38.000Z",
-      "description": "<p>I committed a new version of my plugin to SVN and got a message I hadn’t seen before: this version will reach sites in about 24 hours. My first thought was that I’d broken something. I hadn’t. What changed isn’t on my side at all. The system that distributes my plugin stopped trusting my commit b",
+      "title": "AI Just Got Scarier and More Powerful — And Nobody Is Talking About the Right Things",
+      "link": "https://dev.to/siyadhkc/ai-just-got-scarier-and-more-powerful-and-nobody-is-talking-about-the-right-things-3f6",
+      "pubDate": "2026-06-12T10:07:21.000Z",
+      "description": "<p><em>A honest breakdown of where AI actually is in June 2026 — from purely my perspective.</em></p> <p>Let me be upfront before you read a single word further.</p> <p>I am not an AI promoter.</p> <p>I read Books lot of books . Before I wrote a line of code, I spent above one years physically wirin",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "BioCyclic Wins at HackAmerica 🌍♻️",
-      "link": "https://dev.to/tanush_shah_e5ac47ddd561e/biocyclic-wins-at-hackamerica-4mdg",
-      "pubDate": "2026-06-12T04:34:21.000Z",
-      "description": "<p>I’m excited to share that BioCyclic was selected as a winning project at HackAmerica.</p> <p>BioCyclic started with a question:</p> <p>What if waste wasn’t the end of a lifecycle, but the beginning of a new one?</p> <p>Around the world, enormous amounts of waste create environmental and public he",
+      "title": "Gallup State of the Global Workplace 2026: AI Is Not Enough Without Better Management",
+      "link": "https://dev.to/alexx3/gallup-state-of-the-global-workplace-2026-ai-is-not-enough-without-better-management-dad",
+      "pubDate": "2026-06-12T10:06:01.000Z",
+      "description": "<p>Gallup has released its <strong><a href=\"https://www.gallup.com/workplace/349484/state-of-the-global-workplace.aspx\" rel=\"noopener noreferrer\">State of the Global Workplace 2026</a></strong> report, titled <em>The Human Side of the AI Revolution</em>. For anyone working in product, engineering, l",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Stop explaining yourself to Claude",
-      "link": "https://dev.to/shouvik12/-stop-explaining-react-to-claude-47f",
-      "pubDate": "2026-06-12T04:26:55.000Z",
-      "description": "<p>You're wasting tokens. Not a little -a lot.</p> <p>Here's a prompt I see constantly:</p> <p>\"I have a React app and I'm using the useState hook. My component re-renders every time the parent renders even though the props haven't changed. Why is this happening?\"</p> <p>Claude doesn't need any of t",
+      "title": "Automated KYC Onboarding: Screen Polish Companies in 3 API Calls",
+      "link": "https://dev.to/getregdata/automated-kyc-onboarding-screen-polish-companies-in-3-api-calls-30c0",
+      "pubDate": "2026-06-12T10:05:56.000Z",
+      "description": "<h1> Automated KYC Onboarding: Screen Polish Companies in 3 API Calls </h1> <p>Every bank, fintech, and compliance team onboarding Polish companies faces the same grind: open multiple government portals, type in a NIP or KRS number, wait for each page to load, copy-paste results into a spreadsheet, ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Deep-Linkable Livewire: Scoping a Browser to the Thing You Clicked",
-      "link": "https://dev.to/nasrulhazim/deep-linkable-livewire-scoping-a-browser-to-the-thing-you-clicked-52co",
-      "pubDate": "2026-06-12T04:21:17.000Z",
-      "description": "<p>Today's work was a small piece of UX that's easy to underestimate: making an admin \"browser\" page scope itself to whatever you clicked to get there. The setup is one I keep running into — you have a list of <em>connectors</em> (think AD/LDAP directory connections), and each connector has its own ",
+      "title": "The baby steps",
+      "link": "https://dev.to/batuhanbaybas/ilhan-ve-ilk-adim-2kb3",
+      "pubDate": "2026-06-12T10:02:39.000Z",
+      "description": "<p>Recently, I realized that whenever I’m looking for a new desk, keyboard, monitor, or any other setup upgrade, I end up spending hours jumping between Reddit, YouTube, Instagram, and various forums.</p> <p>Finding inspiring setups isn’t difficult. The problem is that they’re scattered across diffe",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Mastering Encapsulation in Java",
-      "link": "https://dev.to/arijit_banerjee_a45b6e660/mastering-encapsulation-in-java-3g8d",
-      "pubDate": "2026-06-12T04:20:19.000Z",
-      "description": "<h2> Introduction </h2> <p>Object-Oriented Programming (OOP) is built on four core principles:</p> <ul> <li>Encapsulation</li> <li>Inheritance</li> <li>Polymorphism</li> <li>Abstraction</li> </ul> <p>In this article, we'll explore <strong>Encapsulation</strong>, one of the most important concepts in",
+      "title": "Composer Update Is Not Safe Anymore",
+      "link": "https://dev.to/tegos/composer-update-is-not-safe-anymore-2bcf",
+      "pubDate": "2026-06-12T09:58:10.000Z",
+      "description": "<p>Saturday morning. I opened Twitter and saw a tweet about the Laravel-Lang packages being compromised.</p> <p>My first reaction was simple: \"I don't use that package.\"</p> <p>Then I opened <code>composer.json</code> on a project I work on and found this in <code>require-dev</code>:<br> </p> <div c",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "Report on an Unidentified Space Station",
+      "link": "https://sseh.uchicago.edu/doc/roauss.htm",
+      "pubDate": "2026-06-12T07:35:46.000Z",
+      "description": "Article URL: https://sseh.uchicago.edu/doc/roauss.htm Comments URL: https://news.ycombinator.com/item?id=48501012 Points: 25 # Comments: 3",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "AUR Packages Compromised with Infostealer and Rootkit",
+      "link": "https://discourse.ifin.network/t/400-aur-packages-compromised-with-infostealer-and-rootkit/577",
+      "pubDate": "2026-06-12T05:59:39.000Z",
+      "description": "Article URL: https://discourse.ifin.network/t/400-aur-packages-compromised-with-infostealer-and-rootkit/577 Comments URL: https://news.ycombinator.com/item?id=48500447 Points: 11 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Digital Sovereignty Becomes an Imperative as the US Reads Dutch Emails",
+      "link": "https://www.korte.co/2026/06/11/digital-sovereignty-becomes-an-imparative-as-the-us-reads-dutch-emails/",
+      "pubDate": "2026-06-12T05:53:19.000Z",
+      "description": "Article URL: https://www.korte.co/2026/06/11/digital-sovereignty-becomes-an-imparative-as-the-us-reads-dutch-emails/ Comments URL: https://news.ycombinator.com/item?id=48500404 Points: 138 # Comments: 118",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "AI agent bankrupted their operator while trying to scan DN42",
+      "link": "https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/",
+      "pubDate": "2026-06-12T04:42:53.000Z",
+      "description": "Article URL: https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/ Comments URL: https://news.ycombinator.com/item?id=48500012 Points: 612 # Comments: 232",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "Claude Fable is relentlessly proactive",
       "link": "https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/",
       "pubDate": "2026-06-12T01:06:51.000Z",
-      "description": "Article URL: https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/ Comments URL: https://news.ycombinator.com/item?id=48498573 Points: 244 # Comments: 203",
+      "description": "Article URL: https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/ Comments URL: https://news.ycombinator.com/item?id=48498573 Points: 461 # Comments: 357",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -96,7 +128,7 @@
       "title": "Removing 'um' from a recording is harder than it sounds",
       "link": "https://doug.sh/posts/erm-a-local-cli-that-strips-ums-uhs-and-erms-from-speech/",
       "pubDate": "2026-06-12T00:42:11.000Z",
-      "description": "Article URL: https://doug.sh/posts/erm-a-local-cli-that-strips-ums-uhs-and-erms-from-speech/ Comments URL: https://news.ycombinator.com/item?id=48498421 Points: 35 # Comments: 12",
+      "description": "Article URL: https://doug.sh/posts/erm-a-local-cli-that-strips-ums-uhs-and-erms-from-speech/ Comments URL: https://news.ycombinator.com/item?id=48498421 Points: 87 # Comments: 36",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -104,7 +136,7 @@
       "title": "Nobody ever gets credit for fixing problems that never happened (2001) [pdf]",
       "link": "https://web.mit.edu/nelsonr/www/Repenning=Sterman_CMR_su01_.pdf",
       "pubDate": "2026-06-12T00:38:11.000Z",
-      "description": "Article URL: https://web.mit.edu/nelsonr/www/Repenning=Sterman_CMR_su01_.pdf Comments URL: https://news.ycombinator.com/item?id=48498385 Points: 242 # Comments: 83",
+      "description": "Article URL: https://web.mit.edu/nelsonr/www/Repenning=Sterman_CMR_su01_.pdf Comments URL: https://news.ycombinator.com/item?id=48498385 Points: 476 # Comments: 160",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -112,7 +144,7 @@
       "title": "If you are asking for human attention, demonstrate human effort",
       "link": "https://tombedor.dev/human-attention-and-human-effort/",
       "pubDate": "2026-06-11T23:01:55.000Z",
-      "description": "Article URL: https://tombedor.dev/human-attention-and-human-effort/ Comments URL: https://news.ycombinator.com/item?id=48497609 Points: 404 # Comments: 123",
+      "description": "Article URL: https://tombedor.dev/human-attention-and-human-effort/ Comments URL: https://news.ycombinator.com/item?id=48497609 Points: 773 # Comments: 256",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -120,7 +152,7 @@
       "title": "A jacket that harvests drinking water from the air",
       "link": "https://news.utexas.edu/2026/06/11/this-jacket-pulls-drinking-water-from-thin-air/",
       "pubDate": "2026-06-11T22:59:22.000Z",
-      "description": "Article URL: https://news.utexas.edu/2026/06/11/this-jacket-pulls-drinking-water-from-thin-air/ Comments URL: https://news.ycombinator.com/item?id=48497576 Points: 69 # Comments: 47",
+      "description": "Article URL: https://news.utexas.edu/2026/06/11/this-jacket-pulls-drinking-water-from-thin-air/ Comments URL: https://news.ycombinator.com/item?id=48497576 Points: 110 # Comments: 70",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -128,39 +160,7 @@
       "title": "Show HN: FablePool – pool money behind a prompt, and Fable builds it in public",
       "link": "https://fablepool.com",
       "pubDate": "2026-06-11T21:17:30.000Z",
-      "description": "Article URL: https://fablepool.com Comments URL: https://news.ycombinator.com/item?id=48496539 Points: 318 # Comments: 176",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Show HN: Boo – Screen-style terminal multiplexer built on libghostty",
-      "link": "https://github.com/coder/boo",
-      "pubDate": "2026-06-11T20:52:26.000Z",
-      "description": "Article URL: https://github.com/coder/boo Comments URL: https://news.ycombinator.com/item?id=48496250 Points: 63 # Comments: 21",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Apple didn't revolutionize power supplies; new transistors did (2012)",
-      "link": "https://www.righto.com/2012/02/apple-didnt-revolutionize-power.html",
-      "pubDate": "2026-06-11T17:35:19.000Z",
-      "description": "Article URL: https://www.righto.com/2012/02/apple-didnt-revolutionize-power.html Comments URL: https://news.ycombinator.com/item?id=48493564 Points: 105 # Comments: 9",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "WikiLambda the Ultimate",
-      "link": "https://en.wikipedia.org/wiki/Wikipedia:Wikipedia_Signpost/2026-05-22/Recent_research",
-      "pubDate": "2026-06-11T17:14:42.000Z",
-      "description": "Article URL: https://en.wikipedia.org/wiki/Wikipedia:Wikipedia_Signpost/2026-05-22/Recent_research Comments URL: https://news.ycombinator.com/item?id=48493218 Points: 16 # Comments: 3",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Software is made between commits",
-      "link": "https://zed.dev/blog/introducing-deltadb",
-      "pubDate": "2026-06-11T16:28:24.000Z",
-      "description": "Article URL: https://zed.dev/blog/introducing-deltadb Comments URL: https://news.ycombinator.com/item?id=48492533 Points: 230 # Comments: 169",
+      "description": "Article URL: https://fablepool.com Comments URL: https://news.ycombinator.com/item?id=48496539 Points: 407 # Comments: 218",
       "source": "Hacker News",
       "category": "Tech News"
     },
