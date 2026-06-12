@@ -1,88 +1,168 @@
 {
-  "generatedAt": "2026-06-12T15:39:43.105Z",
+  "generatedAt": "2026-06-12T20:27:03.150Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "Model Context Protocol (MCP): Giao Thức Tương Lai Cho AI",
-      "link": "https://dev.to/maitamdev/model-context-protocol-mcp-giao-thuc-tuong-lai-cho-ai-2l6l",
-      "pubDate": "2026-06-12T15:39:10.000Z",
-      "description": "<h1> Model Context Protocol (MCP): Giao Thức Kết Nối Thế Giới Cho Trí Tuệ Nhân Tạo </h1> <p>Trong thế giới AI đang phát triển với tốc độ chóng mặt, việc xây dựng các ứng dụng thông minh, có khả năng tương tác linh hoạt với dữ liệu và công cụ bên ngoài là một thách thức lớn. Các mô hình ngôn ngữ lớn ",
+      "title": "Live coding lost its signal. Here's how interview prep splits by company size in 2026.",
+      "link": "https://dev.to/fourleaf/live-coding-lost-its-signal-heres-how-interview-prep-splits-by-company-size-in-2026-3320",
+      "pubDate": "2026-06-12T20:17:09.000Z",
+      "description": "<p>Live coding stopped telling interviewers what it used to, and most candidates haven't updated their prep. The round didn't get easier. The signal got cheaper to fake, so the rounds that survived got harder in ways your old practice doesn't cover. Here's how the split actually breaks down by compa",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Why modal.open() should return Promise&lt;TResult&gt;, not Promise&lt;any&gt;",
-      "link": "https://dev.to/alexey79/why-modalopen-should-return-promise-not-promise-12g",
-      "pubDate": "2026-06-12T15:36:23.000Z",
-      "description": "<blockquote> <p>How treating modals as typed async operations eliminates boolean state, callback chains, and runtime surprises in React apps.</p> </blockquote> <p>React applications often treat modals as UI details.</p> <p>A boolean flag. A conditional render. An <code>onClose</code> callback.</p> <",
+      "title": "The Engineer Who Owns Nothing: A Cautionary Tale",
+      "link": "https://dev.to/samson_tanimawo/the-engineer-who-owns-nothing-a-cautionary-tale-5b5c",
+      "pubDate": "2026-06-12T20:15:33.000Z",
+      "description": "<p>I'm going to tell you about an engineer I worked with. Call him Mark. Mark was talented, well-liked, and utterly ineffective. Here's what I learned from watching him.</p> <h2> What Mark did </h2> <p>Mark's technical skills were real. He wrote good code. He gave thoughtful design review comments. ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How I Cut SQL Query Time from 45 Seconds to 8 Seconds on 2.3 Million Rows",
-      "link": "https://dev.to/danielnnadi/how-i-cut-sql-query-time-from-45-seconds-to-8-seconds-on-23-million-rows-o3e",
-      "pubDate": "2026-06-12T15:35:45.000Z",
-      "description": "<p>I inherited a SQL Server database with 2.3 million rows. Queries took 45 seconds. Users were frustrated. Dashboards timed out.</p> <p>Here is exactly what I did.</p> <p>Step 1: Find the slowest queries</p> <p>I used SQL Server's query store to identify the top 10 worst performing queries.</p> <p>",
+      "title": "The Imitation Game — A Reverse Turing Test Set on June 21, 1952",
+      "link": "https://dev.to/dj29/the-imitation-game-a-reverse-turing-test-set-on-june-21-1952-4dl2",
+      "pubDate": "2026-06-12T20:15:00.000Z",
+      "description": "<p><em>This is a submission for the <a href=\"https://dev.to/challenges/june-game-jam-2026-06-03\">June Solstice Game Jam</a></em></p> <blockquote> <p><em>\"I propose to consider the question: Can machines think?\"</em><br> — Alan Turing, 1950</p> </blockquote> <p><strong>June 21, 1952. Wilmslow, Cheshi",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How I Cut SQL Query Time from 45 Seconds to 8 Seconds on 2.3 Million Rows",
-      "link": "https://dev.to/danielnnadi/how-i-cut-sql-query-time-from-45-seconds-to-8-seconds-on-23-million-rows-45o4",
-      "pubDate": "2026-06-12T15:35:45.000Z",
-      "description": "<p>I inherited a SQL Server database with 2.3 million rows. Queries took 45 seconds. Users were frustrated. Dashboards timed out.</p> <p>Here is exactly what I did.</p> <p>Step 1: Find the slowest queries</p> <p>I used SQL Server's query store to identify the top 10 worst performing queries.</p> <p>",
+      "title": "Prompt cache, finally typed: shipping llm-ports 0.1.0-alpha.19",
+      "link": "https://dev.to/baabbakk/prompt-cache-finally-typed-shipping-llm-ports-010-alpha19-20kp",
+      "pubDate": "2026-06-12T20:10:03.000Z",
+      "description": "<p><strong>TL;DR.</strong> <code>@llm-ports</code> 0.1.0-alpha.19 ships a typed, provider-neutral surface for prompt caching across Anthropic, OpenAI, and Gemini. One optional <code>cacheControl</code> field on every request, four modes. Plus a BREAKING field rename: <code>cost.cacheDiscountUSD</cod",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Indexes: Quickstart Using PostgreSQL (15 sec read)",
-      "link": "https://dev.to/effessdev/indexes-quickstart-using-postgresql-min-read-55ee",
-      "pubDate": "2026-06-12T15:35:06.000Z",
-      "description": "<p>Let's consider a table <code>user</code>. When we execute a query to find <code>Emily</code>, we are actually going through <strong>each record</strong>, looking whether the <code>name</code> column equals <code>Emily</code>. Indexes comes in when you want to speed this up.</p> <p>Let's create an",
+      "title": "AWS Agent Toolkit: Evita que tu Agente de IA Alucine APIs",
+      "link": "https://dev.to/aws-espanol/aws-agent-toolkit-evita-que-tu-agente-de-ia-alucine-apis-3h5c",
+      "pubDate": "2026-06-12T20:08:28.000Z",
+      "description": "<blockquote> <p>Tu agente de programación con IA alucina APIs de AWS porque está adivinando con datos de entrenamiento congelados en el pasado.</p> </blockquote> <p>El Agent Toolkit for AWS arregla la fuente de verdad: le da a cualquier agente compatible con MCP documentación de AWS en vivo, skills ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Testing Neovim in a Container with Finch (like Docker)",
-      "link": "https://dev.to/aws/testing-neovim-in-a-container-with-finch-like-docker-31dj",
-      "pubDate": "2026-06-12T15:30:00.000Z",
-      "description": "<p>So developers like CI... for everything! We do this because we like things to be automated. </p> <p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fa3sqj6qsegypqq9wp",
+      "title": "AWS Agent Toolkit: Stop Your Coding Agent Hallucinating APIs",
+      "link": "https://dev.to/aws/aws-agent-toolkit-stop-your-coding-agent-hallucinating-apis-590d",
+      "pubDate": "2026-06-12T20:01:46.000Z",
+      "description": "<blockquote> <p>AI coding agent hallucinates AWS APIs because it's guessing from training data frozen in the past.</p> </blockquote> <p>The Agent Toolkit for AWS fixes the source of truth: it gives any MCP-compatible agent live AWS docs, tested skills, and guardrails. Here's the before/after, and ho",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "MongoDB DR Drill Automation with Terraform, Python &amp; Jenkins — How We Made Restores Boring",
-      "link": "https://dev.to/mrinal_narang_13a3d00eb37/mongodb-dr-drill-automation-with-terraform-python-jenkins-how-we-made-restores-boring-loj",
-      "pubDate": "2026-06-12T15:21:39.000Z",
-      "description": "<h2> Backups Don't Save You. Restores Do. </h2> <p>We ran a MongoDB restore drill last quarter. It failed — not the restore itself, but the confidence. Nobody in the room was sure the data was actually intact. The service came back up, and we all just stared at each other.</p> <p>That was the proble",
+      "title": "The Night Logging Saved a Production System — and Why `print()` Is Not Enough",
+      "link": "https://dev.to/rs9000/the-night-logging-saved-a-production-system-and-why-print-is-not-enough-p8d",
+      "pubDate": "2026-06-12T19:52:30.000Z",
+      "description": "<p>At 2:07 AM, the payment system started failing.</p> <p>Not with a crash. Not with a clear error. Just… silently dropping transactions.</p> <p>At first, it was a trickle. Then retries. Then support tickets. Then alerts.</p> <p>Within minutes, revenue was bleeding.</p> <p>The system handled thousan",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Giving Your Local LLM Safe Filesystem Access With Ollama Tool Use",
-      "link": "https://dev.to/pavelespitia/giving-your-local-llm-safe-filesystem-access-with-ollama-tool-use-4o79",
-      "pubDate": "2026-06-12T15:14:08.000Z",
-      "description": "<p>A local LLM that can read your files is genuinely useful. A local LLM that can read your files <em>without guardrails</em> is a path-traversal bug with a chat interface.</p> <p>I covered tool calling basics in an earlier post: define a tool schema, the model returns a structured request, your cod",
+      "title": "LOG_RESET: Re-Compiling the Technical Writing Grindset from Scratch",
+      "link": "https://dev.to/kowshik_jallipalli_a7e0a5/logreset-re-compiling-the-technical-writing-grindset-from-scratch-1dgd",
+      "pubDate": "2026-06-12T19:47:59.000Z",
+      "description": "<p>The Signal: The Cold Boot Protocol<br> In systems architecture, when a service experiences unrecoverable state drift, you don't keep patching it inline. You don't write more code on top of a leaking memory space. You trigger a hard restart, flush the cache, and return the system to its initial pr",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How Kong's Control Plane / Data Plane Split Cut Our Gateway Costs by 34% (And Made It a Security Layer)",
-      "link": "https://dev.to/mrinal_narang_13a3d00eb37/how-kongs-control-plane-data-plane-split-cut-our-gateway-costs-by-34-and-made-it-a-security-1754",
-      "pubDate": "2026-06-12T15:13:19.000Z",
-      "description": "<h2> The Problem With How Most Teams Run Kong </h2> <p>If you set up Kong the default way, everything lives together — routing, policy enforcement, plugin execution, live traffic handling. One deployment doing all the things.</p> <p>It works. Until it doesn't.</p> <p>When traffic spikes, you scale u",
+      "title": "Stop letting PBQs eat the first 15 minutes of your Security+ exam",
+      "link": "https://dev.to/tiltedlunar123/stop-letting-pbqs-eat-the-first-15-minutes-of-your-security-exam-25a8",
+      "pubDate": "2026-06-12T19:38:56.000Z",
+      "description": "<p>If you ask people what scared them most going into the Security+ exam, you hear the same answer over and over: the PBQs. Performance-based questions sit at the front of SY0-701, before any of the multiple choice, and they are the closest thing the exam has to a hands-on task. You might get droppe",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Your package.json diffs are noisy for no reason. I built a zero-dep fixer.",
-      "link": "https://dev.to/_06a3df6b50aec966668fb/your-packagejson-diffs-are-noisy-for-no-reason-i-built-a-zero-dep-fixer-5fjf",
-      "pubDate": "2026-06-12T15:13:16.000Z",
-      "description": "<p>Open a PR, and half the <code>package.json</code> diff is keys that didn't actually<br> change — they just <em>moved</em>. One teammate's editor writes <code>name</code> at the top,<br> <code>npm install</code> shoves a field somewhere else, a codegen tool emits keys in<br> whatever order its has",
+      "title": ".NET 11 vs .NET 10: We Benchmarked Both on a Real Production App (Should You Upgrade?)",
+      "link": "https://dev.to/kirandeepjassalcrypto/net-11-vs-net-10-we-benchmarked-both-on-a-real-production-app-should-you-upgrade-5goh",
+      "pubDate": "2026-06-12T19:35:58.000Z",
+      "description": "<blockquote> <p>Originally published on <a href=\"https://prepstack.co.in/blog/dotnet-11-vs-dotnet-10-benchmarked-production\" rel=\"noopener noreferrer\">PrepStack</a>. Cross-posting the TL;DR here.</p> </blockquote> <p>We run a multi-tenant analytics SaaS on ASP.NET Core (~110k MAU, ~3,200 req/sec pea",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "Cosmodial Sky Atlas",
+      "link": "https://killedbyapixel.github.io/Cosmodial/",
+      "pubDate": "2026-06-12T18:20:17.000Z",
+      "description": "Article URL: https://killedbyapixel.github.io/Cosmodial/ Comments URL: https://news.ycombinator.com/item?id=48507571 Points: 13 # Comments: 1",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "I Am Not a Reverse Centaur",
+      "link": "https://blog.miguelgrinberg.com/post/i-am-not-a-reverse-centaur",
+      "pubDate": "2026-06-12T17:53:20.000Z",
+      "description": "Article URL: https://blog.miguelgrinberg.com/post/i-am-not-a-reverse-centaur Comments URL: https://news.ycombinator.com/item?id=48507282 Points: 155 # Comments: 108",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "\"Don't You Just Upload It to ChatGPT?\"",
+      "link": "https://correresmidestino.com/dont-you-just-upload-it-to-chatgpt/",
+      "pubDate": "2026-06-12T17:52:46.000Z",
+      "description": "Article URL: https://correresmidestino.com/dont-you-just-upload-it-to-chatgpt/ Comments URL: https://news.ycombinator.com/item?id=48507278 Points: 129 # Comments: 115",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "How to setup a local coding agent on macOS",
+      "link": "https://ikyle.me/blog/2026/how-to-setup-a-local-coding-agent-on-macos",
+      "pubDate": "2026-06-12T17:34:55.000Z",
+      "description": "Article URL: https://ikyle.me/blog/2026/how-to-setup-a-local-coding-agent-on-macos Comments URL: https://news.ycombinator.com/item?id=48507020 Points: 113 # Comments: 42",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Pirates, a naval warfare game inspired by Sid Meier's Pirates",
+      "link": "https://piwodlaiwo.github.io/pirates/",
+      "pubDate": "2026-06-12T17:07:46.000Z",
+      "description": "Article URL: https://piwodlaiwo.github.io/pirates/ Comments URL: https://news.ycombinator.com/item?id=48506659 Points: 93 # Comments: 42",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Law Enforcement's \"Warrior\" Problem (2015)",
+      "link": "https://harvardlawreview.org/forum/vol-128/law-enforcements-warrior-problem/",
+      "pubDate": "2026-06-12T17:04:09.000Z",
+      "description": "Article URL: https://harvardlawreview.org/forum/vol-128/law-enforcements-warrior-problem/ Comments URL: https://news.ycombinator.com/item?id=48506616 Points: 59 # Comments: 40",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Launch HN: BitBoard (YC P25) – Analytics Workspace for Agents",
+      "link": "https://bitboard.work/",
+      "pubDate": "2026-06-12T16:58:03.000Z",
+      "description": "We’re Connor and Ambar from BitBoard (https://bitboard.work). BitBoard is an agentic analytics workspace. We give you the infrastructure and visualization layer to analyze data with AI.Today, we’re launching dashboards that you and your agents can work on together. You can connect your coding agent ",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Looking Forward to Postgres 19: It's About Time",
+      "link": "https://www.pgedge.com/blog/looking-forward-to-postgres-19-its-about-time",
+      "pubDate": "2026-06-12T16:44:47.000Z",
+      "description": "Article URL: https://www.pgedge.com/blog/looking-forward-to-postgres-19-its-about-time Comments URL: https://news.ycombinator.com/item?id=48506372 Points: 93 # Comments: 27",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "New privacy frontier: Europe eyes crackdown on smart glasses",
+      "link": "https://www.politico.com/www.politico.eu/article/new-privacy-frontier-europe-eyes-crackdown-smart-glasses/",
+      "pubDate": "2026-06-12T16:41:16.000Z",
+      "description": "Article URL: https://www.politico.com/www.politico.eu/article/new-privacy-frontier-europe-eyes-crackdown-smart-glasses/ Comments URL: https://news.ycombinator.com/item?id=48506324 Points: 65 # Comments: 49",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "A PDF that changes based on how its read",
+      "link": "https://sgaud.com/texts/pdf",
+      "pubDate": "2026-06-12T16:32:50.000Z",
+      "description": "Article URL: https://sgaud.com/texts/pdf Comments URL: https://news.ycombinator.com/item?id=48506209 Points: 86 # Comments: 46",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "Why Isn&#8217;t My 3D View Transition Working?",
@@ -93,92 +173,12 @@
       "category": "Frontend"
     },
     {
-      "title": "Show HN: Script to bulk delete Claude chats from the web UI",
-      "link": "https://github.com/MatteoLeonesi/bulk-delete-claude-chat",
-      "pubDate": "2026-06-12T15:08:59.000Z",
-      "description": "I haven't found a way to delete all chats in bulk like you can on Chatgpt. With Claude, you have to scroll to the bottom, select everything, and delete. The problem is, if you have a lot of chats, it becomes impossible. I created this script. It does it alone. I hope it helps someone.(conversations ",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
       "title": "There’s no need to include ‘navigation’ in your navigation labels",
       "link": "https://css-tricks.com/navigation-in-your-navigation-labels/",
       "pubDate": "2026-06-12T15:08:38.000Z",
       "description": "One of those nuances to keep in your back pocket when writing for screen readers. There’s no need to include ‘navigation’ in your navigation labels originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
       "source": "CSS Tricks",
       "category": "Frontend"
-    },
-    {
-      "title": "Slightly reducing the sloppiness of AI generated front end",
-      "link": "https://envs.net/~volpe/blog/posts/reduce-slop.html",
-      "pubDate": "2026-06-12T14:48:38.000Z",
-      "description": "Article URL: https://envs.net/~volpe/blog/posts/reduce-slop.html Comments URL: https://news.ycombinator.com/item?id=48504912 Points: 14 # Comments: 2",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "WhatsApp Business API pricing 2026: what's free and where markup hides",
-      "link": "https://wexio.io/blog/free-whatsapp-business-api",
-      "pubDate": "2026-06-12T14:37:30.000Z",
-      "description": "Article URL: https://wexio.io/blog/free-whatsapp-business-api Comments URL: https://news.ycombinator.com/item?id=48504753 Points: 6 # Comments: 2",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "A Call to Action: Stop the FCC's KYC Regime",
-      "link": "https://blog.lopp.net/call-to-action-stop-the-fcc-kyc-regime/",
-      "pubDate": "2026-06-12T14:33:29.000Z",
-      "description": "Article URL: https://blog.lopp.net/call-to-action-stop-the-fcc-kyc-regime/ Comments URL: https://news.ycombinator.com/item?id=48504697 Points: 86 # Comments: 35",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "How to automate Instagram engagements with computer vision (and get banned)",
-      "link": "https://blog.florianherrengt.com/how-to-automate-instagram-engagements.html",
-      "pubDate": "2026-06-12T14:21:30.000Z",
-      "description": "Article URL: https://blog.florianherrengt.com/how-to-automate-instagram-engagements.html Comments URL: https://news.ycombinator.com/item?id=48504544 Points: 25 # Comments: 10",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "A dumpster arrived behind my university's library",
-      "link": "https://yalereview.org/article/sheila-liming-the-end-of-books",
-      "pubDate": "2026-06-12T14:21:22.000Z",
-      "description": "Article URL: https://yalereview.org/article/sheila-liming-the-end-of-books Comments URL: https://news.ycombinator.com/item?id=48504543 Points: 10 # Comments: 2",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "WASI 0.3.0 Released",
-      "link": "https://github.com/WebAssembly/WASI/releases/tag/v0.3.0",
-      "pubDate": "2026-06-12T13:51:15.000Z",
-      "description": "Article URL: https://github.com/WebAssembly/WASI/releases/tag/v0.3.0 Comments URL: https://news.ycombinator.com/item?id=48504063 Points: 112 # Comments: 28",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "European sunscreens are safer than American (2024)",
-      "link": "https://www.ms.now/opinion/msnbc-opinion/sunscreen-united-states-fda-ingredients-rcna153526",
-      "pubDate": "2026-06-12T13:40:23.000Z",
-      "description": "Article URL: https://www.ms.now/opinion/msnbc-opinion/sunscreen-united-states-fda-ingredients-rcna153526 Comments URL: https://news.ycombinator.com/item?id=48503940 Points: 65 # Comments: 23",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Hazel (YC W24) Is Hiring a Full Stack Engineer",
-      "link": "https://www.ycombinator.com/companies/hazel-2/jobs/3epPWgu-full-stack-engineer-ts-sci",
-      "pubDate": "2026-06-12T13:14:18.000Z",
-      "description": "Article URL: https://www.ycombinator.com/companies/hazel-2/jobs/3epPWgu-full-stack-engineer-ts-sci Comments URL: https://news.ycombinator.com/item?id=48503717 Points: 0 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Encrypted Spaces An architecture for collaborative applications",
-      "link": "https://encryptedspaces.org/",
-      "pubDate": "2026-06-12T12:22:07.000Z",
-      "description": "Article URL: https://encryptedspaces.org/ Comments URL: https://news.ycombinator.com/item?id=48503219 Points: 16 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
     },
     {
       "title": "Creating Memorable Web Experiences: A Modern CSS Toolkit",
