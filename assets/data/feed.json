@@ -1,166 +1,166 @@
 {
-  "generatedAt": "2026-06-13T09:34:23.693Z",
+  "generatedAt": "2026-06-13T14:27:02.591Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "Show HN: NeuralBridge - Self-Healing SDK for LLM-Powered AI Agents",
-      "link": "https://dev.to/hhhfs9s7y9code/show-hn-neuralbridge-self-healing-sdk-for-llm-powered-ai-agents-309o",
-      "pubDate": "2026-06-13T09:21:26.000Z",
-      "description": "<h2> Show HN: NeuralBridge — We Built a Self-Healing SDK for LLM-Powered Agents </h2> <p>After months of production experience running LLM calls at scale, we realized something uncomfortable: <strong>every AI agent eventually crashes</strong>. Not because the code is wrong, but because LLM APIs fail",
+      "title": "Encrypt your .env with AWS KMS: Secrets that never touch process.env",
+      "link": "https://dev.to/faizahmedfarooqui/encrypt-your-env-with-aws-kms-secrets-that-never-touch-processenv-180m",
+      "pubDate": "2026-06-13T14:24:01.000Z",
+      "description": "<p>A year ago I'd have told you a .env file was fine.</p> <p>Then we patched a <strong>CVSS 10.0 RCE</strong> in Next.js (<a href=\"https://nextjs.org/blog/CVE-2025-66478\" rel=\"noopener noreferrer\">CVE-2025-66478</a>) and spent the next two days rotating every secret we owned — because we couldn't pr",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "NeuralBridge: Self-Healing SDK for LLM-Powered AI Agents - Getting Started in 5 Minutes",
-      "link": "https://dev.to/hhhfs9s7y9code/neuralbridge-self-healing-sdk-for-llm-powered-ai-agents-getting-started-in-5-minutes-1677",
-      "pubDate": "2026-06-13T09:20:56.000Z",
-      "description": "<h2> What is NeuralBridge? </h2> <p>NeuralBridge is an <strong>embedded SDK</strong> (not a gateway) that makes your AI agents resilient against LLM failures. It runs inside your Python process — zero infrastructure, zero HTTP proxy, one dependency.<br> </p> <div class=\"highlight js-code-highlight\">",
+      "title": "Why Tribal Knowledge Breaks Repos for AI Agents",
+      "link": "https://dev.to/otaready/why-tribal-knowledge-breaks-repos-for-ai-agents-5bb3",
+      "pubDate": "2026-06-13T14:22:09.000Z",
+      "description": "<p>Every repo has a little tribal knowledge.</p> <p>The command everyone knows not to run.<br> The service that must be started before tests.<br> The environment variable missing from <code>.env.example</code>.<br> The setup step that only lives in someone’s memory.<br> The CI behavior nobody explai",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How I built a search engine",
-      "link": "https://dev.to/kenny-204/how-i-built-a-search-engine-54j",
-      "pubDate": "2026-06-13T09:18:51.000Z",
-      "description": "<p>Hello all, I built a search engine from scratch in Java. In a previous course we were given it as a group project, but since I worked on just the document processing module, I didn't really understand (I didn't understand at all actually) how the rest of it worked, so I decided to rebuild it from",
+      "title": "Agentjacking: How AI Coding Agents Get Hijacked Through Their Own Tool Pipeline",
+      "link": "https://dev.to/coridev/agentjacking-how-ai-coding-agents-get-hijacked-through-their-own-tool-pipeline-2g57",
+      "pubDate": "2026-06-13T14:20:57.000Z",
+      "description": "<p>Your AI coding agent can read files, run shell commands, and call external APIs. That's also the exact description of an arbitrary code execution primitive — and attackers have figured that out.</p> <p>A recent report from The Hacker News details \"Agentjacking,\" a class of attack that hijacks AI-",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The Best Platform for Learning Programming in 2026 Isn't What You Think",
-      "link": "https://dev.to/arshad_azeezm_653/the-best-platform-for-learning-programming-in-2026-isnt-what-you-think-1dc4",
-      "pubDate": "2026-06-13T09:11:47.000Z",
-      "description": "<p>Every year, millions of students open YouTube, find a Python tutorial, watch three hours of someone else coding, and then close the laptop feeling like they learned something.<br> They didn't.<br> They watched someone else learn. That's not the same thing.<br> This is the quiet crisis in programm",
+      "title": "We scanned 10 well-known sites with our security tool. Here's what we found.",
+      "link": "https://dev.to/thisissecurl/we-scanned-10-well-known-sites-with-our-security-tool-heres-what-we-found-562o",
+      "pubDate": "2026-06-13T14:20:14.000Z",
+      "description": "<p>A few weeks ago I shipped <a href=\"https://securl.online\" rel=\"noopener noreferrer\">SecURL</a> — a passive external security posture tool I'd been building on and off for longer than I care to admit. The pitch is simple: paste a URL, get a graded read of your site's full external security posture",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Two Bugs That Taught Me More Than Any Tutorial",
-      "link": "https://dev.to/clinztouch/two-bugs-that-taught-me-more-than-any-tutorial-2jh7",
-      "pubDate": "2026-06-13T09:07:29.000Z",
-      "description": "<p>Introduction<br> I'm Calvin, a backend engineering intern at HNG, currently wrapping up HNG14. This post is about two tasks from the internship that genuinely humbled me — one individual, one team. Not the tasks I completed smoothly. The ones that made me stare at logs at 2am wondering if I under",
+      "title": "Every Stripe decline code, what it actually means, and whether retrying will help",
+      "link": "https://dev.to/mike_badger/every-stripe-decline-code-what-it-actually-means-and-whether-retrying-will-help-olj",
+      "pubDate": "2026-06-13T14:14:31.000Z",
+      "description": "<p>When a card payment fails in Stripe, you get a short string back — <code>insufficient_funds</code>, <code>do_not_honor</code>, <code>authentication_required</code>. Most teams glance at it and let Smart Retries hammer the card on a schedule.</p> <p>That's the mistake. The right move depends entir",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "KeepAI: a local, open-source API hub that lets AI agents use your apps safely",
-      "link": "https://dev.to/keepai/keepai-a-local-open-source-api-hub-that-lets-ai-agents-use-your-apps-safely-a6i",
-      "pubDate": "2026-06-13T09:05:35.000Z",
-      "description": "<p>AI agents are getting good at doing things — triaging your inbox, updating a Notion doc, opening a GitHub issue, moving a Trello card. But to do any of that, an agent needs access to your accounts. And that's where most setups quietly become a problem: you hand an agent a long-lived API key or an",
+      "title": "OAuth2 Login with JWT and Refresh Tokens in Spring Boot — The Setup You'll Rebuild Every Time",
+      "link": "https://dev.to/yadrs/oauth2-login-with-jwt-and-refresh-tokens-in-spring-boot-the-setup-youll-rebuild-every-time-40bn",
+      "pubDate": "2026-06-13T14:12:13.000Z",
+      "description": "<p>Most Spring Boot applications eventually need authentication.</p> <p>And many teams rebuild the same foundation every time.</p> <p>Add a login endpoint. Generate a token. Protect some APIs.<br> Then production arrives — and the real requirements show up.</p> <p>A real backend often needs:</p> <ul",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "From idea to paying customers: building an AI changelog tool with Angular 21",
-      "link": "https://dev.to/harrypt4/from-idea-to-paying-customers-building-an-ai-changelog-tool-with-angular-21-19cm",
-      "pubDate": "2026-06-13T09:01:55.000Z",
-      "description": "<h1> How I built Releasely with Angular 21, Supabase, and Claude API </h1> <p>I just launched <a href=\"https://releasely.io\" rel=\"noopener noreferrer\">Releasely</a> — an AI changelog generator for indie SaaS founders. From first commit to deployed product while working part-time around my day job.</",
+      "title": "AMLA Is Coming Online: What the EU's New Anti–Money Laundering Authority Means for Builders and Regulators",
+      "link": "https://dev.to/arguswire/amla-is-coming-online-what-the-eus-new-anti-money-laundering-authority-means-for-builders-and-2nf7",
+      "pubDate": "2026-06-13T14:11:48.000Z",
+      "description": "<p>If you work anywhere near payments, banking, crypto, or fintech in Europe, a new acronym is about to land in your backlog: <strong>AMLA</strong> — the EU's <strong>Authority for Anti-Money Laundering and Countering the Financing of Terrorism</strong>. Headquartered in Frankfurt, it spent the last",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Iterative Security Audit: 45 Probes, 0 Critical, 6 Regression Tests Kept",
-      "link": "https://dev.to/ohugonnot/iterative-security-audit-45-probes-0-critical-6-regression-tests-kept-3j2g",
-      "pubDate": "2026-06-13T09:00:02.000Z",
-      "description": "<p>Throughout this series, I've shared patterns discovered during a security audit on a Go authentication service: <a href=\"https://www.web-developpeur.com/en/blog/pkcs12-windows-pbes2-cng\" rel=\"noopener noreferrer\">PKCS#12</a>, <a href=\"https://www.web-developpeur.com/en/blog/argon2-timing-oracle-d",
+      "title": "Zero Trust for Home Labs: Bridging the Gap Between Enterprise and Enthusiast",
+      "link": "https://dev.to/hookprobe/zero-trust-for-home-labs-bridging-the-gap-between-enterprise-and-enthusiast-38gg",
+      "pubDate": "2026-06-13T14:07:43.000Z",
+      "description": "<h2> The Evolution of the Home Lab: Why Enterprise Security Standards Matter </h2> <p>For the modern cybersecurity professional, the home lab has transcended its origins as a mere hobbyist’s playground. Today, it serves as a critical sandbox for testing complex architectures, simulating adversary ta",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Great Stack to Doesn't Work Bonus: 10 Bash Scripting Golden Rules",
-      "link": "https://dev.to/turacthethinker/great-stack-to-doesnt-work-bonus-10-bash-scripting-golden-rules-1n65",
-      "pubDate": "2026-06-13T09:00:00.000Z",
-      "description": "<h1> Great Stack to Doesn't Work — Bonus </h1> <h1> 10 Bash Scripting Golden Rules </h1> <p><em>Because your deployment script is production code whether you admit it or not.</em></p> <p><strong>1. Start every script with <code>set -euo pipefail</code>.</strong><br> </p> <div class=\"highlight js-cod",
+      "title": "I Was Shocked by How Cheap LLMs Can Be — A Bootcamp Grad's Guide",
+      "link": "https://dev.to/truelane/i-was-shocked-by-how-cheap-llms-can-be-a-bootcamp-grads-guide-3bpa",
+      "pubDate": "2026-06-13T14:06:46.000Z",
+      "description": "<p>I Was Shocked by How Cheap LLMs Can Be — A Bootcamp Grad's Guide</p> <p>Three months ago I graduated from a full-stack bootcamp. I was riding the high of building my first CRUD app when my mentor dropped a question that changed everything: \"So, how much do you think it costs to call an LLM API?\"<",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "From 5 Seconds to 50ms: How I Stopped Nuking My Database Every Time I Deleted an Order",
-      "link": "https://dev.to/akashpattnaik/from-5-seconds-to-50ms-how-i-stopped-nuking-my-database-every-time-i-deleted-an-order-30l0",
-      "pubDate": "2026-06-13T08:54:04.000Z",
-      "description": "<h2> My Dessert Shop Dashboard Was Choking on Its Own Data — Here's the Architecture That Fixed It </h2> <p><em>Next.js App Router · Supabase · PostgreSQL performance · Incremental rollup tables</em></p> <h2> The Scene: A Dashboard Loading Like It's On Dial-Up </h2> <p>Picture this: your admin dashb",
+      "title": "Day 16: ClickHouse Dictionaries – Eliminating Expensive JOINs with High-Speed In-Memory Lookups",
+      "link": "https://dev.to/kanishga_subramani_49ad73/day-16-clickhouse-dictionaries-eliminating-expensive-joins-with-high-speed-in-memory-lookups-d5b",
+      "pubDate": "2026-06-13T14:04:37.000Z",
+      "description": "<p>When working with analytical databases, enriching fact tables with customer information, product metadata, geographical mappings, or business attributes is a common requirement. Traditionally, this enrichment is performed using SQL JOINs.</p> <p>While JOINs work well, they can become increasingly",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "Introduction to the experience of rendering Arabic typography&its technical debt",
+      "link": "https://lr0.org/blog/p/arabic/",
+      "pubDate": "2026-06-13T12:40:16.000Z",
+      "description": "Article URL: https://lr0.org/blog/p/arabic/ Comments URL: https://news.ycombinator.com/item?id=48516710 Points: 7 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "An Interview with Intel's Kira Boyko: Xeon 6's Product Director",
+      "link": "https://chipsandcheese.com/p/an-interview-with-intels-kira-boyko",
+      "pubDate": "2026-06-13T12:20:05.000Z",
+      "description": "Article URL: https://chipsandcheese.com/p/an-interview-with-intels-kira-boyko Comments URL: https://news.ycombinator.com/item?id=48516573 Points: 24 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Sam Bankman-Fried loses bid to appeal against fraud conviction in FTX case",
+      "link": "https://www.theguardian.com/business/2026/jun/12/sam-bankman-fried-loses-appeal",
+      "pubDate": "2026-06-13T12:17:27.000Z",
+      "description": "Article URL: https://www.theguardian.com/business/2026/jun/12/sam-bankman-fried-loses-appeal Comments URL: https://news.ycombinator.com/item?id=48516558 Points: 22 # Comments: 5",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Show HN: 2 Weeks of Hallucinate – The Photo Gallery",
+      "link": "https://hallucinate.site/gallery",
+      "pubDate": "2026-06-13T12:11:35.000Z",
+      "description": "Article URL: https://hallucinate.site/gallery Comments URL: https://news.ycombinator.com/item?id=48516510 Points: 42 # Comments: 13",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "AI OSS tool repo goes archived over night after raising $7.3M Seed",
+      "link": "https://github.com/tensorzero/tensorzero",
+      "pubDate": "2026-06-13T12:10:47.000Z",
+      "description": "Article URL: https://github.com/tensorzero/tensorzero Comments URL: https://news.ycombinator.com/item?id=48516504 Points: 71 # Comments: 40",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Arch Linux Now Believes Malware Incident Under Control: More Than 1,500 Packages",
+      "link": "https://www.phoronix.com/news/Arch-Linux-AUR-More-Than-1500",
+      "pubDate": "2026-06-13T11:55:30.000Z",
+      "description": "Article URL: https://www.phoronix.com/news/Arch-Linux-AUR-More-Than-1500 Comments URL: https://news.ycombinator.com/item?id=48516379 Points: 105 # Comments: 44",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Show HN: Paca – Lightweight Jira alternative for human-AI collaboration",
+      "link": "https://github.com/Paca-AI/paca",
+      "pubDate": "2026-06-13T09:44:25.000Z",
+      "description": "I built Paca out of pure passion—a free and lightweight Jira alternative written in Go where humans and AI agents work together as equal teammates to plan sprints and assign tasks to each other. It is fully customizable with custom views, fields, and a WASM-based plugin architecture. My team uses it",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "The Fable 5 Jailbreak Shows Why AI Guardrails Alone Are Not Enough",
+      "link": "https://www.agilehunt.com/blog/fable-5-jailbreak-ai-guardrails",
+      "pubDate": "2026-06-13T09:39:57.000Z",
+      "description": "Article URL: https://www.agilehunt.com/blog/fable-5-jailbreak-ai-guardrails Comments URL: https://news.ycombinator.com/item?id=48515344 Points: 3 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "A low-carbon computing platform from your retired phones",
+      "link": "https://research.google/blog/a-low-carbon-computing-platform-from-your-retired-phones/",
+      "pubDate": "2026-06-13T09:38:32.000Z",
+      "description": "Article URL: https://research.google/blog/a-low-carbon-computing-platform-from-your-retired-phones/ Comments URL: https://news.ycombinator.com/item?id=48515336 Points: 110 # Comments: 52",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "Israeli firm BlackCore suspected of meddling in New York and Scotland votes",
       "link": "https://www.reuters.com/world/israeli-firm-blackcore-also-suspected-meddling-nyc-scotland-votes-french-2026-06-11/",
       "pubDate": "2026-06-13T07:45:39.000Z",
-      "description": "Article URL: https://www.reuters.com/world/israeli-firm-blackcore-also-suspected-meddling-nyc-scotland-votes-french-2026-06-11/ Comments URL: https://news.ycombinator.com/item?id=48514560 Points: 100 # Comments: 21",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Ask HN: What Are You Working On?",
-      "link": "https://news.ycombinator.com/item?id=48514461",
-      "pubDate": "2026-06-13T07:30:59.000Z",
-      "description": "It's been a while since the last thread, and I am a curious bee. Comments URL: https://news.ycombinator.com/item?id=48514461 Points: 12 # Comments: 8",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Show HN: Skill for your agent to visualize your gbrain and Obsidian",
-      "link": "https://github.com/vladignatyev/brain-map-skill",
-      "pubDate": "2026-06-13T06:43:42.000Z",
-      "description": "Article URL: https://github.com/vladignatyev/brain-map-skill Comments URL: https://news.ycombinator.com/item?id=48514124 Points: 5 # Comments: 1",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Leaving Mozilla",
-      "link": "https://blog.unitedheroes.net/5751",
-      "pubDate": "2026-06-13T05:57:14.000Z",
-      "description": "Article URL: https://blog.unitedheroes.net/5751 Comments URL: https://news.ycombinator.com/item?id=48513806 Points: 134 # Comments: 39",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Shepherd's Dog: A Game by the Most Dangerous AI Model",
-      "link": "https://koenvangilst.nl/lab/claude-fable-shepherds-dog",
-      "pubDate": "2026-06-13T05:44:46.000Z",
-      "description": "Article URL: https://koenvangilst.nl/lab/claude-fable-shepherds-dog Comments URL: https://news.ycombinator.com/item?id=48513728 Points: 80 # Comments: 64",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "There is a shadow hanging over this Fable thing",
-      "link": "https://12gramsofcarbon.com/p/tech-things-there-is-a-massive-shadow",
-      "pubDate": "2026-06-13T05:16:41.000Z",
-      "description": "Article URL: https://12gramsofcarbon.com/p/tech-things-there-is-a-massive-shadow Comments URL: https://news.ycombinator.com/item?id=48513536 Points: 223 # Comments: 206",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "On CPU Physics and CPU Cycles",
-      "link": "https://6it.dev/blog/on-cpu-physics-and-cpu-cycles-80730",
-      "pubDate": "2026-06-13T04:37:08.000Z",
-      "description": "Article URL: https://6it.dev/blog/on-cpu-physics-and-cpu-cycles-80730 Comments URL: https://news.ycombinator.com/item?id=48513222 Points: 41 # Comments: 6",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Open source AI must win",
-      "link": "https://opensourceaimustwin.com/?share=v2",
-      "pubDate": "2026-06-13T02:14:24.000Z",
-      "description": "Article URL: https://opensourceaimustwin.com/?share=v2 Comments URL: https://news.ycombinator.com/item?id=48511908 Points: 880 # Comments: 272",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "TycoonLE: A Jax reinforcement learning environment for long-horizon planning",
-      "link": "https://github.com/vrtnis/tycoon-learning-environment",
-      "pubDate": "2026-06-13T02:02:07.000Z",
-      "description": "Article URL: https://github.com/vrtnis/tycoon-learning-environment Comments URL: https://news.ycombinator.com/item?id=48511773 Points: 12 # Comments: 1",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Statement on US government directive to suspend access to Fable 5 and Mythos 5",
-      "link": "https://www.anthropic.com/news/fable-mythos-access",
-      "pubDate": "2026-06-13T00:51:30.000Z",
-      "description": "https://x.com/ClaudeDevs/status/2065597942602531163 Comments URL: https://news.ycombinator.com/item?id=48511072 Points: 2217 # Comments: 1598",
+      "description": "Article URL: https://www.reuters.com/world/israeli-firm-blackcore-also-suspected-meddling-nyc-scotland-votes-french-2026-06-11/ Comments URL: https://news.ycombinator.com/item?id=48514560 Points: 320 # Comments: 172",
       "source": "Hacker News",
       "category": "Tech News"
     },
