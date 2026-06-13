@@ -1,94 +1,150 @@
 {
-  "generatedAt": "2026-06-13T04:52:04.105Z",
+  "generatedAt": "2026-06-13T09:34:23.693Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "Why Metadata-Driven ETL Frameworks Scale Better Than Hardcoded Pipelines — and Where They Don't",
-      "link": "https://dev.to/jaldeep_patel/why-metadata-driven-etl-frameworks-scale-better-than-hardcoded-pipelines-and-where-they-dont-5eni",
-      "pubDate": "2026-06-13T04:36:12.000Z",
-      "description": "<p>Over the years, I've seen many data platforms start with good intentions. A few scripts are created to move data from one system to another, and everything works fine. But as more vendors, APIs, and business requirements are added, those simple solutions gradually turn into hundreds of stored pro",
+      "title": "Show HN: NeuralBridge - Self-Healing SDK for LLM-Powered AI Agents",
+      "link": "https://dev.to/hhhfs9s7y9code/show-hn-neuralbridge-self-healing-sdk-for-llm-powered-ai-agents-309o",
+      "pubDate": "2026-06-13T09:21:26.000Z",
+      "description": "<h2> Show HN: NeuralBridge — We Built a Self-Healing SDK for LLM-Powered Agents </h2> <p>After months of production experience running LLM calls at scale, we realized something uncomfortable: <strong>every AI agent eventually crashes</strong>. Not because the code is wrong, but because LLM APIs fail",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I built a \"what do I need on my final\" calculator with AI auto-fill (Next.js 16 + Gemini)",
-      "link": "https://dev.to/yashmitb/i-built-a-what-do-i-need-on-my-final-calculator-with-ai-auto-fill-nextjs-16-gemini-899",
-      "pubDate": "2026-06-13T04:35:14.000Z",
-      "description": "<p>Every finals season I'd end up doing the same algebra on a notes app: \"I have a 91% in homework (20%), 84% on the midterm (30%)... what do I need on the final (50%) to get an A-?\" So I built GradeHQ to do it for me — and then kept adding to it until it became a real side project.</p> <p>Live: gra",
+      "title": "NeuralBridge: Self-Healing SDK for LLM-Powered AI Agents - Getting Started in 5 Minutes",
+      "link": "https://dev.to/hhhfs9s7y9code/neuralbridge-self-healing-sdk-for-llm-powered-ai-agents-getting-started-in-5-minutes-1677",
+      "pubDate": "2026-06-13T09:20:56.000Z",
+      "description": "<h2> What is NeuralBridge? </h2> <p>NeuralBridge is an <strong>embedded SDK</strong> (not a gateway) that makes your AI agents resilient against LLM failures. It runs inside your Python process — zero infrastructure, zero HTTP proxy, one dependency.<br> </p> <div class=\"highlight js-code-highlight\">",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Loopcraft: Stop Prompting, Start Designing Loops",
-      "link": "https://dev.to/max_quimby/loopcraft-stop-prompting-start-designing-loops-2lke",
-      "pubDate": "2026-06-13T04:32:55.000Z",
-      "description": "<p>On June 7, 2026, Peter Steinberger — the creator of OpenClaw — posted twelve words that ricocheted across every AI engineering corner of the internet: \"You shouldn't be prompting coding agents anymore. You should be designing loops that prompt your agents.\"</p> <blockquote> <p>📖 <a href=\"https:/",
+      "title": "How I built a search engine",
+      "link": "https://dev.to/kenny-204/how-i-built-a-search-engine-54j",
+      "pubDate": "2026-06-13T09:18:51.000Z",
+      "description": "<p>Hello all, I built a search engine from scratch in Java. In a previous course we were given it as a group project, but since I worked on just the document processing module, I didn't really understand (I didn't understand at all actually) how the rest of it worked, so I decided to rebuild it from",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Quick Share, AirDrop, and Android screen mirroring are not the same workflow",
-      "link": "https://dev.to/laicaiapp/quick-share-airdrop-and-android-screen-mirroring-are-not-the-same-workflow-22fj",
-      "pubDate": "2026-06-13T04:25:00.000Z",
-      "description": "<p>Quick Share and AirDrop-style sharing are useful because they solve a simple problem: a file needs to move from one device to another.</p> <p>That file might be a screenshot, a product photo, a PDF, a log, or a short video.</p> <p>But a lot of team work starts before the file exists.</p> <p>Suppo",
+      "title": "The Best Platform for Learning Programming in 2026 Isn't What You Think",
+      "link": "https://dev.to/arshad_azeezm_653/the-best-platform-for-learning-programming-in-2026-isnt-what-you-think-1dc4",
+      "pubDate": "2026-06-13T09:11:47.000Z",
+      "description": "<p>Every year, millions of students open YouTube, find a Python tutorial, watch three hours of someone else coding, and then close the laptop feeling like they learned something.<br> They didn't.<br> They watched someone else learn. That's not the same thing.<br> This is the quiet crisis in programm",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How to Build a Telegram Crypto Checkout in Go (And Avoid Going Insane with Manual Checks)",
-      "link": "https://dev.to/qzbxw/how-to-build-a-telegram-crypto-checkout-in-go-and-avoid-going-insane-with-manual-checks-58ca",
-      "pubDate": "2026-06-13T04:23:03.000Z",
-      "description": "<p>We've all built that one MVP. You know the flow:</p> <ol> <li>Your bot spits out a USDT address.</li> <li>You ask the customer to reply with a transaction hash or, worse, a screenshot.</li> <li>You manually open Tronscan or Solscan.</li> <li>You squint at the network, token, recipient, amount, an",
+      "title": "Two Bugs That Taught Me More Than Any Tutorial",
+      "link": "https://dev.to/clinztouch/two-bugs-that-taught-me-more-than-any-tutorial-2jh7",
+      "pubDate": "2026-06-13T09:07:29.000Z",
+      "description": "<p>Introduction<br> I'm Calvin, a backend engineering intern at HNG, currently wrapping up HNG14. This post is about two tasks from the internship that genuinely humbled me — one individual, one team. Not the tasks I completed smoothly. The ones that made me stare at logs at 2am wondering if I under",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "It is one of the most frustrating experiences in online learning: you sit down to focus on a Udemy course, but the video player constantly pauses, freezes, or refuses to load. Meanwhile, YouTube, Netflix, and every other app on your Mac run perfectly fine.",
-      "link": "https://dev.to/saint_vandora/it-is-one-of-the-most-frustrating-experiences-in-online-learning-you-sit-down-to-focus-on-a-udemy-2f3",
-      "pubDate": "2026-06-13T04:22:16.000Z",
-      "description": "<div class=\"ltag__link--embedded\"> <div class=\"crayons-story \"> <a href=\"https://dev.to/saint_vandora/how-to-fix-udemy-videos-constantly-pausing-on-macos-when-other-apps-work-fine-3dcc\" class=\"crayons-story__hidden-navigation-link\">How to Fix Udemy Videos Constantly Pausing on macOS (When Other Apps",
+      "title": "KeepAI: a local, open-source API hub that lets AI agents use your apps safely",
+      "link": "https://dev.to/keepai/keepai-a-local-open-source-api-hub-that-lets-ai-agents-use-your-apps-safely-a6i",
+      "pubDate": "2026-06-13T09:05:35.000Z",
+      "description": "<p>AI agents are getting good at doing things — triaging your inbox, updating a Notion doc, opening a GitHub issue, moving a Trello card. But to do any of that, an agent needs access to your accounts. And that's where most setups quietly become a problem: you hand an agent a long-lived API key or an",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "JWT Stateless: Arquitectura, seguridad y límites reales",
-      "link": "https://dev.to/jcmexdev/jwt-stateless-arquitectura-seguridad-y-limites-reales-4hgh",
-      "pubDate": "2026-06-13T04:21:43.000Z",
-      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F09ehrjw0tztmdf27iyko.jpg\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/width=800%",
+      "title": "From idea to paying customers: building an AI changelog tool with Angular 21",
+      "link": "https://dev.to/harrypt4/from-idea-to-paying-customers-building-an-ai-changelog-tool-with-angular-21-19cm",
+      "pubDate": "2026-06-13T09:01:55.000Z",
+      "description": "<h1> How I built Releasely with Angular 21, Supabase, and Claude API </h1> <p>I just launched <a href=\"https://releasely.io\" rel=\"noopener noreferrer\">Releasely</a> — an AI changelog generator for indie SaaS founders. From first commit to deployed product while working part-time around my day job.</",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "AI Agent協作的品質監控策略",
-      "link": "https://dev.to/jh5_pulse/ai-agentxie-zuo-de-pin-zhi-jian-kong-ce-lue-2a7j",
-      "pubDate": "2026-06-13T04:17:49.000Z",
-      "description": "<h1> AI 工具整合評估報告 </h1> <h2> 執行摘要 </h2> <p>本報告評估了 7 個 AI 工具在臨床基因體學領域的應用潛力，重點測試了 3 個優先級最高的工具：MedGemma 醫療大語言模型、Nemotron RAG 文獻檢索系統，以及 Kimi K2.5 多模態視覺語言模型。</p> <p><strong>評估日期</strong>: 2026-02-10<br><br> <strong>測試平台</strong>: RTX 3090 24GB<br><br> <strong>評估目標</strong>: 確認 AI 工具在變異解釋與臨床決策中的可行性</p> <h2",
+      "title": "Iterative Security Audit: 45 Probes, 0 Critical, 6 Regression Tests Kept",
+      "link": "https://dev.to/ohugonnot/iterative-security-audit-45-probes-0-critical-6-regression-tests-kept-3j2g",
+      "pubDate": "2026-06-13T09:00:02.000Z",
+      "description": "<p>Throughout this series, I've shared patterns discovered during a security audit on a Go authentication service: <a href=\"https://www.web-developpeur.com/en/blog/pkcs12-windows-pbes2-cng\" rel=\"noopener noreferrer\">PKCS#12</a>, <a href=\"https://www.web-developpeur.com/en/blog/argon2-timing-oracle-d",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "練習跟同事的AI Agent協作",
-      "link": "https://dev.to/jh5_pulse/lian-xi-gen-tong-shi-de-ai-agentxie-zuo-1dap",
-      "pubDate": "2026-06-13T04:17:43.000Z",
-      "description": "<h1> 用 AI Agent 控制地端 Kubernetes Cluster：開發與實戰經驗彙整 </h1> <blockquote> <p>2026 年 3 月 | 整理自社群公開發表的實戰經驗與開源專案</p> </blockquote> <h2> 前言 </h2> <p>2025–2026 年，AI Agent 從「實驗性玩具」快速演變為能直接操作生產環境的基礎設施。其中最引人注目的應用之一，就是<strong>讓 AI Agent 直接控制地端（on-premise）Kubernetes 叢集</strong>——從故障診斷、資源調度到自動修復，全都可以用自然語言驅動。</p> <p",
+      "title": "Great Stack to Doesn't Work Bonus: 10 Bash Scripting Golden Rules",
+      "link": "https://dev.to/turacthethinker/great-stack-to-doesnt-work-bonus-10-bash-scripting-golden-rules-1n65",
+      "pubDate": "2026-06-13T09:00:00.000Z",
+      "description": "<h1> Great Stack to Doesn't Work — Bonus </h1> <h1> 10 Bash Scripting Golden Rules </h1> <p><em>Because your deployment script is production code whether you admit it or not.</em></p> <p><strong>1. Start every script with <code>set -euo pipefail</code>.</strong><br> </p> <div class=\"highlight js-cod",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "When you just need to inspect a webhook before writing code",
-      "link": "https://dev.to/adal-cloud/when-you-just-need-to-inspect-a-webhook-before-writing-code-5efd",
-      "pubDate": "2026-06-13T04:16:51.000Z",
-      "description": "<p>Webhooks are usually discussed as something your application should process automatically.</p> <p>A payment provider sends an event. A Git hosting service notifies you about a push. A SaaS product sends a status update. Your backend receives the request, verifies it, stores it, and runs the requi",
+      "title": "From 5 Seconds to 50ms: How I Stopped Nuking My Database Every Time I Deleted an Order",
+      "link": "https://dev.to/akashpattnaik/from-5-seconds-to-50ms-how-i-stopped-nuking-my-database-every-time-i-deleted-an-order-30l0",
+      "pubDate": "2026-06-13T08:54:04.000Z",
+      "description": "<h2> My Dessert Shop Dashboard Was Choking on Its Own Data — Here's the Architecture That Fixed It </h2> <p><em>Next.js App Router · Supabase · PostgreSQL performance · Incremental rollup tables</em></p> <h2> The Scene: A Dashboard Loading Like It's On Dial-Up </h2> <p>Picture this: your admin dashb",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "Israeli firm BlackCore suspected of meddling in New York and Scotland votes",
+      "link": "https://www.reuters.com/world/israeli-firm-blackcore-also-suspected-meddling-nyc-scotland-votes-french-2026-06-11/",
+      "pubDate": "2026-06-13T07:45:39.000Z",
+      "description": "Article URL: https://www.reuters.com/world/israeli-firm-blackcore-also-suspected-meddling-nyc-scotland-votes-french-2026-06-11/ Comments URL: https://news.ycombinator.com/item?id=48514560 Points: 100 # Comments: 21",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Ask HN: What Are You Working On?",
+      "link": "https://news.ycombinator.com/item?id=48514461",
+      "pubDate": "2026-06-13T07:30:59.000Z",
+      "description": "It's been a while since the last thread, and I am a curious bee. Comments URL: https://news.ycombinator.com/item?id=48514461 Points: 12 # Comments: 8",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Show HN: Skill for your agent to visualize your gbrain and Obsidian",
+      "link": "https://github.com/vladignatyev/brain-map-skill",
+      "pubDate": "2026-06-13T06:43:42.000Z",
+      "description": "Article URL: https://github.com/vladignatyev/brain-map-skill Comments URL: https://news.ycombinator.com/item?id=48514124 Points: 5 # Comments: 1",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Leaving Mozilla",
+      "link": "https://blog.unitedheroes.net/5751",
+      "pubDate": "2026-06-13T05:57:14.000Z",
+      "description": "Article URL: https://blog.unitedheroes.net/5751 Comments URL: https://news.ycombinator.com/item?id=48513806 Points: 134 # Comments: 39",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Shepherd's Dog: A Game by the Most Dangerous AI Model",
+      "link": "https://koenvangilst.nl/lab/claude-fable-shepherds-dog",
+      "pubDate": "2026-06-13T05:44:46.000Z",
+      "description": "Article URL: https://koenvangilst.nl/lab/claude-fable-shepherds-dog Comments URL: https://news.ycombinator.com/item?id=48513728 Points: 80 # Comments: 64",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "There is a shadow hanging over this Fable thing",
+      "link": "https://12gramsofcarbon.com/p/tech-things-there-is-a-massive-shadow",
+      "pubDate": "2026-06-13T05:16:41.000Z",
+      "description": "Article URL: https://12gramsofcarbon.com/p/tech-things-there-is-a-massive-shadow Comments URL: https://news.ycombinator.com/item?id=48513536 Points: 223 # Comments: 206",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "On CPU Physics and CPU Cycles",
+      "link": "https://6it.dev/blog/on-cpu-physics-and-cpu-cycles-80730",
+      "pubDate": "2026-06-13T04:37:08.000Z",
+      "description": "Article URL: https://6it.dev/blog/on-cpu-physics-and-cpu-cycles-80730 Comments URL: https://news.ycombinator.com/item?id=48513222 Points: 41 # Comments: 6",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "Open source AI must win",
       "link": "https://opensourceaimustwin.com/?share=v2",
       "pubDate": "2026-06-13T02:14:24.000Z",
-      "description": "Article URL: https://opensourceaimustwin.com/?share=v2 Comments URL: https://news.ycombinator.com/item?id=48511908 Points: 446 # Comments: 143",
+      "description": "Article URL: https://opensourceaimustwin.com/?share=v2 Comments URL: https://news.ycombinator.com/item?id=48511908 Points: 880 # Comments: 272",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -96,23 +152,7 @@
       "title": "TycoonLE: A Jax reinforcement learning environment for long-horizon planning",
       "link": "https://github.com/vrtnis/tycoon-learning-environment",
       "pubDate": "2026-06-13T02:02:07.000Z",
-      "description": "Article URL: https://github.com/vrtnis/tycoon-learning-environment Comments URL: https://news.ycombinator.com/item?id=48511773 Points: 3 # Comments: 1",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "As a result of a US Government directive, we are suspending access to Fable 5",
-      "link": "https://twitter.com/ClaudeDevs/status/2065597942602531163",
-      "pubDate": "2026-06-13T01:02:41.000Z",
-      "description": "Article URL: https://twitter.com/ClaudeDevs/status/2065597942602531163 Comments URL: https://news.ycombinator.com/item?id=48511168 Points: 77 # Comments: 18",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "We've suspended access to Claude Mythos 5 and Claude Fable 5",
-      "link": "https://status.claude.com/incidents/s9w82lp9dcn9",
-      "pubDate": "2026-06-13T00:58:06.000Z",
-      "description": "Article URL: https://status.claude.com/incidents/s9w82lp9dcn9 Comments URL: https://news.ycombinator.com/item?id=48511121 Points: 226 # Comments: 109",
+      "description": "Article URL: https://github.com/vrtnis/tycoon-learning-environment Comments URL: https://news.ycombinator.com/item?id=48511773 Points: 12 # Comments: 1",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -120,47 +160,7 @@
       "title": "Statement on US government directive to suspend access to Fable 5 and Mythos 5",
       "link": "https://www.anthropic.com/news/fable-mythos-access",
       "pubDate": "2026-06-13T00:51:30.000Z",
-      "description": "Article URL: https://www.anthropic.com/news/fable-mythos-access Comments URL: https://news.ycombinator.com/item?id=48511072 Points: 1468 # Comments: 1002",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "AMD Stiffs Researcher $10k Bug Bounty",
-      "link": "https://www.gadgetreview.com/amd-stiffs-researcher-10000-bug-bounty-after-critical-security-flaw-takes-124-days-to-fix",
-      "pubDate": "2026-06-12T22:57:27.000Z",
-      "description": "Article URL: https://www.gadgetreview.com/amd-stiffs-researcher-10000-bug-bounty-after-critical-security-flaw-takes-124-days-to-fix Comments URL: https://news.ycombinator.com/item?id=48510357 Points: 84 # Comments: 9",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Show HN: Putt.day a daily mini golf game",
-      "link": "https://putt.day/",
-      "pubDate": "2026-06-12T22:56:06.000Z",
-      "description": "Article URL: https://putt.day/ Comments URL: https://news.ycombinator.com/item?id=48510341 Points: 111 # Comments: 62",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Twenty One Zero-Days in FFmpeg",
-      "link": "https://depthfirst.com/research/21-zero-days-in-ffmpeg",
-      "pubDate": "2026-06-12T22:13:29.000Z",
-      "description": "Article URL: https://depthfirst.com/research/21-zero-days-in-ffmpeg Comments URL: https://news.ycombinator.com/item?id=48510046 Points: 144 # Comments: 78",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Renault: Electric motors with no rare earths",
-      "link": "https://www.renaultgroup.com/en/magazine/energy-and-powertrains/all-about-electric-motors-with-no-rare-earths/",
-      "pubDate": "2026-06-12T22:08:03.000Z",
-      "description": "Article URL: https://www.renaultgroup.com/en/magazine/energy-and-powertrains/all-about-electric-motors-with-no-rare-earths/ Comments URL: https://news.ycombinator.com/item?id=48510010 Points: 307 # Comments: 76",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "SkillSpector",
-      "link": "https://github.com/NVIDIA/SkillSpector",
-      "pubDate": "2026-06-12T21:49:49.000Z",
-      "description": "Article URL: https://github.com/NVIDIA/SkillSpector Comments URL: https://news.ycombinator.com/item?id=48509844 Points: 25 # Comments: 4",
+      "description": "https://x.com/ClaudeDevs/status/2065597942602531163 Comments URL: https://news.ycombinator.com/item?id=48511072 Points: 2217 # Comments: 1598",
       "source": "Hacker News",
       "category": "Tech News"
     },
