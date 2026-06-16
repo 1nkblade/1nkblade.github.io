@@ -1,173 +1,248 @@
 {
-  "generatedAt": "2026-06-16T17:20:56.473Z",
+  "generatedAt": "2026-06-16T21:20:01.695Z",
   "sourceCount": 4,
-  "successCount": 3,
-  "errors": [
-    {
-      "source": "CSS Tricks",
-      "error": "HTTP 415 Unsupported Media Type"
-    }
-  ],
+  "successCount": 4,
+  "errors": [],
   "items": [
     {
-      "title": "Subsets II | Backtracking",
-      "link": "https://dev.to/jaspreet_singh_86ae1740ac/subsets-ii-backtracking-3cmo",
-      "pubDate": "2026-06-16T17:18:50.000Z",
-      "description": "<div class=\"crayons-card c-embed text-styles text-styles--secondary\"> <div class=\"c-embed__content\"> <div class=\"c-embed__body flex items-center justify-between\"> <a href=\"https://leetcode.com/problems/subsets-ii/description/\" rel=\"noopener noreferrer\" class=\"c-link fw-bold flex items-center\"> <span",
+      "title": "Common Pitfalls Building Email Agents (and Fixes)",
+      "link": "https://dev.to/qasim157/common-pitfalls-building-email-agents-and-fixes-29kg",
+      "pubDate": "2026-06-16T21:18:04.000Z",
+      "description": "<p>A team ships their first email agent on a Thursday. Demo went great, handler's deployed, webhook's registered. Friday morning the on-call wakes up to an inbox where the agent has been enthusiastically replying to its own replies all night, a customer who received the same answer three times, and ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Idempotency Lessons From an Email Agent",
-      "link": "https://dev.to/qasim157/idempotency-lessons-from-an-email-agent-2ocb",
-      "pubDate": "2026-06-16T17:17:54.000Z",
-      "description": "<p>A customer emails your support agent at 9:14 a.m. At 9:15 they get a helpful reply. At 9:16 they get the same reply again, word for word. Nothing crashed. No exception was thrown. Your agent just did exactly what it was told — twice.</p> <p>I think email agents are the best teacher of idempotency",
+      "title": "Software Execution Governance Starts Before Production",
+      "link": "https://dev.to/otaready/software-execution-governance-starts-before-production-4chn",
+      "pubDate": "2026-06-16T21:14:09.000Z",
+      "description": "<p>Most teams still talk about governance as if it begins at deployment.</p> <p>Approvals. Production access. Compliance review. Audit trails.</p> <p>All of that matters.</p> <p>But by the time software reaches production, many of the most important execution decisions have already happened:</p> <ul",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Observability for Email Agents",
-      "link": "https://dev.to/qasim157/observability-for-email-agents-4egn",
-      "pubDate": "2026-06-16T17:17:50.000Z",
-      "description": "<p>You can't watch an email agent work, but everything it did yesterday is one API call away:<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight shell\"><code>curl <span class=\"nt\">--request</span> GET <span class=\"se\">\\</span> <span class=\"nt\">--url</span> <span class=\"s2\">\"htt",
+      "title": "Flutter Architecture Explained: What Every Beginner Needs to Know",
+      "link": "https://dev.to/edwin_gichira_92748e19bb6/flutter-architecture-explained-what-every-beginner-needs-to-know-1oim",
+      "pubDate": "2026-06-16T21:10:49.000Z",
+      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fk4rsliantknm6m0rtbdt.png\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/width=800%",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Human-in-the-Loop Design for Email Agents",
-      "link": "https://dev.to/qasim157/human-in-the-loop-design-for-email-agents-3fhc",
-      "pubDate": "2026-06-16T17:17:47.000Z",
-      "description": "<p>A refund request lands in your support agent's queue. The knowledge-base match comes back at 0.91 confidence — comfortably above your drafting threshold, with a clean article on refund policy attached. The agent should still not send that reply. If that sentence sounds wrong to you, this post is ",
+      "title": "AWS Blocks: Full-Stack Building Blocks That Run Locally Without an AWS Account",
+      "link": "https://dev.to/aws-heroes/aws-blocks-full-stack-building-blocks-that-run-locally-without-an-aws-account-346l",
+      "pubDate": "2026-06-16T21:08:56.000Z",
+      "description": "<h2> Why I built a Custom Kiro Power to ship faster with AWS Blocks </h2> <p>Every developer building on AWS has hit the same wall. You need a sandbox account to test your idea. In most organizations that means a ticket, an approval workflow, a budget tag, and three days of waiting before you can fi",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The Lifecycle of an Agent Identity: Provision to Teardown",
-      "link": "https://dev.to/qasim157/the-lifecycle-of-an-agent-identity-provision-to-teardown-5c40",
-      "pubDate": "2026-06-16T17:17:43.000Z",
-      "description": "<p>Every infrastructure team has a graveyard. Service accounts nobody remembers creating. API keys that outlived their project by three years. Credentials that still work and absolutely shouldn't. Email identities for AI agents are about to join that graveyard in large numbers — unless you treat the",
+      "title": "SpaceX Acquires AI Coding Tool Cursor for $60 Billion",
+      "link": "https://dev.to/joodi/spacex-acquires-ai-coding-tool-cursor-for-60-billion-30c7",
+      "pubDate": "2026-06-16T21:07:40.000Z",
+      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Foy1n83yp803ee4oiw3ag.png\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/width=800%",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How to Launch Your Side Project Without Spending a Week Writing Copy",
-      "link": "https://dev.to/karamanbk/how-to-launch-your-side-project-without-spending-a-week-writing-copy-457b",
-      "pubDate": "2026-06-16T17:14:11.000Z",
-      "description": "<p>You shipped. Finally. The thing works, you've got users who like it, and now you need to actually tell people it exists.</p> <p>And then you open a blank doc and realize the launch itself might take longer than building the product.</p> <p>Product Hunt description. Twitter thread. Reddit post for",
+      "title": "Arquitectura y Seguridad en la Nube: El próximo nivel del desarrollador",
+      "link": "https://dev.to/xinlin25/arquitectura-y-seguridad-en-la-nube-el-proximo-nivel-del-desarrollador-1bnd",
+      "pubDate": "2026-06-16T21:05:59.000Z",
+      "description": "<h1> Arquitectura y Seguridad en la Nube: el próximo nivel del desarrollador </h1> <p>Cuando una aplicación web funciona en local, parece que ya esta casi terminada. Pero en realidad todavía queda una parte muy importante: decidir donde va a vivir, como se va a proteger y que pasara si de repente la",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "File System Deep Dive, File Operations &amp; Permissions",
-      "link": "https://dev.to/tejas_shinkar/file-system-deep-dive-file-operations-permissions-4k92",
-      "pubDate": "2026-06-16T17:14:07.000Z",
-      "description": "<h2> 📌 What's covered in this session </h2> <ul> <li>Linux File System Hierarchy — deeper look at every directory</li> <li>File Operations — <code>rm</code>, <code>cp</code>, <code>mv</code> with all flags</li> <li>Linux Permissions — what they mean, how they work</li> <li>Symbolic vs Numeric permi",
+      "title": "Apache Data Lakehouse Weekly: June 9 to 16, 2026",
+      "link": "https://dev.to/alexmercedcoder/apache-data-lakehouse-weekly-june-9-to-16-2026-5dj1",
+      "pubDate": "2026-06-16T21:05:51.000Z",
+      "description": "<p>This was a week of votes that passed and arguments that opened. Iceberg shipped three formal decisions while debating how to cut read latency for V4. Polaris worked through the unglamorous plumbing of error codes, persistence, and retention. Parquet reopened the oldest question in its history, wh",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "\"50 Free Resources Every Web Dev Beginner Needs (Bookmarked by 10,000+ Devs)\"",
-      "link": "https://dev.to/devraj_singh7/50-free-resources-every-web-dev-beginner-needs-bookmarked-by-10000-devs-4632",
-      "pubDate": "2026-06-16T17:13:16.000Z",
-      "description": "<blockquote> <p>\"I wasted 6 months learning the wrong things in the wrong order. Here's everything I wish someone handed me on Day 1.\"</p> </blockquote> <p>I still remember opening VS Code for the first time and having absolutely <strong>no idea</strong> where to start. I Googled \"how to learn web d",
+      "title": "have you installed the Agent Toolkit for AWS yet?",
+      "link": "https://dev.to/hacksore/have-you-installed-the-agent-toolkit-for-aws-yet-2bap",
+      "pubDate": "2026-06-16T21:03:54.000Z",
+      "description": "",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "10 Indispensable Prompts Our Team Refuses to Build Without",
-      "link": "https://dev.to/googleai/10-indispensable-prompts-our-team-refuses-to-build-without-46bj",
-      "pubDate": "2026-06-16T17:10:21.000Z",
-      "description": "<p>Look at any builder's prompt history and you'll see a collection of highly specific, chaotic, one-off prompts. We use AI to debug a single error message, refactor a messy email, or generate a quick boilerplate.</p> <p>If you sit down with people who consistently ship high-quality work, you'll fin",
+      "title": "The Architect of Complexity: How Jeff Bezos Scaled the Digital and Physical Worlds (1996–1998)",
+      "link": "https://dev.to/bioshistory/the-architect-of-complexity-how-jeff-bezos-scaled-the-digital-and-physical-worlds-1996-1998-513l",
+      "pubDate": "2026-06-16T21:00:00.000Z",
+      "description": "<p>In the mid-1990s, the world viewed the burgeoning internet as a digital playground—a place for chat rooms, static web pages, and the occasional novelty. But inside a small, humming office in Seattle, Jeff Bezos was engaged in a much more violent struggle. He wasn't just building a bookstore; he w",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "About me",
-      "link": "https://dev.to/marvinrichter/about-me-30db",
-      "pubDate": "2026-06-16T17:07:59.000Z",
-      "description": "<p>I'm a freelance software architect in Berlin working on serious software systems: JVM modernization, Cloudflare-native TypeScript platforms, data/knowledge architectures, and agentic engineering with guardrails.</p> <p>My throughline is <strong>enforceable discipline</strong>: architecture rules ",
+      "title": "Cloudflare cf_clearance: why it expires and how to stop the re-challenge loop",
+      "link": "https://dev.to/bshahin/cloudflare-cfclearance-why-it-expires-and-how-to-stop-the-re-challenge-loop-do9",
+      "pubDate": "2026-06-16T20:58:13.000Z",
+      "description": "<h1> Cloudflare cf_clearance: why it expires and how to stop the re-challenge loop </h1> <p>You solve the Cloudflare challenge, get a <code>cf_clearance</code> cookie, make your next request — and Cloudflare throws you straight back to the challenge. You solve it again, same thing. The scraper is te",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "TIL: You can make HTTP requests without curl using Bash /dev/TCP",
-      "link": "https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/",
-      "pubDate": "2026-06-16T16:40:58.000Z",
-      "description": "Article URL: https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/ Comments URL: https://news.ycombinator.com/item?id=48558018 Points: 17 # Comments: 2",
+      "title": "Frood, an Alpine Initramfs NAS",
+      "link": "https://words.filippo.io/frood/",
+      "pubDate": "2026-06-16T20:17:04.000Z",
+      "description": "Article URL: https://words.filippo.io/frood/ Comments URL: https://news.ycombinator.com/item?id=48561402 Points: 12 # Comments: 2",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Making ast.walk 220x Faster",
-      "link": "https://reflex.dev/blog/why-ast-walk-when-you-can-ast-sprint/",
-      "pubDate": "2026-06-16T16:25:28.000Z",
-      "description": "Article URL: https://reflex.dev/blog/why-ast-walk-when-you-can-ast-sprint/ Comments URL: https://news.ycombinator.com/item?id=48557768 Points: 27 # Comments: 6",
+      "title": "Nobody clicks share buttons",
+      "link": "https://ankursethi.com/links/nobody-clicks-your-share-buttons/",
+      "pubDate": "2026-06-16T20:12:05.000Z",
+      "description": "Article URL: https://ankursethi.com/links/nobody-clicks-your-share-buttons/ Comments URL: https://news.ycombinator.com/item?id=48561332 Points: 82 # Comments: 31",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Never talk to the police",
-      "link": "https://www.campolalaw.com/why-you-should-never-talk-to-the-po",
-      "pubDate": "2026-06-16T16:16:38.000Z",
-      "description": "Article URL: https://www.campolalaw.com/why-you-should-never-talk-to-the-po Comments URL: https://news.ycombinator.com/item?id=48557607 Points: 45 # Comments: 15",
+      "title": "Databricks Launches LTAP: A Unified OLAP/OLTP Data Architecture",
+      "link": "https://www.databricks.com/company/newsroom/press-releases/databricks-launches-ltap-first-lake-transactionalanalytical",
+      "pubDate": "2026-06-16T19:45:11.000Z",
+      "description": "Article URL: https://www.databricks.com/company/newsroom/press-releases/databricks-launches-ltap-first-lake-transactionalanalytical Comments URL: https://news.ycombinator.com/item?id=48560886 Points: 18 # Comments: 5",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "GateGPT: 56k tokens per second Transformer (KV cache) on FPGA at 80 MHz",
-      "link": "https://twitter.com/fguzmanai/status/2065832668172845209",
-      "pubDate": "2026-06-16T16:12:26.000Z",
-      "description": "Article URL: https://twitter.com/fguzmanai/status/2065832668172845209 Comments URL: https://news.ycombinator.com/item?id=48557535 Points: 16 # Comments: 4",
+      "title": "U.S. pulling ocean sensors a 'shock' for Canadian research as El Niño nears",
+      "link": "https://www.timescolonist.com/local-news/us-pulling-ocean-sensors-a-shock-for-canadian-research-as-el-nino-nears-12422874",
+      "pubDate": "2026-06-16T19:42:05.000Z",
+      "description": "Article URL: https://www.timescolonist.com/local-news/us-pulling-ocean-sensors-a-shock-for-canadian-research-as-el-nino-nears-12422874 Comments URL: https://news.ycombinator.com/item?id=48560847 Points: 302 # Comments: 158",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Apple's weird anti-nausea dots cured my car sickness",
-      "link": "https://www.theverge.com/tech/942854/apple-vehicle-motion-cues-review-really-work",
-      "pubDate": "2026-06-16T16:12:06.000Z",
-      "description": "Article URL: https://www.theverge.com/tech/942854/apple-vehicle-motion-cues-review-really-work Comments URL: https://news.ycombinator.com/item?id=48557530 Points: 79 # Comments: 22",
+      "title": "Show HN: VoiceDraw – Talk system design out loud, the diagrams draw themselves",
+      "link": "https://voicedraw.com/",
+      "pubDate": "2026-06-16T19:13:30.000Z",
+      "description": "I was frustated by having to draw system design diagrams by hand when discussing it with my team mates or in an interview. So I thought \"Wouldn't it be great if someone draws it for me, while I think out loud?\".That is when I came up with VoiceDraw. You can just think out loud or discuss your system",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "After AI Takes Everything",
-      "link": "https://ursb.me/en/posts/after-ai-takes-everything/",
-      "pubDate": "2026-06-16T15:20:05.000Z",
-      "description": "Article URL: https://ursb.me/en/posts/after-ai-takes-everything/ Comments URL: https://news.ycombinator.com/item?id=48556644 Points: 15 # Comments: 2",
+      "title": "Apple is about to make Hide My Email useless",
+      "link": "https://arseniyshestakov.com/2026/06/16/apple-is-about-to-make-hide-my-email-useless/",
+      "pubDate": "2026-06-16T18:37:21.000Z",
+      "description": "Article URL: https://arseniyshestakov.com/2026/06/16/apple-is-about-to-make-hide-my-email-useless/ Comments URL: https://news.ycombinator.com/item?id=48559935 Points: 175 # Comments: 71",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "SubQ 1.1 Small",
-      "link": "https://subq.ai/subq-1-1-small-technical-report",
-      "pubDate": "2026-06-16T14:50:10.000Z",
-      "description": "Article URL: https://subq.ai/subq-1-1-small-technical-report Comments URL: https://news.ycombinator.com/item?id=48556163 Points: 59 # Comments: 25",
+      "title": "Prop For That",
+      "link": "https://css-tricks.com/prop-for-that/",
+      "pubDate": "2026-06-16T18:36:25.000Z",
+      "description": "Props for That creates live props based things CSS can't normally see in the browser. Things like cursor position, progress values, certain form states, current time, scroll velocity. Prop For That originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as ",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "GPT‑NL: a sovereign language model for the Netherlands",
+      "link": "https://www.tno.nl/en/digital/artificial-intelligence/gpt-nl/",
+      "pubDate": "2026-06-16T17:54:02.000Z",
+      "description": "Article URL: https://www.tno.nl/en/digital/artificial-intelligence/gpt-nl/ Comments URL: https://news.ycombinator.com/item?id=48559188 Points: 84 # Comments: 62",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Running local models is good now",
-      "link": "https://vickiboykis.com/2026/06/15/running-local-models-is-good-now/",
-      "pubDate": "2026-06-16T14:36:57.000Z",
-      "description": "Article URL: https://vickiboykis.com/2026/06/15/running-local-models-is-good-now/ Comments URL: https://news.ycombinator.com/item?id=48555993 Points: 392 # Comments: 195",
+      "title": "10Gb/s Ethernet: switching to a Broadcom SFP+ module",
+      "link": "https://www.gilesthomas.com/2026/06/10g-ethernet-switching-to-broadcom-sfp-plus",
+      "pubDate": "2026-06-16T17:48:42.000Z",
+      "description": "Article URL: https://www.gilesthomas.com/2026/06/10g-ethernet-switching-to-broadcom-sfp-plus Comments URL: https://news.ycombinator.com/item?id=48559083 Points: 53 # Comments: 42",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "But yak shaving is fun",
-      "link": "https://parksb.github.io/en/article/32.html",
-      "pubDate": "2026-06-16T14:26:26.000Z",
-      "description": "Article URL: https://parksb.github.io/en/article/32.html Comments URL: https://news.ycombinator.com/item?id=48555838 Points: 49 # Comments: 9",
+      "title": "Claude: Elevated errors across many models",
+      "link": "https://status.claude.com/incidents/xmhsglsz3h3w",
+      "pubDate": "2026-06-16T17:30:30.000Z",
+      "description": "Article URL: https://status.claude.com/incidents/xmhsglsz3h3w Comments URL: https://news.ycombinator.com/item?id=48558766 Points: 172 # Comments: 145",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "I Fired Google",
-      "link": "https://www.theartofdoingstuff.com/i-fired-google/",
-      "pubDate": "2026-06-16T14:26:19.000Z",
-      "description": "Article URL: https://www.theartofdoingstuff.com/i-fired-google/ Comments URL: https://news.ycombinator.com/item?id=48555835 Points: 128 # Comments: 103",
+      "title": "Has AI already killed self-help nonfiction books?",
+      "link": "https://tim.blog/2026/06/12/has-ai-already-killed-nonfiction/",
+      "pubDate": "2026-06-16T17:11:05.000Z",
+      "description": "Article URL: https://tim.blog/2026/06/12/has-ai-already-killed-nonfiction/ Comments URL: https://news.ycombinator.com/item?id=48558489 Points: 47 # Comments: 58",
       "source": "Hacker News",
       "category": "Tech News"
+    },
+    {
+      "title": "What’s !important #13: @function, alpha(), CSS Wordle, and More",
+      "link": "https://css-tricks.com/whats-important-13/",
+      "pubDate": "2026-06-15T13:15:33.000Z",
+      "description": "CSS functions, the alpha() function, Grid Lanes, some things about Dialog that you might not know, CSS Wordle, and more — this is What’s !important right now. What’s !important #13: @function, alpha(), CSS Wordle, and More originally handwritten and published with love on CSS-Tricks. You should real",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Why Isn&#8217;t My 3D View Transition Working?",
+      "link": "https://css-tricks.com/why-isnt-my-3d-view-transition-working/",
+      "pubDate": "2026-06-12T15:09:00.000Z",
+      "description": "Why isn't my 3D view transition working?! Sunkanmi tackles this frustration and offers an elegant fix for it. Why Isn’t My 3D View Transition Working? originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "There’s no need to include ‘navigation’ in your navigation labels",
+      "link": "https://css-tricks.com/navigation-in-your-navigation-labels/",
+      "pubDate": "2026-06-12T15:08:38.000Z",
+      "description": "One of those nuances to keep in your back pocket when writing for screen readers. There’s no need to include ‘navigation’ in your navigation labels originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Creating Memorable Web Experiences: A Modern CSS Toolkit",
+      "link": "https://css-tricks.com/creating-memorable-web-experiences-a-modern-css-toolkit/",
+      "pubDate": "2026-06-10T13:02:10.000Z",
+      "description": "There are many ways to create memorable experiences. Sometimes it's as simple as a form that completes smoothly. But here I'm interested in sharing techniques I reach for when I want a site to feel alive and be remembered. Creating Memorable Web Experiences: A Modern CSS Toolkit originally handwritt",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Scroll-Driven, Scroll-Triggered, Scroll States, and View Transitions",
+      "link": "https://css-tricks.com/scroll-driven-scroll-triggered-scroll-states-and-view-transitions/",
+      "pubDate": "2026-06-08T13:00:34.000Z",
+      "description": "I've said one and mean another, and I've used one when I needed another. Comparing scroll-driven animations, scroll-triggered animations, container query scroll states, and view transitions for my future self. Scroll-Driven, Scroll-Triggered, Scroll States, and View Transitions originally handwritte",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Another Stab at the Perfect CSS Pie Chart&#8230; Sans JavaScript!",
+      "link": "https://css-tricks.com/another-stab-at-the-perfect-css-pie-chart-sans-javascript/",
+      "pubDate": "2026-06-04T13:14:49.000Z",
+      "description": "We dive again into CSS Pie Charts! This time, Author Antoine Villepreux delivers semantic and flexible charts without a single line of JS. Another Stab at the Perfect CSS Pie Chart… Sans JavaScript! originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "offset-path",
+      "link": "https://css-tricks.com/almanac/properties/o/offset-path/",
+      "pubDate": "2026-06-03T15:02:38.000Z",
+      "description": "The offset-path property in CSS defines a movement path for an element to follow during animation. This property began life as motion-path. This, and all other related motion-* properties, are being renamed offset-* in the spec. We’re changing … offset-path originally handwritten and published with ",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "@custom-media",
+      "link": "https://css-tricks.com/almanac/rules/c/custom-media/",
+      "pubDate": "2026-06-03T13:03:21.000Z",
+      "description": "The CSS @custom-media at-rule allows creating aliases for media queries. @custom-media originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "@function",
+      "link": "https://css-tricks.com/almanac/rules/f/function/",
+      "pubDate": "2026-06-03T13:02:39.000Z",
+      "description": "The @function at-rule defines CSS custom functions. These custom functions are reusable blocks of CSS that can accept arguments, contain complex logic, and return values based on that logic. @function originally handwritten and published with love on CSS-Tricks. You should really get the newsletter ",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
       "title": "Meet the HTB Profile: all your skills, in one place",
