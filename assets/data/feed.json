@@ -1,94 +1,147 @@
 {
-  "generatedAt": "2026-06-16T05:34:16.798Z",
+  "generatedAt": "2026-06-16T11:34:24.662Z",
   "sourceCount": 4,
-  "successCount": 4,
-  "errors": [],
+  "successCount": 3,
+  "errors": [
+    {
+      "source": "CSS Tricks",
+      "error": "HTTP 415 Unsupported Media Type"
+    }
+  ],
   "items": [
     {
-      "title": "Map in Java",
-      "link": "https://dev.to/harini_magesh_fa40041cf8d/map-in-java-5df6",
-      "pubDate": "2026-06-16T05:31:09.000Z",
-      "description": "<h2> What is Map in Java? </h2> <p>A <strong>Map</strong> in Java is a part of the Collections Framework that stores data in the form of <strong>key-value pairs</strong>.</p> <ul> <li>Each key is unique.</li> <li>Values can be duplicated.</li> <li>A key is used to retrieve its corresponding value.</",
+      "title": "내 사이드 프로젝트 보안 감사 결과 — 부끄럽지만 공유합니다",
+      "link": "https://dev.to/justjinoit/nae-saideu-peurojegteu-boan-gamsa-gyeolgwa-buggeureobjiman-gongyuhabnida-3aj7",
+      "pubDate": "2026-06-16T11:26:08.000Z",
+      "description": "<p>최근 내가 운영 중인 사이드 프로젝트 전체를 보안 감사했다. FastAPI 백엔드, 텔레그램 봇, PWA, Streamlit 앱 등 여러 개.</p> <p>\"나름 신경 써서 만들었으니까 괜찮겠지\"라고 생각했다.</p> <p>틀렸다.</p> <p>발견한 문제 하나하나, 왜 그렇게 짰는지, 어떻게 고쳤는지 솔직하게 공유한다. 이론적인 체크리스트가 아니라 실제로 내가 프로덕션에 배포했던 버그들이다.</p> <h2> 1. 빈 시크릿으로 인한 인증 우회 (Critical) </h2> <h3> 내가 짠 코드 </h3> <div class",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Better Models Won't Fix AI Companions",
-      "link": "https://dev.to/zennos/better-models-wont-fix-ai-companions-5fnd",
-      "pubDate": "2026-06-16T05:21:09.000Z",
-      "description": "<p>I ran two small tests on AI companion behavior because I wanted to understand a question people keep circling around:</p> <p>Are AI companions bad because the model is not strong enough, or because the product treats relationships too flatly?</p> <p>The result made me think the second problem is ",
+      "title": "commitment discount: a practical guide for production teams",
+      "link": "https://dev.to/muskan_8abedcc7e12/commitment-discount-a-practical-guide-for-production-teams-38pe",
+      "pubDate": "2026-06-16T11:26:04.000Z",
+      "description": "<blockquote> <p>They provision infrastructure under deadline pressure, ship the feature, and move on. The on-demand rate stays in place because changing it requires a commitment decision.</p> </blockquote> <h2> The Hidden Cost of Defaulting to On-Demand </h2> <p>They provision infrastructure under d",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "CS50 Learner Struggles with Knowledge Retention: Effective Study Strategies and Mindset Shifts Offer Solutions",
-      "link": "https://dev.to/ilyatech/cs50-learner-struggles-with-knowledge-retention-effective-study-strategies-and-mindset-shifts-28i0",
-      "pubDate": "2026-06-16T05:18:42.000Z",
-      "description": "<h2> Analytical Insights: Overcoming Knowledge Retention Challenges in CS50 Learners </h2> <h3> 1. Knowledge Acquisition: The Foundation of Learning </h3> <p>The journey of a CS50 learner begins with engaging course materials, aiming to internalize programming concepts. However, the <strong>Prior Kn",
+      "title": "policy as code for multi account aws one opa ruleset six guardrails zero drift",
+      "link": "https://dev.to/muskan_8abedcc7e12/policy-as-code-for-multi-account-aws-one-opa-ruleset-six-guardrails-zero-drift-ff",
+      "pubDate": "2026-06-16T11:25:40.000Z",
+      "description": "<blockquote> <p>Configuration drift in multi-account AWS environments is not a tooling failure. It is a structural consequence of manual, per-account governance that compounds with every new accou</p> </blockquote> <h2> The Multi-Account Governance Problem Nobody Talks About </h2> <p>Configuration d",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Two opposite designs for AI meeting notes: transcribe everything vs enhance what you typed",
-      "link": "https://dev.to/tiennguyenftuk52/two-opposite-designs-for-ai-meeting-notes-transcribe-everything-vs-enhance-what-you-typed-4jnd",
-      "pubDate": "2026-06-16T05:17:06.000Z",
-      "description": "<p>I ran the same meeting through two AI notetakers, Otter and Granola, expecting to compare accuracy. The accuracy was close. What actually separated them was something more interesting: they aren't built to do the same job. They sit on <strong>opposite models of what a meeting \"note\" even is</stro",
+      "title": "iOS 26's SpeechAnalyzer on a live mic: the 5 things the docs don't tell you",
+      "link": "https://dev.to/simple_memo/ios-26s-speechanalyzer-on-a-live-mic-the-5-things-the-docs-dont-tell-you-2ng5",
+      "pubDate": "2026-06-16T11:23:29.000Z",
+      "description": "<blockquote> <p>This is a condensed version. The full write-up — with the complete <code>SpeechSession</code>, the <code>AudioBufferConverter</code>, and the SFSpeechRecognizer → SpeechAnalyzer migration table — lives on <a href=\"https://simplememofast.com/en/blog/ios26-speechanalyzer-live-mic\" rel=",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Automation Before Automation (ABA) — A Missing Phase in Modern Testing?",
-      "link": "https://dev.to/liudasjan/automation-before-automation-aba-a-missing-phase-in-modern-testing-34g5",
-      "pubDate": "2026-06-16T05:13:19.000Z",
-      "description": "<p>Software testing is usually described in two large categories: exploratory testing and automated testing. Exploratory testing is about investigation and discovery. Automated testing is about repeatable verification and regression protection. Both are well established, well documented, and widely ",
+      "title": "Building OpenLib: An Open-Source Software Discovery Platform Inspired by IMDb and GitHub",
+      "link": "https://dev.to/ameerhamzasaifi/building-openlib-an-open-source-software-discovery-platform-inspired-by-imdb-and-github-184n",
+      "pubDate": "2026-06-16T11:16:01.000Z",
+      "description": "<p>Over the past few months, I've been building OpenLib, a platform designed to help people discover, review, and track open-source software.</p> <p>Website: <a href=\"https://www.openlib.online\" rel=\"noopener noreferrer\">https://www.openlib.online</a></p> <p>GitHub: <a href=\"https://github.com/AHS-M",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Tailwind CSS4: Why Those Inline Styles Are Actually More Scalable - A Senior CSS Developer's Guide",
-      "link": "https://dev.to/cathylai/tailwind-css4-why-those-inline-styles-are-actually-more-scalable-a-senior-css-developers-guide-hdj",
-      "pubDate": "2026-06-16T05:09:55.000Z",
-      "description": "<p>So you have heard about the Tailwind CSS and want to incorporate into your new project. But those inline styles look so polluted - they look similar to the old \"style=\"font-size: 12px; color: green; font-style: italics\" stuff we are told to avoid. What is going on here? Are we going back??</p> <h",
+      "title": "AES-256-GCM Encryption in Rust — Securing Local App Data",
+      "link": "https://dev.to/hiyoyok/aes-256-gcm-encryption-in-rust-securing-local-app-data-3gck",
+      "pubDate": "2026-06-16T11:15:12.000Z",
+      "description": "<p>All tests run on an 8-year-old MacBook Air. All results from shipping 7 Mac apps as a solo developer. No sponsored opinion.</p> <p>Hiyoko PDF Vault encrypts PDFs with AES-256-GCM. Here's the implementation — the parts that aren't obvious from the docs.</p> <h2> Why AES-256-GCM </h2> <p>AES-256-GC",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Your .NET RAG stack hides a Python sidecar. I built the engine that removes it.",
-      "link": "https://dev.to/gunjantailor/your-net-rag-stack-hides-a-python-sidecar-i-built-the-engine-that-removes-it-5190",
-      "pubDate": "2026-06-16T05:09:08.000Z",
-      "description": "<blockquote> <p><strong>TL;DR</strong> — Every .NET RAG project quietly ships a Python sidecar to do one job: chunk documents. I got rid of mine. <strong>DocNest .NET</strong> is an idiomatic C# / .NET 8 port of my <a href=\"https://github.com/tailorgunjan93/docnest\" rel=\"noopener noreferrer\">DocNest",
+      "title": "I Built a PDF Tool That Never Uploads Your Files — Here's Why",
+      "link": "https://dev.to/hwlsniper/i-built-a-pdf-tool-that-never-uploads-your-files-heres-why-44i0",
+      "pubDate": "2026-06-16T11:15:05.000Z",
+      "description": "<p>Last month I needed to compress a PDF. I Googled \"compress PDF free\", clicked the first result, and processed my file. Then I read their privacy policy.</p> <p>It said: <strong>\"We may retain uploaded files for up to 24 hours.\"</strong></p> <p>That file was my tax return. My SSN was sitting on a ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I measure how fast 42 LLMs actually answer. Here's the honest method.",
-      "link": "https://dev.to/aiwithanton/i-measure-how-fast-42-llms-actually-answer-heres-the-honest-method-3gap",
-      "pubDate": "2026-06-16T05:06:22.000Z",
-      "description": "<p>I test software for a living. So when a vendor calls an AI model \"fast,\" I don't trust the word. I measure it.</p> <p>Most leaderboards rank how smart a model is. Almost none rank how fast it answers. You pick a model because it scored well, ship it, and then your users sit and wait.</p> <p>Speed",
+      "title": "I changed my JSON tool’s privacy copy from “trust me” to “verify it in DevTools”",
+      "link": "https://dev.to/_6a9b7b682ef6dfb20e506/i-changed-my-json-tools-privacy-copy-from-trust-me-to-verify-it-in-devtools-3jce",
+      "pubDate": "2026-06-16T11:13:18.000Z",
+      "description": "<p>I made another round of changes to SafeJSON today.</p> <p>Not a redesign.<br> Not a new theme.<br> Not a big UI change.</p> <p>Mostly copy, positioning, and how the product explains its privacy model.</p> <p>That sounds small, but I think it matters more than I expected.</p> <p>SafeJSON is a brow",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I have planed to give a complete WordPress Plugin Development playlist.\nYou may let me know, if its really helpfull",
-      "link": "https://dev.to/mdhemalakhand1999/i-have-planed-to-give-a-complete-wordpress-plugin-development-playlist-you-may-let-me-know-if-84e",
-      "pubDate": "2026-06-16T05:06:01.000Z",
-      "description": "",
+      "title": "Claude Fable 5 is currently unavailable , here's what actually happened",
+      "link": "https://dev.to/muhammad_moeed/claude-fable-5-is-currently-unavailable-heres-what-actually-happened-1lch",
+      "pubDate": "2026-06-16T11:12:02.000Z",
+      "description": "<p>Claude Fable 5 was live for three days.</p> <p>It launched on June 9, 2026. By June 12 at 5:21 PM Eastern Time, it was off. And as of June 16, it is still off — for every user, everywhere in the world. Mythos 5 was turned off at the same time for the same reason.</p> <p>If you have been getting a",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Building a TikTok Video Archive System: My Setup for Saving and Organizing Thousands of Videos",
-      "link": "https://dev.to/bulkdl/building-a-tiktok-video-archive-system-my-setup-for-saving-and-organizing-thousands-of-videos-5gc8",
-      "pubDate": "2026-06-16T05:05:25.000Z",
-      "description": "<h1> Building a TikTok Video Archive System: My Setup for Saving and Organizing Thousands of Videos </h1> <p>I have 4,200 TikTok videos sitting on a NAS in my closet. That number used to be a source of shame (why do you have that many TikToks saved?) until I realized the real problem wasn't the quan",
+      "title": "Your PDF Tool Is Probably Uploading Your Files — Here's How to Check",
+      "link": "https://dev.to/hwlsniper/your-pdf-tool-is-probably-uploading-your-files-heres-how-to-check-50i7",
+      "pubDate": "2026-06-16T11:08:34.000Z",
+      "description": "<p>Every time you use a free online PDF tool, ask yourself one question: <strong>where is my file right now?</strong></p> <p>I checked 10 popular PDF tools. 9 of them upload your files to their servers.</p> <h2> The 60-Second Test Anyone Can Do </h2> <ol> <li>Open Chrome DevTools (F12)</li> <li>Go t",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "SpaceX to buy Cursor AI coding agent operator Anysphere for $60B",
+      "link": "https://www.reuters.com/legal/transactional/spacex-buy-anysphere-60-billion-2026-06-16/",
+      "pubDate": "2026-06-16T10:44:24.000Z",
+      "description": "Article URL: https://www.reuters.com/legal/transactional/spacex-buy-anysphere-60-billion-2026-06-16/ Comments URL: https://news.ycombinator.com/item?id=48553224 Points: 20 # Comments: 3",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Trinket.io shutting down, so we saved it and hosted it a trinket.strivemath.org",
+      "link": "https://trinket.strivemath.org/",
+      "pubDate": "2026-06-16T09:30:58.000Z",
+      "description": "Article URL: https://trinket.strivemath.org/ Comments URL: https://news.ycombinator.com/item?id=48552723 Points: 23 # Comments: 2",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Feds freaked over Fable 5 after simple 'fix this code' prompt, not jailbreak",
+      "link": "https://www.theregister.com/security/2026/06/15/feds-freaked-over-fable-5-after-simple-fix-this-code-prompt-not-jailbreak-says-researcher/5255827",
+      "pubDate": "2026-06-16T09:26:09.000Z",
+      "description": "Article URL: https://www.theregister.com/security/2026/06/15/feds-freaked-over-fable-5-after-simple-fix-this-code-prompt-not-jailbreak-says-researcher/5255827 Comments URL: https://news.ycombinator.com/item?id=48552687 Points: 47 # Comments: 14",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Commodore Releases Flip Phone",
+      "link": "https://commodore.net/why-a-flip-phone/",
+      "pubDate": "2026-06-16T09:15:31.000Z",
+      "description": "Article URL: https://commodore.net/why-a-flip-phone/ Comments URL: https://news.ycombinator.com/item?id=48552614 Points: 57 # Comments: 20",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Understanding the rationale behind a rule when trying to circumvent it",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260611-00/?p=112415",
+      "pubDate": "2026-06-16T07:35:27.000Z",
+      "description": "Article URL: https://devblogs.microsoft.com/oldnewthing/20260611-00/?p=112415 Comments URL: https://news.ycombinator.com/item?id=48551876 Points: 40 # Comments: 6",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "John Carmack on Fabrice Bellard",
+      "link": "https://twitter.com/ID_AA_Carmack/status/2064095424420487226",
+      "pubDate": "2026-06-16T04:58:15.000Z",
+      "description": "https://xcancel.com/ID_AA_Carmack/status/2064095424420487226 Comments URL: https://news.ycombinator.com/item?id=48550779 Points: 333 # Comments: 194",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "The time the x86 emulator team found code so bad they fixed it during emulation",
       "link": "https://devblogs.microsoft.com/oldnewthing/20260615-00/?p=112419",
       "pubDate": "2026-06-16T04:46:36.000Z",
-      "description": "Article URL: https://devblogs.microsoft.com/oldnewthing/20260615-00/?p=112419 Comments URL: https://news.ycombinator.com/item?id=48550693 Points: 72 # Comments: 6",
+      "description": "Article URL: https://devblogs.microsoft.com/oldnewthing/20260615-00/?p=112419 Comments URL: https://news.ycombinator.com/item?id=48550693 Points: 295 # Comments: 91",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -104,23 +157,7 @@
       "title": "Humanity isn't ready for the coming intelligence explosion",
       "link": "https://www.economist.com/by-invitation/2026/06/15/humanity-isnt-ready-for-the-coming-intelligence-explosion",
       "pubDate": "2026-06-16T02:00:45.000Z",
-      "description": "Article URL: https://www.economist.com/by-invitation/2026/06/15/humanity-isnt-ready-for-the-coming-intelligence-explosion Comments URL: https://news.ycombinator.com/item?id=48549628 Points: 23 # Comments: 58",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Amazon Announces Multibillion-Dollar Data Center in Missouri",
-      "link": "https://www.narracomm.com/amazon-announces-multibillion-dollar-data-center-in-missouri/",
-      "pubDate": "2026-06-16T00:28:14.000Z",
-      "description": "Article URL: https://www.narracomm.com/amazon-announces-multibillion-dollar-data-center-in-missouri/ Comments URL: https://news.ycombinator.com/item?id=48548975 Points: 84 # Comments: 70",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Reviews have become expensive, rewrites have become cheap",
-      "link": "http://ishmeetbindra.com/posts/reviews-have-become-expensive-rewrites-have-become-cheap/",
-      "pubDate": "2026-06-16T00:13:34.000Z",
-      "description": "Article URL: http://ishmeetbindra.com/posts/reviews-have-become-expensive-rewrites-have-become-cheap/ Comments URL: https://news.ycombinator.com/item?id=48548883 Points: 44 # Comments: 37",
+      "description": "Article URL: https://www.economist.com/by-invitation/2026/06/15/humanity-isnt-ready-for-the-coming-intelligence-explosion Comments URL: https://news.ycombinator.com/item?id=48549628 Points: 106 # Comments: 304",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -128,121 +165,9 @@
       "title": "Banned Book Library in a Wi-Fi Smart Light Bulb",
       "link": "https://www.richardosgood.com/posts/banned-book-library/",
       "pubDate": "2026-06-15T22:37:55.000Z",
-      "description": "Article URL: https://www.richardosgood.com/posts/banned-book-library/ Comments URL: https://news.ycombinator.com/item?id=48547985 Points: 264 # Comments: 128",
+      "description": "Article URL: https://www.richardosgood.com/posts/banned-book-library/ Comments URL: https://news.ycombinator.com/item?id=48547985 Points: 410 # Comments: 217",
       "source": "Hacker News",
       "category": "Tech News"
-    },
-    {
-      "title": "Why I email complete strangers",
-      "link": "https://www.goodinternetmagazine.com/why-i-email-complete-strangers/",
-      "pubDate": "2026-06-15T21:57:10.000Z",
-      "description": "Article URL: https://www.goodinternetmagazine.com/why-i-email-complete-strangers/ Comments URL: https://news.ycombinator.com/item?id=48547566 Points: 114 # Comments: 54",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Peopleless economy? Not technically impossible",
-      "link": "https://gmalandrakis.com/writings/ad-economicum.html",
-      "pubDate": "2026-06-15T21:10:36.000Z",
-      "description": "Article URL: https://gmalandrakis.com/writings/ad-economicum.html Comments URL: https://news.ycombinator.com/item?id=48547062 Points: 141 # Comments: 256",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "US battery manufacturing output continues to break records",
-      "link": "https://fred.stlouisfed.org/series/IPG33591S",
-      "pubDate": "2026-06-15T20:28:24.000Z",
-      "description": "Article URL: https://fred.stlouisfed.org/series/IPG33591S Comments URL: https://news.ycombinator.com/item?id=48546616 Points: 189 # Comments: 158",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "I Love the Computer",
-      "link": "https://michaelenger.com/blog/i-love-the-computer/",
-      "pubDate": "2026-06-15T20:14:15.000Z",
-      "description": "Article URL: https://michaelenger.com/blog/i-love-the-computer/ Comments URL: https://news.ycombinator.com/item?id=48546441 Points: 185 # Comments: 111",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "What’s !important #13: @function, alpha(), CSS Wordle, and More",
-      "link": "https://css-tricks.com/whats-important-13/",
-      "pubDate": "2026-06-15T13:15:33.000Z",
-      "description": "CSS functions, the alpha() function, Grid Lanes, some things about Dialog that you might not know, CSS Wordle, and more — this is What’s !important right now. What’s !important #13: @function, alpha(), CSS Wordle, and More originally handwritten and published with love on CSS-Tricks. You should real",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Why Isn&#8217;t My 3D View Transition Working?",
-      "link": "https://css-tricks.com/why-isnt-my-3d-view-transition-working/",
-      "pubDate": "2026-06-12T15:09:00.000Z",
-      "description": "Why isn't my 3D view transition working?! Sunkanmi tackles this frustration and offers an elegant fix for it. Why Isn’t My 3D View Transition Working? originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "There’s no need to include ‘navigation’ in your navigation labels",
-      "link": "https://css-tricks.com/navigation-in-your-navigation-labels/",
-      "pubDate": "2026-06-12T15:08:38.000Z",
-      "description": "One of those nuances to keep in your back pocket when writing for screen readers. There’s no need to include ‘navigation’ in your navigation labels originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Creating Memorable Web Experiences: A Modern CSS Toolkit",
-      "link": "https://css-tricks.com/creating-memorable-web-experiences-a-modern-css-toolkit/",
-      "pubDate": "2026-06-10T13:02:10.000Z",
-      "description": "There are many ways to create memorable experiences. Sometimes it's as simple as a form that completes smoothly. But here I'm interested in sharing techniques I reach for when I want a site to feel alive and be remembered. Creating Memorable Web Experiences: A Modern CSS Toolkit originally handwritt",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Scroll-Driven, Scroll-Triggered, Scroll States, and View Transitions",
-      "link": "https://css-tricks.com/scroll-driven-scroll-triggered-scroll-states-and-view-transitions/",
-      "pubDate": "2026-06-08T13:00:34.000Z",
-      "description": "I've said one and mean another, and I've used one when I needed another. Comparing scroll-driven animations, scroll-triggered animations, container query scroll states, and view transitions for my future self. Scroll-Driven, Scroll-Triggered, Scroll States, and View Transitions originally handwritte",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Another Stab at the Perfect CSS Pie Chart&#8230; Sans JavaScript!",
-      "link": "https://css-tricks.com/another-stab-at-the-perfect-css-pie-chart-sans-javascript/",
-      "pubDate": "2026-06-04T13:14:49.000Z",
-      "description": "We dive again into CSS Pie Charts! This time, Author Antoine Villepreux delivers semantic and flexible charts without a single line of JS. Another Stab at the Perfect CSS Pie Chart… Sans JavaScript! originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "offset-path",
-      "link": "https://css-tricks.com/almanac/properties/o/offset-path/",
-      "pubDate": "2026-06-03T15:02:38.000Z",
-      "description": "The offset-path property in CSS defines a movement path for an element to follow during animation. This property began life as motion-path. This, and all other related motion-* properties, are being renamed offset-* in the spec. We’re changing … offset-path originally handwritten and published with ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "@custom-media",
-      "link": "https://css-tricks.com/almanac/rules/c/custom-media/",
-      "pubDate": "2026-06-03T13:03:21.000Z",
-      "description": "The CSS @custom-media at-rule allows creating aliases for media queries. @custom-media originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "@function",
-      "link": "https://css-tricks.com/almanac/rules/f/function/",
-      "pubDate": "2026-06-03T13:02:39.000Z",
-      "description": "The @function at-rule defines CSS custom functions. These custom functions are reusable blocks of CSS that can accept arguments, contain complex logic, and return values based on that logic. @function originally handwritten and published with love on CSS-Tricks. You should really get the newsletter ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "::search-text",
-      "link": "https://css-tricks.com/almanac/pseudo-selectors/s/search-text/",
-      "pubDate": "2026-06-02T12:59:21.000Z",
-      "description": "The CSS ::search-text pseudo-element selects the matching text from your browser's \"find in page\" feature. ::search-text originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
     },
     {
       "title": "Meet the HTB Profile: all your skills, in one place",
