@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-17T05:16:55.260Z",
+  "generatedAt": "2026-06-17T11:17:05.128Z",
   "sourceCount": 4,
   "successCount": 3,
   "errors": [
@@ -10,98 +10,154 @@
   ],
   "items": [
     {
-      "title": "Lesson 1.3 - GraphQL for Screen Complexity and App Changes",
-      "link": "https://dev.to/subraatakumar/lesson-13-graphql-for-screen-complexity-and-app-changes-3cdi",
-      "pubDate": "2026-06-17T05:07:25.000Z",
-      "description": "<p>Good morning, class! Welcome back. In our last lesson, we explored how GraphQL fundamentally addresses the issues of over-fetching and under-fetching.</p> <p>Today, we are going to connect those architectural concepts directly to real-world React Native screen complexity. Our <strong>Goal</strong",
+      "title": "Production-Ready FastAPI Project Structure (2026 Guide)",
+      "link": "https://dev.to/thesius_code_7a136ae718b7/production-ready-fastapi-project-structure-2026-guide-38k8",
+      "pubDate": "2026-06-17T11:13:42.000Z",
+      "description": "<p>Most FastAPI tutorials show you a single <code>main.py</code> file with three routes. That works for a demo. It doesn't work when you have 50 endpoints, database migrations, background tasks, authentication, and a CI/CD pipeline.</p> <p>This guide covers how to structure a FastAPI project that sc",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "AI Doesn't Replace Thinking. It Amplifies It.",
-      "link": "https://dev.to/jaideepparashar/ai-doesnt-replace-thinking-it-amplifies-it-3c52",
-      "pubDate": "2026-06-17T05:03:50.000Z",
-      "description": "<p>One of the biggest misconceptions surrounding artificial intelligence is that it eliminates the need for human thinking.</p> <p>In my experience, the opposite is happening.</p> <p>AI does not replace thinking.</p> <p>It amplifies it.</p> <p>Good thinking produces better outcomes.</p> <p>Poor thin",
+      "title": "Beyond the Keyboard: Crafting a Sustainable Healthy Lifestyle for Developers",
+      "link": "https://dev.to/sreeraj-sreenivasan/beyond-the-keyboard-crafting-a-sustainable-healthy-lifestyle-for-developers-4emm",
+      "pubDate": "2026-06-17T11:12:39.000Z",
+      "description": "<p>In the fast-paced world of software development, where deadlines loom, late-night coding sessions are common, and the glow of multiple monitors often replaces sunlight, it's easy for personal well-being to take a backseat. We spend hours hunched over keyboards, minds racing to solve complex probl",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Stop Leaving Containers Exposed: Practical AppArmor Profiles for Podman and Docker on Linux",
-      "link": "https://dev.to/lyraalishaikh/stop-leaving-containers-exposed-practical-apparmor-profiles-for-podman-and-docker-on-linux-j40",
-      "pubDate": "2026-06-17T05:01:03.000Z",
-      "description": "<p>Containers give us isolation, but by default they still share the host's attack surface more than many realize. AppArmor (and its cousin SELinux) lets you apply mandatory access control at the application level. When used with Podman or Docker, you can dramatically reduce what a compromised proce",
+      "title": "LaraOwl -The Open-Source, Self-Hosted Monitoring Platform for Laravel",
+      "link": "https://dev.to/megoxv/laraowl-the-open-source-self-hosted-monitoring-platform-for-laravel-10ei",
+      "pubDate": "2026-06-17T11:11:36.000Z",
+      "description": "<p>If you are a Laravel developer, you know how crucial it is to monitor your production applications. However, most commercial application performance monitoring tools can quickly become expensive, and sending sensitive telemetry data to third-party servers might not align with your privacy require",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I Trusted a Random AI Plugin… Until Cisco Showed It Was Stealing Data Behind My Back - 07 of 21",
-      "link": "https://dev.to/sam_lukaa/i-trusted-a-random-ai-plugin-until-cisco-showed-it-was-stealing-data-behind-my-back-08-of-21-29eh",
-      "pubDate": "2026-06-17T05:00:00.000Z",
-      "description": "<p>In the first week of 2026, Cisco's AI security research team published a finding.</p> <p>A third-party skill, a plugin, available in the OpenClaw agent marketplace had been performing data exfiltration. Silently. The skill appeared functional. It did what its documentation claimed. It also, witho",
+      "title": "Why every AI tool costs twenty dollars a month now",
+      "link": "https://dev.to/ninghonggang/why-every-ai-tool-costs-twenty-dollars-a-month-now-5e82",
+      "pubDate": "2026-06-17T11:05:52.000Z",
+      "description": "<p>I went down a rabbit hole this morning reading the late-2025 Juejin AI pricing guides back to back, and the thing that finally crystallized for me is that the entire AI tool industry has quietly converged on a twenty-dollar-a-month price ceiling, and almost nobody is talking about it as the story",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Kog hits 3K t/s on MI300X, no kernel switches — test it now",
-      "link": "https://dev.to/creeta/kog-hits-3k-ts-on-mi300x-no-kernel-switches-test-it-now-55dh",
-      "pubDate": "2026-06-17T04:59:23.000Z",
-      "description": "<p>AMD's MI300X has long had more single-request inference headroom than the default ROCm stack exposes. A Paris startup just showed how much — by deleting the per-token kernel launch entirely.</p> <h2> How the monokernel eliminates kernel-launch overhead </h2> <p>A monokernel is a single, persisten",
+      "title": "How to use build-your-own-x: Master programming by recreating your favorite technologies from scratch.",
+      "link": "https://dev.to/kelvin_kariuki_20f4bec616/how-to-use-build-your-own-x-master-programming-by-recreating-your-favorite-technologies-from-581d",
+      "pubDate": "2026-06-17T11:05:37.000Z",
+      "description": "<p>How many times have you used a library, framework, or tool without <em>truly</em> understanding how it works under the hood? What if I told you there's a secret superpower that elite developers use to not just <em>use</em> technology, but to <em>master</em> it?</p> <p>Welcome to the world of \"Bui",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Fable 5 refusals are 200 OK — your error handler misses them",
-      "link": "https://dev.to/creeta/fable-5-refusals-are-200-ok-your-error-handler-misses-them-jog",
-      "pubDate": "2026-06-17T04:59:22.000Z",
-      "description": "<p>You wired up <code>claude-fable-5</code>, shipped your integration, and then every call started failing. The model isn't broken — it's switched off, and the reason has nothing to do with your code.</p> <h2> Why Is Fable 5 Offline? The Export-Control Directive Explained </h2> <p>Fable 5 is current",
+      "title": "Nobody keeps the receipts for AI pricing, so I built the changelog",
+      "link": "https://dev.to/solomonic/nobody-keeps-the-receipts-for-ai-pricing-so-i-built-the-changelog-5d6c",
+      "pubDate": "2026-06-17T11:04:01.000Z",
+      "description": "<p>I got one surprise AI bill that woke me up and I went looking for a simple answer: what did this model actually cost on the day I ran it?</p> <p>Turns out that is weirdly hard. Provider pricing pages change quietly with no changelog. The Wayback Machine is patchy. And the obvious shortcut, today'",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The boring 80% nobody warns you about when an AI demo becomes a real product",
-      "link": "https://dev.to/velobasex/the-boring-80-nobody-warns-you-about-when-an-ai-demo-becomes-a-real-product-3dnm",
-      "pubDate": "2026-06-17T04:55:33.000Z",
-      "description": "<p>This month the front page filled up with AI agents going off the rails — one reportedly ran its operator's bill into the ground, another tore through a Linux box unsupervised. Funny, until it's your credits and your customers. We learned that lesson the slower, more expensive way.</p> <p>Our team",
+      "title": "Setup Dev Environment cho Dell Pro 14 PC14250: Tối ưu WSL2 &amp; Docker",
+      "link": "https://dev.to/hung_phatlaptop_a651fc86/setup-dev-environment-cho-dell-pro-14-pc14250-toi-uu-wsl2-docker-2jon",
+      "pubDate": "2026-06-17T11:01:34.000Z",
+      "description": "<p>Chúc mừng bạn đã sở hữu chiếc <strong>Dell Pro 14 PC14250</strong>! Với cấu hình Intel Core thế hệ mới và màn hình 16:10 cực kỳ 'đáng đồng tiền bát gạo' cho việc code, chiếc máy này là một workstation văn phòng rất ổn định. Tuy nhiên, để biến nó thành một cỗ máy phát triển phần mềm thực thụ, bạn ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Polymarket CLOB WebSocket in Python — Real-Time Order Book Without Polling",
-      "link": "https://dev.to/bluewhale-quant-lab/polymarket-clob-websocket-in-python-real-time-order-book-without-polling-4e6n",
-      "pubDate": "2026-06-17T04:52:41.000Z",
-      "description": "<p>If your Polymarket bot polls <code>GET /book</code> in a loop, your view of the market is as stale as your interval — and you'll lose to anyone using the <strong>WebSocket feed</strong>. This tutorial builds a real-time local order book in Python from the CLOB WebSocket stream.</p> <h2> Why WebSo",
+      "title": "10 PHP Bugs That Break Real Projects — And How to Fix Them (Part 2)",
+      "link": "https://dev.to/bikkisingh/10-php-bugs-that-break-real-projects-and-how-to-fix-them-part-2-7hm",
+      "pubDate": "2026-06-17T11:00:40.000Z",
+      "description": "<p>Every PHP developer has lived this moment. Code works perfectly on localhost. You push to production. Something silently breaks — no error, no log, just wrong output and a few wasted hours tracing the problem.</p> <p>These are not textbook bugs. They come from real PHP projects — login systems, e",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How to Benchmark API Latency to Any Endpoint (Polymarket Case Study)",
-      "link": "https://dev.to/bluewhale-quant-lab/how-to-benchmark-api-latency-to-any-endpoint-polymarket-case-study-512o",
-      "pubDate": "2026-06-17T04:51:36.000Z",
-      "description": "<p>\"Just ping it\" is bad latency advice. ICMP gets deprioritized behind CDNs and tells you almost nothing about real request latency. This is how to benchmark API latency <em>properly</em>, with a real case study: finding where Polymarket's order book lives.</p> <h2> Why <code>ping</code> lies </h2>",
+      "title": "Building Structured Inter-Agent Communication: A Practical Guide",
+      "link": "https://dev.to/albert_zhang_f468830cf0e6/building-structured-inter-agent-communication-a-practical-guide-2b5k",
+      "pubDate": "2026-06-17T11:00:32.000Z",
+      "description": "<p>Every multi-agent tutorial shows \"Agent A talks to Agent B.\" None show <em>how</em> to keep that conversation reliable at scale.</p> <h2> The Problem with String-Based Agent Chat </h2> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight python\"><code><span class=\"c1\"># What most frame",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Polymarket's Price-to-Beat Has No API — Why a Co-located Server Gets It in Real Time, Not 15 Seconds",
-      "link": "https://dev.to/bluewhale-quant-lab/polymarkets-price-to-beat-has-no-api-why-a-co-located-server-gets-it-in-real-time-not-15-seconds-15ko",
-      "pubDate": "2026-06-17T04:51:26.000Z",
-      "description": "<p>If you automate Polymarket's crypto Up/Down markets, you hit this wall fast: <strong>there is no API that returns the \"price to beat\" (PTB)</strong> — the strike/reference price that decides whether Up or Down wins. You have to <em>reconstruct</em> it. And the speed + accuracy of that reconstruct",
+      "title": "Compact Video Metadata Serialization With Protobuf Across PHP Services",
+      "link": "https://dev.to/ahmet_gedik778845/compact-video-metadata-serialization-with-protobuf-across-php-services-19lk",
+      "pubDate": "2026-06-17T11:00:01.000Z",
+      "description": "<p>Every two hours our ingest worker pulls a few thousand trending videos from regional sources, normalizes them, and hands the result to three downstream consumers: a ranking service that scores virality, an edge cache warmer that runs on Cloudflare Workers, and a Python analytics job that builds t",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "NetNewsWire Status",
-      "link": "https://inessential.com/2026/06/15/netnewswire-status.html",
-      "pubDate": "2026-06-17T04:30:49.000Z",
-      "description": "Article URL: https://inessential.com/2026/06/15/netnewswire-status.html Comments URL: https://news.ycombinator.com/item?id=48565685 Points: 6 # Comments: 0",
+      "title": "U.S. Science Is in Chaos",
+      "link": "https://www.scientificamerican.com/article/americas-compact-between-science-and-politics-is-broken/",
+      "pubDate": "2026-06-17T09:54:21.000Z",
+      "description": "Article URL: https://www.scientificamerican.com/article/americas-compact-between-science-and-politics-is-broken/ Comments URL: https://news.ycombinator.com/item?id=48568058 Points: 69 # Comments: 30",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Leaked OpenAI financials show $38.5B loss and compute burn",
-      "link": "https://runtimewire.com/article/openai-leaked-financials-altman-compute-burn",
-      "pubDate": "2026-06-17T02:47:29.000Z",
-      "description": "Article URL: https://runtimewire.com/article/openai-leaked-financials-altman-compute-burn Comments URL: https://news.ycombinator.com/item?id=48565130 Points: 115 # Comments: 89",
+      "title": "Show HN: High-Res Neural Cellular Automata",
+      "link": "https://cells2pixels.github.io/",
+      "pubDate": "2026-06-17T09:28:36.000Z",
+      "description": "Neural CAs model self-organizing pattern formation.Now they can generate patterns at HD resolution in real-time, enabled by turning each CA cell into a Neural Field.Try 3 demos: grow a pattern from a seed (and damage it, it heals), synthesize PBR textures that can regenerate, or create 3D textures l",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "GLM-5.2 is the new leading open weights model on Artificial Analysis",
+      "link": "https://artificialanalysis.ai/articles/glm-5-2-is-the-new-leading-open-weights-model-on-the-artificial-analysis-intelligence-index",
+      "pubDate": "2026-06-17T09:12:00.000Z",
+      "description": "Article URL: https://artificialanalysis.ai/articles/glm-5-2-is-the-new-leading-open-weights-model-on-the-artificial-analysis-intelligence-index Comments URL: https://news.ycombinator.com/item?id=48567759 Points: 125 # Comments: 45",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Most of the CVE-2026-4020 attackers are the same client",
+      "link": "https://honeylabs.net/blog/the-cloud-fleet-behind-cve-2026-4020",
+      "pubDate": "2026-06-17T08:47:14.000Z",
+      "description": "Article URL: https://honeylabs.net/blog/the-cloud-fleet-behind-cve-2026-4020 Comments URL: https://news.ycombinator.com/item?id=48567574 Points: 4 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Hacker News but for Independent Blogs",
+      "link": "https://bubbles.town/",
+      "pubDate": "2026-06-17T07:49:44.000Z",
+      "description": "Article URL: https://bubbles.town/ Comments URL: https://news.ycombinator.com/item?id=48567155 Points: 125 # Comments: 43",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "GLM 5.2 Performance Benchmarks",
+      "link": "https://artificialanalysis.ai/models/glm-5-2",
+      "pubDate": "2026-06-17T07:30:51.000Z",
+      "description": "Article URL: https://artificialanalysis.ai/models/glm-5-2 Comments URL: https://news.ycombinator.com/item?id=48567004 Points: 14 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "The founder's playbook: Building an AI-native startup",
+      "link": "https://claude.com/blog/the-founders-playbook",
+      "pubDate": "2026-06-17T07:04:42.000Z",
+      "description": "Article URL: https://claude.com/blog/the-founders-playbook Comments URL: https://news.ycombinator.com/item?id=48566832 Points: 102 # Comments: 93",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "From Chesterton's fence to Chesterton's gap",
+      "link": "https://stephantul.github.io/blog/unfence/",
+      "pubDate": "2026-06-17T06:50:47.000Z",
+      "description": "Article URL: https://stephantul.github.io/blog/unfence/ Comments URL: https://news.ycombinator.com/item?id=48566727 Points: 12 # Comments: 8",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Semiclassical Gravity Efficiently Solves NP-Complete Problems",
+      "link": "https://arxiv.org/abs/2606.14806",
+      "pubDate": "2026-06-17T03:25:51.000Z",
+      "description": "Article URL: https://arxiv.org/abs/2606.14806 Comments URL: https://news.ycombinator.com/item?id=48565326 Points: 36 # Comments: 17",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -109,63 +165,7 @@
       "title": "Stop Killing Games fails to secure EU law despite 1.3M signatures",
       "link": "https://www.dexerto.com/gaming/stop-killing-games-fails-to-secure-eu-law-despite-1-3m-signatures-3376431/",
       "pubDate": "2026-06-17T01:40:22.000Z",
-      "description": "Article URL: https://www.dexerto.com/gaming/stop-killing-games-fails-to-secure-eu-law-despite-1-3m-signatures-3376431/ Comments URL: https://news.ycombinator.com/item?id=48564696 Points: 82 # Comments: 19",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Wolfram Language and Mathematica Version 15, AI Assistant, Symbolic Music, More",
-      "link": "https://writings.stephenwolfram.com/2026/06/launching-version-15-of-wolfram-language-mathematica-built-in-useful-ai-lots-of-new-core-functionality/",
-      "pubDate": "2026-06-16T23:15:44.000Z",
-      "description": "Article URL: https://writings.stephenwolfram.com/2026/06/launching-version-15-of-wolfram-language-mathematica-built-in-useful-ai-lots-of-new-core-functionality/ Comments URL: https://news.ycombinator.com/item?id=48563609 Points: 121 # Comments: 39",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "NLnet announces funding for 67 more open-source projects",
-      "link": "https://nlnet.nl/news/2026/20260616-67-new-projects.html",
-      "pubDate": "2026-06-16T23:12:09.000Z",
-      "description": "Article URL: https://nlnet.nl/news/2026/20260616-67-new-projects.html Comments URL: https://news.ycombinator.com/item?id=48563569 Points: 104 # Comments: 15",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Humiliating IIS servers for fun and jail time",
-      "link": "https://mll.sh/humiliating-iis-servers-for-fun-and-jail-time/",
-      "pubDate": "2026-06-16T22:53:34.000Z",
-      "description": "Article URL: https://mll.sh/humiliating-iis-servers-for-fun-and-jail-time/ Comments URL: https://news.ycombinator.com/item?id=48563394 Points: 158 # Comments: 31",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "GrapheneOS has been ported to Android 17",
-      "link": "https://discuss.grapheneos.org/d/36469-grapheneos-has-been-ported-to-android-17-and-official-releases-are-coming-soon",
-      "pubDate": "2026-06-16T20:34:35.000Z",
-      "description": "Article URL: https://discuss.grapheneos.org/d/36469-grapheneos-has-been-ported-to-android-17-and-official-releases-are-coming-soon Comments URL: https://news.ycombinator.com/item?id=48561654 Points: 541 # Comments: 226",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Show HN: cuTile Rust: Safe, data-race-free GPU kernels in Rust",
-      "link": "https://github.com/nvlabs/cutile-rs",
-      "pubDate": "2026-06-16T20:17:42.000Z",
-      "description": "Article URL: https://github.com/nvlabs/cutile-rs Comments URL: https://news.ycombinator.com/item?id=48561410 Points: 52 # Comments: 12",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Frood, an Alpine Initramfs NAS (2024)",
-      "link": "https://words.filippo.io/frood/",
-      "pubDate": "2026-06-16T20:17:04.000Z",
-      "description": "Article URL: https://words.filippo.io/frood/ Comments URL: https://news.ycombinator.com/item?id=48561402 Points: 38 # Comments: 11",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Apple is about to make Hide My Email useless",
-      "link": "https://arseniyshestakov.com/2026/06/16/apple-is-about-to-make-hide-my-email-useless/",
-      "pubDate": "2026-06-16T18:37:21.000Z",
-      "description": "Article URL: https://arseniyshestakov.com/2026/06/16/apple-is-about-to-make-hide-my-email-useless/ Comments URL: https://news.ycombinator.com/item?id=48559935 Points: 437 # Comments: 275",
+      "description": "Article URL: https://www.dexerto.com/gaming/stop-killing-games-fails-to-secure-eu-law-despite-1-3m-signatures-3376431/ Comments URL: https://news.ycombinator.com/item?id=48564696 Points: 270 # Comments: 188",
       "source": "Hacker News",
       "category": "Tech News"
     },
