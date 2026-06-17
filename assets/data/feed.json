@@ -1,173 +1,248 @@
 {
-  "generatedAt": "2026-06-17T11:17:05.128Z",
+  "generatedAt": "2026-06-17T16:05:01.186Z",
   "sourceCount": 4,
-  "successCount": 3,
-  "errors": [
-    {
-      "source": "CSS Tricks",
-      "error": "HTTP 415 Unsupported Media Type"
-    }
-  ],
+  "successCount": 4,
+  "errors": [],
   "items": [
     {
-      "title": "Production-Ready FastAPI Project Structure (2026 Guide)",
-      "link": "https://dev.to/thesius_code_7a136ae718b7/production-ready-fastapi-project-structure-2026-guide-38k8",
-      "pubDate": "2026-06-17T11:13:42.000Z",
-      "description": "<p>Most FastAPI tutorials show you a single <code>main.py</code> file with three routes. That works for a demo. It doesn't work when you have 50 endpoints, database migrations, background tasks, authentication, and a CI/CD pipeline.</p> <p>This guide covers how to structure a FastAPI project that sc",
+      "title": "Rate Limiting and Circuit Breakers in Distributed AI Systems",
+      "link": "https://dev.to/biao_lin_14b493a4944b1361/rate-limiting-and-circuit-breakers-in-distributed-ai-systems-1p56",
+      "pubDate": "2026-06-17T15:51:39.000Z",
+      "description": "<h1> Rate Limiting and Circuit Breakers in Distributed AI Systems </h1> <p>Distributed AI systems are inherently complex, handling massive volumes of requests, variable latency from model inference, and dependencies on external services like GPU clusters, databases, or third-party APIs. Without prop",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Beyond the Keyboard: Crafting a Sustainable Healthy Lifestyle for Developers",
-      "link": "https://dev.to/sreeraj-sreenivasan/beyond-the-keyboard-crafting-a-sustainable-healthy-lifestyle-for-developers-4emm",
-      "pubDate": "2026-06-17T11:12:39.000Z",
-      "description": "<p>In the fast-paced world of software development, where deadlines loom, late-night coding sessions are common, and the glow of multiple monitors often replaces sunlight, it's easy for personal well-being to take a backseat. We spend hours hunched over keyboards, minds racing to solve complex probl",
+      "title": "Extending Filament exports with Laravel Excel",
+      "link": "https://dev.to/filamentmastery/extending-filament-exports-with-laravel-excel-35db",
+      "pubDate": "2026-06-17T15:49:47.000Z",
+      "description": "<p>Filament's export action is great. It's quick to set up, supports queued exports, includes column mapping, handles notifications, and keeps a history of generated files through the <code>Export</code> model. For most use cases, it's exactly what you need.</p> <p>But I recently ran into a limitati",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "LaraOwl -The Open-Source, Self-Hosted Monitoring Platform for Laravel",
-      "link": "https://dev.to/megoxv/laraowl-the-open-source-self-hosted-monitoring-platform-for-laravel-10ei",
-      "pubDate": "2026-06-17T11:11:36.000Z",
-      "description": "<p>If you are a Laravel developer, you know how crucial it is to monitor your production applications. However, most commercial application performance monitoring tools can quickly become expensive, and sending sensitive telemetry data to third-party servers might not align with your privacy require",
+      "title": "I Can't Tell If You're Selling Me Something",
+      "link": "https://dev.to/raleighschickel/i-cant-tell-if-youre-selling-me-something-bb4",
+      "pubDate": "2026-06-17T15:49:30.000Z",
+      "description": "<p><em>What I actually found when I stopped reading about AI and started running my own experiments.</em></p> <p>Everywhere you turn right now, someone is telling you how AI is going to transform your workflow, your team, your organization, your life. The content is relentless, and it is almost univ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Why every AI tool costs twenty dollars a month now",
-      "link": "https://dev.to/ninghonggang/why-every-ai-tool-costs-twenty-dollars-a-month-now-5e82",
-      "pubDate": "2026-06-17T11:05:52.000Z",
-      "description": "<p>I went down a rabbit hole this morning reading the late-2025 Juejin AI pricing guides back to back, and the thing that finally crystallized for me is that the entire AI tool industry has quietly converged on a twenty-dollar-a-month price ceiling, and almost nobody is talking about it as the story",
+      "title": "Your Ticket Was Closed. The User Still Couldn't Pay.",
+      "link": "https://dev.to/walosha/your-ticket-was-closed-the-user-still-couldnt-pay-14di",
+      "pubDate": "2026-06-17T15:49:13.000Z",
+      "description": "<p>Your backend returned 200.</p> <p>The mobile app showed an error.</p> <p>The user tapped \"Pay\" three times.</p> <p>Three pending charges hit their account. One order was placed. Their balance was short. And your incident log showed zero failures.</p> <p>Every engineer on the team did their job. N",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How to use build-your-own-x: Master programming by recreating your favorite technologies from scratch.",
-      "link": "https://dev.to/kelvin_kariuki_20f4bec616/how-to-use-build-your-own-x-master-programming-by-recreating-your-favorite-technologies-from-581d",
-      "pubDate": "2026-06-17T11:05:37.000Z",
-      "description": "<p>How many times have you used a library, framework, or tool without <em>truly</em> understanding how it works under the hood? What if I told you there's a secret superpower that elite developers use to not just <em>use</em> technology, but to <em>master</em> it?</p> <p>Welcome to the world of \"Bui",
+      "title": "Real-time IP capacity in Google Cloud subnets",
+      "link": "https://dev.to/googlecloud/real-time-ip-capacity-in-google-cloud-subnets-4m9j",
+      "pubDate": "2026-06-17T15:46:58.000Z",
+      "description": "<p>When managing Shared VPCs, most teams allocate dedicated IP subnets for each service project to keep firewall rules simple, but this isolation often leads to poor IP utilization — it is not uncommon to see subnet IP utilization hovering in the low teens. On the other hand, using large shared subn",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Nobody keeps the receipts for AI pricing, so I built the changelog",
-      "link": "https://dev.to/solomonic/nobody-keeps-the-receipts-for-ai-pricing-so-i-built-the-changelog-5d6c",
-      "pubDate": "2026-06-17T11:04:01.000Z",
-      "description": "<p>I got one surprise AI bill that woke me up and I went looking for a simple answer: what did this model actually cost on the day I ran it?</p> <p>Turns out that is weirdly hard. Provider pricing pages change quietly with no changelog. The Wayback Machine is patchy. And the obvious shortcut, today'",
+      "title": "What an LLM Actually Does: Predicting the Next Word, Explained",
+      "link": "https://dev.to/dev48v/what-an-llm-actually-does-predicting-the-next-word-explained-iag",
+      "pubDate": "2026-06-17T15:42:15.000Z",
+      "description": "<p>\"How does ChatGPT <em>think</em>?\" It doesn't. The entire mechanism behind every chatbot is almost anticlimactic: it predicts <strong>one next word</strong>, adds it, and repeats. I built a tiny interactive predictor so you can be the model — and it explains both the magic and the flaws.</p> <p>\ud83d",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Setup Dev Environment cho Dell Pro 14 PC14250: Tối ưu WSL2 &amp; Docker",
-      "link": "https://dev.to/hung_phatlaptop_a651fc86/setup-dev-environment-cho-dell-pro-14-pc14250-toi-uu-wsl2-docker-2jon",
-      "pubDate": "2026-06-17T11:01:34.000Z",
-      "description": "<p>Chúc mừng bạn đã sở hữu chiếc <strong>Dell Pro 14 PC14250</strong>! Với cấu hình Intel Core thế hệ mới và màn hình 16:10 cực kỳ 'đáng đồng tiền bát gạo' cho việc code, chiếc máy này là một workstation văn phòng rất ổn định. Tuy nhiên, để biến nó thành một cỗ máy phát triển phần mềm thực thụ, bạn ",
+      "title": "Loss Functions: MSE vs MAE vs Cross-Entropy, Visualized",
+      "link": "https://dev.to/dev48v/loss-functions-mse-vs-mae-vs-cross-entropy-visualized-3bkn",
+      "pubDate": "2026-06-17T15:41:34.000Z",
+      "description": "<p>Pick the wrong loss function and your model optimises the wrong thing — perfectly. The loss is the single number training tries to shrink, so it quietly defines what \"wrong\" even means. I built an interactive visualiser of MSE, MAE, and cross-entropy so you can <em>see</em> why the choice matters",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "10 PHP Bugs That Break Real Projects — And How to Fix Them (Part 2)",
-      "link": "https://dev.to/bikkisingh/10-php-bugs-that-break-real-projects-and-how-to-fix-them-part-2-7hm",
-      "pubDate": "2026-06-17T11:00:40.000Z",
-      "description": "<p>Every PHP developer has lived this moment. Code works perfectly on localhost. You push to production. Something silently breaks — no error, no log, just wrong output and a few wasted hours tracing the problem.</p> <p>These are not textbook bugs. They come from real PHP projects — login systems, e",
+      "title": "Naive Bayes From Scratch: A Spam Filter Built From Word Counts",
+      "link": "https://dev.to/dev48v/naive-bayes-from-scratch-a-spam-filter-built-from-word-counts-1llc",
+      "pubDate": "2026-06-17T15:40:54.000Z",
+      "description": "<p>Naive Bayes ran real spam filters for years, and it's the rare ML model whose \"training\" is just <em>counting</em>. No gradient descent, no iterations — count words, apply Bayes' rule, multiply. I built one from scratch and visualised exactly which words push a message toward spam.</p> <p>📨 <str",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Building Structured Inter-Agent Communication: A Practical Guide",
-      "link": "https://dev.to/albert_zhang_f468830cf0e6/building-structured-inter-agent-communication-a-practical-guide-2b5k",
-      "pubDate": "2026-06-17T11:00:32.000Z",
-      "description": "<p>Every multi-agent tutorial shows \"Agent A talks to Agent B.\" None show <em>how</em> to keep that conversation reliable at scale.</p> <h2> The Problem with String-Based Agent Chat </h2> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight python\"><code><span class=\"c1\"># What most frame",
+      "title": "Vector Search in Elasticsearch: From Keywords to Meaning - Building Semantic Search and RAG Pipelines",
+      "link": "https://dev.to/iprithv/vector-search-in-elasticsearch-from-keywords-to-meaning-building-semantic-search-and-rag-4jd7",
+      "pubDate": "2026-06-17T15:40:14.000Z",
+      "description": "<p>You type \"k8s deployment troubleshooting\" into your documentation search. The top result is a page about Kubernetes architecture that never mentions the word \"troubleshooting.\" It is exactly what you need. BM25 would have missed it entirely.</p> <p>This is the promise of vector search: finding do",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Compact Video Metadata Serialization With Protobuf Across PHP Services",
-      "link": "https://dev.to/ahmet_gedik778845/compact-video-metadata-serialization-with-protobuf-across-php-services-19lk",
-      "pubDate": "2026-06-17T11:00:01.000Z",
-      "description": "<p>Every two hours our ingest worker pulls a few thousand trending videos from regional sources, normalizes them, and hands the result to three downstream consumers: a ranking service that scores virality, an edge cache warmer that runs on Cloudflare Workers, and a Python analytics job that builds t",
+      "title": "I Built an Image Compressor That Runs 100% in the Browser",
+      "link": "https://dev.to/dev48v/i-built-an-image-compressor-that-runs-100-in-the-browser-5e91",
+      "pubDate": "2026-06-17T15:40:13.000Z",
+      "description": "<p>Most \"compress your image\" websites upload your photo to a server. You don't need one. The browser's own canvas can re-encode an image at any quality — I built a drag-and-drop compressor in about <strong>30 lines</strong>, and your photo never leaves your machine.</p> <p>🗜️ <strong>Try it (drop ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "U.S. Science Is in Chaos",
-      "link": "https://www.scientificamerican.com/article/americas-compact-between-science-and-politics-is-broken/",
-      "pubDate": "2026-06-17T09:54:21.000Z",
-      "description": "Article URL: https://www.scientificamerican.com/article/americas-compact-between-science-and-politics-is-broken/ Comments URL: https://news.ycombinator.com/item?id=48568058 Points: 69 # Comments: 30",
+      "title": "The Siren Song of  ariaNotify()",
+      "link": "https://css-tricks.com/the-siren-song-of-arianotify/",
+      "pubDate": "2026-06-17T15:32:30.000Z",
+      "description": "There's a brand new ariaNotify() method — defined by the WAI-ARIA 1.3 Specification — that provides a means of programmatically triggering narration in a screen reader. The Siren Song of ariaNotify() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter a",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "French physicist and media star loses doctorate after plagiarism investigation",
+      "link": "https://www.science.org/content/article/french-physicist-and-media-star-loses-doctorate-after-plagiarism-investigation",
+      "pubDate": "2026-06-17T15:23:49.000Z",
+      "description": "Article URL: https://www.science.org/content/article/french-physicist-and-media-star-loses-doctorate-after-plagiarism-investigation Comments URL: https://news.ycombinator.com/item?id=48571767 Points: 14 # Comments: 3",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Show HN: High-Res Neural Cellular Automata",
-      "link": "https://cells2pixels.github.io/",
-      "pubDate": "2026-06-17T09:28:36.000Z",
-      "description": "Neural CAs model self-organizing pattern formation.Now they can generate patterns at HD resolution in real-time, enabled by turning each CA cell into a Neural Field.Try 3 demos: grow a pattern from a seed (and damage it, it heals), synthesize PBR textures that can regenerate, or create 3D textures l",
+      "title": "Volkswagen started blocking GrapheneOS users",
+      "link": "https://discuss.grapheneos.org/d/35949-volkswagen-app?page=3",
+      "pubDate": "2026-06-17T15:04:47.000Z",
+      "description": "Article URL: https://discuss.grapheneos.org/d/35949-volkswagen-app?page=3 Comments URL: https://news.ycombinator.com/item?id=48571526 Points: 35 # Comments: 18",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "GLM-5.2 is the new leading open weights model on Artificial Analysis",
-      "link": "https://artificialanalysis.ai/articles/glm-5-2-is-the-new-leading-open-weights-model-on-the-artificial-analysis-intelligence-index",
-      "pubDate": "2026-06-17T09:12:00.000Z",
-      "description": "Article URL: https://artificialanalysis.ai/articles/glm-5-2-is-the-new-leading-open-weights-model-on-the-artificial-analysis-intelligence-index Comments URL: https://news.ycombinator.com/item?id=48567759 Points: 125 # Comments: 45",
+      "title": "Why stdx is not on crates.io",
+      "link": "https://kerkour.com/stdx-cratesio",
+      "pubDate": "2026-06-17T14:45:09.000Z",
+      "description": "Article URL: https://kerkour.com/stdx-cratesio Comments URL: https://news.ycombinator.com/item?id=48571266 Points: 28 # Comments: 17",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Most of the CVE-2026-4020 attackers are the same client",
-      "link": "https://honeylabs.net/blog/the-cloud-fleet-behind-cve-2026-4020",
-      "pubDate": "2026-06-17T08:47:14.000Z",
-      "description": "Article URL: https://honeylabs.net/blog/the-cloud-fleet-behind-cve-2026-4020 Comments URL: https://news.ycombinator.com/item?id=48567574 Points: 4 # Comments: 0",
+      "title": "Epic Games announces Lore version control system",
+      "link": "https://lore.org/",
+      "pubDate": "2026-06-17T14:30:27.000Z",
+      "description": "Article URL: https://lore.org/ Comments URL: https://news.ycombinator.com/item?id=48571081 Points: 209 # Comments: 120",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Hacker News but for Independent Blogs",
-      "link": "https://bubbles.town/",
-      "pubDate": "2026-06-17T07:49:44.000Z",
-      "description": "Article URL: https://bubbles.town/ Comments URL: https://news.ycombinator.com/item?id=48567155 Points: 125 # Comments: 43",
+      "title": "Pentagon boasts of using AI to write reports mandated by Congress (1.5mil users)",
+      "link": "https://arstechnica.com/ai/2026/06/pentagon-boasts-of-using-ai-to-write-reports-mandated-by-congress/",
+      "pubDate": "2026-06-17T14:26:07.000Z",
+      "description": "Article URL: https://arstechnica.com/ai/2026/06/pentagon-boasts-of-using-ai-to-write-reports-mandated-by-congress/ Comments URL: https://news.ycombinator.com/item?id=48571016 Points: 20 # Comments: 20",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "GLM 5.2 Performance Benchmarks",
-      "link": "https://artificialanalysis.ai/models/glm-5-2",
-      "pubDate": "2026-06-17T07:30:51.000Z",
-      "description": "Article URL: https://artificialanalysis.ai/models/glm-5-2 Comments URL: https://news.ycombinator.com/item?id=48567004 Points: 14 # Comments: 0",
+      "title": "AI demands more engineering discipline. Not less",
+      "link": "https://charitydotwtf.substack.com/p/ai-demands-more-engineering-discipline",
+      "pubDate": "2026-06-17T14:20:44.000Z",
+      "description": "Article URL: https://charitydotwtf.substack.com/p/ai-demands-more-engineering-discipline Comments URL: https://news.ycombinator.com/item?id=48570948 Points: 79 # Comments: 22",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "The founder's playbook: Building an AI-native startup",
-      "link": "https://claude.com/blog/the-founders-playbook",
-      "pubDate": "2026-06-17T07:04:42.000Z",
-      "description": "Article URL: https://claude.com/blog/the-founders-playbook Comments URL: https://news.ycombinator.com/item?id=48566832 Points: 102 # Comments: 93",
+      "title": "ICE Appears to Be Buying Immigrants' Tax Identifiers from a Data Broker",
+      "link": "https://www.404media.co/ice-appears-to-be-buying-immigrants-tax-identifiers-from-a-data-broker/",
+      "pubDate": "2026-06-17T14:06:09.000Z",
+      "description": "Article URL: https://www.404media.co/ice-appears-to-be-buying-immigrants-tax-identifiers-from-a-data-broker/ Comments URL: https://news.ycombinator.com/item?id=48570763 Points: 75 # Comments: 31",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "From Chesterton's fence to Chesterton's gap",
-      "link": "https://stephantul.github.io/blog/unfence/",
-      "pubDate": "2026-06-17T06:50:47.000Z",
-      "description": "Article URL: https://stephantul.github.io/blog/unfence/ Comments URL: https://news.ycombinator.com/item?id=48566727 Points: 12 # Comments: 8",
+      "title": "Want your images back? Sure... That'll be $5!",
+      "link": "https://www.lutr.dev/want-your-images-back-sure-that-ll-be-5-dollars",
+      "pubDate": "2026-06-17T13:05:03.000Z",
+      "description": "Article URL: https://www.lutr.dev/want-your-images-back-sure-that-ll-be-5-dollars Comments URL: https://news.ycombinator.com/item?id=48569954 Points: 383 # Comments: 150",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Semiclassical Gravity Efficiently Solves NP-Complete Problems",
-      "link": "https://arxiv.org/abs/2606.14806",
-      "pubDate": "2026-06-17T03:25:51.000Z",
-      "description": "Article URL: https://arxiv.org/abs/2606.14806 Comments URL: https://news.ycombinator.com/item?id=48565326 Points: 36 # Comments: 17",
+      "title": "Sixty percent of US consumers say 'AI' in brand messaging is a turnoff",
+      "link": "https://wpvip.com/future-of-the-web-2026/",
+      "pubDate": "2026-06-17T12:11:27.000Z",
+      "description": "Article URL: https://wpvip.com/future-of-the-web-2026/ Comments URL: https://news.ycombinator.com/item?id=48569278 Points: 585 # Comments: 301",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Stop Killing Games fails to secure EU law despite 1.3M signatures",
-      "link": "https://www.dexerto.com/gaming/stop-killing-games-fails-to-secure-eu-law-despite-1-3m-signatures-3376431/",
-      "pubDate": "2026-06-17T01:40:22.000Z",
-      "description": "Article URL: https://www.dexerto.com/gaming/stop-killing-games-fails-to-secure-eu-law-despite-1-3m-signatures-3376431/ Comments URL: https://news.ycombinator.com/item?id=48564696 Points: 270 # Comments: 188",
+      "title": "MicroUI – A tiny, portable, immediate-mode UI library written in ANSI C",
+      "link": "https://github.com/rxi/microui",
+      "pubDate": "2026-06-17T12:04:28.000Z",
+      "description": "Article URL: https://github.com/rxi/microui Comments URL: https://news.ycombinator.com/item?id=48569205 Points: 79 # Comments: 27",
       "source": "Hacker News",
       "category": "Tech News"
+    },
+    {
+      "title": "Prop For That",
+      "link": "https://css-tricks.com/prop-for-that/",
+      "pubDate": "2026-06-16T18:36:25.000Z",
+      "description": "Props for That creates live props based things CSS can't normally see in the browser. Things like cursor position, progress values, certain form states, current time, scroll velocity. Prop For That originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as ",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "What’s !important #13: @function, alpha(), CSS Wordle, and More",
+      "link": "https://css-tricks.com/whats-important-13/",
+      "pubDate": "2026-06-15T13:15:33.000Z",
+      "description": "CSS functions, the alpha() function, Grid Lanes, some things about Dialog that you might not know, CSS Wordle, and more — this is What’s !important right now. What’s !important #13: @function, alpha(), CSS Wordle, and More originally handwritten and published with love on CSS-Tricks. You should real",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Why Isn&#8217;t My 3D View Transition Working?",
+      "link": "https://css-tricks.com/why-isnt-my-3d-view-transition-working/",
+      "pubDate": "2026-06-12T15:09:00.000Z",
+      "description": "Why isn't my 3D view transition working?! Sunkanmi tackles this frustration and offers an elegant fix for it. Why Isn’t My 3D View Transition Working? originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "There’s no need to include ‘navigation’ in your navigation labels",
+      "link": "https://css-tricks.com/navigation-in-your-navigation-labels/",
+      "pubDate": "2026-06-12T15:08:38.000Z",
+      "description": "One of those nuances to keep in your back pocket when writing for screen readers. There’s no need to include ‘navigation’ in your navigation labels originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Creating Memorable Web Experiences: A Modern CSS Toolkit",
+      "link": "https://css-tricks.com/creating-memorable-web-experiences-a-modern-css-toolkit/",
+      "pubDate": "2026-06-10T13:02:10.000Z",
+      "description": "There are many ways to create memorable experiences. Sometimes it's as simple as a form that completes smoothly. But here I'm interested in sharing techniques I reach for when I want a site to feel alive and be remembered. Creating Memorable Web Experiences: A Modern CSS Toolkit originally handwritt",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Scroll-Driven, Scroll-Triggered, Scroll States, and View Transitions",
+      "link": "https://css-tricks.com/scroll-driven-scroll-triggered-scroll-states-and-view-transitions/",
+      "pubDate": "2026-06-08T13:00:34.000Z",
+      "description": "I've said one and mean another, and I've used one when I needed another. Comparing scroll-driven animations, scroll-triggered animations, container query scroll states, and view transitions for my future self. Scroll-Driven, Scroll-Triggered, Scroll States, and View Transitions originally handwritte",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Another Stab at the Perfect CSS Pie Chart&#8230; Sans JavaScript!",
+      "link": "https://css-tricks.com/another-stab-at-the-perfect-css-pie-chart-sans-javascript/",
+      "pubDate": "2026-06-04T13:14:49.000Z",
+      "description": "We dive again into CSS Pie Charts! This time, Author Antoine Villepreux delivers semantic and flexible charts without a single line of JS. Another Stab at the Perfect CSS Pie Chart… Sans JavaScript! originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "offset-path",
+      "link": "https://css-tricks.com/almanac/properties/o/offset-path/",
+      "pubDate": "2026-06-03T15:02:38.000Z",
+      "description": "The offset-path property in CSS defines a movement path for an element to follow during animation. This property began life as motion-path. This, and all other related motion-* properties, are being renamed offset-* in the spec. We’re changing … offset-path originally handwritten and published with ",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "@custom-media",
+      "link": "https://css-tricks.com/almanac/rules/c/custom-media/",
+      "pubDate": "2026-06-03T13:03:21.000Z",
+      "description": "The CSS @custom-media at-rule allows creating aliases for media queries. @custom-media originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
       "title": "Meet the HTB Profile: all your skills, in one place",
