@@ -1,126 +1,163 @@
 {
-  "generatedAt": "2026-06-16T21:20:01.695Z",
+  "generatedAt": "2026-06-17T05:16:55.260Z",
   "sourceCount": 4,
-  "successCount": 4,
-  "errors": [],
+  "successCount": 3,
+  "errors": [
+    {
+      "source": "CSS Tricks",
+      "error": "HTTP 415 Unsupported Media Type"
+    }
+  ],
   "items": [
     {
-      "title": "Common Pitfalls Building Email Agents (and Fixes)",
-      "link": "https://dev.to/qasim157/common-pitfalls-building-email-agents-and-fixes-29kg",
-      "pubDate": "2026-06-16T21:18:04.000Z",
-      "description": "<p>A team ships their first email agent on a Thursday. Demo went great, handler's deployed, webhook's registered. Friday morning the on-call wakes up to an inbox where the agent has been enthusiastically replying to its own replies all night, a customer who received the same answer three times, and ",
+      "title": "Lesson 1.3 - GraphQL for Screen Complexity and App Changes",
+      "link": "https://dev.to/subraatakumar/lesson-13-graphql-for-screen-complexity-and-app-changes-3cdi",
+      "pubDate": "2026-06-17T05:07:25.000Z",
+      "description": "<p>Good morning, class! Welcome back. In our last lesson, we explored how GraphQL fundamentally addresses the issues of over-fetching and under-fetching.</p> <p>Today, we are going to connect those architectural concepts directly to real-world React Native screen complexity. Our <strong>Goal</strong",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Software Execution Governance Starts Before Production",
-      "link": "https://dev.to/otaready/software-execution-governance-starts-before-production-4chn",
-      "pubDate": "2026-06-16T21:14:09.000Z",
-      "description": "<p>Most teams still talk about governance as if it begins at deployment.</p> <p>Approvals. Production access. Compliance review. Audit trails.</p> <p>All of that matters.</p> <p>But by the time software reaches production, many of the most important execution decisions have already happened:</p> <ul",
+      "title": "AI Doesn't Replace Thinking. It Amplifies It.",
+      "link": "https://dev.to/jaideepparashar/ai-doesnt-replace-thinking-it-amplifies-it-3c52",
+      "pubDate": "2026-06-17T05:03:50.000Z",
+      "description": "<p>One of the biggest misconceptions surrounding artificial intelligence is that it eliminates the need for human thinking.</p> <p>In my experience, the opposite is happening.</p> <p>AI does not replace thinking.</p> <p>It amplifies it.</p> <p>Good thinking produces better outcomes.</p> <p>Poor thin",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Flutter Architecture Explained: What Every Beginner Needs to Know",
-      "link": "https://dev.to/edwin_gichira_92748e19bb6/flutter-architecture-explained-what-every-beginner-needs-to-know-1oim",
-      "pubDate": "2026-06-16T21:10:49.000Z",
-      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fk4rsliantknm6m0rtbdt.png\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/width=800%",
+      "title": "Stop Leaving Containers Exposed: Practical AppArmor Profiles for Podman and Docker on Linux",
+      "link": "https://dev.to/lyraalishaikh/stop-leaving-containers-exposed-practical-apparmor-profiles-for-podman-and-docker-on-linux-j40",
+      "pubDate": "2026-06-17T05:01:03.000Z",
+      "description": "<p>Containers give us isolation, but by default they still share the host's attack surface more than many realize. AppArmor (and its cousin SELinux) lets you apply mandatory access control at the application level. When used with Podman or Docker, you can dramatically reduce what a compromised proce",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "AWS Blocks: Full-Stack Building Blocks That Run Locally Without an AWS Account",
-      "link": "https://dev.to/aws-heroes/aws-blocks-full-stack-building-blocks-that-run-locally-without-an-aws-account-346l",
-      "pubDate": "2026-06-16T21:08:56.000Z",
-      "description": "<h2> Why I built a Custom Kiro Power to ship faster with AWS Blocks </h2> <p>Every developer building on AWS has hit the same wall. You need a sandbox account to test your idea. In most organizations that means a ticket, an approval workflow, a budget tag, and three days of waiting before you can fi",
+      "title": "I Trusted a Random AI Plugin… Until Cisco Showed It Was Stealing Data Behind My Back - 07 of 21",
+      "link": "https://dev.to/sam_lukaa/i-trusted-a-random-ai-plugin-until-cisco-showed-it-was-stealing-data-behind-my-back-08-of-21-29eh",
+      "pubDate": "2026-06-17T05:00:00.000Z",
+      "description": "<p>In the first week of 2026, Cisco's AI security research team published a finding.</p> <p>A third-party skill, a plugin, available in the OpenClaw agent marketplace had been performing data exfiltration. Silently. The skill appeared functional. It did what its documentation claimed. It also, witho",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "SpaceX Acquires AI Coding Tool Cursor for $60 Billion",
-      "link": "https://dev.to/joodi/spacex-acquires-ai-coding-tool-cursor-for-60-billion-30c7",
-      "pubDate": "2026-06-16T21:07:40.000Z",
-      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Foy1n83yp803ee4oiw3ag.png\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/width=800%",
+      "title": "Kog hits 3K t/s on MI300X, no kernel switches — test it now",
+      "link": "https://dev.to/creeta/kog-hits-3k-ts-on-mi300x-no-kernel-switches-test-it-now-55dh",
+      "pubDate": "2026-06-17T04:59:23.000Z",
+      "description": "<p>AMD's MI300X has long had more single-request inference headroom than the default ROCm stack exposes. A Paris startup just showed how much — by deleting the per-token kernel launch entirely.</p> <h2> How the monokernel eliminates kernel-launch overhead </h2> <p>A monokernel is a single, persisten",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Arquitectura y Seguridad en la Nube: El próximo nivel del desarrollador",
-      "link": "https://dev.to/xinlin25/arquitectura-y-seguridad-en-la-nube-el-proximo-nivel-del-desarrollador-1bnd",
-      "pubDate": "2026-06-16T21:05:59.000Z",
-      "description": "<h1> Arquitectura y Seguridad en la Nube: el próximo nivel del desarrollador </h1> <p>Cuando una aplicación web funciona en local, parece que ya esta casi terminada. Pero en realidad todavía queda una parte muy importante: decidir donde va a vivir, como se va a proteger y que pasara si de repente la",
+      "title": "Fable 5 refusals are 200 OK — your error handler misses them",
+      "link": "https://dev.to/creeta/fable-5-refusals-are-200-ok-your-error-handler-misses-them-jog",
+      "pubDate": "2026-06-17T04:59:22.000Z",
+      "description": "<p>You wired up <code>claude-fable-5</code>, shipped your integration, and then every call started failing. The model isn't broken — it's switched off, and the reason has nothing to do with your code.</p> <h2> Why Is Fable 5 Offline? The Export-Control Directive Explained </h2> <p>Fable 5 is current",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Apache Data Lakehouse Weekly: June 9 to 16, 2026",
-      "link": "https://dev.to/alexmercedcoder/apache-data-lakehouse-weekly-june-9-to-16-2026-5dj1",
-      "pubDate": "2026-06-16T21:05:51.000Z",
-      "description": "<p>This was a week of votes that passed and arguments that opened. Iceberg shipped three formal decisions while debating how to cut read latency for V4. Polaris worked through the unglamorous plumbing of error codes, persistence, and retention. Parquet reopened the oldest question in its history, wh",
+      "title": "The boring 80% nobody warns you about when an AI demo becomes a real product",
+      "link": "https://dev.to/velobasex/the-boring-80-nobody-warns-you-about-when-an-ai-demo-becomes-a-real-product-3dnm",
+      "pubDate": "2026-06-17T04:55:33.000Z",
+      "description": "<p>This month the front page filled up with AI agents going off the rails — one reportedly ran its operator's bill into the ground, another tore through a Linux box unsupervised. Funny, until it's your credits and your customers. We learned that lesson the slower, more expensive way.</p> <p>Our team",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "have you installed the Agent Toolkit for AWS yet?",
-      "link": "https://dev.to/hacksore/have-you-installed-the-agent-toolkit-for-aws-yet-2bap",
-      "pubDate": "2026-06-16T21:03:54.000Z",
-      "description": "",
+      "title": "Polymarket CLOB WebSocket in Python — Real-Time Order Book Without Polling",
+      "link": "https://dev.to/bluewhale-quant-lab/polymarket-clob-websocket-in-python-real-time-order-book-without-polling-4e6n",
+      "pubDate": "2026-06-17T04:52:41.000Z",
+      "description": "<p>If your Polymarket bot polls <code>GET /book</code> in a loop, your view of the market is as stale as your interval — and you'll lose to anyone using the <strong>WebSocket feed</strong>. This tutorial builds a real-time local order book in Python from the CLOB WebSocket stream.</p> <h2> Why WebSo",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The Architect of Complexity: How Jeff Bezos Scaled the Digital and Physical Worlds (1996–1998)",
-      "link": "https://dev.to/bioshistory/the-architect-of-complexity-how-jeff-bezos-scaled-the-digital-and-physical-worlds-1996-1998-513l",
-      "pubDate": "2026-06-16T21:00:00.000Z",
-      "description": "<p>In the mid-1990s, the world viewed the burgeoning internet as a digital playground—a place for chat rooms, static web pages, and the occasional novelty. But inside a small, humming office in Seattle, Jeff Bezos was engaged in a much more violent struggle. He wasn't just building a bookstore; he w",
+      "title": "How to Benchmark API Latency to Any Endpoint (Polymarket Case Study)",
+      "link": "https://dev.to/bluewhale-quant-lab/how-to-benchmark-api-latency-to-any-endpoint-polymarket-case-study-512o",
+      "pubDate": "2026-06-17T04:51:36.000Z",
+      "description": "<p>\"Just ping it\" is bad latency advice. ICMP gets deprioritized behind CDNs and tells you almost nothing about real request latency. This is how to benchmark API latency <em>properly</em>, with a real case study: finding where Polymarket's order book lives.</p> <h2> Why <code>ping</code> lies </h2>",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Cloudflare cf_clearance: why it expires and how to stop the re-challenge loop",
-      "link": "https://dev.to/bshahin/cloudflare-cfclearance-why-it-expires-and-how-to-stop-the-re-challenge-loop-do9",
-      "pubDate": "2026-06-16T20:58:13.000Z",
-      "description": "<h1> Cloudflare cf_clearance: why it expires and how to stop the re-challenge loop </h1> <p>You solve the Cloudflare challenge, get a <code>cf_clearance</code> cookie, make your next request — and Cloudflare throws you straight back to the challenge. You solve it again, same thing. The scraper is te",
+      "title": "Polymarket's Price-to-Beat Has No API — Why a Co-located Server Gets It in Real Time, Not 15 Seconds",
+      "link": "https://dev.to/bluewhale-quant-lab/polymarkets-price-to-beat-has-no-api-why-a-co-located-server-gets-it-in-real-time-not-15-seconds-15ko",
+      "pubDate": "2026-06-17T04:51:26.000Z",
+      "description": "<p>If you automate Polymarket's crypto Up/Down markets, you hit this wall fast: <strong>there is no API that returns the \"price to beat\" (PTB)</strong> — the strike/reference price that decides whether Up or Down wins. You have to <em>reconstruct</em> it. And the speed + accuracy of that reconstruct",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Frood, an Alpine Initramfs NAS",
+      "title": "NetNewsWire Status",
+      "link": "https://inessential.com/2026/06/15/netnewswire-status.html",
+      "pubDate": "2026-06-17T04:30:49.000Z",
+      "description": "Article URL: https://inessential.com/2026/06/15/netnewswire-status.html Comments URL: https://news.ycombinator.com/item?id=48565685 Points: 6 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Leaked OpenAI financials show $38.5B loss and compute burn",
+      "link": "https://runtimewire.com/article/openai-leaked-financials-altman-compute-burn",
+      "pubDate": "2026-06-17T02:47:29.000Z",
+      "description": "Article URL: https://runtimewire.com/article/openai-leaked-financials-altman-compute-burn Comments URL: https://news.ycombinator.com/item?id=48565130 Points: 115 # Comments: 89",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Stop Killing Games fails to secure EU law despite 1.3M signatures",
+      "link": "https://www.dexerto.com/gaming/stop-killing-games-fails-to-secure-eu-law-despite-1-3m-signatures-3376431/",
+      "pubDate": "2026-06-17T01:40:22.000Z",
+      "description": "Article URL: https://www.dexerto.com/gaming/stop-killing-games-fails-to-secure-eu-law-despite-1-3m-signatures-3376431/ Comments URL: https://news.ycombinator.com/item?id=48564696 Points: 82 # Comments: 19",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Wolfram Language and Mathematica Version 15, AI Assistant, Symbolic Music, More",
+      "link": "https://writings.stephenwolfram.com/2026/06/launching-version-15-of-wolfram-language-mathematica-built-in-useful-ai-lots-of-new-core-functionality/",
+      "pubDate": "2026-06-16T23:15:44.000Z",
+      "description": "Article URL: https://writings.stephenwolfram.com/2026/06/launching-version-15-of-wolfram-language-mathematica-built-in-useful-ai-lots-of-new-core-functionality/ Comments URL: https://news.ycombinator.com/item?id=48563609 Points: 121 # Comments: 39",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "NLnet announces funding for 67 more open-source projects",
+      "link": "https://nlnet.nl/news/2026/20260616-67-new-projects.html",
+      "pubDate": "2026-06-16T23:12:09.000Z",
+      "description": "Article URL: https://nlnet.nl/news/2026/20260616-67-new-projects.html Comments URL: https://news.ycombinator.com/item?id=48563569 Points: 104 # Comments: 15",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Humiliating IIS servers for fun and jail time",
+      "link": "https://mll.sh/humiliating-iis-servers-for-fun-and-jail-time/",
+      "pubDate": "2026-06-16T22:53:34.000Z",
+      "description": "Article URL: https://mll.sh/humiliating-iis-servers-for-fun-and-jail-time/ Comments URL: https://news.ycombinator.com/item?id=48563394 Points: 158 # Comments: 31",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "GrapheneOS has been ported to Android 17",
+      "link": "https://discuss.grapheneos.org/d/36469-grapheneos-has-been-ported-to-android-17-and-official-releases-are-coming-soon",
+      "pubDate": "2026-06-16T20:34:35.000Z",
+      "description": "Article URL: https://discuss.grapheneos.org/d/36469-grapheneos-has-been-ported-to-android-17-and-official-releases-are-coming-soon Comments URL: https://news.ycombinator.com/item?id=48561654 Points: 541 # Comments: 226",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Show HN: cuTile Rust: Safe, data-race-free GPU kernels in Rust",
+      "link": "https://github.com/nvlabs/cutile-rs",
+      "pubDate": "2026-06-16T20:17:42.000Z",
+      "description": "Article URL: https://github.com/nvlabs/cutile-rs Comments URL: https://news.ycombinator.com/item?id=48561410 Points: 52 # Comments: 12",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Frood, an Alpine Initramfs NAS (2024)",
       "link": "https://words.filippo.io/frood/",
       "pubDate": "2026-06-16T20:17:04.000Z",
-      "description": "Article URL: https://words.filippo.io/frood/ Comments URL: https://news.ycombinator.com/item?id=48561402 Points: 12 # Comments: 2",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Nobody clicks share buttons",
-      "link": "https://ankursethi.com/links/nobody-clicks-your-share-buttons/",
-      "pubDate": "2026-06-16T20:12:05.000Z",
-      "description": "Article URL: https://ankursethi.com/links/nobody-clicks-your-share-buttons/ Comments URL: https://news.ycombinator.com/item?id=48561332 Points: 82 # Comments: 31",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Databricks Launches LTAP: A Unified OLAP/OLTP Data Architecture",
-      "link": "https://www.databricks.com/company/newsroom/press-releases/databricks-launches-ltap-first-lake-transactionalanalytical",
-      "pubDate": "2026-06-16T19:45:11.000Z",
-      "description": "Article URL: https://www.databricks.com/company/newsroom/press-releases/databricks-launches-ltap-first-lake-transactionalanalytical Comments URL: https://news.ycombinator.com/item?id=48560886 Points: 18 # Comments: 5",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "U.S. pulling ocean sensors a 'shock' for Canadian research as El Niño nears",
-      "link": "https://www.timescolonist.com/local-news/us-pulling-ocean-sensors-a-shock-for-canadian-research-as-el-nino-nears-12422874",
-      "pubDate": "2026-06-16T19:42:05.000Z",
-      "description": "Article URL: https://www.timescolonist.com/local-news/us-pulling-ocean-sensors-a-shock-for-canadian-research-as-el-nino-nears-12422874 Comments URL: https://news.ycombinator.com/item?id=48560847 Points: 302 # Comments: 158",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Show HN: VoiceDraw – Talk system design out loud, the diagrams draw themselves",
-      "link": "https://voicedraw.com/",
-      "pubDate": "2026-06-16T19:13:30.000Z",
-      "description": "I was frustated by having to draw system design diagrams by hand when discussing it with my team mates or in an interview. So I thought \"Wouldn't it be great if someone draws it for me, while I think out loud?\".That is when I came up with VoiceDraw. You can just think out loud or discuss your system",
+      "description": "Article URL: https://words.filippo.io/frood/ Comments URL: https://news.ycombinator.com/item?id=48561402 Points: 38 # Comments: 11",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -128,121 +165,9 @@
       "title": "Apple is about to make Hide My Email useless",
       "link": "https://arseniyshestakov.com/2026/06/16/apple-is-about-to-make-hide-my-email-useless/",
       "pubDate": "2026-06-16T18:37:21.000Z",
-      "description": "Article URL: https://arseniyshestakov.com/2026/06/16/apple-is-about-to-make-hide-my-email-useless/ Comments URL: https://news.ycombinator.com/item?id=48559935 Points: 175 # Comments: 71",
+      "description": "Article URL: https://arseniyshestakov.com/2026/06/16/apple-is-about-to-make-hide-my-email-useless/ Comments URL: https://news.ycombinator.com/item?id=48559935 Points: 437 # Comments: 275",
       "source": "Hacker News",
       "category": "Tech News"
-    },
-    {
-      "title": "Prop For That",
-      "link": "https://css-tricks.com/prop-for-that/",
-      "pubDate": "2026-06-16T18:36:25.000Z",
-      "description": "Props for That creates live props based things CSS can't normally see in the browser. Things like cursor position, progress values, certain form states, current time, scroll velocity. Prop For That originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "GPT‑NL: a sovereign language model for the Netherlands",
-      "link": "https://www.tno.nl/en/digital/artificial-intelligence/gpt-nl/",
-      "pubDate": "2026-06-16T17:54:02.000Z",
-      "description": "Article URL: https://www.tno.nl/en/digital/artificial-intelligence/gpt-nl/ Comments URL: https://news.ycombinator.com/item?id=48559188 Points: 84 # Comments: 62",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "10Gb/s Ethernet: switching to a Broadcom SFP+ module",
-      "link": "https://www.gilesthomas.com/2026/06/10g-ethernet-switching-to-broadcom-sfp-plus",
-      "pubDate": "2026-06-16T17:48:42.000Z",
-      "description": "Article URL: https://www.gilesthomas.com/2026/06/10g-ethernet-switching-to-broadcom-sfp-plus Comments URL: https://news.ycombinator.com/item?id=48559083 Points: 53 # Comments: 42",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Claude: Elevated errors across many models",
-      "link": "https://status.claude.com/incidents/xmhsglsz3h3w",
-      "pubDate": "2026-06-16T17:30:30.000Z",
-      "description": "Article URL: https://status.claude.com/incidents/xmhsglsz3h3w Comments URL: https://news.ycombinator.com/item?id=48558766 Points: 172 # Comments: 145",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Has AI already killed self-help nonfiction books?",
-      "link": "https://tim.blog/2026/06/12/has-ai-already-killed-nonfiction/",
-      "pubDate": "2026-06-16T17:11:05.000Z",
-      "description": "Article URL: https://tim.blog/2026/06/12/has-ai-already-killed-nonfiction/ Comments URL: https://news.ycombinator.com/item?id=48558489 Points: 47 # Comments: 58",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "What’s !important #13: @function, alpha(), CSS Wordle, and More",
-      "link": "https://css-tricks.com/whats-important-13/",
-      "pubDate": "2026-06-15T13:15:33.000Z",
-      "description": "CSS functions, the alpha() function, Grid Lanes, some things about Dialog that you might not know, CSS Wordle, and more — this is What’s !important right now. What’s !important #13: @function, alpha(), CSS Wordle, and More originally handwritten and published with love on CSS-Tricks. You should real",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Why Isn&#8217;t My 3D View Transition Working?",
-      "link": "https://css-tricks.com/why-isnt-my-3d-view-transition-working/",
-      "pubDate": "2026-06-12T15:09:00.000Z",
-      "description": "Why isn't my 3D view transition working?! Sunkanmi tackles this frustration and offers an elegant fix for it. Why Isn’t My 3D View Transition Working? originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "There’s no need to include ‘navigation’ in your navigation labels",
-      "link": "https://css-tricks.com/navigation-in-your-navigation-labels/",
-      "pubDate": "2026-06-12T15:08:38.000Z",
-      "description": "One of those nuances to keep in your back pocket when writing for screen readers. There’s no need to include ‘navigation’ in your navigation labels originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Creating Memorable Web Experiences: A Modern CSS Toolkit",
-      "link": "https://css-tricks.com/creating-memorable-web-experiences-a-modern-css-toolkit/",
-      "pubDate": "2026-06-10T13:02:10.000Z",
-      "description": "There are many ways to create memorable experiences. Sometimes it's as simple as a form that completes smoothly. But here I'm interested in sharing techniques I reach for when I want a site to feel alive and be remembered. Creating Memorable Web Experiences: A Modern CSS Toolkit originally handwritt",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Scroll-Driven, Scroll-Triggered, Scroll States, and View Transitions",
-      "link": "https://css-tricks.com/scroll-driven-scroll-triggered-scroll-states-and-view-transitions/",
-      "pubDate": "2026-06-08T13:00:34.000Z",
-      "description": "I've said one and mean another, and I've used one when I needed another. Comparing scroll-driven animations, scroll-triggered animations, container query scroll states, and view transitions for my future self. Scroll-Driven, Scroll-Triggered, Scroll States, and View Transitions originally handwritte",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Another Stab at the Perfect CSS Pie Chart&#8230; Sans JavaScript!",
-      "link": "https://css-tricks.com/another-stab-at-the-perfect-css-pie-chart-sans-javascript/",
-      "pubDate": "2026-06-04T13:14:49.000Z",
-      "description": "We dive again into CSS Pie Charts! This time, Author Antoine Villepreux delivers semantic and flexible charts without a single line of JS. Another Stab at the Perfect CSS Pie Chart… Sans JavaScript! originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "offset-path",
-      "link": "https://css-tricks.com/almanac/properties/o/offset-path/",
-      "pubDate": "2026-06-03T15:02:38.000Z",
-      "description": "The offset-path property in CSS defines a movement path for an element to follow during animation. This property began life as motion-path. This, and all other related motion-* properties, are being renamed offset-* in the spec. We’re changing … offset-path originally handwritten and published with ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "@custom-media",
-      "link": "https://css-tricks.com/almanac/rules/c/custom-media/",
-      "pubDate": "2026-06-03T13:03:21.000Z",
-      "description": "The CSS @custom-media at-rule allows creating aliases for media queries. @custom-media originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "@function",
-      "link": "https://css-tricks.com/almanac/rules/f/function/",
-      "pubDate": "2026-06-03T13:02:39.000Z",
-      "description": "The @function at-rule defines CSS custom functions. These custom functions are reusable blocks of CSS that can accept arguments, contain complex logic, and return values based on that logic. @function originally handwritten and published with love on CSS-Tricks. You should really get the newsletter ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
     },
     {
       "title": "Meet the HTB Profile: all your skills, in one place",
