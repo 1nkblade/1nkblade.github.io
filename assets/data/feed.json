@@ -1,142 +1,166 @@
 {
-  "generatedAt": "2026-06-17T20:30:49.190Z",
+  "generatedAt": "2026-06-18T05:02:29.850Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "The Browser Test Failed. Can You Actually Prove Why?",
-      "link": "https://dev.to/randomsquirrel802/the-browser-test-failed-can-you-actually-prove-why-16fd",
-      "pubDate": "2026-06-17T20:29:21.000Z",
-      "description": "<p>A red test in CI looks precise.</p> <p>Something failed. The pipeline stopped. There is a screenshot, a stack trace, and perhaps a video.</p> <p>But then someone opens the screenshot and sees a loading spinner. The trace says the locator was not found. The same test passes locally. Rerunning the ",
+      "title": "Routing around Google Maps in Korea: Naver &amp; Kakao deep links, weird coordinates, and iOS clipboard",
+      "link": "https://dev.to/piyaklabs/routing-around-google-maps-in-korea-naver-kakao-deep-links-weird-coordinates-and-ios-clipboard-25mf",
+      "pubDate": "2026-06-18T04:50:22.000Z",
+      "description": "<p>If you've traveled to Korea, you've hit this wall: <strong>Google Maps can't give you walking or transit directions here.</strong><br> Map-data export is restricted, so locals use <strong>Naver Map</strong> or <strong>KakaoMap</strong> instead. The usual workaround for visitors is<br> painful — c",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "10 Test Automation Problems That Look Simple Until You Face Them in Production",
-      "link": "https://dev.to/mellowthunder735/10-test-automation-problems-that-look-simple-until-you-face-them-in-production-h9p",
-      "pubDate": "2026-06-17T20:23:45.000Z",
-      "description": "<p>Test automation usually looks straightforward in a demo.</p> <p>You record a few actions, run the test, watch the green checkmark appear, and start imagining a future where every regression is detected before it reaches production.</p> <p>Then the test suite meets the real application.</p> <p>Use",
+      "title": "Is Your 'Scalable' Backend a Ticking Time Bomb?",
+      "link": "https://dev.to/prabashanadev/is-your-scalable-backend-a-ticking-time-bomb-6o7",
+      "pubDate": "2026-06-18T04:44:07.000Z",
+      "description": "<h2> Is Your 'Scalable' Backend a Ticking Time Bomb? Architecting for True Resilience </h2> <h3> Introduction </h3> <p>In the quest for modern applications, the siren call of cloud-native scale, serverless functions, and globally distributed databases is incredibly seductive. We build systems design",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Why You Should Drop @expo/vector-icons for React Native Vector Icons",
-      "link": "https://dev.to/expo/why-you-should-drop-expovector-icons-for-react-native-vector-icons-3m1n",
-      "pubDate": "2026-06-17T20:19:00.000Z",
-      "description": "<p>Switching from <code>@expo/vector-icons</code> to React Native's official icon packages can cut your bundle size by 4MB or more. Here's how to make the change and why Expo now recommends it.</p> <p>If you've built React Native apps with Expo, you've probably used <code>@expo/vector-icons</code>. ",
+      "title": "Your Weather App Is Lying to You (And Your Window Knows It)",
+      "link": "https://dev.to/mindon/your-weather-app-is-lying-to-you-and-your-window-knows-it-5g8c",
+      "pubDate": "2026-06-18T04:37:37.000Z",
+      "description": "<h1> Your Weather App Is Lying to You (And Your Window Knows It) </h1> <p><strong>I caught my weather app in 35 lies over 19 days. Here's what I found.</strong></p> <h2> The Setup </h2> <p>I pointed a $30 IP camera out my window in Shenzhen and built an automated conflict detector:</p> <ul> <li> <st",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Controlling Scope Creep at Scale",
-      "link": "https://dev.to/azfshrz/controlling-scope-creep-at-scale-3gj2",
-      "pubDate": "2026-06-17T20:10:42.000Z",
-      "description": "<p>How a 67-County Government Program Controlled 95% of Scope Creep Before It Hit the Team</p> <p>Scope creep doesn't announce itself.</p> <p>It shows up as a reasonable request from a reasonable person at a reasonable time. And then it happens again, and again.</p> <p>Until the timeline is broken, ",
+      "title": "How to Actually Set Up Claude Projects That Most Users Don't Know",
+      "link": "https://dev.to/aniruddhaadak/how-to-actually-set-up-claude-projects-that-most-users-dont-know-462l",
+      "pubDate": "2026-06-18T04:34:00.000Z",
+      "description": "<p>Most people treat Claude Projects like a folder with a label on it.</p> <p>They create a project. They give it a name. Maybe they write a sentence or two in the system prompt. Maybe they upload a file. Then they start chatting and wonder why the output feels the same as regular Claude.</p> <p><st",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Krugman: Musk, a Human Ponzi Scheme",
-      "link": "https://paulkrugman.substack.com/p/elon-musk-human-ponzi-scheme",
-      "pubDate": "2026-06-17T20:07:47.000Z",
-      "description": "Article URL: https://paulkrugman.substack.com/p/elon-musk-human-ponzi-scheme Comments URL: https://news.ycombinator.com/item?id=48576113 Points: 37 # Comments: 1",
+      "title": "The Cloud Security Tool Your Resume is Missing (Part 1)",
+      "link": "https://dev.to/yescertified/the-cloud-security-tool-your-resume-is-missing-part-1-e2",
+      "pubDate": "2026-06-18T04:33:21.000Z",
+      "description": "<p>Have you ever sat down to study for your AWS certification, opened your notes or your course material, and then just stared at the screen?</p> <p>Not because you are lazy. Not because you do not care, but because somewhere in the back of your mind, a voice is telling you that even if you pass thi",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "How We Built an AI SaaS on the Edge for Nearly $0 in Infrastructure Costs",
+      "link": "https://dev.to/theo_oliveira_40b15cfaf73/how-we-built-an-ai-saas-on-the-edge-for-nearly-0-in-infrastructure-costs-24jm",
+      "pubDate": "2026-06-18T04:26:22.000Z",
+      "description": "<h2> 1. Introduction </h2> <p>A few months ago, we started building <a href=\"https://propoza.com.br\" rel=\"noopener noreferrer\">Propoza</a>, a tool that generates business proposals with AI for Brazilian freelancers and small business owners.</p> <p>The problem was practical: freelancers spend hours ",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Testing &amp; Debugging React Apps — Write Code You Can Actually Trust",
+      "link": "https://dev.to/kushang_tailor/testing-debugging-react-apps-write-code-you-can-actually-trust-5334",
+      "pubDate": "2026-06-18T04:26:01.000Z",
+      "description": "<blockquote> <p><strong>Read Time: ~14 minutes</strong> | Ship with confidence — because guessing is not a strategy</p> <p><strong>Prerequisites</strong>: React fundamentals, hooks, state management, Next.js basics (Parts 1–4)</p> </blockquote> <h2> 📌 What You'll Learn </h2> <p>By the end of this g",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "How to Generate AI Video with Veo 3.1 via the Google Flow API",
+      "link": "https://dev.to/useapi/how-to-generate-ai-video-with-veo-31-via-the-google-flow-api-2g4i",
+      "pubDate": "2026-06-18T04:23:24.000Z",
+      "description": "<h3> Introduction </h3> <p><strong><a href=\"https://deepmind.google/technologies/veo/\" rel=\"noopener noreferrer\">Veo 3.1</a>, Google's flagship video model, runs from a single <code>curl</code> through <a href=\"https://useapi.net/docs/subscription\" rel=\"noopener noreferrer\">useapi.net</a>.</strong> ",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "How I Built an Autonomous Incident Investigation Agent That Reduced MTTR by 65%",
+      "link": "https://dev.to/velumal09/how-i-built-an-autonomous-incident-investigation-agent-that-reduced-mttr-by-65-42ae",
+      "pubDate": "2026-06-18T04:22:12.000Z",
+      "description": "<h2> Series: AI-Native SRE </h2> <h2> Table of Contents </h2> <ul> <li>The Problem Every On-Call Engineer Knows</li> <li>What FRIDAY Does</li> <li>Architecture Overview</li> <li>Key Design Decisions</li> <li>The Tool-Use Loop: How FRIDAY Reasons</li> <li>The Training System: Pre-Built Knowledge</li>",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "The Hidden Cost of Employees Asking \"What Should I Do Next?\"",
+      "link": "https://dev.to/saifuddin_tipu_ba2d0355b0/the-hidden-cost-of-employees-asking-what-should-i-do-next-5flf",
+      "pubDate": "2026-06-18T04:21:24.000Z",
+      "description": "<p>Every growing company reaches a point where people start asking the same questions over and over again.</p> <ul> <li>\"How do I process this request?\"</li> <li>\"Who approves this?\"</li> <li>\"What if the customer doesn't qualify?\"</li> <li>\"Where is the latest SOP?\"</li> <li>\"Is this the new proces",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Nim Conf 2026 (Online, Sat June 20)",
+      "link": "https://conf.nim-lang.org/",
+      "pubDate": "2026-06-18T03:38:31.000Z",
+      "description": "Article URL: https://conf.nim-lang.org/ Comments URL: https://news.ycombinator.com/item?id=48580504 Points: 4 # Comments: 1",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "We Analyzed 44,000 Interview Practice Sessions to Find the Hardest Tech Companies to Interview At",
-      "link": "https://dev.to/alex_bell_f2b96166c2d62f5/we-analyzed-44000-interview-practice-sessions-to-find-the-hardest-tech-companies-to-interview-at-4d1p",
-      "pubDate": "2026-06-17T20:02:38.000Z",
-      "description": "<p>Most \"hardest tech company interviews\" rankings are based on Reddit opinions, Glassdoor reviews, or surveys of a few hundred people. We built a different kind of analysis.</p> <p>Final Round AI tracks interview practice sessions across every major tech company. We pulled 44,808 sessions from Janu",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Astrophysics &amp; AI with Python: Unlocking the Secrets of N-Body Simulations with Rebound",
-      "link": "https://dev.to/programmingcentral/astrophysics-ai-with-python-unlocking-the-secrets-of-n-body-simulations-with-rebound-1mh6",
-      "pubDate": "2026-06-17T20:00:00.000Z",
-      "description": "<p>The universe is a relentless clockwork governed by a single, ubiquitous force: gravity. From the tight dance of binary stars to the majestic spiral arms of galaxies, all motion is dictated by the pairwise gravitational attraction between massive bodies. While the principles of Newtonian mechanics",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Nimmake: Simplifying C++ Project Management by Reducing Configuration Overhead Compared to CMake",
-      "link": "https://dev.to/denlava/nimmake-simplifying-c-project-management-by-reducing-configuration-overhead-compared-to-cmake-1l61",
-      "pubDate": "2026-06-17T19:56:44.000Z",
-      "description": "<h2> Introduction </h2> <p>In the world of C++ development, <strong>project management and build tools</strong> often introduce friction rather than alleviate it. <em>CMake</em>, while powerful, is notorious for its steep learning curve and verbose configuration files, which can deter beginners and ",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "I built a roguelike whose dungeon master is an LLM running 100% in the browser",
-      "link": "https://dev.to/aipredictions_dev/i-built-a-roguelike-whose-dungeon-master-is-an-llm-running-100-in-the-browser-4pke",
-      "pubDate": "2026-06-17T19:54:19.000Z",
-      "description": "<p>Most \"AI games\" phone home. Every turn is an API round-trip, every player burns your tokens, and the whole thing dies the day the bill scares you. I wanted the opposite: a text roguelike where the dungeon master is an LLM that runs <strong>entirely in the player's browser</strong> — no server, no",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "How I Generated a 100-Million-Pixel Julia Set on a 4 GB RAM PC Using Python",
-      "link": "https://dev.to/divyanshusinha136/how-i-generated-a-100-million-pixel-julia-set-on-a-4-gb-ram-pc-using-python-1e2j",
-      "pubDate": "2026-06-17T19:52:22.000Z",
-      "description": "<p>Fractals have fascinated programmers for decades.</p> <p>From the Mandelbrot Set to Julia Sets, these mathematical structures can generate breathtaking patterns from surprisingly simple equations.</p> <p>The challenge isn't generating a fractal.</p> <p>The challenge is generating one at <strong>e",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "How I Saved My Bootcamp Project Budget Using AI Data Extraction (A...",
-      "link": "https://dev.to/loyaldash/how-i-saved-my-bootcamp-project-budget-using-ai-data-extraction-a-c1k",
-      "pubDate": "2026-06-17T19:52:08.000Z",
-      "description": "<p>Honestly, how I Saved My Bootcamp Project Budget Using AI Data Extraction (A Complete Guide From Someone Who Just Figured It Out)</p> <p>I have to be honest with you. Three weeks ago, I had no idea what \"data extraction\" even meant in the AI world. I thought it was just... parsing JSON files? Boy",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "The hacker sent by Anthropic to calm the government's nerves about AI safety",
-      "link": "https://www.wsj.com/tech/ai/anthropic-mythos-safety-nicholas-carlini-20bceaa3",
-      "pubDate": "2026-06-17T19:22:02.000Z",
-      "description": "Readable: https://www.wsj.com/tech/ai/anthropic-mythos-safety-nicholas... Comments URL: https://news.ycombinator.com/item?id=48575451 Points: 58 # Comments: 47",
+      "title": "Local Qwen isn't a worse Opus, it's a different tool",
+      "link": "https://blog.alexellis.io/local-ai-is-not-opus/",
+      "pubDate": "2026-06-18T03:04:20.000Z",
+      "description": "Article URL: https://blog.alexellis.io/local-ai-is-not-opus/ Comments URL: https://news.ycombinator.com/item?id=48580209 Points: 29 # Comments: 2",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "AI chemist improves a challenging reaction in medicinal chemistry",
-      "link": "https://openai.com/index/ai-chemist-improves-reaction/",
-      "pubDate": "2026-06-17T17:34:20.000Z",
-      "description": "Article URL: https://openai.com/index/ai-chemist-improves-reaction/ Comments URL: https://news.ycombinator.com/item?id=48573757 Points: 30 # Comments: 12",
+      "title": "[x86] AI Compute Extensions (ACE) Specification",
+      "link": "https://x86ecosystem.org/resource/ai-compute-extensions-ace-specification/",
+      "pubDate": "2026-06-18T02:32:01.000Z",
+      "description": "Article URL: https://x86ecosystem.org/resource/ai-compute-extensions-ace-specification/ Comments URL: https://news.ycombinator.com/item?id=48579913 Points: 19 # Comments: 9",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "The Competitive Moat That AI Can't Replicate",
-      "link": "https://ghostinthedata.info/posts/2026/2026-06-13-human-connection-moat/",
-      "pubDate": "2026-06-17T17:14:21.000Z",
-      "description": "Article URL: https://ghostinthedata.info/posts/2026/2026-06-13-human-connection-moat/ Comments URL: https://news.ycombinator.com/item?id=48573435 Points: 58 # Comments: 34",
+      "title": "Midjourney Medical",
+      "link": "https://www.midjourney.com/medical/blogpost",
+      "pubDate": "2026-06-18T01:59:51.000Z",
+      "description": "https://www.midjourney.com/medicalVideo: https://x.com/midjourney/status/2067422898407837797 Comments URL: https://news.ycombinator.com/item?id=48579650 Points: 330 # Comments: 263",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Trellis AI (YC W24)  hiring a product lead to build agents for healthcare access",
-      "link": "https://www.ycombinator.com/companies/trellis-ai/jobs/Cg94htp-product-lead",
-      "pubDate": "2026-06-17T17:00:02.000Z",
-      "description": "Article URL: https://www.ycombinator.com/companies/trellis-ai/jobs/Cg94htp-product-lead Comments URL: https://news.ycombinator.com/item?id=48573221 Points: 0 # Comments: 0",
+      "title": "Show HN: Local personal data redaction for any AI tools",
+      "link": "https://github.com/sophia486/pii-gui",
+      "pubDate": "2026-06-18T01:52:52.000Z",
+      "description": "I built the desktop app that detects and redacts personal data (or PII) locally without sending any text to server. It supports rule-based filtering and AI model-based redaction (eg openai privacy filter). It's open source and free. Please check out the repo and https://pii-gui.vercel.app/ Comments ",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Show HN: An 8-bit live gamecast for baseball",
-      "link": "https://ribbie.tv/watch",
-      "pubDate": "2026-06-17T16:44:15.000Z",
-      "description": "Hey HN, I built a website to watch live baseball games in an 8-bit broadcast. It takes live MLB data streams and converts them into near real-time pixel art gamecasts.Been waiting to share this for when there’s actually a good slate of games happening since the site is pretty bare otherwise.Here is ",
+      "title": "Taxonomy of the Occlupanida (parasitoids on bread bag tags)",
+      "link": "https://www.horg.com/horg/?page_id=921",
+      "pubDate": "2026-06-17T23:20:38.000Z",
+      "description": "Article URL: https://www.horg.com/horg/?page_id=921 Comments URL: https://news.ycombinator.com/item?id=48578388 Points: 104 # Comments: 19",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Launch HN: Adam (YC W25) – Open-Source AI CAD",
-      "link": "https://github.com/Adam-CAD/CADAM",
-      "pubDate": "2026-06-17T16:14:04.000Z",
-      "description": "Hey HN! I'm Zach from Adam (https://adam.new/). We're building AI agents for mechanical CAD software. We’ve built the company on two fundamental beliefs:- AI will be the primary medium for creating mechanical designs just like it is in software today.- The best paradigm for CAD generation is to gene",
+      "title": "Clojure Hosted on Go",
+      "link": "https://github.com/glojurelang/glojure",
+      "pubDate": "2026-06-17T23:14:49.000Z",
+      "description": "Article URL: https://github.com/glojurelang/glojure Comments URL: https://news.ycombinator.com/item?id=48578326 Points: 65 # Comments: 11",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Storied Colors – a catalogue of named colors",
+      "link": "https://storiedcolors.com/",
+      "pubDate": "2026-06-17T21:49:03.000Z",
+      "description": "Article URL: https://storiedcolors.com/ Comments URL: https://news.ycombinator.com/item?id=48577374 Points: 122 # Comments: 28",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Tesco moving 40k server workloads off VMware amid Broadcom's abusive conduct",
+      "link": "https://arstechnica.com/information-technology/2026/06/tesco-moving-40000-server-workloads-off-vmware-amid-broadcoms-abusive-conduct/",
+      "pubDate": "2026-06-17T21:00:53.000Z",
+      "description": "Article URL: https://arstechnica.com/information-technology/2026/06/tesco-moving-40000-server-workloads-off-vmware-amid-broadcoms-abusive-conduct/ Comments URL: https://news.ycombinator.com/item?id=48576838 Points: 231 # Comments: 122",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Loreline – Tools for writing interactive fiction",
+      "link": "https://loreline.app/en/",
+      "pubDate": "2026-06-17T20:29:15.000Z",
+      "description": "Article URL: https://loreline.app/en/ Comments URL: https://news.ycombinator.com/item?id=48576395 Points: 103 # Comments: 12",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -147,30 +171,6 @@
       "description": "There's a brand new ariaNotify() method — defined by the WAI-ARIA 1.3 Specification — that provides a means of programmatically triggering narration in a screen reader. The Siren Song of ariaNotify() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter a",
       "source": "CSS Tricks",
       "category": "Frontend"
-    },
-    {
-      "title": "TREX: An AI code reviewer that runs your code",
-      "link": "https://www.greptile.com/blog/trex-code-execution",
-      "pubDate": "2026-06-17T15:29:01.000Z",
-      "description": "Article URL: https://www.greptile.com/blog/trex-code-execution Comments URL: https://news.ycombinator.com/item?id=48571851 Points: 34 # Comments: 7",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Anthropic employees accuse Trump administration of targeting them",
-      "link": "https://www.nytimes.com/2026/06/17/technology/anthropic-trump-administration-fable.html",
-      "pubDate": "2026-06-17T15:15:34.000Z",
-      "description": "Article URL: https://www.nytimes.com/2026/06/17/technology/anthropic-trump-administration-fable.html Comments URL: https://news.ycombinator.com/item?id=48571660 Points: 130 # Comments: 135",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Volkswagen started blocking GrapheneOS users",
-      "link": "https://discuss.grapheneos.org/d/35949-volkswagen-app?page=3",
-      "pubDate": "2026-06-17T15:04:47.000Z",
-      "description": "Article URL: https://discuss.grapheneos.org/d/35949-volkswagen-app?page=3 Comments URL: https://news.ycombinator.com/item?id=48571526 Points: 345 # Comments: 230",
-      "source": "Hacker News",
-      "category": "Tech News"
     },
     {
       "title": "Prop For That",
