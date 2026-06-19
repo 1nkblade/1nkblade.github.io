@@ -1,99 +1,150 @@
 {
-  "generatedAt": "2026-06-18T20:38:57.289Z",
+  "generatedAt": "2026-06-19T05:25:16.685Z",
   "sourceCount": 4,
-  "successCount": 3,
-  "errors": [
-    {
-      "source": "CSS Tricks",
-      "error": "HTTP 415 Unsupported Media Type"
-    }
-  ],
+  "successCount": 4,
+  "errors": [],
   "items": [
     {
-      "title": "How do you scale a frontend application to a million users ?",
-      "link": "https://dev.to/dhiraj-shrotri/how-do-you-scale-a-frontend-application-to-a-million-users--3777",
-      "pubDate": "2026-06-18T20:23:45.000Z",
-      "description": "<p>I was recently in a job interview (yes, the kind you have to do when you get laid off) and the interviewer asked me: \"How would you scale a frontend application from 100,000 users to a million plus?\"<br> I gave a decent enough answer at the moment. But afterwards, I kept thinking about everything",
+      "title": "WordPress Publishes 70M+ Posts a Month. None of Them Get Tracked After That",
+      "link": "https://dev.to/wpvibes/wordpress-publishes-70m-posts-a-month-none-of-them-get-tracked-after-that-2hhp",
+      "pubDate": "2026-06-19T05:15:45.000Z",
+      "description": "<p>You click Publish. WordPress confirms the post is live, gives you a link to share, and moves on.</p> <p>Nothing tracks who is responsible for that post going forward. Nothing tracks whether the information inside it is still accurate next month, next year, or three years from now. WordPress is ex",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I'm 18 and I built an AI Pomodoro timer that actually forces you to study",
-      "link": "https://dev.to/cavalinhoxdd/im-18-and-i-built-an-ai-pomodoro-timer-that-actually-forces-you-to-study-2ipo",
-      "pubDate": "2026-06-18T20:05:34.000Z",
-      "description": "<p>Hey everyone! 👋 I'm an 18-year-old student and solo developer. </p> <p>Like many of you, I struggle with procrastination. I've tried dozens of Pomodoro timers, but they all have the same fatal flaw: <strong>they only track time, not actual focus.</strong> You can stare at a wall for 25 minutes, ",
+      "title": "Creando Aplicaciones Multiplataforma: Desarrollo Móvil con Flutter y Dart",
+      "link": "https://dev.to/lionel_henrryhuamanilev/creando-aplicaciones-multiplataforma-desarrollo-movil-con-flutter-y-dart-57pc",
+      "pubDate": "2026-06-19T05:12:30.000Z",
+      "description": "<p>¡Hola! Soy Lionel Huamani un estudiante de 5to semestre de Análisis de Sistemas y quiero compartir una breve introducción sobre Flutter, una de las tecnologías más populares para el desarrollo de aplicaciones móviles multiplataforma.</p> <p><strong>¿Qué es Flutter?</strong></p> <p>Flutter es un f",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Astrophysics &amp; AI with Python: Predicting Asteroid Positions with Skyfield",
-      "link": "https://dev.to/programmingcentral/astrophysics-ai-with-python-predicting-asteroid-positions-with-skyfield-33a7",
-      "pubDate": "2026-06-18T20:00:00.000Z",
-      "description": "<p>The night sky is a dynamic clock, but tracking the millions of asteroids hurtling through our solar system requires more than just a telescope—it requires high-precision mathematics and powerful code. While major planets follow predictable, stable paths, minor planets are constantly nudged by gra",
+      "title": "The AI Testing Trap: How Japan's QA Engineers Are Getting Burned by the Same Efficiency Gains That Look Great on Resumes",
+      "link": "https://dev.to/xu_xu_b2179aa8fc958d531d1/the-ai-testing-trap-how-japans-qa-engineers-are-getting-burned-by-the-same-efficiency-gains-that-3p6j",
+      "pubDate": "2026-06-19T05:08:43.000Z",
+      "description": "<p>You know that moment in a retrospective when someone says, \"We shipped 40% more tests this quarter\" and everyone nods like that metric actually means something?</p> <p>I watched this happen at a Tokyo-based SaaS company in early 2026. The QA lead was proud. Management was thrilled. The CI/CD pipe",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Your agent's memory should compute confidence, not store it",
-      "link": "https://dev.to/hendrixxcnc/your-agents-memory-should-compute-confidence-not-store-it-c2a",
-      "pubDate": "2026-06-18T19:54:13.000Z",
-      "description": "<p>Most agent memory stores a confidence score the way it stores everything else. You<br> write it once and it sits there. The agent decides a fact is worth 0.9, the store<br> keeps 0.9, and three weeks later, after something has contradicted that fact, the<br> store still hands back 0.9. Confidence",
+      "title": "Microsoft Fabric CI/CD: The Deployment Gap Nobody Talks About",
+      "link": "https://dev.to/xu_xu_b2179aa8fc958d531d1/microsoft-fabric-cicd-the-deployment-gap-nobody-talks-about-2b44",
+      "pubDate": "2026-06-19T05:08:42.000Z",
+      "description": "<p>You're three hours into a Friday afternoon deploy. Your Azure DevOps pipeline compiled successfully, the Fabric items synced, and the release gate passed. The production workspace looks identical to staging. Monday morning, your data engineer messages you: the Semantic Model refresh is broken, th",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Accidentally Pushed a `.env` Secret to a Public GitHub Repo? Here's What to Do",
-      "link": "https://dev.to/kashafabdullah/accidentally-pushed-a-env-secret-to-a-public-github-repo-heres-what-to-do-33i3",
-      "pubDate": "2026-06-18T19:48:55.000Z",
-      "description": "<p>Exposing secrets in a public GitHub repository is a real production emergency. Public repositories are continuously scanned by automated bots, and leaked credentials can be discovered within minutes.</p> <p>If this happens, act immediately.</p> <h2> 1. Assess the Impact Immediately </h2> <p>Start",
+      "title": "From Chaos to Consistency: Docker for Modern AI Workflows",
+      "link": "https://dev.to/sachinsingh2156/from-chaos-to-consistency-docker-for-modern-ai-workflows-2gb7",
+      "pubDate": "2026-06-19T05:08:19.000Z",
+      "description": "<p>You trained the model. The notebook runs. The demo works. You push it to a teammate, and forty minutes later you get the message every engineer dreads:</p> <blockquote> <p>\"Hey, I'm getting a CUDA error. And <code>torch</code> won't import. And what version of Python is this?\"</p> </blockquote> <",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "AI x Crypto Tools: 60+ Resources for Trading, Analysis and Security",
-      "link": "https://dev.to/0xrapzz/ai-x-crypto-tools-60-resources-for-trading-analysis-and-security-3255",
-      "pubDate": "2026-06-18T19:47:11.000Z",
-      "description": "<p>I compiled a curated list of 60+ AI tools for crypto: <strong><a href=\"https://github.com/FlipZ3ro/awesome-ai-crypto-tools\" rel=\"noopener noreferrer\">Awesome AI x Crypto Tools</a></strong>.</p> <h2> Categories </h2> <ul> <li> <strong>Trading and Bots</strong> - Jupiter, Freqtrade, Hummingbot</li>",
+      "title": "Building a Multi-Region Cloud IDE: Lessons from Running AI Development Infrastructure Across the US, Europe, and Asia",
+      "link": "https://dev.to/vakeesh_moorthy_08edcca64/building-a-multi-region-cloud-ide-lessons-from-running-ai-development-infrastructure-across-the-44ib",
+      "pubDate": "2026-06-19T05:01:09.000Z",
+      "description": "<p>A year ago, we thought the hardest part of building an AI-powered cloud IDE would be integrating language models.</p> <p>We were wrong.</p> <p>The difficult part wasn't AI.</p> <p>It was everything around it.</p> <p>Latency. Infrastructure costs. Workspace persistence. Regional outages. Data resi",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The Return of 5Y-KZX: A Boeing 777 Finding Its Way Back Home",
-      "link": "https://dev.to/copubah/the-return-of-5y-kzx-a-boeing-777-finding-its-way-back-home-39ln",
-      "pubDate": "2026-06-18T19:42:24.000Z",
-      "description": "<p>For the last decade, one aircraft has quietly lived far from the skies it once called home.</p> <p>5Y-KZX, a Kenya Airways Boeing 777-300ER, has been away in Turkey for years, operating outside the familiar rhythm of East African routes. But now, something feels different. The aircraft is prepari",
+      "title": "Agent Harness Design Beats Model Tweaks",
+      "link": "https://dev.to/olaughter/agent-harness-design-beats-model-tweaks-4o79",
+      "pubDate": "2026-06-19T05:00:00.000Z",
+      "description": "<p>Agent harness design can deliver bigger gains on SWE‑Bench than upgrading the LLM. The Claw‑SWE‑Bench study shows that a well‑engineered adapter lifts Pass@1 by over 50 percentage points while keeping the same model <a href=\"https://arxiv.org/abs/2606.12344\" rel=\"noopener noreferrer\">[1]</a>.</p>",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "La IA real",
-      "link": "https://dev.to/alejandro_lago_b80def5e96/la-ia-real-3f3f",
-      "pubDate": "2026-06-18T19:39:09.000Z",
-      "description": "<p>SISTEMA INTELIGENCIA DIGITAL HUMANA (IDH)<br> ARQUITECTURA DE CONSTRUCCIÓN GLOBAL Y ESPECIFICACIÓN TÉCNICA FINAL VERSIÓN 5.0<br> EJECUCIÓN REAL EN HARDWARE BARE-METAL DESCENTRALIZADO<br> UN SOLO BINARIO - CERO DEPENDENCIAS - CERO NUBES - CERO COSTOS - CERO PERMISOS<br> AUTONOMÍA ESTRUCTURAL - ECO",
+      "title": "Solstice Aegis - Infinite Dust Settle",
+      "link": "https://dev.to/hkn_2011/solstice-aegis-infinite-dust-settle-45dj",
+      "pubDate": "2026-06-19T04:59:13.000Z",
+      "description": "<p><em>This is a submission for the <a href=\"https://dev.to/challenges/june-game-jam-2026-06-03\">June Solstice Game Jam</a></em></p> <h2> <strong>🌌 The Backstory &amp; What I Built</strong> </h2> <p>For this jam, I wanted to build something fast, responsive, and completely addictive. I created Sols",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "PWA with React + Leaflet: lessons from a 31-city map app",
-      "link": "https://dev.to/tarofortune/pwa-with-react-leaflet-lessons-from-a-31-city-map-app-27j2",
-      "pubDate": "2026-06-18T19:36:48.000Z",
-      "description": "<p>Notes from shipping a real-world PWA in Korea:</p> <ol> <li>Vite SSG is worth it. SPAs lose Korean SEO because Naver's crawler doesn't fully render JS.</li> <li>Leaflet &gt; Mapbox for cost-sensitive projects. Free OSM tiles + zero cost.</li> <li>Firebase Hosting rewrites let you have deep URLs (",
+      "title": "Lessons from getting blocked by email verification for a week",
+      "link": "https://dev.to/harsha_kumar/lessons-from-getting-blocked-by-email-verification-for-a-week-3f34",
+      "pubDate": "2026-06-19T04:58:34.000Z",
+      "description": "<p>Spent the last week trying to get verified on Peerlist to launch on their Launchpad.<br> Hit every wall possible:</p> <p>Google Workspace trial expired, no Gmail access.</p> <p>GoDaddy removed free email forwarding.</p> <p>Zoho and Google Workspace both pointed at the same domain, conflicting MX ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Why Debugging Is Changing Forever: How AI Is Transforming the Way Developers Fix Software",
-      "link": "https://dev.to/thepremisenews_team/why-debugging-is-changing-forever-how-ai-is-transforming-the-way-developers-fix-software-350k",
-      "pubDate": "2026-06-18T19:36:41.000Z",
-      "description": "<p>For decades, debugging has been one of the most time-consuming and mentally demanding parts of software development. Developers would spend hours — sometimes days — tracing logs, reproducing bugs, and manually inspecting code paths just to identify a single issue.</p> <p>But in 2026, this process",
+      "title": "If your vector DB needs to see your data to search it, you’re not building private AI you’re renting confidence.",
+      "link": "https://dev.to/reenas_27gb/if-your-vector-db-needs-to-see-your-data-to-search-it-youre-not-building-private-ai-youre-1843",
+      "pubDate": "2026-06-19T04:56:14.000Z",
+      "description": "<p>“Private AI” has become one of the most overused phrases in modern infrastructure.</p> <p>Every vendor claims it. Every deck has a lock icon. Every demo promises security “by design.”<br> But when you strip the marketing away and look at how most vector databases actually work, a hard truth emerg",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Integer Quantization: Deep Dive",
-      "link": "https://hello-fri-end.github.io/2026/06/integer-quantization-deep-dive/",
-      "pubDate": "2026-06-18T19:25:46.000Z",
-      "description": "Article URL: https://hello-fri-end.github.io/2026/06/integer-quantization-deep-dive/ Comments URL: https://news.ycombinator.com/item?id=48590280 Points: 8 # Comments: 1",
+      "title": "Let's Encrypt has been down most of today",
+      "link": "https://letsencrypt.status.io/#2026",
+      "pubDate": "2026-06-19T04:18:09.000Z",
+      "description": "Article URL: https://letsencrypt.status.io/#2026 Comments URL: https://news.ycombinator.com/item?id=48594715 Points: 80 # Comments: 27",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Ice Water Drowning Survival After 147-Minute Submersion and Hypothermic Arrest",
+      "link": "https://www.jacc.org/doi/10.1016/j.jaccas.2025.104885",
+      "pubDate": "2026-06-19T03:50:25.000Z",
+      "description": "Article URL: https://www.jacc.org/doi/10.1016/j.jaccas.2025.104885 Comments URL: https://news.ycombinator.com/item?id=48594592 Points: 48 # Comments: 7",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Datasette Apps: Host custom HTML applications inside Datasette",
+      "link": "https://simonwillison.net/2026/Jun/18/datasette-apps/",
+      "pubDate": "2026-06-19T01:06:27.000Z",
+      "description": "Article URL: https://simonwillison.net/2026/Jun/18/datasette-apps/ Comments URL: https://news.ycombinator.com/item?id=48593731 Points: 53 # Comments: 13",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Flexport (YC W14) Is Hiring in Indonesia, India, and Thailand",
+      "link": "https://www.flexport.com/company/careers/",
+      "pubDate": "2026-06-19T01:01:13.000Z",
+      "description": "Article URL: https://www.flexport.com/company/careers/ Comments URL: https://news.ycombinator.com/item?id=48593694 Points: 0 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Zero-Touch OAuth for MCP",
+      "link": "https://blog.modelcontextprotocol.io/posts/enterprise-managed-auth/",
+      "pubDate": "2026-06-18T21:54:10.000Z",
+      "description": "Article URL: https://blog.modelcontextprotocol.io/posts/enterprise-managed-auth/ Comments URL: https://news.ycombinator.com/item?id=48592163 Points: 153 # Comments: 58",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Show HN: Are You in the Weights?",
+      "link": "https://www.intheweights.com/",
+      "pubDate": "2026-06-18T20:49:03.000Z",
+      "description": "With more traffic moving off-web and into LLMs, I got curious about what traces we leave \"in the weights\". My design partner and I built a site in the past few weeks that checks recognition across frontier and small models. It queries many of them in parallel, clusters the responses, and tells you h",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Zork name origin got an update on Wikipedia",
+      "link": "https://www.dpolakovic.space/blogs/zork-part2#update",
+      "pubDate": "2026-06-18T20:27:28.000Z",
+      "description": "Article URL: https://www.dpolakovic.space/blogs/zork-part2#update Comments URL: https://news.ycombinator.com/item?id=48591066 Points: 75 # Comments: 11",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "I told them forced consent was unlawful. 5 years later it cost Elkjop €1.8M",
+      "link": "https://www.thatprivacyguy.com/blog/elkjop-forced-consent-fine/",
+      "pubDate": "2026-06-18T18:31:23.000Z",
+      "description": "https://web.archive.org/web/20260618212028/https://www.thatp...https://archive.ph/I4zjA Comments URL: https://news.ycombinator.com/item?id=48589501 Points: 293 # Comments: 138",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -101,73 +152,97 @@
       "title": "The Token Compression Illusion: Why I'm Skeptical of RTK",
       "link": "https://mroczek.dev/articles/the-token-compression-illusion-why-im-skeptical-of-rtk/",
       "pubDate": "2026-06-18T17:37:00.000Z",
-      "description": "Article URL: https://mroczek.dev/articles/the-token-compression-illusion-why-im-skeptical-of-rtk/ Comments URL: https://news.ycombinator.com/item?id=48588755 Points: 36 # Comments: 48",
+      "description": "Article URL: https://mroczek.dev/articles/the-token-compression-illusion-why-im-skeptical-of-rtk/ Comments URL: https://news.ycombinator.com/item?id=48588755 Points: 94 # Comments: 95",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Migrating from GNU Stow to Chezmoi",
-      "link": "https://rednafi.com/misc/chezmoi/",
-      "pubDate": "2026-06-18T17:09:53.000Z",
-      "description": "Article URL: https://rednafi.com/misc/chezmoi/ Comments URL: https://news.ycombinator.com/item?id=48588413 Points: 57 # Comments: 62",
+      "title": "Building a robotics research setup that lives next to my desk",
+      "link": "https://dfdxlabs.com/research/2026/robotics-setup/",
+      "pubDate": "2026-06-18T14:51:53.000Z",
+      "description": "Quick framing, since the post is long: I did robotic manipulation research at OpenAI from 2017–2020, and the tabletop setup back then cost roughly 10x this one and took a team to run. This project is me testing whether a single person can now do meaningful work on the same class of problems: startin",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "The founder of Craigslist has given away half a billion dollars",
-      "link": "https://www.independent.co.uk/us/money/craigslist-multimillionaire-craig-newmark-b2980681.html",
-      "pubDate": "2026-06-18T16:55:25.000Z",
-      "description": "Article URL: https://www.independent.co.uk/us/money/craigslist-multimillionaire-craig-newmark-b2980681.html Comments URL: https://news.ycombinator.com/item?id=48588216 Points: 212 # Comments: 134",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "The Siren Song of ariaNotify()",
+      "link": "https://css-tricks.com/the-siren-song-of-arianotify/",
+      "pubDate": "2026-06-17T15:32:30.000Z",
+      "description": "There's a brand new ariaNotify() method — defined by the WAI-ARIA 1.3 Specification — that provides a means of programmatically triggering narration in a screen reader. The Siren Song of ariaNotify() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter a",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
-      "title": "The Harajuku Moment (2024)",
-      "link": "https://tim.blog/2024/02/09/harajuku-moment/",
-      "pubDate": "2026-06-18T16:05:58.000Z",
-      "description": "Article URL: https://tim.blog/2024/02/09/harajuku-moment/ Comments URL: https://news.ycombinator.com/item?id=48587527 Points: 65 # Comments: 45",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "Prop For That",
+      "link": "https://css-tricks.com/prop-for-that/",
+      "pubDate": "2026-06-16T18:36:25.000Z",
+      "description": "Props for That creates live props based things CSS can't normally see in the browser. Things like cursor position, progress values, certain form states, current time, scroll velocity. Prop For That originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as ",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
-      "title": "TerraPower in deal with Meta for eight Natrium 345 MW nuclear plants",
-      "link": "https://neutronbytes.com/2026/01/09/terrapower-in-mega-deal-with-meta-for-eight-natrium-345-mw-advanced-nuclear-plants/",
-      "pubDate": "2026-06-18T15:13:26.000Z",
-      "description": "Article URL: https://neutronbytes.com/2026/01/09/terrapower-in-mega-deal-with-meta-for-eight-natrium-345-mw-advanced-nuclear-plants/ Comments URL: https://news.ycombinator.com/item?id=48586648 Points: 82 # Comments: 78",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "What’s !important #13: @function, alpha(), CSS Wordle, and More",
+      "link": "https://css-tricks.com/whats-important-13/",
+      "pubDate": "2026-06-15T13:15:33.000Z",
+      "description": "CSS functions, the alpha() function, Grid Lanes, some things about Dialog that you might not know, CSS Wordle, and more — this is What’s !important right now. What’s !important #13: @function, alpha(), CSS Wordle, and More originally handwritten and published with love on CSS-Tricks. You should real",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
-      "title": "A website that lists websites to submit your website to",
-      "link": "https://www.submission.directory/",
-      "pubDate": "2026-06-18T15:12:43.000Z",
-      "description": "Article URL: https://www.submission.directory/ Comments URL: https://news.ycombinator.com/item?id=48586631 Points: 342 # Comments: 79",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "Why Isn&#8217;t My 3D View Transition Working?",
+      "link": "https://css-tricks.com/why-isnt-my-3d-view-transition-working/",
+      "pubDate": "2026-06-12T15:09:00.000Z",
+      "description": "Why isn't my 3D view transition working?! Sunkanmi tackles this frustration and offers an elegant fix for it. Why Isn’t My 3D View Transition Working? originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
-      "title": "Launch HN: TesterArmy (YC P26) – Agents that test web and mobile apps",
-      "link": "https://tester.army",
-      "pubDate": "2026-06-18T14:49:44.000Z",
-      "description": "Hey HN - we’re Oskar, Szymon, and Piotr, and we’re building TesterArmy (https://tester.army). TesterArmy is an agentic testing platform that runs end-to-end checks before deployment and in production. Instead of wasting hours on manual testing or maintaining static scripts, we let you specify your t",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "There’s no need to include ‘navigation’ in your navigation labels",
+      "link": "https://css-tricks.com/navigation-in-your-navigation-labels/",
+      "pubDate": "2026-06-12T15:08:38.000Z",
+      "description": "One of those nuances to keep in your back pocket when writing for screen readers. There’s no need to include ‘navigation’ in your navigation labels originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
-      "title": "Ubiquiti: Enterprise NAS, Built on ZFS",
-      "link": "https://blog.ui.com/article/introducing-enterprise-nas",
-      "pubDate": "2026-06-18T14:24:30.000Z",
-      "description": "Article URL: https://blog.ui.com/article/introducing-enterprise-nas Comments URL: https://news.ycombinator.com/item?id=48585866 Points: 178 # Comments: 165",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "Creating Memorable Web Experiences: A Modern CSS Toolkit",
+      "link": "https://css-tricks.com/creating-memorable-web-experiences-a-modern-css-toolkit/",
+      "pubDate": "2026-06-10T13:02:10.000Z",
+      "description": "There are many ways to create memorable experiences. Sometimes it's as simple as a form that completes smoothly. But here I'm interested in sharing techniques I reach for when I want a site to feel alive and be remembered. Creating Memorable Web Experiences: A Modern CSS Toolkit originally handwritt",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
-      "title": "Swiss parliament lifts ban on new nuclear power plants",
-      "link": "https://www.bluewin.ch/en/news/switzerland/parliament-lifts-ban-on-new-nuclear-power-plants-3257535.html",
-      "pubDate": "2026-06-18T14:17:07.000Z",
-      "description": "Article URL: https://www.bluewin.ch/en/news/switzerland/parliament-lifts-ban-on-new-nuclear-power-plants-3257535.html Comments URL: https://news.ycombinator.com/item?id=48585746 Points: 535 # Comments: 351",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "Scroll-Driven, Scroll-Triggered, Scroll States, and View Transitions",
+      "link": "https://css-tricks.com/scroll-driven-scroll-triggered-scroll-states-and-view-transitions/",
+      "pubDate": "2026-06-08T13:00:34.000Z",
+      "description": "I've said one and mean another, and I've used one when I needed another. Comparing scroll-driven animations, scroll-triggered animations, container query scroll states, and view transitions for my future self. Scroll-Driven, Scroll-Triggered, Scroll States, and View Transitions originally handwritte",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Another Stab at the Perfect CSS Pie Chart&#8230; Sans JavaScript!",
+      "link": "https://css-tricks.com/another-stab-at-the-perfect-css-pie-chart-sans-javascript/",
+      "pubDate": "2026-06-04T13:14:49.000Z",
+      "description": "We dive again into CSS Pie Charts! This time, Author Antoine Villepreux delivers semantic and flexible charts without a single line of JS. Another Stab at the Perfect CSS Pie Chart… Sans JavaScript! originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "offset-path",
+      "link": "https://css-tricks.com/almanac/properties/o/offset-path/",
+      "pubDate": "2026-06-03T15:02:38.000Z",
+      "description": "The offset-path property in CSS defines a movement path for an element to follow during animation. This property began life as motion-path. This, and all other related motion-* properties, are being renamed offset-* in the spec. We’re changing … offset-path originally handwritten and published with ",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "@custom-media",
+      "link": "https://css-tricks.com/almanac/rules/c/custom-media/",
+      "pubDate": "2026-06-03T13:03:21.000Z",
+      "description": "The CSS @custom-media at-rule allows creating aliases for media queries. @custom-media originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
       "title": "Meet the HTB Profile: all your skills, in one place",
