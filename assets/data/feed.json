@@ -1,94 +1,134 @@
 {
-  "generatedAt": "2026-06-19T10:57:14.997Z",
+  "generatedAt": "2026-06-19T15:43:06.007Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "Diffing two EXPLAIN plans as trees, not text",
-      "link": "https://dev.to/hitoshi1964/diffing-two-explain-plans-as-trees-not-text-3iif",
-      "pubDate": "2026-06-19T10:50:17.000Z",
-      "description": "<p>You added an index, re-ran <code>EXPLAIN</code>, and now you want the obvious answer: <em>did the plan actually change?</em> So you diff the two outputs as text. And it lights up red everywhere — because <code>cost=</code> and <code>rows=</code> shift on nearly every line, even when the strategy ",
+      "title": "Lo que aprendí cuando dejé de pensar solo en código y empecé a pensar en arquitectura",
+      "link": "https://dev.to/santiagobrahim/lo-que-aprendi-cuando-deje-de-pensar-solo-en-codigo-y-empece-a-pensar-en-arquitectura-4fnm",
+      "pubDate": "2026-06-19T15:35:00.000Z",
+      "description": "<p>Durante mucho tiempo asocié el desarrollo de software con programar funcionalidades: crear entidades, armar controladores, conectar una base de datos, validar formularios y hacer que una aplicación responda correctamente.<br> Sin embargo, durante el <strong>Trabajo Final de la asignatura Desarrol",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Your runtimes have an expiry date. I baked the EOL calendar into the app so it works offline.",
-      "link": "https://dev.to/hitoshi1964/your-runtimes-have-an-expiry-date-i-baked-the-eol-calendar-into-the-app-so-it-works-offline-1jj3",
-      "pubDate": "2026-06-19T10:48:27.000Z",
-      "description": "<p>Every runtime and piece of middleware you run has a quiet expiry date. PHP 8.0<br> went EOL in late 2023. Node 16 in 2023. Postgres 12 in 2024. After that: no<br> security patches. The problem is never \"we didn't know EOL was a thing\" — it's that<br> the EOL calendar lives in a dozen vendor pages",
+      "title": "Introducing Cronos: A New Framework for Human-Validated Vibe Coding",
+      "link": "https://dev.to/ovidiu/introducing-cronos-a-new-framework-for-human-validated-vibe-coding-16dp",
+      "pubDate": "2026-06-19T15:34:07.000Z",
+      "description": "<p>Hey dev.to community! 👋</p> <p>Over the last few months, juggling my roles as a Project Manager, Scrum Master, and lead for QA, Support, and Documentation has been a wild ride. The sheer speed of \"vibe coding\"—a paradigm shift where the primary role of the developer transitions from manual code ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The Repo Is the Context: Why Agents Don’t Need History",
-      "link": "https://dev.to/gyu07/the-repo-is-the-context-why-agents-dont-need-history-4ien",
-      "pubDate": "2026-06-19T10:46:54.000Z",
-      "description": "<p>History still matters. I just don't want it to be the default context for agents editing the present system.</p> <p>A coding agent will read whatever you put in front of it.</p> <p>That sounds like a strength. Most of the time it is the problem.</p> <p>For a while my answer was \"more Markdown\" — ",
+      "title": "How I Turned My Personal Storage Accounts Into a Massive S3 Bucket for $0",
+      "link": "https://dev.to/mubtikr/how-i-turned-my-personal-storage-accounts-into-a-massive-s3-bucket-for-0-2m2a",
+      "pubDate": "2026-06-19T15:20:48.000Z",
+      "description": "<p>As developers, we’ve all been there: you’re building a hobby project, a side hustle, or a microservice, and you need object storage. You look at AWS S3 or dedicated cloud providers, and the costs start adding up. Meanwhile, most of us have hundreds of gigabytes of idle, wasted space sitting in ou",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Hashing vs Encryption: la differenza che fa davvero la sicurezza",
-      "link": "https://dev.to/frontendfacile/hashing-vs-encryption-la-differenza-che-fa-davvero-la-sicurezza-3j9h",
-      "pubDate": "2026-06-19T10:46:13.000Z",
-      "description": "<blockquote> <p>Due concetti spesso confusi: uno è reversibile con una chiave, l’altro è una trasformazione a senso unico.</p> </blockquote> <p>Capire la differenza tra <strong>hashing</strong> e <strong>cifratura (encryption)</strong> è una delle basi pratiche più importanti quando si parla di sicu",
+      "title": "Spec-Driven Development in 2026: What It Is, the Tooling, and How Teams Actually Use It",
+      "link": "https://dev.to/krlz/spec-driven-development-in-2026-what-it-is-the-tooling-and-how-teams-actually-use-it-2fk2",
+      "pubDate": "2026-06-19T15:20:48.000Z",
+      "description": "<p><em>A field guide to the practice that's reshaping how software gets built with AI agents.</em></p> <blockquote> <p><strong>TL;DR</strong> — Spec-Driven Development (SDD) makes a <strong>precise, executable specification</strong> the source of truth and treats code as a generated, verifiable arti",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "What Being a Hands-On CTO Is Teaching Me About Leadership",
-      "link": "https://dev.to/ogeobubu/what-being-a-hands-on-cto-is-teaching-me-about-leadership-1la3",
-      "pubDate": "2026-06-19T10:43:55.000Z",
-      "description": "<p>When I became a CTO, I knew the role would involve making technical decisions, shaping product direction, and thinking about scalability.</p> <p>What I did not fully appreciate was how often leadership would require me to move between the big picture and the smallest implementation details.</p> <",
+      "title": "Italy's Meloni says Trump 'made up' story that she 'begged' him for photo at G7",
+      "link": "https://www.bbc.com/news/articles/c20y1ygn707o",
+      "pubDate": "2026-06-19T15:19:04.000Z",
+      "description": "Article URL: https://www.bbc.com/news/articles/c20y1ygn707o Comments URL: https://news.ycombinator.com/item?id=48599625 Points: 10 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "📈 The Jedi’s Guide to Building a Python Stock‑Market Trading Bot",
+      "link": "https://dev.to/timevolt/the-jedis-guide-to-building-a-python-stock-market-trading-bot-gh7",
+      "pubDate": "2026-06-19T15:19:00.000Z",
+      "description": "<p><em>(or: How I Turned My Laptop Into a Lightsaber for the Market)</em> </p> <h2> The Quest Begins (The “Why”) </h2> <p>Ever stared at a blinking cursor at 2 a.m., wishing you could make your laptop do the heavy lifting while you chased dreams (or just caught up on sleep)? I was there, scrolling t",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "IPv4 vs IPv6 in 2026 — what every developer should know",
-      "link": "https://dev.to/vix_2f14d2f56c1/ipv4-vs-ipv6-in-2026-what-every-developer-should-know-593d",
-      "pubDate": "2026-06-19T10:41:38.000Z",
-      "description": "<h2> IPv4 vs IPv6 in 2026 — what every developer should know </h2> <p>For most of the last decade, IPv6 felt like a topic you could safely ignore. \"Still mostly IPv4 out there\" was a reasonable excuse. That excuse stopped being true in 2026.</p> <p>In March 2026, native IPv6 access to Google exceede",
+      "title": "I built an open-source market maker for prediction markets (Polymarket/CLOB) — here's how it works",
+      "link": "https://dev.to/harrieronchain/i-built-an-open-source-market-maker-for-prediction-markets-polymarketclob-heres-how-it-works-5aam",
+      "pubDate": "2026-06-19T15:16:29.000Z",
+      "description": "<p>Hey everyone,</p> <p>I've been deep in prediction market infrastructure for a while and just open-sourced a market maker bot designed for CLOB-based prediction markets like Polymarket.</p> <p>What it does:</p> <ul> <li>Quotes both sides of a binary market automatically</li> <li>Adjusts spreads ba",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Emulare geolocalizzazione, viewport e user agent con Chrome DevTools (anche nei test automatizzati degli agenti)",
-      "link": "https://dev.to/frontendfacile/emulare-geolocalizzazione-viewport-e-user-agent-con-chrome-devtools-anche-nei-test-automatizzati-37fb",
-      "pubDate": "2026-06-19T10:41:12.000Z",
-      "description": "<blockquote> <p>Simulare capacità del device in modo ripetibile: dalla feature “Near Me” ai flussi E2E, senza dipendere da hardware reale o permessi locali.</p> </blockquote> <h2> Perché l’emulazione del device conta davvero </h2> <p>Molte feature moderne non sono “solo UI”: dipendono da capacità e ",
+      "title": "The 2026-07-28 MCP Spec: A Server Readiness Checklist",
+      "link": "https://dev.to/gustavo_gated/the-2026-07-28-mcp-spec-a-server-readiness-checklist-14nf",
+      "pubDate": "2026-06-19T15:15:56.000Z",
+      "description": "<p>The next Model Context Protocol specification, <code>2026-07-28</code>, is the largest revision since the protocol launched. The release candidate locked on May 21, 2026, and the final spec publishes on July 28. It contains breaking changes to transport, authorization, and how tool schemas are ha",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I'm building a contribution graph for everything you do at work — and I haven't written the app yet.",
-      "link": "https://dev.to/darko_bacic/im-building-a-contribution-graph-for-everything-you-do-at-work-and-i-havent-written-the-app-yet-5g01",
-      "pubDate": "2026-06-19T10:40:59.000Z",
-      "description": "<p>your github graph says you did nothing tuesday.</p> <p>you actually fixed a prod incident, reviewed 3 PRs, and unblocked two people. none of it shows up. so at review time you blank, and you feel like a fraud.</p> <p>i'm building dev.log — a contribution graph for your whole work life, not just y",
+      "title": "Beyond Blind Search: 5 Powerful Lessons from the Architecture of Intelligence",
+      "link": "https://dev.to/wolfof420street/beyond-blind-search-5-powerful-lessons-from-the-architecture-of-intelligence-21ma",
+      "pubDate": "2026-06-19T15:14:16.000Z",
+      "description": "<blockquote> <p><em>\"Intelligence isn't about searching everywhere—it's about knowing where <em>not</em> to search.\"</em></p> </blockquote> <p>Artificial Intelligence is often associated with neural networks, large language models, and autonomous systems. But long before modern generative AI, comput",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The Agentic Development Manifesto",
-      "link": "https://dev.to/bala_paranj_059d338e44e7e/the-agentic-development-manifesto-50ll",
-      "pubDate": "2026-06-19T10:40:23.000Z",
-      "description": "<h1> Manifesto for Agentic Development </h1> <p>We are uncovering better ways of building software with AI agents. Through this work we have come to value:</p> <p><strong>Declared intent over inferred behavior</strong></p> <p><strong>Verified properties over reviewed code</strong></p> <p><strong>Sys",
+      "title": "How to actually name a SaaS startup in 2026 — a practical 40-minute method",
+      "link": "https://dev.to/eddie_dev_og/how-to-actually-name-a-saas-startup-in-2026-a-practical-40-minute-method-1gfl",
+      "pubDate": "2026-06-19T15:13:30.000Z",
+      "description": "<p>You don’t have a naming problem.<br><br> You have a 40‑minute decision problem.</p> <p>Here’s a practical, timer-based method to name your SaaS in 2026, without spiraling into a 3‑week Notion rabbit hole.</p> <h2> Ground rules for 2026 </h2> <p>A few constraints you can’t ignore:</p> <ul> <li> <s",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Feature, Capability, or Native: How Software Teams Define AI",
-      "link": "https://dev.to/8080_ai/feature-capability-or-native-how-software-teams-define-ai-4k0h",
-      "pubDate": "2026-06-19T10:39:31.000Z",
-      "description": "<p>There are three distinct ways AI shows up in a software product, and engineers tend to be able to tell them apart faster than marketing copy can. A <strong>feature</strong> is AI added to a workflow that already worked without it. A <strong>core capability</strong> is AI used consistently across ",
+      "title": "How I Slashed AI API Costs 60% as a Cloud Architect",
+      "link": "https://dev.to/swift-logic-io218/how-i-slashed-ai-api-costs-60-as-a-cloud-architect-3n6",
+      "pubDate": "2026-06-19T15:11:20.000Z",
+      "description": "<p>How I Slashed AI API Costs 60% as a Cloud Architect</p> <p>I still remember the Slack message that started it all. Our CFO had pulled up a dashboard, and our monthly LLM bill had quietly crept past what we were paying for our entire Kubernetes cluster. Multiply that across three regions, add a co",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "How many of the 170k English words do you know?",
+      "link": "https://vocabowl-870366514258.us-west1.run.app/",
+      "pubDate": "2026-06-19T13:51:36.000Z",
+      "description": "Article URL: https://vocabowl-870366514258.us-west1.run.app/ Comments URL: https://news.ycombinator.com/item?id=48598586 Points: 70 # Comments: 108",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "A First Look at Scroll-Triggered Animations",
+      "link": "https://css-tricks.com/css-scroll-triggered-animations-first-look/",
+      "pubDate": "2026-06-19T13:03:17.000Z",
+      "description": "Let's poke at the differences between scroll-driven and scroll-triggered animations. A First Look at Scroll-Triggered Animations originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "The room the economy can't see",
+      "link": "https://wilsoniumite.com/2026/06/19/the-room-the-economy-cant-see/",
+      "pubDate": "2026-06-19T10:16:20.000Z",
+      "description": "Article URL: https://wilsoniumite.com/2026/06/19/the-room-the-economy-cant-see/ Comments URL: https://news.ycombinator.com/item?id=48596911 Points: 179 # Comments: 176",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Norway greenlights first full-scale ship tunnel",
+      "link": "https://eandt.theiet.org/2026/06/18/norway-greenlights-world-s-first-full-scale-ship-tunnel",
+      "pubDate": "2026-06-19T10:16:10.000Z",
+      "description": "Article URL: https://eandt.theiet.org/2026/06/18/norway-greenlights-world-s-first-full-scale-ship-tunnel Comments URL: https://news.ycombinator.com/item?id=48596910 Points: 85 # Comments: 43",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "Project Valhalla, Explained: How a Decade of Work Arrives in JDK 28",
       "link": "https://www.jvm-weekly.com/p/project-valhalla-explained-how-a",
       "pubDate": "2026-06-19T06:35:57.000Z",
-      "description": "Article URL: https://www.jvm-weekly.com/p/project-valhalla-explained-how-a Comments URL: https://news.ycombinator.com/item?id=48595511 Points: 151 # Comments: 69",
+      "description": "Article URL: https://www.jvm-weekly.com/p/project-valhalla-explained-how-a Comments URL: https://news.ycombinator.com/item?id=48595511 Points: 361 # Comments: 202",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -96,23 +136,7 @@
       "title": "So You Want to Define a Well-Known URI",
       "link": "https://mnot.net/blog/2026/well_known_uris",
       "pubDate": "2026-06-19T06:05:01.000Z",
-      "description": "Article URL: https://mnot.net/blog/2026/well_known_uris Comments URL: https://news.ycombinator.com/item?id=48595331 Points: 70 # Comments: 35",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Fable Converted Pylint to Rust",
-      "link": "https://pypi.org/project/prylint/",
-      "pubDate": "2026-06-19T04:21:07.000Z",
-      "description": "Article URL: https://pypi.org/project/prylint/ Comments URL: https://news.ycombinator.com/item?id=48594733 Points: 53 # Comments: 47",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Ice water drowning survival of young patient (2025)",
-      "link": "https://www.jacc.org/doi/10.1016/j.jaccas.2025.104885",
-      "pubDate": "2026-06-19T03:50:25.000Z",
-      "description": "Article URL: https://www.jacc.org/doi/10.1016/j.jaccas.2025.104885 Comments URL: https://news.ycombinator.com/item?id=48594592 Points: 155 # Comments: 99",
+      "description": "Article URL: https://mnot.net/blog/2026/well_known_uris Comments URL: https://news.ycombinator.com/item?id=48595331 Points: 118 # Comments: 68",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -120,7 +144,7 @@
       "title": "Datasette Apps: Host custom HTML applications inside Datasette",
       "link": "https://simonwillison.net/2026/Jun/18/datasette-apps/",
       "pubDate": "2026-06-19T01:06:27.000Z",
-      "description": "Article URL: https://simonwillison.net/2026/Jun/18/datasette-apps/ Comments URL: https://news.ycombinator.com/item?id=48593731 Points: 84 # Comments: 29",
+      "description": "Article URL: https://simonwillison.net/2026/Jun/18/datasette-apps/ Comments URL: https://news.ycombinator.com/item?id=48593731 Points: 116 # Comments: 43",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -136,7 +160,7 @@
       "title": "The AirPods Effect",
       "link": "https://www.theescapenewsletter.com/p/the-airpods-effect",
       "pubDate": "2026-06-18T23:08:35.000Z",
-      "description": "Article URL: https://www.theescapenewsletter.com/p/the-airpods-effect Comments URL: https://news.ycombinator.com/item?id=48592832 Points: 107 # Comments: 210",
+      "description": "Article URL: https://www.theescapenewsletter.com/p/the-airpods-effect Comments URL: https://news.ycombinator.com/item?id=48592832 Points: 237 # Comments: 436",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -144,23 +168,7 @@
       "title": "Zero-Touch OAuth for MCP",
       "link": "https://blog.modelcontextprotocol.io/posts/enterprise-managed-auth/",
       "pubDate": "2026-06-18T21:54:10.000Z",
-      "description": "Article URL: https://blog.modelcontextprotocol.io/posts/enterprise-managed-auth/ Comments URL: https://news.ycombinator.com/item?id=48592163 Points: 201 # Comments: 66",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Show HN: Are You in the Weights?",
-      "link": "https://www.intheweights.com/",
-      "pubDate": "2026-06-18T20:49:03.000Z",
-      "description": "With more traffic moving off-web and into LLMs, I got curious about what traces we leave \"in the weights\". My design partner and I built a site in the past few weeks that checks recognition across frontier and small models. It queries many of them in parallel, clusters the responses, and tells you h",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "I told them forced consent was unlawful. 5 years later it cost Elkjop €1.8M",
-      "link": "https://www.thatprivacyguy.com/blog/elkjop-forced-consent-fine/",
-      "pubDate": "2026-06-18T18:31:23.000Z",
-      "description": "https://web.archive.org/web/20260618212028/https://www.thatp...https://archive.ph/I4zjA Comments URL: https://news.ycombinator.com/item?id=48589501 Points: 399 # Comments: 240",
+      "description": "Article URL: https://blog.modelcontextprotocol.io/posts/enterprise-managed-auth/ Comments URL: https://news.ycombinator.com/item?id=48592163 Points: 225 # Comments: 84",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -233,14 +241,6 @@
       "link": "https://css-tricks.com/almanac/properties/o/offset-path/",
       "pubDate": "2026-06-03T15:02:38.000Z",
       "description": "The offset-path property in CSS defines a movement path for an element to follow during animation. This property began life as motion-path. This, and all other related motion-* properties, are being renamed offset-* in the spec. We’re changing … offset-path originally handwritten and published with ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "@custom-media",
-      "link": "https://css-tricks.com/almanac/rules/c/custom-media/",
-      "pubDate": "2026-06-03T13:03:21.000Z",
-      "description": "The CSS @custom-media at-rule allows creating aliases for media queries. @custom-media originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
       "source": "CSS Tricks",
       "category": "Frontend"
     },
