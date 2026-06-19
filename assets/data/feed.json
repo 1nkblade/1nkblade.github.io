@@ -1,102 +1,118 @@
 {
-  "generatedAt": "2026-06-19T05:25:16.685Z",
+  "generatedAt": "2026-06-19T10:57:14.997Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "WordPress Publishes 70M+ Posts a Month. None of Them Get Tracked After That",
-      "link": "https://dev.to/wpvibes/wordpress-publishes-70m-posts-a-month-none-of-them-get-tracked-after-that-2hhp",
-      "pubDate": "2026-06-19T05:15:45.000Z",
-      "description": "<p>You click Publish. WordPress confirms the post is live, gives you a link to share, and moves on.</p> <p>Nothing tracks who is responsible for that post going forward. Nothing tracks whether the information inside it is still accurate next month, next year, or three years from now. WordPress is ex",
+      "title": "Diffing two EXPLAIN plans as trees, not text",
+      "link": "https://dev.to/hitoshi1964/diffing-two-explain-plans-as-trees-not-text-3iif",
+      "pubDate": "2026-06-19T10:50:17.000Z",
+      "description": "<p>You added an index, re-ran <code>EXPLAIN</code>, and now you want the obvious answer: <em>did the plan actually change?</em> So you diff the two outputs as text. And it lights up red everywhere — because <code>cost=</code> and <code>rows=</code> shift on nearly every line, even when the strategy ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Creando Aplicaciones Multiplataforma: Desarrollo Móvil con Flutter y Dart",
-      "link": "https://dev.to/lionel_henrryhuamanilev/creando-aplicaciones-multiplataforma-desarrollo-movil-con-flutter-y-dart-57pc",
-      "pubDate": "2026-06-19T05:12:30.000Z",
-      "description": "<p>¡Hola! Soy Lionel Huamani un estudiante de 5to semestre de Análisis de Sistemas y quiero compartir una breve introducción sobre Flutter, una de las tecnologías más populares para el desarrollo de aplicaciones móviles multiplataforma.</p> <p><strong>¿Qué es Flutter?</strong></p> <p>Flutter es un f",
+      "title": "Your runtimes have an expiry date. I baked the EOL calendar into the app so it works offline.",
+      "link": "https://dev.to/hitoshi1964/your-runtimes-have-an-expiry-date-i-baked-the-eol-calendar-into-the-app-so-it-works-offline-1jj3",
+      "pubDate": "2026-06-19T10:48:27.000Z",
+      "description": "<p>Every runtime and piece of middleware you run has a quiet expiry date. PHP 8.0<br> went EOL in late 2023. Node 16 in 2023. Postgres 12 in 2024. After that: no<br> security patches. The problem is never \"we didn't know EOL was a thing\" — it's that<br> the EOL calendar lives in a dozen vendor pages",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The AI Testing Trap: How Japan's QA Engineers Are Getting Burned by the Same Efficiency Gains That Look Great on Resumes",
-      "link": "https://dev.to/xu_xu_b2179aa8fc958d531d1/the-ai-testing-trap-how-japans-qa-engineers-are-getting-burned-by-the-same-efficiency-gains-that-3p6j",
-      "pubDate": "2026-06-19T05:08:43.000Z",
-      "description": "<p>You know that moment in a retrospective when someone says, \"We shipped 40% more tests this quarter\" and everyone nods like that metric actually means something?</p> <p>I watched this happen at a Tokyo-based SaaS company in early 2026. The QA lead was proud. Management was thrilled. The CI/CD pipe",
+      "title": "The Repo Is the Context: Why Agents Don’t Need History",
+      "link": "https://dev.to/gyu07/the-repo-is-the-context-why-agents-dont-need-history-4ien",
+      "pubDate": "2026-06-19T10:46:54.000Z",
+      "description": "<p>History still matters. I just don't want it to be the default context for agents editing the present system.</p> <p>A coding agent will read whatever you put in front of it.</p> <p>That sounds like a strength. Most of the time it is the problem.</p> <p>For a while my answer was \"more Markdown\" — ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Microsoft Fabric CI/CD: The Deployment Gap Nobody Talks About",
-      "link": "https://dev.to/xu_xu_b2179aa8fc958d531d1/microsoft-fabric-cicd-the-deployment-gap-nobody-talks-about-2b44",
-      "pubDate": "2026-06-19T05:08:42.000Z",
-      "description": "<p>You're three hours into a Friday afternoon deploy. Your Azure DevOps pipeline compiled successfully, the Fabric items synced, and the release gate passed. The production workspace looks identical to staging. Monday morning, your data engineer messages you: the Semantic Model refresh is broken, th",
+      "title": "Hashing vs Encryption: la differenza che fa davvero la sicurezza",
+      "link": "https://dev.to/frontendfacile/hashing-vs-encryption-la-differenza-che-fa-davvero-la-sicurezza-3j9h",
+      "pubDate": "2026-06-19T10:46:13.000Z",
+      "description": "<blockquote> <p>Due concetti spesso confusi: uno è reversibile con una chiave, l’altro è una trasformazione a senso unico.</p> </blockquote> <p>Capire la differenza tra <strong>hashing</strong> e <strong>cifratura (encryption)</strong> è una delle basi pratiche più importanti quando si parla di sicu",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "From Chaos to Consistency: Docker for Modern AI Workflows",
-      "link": "https://dev.to/sachinsingh2156/from-chaos-to-consistency-docker-for-modern-ai-workflows-2gb7",
-      "pubDate": "2026-06-19T05:08:19.000Z",
-      "description": "<p>You trained the model. The notebook runs. The demo works. You push it to a teammate, and forty minutes later you get the message every engineer dreads:</p> <blockquote> <p>\"Hey, I'm getting a CUDA error. And <code>torch</code> won't import. And what version of Python is this?\"</p> </blockquote> <",
+      "title": "What Being a Hands-On CTO Is Teaching Me About Leadership",
+      "link": "https://dev.to/ogeobubu/what-being-a-hands-on-cto-is-teaching-me-about-leadership-1la3",
+      "pubDate": "2026-06-19T10:43:55.000Z",
+      "description": "<p>When I became a CTO, I knew the role would involve making technical decisions, shaping product direction, and thinking about scalability.</p> <p>What I did not fully appreciate was how often leadership would require me to move between the big picture and the smallest implementation details.</p> <",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Building a Multi-Region Cloud IDE: Lessons from Running AI Development Infrastructure Across the US, Europe, and Asia",
-      "link": "https://dev.to/vakeesh_moorthy_08edcca64/building-a-multi-region-cloud-ide-lessons-from-running-ai-development-infrastructure-across-the-44ib",
-      "pubDate": "2026-06-19T05:01:09.000Z",
-      "description": "<p>A year ago, we thought the hardest part of building an AI-powered cloud IDE would be integrating language models.</p> <p>We were wrong.</p> <p>The difficult part wasn't AI.</p> <p>It was everything around it.</p> <p>Latency. Infrastructure costs. Workspace persistence. Regional outages. Data resi",
+      "title": "IPv4 vs IPv6 in 2026 — what every developer should know",
+      "link": "https://dev.to/vix_2f14d2f56c1/ipv4-vs-ipv6-in-2026-what-every-developer-should-know-593d",
+      "pubDate": "2026-06-19T10:41:38.000Z",
+      "description": "<h2> IPv4 vs IPv6 in 2026 — what every developer should know </h2> <p>For most of the last decade, IPv6 felt like a topic you could safely ignore. \"Still mostly IPv4 out there\" was a reasonable excuse. That excuse stopped being true in 2026.</p> <p>In March 2026, native IPv6 access to Google exceede",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Agent Harness Design Beats Model Tweaks",
-      "link": "https://dev.to/olaughter/agent-harness-design-beats-model-tweaks-4o79",
-      "pubDate": "2026-06-19T05:00:00.000Z",
-      "description": "<p>Agent harness design can deliver bigger gains on SWE‑Bench than upgrading the LLM. The Claw‑SWE‑Bench study shows that a well‑engineered adapter lifts Pass@1 by over 50 percentage points while keeping the same model <a href=\"https://arxiv.org/abs/2606.12344\" rel=\"noopener noreferrer\">[1]</a>.</p>",
+      "title": "Emulare geolocalizzazione, viewport e user agent con Chrome DevTools (anche nei test automatizzati degli agenti)",
+      "link": "https://dev.to/frontendfacile/emulare-geolocalizzazione-viewport-e-user-agent-con-chrome-devtools-anche-nei-test-automatizzati-37fb",
+      "pubDate": "2026-06-19T10:41:12.000Z",
+      "description": "<blockquote> <p>Simulare capacità del device in modo ripetibile: dalla feature “Near Me” ai flussi E2E, senza dipendere da hardware reale o permessi locali.</p> </blockquote> <h2> Perché l’emulazione del device conta davvero </h2> <p>Molte feature moderne non sono “solo UI”: dipendono da capacità e ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Solstice Aegis - Infinite Dust Settle",
-      "link": "https://dev.to/hkn_2011/solstice-aegis-infinite-dust-settle-45dj",
-      "pubDate": "2026-06-19T04:59:13.000Z",
-      "description": "<p><em>This is a submission for the <a href=\"https://dev.to/challenges/june-game-jam-2026-06-03\">June Solstice Game Jam</a></em></p> <h2> <strong>🌌 The Backstory &amp; What I Built</strong> </h2> <p>For this jam, I wanted to build something fast, responsive, and completely addictive. I created Sols",
+      "title": "I'm building a contribution graph for everything you do at work — and I haven't written the app yet.",
+      "link": "https://dev.to/darko_bacic/im-building-a-contribution-graph-for-everything-you-do-at-work-and-i-havent-written-the-app-yet-5g01",
+      "pubDate": "2026-06-19T10:40:59.000Z",
+      "description": "<p>your github graph says you did nothing tuesday.</p> <p>you actually fixed a prod incident, reviewed 3 PRs, and unblocked two people. none of it shows up. so at review time you blank, and you feel like a fraud.</p> <p>i'm building dev.log — a contribution graph for your whole work life, not just y",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Lessons from getting blocked by email verification for a week",
-      "link": "https://dev.to/harsha_kumar/lessons-from-getting-blocked-by-email-verification-for-a-week-3f34",
-      "pubDate": "2026-06-19T04:58:34.000Z",
-      "description": "<p>Spent the last week trying to get verified on Peerlist to launch on their Launchpad.<br> Hit every wall possible:</p> <p>Google Workspace trial expired, no Gmail access.</p> <p>GoDaddy removed free email forwarding.</p> <p>Zoho and Google Workspace both pointed at the same domain, conflicting MX ",
+      "title": "The Agentic Development Manifesto",
+      "link": "https://dev.to/bala_paranj_059d338e44e7e/the-agentic-development-manifesto-50ll",
+      "pubDate": "2026-06-19T10:40:23.000Z",
+      "description": "<h1> Manifesto for Agentic Development </h1> <p>We are uncovering better ways of building software with AI agents. Through this work we have come to value:</p> <p><strong>Declared intent over inferred behavior</strong></p> <p><strong>Verified properties over reviewed code</strong></p> <p><strong>Sys",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "If your vector DB needs to see your data to search it, you’re not building private AI you’re renting confidence.",
-      "link": "https://dev.to/reenas_27gb/if-your-vector-db-needs-to-see-your-data-to-search-it-youre-not-building-private-ai-youre-1843",
-      "pubDate": "2026-06-19T04:56:14.000Z",
-      "description": "<p>“Private AI” has become one of the most overused phrases in modern infrastructure.</p> <p>Every vendor claims it. Every deck has a lock icon. Every demo promises security “by design.”<br> But when you strip the marketing away and look at how most vector databases actually work, a hard truth emerg",
+      "title": "Feature, Capability, or Native: How Software Teams Define AI",
+      "link": "https://dev.to/8080_ai/feature-capability-or-native-how-software-teams-define-ai-4k0h",
+      "pubDate": "2026-06-19T10:39:31.000Z",
+      "description": "<p>There are three distinct ways AI shows up in a software product, and engineers tend to be able to tell them apart faster than marketing copy can. A <strong>feature</strong> is AI added to a workflow that already worked without it. A <strong>core capability</strong> is AI used consistently across ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Let's Encrypt has been down most of today",
-      "link": "https://letsencrypt.status.io/#2026",
-      "pubDate": "2026-06-19T04:18:09.000Z",
-      "description": "Article URL: https://letsencrypt.status.io/#2026 Comments URL: https://news.ycombinator.com/item?id=48594715 Points: 80 # Comments: 27",
+      "title": "Project Valhalla, Explained: How a Decade of Work Arrives in JDK 28",
+      "link": "https://www.jvm-weekly.com/p/project-valhalla-explained-how-a",
+      "pubDate": "2026-06-19T06:35:57.000Z",
+      "description": "Article URL: https://www.jvm-weekly.com/p/project-valhalla-explained-how-a Comments URL: https://news.ycombinator.com/item?id=48595511 Points: 151 # Comments: 69",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Ice Water Drowning Survival After 147-Minute Submersion and Hypothermic Arrest",
+      "title": "So You Want to Define a Well-Known URI",
+      "link": "https://mnot.net/blog/2026/well_known_uris",
+      "pubDate": "2026-06-19T06:05:01.000Z",
+      "description": "Article URL: https://mnot.net/blog/2026/well_known_uris Comments URL: https://news.ycombinator.com/item?id=48595331 Points: 70 # Comments: 35",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Fable Converted Pylint to Rust",
+      "link": "https://pypi.org/project/prylint/",
+      "pubDate": "2026-06-19T04:21:07.000Z",
+      "description": "Article URL: https://pypi.org/project/prylint/ Comments URL: https://news.ycombinator.com/item?id=48594733 Points: 53 # Comments: 47",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Ice water drowning survival of young patient (2025)",
       "link": "https://www.jacc.org/doi/10.1016/j.jaccas.2025.104885",
       "pubDate": "2026-06-19T03:50:25.000Z",
-      "description": "Article URL: https://www.jacc.org/doi/10.1016/j.jaccas.2025.104885 Comments URL: https://news.ycombinator.com/item?id=48594592 Points: 48 # Comments: 7",
+      "description": "Article URL: https://www.jacc.org/doi/10.1016/j.jaccas.2025.104885 Comments URL: https://news.ycombinator.com/item?id=48594592 Points: 155 # Comments: 99",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -104,7 +120,7 @@
       "title": "Datasette Apps: Host custom HTML applications inside Datasette",
       "link": "https://simonwillison.net/2026/Jun/18/datasette-apps/",
       "pubDate": "2026-06-19T01:06:27.000Z",
-      "description": "Article URL: https://simonwillison.net/2026/Jun/18/datasette-apps/ Comments URL: https://news.ycombinator.com/item?id=48593731 Points: 53 # Comments: 13",
+      "description": "Article URL: https://simonwillison.net/2026/Jun/18/datasette-apps/ Comments URL: https://news.ycombinator.com/item?id=48593731 Points: 84 # Comments: 29",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -117,10 +133,18 @@
       "category": "Tech News"
     },
     {
+      "title": "The AirPods Effect",
+      "link": "https://www.theescapenewsletter.com/p/the-airpods-effect",
+      "pubDate": "2026-06-18T23:08:35.000Z",
+      "description": "Article URL: https://www.theescapenewsletter.com/p/the-airpods-effect Comments URL: https://news.ycombinator.com/item?id=48592832 Points: 107 # Comments: 210",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
       "title": "Zero-Touch OAuth for MCP",
       "link": "https://blog.modelcontextprotocol.io/posts/enterprise-managed-auth/",
       "pubDate": "2026-06-18T21:54:10.000Z",
-      "description": "Article URL: https://blog.modelcontextprotocol.io/posts/enterprise-managed-auth/ Comments URL: https://news.ycombinator.com/item?id=48592163 Points: 153 # Comments: 58",
+      "description": "Article URL: https://blog.modelcontextprotocol.io/posts/enterprise-managed-auth/ Comments URL: https://news.ycombinator.com/item?id=48592163 Points: 201 # Comments: 66",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -133,34 +157,10 @@
       "category": "Tech News"
     },
     {
-      "title": "Zork name origin got an update on Wikipedia",
-      "link": "https://www.dpolakovic.space/blogs/zork-part2#update",
-      "pubDate": "2026-06-18T20:27:28.000Z",
-      "description": "Article URL: https://www.dpolakovic.space/blogs/zork-part2#update Comments URL: https://news.ycombinator.com/item?id=48591066 Points: 75 # Comments: 11",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
       "title": "I told them forced consent was unlawful. 5 years later it cost Elkjop €1.8M",
       "link": "https://www.thatprivacyguy.com/blog/elkjop-forced-consent-fine/",
       "pubDate": "2026-06-18T18:31:23.000Z",
-      "description": "https://web.archive.org/web/20260618212028/https://www.thatp...https://archive.ph/I4zjA Comments URL: https://news.ycombinator.com/item?id=48589501 Points: 293 # Comments: 138",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "The Token Compression Illusion: Why I'm Skeptical of RTK",
-      "link": "https://mroczek.dev/articles/the-token-compression-illusion-why-im-skeptical-of-rtk/",
-      "pubDate": "2026-06-18T17:37:00.000Z",
-      "description": "Article URL: https://mroczek.dev/articles/the-token-compression-illusion-why-im-skeptical-of-rtk/ Comments URL: https://news.ycombinator.com/item?id=48588755 Points: 94 # Comments: 95",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Building a robotics research setup that lives next to my desk",
-      "link": "https://dfdxlabs.com/research/2026/robotics-setup/",
-      "pubDate": "2026-06-18T14:51:53.000Z",
-      "description": "Quick framing, since the post is long: I did robotic manipulation research at OpenAI from 2017–2020, and the tabletop setup back then cost roughly 10x this one and took a team to run. This project is me testing whether a single person can now do meaningful work on the same class of problems: startin",
+      "description": "https://web.archive.org/web/20260618212028/https://www.thatp...https://archive.ph/I4zjA Comments URL: https://news.ycombinator.com/item?id=48589501 Points: 399 # Comments: 240",
       "source": "Hacker News",
       "category": "Tech News"
     },
