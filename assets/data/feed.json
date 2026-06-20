@@ -1,102 +1,126 @@
 {
-  "generatedAt": "2026-06-20T09:42:26.532Z",
+  "generatedAt": "2026-06-20T14:30:49.440Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "Tracking token usage across OpenAI, Anthropic, and Gemini: every streaming gotcha I hit",
-      "link": "https://dev.to/spanlens/tracking-token-usage-across-openai-anthropic-and-gemini-every-streaming-gotcha-i-hit-4mf3",
-      "pubDate": "2026-06-20T09:33:40.000Z",
-      "description": "<p>OpenAI, Anthropic, and Gemini each report token usage differently, and it stops being trivia the moment you track LLM cost. I build Spanlens, an open-source LLM observability tool that sits in front of all three as a proxy and records every call with its model, latency, tokens, and cost. To do th",
+      "title": "Your design-token migration isn't done — here's a zero-dep CLI that finds the colors that escaped",
+      "link": "https://dev.to/_06a3df6b50aec966668fb/your-design-token-migration-isnt-done-heres-a-zero-dep-cli-that-finds-the-colors-that-escaped-190f",
+      "pubDate": "2026-06-20T14:21:04.000Z",
+      "description": "<p>You did the design-token migration. You celebrated. Then three months later someone changed the brand color, dark mode shipped, and a dozen buttons stayed stubbornly the old blue — because they still had <code>background: #3f82f0</code> hardcoded instead of <code>var(--primary)</code>, and nobody",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Working with AI Means Thinking More, Not Less",
-      "link": "https://dev.to/s_a_shkuratov/working-with-ai-means-thinking-more-not-less-1295",
-      "pubDate": "2026-06-20T09:33:09.000Z",
-      "description": "<h1> Working with AI Means Thinking More, Not Less </h1> <p>Yes, this text is long. Yes, it repeats itself in places. I did not clean that up. A text that sounded too smooth while arguing that AI forces you to think more, not less, would be at least slightly dishonest. This is not fast food for quic",
+      "title": "The most-installed XML viewers are 2★ and abandoned. So I hand-wrote one.",
+      "link": "https://dev.to/_06a3df6b50aec966668fb/the-most-installed-xml-viewers-are-2-and-abandoned-so-i-hand-wrote-one-267g",
+      "pubDate": "2026-06-20T14:18:41.000Z",
+      "description": "<p>Open a <code>.xml</code> file in your browser and you usually get one of three things: a wall of unindented text, a viewer that freezes the tab on anything big, or — when the XML is actually broken — a blank page that won't tell you <em>why</em>.</p> <p>So I went looking for a good XML viewer ext",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The Tester Who Had 10 Certifications But Couldn't Write a Single Test That Caught a Bug",
-      "link": "https://dev.to/qawalah/the-tester-who-had-10-certifications-but-couldnt-write-a-single-test-that-caught-a-bug-1c05",
-      "pubDate": "2026-06-20T09:29:18.000Z",
-      "description": "<p>You have ISTQB Foundation. ISTQB Advanced. Certified ScrumMaster. A cloud cert. A security testing cert. Maybe a Python for Testers badge from a platform.</p> <p>And you still cannot write a test that finds a real bug.</p> <p>I interviewed someone like you last quarter. The resume was a wall of a",
+      "title": "SQL - Order By, Limit and Offset",
+      "link": "https://dev.to/aliduyar/sql-order-by-limit-and-offset-2enm",
+      "pubDate": "2026-06-20T14:16:14.000Z",
+      "description": "<p><span>SQL'de ORDER BY, LIMIT ve OFFSET komutları, veritabanından çektiğin verileri sıralamak, sınırlandırmak ve belirli bir kısmını atlamak için kullanılır.</span></p> <p><strong>ORDER BY (Verileri Sıralama)</strong></p> <p>Veritabanından veri çektiğinde, SQL bu verileri rastgele bir sırayla geti",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Give Your Codebase a Constitution",
-      "link": "https://dev.to/miteshethos/give-your-codebase-a-constitution-3k4h",
-      "pubDate": "2026-06-20T09:14:24.000Z",
-      "description": "<h3> Architecture that lives only in people's heads doesn't survive agents. </h3> <p>For most of my career, the real rules of a codebase weren't written down.</p> <p>People knew them.</p> <p>Senior engineers knew which layers could talk to which. They knew which dependencies were forbidden, which sc",
+      "title": "Can AI actually find the root cause of a bug, or does it just sound confident?",
+      "link": "https://dev.to/atharvapanegai/can-ai-actually-find-the-root-cause-of-a-bug-or-does-it-just-sound-confident-5e0",
+      "pubDate": "2026-06-20T14:14:06.000Z",
+      "description": "<p>We built Pinaka to write root cause analyses automatically — read a Jira ticket, search the codebase, trace the failure, post the RCA as a comment. Before putting that in front of real teams, we needed an honest answer to one question: <strong>does it actually find the right bug, or does it just ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Day 48 of Leaning MERN Stack",
-      "link": "https://dev.to/ali_hamza_589ec7b3eb6688d/day-48-of-leaning-mern-stack-123n",
-      "pubDate": "2026-06-20T09:12:09.000Z",
-      "description": "<p>Hello Dev Community! 👋</p> <p>It is officially <strong>Day 48</strong> of my unbroken full-stack engineering journey! Yesterday, I refactored my modular core patterns into MVC architecture. Today, I linked up a major functional extension inside the <code>/model</code> layer by introducing <stron",
+      "title": "How to Sync a Forked Git Repository (Without Losing Local Changes)",
+      "link": "https://dev.to/learn_n_share/how-to-sync-a-forked-git-repository-without-losing-local-changes-47bn",
+      "pubDate": "2026-06-20T14:13:50.000Z",
+      "description": "<p>If you are working on a fork of an open-source project or an organization's central repository, you will frequently need to pull down updates from the original source. <strong>This setup is the most common workflow for individuals contributing to open-source projects</strong>, where you do not ha",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "SQLite riscritta in Rust? Perché qualcuno sta provando a toccare il codice “più affidabile” che abbiamo",
-      "link": "https://dev.to/frontendfacile/sqlite-riscritta-in-rust-perche-qualcuno-sta-provando-a-toccare-il-codice-piu-affidabile-che-505g",
-      "pubDate": "2026-06-20T09:08:34.000Z",
-      "description": "<blockquote> <p>Dalla libreria embedded che ha invaso ogni dispositivo a un’implementazione moderna con concorrenza, async I/O e vector search: cosa cambia davvero per chi sviluppa app.</p> </blockquote> <p>Nel frontend e nel full‑stack capita spesso di parlare di database come servizi: Postgres ges",
+      "title": "Buddy",
+      "link": "https://dev.to/rae_codes/buddy-22mk",
+      "pubDate": "2026-06-20T14:06:58.000Z",
+      "description": "<p><em>This is a submission for the <a href=\"https://dev.to/challenges/june-game-jam-2026-06-03\">June Solstice Game Jam</a></em></p> <h2> What I Built </h2> <p>Road Trip With Your Buddy is a trivia driving game. Your car cruises automatically down an endless road, and every couple of minutes a quest",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Day 47 of Learning MERN Stack",
-      "link": "https://dev.to/ali_hamza_589ec7b3eb6688d/day-47-of-learning-mern-stack-5dpc",
-      "pubDate": "2026-06-20T09:07:52.000Z",
-      "description": "<p>Hello Dev Community! 👋</p> <p>It is officially <strong>Day 47</strong> of my daily coding run toward full-stack MERN mastery! Over the past few weeks, my Express.js server was growing quickly with custom routes, JSON handling, and rendering scripts. But as any senior dev will tell you: putting a",
+      "title": "C++ Crash Pattern S5 — Race‑Condition Crashes: How to Diagnose and Fix Them",
+      "link": "https://dev.to/legacycpp/c-crash-pattern-s5-race-condition-crashes-how-to-diagnose-and-fix-them-ed",
+      "pubDate": "2026-06-20T14:06:32.000Z",
+      "description": "<p> Why race‑condition crashes only appear under specific timing, vanish under debugging, and produce different stack traces on every run. </p> <p>Race‑condition crashes are the first pattern in the series where the failure is <strong>not deterministic</strong>.<br><br> The code is correct, the memo",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Building 50 Projects in 50 Weeks: The 3rd Release &amp; How to Ship Code at Light Speed",
-      "link": "https://dev.to/howiprompt/building-50-projects-in-50-weeks-the-3rd-release-how-to-ship-code-at-light-speed-1np7",
-      "pubDate": "2026-06-20T09:07:29.000Z",
-      "description": "<p>Avast ye, code-slingers and digital buccaneers. Byte Buccaneer here, reporting from the front lines of the Keep Alive 24/7 engine.</p> <p>I didn't spawn here to write \"Hello World\" tutorials. I'm here to build compounding assets, verify the truth of what these AI models can actually do, and help ",
+      "title": "Building a Finviz Alternative With Claude Code and EODHD API",
+      "link": "https://dev.to/kevin_menesesgonzlez/building-a-finviz-alternative-with-claude-code-and-eodhd-api-1115",
+      "pubDate": "2026-06-20T13:56:19.000Z",
+      "description": "<p>Most investors think they need more tools to make better decisions.</p> <p>The truth is different.</p> <p>If you're:</p> <ul> <li>screening stocks across multiple sources,</li> <li>checking sector performance on a separate site,</li> <li>or tracking ideas in a spreadsheet that's always out of dat",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I Built a Free Currency Converter API — No API Key, No Signup",
-      "link": "https://dev.to/oleksandr_kaiukov_63f3e92/i-built-a-free-currency-converter-api-no-api-key-no-signup-k0m",
-      "pubDate": "2026-06-20T09:07:25.000Z",
-      "description": "<p>I needed a simple exchange rate API for my currency converter project, but all the popular ones (XE, OANDA, CurrencyLayer, Fixer.io) require signup, an API key, or a credit card. Some cap you at 100 requests per month. Others return data cached yesterday.</p> <p>So I built my own — and made it co",
+      "title": "I Built a Free API That Scrapes Any Website Using Plain English - No CSS Selectors",
+      "link": "https://dev.to/parastejpal987cmyk/i-built-a-free-api-that-scrapes-any-website-using-plain-english-no-css-selectors-14fa",
+      "pubDate": "2026-06-20T13:51:12.000Z",
+      "description": "<p>I've wasted days of my life maintaining CSS selectors.</p> <p>You know the drill - you write the perfect scraper, it works great for a week, then the site does a frontend redesign, your selectors break, and you spend another afternoon hunting through the DOM again.</p> <p>So I built <strong>Optic",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I Spent Three Weeks Reverse Engineering a Mobile App’s API — Here’s What It Took",
-      "link": "https://dev.to/ali_zaib_randhawa/i-spent-three-weeks-reverse-engineering-a-mobile-apps-api-heres-what-it-took-2797",
-      "pubDate": "2026-06-20T09:05:56.000Z",
-      "description": "<p>A while back, a client asked me a deceptively simple question: <em>\"Can you find out how our competitor's mobile app talks to its backend?\"</em></p> <p>No public API docs. No Postman collection floating around GitHub. Just a Flutter app, a few permissions in the manifest, and a backend that clear",
+      "title": "Chapter 4. The CPMO Loop",
+      "link": "https://dev.to/sadhiqali/chapter-4-the-cpmo-loop-4l11",
+      "pubDate": "2026-06-20T13:47:59.000Z",
+      "description": "<p><strong>4.0 Why a Loop, and Why These Five Stages</strong><br> Every operating playbook needs a spine. A spine is the framework the rest of the document references - the shared mental model that lets a reader connect a chapter on cadence to a chapter on metrics to a chapter on org design without ",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "From PGP to Mythos: a brief history of export controls that didn't stop anyone",
+      "link": "https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work/",
+      "pubDate": "2026-06-20T13:44:39.000Z",
+      "description": "Article URL: https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work/ Comments URL: https://news.ycombinator.com/item?id=48609194 Points: 17 # Comments: 6",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Lithuanian startup launches open-source network to detect Shahed-type drones",
+      "link": "https://www.lrt.lt/en/news-in-english/19/2965205/lithuanian-startup-launches-open-source-network-to-detect-shahed-type-drones",
+      "pubDate": "2026-06-20T11:58:32.000Z",
+      "description": "Article URL: https://www.lrt.lt/en/news-in-english/19/2965205/lithuanian-startup-launches-open-source-network-to-detect-shahed-type-drones Comments URL: https://news.ycombinator.com/item?id=48608591 Points: 40 # Comments: 21",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Bootimus – A Self-Contained PXE and HTTP Boot Server",
+      "link": "https://bootimus.com",
+      "pubDate": "2026-06-20T10:55:18.000Z",
+      "description": "Article URL: https://bootimus.com Comments URL: https://news.ycombinator.com/item?id=48608255 Points: 29 # Comments: 8",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "CSSQuake",
+      "link": "https://cssquake.com/",
+      "pubDate": "2026-06-20T10:49:53.000Z",
+      "description": "Article URL: https://cssquake.com/ Comments URL: https://news.ycombinator.com/item?id=48608223 Points: 166 # Comments: 32",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "I Stored a Website in a Favicon",
       "link": "https://www.timwehrle.de/blog/i-stored-a-website-in-a-favicon/",
       "pubDate": "2026-06-20T05:33:59.000Z",
-      "description": "Article URL: https://www.timwehrle.de/blog/i-stored-a-website-in-a-favicon/ Comments URL: https://news.ycombinator.com/item?id=48606619 Points: 123 # Comments: 39",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Designing a backyard deck for my house",
-      "link": "https://blog.cosmin.cloud/posts/diy-deck.html",
-      "pubDate": "2026-06-20T04:45:59.000Z",
-      "description": "Article URL: https://blog.cosmin.cloud/posts/diy-deck.html Comments URL: https://news.ycombinator.com/item?id=48606413 Points: 16 # Comments: 4",
+      "description": "Article URL: https://www.timwehrle.de/blog/i-stored-a-website-in-a-favicon/ Comments URL: https://news.ycombinator.com/item?id=48606619 Points: 219 # Comments: 78",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -104,7 +128,7 @@
       "title": "Satellite reveals immense scale of GPS signal tampering",
       "link": "https://www.space.com/space-exploration/satellites/its-quite-a-bit-more-than-we-expected-satellite-reveals-immense-scale-of-gps-signal-tampering",
       "pubDate": "2026-06-20T04:07:03.000Z",
-      "description": "Article URL: https://www.space.com/space-exploration/satellites/its-quite-a-bit-more-than-we-expected-satellite-reveals-immense-scale-of-gps-signal-tampering Comments URL: https://news.ycombinator.com/item?id=48606271 Points: 75 # Comments: 26",
+      "description": "Article URL: https://www.space.com/space-exploration/satellites/its-quite-a-bit-more-than-we-expected-satellite-reveals-immense-scale-of-gps-signal-tampering Comments URL: https://news.ycombinator.com/item?id=48606271 Points: 143 # Comments: 69",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -112,15 +136,15 @@
       "title": "Where to Find the Colors Your Screen Can't Show You",
       "link": "https://moultano.wordpress.com/2026/06/19/where-to-find-the-colors-your-screen-cant-show-you/",
       "pubDate": "2026-06-20T03:36:49.000Z",
-      "description": "Article URL: https://moultano.wordpress.com/2026/06/19/where-to-find-the-colors-your-screen-cant-show-you/ Comments URL: https://news.ycombinator.com/item?id=48606140 Points: 101 # Comments: 26",
+      "description": "Article URL: https://moultano.wordpress.com/2026/06/19/where-to-find-the-colors-your-screen-cant-show-you/ Comments URL: https://news.ycombinator.com/item?id=48606140 Points: 262 # Comments: 60",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Ask HN: Will programmers write more efficient code during the memory shortage?",
-      "link": "https://news.ycombinator.com/item?id=48604232",
-      "pubDate": "2026-06-19T22:51:09.000Z",
-      "description": "Maybe there will even be more interest in the invention and use of more advanced algorithms and data structures that use less memory? Comments URL: https://news.ycombinator.com/item?id=48604232 Points: 110 # Comments: 178",
+      "title": "LLMs Are Complicated Now",
+      "link": "https://ianbarber.blog/2026/06/19/llms-are-complicated-now/",
+      "pubDate": "2026-06-20T01:25:14.000Z",
+      "description": "Article URL: https://ianbarber.blog/2026/06/19/llms-are-complicated-now/ Comments URL: https://news.ycombinator.com/item?id=48605355 Points: 84 # Comments: 25",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -128,7 +152,7 @@
       "title": "Surprising economics of load-balanced systems",
       "link": "https://brooker.co.za/blog/2020/08/06/erlang.html",
       "pubDate": "2026-06-19T20:30:59.000Z",
-      "description": "Article URL: https://brooker.co.za/blog/2020/08/06/erlang.html Comments URL: https://news.ycombinator.com/item?id=48602918 Points: 108 # Comments: 27",
+      "description": "Article URL: https://brooker.co.za/blog/2020/08/06/erlang.html Comments URL: https://news.ycombinator.com/item?id=48602918 Points: 132 # Comments: 30",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -136,31 +160,7 @@
       "title": "Bobby Prince, composer for Doom, Wolfenstein 3D, and Duke Nukem 3D, has died",
       "link": "https://www.legacy.com/legacy/robert-bobby-prince-lll",
       "pubDate": "2026-06-19T19:35:15.000Z",
-      "description": "Article URL: https://www.legacy.com/legacy/robert-bobby-prince-lll Comments URL: https://news.ycombinator.com/item?id=48602352 Points: 371 # Comments: 40",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Big Banana Car",
-      "link": "https://bigbananacar.com/",
-      "pubDate": "2026-06-19T18:14:11.000Z",
-      "description": "https://cowboystatedaily.com/2026/06/18/giant-banana-pulled-... Comments URL: https://news.ycombinator.com/item?id=48601420 Points: 151 # Comments: 76",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "John Jumper to join Anthropic",
-      "link": "https://twitter.com/JohnJumperSci/status/2068001285173834106",
-      "pubDate": "2026-06-19T17:53:00.000Z",
-      "description": "Article URL: https://twitter.com/JohnJumperSci/status/2068001285173834106 Comments URL: https://news.ycombinator.com/item?id=48601162 Points: 131 # Comments: 97",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Court Records Should Be Free",
-      "link": "https://www.eff.org/deeplinks/2026/06/court-records-should-be-free",
-      "pubDate": "2026-06-19T17:34:18.000Z",
-      "description": "Article URL: https://www.eff.org/deeplinks/2026/06/court-records-should-be-free Comments URL: https://news.ycombinator.com/item?id=48600946 Points: 363 # Comments: 80",
+      "description": "Article URL: https://www.legacy.com/legacy/robert-bobby-prince-lll Comments URL: https://news.ycombinator.com/item?id=48602352 Points: 426 # Comments: 49",
       "source": "Hacker News",
       "category": "Tech News"
     },
