@@ -1,142 +1,166 @@
 {
-  "generatedAt": "2026-06-19T20:03:34.971Z",
+  "generatedAt": "2026-06-20T04:40:52.128Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "Astrophysics &amp; AI with Python: Mastering Solar Flare Analysis with SunPy",
-      "link": "https://dev.to/programmingcentral/astrophysics-ai-with-python-mastering-solar-flare-analysis-with-sunpy-n8j",
-      "pubDate": "2026-06-19T20:00:00.000Z",
-      "description": "<p>The Sun is not a static, gentle star. It is a churning, magnetic powerhouse that bathes our solar system in radiation and particles, capable of launching billion-ton coronal mass ejections and intense solar flares. For data scientists and astrophysicists, this dynamic activity generates a data de",
+      "title": "How to Let an AI Agent Generate Real PDFs (with an MCP server)",
+      "link": "https://dev.to/gerardo_barrera_538fc60b7/how-to-let-an-ai-agent-generate-real-pdfs-with-an-mcp-server-28e3",
+      "pubDate": "2026-06-20T04:37:27.000Z",
+      "description": "<p>AI agents are great at producing <em>text</em>. But the moment you need an actual <strong>document</strong> — an invoice, a report, a certificate — they fall apart. You get markdown you have to format yourself, or (with Code Interpreter) a rough PDF from a Python lib with generic fonts and tables",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Software Architecture Matters",
-      "link": "https://dev.to/lavkeshdwivedi/software-architecture-matters-2k66",
-      "pubDate": "2026-06-19T19:55:55.000Z",
-      "description": "<p><em>Originally published on <a href=\"https://lavkesh.com/articles/demystifying-software-architecture-guide-blueprint-digital-dwivedi-jwwnc\" rel=\"noopener noreferrer\">lavkesh.com</a></em></p> <p>I've seen software architecture ignored until the system falls apart, it's the blueprint that determine",
+      "title": "How to Generate a PDF from JSON in Node.js (without a headless browser)",
+      "link": "https://dev.to/gerardo_barrera_538fc60b7/how-to-generate-a-pdf-from-json-in-nodejs-without-a-headless-browser-3i9h",
+      "pubDate": "2026-06-20T04:29:56.000Z",
+      "description": "<p>If you've ever had to generate PDFs from a Node app — invoices, receipts, reports, certificates — you've probably reached for <br> <strong>Puppeteer</strong> or some headless-Chrome setup. It works… until you have to run it in production. Now you're shipping a 300MB Chromium <br> binary, babysitt",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Can You Be a Data Scientist Without Statistics? Yes. Should You?",
-      "link": "https://dev.to/amailuk/can-you-be-a-data-scientist-without-statistics-yes-should-you-3jn4",
-      "pubDate": "2026-06-19T19:55:16.000Z",
-      "description": "<h1> Can Data Science Do Without Statistics? </h1> <h2> 1. Introduction: The Debate Nobody Wants to Have </h2> <p>\"Do I really need statistics?\"</p> <p>It's one of the first questions every aspiring data scientist asks, usually right after discovering how much math sits underneath the job title. </p",
+      "title": "This Week in AI: Claude Goes Dark, SpaceX Buys Cursor for $60B",
+      "link": "https://dev.to/zyvop/this-week-in-ai-claude-goes-dark-spacex-buys-cursor-for-60b-1a9",
+      "pubDate": "2026-06-20T04:27:37.000Z",
+      "description": "<h1> This Week in AI: June 12–18, 2026 </h1> <p>Six days. That's how long two of Anthropic's most capable models have been offline because of a single letter from the Commerce Department. In the same six days, SpaceX bought a code editor for $60 billion, OpenAI's real financials leaked and they're w",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Manipulating QEMU Hardwares with Bootkit",
-      "link": "https://dev.to/bekoo/manipulating-qemu-hardwares-with-bootkit-4gl7",
-      "pubDate": "2026-06-19T19:54:34.000Z",
-      "description": "<p>Boot a fresh QEMU instance and run <strong>dmidecode -t 1</strong> inside it:<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight plaintext\"><code>System Information Manufacturer: QEMU Product Name: Standard PC (Q35 + ICH9, 2009) Version: pc-q35-8.2 Serial Number: Not Specifi",
+      "title": "Building a CompTIA practice-test engine that gives students source-verified questions",
+      "link": "https://dev.to/henry_yau_2266/building-a-comptia-practice-test-engine-that-gives-students-source-verified-questions-332",
+      "pubDate": "2026-06-20T04:22:12.000Z",
+      "description": "<p>If you've ever studied for a CompTIA exam with free practice questions online, you already know the problem: most \"practice tests\" are recycled exam dumps. The same leaked pool, copy-pasted across a dozen sites, with a worrying number of \"correct\" answers that are subtly wrong and no indication o",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How to E2E Test Mailgun Email Workflows in Playwright",
-      "link": "https://dev.to/zerodrop/how-to-e2e-test-mailgun-email-workflows-in-playwright-3b2d",
-      "pubDate": "2026-06-19T19:51:55.000Z",
-      "description": "<p>Mailgun is a popular transactional email API trusted by developers for reliable delivery. But how do you test that your Mailgun emails actually arrive, contain the right content, and work end-to-end in CI?</p> <p>This guide covers the full testing progression — from local development to automated",
+      "title": "I Trained a Neural Network on Real Medical Data and Fit It in 8.9 kB of Pure C",
+      "link": "https://dev.to/alexrosito67/i-trained-a-neural-network-on-real-medical-data-and-fit-it-in-89-kb-of-pure-c-4e40",
+      "pubDate": "2026-06-20T04:16:08.000Z",
+      "description": "<p>I want to be honest with you from the start: I didn't set out to write this article.</p> <p>I set out to answer a question I had about my own tool — <em>can Hasaki do regression?</em> — and somewhere between loading a dataset of 3,658 real patient records and watching a microcontroller predict bl",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Code reviews keep bugs out before they cost.",
-      "link": "https://dev.to/lavkeshdwivedi/code-reviews-keep-bugs-out-before-they-cost-ffi",
-      "pubDate": "2026-06-19T19:50:32.000Z",
-      "description": "<p><em>Originally published on <a href=\"https://lavkesh.com/articles/crucial-role-code-reviews-software-development-lavkesh-dwivedi-ryaqf\" rel=\"noopener noreferrer\">lavkesh.com</a></em></p> <p>When the clock is tight, code reviews slip off the list. I’ve watched teams spend months fixing bugs that a",
+      "title": "I Built a Chrome Extension That Copies Code Identifiers Instantly",
+      "link": "https://dev.to/venkatesh_007/i-built-a-chrome-extension-that-copies-code-identifiers-instantly-12fe",
+      "pubDate": "2026-06-20T04:12:03.000Z",
+      "description": "<p>While solving SQL and coding problems on platforms like LeetCode, I found myself repeatedly selecting column names, table names, variables, and snippets just to copy and paste them into the editor.</p> <p>So I built CodeCopy.</p> <p>Features</p> <p>⚡ Double-click any text to copy instantly<br> ⚡ ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Load Testing Platform - NBomber Studio 0.8.0",
-      "link": "https://dev.to/nbomber/nbomber-studio-080-5fh6",
-      "pubDate": "2026-06-19T19:43:53.000Z",
-      "description": "<p>This release brings <strong>Load Test Schedules</strong> — a long-requested feature that lets you run a load test automatically at specific times, so you no longer need to kick it off manually. We've also extended the <strong>Container Spec</strong> file, which now supports more standard <strong>",
+      "title": "How to Track Court Cases for Any Advocate in India — eCourtsIndia Guide",
+      "link": "https://dev.to/rchtjn2/how-to-track-court-cases-for-any-advocate-in-india-ecourtsindia-guide-24a3",
+      "pubDate": "2026-06-20T04:09:41.000Z",
+      "description": "<p>India has one of the largest judicial systems in the world — 25 High Courts, over 3,000 district courts, and millions of pending cases. For lawyers, litigants, and legal tech developers, tracking the status of cases is a daily necessity.</p> <p>In this post, I'll walk through how to use <strong>e",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "System Design at Scale",
-      "link": "https://dev.to/lavkeshdwivedi/system-design-at-scale-2437",
-      "pubDate": "2026-06-19T19:40:00.000Z",
-      "description": "<p><em>Originally published on <a href=\"https://lavkesh.com/articles/unraveling-complexities-comprehensive-guide-system-design-dwivedi-shnvc\" rel=\"noopener noreferrer\">lavkesh.com</a></em></p> <p>I've seen many engineers learn to code by building small projects, but real systems don't work that way.",
+      "title": "The CSS-in-JS Penalty: Zero-Runtime Styling in React ⚡",
+      "link": "https://dev.to/iprajapatiparesh/the-css-in-js-penalty-zero-runtime-styling-in-react-n2h",
+      "pubDate": "2026-06-20T04:08:04.000Z",
+      "description": "<p>Liquid syntax error: Variable '{{% raw %}' was not properly terminated with regexp: /\\}\\}/</p>",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Team Conflict in the Open",
-      "link": "https://dev.to/lavkeshdwivedi/team-conflict-in-the-open-37ob",
-      "pubDate": "2026-06-19T19:39:57.000Z",
-      "description": "<p><em>Originally published on <a href=\"https://lavkesh.com/articles/navigating-conflict-team-leader-strategies-resolution-lavkesh-dwivedi-sle3c\" rel=\"noopener noreferrer\">lavkesh.com</a></em></p> <p>As a team leader, you can't avoid conflicts forever. They'll arise eventually, whether it's about a ",
+      "title": "Defeating Webhook Storms: Idempotency in Laravel 🛑",
+      "link": "https://dev.to/iprajapatiparesh/defeating-webhook-storms-idempotency-in-laravel-36i0",
+      "pubDate": "2026-06-20T04:06:07.000Z",
+      "description": "<h2>The Double-Billing Nightmare</h2> <p>When integrating with enterprise payment processors like Stripe or enterprise CRMs at Smart Tech Devs, relying on webhooks is mandatory. However, distributed systems are inherently chaotic. If Stripe sends your API a <code>charge.succeeded</code> webhook, it ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Pluck v1.0.2 — I built a floating clipboard manager for Windows (open source)",
-      "link": "https://dev.to/phuc-nguyen/pluck-v102-i-built-a-floating-clipboard-manager-for-windows-open-source-di5",
-      "pubDate": "2026-06-19T19:33:07.000Z",
-      "description": "<p>If you copy all day between browser tabs, Slack, and your IDE, you know the pain: <strong>copy → switch app → forget what you copied → hunt history</strong>.</p> <p><strong>Pluck</strong> is my answer: a Windows clipboard manager where every copy becomes a visible bubble on the edge of your scree",
+      "title": "From Prompts to AI Agents: A Frontend Developer's Guide to Mastery",
+      "link": "https://dev.to/davekurian/from-prompts-to-ai-agents-a-frontend-developers-guide-to-mastery-2mlh",
+      "pubDate": "2026-06-20T04:06:03.000Z",
+      "description": "<p>How to build AI agents as a frontend developer is the enable that sits quietly underneath every \"AI-powered\" UI you’ve seen this year. Knowing how to write quality prompts is just the start — but if you grasp how prompts fit into the bigger picture of chatbots and agents, you’ll find yourself bui",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Giant Banana Pulled over in Montana Driver Says Cops Have Stopped Him 100s Times",
-      "link": "https://cowboystatedaily.com/2026/06/18/giant-banana-pulled-over-in-montana-driver-says-cops-have-stopped-him-100s-of-times/",
+      "title": "How to feed a dictator",
+      "link": "https://www.theguardian.com/film/2026/jun/09/how-to-feed-a-dictator-film",
+      "pubDate": "2026-06-20T01:16:56.000Z",
+      "description": "Article URL: https://www.theguardian.com/film/2026/jun/09/how-to-feed-a-dictator-film Comments URL: https://news.ycombinator.com/item?id=48605301 Points: 106 # Comments: 36",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Hey, n00b, we didn't hire you to complete tasks",
+      "link": "https://newsletter.kentbeck.com/p/hey-n00b-we-didnt-hire-you-to-complete",
+      "pubDate": "2026-06-20T00:11:07.000Z",
+      "description": "Article URL: https://newsletter.kentbeck.com/p/hey-n00b-we-didnt-hire-you-to-complete Comments URL: https://news.ycombinator.com/item?id=48604851 Points: 122 # Comments: 54",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Aikido Code Audit",
+      "link": "https://www.aikido.dev/blog/introducing-code-audit-find-complex-vulnerabilities-hidden-in-your-codebase",
+      "pubDate": "2026-06-19T23:54:54.000Z",
+      "description": "Article URL: https://www.aikido.dev/blog/introducing-code-audit-find-complex-vulnerabilities-hidden-in-your-codebase Comments URL: https://news.ycombinator.com/item?id=48604741 Points: 26 # Comments: 10",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Ask HN: Will programmers write more efficient code during the memory shortage?",
+      "link": "https://news.ycombinator.com/item?id=48604232",
+      "pubDate": "2026-06-19T22:51:09.000Z",
+      "description": "Maybe there will even be more interest in the invention and use of more advanced algorithms and data structures that use less memory? Comments URL: https://news.ycombinator.com/item?id=48604232 Points: 50 # Comments: 85",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Zenzizenzizenzic",
+      "link": "https://en.wikipedia.org/wiki/Zenzizenzizenzic",
+      "pubDate": "2026-06-19T21:49:44.000Z",
+      "description": "Article URL: https://en.wikipedia.org/wiki/Zenzizenzizenzic Comments URL: https://news.ycombinator.com/item?id=48603664 Points: 84 # Comments: 23",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Surprising Economics of Load-Balanced Systems",
+      "link": "https://brooker.co.za/blog/2020/08/06/erlang.html",
+      "pubDate": "2026-06-19T20:30:59.000Z",
+      "description": "Article URL: https://brooker.co.za/blog/2020/08/06/erlang.html Comments URL: https://news.ycombinator.com/item?id=48602918 Points: 64 # Comments: 18",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Think of the children: How to force real ID for all internet traffic (2023)",
+      "link": "https://nochan.net/b/Internet-Crap/20230829-Think-Of-The-Children/",
+      "pubDate": "2026-06-19T20:19:57.000Z",
+      "description": "Article URL: https://nochan.net/b/Internet-Crap/20230829-Think-Of-The-Children/ Comments URL: https://news.ycombinator.com/item?id=48602817 Points: 168 # Comments: 98",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Bobby Prince, composer for Doom, Wolfenstein 3D, and Duke Nukem 3D, has died",
+      "link": "https://www.legacy.com/legacy/robert-bobby-prince-lll",
+      "pubDate": "2026-06-19T19:35:15.000Z",
+      "description": "Article URL: https://www.legacy.com/legacy/robert-bobby-prince-lll Comments URL: https://news.ycombinator.com/item?id=48602352 Points: 264 # Comments: 30",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Big Banana Car",
+      "link": "https://bigbananacar.com/",
       "pubDate": "2026-06-19T18:14:11.000Z",
-      "description": "Article URL: https://cowboystatedaily.com/2026/06/18/giant-banana-pulled-over-in-montana-driver-says-cops-have-stopped-him-100s-of-times/ Comments URL: https://news.ycombinator.com/item?id=48601420 Points: 32 # Comments: 18",
+      "description": "https://cowboystatedaily.com/2026/06/18/giant-banana-pulled-... Comments URL: https://news.ycombinator.com/item?id=48601420 Points: 128 # Comments: 73",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Is AI ruining our skills? Early results are in – and they're not good",
-      "link": "https://www.nature.com/articles/d41586-026-01947-1",
-      "pubDate": "2026-06-19T18:00:48.000Z",
-      "description": "Article URL: https://www.nature.com/articles/d41586-026-01947-1 Comments URL: https://news.ycombinator.com/item?id=48601286 Points: 137 # Comments: 151",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "A new bill takes aim at government pressure to silence lawful online speech",
-      "link": "https://www.eff.org/deeplinks/2026/06/new-bill-takes-aim-government-pressure-silence-lawful-online-speech",
-      "pubDate": "2026-06-19T17:34:28.000Z",
-      "description": "Article URL: https://www.eff.org/deeplinks/2026/06/new-bill-takes-aim-government-pressure-silence-lawful-online-speech Comments URL: https://news.ycombinator.com/item?id=48600950 Points: 116 # Comments: 56",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Google workspace threatening to block Firefox access",
-      "link": "https://tales.fromprod.com/2026/169/google-workspace-threatening-to-block-firefox.html",
-      "pubDate": "2026-06-19T16:30:49.000Z",
-      "description": "Article URL: https://tales.fromprod.com/2026/169/google-workspace-threatening-to-block-firefox.html Comments URL: https://news.ycombinator.com/item?id=48600345 Points: 226 # Comments: 76",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Hyundai buys Boston Dynamics",
-      "link": "https://startupfortune.com/hyundai-takes-full-control-of-boston-dynamics-as-softbank-exits-for-325-million/",
-      "pubDate": "2026-06-19T16:28:20.000Z",
-      "description": "Article URL: https://startupfortune.com/hyundai-takes-full-control-of-boston-dynamics-as-softbank-exits-for-325-million/ Comments URL: https://news.ycombinator.com/item?id=48600312 Points: 336 # Comments: 161",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Amateur may have cracked Linear A, a 120-year-old puzzle",
-      "link": "https://aiclambake.com/clamtakes/linear-a/",
-      "pubDate": "2026-06-19T16:04:42.000Z",
-      "description": "Article URL: https://aiclambake.com/clamtakes/linear-a/ Comments URL: https://news.ycombinator.com/item?id=48600107 Points: 246 # Comments: 108",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "There Are No Instances in ATProto",
-      "link": "https://overreacted.io/there-are-no-instances-in-atproto/",
-      "pubDate": "2026-06-19T15:10:02.000Z",
-      "description": "Article URL: https://overreacted.io/there-are-no-instances-in-atproto/ Comments URL: https://news.ycombinator.com/item?id=48599515 Points: 196 # Comments: 124",
+      "title": "John Jumper to join Anthropic",
+      "link": "https://twitter.com/JohnJumperSci/status/2068001285173834106",
+      "pubDate": "2026-06-19T17:53:00.000Z",
+      "description": "Article URL: https://twitter.com/JohnJumperSci/status/2068001285173834106 Comments URL: https://news.ycombinator.com/item?id=48601162 Points: 88 # Comments: 60",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -147,30 +171,6 @@
       "description": "Let's poke at the differences between scroll-driven and scroll-triggered animations. A First Look at Scroll-Triggered Animations originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
       "source": "CSS Tricks",
       "category": "Frontend"
-    },
-    {
-      "title": "Project Valhalla, Explained: How a Decade of Work Arrives in JDK 28",
-      "link": "https://www.jvm-weekly.com/p/project-valhalla-explained-how-a",
-      "pubDate": "2026-06-19T06:35:57.000Z",
-      "description": "Article URL: https://www.jvm-weekly.com/p/project-valhalla-explained-how-a Comments URL: https://news.ycombinator.com/item?id=48595511 Points: 487 # Comments: 281",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Flexport (YC W14) Is Hiring in Indonesia, India, and Thailand",
-      "link": "https://www.flexport.com/company/careers/",
-      "pubDate": "2026-06-19T01:01:13.000Z",
-      "description": "Article URL: https://www.flexport.com/company/careers/ Comments URL: https://news.ycombinator.com/item?id=48593694 Points: 0 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "The AirPods Effect",
-      "link": "https://www.theescapenewsletter.com/p/the-airpods-effect",
-      "pubDate": "2026-06-18T23:08:35.000Z",
-      "description": "Article URL: https://www.theescapenewsletter.com/p/the-airpods-effect Comments URL: https://news.ycombinator.com/item?id=48592832 Points: 334 # Comments: 597",
-      "source": "Hacker News",
-      "category": "Tech News"
     },
     {
       "title": "The Siren Song of ariaNotify()",
