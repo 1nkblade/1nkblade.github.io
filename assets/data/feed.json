@@ -1,166 +1,166 @@
 {
-  "generatedAt": "2026-06-20T19:56:51.087Z",
+  "generatedAt": "2026-06-21T05:18:44.357Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "NeuroImprint Detector: Audita adapters PEFT para detectar backdoors de privacidad en Federated Learning",
-      "link": "https://dev.to/magopredator/neuroimprint-detector-audita-adapters-peft-para-detectar-backdoors-de-privacidad-en-federated-4omi",
-      "pubDate": "2026-06-20T19:45:00.000Z",
-      "description": "<h2> El problema: tu adapter PEFT puede estar filtrando datos sin que lo sepas </h2> <p>Imagina que participas en un proyecto de Federated Learning. Tu cliente entrena un adapter LoRA localmente con datos sensibles (médicos, financieros, legales) y lo envía al servidor central. El servidor nunca ve ",
+      "title": "I Thought I Knew Linux — Then I Actually Learned It (Week 1)",
+      "link": "https://dev.to/dharam_in/i-thought-i-knew-linux-then-i-actually-learned-it-week-1-2ep9",
+      "pubDate": "2026-06-21T05:10:22.000Z",
+      "description": "<h2> The Big Picture </h2> <blockquote> <p>Before you read this doc you must know english is my second language and this doc is have completely my own words not any AI, translator etc.</p> </blockquote> <h3> What an OS really is </h3> <p>An Operating System is software that manage every system resou",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How to Host Your Website on GitHub Pages for Free",
-      "link": "https://dev.to/deividas-strole/how-to-host-your-website-on-github-pages-for-free-1cn3",
-      "pubDate": "2026-06-20T19:38:25.000Z",
-      "description": "<p>GitHub Pages is one of the easiest ways to publish a website online for free. It is great for portfolios, landing pages, documentation, small business websites, and simple frontend projects. I use them all the time as all my code is stored on GitHub.</p> <p>In this tutorial, I will show you how t",
+      "title": "Local Gradient Accumulation Speeds Training 1.7",
+      "link": "https://dev.to/olaughter/local-gradient-accumulation-speeds-training-17x-2mdk",
+      "pubDate": "2026-06-21T05:00:00.000Z",
+      "description": "<p>PACI removes the bubbles that cripple asynchronous pipeline parallelism and shaves as much as 1.69× off time‑to‑accuracy compared with the fastest synchronous flush baseline. The paper demonstrates this gain on GPT‑2 Medium pre‑training while preserving the same peak memory usage. By locally accu",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Cache Stampede in Go: Preventing Thundering Herds with Singleflight, Stale Caching, and Request Coalescing",
-      "link": "https://dev.to/serifcolakel/cache-stampede-in-go-preventing-thundering-herds-with-singleflight-stale-caching-and-request-2ho6",
-      "pubDate": "2026-06-20T19:35:58.000Z",
-      "description": "<p>Modern backend systems spend enormous effort optimizing databases, tuning queries, and scaling infrastructure.</p> <p>Yet some of the most expensive production incidents begin with a single innocent event:</p> <blockquote> <p>A cache entry expires.</p> </blockquote> <p>Everything looks healthy.</",
+      "title": "What 4 months of building taught me right before my first real launch",
+      "link": "https://dev.to/harsha_kumar/what-4-months-of-building-taught-me-right-before-my-first-real-launch-4b5g",
+      "pubDate": "2026-06-21T04:51:58.000Z",
+      "description": "<p>Tomorrow I launch XEdge on Peerlist's Launchpad.<br> It's not my first time putting XEdge in front of people — I've been posting, building in public, talking to users for 4 months. But it's the first time there's an actual \"launch day\" with a ranking, a leaderboard, and a finite window where mome",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Rux: A Modern Systems Programming Language without LLVM",
-      "link": "https://dev.to/spatulari/rux-a-modern-systems-programming-language-without-llvm-5128",
-      "pubDate": "2026-06-20T19:35:51.000Z",
-      "description": "<p>Most modern programming languages rely on massive external toolchains.</p> <p>Many use LLVM for code generation. Others depend on large runtimes, garbage collectors, or extensive third-party infrastructure.</p> <p>Rux takes a different approach.</p> <p>Rux is a <strong>statically typed systems pr",
+      "title": "Stop Letting People Waste Your Time As A Developer",
+      "link": "https://dev.to/muhammadniazali/stop-letting-people-waste-your-time-as-a-developer-29hj",
+      "pubDate": "2026-06-21T04:51:32.000Z",
+      "description": "<p>Every developer eventually meets someone who thinks code takes five minutes to write.</p> <p>They message you out of nowhere. They want a full feature built in an hour. No requirements. No reference. Just urgency and pressure. And the moment you ask for fair payment they act surprised like you ar",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Juneteenth: 1865 — Sail. Decode. Reunite.",
-      "link": "https://dev.to/nitin_8d767ad88637719caf8/juneteenth-1865-sail-decode-reunite-159h",
-      "pubDate": "2026-06-20T19:21:50.000Z",
-      "description": "<p><em>This is a submission for the <a href=\"https://dev.to/challenges/june-game-jam-2026-06-03\">June Solstice Game Jam</a></em></p> <h2> What I Built </h2> <p><strong>Juneteenth: 1865</strong> — an interactive browser story game set across three chapters, spanning the historic days around June 19, ",
+      "title": "Monitorear agentes de IA con CloudWatch",
+      "link": "https://dev.to/aws-builders/monitorear-agentes-de-ia-con-cloudwatch-45c4",
+      "pubDate": "2026-06-21T04:49:05.000Z",
+      "description": "<p>Las dos ideas que hicieron el trabajo:</p> <ol> <li> <strong>Los modos de falla ya son líneas de log.</strong> Conviértelos en métricas con <code>MetricFilter</code>, no con código.</li> <li> <strong>Las dimensiones por agente/por modelo necesitan EMF</strong>, no <code>PutMetricData</code>, escr",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "GPS Seguro",
-      "link": "https://dev.to/leojulieta/gps-seguro-27ek",
-      "pubDate": "2026-06-20T19:20:50.000Z",
-      "description": "<h1> Protegiendo la Navegación: Detección de Manipulaciones de Señales de GPS en Tiempo Real </h1> <p>La dependencia de la tecnología de navegación ha llegado a un punto crítico, y la seguridad de las señales de GPS es más crucial que nunca. Un ejemplo reciente de manipulación de señales de GPS en H",
+      "title": "Publish a static page + data API in minutes with MiniUp",
+      "link": "https://dev.to/miniup_io/publish-a-static-page-data-api-in-minutes-with-miniup-4523",
+      "pubDate": "2026-06-21T04:41:25.000Z",
+      "description": "<p>Full disclosure: this is a promotional walkthrough for MiniUp.</p> <h2> What you can build in 10 minutes </h2> <p>MiniUp is a platform for publishing:</p> <ul> <li>a static page from HTML / a folder / a ZIP</li> <li>and turning tables/data into APIs, dashboards, maps, or hosted datasets</li> </ul",
       "source": "Dev.to Feed",
       "category": "Development"
-    },
-    {
-      "title": "Show HN: My Windows XP portfolio with working Game Boy and iPod",
-      "link": "https://mitchivin.com/",
-      "pubDate": "2026-06-20T19:18:48.000Z",
-      "description": "I posted my portfolio here about a year ago (https://news.ycombinator.com/item?id=45154609) and while there was a big response, it was very mixed! It'll probably be similar this time, but regardless of your thoughts about the concept, I think I've done a pretty good job creating one of the most nost",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "AI productivity gains vanish when you measure them honestly",
-      "link": "https://dev.to/adioof/ai-productivity-gains-vanish-when-you-measure-them-honestly-4a3a",
-      "pubDate": "2026-06-20T19:16:13.000Z",
-      "description": "<p>Each vendor promises that AI coding tools will increase your productivity by 40%. But senior engineers kept a time log. It's the difference between those two numbers that makes you blush.</p> <p>A recent discussion among experienced developers revealed something uncomfortable. When they honestly ",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "We Cut Our LLM API Bill 30% With Four Lines of YAML",
-      "link": "https://dev.to/paultwist/we-cut-our-llm-api-bill-30-with-four-lines-of-yaml-2p79",
-      "pubDate": "2026-06-20T19:13:41.000Z",
-      "description": "<p>Our gateway handles a few thousand LLM calls per hour. Mostly internal tools, some customer-facing agents. We noticed something in the logs: a lot of prompts were basically the same question worded differently.</p> <p>\"Summarize this quarterly report\" and \"give me a summary of the Q2 report\" hitt",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Pandas and Data Visualization Using Matplotlib and Seaborn",
-      "link": "https://dev.to/josengash/pandas-and-data-visualization-using-matplotlib-and-seaborn-1ek7",
-      "pubDate": "2026-06-20T19:08:07.000Z",
-      "description": "<p>New chapter in Learning data analytics and data science. The focus now is on <strong>Pandas</strong> as a <strong>Python library</strong> alongside <strong>Matplotlib</strong> and <strong>Seaborn</strong> for data visualization.<br> Am writing this article to guide beginners who are already or be",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "I deployed my backend on Render and almost immediately hit a wall.",
-      "link": "https://dev.to/thdr/i-deployed-my-backend-on-render-and-almost-immediately-hit-a-wall-2mhb",
-      "pubDate": "2026-06-20T19:05:07.000Z",
-      "description": "<p>I deployed my backend on Render and almost immediately hit a wall. </p> <p>The CNJ (Brazil's national justice council) has a public API I was using to pull data for BidTrack, a side project for tracking legal bids and the issue was that Render provisions servers in North America by default. The C",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "PostgresBench: A Reproducible Benchmark for Postgres Services",
-      "link": "https://clickhouse.com/blog/postgresbench",
-      "pubDate": "2026-06-20T19:01:10.000Z",
-      "description": "Article URL: https://clickhouse.com/blog/postgresbench Comments URL: https://news.ycombinator.com/item?id=48611942 Points: 4 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Show HN: Tiny – An interpeted dynamic langauge with inline Go native functions",
-      "link": "https://github.com/confh/Tiny",
-      "pubDate": "2026-06-20T18:53:46.000Z",
-      "description": "Article URL: https://github.com/confh/Tiny Comments URL: https://news.ycombinator.com/item?id=48611857 Points: 5 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Show HN: Make PDFs look scanned (CLI or in the browser via WASM)",
-      "link": "https://github.com/overflowy/make-look-scanned",
-      "pubDate": "2026-06-20T18:17:58.000Z",
-      "description": "Article URL: https://github.com/overflowy/make-look-scanned Comments URL: https://news.ycombinator.com/item?id=48611513 Points: 13 # Comments: 8",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "The Wholesale Plagiarism of Obscure Sorrows",
-      "link": "https://waxy.org/2026/06/the-wholesale-plagiarism-of-obscure-sorrows/",
-      "pubDate": "2026-06-20T18:05:31.000Z",
-      "description": "Article URL: https://waxy.org/2026/06/the-wholesale-plagiarism-of-obscure-sorrows/ Comments URL: https://news.ycombinator.com/item?id=48611411 Points: 206 # Comments: 72",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Ask HN: Due to spam on GitHub, what platforms can I move my projects?",
-      "link": "https://news.ycombinator.com/item?id=48611303",
-      "pubDate": "2026-06-20T17:52:07.000Z",
-      "description": "I have a few projects on Github. I am receiving a lot of spam PRs and requests from vibe coders and bots. Most of them to prop up their profiles. The stars are obviously exaggerated too.What other platforms are you using for your projects? Comments URL: https://news.ycombinator.com/item?id=48611303 ",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "The ability to regrow body parts is dormant in mammals, not lost",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260617032207.htm",
-      "pubDate": "2026-06-20T17:27:36.000Z",
-      "description": "Article URL: https://www.sciencedaily.com/releases/2026/06/260617032207.htm Comments URL: https://news.ycombinator.com/item?id=48611083 Points: 64 # Comments: 29",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "UHF X11: X11 Built for VisionOS and Apple Vision Pro",
-      "link": "https://www.lispm.net/apps/uhf-x11/",
-      "pubDate": "2026-06-20T17:04:24.000Z",
-      "description": "Article URL: https://www.lispm.net/apps/uhf-x11/ Comments URL: https://news.ycombinator.com/item?id=48610853 Points: 67 # Comments: 9",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Bun has an open PR adding shared-memory threads to JavaScriptCore",
-      "link": "https://github.com/oven-sh/WebKit/pull/249",
-      "pubDate": "2026-06-20T17:02:49.000Z",
-      "description": "Article URL: https://github.com/oven-sh/WebKit/pull/249 Comments URL: https://news.ycombinator.com/item?id=48610841 Points: 58 # Comments: 55",
-      "source": "Hacker News",
-      "category": "Tech News"
     },
     {
       "title": "SMPTE Makes Its Standards Freely Accessible",
-      "link": "https://www.smpte.org/blog/smpte-makes-its-standards-freely-accessible-openingstandards-library-to-the-global-media-technology-community",
-      "pubDate": "2026-06-20T17:01:36.000Z",
-      "description": "Article URL: https://www.smpte.org/blog/smpte-makes-its-standards-freely-accessible-openingstandards-library-to-the-global-media-technology-community Comments URL: https://news.ycombinator.com/item?id=48610827 Points: 94 # Comments: 38",
+      "link": "https://dev.to/ryan_m_823cbee9f96a9dee29/smpte-makes-its-standards-freely-accessible-1i5m",
+      "pubDate": "2026-06-21T04:41:23.000Z",
+      "description": "<h1> Introduction </h1> <p>SMPTE (Society of Motion Picture and Television Engineers) recently made a groundbreaking decision to make its standards freely accessible to the public. This move has significant implications for the media and entertainment industry, as well as for technology enthusiasts ",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "How to Fix Cursor Composer 2.5 Freezing &amp; Stuck on Thinking Issue in 2026",
+      "link": "https://dev.to/ail_akram_dcc5063c428734b/how-to-fix-cursor-composer-25-freezing-stuck-on-thinking-issue-in-2026-73a",
+      "pubDate": "2026-06-21T04:37:50.000Z",
+      "description": "<p>If you've been coding with Cursor's AI agent and suddenly watched the little “Thinking...” indicator spin forever with nothing happening, you're not alone. Cursor Composer 2.5 freezing is one of the most reported issues on the Cursor community forum right now, and it tends to hit right when you'r",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Fitness Tracker Accuracy Testing Methodology: A Comprehensive Guide",
+      "link": "https://dev.to/samchenreviews/fitness-tracker-accuracy-testing-methodology-a-comprehensive-guide-m1b",
+      "pubDate": "2026-06-21T04:35:19.000Z",
+      "description": "<h2> Introduction </h2> <p>Fitness trackers have become ubiquitous in our daily lives, promising to monitor everything from heart rate to sleep quality. But how accurate are these devices really? With the proliferation of wearable technology, establishing rigorous testing methodologies has become cr",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Do a Barrel Roll in Your Browser 😄",
+      "link": "https://dev.to/doabarrelroll/do-a-barrel-roll-in-your-browser-17lo",
+      "pubDate": "2026-06-21T04:34:34.000Z",
+      "description": "<p>Built a small web project that recreates the classic “Do a Barrel Roll” effect.</p> <p>👉 <a href=\"https://doabarrelroll.online\" rel=\"noopener noreferrer\">https://doabarrelroll.online</a></p> <p>Simple CSS + JavaScript animation. No frameworks.</p> <p>Would love feedback from other developers on ",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Your brain was never designed for this much bad news",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260614012006.htm",
+      "pubDate": "2026-06-21T04:02:08.000Z",
+      "description": "Article URL: https://www.sciencedaily.com/releases/2026/06/260614012006.htm Comments URL: https://news.ycombinator.com/item?id=48615569 Points: 36 # Comments: 10",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Armstrong Effect",
+      "link": "https://en.wikipedia.org/wiki/Armstrong_effect",
+      "pubDate": "2026-06-21T03:54:22.000Z",
+      "description": "Article URL: https://en.wikipedia.org/wiki/Armstrong_effect Comments URL: https://news.ycombinator.com/item?id=48615529 Points: 7 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Developers don't understand CORS (2019)",
+      "link": "https://fosterelli.co/developers-dont-understand-cors",
+      "pubDate": "2026-06-21T01:35:40.000Z",
+      "description": "Article URL: https://fosterelli.co/developers-dont-understand-cors Comments URL: https://news.ycombinator.com/item?id=48614844 Points: 57 # Comments: 27",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "When I reject AI code even if it works",
+      "link": "https://vinibrasil.com/when-i-reject-ai-code-even-if-it-works/",
+      "pubDate": "2026-06-21T00:58:13.000Z",
+      "description": "Article URL: https://vinibrasil.com/when-i-reject-ai-code-even-if-it-works/ Comments URL: https://news.ycombinator.com/item?id=48614631 Points: 103 # Comments: 64",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Project Fetch: Phase Two",
+      "link": "https://www.anthropic.com/research/project-fetch-phase-two",
+      "pubDate": "2026-06-21T00:00:25.000Z",
+      "description": "Article URL: https://www.anthropic.com/research/project-fetch-phase-two Comments URL: https://news.ycombinator.com/item?id=48614311 Points: 50 # Comments: 15",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Epoll vs. io_uring in Linux",
+      "link": "https://sibexi.co/posts/epoll-vs-io_uring/",
+      "pubDate": "2026-06-20T23:07:09.000Z",
+      "description": "Article URL: https://sibexi.co/posts/epoll-vs-io_uring/ Comments URL: https://news.ycombinator.com/item?id=48613872 Points: 98 # Comments: 27",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Renting a sewing machine from the library",
+      "link": "https://www.bbc.com/future/article/20260618-the-weird-and-wonderful-libraries-of-finland",
+      "pubDate": "2026-06-20T22:54:11.000Z",
+      "description": "Article URL: https://www.bbc.com/future/article/20260618-the-weird-and-wonderful-libraries-of-finland Comments URL: https://news.ycombinator.com/item?id=48613755 Points: 165 # Comments: 84",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Slow breathing modulates brain function and risk behavior",
+      "link": "https://www.cell.com/neuron/fulltext/S0896-6273(26)00339-9",
+      "pubDate": "2026-06-20T22:22:52.000Z",
+      "description": "Article URL: https://www.cell.com/neuron/fulltext/S0896-6273(26)00339-9 Comments URL: https://news.ycombinator.com/item?id=48613555 Points: 108 # Comments: 24",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Linux eliminates the strncpy API after six years of work, 360 patches",
+      "link": "https://www.phoronix.com/news/Linux-7.2-Drops-strncpy",
+      "pubDate": "2026-06-20T20:59:40.000Z",
+      "description": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/lin... Comments URL: https://news.ycombinator.com/item?id=48612943 Points: 141 # Comments: 112",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Alice is impatient",
+      "link": "https://brooker.co.za/blog/2026/06/19/waiting.html",
+      "pubDate": "2026-06-20T20:32:54.000Z",
+      "description": "Article URL: https://brooker.co.za/blog/2026/06/19/waiting.html Comments URL: https://news.ycombinator.com/item?id=48612740 Points: 72 # Comments: 22",
       "source": "Hacker News",
       "category": "Tech News"
     },
