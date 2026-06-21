@@ -1,102 +1,142 @@
 {
-  "generatedAt": "2026-06-21T05:18:44.357Z",
+  "generatedAt": "2026-06-21T10:05:33.927Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "I Thought I Knew Linux — Then I Actually Learned It (Week 1)",
-      "link": "https://dev.to/dharam_in/i-thought-i-knew-linux-then-i-actually-learned-it-week-1-2ep9",
-      "pubDate": "2026-06-21T05:10:22.000Z",
-      "description": "<h2> The Big Picture </h2> <blockquote> <p>Before you read this doc you must know english is my second language and this doc is have completely my own words not any AI, translator etc.</p> </blockquote> <h3> What an OS really is </h3> <p>An Operating System is software that manage every system resou",
+      "title": "Error Handling — Learning to Love `if err != nil`",
+      "link": "https://dev.to/mihirmohapatra/error-handling-learning-to-love-if-err-nil-21e9",
+      "pubDate": "2026-06-21T09:48:23.000Z",
+      "description": "<h2> Error Handling — Learning to Love <code>if err != nil</code> </h2> <p>In <a href=\"https://dev.to/mihirmohapatra/goroutines-channels-concurrency-without-the-jvms-baggage-52nn\">part 3</a> I covered goroutines and channels, and how Go's concurrency model sidesteps a lot of the ceremony I was used ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Local Gradient Accumulation Speeds Training 1.7",
-      "link": "https://dev.to/olaughter/local-gradient-accumulation-speeds-training-17x-2mdk",
-      "pubDate": "2026-06-21T05:00:00.000Z",
-      "description": "<p>PACI removes the bubbles that cripple asynchronous pipeline parallelism and shaves as much as 1.69× off time‑to‑accuracy compared with the fastest synchronous flush baseline. The paper demonstrates this gain on GPT‑2 Medium pre‑training while preserving the same peak memory usage. By locally accu",
+      "title": "What to Put in Your CLAUDE.md (and What to Leave Out)",
+      "link": "https://dev.to/promptmaster/what-to-put-in-your-claudemd-and-what-to-leave-out-4f39",
+      "pubDate": "2026-06-21T09:37:47.000Z",
+      "description": "<p>A great CLAUDE.md is not the longest one. It is the one where every line changes what Claude does. The whole skill is knowing what belongs in it — and, just as importantly, what does not.</p> <h2> The sections that earn their place </h2> <p>Start with a one or two line project description and you",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "What 4 months of building taught me right before my first real launch",
-      "link": "https://dev.to/harsha_kumar/what-4-months-of-building-taught-me-right-before-my-first-real-launch-4b5g",
-      "pubDate": "2026-06-21T04:51:58.000Z",
-      "description": "<p>Tomorrow I launch XEdge on Peerlist's Launchpad.<br> It's not my first time putting XEdge in front of people — I've been posting, building in public, talking to users for 4 months. But it's the first time there's an actual \"launch day\" with a ranking, a leaderboard, and a finite window where mome",
+      "title": "What Is CLAUDE.md? A Practical Guide to Configuring Claude Code",
+      "link": "https://dev.to/promptmaster/what-is-claudemd-a-practical-guide-to-configuring-claude-code-2eb1",
+      "pubDate": "2026-06-21T09:36:53.000Z",
+      "description": "<p>If you use Claude Code, there is one file that quietly shapes every session: CLAUDE.md. Most developers either do not have one or have one that works against them. Here is what it actually is, in plain terms.</p> <h2> The file Claude reads every session </h2> <p>CLAUDE.md is a markdown file that ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Stop Letting People Waste Your Time As A Developer",
-      "link": "https://dev.to/muhammadniazali/stop-letting-people-waste-your-time-as-a-developer-29hj",
-      "pubDate": "2026-06-21T04:51:32.000Z",
-      "description": "<p>Every developer eventually meets someone who thinks code takes five minutes to write.</p> <p>They message you out of nowhere. They want a full feature built in an hour. No requirements. No reference. Just urgency and pressure. And the moment you ask for fair payment they act surprised like you ar",
+      "title": "The Real Reason Everyone's Fighting About Tailwind CSS v4",
+      "link": "https://dev.to/enjoy_kumawat/the-real-reason-everyones-fighting-about-tailwind-css-v4-4o0g",
+      "pubDate": "2026-06-21T09:36:34.000Z",
+      "description": "<p>The Tailwind CSS4 debate is everywhere right now. And honestly? Most people are arguing about the wrong thing.</p> <p>The real question isn't \"inline styles vs. utility classes\" — it's about <strong>where your styling decisions live and who pays the cognitive cost.</strong></p> <p>Let me break do",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Monitorear agentes de IA con CloudWatch",
-      "link": "https://dev.to/aws-builders/monitorear-agentes-de-ia-con-cloudwatch-45c4",
-      "pubDate": "2026-06-21T04:49:05.000Z",
-      "description": "<p>Las dos ideas que hicieron el trabajo:</p> <ol> <li> <strong>Los modos de falla ya son líneas de log.</strong> Conviértelos en métricas con <code>MetricFilter</code>, no con código.</li> <li> <strong>Las dimensiones por agente/por modelo necesitan EMF</strong>, no <code>PutMetricData</code>, escr",
+      "title": "Shipping one Flutter codebase to 6 platforms: what I learned building Tuneline",
+      "link": "https://dev.to/shamir_shakir_e293eb37a32/shipping-one-flutter-codebase-to-6-platforms-what-i-learned-building-tuneline-4jp8",
+      "pubDate": "2026-06-21T09:36:01.000Z",
+      "description": "<p>I spent the last several months solo-building <strong>Tuneline</strong>, a cross-platform media player, from a single Flutter codebase that ships native apps to <strong>macOS, Windows, Linux, Android, Google TV, and iOS</strong>. No Electron. Here is the stack and a few things that bit me.</p> <h",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Publish a static page + data API in minutes with MiniUp",
-      "link": "https://dev.to/miniup_io/publish-a-static-page-data-api-in-minutes-with-miniup-4523",
-      "pubDate": "2026-06-21T04:41:25.000Z",
-      "description": "<p>Full disclosure: this is a promotional walkthrough for MiniUp.</p> <h2> What you can build in 10 minutes </h2> <p>MiniUp is a platform for publishing:</p> <ul> <li>a static page from HTML / a folder / a ZIP</li> <li>and turning tables/data into APIs, dashboards, maps, or hosted datasets</li> </ul",
+      "title": "Why Claude Code Ignores Your CLAUDE.md (And How to Fix It)",
+      "link": "https://dev.to/promptmaster/why-claude-code-ignores-your-claudemd-and-how-to-fix-it-2bb0",
+      "pubDate": "2026-06-21T09:34:49.000Z",
+      "description": "<p>You wrote a detailed CLAUDE.md, and Claude Code still gets things wrong — wrong convention, touches files it should not, ignores rules you clearly wrote down. The cause is almost never that the rules are missing. It is that they are buried.</p> <h2> The over-specified file problem </h2> <p>CLAUDE",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "SMPTE Makes Its Standards Freely Accessible",
-      "link": "https://dev.to/ryan_m_823cbee9f96a9dee29/smpte-makes-its-standards-freely-accessible-1i5m",
-      "pubDate": "2026-06-21T04:41:23.000Z",
-      "description": "<h1> Introduction </h1> <p>SMPTE (Society of Motion Picture and Television Engineers) recently made a groundbreaking decision to make its standards freely accessible to the public. This move has significant implications for the media and entertainment industry, as well as for technology enthusiasts ",
+      "title": "Closing Chapter 1: From Query to Data",
+      "link": "https://dev.to/joonghyukshin/closing-chapter-1-from-query-to-data-33nb",
+      "pubDate": "2026-06-21T09:18:04.000Z",
+      "description": "<p>We opened Chapter 1 with a single line, <code>SELECT * FROM users WHERE id = 1</code>. For that line to leave the client and come back as a result row, the PostgreSQL backend went through five stages. First it decided which processing path the message should take; then the parser and analyzer tur",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How to Fix Cursor Composer 2.5 Freezing &amp; Stuck on Thinking Issue in 2026",
-      "link": "https://dev.to/ail_akram_dcc5063c428734b/how-to-fix-cursor-composer-25-freezing-stuck-on-thinking-issue-in-2026-73a",
-      "pubDate": "2026-06-21T04:37:50.000Z",
-      "description": "<p>If you've been coding with Cursor's AI agent and suddenly watched the little “Thinking...” indicator spin forever with nothing happening, you're not alone. Cursor Composer 2.5 freezing is one of the most reported issues on the Cursor community forum right now, and it tends to hit right when you'r",
+      "title": "1.5.3 Join Nodes: NestLoop, HashJoin, MergeJoin",
+      "link": "https://dev.to/joonghyukshin/153-join-nodes-nestloop-hashjoin-mergejoin-2fek",
+      "pubDate": "2026-06-21T09:14:47.000Z",
+      "description": "<p>A scan node sits at the leaf of the tree and pulls rows from a single table. A join node sits in the middle and brings together the rows that its two children send up. It takes one row from <code>users</code>, one row from <code>orders</code>, checks whether they belong to the same user, and if t",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Fitness Tracker Accuracy Testing Methodology: A Comprehensive Guide",
-      "link": "https://dev.to/samchenreviews/fitness-tracker-accuracy-testing-methodology-a-comprehensive-guide-m1b",
-      "pubDate": "2026-06-21T04:35:19.000Z",
-      "description": "<h2> Introduction </h2> <p>Fitness trackers have become ubiquitous in our daily lives, promising to monitor everything from heart rate to sleep quality. But how accurate are these devices really? With the proliferation of wearable technology, establishing rigorous testing methodologies has become cr",
+      "title": "I Fixed the \"AI Commit Messages\" Problem in 20 Lines of Python",
+      "link": "https://dev.to/enjoy_kumawat/i-fixed-the-ai-commit-messages-problem-in-50-lines-of-python-3a5a",
+      "pubDate": "2026-06-21T09:14:30.000Z",
+      "description": "<p>You've probably seen that trending post — <em>\"I Asked AI to Write My Commit Messages and It Was Embarrassing.\"</em></p> <p>Same. But instead of accepting embarrassing output, I fixed it.</p> <p>Here's the thing: the problem isn't AI writing commit messages. The problem is <em>how</em> you ask it",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Do a Barrel Roll in Your Browser 😄",
-      "link": "https://dev.to/doabarrelroll/do-a-barrel-roll-in-your-browser-17lo",
-      "pubDate": "2026-06-21T04:34:34.000Z",
-      "description": "<p>Built a small web project that recreates the classic “Do a Barrel Roll” effect.</p> <p>👉 <a href=\"https://doabarrelroll.online\" rel=\"noopener noreferrer\">https://doabarrelroll.online</a></p> <p>Simple CSS + JavaScript animation. No frameworks.</p> <p>Would love feedback from other developers on ",
+      "title": "Gelişmiş Veri İşleme (Python)",
+      "link": "https://dev.to/vebendeakademi/gelismis-veri-isleme-python-36bg",
+      "pubDate": "2026-06-21T09:12:32.000Z",
+      "description": "<h1> Gelişmiş Veri İşleme (Python) </h1> <h2> Sıralama, Filtreleme ve Arama – Profesyonel Veri Manipülasyonu Rehberi </h2> <p>Python’da veri işleme, sadece döngülerden ibaret değildir. Modern Python yaklaşımı; <strong>fonksiyonel programlama araçları</strong>, <strong>yüksek seviyeli built-in fonksi",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "Google Hits 50% IPv6",
+      "link": "https://blog.apnic.net/2026/04/28/google-hits-50-ipv6/",
+      "pubDate": "2026-06-21T08:21:22.000Z",
+      "description": "Article URL: https://blog.apnic.net/2026/04/28/google-hits-50-ipv6/ Comments URL: https://news.ycombinator.com/item?id=48616800 Points: 73 # Comments: 46",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "A 3D voxel game engine written in APL",
+      "link": "https://github.com/namgyaaal/avoxelgame",
+      "pubDate": "2026-06-21T08:04:54.000Z",
+      "description": "Article URL: https://github.com/namgyaaal/avoxelgame Comments URL: https://news.ycombinator.com/item?id=48616713 Points: 36 # Comments: 6",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Windows UI evolution: Clicking an unassociated file",
+      "link": "https://movq.de/blog/postings/2026-06-20/0/POSTING-en.html",
+      "pubDate": "2026-06-21T06:24:52.000Z",
+      "description": "Article URL: https://movq.de/blog/postings/2026-06-20/0/POSTING-en.html Comments URL: https://news.ycombinator.com/item?id=48616173 Points: 14 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "The 100k Whys of AI",
+      "link": "https://lcamtuf.substack.com/p/the-100000-whys-of-ai",
+      "pubDate": "2026-06-21T05:45:21.000Z",
+      "description": "Article URL: https://lcamtuf.substack.com/p/the-100000-whys-of-ai Comments URL: https://news.ycombinator.com/item?id=48616017 Points: 108 # Comments: 56",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "The Lost Story of Alan Turing's \"Delilah\" Project",
+      "link": "https://spectrum.ieee.org/alan-turings-delilah",
+      "pubDate": "2026-06-21T05:15:33.000Z",
+      "description": "Article URL: https://spectrum.ieee.org/alan-turings-delilah Comments URL: https://news.ycombinator.com/item?id=48615890 Points: 21 # Comments: 1",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Building reliable agentic AI systems",
+      "link": "https://martinfowler.com/articles/reliable-llm-bayer.html",
+      "pubDate": "2026-06-21T04:28:39.000Z",
+      "description": "Article URL: https://martinfowler.com/articles/reliable-llm-bayer.html Comments URL: https://news.ycombinator.com/item?id=48615680 Points: 105 # Comments: 21",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "Your brain was never designed for this much bad news",
       "link": "https://www.sciencedaily.com/releases/2026/06/260614012006.htm",
       "pubDate": "2026-06-21T04:02:08.000Z",
-      "description": "Article URL: https://www.sciencedaily.com/releases/2026/06/260614012006.htm Comments URL: https://news.ycombinator.com/item?id=48615569 Points: 36 # Comments: 10",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Armstrong Effect",
-      "link": "https://en.wikipedia.org/wiki/Armstrong_effect",
-      "pubDate": "2026-06-21T03:54:22.000Z",
-      "description": "Article URL: https://en.wikipedia.org/wiki/Armstrong_effect Comments URL: https://news.ycombinator.com/item?id=48615529 Points: 7 # Comments: 0",
+      "description": "Article URL: https://www.sciencedaily.com/releases/2026/06/260614012006.htm Comments URL: https://news.ycombinator.com/item?id=48615569 Points: 194 # Comments: 129",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -104,7 +144,7 @@
       "title": "Developers don't understand CORS (2019)",
       "link": "https://fosterelli.co/developers-dont-understand-cors",
       "pubDate": "2026-06-21T01:35:40.000Z",
-      "description": "Article URL: https://fosterelli.co/developers-dont-understand-cors Comments URL: https://news.ycombinator.com/item?id=48614844 Points: 57 # Comments: 27",
+      "description": "Article URL: https://fosterelli.co/developers-dont-understand-cors Comments URL: https://news.ycombinator.com/item?id=48614844 Points: 196 # Comments: 104",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -112,7 +152,7 @@
       "title": "When I reject AI code even if it works",
       "link": "https://vinibrasil.com/when-i-reject-ai-code-even-if-it-works/",
       "pubDate": "2026-06-21T00:58:13.000Z",
-      "description": "Article URL: https://vinibrasil.com/when-i-reject-ai-code-even-if-it-works/ Comments URL: https://news.ycombinator.com/item?id=48614631 Points: 103 # Comments: 64",
+      "description": "Article URL: https://vinibrasil.com/when-i-reject-ai-code-even-if-it-works/ Comments URL: https://news.ycombinator.com/item?id=48614631 Points: 180 # Comments: 99",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -120,47 +160,7 @@
       "title": "Project Fetch: Phase Two",
       "link": "https://www.anthropic.com/research/project-fetch-phase-two",
       "pubDate": "2026-06-21T00:00:25.000Z",
-      "description": "Article URL: https://www.anthropic.com/research/project-fetch-phase-two Comments URL: https://news.ycombinator.com/item?id=48614311 Points: 50 # Comments: 15",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Epoll vs. io_uring in Linux",
-      "link": "https://sibexi.co/posts/epoll-vs-io_uring/",
-      "pubDate": "2026-06-20T23:07:09.000Z",
-      "description": "Article URL: https://sibexi.co/posts/epoll-vs-io_uring/ Comments URL: https://news.ycombinator.com/item?id=48613872 Points: 98 # Comments: 27",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Renting a sewing machine from the library",
-      "link": "https://www.bbc.com/future/article/20260618-the-weird-and-wonderful-libraries-of-finland",
-      "pubDate": "2026-06-20T22:54:11.000Z",
-      "description": "Article URL: https://www.bbc.com/future/article/20260618-the-weird-and-wonderful-libraries-of-finland Comments URL: https://news.ycombinator.com/item?id=48613755 Points: 165 # Comments: 84",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Slow breathing modulates brain function and risk behavior",
-      "link": "https://www.cell.com/neuron/fulltext/S0896-6273(26)00339-9",
-      "pubDate": "2026-06-20T22:22:52.000Z",
-      "description": "Article URL: https://www.cell.com/neuron/fulltext/S0896-6273(26)00339-9 Comments URL: https://news.ycombinator.com/item?id=48613555 Points: 108 # Comments: 24",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Linux eliminates the strncpy API after six years of work, 360 patches",
-      "link": "https://www.phoronix.com/news/Linux-7.2-Drops-strncpy",
-      "pubDate": "2026-06-20T20:59:40.000Z",
-      "description": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/lin... Comments URL: https://news.ycombinator.com/item?id=48612943 Points: 141 # Comments: 112",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Alice is impatient",
-      "link": "https://brooker.co.za/blog/2026/06/19/waiting.html",
-      "pubDate": "2026-06-20T20:32:54.000Z",
-      "description": "Article URL: https://brooker.co.za/blog/2026/06/19/waiting.html Comments URL: https://news.ycombinator.com/item?id=48612740 Points: 72 # Comments: 22",
+      "description": "Article URL: https://www.anthropic.com/research/project-fetch-phase-two Comments URL: https://news.ycombinator.com/item?id=48614311 Points: 59 # Comments: 21",
       "source": "Hacker News",
       "category": "Tech News"
     },
