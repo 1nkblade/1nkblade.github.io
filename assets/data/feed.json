@@ -1,102 +1,142 @@
 {
-  "generatedAt": "2026-06-22T05:31:19.410Z",
+  "generatedAt": "2026-06-22T12:26:12.316Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "Confidently wrong is worse than \"I don't know\"",
-      "link": "https://dev.to/hendrixxcnc/confidently-wrong-is-worse-than-i-dont-know-22ia",
-      "pubDate": "2026-06-22T05:16:36.000Z",
-      "description": "<p>Someone left a comment on my last post and then deleted it before I could reply. I am going to answer it anyway, because it said the thing better than I have:</p> <blockquote> <p>\"The trust issue isn't that it forgets. It's that it confidently misremembers, which is so much worse than just saying",
+      "title": "From Kubernetes to a Self-Healing, Low-Cost Infrastructure",
+      "link": "https://dev.to/brucemcpherson/from-kubernetes-to-a-self-healing-low-cost-infrastructure-1da4",
+      "pubDate": "2026-06-22T12:20:53.000Z",
+      "description": "<p>I've been running a background project on Kubernetes for a while now. It's not a project that needs 100% uptime, and neither is it one I wanted to spend a lot of time managing or even checking up on, so Kubernetes with Spot VM's seemed the most cost effective solution, and it's been solid and tro",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Game Jam submission: Outpost Desolate",
-      "link": "https://dev.to/secro/game-jam-submission-outpost-desolate-2pnm",
-      "pubDate": "2026-06-22T05:12:10.000Z",
-      "description": "<p><em>This is a submission for the <a href=\"https://dev.to/challenges/june-game-jam-2026-06-03\">June Solstice Game Jam</a></em></p> <p>A link to the game on itch.io<br> <a href=\"https://secrodominius.itch.io/outpost-desolate\" rel=\"noopener noreferrer\">https://secrodominius.itch.io/outpost-desolate<",
+      "title": "Human Attention is a Scarce Resource",
+      "link": "https://dev.to/entire/human-attention-is-a-scarce-resource-1g1o",
+      "pubDate": "2026-06-22T12:20:08.000Z",
+      "description": "<p>I recently chatted with a Distinguished Engineer about how he uses agents in his engineering workflow and how he builds new team processes around AI-generated work.</p> <p><iframe class=\"tweet-embed\" id=\"tweet-2068069283184144450-524\" src=\"https://platform.twitter.com/embed/Tweet.html?id=20680692",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Recall boosts Claude Code with offline memory for smooth project continuity",
-      "link": "https://dev.to/davekurian/recall-boosts-claude-code-with-offline-memory-for-smooth-project-continuity-bph",
-      "pubDate": "2026-06-22T05:06:08.000Z",
-      "description": "<p>Claude Code users know the pain of repetition. Each \"cold start\" means restating goals, context, and code history—wasting tokens and patience. The Recall plugin for Claude Code durable memory eliminates this friction entirely offline. No API keys, no external calls, no hidden costs. Instead, Reca",
+      "title": "What's Actually in My AGENTS.md",
+      "link": "https://dev.to/miteshethos/whats-actually-in-my-agentsmd-434e",
+      "pubDate": "2026-06-22T12:18:07.000Z",
+      "description": "<p><strong>The instruction file that runs my codebase started as a junk drawer. The rules that ended up mattering weren't the ones I expected.</strong></p> <blockquote> <p>A note on credit before I start: most of what follows isn't original to me. I picked up these ideas from other engineers sharing",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "GitHub GraphQL drops Team.viewerSubscription + 17 audit-log entries on July 1 — and partial errors are the silent surface",
-      "link": "https://dev.to/flarecanary/github-graphql-drops-teamviewersubscription-17-audit-log-entries-on-july-1-and-partial-errors-5a9k",
-      "pubDate": "2026-06-22T05:00:50.000Z",
-      "description": "<p>If you use the GitHub GraphQL API for team notification dashboards, audit-log exports, or any kind of organization compliance reporting, you have nine days when this lands. On <strong>July 1, 2026</strong>, GitHub deletes two fields from the <code>Team</code> type and the fields from seventeen au",
+      "title": "Hardening Unattended Raspberry Pi Edge Nodes: Watchdog, fail2ban, nftables, and the Mistakes That Take Down DNS",
+      "link": "https://dev.to/dwoitzik/hardening-unattended-raspberry-pi-edge-nodes-watchdog-fail2ban-nftables-and-the-mistakes-that-4gk3",
+      "pubDate": "2026-06-22T12:14:01.000Z",
+      "description": "<blockquote> <p><em>Originally published at <a href=\"https://woitzik.dev/blog/raspberry-pi-edge-hardening-watchdog-fail2ban-nftables/\" rel=\"noopener noreferrer\">woitzik.dev</a></em></p> </blockquote> <p>Two Raspberry Pi 4Bs run AdGuard Home and Unbound for an entire home network, in an active/passiv",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Sparse KV Caches Cut Attention Scaling",
-      "link": "https://dev.to/olaughter/sparse-kv-caches-cut-attention-scaling-795",
-      "pubDate": "2026-06-22T05:00:00.000Z",
-      "description": "<p>Sparse key‑value caches collapse the quadratic blow‑up of softmax attention into a cost that grows near‑linearly with sequence length. By making each query attend to a tiny, top‑k subset of blockwise KV memories, the per‑query work stops scaling with the full context. This tiny change flips the s",
+      "title": "IPv6 NAT66 Behind a FritzBox: The RouterOS 7 Bug That Broke WiFi Clients",
+      "link": "https://dev.to/dwoitzik/ipv6-nat66-behind-a-fritzbox-the-routeros-7-bug-that-broke-wifi-clients-4nha",
+      "pubDate": "2026-06-22T12:13:49.000Z",
+      "description": "<blockquote> <p><em>Originally published at <a href=\"https://woitzik.dev/blog/mikrotik-ipv6-nat66-cgn-routeros7/\" rel=\"noopener noreferrer\">woitzik.dev</a></em></p> </blockquote> <p>Most homelab IPv6 guides assume you have native IPv6 from your ISP: a delegated /56 prefix, clean RA on the WAN, no NA",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "What Software Engineering Should Learn from Aviation (And from Rare Plane Crashes)",
-      "link": "https://dev.to/canro91/what-software-engineering-should-learn-from-aviation-and-from-rare-plane-crashes-2j80",
-      "pubDate": "2026-06-22T05:00:00.000Z",
-      "description": "<p><em>Originally posted on <a href=\"https://canro91.github.io/2025/07/12/CodingAsFlying/\" rel=\"noopener noreferrer\">my blog</a>.</em></p> <p>Flying is safe but... accidents happen.</p> <p>When they happen, it's all over the news. But the thousands upon thousands of safe flights don't make it to the",
+      "title": "npm Dependencies: How to Evaluate a Library Before Shipping It to Production",
+      "link": "https://dev.to/jtorchia/npm-dependencies-how-to-evaluate-a-library-before-shipping-it-to-production-3bo3",
+      "pubDate": "2026-06-22T12:02:41.000Z",
+      "description": "<h1> npm Dependencies: How to Evaluate a Library Before Shipping It to Production </h1> <p>Back in 2005, when I was 16 and managing the network at a cyber café, I learned something no manual ever taught me: every cable you plugged in was debt. If the vendor for that cable disappeared or changed the ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "5 Free Microsoft Resources Every Student Developer Should Bookmark in 2026",
-      "link": "https://dev.to/thanvik931/5-free-microsoft-resources-every-student-developer-should-bookmark-in-2026-5foe",
-      "pubDate": "2026-06-22T04:58:52.000Z",
-      "description": "<p>As a student developer and Microsoft Student Ambassador registered member, I get asked constantly — \"Where do I start with AI and cloud?\"<br> Here's my honest answer. Five free resources, no fluff.</p> <ol> <li><p>Azure for Students — Free $100 Cloud Credits<br> No credit card. No expiry tricks. ",
+      "title": "Dependencias npm: cómo evaluar una librería antes de meterla en producción",
+      "link": "https://dev.to/jtorchia/dependencias-npm-como-evaluar-una-libreria-antes-de-meterla-en-produccion-55e",
+      "pubDate": "2026-06-22T12:02:37.000Z",
+      "description": "<h1> Dependencias npm: cómo evaluar una librería antes de meterla en producción </h1> <p>En 2005, cuando administraba redes en un cyber café a los 16, aprendí algo que no estaba en ningún manual: cada cable que conectabas era deuda. Si el proveedor de ese cable desaparecía o cambiaba el conector, el",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Agent with Vercel's Eve Framework",
-      "link": "https://dev.to/stormhub/agent-with-vercels-eve-framework-3c2l",
-      "pubDate": "2026-06-22T04:51:54.000Z",
-      "description": "<p>Vercel recently open-sourced <a href=\"https://github.com/vercel/eve\" rel=\"noopener noreferrer\">Eve</a>, a framework for building durable AI agents. It takes an opinionated, filesystem-first approach: instead of wiring up model loops, tool dispatch, and session persistence yourself, you author a d",
+      "title": "AI 代理的记忆困境：从「记住」到「知道」",
+      "link": "https://dev.to/manoir_yantai_f22f01340f0/ai-dai-li-de-ji-yi-kun-jing-cong-ji-zhu-dao-zhi-dao--2g9n",
+      "pubDate": "2026-06-22T12:01:48.000Z",
+      "description": "<p>当你的 AI 代理（Agent）能记住你是谁、偏好什么，它已经解决了第一层问题——<strong>记忆</strong>。但真正让它产生工程价值的，是下一层：<strong>知识</strong>。</p> <p>记忆是「我见过」，知识是「我能用」。这是一个根本区别。</p> <h3> 问题：Agent 的知识从哪来？ </h3> <p>大多数 agent 框架的「记忆系统」只做一件事：存聊天记录、存用户偏好、存几个 key-value。这叫上下文缓存，不叫知识库。</p> <p>你的 agent 读完一篇公众号文章能自动入库吗？看完一段抖音能提取关键信息？下载一本技术书能变成可查询的 ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Danish privacy activist Lars Andersen raided by police",
-      "link": "https://twitter.com/LarsAnders1620/status/2068208864747540516#m",
-      "pubDate": "2026-06-22T04:50:26.000Z",
-      "description": "https://xcancel.com/LarsAnders1620/status/206820886474754051... Comments URL: https://news.ycombinator.com/item?id=48625823 Points: 22 # Comments: 2",
+      "title": "You posted your OSS tool once, got silence, and never posted again",
+      "link": "https://dev.to/palo_alto_ai/you-posted-your-oss-tool-once-got-silence-and-never-posted-again-4o0o",
+      "pubDate": "2026-06-22T12:01:42.000Z",
+      "description": "<p>That's not a marketing failure — it's a time and friction problem. Writing for Bluesky means staying under 300 characters. X is 280. Dev.to wants 150–400 words with a code block. Mastodon is 500. Track which angle you used last week so you're not repeating yourself. Now multiply that by four plat",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Your browser engine doesn't need the cloud. Cryptographic Audit Ledgers for Autonomous Browser Agents proves it.",
+      "link": "https://dev.to/kleinner/your-browser-engine-doesnt-need-the-cloud-cryptographic-audit-ledgers-for-autonomous-browser-md8",
+      "pubDate": "2026-06-22T12:01:34.000Z",
+      "description": "<h1> Your browser engine doesn't need the cloud. Cryptographic Audit Ledgers for Autonomous Browser Agents proves it. </h1> <p><strong>Cryptographic Audit Ledgers for Autonomous Browser Agents: Verifiable Action Logging with SHA3-256</strong></p> <h2> The Problem </h2> <p>Autonomous browser agents?A",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "LLMs do not merely reflect the bias of their training, they police it",
+      "link": "https://twitter.com/brianroemmele/status/1991714955339657384",
+      "pubDate": "2026-06-22T10:50:46.000Z",
+      "description": "Article URL: https://twitter.com/brianroemmele/status/1991714955339657384 Comments URL: https://news.ycombinator.com/item?id=48628450 Points: 26 # Comments: 12",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Six Lines, Zero API Calls: Running LLMs On-Device in React Native",
-      "link": "https://dev.to/vikrantnegi/six-lines-zero-api-calls-running-llms-on-device-in-react-native-3ahl",
-      "pubDate": "2026-06-22T04:49:24.000Z",
-      "description": "<p>Every AI feature I've worked on has done the same quiet thing: collect the user's text, send it to someone else's server, pay per token, and pray the network holds. That's fine until it isn't:</p> <ul> <li><p>Your user is on a flight, with no network and a dead feature.</p></li> <li><p>It's a jou",
-      "source": "Dev.to Feed",
-      "category": "Development"
+      "title": "Manticore Search 27.1.5: Auth, sharding, conversational and faster vector search",
+      "link": "https://manticoresearch.com/blog/manticore-search-27-1-5/",
+      "pubDate": "2026-06-22T10:35:21.000Z",
+      "description": "Article URL: https://manticoresearch.com/blog/manticore-search-27-1-5/ Comments URL: https://news.ycombinator.com/item?id=48628328 Points: 4 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
-      "title": "Why I Think Most AI Agents Are Overengineered",
-      "link": "https://dev.to/jaideepparashar/why-i-think-most-ai-agents-are-overengineered-249o",
-      "pubDate": "2026-06-22T04:48:31.000Z",
-      "description": "<p>AI agents are everywhere.</p> <p>Multi-agent systems.</p> <p>Agent swarms.</p> <p>Autonomous teams.</p> <p>Planning agents.</p> <p>Self-improving agents.</p> <p>It seems every week a new framework appears promising to build the next generation of autonomous AI systems.</p> <p>After spending consi",
-      "source": "Dev.to Feed",
-      "category": "Development"
+      "title": "Codex logging bug may write TBs to local SSDs",
+      "link": "https://github.com/openai/codex/issues/28224",
+      "pubDate": "2026-06-22T07:30:17.000Z",
+      "description": "Article URL: https://github.com/openai/codex/issues/28224 Comments URL: https://news.ycombinator.com/item?id=48626930 Points: 167 # Comments: 89",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Investors get real-time view of UK bond market activity for the first time",
+      "link": "https://www.fca.org.uk/news/press-releases/investors-get-real-time-view-uk-bond-market-activity-first-time",
+      "pubDate": "2026-06-22T07:29:17.000Z",
+      "description": "Article URL: https://www.fca.org.uk/news/press-releases/investors-get-real-time-view-uk-bond-market-activity-first-time Comments URL: https://news.ycombinator.com/item?id=48626918 Points: 44 # Comments: 7",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "GLM 5.2 vs. Opus",
+      "link": "https://techstackups.com/comparisons/glm-5.2-vs-opus/",
+      "pubDate": "2026-06-22T07:22:03.000Z",
+      "description": "Article URL: https://techstackups.com/comparisons/glm-5.2-vs-opus/ Comments URL: https://news.ycombinator.com/item?id=48626866 Points: 189 # Comments: 157",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Deno Desktop",
+      "link": "https://docs.deno.com/runtime/desktop/",
+      "pubDate": "2026-06-22T05:38:40.000Z",
+      "description": "Article URL: https://docs.deno.com/runtime/desktop/ Comments URL: https://news.ycombinator.com/item?id=48626137 Points: 561 # Comments: 206",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "Sakana Fugu",
       "link": "https://sakana.ai/fugu/",
       "pubDate": "2026-06-22T02:08:18.000Z",
-      "description": "Article URL: https://sakana.ai/fugu/ Comments URL: https://news.ycombinator.com/item?id=48624782 Points: 68 # Comments: 31",
+      "description": "Article URL: https://sakana.ai/fugu/ Comments URL: https://news.ycombinator.com/item?id=48624782 Points: 141 # Comments: 83",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -104,7 +144,7 @@
       "title": "1983 Northern Telecom Commodore Phone",
       "link": "https://www.oldtelephoneroom.ca/1983-northern-telecom-commodore-phone/",
       "pubDate": "2026-06-22T00:34:33.000Z",
-      "description": "Article URL: https://www.oldtelephoneroom.ca/1983-northern-telecom-commodore-phone/ Comments URL: https://news.ycombinator.com/item?id=48624114 Points: 38 # Comments: 10",
+      "description": "Article URL: https://www.oldtelephoneroom.ca/1983-northern-telecom-commodore-phone/ Comments URL: https://news.ycombinator.com/item?id=48624114 Points: 65 # Comments: 21",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -112,7 +152,7 @@
       "title": "Good results fine tuning a local LLM like Qwen 3:0.6B to categorize questions",
       "link": "https://www.teachmecoolstuff.com/viewarticle/fine-tuning-a-local-llm-to-categorize-questions",
       "pubDate": "2026-06-21T22:55:23.000Z",
-      "description": "Article URL: https://www.teachmecoolstuff.com/viewarticle/fine-tuning-a-local-llm-to-categorize-questions Comments URL: https://news.ycombinator.com/item?id=48623434 Points: 69 # Comments: 12",
+      "description": "Article URL: https://www.teachmecoolstuff.com/viewarticle/fine-tuning-a-local-llm-to-categorize-questions Comments URL: https://news.ycombinator.com/item?id=48623434 Points: 157 # Comments: 30",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -120,47 +160,7 @@
       "title": "Japanese verb conjugation the simple hard way",
       "link": "https://underreacted.leaflet.pub/3mmevu6woys27",
       "pubDate": "2026-06-21T22:53:50.000Z",
-      "description": "Article URL: https://underreacted.leaflet.pub/3mmevu6woys27 Comments URL: https://news.ycombinator.com/item?id=48623419 Points: 58 # Comments: 80",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Rent collections are down in New York",
-      "link": "https://www.politico.com/news/2026/06/21/rent-collections-are-down-in-new-york-and-no-ones-sure-why-00966982",
-      "pubDate": "2026-06-21T21:54:34.000Z",
-      "description": "Article URL: https://www.politico.com/news/2026/06/21/rent-collections-are-down-in-new-york-and-no-ones-sure-why-00966982 Comments URL: https://news.ycombinator.com/item?id=48622987 Points: 57 # Comments: 178",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Did my old job only exist because of fraud?",
-      "link": "https://david.newgas.net/did-my-old-job-only-exist-because-of-fraud/",
-      "pubDate": "2026-06-21T21:40:53.000Z",
-      "description": "Article URL: https://david.newgas.net/did-my-old-job-only-exist-because-of-fraud/ Comments URL: https://news.ycombinator.com/item?id=48622867 Points: 370 # Comments: 161",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "FDA advisors unanimously vote to approve Moderna's mRNA after agency drama",
-      "link": "https://arstechnica.com/health/2026/06/fda-advisors-unanimously-vote-to-approve-modernas-mrna-after-agency-drama/",
-      "pubDate": "2026-06-21T21:30:25.000Z",
-      "description": "Article URL: https://arstechnica.com/health/2026/06/fda-advisors-unanimously-vote-to-approve-modernas-mrna-after-agency-drama/ Comments URL: https://news.ycombinator.com/item?id=48622788 Points: 156 # Comments: 83",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Apertus – Open Foundation Model for Sovereign AI",
-      "link": "https://apertvs.ai/",
-      "pubDate": "2026-06-21T21:29:43.000Z",
-      "description": "Article URL: https://apertvs.ai/ Comments URL: https://news.ycombinator.com/item?id=48622778 Points: 287 # Comments: 105",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "PowerFox Browser",
-      "link": "https://powerfox.jazzzny.me/",
-      "pubDate": "2026-06-21T21:23:13.000Z",
-      "description": "Article URL: https://powerfox.jazzzny.me/ Comments URL: https://news.ycombinator.com/item?id=48622731 Points: 102 # Comments: 30",
+      "description": "Article URL: https://underreacted.leaflet.pub/3mmevu6woys27 Comments URL: https://news.ycombinator.com/item?id=48623419 Points: 115 # Comments: 170",
       "source": "Hacker News",
       "category": "Tech News"
     },
