@@ -1,173 +1,248 @@
 {
-  "generatedAt": "2026-06-24T15:12:32.271Z",
+  "generatedAt": "2026-06-24T20:09:10.742Z",
   "sourceCount": 4,
-  "successCount": 3,
-  "errors": [
-    {
-      "source": "CSS Tricks",
-      "error": "HTTP 415 Unsupported Media Type"
-    }
-  ],
+  "successCount": 4,
+  "errors": [],
   "items": [
     {
-      "title": "AI Weekly: Codex Goes Long, MCP Goes Stateless",
-      "link": "https://dev.to/alexmercedcoder/ai-weekly-codex-goes-long-mcp-goes-stateless-584d",
-      "pubDate": "2026-06-24T15:10:38.000Z",
-      "description": "<p>The past seven days pushed three quiet shifts forward. AI coding moved from single prompts toward long-running work that keeps its own context. The plumbing under AI agents got a major upgrade as the Model Context Protocol locked in a stateless core. And the hardware story spread out, with new de",
+      "title": "Building a Highly Concurrent Webhook Processing Pipeline: Lessons from the Synapse Reconciliation Engine",
+      "link": "https://dev.to/adrian_obungu_05a35126e1f/building-a-highly-concurrent-webhook-processing-pipeline-lessons-from-the-synapse-reconciliation-5gok",
+      "pubDate": "2026-06-24T20:06:38.000Z",
+      "description": "<p>Financial webhooks are deceptively simple on the surface. A third-party payment gateway sends an HTTP POST to your endpoint. You process it. You respond. The transaction is recorded.</p> <p>In practice, this description conceals a category of engineering problems that only reveal themselves under",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "\"Hello World\" to DEV Community",
-      "link": "https://dev.to/nevia/hello-world-to-dev-community-55mh",
-      "pubDate": "2026-06-24T15:06:07.000Z",
-      "description": "<h2> Hello everyone! </h2> <p>This is my first post in the community.</p> <p>That is WHY- <strong>\"Hello World\".</strong></p> <p>I still remember my engineering college lab days writing my first ever C program on a black console screen, sitting in front of those old desktop computer with large CPU b",
+      "title": "The rule behind every Symfinity package",
+      "link": "https://dev.to/serotoninja/the-rule-behind-every-symfinity-package-gkh",
+      "pubDate": "2026-06-24T20:00:14.000Z",
+      "description": "<p>Whenever I start a new package, I try to follow a simple rule.</p> <blockquote> <p>If a package does not improve developer experience, it probably should not exist.</p> </blockquote> <p>That sounds obvious. But it has become the guiding principle behind Symfinity.</p> <h2> A package must solve a ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "UFC Underdog ROI: I Tracked 500 Fights to Find Systematic Mispricings",
-      "link": "https://dev.to/edgelab/ufc-underdog-roi-i-tracked-500-fights-to-find-systematic-mispricings-529l",
-      "pubDate": "2026-06-24T15:05:44.000Z",
-      "description": "<p>\"The sharps are cleaning up in the UFC betting markets while casual bettors get slaughtered.\"</p> <p>That statement gets thrown around sportsbooks constantly, but I wanted to know if it was actually true. What if there were systematic patterns in how betting markets misprice fighters? What if cer",
+      "title": "Source Generators in .NET: Build a Zero-Reflection Command Dispatcher",
+      "link": "https://dev.to/nshathish/source-generators-in-net-build-a-zero-reflection-command-dispatcher-31ec",
+      "pubDate": "2026-06-24T19:58:19.000Z",
+      "description": "<p>In <a href=\"https://dev.to/nshathish/source-generators-in-net-build-your-own-autotostring-from-scratch-41p5\">Part 1</a>, we built a generator that found classes marked <code>[AutoToString]</code> and emitted a <code>ToString()</code> override for them. It was a good first generator precisely beca",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Letting Claude Code Autonomously Hunt for Trading Strategies",
-      "link": "https://dev.to/alphaforge/letting-claude-code-autonomously-hunt-for-trading-strategies-2e68",
-      "pubDate": "2026-06-24T15:05:27.000Z",
-      "description": "<h2> The Two Unsolved Problems in Quant Research </h2> <p>If you've spent any time backtesting trading strategies, you've probably run into both of these:</p> <p><strong>Problem 1: Overfitting is embarrassingly easy.</strong> Most backtesting tools will happily show you a 40% CAGR strategy that fall",
+      "title": "Why I chose a Tiered Caching strategy for PixoraCloud.",
+      "link": "https://dev.to/davis_ayomide_3473d135d65/why-i-chose-a-tiered-caching-strategy-for-pixoracloud-55me",
+      "pubDate": "2026-06-24T19:54:37.000Z",
+      "description": "<p>I’m deep in the lab engineering the Pixora transformation engine (using libvips + Go), and I had to make a call on caching: Redis vs. Local Disk.<br> Common mistake: Using Redis for everything.<br> Reality: RAM is fast, but RAM is expensive. If I cache every transformed image in Redis, the server",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Streaming Claude to the Browser With Backpressure That Actually Works",
-      "link": "https://dev.to/pavelespitia/streaming-claude-to-the-browser-with-backpressure-that-actually-works-4oaf",
-      "pubDate": "2026-06-24T15:05:21.000Z",
-      "description": "<p>Streaming LLM tokens to a browser is easy to get 80% right and surprisingly easy to get the last 20% wrong. The naive version works on your machine and falls apart under a flaky connection or a fast model. Here is the production-grade setup I use, including the part most tutorials skip: what happ",
+      "title": "The Web Page Couldn't Reach Localhost. Your Agent Carried It There.",
+      "link": "https://dev.to/neerazz/the-web-page-couldnt-reach-localhost-your-agent-carried-it-there-2ip6",
+      "pubDate": "2026-06-24T19:53:29.000Z",
+      "description": "<p>You already do the hard part of this. You authenticate your production APIs. You treat anything from the public internet as hostile until proven otherwise. And after a year of prompt-injection write-ups, you already assume an agent can be steered by the text it reads.</p> <p>There is one spot alm",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I Built an AI Presentation Platform That Generates Real PowerPoint Files",
-      "link": "https://dev.to/izhan0102/i-built-an-ai-presentation-platform-that-generates-real-powerpoint-files-ep3",
-      "pubDate": "2026-06-24T15:01:09.000Z",
-      "description": "<p>A few weeks ago I started building a project that became ExDeck.</p> <p>The original idea was simple:</p> <p>Why does creating a presentation still take hours when AI can already write, code, summarize, and reason?</p> <p>Most AI presentation tools I tried had one or more of these problems:</p> <",
+      "title": "O bug de 16 minutos: quando 'dado faltando' é uma corrida contra o relógio",
+      "link": "https://dev.to/scussel/o-bug-de-16-minutos-quando-dado-faltando-e-uma-corrida-contra-o-relogio-2e6i",
+      "pubDate": "2026-06-24T19:51:59.000Z",
+      "description": "<h2> \"Seu sistema está perdendo dados\" </h2> <p>Um cliente abriu o chamado, convicto. O relatório de retorno bancário enviado por e-mail toda manhã tinha <strong>423 linhas</strong>. O mesmo relatório, gerado sob demanda no portal, tinha <strong>1.351</strong>.</p> <p>928 linhas, sumidas. É o tipo d",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "When pandas runs out of RAM, I change one import line",
-      "link": "https://dev.to/herbze/when-pandas-runs-out-of-ram-i-change-one-import-line-35k0",
-      "pubDate": "2026-06-24T15:01:00.000Z",
-      "description": "<p>You know the moment. You've got a Parquet file or a fat CSV, you write the obvious <code>pd.read_parquet(...)</code>, and Python sits there. Then either it finishes in its own sweet time, or you get the message everyone who's done data work in Python has seen at least once:<br> </p> <div class=\"h",
+      "title": "Render a PDF to an image in .NET — with a pure-C# PDF engine",
+      "link": "https://dev.to/michael_jordan_87eaf96f24/render-a-pdf-to-an-image-in-net-with-a-pure-c-pdf-engine-a7o",
+      "pubDate": "2026-06-24T19:51:33.000Z",
+      "description": "<p>Most PDF libraries in .NET are wrappers. PDFium, MuPDF, Ghostscript — solid engines, but they ship native binaries you P/Invoke into. That buys you per-RID packages, Native AOT friction, the \"works on my box, throws <code>DllNotFoundException</code> in the Alpine container\" dance, and a deploymen",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Running Local LLMs for Coding: No API Keys, Full Control",
-      "link": "https://dev.to/learnairesource/running-local-llms-for-coding-no-api-keys-full-control-48cj",
-      "pubDate": "2026-06-24T15:00:32.000Z",
-      "description": "<h1> Running Local LLMs for Coding: No API Keys, Full Control </h1> <p>You've probably noticed the code completion tools getting slower and more rate-limited. You've also probably gotten tired of explaining your entire codebase to an API that costs money per token. What if I told you could run your ",
+      "title": "Don't Open Claude Code With a Non-Latin Directory Name. Your Conversations Are Disappearing.",
+      "link": "https://dev.to/yurenpai_c188178e6b313e59/dont-open-claude-code-with-a-non-latin-directory-name-your-conversations-are-disappearing-4dhm",
+      "pubDate": "2026-06-24T19:51:03.000Z",
+      "description": "<h1> Don't Open Claude Code With a Non-Latin Directory Name. Your Conversations Are Disappearing. </h1> <blockquote> <p>Confirmed across 4 languages. 6 layers of impact. One root cause.</p> </blockquote> <h2> A conversation vanished </h2> <p>June 24. I had a 30-minute session with Claude Code in <co",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How to move from an LLM demo to a production-ready healthcare AI agent",
-      "link": "https://dev.to/kajol_shah/how-to-move-from-an-llm-demo-to-a-production-ready-healthcare-ai-agent-33d1",
-      "pubDate": "2026-06-24T15:00:00.000Z",
-      "description": "<p>From LLM Demo to Healthcare AI Agent: What Developers Need to Build Around the Model</p> <p>Building an AI agent demo is easy.</p> <p>Building a healthcare AI agent that can survive production is a different problem.</p> <p>A simple prototype might only need:</p> <ul> <li>A chat UI</li> <li>An LL",
+      "title": "Why Symfony projects feel more fragmented than ever",
+      "link": "https://dev.to/serotoninja/why-symfony-projects-feel-more-fragmented-than-ever-4g6c",
+      "pubDate": "2026-06-24T19:49:28.000Z",
+      "description": "<p>Let me start with something important.</p> <h2> I love Symfony </h2> <p>In my opinion, Symfony remains one of the best foundations for serious PHP applications.</p> <p>So this is not criticism of Symfony. It is an observation about modern projects.</p> <h2> Symfony Is Great at Solving Individual ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Best SaaS Directories for Backlinks (2026)",
-      "link": "https://dev.to/andrew_whitefield/best-saas-directories-for-backlinks-2026-4dn7",
-      "pubDate": "2026-06-24T14:59:51.000Z",
-      "description": "<p>If you run a SaaS product, directories are one of the cheapest ways to pick up early backlinks, referral traffic, and trust signals at once. A good listing puts your product in front of buyers who are already comparing tools, gets your brand into the datasets that feed AI answers, and in many cas",
+      "title": "Building a Deployment Platform on Self-Managed Infrastructure with k3s",
+      "link": "https://dev.to/udep/building-a-deployment-platform-on-self-managed-infrastructure-with-k3s-1hk4",
+      "pubDate": "2026-06-24T19:49:17.000Z",
+      "description": "<p>At the beginning of this year, our production workloads were spread across AWS, Contabo and GoDaddy.</p> <p>Most of the applications had predictable traffic patterns and fairly stable resource requirements. As more products were added, infrastructure costs became harder to ignore, particularly on",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "RubyLLM: A single, beautiful Ruby framework for all major AI providers",
-      "link": "https://rubyllm.com/",
-      "pubDate": "2026-06-24T14:41:41.000Z",
-      "description": "Article URL: https://rubyllm.com/ Comments URL: https://news.ycombinator.com/item?id=48660711 Points: 4 # Comments: 0",
+      "title": "Thomann takes legal action against Fender",
+      "link": "https://www.thomann.de/blog/en/inside/thomann-takes-legal-action-against-fender/",
+      "pubDate": "2026-06-24T19:08:22.000Z",
+      "description": "Article URL: https://www.thomann.de/blog/en/inside/thomann-takes-legal-action-against-fender/ Comments URL: https://news.ycombinator.com/item?id=48664384 Points: 54 # Comments: 8",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Running Windows Games on a Hobby OS with Wine",
-      "link": "https://astral-os.org/posts/2026/04/03/wine-on-astral.html",
-      "pubDate": "2026-06-24T14:38:30.000Z",
-      "description": "Article URL: https://astral-os.org/posts/2026/04/03/wine-on-astral.html Comments URL: https://news.ycombinator.com/item?id=48660671 Points: 9 # Comments: 2",
+      "title": "Wikipedia Workers to Seek Union Recognition",
+      "link": "https://www.cwu.org/press_release/wikipedia-workers-to-seek-union-recognition/",
+      "pubDate": "2026-06-24T18:27:16.000Z",
+      "description": "Article URL: https://www.cwu.org/press_release/wikipedia-workers-to-seek-union-recognition/ Comments URL: https://news.ycombinator.com/item?id=48663861 Points: 10 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Show HN: Nub – A Bun-like all-in-one toolkit for Node.js",
-      "link": "https://github.com/nubjs/nub",
-      "pubDate": "2026-06-24T14:14:18.000Z",
-      "description": "Article URL: https://github.com/nubjs/nub Comments URL: https://news.ycombinator.com/item?id=48660267 Points: 11 # Comments: 2",
+      "title": "I rewrote PostHog's SQL parser, 70x faster, while barely looking at the code",
+      "link": "https://posthog.com/blog/sql-parser",
+      "pubDate": "2026-06-24T18:05:33.000Z",
+      "description": "Article URL: https://posthog.com/blog/sql-parser Comments URL: https://news.ycombinator.com/item?id=48663544 Points: 39 # Comments: 7",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Stealing Is a Skill",
-      "link": "https://ben-mini.com/2026/stealing-is-a-skill",
-      "pubDate": "2026-06-24T13:08:52.000Z",
-      "description": "Article URL: https://ben-mini.com/2026/stealing-is-a-skill Comments URL: https://news.ycombinator.com/item?id=48659165 Points: 58 # Comments: 37",
+      "title": "OpenAI unveils its first custom chip, built by Broadcom",
+      "link": "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/",
+      "pubDate": "2026-06-24T17:47:00.000Z",
+      "description": "Announcement: https://openai.com/index/openai-broadcom-jalapeno-inference-...https://decrypt.co/371971/openai-broadcom-jalapeno-first-cus...https://www.cnn.com/2026/06/24/tech/openai-broadcom-jalapeno... Comments URL: https://news.ycombinator.com/item?id=48663324 Points: 222 # Comments: 171",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Founding a company in Germany: €9600, 152 days and I still can't send an invoice",
-      "link": "https://paolino.me/founding-a-company-in-germany/",
-      "pubDate": "2026-06-24T12:31:43.000Z",
-      "description": "Article URL: https://paolino.me/founding-a-company-in-germany/ Comments URL: https://news.ycombinator.com/item?id=48658718 Points: 291 # Comments: 344",
+      "title": "Computer use in Gemini 3.5 Flash",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/",
+      "pubDate": "2026-06-24T17:21:34.000Z",
+      "description": "Article URL: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/ Comments URL: https://news.ycombinator.com/item?id=48662999 Points: 83 # Comments: 41",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Reid Hoffman says SpaceX 'not an AI company', xAI 'complete train wreck'",
-      "link": "https://fortune.com/2026/06/24/reid-hoffman-spacex-musk-openai-anthropic-gen-z-mistake/",
-      "pubDate": "2026-06-24T12:23:59.000Z",
-      "description": "Article URL: https://fortune.com/2026/06/24/reid-hoffman-spacex-musk-openai-anthropic-gen-z-mistake/ Comments URL: https://news.ycombinator.com/item?id=48658647 Points: 153 # Comments: 165",
+      "title": "Big AI labs are hiring philosophers",
+      "link": "https://www.economist.com/science-and-technology/2026/06/24/why-big-ai-labs-are-hiring-so-many-philosophers",
+      "pubDate": "2026-06-24T16:40:13.000Z",
+      "description": "https://archive.is/T1FJG Comments URL: https://news.ycombinator.com/item?id=48662452 Points: 23 # Comments: 12",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Minimus container images are now free",
-      "link": "https://images.minimus.io/",
-      "pubDate": "2026-06-24T11:52:12.000Z",
-      "description": "Article URL: https://images.minimus.io/ Comments URL: https://news.ycombinator.com/item?id=48658361 Points: 85 # Comments: 46",
+      "title": "I taught a bucket to speak Git",
+      "link": "https://www.tigrisdata.com/blog/objgit/",
+      "pubDate": "2026-06-24T16:04:26.000Z",
+      "description": "Article URL: https://www.tigrisdata.com/blog/objgit/ Comments URL: https://news.ycombinator.com/item?id=48661938 Points: 57 # Comments: 12",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Haystack: Open-Source AI Framework for Production Ready Agents, RAG",
-      "link": "https://haystack.deepset.ai/",
-      "pubDate": "2026-06-24T11:21:32.000Z",
-      "description": "Article URL: https://haystack.deepset.ai/ Comments URL: https://news.ycombinator.com/item?id=48658095 Points: 39 # Comments: 15",
+      "title": "There are a few things that I look back on as my mistakes in the early days",
+      "link": "https://twitter.com/ID_AA_Carmack/status/2069799283369345247",
+      "pubDate": "2026-06-24T15:56:19.000Z",
+      "description": "https://xcancel.com/ID_AA_Carmack/status/2069799283369345247 Comments URL: https://news.ycombinator.com/item?id=48661825 Points: 391 # Comments: 199",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Too many R packages: CRAN is inundated with submissions",
-      "link": "https://rworks.dev/posts/too-many-R-packages/",
-      "pubDate": "2026-06-24T10:59:59.000Z",
-      "description": "Article URL: https://rworks.dev/posts/too-many-R-packages/ Comments URL: https://news.ycombinator.com/item?id=48657940 Points: 60 # Comments: 45",
+      "title": "Boffin claims Microsoft’s “quantum leap” is invalid due to “basic Python errors”",
+      "link": "https://www.theregister.com/research/2026/06/24/boffin-claims-microsofts-supposed-quantum-leap-does-not-compute-due-to-basic-python-errors/5260489",
+      "pubDate": "2026-06-24T15:37:18.000Z",
+      "description": "Article URL: https://www.theregister.com/research/2026/06/24/boffin-claims-microsofts-supposed-quantum-leap-does-not-compute-due-to-basic-python-errors/5260489 Comments URL: https://news.ycombinator.com/item?id=48661535 Points: 123 # Comments: 46",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "We're making Bunny DNS free: because a faster internet won't build itself",
-      "link": "https://bunny.net/blog/were-making-bunny-dns-free/",
-      "pubDate": "2026-06-24T08:50:41.000Z",
-      "description": "Article URL: https://bunny.net/blog/were-making-bunny-dns-free/ Comments URL: https://news.ycombinator.com/item?id=48657030 Points: 527 # Comments: 179",
+      "title": "For Most of the World, Open-Source AI Is the Only Way Forward",
+      "link": "https://techstrong.ai/articles/for-most-of-the-world-open-source-ai-is-the-only-way-forward/",
+      "pubDate": "2026-06-24T14:50:22.000Z",
+      "description": "Article URL: https://techstrong.ai/articles/for-most-of-the-world-open-source-ai-is-the-only-way-forward/ Comments URL: https://news.ycombinator.com/item?id=48660839 Points: 151 # Comments: 101",
       "source": "Hacker News",
       "category": "Tech News"
+    },
+    {
+      "title": "Using Scroll-Driven Animations for Opposing Scroll Directions",
+      "link": "https://css-tricks.com/scroll-driven-animations-opposing-scroll-directions/",
+      "pubDate": "2026-06-22T12:39:13.000Z",
+      "description": "Sometimes designers have silly ideas that eventually grow on you. That happened to me with this concept where I had to build columns of items moving in opposite directions when a user scrolls the page. CodePen Embed Fallback Note: This … Using Scroll-Driven Animations for Opposing Scroll Directions ",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "A First Look at Scroll-Triggered Animations",
+      "link": "https://css-tricks.com/css-scroll-triggered-animations-first-look/",
+      "pubDate": "2026-06-19T13:03:17.000Z",
+      "description": "Let's poke at the differences between scroll-driven and scroll-triggered animations. A First Look at Scroll-Triggered Animations originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "The Siren Song of ariaNotify()",
+      "link": "https://css-tricks.com/the-siren-song-of-arianotify/",
+      "pubDate": "2026-06-17T15:32:30.000Z",
+      "description": "There's a brand new ariaNotify() method — defined by the WAI-ARIA 1.3 Specification — that provides a means of programmatically triggering narration in a screen reader. The Siren Song of ariaNotify() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter a",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Prop For That",
+      "link": "https://css-tricks.com/prop-for-that/",
+      "pubDate": "2026-06-16T18:36:25.000Z",
+      "description": "Props for That creates live props based things CSS can't normally see in the browser. Things like cursor position, progress values, certain form states, current time, scroll velocity. Prop For That originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as ",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "What’s !important #13: @function, alpha(), CSS Wordle, and More",
+      "link": "https://css-tricks.com/whats-important-13/",
+      "pubDate": "2026-06-15T13:15:33.000Z",
+      "description": "CSS functions, the alpha() function, Grid Lanes, some things about Dialog that you might not know, CSS Wordle, and more — this is What’s !important right now. What’s !important #13: @function, alpha(), CSS Wordle, and More originally handwritten and published with love on CSS-Tricks. You should real",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Why Isn&#8217;t My 3D View Transition Working?",
+      "link": "https://css-tricks.com/why-isnt-my-3d-view-transition-working/",
+      "pubDate": "2026-06-12T15:09:00.000Z",
+      "description": "Why isn't my 3D view transition working?! Sunkanmi tackles this frustration and offers an elegant fix for it. Why Isn’t My 3D View Transition Working? originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "There’s no need to include ‘navigation’ in your navigation labels",
+      "link": "https://css-tricks.com/navigation-in-your-navigation-labels/",
+      "pubDate": "2026-06-12T15:08:38.000Z",
+      "description": "One of those nuances to keep in your back pocket when writing for screen readers. There’s no need to include ‘navigation’ in your navigation labels originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Creating Memorable Web Experiences: A Modern CSS Toolkit",
+      "link": "https://css-tricks.com/creating-memorable-web-experiences-a-modern-css-toolkit/",
+      "pubDate": "2026-06-10T13:02:10.000Z",
+      "description": "There are many ways to create memorable experiences. Sometimes it's as simple as a form that completes smoothly. But here I'm interested in sharing techniques I reach for when I want a site to feel alive and be remembered. Creating Memorable Web Experiences: A Modern CSS Toolkit originally handwritt",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Scroll-Driven, Scroll-Triggered, Scroll States, and View Transitions",
+      "link": "https://css-tricks.com/scroll-driven-scroll-triggered-scroll-states-and-view-transitions/",
+      "pubDate": "2026-06-08T13:00:34.000Z",
+      "description": "I've said one and mean another, and I've used one when I needed another. Comparing scroll-driven animations, scroll-triggered animations, container query scroll states, and view transitions for my future self. Scroll-Driven, Scroll-Triggered, Scroll States, and View Transitions originally handwritte",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Another Stab at the Perfect CSS Pie Chart&#8230; Sans JavaScript!",
+      "link": "https://css-tricks.com/another-stab-at-the-perfect-css-pie-chart-sans-javascript/",
+      "pubDate": "2026-06-04T13:14:49.000Z",
+      "description": "We dive again into CSS Pie Charts! This time, Author Antoine Villepreux delivers semantic and flexible charts without a single line of JS. Another Stab at the Perfect CSS Pie Chart… Sans JavaScript! originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
       "title": "Meet the HTB Profile: all your skills, in one place",
