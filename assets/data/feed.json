@@ -1,102 +1,150 @@
 {
-  "generatedAt": "2026-06-25T15:14:51.278Z",
+  "generatedAt": "2026-06-25T20:22:30.162Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "Qwen3 vs DeepSeek R1: Which Open-Source Reasoning Model Should You Use in 2026?",
-      "link": "https://dev.to/qainsights/qwen3-vs-deepseek-r1-which-open-source-reasoning-model-should-you-use-in-2026-370",
-      "pubDate": "2026-06-25T15:11:58.000Z",
-      "description": "<p>In this blog post, we will see how Qwen3 and DeepSeek R1 compare as open-source reasoning models, where each one shines, and which one you should actually run in 2026.</p> <p>Open-source reasoning models have changed the game. DeepSeek R1 felt like a revolution when it dropped in early 2025. Then",
+      "title": "Your Local LLM Is Not as Private as You Think",
+      "link": "https://dev.to/jfisher4002/your-local-llm-is-not-as-private-as-you-think-3ek7",
+      "pubDate": "2026-06-25T20:06:15.000Z",
+      "description": "<h2> The Bleeding Llama vulnerability shows why running AI locally is not a security strategy </h2> <p>Running an LLM locally feels like a privacy win.</p> <p>No cloud API. No third-party model provider. No prompts leaving your own machine.</p> <p>That assumption is comforting. It is also incomplete",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "What SMS OTP actually costs you, beyond the Twilio invoice",
-      "link": "https://dev.to/ilyahye/what-sms-otp-actually-costs-you-beyond-the-twilio-invoice-3571",
-      "pubDate": "2026-06-25T15:10:29.000Z",
-      "description": "<p>If your signup flow sends a text message, you already know it costs money per send. What's less visible on the invoice is everything SMS OTP costs you that never shows up as a line item: the users who bounce waiting for a code, the toll-fraud traffic nobody noticed until the bill doubled, and the",
+      "title": "7 C# Techniques Pros Use Without Thinking",
+      "link": "https://dev.to/ssukhpinder/7-c-techniques-pros-use-without-thinking-1026",
+      "pubDate": "2026-06-25T20:04:52.000Z",
+      "description": "<p>Here are the 7 C# techniques pros use on autopilot in 2026.</p> <h3> 1. Pattern Matching So Hard I Forgot How to Write If-Else </h3> <p>I haven’t written a classic <code>if (something != null)</code> chain in forever. My brain just goes straight to:<br> </p> <div class=\"highlight js-code-highligh",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "MVP vs Prototype: What First-Time Founders Need",
-      "link": "https://dev.to/sclaydon/mvp-vs-prototype-what-first-time-founders-need-ed8",
-      "pubDate": "2026-06-25T15:10:12.000Z",
-      "description": "<h1> MVP vs Prototype: What First-Time Founders Need </h1> <p>You've got an idea. You can see the product in your head. And now you're stuck on a question that sounds simple but trips up almost every first-time founder: do you build a prototype or an MVP first?</p> <p>People throw these two words ar",
+      "title": "Multiple accounts in Claude Code: the complete setup",
+      "link": "https://dev.to/jguillaumesio/multiple-accounts-in-claude-code-the-complete-setup-10ek",
+      "pubDate": "2026-06-25T19:54:15.000Z",
+      "description": "<p>You have a personal Claude Code subscription and a work one. Or you freelance for two clients who each provide their own API key. Or you want a sandboxed account for experiments that won't pollute your main config.</p> <p>Whatever the reason, Claude Code doesn't ship with a built-in \"switch accou",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Engineering a High-Performance LSM-Tree Storage Engine: MemTables, SSTables, and Compaction",
-      "link": "https://dev.to/ebendttl/engineering-a-high-performance-lsm-tree-storage-engine-memtables-sstables-and-compaction-3jfk",
-      "pubDate": "2026-06-25T15:09:31.000Z",
-      "description": "<blockquote> <p><strong>This is an excerpt.</strong> The full article includes a <strong>live interactive LSM-tree simulator</strong> — perform PUT and DELETE operations, watch the MemTable fill up and flush to disk, inspect sparse indices and Bloom Filters, and trigger leveled compaction to merge S",
+      "title": "Generating and publishing Go gRPC stubs as separate modules via GitLab CI/CD",
+      "link": "https://dev.to/m1s1ma/generating-and-publishing-go-grpc-stubs-as-separate-modules-via-gitlab-cicd-48b2",
+      "pubDate": "2026-06-25T19:53:15.000Z",
+      "description": "<h1> Setting up gRPC stub generation for Go and connecting them as a module </h1> <p>Keeping proto contracts in a single repository is convenient, but pulling the entire thing into every service is not. Let's walk through how to automatically generate Go stubs from proto files, version them as stand",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Not Enough SMEs or Customers to Make Your Evals? Make Some!",
-      "link": "https://dev.to/ohkpond/not-enough-smes-or-customers-to-make-your-evals-make-some-11nc",
-      "pubDate": "2026-06-25T15:07:57.000Z",
-      "description": "<p><strong>TL;DR:</strong> When you cannot reach real users or SMEs to build eval data, you can build realistic stand-ins instead. Gather everything you actually know about the user into a knowledge base, use Claude Code to synthesize personas from it, have the people closest to the user validate th",
+      "title": "How I Built My Resume and Applied to Summer Internships Today: A Step-by-Step Breakdown",
+      "link": "https://dev.to/ashwillrise/how-i-built-my-resume-and-applied-to-summer-internships-today-a-step-by-step-breakdown-4eo4",
+      "pubDate": "2026-06-25T19:52:47.000Z",
+      "description": "<p>Securing a summer internship can feel daunting, but today, I decided to stop overthinking and just dive in. I spent the day building a fresh resume and sending out applications.</p> <p>Here is exactly how I tackled it today.</p> <p><strong>🛠️ Step 1: Crafting the Resume</strong><br> Instead of s",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Foundry Fuzzing vs Invariant Testing: When Each One Finds the Bug",
-      "link": "https://dev.to/pavelespitia/foundry-fuzzing-vs-invariant-testing-when-each-one-finds-the-bug-4cbf",
-      "pubDate": "2026-06-25T15:07:46.000Z",
-      "description": "<p>Foundry gives you two automated testing tools that sound similar and find very different bugs: property fuzzing and invariant testing. I see people reach for one when they need the other and conclude \"fuzzing didn't find anything\" when the bug was never in fuzzing's reach. Here is the difference,",
+      "title": "Lessons from building a QR-paired browser handoff tool",
+      "link": "https://dev.to/icyzip/lessons-from-building-a-qr-paired-browser-handoff-tool-1nlk",
+      "pubDate": "2026-06-25T19:50:00.000Z",
+      "description": "<p>I have been working on a small browser handoff tool. The use case is intentionally narrow: open a page on one device, scan a QR code with another device, then move live text or one selected file between the two browsers without creating an account, installing an app, or using a cloud drive.</p> <",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How I cut AI token usage by 40% with a pre-filter step",
-      "link": "https://dev.to/beratbozkurt0/how-i-cut-ai-token-usage-by-40-with-a-pre-filter-step-3l3i",
-      "pubDate": "2026-06-25T15:07:29.000Z",
-      "description": "<p>When I built ReleaseHub - a CLI that generates release notes from merged PRs - every PR went to the AI. Feature, bugfix, dependency bump, CI fix. All of them.</p> <p>The problem: ~40% of merged PRs in a typical repo are always going to be marked \"internal\". They have zero user-facing impact. But ",
+      "title": "I Built a Free Cursive Text Generator — Here's How It Works",
+      "link": "https://dev.to/cursivegenerator/i-built-a-free-cursive-text-generator-heres-how-it-works-19mn",
+      "pubDate": "2026-06-25T19:48:50.000Z",
+      "description": "<p>Have you ever wanted to write something in cursive style for your Instagram bio, <br> WhatsApp status, or just for fun — but didn't want to download any app?</p> <p>That's exactly why I built <strong>Cursive Generators</strong> — a free, fast, and ad-free <br> online tool that converts your norma",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Nona isn't your open source project #151,523",
-      "link": "https://dev.to/misha130/nona-isnt-your-open-source-project-151523-4bjd",
-      "pubDate": "2026-06-25T15:06:33.000Z",
-      "description": "<p>There was no story. No origin, no 2am brilliant idea. I wasn't soaking in my bathtub when - EUREKA - I decided to build feature flags. No, it's nothing like that.</p> <p><strong>The story has much more to do with love and affection than anything else.</strong></p> <h2> A world full of slop </h2> ",
+      "title": "I Built an Interactive Visualizer of the Spring Boot Request Lifecycle",
+      "link": "https://dev.to/dev48v/i-built-an-interactive-visualizer-of-the-spring-boot-request-lifecycle-5b5h",
+      "pubDate": "2026-06-25T19:48:31.000Z",
+      "description": "<p>Every Spring tutorial teaches you the annotations — <code>@RestController</code>, <code>@Service</code>, <code>@Repository</code> — but almost none show you the <strong>journey</strong> a single HTTP request takes between them. Where does the front controller sit? When does <code>@Valid</code> sh",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "My tool said \"clicked.\" Safari never saw it. macOS 26 quietly broke a system API.",
-      "link": "https://dev.to/achiya-automation/my-tool-said-clicked-safari-never-saw-it-macos-26-quietly-broke-a-system-api-1gei",
-      "pubDate": "2026-06-25T15:04:26.000Z",
-      "description": "<p>I maintain an open-source MCP server that lets AI coding agents drive real Safari on macOS. One of its tools sends a <em>native</em> mouse click — an OS-level <code>CGEvent</code>, not a JavaScript <code>element.click()</code> — because some forms (Vue/React with anti-bot checks, OAuth consent sc",
+      "title": "Build for the World Cup on Solana: $50,000 TxODDS Hackathon Announced",
+      "link": "https://dev.to/neocarvajal/build-for-the-world-cup-on-solana-50000-txodds-hackathon-announced-4co4",
+      "pubDate": "2026-06-25T19:46:53.000Z",
+      "description": "<h2> 🌍 The World Cup Hackathon on Solana </h2> <p>The World Cup is coming, and with it comes a new opportunity for builders in the Solana ecosystem.</p> <p>TxODDS has announced a World Cup-focused hackathon with a <strong>$50,000 prize pool</strong> for developers who want to build applications pow",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Sigma-Normalization: Why Order-Flow Signals Should Be Measured in Standard Deviations, Not Raw Numbers",
-      "link": "https://dev.to/tickdistill/sigma-normalization-why-order-flow-signals-should-be-measured-in-standard-deviations-not-raw-3id5",
-      "pubDate": "2026-06-25T15:01:13.000Z",
-      "description": "<h1> Sigma-Normalization: Why Order-Flow Signals Should Be Measured in Standard Deviations, Not Raw Numbers </h1> <p><em>By TickDistill — order-flow microstructure signals. Educational content, not financial advice.</em></p> <h2> The short answer </h2> <p>A raw number like \"a 200-contract order\" or ",
+      "title": "The Feynman Technique Prompt: How to Make AI Explain Anything in 4 Layers of Depth",
+      "link": "https://dev.to/blobxiaoyao/the-feynman-technique-prompt-how-to-make-ai-explain-anything-in-4-layers-of-depth-3076",
+      "pubDate": "2026-06-25T19:45:52.000Z",
+      "description": "<p>You asked ChatGPT to explain self-attention. It gave you a paragraph that sounded right. You nodded. Two hours later, you couldn't explain it back to yourself.</p> <p>That's not a knowledge gap. That's a <em>prompting</em> gap. You asked the model to explain, but you never told it <em>how deep to",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Zig's New BitCast Semantics and LLVM Back End Improvements",
-      "link": "https://ziglang.org/devlog/2026/#2026-06-25",
-      "pubDate": "2026-06-25T14:19:28.000Z",
-      "description": "Article URL: https://ziglang.org/devlog/2026/#2026-06-25 Comments URL: https://news.ycombinator.com/item?id=48673825 Points: 22 # Comments: 2",
+      "title": "Besimple AI (YC P25) Is Hiring",
+      "link": "https://www.ycombinator.com/companies/besimple-ai/jobs/yWfhhOR-strategic-projects-lead-audio-data",
+      "pubDate": "2026-06-25T17:00:00.000Z",
+      "description": "Article URL: https://www.ycombinator.com/companies/besimple-ai/jobs/yWfhhOR-strategic-projects-lead-audio-data Comments URL: https://news.ycombinator.com/item?id=48676256 Points: 0 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Ask HN: What surprised you about Estonia e-Residency and running an Estonian OÜ?",
-      "link": "https://news.ycombinator.com/item?id=48673801",
-      "pubDate": "2026-06-25T14:17:26.000Z",
-      "description": "From the official information online, joining the e-Residency program and setting up an Estonian company seems relatively straightforward.I'm considering using an Estonian OÜ for a SaaS business and would love to hear from people who have actually gone through the process.What surprised you after be",
+      "title": "Show HN: OpenKnowledge – open source AI-first alternative to Obsidian/Notion",
+      "link": "https://github.com/inkeep/open-knowledge",
+      "pubDate": "2026-06-25T16:04:46.000Z",
+      "description": "Hi HN, Nick here. We’re launching OpenKnowledge (https://openknowledge.ai/), a “what you see is what you get” markdown editor that has direct integrations with Claude, Codex, and Cursor. Available as MacOS app or CLI. Fully free/local and OSS (https://github.com/inkeep/open-knowledge).We built this ",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Windows 10 quietly gets one more year of support and updates",
+      "link": "https://www.neowin.net/news/windows-10-quietly-gets-one-more-year-of-support-and-updates/",
+      "pubDate": "2026-06-25T15:59:54.000Z",
+      "description": "Article URL: https://www.neowin.net/news/windows-10-quietly-gets-one-more-year-of-support-and-updates/ Comments URL: https://news.ycombinator.com/item?id=48675369 Points: 176 # Comments: 135",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "An entire Herculaneum scroll has been read for the first time",
+      "link": "https://scrollprize.org/firstscroll",
+      "pubDate": "2026-06-25T15:48:07.000Z",
+      "description": "Preprint: https://scrollprize.org/pdf/main.pdfhttps://github.com/ScrollPrize/villa Comments URL: https://news.ycombinator.com/item?id=48675179 Points: 520 # Comments: 126",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "IBM debuts sub-1 nanometer chip technology",
+      "link": "https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology",
+      "pubDate": "2026-06-25T15:33:37.000Z",
+      "description": "Article URL: https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology Comments URL: https://news.ycombinator.com/item?id=48674967 Points: 166 # Comments: 93",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "How physicists track and trap the elusive neutrino",
+      "link": "https://www.quantamagazine.org/how-physicists-track-and-trap-the-elusive-neutrino-20260624/",
+      "pubDate": "2026-06-25T15:11:48.000Z",
+      "description": "Article URL: https://www.quantamagazine.org/how-physicists-track-and-trap-the-elusive-neutrino-20260624/ Comments URL: https://news.ycombinator.com/item?id=48674619 Points: 40 # Comments: 12",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "OS9Map",
+      "link": "https://yllan.org/software/OS9Map/",
+      "pubDate": "2026-06-25T15:01:06.000Z",
+      "description": "Article URL: https://yllan.org/software/OS9Map/ Comments URL: https://news.ycombinator.com/item?id=48674484 Points: 112 # Comments: 16",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Zig's new bitCast semantics and LLVM back end improvements",
+      "link": "https://ziglang.org/devlog/2026/#2026-06-25",
+      "pubDate": "2026-06-25T14:19:28.000Z",
+      "description": "Article URL: https://ziglang.org/devlog/2026/#2026-06-25 Comments URL: https://news.ycombinator.com/item?id=48673825 Points: 170 # Comments: 63",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -104,15 +152,7 @@
       "title": "Show HN: I made Google Trends for Hacker News by indexing 18 years of comments",
       "link": "https://hackernewstrends.com",
       "pubDate": "2026-06-25T14:08:55.000Z",
-      "description": "Article URL: https://hackernewstrends.com Comments URL: https://news.ycombinator.com/item?id=48673671 Points: 47 # Comments: 9",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Tell HN: OpenAI has started putting ads on paid programs",
-      "link": "https://news.ycombinator.com/item?id=48673194",
-      "pubDate": "2026-06-25T13:37:36.000Z",
-      "description": "I was on the £6.99/month program-- mainly because I didnt use it much. Last few days I've started seeing ads:1. Ad for Financial Times 2. Add for Shein 3. Add for Amazon prime dayAll 3 were on a chat where I was asking about tips on a mobile game.Needless to say, I cancelled my plan. Im not paying m",
+      "description": "Article URL: https://hackernewstrends.com Comments URL: https://news.ycombinator.com/item?id=48673671 Points: 536 # Comments: 133",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -149,50 +189,10 @@
       "category": "Frontend"
     },
     {
-      "title": "Countries are competing to see which can carry out mass surveillance the best",
-      "link": "https://mullvad.net/en/why-privacy-matters/state-mass-surveillance",
-      "pubDate": "2026-06-25T13:07:07.000Z",
-      "description": "Article URL: https://mullvad.net/en/why-privacy-matters/state-mass-surveillance Comments URL: https://news.ycombinator.com/item?id=48672764 Points: 216 # Comments: 78",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "SoftBank 2026 AGM [pdf]",
-      "link": "https://group.softbank/media/Project/sbg/sbg/pdf/ir/investors/shareholders/2026/shareholders-meeting_46_05_en.pdf",
-      "pubDate": "2026-06-25T12:42:55.000Z",
-      "description": "Article URL: https://group.softbank/media/Project/sbg/sbg/pdf/ir/investors/shareholders/2026/shareholders-meeting_46_05_en.pdf Comments URL: https://news.ycombinator.com/item?id=48672506 Points: 8 # Comments: 1",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Show HN: Secs-man, a secrets manager you can (not) rely on",
-      "link": "https://github.com/Fran314/secrets-manager-rs",
-      "pubDate": "2026-06-25T12:30:36.000Z",
-      "description": "This is a tool to manage encrypted local backups of secrets. The core idea is that it aims to be usable without depending on it, meaning that even if the software disappeared from the face of Earth tomorrow, your data would still be recoverable.It also integrates nicely with NixOS (which is what I u",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Show HN: Turn native language audio into flashcards and shadowing practice",
-      "link": "https://lingochunk.com/try",
-      "pubDate": "2026-06-25T11:29:13.000Z",
-      "description": "Here is a tool I built initially for myself to help with my German and Greek language studies. It started as a hack for creating Anki cards from native language audio. It extracts the words, finds their base forms (lemmas) and groups the examples by the lemma. At some point I realised that I have a ",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "LastPass notifies users of yet another data breach",
-      "link": "https://9to5mac.com/2026/06/23/lastpass-notifies-users-of-yet-another-data-breach/",
-      "pubDate": "2026-06-25T10:28:16.000Z",
-      "description": "Article URL: https://9to5mac.com/2026/06/23/lastpass-notifies-users-of-yet-another-data-breach/ Comments URL: https://news.ycombinator.com/item?id=48671468 Points: 254 # Comments: 114",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Wikipedia Workers in Britain set global first by seeking union recognition",
-      "link": "https://utaw.tech/news/wikipedia-recognition",
-      "pubDate": "2026-06-25T07:02:37.000Z",
-      "description": "Article URL: https://utaw.tech/news/wikipedia-recognition Comments URL: https://news.ycombinator.com/item?id=48669932 Points: 168 # Comments: 159",
+      "title": "Political bias in AI: Where the AI models stand",
+      "link": "https://trakkr.ai/bias",
+      "pubDate": "2026-06-25T13:08:31.000Z",
+      "description": "Article URL: https://trakkr.ai/bias Comments URL: https://news.ycombinator.com/item?id=48672779 Points: 66 # Comments: 134",
       "source": "Hacker News",
       "category": "Tech News"
     },
