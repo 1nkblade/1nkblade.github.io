@@ -1,94 +1,118 @@
 {
-  "generatedAt": "2026-06-25T04:34:09.807Z",
+  "generatedAt": "2026-06-25T09:44:35.419Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "Build a link-preview service with one API call",
-      "link": "https://dev.to/clausenetizen/build-a-link-preview-service-with-one-api-call-3o4j",
-      "pubDate": "2026-06-25T04:24:50.000Z",
-      "description": "<p>When someone pastes a URL into your app's comment box or chat, you want to show a preview card: the page title, a short description, the favicon, and the social image. Doing that yourself means fetching the HTML, parsing the <code>&lt;head&gt;</code>, reconciling OpenGraph tags with Twitter cards",
+      "title": "I built a 50+ feature wellness app in a single HTML file as a student — here's why",
+      "link": "https://dev.to/mognotaapp/i-built-a-50-feature-wellness-app-in-a-single-html-file-as-a-student-heres-why-37mj",
+      "pubDate": "2026-06-25T09:38:37.000Z",
+      "description": "<p>Most people lose hours pretending to work or study. I was one of them.</p> <p>I kept setting Pomodoro timers and ending up scrolling Twitter during breaks. <br> That's not rest. That's just a different kind of distraction.</p> <p>So I built Mognota — a free wellness companion for screen workers.<",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Expected Option&lt;String&gt;, Got Option&lt;()&gt; — Here's Why",
-      "link": "https://dev.to/jazz_thumyat/expected-option-got-option-heres-why-5495",
-      "pubDate": "2026-06-25T04:24:16.000Z",
-      "description": "<p>I'm learning Rust and recently ran into something unexpected with <code>Option</code> type. I expected <code>r</code> to be <code>Option&lt;&amp;mut String&gt;</code>, but it came back as <code>Option&lt;()&gt;</code> instead.</p> <p>Here's what I tried:<br> </p> <div class=\"highlight js-code-hig",
+      "title": "How to Put an LLM in Your Product Without Wrecking Your Costs or Your Latency",
+      "link": "https://dev.to/muhammadzainnaseer/how-to-put-an-llm-in-your-product-without-wrecking-your-costs-or-your-latency-89a",
+      "pubDate": "2026-06-25T09:21:40.000Z",
+      "description": "<p>Adding an AI feature looks deceptively easy. You sign up for an API key, paste in a prompt, and within an hour you've got a working demo that makes the whole team lean over your shoulder. Then you ship it, traffic arrives, and two things happen at once: your latency graph develops a long, ugly ta",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Exponential backoff with jitter stopped our CI retry storms",
-      "link": "https://dev.to/claire_nguyen/exponential-backoff-with-jitter-stopped-our-ci-retry-storms-4hlk",
-      "pubDate": "2026-06-25T04:21:46.000Z",
-      "description": "<p><strong>TL;DR:</strong> Exponential backoff with jitter spreads client retries over time so a recovering service doesn't get flattened by a synchronised wave. We added full jitter to our CI agents and a retry budget, and our internal 503 rate during recovery dropped from minutes of saturation to ",
+      "title": "How We Built JungleTrade: A Modular Market Intelligence Platform",
+      "link": "https://dev.to/dragomir_dikov/how-we-built-jungletrade-a-modular-market-intelligence-platform-17h",
+      "pubDate": "2026-06-25T09:20:31.000Z",
+      "description": "<blockquote> <p>Building a unified market intelligence platform for traders, analysts, researchers, and developers.</p> </blockquote> <p>After months of development, Jungletrade is now publicly available.</p> <p>The idea behind Jungletrade is simple: modern market analysis has become fragmented.</p>",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Stop Wasting Bandwidth: Master API Caching with ETags ⚡",
-      "link": "https://dev.to/iprajapatiparesh/stop-wasting-bandwidth-master-api-caching-with-etags-1bh7",
-      "pubDate": "2026-06-25T04:12:23.000Z",
-      "description": "<h2>The Redundant Data Tax</h2> <p>In data-dense B2B SaaS platforms at Smart Tech Devs, clients constantly poll your API for updates. Imagine a dashboard making a <code>GET /api/system-config</code> request every 60 seconds. The payload is 200KB of JSON. If the configuration hasn't changed in three ",
+      "title": "Escaping Cloud Lock-In: Building a real DORA exit strategy ☁️",
+      "link": "https://dev.to/upsun/escaping-cloud-lock-in-building-a-real-dora-exit-strategy-20ij",
+      "pubDate": "2026-06-25T09:15:56.000Z",
+      "description": "<p>If a regulator asks how you would move off your current cloud provider tomorrow, \"we would figure it out\" is no longer an acceptable answer. <strong>Most modern cloud deployments are deeply tied to provider-specific services, creating invisible dependencies that make true portability feel out of ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "UID2: The Standard That Quietly Replaced the Tracking Cookie",
-      "link": "https://dev.to/wadco/uid2-the-standard-that-quietly-replaced-the-tracking-cookie-2e12",
-      "pubDate": "2026-06-25T04:10:53.000Z",
-      "description": "<p>While the industry celebrated the “death of the third-party cookie,” advertising platforms built a more persistent and standardized identity system based on your email address.</p> <p><strong>Unified ID 2.0 (UID2)</strong> is now powering a significant portion of open-web advertising. Created by ",
+      "title": "Localizzare in massa la scheda App Store con ASC CLI (e perché conviene davvero)",
+      "link": "https://dev.to/frontendfacile/localizzare-in-massa-la-scheda-app-store-con-asc-cli-e-perche-conviene-davvero-4220",
+      "pubDate": "2026-06-25T09:14:41.000Z",
+      "description": "<blockquote> <p>Dai metadati in una lingua a 20 localizzazioni senza impazzire tra click e schermate: un flusso pratico per indie e piccoli team.</p> </blockquote> <p>Localizzare un’app non significa solo tradurre le stringhe dell’interfaccia. Una buona parte dell’acquisizione organica passa dai <st",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "_action: Declarative Event Handlers in an Attribute",
-      "link": "https://dev.to/jon49/action-declarative-event-handlers-in-an-attribute-3b35",
-      "pubDate": "2026-06-25T04:08:28.000Z",
-      "description": "<h2> Introduction </h2> <p>In <a href=\"https://dev.to/html-traits/\">HTML Traits</a> I went looking for a cleaner way to attach<br> behavior to an element than wrapping it in a custom element. Traits got me most<br> of the way there: composition over inheritance, multiple behaviors per element,<br> n",
+      "title": "Self-host n8n on a VPS with Docker",
+      "link": "https://dev.to/eqvps/self-host-n8n-on-a-vps-with-docker-5ep3",
+      "pubDate": "2026-06-25T09:12:20.000Z",
+      "description": "<p>n8n is the kind of tool you start using lightly and then quietly route half your operations through. At which point \"it's running on someone's cloud seat, metered per execution, with my API keys living on their servers\" starts to feel less great. Self-hosting fixes all three — flat cost, no execu",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "HackTheBox: Nexus Writeup",
-      "link": "https://dev.to/exploitnotes/hackthebox-nexus-writeup-17od",
-      "pubDate": "2026-06-25T04:07:39.000Z",
-      "description": "<h2> Executive Summary </h2> <p>This writeup documents the complete exploitation chain for the Nexus target system, from initial reconnaissance through root compromise. The attack leveraged:</p> <ol> <li> <strong>Exposed credentials</strong> in Git commit history</li> <li> <strong>Authenticated RCE<",
+      "title": "How to Pass the AWS Certified Cloud Practitioner (CLF-C02) Exam on Your First Attempt in 2026",
+      "link": "https://dev.to/azizfarid_fahmy_ab6b5f061/how-to-pass-the-aws-certified-cloud-practitioner-clf-c02-exam-on-your-first-attempt-in-2026-24gl",
+      "pubDate": "2026-06-25T09:11:24.000Z",
+      "description": "<p>Most people who search for the AWS CLF-C02 exam fall into one of two groups: total beginners who want a credential proving they understand AWS, or people already working alongside AWS systems who are tired of nodding along in meetings without really knowing the answer.</p> <p>Both groups tend to ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Snyk launches Evo ADS to secure AI coding agents with real-time governance",
-      "link": "https://dev.to/davekurian/snyk-launches-evo-ads-to-secure-ai-coding-agents-with-real-time-governance-2i34",
-      "pubDate": "2026-06-25T04:05:41.000Z",
-      "description": "<p>AI coding agents are no longer novelties—they now generate and ship production code, unsupervised, in enterprise environments. Security has not kept pace. Yesterday’s scanners watch code after it lands. AI agents, though, can call arbitrary tools, invoke “skills” from uncertain sources, and walk ",
+      "title": "Beyond Vibe Coding: Top AI Builders for Real Data and Workflows",
+      "link": "https://dev.to/momen_hq/beyond-vibe-coding-top-ai-builders-for-real-data-and-workflows-nl1",
+      "pubDate": "2026-06-25T09:09:48.000Z",
+      "description": "<p>Typing a prompt and getting a beautiful user interface in 30 seconds feels like magic. But the moment you add real users, process payments, or try to handle relational data, that magic often turns into a debugging nightmare.</p> <p>Many founders are hitting the \"80% wall.\" Rapid AI code generator",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Translating Windows system audio in real time — driverless, with no virtual cable",
-      "link": "https://dev.to/davutakca/translating-windows-system-audio-in-real-time-driverless-with-no-virtual-cable-2842",
-      "pubDate": "2026-06-25T03:54:23.000Z",
-      "description": "<p>I build Voxis, an open-source Windows app that translates whatever your system is playing — a video, a game, the other side of a call — and plays the translation back as spoken voice, a few seconds behind the speaker. No subtitles, no virtual audio cable, no bot joining your meeting.</p> <p>The \"",
+      "title": "Part 14: Community and Ecosystem - Contributing to Vyshyvanka",
+      "link": "https://dev.to/homolibere/part-14-community-and-ecosystem-contributing-to-vyshyvanka-570d",
+      "pubDate": "2026-06-25T09:02:00.000Z",
+      "description": "<p>It is clear that Vyshyvanka is more than just code — it is an ecosystem. The true power of an open-source workflow engine lies in its community. Today, we want to talk about how you can get involved, whether you are interested in pushing the boundaries of the core engine or building specialized s",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "My app didn't go \"viral\". My AWS bill did.",
-      "link": "https://dev.to/earlgreyhot1701d/my-app-didnt-go-viral-my-aws-bill-did-434h",
-      "pubDate": "2026-06-25T03:54:05.000Z",
-      "description": "<p><strong>And by viral I mean from $0 to $31.</strong> </p> <p><a href=\"https://umami.is/\" rel=\"noopener noreferrer\">Umami</a> told me <a href=\"//clewdirective.com\">Clew Directive</a> got 14 visits last month. AWS told me I owed $31 for it. That works out to $2.21 a visitor, which would make it the",
+      "title": "On programming languages, targets, and platforms",
+      "link": "https://dev.to/nfrankel/on-programming-languages-targets-and-platforms-1g9o",
+      "pubDate": "2026-06-25T09:02:00.000Z",
+      "description": "<p>I started as a Java developer, but for some time now, I have broadened my horizons. Recently, I thought about how early languages were dedicated to a single target and platform, and now they are broadening their focus. In this post, I want to write down my thoughts in the hope that it may be usef",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Ask HN: Where is our profession (programmer) going?",
-      "link": "https://news.ycombinator.com/item?id=48668199",
-      "pubDate": "2026-06-25T02:41:47.000Z",
-      "description": "I had been running a small (3 people) software company for about 4 years. Since closing down, I recently hung out at a friend's company to see what they were working on (15 ppl). To preface: I'm a heavy user of Claude (rarely write code by hand), but what I'm seeing in person has been rather shockin",
+      "title": "Aisle Discovers 6 New CVEs in Curl, Including the Oldest Issue Ever Reported",
+      "link": "https://aisle.com/blog/aisle-discovers-6-new-cves-in-curl-including-the-oldest-issue-ever-reported",
+      "pubDate": "2026-06-25T08:07:54.000Z",
+      "description": "Article URL: https://aisle.com/blog/aisle-discovers-6-new-cves-in-curl-including-the-oldest-issue-ever-reported Comments URL: https://news.ycombinator.com/item?id=48670411 Points: 10 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Wikipedia Workers in Britain set global first by seeking union recognition",
+      "link": "https://utaw.tech/news/wikipedia-recognition",
+      "pubDate": "2026-06-25T07:02:37.000Z",
+      "description": "Article URL: https://utaw.tech/news/wikipedia-recognition Comments URL: https://news.ycombinator.com/item?id=48669932 Points: 66 # Comments: 55",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Half-Life 2 in a Browser",
+      "link": "https://hl2.slqnt.dev/",
+      "pubDate": "2026-06-25T06:00:04.000Z",
+      "description": "Article URL: https://hl2.slqnt.dev/ Comments URL: https://news.ycombinator.com/item?id=48669534 Points: 216 # Comments: 81",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "The Unbearable Cheapness of Open Weight Models",
+      "link": "https://jamesoclaire.com/2026/06/25/the-unbearable-cheapness-of-open-weight-models/",
+      "pubDate": "2026-06-25T02:51:29.000Z",
+      "description": "Article URL: https://jamesoclaire.com/2026/06/25/the-unbearable-cheapness-of-open-weight-models/ Comments URL: https://news.ycombinator.com/item?id=48668255 Points: 65 # Comments: 47",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -96,7 +120,7 @@
       "title": "Medical students are using popular research tool to pump out misleading studies",
       "link": "https://www.science.org/content/article/medical-students-are-using-popular-research-tool-pump-out-misleading-studies",
       "pubDate": "2026-06-25T02:30:18.000Z",
-      "description": "Article URL: https://www.science.org/content/article/medical-students-are-using-popular-research-tool-pump-out-misleading-studies Comments URL: https://news.ycombinator.com/item?id=48668119 Points: 6 # Comments: 1",
+      "description": "Article URL: https://www.science.org/content/article/medical-students-are-using-popular-research-tool-pump-out-misleading-studies Comments URL: https://news.ycombinator.com/item?id=48668119 Points: 51 # Comments: 25",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -104,7 +128,7 @@
       "title": "Cloudflare launched self-managed OAuth for all",
       "link": "https://blog.cloudflare.com/oauth-for-all/",
       "pubDate": "2026-06-25T02:18:10.000Z",
-      "description": "Article URL: https://blog.cloudflare.com/oauth-for-all/ Comments URL: https://news.ycombinator.com/item?id=48668033 Points: 43 # Comments: 8",
+      "description": "Article URL: https://blog.cloudflare.com/oauth-for-all/ Comments URL: https://news.ycombinator.com/item?id=48668033 Points: 159 # Comments: 72",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -112,39 +136,7 @@
       "title": "Zombie unicorns are haunting Silicon Valley",
       "link": "https://www.economist.com/business/2026/06/21/zombie-unicorns-are-haunting-silicon-valley",
       "pubDate": "2026-06-25T02:16:15.000Z",
-      "description": "Article URL: https://www.economist.com/business/2026/06/21/zombie-unicorns-are-haunting-silicon-valley Comments URL: https://news.ycombinator.com/item?id=48668020 Points: 13 # Comments: 4",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Writers and Drugs",
-      "link": "https://lithub.com/are-writers-intrinsically-vulnerable-to-alcohol-and-drugs/",
-      "pubDate": "2026-06-25T01:50:01.000Z",
-      "description": "Article URL: https://lithub.com/are-writers-intrinsically-vulnerable-to-alcohol-and-drugs/ Comments URL: https://news.ycombinator.com/item?id=48667853 Points: 14 # Comments: 5",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Bible as RAG Database",
-      "link": "https://www.crosscanon.com/",
-      "pubDate": "2026-06-25T01:42:55.000Z",
-      "description": "Article URL: https://www.crosscanon.com/ Comments URL: https://news.ycombinator.com/item?id=48667807 Points: 64 # Comments: 34",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Exploring the internal representations of Pangram 3.3.2",
-      "link": "https://www.pangram.com/pangram-space",
-      "pubDate": "2026-06-25T01:36:45.000Z",
-      "description": "Article URL: https://www.pangram.com/pangram-space Comments URL: https://news.ycombinator.com/item?id=48667761 Points: 16 # Comments: 5",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Ending All Respiratory Infections",
-      "link": "https://blog.interceptfund.com/p/ending-respiratory-infections",
-      "pubDate": "2026-06-25T01:14:23.000Z",
-      "description": "Article URL: https://blog.interceptfund.com/p/ending-respiratory-infections Comments URL: https://news.ycombinator.com/item?id=48667588 Points: 93 # Comments: 32",
+      "description": "Article URL: https://www.economist.com/business/2026/06/21/zombie-unicorns-are-haunting-silicon-valley Comments URL: https://news.ycombinator.com/item?id=48668020 Points: 99 # Comments: 50",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -152,15 +144,23 @@
       "title": "Mixing Visual and Textual Code",
       "link": "https://arxiv.org/abs/2603.15855",
       "pubDate": "2026-06-25T01:11:10.000Z",
-      "description": "Article URL: https://arxiv.org/abs/2603.15855 Comments URL: https://news.ycombinator.com/item?id=48667560 Points: 23 # Comments: 3",
+      "description": "Article URL: https://arxiv.org/abs/2603.15855 Comments URL: https://news.ycombinator.com/item?id=48667560 Points: 49 # Comments: 18",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "What I'm Finding About LLM Code Style and Token Costs",
-      "link": "https://www.jimmont.com/llm-style-token-costs",
-      "pubDate": "2026-06-25T00:52:40.000Z",
-      "description": "Article URL: https://www.jimmont.com/llm-style-token-costs Comments URL: https://news.ycombinator.com/item?id=48667409 Points: 17 # Comments: 7",
+      "title": "LuaJIT 3.0 proposed syntax extensions",
+      "link": "https://github.com/LuaJIT/LuaJIT/issues/1475",
+      "pubDate": "2026-06-25T00:41:43.000Z",
+      "description": "Article URL: https://github.com/LuaJIT/LuaJIT/issues/1475 Comments URL: https://news.ycombinator.com/item?id=48667336 Points: 157 # Comments: 89",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Blogging can just be stating the obvious",
+      "link": "https://blog.jim-nielsen.com/2026/blogging-stating-the-obvious/",
+      "pubDate": "2026-06-24T23:46:37.000Z",
+      "description": "Article URL: https://blog.jim-nielsen.com/2026/blogging-stating-the-obvious/ Comments URL: https://news.ycombinator.com/item?id=48666927 Points: 230 # Comments: 83",
       "source": "Hacker News",
       "category": "Tech News"
     },
