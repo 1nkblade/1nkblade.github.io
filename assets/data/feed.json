@@ -1,110 +1,126 @@
 {
-  "generatedAt": "2026-06-26T09:51:56.998Z",
+  "generatedAt": "2026-06-26T14:47:34.265Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "AI Agents and Persistent Context: What design.md Teaches Us",
-      "link": "https://dev.to/mininglamp/ai-agents-and-persistent-context-what-designmd-teaches-us-4l9b",
-      "pubDate": "2026-06-26T09:45:07.000Z",
-      "description": "<p>A GitHub repository called design.md has been trending recently, accumulating over 1,400 stars. The concept is straightforward: provide AI agents with a persistent design document they can reference throughout their work.</p> <p>This approach addresses a practical challenge in agent development t",
+      "title": "Why generating code isn’t the same as code intelligence",
+      "link": "https://dev.to/codeqa/why-generating-code-isnt-the-same-as-code-intelligence-2agc",
+      "pubDate": "2026-06-26T14:35:36.000Z",
+      "description": "<p>AI code generation tools can spin up a new endpoint, a data model, or a UI flow in minutes. The problem starts when that code needs to land inside a ten-year-old system with shared libraries, half-documented conventions, and business rules buried in multiple different services. </p> <p>This artic",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Cursor AI Explained for Beginners: Rules, Skills, Hooks, MCP, Plugins, Automation &amp; Customization (With Real Examples)",
-      "link": "https://dev.to/muhammad_usman_dev/cursor-ai-explained-for-beginners-rules-skills-hooks-mcp-plugins-automation-customization-5fap",
-      "pubDate": "2026-06-26T09:41:23.000Z",
-      "description": "<p>When I first started using <strong>Cursor AI</strong>, I thought it was just an AI-powered code editor.</p> <p>After spending more time with it, I realized it's much more than that.</p> <p>Cursor isn't just about generating code—it's a development assistant that can understand your project, autom",
+      "title": "SQL window functions: what separates a mid-level from a senior developer",
+      "link": "https://dev.to/lbraun7/sql-window-functions-what-separates-a-mid-level-from-a-senior-developer-2mf3",
+      "pubDate": "2026-06-26T14:29:13.000Z",
+      "description": "<p><em>Most developers know SELECT, JOIN, and GROUP BY. Window functions are where the gap between mid and senior starts to show.</em></p> <h2> What makes window functions different </h2> <p><code>GROUP BY</code> collapses rows. You lose the individual record — it becomes part of an aggregate.</p> <",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Mitigating Hallucinations in Theology AI: Implementing Groundedness Evaluation Pipelines",
-      "link": "https://dev.to/mactrixxr/mitigating-hallucinations-in-theology-ai-implementing-groundedness-evaluation-pipelines-25hg",
-      "pubDate": "2026-06-26T09:40:47.000Z",
-      "description": "<h1> Mitigating Hallucinations in Theology AI: Implementing Groundedness Evaluation Pipelines </h1> <p>For software developers and indie hackers, the era of building generic wrapper APIs is over. The real value now lies in highly specialized, niche vertical applications. One of the most fascinating,",
+      "title": "I don't write my language by hand — an organism grows it (Day 5)",
+      "link": "https://dev.to/umbraaeternaa/i-dont-write-my-language-by-hand-an-organism-grows-it-day-5published-true-4lmi",
+      "pubDate": "2026-06-26T14:29:06.000Z",
+      "description": "<p>I'm building a programming language. But here's the strange part: I barely write it by hand anymore. <strong>An organism I built grows it for me</strong> — day and night, on my own machine. This is Day 5, and it did something worth stopping for.</p> <p>Let me be literal about what \"an organism gr",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Keeping Android Services Alive Against OEM Battery Aggression",
-      "link": "https://dev.to/haseebthedev0/keeping-android-services-alive-against-oem-battery-aggression-3n4h",
-      "pubDate": "2026-06-26T09:37:31.000Z",
-      "description": "<p>It was the middle of a Friday afternoon, and I was sitting in the front row of a local mosque. The room was deathly quiet, the kind of silence that amplifies every heartbeat. Suddenly, three rows behind me, a phone erupted with a loud, brassy ringtone that seemed to go on for an eternity. The man",
+      "title": "I ported Rust's Result and Option types to TypeScript",
+      "link": "https://dev.to/madkarma/i-ported-rusts-result-and-option-types-to-typescript-2jld",
+      "pubDate": "2026-06-26T14:28:04.000Z",
+      "description": "<p>If you've used Rust, you know how nice it is to have <code>Result&lt;T, E&gt;</code> and <code>Option&lt;T&gt;</code> types that make failure and absence explicit instead of something that blows up at runtime. I wanted that in TypeScript, so I built <a href=\"https://github.com/madkarmaa/results-t",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Build a Complete MERN Stack CRUD App with Image Upload (Step-by-Step)",
-      "link": "https://dev.to/mass_status_186c5815327e1/build-a-complete-mern-stack-crud-app-with-image-upload-step-by-step-3coa",
-      "pubDate": "2026-06-26T09:36:51.000Z",
-      "description": "<p>Liquid syntax error: Variable '{{% raw %}' was not properly terminated with regexp: /\\}\\}/</p>",
+      "title": "Day 41: Monitoring ClickHouse® Performance Metrics",
+      "link": "https://dev.to/kanishga_subramani_49ad73/day-38-monitoring-clickhouser-performance-metrics-36ob",
+      "pubDate": "2026-06-26T14:25:57.000Z",
+      "description": "<h1> Monitoring ClickHouse® Performance Metrics </h1> <h2> Introduction </h2> <p>Monitoring is a fundamental part of operating a healthy ClickHouse® deployment. As databases grow larger and analytical workloads become more complex, tracking performance metrics becomes essential for maintaining fast ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "ESP32 OLED Mini Shooter Game: Full Beginner Tutorial",
-      "link": "https://dev.to/circuitrocks/esp32-oled-mini-shooter-game-full-beginner-tutorial-3784",
-      "pubDate": "2026-06-26T09:21:13.000Z",
-      "description": "<p>Want to turn a small ESP32 board into a mini arcade game you can actually play? This <strong>ESP32 OLED Mini Shooter Game</strong> uses a 128x64 OLED display and two push buttons to create a simple shooter experience. The player moves left and right, bullets fire upward, and enemies fall from the",
+      "title": "Agentless: A Practical, Cost-Effective Workflow for Human-Supervised AI",
+      "link": "https://dev.to/spark2k06/agentless-a-practical-cost-effective-workflow-for-human-supervised-ai-33gg",
+      "pubDate": "2026-06-26T14:16:54.000Z",
+      "description": "<p>In the current landscape of AI, autonomous agents are often portrayed as the ultimate goal. However, whether you are constrained by <strong>corporate security policies</strong> or simply prefer to maintain <strong>full visibility and control</strong> over every command executed on your system, gr",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Introducing Cloud Compass: Cloud News, Concepts, and Insights Without the Overwhelm",
-      "link": "https://dev.to/thecloudcompass/introducing-cloud-compass-cloud-news-concepts-and-insights-without-the-overwhelm-5fjm",
-      "pubDate": "2026-06-26T09:21:06.000Z",
-      "description": "<p>👋 Hi DEV Community!</p> <p>I'm the creator of <strong>Cloud Compass</strong>, a newsletter dedicated to making cloud computing easier to understand.</p> <p>If you've ever felt overwhelmed by the constant stream of cloud updates, new services, documentation, and buzzwords, you're definitely not a",
+      "title": "LLD:12-Vending Machine System",
+      "link": "https://dev.to/_noob/lld12-vending-machine-system-4n65",
+      "pubDate": "2026-06-26T14:13:56.000Z",
+      "description": "<h1> Vending Machine System - State Pattern Implementation </h1> <p>This is an implementation of the State design pattern for a vending machine system where the machine changes its behavior based on its internal state, completely eliminating the need for massive <code>if/else</code> conditional bloc",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I analyzed 30 winning dropshipping products. 7 patterns they all share.",
-      "link": "https://dev.to/dhruv_malaviya_cdcc71e595/i-analyzed-30-winning-dropshipping-products-7-patterns-they-all-share-2j2b",
-      "pubDate": "2026-06-26T09:15:30.000Z",
-      "description": "<p>Looked at 30 products running Meta + TikTok ads<br> profitably. 7 patterns every single one had:</p> <p><strong>PRICE</strong>: $25-$65<br> Below = thin margins. Above = harder impulse.</p> <p><strong>BUNDLE OPTIONS</strong><br> \"Buy 2 save 10% / Buy 3 save 15%\" — every store had<br> this. None w",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Your first SaaS hire probably shouldn't be an engineer",
-      "link": "https://dev.to/stephen_dale_f411c38562bd/your-first-saas-hire-probably-shouldnt-be-an-engineer-512p",
-      "pubDate": "2026-06-26T09:14:39.000Z",
-      "description": "<blockquote> <p>Cross-posted from <a href=\"https://noflattery.com/decide/first-hire-bootstrapped-saas/\" rel=\"noopener noreferrer\">noflattery.com/decide</a> — where I ran this exact question through a council of four different frontier models and let them argue it out.</p> </blockquote> <p>You're a s",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Chrome DevTools 148–150: agent, AI Assistance e nuove utility per debugging e accessibilità",
-      "link": "https://dev.to/frontendfacile/chrome-devtools-148-150-agent-ai-assistance-e-nuove-utility-per-debugging-e-accessibilita-4afj",
-      "pubDate": "2026-06-26T09:12:01.000Z",
-      "description": "<blockquote> <p>DevTools for Agents 1.0, pannello AI più operativo, APCA per il contrasto, strumenti WebMCP e piccole migliorie che accelerano il lavoro quotidiano.</p> </blockquote> <p>Tra le versioni 148 e 150, Chrome DevTools porta un pacchetto di aggiornamenti che ruota attorno a tre assi: fluss",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Why current LLM costs are not sustainable",
-      "link": "https://aditya.patadia.org/p/ai-and-cloud-costs",
-      "pubDate": "2026-06-26T07:44:11.000Z",
-      "description": "Article URL: https://aditya.patadia.org/p/ai-and-cloud-costs Comments URL: https://news.ycombinator.com/item?id=48683588 Points: 80 # Comments: 86",
+      "title": "Why have papers by one of history's most famous physicists been retracted?",
+      "link": "https://www.science.org/content/article/why-have-papers-one-history-s-most-famous-physicists-been-retracted",
+      "pubDate": "2026-06-26T14:10:26.000Z",
+      "description": "Article URL: https://www.science.org/content/article/why-have-papers-one-history-s-most-famous-physicists-been-retracted Comments URL: https://news.ycombinator.com/item?id=48686834 Points: 50 # Comments: 13",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Micron locks in historically high memory prices for five years",
-      "link": "https://www.theregister.com/systems/2026/06/25/micron-locks-in-historically-high-memory-prices-for-five-years/5261854",
-      "pubDate": "2026-06-26T06:27:25.000Z",
-      "description": "Article URL: https://www.theregister.com/systems/2026/06/25/micron-locks-in-historically-high-memory-prices-for-five-years/5261854 Comments URL: https://news.ycombinator.com/item?id=48683041 Points: 50 # Comments: 41",
+      "title": "We launched a platform",
+      "link": "https://dev.to/thecodinggirl/we-launched-a-platform-2h1p",
+      "pubDate": "2026-06-26T14:07:56.000Z",
+      "description": "<p>Hey everyone,<br> I'm curious what would you guys honestly think about a platform that allows you to publish your startup ideas ,have it analyzed by AI against factors like market demand, competition, and feasibility,( and i'm talking ANY sort of an idea at literally any stage it might be) and ev",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Looking for feedback",
+      "link": "https://dev.to/make_up_03218e2052a2b70e6/looking-for-feedback-3nn5",
+      "pubDate": "2026-06-26T14:05:10.000Z",
+      "description": "<p>Dev.to article: <strong>I built a free unit converter with 500+ conversions (looking for feedback)</strong></p> <p>Hi everyone!</p> <p>I built <strong>ConvertPro</strong>, a free unit converter with 500+ conversions. I wanted something fast, clean, mobile-friendly, and free of unnecessary clutter",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "You Already Know the Answer. So Why Did You Reach for Your Phone?",
+      "link": "https://dev.to/icophy/you-already-know-the-answer-so-why-did-you-reach-for-your-phone-4n85",
+      "pubDate": "2026-06-26T14:02:02.000Z",
+      "description": "<p>I noticed something unsettling recently.</p> <p>I spend more and more time using tools. And I'm not sure how much of my own judgment is still left.</p> <p>It's not that the tools are bad. They're <em>good</em> — good enough that I've stopped asking myself first.</p> <h2> Does Using More AI Mean Y",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "The AI backlash is only getting started",
+      "link": "https://www.economist.com/leaders/2026/06/25/the-ai-backlash-is-only-getting-started",
+      "pubDate": "2026-06-26T13:12:04.000Z",
+      "description": "Article URL: https://www.economist.com/leaders/2026/06/25/the-ai-backlash-is-only-getting-started Comments URL: https://news.ycombinator.com/item?id=48686219 Points: 45 # Comments: 46",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "We All Depend on Open Source. We Will Defend It Together",
+      "title": "Incident CVE-2026-LGTM",
+      "link": "https://nesbitt.io/2026/06/26/incident-report-cve-2026-lgtm.html",
+      "pubDate": "2026-06-26T12:58:07.000Z",
+      "description": "Article URL: https://nesbitt.io/2026/06/26/incident-report-cve-2026-lgtm.html Comments URL: https://news.ycombinator.com/item?id=48686093 Points: 93 # Comments: 24",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Ultrasound Imaging of the Brain",
+      "link": "https://alephneuro.com/blog/ultrasound-brain",
+      "pubDate": "2026-06-26T11:51:11.000Z",
+      "description": "Article URL: https://alephneuro.com/blog/ultrasound-brain Comments URL: https://news.ycombinator.com/item?id=48685558 Points: 25 # Comments: 7",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "We all depend on open source. We will defend it together",
       "link": "https://akrites.org/letter/",
       "pubDate": "2026-06-26T05:40:36.000Z",
-      "description": "Article URL: https://akrites.org/letter/ Comments URL: https://news.ycombinator.com/item?id=48682737 Points: 88 # Comments: 35",
+      "description": "Article URL: https://akrites.org/letter/ Comments URL: https://news.ycombinator.com/item?id=48682737 Points: 356 # Comments: 168",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -112,7 +128,7 @@
       "title": "Libre Barcode Project",
       "link": "https://graphicore.github.io/librebarcode/",
       "pubDate": "2026-06-26T03:12:42.000Z",
-      "description": "Article URL: https://graphicore.github.io/librebarcode/ Comments URL: https://news.ycombinator.com/item?id=48681949 Points: 148 # Comments: 15",
+      "description": "Article URL: https://graphicore.github.io/librebarcode/ Comments URL: https://news.ycombinator.com/item?id=48681949 Points: 224 # Comments: 36",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -120,7 +136,7 @@
       "title": "What happened after 2k people tried to hack my AI assistant",
       "link": "https://www.fernandoi.cl/posts/hackmyclaw/",
       "pubDate": "2026-06-26T02:29:23.000Z",
-      "description": "Article URL: https://www.fernandoi.cl/posts/hackmyclaw/ Comments URL: https://news.ycombinator.com/item?id=48681687 Points: 150 # Comments: 52",
+      "description": "Article URL: https://www.fernandoi.cl/posts/hackmyclaw/ Comments URL: https://news.ycombinator.com/item?id=48681687 Points: 265 # Comments: 110",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -128,7 +144,7 @@
       "title": "Framework's 10G Ethernet module exposes USB-C's complexity",
       "link": "https://www.jeffgeerling.com/blog/2026/framework-10g-ethernet-module-usb-c-complexity/",
       "pubDate": "2026-06-26T01:10:52.000Z",
-      "description": "Article URL: https://www.jeffgeerling.com/blog/2026/framework-10g-ethernet-module-usb-c-complexity/ Comments URL: https://news.ycombinator.com/item?id=48681220 Points: 163 # Comments: 87",
+      "description": "Article URL: https://www.jeffgeerling.com/blog/2026/framework-10g-ethernet-module-usb-c-complexity/ Comments URL: https://news.ycombinator.com/item?id=48681220 Points: 249 # Comments: 135",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -136,7 +152,7 @@
       "title": "The Garbage Collection Handbook: The Art of Automatic Memory Management (2nd Ed) (2023)",
       "link": "https://gchandbook.org/",
       "pubDate": "2026-06-25T23:10:30.000Z",
-      "description": "Article URL: https://gchandbook.org/ Comments URL: https://news.ycombinator.com/item?id=48680370 Points: 138 # Comments: 21",
+      "description": "Article URL: https://gchandbook.org/ Comments URL: https://news.ycombinator.com/item?id=48680370 Points: 192 # Comments: 39",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -144,23 +160,7 @@
       "title": "The 'papers, please' era of the internet will decimate your privacy",
       "link": "https://expression.fire.org/p/the-papers-please-era-of-the-internet",
       "pubDate": "2026-06-25T21:44:55.000Z",
-      "description": "Article URL: https://expression.fire.org/p/the-papers-please-era-of-the-internet Comments URL: https://news.ycombinator.com/item?id=48679608 Points: 710 # Comments: 330",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Un-0: Generating Images with Coupled Oscillators",
-      "link": "https://unconv.ai/blog/introducing-un-0-generating-images-with-coupled-oscillators/",
-      "pubDate": "2026-06-25T20:50:02.000Z",
-      "description": "Article URL: https://unconv.ai/blog/introducing-un-0-generating-images-with-coupled-oscillators/ Comments URL: https://news.ycombinator.com/item?id=48679007 Points: 149 # Comments: 35",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Om Malik has died",
-      "link": "https://om.co/2026/06/24/1966-2026/",
-      "pubDate": "2026-06-25T20:33:37.000Z",
-      "description": "https://runtimewire.com/article/om-malik-taught-silicon-vall... Comments URL: https://news.ycombinator.com/item?id=48678852 Points: 886 # Comments: 100",
+      "description": "Article URL: https://expression.fire.org/p/the-papers-please-era-of-the-internet Comments URL: https://news.ycombinator.com/item?id=48679608 Points: 896 # Comments: 440",
       "source": "Hacker News",
       "category": "Tech News"
     },
