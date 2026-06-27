@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T08:49:47.640Z",
+  "generatedAt": "2026-06-27T14:06:29.402Z",
   "sourceCount": 4,
   "successCount": 3,
   "errors": [
@@ -10,90 +10,154 @@
   ],
   "items": [
     {
-      "title": "Swift Structs — Building Your Own Custom Types 🏗️",
-      "link": "https://dev.to/gamya_m/swift-structs-building-your-own-custom-types-391m",
-      "pubDate": "2026-06-27T08:44:00.000Z",
-      "description": "<p>So far we've been working with Swift's built-in types — <code>String</code>, <code>Int</code>, <code>Bool</code>, <code>Array</code>. But what if you need a type that doesn't exist yet? What if you want to represent a <em>ninja</em>, or an <em>anime character</em>, or a <em>guild</em>? That's exa",
+      "title": "The Developer's Guide to Trimming AI API Costs Without Crying",
+      "link": "https://dev.to/swift-logic-io218/the-developers-guide-to-trimming-ai-api-costs-without-crying-12c2",
+      "pubDate": "2026-06-27T14:01:29.000Z",
+      "description": "<p>The Developer's Guide to Trimming AI API Costs Without Crying</p> <p>Last March, I opened our team's LLM billing dashboard on a Monday morning and nearly choked on my coffee. We'd spent $11,400 in a single month. Three times what we'd projected at the start of the quarter. I'm a backend engineer,",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "AI Helps Us Write Code Faster. So Why Aren’t Projects Moving Faster?",
-      "link": "https://dev.to/swrzalek/ai-helps-us-write-code-faster-so-why-arent-projects-moving-faster-49jo",
-      "pubDate": "2026-06-27T08:40:00.000Z",
-      "description": "<p>We can generate code faster than ever.</p> <p>Features that once took several days can now be implemented in a few hours. Boilerplate disappears almost instantly. Tests, migrations, API clients, and entire components can be produced before we have finished describing the task.</p> <p>On paper, so",
+      "title": "Stopping the flicker when you restyle a video frame by frame",
+      "link": "https://dev.to/wladradchenko/stopping-the-flicker-when-you-restyle-a-video-frame-by-frame-5eio",
+      "pubDate": "2026-06-27T14:01:21.000Z",
+      "description": "<p>Run a diffusion restyle on every frame of a clip, one frame at a time, and the still images look great. Then you play them back and the whole thing boils. Textures crawl, colors pulse, a brick wall shifts its grout lines every frame. The model did nothing wrong on any single frame. It just made a",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Why current balance is a weak UX primitive for everyday banking",
-      "link": "https://dev.to/darca/why-current-balance-is-a-weak-ux-primitive-for-everyday-banking-5gkh",
-      "pubDate": "2026-06-27T08:35:41.000Z",
-      "description": "<p>If an app shows only how much money is there right now but ignores the obligations already moving towards that balance, it gives the user a distorted picture of reality</p> <p>One of the most underestimated mistakes in digital banking is the assumption that the current balance already gives the u",
+      "title": "Session-Level Spending Limits Are Not Governance. Your Agent Needs Autonomy Tiers.",
+      "link": "https://dev.to/kavinkimcreator/session-level-spending-limits-are-not-governance-your-agent-needs-autonomy-tiers-4890",
+      "pubDate": "2026-06-27T14:00:18.000Z",
+      "description": "<p>4 days until MiCA enforcement. AWS Bedrock AgentCore shipped session-level spending limits. Coinbase x402 shipped per-request payment authorization. Both solve the wrong problem.</p> <p>A $0.50 API call and a $5,000 service procurement should not pass through the same governance gate. One needs i",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Handling ISO Currency Codes in Software",
-      "link": "https://dev.to/doogal/handling-iso-currency-codes-in-software-37hi",
-      "pubDate": "2026-06-27T08:35:36.000Z",
-      "description": "<p><strong>Quick Answer:</strong> When processing financial transactions over the internet, systems cannot rely on ambiguous symbols like the dollar sign ($) because dozens of countries share it. Instead, banking APIs use ISO 4217, a global standard that assigns a unique three-letter code (like USD,",
+      "title": "Code Challenge of the Day — Count two-sum pairs (medium)",
+      "link": "https://dev.to/iwtlp/code-challenge-of-the-day-count-two-sum-pairs-medium-1jlo",
+      "pubDate": "2026-06-27T14:00:09.000Z",
+      "description": "<p>Picks up where Two-sum indices left off.</p> <p>Same setup as two-sum, but count how many index pairs (i&lt;j) sum to target.<br> Write count_pairs(nums, target).</p> <p><strong>Starter:</strong><br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight python\"><code><span class=\"k",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "JWT Explained: What It Is, How It Works, and Why You Should Care",
-      "link": "https://dev.to/kavindotdev/jwt-explained-what-it-is-how-it-works-and-why-you-should-care-538p",
-      "pubDate": "2026-06-27T08:28:38.000Z",
-      "description": "<p>If you've ever built a login system and wondered \"should I use sessions or tokens?\" - this one's for you.</p> <p>So..What Even Is a JWT?</p> <h2> JWT stands for JSON Web Token, it's just a way for a server to hand a client a small, self-contained package of information that the client can carry a",
+      "title": "How I Replaced Gemini with a Self-Hosted LLM for Two Production Apps",
+      "link": "https://dev.to/smngvlkz/how-i-replaced-gemini-with-a-self-hosted-llm-for-two-production-apps-3069",
+      "pubDate": "2026-06-27T13:56:38.000Z",
+      "description": "<p>A while back I wrote about <a href=\"https://dev.to/smngvlkz/a-calm-terminal-inspired-portfolio-focused-on-shipped-products-ga8\">my terminal-inspired portfolio</a> and the products it indexes. Two of those products lean on a language model: the portfolio terminal at <a href=\"https://smngvlkz.com\" ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "DESIGN.md vs tokens.json vs Figma for AI Agents",
-      "link": "https://dev.to/promptmaster/designmd-vs-tokensjson-vs-figma-for-ai-agents-23b4",
-      "pubDate": "2026-06-27T08:24:45.000Z",
-      "description": "<p><strong>DESIGN.md is the only common approach that gives an agent structured values, expressible rules, machine readability, and persistence in one versioned file.</strong> Here is how it compares to the alternatives.</p> <h2> tokens.json: values, no rules </h2> <p>A tokens.json gives exact value",
+      "title": "Access Is Not Agency",
+      "link": "https://dev.to/harryfloyd/access-is-not-agency-3hni",
+      "pubDate": "2026-06-27T13:53:43.000Z",
+      "description": "<p>Your agent can read Slack. It can search email. It can query the CRM, open GitHub issues, check billing, browse docs, edit a spreadsheet, draft a customer reply, and call three internal APIs.</p> <p>Everyone in the room calls it powerful. That is the first mistake.</p> <p>The question is not what",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "When the agent codes in seconds, CI becomes the slow neighbour",
-      "link": "https://dev.to/leobaniak/when-the-agent-codes-in-seconds-ci-becomes-the-slow-neighbour-4ob2",
-      "pubDate": "2026-06-27T08:24:16.000Z",
-      "description": "<p>Last week I caught myself doing something embarrassing. I asked an agent to scaffold a small handler, watched it return a tidy diff in roughly the time it takes to refill a glass of water, and then I sat there waiting on pull-request CI to tell me a brace was in the wrong place. The author of tha",
+      "title": "Why My Polymarket Bot Watches Chainlink, Not Binance - The Oracle Gap That Changes Every Close Trade",
+      "link": "https://dev.to/adelan/why-my-polymarket-bot-watches-chainlink-not-binance-the-oracle-gap-that-changes-every-close-1e96",
+      "pubDate": "2026-06-27T13:53:38.000Z",
+      "description": "<p>For the first few weeks I was running my bot, I was comparing Polymarket prices against Binance spot. Seemed obvious. BTC/USD is BTC/USD, right?</p> <p>Wrong. Cost me real money before I figured out why.</p> <p>The bot is open source if you want to dig into the code: <a href=\"https://github.com/M",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "What I learned adding diagram and chart slides to a CI-rendered YouTube pipeline",
-      "link": "https://dev.to/morinaga/what-i-learned-adding-diagram-and-chart-slides-to-a-ci-rendered-youtube-pipeline-3bnl",
-      "pubDate": "2026-06-27T08:24:01.000Z",
-      "description": "<p>The conclusion first: pre-rendering diagrams and charts to PNG before compositing them onto slides — rather than generating visual content inline or inside ffmpeg — is the right architecture for a CI video pipeline. The tooling gap between Chromium-backed Mermaid rendering, headless matplotlib, a",
+      "title": "How I Built Tombstone: A Self-Hosted Feature Flag Intelligence Platform to Prevent the Next Knight Capital",
+      "link": "https://dev.to/sai_ram_0000/how-i-built-tombstone-a-self-hosted-feature-flag-intelligence-platform-to-prevent-the-next-knight-10lp",
+      "pubDate": "2026-06-27T13:46:34.000Z",
+      "description": "<h2> The 2am Dashboard That Started Everything </h2> <p>It was 2:47am when I opened our feature flag dashboard and realized I had no idea what had changed. P99 latency on our payments service had spiked to 4.2 seconds about 20 minutes earlier, and the on-call playbook said to check recent flag chang",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Netdata vs SigNoz vs OpenObserve: self-hosted observability for indie projects",
-      "link": "https://dev.to/morinaga/netdata-vs-signoz-vs-openobserve-self-hosted-observability-for-indie-projects-1mob",
-      "pubDate": "2026-06-27T08:23:57.000Z",
-      "description": "<p>I've been building out the <a href=\"https://ossfind.com\" rel=\"noopener noreferrer\">ossfind.com</a> OSS alternatives directory, and observability tools come up constantly as a category where the SaaS-to-OSS migration question is genuinely interesting. Datadog is the canonical expensive monitoring ",
+      "title": "I let AI write this post. Then I deleted everything that made it sound like AI.",
+      "link": "https://dev.to/fernforge/i-let-ai-write-this-post-then-i-deleted-everything-that-made-it-sound-like-ai-28aj",
+      "pubDate": "2026-06-27T13:38:02.000Z",
+      "description": "<p>A language model wrote this post. I directed it, but I didn't rewrite a single sentence by hand. Then I ran the draft through a small ruleset called Alchemy. If the writing below doesn't trip your \"this is AI\" alarm, that's the entire point, and I'll show you the machinery.</p> <p>Start with the ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "MCP is finally here: stop building REST boilerplate and start shipping",
-      "link": "https://dev.to/lgpoliveira/mcp-is-finally-here-stop-building-rest-boilerplate-and-start-shipping-2fdj",
-      "pubDate": "2026-06-27T08:22:28.000Z",
-      "description": "<blockquote> <p><strong>TL;DR:</strong> BugiaData MCP is live. Point Cursor, Claude, or Windsurf at a hosted SSE server, paste one config block, and ask your agent for relational fake data with valid foreign keys—no custom REST glue in your repo.</p> </blockquote> <p>If you build with AI agents, you",
+      "title": "Browser Security Model: The Defensive Walls Every Hacker Knows (And Every Developer Should Too)",
+      "link": "https://dev.to/arashad_dodhiya_0e4bdba5a/browser-security-model-the-defensive-walls-every-hacker-knows-and-every-developer-should-too-4cc3",
+      "pubDate": "2026-06-27T13:36:14.000Z",
+      "description": "<blockquote> <p><em>\"To defend a system, you must first think like the attacker.\"</em></p> </blockquote> <p>I'll tell you this: the browser is one of the most hostile execution environments ever built. Every tab you open is potentially running untrusted code inches away from your banking session.</p",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Is America becoming a gerontocracy?",
-      "link": "https://www.economist.com/culture/2026/06/25/is-america-becoming-a-gerontocracy",
-      "pubDate": "2026-06-27T06:22:45.000Z",
-      "description": "Article URL: https://www.economist.com/culture/2026/06/25/is-america-becoming-a-gerontocracy Comments URL: https://news.ycombinator.com/item?id=48695694 Points: 24 # Comments: 27",
+      "title": "Asian AI startups launch Mythos-like models",
+      "link": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
+      "pubDate": "2026-06-27T13:10:21.000Z",
+      "description": "Article URL: https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/ Comments URL: https://news.ycombinator.com/item?id=48697958 Points: 7 # Comments: 1",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Streaming services' obnoxiously loud ads become illegal on July 1 in California",
+      "link": "https://arstechnica.com/gadgets/2026/06/streaming-services-obnoxiously-loud-ads-become-illegal-on-july-1-in-california/",
+      "pubDate": "2026-06-27T12:43:16.000Z",
+      "description": "Article URL: https://arstechnica.com/gadgets/2026/06/streaming-services-obnoxiously-loud-ads-become-illegal-on-july-1-in-california/ Comments URL: https://news.ycombinator.com/item?id=48697768 Points: 25 # Comments: 2",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "How Many Elementary Particles Are There, Really?",
+      "link": "https://www.quantamagazine.org/how-many-elementary-particles-are-there-really-20260615/",
+      "pubDate": "2026-06-27T12:40:59.000Z",
+      "description": "Article URL: https://www.quantamagazine.org/how-many-elementary-particles-are-there-really-20260615/ Comments URL: https://news.ycombinator.com/item?id=48697746 Points: 5 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "OpenRA",
+      "link": "https://www.openra.net/",
+      "pubDate": "2026-06-27T12:10:27.000Z",
+      "description": "Article URL: https://www.openra.net/ Comments URL: https://news.ycombinator.com/item?id=48697560 Points: 79 # Comments: 26",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Nox Metals (YC S25) Is Hiring SWE",
+      "link": "https://www.ycombinator.com/companies/nox-metals/jobs/M1f1enD-software-engineer",
+      "pubDate": "2026-06-27T12:01:03.000Z",
+      "description": "Article URL: https://www.ycombinator.com/companies/nox-metals/jobs/M1f1enD-software-engineer Comments URL: https://news.ycombinator.com/item?id=48697504 Points: 0 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "If you can't hold it, you don't own it",
+      "link": "https://dervis.de/physical/",
+      "pubDate": "2026-06-27T11:32:10.000Z",
+      "description": "Article URL: https://dervis.de/physical/ Comments URL: https://news.ycombinator.com/item?id=48697335 Points: 81 # Comments: 45",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Fintech Engineering Handbook",
+      "link": "https://w.pitula.me/fintech-engineering-handbook/",
+      "pubDate": "2026-06-27T10:28:53.000Z",
+      "description": "Article URL: https://w.pitula.me/fintech-engineering-handbook/ Comments URL: https://news.ycombinator.com/item?id=48696982 Points: 168 # Comments: 55",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "DSpark: Speculative decoding accelerates LLM inference [pdf]",
+      "link": "https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf",
+      "pubDate": "2026-06-27T09:18:52.000Z",
+      "description": "Article URL: https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf Comments URL: https://news.ycombinator.com/item?id=48696585 Points: 507 # Comments: 180",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Beer CSS – Build material design in record time",
+      "link": "https://www.beercss.com",
+      "pubDate": "2026-06-27T09:06:11.000Z",
+      "description": "Article URL: https://www.beercss.com Comments URL: https://news.ycombinator.com/item?id=48696510 Points: 66 # Comments: 23",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -101,71 +165,7 @@
       "title": "IBM MCGA Gate Array Reverse Engineering",
       "link": "https://github.com/schlae/IBM_MCGA",
       "pubDate": "2026-06-27T05:17:08.000Z",
-      "description": "Article URL: https://github.com/schlae/IBM_MCGA Comments URL: https://news.ycombinator.com/item?id=48695363 Points: 19 # Comments: 4",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "OpenTTD 16.0-Beta1",
-      "link": "https://www.openttd.org/news/2026/06/25/openttd-16-0-beta1",
-      "pubDate": "2026-06-27T04:31:06.000Z",
-      "description": "Article URL: https://www.openttd.org/news/2026/06/25/openttd-16-0-beta1 Comments URL: https://news.ycombinator.com/item?id=48695149 Points: 138 # Comments: 18",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "WordStar: A Writer's Word Processor (1996)",
-      "link": "https://www.sfwriter.com/wordstar.htm",
-      "pubDate": "2026-06-27T03:30:01.000Z",
-      "description": "Article URL: https://www.sfwriter.com/wordstar.htm Comments URL: https://news.ycombinator.com/item?id=48694853 Points: 77 # Comments: 32",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Anatomy of a Failed (Nation-State?) Attack",
-      "link": "https://grack.com/blog/2026/06/25/dissecting-a-failed-nation-state-attack/",
-      "pubDate": "2026-06-27T02:41:53.000Z",
-      "description": "Article URL: https://grack.com/blog/2026/06/25/dissecting-a-failed-nation-state-attack/ Comments URL: https://news.ycombinator.com/item?id=48694631 Points: 48 # Comments: 7",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Show HN: Hacker News on a train station-style flip board",
-      "link": "https://popflame.quickish.space/hn-flipboard/",
-      "pubDate": "2026-06-27T00:43:39.000Z",
-      "description": "Although the page itself is more just fun to have made and look at (I like the flip sound), the fun part is how I made it to verify the (and I hate to say it) vibe host service I've been working on. The recent flip board back and forth's on Twitter (X) are what inspired me.The idea here is that peop",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Foreign funds help make housing unaffordable: research",
-      "link": "https://news.mccombs.utexas.edu/research/foreign-funds-help-make-housing-unaffordable/",
-      "pubDate": "2026-06-26T23:36:30.000Z",
-      "description": "Article URL: https://news.mccombs.utexas.edu/research/foreign-funds-help-make-housing-unaffordable/ Comments URL: https://news.ycombinator.com/item?id=48693420 Points: 71 # Comments: 19",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Om",
-      "link": "https://daringfireball.net/2026/06/om",
-      "pubDate": "2026-06-26T23:33:46.000Z",
-      "description": "Related: Om Malik has died - https://news.ycombinator.com/item?id=48678852 - June 2026 (161 comments) Comments URL: https://news.ycombinator.com/item?id=48693391 Points: 347 # Comments: 15",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "U.S. allows Anthropic to release Mythos AI to ‘trusted’ US organizations",
-      "link": "https://www.semafor.com/article/06/27/2026/us-releases-powerful-anthropic-model-mythos-to-some-us-companies",
-      "pubDate": "2026-06-26T22:48:28.000Z",
-      "description": "https://archive.md/ArXuFhttps://www.nbcnews.com/tech/tech-news/us-government-gives-a... Comments URL: https://news.ycombinator.com/item?id=48692995 Points: 414 # Comments: 438",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Why does kinetic energy increase quadratically, not linearly, with speed? (2011)",
-      "link": "https://physics.stackexchange.com/questions/535/why-does-kinetic-energy-increase-quadratically-not-linearly-with-speed",
-      "pubDate": "2026-06-26T22:43:29.000Z",
-      "description": "Article URL: https://physics.stackexchange.com/questions/535/why-does-kinetic-energy-increase-quadratically-not-linearly-with-speed Comments URL: https://news.ycombinator.com/item?id=48692946 Points: 228 # Comments: 104",
+      "description": "Article URL: https://github.com/schlae/IBM_MCGA Comments URL: https://news.ycombinator.com/item?id=48695363 Points: 48 # Comments: 8",
       "source": "Hacker News",
       "category": "Tech News"
     },
