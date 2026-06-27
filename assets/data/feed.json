@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T04:16:31.702Z",
+  "generatedAt": "2026-06-27T08:49:47.640Z",
   "sourceCount": 4,
   "successCount": 3,
   "errors": [
@@ -10,98 +10,122 @@
   ],
   "items": [
     {
-      "title": "Project Valhalla in JDK 28: What Value Classes Actually Change",
-      "link": "https://dev.to/dev_encyclopedia/project-valhalla-in-jdk-28-what-value-classes-actually-change-3hkh",
-      "pubDate": "2026-06-27T04:10:26.000Z",
-      "description": "<p>Project Valhalla has been Java's most anticipated, slowest arriving feature for over a decade. On June 15, 2026, Oracle engineer Lois Foltan confirmed JEP 401 (Value Classes and Objects) is integrating into OpenJDK mainline, targeting a preview in JDK 28.</p> <p>The scale is significant: 197,000 ",
+      "title": "Swift Structs — Building Your Own Custom Types 🏗️",
+      "link": "https://dev.to/gamya_m/swift-structs-building-your-own-custom-types-391m",
+      "pubDate": "2026-06-27T08:44:00.000Z",
+      "description": "<p>So far we've been working with Swift's built-in types — <code>String</code>, <code>Int</code>, <code>Bool</code>, <code>Array</code>. But what if you need a type that doesn't exist yet? What if you want to represent a <em>ninja</em>, or an <em>anime character</em>, or a <em>guild</em>? That's exa",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Headless Mode on NVIDIA Jetson AGX Orin 64GB with JetPack 7.2",
-      "link": "https://dev.to/vonusma/headless-mode-on-nvidia-jetson-agx-orin-64gb-with-jetpack-72-448a",
-      "pubDate": "2026-06-27T04:08:35.000Z",
-      "description": "<p><strong>Tags:</strong> <code>jetson</code> <code>jetpack-7.2</code> <code>headless</code> <code>nomachine</code> <code>ubuntu-24.04</code> <code>embedded-ai</code> <code>edge-ai</code></p> <h2> Overview </h2> <p>This guide walks through enabling fully <strong>headless operation</strong> on the NV",
+      "title": "AI Helps Us Write Code Faster. So Why Aren’t Projects Moving Faster?",
+      "link": "https://dev.to/swrzalek/ai-helps-us-write-code-faster-so-why-arent-projects-moving-faster-49jo",
+      "pubDate": "2026-06-27T08:40:00.000Z",
+      "description": "<p>We can generate code faster than ever.</p> <p>Features that once took several days can now be implemented in a few hours. Boilerplate disappears almost instantly. Tests, migrations, API clients, and entire components can be produced before we have finished describing the task.</p> <p>On paper, so",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "tgo Dev log #4: The Dread of Competition, Native Compilation, and the Relentless Grind of Hard Things",
-      "link": "https://dev.to/mtleadership/tgo-dev-log-4-the-dread-of-competition-native-compilation-and-the-relentless-grind-of-hard-41l1",
-      "pubDate": "2026-06-27T04:00:00.000Z",
-      "description": "<p>I had a micro-heart attack this week. </p> <p>I was in the middle of working through some deep implementation issues on <code>tgo</code> when I stumbled across a project called Goja. My stomach instantly dropped. I got this sudden, heavy sense of dread that someone had already built exactly what ",
+      "title": "Why current balance is a weak UX primitive for everyday banking",
+      "link": "https://dev.to/darca/why-current-balance-is-a-weak-ux-primitive-for-everyday-banking-5gkh",
+      "pubDate": "2026-06-27T08:35:41.000Z",
+      "description": "<p>If an app shows only how much money is there right now but ignores the obligations already moving towards that balance, it gives the user a distorted picture of reality</p> <p>One of the most underestimated mistakes in digital banking is the assumption that the current balance already gives the u",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Can AI Understand a Codebase With 15 Years of History?",
-      "link": "https://dev.to/live_codingua_1ccbad5e5dc/can-ai-understand-a-codebase-with-15-years-of-history-46ka",
-      "pubDate": "2026-06-27T03:57:33.000Z",
-      "description": "<p>A ten- to fifteen-year-old enterprise system is not just “old code” — it is a living organism: millions of lines, hundreds of tables, dozens of integrations, and knowledge that never made it into Confluence. Onboarding a new developer can easily stretch to months. The question for 2026: can moder",
+      "title": "Handling ISO Currency Codes in Software",
+      "link": "https://dev.to/doogal/handling-iso-currency-codes-in-software-37hi",
+      "pubDate": "2026-06-27T08:35:36.000Z",
+      "description": "<p><strong>Quick Answer:</strong> When processing financial transactions over the internet, systems cannot rely on ambiguous symbols like the dollar sign ($) because dozens of countries share it. Instead, banking APIs use ISO 4217, a global standard that assigns a unique three-letter code (like USD,",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Bus + one-wheel last mile: range math that actually matches reality",
-      "link": "https://dev.to/kingsongeuc/bus-one-wheel-last-mile-range-math-that-actually-matches-reality-3nf8",
-      "pubDate": "2026-06-27T03:51:33.000Z",
-      "description": "<p>I started treating a one-wheel like a folding bike replacement for a 3 km bus gap. The spreadsheet looked fine. Real life did not.## What broke my first estimates*<em>Sticker range is not commute range.</em>* Hills, cold mornings, and stop-and-go ate about 3% of the rated number on my route. I no",
+      "title": "JWT Explained: What It Is, How It Works, and Why You Should Care",
+      "link": "https://dev.to/kavindotdev/jwt-explained-what-it-is-how-it-works-and-why-you-should-care-538p",
+      "pubDate": "2026-06-27T08:28:38.000Z",
+      "description": "<p>If you've ever built a login system and wondered \"should I use sessions or tokens?\" - this one's for you.</p> <p>So..What Even Is a JWT?</p> <h2> JWT stands for JSON Web Token, it's just a way for a server to hand a client a small, self-contained package of information that the client can carry a",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Bringing Notes, WeChat Reading, and Zhihu into Obsidian: My LLM-Wiki Knowledge Hub",
-      "link": "https://dev.to/sandgrid/bringing-notes-wechat-reading-and-zhihu-into-obsidian-my-llm-wiki-knowledge-hub-33lh",
-      "pubDate": "2026-06-27T03:39:10.000Z",
-      "description": "<p>A while back, I came across Andrej Karpathy's llm-wiki concept and felt an instant sense of resonance. I've always enjoyed writing things down, but the problem was that everything ended up scattered across different places, and I never had the energy to manage it properly. When I discovered llm-w",
+      "title": "DESIGN.md vs tokens.json vs Figma for AI Agents",
+      "link": "https://dev.to/promptmaster/designmd-vs-tokensjson-vs-figma-for-ai-agents-23b4",
+      "pubDate": "2026-06-27T08:24:45.000Z",
+      "description": "<p><strong>DESIGN.md is the only common approach that gives an agent structured values, expressible rules, machine readability, and persistence in one versioned file.</strong> Here is how it compares to the alternatives.</p> <h2> tokens.json: values, no rules </h2> <p>A tokens.json gives exact value",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Free AI Video Generator: How I Built a Zero-Cost Tool for Narrated Multi-Scene Videos",
-      "link": "https://dev.to/sandgrid/free-ai-video-generator-how-i-built-a-zero-cost-tool-for-narrated-multi-scene-videos-1kmf",
-      "pubDate": "2026-06-27T03:37:26.000Z",
-      "description": "<blockquote> <p>\"The solution is not to suppress AI, but to make it a more equitable capability, so that everyone knows how to create more with AI. This is a very important vision for our company — to make world-class AI belong to everyone.\"</p> </blockquote> <p>This is something Bruce Yang, the fou",
+      "title": "When the agent codes in seconds, CI becomes the slow neighbour",
+      "link": "https://dev.to/leobaniak/when-the-agent-codes-in-seconds-ci-becomes-the-slow-neighbour-4ob2",
+      "pubDate": "2026-06-27T08:24:16.000Z",
+      "description": "<p>Last week I caught myself doing something embarrassing. I asked an agent to scaffold a small handler, watched it return a tidy diff in roughly the time it takes to refill a glass of water, and then I sat there waiting on pull-request CI to tell me a brace was in the wrong place. The author of tha",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Visible Wins, Quiet Losses: The Traps We Mistake for Truth",
-      "link": "https://dev.to/kenielzep97/visible-wins-quiet-losses-the-traps-we-mistake-for-truth-1nfk",
-      "pubDate": "2026-06-27T03:36:27.000Z",
-      "description": "<p>A friend asked me to build him something practical.</p> <p>He follows a paid trading group. Private Discord, trade alerts, green screenshots, people posting big percentage moves. He wanted an agent that could watch those calls and eventually trade for him, so he would not have to sit in front of ",
+      "title": "What I learned adding diagram and chart slides to a CI-rendered YouTube pipeline",
+      "link": "https://dev.to/morinaga/what-i-learned-adding-diagram-and-chart-slides-to-a-ci-rendered-youtube-pipeline-3bnl",
+      "pubDate": "2026-06-27T08:24:01.000Z",
+      "description": "<p>The conclusion first: pre-rendering diagrams and charts to PNG before compositing them onto slides — rather than generating visual content inline or inside ffmpeg — is the right architecture for a CI video pipeline. The tooling gap between Chromium-backed Mermaid rendering, headless matplotlib, a",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Web Vitals de usuarios reales sin un proveedor de paga",
-      "link": "https://dev.to/aws-builders/web-vitals-de-usuarios-reales-sin-un-proveedor-de-paga-40im",
-      "pubDate": "2026-06-27T03:33:44.000Z",
-      "description": "<h1> Web Vitals de usuarios reales sin un proveedor de paga: de <code>LCP</code> en el navegador a un p75 sobre el que puedes alarmar </h1> <p>Lighthouse te dice cómo se comportó <em>una</em> corrida en <em>tu</em> laptop. Tus<br> usuarios están en un Android de gama media sobre 4G en otro país. Eso",
+      "title": "Netdata vs SigNoz vs OpenObserve: self-hosted observability for indie projects",
+      "link": "https://dev.to/morinaga/netdata-vs-signoz-vs-openobserve-self-hosted-observability-for-indie-projects-1mob",
+      "pubDate": "2026-06-27T08:23:57.000Z",
+      "description": "<p>I've been building out the <a href=\"https://ossfind.com\" rel=\"noopener noreferrer\">ossfind.com</a> OSS alternatives directory, and observability tools come up constantly as a category where the SaaS-to-OSS migration question is genuinely interesting. Datadog is the canonical expensive monitoring ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I built a production-ready Spring Boot 4 Starter Kit (and Reddit roasted it into something better)",
-      "link": "https://dev.to/raahulllkushwaha/i-built-a-production-ready-spring-boot-4-starter-kit-and-reddit-roasted-it-into-something-better-4co4",
-      "pubDate": "2026-06-27T03:33:12.000Z",
-      "description": "<p><strong>Why I built this</strong></p> <p>Every new Spring Boot project starts the same way.</p> <p>JWT setup. Security config. CORS. Rate limiting. <br> Docker. CI/CD. Exception handling.</p> <p>I was copy-pasting the same boilerplate across projects, <br> so I decided to build it once, do it pro",
+      "title": "MCP is finally here: stop building REST boilerplate and start shipping",
+      "link": "https://dev.to/lgpoliveira/mcp-is-finally-here-stop-building-rest-boilerplate-and-start-shipping-2fdj",
+      "pubDate": "2026-06-27T08:22:28.000Z",
+      "description": "<blockquote> <p><strong>TL;DR:</strong> BugiaData MCP is live. Point Cursor, Claude, or Windsurf at a hosted SSE server, paste one config block, and ask your agent for relational fake data with valid foreign keys—no custom REST glue in your repo.</p> </blockquote> <p>If you build with AI agents, you",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "Is America becoming a gerontocracy?",
+      "link": "https://www.economist.com/culture/2026/06/25/is-america-becoming-a-gerontocracy",
+      "pubDate": "2026-06-27T06:22:45.000Z",
+      "description": "Article URL: https://www.economist.com/culture/2026/06/25/is-america-becoming-a-gerontocracy Comments URL: https://news.ycombinator.com/item?id=48695694 Points: 24 # Comments: 27",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "IBM MCGA Gate Array Reverse Engineering",
+      "link": "https://github.com/schlae/IBM_MCGA",
+      "pubDate": "2026-06-27T05:17:08.000Z",
+      "description": "Article URL: https://github.com/schlae/IBM_MCGA Comments URL: https://news.ycombinator.com/item?id=48695363 Points: 19 # Comments: 4",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "OpenTTD 16.0-Beta1",
+      "link": "https://www.openttd.org/news/2026/06/25/openttd-16-0-beta1",
+      "pubDate": "2026-06-27T04:31:06.000Z",
+      "description": "Article URL: https://www.openttd.org/news/2026/06/25/openttd-16-0-beta1 Comments URL: https://news.ycombinator.com/item?id=48695149 Points: 138 # Comments: 18",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "WordStar: A Writer's Word Processor (1996)",
       "link": "https://www.sfwriter.com/wordstar.htm",
       "pubDate": "2026-06-27T03:30:01.000Z",
-      "description": "Article URL: https://www.sfwriter.com/wordstar.htm Comments URL: https://news.ycombinator.com/item?id=48694853 Points: 7 # Comments: 2",
+      "description": "Article URL: https://www.sfwriter.com/wordstar.htm Comments URL: https://news.ycombinator.com/item?id=48694853 Points: 77 # Comments: 32",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Ask HN: MacBook vs. Dedicated GPU for LLM",
-      "link": "https://news.ycombinator.com/item?id=48694802",
-      "pubDate": "2026-06-27T03:17:43.000Z",
-      "description": "For those who are using llms on macbook, Want to understand how macbook is different than dedicated GPU in running those models? and how to know how much a macbook is capable of running a model? Comments URL: https://news.ycombinator.com/item?id=48694802 Points: 9 # Comments: 4",
+      "title": "Anatomy of a Failed (Nation-State?) Attack",
+      "link": "https://grack.com/blog/2026/06/25/dissecting-a-failed-nation-state-attack/",
+      "pubDate": "2026-06-27T02:41:53.000Z",
+      "description": "Article URL: https://grack.com/blog/2026/06/25/dissecting-a-failed-nation-state-attack/ Comments URL: https://news.ycombinator.com/item?id=48694631 Points: 48 # Comments: 7",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -117,7 +141,7 @@
       "title": "Foreign funds help make housing unaffordable: research",
       "link": "https://news.mccombs.utexas.edu/research/foreign-funds-help-make-housing-unaffordable/",
       "pubDate": "2026-06-26T23:36:30.000Z",
-      "description": "Article URL: https://news.mccombs.utexas.edu/research/foreign-funds-help-make-housing-unaffordable/ Comments URL: https://news.ycombinator.com/item?id=48693420 Points: 13 # Comments: 1",
+      "description": "Article URL: https://news.mccombs.utexas.edu/research/foreign-funds-help-make-housing-unaffordable/ Comments URL: https://news.ycombinator.com/item?id=48693420 Points: 71 # Comments: 19",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -125,7 +149,7 @@
       "title": "Om",
       "link": "https://daringfireball.net/2026/06/om",
       "pubDate": "2026-06-26T23:33:46.000Z",
-      "description": "Related: Om Malik has died - https://news.ycombinator.com/item?id=48678852 - June 2026 (161 comments) Comments URL: https://news.ycombinator.com/item?id=48693391 Points: 195 # Comments: 13",
+      "description": "Related: Om Malik has died - https://news.ycombinator.com/item?id=48678852 - June 2026 (161 comments) Comments URL: https://news.ycombinator.com/item?id=48693391 Points: 347 # Comments: 15",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -133,7 +157,7 @@
       "title": "U.S. allows Anthropic to release Mythos AI to ‘trusted’ US organizations",
       "link": "https://www.semafor.com/article/06/27/2026/us-releases-powerful-anthropic-model-mythos-to-some-us-companies",
       "pubDate": "2026-06-26T22:48:28.000Z",
-      "description": "https://archive.md/ArXuFhttps://www.nbcnews.com/tech/tech-news/us-government-gives-a... Comments URL: https://news.ycombinator.com/item?id=48692995 Points: 290 # Comments: 289",
+      "description": "https://archive.md/ArXuFhttps://www.nbcnews.com/tech/tech-news/us-government-gives-a... Comments URL: https://news.ycombinator.com/item?id=48692995 Points: 414 # Comments: 438",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -141,31 +165,7 @@
       "title": "Why does kinetic energy increase quadratically, not linearly, with speed? (2011)",
       "link": "https://physics.stackexchange.com/questions/535/why-does-kinetic-energy-increase-quadratically-not-linearly-with-speed",
       "pubDate": "2026-06-26T22:43:29.000Z",
-      "description": "Article URL: https://physics.stackexchange.com/questions/535/why-does-kinetic-energy-increase-quadratically-not-linearly-with-speed Comments URL: https://news.ycombinator.com/item?id=48692946 Points: 141 # Comments: 59",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "AI in mathematics is forcing big questions",
-      "link": "https://spectrum.ieee.org/ai-in-mathematics",
-      "pubDate": "2026-06-26T22:36:51.000Z",
-      "description": "Article URL: https://spectrum.ieee.org/ai-in-mathematics Comments URL: https://news.ycombinator.com/item?id=48692883 Points: 75 # Comments: 37",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "The open source DOCX editor submitted to HN a few weeks ago has been deleted",
-      "link": "https://news.ycombinator.com/item?id=48692474",
-      "pubDate": "2026-06-26T21:54:59.000Z",
-      "description": "The github repo under eigenpal is gone. The web site at docx-editor is 503. No idea what's going on. Comments URL: https://news.ycombinator.com/item?id=48692474 Points: 76 # Comments: 36",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "A C++ implementation of a fast hash map and hash set using hopscotch hashing",
-      "link": "https://github.com/Tessil/hopscotch-map",
-      "pubDate": "2026-06-26T21:18:28.000Z",
-      "description": "Article URL: https://github.com/Tessil/hopscotch-map Comments URL: https://news.ycombinator.com/item?id=48692090 Points: 76 # Comments: 12",
+      "description": "Article URL: https://physics.stackexchange.com/questions/535/why-does-kinetic-energy-increase-quadratically-not-linearly-with-speed Comments URL: https://news.ycombinator.com/item?id=48692946 Points: 228 # Comments: 104",
       "source": "Hacker News",
       "category": "Tech News"
     },
