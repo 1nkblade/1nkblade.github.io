@@ -1,173 +1,248 @@
 {
-  "generatedAt": "2026-06-27T14:06:29.402Z",
+  "generatedAt": "2026-06-27T19:45:45.851Z",
   "sourceCount": 4,
-  "successCount": 3,
-  "errors": [
-    {
-      "source": "CSS Tricks",
-      "error": "HTTP 415 Unsupported Media Type"
-    }
-  ],
+  "successCount": 4,
+  "errors": [],
   "items": [
     {
-      "title": "The Developer's Guide to Trimming AI API Costs Without Crying",
-      "link": "https://dev.to/swift-logic-io218/the-developers-guide-to-trimming-ai-api-costs-without-crying-12c2",
-      "pubDate": "2026-06-27T14:01:29.000Z",
-      "description": "<p>The Developer's Guide to Trimming AI API Costs Without Crying</p> <p>Last March, I opened our team's LLM billing dashboard on a Monday morning and nearly choked on my coffee. We'd spent $11,400 in a single month. Three times what we'd projected at the start of the quarter. I'm a backend engineer,",
+      "title": "I Got Tired of Rewriting AI API Wrappers, So I Built a Gateway",
+      "link": "https://dev.to/manolito99/i-got-tired-of-rewriting-ai-api-wrappers-so-i-built-a-gateway-58n5",
+      "pubDate": "2026-06-27T19:35:50.000Z",
+      "description": "<p>Every side project starts the same way.</p> <p>-Generate an OpenAI key.<br><br> -Add it to <code>.env</code>.<br><br> -Write a wrapper.<br><br> -Realize I also need Claude.<br><br> -Create another account.<br><br> -Another API key.<br><br> -Another billing dashboard. </p> <p>Before the project ev",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Stopping the flicker when you restyle a video frame by frame",
-      "link": "https://dev.to/wladradchenko/stopping-the-flicker-when-you-restyle-a-video-frame-by-frame-5eio",
-      "pubDate": "2026-06-27T14:01:21.000Z",
-      "description": "<p>Run a diffusion restyle on every frame of a clip, one frame at a time, and the still images look great. Then you play them back and the whole thing boils. Textures crawl, colors pulse, a brick wall shifts its grout lines every frame. The model did nothing wrong on any single frame. It just made a",
+      "title": "Your AI Agent Doesn't Need to Be Smarter. It Needs to Be Idempotent",
+      "link": "https://dev.to/gs_sanjana_3e822112e14f8/your-ai-agent-doesnt-need-to-be-smarter-it-needs-to-be-idempotent-2736",
+      "pubDate": "2026-06-27T19:22:08.000Z",
+      "description": "<p>Most of the failures I see in production AI agents aren't reasoning failures. The model picks the right tool, fills in the right arguments, and makes a perfectly sensible decision. Then the agent charges the customer twice.</p> <p>The reason is mundane and has nothing to do with intelligence. A w",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Session-Level Spending Limits Are Not Governance. Your Agent Needs Autonomy Tiers.",
-      "link": "https://dev.to/kavinkimcreator/session-level-spending-limits-are-not-governance-your-agent-needs-autonomy-tiers-4890",
-      "pubDate": "2026-06-27T14:00:18.000Z",
-      "description": "<p>4 days until MiCA enforcement. AWS Bedrock AgentCore shipped session-level spending limits. Coinbase x402 shipped per-request payment authorization. Both solve the wrong problem.</p> <p>A $0.50 API call and a $5,000 service procurement should not pass through the same governance gate. One needs i",
+      "title": "Humanizing Artificial Intelligence for Log Analysis: Turning Raw Server Logs Into Clear DevOps Answers",
+      "link": "https://dev.to/jjoyneriv/humanizing-artificial-intelligence-for-log-analysis-turning-raw-server-logs-into-clear-devops-2dnm",
+      "pubDate": "2026-06-27T19:21:04.000Z",
+      "description": "<p>It's 2:14 a.m. and my phone is buzzing because a customer's instance won't get a floating IP. The alert is one line. The truth is somewhere in about forty thousand lines spread across <code>nova-compute</code>, <code>neutron-server</code>, the OVS agent, and <code>libvirtd</code> — each with its ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Code Challenge of the Day — Count two-sum pairs (medium)",
-      "link": "https://dev.to/iwtlp/code-challenge-of-the-day-count-two-sum-pairs-medium-1jlo",
-      "pubDate": "2026-06-27T14:00:09.000Z",
-      "description": "<p>Picks up where Two-sum indices left off.</p> <p>Same setup as two-sum, but count how many index pairs (i&lt;j) sum to target.<br> Write count_pairs(nums, target).</p> <p><strong>Starter:</strong><br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight python\"><code><span class=\"k",
+      "title": "We Built an AI Receptionist. The Hard Part Wasn't Making It Sound Human.",
+      "link": "https://dev.to/syednoor760dev/we-built-an-ai-receptionist-the-hard-part-wasnt-making-it-sound-human-1le1",
+      "pubDate": "2026-06-27T19:19:45.000Z",
+      "description": "<p>It's 8:40 on a Tuesday evening. A dental clinic is closed, the front desk is dark, and the phone rings. A new patient wants to book a cleaning. Normally that call dies in voicemail, and the patient calls the next clinic on the list.</p> <p>We wanted to see what would happen if something picked up",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How I Replaced Gemini with a Self-Hosted LLM for Two Production Apps",
-      "link": "https://dev.to/smngvlkz/how-i-replaced-gemini-with-a-self-hosted-llm-for-two-production-apps-3069",
-      "pubDate": "2026-06-27T13:56:38.000Z",
-      "description": "<p>A while back I wrote about <a href=\"https://dev.to/smngvlkz/a-calm-terminal-inspired-portfolio-focused-on-shipped-products-ga8\">my terminal-inspired portfolio</a> and the products it indexes. Two of those products lean on a language model: the portfolio terminal at <a href=\"https://smngvlkz.com\" ",
+      "title": "GCC vs Clang: A Low‑Level Systems Compiler Showdown",
+      "link": "https://dev.to/paradane/gcc-vs-clang-a-low-level-systems-compiler-showdown-3210",
+      "pubDate": "2026-06-27T19:17:25.000Z",
+      "description": "<p>GCC and Clang are the two dominant compilers that power low‑level systems programming. GCC, originally the GNU Compiler Collection, has been the standard choice for decades across Linux, BSD, and embedded targets, while Clang, introduced as part of the LLVM project, has gained traction for its mo",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Access Is Not Agency",
-      "link": "https://dev.to/harryfloyd/access-is-not-agency-3hni",
-      "pubDate": "2026-06-27T13:53:43.000Z",
-      "description": "<p>Your agent can read Slack. It can search email. It can query the CRM, open GitHub issues, check billing, browse docs, edit a spreadsheet, draft a customer reply, and call three internal APIs.</p> <p>Everyone in the room calls it powerful. That is the first mistake.</p> <p>The question is not what",
+      "title": "We Didn't Need Another AI Tool. We Needed Better Processes.",
+      "link": "https://dev.to/saifuddin_tipu_ba2d0355b0/we-didnt-need-another-ai-tool-we-needed-better-processes-254",
+      "pubDate": "2026-06-27T19:13:53.000Z",
+      "description": "<p>AI is everywhere.</p> <p>Every day, a new tool promises to automate your work, answer your questions, or replace entire job roles.</p> <p>But after talking to business owners and operations teams, I kept hearing the same problem:</p> <p>«\"Our issue isn't AI. Our issue is that nobody follows the s",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Why My Polymarket Bot Watches Chainlink, Not Binance - The Oracle Gap That Changes Every Close Trade",
-      "link": "https://dev.to/adelan/why-my-polymarket-bot-watches-chainlink-not-binance-the-oracle-gap-that-changes-every-close-1e96",
-      "pubDate": "2026-06-27T13:53:38.000Z",
-      "description": "<p>For the first few weeks I was running my bot, I was comparing Polymarket prices against Binance spot. Seemed obvious. BTC/USD is BTC/USD, right?</p> <p>Wrong. Cost me real money before I figured out why.</p> <p>The bot is open source if you want to dig into the code: <a href=\"https://github.com/M",
+      "title": "I Got Tired of AI Agents Having Root Access to Everything, So I Built XRisk",
+      "link": "https://dev.to/hootsworth/i-got-tired-of-ai-agents-having-root-access-to-everything-so-i-built-xrisk-11k5",
+      "pubDate": "2026-06-27T19:13:01.000Z",
+      "description": "<p>Everyone is building AI agents.</p> <p>Very few people are building the thing that sits between an AI agent and a disastrous decision.</p> <p>That's why I built XRisk.</p> <p>XRisk is an open-source autonomous safety engine that acts as a decision layer between an AI agent and the real world.</p>",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How I Built Tombstone: A Self-Hosted Feature Flag Intelligence Platform to Prevent the Next Knight Capital",
-      "link": "https://dev.to/sai_ram_0000/how-i-built-tombstone-a-self-hosted-feature-flag-intelligence-platform-to-prevent-the-next-knight-10lp",
-      "pubDate": "2026-06-27T13:46:34.000Z",
-      "description": "<h2> The 2am Dashboard That Started Everything </h2> <p>It was 2:47am when I opened our feature flag dashboard and realized I had no idea what had changed. P99 latency on our payments service had spiked to 4.2 seconds about 20 minutes earlier, and the on-call playbook said to check recent flag chang",
+      "title": "Building My Personal Website From Scratch: Tech Stack, Architecture, and Lessons Learned",
+      "link": "https://dev.to/shubham399/building-my-personal-website-from-scratch-tech-stack-architecture-and-lessons-learned-1h04",
+      "pubDate": "2026-06-27T19:12:59.000Z",
+      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimagedelivery.net%2FlLmNeOP7HXG0OqaG97wimw%2F95a7ced4-fd82-4716-a6d0-b434f9e2b1f7%2Fcefcefc9-a186-4b42-b0c7-481df84ee9eb.png%2Fpublic\" class=\"article-body-image-wrapper\"><i",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I let AI write this post. Then I deleted everything that made it sound like AI.",
-      "link": "https://dev.to/fernforge/i-let-ai-write-this-post-then-i-deleted-everything-that-made-it-sound-like-ai-28aj",
-      "pubDate": "2026-06-27T13:38:02.000Z",
-      "description": "<p>A language model wrote this post. I directed it, but I didn't rewrite a single sentence by hand. Then I ran the draft through a small ruleset called Alchemy. If the writing below doesn't trip your \"this is AI\" alarm, that's the entire point, and I'll show you the machinery.</p> <p>Start with the ",
+      "title": "Why I Wrote 25 Engineering Rules Before Writing O-AI",
+      "link": "https://dev.to/shriisoot/why-i-wrote-25-engineering-rules-before-writing-o-ai-3091",
+      "pubDate": "2026-06-27T19:12:34.000Z",
+      "description": "<p>Most AI projects start with code.</p> <p>I started with documentation.</p> <p>Before implementing O-AI, I spent weeks writing a complete engineering handbook covering architecture, memory systems, multi-agent design, security, testing, deployment, debugging, governance, and long-term maintainabil",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Browser Security Model: The Defensive Walls Every Hacker Knows (And Every Developer Should Too)",
-      "link": "https://dev.to/arashad_dodhiya_0e4bdba5a/browser-security-model-the-defensive-walls-every-hacker-knows-and-every-developer-should-too-4cc3",
-      "pubDate": "2026-06-27T13:36:14.000Z",
-      "description": "<blockquote> <p><em>\"To defend a system, you must first think like the attacker.\"</em></p> </blockquote> <p>I'll tell you this: the browser is one of the most hostile execution environments ever built. Every tab you open is potentially running untrusted code inches away from your banking session.</p",
+      "title": "Three Token-2022 Mints in One Week: Fees, Yield, and Soul-Bound Tokens",
+      "link": "https://dev.to/neocarvajal/three-token-2022-mints-in-one-week-fees-yield-and-soul-bound-tokens-j4j",
+      "pubDate": "2026-06-27T19:10:11.000Z",
+      "description": "<p>During the last few days of the 100 Days Of Solana challenge, I explored one of the most interesting features of Solana's Token-2022 Program: <strong>extensions</strong>.</p> <p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Asian AI startups launch Mythos-like models",
-      "link": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
-      "pubDate": "2026-06-27T13:10:21.000Z",
-      "description": "Article URL: https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/ Comments URL: https://news.ycombinator.com/item?id=48697958 Points: 7 # Comments: 1",
+      "title": "IP Crawl: living atlas of open webcams discovered on the public internet",
+      "link": "https://ipcrawl.com/",
+      "pubDate": "2026-06-27T19:09:49.000Z",
+      "description": "Article URL: https://ipcrawl.com/ Comments URL: https://news.ycombinator.com/item?id=48700834 Points: 5 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Streaming services' obnoxiously loud ads become illegal on July 1 in California",
-      "link": "https://arstechnica.com/gadgets/2026/06/streaming-services-obnoxiously-loud-ads-become-illegal-on-july-1-in-california/",
-      "pubDate": "2026-06-27T12:43:16.000Z",
-      "description": "Article URL: https://arstechnica.com/gadgets/2026/06/streaming-services-obnoxiously-loud-ads-become-illegal-on-july-1-in-california/ Comments URL: https://news.ycombinator.com/item?id=48697768 Points: 25 # Comments: 2",
+      "title": "Ships keep moving through Hormuz despite strike",
+      "link": "https://www.lloydslist.com/LL1157680/Ships-keep-moving-through-Hormuz-despite-strike-and-suspension-of-IMO-exit-strategy",
+      "pubDate": "2026-06-27T19:06:03.000Z",
+      "description": "Article URL: https://www.lloydslist.com/LL1157680/Ships-keep-moving-through-Hormuz-despite-strike-and-suspension-of-IMO-exit-strategy Comments URL: https://news.ycombinator.com/item?id=48700805 Points: 11 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "How Many Elementary Particles Are There, Really?",
-      "link": "https://www.quantamagazine.org/how-many-elementary-particles-are-there-really-20260615/",
-      "pubDate": "2026-06-27T12:40:59.000Z",
-      "description": "Article URL: https://www.quantamagazine.org/how-many-elementary-particles-are-there-really-20260615/ Comments URL: https://news.ycombinator.com/item?id=48697746 Points: 5 # Comments: 0",
+      "title": "The Card That Made the Apple II Serious",
+      "link": "https://www.wiseowl.com/articles/a2fpga-videx-01-the-card-that-made-the-apple-ii-serious/",
+      "pubDate": "2026-06-27T18:00:46.000Z",
+      "description": "Article URL: https://www.wiseowl.com/articles/a2fpga-videx-01-the-card-that-made-the-apple-ii-serious/ Comments URL: https://news.ycombinator.com/item?id=48700317 Points: 7 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "OpenRA",
-      "link": "https://www.openra.net/",
-      "pubDate": "2026-06-27T12:10:27.000Z",
-      "description": "Article URL: https://www.openra.net/ Comments URL: https://news.ycombinator.com/item?id=48697560 Points: 79 # Comments: 26",
+      "title": "\"No, I swear I wrote this.\"",
+      "link": "https://revise.io/blog/06-27-2026/no-i-swear-i-wrote-this",
+      "pubDate": "2026-06-27T17:17:05.000Z",
+      "description": "Article URL: https://revise.io/blog/06-27-2026/no-i-swear-i-wrote-this Comments URL: https://news.ycombinator.com/item?id=48699969 Points: 11 # Comments: 10",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Nox Metals (YC S25) Is Hiring SWE",
-      "link": "https://www.ycombinator.com/companies/nox-metals/jobs/M1f1enD-software-engineer",
-      "pubDate": "2026-06-27T12:01:03.000Z",
-      "description": "Article URL: https://www.ycombinator.com/companies/nox-metals/jobs/M1f1enD-software-engineer Comments URL: https://news.ycombinator.com/item?id=48697504 Points: 0 # Comments: 0",
+      "title": "Turn your site into a place people can bump into each other",
+      "link": "https://cauenapier.com/blog/townsquare_release/",
+      "pubDate": "2026-06-27T17:11:20.000Z",
+      "description": "Article URL: https://cauenapier.com/blog/townsquare_release/ Comments URL: https://news.ycombinator.com/item?id=48699928 Points: 41 # Comments: 18",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "If you can't hold it, you don't own it",
-      "link": "https://dervis.de/physical/",
-      "pubDate": "2026-06-27T11:32:10.000Z",
-      "description": "Article URL: https://dervis.de/physical/ Comments URL: https://news.ycombinator.com/item?id=48697335 Points: 81 # Comments: 45",
+      "title": "Supabase (YC S20) Is Hiring for Multigres",
+      "link": "https://jobs.ashbyhq.com/supabase/2e718684-4f75-4a99-8d6b-3b6bd44e4228",
+      "pubDate": "2026-06-27T17:00:15.000Z",
+      "description": "Article URL: https://jobs.ashbyhq.com/supabase/2e718684-4f75-4a99-8d6b-3b6bd44e4228 Comments URL: https://news.ycombinator.com/item?id=48699842 Points: 0 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Fintech Engineering Handbook",
-      "link": "https://w.pitula.me/fintech-engineering-handbook/",
-      "pubDate": "2026-06-27T10:28:53.000Z",
-      "description": "Article URL: https://w.pitula.me/fintech-engineering-handbook/ Comments URL: https://news.ycombinator.com/item?id=48696982 Points: 168 # Comments: 55",
+      "title": "Screen time can damage under-twos' development, landmark study suggests",
+      "link": "https://www.theguardian.com/society/2026/jun/27/screen-time-damage-under-twos-development-study",
+      "pubDate": "2026-06-27T16:51:09.000Z",
+      "description": "Article URL: https://www.theguardian.com/society/2026/jun/27/screen-time-damage-under-twos-development-study Comments URL: https://news.ycombinator.com/item?id=48699778 Points: 27 # Comments: 3",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "DSpark: Speculative decoding accelerates LLM inference [pdf]",
-      "link": "https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf",
-      "pubDate": "2026-06-27T09:18:52.000Z",
-      "description": "Article URL: https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf Comments URL: https://news.ycombinator.com/item?id=48696585 Points: 507 # Comments: 180",
+      "title": "Zuckerberg's Increasingly Bizarre War on Whistleblowers",
+      "link": "https://pluralistic.net/2026/06/27/zuckerstreisand-2/",
+      "pubDate": "2026-06-27T14:38:05.000Z",
+      "description": "Article URL: https://pluralistic.net/2026/06/27/zuckerstreisand-2/ Comments URL: https://news.ycombinator.com/item?id=48698684 Points: 432 # Comments: 166",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Beer CSS – Build material design in record time",
-      "link": "https://www.beercss.com",
-      "pubDate": "2026-06-27T09:06:11.000Z",
-      "description": "Article URL: https://www.beercss.com Comments URL: https://news.ycombinator.com/item?id=48696510 Points: 66 # Comments: 23",
+      "title": "Anonymous GitHub account mass-dropping undisclosed 0-days",
+      "link": "https://github.com/bikini/exploitarium",
+      "pubDate": "2026-06-27T14:31:00.000Z",
+      "description": "Article URL: https://github.com/bikini/exploitarium Comments URL: https://news.ycombinator.com/item?id=48698617 Points: 423 # Comments: 170",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "IBM MCGA Gate Array Reverse Engineering",
-      "link": "https://github.com/schlae/IBM_MCGA",
-      "pubDate": "2026-06-27T05:17:08.000Z",
-      "description": "Article URL: https://github.com/schlae/IBM_MCGA Comments URL: https://news.ycombinator.com/item?id=48695363 Points: 48 # Comments: 8",
+      "title": "Post-Mythos Cybersecurity: Keep calm and carry on",
+      "link": "https://cephalosec.com/blog/cybersecurity-in-the-post-mythos-era-keep-calm-and-carry-on/",
+      "pubDate": "2026-06-27T14:23:40.000Z",
+      "description": "Article URL: https://cephalosec.com/blog/cybersecurity-in-the-post-mythos-era-keep-calm-and-carry-on/ Comments URL: https://news.ycombinator.com/item?id=48698559 Points: 88 # Comments: 28",
       "source": "Hacker News",
       "category": "Tech News"
+    },
+    {
+      "title": "translateZ()",
+      "link": "https://css-tricks.com/almanac/functions/t/translatez/",
+      "pubDate": "2026-06-25T13:18:56.000Z",
+      "description": "The translateZ() function moves an element closer to or farther from the user. translateZ() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "translateY()",
+      "link": "https://css-tricks.com/almanac/functions/t/translatey/",
+      "pubDate": "2026-06-25T13:17:56.000Z",
+      "description": "The translateY() function shifts an element vertically by the specified amount. translateY() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "translateX()",
+      "link": "https://css-tricks.com/almanac/functions/t/translatex/",
+      "pubDate": "2026-06-25T13:16:01.000Z",
+      "description": "The translateX() function shifts an element horizontally by the specified amount. translateX() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "translate()",
+      "link": "https://css-tricks.com/almanac/functions/t/translate/",
+      "pubDate": "2026-06-25T13:15:05.000Z",
+      "description": "The CSS translate() function shifts an element from its default position on a 2-dimensional plane translate() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Using Scroll-Driven Animations for Opposing Scroll Directions",
+      "link": "https://css-tricks.com/scroll-driven-animations-opposing-scroll-directions/",
+      "pubDate": "2026-06-22T12:39:13.000Z",
+      "description": "Sometimes designers have silly ideas that eventually grow on you. That happened to me with this concept where I had to build columns of items moving in opposite directions when a user scrolls the page. CodePen Embed Fallback Note: This … Using Scroll-Driven Animations for Opposing Scroll Directions ",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "A First Look at Scroll-Triggered Animations",
+      "link": "https://css-tricks.com/css-scroll-triggered-animations-first-look/",
+      "pubDate": "2026-06-19T13:03:17.000Z",
+      "description": "Let's poke at the differences between scroll-driven and scroll-triggered animations. A First Look at Scroll-Triggered Animations originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "The Siren Song of ariaNotify()",
+      "link": "https://css-tricks.com/the-siren-song-of-arianotify/",
+      "pubDate": "2026-06-17T15:32:30.000Z",
+      "description": "There's a brand new ariaNotify() method — defined by the WAI-ARIA 1.3 Specification — that provides a means of programmatically triggering narration in a screen reader. The Siren Song of ariaNotify() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter a",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Prop For That",
+      "link": "https://css-tricks.com/prop-for-that/",
+      "pubDate": "2026-06-16T18:36:25.000Z",
+      "description": "Props for That creates live props based things CSS can't normally see in the browser. Things like cursor position, progress values, certain form states, current time, scroll velocity. Prop For That originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as ",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "What’s !important #13: @function, alpha(), CSS Wordle, and More",
+      "link": "https://css-tricks.com/whats-important-13/",
+      "pubDate": "2026-06-15T13:15:33.000Z",
+      "description": "CSS functions, the alpha() function, Grid Lanes, some things about Dialog that you might not know, CSS Wordle, and more — this is What’s !important right now. What’s !important #13: @function, alpha(), CSS Wordle, and More originally handwritten and published with love on CSS-Tricks. You should real",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Why Isn&#8217;t My 3D View Transition Working?",
+      "link": "https://css-tricks.com/why-isnt-my-3d-view-transition-working/",
+      "pubDate": "2026-06-12T15:09:00.000Z",
+      "description": "Why isn't my 3D view transition working?! Sunkanmi tackles this frustration and offers an elegant fix for it. Why Isn’t My 3D View Transition Working? originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
       "title": "Meet the HTB Profile: all your skills, in one place",
