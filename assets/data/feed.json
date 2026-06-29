@@ -1,94 +1,123 @@
 {
-  "generatedAt": "2026-06-29T04:59:56.593Z",
+  "generatedAt": "2026-06-29T11:23:33.865Z",
   "sourceCount": 4,
-  "successCount": 4,
-  "errors": [],
+  "successCount": 3,
+  "errors": [
+    {
+      "source": "CSS Tricks",
+      "error": "HTTP 415 Unsupported Media Type"
+    }
+  ],
   "items": [
     {
-      "title": "Cross Browser Testing: A Complete Guide to Website Compatibility (2026)",
-      "link": "https://dev.to/shahzebhoda/cross-browser-testing-a-complete-guide-to-website-compatibility-2026-2742",
-      "pubDate": "2026-06-29T04:40:09.000Z",
-      "description": "<p>A website that looks perfect in one browser might appear completely broken in another. Variations in rendering engines, JavaScript execution, and CSS interpretation mean that web applications can behave differently depending on where they're opened. This is exactly why cross browser testing is a ",
+      "title": "Edit SharePoint Word Documents from Any AI Agent over MCP with OfficeAgent.NET 0.2",
+      "link": "https://dev.to/ilia-sokolov/edit-sharepoint-word-documents-from-any-ai-agent-over-mcp-with-officeagentnet-02-4ejm",
+      "pubDate": "2026-06-29T11:17:11.000Z",
+      "description": "<p>A few weeks ago I released <a href=\"https://github.com/ilia-sokolov/OfficeAgent.NET\" rel=\"noopener noreferrer\">OfficeAgent.NET 0.1</a>, an open-source .NET library that lets AI agents create and edit real Word documents. Instead of manipulating the Open XML themselves, they describe their intent ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Di era AI, yang menang bukan yang kerja paling banyak",
-      "link": "https://dev.to/kielltampubolon/di-era-ai-yang-menang-bukan-yang-kerja-paling-banyak-5fp4",
-      "pubDate": "2026-06-29T04:36:00.000Z",
-      "description": "<p>Saya mulai dari pertanyaan yang kelihatannya sederhana: mana yang lebih kuat, motivasi, disiplin, konsistensi, atau obsesi? Saya kira jawabannya salah satu dari empat itu. Ternyata bukan. Setelah saya pikir lebih jauh, pertanyaannya sendiri yang salah arah.</p> <p>Keempatnya bukan puncak apa-apa.",
+      "title": "SAST vs SCA: why your CI pipeline needs both",
+      "link": "https://dev.to/rushabh5000/sast-vs-sca-why-your-ci-pipeline-needs-both-52k0",
+      "pubDate": "2026-06-29T11:13:44.000Z",
+      "description": "<p><a href=\"https://dev.tourl\"></a>When security teams talk about \"scanning\" code in CI/CD, they usually mean one of two very different things: scanning the code you wrote (SAST) or scanning the open-source code you imported (SCA). Both are called \"security scanners.\" Both produce findings with seve",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Best AI Test Case Generation Tools (2026 Guide)",
-      "link": "https://dev.to/shahzebhoda/best-ai-test-case-generation-tools-2026-guide-421i",
-      "pubDate": "2026-06-29T04:28:53.000Z",
-      "description": "<p>Writing test cases has always been the part of QA work that eats the most time without producing the most value. Translating a requirements document into structured test steps, covering edge cases, keeping everything up to date as the product changes — it's necessary work, but it's also relentles",
+      "title": "From an Idea to a Hackathon: Lessons from Organizing Build with AI Makerere",
+      "link": "https://dev.to/shakiran_nannyombi_b0bf41/from-an-idea-to-a-hackathon-lessons-from-organizing-build-with-ai-makerere-j03",
+      "pubDate": "2026-06-29T11:12:43.000Z",
+      "description": "<p>After months of planning, countless emails, sponsor outreach, community workshops, and late nights, we successfully hosted the <strong>Build with AI Makerere Hackathon</strong> in partnership with <strong>Google Build with AI</strong> and <strong>Major League Hacking (MLH)</strong>.</p> <p>The ev",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The Journey of Finding Mentors",
-      "link": "https://dev.to/yoditdevn8n/the-journey-of-finding-mentors-1laf",
-      "pubDate": "2026-06-29T04:26:42.000Z",
-      "description": "<p>Have you ever met someone who challenged you in a way that helped you grow?</p> <p>During my undergrad, mentorship was not something I intentionally searched for or even fully understood. Nobody ever sat me down and said, You should go find a mentor.</p> <p>At that time, I was focused on doing we",
+      "title": "🚀 Released a New Version of jsdoc-scribe",
+      "link": "https://dev.to/imchintoo/released-a-new-version-of-jsdoc-scribe-1ghl",
+      "pubDate": "2026-06-29T11:02:04.000Z",
+      "description": "<p>Keeping documentation updated is difficult, especially when projects continue to grow.</p> <p>To make this easier, I've been building jsdoc-scribe, an open-source CLI that generates JSDoc comments and beautiful HTML documentation automatically.</p> <p>The newest release includes several improveme",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Serving 78 cards x 5 languages from one codebase: our i18n routing",
-      "link": "https://dev.to/jakub_inithouse/serving-78-cards-x-5-languages-from-one-codebase-our-i18n-routing-4i1k",
-      "pubDate": "2026-06-29T04:21:37.000Z",
-      "description": "<p><a href=\"https://tarotas.com\" rel=\"noopener noreferrer\">Tarotas</a> is a tarot card app we build at Inithouse. You shuffle, draw a card, and read a calm interpretation. No account required, no fortune-telling claims. Just a quiet space for reflection.</p> <p>The tricky part: we serve it in five l",
+      "title": "Voice agent in app: latenza percepita, turn-taking e guardrail (senza rovinare l’esperienza)",
+      "link": "https://dev.to/frontendfacile/voice-agent-in-app-latenza-percepita-turn-taking-e-guardrail-senza-rovinare-lesperienza-11ep",
+      "pubDate": "2026-06-29T11:01:00.000Z",
+      "description": "<blockquote> <p>Dal suono “umano” ai compromessi architetturali: cosa conta davvero quando porti una conversazione vocale nel tuo prodotto.</p> </blockquote> <h2> Cos’è davvero un voice agent (oltre l’hype) </h2> <p>Un <strong>voice agent</strong> è un’esperienza conversazionale in cui l’utente parl",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Building a cross-user review graph with pgvector on Amazon Aurora",
-      "link": "https://dev.to/jareddlewis/building-a-cross-user-review-graph-with-pgvector-on-amazon-aurora-7ni",
-      "pubDate": "2026-06-29T04:19:03.000Z",
-      "description": "<p>Every review app is a silo. Yelp reviews places, Amazon reviews its own catalog, Letterboxd reviews film. I wanted to build the opposite: one place where you can log and rate <strong>anything</strong> — a ball-point pen, a burger, a cruise — and have your review pool together with everyone else's",
+      "title": "HackerRank open sourced its ATS: Analyzing resume scoring consistency!",
+      "link": "https://dev.to/mgobea/hackerrank-open-sourced-its-ats-analyzing-resume-scoring-consistency-1j5d",
+      "pubDate": "2026-06-29T11:00:27.000Z",
+      "description": "<h2> The Algorithmic Arbitrage of Applicant Tracking Systems: A Technical Post-Mortem of HackerRank’s Open-Source ATS </h2> <p>The recent decision by HackerRank to open-source portions of their Applicant Tracking System (ATS) infrastructure serves as a significant case study in the intersection of l",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Serving cheap when two models agree: a measured cost lever",
-      "link": "https://dev.to/tom_jones_230c4659491adcd/serving-cheap-when-two-models-agree-a-measured-cost-lever-3if6",
-      "pubDate": "2026-06-29T04:18:02.000Z",
-      "description": "<p><strong>The problem</strong></p> <p>A cost efficient AI system sends easy work to a cheap model and only escalates hard work to an expensive frontier model. The trouble is knowing which is which. When a task has a test, like code with unit tests, you just run the test: if the cheap answer passes,",
+      "title": "Real-Time Monitoring for AI Agents: Beyond Log Streaming",
+      "link": "https://dev.to/albert_zhang_f468830cf0e6/real-time-monitoring-for-ai-agents-beyond-log-streaming-1da1",
+      "pubDate": "2026-06-29T11:00:10.000Z",
+      "description": "<p>Most agent monitoring is \"log everything and grep later.\" That's not monitoring — that's archaeology.</p> <h2> What We Actually Need </h2> <ol> <li> <strong>Live execution view</strong> — Which agent is running right now?</li> <li> <strong>State inspection</strong> — What data is Agent C holding?",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The Unicode trap I had to design around in a LinkedIn formatter",
-      "link": "https://dev.to/mark_b5f4ffdd8e7cd58/the-unicode-trap-i-had-to-design-around-in-a-linkedin-formatter-2fn4",
-      "pubDate": "2026-06-29T04:14:47.000Z",
-      "description": "<p>I built a small tool for formatting LinkedIn posts, and the deceptively simple part was also the most important part:</p> <p><strong>styled text is not formatting. It is Unicode substitution.</strong></p> <p>That sounds obvious once you say it out loud, but it changes the product decision.</p> <p",
+      "title": "How I Cut LLM API Costs by 60% With 2 Lines of Code",
+      "link": "https://dev.to/tokoscope/how-i-cut-llm-api-costs-by-60-with-2-lines-of-code-li2",
+      "pubDate": "2026-06-29T11:00:09.000Z",
+      "description": "<p>Our OpenAI bill tripled in 60 days.</p> <p>User growth was up 40%. Revenue was up. But the API bill was growing 3x faster than everything else.</p> <p>I spent a week digging into why. What I found was embarrassing and completely fixable.</p> <h2> What the data showed </h2> <p>After analyzing thou",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "AI SDK 7: Agent Development Standardized",
-      "link": "https://dev.to/devsignal/ai-sdk-7-agent-development-standardized-4440",
-      "pubDate": "2026-06-29T04:11:46.000Z",
-      "description": "<p>The theme this week is consolidation: AI SDK 7 ships a provider-agnostic foundation for production agents, LangSmith closes the loop on observability with a purpose-built database and on-call triage automation, and Deno 2.9 quietly removes two more reasons to reach for heavier runtimes. If you've",
+      "title": "Silicon Valley Heard 81,000 People",
+      "link": "https://dev.to/rawveg/silicon-valley-heard-81000-people-5b5l",
+      "pubDate": "2026-06-29T11:00:00.000Z",
+      "description": "<p>Eighty thousand people walked into a room, metaphorically speaking, and told one of the world's most prominent artificial intelligence companies exactly what frightens them. The question now is whether anyone on the other side of the screen was genuinely listening.</p> <p>In December 2025, Anthro",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Building an AI Cloud Cost Intelligence Platform That Doesn't Let AI Make Infrastructure Decisions",
-      "link": "https://dev.to/upshivam786/building-an-ai-cloud-cost-intelligence-platform-that-doesnt-let-ai-make-infrastructure-decisions-5gbn",
-      "pubDate": "2026-06-29T04:11:00.000Z",
-      "description": "<p>Most AI-powered cloud optimization demos follow a simple approach:<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight plaintext\"><code>Azure Resources ↓ Large Language Model ↓ Recommendations </code></pre> </div> <p>At first glance, this seems impressive.</p> <p>But while bu",
+      "title": "Interviewing Go developers: stop caring about, and weight heavily",
+      "link": "https://dev.to/econ__11/interviewing-go-developers-stop-caring-about-and-weight-heavily-4mff",
+      "pubDate": "2026-06-29T11:00:00.000Z",
+      "description": "<p>I run technical screenings for Go developers. Someone comes in, we talk, I dig into what they know and how they think, and afterward I write up a recommendation with my own conclusions: pass this person to the next stage, or stop here. I don't make the final hire call. But at the technical screen",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "Pollen (CEO Negus-Fancey, CTO Wright) tried to remove article, and Google helped",
+      "link": "https://blog.pragmaticengineer.com/pollen-tried-to-remove-my-article-about-callum-negus-fancey-and-google-is-assisting-to-it/",
+      "pubDate": "2026-06-29T09:28:08.000Z",
+      "description": "Article URL: https://blog.pragmaticengineer.com/pollen-tried-to-remove-my-article-about-callum-negus-fancey-and-google-is-assisting-to-it/ Comments URL: https://news.ycombinator.com/item?id=48716902 Points: 183 # Comments: 23",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Why did this journal retract two 1940s papers by Max Planck?",
+      "link": "https://arstechnica.com/science/2026/06/why-did-this-journal-retract-two-1940s-papers-by-max-planck/",
+      "pubDate": "2026-06-29T08:58:09.000Z",
+      "description": "Article URL: https://arstechnica.com/science/2026/06/why-did-this-journal-retract-two-1940s-papers-by-max-planck/ Comments URL: https://news.ycombinator.com/item?id=48716634 Points: 138 # Comments: 6",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Herdr: Agent multiplexer that lives in your terminal",
+      "link": "https://github.com/ogulcancelik/herdr",
+      "pubDate": "2026-06-29T04:27:46.000Z",
+      "description": "Article URL: https://github.com/ogulcancelik/herdr Comments URL: https://news.ycombinator.com/item?id=48714802 Points: 76 # Comments: 44",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "Age verification is just a precursor to automated attribution of speech",
       "link": "https://nonogra.ph/age-verification-is-just-a-precursor-to-attribution-of-speech-06-29-2026",
       "pubDate": "2026-06-29T03:42:07.000Z",
-      "description": "Article URL: https://nonogra.ph/age-verification-is-just-a-precursor-to-attribution-of-speech-06-29-2026 Comments URL: https://news.ycombinator.com/item?id=48714529 Points: 142 # Comments: 32",
+      "description": "Article URL: https://nonogra.ph/age-verification-is-just-a-precursor-to-attribution-of-speech-06-29-2026 Comments URL: https://news.ycombinator.com/item?id=48714529 Points: 546 # Comments: 312",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -96,15 +125,7 @@
       "title": "HackerRank open sourced its ATS. My resume scored 90/100. Oh wait 74. No – 88",
       "link": "https://danunparsed.com/p/hackerrank-open-source-ats",
       "pubDate": "2026-06-29T01:44:40.000Z",
-      "description": "Article URL: https://danunparsed.com/p/hackerrank-open-source-ats Comments URL: https://news.ycombinator.com/item?id=48713832 Points: 14 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "You might not need a service worker",
-      "link": "https://www.jayfreestone.com/writing/you-might-not-need-a-service-worker/",
-      "pubDate": "2026-06-29T00:48:17.000Z",
-      "description": "Article URL: https://www.jayfreestone.com/writing/you-might-not-need-a-service-worker/ Comments URL: https://news.ycombinator.com/item?id=48713453 Points: 9 # Comments: 0",
+      "description": "Article URL: https://danunparsed.com/p/hackerrank-open-source-ats Comments URL: https://news.ycombinator.com/item?id=48713832 Points: 513 # Comments: 204",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -112,23 +133,7 @@
       "title": "Knowledge Distillation of Black-Box Large Language Models (2024)",
       "link": "https://arxiv.org/abs/2401.07013",
       "pubDate": "2026-06-28T22:32:04.000Z",
-      "description": "Article URL: https://arxiv.org/abs/2401.07013 Comments URL: https://news.ycombinator.com/item?id=48712420 Points: 67 # Comments: 13",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Show HN: Bash4LLM+ – A lightweight, dependency-free Bash wrapper for LLM APIs",
-      "link": "https://github.com/kamaludu/bash4llm/",
-      "pubDate": "2026-06-28T19:43:10.000Z",
-      "description": "Bash4LLM is a single-file Bash wrapper for interacting with LLMs from the terminal. I created it because I wanted something simple that worked without installing Python, Node, or any other runtime.It uses only Bash, curl, and jq. You can send prompts, start a small chat, process files line by line, ",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Show HN: NanoEuler – GPT-2 scale model in pure C/CUDA from scratch",
-      "link": "https://github.com/JustVugg/nanoeuler",
-      "pubDate": "2026-06-28T19:38:14.000Z",
-      "description": "Hi everyone,I started working on nanoeuler after the ban of anthropic's fable because my ambition and dream is to work in the AI field in anthropic. The two interesting reasons that led me to create nanoeuler were (1) interfacing with llm does not mean understanding how they are composed and (2), wo",
+      "description": "Article URL: https://arxiv.org/abs/2401.07013 Comments URL: https://news.ycombinator.com/item?id=48712420 Points: 103 # Comments: 19",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -136,7 +141,7 @@
       "title": "TOP500 at ISC’26: We have a New Number 1 Supercomputer",
       "link": "https://chipsandcheese.com/p/top500-at-isc26-we-have-a-new-number",
       "pubDate": "2026-06-28T19:38:00.000Z",
-      "description": "Article URL: https://chipsandcheese.com/p/top500-at-isc26-we-have-a-new-number Comments URL: https://news.ycombinator.com/item?id=48710775 Points: 90 # Comments: 49",
+      "description": "Article URL: https://chipsandcheese.com/p/top500-at-isc26-we-have-a-new-number Comments URL: https://news.ycombinator.com/item?id=48710775 Points: 111 # Comments: 70",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -144,7 +149,7 @@
       "title": "Librepods: AirPods liberated",
       "link": "https://github.com/librepods-org/librepods",
       "pubDate": "2026-06-28T18:48:53.000Z",
-      "description": "Article URL: https://github.com/librepods-org/librepods Comments URL: https://news.ycombinator.com/item?id=48710232 Points: 323 # Comments: 104",
+      "description": "Article URL: https://github.com/librepods-org/librepods Comments URL: https://news.ycombinator.com/item?id=48710232 Points: 404 # Comments: 138",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -152,7 +157,7 @@
       "title": "Historical memory prices 1960-2026",
       "link": "https://dam.stanford.edu/memory-prices.html",
       "pubDate": "2026-06-28T18:32:53.000Z",
-      "description": "Article URL: https://dam.stanford.edu/memory-prices.html Comments URL: https://news.ycombinator.com/item?id=48710092 Points: 235 # Comments: 87",
+      "description": "Article URL: https://dam.stanford.edu/memory-prices.html Comments URL: https://news.ycombinator.com/item?id=48710092 Points: 321 # Comments: 118",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -160,89 +165,9 @@
       "title": "GLM 5.2 beats Claude in our benchmarks",
       "link": "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks/",
       "pubDate": "2026-06-28T17:50:47.000Z",
-      "description": "Article URL: https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks/ Comments URL: https://news.ycombinator.com/item?id=48709670 Points: 608 # Comments: 297",
+      "description": "Article URL: https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks/ Comments URL: https://news.ycombinator.com/item?id=48709670 Points: 882 # Comments: 407",
       "source": "Hacker News",
       "category": "Tech News"
-    },
-    {
-      "title": "translateZ()",
-      "link": "https://css-tricks.com/almanac/functions/t/translatez/",
-      "pubDate": "2026-06-25T13:18:56.000Z",
-      "description": "The translateZ() function moves an element closer to or farther from the user. translateZ() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translateY()",
-      "link": "https://css-tricks.com/almanac/functions/t/translatey/",
-      "pubDate": "2026-06-25T13:17:56.000Z",
-      "description": "The translateY() function shifts an element vertically by the specified amount. translateY() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translateX()",
-      "link": "https://css-tricks.com/almanac/functions/t/translatex/",
-      "pubDate": "2026-06-25T13:16:01.000Z",
-      "description": "The translateX() function shifts an element horizontally by the specified amount. translateX() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translate()",
-      "link": "https://css-tricks.com/almanac/functions/t/translate/",
-      "pubDate": "2026-06-25T13:15:05.000Z",
-      "description": "The CSS translate() function shifts an element from its default position on a 2-dimensional plane translate() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Using Scroll-Driven Animations for Opposing Scroll Directions",
-      "link": "https://css-tricks.com/scroll-driven-animations-opposing-scroll-directions/",
-      "pubDate": "2026-06-22T12:39:13.000Z",
-      "description": "Sometimes designers have silly ideas that eventually grow on you. That happened to me with this concept where I had to build columns of items moving in opposite directions when a user scrolls the page. CodePen Embed Fallback Note: This … Using Scroll-Driven Animations for Opposing Scroll Directions ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "A First Look at Scroll-Triggered Animations",
-      "link": "https://css-tricks.com/css-scroll-triggered-animations-first-look/",
-      "pubDate": "2026-06-19T13:03:17.000Z",
-      "description": "Let's poke at the differences between scroll-driven and scroll-triggered animations. A First Look at Scroll-Triggered Animations originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "The Siren Song of ariaNotify()",
-      "link": "https://css-tricks.com/the-siren-song-of-arianotify/",
-      "pubDate": "2026-06-17T15:32:30.000Z",
-      "description": "There's a brand new ariaNotify() method — defined by the WAI-ARIA 1.3 Specification — that provides a means of programmatically triggering narration in a screen reader. The Siren Song of ariaNotify() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter a",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Prop For That",
-      "link": "https://css-tricks.com/prop-for-that/",
-      "pubDate": "2026-06-16T18:36:25.000Z",
-      "description": "Props for That creates live props based things CSS can't normally see in the browser. Things like cursor position, progress values, certain form states, current time, scroll velocity. Prop For That originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "What’s !important #13: @function, alpha(), CSS Wordle, and More",
-      "link": "https://css-tricks.com/whats-important-13/",
-      "pubDate": "2026-06-15T13:15:33.000Z",
-      "description": "CSS functions, the alpha() function, Grid Lanes, some things about Dialog that you might not know, CSS Wordle, and more — this is What’s !important right now. What’s !important #13: @function, alpha(), CSS Wordle, and More originally handwritten and published with love on CSS-Tricks. You should real",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Why Isn&#8217;t My 3D View Transition Working?",
-      "link": "https://css-tricks.com/why-isnt-my-3d-view-transition-working/",
-      "pubDate": "2026-06-12T15:09:00.000Z",
-      "description": "Why isn't my 3D view transition working?! Sunkanmi tackles this frustration and offers an elegant fix for it. Why Isn’t My 3D View Transition Working? originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
     },
     {
       "title": "Meet the HTB Profile: all your skills, in one place",
