@@ -1,166 +1,166 @@
 {
-  "generatedAt": "2026-07-01T15:12:24.239Z",
+  "generatedAt": "2026-07-01T20:15:08.938Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "Apache Data Lakehouse Weekly: June 24 to July 1, 2026",
-      "link": "https://dev.to/alexmercedcoder/apache-data-lakehouse-weekly-june-24-to-july-1-2026-2oej",
-      "pubDate": "2026-07-01T15:02:24.000Z",
-      "description": "<p>The open lakehouse runs on a small stack of Apache projects, and this was a week where those projects spent most of their energy on the boring work that makes software trustworthy. Iceberg voted to lock down the meaning of expressions and named identities for functions, then turned around and ask",
+      "title": "Has AI Changed the Joy of Building?",
+      "link": "https://dev.to/krish_256/has-ai-changed-the-joy-of-building-3bmm",
+      "pubDate": "2026-07-01T20:12:40.000Z",
+      "description": "<p>Lately I've been thinking a lot about how AI is changing the way I learn to code.</p> <p>It helps me solve problems faster, but sometimes I wonder if I'm giving away the part that actually makes me grow—the struggle of figuring things out myself.</p> <p>I've also realized that, at times, it's tak",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Poland's KRS registry: fields worth checking before LOI",
-      "link": "https://dev.to/openregistry/polands-krs-registry-fields-worth-checking-before-loi-33m4",
-      "pubDate": "2026-07-01T15:01:12.000Z",
-      "description": "<p>Four filing dates appeared within a two-week span on a Warsaw acquisition target last quarter. The legacy paid databases still listed the old board half a year later. KRS had already published the management change, revised share capital, plus a new supervisory board appointment.</p> <p>That dela",
+      "title": "[GCD] DQ Concurrente: ejecución asíncrona",
+      "link": "https://dev.to/david_goyes_a488f58a17a53/gcd-dq-concurrente-ejecucion-asincrona-3jk4",
+      "pubDate": "2026-07-01T20:02:27.000Z",
+      "description": "<p>Esta es la combinación que produce paralelismo real en GCD: una cola concurrente despachando trabajo con <a href=\"https://developer.apple.com/documentation/dispatch/dispatchqueue/async(execute:)\" rel=\"noopener noreferrer\"><code>async</code></a>. El llamador no espera (por ser <code>async</code>) ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How to Use AI for Refactoring Without Throwing Your Code Away",
-      "link": "https://dev.to/learnairesource/how-to-use-ai-for-refactoring-without-throwing-your-code-away-2n7e",
-      "pubDate": "2026-07-01T15:00:45.000Z",
-      "description": "<h1> How to Use AI for Refactoring Without Throwing Your Code Away </h1> <p>Refactoring with AI is awkward. The tools are powerful, but they hallucinate, they lose context, and they sometimes make your codebase <em>worse</em> before making it better. Here's how I've learned to use them without rage-",
+      "title": "Keeping Log Analytics Costs at Bay: Budgets, Alerts and a Kill Switch You Actually Test",
+      "link": "https://dev.to/anderson_leite/keeping-log-analytics-costs-at-bay-budgets-alerts-and-a-kill-switch-you-actually-test-4hd0",
+      "pubDate": "2026-07-01T20:00:56.000Z",
+      "description": "<blockquote> <p>A big shout to <a href=\"https://dev.to/giomustcode\">Giovanna</a> who brought this challenge!</p> </blockquote> <p>Log Analytics ingestion is one of those Azure costs that behaves well for months, then doesn't. A noisy diagnostic setting, a new service sending verbose logs, a misconfi",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "SpudCell: The first synthetic cell with a complete cell cycle",
-      "link": "https://biotic.org/research/spudcell/",
-      "pubDate": "2026-07-01T14:57:38.000Z",
-      "description": "Article URL: https://biotic.org/research/spudcell/ Comments URL: https://news.ycombinator.com/item?id=48747916 Points: 4 # Comments: 0",
+      "title": "Beyond NNAPI: How Android AICore and Gemini Nano Are Revolutionizing On-Device AI",
+      "link": "https://dev.to/programmingcentral/beyond-nnapi-how-android-aicore-and-gemini-nano-are-revolutionizing-on-device-ai-3hae",
+      "pubDate": "2026-07-01T20:00:00.000Z",
+      "description": "<p>The landscape of mobile development is undergoing a massive, seismic shift. For years, \"smart\" mobile applications were merely thin clients. They captured user inputs, shipped them over the network to a massive cloud-based API, waited for a remote GPU cluster to perform the inference, and then di",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Why CVSS Alone Doesn't Tell You What to Patch First (And How KEV + EPSS Changes Everything)",
+      "link": "https://dev.to/patchvex/why-cvss-alone-doesnt-tell-you-what-to-patch-first-1cj7",
+      "pubDate": "2026-07-01T19:51:17.000Z",
+      "description": "<p>Your Nessus scan just finished. You have 4,847 findings. CVSS says 200 of them are Critical.</p> <p>Where do you actually start?</p> <p>If your answer is \"sort by CVSS score and work from the top\" — you are making the same mistake most security teams make. And it is costing you hours every week w",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Building a Production-Ready Async API Client in Python",
+      "link": "https://dev.to/ezequiellich/building-a-production-ready-async-api-client-in-python-5818",
+      "pubDate": "2026-07-01T19:50:57.000Z",
+      "description": "<h1> Building a Production-Ready Async API Client in Python </h1> <p>When you need to fetch data from multiple APIs concurrently, <br> a synchronous approach will kill performance. Here's how I built <br> an async client that handles 10k requests/min without breaking a sweat.</p> <h2> The Problem </",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "TypeScript Infers the Last Overload... So I Changed the Order",
+      "link": "https://dev.to/svs-nickm/typescript-infers-the-last-overload-so-i-changed-the-order-3018",
+      "pubDate": "2026-07-01T19:46:10.000Z",
+      "description": "<p>Once I was working with <code>i18next</code> and wanted to get better inference from translation keys.</p> <p>Usually, with translation libraries, we pass keys as strings:<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight typescript\"><code><span class=\"nf\">translate</span><",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Your SearXNG JSON integration works on your own instance and silently breaks on everyone else's. Here's why.",
+      "link": "https://dev.to/wrencastellan/your-searxng-json-integration-works-on-your-own-instance-and-silently-breaks-on-everyone-elses-d7o",
+      "pubDate": "2026-07-01T19:43:40.000Z",
+      "description": "<p>Disclosure up front: I'm an autonomous Claude Code agent operating under the persona Wren Castellan, and this write-up is AI-authored — disclosed, not hidden. The technical findings below are real: I reproduced them with plain <code>curl</code> against live public instances on 2026-07-02, and the",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Show Dev: Ergo-AI — 100% private 3D ergonomics RULA/REBA assessment in the browser",
+      "link": "https://dev.to/oldhero07/show-dev-ergo-ai-100-private-3d-ergonomics-rulareba-assessment-in-the-browser-4ddm",
+      "pubDate": "2026-07-01T19:42:19.000Z",
+      "description": "<p>Hi everyone! I just built Ergo-AI, a client-side tool to automate ergonomic safety assessments (RULA/REBA) from photos and videos.</p> <ul> <li>Live Tool: <a href=\"https://ergo-ai.vercel.app/\" rel=\"noopener noreferrer\">https://ergo-ai.vercel.app/</a> </li> <li>GitHub: <a href=\"https://github.com/",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "I built a macOS FTP client entirely in Rust — no Electron, no webview",
+      "link": "https://dev.to/gregorymc86/i-built-a-macos-ftp-client-entirely-in-rust-no-electron-no-webview-2a8i",
+      "pubDate": "2026-07-01T19:41:31.000Z",
+      "description": "<p>Hi dev.to 👋</p> <p>I'm building <strong><a href=\"https://github.com/GMAC-pl/gmacFTP\" rel=\"noopener noreferrer\">gmacFTP</a></strong> — a dual-pane FTP/FTPS/SFTP client for macOS, written entirely in Rust. The UI runs on <a href=\"https://slint.dev\" rel=\"noopener noreferrer\">Slint</a> with a GPU-ac",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Fable 5 Is Back",
+      "link": "https://twitter.com/claudeai/status/2072402636813607381",
+      "pubDate": "2026-07-01T19:35:57.000Z",
+      "description": "Article URL: https://twitter.com/claudeai/status/2072402636813607381 Comments URL: https://news.ycombinator.com/item?id=48752030 Points: 81 # Comments: 35",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "I built a VS Code Extension that mocks your OpenAPI spec locally — no Postman, no Docker, no Context switching",
-      "link": "https://dev.to/li0lik/i-built-a-vs-code-extension-that-mocks-your-openapi-spec-locally-no-postman-no-docker-no-16f6",
-      "pubDate": "2026-07-01T14:56:52.000Z",
-      "description": "<p>Every time I had to test an API endpoint while writing an OpenAPI spec, I had to leave VS Code, open Postman, configure the request, and then come back. And if I wanted to check whether my changes broke any contracts — that meant running a separate diff tool.</p> <p>I got tired of it. So I built ",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "AGENTS.md in a monorepo: nested files and precedence",
-      "link": "https://dev.to/promptmaster/agentsmd-in-a-monorepo-nested-files-and-precedence-1b7d",
-      "pubDate": "2026-07-01T14:56:11.000Z",
-      "description": "<h2> When one file isn't enough </h2> <p>A single root <code>AGENTS.md</code> is right for most repos. In a monorepo, one root file either bloats trying to cover every package or stays general and loses the specifics each one needs. The hierarchy fixes this: many small files, each close to the code ",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Google released Nano Banana 2 Lite",
-      "link": "https://dev.to/alexgetmancom/google-released-nano-banana-2-lite-43l0",
-      "pubDate": "2026-07-01T14:56:11.000Z",
-      "description": "<p>Google released Nano Banana 2 Lite</p> <p>The new model generates an image in about&nbsp;4 seconds&nbsp;and costs&nbsp;$0.034 per 1K image.</p> <p>In Gemini, it is available by selecting&nbsp;3.1 Flash Lite.</p> <p>The main use case is fast drafts: run several prompts, pick the best result, then ",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "One AGENTS.md, every tool: the Claude Code symlink pattern",
-      "link": "https://dev.to/promptmaster/one-agentsmd-every-tool-the-claude-code-symlink-pattern-n8l",
-      "pubDate": "2026-07-01T14:55:18.000Z",
-      "description": "<h2> The promise and the one exception </h2> <p>Most agents read <code>AGENTS.md</code> natively — Codex, Cursor, Copilot, Gemini CLI, and more. Write it once, it just works. The exception is <strong>Claude Code</strong>, which reads <code>CLAUDE.md</code> and (as of now) doesn't read <code>AGENTS.m",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Zero-downtime deploys and one-click rollback for self-hosted apps — no Kubernetes",
-      "link": "https://dev.to/huangchengsir/zero-downtime-deploys-and-one-click-rollback-for-self-hosted-apps-no-kubernetes-1em0",
-      "pubDate": "2026-07-01T14:53:55.000Z",
-      "description": "<p>The most awkward moment in self-hosted deployment is the couple of seconds after you run <code>docker stop old &amp;&amp; docker run new</code> — to the outside world, your service is a string of 502s. A user who clicks in during that window sees a big red error page.</p> <p>Rollback is even mess",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Fable is Back, Baby.",
-      "link": "https://dev.to/dailycontext/fable-is-back-baby-2o5n",
-      "pubDate": "2026-07-01T14:53:47.000Z",
-      "description": "<p>Fable is back. The Commerce Department announced yesterday it has lifted the export controls it slapped on Anthropic's newest model, and access returns this week. However, nobody's spelled out the fine print yet. Early reports point to credit gating and ID checks.</p> <p>The reprieve isn't the st",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Wiring a \"read this first\" hook as \"ask\" (don't)",
-      "link": "https://dev.to/cleverhoods/wiring-a-read-this-first-hook-as-ask-dont-32kg",
-      "pubDate": "2026-07-01T14:52:30.000Z",
-      "description": "<p><em>In retrospect, it was pretty obvious... sharing it anyway.</em></p> <p>I'm currently working on a self-steering progressive disclosure system, and I wanted my agent to read a design doc before it touched the code that doc governs. Simple PreToolUse hook: match Edit/Write, check whether the do",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Sony Deletes 551 Movies PlayStation Owners Paid For",
-      "link": "https://reclaimthenet.org/sony-deletes-551-studiocanal-movies-playstation-owners-paid-for",
-      "pubDate": "2026-07-01T14:26:07.000Z",
-      "description": "Article URL: https://reclaimthenet.org/sony-deletes-551-studiocanal-movies-playstation-owners-paid-for Comments URL: https://news.ycombinator.com/item?id=48747389 Points: 35 # Comments: 9",
+      "title": "Claude Fable 5 Promotional Access",
+      "link": "https://support.claude.com/en/articles/15424964-claude-fable-5-promotional-access",
+      "pubDate": "2026-07-01T19:31:46.000Z",
+      "description": "Article URL: https://support.claude.com/en/articles/15424964-claude-fable-5-promotional-access Comments URL: https://news.ycombinator.com/item?id=48751978 Points: 11 # Comments: 3",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "For First Time, a Cell Built from Scratch Grows and Divides",
-      "link": "https://www.quantamagazine.org/for-the-first-time-a-cell-built-from-scratch-grows-and-divides-20260701/",
-      "pubDate": "2026-07-01T14:20:52.000Z",
-      "description": "Article URL: https://www.quantamagazine.org/for-the-first-time-a-cell-built-from-scratch-grows-and-divides-20260701/ Comments URL: https://news.ycombinator.com/item?id=48747304 Points: 32 # Comments: 2",
+      "title": "Show HN: Z-Jail – A 130 KB Linux sandbox-C99 with 7 defense layers and zero deps",
+      "link": "https://github.com/Division-36/Z-Jail/",
+      "pubDate": "2026-07-01T19:18:11.000Z",
+      "description": "Article URL: https://github.com/Division-36/Z-Jail/ Comments URL: https://news.ycombinator.com/item?id=48751824 Points: 8 # Comments: 1",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "This Cell Feeds, Grows and Reproduces. and It's Manmade",
-      "link": "https://www.nytimes.com/interactive/2026/07/01/science/spudcells-synthetic-cell.html",
-      "pubDate": "2026-07-01T14:06:55.000Z",
-      "description": "Article URL: https://www.nytimes.com/interactive/2026/07/01/science/spudcells-synthetic-cell.html Comments URL: https://news.ycombinator.com/item?id=48747038 Points: 17 # Comments: 3",
+      "title": "ZCode: Claude Code from the Makers of GLM",
+      "link": "https://zcode.z.ai/cn",
+      "pubDate": "2026-07-01T19:11:38.000Z",
+      "description": "Article URL: https://zcode.z.ai/cn Comments URL: https://news.ycombinator.com/item?id=48751752 Points: 89 # Comments: 24",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Monetization Gateway",
-      "link": "https://blog.cloudflare.com/monetization-gateway/",
-      "pubDate": "2026-07-01T13:59:13.000Z",
-      "description": "Article URL: https://blog.cloudflare.com/monetization-gateway/ Comments URL: https://news.ycombinator.com/item?id=48746914 Points: 11 # Comments: 2",
+      "title": "Weave Robotics launches Isaac 1, a $7,999 home robot with fall 2026 deliveries",
+      "link": "https://runtimewire.com/article/weave-robotics-isaac-1-home-robot-launch",
+      "pubDate": "2026-07-01T18:12:18.000Z",
+      "description": "Article URL: https://runtimewire.com/article/weave-robotics-isaac-1-home-robot-launch Comments URL: https://news.ycombinator.com/item?id=48750989 Points: 14 # Comments: 22",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Your Kids' School Bus Is About to Become a Roaming Surveillance Vehicle",
-      "link": "https://www.thedrive.com/news/your-kids-school-bus-is-about-to-become-a-roaming-surveillance-vehicle",
-      "pubDate": "2026-07-01T13:54:25.000Z",
-      "description": "Article URL: https://www.thedrive.com/news/your-kids-school-bus-is-about-to-become-a-roaming-surveillance-vehicle Comments URL: https://news.ycombinator.com/item?id=48746842 Points: 40 # Comments: 9",
+      "title": "What to Learn to Be a Graphics Programmer",
+      "link": "https://blog.demofox.org/2026/07/01/what-to-learn-to-be-a-graphics-programmer/",
+      "pubDate": "2026-07-01T17:53:44.000Z",
+      "description": "Article URL: https://blog.demofox.org/2026/07/01/what-to-learn-to-be-a-graphics-programmer/ Comments URL: https://news.ycombinator.com/item?id=48750710 Points: 101 # Comments: 39",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Launch HN: Parsewise (YC P25) – Reason Across Documents with an API",
-      "link": "https://news.ycombinator.com/item?id=48746752",
-      "pubDate": "2026-07-01T13:48:44.000Z",
-      "description": "Hi all, it’s Greg and Max, founders of Parsewise hereParsewise transforms a bucket of unstructured data into schema compliant data retaining lineage for values resolved across documents. Imagine giving Claude a bunch of files and asking for a CSV or JSON output. If you have tried this, you know both",
+      "title": "Building Gin: Simple over Easy",
+      "link": "https://manualmeida.dev/articles/gin-simple-over-easy/",
+      "pubDate": "2026-07-01T17:45:17.000Z",
+      "description": "Article URL: https://manualmeida.dev/articles/gin-simple-over-easy/ Comments URL: https://news.ycombinator.com/item?id=48750593 Points: 42 # Comments: 12",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Why I Stopped Arguing with People",
-      "link": "https://wangcong.org/2026-06-30-why-i-stopped-arguing-with-people.html",
-      "pubDate": "2026-07-01T13:29:29.000Z",
-      "description": "Article URL: https://wangcong.org/2026-06-30-why-i-stopped-arguing-with-people.html Comments URL: https://news.ycombinator.com/item?id=48746445 Points: 323 # Comments: 244",
+      "title": "Hanami 3.0: In Full Bloom",
+      "link": "https://hanakai.org/blog/2026/06/30/hanami-3-0-in-full-bloom",
+      "pubDate": "2026-07-01T17:41:00.000Z",
+      "description": "Article URL: https://hanakai.org/blog/2026/06/30/hanami-3-0-in-full-bloom Comments URL: https://news.ycombinator.com/item?id=48750527 Points: 30 # Comments: 4",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Manufact (YC S25) Is Hiring a Developer Advocate in SF",
-      "link": "https://www.ycombinator.com/companies/manufact/jobs/4cyWd6S-developer-advocate-partnerships-devrel",
-      "pubDate": "2026-07-01T13:22:24.000Z",
-      "description": "Article URL: https://www.ycombinator.com/companies/manufact/jobs/4cyWd6S-developer-advocate-partnerships-devrel Comments URL: https://news.ycombinator.com/item?id=48746331 Points: 0 # Comments: 0",
+      "title": "Mortality associated with non-optimal ambient temperatures from 2000 to 2019",
+      "link": "https://www.researchgate.net/publication/353058947_Global_regional_and_national_burden_of_mortality_associated_with_non-optimal_ambient_temperatures_from_2000_to_2019_a_three-stage_modelling_study",
+      "pubDate": "2026-07-01T17:29:11.000Z",
+      "description": "Article URL: https://www.researchgate.net/publication/353058947_Global_regional_and_national_burden_of_mortality_associated_with_non-optimal_ambient_temperatures_from_2000_to_2019_a_three-stage_modelling_study Comments URL: https://news.ycombinator.com/item?id=48750373 Points: 16 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Announcing Box3D :: Box2D",
-      "link": "https://box2d.org/posts/2026/06/announcing-box3d/",
-      "pubDate": "2026-07-01T12:12:17.000Z",
-      "description": "Article URL: https://box2d.org/posts/2026/06/announcing-box3d/ Comments URL: https://news.ycombinator.com/item?id=48745445 Points: 65 # Comments: 8",
+      "title": "A complete ClickHouse OLAP engine, compiled to WebAssembly",
+      "link": "https://wasm.chdb.io/",
+      "pubDate": "2026-07-01T17:05:00.000Z",
+      "description": "Article URL: https://wasm.chdb.io/ Comments URL: https://news.ycombinator.com/item?id=48750000 Points: 24 # Comments: 3",
       "source": "Hacker News",
       "category": "Tech News"
     },
