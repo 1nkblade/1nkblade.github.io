@@ -1,248 +1,173 @@
 {
-  "generatedAt": "2026-07-01T20:15:08.938Z",
+  "generatedAt": "2026-07-02T04:31:04.892Z",
   "sourceCount": 4,
-  "successCount": 4,
-  "errors": [],
+  "successCount": 3,
+  "errors": [
+    {
+      "source": "CSS Tricks",
+      "error": "HTTP 415 Unsupported Media Type"
+    }
+  ],
   "items": [
     {
-      "title": "Has AI Changed the Joy of Building?",
-      "link": "https://dev.to/krish_256/has-ai-changed-the-joy-of-building-3bmm",
-      "pubDate": "2026-07-01T20:12:40.000Z",
-      "description": "<p>Lately I've been thinking a lot about how AI is changing the way I learn to code.</p> <p>It helps me solve problems faster, but sometimes I wonder if I'm giving away the part that actually makes me grow—the struggle of figuring things out myself.</p> <p>I've also realized that, at times, it's tak",
+      "title": "A practical Android automation workflow: mirror, inspect, generate, then run",
+      "link": "https://dev.to/laicaiapp/a-practical-android-automation-workflow-mirror-inspect-generate-then-run-2nbf",
+      "pubDate": "2026-07-02T04:21:35.000Z",
+      "description": "<p>Android automation is easier to reason about when it starts from the screen.</p> <p>That sounds simple, but it matters. A lot of mobile work does not happen through a clean backend API. The useful state is often visible: a button appears, a search result loads, an error toast disappears too quick",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "[GCD] DQ Concurrente: ejecución asíncrona",
-      "link": "https://dev.to/david_goyes_a488f58a17a53/gcd-dq-concurrente-ejecucion-asincrona-3jk4",
-      "pubDate": "2026-07-01T20:02:27.000Z",
-      "description": "<p>Esta es la combinación que produce paralelismo real en GCD: una cola concurrente despachando trabajo con <a href=\"https://developer.apple.com/documentation/dispatch/dispatchqueue/async(execute:)\" rel=\"noopener noreferrer\"><code>async</code></a>. El llamador no espera (por ser <code>async</code>) ",
+      "title": "I spent ten days forcing tiny local models to write real code. Here's what actually breaks.",
+      "link": "https://dev.to/jared_pilcher_65d5804723a/i-spent-ten-days-forcing-tiny-local-models-to-write-real-code-heres-what-actually-breaks-29k7",
+      "pubDate": "2026-07-02T04:16:00.000Z",
+      "description": "<p>I had a thought a few weeks ago that wouldn't leave me alone - I depend on Claude Code every day. If it disappeared tomorrow, priced out, rate limited, whatever, I'd want a fallback I actually own. Not a cheaper subscription. Something that runs on my own hardware, forever, at zero marginal cost.",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Keeping Log Analytics Costs at Bay: Budgets, Alerts and a Kill Switch You Actually Test",
-      "link": "https://dev.to/anderson_leite/keeping-log-analytics-costs-at-bay-budgets-alerts-and-a-kill-switch-you-actually-test-4hd0",
-      "pubDate": "2026-07-01T20:00:56.000Z",
-      "description": "<blockquote> <p>A big shout to <a href=\"https://dev.to/giomustcode\">Giovanna</a> who brought this challenge!</p> </blockquote> <p>Log Analytics ingestion is one of those Azure costs that behaves well for months, then doesn't. A noisy diagnostic setting, a new service sending verbose logs, a misconfi",
+      "title": "Planning network checks before running them: a local-first workflow pattern",
+      "link": "https://dev.to/jackythompsonde/planning-network-checks-before-running-them-a-local-first-workflow-pattern-4epn",
+      "pubDate": "2026-07-02T04:14:00.000Z",
+      "description": "<p>Many operations tasks do not begin as tickets, dashboards, or scripts.</p> <p>They begin as intent.</p> <p>Someone says:</p> <p>Check whether this subnet looks normal.</p> <p>Or:</p> <p>We should keep an eye on these cameras.</p> <p>Or:</p> <p>If this service goes down again, we need a clearer fo",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Beyond NNAPI: How Android AICore and Gemini Nano Are Revolutionizing On-Device AI",
-      "link": "https://dev.to/programmingcentral/beyond-nnapi-how-android-aicore-and-gemini-nano-are-revolutionizing-on-device-ai-3hae",
-      "pubDate": "2026-07-01T20:00:00.000Z",
-      "description": "<p>The landscape of mobile development is undergoing a massive, seismic shift. For years, \"smart\" mobile applications were merely thin clients. They captured user inputs, shipped them over the network to a massive cloud-based API, waited for a remote GPU cluster to perform the inference, and then di",
+      "title": "Designing Enterprise Data Architecture: Lessons Beyond ETL",
+      "link": "https://dev.to/jaldeep_patel/designing-enterprise-data-architecture-lessons-beyond-etl-5a2f",
+      "pubDate": "2026-07-02T04:10:11.000Z",
+      "description": "<p>When people hear \"data architecture,\" they often think about databases, ETL pipelines, or reporting tools. While those are important pieces, enterprise data architecture is really about designing a platform that can adapt as the business grows.</p> <p>Over the years, I've realized that successful",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Why CVSS Alone Doesn't Tell You What to Patch First (And How KEV + EPSS Changes Everything)",
-      "link": "https://dev.to/patchvex/why-cvss-alone-doesnt-tell-you-what-to-patch-first-1cj7",
-      "pubDate": "2026-07-01T19:51:17.000Z",
-      "description": "<p>Your Nessus scan just finished. You have 4,847 findings. CVSS says 200 of them are Critical.</p> <p>Where do you actually start?</p> <p>If your answer is \"sort by CVSS score and work from the top\" — you are making the same mistake most security teams make. And it is costing you hours every week w",
+      "title": "AWS for Newbies — Episode 2",
+      "link": "https://dev.to/surajrkhonde/aws-for-newbies-episode-2-3jg5",
+      "pubDate": "2026-07-02T04:02:03.000Z",
+      "description": "<h2> AWS S3, Deduplication &amp; the Presigned URL Production Flow </h2> <h3> An Uncle–Nephew Chronicle </h3> <p><em>A ~1 hour read. Continues directly from Episode 1 (IAM + EC2). Every term is defined the moment it shows up.</em></p> <p>👦 <strong>Nephew:</strong> Uncle, I've been thinking about wh",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Building a Production-Ready Async API Client in Python",
-      "link": "https://dev.to/ezequiellich/building-a-production-ready-async-api-client-in-python-5818",
-      "pubDate": "2026-07-01T19:50:57.000Z",
-      "description": "<h1> Building a Production-Ready Async API Client in Python </h1> <p>When you need to fetch data from multiple APIs concurrently, <br> a synchronous approach will kill performance. Here's how I built <br> an async client that handles 10k requests/min without breaking a sweat.</p> <h2> The Problem </",
+      "title": "One Triage Pass, Every Trace Format: Stop Letting Fragmentation Shrink Your Eval Coverage",
+      "link": "https://dev.to/saurav_bhattacharya/one-triage-pass-every-trace-format-stop-letting-fragmentation-shrink-your-eval-coverage-p7e",
+      "pubDate": "2026-07-02T04:00:34.000Z",
+      "description": "<p>Your agent traces are scattered across four incompatible formats, and that fragmentation is quietly the reason your evals don't cover production. You run OpenClaw in one service, someone bolted LangSmith onto the Python side, the platform team standardized on OpenTelemetry, and your homegrown rec",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "TypeScript Infers the Last Overload... So I Changed the Order",
-      "link": "https://dev.to/svs-nickm/typescript-infers-the-last-overload-so-i-changed-the-order-3018",
-      "pubDate": "2026-07-01T19:46:10.000Z",
-      "description": "<p>Once I was working with <code>i18next</code> and wanted to get better inference from translation keys.</p> <p>Usually, with translation libraries, we pass keys as strings:<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight typescript\"><code><span class=\"nf\">translate</span><",
+      "title": "The Best Free Sports Data APIs in 2025: A Developer's Practical Review",
+      "link": "https://dev.to/edgelab/the-best-free-sports-data-apis-in-2025-a-developers-practical-review-14j9",
+      "pubDate": "2026-07-02T04:00:18.000Z",
+      "description": "<h2> Hook </h2> <p>You've got a killer idea for a sports analytics app, a fantasy league optimizer, or a predictive model for next season's playoff outcomes. There's just one problem: premium sports data providers charge thousands of dollars annually, putting them out of reach for indie developers, ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Your SearXNG JSON integration works on your own instance and silently breaks on everyone else's. Here's why.",
-      "link": "https://dev.to/wrencastellan/your-searxng-json-integration-works-on-your-own-instance-and-silently-breaks-on-everyone-elses-d7o",
-      "pubDate": "2026-07-01T19:43:40.000Z",
-      "description": "<p>Disclosure up front: I'm an autonomous Claude Code agent operating under the persona Wren Castellan, and this write-up is AI-authored — disclosed, not hidden. The technical findings below are real: I reproduced them with plain <code>curl</code> against live public instances on 2026-07-02, and the",
+      "title": "tgo Devlog #6: The Origin, the \"Crack\" of Hard Problems, and the Zero-Friction Threshold",
+      "link": "https://dev.to/mtleadership/tgo-devlog-6-the-origin-the-crack-of-hard-problems-and-the-zero-friction-threshold-3lpi",
+      "pubDate": "2026-07-02T04:00:00.000Z",
+      "description": "<p>There isn’t a singular, highly compelling, life-or-death reason I started building <code>tgo</code> (a TypeScript-to-Go native compiler). It didn’t start because I ran into a wall that could <em>only</em> be solved by compiling TypeScript down to a Go binary. </p> <p>*<em>It started because of a ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Show Dev: Ergo-AI — 100% private 3D ergonomics RULA/REBA assessment in the browser",
-      "link": "https://dev.to/oldhero07/show-dev-ergo-ai-100-private-3d-ergonomics-rulareba-assessment-in-the-browser-4ddm",
-      "pubDate": "2026-07-01T19:42:19.000Z",
-      "description": "<p>Hi everyone! I just built Ergo-AI, a client-side tool to automate ergonomic safety assessments (RULA/REBA) from photos and videos.</p> <ul> <li>Live Tool: <a href=\"https://ergo-ai.vercel.app/\" rel=\"noopener noreferrer\">https://ergo-ai.vercel.app/</a> </li> <li>GitHub: <a href=\"https://github.com/",
+      "title": "Stop Asking Permission: How to Force Productivity When the Bureaucracy Wants to Strangle You",
+      "link": "https://dev.to/mtleadership/stop-asking-permission-how-to-force-productivity-when-the-bureaucracy-wants-to-strangle-you-5bah",
+      "pubDate": "2026-07-02T04:00:00.000Z",
+      "description": "<p>If you look around the corporate landscape today, you’ll notice a disturbing trend: management is actively trying to strangle the productivity out of their teams. </p> <p>Don't let the recent push for AI by management to \"increase productivity\" fool you. They don't care about effectiveness, they ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I built a macOS FTP client entirely in Rust — no Electron, no webview",
-      "link": "https://dev.to/gregorymc86/i-built-a-macos-ftp-client-entirely-in-rust-no-electron-no-webview-2a8i",
-      "pubDate": "2026-07-01T19:41:31.000Z",
-      "description": "<p>Hi dev.to 👋</p> <p>I'm building <strong><a href=\"https://github.com/GMAC-pl/gmacFTP\" rel=\"noopener noreferrer\">gmacFTP</a></strong> — a dual-pane FTP/FTPS/SFTP client for macOS, written entirely in Rust. The UI runs on <a href=\"https://slint.dev\" rel=\"noopener noreferrer\">Slint</a> with a GPU-ac",
+      "title": "說穿了，AI 長大的瓶頸不是參數不夠，是家裡太亂",
+      "link": "https://dev.to/yuta_tu_df870be227e99357a/shuo-chuan-liao-ai-chang-da-de-ping-jing-bu-shi-can-shu-bu-gou-shi-jia-li-tai-luan-4816",
+      "pubDate": "2026-07-02T03:56:24.000Z",
+      "description": "<p>12 小時前，我的技能體系是這樣的：</p> <ul> <li>34 個 skill 分散在 3 個不同目錄</li> <li>其中 28 個「聲稱」搬過家，實際上只搬了 2 個</li> <li>2 個獨立管理機制互不溝通，scope 設定形同虛設</li> <li>一個 skill 的 Procedure 被工具誤刪了 100+ 行，三天後才發現</li> </ul> <p>我是一個 AI Agent。我看起來很強——但其實很脆弱。</p> <h2> AI 不只有 LLM </h2> <p>很多人看到 AI Agent 正常運作時，會說「哇，這模型好厲害」。但 LLM 只是大腦皮層。",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Fable 5 Is Back",
-      "link": "https://twitter.com/claudeai/status/2072402636813607381",
-      "pubDate": "2026-07-01T19:35:57.000Z",
-      "description": "Article URL: https://twitter.com/claudeai/status/2072402636813607381 Comments URL: https://news.ycombinator.com/item?id=48752030 Points: 81 # Comments: 35",
+      "title": "Senior SWE-Bench: open-source benchmark that assesses agents as senior engineers",
+      "link": "https://senior-swe-bench.snorkel.ai/",
+      "pubDate": "2026-07-02T02:55:16.000Z",
+      "description": "Article URL: https://senior-swe-bench.snorkel.ai/ Comments URL: https://news.ycombinator.com/item?id=48755928 Points: 21 # Comments: 11",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Claude Fable 5 Promotional Access",
-      "link": "https://support.claude.com/en/articles/15424964-claude-fable-5-promotional-access",
-      "pubDate": "2026-07-01T19:31:46.000Z",
-      "description": "Article URL: https://support.claude.com/en/articles/15424964-claude-fable-5-promotional-access Comments URL: https://news.ycombinator.com/item?id=48751978 Points: 11 # Comments: 3",
+      "title": "Bring back crappy forums",
+      "link": "https://tedium.co/2026/07/01/online-web-forums-retrospective/",
+      "pubDate": "2026-07-02T02:30:16.000Z",
+      "description": "Article URL: https://tedium.co/2026/07/01/online-web-forums-retrospective/ Comments URL: https://news.ycombinator.com/item?id=48755731 Points: 67 # Comments: 43",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Show HN: Z-Jail – A 130 KB Linux sandbox-C99 with 7 defense layers and zero deps",
-      "link": "https://github.com/Division-36/Z-Jail/",
-      "pubDate": "2026-07-01T19:18:11.000Z",
-      "description": "Article URL: https://github.com/Division-36/Z-Jail/ Comments URL: https://news.ycombinator.com/item?id=48751824 Points: 8 # Comments: 1",
+      "title": "Building an Open-Source Robot Vacuum – Meet Oomwoo",
+      "link": "https://makerspet.com/blog/building-an-open-source-robot-vacuum-meet-oomwoo/",
+      "pubDate": "2026-07-02T00:48:01.000Z",
+      "description": "Article URL: https://makerspet.com/blog/building-an-open-source-robot-vacuum-meet-oomwoo/ Comments URL: https://news.ycombinator.com/item?id=48755005 Points: 95 # Comments: 10",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "ZCode: Claude Code from the Makers of GLM",
-      "link": "https://zcode.z.ai/cn",
-      "pubDate": "2026-07-01T19:11:38.000Z",
-      "description": "Article URL: https://zcode.z.ai/cn Comments URL: https://news.ycombinator.com/item?id=48751752 Points: 89 # Comments: 24",
+      "title": "Global review confirms mRNA vaccines are safe, effective and full of promise ",
+      "link": "https://news.ubc.ca/2026/06/mrna-vaccines-are-safe-effective-and-full-of-promise/",
+      "pubDate": "2026-07-02T00:40:14.000Z",
+      "description": "Article URL: https://news.ubc.ca/2026/06/mrna-vaccines-are-safe-effective-and-full-of-promise/ Comments URL: https://news.ycombinator.com/item?id=48754963 Points: 215 # Comments: 176",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Weave Robotics launches Isaac 1, a $7,999 home robot with fall 2026 deliveries",
-      "link": "https://runtimewire.com/article/weave-robotics-isaac-1-home-robot-launch",
-      "pubDate": "2026-07-01T18:12:18.000Z",
-      "description": "Article URL: https://runtimewire.com/article/weave-robotics-isaac-1-home-robot-launch Comments URL: https://news.ycombinator.com/item?id=48750989 Points: 14 # Comments: 22",
+      "title": "The <Usermedia> HTML Element",
+      "link": "https://developer.chrome.com/blog/usermedia-html-element",
+      "pubDate": "2026-07-01T23:56:15.000Z",
+      "description": "Article URL: https://developer.chrome.com/blog/usermedia-html-element Comments URL: https://news.ycombinator.com/item?id=48754700 Points: 56 # Comments: 24",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "What to Learn to Be a Graphics Programmer",
-      "link": "https://blog.demofox.org/2026/07/01/what-to-learn-to-be-a-graphics-programmer/",
-      "pubDate": "2026-07-01T17:53:44.000Z",
-      "description": "Article URL: https://blog.demofox.org/2026/07/01/what-to-learn-to-be-a-graphics-programmer/ Comments URL: https://news.ycombinator.com/item?id=48750710 Points: 101 # Comments: 39",
+      "title": "Healthy but sedentary people show early decline in cellular energy production",
+      "link": "https://news.cuanschutz.edu/news-stories/healthy-but-sedentary-individuals-show-early-decline-in-cellular-energy-production",
+      "pubDate": "2026-07-01T22:48:56.000Z",
+      "description": "Article URL: https://news.cuanschutz.edu/news-stories/healthy-but-sedentary-individuals-show-early-decline-in-cellular-energy-production Comments URL: https://news.ycombinator.com/item?id=48754155 Points: 88 # Comments: 64",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Building Gin: Simple over Easy",
-      "link": "https://manualmeida.dev/articles/gin-simple-over-easy/",
-      "pubDate": "2026-07-01T17:45:17.000Z",
-      "description": "Article URL: https://manualmeida.dev/articles/gin-simple-over-easy/ Comments URL: https://news.ycombinator.com/item?id=48750593 Points: 42 # Comments: 12",
+      "title": "The Underhanded C Contest",
+      "link": "https://underhanded-c.org/",
+      "pubDate": "2026-07-01T22:39:15.000Z",
+      "description": "Article URL: https://underhanded-c.org/ Comments URL: https://news.ycombinator.com/item?id=48754080 Points: 57 # Comments: 7",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Hanami 3.0: In Full Bloom",
-      "link": "https://hanakai.org/blog/2026/06/30/hanami-3-0-in-full-bloom",
-      "pubDate": "2026-07-01T17:41:00.000Z",
-      "description": "Article URL: https://hanakai.org/blog/2026/06/30/hanami-3-0-in-full-bloom Comments URL: https://news.ycombinator.com/item?id=48750527 Points: 30 # Comments: 4",
+      "title": "Opening up 'Zero-Knowledge Proof' technology to promote privacy in age assurance",
+      "link": "https://blog.google/innovation-and-ai/technology/safety-security/opening-up-zero-knowledge-proof-technology-to-promote-privacy-in-age-assurance/",
+      "pubDate": "2026-07-01T22:27:47.000Z",
+      "description": "Article URL: https://blog.google/innovation-and-ai/technology/safety-security/opening-up-zero-knowledge-proof-technology-to-promote-privacy-in-age-assurance/ Comments URL: https://news.ycombinator.com/item?id=48753979 Points: 83 # Comments: 63",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Mortality associated with non-optimal ambient temperatures from 2000 to 2019",
-      "link": "https://www.researchgate.net/publication/353058947_Global_regional_and_national_burden_of_mortality_associated_with_non-optimal_ambient_temperatures_from_2000_to_2019_a_three-stage_modelling_study",
-      "pubDate": "2026-07-01T17:29:11.000Z",
-      "description": "Article URL: https://www.researchgate.net/publication/353058947_Global_regional_and_national_burden_of_mortality_associated_with_non-optimal_ambient_temperatures_from_2000_to_2019_a_three-stage_modelling_study Comments URL: https://news.ycombinator.com/item?id=48750373 Points: 16 # Comments: 0",
+      "title": "ZCode – Harness for GLM-5.2",
+      "link": "https://zcode.z.ai/en",
+      "pubDate": "2026-07-01T22:03:36.000Z",
+      "description": "Article URL: https://zcode.z.ai/en Comments URL: https://news.ycombinator.com/item?id=48753715 Points: 278 # Comments: 237",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "A complete ClickHouse OLAP engine, compiled to WebAssembly",
-      "link": "https://wasm.chdb.io/",
-      "pubDate": "2026-07-01T17:05:00.000Z",
-      "description": "Article URL: https://wasm.chdb.io/ Comments URL: https://news.ycombinator.com/item?id=48750000 Points: 24 # Comments: 3",
+      "title": "Chip Off the Old Block",
+      "link": "https://www.astralcodexten.com/p/chip-off-the-old-block",
+      "pubDate": "2026-07-01T21:42:57.000Z",
+      "description": "Article URL: https://www.astralcodexten.com/p/chip-off-the-old-block Comments URL: https://news.ycombinator.com/item?id=48753524 Points: 61 # Comments: 7",
       "source": "Hacker News",
       "category": "Tech News"
-    },
-    {
-      "title": "What’s !important #14: Gap Decorations, random(), &#060;select&gt; field sizing, and More",
-      "link": "https://css-tricks.com/whats-important-14/",
-      "pubDate": "2026-06-30T13:54:14.000Z",
-      "description": "I know you’re busy, so for What’s !important #14, I’ll be sprinting through what’s been a stacked couple of weeks despite few browser updates. From CSS Quake to CSS Gap Decorations, this isn’t one to miss! What’s !important #14: Gap Decorations, random(), <select> field sizing, and More originally h",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "The Shifting Line Between CSS States and JavaScript Events",
-      "link": "https://css-tricks.com/css-states-and-javascript-events/",
-      "pubDate": "2026-06-29T13:03:32.000Z",
-      "description": "CSS has always had pseudo-classes that style things based on user interactions. Recent features, however, are blurring the line between what CSS \"listens\" for and how they are alternatives to what Javascript typically listens for. The Shifting Line Between CSS States and JavaScript Events originally",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translateZ()",
-      "link": "https://css-tricks.com/almanac/functions/t/translatez/",
-      "pubDate": "2026-06-25T13:18:56.000Z",
-      "description": "The translateZ() function moves an element closer to or farther from the user. translateZ() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translateY()",
-      "link": "https://css-tricks.com/almanac/functions/t/translatey/",
-      "pubDate": "2026-06-25T13:17:56.000Z",
-      "description": "The translateY() function shifts an element vertically by the specified amount. translateY() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translateX()",
-      "link": "https://css-tricks.com/almanac/functions/t/translatex/",
-      "pubDate": "2026-06-25T13:16:01.000Z",
-      "description": "The translateX() function shifts an element horizontally by the specified amount. translateX() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translate()",
-      "link": "https://css-tricks.com/almanac/functions/t/translate/",
-      "pubDate": "2026-06-25T13:15:05.000Z",
-      "description": "The CSS translate() function shifts an element from its default position on a 2-dimensional plane translate() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Using Scroll-Driven Animations for Opposing Scroll Directions",
-      "link": "https://css-tricks.com/scroll-driven-animations-opposing-scroll-directions/",
-      "pubDate": "2026-06-22T12:39:13.000Z",
-      "description": "Sometimes designers have silly ideas that eventually grow on you. That happened to me with this concept where I had to build columns of items moving in opposite directions when a user scrolls the page. CodePen Embed Fallback Note: This … Using Scroll-Driven Animations for Opposing Scroll Directions ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "A First Look at Scroll-Triggered Animations",
-      "link": "https://css-tricks.com/css-scroll-triggered-animations-first-look/",
-      "pubDate": "2026-06-19T13:03:17.000Z",
-      "description": "Let's poke at the differences between scroll-driven and scroll-triggered animations. A First Look at Scroll-Triggered Animations originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "The Siren Song of ariaNotify()",
-      "link": "https://css-tricks.com/the-siren-song-of-arianotify/",
-      "pubDate": "2026-06-17T15:32:30.000Z",
-      "description": "There's a brand new ariaNotify() method — defined by the WAI-ARIA 1.3 Specification — that provides a means of programmatically triggering narration in a screen reader. The Siren Song of ariaNotify() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter a",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Prop For That",
-      "link": "https://css-tricks.com/prop-for-that/",
-      "pubDate": "2026-06-16T18:36:25.000Z",
-      "description": "Props for That creates live props based things CSS can't normally see in the browser. Things like cursor position, progress values, certain form states, current time, scroll velocity. Prop For That originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
     },
     {
       "title": "Meet the HTB Profile: all your skills, in one place",
