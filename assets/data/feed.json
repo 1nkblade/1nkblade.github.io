@@ -1,248 +1,173 @@
 {
-  "generatedAt": "2026-07-02T19:52:23.361Z",
+  "generatedAt": "2026-07-03T04:09:09.393Z",
   "sourceCount": 4,
-  "successCount": 4,
-  "errors": [],
+  "successCount": 3,
+  "errors": [
+    {
+      "source": "CSS Tricks",
+      "error": "HTTP 415 Unsupported Media Type"
+    }
+  ],
   "items": [
     {
-      "title": "AuraPlayer: Offline music player with true multi-artist support &amp; live themes (PyQt6)",
-      "link": "https://dev.to/parsa_alavinikoo_1cccd4ff/auraplayer-offline-music-player-with-true-multi-artist-support-live-themes-pyqt6-55p5",
-      "pubDate": "2026-07-02T19:33:43.000Z",
-      "description": "<p>I am currently building a desktop offline music player called <strong>AuraPlayer</strong> (written in Python/PyQt6). The project is actively in development, and the main goal is to fix some of the most annoying UX issues found in traditional offline players.</p> <h3> What My Project Does </h3> <p",
+      "title": "How I Built a Free AI Image Tool That Runs 100% in the Browser (No Server Needed)",
+      "link": "https://dev.to/pirate_haizei/how-i-built-a-free-ai-image-tool-that-runs-100-in-the-browser-no-server-needed-4e4l",
+      "pubDate": "2026-07-03T03:51:14.000Z",
+      "description": "<p>I recently built a free online image processing tool that runs entirely in the browser. <br> No uploads, no servers, no sign-ups. Here's how it works under the hood. <a href=\"https://img.aixiaot.com\" rel=\"noopener noreferrer\">https://img.aixiaot.com</a></p> <p><a href=\"https://media2.dev.to/dynam",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "🚀 How We Organized a Frontend Quiz That Attracted 1,600+ Registrations",
-      "link": "https://dev.to/rishibyte/how-we-organized-a-frontend-quiz-that-attracted-1600-registrations-p41",
-      "pubDate": "2026-07-02T19:31:06.000Z",
-      "description": "<p>Building software is exciting.</p> <p>But building a community around technology? That's even more rewarding.</p> <p>Recently, our team at <strong>Omnikon</strong> organized our very first large-scale community event—the <strong>Frontend Quiz Arena 2026</strong>.</p> <p>We had no idea how many pe",
+      "title": "Dev log #9 Hardening Kademlia DHT and automating the Neovim grind",
+      "link": "https://dev.to/yashksaini/dev-log-9-hardening-kademlia-dht-and-automating-the-neovim-grind-43f3",
+      "pubDate": "2026-07-03T03:48:03.000Z",
+      "description": "<blockquote> <p>Seven days of flow. Fixed a peer identity binding issue in py-libp2p, automated my Neovim lockfile merges, and added a massive batch of notes on xv6 and Category Theory. 10 commits and a solid PR in the works.</p> </blockquote> <h2> TL;DR </h2> <p>I managed to hit a perfect seven-day",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Why Startups are Getting Ripped Off by 30% Recruiter Fees (From a Recruiter Who Left)",
-      "link": "https://dev.to/futureisnowtech/why-startups-are-getting-ripped-off-by-30-recruiter-fees-from-a-recruiter-who-left-bdc",
-      "pubDate": "2026-07-02T19:25:43.000Z",
-      "description": "<p>Look... let's keep it real for a second. If you're a founder running an early-stage deep tech startup, you've probably had some slick agency recruiter pitch you their services. They slide into your inbox, tell you they have the perfect \"quantum algorithms engineer\" who went to MIT, and then casua",
+      "title": "Dev log #8 Hardening the Orchestrator: A Week of Making dev-publish Resilient",
+      "link": "https://dev.to/yashksaini/dev-log-8-hardening-the-orchestrator-a-week-of-making-dev-publish-resilient-14lh",
+      "pubDate": "2026-07-03T03:47:12.000Z",
+      "description": "<blockquote> <p>Spent the week deep-diving into my dev-publish tool, focusing on durability and orchestrator resilience. 21 commits across two repos, with a massive cleanup of the publishing logic and some much-needed architecture documentation.</p> </blockquote> <h2> TL;DR </h2> <p>There is a speci",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The PhD Trap: Why Quantum Startups are Failing to Ship Code",
-      "link": "https://dev.to/futureisnowtech/the-phd-trap-why-quantum-startups-are-failing-to-ship-code-4dph",
-      "pubDate": "2026-07-02T19:24:44.000Z",
-      "description": "<p>I’m going to say something that might ruffle some feathers... but after ten years of hiring engineers in deep tech, someone has to say it. </p> <p>Too many quantum startups are falling into the \"PhD Trap.\"</p> <p>They raise a seed round, hire five brilliant academic physicists from top universiti",
+      "title": "Spanlens",
+      "link": "https://dev.to/haeseong_jeon_bfa6d48ed8d/spanlens-5f9i",
+      "pubDate": "2026-07-03T03:46:44.000Z",
+      "description": "<p>Spanlens is an open-source (MIT) LLM observability platform that lets developers monitor every call their application makes to OpenAI, Anthropic, Gemini, Mistral, OpenRouter, Azure OpenAI, or a local Ollama model. Integration takes one line: swap your client's baseURL to the Spanlens proxy, or ru",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Why You Need to Shield Your Resume from the Recruiter Spam Machine",
-      "link": "https://dev.to/futureisnowtech/why-you-need-to-shield-your-resume-from-the-recruiter-spam-machine-56pd",
-      "pubDate": "2026-07-02T19:23:17.000Z",
-      "description": "<p>Let’s be honest... if you have \"Machine Learning\", \"PyTorch\", or \"Quantum\" anywhere on your resume or LinkedIn, your inbox is a burning trash fire. </p> <p>Every single day you get hit by automated messages from recruiters who clearly haven't read your profile. They want you to interview for a \"g",
+      "title": "How I Organize 10,000+ Prompts Across Projects",
+      "link": "https://dev.to/jaideepparashar/how-i-organize-10000-prompts-across-projects-2g30",
+      "pubDate": "2026-07-03T03:45:48.000Z",
+      "description": "<p>One question I get surprisingly often is:</p> <p>\"How do you manage thousands of AI prompts without losing track of them?\"</p> <p>The answer is simple.</p> <p><strong>I don't treat prompts as conversations.</strong></p> <p>I treat them as reusable software assets.</p> <p>Over the years, I've crea",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Why Developer Ghosting is Killing Your Hiring Funnel",
-      "link": "https://dev.to/futureisnowtech/why-developer-ghosting-is-killing-your-hiring-funnel-30l3",
-      "pubDate": "2026-07-02T19:22:20.000Z",
-      "description": "<p>Let’s be real for a minute... the hiring experience for software engineers is currently a complete mess. </p> <p>We’ve all been there. You spend hours preparing for a technical screen, solve a complex coding challenge, and then... absolute silence. Weeks pass, and you get a generic automated emai",
+      "title": "When (and when not) to inline images as Base64",
+      "link": "https://dev.to/jeromell/when-and-when-not-to-inline-images-as-base64-2abo",
+      "pubDate": "2026-07-03T03:39:02.000Z",
+      "description": "<p>Base64 image data URIs are one of those web techniques that look like a magic shortcut the first time you use them.</p> <p>Instead of referencing an external file:<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight html\"><code><span class=\"nt\">&lt;img</span> <span class=\"na\"",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Why Snap CD: Modular Deployments",
-      "link": "https://dev.to/karlschriek/why-snap-cd-modular-deployments-4k4j",
-      "pubDate": "2026-07-02T19:22:06.000Z",
-      "description": "<p>Terraform manages dependencies between resources within a single state. The moment your infrastructure outgrows one state file — <a href=\"https://snapcd.io/Learn/large-terraform-states\" rel=\"noopener noreferrer\">slow plans, wide blast radius, team contention</a> — you need to split. But the piece",
+      "title": "The same root cause keeps coming back because nobody tracks it. I built a zero-dep CLI that does.",
+      "link": "https://dev.to/_06a3df6b50aec966668fb/the-same-root-cause-keeps-coming-back-because-nobody-tracks-it-i-built-a-zero-dep-cli-that-does-3i34",
+      "pubDate": "2026-07-03T03:38:57.000Z",
+      "description": "<p>You write the postmortem. You file the action items. Everyone nods, the doc gets archived, and life moves on.</p> <p>Six months later, the exact same root cause takes down the exact same service — and nobody in the room remembers the first incident, let alone that its fix never actually shipped.<",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Vetting Deep Tech Talent: How to Identify Real Engineering Competence",
-      "link": "https://dev.to/futureisnowtech/vetting-deep-tech-talent-how-to-identify-real-engineering-competence-1ngf",
-      "pubDate": "2026-07-02T19:20:40.000Z",
-      "description": "<p>Vetting deep tech candidates is incredibly difficult... especially in fields like Machine Learning and Quantum Computing where the academic credentials can look extremely intimidating.</p> <p>It is easy to get blinded by a resume that lists a Ph.D. from Stanford, three papers in Nature, and a lon",
+      "title": "Why Every Developer Will Become an AI Orchestrator",
+      "link": "https://dev.to/yash_sonawane25/why-every-developer-will-become-an-ai-orchestrator-3ec",
+      "pubDate": "2026-07-03T03:20:09.000Z",
+      "description": "<p>For decades, developers were judged by one thing:</p> <p>How much code they could write.</p> <p>The best programmers wrote faster.</p> <p>Debugged faster.</p> <p>Built faster.</p> <p>That era is ending.</p> <p>The next generation of developers won't spend most of their time writing code.</p> <p>T",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Why Snap CD: Self-Hosted Terraform Runners with Credential Isolation",
-      "link": "https://dev.to/karlschriek/why-snap-cd-self-hosted-terraform-runners-with-credential-isolation-407e",
-      "pubDate": "2026-07-02T19:18:00.000Z",
-      "description": "<p>Most infrastructure teams run Terraform from a CI pipeline. That pipeline has credentials — cloud provider keys, state backend tokens, maybe a vault token to fetch more secrets. Early on, one pipeline with one set of credentials works fine. But as the infrastructure grows and more environments co",
+      "title": "LINQ and ZLinq in the Unity 6 Era: Avoiding GC Allocations in Large-Scale Projects",
+      "link": "https://dev.to/gamedevtoollab/linq-and-zlinq-in-the-unity-6-era-avoiding-gc-allocations-in-large-scale-projects-36c2",
+      "pubDate": "2026-07-03T03:05:24.000Z",
+      "description": "<h2> Introduction </h2> <p>In large-scale Unity development, GC Alloc can quietly become a real problem.</p> <p>At first, nothing looks wrong. But as the project grows and you add more enemies, UI, master data, events, states, notifications, logs, and other systems, small allocations that happen eve",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Job seekers giving up: Labor force participation falls to lowest in 50 years",
-      "link": "https://www.cnbc.com/2026/07/02/job-seekers-giving-up-labor-force-participation-rate-falls-to-lowest-in-50-years-outside-of-covid-era.html",
-      "pubDate": "2026-07-02T19:16:20.000Z",
-      "description": "Article URL: https://www.cnbc.com/2026/07/02/job-seekers-giving-up-labor-force-participation-rate-falls-to-lowest-in-50-years-outside-of-covid-era.html Comments URL: https://news.ycombinator.com/item?id=48766076 Points: 8 # Comments: 1",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Bedrock Inference Profiles — From Flying Blind to Understanding Your AWS Bedrock Usage in Detail",
-      "link": "https://dev.to/aws-builders/bedrock-inference-profiles-from-flying-blind-to-understanding-your-aws-bedrock-usage-in-detail-l6l",
-      "pubDate": "2026-07-02T19:16:09.000Z",
-      "description": "<h2> The starting point: zero visibility </h2> <p>Every organization is using Claude, Codex, Cursor, Cline, and many other wonderful tools right now to improve team productivity and, by a rippling effect, the products they ship. Most of these tools are developer-oriented, but a new generation of app",
+      "title": "Nano Banana 2 Lite and Gemini Omni Flash: What's Actually New in Google's Gemini API",
+      "link": "https://dev.to/kamal_llm_manuplator/nano-banana-2-lite-and-gemini-omni-flash-whats-actually-new-in-googles-gemini-api-3hng",
+      "pubDate": "2026-07-03T02:58:18.000Z",
+      "description": "<p>Google added two new models to the Gemini API today: Nano Banana 2 Lite (image generation) and Gemini Omni Flash (video generation + editing). Neither is the Gemini 3.5 Pro release people have been waiting for, so it's easy to miss. Here's what's actually in them.</p> <p><strong>TL;DR</strong></p",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "JEP 539: Strict Field Initialization in the JVM moved to preview",
-      "link": "https://openjdk.org/jeps/539",
-      "pubDate": "2026-07-02T18:56:33.000Z",
-      "description": "Article URL: https://openjdk.org/jeps/539 Comments URL: https://news.ycombinator.com/item?id=48765830 Points: 7 # Comments: 0",
+      "title": "CarPlay Is Additive",
+      "link": "https://www.caseyliss.com/2026/7/2/carplay-is-additive-you-dolts",
+      "pubDate": "2026-07-03T01:02:45.000Z",
+      "description": "Article URL: https://www.caseyliss.com/2026/7/2/carplay-is-additive-you-dolts Comments URL: https://news.ycombinator.com/item?id=48769397 Points: 94 # Comments: 106",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Exapunks (2018)",
-      "link": "https://www.zachtronics.com/exapunks/",
-      "pubDate": "2026-07-02T18:41:19.000Z",
-      "description": "Article URL: https://www.zachtronics.com/exapunks/ Comments URL: https://news.ycombinator.com/item?id=48765663 Points: 61 # Comments: 17",
+      "title": "Order a burned CD of your own public GitHub repo",
+      "link": "https://forms.cloud.microsoft/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR6G-c11n8yFDlQmk4B-QjDxUQkdTTjZLU0EyTFFRV1E3NVRTVTRTWjRHMy4u&amp;route=shorturl",
+      "pubDate": "2026-07-03T00:01:26.000Z",
+      "description": "Article URL: https://forms.cloud.microsoft/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR6G-c11n8yFDlQmk4B-QjDxUQkdTTjZLU0EyTFFRV1E3NVRTVTRTWjRHMy4u&route=shorturl Comments URL: https://news.ycombinator.com/item?id=48768997 Points: 114 # Comments: 86",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Postgres transactions are a distributed systems superpower",
-      "link": "https://www.dbos.dev/blog/co-locating-workflow-state-with-your-data",
-      "pubDate": "2026-07-02T18:38:32.000Z",
-      "description": "Article URL: https://www.dbos.dev/blog/co-locating-workflow-state-with-your-data Comments URL: https://news.ycombinator.com/item?id=48765639 Points: 5 # Comments: 0",
+      "title": "An American Privacy Emergency",
+      "link": "https://scottaaronson.blog/?p=9902",
+      "pubDate": "2026-07-03T00:01:06.000Z",
+      "description": "Recent and related:Noise infusion banned from statistical products published by Census Bureau - https://news.ycombinator.com/item?id=48517377 - June 2026 (604 comments) Comments URL: https://news.ycombinator.com/item?id=48768992 Points: 211 # Comments: 71",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Claude's AskUserQuestion: \"No response after 60s – continued without an answer\"",
-      "link": "https://github.com/anthropics/claude-code/issues/73125",
-      "pubDate": "2026-07-02T18:37:57.000Z",
-      "description": "Article URL: https://github.com/anthropics/claude-code/issues/73125 Comments URL: https://news.ycombinator.com/item?id=48765630 Points: 5 # Comments: 1",
+      "title": "Right to Local Intelligence",
+      "link": "https://righttointelligence.org/",
+      "pubDate": "2026-07-02T23:54:03.000Z",
+      "description": "Article URL: https://righttointelligence.org/ Comments URL: https://news.ycombinator.com/item?id=48768951 Points: 74 # Comments: 32",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Vulkan is now available on NetBSD",
-      "link": "https://github.com/segaboy/vulkan-netbsd",
-      "pubDate": "2026-07-02T18:36:09.000Z",
-      "description": "Article URL: https://github.com/segaboy/vulkan-netbsd Comments URL: https://news.ycombinator.com/item?id=48765607 Points: 3 # Comments: 0",
+      "title": "crustc: entirety of `rustc`, translated to C",
+      "link": "https://github.com/FractalFir/crustc",
+      "pubDate": "2026-07-02T22:57:35.000Z",
+      "description": "Article URL: https://github.com/FractalFir/crustc Comments URL: https://news.ycombinator.com/item?id=48768464 Points: 180 # Comments: 31",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Since Linux 6.9, LUKS suspend stopped wiping disk-encryption keys from memory",
-      "link": "https://mathstodon.xyz/@iblech/116769502749142438",
-      "pubDate": "2026-07-02T15:25:16.000Z",
-      "description": "Article URL: https://mathstodon.xyz/@iblech/116769502749142438 Comments URL: https://news.ycombinator.com/item?id=48763035 Points: 282 # Comments: 141",
+      "title": "Mystery identity of 'Green Boots' climber is finally solved after DNA test",
+      "link": "https://www.dailymail.com/news/article-15943905/Mystery-identity-Green-Boots-climber-macabre-landmark-frozen-ice-dying-Everest-finally-solved-DNA-test.html",
+      "pubDate": "2026-07-02T22:44:04.000Z",
+      "description": "Article URL: https://www.dailymail.com/news/article-15943905/Mystery-identity-Green-Boots-climber-macabre-landmark-frozen-ice-dying-Everest-finally-solved-DNA-test.html Comments URL: https://news.ycombinator.com/item?id=48768336 Points: 71 # Comments: 33",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Launch HN: Manufact (YC S25) – MCP Cloud",
-      "link": "https://manufact.com",
-      "pubDate": "2026-07-02T15:11:20.000Z",
-      "description": "Hi HN, we are Pietro and Luigi, cofounders of Manufact (https://manufact.com), a cloud for MCP apps and servers. We used to be called mcp-use, and still build open source SDKs for MCP under that name: https://github.com/mcp-use/mcp-use. We did a Show HN about that last year: https://news.ycombinator",
+      "title": "Virginia bans sale of geolocation data",
+      "link": "https://www.hunton.com/privacy-and-cybersecurity-law-blog/virginia-bans-sale-of-geolocation-data",
+      "pubDate": "2026-07-02T21:03:45.000Z",
+      "description": "Article URL: https://www.hunton.com/privacy-and-cybersecurity-law-blog/virginia-bans-sale-of-geolocation-data Comments URL: https://news.ycombinator.com/item?id=48767347 Points: 597 # Comments: 102",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Spain Orders Blacklist of Palantir from Public and Private Companies",
-      "link": "https://clashreport.com/world/articles/spain-orders-blacklist-of-us-tech-giant-palantir-from-public-and-private-companies-fsnc2z17gjv",
-      "pubDate": "2026-07-02T15:02:26.000Z",
-      "description": "Article URL: https://clashreport.com/world/articles/spain-orders-blacklist-of-us-tech-giant-palantir-from-public-and-private-companies-fsnc2z17gjv Comments URL: https://news.ycombinator.com/item?id=48762725 Points: 287 # Comments: 78",
+      "title": "Lightning Memory-Mapped Database Manager (LMDB) 1.0",
+      "link": "http://www.lmdb.tech/doc/",
+      "pubDate": "2026-07-02T20:01:20.000Z",
+      "description": "Article URL: http://www.lmdb.tech/doc/ Comments URL: https://news.ycombinator.com/item?id=48766598 Points: 68 # Comments: 39",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Podman v6.0.0",
-      "link": "https://blog.podman.io/2026/07/introducing-podman-v6-0-0/",
-      "pubDate": "2026-07-02T14:23:09.000Z",
-      "description": "Article URL: https://blog.podman.io/2026/07/introducing-podman-v6-0-0/ Comments URL: https://news.ycombinator.com/item?id=48762098 Points: 124 # Comments: 38",
+      "title": "Great Salt Lake Tracker – Grow the Flow",
+      "link": "https://growtheflowutah.org/laketracker/",
+      "pubDate": "2026-07-02T19:33:55.000Z",
+      "description": "Article URL: https://growtheflowutah.org/laketracker/ Comments URL: https://news.ycombinator.com/item?id=48766286 Points: 74 # Comments: 29",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "What’s !important #14: Gap Decorations, random(), &#060;select&gt; field sizing, and More",
-      "link": "https://css-tricks.com/whats-important-14/",
-      "pubDate": "2026-06-30T13:54:14.000Z",
-      "description": "I know you’re busy, so for What’s !important #14, I’ll be sprinting through what’s been a stacked couple of weeks despite few browser updates. From CSS Quake to CSS Gap Decorations, this isn’t one to miss! What’s !important #14: Gap Decorations, random(), <select> field sizing, and More originally h",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "The Shifting Line Between CSS States and JavaScript Events",
-      "link": "https://css-tricks.com/css-states-and-javascript-events/",
-      "pubDate": "2026-06-29T13:03:32.000Z",
-      "description": "CSS has always had pseudo-classes that style things based on user interactions. Recent features, however, are blurring the line between what CSS \"listens\" for and how they are alternatives to what Javascript typically listens for. The Shifting Line Between CSS States and JavaScript Events originally",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translateZ()",
-      "link": "https://css-tricks.com/almanac/functions/t/translatez/",
-      "pubDate": "2026-06-25T13:18:56.000Z",
-      "description": "The translateZ() function moves an element closer to or farther from the user. translateZ() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translateY()",
-      "link": "https://css-tricks.com/almanac/functions/t/translatey/",
-      "pubDate": "2026-06-25T13:17:56.000Z",
-      "description": "The translateY() function shifts an element vertically by the specified amount. translateY() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translateX()",
-      "link": "https://css-tricks.com/almanac/functions/t/translatex/",
-      "pubDate": "2026-06-25T13:16:01.000Z",
-      "description": "The translateX() function shifts an element horizontally by the specified amount. translateX() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translate()",
-      "link": "https://css-tricks.com/almanac/functions/t/translate/",
-      "pubDate": "2026-06-25T13:15:05.000Z",
-      "description": "The CSS translate() function shifts an element from its default position on a 2-dimensional plane translate() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Using Scroll-Driven Animations for Opposing Scroll Directions",
-      "link": "https://css-tricks.com/scroll-driven-animations-opposing-scroll-directions/",
-      "pubDate": "2026-06-22T12:39:13.000Z",
-      "description": "Sometimes designers have silly ideas that eventually grow on you. That happened to me with this concept where I had to build columns of items moving in opposite directions when a user scrolls the page. CodePen Embed Fallback Note: This … Using Scroll-Driven Animations for Opposing Scroll Directions ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "A First Look at Scroll-Triggered Animations",
-      "link": "https://css-tricks.com/css-scroll-triggered-animations-first-look/",
-      "pubDate": "2026-06-19T13:03:17.000Z",
-      "description": "Let's poke at the differences between scroll-driven and scroll-triggered animations. A First Look at Scroll-Triggered Animations originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "The Siren Song of ariaNotify()",
-      "link": "https://css-tricks.com/the-siren-song-of-arianotify/",
-      "pubDate": "2026-06-17T15:32:30.000Z",
-      "description": "There's a brand new ariaNotify() method — defined by the WAI-ARIA 1.3 Specification — that provides a means of programmatically triggering narration in a screen reader. The Siren Song of ariaNotify() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter a",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Prop For That",
-      "link": "https://css-tricks.com/prop-for-that/",
-      "pubDate": "2026-06-16T18:36:25.000Z",
-      "description": "Props for That creates live props based things CSS can't normally see in the browser. Things like cursor position, progress values, certain form states, current time, scroll velocity. Prop For That originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
+      "title": "EFF letter to FTC on X consent order (2 July 2026) [pdf]",
+      "link": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/EFF-letter-to-FTC-on-X-consent-order-7-2-26.pdf",
+      "pubDate": "2026-07-02T19:27:38.000Z",
+      "description": "Article URL: https://cdn.arstechnica.net/wp-content/uploads/2026/07/EFF-letter-to-FTC-on-X-consent-order-7-2-26.pdf Comments URL: https://news.ycombinator.com/item?id=48766209 Points: 117 # Comments: 47",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "Meet the HTB Profile: all your skills, in one place",
