@@ -1,102 +1,110 @@
 {
-  "generatedAt": "2026-07-04T09:00:55.163Z",
+  "generatedAt": "2026-07-04T13:58:45.255Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "The Database Architect Teaches His Nephew — Part 2: How Small Things Quietly Break Big Databases",
-      "link": "https://dev.to/surajrkhonde/the-database-architect-teaches-his-nephew-part-2-how-small-things-quietly-break-big-databases-3k78",
-      "pubDate": "2026-07-04T08:49:44.000Z",
-      "description": "<p><em>Same uncle, same nephew. Part 1 was about designing and guarding data. Part 2 is about the small, easy-to-miss mistakes that quietly destroy a database over time — explained simply, no heavy jargon, just plain talk.</em></p> <h2> Part 0: The Danger Isn't the Big Mistake — It's the Small One <",
+      "title": "Sauna CTF HTB",
+      "link": "https://dev.to/iftikhar_911/sauna-ctf-htb-1lp0",
+      "pubDate": "2026-07-04T13:29:19.000Z",
+      "description": "<p>Hi what’s up, welcome to my page. Today we are going to solve Sauna ctf in Hack The box. This ctf is about Active Directory, which is very important.</p> <p><strong>Enumeration</strong><br> <code>nmap -sV -sC 10.129.95.180<br> Starting Nmap 7.98 ( https://nmap.org ) at 2026–07–03 13:16 -0400<br> ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Google ADK 2.0 Is Stable — Why That Makes the OpenAI Split Matter More",
-      "link": "https://dev.to/peytongreen_dev/google-adk-20-is-stable-why-that-makes-the-openai-split-matter-more-3c6l",
-      "pubDate": "2026-07-04T08:45:03.000Z",
-      "description": "<h1> Google ADK 2.0 Is Stable — Why That Makes the OpenAI Split Matter More </h1> <p>Last week, Google shipped Agent Development Kit (ADK) 2.0.0 stable, and the same week, a2a-sdk hit 1.0.3 stable. Together, they're a statement: Google has a complete, production-ready agent framework and is willing ",
+      "title": "Bringing React Native Style Composition to React",
+      "link": "https://dev.to/omnidev/bringing-react-native-style-composition-to-react-d1l",
+      "pubDate": "2026-07-04T13:27:46.000Z",
+      "description": "<blockquote> <p>Fluentic is my attempt to make React styling feel explicit, composable, and predictable again.</p> </blockquote> <p>Years ago, I worked on web apps with Emotion, and I loved it.</p> <p>It was flexible, productive, and convenient. But over time, some of the codebases I worked on becam",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Swift Structs — Static Properties and Methods 🏛️",
-      "link": "https://dev.to/gamya_m/swift-structs-static-properties-and-methods-427c",
-      "pubDate": "2026-07-04T08:44:00.000Z",
-      "description": "<p>Sometimes you want data or functionality to belong to a struct itself, not to any individual instance. That's what static properties and methods are for—let's break them down with some examples!</p> <p>Every property and method we've added to our structs so far has belonged to <em>instances</em> ",
+      "title": "Building a 10-Agent Security Civilization with Qwen and Alibaba Cloud 🛡️🤖",
+      "link": "https://dev.to/astaaddahiya/building-a-10-agent-security-civilization-with-qwen-and-alibaba-cloud-4i21",
+      "pubDate": "2026-07-04T13:24:56.000Z",
+      "description": "<p>Security auditing is broken. </p> <p>If you’ve ever run a static analysis tool (SAST) on a large codebase, you know the pain: thousands of alerts, zero context, and a 90% false-positive rate. On the other end of the spectrum, hiring human penetration testers is incredibly expensive and impossible",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I let an AI handle an outage. It invented a hack that never happened, then spiraled",
-      "link": "https://dev.to/jun_uen0/i-let-an-ai-handle-an-outage-it-invented-a-hack-that-never-happened-then-spiraled-31np",
-      "pubDate": "2026-07-04T08:41:37.000Z",
-      "description": "<p>One evening, a monitoring alert went off: a server behind a web service was down.<br> I handed the incident to an AI coding agent. Half experiment, half laziness — \"it's routine triage, what could go wrong.\"</p> <p>Let me put the conclusion up front, honestly.<br> <strong>The first half was sharp",
+      "title": "I Packed DeepSeek V4 + Claude Code Into a Starter Kit. Clone It and Ship.",
+      "link": "https://dev.to/yuhaolin2005/i-packed-deepseek-v4-claude-code-into-a-starter-kit-clone-it-and-ship-13dn",
+      "pubDate": "2026-07-04T13:24:48.000Z",
+      "description": "<blockquote> <p><strong>TL;DR:</strong> I spent weeks tuning DeepSeek V4 to feel native inside Claude Code. The result: a one-command setup with 9 agents, 7 rules, security hooks, OCR, and auto-backup. Clone → ./init.sh → you're shipping.</p> </blockquote> <p>I wanted DeepSeek's 1M context window in",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Webhook Retry Logic: Exponential Backoff Best Practices",
-      "link": "https://dev.to/anonymilyhq/webhook-retry-logic-exponential-backoff-best-practices-1de6",
-      "pubDate": "2026-07-04T08:28:42.000Z",
-      "description": "<h2> Why Webhook Retry Logic Matters </h2> <p>Your webhook handler crashes. The provider sends a request. You miss it. Now what? Without proper webhook retry logic and exponential backoff implementation, transient failures become data loss. The provider might retry once or twice, but if your service",
+      "title": "I built a zero-dependency sky engine in TypeScript, verified to 4.6 arcseconds",
+      "link": "https://dev.to/svarbhanu/i-built-a-zero-dependency-sky-engine-in-typescript-verified-to-46-arcseconds-317h",
+      "pubDate": "2026-07-04T13:21:55.000Z",
+      "description": "<p>Today I shipped v0.1.0 of <a href=\"https://github.com/svarbhanu/grahan\" rel=\"noopener noreferrer\">grahan</a>, an MIT-licensed TypeScript library that computes Sun/Moon positions, sunrise/sunset, moon phases, and the Vedic panchang (tithi, nakshatra, yoga, karana, Rahu Kaal). Zero runtime dependen",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Testing REST API Verification Emails Without Polluting Shared Inboxes",
-      "link": "https://dev.to/kevindev27/testing-rest-api-verification-emails-without-polluting-shared-inboxes-5693",
-      "pubDate": "2026-07-04T08:25:15.000Z",
-      "description": "<p>Verification emails look simple from the product side: user signs up, API sends a message, user clicks a link, account becomes active. On the backend side, that flow is where a lot of teams quietly prove the wrong thing. A message arrives, somebody marks the test green, and nobody checks whether ",
+      "title": "Building Production AI Systems(Part 1)",
+      "link": "https://dev.to/franklyn_nmesoma/building-production-ai-systemspart-1-10gm",
+      "pubDate": "2026-07-04T13:15:00.000Z",
+      "description": "<h2> <strong>OpenRouter isn't just another AI gateway. It's an architectural decision.</strong> </h2> <p><em>This is Part 1 of a five-part series on building production-ready AI applications.</em></p> <p>A few months ago, if you wanted to experiment with multiple LLM providers in the same applicatio",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Anthropic's newer Sonnet lands on GitLab Duo, routed through the AI Gateway",
-      "link": "https://dev.to/leobaniak/anthropics-newer-sonnet-lands-on-gitlab-duo-routed-through-the-ai-gateway-2h4",
-      "pubDate": "2026-07-04T08:24:20.000Z",
-      "description": "<p>The Friday before a long weekend, I asked an agent to migrate a legacy webhook handler while I closed my laptop. It came back with a diff that compiled, ran the tests, and left a note about a fixture it did not want to change without me. That is the shape of the work these agents are pitched for ",
+      "title": "Spring boot skills agent",
+      "link": "https://dev.to/rrezart_prebreza/spring-boot-skills-agent-4bb2",
+      "pubDate": "2026-07-04T13:08:45.000Z",
+      "description": "<p>I built an open-source collection of Claude/Codex skills for Spring Boot projects.</p> <p>It includes focused skills for REST APIs, Spring Data JPA, Flyway, Spring Security, Spring Batch, Spring AI, MCP servers, testing, architecture patterns, and more.</p> <p>There are now two versions:</p> <ul>",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Four GitHub Actions cron scheduling patterns I use in a five-workflow monorepo",
-      "link": "https://dev.to/morinaga/four-github-actions-cron-scheduling-patterns-i-use-in-a-five-workflow-monorepo-3b47",
-      "pubDate": "2026-07-04T08:19:10.000Z",
-      "description": "<p>I run five scheduled GitHub Actions workflows in the same monorepo: content refresh (nightly), Bluesky queue post (daily), article publish (push-triggered but with schedule fallbacks), YouTube script generation (daily), and analytics polling (daily). After three months of running them, I have a s",
+      "title": "Tired of Complex Dashboard Tools? Here's a Lightweight Alternative I Found",
+      "link": "https://dev.to/xm_dev_2026/tired-of-complex-dashboard-tools-heres-a-lightweight-alternative-i-found-ijn",
+      "pubDate": "2026-07-04T13:08:33.000Z",
+      "description": "<p>Hey everyone 👋Quick story: I needed a simple dashboard to track some metrics for a side project. I looked at Grafana, Metabase, even Google Data Studio... and honestly, they all felt like overkill for what I needed.Then I stumbled on <a href=\"https://flowingpulse.com\" rel=\"noopener noreferrer\">F",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "What I learned about accidental low-value signals after four AdSense rejections",
-      "link": "https://dev.to/morinaga/what-i-learned-about-accidental-low-value-signals-after-four-adsense-rejections-1b2l",
-      "pubDate": "2026-07-04T08:19:06.000Z",
-      "description": "<p>The conclusion first: the fourth AdSense rejection on my programmatic OSS directory wasn't about missing E-E-A-T infrastructure. I'd <a href=\"https://dev.to/articles/eeat-transparency-pages-programmatic-directory\">already built the methodology, about, and affiliate-disclosure pages</a> after the ",
+      "title": "My repository isn't written for humans — I run my whole life with Claude Code",
+      "link": "https://dev.to/takotyan00/my-repository-isnt-written-for-humans-i-run-my-whole-life-with-claude-code-2ef6",
+      "pubDate": "2026-07-04T13:07:52.000Z",
+      "description": "<p>I run my life as a single Git repository, operated by several AI agents through Claude Code. Journaling, self-analysis, investing, hobbies, parenting: each of them started as a small app I built to solve a problem of my own. Parental leave gave me a long stretch of free time, so instead of runnin",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I built a static AI tools directory with 1,638 auto-generated pages — here's the full technical breakdown",
-      "link": "https://dev.to/bhagvat_meena_9f123a2f2d5/i-built-a-static-ai-tools-directory-with-1638-auto-generated-pages-heres-the-full-technical-25m2",
-      "pubDate": "2026-07-04T08:13:14.000Z",
-      "description": "<p>I've been building AsmiAI (asmiai.xyz) for the past 6 months — a fully static AI tools directory with 236 reviewed tools, 1,638 side-by-side comparison pages, and a free AI chat advisor. Zero database, zero framework, free hosting.</p> <p>Here's exactly how it works technically.</p> <h2> The buil",
+      "title": "Intake insurance claims with an email agent",
+      "link": "https://dev.to/mqasimca/intake-insurance-claims-with-an-email-agent-478f",
+      "pubDate": "2026-07-04T13:07:29.000Z",
+      "description": "<p>Most \"AI for insurance\" demos point a model at a claims handler's mailbox and call it triage. That's fine until you realize the agent is squatting in a human's inbox, racing the human for unread mail, and inheriting every OAuth-token and shared-mailbox-permission headache you were trying to escap",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "Astrophysicists Puzzle over Webb’s New Universe",
+      "link": "https://www.quantamagazine.org/astrophysicists-puzzle-over-webbs-new-universe-20260702/",
+      "pubDate": "2026-07-04T09:08:09.000Z",
+      "description": "Article URL: https://www.quantamagazine.org/astrophysicists-puzzle-over-webbs-new-universe-20260702/ Comments URL: https://news.ycombinator.com/item?id=48783948 Points: 74 # Comments: 30",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "The bottleneck might be the air in the room",
       "link": "https://blog.mikebowler.ca/2026/07/03/co2-and-decision-making/",
       "pubDate": "2026-07-04T06:32:28.000Z",
-      "description": "Article URL: https://blog.mikebowler.ca/2026/07/03/co2-and-decision-making/ Comments URL: https://news.ycombinator.com/item?id=48783117 Points: 155 # Comments: 78",
+      "description": "Article URL: https://blog.mikebowler.ca/2026/07/03/co2-and-decision-making/ Comments URL: https://news.ycombinator.com/item?id=48783117 Points: 481 # Comments: 297",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "David Beazley – Programming Courses",
-      "link": "https://www.dabeaz.com/courses.html",
-      "pubDate": "2026-07-04T05:43:01.000Z",
-      "description": "Article URL: https://www.dabeaz.com/courses.html Comments URL: https://news.ycombinator.com/item?id=48782918 Points: 70 # Comments: 23",
+      "title": "2026 Unslop AI-Written Fiction Contest Results",
+      "link": "https://www.hyperstitionai.com/unslop-results",
+      "pubDate": "2026-07-04T05:37:25.000Z",
+      "description": "Article URL: https://www.hyperstitionai.com/unslop-results Comments URL: https://news.ycombinator.com/item?id=48782890 Points: 29 # Comments: 80",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -104,7 +112,7 @@
       "title": "Agentic coding notes from Galapagos Island",
       "link": "https://danluu.com/ai-coding/#appendix-agentic-loops-and-writing-this-post",
       "pubDate": "2026-07-04T04:37:15.000Z",
-      "description": "Article URL: https://danluu.com/ai-coding/#appendix-agentic-loops-and-writing-this-post Comments URL: https://news.ycombinator.com/item?id=48782671 Points: 77 # Comments: 30",
+      "description": "Article URL: https://danluu.com/ai-coding/#appendix-agentic-loops-and-writing-this-post Comments URL: https://news.ycombinator.com/item?id=48782671 Points: 130 # Comments: 61",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -112,7 +120,7 @@
       "title": "Maybe you should learn something",
       "link": "https://www.marginalia.nu/log/a_135_learn/",
       "pubDate": "2026-07-04T03:36:03.000Z",
-      "description": "Article URL: https://www.marginalia.nu/log/a_135_learn/ Comments URL: https://news.ycombinator.com/item?id=48782435 Points: 57 # Comments: 26",
+      "description": "Article URL: https://www.marginalia.nu/log/a_135_learn/ Comments URL: https://news.ycombinator.com/item?id=48782435 Points: 192 # Comments: 91",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -120,7 +128,7 @@
       "title": "Synthesis is harder than analysis",
       "link": "https://surfingcomplexity.blog/2026/07/03/synthesis-is-harder-than-analysis/",
       "pubDate": "2026-07-04T02:45:24.000Z",
-      "description": "Article URL: https://surfingcomplexity.blog/2026/07/03/synthesis-is-harder-than-analysis/ Comments URL: https://news.ycombinator.com/item?id=48782219 Points: 77 # Comments: 15",
+      "description": "Article URL: https://surfingcomplexity.blog/2026/07/03/synthesis-is-harder-than-analysis/ Comments URL: https://news.ycombinator.com/item?id=48782219 Points: 113 # Comments: 26",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -128,7 +136,7 @@
       "title": "MSI Center – How to gain SYSTEM privileges in seconds",
       "link": "https://mrbruh.com/msicenter/",
       "pubDate": "2026-07-04T00:57:44.000Z",
-      "description": "Article URL: https://mrbruh.com/msicenter/ Comments URL: https://news.ycombinator.com/item?id=48781688 Points: 81 # Comments: 26",
+      "description": "Article URL: https://mrbruh.com/msicenter/ Comments URL: https://news.ycombinator.com/item?id=48781688 Points: 112 # Comments: 47",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -136,7 +144,7 @@
       "title": "Soatok's Informal Guide to Threat Models",
       "link": "https://soatok.blog/2026/06/30/soatoks-informal-guide-to-threat-models/",
       "pubDate": "2026-07-04T00:35:49.000Z",
-      "description": "Article URL: https://soatok.blog/2026/06/30/soatoks-informal-guide-to-threat-models/ Comments URL: https://news.ycombinator.com/item?id=48781597 Points: 81 # Comments: 10",
+      "description": "Article URL: https://soatok.blog/2026/06/30/soatoks-informal-guide-to-threat-models/ Comments URL: https://news.ycombinator.com/item?id=48781597 Points: 108 # Comments: 26",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -144,7 +152,7 @@
       "title": "Odin, Wikipedia and engagement farming",
       "link": "https://katamari64.se/posts/2026/odin-wikipedia/",
       "pubDate": "2026-07-03T23:24:35.000Z",
-      "description": "Article URL: https://katamari64.se/posts/2026/odin-wikipedia/ Comments URL: https://news.ycombinator.com/item?id=48781196 Points: 137 # Comments: 192",
+      "description": "Article URL: https://katamari64.se/posts/2026/odin-wikipedia/ Comments URL: https://news.ycombinator.com/item?id=48781196 Points: 185 # Comments: 251",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -152,15 +160,7 @@
       "title": "The firefighting system of the Van der Heyden brothers in 17th century Amsterdam",
       "link": "https://worksinprogress.co/issue/how-amsterdam-invented-the-fire-department/",
       "pubDate": "2026-07-03T22:46:18.000Z",
-      "description": "Article URL: https://worksinprogress.co/issue/how-amsterdam-invented-the-fire-department/ Comments URL: https://news.ycombinator.com/item?id=48780913 Points: 89 # Comments: 15",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Giant trees have no trouble pumping water to top branches: new research",
-      "link": "https://news.exeter.ac.uk/faculty-of-environment-science-and-economy/giant-trees-have-no-trouble-pumping-water-to-top-branches/",
-      "pubDate": "2026-07-03T22:40:29.000Z",
-      "description": "Article URL: https://news.exeter.ac.uk/faculty-of-environment-science-and-economy/giant-trees-have-no-trouble-pumping-water-to-top-branches/ Comments URL: https://news.ycombinator.com/item?id=48780870 Points: 191 # Comments: 89",
+      "description": "Article URL: https://worksinprogress.co/issue/how-amsterdam-invented-the-fire-department/ Comments URL: https://news.ycombinator.com/item?id=48780913 Points: 109 # Comments: 20",
       "source": "Hacker News",
       "category": "Tech News"
     },
