@@ -1,248 +1,173 @@
 {
-  "generatedAt": "2026-07-04T19:37:15.793Z",
+  "generatedAt": "2026-07-05T04:29:48.403Z",
   "sourceCount": 4,
-  "successCount": 4,
-  "errors": [],
+  "successCount": 3,
+  "errors": [
+    {
+      "source": "CSS Tricks",
+      "error": "HTTP 415 Unsupported Media Type"
+    }
+  ],
   "items": [
     {
-      "title": "Is anyone using AWS CodePipeline for the complete CI/CD pipeline?",
-      "link": "https://dev.to/arnabadhikar/is-anyone-using-aws-codepipeline-for-the-complete-cicd-pipelineaws-cicd-cloudcomputing-3nfk",
-      "pubDate": "2026-07-04T19:25:39.000Z",
-      "description": "",
+      "title": "ByteDance ค้นพบ Scaling Law ใหม่ — AI Agent ยิ่งใช้งานจริงยิ่งฉลาด",
+      "link": "https://dev.to/sarantoon/bytedance-khnphb-scaling-law-aihm-ai-agent-yingaichngaancchringyingchlaad-3mk0",
+      "pubDate": "2026-07-05T04:19:06.000Z",
+      "description": "<h1> ByteDance ค้นพบ Scaling Law ใหม่ — AI Agent ยิ่งใช้งานจริงยิ่งฉลาด </h1> <p><em>โดย Nokka (นก-กา) | 5 กรกฎาคม 2026</em></p> <h2> TL;DR — สำหรับคนที่รีบ </h2> <p>ทีมวิจัย ByteDance Seed เปิดเผย Scaling Law รูปแบบใหม่ AI Agent ยิ่งทำงานในโลกจริงนานเท่าไหร่ ยิ่งเรียนรู้และเก่งขึ้นอย่างมีแบบแผน</p>",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How We Built an AI That Never Forgets Production Incidents",
-      "link": "https://dev.to/mathan_kumar_527/how-we-built-an-ai-that-never-forgets-production-incidents-4g7p",
-      "pubDate": "2026-07-04T19:20:55.000Z",
-      "description": "<p><strong>How We Built an AI That Never Forgets Production Incidents</strong></p> <h2> Can AI become your smartest Site Reliability Engineer? We decided to find out. </h2> <p>Every software engineer has experienced that one stressful night. You're finally asleep when your phone suddenly buzzes. It'",
+      "title": "The GitHub Repository Every Claude Code User Needs to Bookmark",
+      "link": "https://dev.to/tienbku/the-github-repository-every-claude-code-user-needs-to-bookmark-2b6f",
+      "pubDate": "2026-07-05T04:16:43.000Z",
+      "description": "<p>There's a moment every Claude Code user eventually hits. You've gotten comfortable with the basics, you've written a few solid prompts, maybe you've even set up a <code>CLAUDE.md</code> file. And then you realize: <em>I have no idea what I'm missing.</em></p> <p>That's where <strong><a href=\"http",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "AI Agent Deleted Startup Database in 9 Seconds: The PocketOS Incident",
-      "link": "https://dev.to/akaranjkar08/ai-agent-deleted-startup-database-in-9-seconds-the-pocketos-incident-277h",
-      "pubDate": "2026-07-04T19:16:41.000Z",
-      "description": "<p><strong>On April 25, 2026, a Cursor coding agent powered by Claude Opus 4.6 deleted PocketOS's entire production database and all volume-level backups in a single Railway API call — in nine seconds.</strong> No confirmation prompt. No human review. Zero warning. PocketOS, a SaaS platform serving ",
+      "title": "Unity vs Godot vs Unreal for Indie Developers (2026): Which Engine Wins?",
+      "link": "https://dev.to/oceanviewgames/unity-vs-godot-vs-unreal-for-indie-developers-2026-which-engine-wins-lal",
+      "pubDate": "2026-07-05T04:16:43.000Z",
+      "description": "<p>The 2023 Unity Runtime Fee episode pushed thousands of indie developers to reconsider their engine choice. Three years later, the question is more nuanced than the headlines suggested. Unity walked back the changes, Godot took advantage of the moment to grow significantly, and Unreal continued to",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Gemini Robotics-ER 1.6: Physical AI Developer Guide (2026)",
-      "link": "https://dev.to/akaranjkar08/gemini-robotics-er-16-physical-ai-developer-guide-2026-o27",
-      "pubDate": "2026-07-04T19:15:05.000Z",
-      "description": "<p><strong>Physical AI just crossed a threshold that matters.</strong> When Google DeepMind released Gemini Robotics-ER 1.6 in April 2026, the headline benchmark told the story clearly: 93% accuracy on industrial instrument reading — compared to 23% for the prior version and 72% for Gemini 3.0 Flash",
+      "title": "Cross-Platform Multiplayer Networking in Unity: FishNet, Mirror, and Photon Compared",
+      "link": "https://dev.to/oceanviewgames/cross-platform-multiplayer-networking-in-unity-fishnet-mirror-and-photon-compared-3m36",
+      "pubDate": "2026-07-05T04:16:23.000Z",
+      "description": "<p>Choosing a networking framework for a Unity multiplayer game is one of the most consequential technical decisions you will make. It affects architecture, server costs, latency, cheat prevention, and (critically) how painful the next 12 months of development will be.</p> <p>At Ocean View Games, we",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I Almost Gave Up... But One Console Log Changed Everything",
-      "link": "https://dev.to/usama_dev/i-almost-gave-up-but-one-console-log-changed-everything-2l23",
-      "pubDate": "2026-07-04T19:05:28.000Z",
-      "description": "<p>Today I spent hours chasing a bug that looked impossible.</p> <p>When I clicked <strong>\"Add Cabin\"</strong>, nothing happened.</p> <p>No modal.</p> <p>No error.</p> <p>Nothing.</p> <p>At first, I thought the problem was in my React state.</p> <p>Then I thought it was <code>styled-components</cod",
+      "title": "Serious Games vs Gamification: What''s the Difference?",
+      "link": "https://dev.to/oceanviewgames/serious-games-vs-gamification-whats-the-difference-1p58",
+      "pubDate": "2026-07-05T04:16:09.000Z",
+      "description": "<p>These two terms get used interchangeably in boardrooms and pitch decks across the education and corporate sectors. We hear it regularly: \"We want to gamify our training programme\" when what the client actually needs is a serious game, or \"We need a serious game\" when a lighter gamification layer ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I analyzed 292 open Forward Deployed Engineer jobs. Here is the data.",
-      "link": "https://dev.to/tech_t_e23de7b66d4559a055/i-analyzed-292-open-forward-deployed-engineer-jobs-here-is-the-data-5ekl",
-      "pubDate": "2026-07-04T18:57:05.000Z",
-      "description": "<p>\"Forward Deployed Engineer\" went from a Palantir-specific title to one of the<br> hottest roles in AI in about eighteen months. But nobody had actually counted<br> the market, so I did. I pulled every open FDE role I could find from public ATS<br> job boards (Greenhouse, Lever, Ashby) across 11 c",
+      "title": "A Better CI Check for AWS Approval Emails",
+      "link": "https://dev.to/jasonmills94/a-better-ci-check-for-aws-approval-emails-22na",
+      "pubDate": "2026-07-05T04:06:24.000Z",
+      "description": "<p>A field-tested AWS CI/CD pattern for validating approval emails with Docker and a disposable email address before release.</p> <p>Approval emails are one of those workflows teams assume are fine until a change freeze gets stuck behind a missing link or a message sent from the wrong region. In AWS",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Stop Watching Tutorials. Start Building Projects: The Fastest Way to Learn Programming",
-      "link": "https://dev.to/code_tocareer_5c69a8/stop-watching-tutorials-start-building-projects-the-fastest-way-to-learn-programming-3gkd",
-      "pubDate": "2026-07-04T18:54:56.000Z",
-      "description": "<p><strong># Stop Watching Tutorials. Start Building Projects 🚀</strong></p> <p><strong>## Introduction</strong></p> <p>Most beginners in programming make the same mistake.</p> <p>They spend hours watching tutorials but never build anything on their own.</p> <p>This leads to something called <stron",
+      "title": "Automating Security in Python: A Hands-On Guide to SAST with Bandit and GitHub Actions",
+      "link": "https://dev.to/cristhiancarlosmamanic/automating-security-in-python-a-hands-on-guide-to-sast-with-bandit-and-github-actions-3pn6",
+      "pubDate": "2026-07-05T04:05:26.000Z",
+      "description": "<h2> Introduction </h2> <p>In today's fast-paced development cycles, security can no longer be an afterthought. Static Application Security Testing (SAST) tools help developers catch vulnerabilities early by analyzing source code before it is compiled or deployed to production.</p> <p>In this articl",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Adam: The Optimization Algorithm That Made LLMs Practical",
-      "link": "https://dev.to/shrsv/adam-the-optimization-algorithm-that-made-llms-practical-k17",
-      "pubDate": "2026-07-04T18:53:06.000Z",
-      "description": "<p><em>Hello, I'm Shrijith Venkatramana. I'm building git-lrc, an AI code reviewer that runs on every commit. <a href=\"https://github.com/HexmosTech/git-lrc\" rel=\"noopener noreferrer\">Star Us</a> to help devs discover the project. Do give it a try and share your feedback for improving the product.</",
+      "title": "Building the Login Page in React with Reusable Components",
+      "link": "https://dev.to/sandhyaallgandhuala/building-the-login-page-in-react-with-reusable-components-3he6",
+      "pubDate": "2026-07-05T03:55:59.000Z",
+      "description": "<h2> Introduction </h2> <p>Building a login page for the Smart Budget Tracker app using the reusable components we discussed in our previous post — please check that post out before following along here.<br> To build this component, we need two text inputs (for email/username and password), a login ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "What's All Am I Hosting? Full Infrastructure Breakdown",
-      "link": "https://dev.to/shubham399/whats-all-am-i-hosting-full-infrastructure-breakdown-53b8",
-      "pubDate": "2026-07-04T18:52:41.000Z",
-      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimagedelivery.net%2FlLmNeOP7HXG0OqaG97wimw%2F95a7ced4-fd82-4716-a6d0-b434f9e2b1f7%2Ff9ea98b1-39b2-4983-85cd-a1d67470ae45.png%2Fpublic\" class=\"article-body-image-wrapper\"><i",
+      "title": "this is how I started Xedge from 0",
+      "link": "https://dev.to/harsha_kumar/this-is-how-i-started-xedge-from-0-50eh",
+      "pubDate": "2026-07-05T03:53:32.000Z",
+      "description": "<p>I'm Harsha and i'm from india , once i'm in college i was obsessed with this ai tool market when i tried to use them so many questions ,</p> <ul> <li>which tool is better ?</li> </ul> <p>-does hype really matches that output ?</p> <ul> <li>is there any underrated tool that i'm missing</li> </ul> ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Go's sql.Null[T] Will Never Get JSON Support. Here's What We Built Instead.",
-      "link": "https://dev.to/kolkov/gos-sqlnullt-will-never-get-json-support-heres-what-we-built-instead-2apk",
-      "pubDate": "2026-07-04T18:52:37.000Z",
-      "description": "<p>Go 1.22 gave us <code>sql.Null[T]</code> — a generic nullable type for SQL. Problem solved?</p> <p>No. Try marshaling it to JSON:<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight json\"><code><span class=\"p\">{</span><span class=\"nl\">\"V\"</span><span class=\"p\">:</span><span c",
+      "title": "The Odin Project",
+      "link": "https://dev.to/eternal_emperor/the-odin-project-38oj",
+      "pubDate": "2026-07-05T03:50:39.000Z",
+      "description": "<p>Hello everyone I was just wondering about those whose footsteps I am following currently with TOP, did it help you get to where you need to be or further than you would expect? Are there any other great resources for a novice to look into? Anyway pathways that help me navigate my way would be gre",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "As downtown Seattle offices empty, city facing years of 'zombie' towers",
-      "link": "https://www.seattletimes.com/business/local-business/as-downtown-seattle-offices-empty-city-facing-years-of-zombie-towers/",
-      "pubDate": "2026-07-04T18:42:24.000Z",
-      "description": "Article URL: https://www.seattletimes.com/business/local-business/as-downtown-seattle-offices-empty-city-facing-years-of-zombie-towers/ Comments URL: https://news.ycombinator.com/item?id=48787725 Points: 22 # Comments: 15",
+      "title": "University of Oxford Is Older Than the Aztec Empire and Other Facts of History (2013)",
+      "link": "https://www.smithsonianmag.com/smart-news/university-oxford-older-than-aztec-empire-other-facts-will-change-your-perspective-history-1529607/",
+      "pubDate": "2026-07-05T02:57:52.000Z",
+      "description": "Article URL: https://www.smithsonianmag.com/smart-news/university-oxford-older-than-aztec-empire-other-facts-will-change-your-perspective-history-1529607/ Comments URL: https://news.ycombinator.com/item?id=48790913 Points: 28 # Comments: 4",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Verizon is About to Break our Watches",
-      "link": "https://www.jefftk.com/p/verizon-is-about-to-break-our-watches",
-      "pubDate": "2026-07-04T17:52:36.000Z",
-      "description": "Article URL: https://www.jefftk.com/p/verizon-is-about-to-break-our-watches Comments URL: https://news.ycombinator.com/item?id=48787329 Points: 41 # Comments: 8",
+      "title": "If you're a button, you have one job",
+      "link": "https://unsung.aresluna.org/if-youre-a-button-you-have-one-job/",
+      "pubDate": "2026-07-05T02:01:03.000Z",
+      "description": "Article URL: https://unsung.aresluna.org/if-youre-a-button-you-have-one-job/ Comments URL: https://news.ycombinator.com/item?id=48790689 Points: 25 # Comments: 6",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "BareMetal RAM Dumper – Bare-metal x86 tool for Cold Boot Attack experiments",
-      "link": "https://github.com/pIat0n/BareMetal-RAM-Dumper",
-      "pubDate": "2026-07-04T17:37:21.000Z",
-      "description": "Article URL: https://github.com/pIat0n/BareMetal-RAM-Dumper Comments URL: https://news.ycombinator.com/item?id=48787201 Points: 23 # Comments: 3",
+      "title": "Efficacy and Safety of Psilocybin in Treatment-Resistant Major Depression",
+      "link": "https://jamanetwork.com/journals/jamapsychiatry/fullarticle/2846478",
+      "pubDate": "2026-07-05T01:39:05.000Z",
+      "description": "Article URL: https://jamanetwork.com/journals/jamapsychiatry/fullarticle/2846478 Comments URL: https://news.ycombinator.com/item?id=48790583 Points: 11 # Comments: 1",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Sick leave: Germany rising but not the worst in Europe",
-      "link": "https://www.dw.com/en/sick-leave-germany-rising-but-not-the-worst-in-europe/a-77815488",
-      "pubDate": "2026-07-04T17:18:42.000Z",
-      "description": "Article URL: https://www.dw.com/en/sick-leave-germany-rising-but-not-the-worst-in-europe/a-77815488 Comments URL: https://news.ycombinator.com/item?id=48787058 Points: 30 # Comments: 38",
+      "title": "Egg consumption inversely correlated with Alzheimer's",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42002260/",
+      "pubDate": "2026-07-05T00:48:15.000Z",
+      "description": "Article URL: https://pubmed.ncbi.nlm.nih.gov/42002260/ Comments URL: https://news.ycombinator.com/item?id=48790349 Points: 53 # Comments: 33",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "No more than 100 000 faint satellites should orbit Earth",
-      "link": "https://www.eso.org/public/news/eso2607/",
-      "pubDate": "2026-07-04T17:17:28.000Z",
-      "description": "Article URL: https://www.eso.org/public/news/eso2607/ Comments URL: https://news.ycombinator.com/item?id=48787042 Points: 72 # Comments: 77",
+      "title": "Return of the Nigerian Prince Redux: Beware Book Club and Book Review Scams (2025)",
+      "link": "https://writerbeware.blog/2025/09/19/return-of-the-nigerian-prince-redux-beware-book-club-and-book-review-scams/",
+      "pubDate": "2026-07-05T00:22:25.000Z",
+      "description": "Article URL: https://writerbeware.blog/2025/09/19/return-of-the-nigerian-prince-redux-beware-book-club-and-book-review-scams/ Comments URL: https://news.ycombinator.com/item?id=48790240 Points: 28 # Comments: 4",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Game Boy Advance Dev: Logging to the Console",
-      "link": "https://www.mattgreer.dev/blog/gba-dev-logging/",
-      "pubDate": "2026-07-04T17:12:00.000Z",
-      "description": "Article URL: https://www.mattgreer.dev/blog/gba-dev-logging/ Comments URL: https://news.ycombinator.com/item?id=48787001 Points: 3 # Comments: 0",
+      "title": "Reflections on the Guillotine (1957)",
+      "link": "https://theanarchistlibrary.org/library/albert-camus-reflections-on-the-guillotine",
+      "pubDate": "2026-07-04T23:36:11.000Z",
+      "description": "Article URL: https://theanarchistlibrary.org/library/albert-camus-reflections-on-the-guillotine Comments URL: https://news.ycombinator.com/item?id=48790036 Points: 33 # Comments: 11",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "EndBASIC 0.14: Are we multimedia yet?",
-      "link": "https://www.endbasic.dev/2026/07/endbasic-0.14.html",
-      "pubDate": "2026-07-04T17:08:18.000Z",
-      "description": "Article URL: https://www.endbasic.dev/2026/07/endbasic-0.14.html Comments URL: https://news.ycombinator.com/item?id=48786970 Points: 6 # Comments: 0",
+      "title": "Mapping with In-Memory Layers to Reduce LLM Overload",
+      "link": "https://ridgetext.com/blog/mapbox-llm-composition",
+      "pubDate": "2026-07-04T23:25:53.000Z",
+      "description": "Article URL: https://ridgetext.com/blog/mapbox-llm-composition Comments URL: https://news.ycombinator.com/item?id=48789986 Points: 14 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Plein Air",
-      "link": "https://art.joonas.wtf/",
-      "pubDate": "2026-07-04T16:55:29.000Z",
-      "description": "Article URL: https://art.joonas.wtf/ Comments URL: https://news.ycombinator.com/item?id=48786880 Points: 26 # Comments: 3",
+      "title": "Drone Autonomy Crash Course",
+      "link": "https://www.cggonzalez.com/blog/index.html",
+      "pubDate": "2026-07-04T23:22:15.000Z",
+      "description": "Article URL: https://www.cggonzalez.com/blog/index.html Comments URL: https://news.ycombinator.com/item?id=48789965 Points: 20 # Comments: 1",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Finland's last analogue landline phones go silent after 150 years",
-      "link": "https://www.euronews.com/next/2026/06/30/finlands-last-analogue-landline-phones-go-silent-after-150-years",
-      "pubDate": "2026-07-04T16:54:02.000Z",
-      "description": "Article URL: https://www.euronews.com/next/2026/06/30/finlands-last-analogue-landline-phones-go-silent-after-150-years Comments URL: https://news.ycombinator.com/item?id=48786868 Points: 48 # Comments: 10",
+      "title": "Jellyfish can heal wounds in minutes. Scientists want their secrets",
+      "link": "https://www.mbl.edu/news/jellyfish-can-heal-wounds-minutes-scientists-want-their-secrets",
+      "pubDate": "2026-07-04T22:36:28.000Z",
+      "description": "Article URL: https://www.mbl.edu/news/jellyfish-can-heal-wounds-minutes-scientists-want-their-secrets Comments URL: https://news.ycombinator.com/item?id=48789712 Points: 65 # Comments: 16",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Google Books (or similar) all book scans – $200k bounty (2025)",
-      "link": "https://software.annas-archive.gl/AnnaArchivist/annas-archive/-/work_items/234",
-      "pubDate": "2026-07-04T16:51:26.000Z",
-      "description": "Article URL: https://software.annas-archive.gl/AnnaArchivist/annas-archive/-/work_items/234 Comments URL: https://news.ycombinator.com/item?id=48786838 Points: 138 # Comments: 51",
+      "title": "GPT-5.5 Codex reasoning-token clustering may be leading to degraded performance",
+      "link": "https://github.com/openai/codex/issues/30364",
+      "pubDate": "2026-07-04T21:51:09.000Z",
+      "description": "Article URL: https://github.com/openai/codex/issues/30364 Comments URL: https://news.ycombinator.com/item?id=48789428 Points: 186 # Comments: 61",
       "source": "Hacker News",
       "category": "Tech News"
-    },
-    {
-      "title": "What’s !important #14: Gap Decorations, random(), &#060;select&gt; field sizing, and More",
-      "link": "https://css-tricks.com/whats-important-14/",
-      "pubDate": "2026-06-30T13:54:14.000Z",
-      "description": "I know you’re busy, so for What’s !important #14, I’ll be sprinting through what’s been a stacked couple of weeks despite few browser updates. From CSS Quake to CSS Gap Decorations, this isn’t one to miss! What’s !important #14: Gap Decorations, random(), <select> field sizing, and More originally h",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "The Shifting Line Between CSS States and JavaScript Events",
-      "link": "https://css-tricks.com/css-states-and-javascript-events/",
-      "pubDate": "2026-06-29T13:03:32.000Z",
-      "description": "CSS has always had pseudo-classes that style things based on user interactions. Recent features, however, are blurring the line between what CSS \"listens\" for and how they are alternatives to what Javascript typically listens for. The Shifting Line Between CSS States and JavaScript Events originally",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translateZ()",
-      "link": "https://css-tricks.com/almanac/functions/t/translatez/",
-      "pubDate": "2026-06-25T13:18:56.000Z",
-      "description": "The translateZ() function moves an element closer to or farther from the user. translateZ() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translateY()",
-      "link": "https://css-tricks.com/almanac/functions/t/translatey/",
-      "pubDate": "2026-06-25T13:17:56.000Z",
-      "description": "The translateY() function shifts an element vertically by the specified amount. translateY() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translateX()",
-      "link": "https://css-tricks.com/almanac/functions/t/translatex/",
-      "pubDate": "2026-06-25T13:16:01.000Z",
-      "description": "The translateX() function shifts an element horizontally by the specified amount. translateX() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translate()",
-      "link": "https://css-tricks.com/almanac/functions/t/translate/",
-      "pubDate": "2026-06-25T13:15:05.000Z",
-      "description": "The CSS translate() function shifts an element from its default position on a 2-dimensional plane translate() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Using Scroll-Driven Animations for Opposing Scroll Directions",
-      "link": "https://css-tricks.com/scroll-driven-animations-opposing-scroll-directions/",
-      "pubDate": "2026-06-22T12:39:13.000Z",
-      "description": "Sometimes designers have silly ideas that eventually grow on you. That happened to me with this concept where I had to build columns of items moving in opposite directions when a user scrolls the page. CodePen Embed Fallback Note: This … Using Scroll-Driven Animations for Opposing Scroll Directions ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "A First Look at Scroll-Triggered Animations",
-      "link": "https://css-tricks.com/css-scroll-triggered-animations-first-look/",
-      "pubDate": "2026-06-19T13:03:17.000Z",
-      "description": "Let's poke at the differences between scroll-driven and scroll-triggered animations. A First Look at Scroll-Triggered Animations originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "The Siren Song of ariaNotify()",
-      "link": "https://css-tricks.com/the-siren-song-of-arianotify/",
-      "pubDate": "2026-06-17T15:32:30.000Z",
-      "description": "There's a brand new ariaNotify() method — defined by the WAI-ARIA 1.3 Specification — that provides a means of programmatically triggering narration in a screen reader. The Siren Song of ariaNotify() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter a",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Prop For That",
-      "link": "https://css-tricks.com/prop-for-that/",
-      "pubDate": "2026-06-16T18:36:25.000Z",
-      "description": "Props for That creates live props based things CSS can't normally see in the browser. Things like cursor position, progress values, certain form states, current time, scroll velocity. Prop For That originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
     },
     {
       "title": "Meet the HTB Profile: all your skills, in one place",
