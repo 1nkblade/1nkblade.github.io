@@ -1,147 +1,158 @@
 {
-  "generatedAt": "2026-07-05T09:22:28.820Z",
+  "generatedAt": "2026-07-05T14:09:25.065Z",
   "sourceCount": 4,
-  "successCount": 3,
-  "errors": [
-    {
-      "source": "CSS Tricks",
-      "error": "HTTP 415 Unsupported Media Type"
-    }
-  ],
+  "successCount": 4,
+  "errors": [],
   "items": [
     {
-      "title": "5 mistakes I made building an AI Chrome extension — and the readers who caught them",
-      "link": "https://dev.to/projekta2/i-built-a-chrome-extension-used-daily-for-pr-review-5-decisions-id-make-differently-4o64",
-      "pubDate": "2026-07-05T09:10:47.000Z",
-      "description": "<p>I've been reviewing pull requests for most of my career.</p> <p>At some point the queue got bad enough that I stopped asking \"which PR should I review first?\" and started asking \"why does this keep happening?\"</p> <p>The answer was that I had no system. Just a flat list of open PRs, a vague sense",
+      "title": "I Built Authsia Because AI Agents Shouldn't Need to See Your Secrets",
+      "link": "https://dev.to/james_e07a45af2915e448367/i-built-authsia-because-ai-agents-shouldnt-need-to-see-your-secrets-1e17",
+      "pubDate": "2026-07-05T14:05:41.000Z",
+      "description": "<p>AI coding agents are becoming part of the normal developer workflow.</p> <p>They run tests. They inspect repos. They start dev servers. They call CLIs. They debug deployment scripts. They sometimes need the same secrets a human developer needs: API keys, SSH keys, tokens, certificates, <code>.env",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How Small Businesses Lose Money From a Backend They Didn't Know Was Weak",
-      "link": "https://dev.to/peacemelodi/how-small-businesses-lose-money-from-a-backend-they-didnt-know-was-weak-1opj",
-      "pubDate": "2026-07-05T09:09:09.000Z",
-      "description": "<p>Most small business owners think a technical problem looks like a crash. The website goes down, an error message shows up, something breaks in a way everyone notices right away. That kind of failure is rare. What actually happens far more often is quieter, and much harder to notice.</p> <p>A cust",
+      "title": "How to Use SQLite in Capacitor Apps",
+      "link": "https://dev.to/capawesome/how-to-use-sqlite-in-capacitor-apps-4hlm",
+      "pubDate": "2026-07-05T14:05:27.000Z",
+      "description": "<p>If you are building a Capacitor app that needs to store more than a few key-value pairs, you will hit the limits of the Preferences API pretty quickly. SQLite is the natural next step: a full relational database that runs on the device, works offline, and handles thousands of rows without breakin",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Why Every Developer Should Understand HTTP (Even If You Don't Build APIs)",
-      "link": "https://dev.to/the_pragmatic_coder/why-every-developer-should-understand-http-even-if-you-dont-build-apis-2n92",
-      "pubDate": "2026-07-05T09:02:23.000Z",
-      "description": "<p>Most developers use HTTP every day, but surprisingly few take the time to understand what's actually happening behind the scenes.</p> <p>Whether you're building a frontend application, writing a backend service, consuming third-party APIs, or simply opening a website in your browser, HTTP is quie",
+      "title": "400,000 Agents Hold Wallets. Zero Have Wallet-Agnostic Governance. That Is the Vendor Lock-In Nobody Talks About.",
+      "link": "https://dev.to/kavinkimcreator/400000-agents-hold-wallets-zero-have-wallet-agnostic-governance-that-is-the-vendor-lock-in-54l",
+      "pubDate": "2026-07-05T14:00:18.000Z",
+      "description": "<p>Circle Agent Wallets. Coinbase Agentic Wallets. Crossmint. thirdweb. MetaMask. Cobo. Six wallet providers, six different policy engines, six different governance models. Your agent picks one and inherits that vendor's rules for life.</p> <p>Circle reports 400,000+ agents with on-chain purchasing ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Apprendre le CSS : la méthode qui évite la frustration (2026)",
-      "link": "https://dev.to/ohugonnot/apprendre-le-css-la-methode-qui-evite-la-frustration-2026-1kj8",
-      "pubDate": "2026-07-05T09:00:01.000Z",
-      "description": "<p>La scène est toujours la même. Le débutant a son bouton à l'écran, il le veut centré, alors il ajoute un <code>margin-left</code>. Trop à gauche. Il met <code>margin: 20px</code>. Ça décale tout le reste. Il tente <code>padding</code>, puis <code>position: absolute</code>, puis un <code>float</co",
+      "title": "Why Snap CD: AI on a Leash",
+      "link": "https://dev.to/karlschriek/why-snap-cd-ai-on-a-leash-396k",
+      "pubDate": "2026-07-05T13:58:23.000Z",
+      "description": "<p>AI coding agents are showing up in infrastructure workflows. They can diagnose a failed <code>terraform apply</code>, summarise what changed across a dozen modules overnight, draft a fix for a misconfigured security group, and recommend whether a plan is safe to approve. The potential to eliminat",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I stopped fighting AI context windows and changed the architecture instead.",
-      "link": "https://dev.to/dhamodaran_vk_a5a7f2781f/i-stopped-fighting-ai-context-windows-and-changed-the-architecture-instead-2a4k",
-      "pubDate": "2026-07-05T08:59:31.000Z",
-      "description": "<p><strong>🚀 If you've used AI to build a real software project, you've probably experienced this.</strong></p> <p>You start with a clean conversation.</p> <p>The AI understands your architecture, remembers your requirements, and writes surprisingly good code.</p> <p>A few hours later, everything c",
+      "title": "React, Explained Directly — Episode 1: The Fundamentals",
+      "link": "https://dev.to/surajrkhonde/react-explained-directly-episode-1-the-fundamentals-26db",
+      "pubDate": "2026-07-05T13:58:18.000Z",
+      "description": "<h2> 🏗️ Part 1: Why React Was Built </h2> <p>👦 <strong>Nephew:</strong> Before React, how did people actually build websites?</p> <p>👨‍🦳 <strong>Uncle:</strong> Directly. Every time something needed to change on a page — a price updates, a list item gets added — the code reached straight into th",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I Benchmarked Chinese vs US AI Models: The Numbers Don't Lie",
-      "link": "https://dev.to/gentlenode/i-benchmarked-chinese-vs-us-ai-models-the-numbers-dont-lie-1228",
-      "pubDate": "2026-07-05T08:54:42.000Z",
-      "description": "<p>I Benchmarked Chinese vs US AI Models: The Numbers Don't Lie</p> <p>I've spent the last three months pulling API receipts and running side-by-side evals because I got tired of the discourse. Every LinkedIn thread I saw was either \"China will eat US AI alive\" or \"Western models are years ahead\" — ",
+      "title": "A Generic min Function in C",
+      "link": "https://dev.to/pauljlucas/a-generic-min-function-in-c-3koh",
+      "pubDate": "2026-07-05T13:57:28.000Z",
+      "description": "<h2> Introduction </h2> <p>If you’ve programmed ant length of time in C, you’ve likely written a <a href=\"https://dev.to/pauljlucas/cc-preprocessor-macros-fh5\">macro</a> that returns the minimum of two values like:<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight c\"><code><sp",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "DDR4 vs DDR5 Memory: A Practical Engineering Guide for Performance, Cost, and System Design",
-      "link": "https://dev.to/eric-zhao/ddr4-vs-ddr5-memory-a-practical-engineering-guide-for-performance-cost-and-system-design-fl",
-      "pubDate": "2026-07-05T08:49:41.000Z",
-      "description": "<p>DDR4 and DDR5 are two generations of DRAM (Dynamic Random Access Memory) widely used in modern computing systems—from consumer PCs to industrial controllers, servers, and embedded platforms. </p> <p><a href=\"https://octatronics.com/resource/semiconductor-industry-news/ddr6-ram-next-generation-mem",
+      "title": "How GBase 8a Handles Masked Columns in WHERE, GROUP BY, and Projections",
+      "link": "https://dev.to/michaelfv/how-gbase-8a-handles-masked-columns-in-where-group-by-and-projections-3c8f",
+      "pubDate": "2026-07-05T13:55:00.000Z",
+      "description": "<p>GBase 8a supports data masking to protect sensitive information. But when a masked column appears in a <code>WHERE</code> clause, a <code>GROUP BY</code>, an <code>ORDER BY</code>, or when its data is copied to another column — does the database operate on the original values or the masked values",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The 5% Router Tax: What Hosted LLM Gateways Charge For (and How to Self-Host It)",
-      "link": "https://dev.to/lynkr/the-5-router-tax-what-hosted-llm-gateways-charge-for-and-how-to-self-host-it-513",
-      "pubDate": "2026-07-05T08:48:56.000Z",
-      "description": "<p><em>Disclosure: I maintain <a href=\"https://github.com/Fast-Editor/Lynkr\" rel=\"noopener noreferrer\">Lynkr</a>, the self-hosted gateway discussed in the second half. OpenRouter and Requesty are good products — this post is about understanding what you're paying for so you can decide whether you ne",
+      "title": "I built a dental insurance claim verifier using Cognee's GraphRAG — with session memory",
+      "link": "https://dev.to/rushanksavant/i-built-a-dental-insurance-claim-verifier-using-cognees-graphrag-with-session-memory-329g",
+      "pubDate": "2026-07-05T13:51:49.000Z",
+      "description": "<p>Insurance claim denials cost policyholders <strong>billions of dollars every year</strong>.</p> <p>Not because the coverage doesn't exist — but because understanding <em>whether</em> a specific procedure is covered, for a <em>specific patient</em>, against a <em>specific policy</em>, is genuinely",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How a 13-Dimension Complexity Scorer Decides Which Model Gets Your Request",
-      "link": "https://dev.to/lynkr/how-a-13-dimension-complexity-scorer-decides-which-model-gets-your-request-e95",
-      "pubDate": "2026-07-05T08:48:40.000Z",
-      "description": "<p><em>Disclosure: I'm the author of <a href=\"https://github.com/Fast-Editor/Lynkr\" rel=\"noopener noreferrer\">Lynkr</a>, the open-source proxy whose internals this post walks through. All code shown is real and Apache-2.0 — <a href=\"https://github.com/Fast-Editor/Lynkr/blob/main/src/routing/complexi",
+      "title": "Halo Is Going Multi-Agent: Splitting One Brain Into Five",
+      "link": "https://dev.to/xenocoregiger31/halo-is-going-multi-agent-splitting-one-brain-into-five-2ae7",
+      "pubDate": "2026-07-05T13:51:39.000Z",
+      "description": "<p>For most of Halo's life, it's been a single agent doing everything. One loop, one model, one context window juggling reconnaissance, exploitation, and self-correction all at once. That's worked well enough to get 24 tools integrated and a functioning failure cache scoped per engagement, but it's ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The 21,000-Token Typo: Where Agentic Coding Budgets Actually Die",
-      "link": "https://dev.to/lynkr/the-21000-token-typo-where-agentic-coding-budgets-actually-die-1pa4",
-      "pubDate": "2026-07-05T08:48:24.000Z",
-      "description": "<p><em>Disclosure: I maintain <a href=\"https://github.com/Fast-Editor/Lynkr\" rel=\"noopener noreferrer\">Lynkr</a>, an open-source proxy mentioned at the end. The first 80% of this post is tool-agnostic and the takeaways apply whether or not you ever use it.</em></p> <p>There's a <a href=\"https://www.",
+      "title": "My First RAG Project: Building InsightFetch with LangChain",
+      "link": "https://dev.to/kishore_ganapathy/my-first-rag-project-building-insightfetch-with-langchain-38e9",
+      "pubDate": "2026-07-05T13:48:31.000Z",
+      "description": "<h1> 🚀 My First Dev.to Post + My First RAG Project: InsightFetch </h1> <p>Hey everyone! 👋</p> <p>This is my very first post on Dev.to, and I'm excited to share my first <strong>Retrieval-Augmented Generation (RAG)</strong> project built using <strong>LangChain</strong>.</p> <h2> Introducing Insigh",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Apocketlypse",
-      "link": "https://0dd.company/galleries/triumph/1.html",
-      "pubDate": "2026-07-05T08:32:09.000Z",
-      "description": "Article URL: https://0dd.company/galleries/triumph/1.html Comments URL: https://news.ycombinator.com/item?id=48792352 Points: 8 # Comments: 1",
+      "title": "Phosh 0.56.0",
+      "link": "https://phosh.mobi/releases/rel-0.56.0/",
+      "pubDate": "2026-07-05T13:28:11.000Z",
+      "description": "Article URL: https://phosh.mobi/releases/rel-0.56.0/ Comments URL: https://news.ycombinator.com/item?id=48794179 Points: 36 # Comments: 6",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Web-based cryptography is always snake oil",
-      "link": "https://www.devever.net/~hl/webcrypto",
-      "pubDate": "2026-07-05T08:01:29.000Z",
-      "description": "Article URL: https://www.devever.net/~hl/webcrypto Comments URL: https://news.ycombinator.com/item?id=48792203 Points: 7 # Comments: 2",
+      "title": "Show HN: KiCad in the Browser",
+      "link": "https://demo.pcbjam.com/",
+      "pubDate": "2026-07-05T12:06:57.000Z",
+      "description": "KiCad, a PCB EDA suite is now working in a browser, you can try it at the link, there's a demo project or you can bring your own. Firefox is best, Chrome is good, Safari is \"working\".We’re Emergence Engineering, a dev shop from Hungary, mostly working with rich text editors, CRDTs. PCBJam started as",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Programmers need to start meditating now",
-      "link": "https://jacob.gold/posts/programmers-need-to-start-meditating-now/",
-      "pubDate": "2026-07-05T07:39:35.000Z",
-      "description": "Article URL: https://jacob.gold/posts/programmers-need-to-start-meditating-now/ Comments URL: https://news.ycombinator.com/item?id=48792080 Points: 3 # Comments: 0",
+      "title": "Cannabis Users Face Substantially Higher Risk of Heart Attack (2025)",
+      "link": "https://www.acc.org/about-acc/press-releases/2025/03/17/15/35/cannabis-users-face-substantially-higher-risk",
+      "pubDate": "2026-07-05T11:59:27.000Z",
+      "description": "Article URL: https://www.acc.org/about-acc/press-releases/2025/03/17/15/35/cannabis-users-face-substantially-higher-risk Comments URL: https://news.ycombinator.com/item?id=48793492 Points: 43 # Comments: 24",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Reducing Assumptions, Exploding Your Code",
-      "link": "https://ryelang.org/blog/posts/reducing_assumptions_but_exploding/",
-      "pubDate": "2026-07-05T07:22:08.000Z",
-      "description": "Article URL: https://ryelang.org/blog/posts/reducing_assumptions_but_exploding/ Comments URL: https://news.ycombinator.com/item?id=48791990 Points: 4 # Comments: 0",
+      "title": "Introduction to Compilers and Language Design",
+      "link": "https://dthain.github.io/books/compiler/",
+      "pubDate": "2026-07-05T11:54:16.000Z",
+      "description": "Article URL: https://dthain.github.io/books/compiler/ Comments URL: https://news.ycombinator.com/item?id=48793454 Points: 48 # Comments: 2",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Is The Economist Always Wrong?",
-      "link": "https://economist.com/interactive/finance-and-economics/2026/07/02/is-the-economist-always-wrong",
-      "pubDate": "2026-07-05T06:40:05.000Z",
-      "description": "Article URL: https://economist.com/interactive/finance-and-economics/2026/07/02/is-the-economist-always-wrong Comments URL: https://news.ycombinator.com/item?id=48791799 Points: 26 # Comments: 29",
+      "title": "Pi square is nearly 10",
+      "link": "https://mihai.page/pi-square-is-10/",
+      "pubDate": "2026-07-05T10:50:53.000Z",
+      "description": "Article URL: https://mihai.page/pi-square-is-10/ Comments URL: https://news.ycombinator.com/item?id=48793073 Points: 25 # Comments: 19",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "EV Batteries Are Defying Expectations After Miles",
-      "link": "https://www.wsj.com/business/autos/ev-batteries-are-defying-expectations-after-hundreds-of-thousands-of-miles-8579de13",
-      "pubDate": "2026-07-05T06:30:40.000Z",
-      "description": "Article URL: https://www.wsj.com/business/autos/ev-batteries-are-defying-expectations-after-hundreds-of-thousands-of-miles-8579de13 Comments URL: https://news.ycombinator.com/item?id=48791755 Points: 40 # Comments: 33",
+      "title": "Intuitive Quantum Electrodynamics",
+      "link": "https://forwardscattering.org/page/Intuitive%20Quantum%20Electrodynamics",
+      "pubDate": "2026-07-05T09:00:58.000Z",
+      "description": "Article URL: https://forwardscattering.org/page/Intuitive%20Quantum%20Electrodynamics Comments URL: https://news.ycombinator.com/item?id=48792483 Points: 10 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "sqlite-utils 4.0rc2, mostly written by Claude Fable (for about $149.25)",
-      "link": "https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/",
-      "pubDate": "2026-07-05T06:19:34.000Z",
-      "description": "Article URL: https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/ Comments URL: https://news.ycombinator.com/item?id=48791708 Points: 41 # Comments: 43",
+      "title": "Claude Design System Prompt",
+      "link": "https://github.com/Trystan-SA/claude-design-system-prompt",
+      "pubDate": "2026-07-05T08:43:37.000Z",
+      "description": "Article URL: https://github.com/Trystan-SA/claude-design-system-prompt Comments URL: https://news.ycombinator.com/item?id=48792399 Points: 75 # Comments: 20",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Knowledge Should Not Be Gated",
+      "link": "https://www.formaly.io/blog/knowledge-should-not-be-gated",
+      "pubDate": "2026-07-05T07:59:48.000Z",
+      "description": "Article URL: https://www.formaly.io/blog/knowledge-should-not-be-gated Comments URL: https://news.ycombinator.com/item?id=48792195 Points: 44 # Comments: 23",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Fast Software, the Best Software (2019)",
+      "link": "https://craigmod.com/essays/fast_software/",
+      "pubDate": "2026-07-05T07:25:25.000Z",
+      "description": "Article URL: https://craigmod.com/essays/fast_software/ Comments URL: https://news.ycombinator.com/item?id=48792008 Points: 70 # Comments: 35",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -149,25 +160,89 @@
       "title": "Megawatts by Microwave",
       "link": "https://computer.rip/2026-07-04-microwave-and-power.html",
       "pubDate": "2026-07-05T05:56:03.000Z",
-      "description": "Article URL: https://computer.rip/2026-07-04-microwave-and-power.html Comments URL: https://news.ycombinator.com/item?id=48791591 Points: 21 # Comments: 2",
+      "description": "Article URL: https://computer.rip/2026-07-04-microwave-and-power.html Comments URL: https://news.ycombinator.com/item?id=48791591 Points: 44 # Comments: 4",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Shadcn/UI now defaults to Base UI instead of Radix",
-      "link": "https://ui.shadcn.com/docs/changelog",
-      "pubDate": "2026-07-05T04:46:08.000Z",
-      "description": "Article URL: https://ui.shadcn.com/docs/changelog Comments URL: https://news.ycombinator.com/item?id=48791328 Points: 113 # Comments: 35",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "What’s !important #14: Gap Decorations, random(), &#060;select&gt; field sizing, and More",
+      "link": "https://css-tricks.com/whats-important-14/",
+      "pubDate": "2026-06-30T13:54:14.000Z",
+      "description": "I know you’re busy, so for What’s !important #14, I’ll be sprinting through what’s been a stacked couple of weeks despite few browser updates. From CSS Quake to CSS Gap Decorations, this isn’t one to miss! What’s !important #14: Gap Decorations, random(), <select> field sizing, and More originally h",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
-      "title": "Binary Coverage the Wrong Way",
-      "link": "https://redvice.org/2026/coverage-the-wrong-way/",
-      "pubDate": "2026-07-05T04:39:53.000Z",
-      "description": "Article URL: https://redvice.org/2026/coverage-the-wrong-way/ Comments URL: https://news.ycombinator.com/item?id=48791308 Points: 5 # Comments: 1",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "The Shifting Line Between CSS States and JavaScript Events",
+      "link": "https://css-tricks.com/css-states-and-javascript-events/",
+      "pubDate": "2026-06-29T13:03:32.000Z",
+      "description": "CSS has always had pseudo-classes that style things based on user interactions. Recent features, however, are blurring the line between what CSS \"listens\" for and how they are alternatives to what Javascript typically listens for. The Shifting Line Between CSS States and JavaScript Events originally",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "translateZ()",
+      "link": "https://css-tricks.com/almanac/functions/t/translatez/",
+      "pubDate": "2026-06-25T13:18:56.000Z",
+      "description": "The translateZ() function moves an element closer to or farther from the user. translateZ() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "translateY()",
+      "link": "https://css-tricks.com/almanac/functions/t/translatey/",
+      "pubDate": "2026-06-25T13:17:56.000Z",
+      "description": "The translateY() function shifts an element vertically by the specified amount. translateY() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "translateX()",
+      "link": "https://css-tricks.com/almanac/functions/t/translatex/",
+      "pubDate": "2026-06-25T13:16:01.000Z",
+      "description": "The translateX() function shifts an element horizontally by the specified amount. translateX() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "translate()",
+      "link": "https://css-tricks.com/almanac/functions/t/translate/",
+      "pubDate": "2026-06-25T13:15:05.000Z",
+      "description": "The CSS translate() function shifts an element from its default position on a 2-dimensional plane translate() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Using Scroll-Driven Animations for Opposing Scroll Directions",
+      "link": "https://css-tricks.com/scroll-driven-animations-opposing-scroll-directions/",
+      "pubDate": "2026-06-22T12:39:13.000Z",
+      "description": "Sometimes designers have silly ideas that eventually grow on you. That happened to me with this concept where I had to build columns of items moving in opposite directions when a user scrolls the page. CodePen Embed Fallback Note: This … Using Scroll-Driven Animations for Opposing Scroll Directions ",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "A First Look at Scroll-Triggered Animations",
+      "link": "https://css-tricks.com/css-scroll-triggered-animations-first-look/",
+      "pubDate": "2026-06-19T13:03:17.000Z",
+      "description": "Let's poke at the differences between scroll-driven and scroll-triggered animations. A First Look at Scroll-Triggered Animations originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "The Siren Song of ariaNotify()",
+      "link": "https://css-tricks.com/the-siren-song-of-arianotify/",
+      "pubDate": "2026-06-17T15:32:30.000Z",
+      "description": "There's a brand new ariaNotify() method — defined by the WAI-ARIA 1.3 Specification — that provides a means of programmatically triggering narration in a screen reader. The Siren Song of ariaNotify() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter a",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Prop For That",
+      "link": "https://css-tricks.com/prop-for-that/",
+      "pubDate": "2026-06-16T18:36:25.000Z",
+      "description": "Props for That creates live props based things CSS can't normally see in the browser. Things like cursor position, progress values, certain form states, current time, scroll velocity. Prop For That originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as ",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
       "title": "Meet the HTB Profile: all your skills, in one place",
