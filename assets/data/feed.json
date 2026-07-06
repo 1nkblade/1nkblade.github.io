@@ -1,94 +1,110 @@
 {
-  "generatedAt": "2026-07-06T04:39:19.851Z",
+  "generatedAt": "2026-07-06T11:03:18.843Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "Sprint 9 closed: Desktop MVP",
-      "link": "https://dev.to/meronq/sprint-9-closed-desktop-mvp-288a",
-      "pubDate": "2026-07-06T04:21:00.000Z",
-      "description": "<p>Sprint 9 is <strong>closed</strong>.</p> <p>The goal was to <strong>ship the first desktop shell</strong> over Meronq's existing packages — a native window that connects a project, shows its handshake and memory, and manages the product MCP server. Sprint 8 explored productization; Sprint 9 turne",
+      "title": "SEO for Developers: Beyond Meta Tags",
+      "link": "https://dev.to/ntty/seo-for-developers-beyond-meta-tags-ni6",
+      "pubDate": "2026-07-06T11:00:31.000Z",
+      "description": "<p>Most developers treat SEO as a checklist of meta tags that the marketing team asks for. We add a title, a description, and maybe some Open Graph tags, then we assume the job is done. But modern SEO is less about keywords and more about engineering performance and accessibility.</p> <p>If you want",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "My Reading Room",
-      "link": "https://dev.to/lavkeshdwivedi/my-reading-room-2ki2",
-      "pubDate": "2026-07-06T04:20:22.000Z",
-      "description": "<p><em>Originally published on <a href=\"https://lavkesh.com/articles/reading-rooms-lavkesh-dwivedi-2026-06-27\" rel=\"noopener noreferrer\">lavkesh.com</a></em></p> <p>I still remember the small reading room in my childhood home in Orai, where I spent most of my afternoons poring over books from the lo",
+      "title": "Real-time map of Great Britain's rail network!",
+      "link": "https://dev.to/mgobea/real-time-map-of-great-britains-rail-network-1ik9",
+      "pubDate": "2026-07-06T11:00:27.000Z",
+      "description": "<h2> Engineering the Real-Time Rail Topology: A Technical Post-Mortem </h2> <p>The challenge of visualizing a national rail network in real-time extends beyond simple map rendering. It requires the ingestion, normalization, and low-latency distribution of heterogeneous telemetry data streams. The pl",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Shifting Mobile Security Left: Applying SAST to Android Apps with MobSF",
-      "link": "https://dev.to/fabrizioperezperalta/shifting-mobile-security-left-applying-sast-to-android-apps-with-mobsf-47l3",
-      "pubDate": "2026-07-06T04:17:30.000Z",
-      "description": "<p>TL;DR — I took an intentionally vulnerable Android application, ran the static analysis engine of MobSF (Mobile Security Framework) via a local Docker container, and immediately identified critical flaws like hardcoded API keys and insecure local data storage. In mobile development, catching thes",
+      "title": "Cloud Networking Fundamentals: How a VPC Actually Works",
+      "link": "https://dev.to/sri2614/cloud-networking-fundamentals-how-a-vpc-actually-works-4mdj",
+      "pubDate": "2026-07-06T11:00:26.000Z",
+      "description": "<blockquote> <p><strong>TL;DR:</strong> A VPC is your own private, isolated network in the cloud. You carve it into public subnets (things that face the internet) and private subnets (databases, app servers), then control traffic with route tables and security groups. Default everything to private.<",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How I Use Redis Beyond Simple Caching: A Senior Dev's Perspective",
-      "link": "https://dev.to/tahmidbintaslim/how-i-use-redis-beyond-simple-caching-a-senior-devs-perspective-2llf",
-      "pubDate": "2026-07-06T04:12:55.000Z",
-      "description": "<h2> Table of Contents </h2> <ul> <li><a href=\"https://www.google.com/search?q=%231-high-performance-rate-limiting-sliding-window-log\" rel=\"noopener noreferrer\">1. High-Performance Rate Limiting (Sliding Window Log)</a></li> <li><a href=\"https://www.google.com/search?q=%232-reliable-distributed-lock",
+      "title": "Your Bed Needs the Internet",
+      "link": "https://dev.to/rawveg/your-bed-needs-the-internet-1m8h",
+      "pubDate": "2026-07-06T11:00:00.000Z",
+      "description": "<p>At 2:49 AM Eastern Time on 20 October 2025, a DNS race condition inside Amazon Web Services' US-EAST-1 region triggered a cascade that would, over the next fifteen hours, ripple across seventy-five AWS services and knock more than 3,500 companies offline in over sixty countries. Snapchat vanished",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Chrome 150 hands composite-widget arrow keys to the browser",
-      "link": "https://dev.to/leobaniak/chrome-150-hands-composite-widget-arrow-keys-to-the-browser-1dao",
-      "pubDate": "2026-07-06T04:09:27.000Z",
-      "description": "<p>Every custom listbox, tablist, menu and toolbar you have ever shipped has come with the same hidden JavaScript bill. The keyboard behaviour a native <code>&lt;select&gt;</code> gets for free, arrow keys moving between options, Home and End jumping to the ends, Tab leaving the widget entirely, you",
+      "title": "Spin up a two-node network lab in five minutes with one YAML file",
+      "link": "https://dev.to/brentf_io/spin-up-a-two-node-network-lab-in-five-minutes-with-one-yaml-file-274e",
+      "pubDate": "2026-07-06T10:58:53.000Z",
+      "description": "<h1> A running two-node network lab in five minutes, from one YAML file </h1> <p>I spend a lot of time standing up throwaway network environments to reproduce a<br> bug, test a config change, or try something before it touches anything real. The<br> setup tax was always the annoying part. Containerl",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I built an open-source, self-hosted Git + DevOps tool — Gisia",
-      "link": "https://dev.to/okoddcat/i-built-an-open-source-self-hosted-git-devops-tool-gisia-12l1",
-      "pubDate": "2026-07-06T04:06:50.000Z",
-      "description": "<p>Hey folks 👋</p> <p>I've been building an open-source DevOps tool called <strong>Gisia</strong> for a while now, and I figured it was time to actually share it with people instead of quietly tinkering on it.</p> <p>It's a <strong>lightweight, self-hosted Git platform</strong> for personal and sma",
+      "title": "create-next-mui v0.2.0 is here 🚀 — Now with Plugin Support!",
+      "link": "https://dev.to/thatonevikash/create-next-mui-v020-is-here-now-with-plugin-support-4l70",
+      "pubDate": "2026-07-06T10:57:03.000Z",
+      "description": "<p>We've just released <code>v0.2.0</code> of create-next-mui, making it even faster to scaffold a Next.js + MUI project.</p> <p>The biggest addition in this release is plugin support. You can now install supported integrations into your project with a single command.</p> <h2> ✨ What's New </h2> <h3",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "[Rust Guide] 13.8. Creating Custom Iterators",
-      "link": "https://dev.to/someb1oody/rust-guide-138-creating-custom-iterators-10h3",
-      "pubDate": "2026-07-06T04:06:44.000Z",
-      "description": "<h2> 13.8.0 Before We Begin </h2> <p>During its design, Rust drew inspiration from many languages, and functional programming had a particularly strong influence on Rust. Functional programming often includes passing functions as values to parameters, returning them from other functions, assigning t",
+      "title": "The Hidden Cost of \"Outdated Docs\": How to Maintain JSDoc Without Adding Technical Debt",
+      "link": "https://dev.to/imchintoo/the-hidden-cost-of-outdated-docs-how-to-maintain-jsdoc-without-adding-technical-debt-2fph",
+      "pubDate": "2026-07-06T10:55:49.000Z",
+      "description": "<blockquote> <p>Stop forcing developers to choose between shipping features and writing documentation.</p> </blockquote> <p>Every developer has been there: You join a new project, clone the repo, open the setup guide or look at a function header, and realize... the documentation is lying to you.</p>",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How we optimized our LLM pipeline to cut token usage by 70%",
-      "link": "https://dev.to/adamo_software/how-we-optimized-our-llm-pipeline-to-cut-token-usage-by-70-533c",
-      "pubDate": "2026-07-06T04:05:24.000Z",
-      "description": "<p>Most teams assume the fastest way to reduce AI costs is to switch to a smaller model. In reality, that's often the last thing you should do. Within a few weeks we noticed three problems: </p> <ul> <li>API costs were increasing every day. </li> <li>Response latency became inconsistent. </li> <li>M",
+      "title": "Compose your agent prompts once, compile them to every harness",
+      "link": "https://dev.to/dean0x/compose-your-agent-prompts-once-compile-them-to-every-harness-8ic",
+      "pubDate": "2026-07-06T10:49:25.000Z",
+      "description": "<p>If you build LLM agents, you probably write the same prompt more than once. A Markdown config for one tool, a rules file for another, and then the actual <code>[{role, content}]</code> messages your SDK sends. The instructions are the same. The formats aren't, so you copy, tweak, and watch them d",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Fable 5 Hype: Fangirling with Datasets to Build a Lakers Dashboard",
-      "link": "https://dev.to/earlgreyhot1701d/fable-5-hype-fangirling-with-datasets-to-build-a-lakers-dashboard-3pdd",
-      "pubDate": "2026-07-06T04:05:07.000Z",
-      "description": "<p>This is the story of a for-fun project, <a href=\"https://luka-fit-index.netlify.app/\" rel=\"noopener noreferrer\">Luka Fit Index</a> that started with me typing \"ai for fun? picture this\" at Claude Fable 5, Anthropic's new model, the one all the launch hype has been about. I wanted to see what the ",
+      "title": "What 400 viral LinkedIn posts taught me: 16 hook formulas, now open-source Claude Code skills",
+      "link": "https://dev.to/sergebulaev/what-400-viral-linkedin-posts-taught-me-16-hook-formulas-now-open-source-claude-code-skills-316m",
+      "pubDate": "2026-07-06T10:48:59.000Z",
+      "description": "<p>I spent a month doing something slightly unhinged: I pulled 400 above-average LinkedIn posts across 10 verticals, ran them through a fleet of analysis agents, and reverse-engineered why their first lines worked. Then I turned the findings into open-source skills for Claude Code and Codex.</p> <p>",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "[Rust Guide] 13.7. Using Closures to Capture the Environment With Iterators",
-      "link": "https://dev.to/someb1oody/rust-guide-137-using-closures-to-capture-the-environment-with-iterators-1ia9",
-      "pubDate": "2026-07-06T04:01:27.000Z",
-      "description": "<h2> 13.7.0 Before We Begin </h2> <p>During its design, Rust drew inspiration from many languages, and functional programming had a particularly strong influence on Rust. Functional programming often includes passing functions as values to parameters, returning them from other functions, assigning t",
+      "title": "Why Your AI Assistant Forgets Everything Between Conversations",
+      "link": "https://dev.to/mininglamp/why-your-ai-assistant-forgets-everything-between-conversations-4ki0",
+      "pubDate": "2026-07-06T10:48:36.000Z",
+      "description": "<p>Most teams using AI tools have hit this wall. Morning standup: ask the AI to summarize yesterday's progress. It doesn't know. Afternoon planning: ask it to reference last week's decisions. Blank stare. Every new conversation starts from zero.</p> <p>The problem gets worse with multiple people. Fi",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Shrimple – A Simpler, Nicer Markdown",
-      "link": "https://qount25.dev/Shrimple/",
-      "pubDate": "2026-07-06T02:24:15.000Z",
-      "description": "Article URL: https://qount25.dev/Shrimple/ Comments URL: https://news.ycombinator.com/item?id=48800026 Points: 4 # Comments: 4",
+      "title": "Real-time map of Great Britain's rail network",
+      "link": "https://www.map.signalbox.io",
+      "pubDate": "2026-07-06T09:38:36.000Z",
+      "description": "Article URL: https://www.map.signalbox.io Comments URL: https://news.ycombinator.com/item?id=48802535 Points: 74 # Comments: 29",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "When AI Costs More Than the Engineer",
+      "link": "https://tomtunguz.com/ai-spend-breakeven-2029/",
+      "pubDate": "2026-07-06T07:05:25.000Z",
+      "description": "Article URL: https://tomtunguz.com/ai-spend-breakeven-2029/ Comments URL: https://news.ycombinator.com/item?id=48801493 Points: 97 # Comments: 85",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Generate parametric, manufacturable 3D models in seconds",
+      "link": "https://kyrall.com/",
+      "pubDate": "2026-07-06T07:04:33.000Z",
+      "description": "Article URL: https://kyrall.com/ Comments URL: https://news.ycombinator.com/item?id=48801488 Points: 39 # Comments: 26",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -96,7 +112,7 @@
       "title": "Building relationships with customers through support didn't turn out as hoped",
       "link": "https://www.uncommonapps.nyc/p/castro-podcasts-things-i-got-wrong-support",
       "pubDate": "2026-07-06T02:06:49.000Z",
-      "description": "Article URL: https://www.uncommonapps.nyc/p/castro-podcasts-things-i-got-wrong-support Comments URL: https://news.ycombinator.com/item?id=48799929 Points: 26 # Comments: 13",
+      "description": "Article URL: https://www.uncommonapps.nyc/p/castro-podcasts-things-i-got-wrong-support Comments URL: https://news.ycombinator.com/item?id=48799929 Points: 154 # Comments: 96",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -104,7 +120,7 @@
       "title": "The Sneakerweb",
       "link": "https://sneakerweb.org/",
       "pubDate": "2026-07-06T01:35:09.000Z",
-      "description": "Article URL: https://sneakerweb.org/ Comments URL: https://news.ycombinator.com/item?id=48799781 Points: 30 # Comments: 7",
+      "description": "Article URL: https://sneakerweb.org/ Comments URL: https://news.ycombinator.com/item?id=48799781 Points: 64 # Comments: 17",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -112,15 +128,7 @@
       "title": "GPT-5.6 Sol Ultra will be in Codex",
       "link": "https://twitter.com/thsottiaux/status/2073933490513752151",
       "pubDate": "2026-07-06T01:04:03.000Z",
-      "description": "Article URL: https://twitter.com/thsottiaux/status/2073933490513752151 Comments URL: https://news.ycombinator.com/item?id=48799614 Points: 143 # Comments: 78",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Al Vigier: Canada's AI strategy shouldn't include secret Palantir bills",
-      "link": "https://www.readtheline.ca/p/al-vigier-canadas-ai-strategy-shouldnt",
-      "pubDate": "2026-07-06T00:04:48.000Z",
-      "description": "Article URL: https://www.readtheline.ca/p/al-vigier-canadas-ai-strategy-shouldnt Comments URL: https://news.ycombinator.com/item?id=48799256 Points: 121 # Comments: 43",
+      "description": "https://x.com/haider1/status/2073695124220006575, https://xcancel.com/haider1/status/2073695124220006575 Comments URL: https://news.ycombinator.com/item?id=48799614 Points: 301 # Comments: 242",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -128,7 +136,7 @@
       "title": "The Private Capture of Public Genius",
       "link": "https://www.wysr.xyz/p/the-private-capture-of-public-genius",
       "pubDate": "2026-07-05T23:52:20.000Z",
-      "description": "Article URL: https://www.wysr.xyz/p/the-private-capture-of-public-genius Comments URL: https://news.ycombinator.com/item?id=48799178 Points: 60 # Comments: 17",
+      "description": "Article URL: https://www.wysr.xyz/p/the-private-capture-of-public-genius Comments URL: https://news.ycombinator.com/item?id=48799178 Points: 115 # Comments: 60",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -136,23 +144,15 @@
       "title": "Has_not_been_viewed_much",
       "link": "https://iamwillwang.com/notes/has-not-been-viewed-much/",
       "pubDate": "2026-07-05T23:49:00.000Z",
-      "description": "Article URL: https://iamwillwang.com/notes/has-not-been-viewed-much/ Comments URL: https://news.ycombinator.com/item?id=48799155 Points: 139 # Comments: 38",
+      "description": "Article URL: https://iamwillwang.com/notes/has-not-been-viewed-much/ Comments URL: https://news.ycombinator.com/item?id=48799155 Points: 323 # Comments: 83",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Connections in Math: the two kinds of random",
-      "link": "https://stillthinking.net/posts/connections-in-math-two-kinds-of-random/",
-      "pubDate": "2026-07-05T23:31:30.000Z",
-      "description": "Article URL: https://stillthinking.net/posts/connections-in-math-two-kinds-of-random/ Comments URL: https://news.ycombinator.com/item?id=48799026 Points: 29 # Comments: 20",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Does Code Cleanliness Affect Coding Agents?",
+      "title": "Does code cleanliness affect coding agents? A controlled minimal-pair study",
       "link": "https://arxiv.org/abs/2605.20049",
       "pubDate": "2026-07-05T23:03:55.000Z",
-      "description": "Article URL: https://arxiv.org/abs/2605.20049 Comments URL: https://news.ycombinator.com/item?id=48798815 Points: 65 # Comments: 25",
+      "description": "Article URL: https://arxiv.org/abs/2605.20049 Comments URL: https://news.ycombinator.com/item?id=48798815 Points: 138 # Comments: 75",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -160,7 +160,7 @@
       "title": "DNSGlobe – Rust TUI to watch DNS propagate around the world",
       "link": "https://github.com/514-labs/dnsglobe",
       "pubDate": "2026-07-05T21:55:53.000Z",
-      "description": "Article URL: https://github.com/514-labs/dnsglobe Comments URL: https://news.ycombinator.com/item?id=48798313 Points: 33 # Comments: 24",
+      "description": "Article URL: https://github.com/514-labs/dnsglobe Comments URL: https://news.ycombinator.com/item?id=48798313 Points: 69 # Comments: 48",
       "source": "Hacker News",
       "category": "Tech News"
     },
