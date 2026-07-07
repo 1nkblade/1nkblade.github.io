@@ -1,94 +1,126 @@
 {
-  "generatedAt": "2026-07-07T04:16:49.430Z",
+  "generatedAt": "2026-07-07T10:00:32.580Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "Adiuvo Explorer Board: $99 FPGA Development Made Accessible",
-      "link": "https://dev.to/circuitrocks/adiuvo-explorer-board-99-fpga-development-made-accessible-2dpj",
-      "pubDate": "2026-07-07T04:06:41.000Z",
-      "description": "<p>Want to design real microchip-style logic at home without a five-figure toolchain? Here is what you would need to get started with the new <strong>Adiuvo Explorer Board</strong>: the $99 board itself, a single USB-C cable, and AMD's free-tier Vivado tools running on a modest laptop. That is genui",
+      "title": "AbortController: The Async Cleanup Pattern You Keep Skipping",
+      "link": "https://dev.to/parsajiravand/abortcontroller-the-async-cleanup-pattern-you-keep-skipping-1o4l",
+      "pubDate": "2026-07-07T09:51:00.000Z",
+      "description": "<p>Most async code in frontend apps has a hidden bug: it doesn't stop when it should. A user navigates away mid-request. A component unmounts. A newer search query supersedes the previous one. The old network call keeps running, eventually resolves, and tries to update state that no longer exists. I",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The AI Coding Tool You Use Is Now a Hiring Signal",
-      "link": "https://dev.to/remoet/the-ai-coding-tool-you-use-is-now-a-hiring-signal-o2a",
-      "pubDate": "2026-07-07T04:05:33.000Z",
-      "description": "<p>You open a job post for a senior backend role. The stack is what you would expect: TypeScript, Postgres, AWS, a bit of Go. And then, sitting in the list like it has always belonged there, one more line.</p> <p>Cursor.</p> <p>Not \"we are an AI company.\" Not a perk buried three scrolls down the car",
+      "title": "Most Of Your \"Nudges\" Are Just Interruptions In Costume",
+      "link": "https://dev.to/digia_studio/most-of-your-nudges-are-just-interruptions-in-costume-22pa",
+      "pubDate": "2026-07-07T09:49:28.000Z",
+      "description": "<p>In 2008, Richard Thaler and Cass Sunstein needed an example simple enough to explain the whole of economic theory from a single application. They used a cafeteria menu.</p> <p>By moving the fruit to eye level and sending the fries to the periphery, they demonstrated that a slightly adjusted envir",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Guard Scripts Don't Stop an AI Agent From Publishing Your Draft. It Has a Shell",
-      "link": "https://dev.to/nomurasan/guard-scripts-dont-stop-an-ai-agent-from-publishing-your-draft-it-has-a-shell-327g",
-      "pubDate": "2026-07-07T04:02:22.000Z",
-      "description": "<p>I gave Claude Code control over my article publishing pipeline. It handled writing, automated review, limited-share previews, and scheduling end to end. It worked well enough that I stopped watching closely.</p> <p>Then one afternoon I asked it to rewrite an existing post and give me a limited-sh",
+      "title": "Every change to an Entra extension is a Control Plane event: the monitoring contract",
+      "link": "https://dev.to/astaykov/every-change-to-an-entra-extension-is-a-control-plane-event-the-monitoring-contract-5621",
+      "pubDate": "2026-07-07T09:47:00.000Z",
+      "description": "<p>Parts 1 and 2 of this series (<a href=\"https://dev.to/astaykov/microsoft-entra-extensibility-is-a-gift-it-is-also-control-plane-4egn\">Microsoft Entra extensibility is a gift. It is also Control Plane.</a> and <a href=\"https://dev.to/astaykov/securing-the-code-that-decides-who-entra-trusts-a-funct",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "SQL Server Heaps: Understanding Tables Without Clustered Indexes",
-      "link": "https://dev.to/namrata_khorjuwekar_/sql-server-heaps-nfl",
-      "pubDate": "2026-07-07T04:00:23.000Z",
-      "description": "<h1> Database Deep Dive Series – Part 1 </h1> <p>Welcome to the <strong>Database Deep Dive Series</strong>, where I explore database concepts through practical examples, SQL scripts, interview questions, and real-world scenarios.</p> <p>In this first article, we'll look at one of the most misunderst",
+      "title": "How to align columnar output in the terminal",
+      "link": "https://dev.to/sml/how-to-align-columnar-output-in-the-terminal-300p",
+      "pubDate": "2026-07-07T09:46:42.000Z",
+      "description": "<p>In bioinformatics we are handling a lot of tabular data. Be it VCF files, tabular Blast output, or just creating a CSV or TSV samplesheet.</p> <p>Actually, one of my favorite tabular formats is by using SeqKit to convert Fasta or FastQ files to tabular format, as this allows to do various filteri",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Database Deep Dive Series",
-      "link": "https://dev.to/namrata_khorjuwekar_/database-deep-dive-series-570d",
-      "pubDate": "2026-07-07T03:55:04.000Z",
-      "description": "<p>Welcome to the Database Deep Dive Series—a collection of articles designed to help database professionals strengthen their technical knowledge through practical examples and real-world scenarios.</p> <p>Whether you're a Database Administrator, Database Developer, Cloud Database Administrator, or ",
+      "title": "AWS Is Not Simpler. Agents Just Got Better at Reading It.",
+      "link": "https://dev.to/gyu07/aws-is-not-simpler-agents-just-got-better-at-reading-it-3j9e",
+      "pubDate": "2026-07-07T09:46:03.000Z",
+      "description": "<p>I optimized my architecture for the wrong model.</p> <p>I used to think black-box infrastructure was the right abstraction for AI-driven development.</p> <p>Vercel, Supabase, Cloudflare Workers — a sharp contract in front, a managed backend behind — felt like the obvious fit. The less an agent ha",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "# I'm Not a Developer. I Built an AI Bot That Tells Me What to Focus On Every Morning.",
-      "link": "https://dev.to/deepak_kumar_2c179cbac31c/-im-not-a-developer-i-built-an-ai-bot-that-tells-me-what-to-focus-on-every-morning-1fd6",
-      "pubDate": "2026-07-07T03:41:18.000Z",
-      "description": "<p>I used to forget client calls.</p> <p>Not because I didn't care — I had the meetings in my head, I knew they mattered. But between juggling database consulting projects for mining companies, chasing follow-ups, and trying to remember basic household stuff like booking a doctor's appointment or pi",
+      "title": "I gave an LLM agent write access to my cloud drive. Three bugs taught me how to constrain it.",
+      "link": "https://dev.to/fancy39_9841cbc02f99f729c/i-gave-an-llm-agent-write-access-to-my-cloud-drive-three-bugs-taught-me-how-to-constrain-it-42nd",
+      "pubDate": "2026-07-07T09:44:44.000Z",
+      "description": "<p>I wanted a media library that knew the difference between what should exist and what does. Most automation I tried picked one side. Some tools search well and never track what you already have. Others move files and assume the move worked. I wanted the gap between those two things to be the thing",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "MCP Explained: How It's Different from Traditional APIs",
-      "link": "https://dev.to/karthikkk24/mcp-explained-how-its-different-from-traditional-apis-e65",
-      "pubDate": "2026-07-07T03:37:25.000Z",
-      "description": "<p>Imagine you are planning a surprise birthday party. You need invitations, food, decorations, and a cake. You call different places to get these things. You tell each one exactly what you need. \"I need 20 red balloons.\" \"I need a chocolate cake for 10 people.\" This is how many computer programs ta",
+      "title": "Syncing a wholesaler's API into WooCommerce without overselling or melting the server",
+      "link": "https://dev.to/wppolandcom/syncing-a-wholesalers-api-into-woocommerce-without-overselling-or-melting-the-server-38ao",
+      "pubDate": "2026-07-07T09:43:56.000Z",
+      "description": "<p>A common WooCommerce brief looks like this: the store does not own its inventory. A distributor does. The shop is a storefront on top of a wholesaler whose catalog, stock levels, and prices change daily, exposed through some REST or XML web service. The job is to make the store reflect the suppli",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Agent frameworks stabilize as Claude Sonnet 5 ships",
-      "link": "https://dev.to/devsignal/agent-frameworks-stabilize-as-claude-sonnet-5-ships-218e",
-      "pubDate": "2026-07-07T03:37:16.000Z",
-      "description": "<p>The theme this week is consolidation: agent frameworks are shipping stable APIs, structural enforcement tooling is catching up to LLM-generated codebases, and Anthropic just collapsed the cost curve on agentic capability. Underneath all of it, a pair of Node.js CVEs are waiting to ruin your July ",
+      "title": "Chrome for Developers a Berlino: cosa aspettarsi dall’ecosistema web nel 2026",
+      "link": "https://dev.to/frontendfacile/chrome-for-developers-a-berlino-cosa-aspettarsi-dallecosistema-web-nel-2026-2ndm",
+      "pubDate": "2026-07-07T09:43:07.000Z",
+      "description": "<blockquote> <p>Tra performance, piattaforma e toolchain: i temi che contano davvero per chi costruisce frontend oggi.</p> </blockquote> <p>Il frontend nel 2026 è diventato una disciplina sempre più “di prodotto”: non basta far funzionare l’interfaccia, serve che sia veloce, stabile, accessibile e m",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Discovery: How an Agent Finds Your APIs",
-      "link": "https://dev.to/newadventuresinit/discovery-how-an-agent-finds-your-apis-hh7",
-      "pubDate": "2026-07-07T03:32:50.000Z",
-      "description": "<p><a href=\"https://dev.to/newadventuresinit/neander-and-grotto-beyond-code-mode-21im\">Last time</a> I made the case for why <strong>Neander</strong> and <strong>Grotto</strong> exist at all — a purpose-built, safe-by-construction language instead of a sandboxed general-purpose one. That was the arg",
+      "title": "P Watched an AI That Only Looked One Way. The 99.97% Was Real. It Just Missed Everything That Mattered.",
+      "link": "https://dev.to/xulingfeng/p-watched-an-ai-that-only-looked-one-way-the-9997-was-real-it-just-missed-everything-that-1djm",
+      "pubDate": "2026-07-07T09:41:33.000Z",
+      "description": "<blockquote> <p><em>\"Show nothing, hold everything.\"</em><br> — The Thirty-Six Stratagems, <a href=\"https://en.wikipedia.org/wiki/Thirty-Six_Stratagems#Create_something_from_nothing_(%E6%97%A0%E4%B8%AD%E7%94%9F%E6%9C%89,_W%C3%BA_zh%C5%8Dng_sh%C4%93ng_y%C7%92u)\" rel=\"noopener noreferrer\">Create Somet",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Per-Service Data Ownership: Avoiding Database Monoliths",
-      "link": "https://dev.to/kapil/per-service-data-ownership-avoiding-database-monoliths-h2l",
-      "pubDate": "2026-07-07T03:30:48.000Z",
-      "description": "<h2> Key takeaways </h2> <ul> <li>Shared databases create tight coupling, undermining microservices.</li> <li>Per-service data ownership enhances scalability and autonomy.</li> <li>Adopting event sourcing can facilitate data ownership without redundancy.</li> <li>Microservices thrive on decentralize",
+      "title": "What ref() and reactive() Are Actually For",
+      "link": "https://dev.to/ysndmr/what-ref-and-reactive-are-actually-for-c52",
+      "pubDate": "2026-07-07T09:39:53.000Z",
+      "description": "<p>Vue 3 gives you two ways to make something reactive: <code>ref()</code> and <code>reactive()</code>. The docs explain the difference clearly enough. What they don't tell you is which one to reach for by default.</p> <p>The short answer: <strong><code>ref()</code>, almost always.</strong> <code>re",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "Microsoft Can Track Users via a Windows Device ID",
+      "link": "https://www.pcmag.com/news/a-hackers-arrest-reveals-microsoft-can-track-users-via-a-windows-device",
+      "pubDate": "2026-07-07T08:54:03.000Z",
+      "description": "Article URL: https://www.pcmag.com/news/a-hackers-arrest-reveals-microsoft-can-track-users-via-a-windows-device Comments URL: https://news.ycombinator.com/item?id=48815196 Points: 45 # Comments: 8",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "YC CEO says he ships 37K LoC AI code per day. A developer looked under the hood",
+      "link": "https://www.fastcompany.com/91520702/y-combinator-garry-tan-agentic-ai-social-media",
+      "pubDate": "2026-07-07T08:39:51.000Z",
+      "description": "Article URL: https://www.fastcompany.com/91520702/y-combinator-garry-tan-agentic-ai-social-media Comments URL: https://news.ycombinator.com/item?id=48815117 Points: 45 # Comments: 31",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Lago (YC S21) Is Hiring for Our GTM Team",
+      "link": "https://jobs.ashbyhq.com/lago",
+      "pubDate": "2026-07-07T07:00:27.000Z",
+      "description": "Article URL: https://jobs.ashbyhq.com/lago Comments URL: https://news.ycombinator.com/item?id=48814509 Points: 0 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "The Art of Computer Programming by Donald E. Knuth",
+      "link": "https://www-cs-faculty.stanford.edu/~knuth/taocp.html",
+      "pubDate": "2026-07-07T05:19:03.000Z",
+      "description": "Article URL: https://www-cs-faculty.stanford.edu/~knuth/taocp.html Comments URL: https://news.ycombinator.com/item?id=48813929 Points: 16 # Comments: 3",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "How to sequence your own DNA at home",
       "link": "https://bradleywoolf.com/links-1/sequencing-my-own-dna-at-home",
       "pubDate": "2026-07-07T00:14:21.000Z",
-      "description": "Article URL: https://bradleywoolf.com/links-1/sequencing-my-own-dna-at-home Comments URL: https://news.ycombinator.com/item?id=48812156 Points: 96 # Comments: 27",
+      "description": "Article URL: https://bradleywoolf.com/links-1/sequencing-my-own-dna-at-home Comments URL: https://news.ycombinator.com/item?id=48812156 Points: 214 # Comments: 76",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -96,7 +128,15 @@
       "title": "Small AI Models Gain Traction In places with unreliable networks",
       "link": "https://spectrum.ieee.org/small-language-models-ai-pharmaceuticals",
       "pubDate": "2026-07-06T23:59:54.000Z",
-      "description": "Article URL: https://spectrum.ieee.org/small-language-models-ai-pharmaceuticals Comments URL: https://news.ycombinator.com/item?id=48812055 Points: 50 # Comments: 11",
+      "description": "Article URL: https://spectrum.ieee.org/small-language-models-ai-pharmaceuticals Comments URL: https://news.ycombinator.com/item?id=48812055 Points: 143 # Comments: 50",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "NSA and IETF: Fairness",
+      "link": "https://blog.cr.yp.to/20260706-fairness.html",
+      "pubDate": "2026-07-06T23:33:54.000Z",
+      "description": "Article URL: https://blog.cr.yp.to/20260706-fairness.html Comments URL: https://news.ycombinator.com/item?id=48811887 Points: 110 # Comments: 90",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -104,7 +144,7 @@
       "title": "Ternlight – 7 MB embedding model that runs in browser (WASM)",
       "link": "https://ternlight-demo.vercel.app/",
       "pubDate": "2026-07-06T23:06:31.000Z",
-      "description": "Article URL: https://ternlight-demo.vercel.app/ Comments URL: https://news.ycombinator.com/item?id=48811644 Points: 122 # Comments: 35",
+      "description": "Article URL: https://ternlight-demo.vercel.app/ Comments URL: https://news.ycombinator.com/item?id=48811644 Points: 220 # Comments: 52",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -112,7 +152,7 @@
       "title": "Fable turned reMarkable into Tom Riddle's diary from Harry Potter",
       "link": "https://github.com/MaximeRivest/Riddle",
       "pubDate": "2026-07-06T23:00:24.000Z",
-      "description": "Article URL: https://github.com/MaximeRivest/Riddle Comments URL: https://news.ycombinator.com/item?id=48811591 Points: 231 # Comments: 139",
+      "description": "Article URL: https://github.com/MaximeRivest/Riddle Comments URL: https://news.ycombinator.com/item?id=48811591 Points: 461 # Comments: 288",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -120,47 +160,7 @@
       "title": "OpenSSH 10.4/10.4p1 Released",
       "link": "https://www.openssh.org/txt/release-10.4",
       "pubDate": "2026-07-06T22:32:58.000Z",
-      "description": "Article URL: https://www.openssh.org/txt/release-10.4 Comments URL: https://news.ycombinator.com/item?id=48811373 Points: 43 # Comments: 12",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Acronym Fatigue Series Introduction: why I'm wary of acronyms",
-      "link": "https://devz.cl/posts/acryonym-fatigue-series-why-i-m-wary-of-engineering-acronyms/",
-      "pubDate": "2026-07-06T22:30:33.000Z",
-      "description": "Article URL: https://devz.cl/posts/acryonym-fatigue-series-why-i-m-wary-of-engineering-acronyms/ Comments URL: https://news.ycombinator.com/item?id=48811339 Points: 35 # Comments: 18",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Poly/ML – A Standard ML Implementation",
-      "link": "https://github.com/polyml/polyml",
-      "pubDate": "2026-07-06T22:28:06.000Z",
-      "description": "Article URL: https://github.com/polyml/polyml Comments URL: https://news.ycombinator.com/item?id=48811317 Points: 32 # Comments: 6",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Full Writeup of the Windows GDID",
-      "link": "https://github.com/SmtimesIWndr/gdid-reversal",
-      "pubDate": "2026-07-06T22:02:24.000Z",
-      "description": "Article URL: https://github.com/SmtimesIWndr/gdid-reversal Comments URL: https://news.ycombinator.com/item?id=48811081 Points: 46 # Comments: 23",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Learning to code is still worthwhile",
-      "link": "https://stevekrouse.com/learn-to-code",
-      "pubDate": "2026-07-06T20:59:54.000Z",
-      "description": "Article URL: https://stevekrouse.com/learn-to-code Comments URL: https://news.ycombinator.com/item?id=48810439 Points: 133 # Comments: 133",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "GLM 5.2 and the coming AI margin collapse",
-      "link": "https://martinalderson.com/posts/the-upcoming-ai-margin-collapse-part-1-glm-5-2/",
-      "pubDate": "2026-07-06T20:14:55.000Z",
-      "description": "Article URL: https://martinalderson.com/posts/the-upcoming-ai-margin-collapse-part-1-glm-5-2/ Comments URL: https://news.ycombinator.com/item?id=48809877 Points: 232 # Comments: 153",
+      "description": "Article URL: https://www.openssh.org/txt/release-10.4 Comments URL: https://news.ycombinator.com/item?id=48811373 Points: 79 # Comments: 16",
       "source": "Hacker News",
       "category": "Tech News"
     },
