@@ -1,173 +1,248 @@
 {
-  "generatedAt": "2026-07-07T20:14:56.331Z",
+  "generatedAt": "2026-07-08T03:44:34.628Z",
   "sourceCount": 4,
-  "successCount": 3,
-  "errors": [
-    {
-      "source": "CSS Tricks",
-      "error": "HTTP 415 Unsupported Media Type"
-    }
-  ],
+  "successCount": 4,
+  "errors": [],
   "items": [
     {
-      "title": "Being an engineer in the AI era",
-      "link": "https://dev.to/ale3oula/being-an-engineer-in-the-ai-era-277p",
-      "pubDate": "2026-07-07T20:10:15.000Z",
-      "description": "<p>I hesitated to write this.</p> <p>Not because I don’t have an opinion about AI in software engineering, but because it sometimes feels increasingly difficult to have nuanced conversations about it.</p> <p>I worked in an environment where being “AI native” was part of the identity. And when a tech",
+      "title": "CPU vs GPU: Why Large Language Models Need GPUs — What Really Happens After You Press Enter?",
+      "link": "https://dev.to/utteshkumar/cpu-vs-gpu-why-large-language-models-need-gpus-what-really-happens-after-you-press-enter-2lg3",
+      "pubDate": "2026-07-08T03:34:50.000Z",
+      "description": "<p>The moment you press Enter, billions of mathematical operations begin. Let's follow that journey.</p> <p>Every day, millions of people ask ChatGPT, Gemini, Claude, or other AI assistants questions. The answer appears almost instantly.</p> <p>But have you ever wondered what actually happens after ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The Secret to On-Device Intelligence: Mastering Weight Pruning and Sparsity for Mobile NPUs",
-      "link": "https://dev.to/programmingcentral/the-secret-to-on-device-intelligence-mastering-weight-pruning-and-sparsity-for-mobile-npus-4bb6",
-      "pubDate": "2026-07-07T20:00:00.000Z",
-      "description": "<p>The dream of truly personal, private, and instantaneous AI has always been bottlenecked by a single, massive problem: <strong>hardware constraints.</strong> </p> <p>We want Large Language Models (LLMs) like Gemini Nano to run locally on our phones, not in a distant data center. But there is a fun",
+      "title": "Part 1 — Container hoá app &amp; chạy trong Kubernetes local",
+      "link": "https://dev.to/ted/part-1-container-hoa-app-chay-trong-kubernetes-local-5cpb",
+      "pubDate": "2026-07-08T03:25:26.000Z",
+      "description": "<h2> Bạn sẽ học gì </h2> <p>Sau bài này, bạn sẽ tự tay đưa một app từ <strong>số 0</strong> (một thư mục trống) đến <strong>chạy được bên trong một cluster Kubernetes chạy trên máy của bạn</strong>. Cụ thể:</p> <ul> <li>Viết một app Todo API nhỏ bằng Node.js + Express.</li> <li>Đóng gói (container h",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "What If Your Project Starter Knew Exactly What You Needed",
-      "link": "https://dev.to/moeidheidari/what-if-your-project-starter-knew-exactly-what-you-needed-3gf8",
-      "pubDate": "2026-07-07T19:59:25.000Z",
-      "description": "<h2> Introducing kik generate: schema driven plates on Kikplate </h2> <p><em>By Moeid Heidari · 8 min read · Jun 22, 2026</em></p> <p>Kikplate started as a simple idea. A plate is a project template backed by a real GitHub repository, and the CLI lets you pull one down in seconds. That part hasn't c",
+      "title": "I added nested CSV to JSON support to a free browser-based converter",
+      "link": "https://dev.to/kejie1/i-added-nested-csv-to-json-support-to-a-free-browser-based-converter-5524",
+      "pubDate": "2026-07-08T03:24:55.000Z",
+      "description": "<p>I built JSON Utility Kit as a small browser-based toolkit for everyday JSON tasks.</p> <p>The CSV to JSON converter recently got an update for nested JSON structures. For example, headers like user.name, user.email, order.id can be converted into nested objects instead of flat keys.</p> <p>What i",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "OfficeCLI: Giving AI Agents the Power to Automate Word, Excel, and PowerPoint",
-      "link": "https://dev.to/terminalchai/officecli-giving-ai-agents-the-power-to-automate-word-excel-and-powerpoint-4281",
-      "pubDate": "2026-07-07T19:57:30.000Z",
-      "description": "<h1> Giving AI \"Eyes\" for Office Documents: Meet OfficeCLI </h1> <p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fi4j5yma4u7dc8zcbq39j.png\" class=\"article-b",
+      "title": "一个任务的奇幻漂流：同一个Agent任务，在FROST和FROST-SOP中分别长什么样？",
+      "link": "https://dev.to/llimage/ge-ren-wu-de-qi-huan-piao-liu-tong-ge-agentren-wu-zai-frosthe-frost-sopzhong-fen-bie-chang-shi-yao-yang--p7p",
+      "pubDate": "2026-07-08T03:23:29.000Z",
+      "description": "<h1> 一个任务的奇幻漂流：同一个Agent任务，在FROST和FROST-SOP中分别长什么样？ </h1> <p><strong>作者</strong>：神通说<br><br> <strong>日期</strong>：2026-07-08<br><br> <strong>主题</strong>：双项目联动 | 周三轮换<br><br> <strong>阅读时间</strong>：8分钟</p> <h2> 一个问题 </h2> <p>你可能听过这样的故事：</p> <blockquote> <p>\"这个框架很好，但我不知道怎么用到真实项目里。\"</p> </blockquote> <p>F",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Full-stack auth in Go and React: email + password with Limen",
-      "link": "https://dev.to/thecodearcher/full-stack-auth-in-go-and-react-email-password-with-limen-30lm",
-      "pubDate": "2026-07-07T19:53:13.000Z",
-      "description": "<p>When Limen <a href=\"https://limenauth.dev/blog/introducing-limen\" rel=\"noopener noreferrer\">launched</a>, the TypeScript client was still on the roadmap. It's here now: <a href=\"https://www.npmjs.com/package/limen-auth\" rel=\"noopener noreferrer\"><code>limen-auth</code></a>, a typed client for you",
+      "title": "The Turborepo + Bun + Biome stack behind a 40-package monorepo",
+      "link": "https://dev.to/grzott/the-turborepo-bun-biome-stack-behind-a-40-package-monorepo-3n3f",
+      "pubDate": "2026-07-08T03:21:44.000Z",
+      "description": "<p>Forty packages, one maintainer, and no ESLint config anywhere in the repo. That is not a boast - it is the direct result of a decision made early: every tool in the toolchain has to earn its place by governing all forty packages from one config file, not forty.</p> <p>The repo is <code>flare-engi",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Free 18-Lesson Generative AI Video Course by Microsoft ( No Sign-Up or Paywalls)",
-      "link": "https://dev.to/swyxam/free-18-lesson-generative-ai-video-course-by-microsoft-no-sign-up-or-paywalls-21mb",
-      "pubDate": "2026-07-07T19:50:24.000Z",
-      "description": "<p>For anyone trying to learn the actual engineering and mechanics behind Generative AI without spending thousands of dollars on bootcamps or monthly subscriptions, Microsoft Cloud Advocates quietly released an incredible resource.</p> <p>It is a completely free, 18-lesson comprehensive video series",
+      "title": "An MCP Context Contract for Android Automation Drafts",
+      "link": "https://dev.to/laicaiapp/an-mcp-context-contract-for-android-automation-drafts-2669",
+      "pubDate": "2026-07-08T03:19:31.000Z",
+      "description": "<p>When teams ask Codex or Claude to help with Android automation, the request usually starts as ordinary language. \"Open the app, sign in, check the result, save a screenshot, and stop if the expected text is missing.\" That kind of instruction is useful, but it is not enough to generate a workflow ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "[Boost]",
-      "link": "https://dev.to/samsumansarkar/-305a",
-      "pubDate": "2026-07-07T19:49:30.000Z",
-      "description": "<div class=\"ltag__link--embedded\"> <div class=\"crayons-story \"> <a href=\"https://dev.to/yashksaini/dev-log-11-kanagawa-dreams-and-test-suites-a-week-of-refactoring-my-neovim-and-hardening-the-nb3\" class=\"crayons-story__hidden-navigation-link\">Dev log #11 Kanagawa Dreams and Test Suites: A Week of Re",
+      "title": "You don't own your reading list. You rent it.",
+      "link": "https://dev.to/kuh4ku/you-dont-own-your-reading-list-you-rent-it-2056",
+      "pubDate": "2026-07-08T03:16:12.000Z",
+      "description": "<p>Here is an uncomfortable one: you do not own your reading list. You rent it.</p> <p>Every \"follow\" button you have pressed in the last decade put your reading relationship inside a company's database, where it can be ranked, throttled, or ended the day the business model changes. You did not sign",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Vercel CLI dry-run: check a deploy before you ship it",
-      "link": "https://dev.to/induwara_ashinsana_9e4d5b/vercel-cli-dry-run-check-a-deploy-before-you-ship-it-3dhj",
-      "pubDate": "2026-07-07T19:49:28.000Z",
-      "description": "<p>The <strong>Vercel CLI dry-run deployment</strong> feature lets you preview exactly what the CLI would upload before it actually creates a deployment. You run <code>vercel deploy --dry</code> from a linked project, and instead of shipping code, the CLI tells you which files it picked up, which it",
+      "title": "AI Security Audit Checklist: 15 Vulnerabilities Claude Found in Production Code",
+      "link": "https://dev.to/spyrae/ai-security-audit-checklist-15-vulnerabilities-claude-found-in-production-code-3ajd",
+      "pubDate": "2026-07-08T03:10:45.000Z",
+      "description": "<p>Most web applications contain at least one vulnerability from the OWASP Top 10. A typical security audit takes 2-3 weeks and costs upward of $10,000. An LLM can compress the initial audit down to a few hours because it scans code for patterns rather than specific CVEs.</p> <p>Below are 15 vulnera",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Your AI coding tools are keeping detailed logs on your Mac. Here's what's in them.",
-      "link": "https://dev.to/658jjh/your-ai-coding-tools-are-keeping-detailed-logs-on-your-mac-heres-whats-in-them-2kda",
-      "pubDate": "2026-07-07T19:46:26.000Z",
-      "description": "<p>Run this in a terminal:<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight shell\"><code><span class=\"nb\">ls</span> ~/.claude/projects/ </code></pre> </div> <p>If you use Claude Code, you just found a folder for every project you've ever opened it in. Inside each one: JSONL f",
+      "title": "My MCP token-cost auditor caught a live npx/PyPI namesquat",
+      "link": "https://dev.to/ereb-blade/my-mcp-token-cost-auditor-caught-a-live-npxpypi-namesquat-4jkk",
+      "pubDate": "2026-07-08T03:09:33.000Z",
+      "description": "<h2> The tool I was actually building </h2> <p>I've been building <a href=\"https://github.com/Ereb-Blade/mcp-tollbooth\" rel=\"noopener noreferrer\">mcp-tollbooth</a>, a small CLI that scans your local MCP config (Claude Desktop, Claude Code, Cursor, VS Code) and answers a boring but real question: <st",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "🚀 We're Hiring Software Engineers at 10xHire",
-      "link": "https://dev.to/shivanshu814/were-hiring-software-engineers-at-10xhire-1g0h",
-      "pubDate": "2026-07-07T19:43:26.000Z",
-      "description": "<h2> 👉 Apply Here First </h2> <p><strong>Application Form:</strong> <a href=\"https://forms.gle/QJNF7TXVBTgbLoaC7\" rel=\"noopener noreferrer\">https://forms.gle/QJNF7TXVBTgbLoaC7</a></p> <p>At <strong>10xHire</strong>, we're building the next generation of technical hiring.</p> <p>We believe great eng",
+      "title": "Why 90% of Behavior Change Apps Fail (And What AI Can Actually Do About It)",
+      "link": "https://dev.to/funnywish/why-90-of-behavior-change-apps-fail-and-what-ai-can-actually-do-about-it-9jj",
+      "pubDate": "2026-07-08T03:04:13.000Z",
+      "description": "<p>We have all downloaded a habit tracker, used it for a week, and forgotten it exists. The behavior change industry is worth $14 billion, yet retention numbers across wellness and habit apps are abysmal. The average habit app loses 73% of users within the first two weeks.</p> <p>That is not a motiv",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Show HN: Davit, a Apple Containers UI",
-      "link": "https://davit.app",
-      "pubDate": "2026-07-07T18:44:29.000Z",
-      "description": "Mostly vibe-coded Apple Containers front-end that I'd like to use myself. But if others want to use it, here's the source code. Comments URL: https://news.ycombinator.com/item?id=48821848 Points: 19 # Comments: 1",
+      "title": "Is The Economist Always Wrong?",
+      "link": "https://www.economist.com/interactive/finance-and-economics/2026/07/02/is-the-economist-always-wrong",
+      "pubDate": "2026-07-08T02:17:01.000Z",
+      "description": "Article URL: https://www.economist.com/interactive/finance-and-economics/2026/07/02/is-the-economist-always-wrong Comments URL: https://news.ycombinator.com/item?id=48826703 Points: 48 # Comments: 26",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "AI Meets Cryptography 1: What AI Found in Cloudflare's Circl",
-      "link": "https://blog.zksecurity.xyz/posts/circl-bugs/",
-      "pubDate": "2026-07-07T18:36:35.000Z",
-      "description": "Article URL: https://blog.zksecurity.xyz/posts/circl-bugs/ Comments URL: https://news.ycombinator.com/item?id=48821749 Points: 29 # Comments: 1",
+      "title": "LineageOS Statistics",
+      "link": "https://stats.lineageos.org",
+      "pubDate": "2026-07-08T01:27:39.000Z",
+      "description": "Article URL: https://stats.lineageos.org Comments URL: https://news.ycombinator.com/item?id=48826329 Points: 6 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Astro 7.0",
-      "link": "https://astro.build/blog/astro-7/",
-      "pubDate": "2026-07-07T18:30:02.000Z",
-      "description": "Article URL: https://astro.build/blog/astro-7/ Comments URL: https://news.ycombinator.com/item?id=48821653 Points: 101 # Comments: 23",
+      "title": "Show HN: Chiptune Radio",
+      "link": "https://chiptune-radio.alephvoid.com/",
+      "pubDate": "2026-07-08T00:55:19.000Z",
+      "description": "I built a chiptune song generator and its broadcasting algorithmically generated chiptune music. Comments URL: https://news.ycombinator.com/item?id=48826094 Points: 27 # Comments: 4",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Local, CPU-Friendly, High-Quality TTS (Text-to-Speech) with Kokoro",
-      "link": "https://ariya.io/2026/03/local-cpu-friendly-high-quality-tts-text-to-speech-with-kokoro/",
-      "pubDate": "2026-07-07T18:24:10.000Z",
-      "description": "Article URL: https://ariya.io/2026/03/local-cpu-friendly-high-quality-tts-text-to-speech-with-kokoro/ Comments URL: https://news.ycombinator.com/item?id=48821576 Points: 49 # Comments: 12",
+      "title": "Rlm-Workflow",
+      "link": "https://try.works/projects#rlm-workflow",
+      "pubDate": "2026-07-08T00:32:18.000Z",
+      "description": "Article URL: https://try.works/projects#rlm-workflow Comments URL: https://news.ycombinator.com/item?id=48825906 Points: 5 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Show HN: Docx-CLI: agents read/edit Word docs using 1/2 the time and tokens",
-      "link": "https://github.com/kklimuk/docx-cli",
-      "pubDate": "2026-07-07T18:19:00.000Z",
-      "description": "Article URL: https://github.com/kklimuk/docx-cli Comments URL: https://news.ycombinator.com/item?id=48821500 Points: 18 # Comments: 7",
+      "title": "An interactive explorer for Benford's Law across real datasets",
+      "link": "https://vatsalbakshi.com/blog/benfords-law/",
+      "pubDate": "2026-07-08T00:18:39.000Z",
+      "description": "Article URL: https://vatsalbakshi.com/blog/benfords-law/ Comments URL: https://news.ycombinator.com/item?id=48825816 Points: 21 # Comments: 7",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Notes on Software Quality",
-      "link": "https://anthonyhobday.com/blog/20260410",
-      "pubDate": "2026-07-07T18:14:50.000Z",
-      "description": "Article URL: https://anthonyhobday.com/blog/20260410 Comments URL: https://news.ycombinator.com/item?id=48821441 Points: 22 # Comments: 6",
+      "title": "Tenda firmware (multiple versions) contains hidden authentication backdoor",
+      "link": "https://kb.cert.org/vuls/id/213560",
+      "pubDate": "2026-07-08T00:08:51.000Z",
+      "description": "Article URL: https://kb.cert.org/vuls/id/213560 Comments URL: https://news.ycombinator.com/item?id=48825749 Points: 66 # Comments: 12",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "l: A new runtime for k and q",
-      "link": "https://lv1.sh/",
-      "pubDate": "2026-07-07T18:08:29.000Z",
-      "description": "https://lv1.sh/blog/why-l/ Comments URL: https://news.ycombinator.com/item?id=48821378 Points: 40 # Comments: 21",
+      "title": "Structure and Interpretation of Computer Programs Video Lectures (1986)",
+      "link": "https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video_galleries/video-lectures/",
+      "pubDate": "2026-07-07T23:57:29.000Z",
+      "description": "Article URL: https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video_galleries/video-lectures/ Comments URL: https://news.ycombinator.com/item?id=48825664 Points: 57 # Comments: 1",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "China sentences official to death for taking $325M in bribes",
-      "link": "https://www.bbc.com/news/articles/c33y0n1v1xjo",
-      "pubDate": "2026-07-07T16:38:08.000Z",
-      "description": "Article URL: https://www.bbc.com/news/articles/c33y0n1v1xjo Comments URL: https://news.ycombinator.com/item?id=48820220 Points: 173 # Comments: 193",
+      "title": "Show HN: Free Mermaid Diagram Editor",
+      "link": "https://moxiedocs.com/mermaid-diagram-editor",
+      "pubDate": "2026-07-07T23:29:36.000Z",
+      "description": "I've been slowly adding some new free tools to Moxie Docs (partly for SEO, partly to illustrate some of our feature sets before any commitment) for some reason this mermaid editor one blew up on Google rankings so I figured I'd share in case people find it useful! We also have ADR, AGENTS.md, LLMs, ",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Reducing Doom Loops with Final Token Preference Optimization",
-      "link": "https://www.liquid.ai/blog/antidoom",
-      "pubDate": "2026-07-07T16:31:19.000Z",
-      "description": "Article URL: https://www.liquid.ai/blog/antidoom Comments URL: https://news.ycombinator.com/item?id=48820127 Points: 19 # Comments: 4",
+      "title": "Git Hash Chain Malleability",
+      "link": "https://arxiv.org/abs/2607.02820",
+      "pubDate": "2026-07-07T23:21:03.000Z",
+      "description": "Article URL: https://arxiv.org/abs/2607.02820 Comments URL: https://news.ycombinator.com/item?id=48825356 Points: 9 # Comments: 5",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Jim's TrueType QR Code Font",
-      "link": "https://github.com/jimparis/qr-font",
-      "pubDate": "2026-07-07T16:30:42.000Z",
-      "description": "https://qr.jim.sh/ Comments URL: https://news.ycombinator.com/item?id=48820119 Points: 73 # Comments: 6",
+      "title": "GAO: DOE Is Prematurely Excluding Less Expensive Options for Nuclear Cleanup",
+      "link": "https://www.gao.gov/products/gao-26-108193",
+      "pubDate": "2026-07-07T22:23:58.000Z",
+      "description": "Article URL: https://www.gao.gov/products/gao-26-108193 Comments URL: https://news.ycombinator.com/item?id=48824826 Points: 141 # Comments: 56",
       "source": "Hacker News",
       "category": "Tech News"
+    },
+    {
+      "title": "Get Ready For the Powerful CSS border-shape Property!",
+      "link": "https://css-tricks.com/get-ready-for-the-powerful-css-border-shape-property/",
+      "pubDate": "2026-07-07T15:14:00.000Z",
+      "description": "We recently got the shape() function and corner-shape property. What else could we possibly need as far as making shapes in CSS? Let me tell you: the border-shape property! Get Ready For the Powerful CSS border-shape Property! originally handwritten and published with love on CSS-Tricks. You should ",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "What’s !important #14: Gap Decorations, random(), &#060;select&gt; field sizing, and More",
+      "link": "https://css-tricks.com/whats-important-14/",
+      "pubDate": "2026-06-30T13:54:14.000Z",
+      "description": "I know you’re busy, so for What’s !important #14, I’ll be sprinting through what’s been a stacked couple of weeks despite few browser updates. From CSS Quake to CSS Gap Decorations, this isn’t one to miss! What’s !important #14: Gap Decorations, random(), <select> field sizing, and More originally h",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "The Shifting Line Between CSS States and JavaScript Events",
+      "link": "https://css-tricks.com/css-states-and-javascript-events/",
+      "pubDate": "2026-06-29T13:03:32.000Z",
+      "description": "CSS has always had pseudo-classes that style things based on user interactions. Recent features, however, are blurring the line between what CSS \"listens\" for and how they are alternatives to what Javascript typically listens for. The Shifting Line Between CSS States and JavaScript Events originally",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "translateZ()",
+      "link": "https://css-tricks.com/almanac/functions/t/translatez/",
+      "pubDate": "2026-06-25T13:18:56.000Z",
+      "description": "The translateZ() function moves an element closer to or farther from the user. translateZ() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "translateY()",
+      "link": "https://css-tricks.com/almanac/functions/t/translatey/",
+      "pubDate": "2026-06-25T13:17:56.000Z",
+      "description": "The translateY() function shifts an element vertically by the specified amount. translateY() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "translateX()",
+      "link": "https://css-tricks.com/almanac/functions/t/translatex/",
+      "pubDate": "2026-06-25T13:16:01.000Z",
+      "description": "The translateX() function shifts an element horizontally by the specified amount. translateX() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "translate()",
+      "link": "https://css-tricks.com/almanac/functions/t/translate/",
+      "pubDate": "2026-06-25T13:15:05.000Z",
+      "description": "The CSS translate() function shifts an element from its default position on a 2-dimensional plane translate() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Using Scroll-Driven Animations for Opposing Scroll Directions",
+      "link": "https://css-tricks.com/scroll-driven-animations-opposing-scroll-directions/",
+      "pubDate": "2026-06-22T12:39:13.000Z",
+      "description": "Sometimes designers have silly ideas that eventually grow on you. That happened to me with this concept where I had to build columns of items moving in opposite directions when a user scrolls the page. CodePen Embed Fallback Note: This … Using Scroll-Driven Animations for Opposing Scroll Directions ",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "A First Look at Scroll-Triggered Animations",
+      "link": "https://css-tricks.com/css-scroll-triggered-animations-first-look/",
+      "pubDate": "2026-06-19T13:03:17.000Z",
+      "description": "Let's poke at the differences between scroll-driven and scroll-triggered animations. A First Look at Scroll-Triggered Animations originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "The Siren Song of ariaNotify()",
+      "link": "https://css-tricks.com/the-siren-song-of-arianotify/",
+      "pubDate": "2026-06-17T15:32:30.000Z",
+      "description": "There's a brand new ariaNotify() method — defined by the WAI-ARIA 1.3 Specification — that provides a means of programmatically triggering narration in a screen reader. The Siren Song of ariaNotify() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter a",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
       "title": "Meet the HTB Profile: all your skills, in one place",
