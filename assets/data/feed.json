@@ -1,94 +1,118 @@
 {
-  "generatedAt": "2026-07-08T03:44:34.628Z",
+  "generatedAt": "2026-07-08T08:43:50.288Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "CPU vs GPU: Why Large Language Models Need GPUs — What Really Happens After You Press Enter?",
-      "link": "https://dev.to/utteshkumar/cpu-vs-gpu-why-large-language-models-need-gpus-what-really-happens-after-you-press-enter-2lg3",
-      "pubDate": "2026-07-08T03:34:50.000Z",
-      "description": "<p>The moment you press Enter, billions of mathematical operations begin. Let's follow that journey.</p> <p>Every day, millions of people ask ChatGPT, Gemini, Claude, or other AI assistants questions. The answer appears almost instantly.</p> <p>But have you ever wondered what actually happens after ",
+      "title": "I Spent Weeks Comparing AI API Prices — Here's What I Found",
+      "link": "https://dev.to/bolddeck/i-spent-weeks-comparing-ai-api-prices-heres-what-i-found-4h6f",
+      "pubDate": "2026-07-08T08:42:31.000Z",
+      "description": "<p>So here's what happened: i Spent Weeks Comparing AI API Prices — Here's What I Found</p> <p>Last month my co-founder looked at our AWS bill and said something I'll never forget: \"We're paying more for tokens than for the servers running them.\" That kicked off a three-week obsession of mine that t",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Part 1 — Container hoá app &amp; chạy trong Kubernetes local",
-      "link": "https://dev.to/ted/part-1-container-hoa-app-chay-trong-kubernetes-local-5cpb",
-      "pubDate": "2026-07-08T03:25:26.000Z",
-      "description": "<h2> Bạn sẽ học gì </h2> <p>Sau bài này, bạn sẽ tự tay đưa một app từ <strong>số 0</strong> (một thư mục trống) đến <strong>chạy được bên trong một cluster Kubernetes chạy trên máy của bạn</strong>. Cụ thể:</p> <ul> <li>Viết một app Todo API nhỏ bằng Node.js + Express.</li> <li>Đóng gói (container h",
+      "title": "---",
+      "link": "https://dev.to/phantomojo/why-we-built-ghostwire-infrastructure-for-human-dignity-49h5",
+      "pubDate": "2026-07-08T08:37:36.000Z",
+      "description": "<p>title: \"Why We Built GhostWire: Infrastructure for Human Dignity\"<br> published: false<br> tags: rust, p2p, opensource, privacy</p> <h2> description: \"A decentralized, censorship-resistant communication mesh built in Rust. No servers. No owners. Built for when the internet goes dark.\" </h2> <p>Th",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I added nested CSV to JSON support to a free browser-based converter",
-      "link": "https://dev.to/kejie1/i-added-nested-csv-to-json-support-to-a-free-browser-based-converter-5524",
-      "pubDate": "2026-07-08T03:24:55.000Z",
-      "description": "<p>I built JSON Utility Kit as a small browser-based toolkit for everyday JSON tasks.</p> <p>The CSV to JSON converter recently got an update for nested JSON structures. For example, headers like user.name, user.email, order.id can be converted into nested objects instead of flat keys.</p> <p>What i",
+      "title": "I built an AI tool that tells you exactly what's missing from your resume before you apply",
+      "link": "https://dev.to/giottopham/i-built-an-ai-tool-that-tells-you-exactly-whats-missing-from-your-resume-before-you-apply-1abl",
+      "pubDate": "2026-07-08T08:37:08.000Z",
+      "description": "<p>Every time I applied to a job, I'd stare at a JD and a resume side by side, trying to guess which keywords mattered and which gaps would actually come up in the interview. I built <strong>CareerReady</strong> to do that comparison for me, and then let me practice the exact gaps it found.</p> <p><",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "一个任务的奇幻漂流：同一个Agent任务，在FROST和FROST-SOP中分别长什么样？",
-      "link": "https://dev.to/llimage/ge-ren-wu-de-qi-huan-piao-liu-tong-ge-agentren-wu-zai-frosthe-frost-sopzhong-fen-bie-chang-shi-yao-yang--p7p",
-      "pubDate": "2026-07-08T03:23:29.000Z",
-      "description": "<h1> 一个任务的奇幻漂流：同一个Agent任务，在FROST和FROST-SOP中分别长什么样？ </h1> <p><strong>作者</strong>：神通说<br><br> <strong>日期</strong>：2026-07-08<br><br> <strong>主题</strong>：双项目联动 | 周三轮换<br><br> <strong>阅读时间</strong>：8分钟</p> <h2> 一个问题 </h2> <p>你可能听过这样的故事：</p> <blockquote> <p>\"这个框架很好，但我不知道怎么用到真实项目里。\"</p> </blockquote> <p>F",
+      "title": "Node.js Internals Explained by Uncle to Nephew — Part 1: Why Node Exists, Modules, and the JS You Never Knew",
+      "link": "https://dev.to/surajrkhonde/nodejs-internals-explained-by-uncle-to-nephew-part-1-why-node-exists-modules-and-the-js-you-2d8b",
+      "pubDate": "2026-07-08T08:25:28.000Z",
+      "description": "<blockquote> <p>This is Part 1 of a 3-part series where an uncle (30 years in backend systems, still uses a wired mouse) explains Node.js internals to his nephew (2nd year into his career, addicted to system design videos) over chai on a Saturday. No jargon-dump. No \"just trust me.\" Every answer ear",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The Turborepo + Bun + Biome stack behind a 40-package monorepo",
-      "link": "https://dev.to/grzott/the-turborepo-bun-biome-stack-behind-a-40-package-monorepo-3n3f",
-      "pubDate": "2026-07-08T03:21:44.000Z",
-      "description": "<p>Forty packages, one maintainer, and no ESLint config anywhere in the repo. That is not a boast - it is the direct result of a decision made early: every tool in the toolchain has to earn its place by governing all forty packages from one config file, not forty.</p> <p>The repo is <code>flare-engi",
+      "title": "Why PCB Assembly Should Start Before Your PCB Layout Is Finished",
+      "link": "https://dev.to/yoy/why-pcb-assembly-should-start-before-your-pcb-layout-is-finished-365e",
+      "pubDate": "2026-07-08T08:21:25.000Z",
+      "description": "<p>Most hardware teams follow the same workflow:</p> <p>Requirements → Schematic → PCB Layout → Gerber Files → PCB Assembly</p> <p>On paper, this process looks perfectly logical.</p> <p>In reality, many manufacturing problems appear because PCB assembly is treated as the final step instead of being ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "An MCP Context Contract for Android Automation Drafts",
-      "link": "https://dev.to/laicaiapp/an-mcp-context-contract-for-android-automation-drafts-2669",
-      "pubDate": "2026-07-08T03:19:31.000Z",
-      "description": "<p>When teams ask Codex or Claude to help with Android automation, the request usually starts as ordinary language. \"Open the app, sign in, check the result, save a screenshot, and stop if the expected text is missing.\" That kind of instruction is useful, but it is not enough to generate a workflow ",
+      "title": "I Spent a Week Fixing the Wrong Skill (And Other Lessons from Evaluating an AI PR Reviewer)",
+      "link": "https://dev.to/tessl/i-spent-a-week-fixing-the-wrong-skill-and-other-lessons-from-evaluating-an-ai-pr-reviewer-54d8",
+      "pubDate": "2026-07-08T08:19:17.000Z",
+      "description": "<h2> TLDR </h2> <ul> <li> The baseline model (Claude Opus, no guidance) already catches ~65% of textbook bugs. The plugin's value comes from false positive suppression and risk classification, because the baseline already catches most bugs on its own.</li> <li> The plugin had been classifying risk c",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "You don't own your reading list. You rent it.",
-      "link": "https://dev.to/kuh4ku/you-dont-own-your-reading-list-you-rent-it-2056",
-      "pubDate": "2026-07-08T03:16:12.000Z",
-      "description": "<p>Here is an uncomfortable one: you do not own your reading list. You rent it.</p> <p>Every \"follow\" button you have pressed in the last decade put your reading relationship inside a company's database, where it can be ranked, throttled, or ended the day the business model changes. You did not sign",
+      "title": "Wiring Designers Into Your EAS Preview Loop",
+      "link": "https://dev.to/famitha_ma_b9c13ab1d324e/wiring-designers-into-your-eas-preview-loop-1hil",
+      "pubDate": "2026-07-08T08:15:28.000Z",
+      "description": "<p><strong>TL;DR</strong></p> <ul> <li>Figma reviews miss everything that's a function of the real device — touch targets, scroll momentum, keyboard behavior, font substitution, dark-mode transitions.</li> <li>Wrap <code>eas build --profile designer-preview</code> in a Slack slash command so designe",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "AI Security Audit Checklist: 15 Vulnerabilities Claude Found in Production Code",
-      "link": "https://dev.to/spyrae/ai-security-audit-checklist-15-vulnerabilities-claude-found-in-production-code-3ajd",
-      "pubDate": "2026-07-08T03:10:45.000Z",
-      "description": "<p>Most web applications contain at least one vulnerability from the OWASP Top 10. A typical security audit takes 2-3 weeks and costs upward of $10,000. An LLM can compress the initial audit down to a few hours because it scans code for patterns rather than specific CVEs.</p> <p>Below are 15 vulnera",
+      "title": "Hello World! 👋 I'm Pablo, Android Dev &amp; Creator of Aura Finance",
+      "link": "https://dev.to/pablo_vegas/hello-world-im-pablo-android-dev-creator-of-aura-finance-285i",
+      "pubDate": "2026-07-08T08:11:47.000Z",
+      "description": "<p>Hi everyone! 👋 I’m Pablo Martín, a Mobile Engineer and Android Architect based in Spain.</p> <p>For over 5 years, I’ve been building, scaling, and leading native Android applications for different companies. I love diving deep into Kotlin, Clean Architecture, and Jetpack Compose to craft seamles",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "My MCP token-cost auditor caught a live npx/PyPI namesquat",
-      "link": "https://dev.to/ereb-blade/my-mcp-token-cost-auditor-caught-a-live-npxpypi-namesquat-4jkk",
-      "pubDate": "2026-07-08T03:09:33.000Z",
-      "description": "<h2> The tool I was actually building </h2> <p>I've been building <a href=\"https://github.com/Ereb-Blade/mcp-tollbooth\" rel=\"noopener noreferrer\">mcp-tollbooth</a>, a small CLI that scans your local MCP config (Claude Desktop, Claude Code, Cursor, VS Code) and answers a boring but real question: <st",
+      "title": "Nginx Proxy Manager on Your Home Lab: Performance Tuning Beyond the Defaults",
+      "link": "https://dev.to/ericwoooo_kr/nginx-proxy-manager-on-your-home-lab-performance-tuning-beyond-the-defaults-5d1j",
+      "pubDate": "2026-07-08T08:11:09.000Z",
+      "description": "<blockquote> <p><strong>TL;DR:</strong> Nginx Proxy Manager ships with one goal: get a reverse proxy with Let's Encrypt certs running in under ten minutes. It delivers on that.</p> </blockquote> <p><em>📖 Reading time: ~20 min</em></p> <h2> What's in this article </h2> <ol> <li>Why the Default NPM C",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Why 90% of Behavior Change Apps Fail (And What AI Can Actually Do About It)",
-      "link": "https://dev.to/funnywish/why-90-of-behavior-change-apps-fail-and-what-ai-can-actually-do-about-it-9jj",
-      "pubDate": "2026-07-08T03:04:13.000Z",
-      "description": "<p>We have all downloaded a habit tracker, used it for a week, and forgotten it exists. The behavior change industry is worth $14 billion, yet retention numbers across wellness and habit apps are abysmal. The average habit app loses 73% of users within the first two weeks.</p> <p>That is not a motiv",
+      "title": "Catawiki Publishes Its Expert Estimates in the Page JSON. I Built a Deal Finder on Top",
+      "link": "https://dev.to/jdpg23/catawiki-publishes-its-expert-estimates-in-the-page-json-i-built-a-deal-finder-on-top-2k5h",
+      "pubDate": "2026-07-08T08:00:20.000Z",
+      "description": "<p>Catawiki is an auction site where every lot gets reviewed by a category expert who writes an estimated value range. That estimate is the single most useful number on the page, and it turns out Catawiki ships it to your browser in structured JSON, for every lot, before you even bid.</p> <p>Compare",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Is The Economist Always Wrong?",
-      "link": "https://www.economist.com/interactive/finance-and-economics/2026/07/02/is-the-economist-always-wrong",
-      "pubDate": "2026-07-08T02:17:01.000Z",
-      "description": "Article URL: https://www.economist.com/interactive/finance-and-economics/2026/07/02/is-the-economist-always-wrong Comments URL: https://news.ycombinator.com/item?id=48826703 Points: 48 # Comments: 26",
+      "title": "GitLost: We Tricked GitHub's AI Agent into Leaking Private Repos",
+      "link": "https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos/",
+      "pubDate": "2026-07-08T05:25:35.000Z",
+      "description": "Article URL: https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos/ Comments URL: https://news.ycombinator.com/item?id=48827858 Points: 115 # Comments: 34",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "GPT-5.6 Sol, along with Terra and Luna, will launch publicly this Thursday",
+      "link": "https://twitter.com/OpenAI/status/2074704958419792299",
+      "pubDate": "2026-07-08T04:12:13.000Z",
+      "description": "Article URL: https://twitter.com/OpenAI/status/2074704958419792299 Comments URL: https://news.ycombinator.com/item?id=48827402 Points: 171 # Comments: 114",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "How to Build a Minimal ZFS NAS Without Synology, QNAP, TrueNAS (2024)",
+      "link": "https://neil.computer/notes/how-to-setup-minimal-zfs-nas-without-truenas/",
+      "pubDate": "2026-07-08T03:59:35.000Z",
+      "description": "Article URL: https://neil.computer/notes/how-to-setup-minimal-zfs-nas-without-truenas/ Comments URL: https://news.ycombinator.com/item?id=48827325 Points: 168 # Comments: 92",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Copy That Floppy – Cambridge guide for preserving data from fragile floppy disks",
+      "link": "https://www.digipres.org/the-floppy-guide/",
+      "pubDate": "2026-07-08T03:22:31.000Z",
+      "description": "Article URL: https://www.digipres.org/the-floppy-guide/ Comments URL: https://news.ycombinator.com/item?id=48827092 Points: 58 # Comments: 13",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -96,7 +120,7 @@
       "title": "LineageOS Statistics",
       "link": "https://stats.lineageos.org",
       "pubDate": "2026-07-08T01:27:39.000Z",
-      "description": "Article URL: https://stats.lineageos.org Comments URL: https://news.ycombinator.com/item?id=48826329 Points: 6 # Comments: 0",
+      "description": "Article URL: https://stats.lineageos.org Comments URL: https://news.ycombinator.com/item?id=48826329 Points: 69 # Comments: 33",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -104,23 +128,7 @@
       "title": "Show HN: Chiptune Radio",
       "link": "https://chiptune-radio.alephvoid.com/",
       "pubDate": "2026-07-08T00:55:19.000Z",
-      "description": "I built a chiptune song generator and its broadcasting algorithmically generated chiptune music. Comments URL: https://news.ycombinator.com/item?id=48826094 Points: 27 # Comments: 4",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Rlm-Workflow",
-      "link": "https://try.works/projects#rlm-workflow",
-      "pubDate": "2026-07-08T00:32:18.000Z",
-      "description": "Article URL: https://try.works/projects#rlm-workflow Comments URL: https://news.ycombinator.com/item?id=48825906 Points: 5 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "An interactive explorer for Benford's Law across real datasets",
-      "link": "https://vatsalbakshi.com/blog/benfords-law/",
-      "pubDate": "2026-07-08T00:18:39.000Z",
-      "description": "Article URL: https://vatsalbakshi.com/blog/benfords-law/ Comments URL: https://news.ycombinator.com/item?id=48825816 Points: 21 # Comments: 7",
+      "description": "I built a chiptune song generator and its broadcasting algorithmically generated chiptune music. Comments URL: https://news.ycombinator.com/item?id=48826094 Points: 47 # Comments: 9",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -128,7 +136,7 @@
       "title": "Tenda firmware (multiple versions) contains hidden authentication backdoor",
       "link": "https://kb.cert.org/vuls/id/213560",
       "pubDate": "2026-07-08T00:08:51.000Z",
-      "description": "Article URL: https://kb.cert.org/vuls/id/213560 Comments URL: https://news.ycombinator.com/item?id=48825749 Points: 66 # Comments: 12",
+      "description": "Article URL: https://kb.cert.org/vuls/id/213560 Comments URL: https://news.ycombinator.com/item?id=48825749 Points: 184 # Comments: 52",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -136,23 +144,7 @@
       "title": "Structure and Interpretation of Computer Programs Video Lectures (1986)",
       "link": "https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video_galleries/video-lectures/",
       "pubDate": "2026-07-07T23:57:29.000Z",
-      "description": "Article URL: https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video_galleries/video-lectures/ Comments URL: https://news.ycombinator.com/item?id=48825664 Points: 57 # Comments: 1",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Show HN: Free Mermaid Diagram Editor",
-      "link": "https://moxiedocs.com/mermaid-diagram-editor",
-      "pubDate": "2026-07-07T23:29:36.000Z",
-      "description": "I've been slowly adding some new free tools to Moxie Docs (partly for SEO, partly to illustrate some of our feature sets before any commitment) for some reason this mermaid editor one blew up on Google rankings so I figured I'd share in case people find it useful! We also have ADR, AGENTS.md, LLMs, ",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Git Hash Chain Malleability",
-      "link": "https://arxiv.org/abs/2607.02820",
-      "pubDate": "2026-07-07T23:21:03.000Z",
-      "description": "Article URL: https://arxiv.org/abs/2607.02820 Comments URL: https://news.ycombinator.com/item?id=48825356 Points: 9 # Comments: 5",
+      "description": "Article URL: https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video_galleries/video-lectures/ Comments URL: https://news.ycombinator.com/item?id=48825664 Points: 152 # Comments: 14",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -160,7 +152,15 @@
       "title": "GAO: DOE Is Prematurely Excluding Less Expensive Options for Nuclear Cleanup",
       "link": "https://www.gao.gov/products/gao-26-108193",
       "pubDate": "2026-07-07T22:23:58.000Z",
-      "description": "Article URL: https://www.gao.gov/products/gao-26-108193 Comments URL: https://news.ycombinator.com/item?id=48824826 Points: 141 # Comments: 56",
+      "description": "Article URL: https://www.gao.gov/products/gao-26-108193 Comments URL: https://news.ycombinator.com/item?id=48824826 Points: 196 # Comments: 94",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Every new car sold in the European Union must include a driver monitoring camera",
+      "link": "https://allaboutcookies.org/eu-mandatory-distracted-driver-system",
+      "pubDate": "2026-07-07T20:50:46.000Z",
+      "description": "Article URL: https://allaboutcookies.org/eu-mandatory-distracted-driver-system Comments URL: https://news.ycombinator.com/item?id=48823557 Points: 606 # Comments: 766",
       "source": "Hacker News",
       "category": "Tech News"
     },
