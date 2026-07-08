@@ -1,166 +1,166 @@
 {
-  "generatedAt": "2026-07-08T08:43:50.288Z",
+  "generatedAt": "2026-07-08T14:40:51.614Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "I Spent Weeks Comparing AI API Prices — Here's What I Found",
-      "link": "https://dev.to/bolddeck/i-spent-weeks-comparing-ai-api-prices-heres-what-i-found-4h6f",
-      "pubDate": "2026-07-08T08:42:31.000Z",
-      "description": "<p>So here's what happened: i Spent Weeks Comparing AI API Prices — Here's What I Found</p> <p>Last month my co-founder looked at our AWS bill and said something I'll never forget: \"We're paying more for tokens than for the servers running them.\" That kicked off a three-week obsession of mine that t",
+      "title": "ADHD Paralysis: Why You Freeze When There's Too Much to Do (And How to Break Out of It)",
+      "link": "https://dev.to/assindo/adhd-paralysis-why-you-freeze-when-theres-too-much-to-do-and-how-to-break-out-of-it-10mj",
+      "pubDate": "2026-07-08T14:33:45.000Z",
+      "description": "<p>You have twelve things to do. You know what they are. You know they matter. And yet you are sitting on the couch, staring at your phone, feeling the guilt pile up like a physical weight.</p> <p>You are not lazy. You are not broken. You are experiencing ADHD paralysis, one of the most common and l",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "---",
-      "link": "https://dev.to/phantomojo/why-we-built-ghostwire-infrastructure-for-human-dignity-49h5",
-      "pubDate": "2026-07-08T08:37:36.000Z",
-      "description": "<p>title: \"Why We Built GhostWire: Infrastructure for Human Dignity\"<br> published: false<br> tags: rust, p2p, opensource, privacy</p> <h2> description: \"A decentralized, censorship-resistant communication mesh built in Rust. No servers. No owners. Built for when the internet goes dark.\" </h2> <p>Th",
+      "title": "What Breaks MCP Servers in Production (MCP Best Practicies)?",
+      "link": "https://dev.to/michael_rakutko/what-breaks-mcp-servers-in-production-mcp-best-practicies-2d1e",
+      "pubDate": "2026-07-08T14:33:39.000Z",
+      "description": "<p>Our team runs several MCP servers in production. Two of them are remote multi-user servers. The first is an analytics gateway: a semantic layer for company data, where metrics have one standardized definition, one tested way to compute them, and role-based access. Anyone in the company can ask \"w",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I built an AI tool that tells you exactly what's missing from your resume before you apply",
-      "link": "https://dev.to/giottopham/i-built-an-ai-tool-that-tells-you-exactly-whats-missing-from-your-resume-before-you-apply-1abl",
-      "pubDate": "2026-07-08T08:37:08.000Z",
-      "description": "<p>Every time I applied to a job, I'd stare at a JD and a resume side by side, trying to guess which keywords mattered and which gaps would actually come up in the interview. I built <strong>CareerReady</strong> to do that comparison for me, and then let me practice the exact gaps it found.</p> <p><",
+      "title": "Replacing ntpdate with chronyc on Anolis OS for GBase 8a Cluster Time Sync",
+      "link": "https://dev.to/michaelfv/replacing-ntpdate-with-chronyc-on-anolis-os-for-gbase-8a-cluster-time-sync-5g72",
+      "pubDate": "2026-07-08T14:30:00.000Z",
+      "description": "<p>When a <strong>gbase database</strong> cluster deployed on Anolis OS 8.9 is powered off for an extended period, the system clock can drift significantly. Since modern Anolis releases no longer ship <code>ntpdate</code> and cannot install the legacy NTP service, <code>chronyc</code> becomes the go",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Node.js Internals Explained by Uncle to Nephew — Part 1: Why Node Exists, Modules, and the JS You Never Knew",
-      "link": "https://dev.to/surajrkhonde/nodejs-internals-explained-by-uncle-to-nephew-part-1-why-node-exists-modules-and-the-js-you-2d8b",
-      "pubDate": "2026-07-08T08:25:28.000Z",
-      "description": "<blockquote> <p>This is Part 1 of a 3-part series where an uncle (30 years in backend systems, still uses a wired mouse) explains Node.js internals to his nephew (2nd year into his career, addicted to system design videos) over chai on a Saturday. No jargon-dump. No \"just trust me.\" Every answer ear",
+      "title": "The 5 Types of AI Agent Memory Every TypeScript Developer Should Know",
+      "link": "https://dev.to/raju_dandigam/the-5-types-of-ai-agent-memory-every-typescript-developer-should-know-3ggg",
+      "pubDate": "2026-07-08T14:29:26.000Z",
+      "description": "<p>Most developers try to fix AI agents with better prompts.</p> <p>In practice, most agent problems are memory problems.</p> <p>The agent forgets context. It repeats the same mistake. It uses outdated information. It cannot connect past actions to current decisions. Or it behaves inconsistently acr",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Why PCB Assembly Should Start Before Your PCB Layout Is Finished",
-      "link": "https://dev.to/yoy/why-pcb-assembly-should-start-before-your-pcb-layout-is-finished-365e",
-      "pubDate": "2026-07-08T08:21:25.000Z",
-      "description": "<p>Most hardware teams follow the same workflow:</p> <p>Requirements → Schematic → PCB Layout → Gerber Files → PCB Assembly</p> <p>On paper, this process looks perfectly logical.</p> <p>In reality, many manufacturing problems appear because PCB assembly is treated as the final step instead of being ",
+      "title": "The Engineer Who Waits and the Engineer Who Hunts",
+      "link": "https://dev.to/danielholtwrites/the-engineer-who-waits-and-the-engineer-who-hunts-1pal",
+      "pubDate": "2026-07-08T14:22:07.000Z",
+      "description": "<p>I manage two teams. They are structured almost identically — same size, same roles, same tools, same access to leadership, same business domain. They receive the same inputs and operate under the same constraints.</p> <p>One of those teams has a conversation. The other one waits.</p> <p>I have wa",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I Spent a Week Fixing the Wrong Skill (And Other Lessons from Evaluating an AI PR Reviewer)",
-      "link": "https://dev.to/tessl/i-spent-a-week-fixing-the-wrong-skill-and-other-lessons-from-evaluating-an-ai-pr-reviewer-54d8",
-      "pubDate": "2026-07-08T08:19:17.000Z",
-      "description": "<h2> TLDR </h2> <ul> <li> The baseline model (Claude Opus, no guidance) already catches ~65% of textbook bugs. The plugin's value comes from false positive suppression and risk classification, because the baseline already catches most bugs on its own.</li> <li> The plugin had been classifying risk c",
+      "title": "Mail Tracker",
+      "link": "https://dev.to/zanysoft/mail-tracker-1n6k",
+      "pubDate": "2026-07-08T14:20:24.000Z",
+      "description": "<p>MailTracker will hook into all outgoing emails from Laravel and inject a tracking code into it. It will also store the rendered email in the database. There is also an interface to view sent emails.</p> <h2> NOTE: If you are using Laravel 9.x you MUST be on version 9.6.0 or higher. </h2> <h2> Upg",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Wiring Designers Into Your EAS Preview Loop",
-      "link": "https://dev.to/famitha_ma_b9c13ab1d324e/wiring-designers-into-your-eas-preview-loop-1hil",
-      "pubDate": "2026-07-08T08:15:28.000Z",
-      "description": "<p><strong>TL;DR</strong></p> <ul> <li>Figma reviews miss everything that's a function of the real device — touch targets, scroll momentum, keyboard behavior, font substitution, dark-mode transitions.</li> <li>Wrap <code>eas build --profile designer-preview</code> in a Slack slash command so designe",
+      "title": "A single-binary Rust worker that drains WordPress job queues",
+      "link": "https://dev.to/projectflashbuild/a-single-binary-rust-worker-that-drains-wordpress-job-queues-1da0",
+      "pubDate": "2026-07-08T14:16:41.000Z",
+      "description": "<p>WordPress is a fine place to <em>decide</em> that work needs to happen and a terrible place to <em>do</em> heavy work.<br> Everything you run inside a request competes with your visitors; everything you run in WP-Cron competes<br> with luck. When our workflow engine needed to run shell commands, ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Hello World! 👋 I'm Pablo, Android Dev &amp; Creator of Aura Finance",
-      "link": "https://dev.to/pablo_vegas/hello-world-im-pablo-android-dev-creator-of-aura-finance-285i",
-      "pubDate": "2026-07-08T08:11:47.000Z",
-      "description": "<p>Hi everyone! 👋 I’m Pablo Martín, a Mobile Engineer and Android Architect based in Spain.</p> <p>For over 5 years, I’ve been building, scaling, and leading native Android applications for different companies. I love diving deep into Kotlin, Clean Architecture, and Jetpack Compose to craft seamles",
+      "title": "From the Fantasy of Local Models to a Truly Controllable Sports Agent",
+      "link": "https://dev.to/truman_999999999/from-the-fantasy-of-local-models-to-a-truly-controllable-sports-agent-3glo",
+      "pubDate": "2026-07-08T14:14:27.000Z",
+      "description": "<p>Looking back, this project did not begin as a fully designed AI agent project. In fact, I had not even decided from the outset that I wanted to build a sports question-answering system.</p> <p>The original idea was much simpler.</p> <p>At the time, I frequently saw people on X sharing their exper",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Nginx Proxy Manager on Your Home Lab: Performance Tuning Beyond the Defaults",
-      "link": "https://dev.to/ericwoooo_kr/nginx-proxy-manager-on-your-home-lab-performance-tuning-beyond-the-defaults-5d1j",
-      "pubDate": "2026-07-08T08:11:09.000Z",
-      "description": "<blockquote> <p><strong>TL;DR:</strong> Nginx Proxy Manager ships with one goal: get a reverse proxy with Let's Encrypt certs running in under ten minutes. It delivers on that.</p> </blockquote> <p><em>📖 Reading time: ~20 min</em></p> <h2> What's in this article </h2> <ol> <li>Why the Default NPM C",
+      "title": "Bringing GA4 into an MCP server: what it actually takes to make analytics agent-friendly",
+      "link": "https://dev.to/jbobbink/bringing-ga4-into-an-mcp-server-what-it-actually-takes-to-make-analytics-agent-friendly-1609",
+      "pubDate": "2026-07-08T14:12:56.000Z",
+      "description": "<p>I build <a href=\"https://www.gscwizard.com\" rel=\"noopener noreferrer\">GSC Wizard</a>, an SEO analytics tool. A while back I added an MCP (Model Context Protocol) server so people could ask an AI assistant — ChatGPT, Claude, whatever — questions about their own search and analytics data and get re",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Catawiki Publishes Its Expert Estimates in the Page JSON. I Built a Deal Finder on Top",
-      "link": "https://dev.to/jdpg23/catawiki-publishes-its-expert-estimates-in-the-page-json-i-built-a-deal-finder-on-top-2k5h",
-      "pubDate": "2026-07-08T08:00:20.000Z",
-      "description": "<p>Catawiki is an auction site where every lot gets reviewed by a category expert who writes an estimated value range. That estimate is the single most useful number on the page, and it turns out Catawiki ships it to your browser in structured JSON, for every lot, before you even bid.</p> <p>Compare",
+      "title": "AI Without a Backend: The Browser's Built-in AI APIs for Web Developers",
+      "link": "https://dev.to/olivierleplus/ai-without-a-backend-the-browsers-built-in-ai-apis-for-web-developers-2745",
+      "pubDate": "2026-07-08T14:12:29.000Z",
+      "description": "<p>For years, \"adding AI to your web app\" meant the same thing: sign up for an API key, wire up a backend proxy so you don't leak that key to the browser, meter your token usage, handle rate limits, and pray your bill doesn't explode when a feature goes viral. Every summary, every classification, ev",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "Mistral's Robostral Navigate: a state of the art robotics navigation model",
+      "link": "https://mistral.ai/news/robostral-navigate/",
+      "pubDate": "2026-07-08T14:09:17.000Z",
+      "description": "Article URL: https://mistral.ai/news/robostral-navigate/ Comments URL: https://news.ycombinator.com/item?id=48832212 Points: 9 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "US Food and Drug Administration rejects petition to set PFAS limits in food",
+      "link": "https://www.theguardian.com/us-news/2026/jul/08/us-food-and-drug-administration-rejects-petition-to-set-pfas-limits-in-food",
+      "pubDate": "2026-07-08T13:35:59.000Z",
+      "description": "Article URL: https://www.theguardian.com/us-news/2026/jul/08/us-food-and-drug-administration-rejects-petition-to-set-pfas-limits-in-food Comments URL: https://news.ycombinator.com/item?id=48831785 Points: 89 # Comments: 46",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "OpenBSD has a use-after-free allowing local privilege escalation to root",
+      "link": "https://nvd.nist.gov/vuln/detail/cve-2026-57589",
+      "pubDate": "2026-07-08T13:24:52.000Z",
+      "description": "Article URL: https://nvd.nist.gov/vuln/detail/cve-2026-57589 Comments URL: https://news.ycombinator.com/item?id=48831658 Points: 4 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Cloudflare Meerkat - Globally distributed consensus",
+      "link": "https://blog.cloudflare.com/meerkat-introduction/",
+      "pubDate": "2026-07-08T13:18:03.000Z",
+      "description": "Article URL: https://blog.cloudflare.com/meerkat-introduction/ Comments URL: https://news.ycombinator.com/item?id=48831565 Points: 28 # Comments: 3",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Tiny data centre used to heat public swimming pool",
+      "link": "https://www.bbc.com/news/technology-64939558",
+      "pubDate": "2026-07-08T13:10:13.000Z",
+      "description": "Article URL: https://www.bbc.com/news/technology-64939558 Comments URL: https://news.ycombinator.com/item?id=48831499 Points: 55 # Comments: 55",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "The Age of Reading Is Over",
+      "link": "https://www.theatlantic.com/magazine/2026/08/reading-crisis-postliterate-age/687618/",
+      "pubDate": "2026-07-08T12:08:37.000Z",
+      "description": "Article URL: https://www.theatlantic.com/magazine/2026/08/reading-crisis-postliterate-age/687618/ Comments URL: https://news.ycombinator.com/item?id=48830868 Points: 33 # Comments: 27",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Apple to increase spend with Broadcom to produce billions more U.S. chips",
+      "link": "https://www.apple.com/newsroom/2026/07/apple-to-increase-spend-with-broadcom-to-produce-billions-more-us-chips/",
+      "pubDate": "2026-07-08T11:30:56.000Z",
+      "description": "Article URL: https://www.apple.com/newsroom/2026/07/apple-to-increase-spend-with-broadcom-to-produce-billions-more-us-chips/ Comments URL: https://news.ycombinator.com/item?id=48830565 Points: 144 # Comments: 105",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Decoding the obfuscated bash script on a Uniqlo t-shirt",
+      "link": "https://tris.sherliker.net/blog/obfuscated-self-evaluating-bash-script-by-cdn-akamai-being-supplied-to-consumers-via-retail-stores/",
+      "pubDate": "2026-07-08T08:46:06.000Z",
+      "description": "Article URL: https://tris.sherliker.net/blog/obfuscated-self-evaluating-bash-script-by-cdn-akamai-being-supplied-to-consumers-via-retail-stores/ Comments URL: https://news.ycombinator.com/item?id=48829312 Points: 769 # Comments: 143",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Geosql: A Claude/Codex skill for geospatial data",
+      "link": "https://github.com/dekart-xyz/geosql",
+      "pubDate": "2026-07-08T08:37:26.000Z",
+      "description": "Article URL: https://github.com/dekart-xyz/geosql Comments URL: https://news.ycombinator.com/item?id=48829242 Points: 72 # Comments: 10",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "GitLost: We Tricked GitHub's AI Agent into Leaking Private Repos",
       "link": "https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos/",
       "pubDate": "2026-07-08T05:25:35.000Z",
-      "description": "Article URL: https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos/ Comments URL: https://news.ycombinator.com/item?id=48827858 Points: 115 # Comments: 34",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "GPT-5.6 Sol, along with Terra and Luna, will launch publicly this Thursday",
-      "link": "https://twitter.com/OpenAI/status/2074704958419792299",
-      "pubDate": "2026-07-08T04:12:13.000Z",
-      "description": "Article URL: https://twitter.com/OpenAI/status/2074704958419792299 Comments URL: https://news.ycombinator.com/item?id=48827402 Points: 171 # Comments: 114",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "How to Build a Minimal ZFS NAS Without Synology, QNAP, TrueNAS (2024)",
-      "link": "https://neil.computer/notes/how-to-setup-minimal-zfs-nas-without-truenas/",
-      "pubDate": "2026-07-08T03:59:35.000Z",
-      "description": "Article URL: https://neil.computer/notes/how-to-setup-minimal-zfs-nas-without-truenas/ Comments URL: https://news.ycombinator.com/item?id=48827325 Points: 168 # Comments: 92",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Copy That Floppy – Cambridge guide for preserving data from fragile floppy disks",
-      "link": "https://www.digipres.org/the-floppy-guide/",
-      "pubDate": "2026-07-08T03:22:31.000Z",
-      "description": "Article URL: https://www.digipres.org/the-floppy-guide/ Comments URL: https://news.ycombinator.com/item?id=48827092 Points: 58 # Comments: 13",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "LineageOS Statistics",
-      "link": "https://stats.lineageos.org",
-      "pubDate": "2026-07-08T01:27:39.000Z",
-      "description": "Article URL: https://stats.lineageos.org Comments URL: https://news.ycombinator.com/item?id=48826329 Points: 69 # Comments: 33",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Show HN: Chiptune Radio",
-      "link": "https://chiptune-radio.alephvoid.com/",
-      "pubDate": "2026-07-08T00:55:19.000Z",
-      "description": "I built a chiptune song generator and its broadcasting algorithmically generated chiptune music. Comments URL: https://news.ycombinator.com/item?id=48826094 Points: 47 # Comments: 9",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Tenda firmware (multiple versions) contains hidden authentication backdoor",
-      "link": "https://kb.cert.org/vuls/id/213560",
-      "pubDate": "2026-07-08T00:08:51.000Z",
-      "description": "Article URL: https://kb.cert.org/vuls/id/213560 Comments URL: https://news.ycombinator.com/item?id=48825749 Points: 184 # Comments: 52",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Structure and Interpretation of Computer Programs Video Lectures (1986)",
-      "link": "https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video_galleries/video-lectures/",
-      "pubDate": "2026-07-07T23:57:29.000Z",
-      "description": "Article URL: https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video_galleries/video-lectures/ Comments URL: https://news.ycombinator.com/item?id=48825664 Points: 152 # Comments: 14",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "GAO: DOE Is Prematurely Excluding Less Expensive Options for Nuclear Cleanup",
-      "link": "https://www.gao.gov/products/gao-26-108193",
-      "pubDate": "2026-07-07T22:23:58.000Z",
-      "description": "Article URL: https://www.gao.gov/products/gao-26-108193 Comments URL: https://news.ycombinator.com/item?id=48824826 Points: 196 # Comments: 94",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Every new car sold in the European Union must include a driver monitoring camera",
-      "link": "https://allaboutcookies.org/eu-mandatory-distracted-driver-system",
-      "pubDate": "2026-07-07T20:50:46.000Z",
-      "description": "Article URL: https://allaboutcookies.org/eu-mandatory-distracted-driver-system Comments URL: https://news.ycombinator.com/item?id=48823557 Points: 606 # Comments: 766",
+      "description": "Article URL: https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos/ Comments URL: https://news.ycombinator.com/item?id=48827858 Points: 351 # Comments: 141",
       "source": "Hacker News",
       "category": "Tech News"
     },
