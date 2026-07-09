@@ -1,166 +1,166 @@
 {
-  "generatedAt": "2026-07-09T10:02:35.782Z",
+  "generatedAt": "2026-07-09T15:33:48.658Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "Dentro i “pensieri privati” di un LLM: J-Space, Global Workspace e cosa cambia davvero per chi sviluppa",
-      "link": "https://dev.to/frontendfacile/dentro-i-pensieri-privati-di-un-llm-j-space-global-workspace-e-cosa-cambia-davvero-per-chi-5b4m",
-      "pubDate": "2026-07-09T09:58:20.000Z",
-      "description": "<blockquote> <p>Un’area interna che sembra una lavagna di ragionamento: non è coscienza, ma è un indizio forte su come emergono controllo e pianificazione nei transformer.</p> </blockquote> <p>Negli ultimi anni ci siamo abituati a pensare ai modelli linguistici come a enormi “scatole nere”: un promp",
+      "title": "Debugging a Python \"Memory Leak\" That Was Actually a Measurement Bug (ru_maxrss vs VmRSS)",
+      "link": "https://dev.to/flipslidersand/debugging-a-python-memory-leak-that-was-actually-a-measurement-bug-rumaxrss-vs-vmrss-46c1",
+      "pubDate": "2026-07-09T15:24:10.000Z",
+      "description": "<p>I was running a pipeline for building a RAG knowledge base: crawl web articles, split them into chunks, create embeddings, and push them into Qdrant.</p> <p>Then my memory usage logs started looking like this:<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight plaintext\"><co",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Debug the AI API route before you switch models",
-      "link": "https://dev.to/edward_li_71f26791eac62b8/debug-the-ai-api-route-before-you-switch-models-6j1",
-      "pubDate": "2026-07-09T09:55:42.000Z",
-      "description": "<p>When an AI API call fails, the tempting reaction is to switch models or providers.</p> <p>That is often premature.</p> <p>A large share of 401, 429, model_not_found, timeout, and confusing billing issues are not model-quality problems. They are route-evidence problems. The request moved through a",
+      "title": "Docker Compose for Local Development: Complete Setup (2026)",
+      "link": "https://dev.to/stacknotice/docker-compose-for-local-development-complete-setup-2026-2gid",
+      "pubDate": "2026-07-09T15:21:00.000Z",
+      "description": "<p><code>git clone</code> → <code>make dev</code> → working environment with Postgres, Redis, and email testing, same for every developer. That's the goal.</p> <h2> The docker-compose.yml </h2> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight yaml\"><code><span class=\"na\">services</spa",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Deploying a real-time multiplayer game on Railway",
-      "link": "https://dev.to/arjen_/deploying-a-real-time-multiplayer-game-on-railway-2d11",
-      "pubDate": "2026-07-09T09:55:35.000Z",
-      "description": "<p><em>This post contains Railway referral links. If you sign up through one I get a bit of credit.</em></p> <p>I build <a href=\"https://oldlight.io\" rel=\"noopener noreferrer\">Old Light</a>, a real-time strategy game that runs in the browser. Claim stars, grow an economy, send fleets, all while othe",
+      "title": "Go To Do Rust",
+      "link": "https://dev.to/andreimerlescu/go-to-do-rust-1m7c",
+      "pubDate": "2026-07-09T15:15:12.000Z",
+      "description": "<p>In this post, I want to go from step by step what it would look like building a <code>taskr</code> binary in both Go and Rust side by side so you can see conversion conventions and why <strong>Rust</strong> wins in the battle between the <em>gopher</em> and the <em>crab</em>. </p> <h2> Starting P",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Insurance Might Be the Most Underrated AI Agent Wedge in YC 2026",
-      "link": "https://dev.to/eliofbm/insurance-might-be-the-most-underrated-ai-agent-wedge-in-yc-2026-3552",
-      "pubDate": "2026-07-09T09:53:27.000Z",
-      "description": "<p>AI founders love the glamorous agent stories: coding agents, sales agents, AI doctors, AI lawyers. But if you dig through the YC 2026 batch data, one of the more interesting signals is decidedly unglamorous: <strong>insurance</strong>.</p> <p>Out of 477 real-ish company records in the current sna",
+      "title": "Monitor risky agents and keep agent governance current",
+      "link": "https://dev.to/stepbysteptocloud/monitor-risky-agents-and-keep-agent-governance-current-4568",
+      "pubDate": "2026-07-09T15:15:01.000Z",
+      "description": "<p>Agent governance does not finish when inventory, custom security attributes, Conditional Access policies, access packages, and lifecycle workflows are configured. That is only the foundation.</p> <p>The real operating model starts after that.</p> <p>Agents will continue to be created. Sponsors wi",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "San Francisco's Gravity Is Back: 366 of 477 YC 2026 Startups Are in One City",
-      "link": "https://dev.to/eliofbm/san-franciscos-gravity-is-back-366-of-477-yc-2026-startups-are-in-one-city-5ame",
-      "pubDate": "2026-07-09T09:52:58.000Z",
-      "description": "<p>If you could pick only one counterintuitive number from the YC 2026 batches, make it this one: out of 477 real-ish company records, <strong>366 list San Francisco as their location</strong> — roughly 77%.</p> <p>For comparison: New York City has 24. London 10. Boston 7. Los Angeles 4. Fully remot",
+      "title": "Installing GBase 8a Cluster with a Non‑Default SSH Port",
+      "link": "https://dev.to/michaelfv/installing-gbase-8a-cluster-with-a-non-default-ssh-port-293l",
+      "pubDate": "2026-07-09T15:15:00.000Z",
+      "description": "<p>If your Linux servers use a custom SSH port (e.g., 2222 instead of 22), a standard GBase 8a cluster installation will fail because the installer and internal services cannot reach each other. This guide shows you how to configure user‑level SSH settings and the installer's <code>sshPort</code> pa",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "In the age of AI, the most valuable skill is no longer writing answers — it is asking the right questions.",
-      "link": "https://dev.to/kingyou/in-the-age-of-ai-the-most-valuable-skill-is-no-longer-writing-answers-it-is-asking-the-right-10kl",
-      "pubDate": "2026-07-09T09:50:43.000Z",
-      "description": "<p>For a long time, education and work rewarded one thing above all else: the ability to produce correct answers.</p> <p>School exams were built around it. Technical interviews were built around it. Even many engineering jobs were built around it. The person who could respond faster, explain better,",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "What I Learned Building an AI Agent Whose Only Goal Is to Disagree With You",
-      "link": "https://dev.to/casperday11/what-i-learned-building-an-ai-agent-whose-only-goal-is-to-disagree-with-you-16hg",
-      "pubDate": "2026-07-09T09:50:23.000Z",
-      "description": "<p>We just opened the waitlist for Something, and the part that surprised me most while building it wasn't the multi-agent orchestration — it was how hard it is to make an AI actually disagree.</p> <p>Every model we tested defaults to being helpful, which in practice means agreeable. Even when expli",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "You kept Sass for one reason. Native CSS nesting just ended it.",
-      "link": "https://dev.to/parsajiravand/you-kept-sass-for-one-reason-native-css-nesting-just-ended-it-2l1g",
-      "pubDate": "2026-07-09T09:48:41.000Z",
-      "description": "<p>There's a project on every developer's machine that has Sass installed for one reason: <code>&amp;:hover {}</code>. Not <code>@mixin</code>. Not <code>@each</code>. Just the nesting. The variables long since became <code>--custom-properties</code>. The only thing still justifying <code>node_modul",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Why My Angular 21 Upgrade Failed 👀",
-      "link": "https://dev.to/glnurltn/why-my-angular-21-upgrade-failed-mef",
-      "pubDate": "2026-07-09T09:48:39.000Z",
-      "description": "<p>I believe Angular upgrades have become much smoother these days. Most of the time, a simple <code>ng update</code>is enough to move to the latest version.</p> <p>Instead, I spent hours chasing errors that looked completely unrelated to the real problem 😭</p> <p>After upgrading the project to Ang",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Linux compliance checks with Sparrow plugin",
-      "link": "https://dev.to/melezhik/linux-compliance-checks-with-sparrow-plugin-2160",
-      "pubDate": "2026-07-09T09:33:34.000Z",
-      "description": "<p>Sparrow is Raku automation framework comes with useful plugins people can use to automate infrastructure. Scc plugin allows to check Linux essential configuration files for security compliance. Here some examples:</p> <p>Sysctl<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highli",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Why developers are ditching GitHub for Codeberg and self-hosting alternatives",
-      "link": "https://www.howtogeek.com/why-developers-are-ditching-github-for-codeberg-and-self-hosting-alternatives/",
-      "pubDate": "2026-07-09T08:22:52.000Z",
-      "description": "Article URL: https://www.howtogeek.com/why-developers-are-ditching-github-for-codeberg-and-self-hosting-alternatives/ Comments URL: https://news.ycombinator.com/item?id=48842611 Points: 81 # Comments: 48",
+      "title": "Show HN: LastShelf – an emergency map of your family's documents bills& contacts",
+      "link": "https://www.lastshelf.ai/",
+      "pubDate": "2026-07-09T15:13:11.000Z",
+      "description": "After my father was diagnosed with Stage 3 kidney cancer, my family was thrown into a tailspin. Getting second opinions, planning surgery, ensuring insurance coverage, coping with the fear. It was a lot to process.In the middle of dealing with all the medical logistics, I realized none of our family",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "CollectWise (YC F24) Is Hiring",
-      "link": "https://www.ycombinator.com/companies/collectwise/jobs/P646Yw6-founding-account-executive",
-      "pubDate": "2026-07-09T07:00:43.000Z",
-      "description": "Article URL: https://www.ycombinator.com/companies/collectwise/jobs/P646Yw6-founding-account-executive Comments URL: https://news.ycombinator.com/item?id=48841963 Points: 0 # Comments: 0",
+      "title": "Governing AI agents with Microsoft Entra Agent ID and Agent 365",
+      "link": "https://dev.to/stepbysteptocloud/governing-ai-agents-with-microsoft-entra-agent-id-and-agent-365-3a7g",
+      "pubDate": "2026-07-09T15:04:00.000Z",
+      "description": "<p>AI agents are becoming part of the enterprise identity landscape. They can be created across different platforms, access corporate data, call APIs, participate in workflows, and in some cases operate with their own identity.</p> <p>That makes agent governance more than a discovery exercise. It be",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Open-ended delegation froze 8 of 13 people. Here's what unfroze them",
+      "link": "https://dev.to/nomurasan/open-ended-delegation-froze-8-of-13-people-heres-what-unfroze-them-3cle",
+      "pubDate": "2026-07-09T15:01:30.000Z",
+      "description": "<blockquote> <p><strong>TL;DR:</strong> \"Do it however you like\" only helps people who can already picture their first move. To everyone else it reads as fog. That one instruction left 8 of my 13 workshop participants stuck at the ten-minute mark. I added three cheap artifacts (a named default tool,",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "\"Back\" to move forward",
+      "link": "https://dev.to/thallred_/back-to-move-forward-5dag",
+      "pubDate": "2026-07-09T14:58:46.000Z",
+      "description": "<p>Sometimes, it’s essential to return to the beginning to clear your mind. Last month, I took a 15-day vacation, and I really needed to reset my thoughts. Working as a QA requires a great deal of attention to detail and accuracy with specifications, among other things. So, I decided to revisit my o",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "TLS certificates for internal services done right",
+      "link": "https://tuxnet.dev/posts/tls-for-internal-services/",
+      "pubDate": "2026-07-09T14:57:02.000Z",
+      "description": "Article URL: https://tuxnet.dev/posts/tls-for-internal-services/ Comments URL: https://news.ycombinator.com/item?id=48846995 Points: 12 # Comments: 3",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Postgres rewritten in Rust, now passing 100% of the Postgres regression tests",
-      "link": "https://github.com/malisper/pgrust",
-      "pubDate": "2026-07-09T06:18:19.000Z",
-      "description": "Article URL: https://github.com/malisper/pgrust Comments URL: https://news.ycombinator.com/item?id=48841676 Points: 135 # Comments: 171",
+      "title": "lapse: Keep Burst Photos in Order on Google Photos",
+      "link": "https://dev.to/minodisk/lapse-keep-burst-photos-in-order-on-google-photos-249e",
+      "pubDate": "2026-07-09T14:45:37.000Z",
+      "description": "<p>I built <a href=\"https://github.com/minodisk/lapse\" rel=\"noopener noreferrer\">lapse</a>, a small CLI tool that makes the EXIF timestamps of burst-shot JPEGs unique so that Google Photos displays them in the order they were shot.</p> <h2> The problem </h2> <p>When you shoot a burst, many frames la",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Should I quit IT or just live through the burnout?",
+      "link": "https://dev.to/klaudiagrz/should-i-quit-it-or-just-live-through-the-burnout-1gng",
+      "pubDate": "2026-07-09T14:44:40.000Z",
+      "description": "<p>Some of you may have noticed I disappeared a bit from the community over the last couple of weeks. Well, first of all, I've been on holiday. I was travelling through Iceland, admiring its breathtaking landscapes, enjoying nature (I saw whales, reindeer, and puffins!), trying local food, and bathi",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Show HN: Analog Watch",
+      "link": "https://analog.watch",
+      "pubDate": "2026-07-09T14:30:54.000Z",
+      "description": "Article URL: https://analog.watch Comments URL: https://news.ycombinator.com/item?id=48846510 Points: 21 # Comments: 20",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "How Donkey Kong Toppled Atari",
-      "link": "https://dfarq.homeip.net/how-donkey-kong-toppled-atari/",
-      "pubDate": "2026-07-09T05:34:44.000Z",
-      "description": "Article URL: https://dfarq.homeip.net/how-donkey-kong-toppled-atari/ Comments URL: https://news.ycombinator.com/item?id=48841385 Points: 18 # Comments: 4",
+      "title": "New open access book on history of computers and politics",
+      "link": "https://mitpress.mit.edu/9780262053198/simpolitics/",
+      "pubDate": "2026-07-09T14:20:14.000Z",
+      "description": "Article URL: https://mitpress.mit.edu/9780262053198/simpolitics/ Comments URL: https://news.ycombinator.com/item?id=48846332 Points: 8 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Spider venom kills varroa mites without harming honeybees",
-      "link": "https://connectsci.au/news/news-parent/9703/Spider-venom-kills-varroa-mites-without-harming",
-      "pubDate": "2026-07-09T05:14:45.000Z",
-      "description": "Article URL: https://connectsci.au/news/news-parent/9703/Spider-venom-kills-varroa-mites-without-harming Comments URL: https://news.ycombinator.com/item?id=48841259 Points: 121 # Comments: 49",
+      "title": "PostHog Open Sourced",
+      "link": "https://github.com/PostHog/posthog-foss",
+      "pubDate": "2026-07-09T14:17:40.000Z",
+      "description": "Article URL: https://github.com/PostHog/posthog-foss Comments URL: https://news.ycombinator.com/item?id=48846293 Points: 39 # Comments: 16",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Remote Attestation",
-      "link": "https://www.liamcvw.com/p/remote-attestation",
-      "pubDate": "2026-07-09T00:32:33.000Z",
-      "description": "Article URL: https://www.liamcvw.com/p/remote-attestation Comments URL: https://news.ycombinator.com/item?id=48839397 Points: 95 # Comments: 81",
+      "title": "No leap second will be introduced at the end of December 2026",
+      "link": "https://datacenter.iers.org/data/latestVersion/bulletinC.txt",
+      "pubDate": "2026-07-09T14:16:34.000Z",
+      "description": "Article URL: https://datacenter.iers.org/data/latestVersion/bulletinC.txt Comments URL: https://news.ycombinator.com/item?id=48846281 Points: 75 # Comments: 48",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "MIRA: Multiplayer Interactive World Models Trained on Rocket League",
-      "link": "https://mira-wm.com/",
-      "pubDate": "2026-07-09T00:27:57.000Z",
-      "description": "https://mira-wm.com/blog-post/ Comments URL: https://news.ycombinator.com/item?id=48839355 Points: 78 # Comments: 14",
+      "title": "Maxwell's Equations Were Discovered [video]",
+      "link": "https://www.youtube.com/watch?v=-hua8RWopfw",
+      "pubDate": "2026-07-09T14:16:17.000Z",
+      "description": "Article URL: https://www.youtube.com/watch?v=-hua8RWopfw Comments URL: https://news.ycombinator.com/item?id=48846276 Points: 9 # Comments: 2",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "John Deere owners will get the right to repair equipment under FTC settlement",
-      "link": "https://apnews.com/article/john-deere-right-to-repair-agriculture-equipment-cb7514ffedb95c130a976af661f2bc02",
-      "pubDate": "2026-07-08T23:37:43.000Z",
-      "description": "Article URL: https://apnews.com/article/john-deere-right-to-repair-agriculture-equipment-cb7514ffedb95c130a976af661f2bc02 Comments URL: https://news.ycombinator.com/item?id=48838876 Points: 830 # Comments: 154",
+      "title": "Transparency efforts behind the Helium Browser",
+      "link": "https://helium.computer/blog/transparency",
+      "pubDate": "2026-07-09T14:11:56.000Z",
+      "description": "Article URL: https://helium.computer/blog/transparency Comments URL: https://news.ycombinator.com/item?id=48846205 Points: 12 # Comments: 4",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Rewriting Bun in Rust",
-      "link": "https://bun.com/blog/bun-in-rust",
-      "pubDate": "2026-07-08T21:49:59.000Z",
-      "description": "Article URL: https://bun.com/blog/bun-in-rust Comments URL: https://news.ycombinator.com/item?id=48837877 Points: 592 # Comments: 334",
+      "title": "Introducing Muse Spark 1.1",
+      "link": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/?_fb_noscript=1",
+      "pubDate": "2026-07-09T14:10:22.000Z",
+      "description": "Article URL: https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/?_fb_noscript=1 Comments URL: https://news.ycombinator.com/item?id=48846184 Points: 110 # Comments: 65",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Benchmarking coding agents on Databricks' multi-million line codebase",
-      "link": "https://www.databricks.com/blog/benchmarking-coding-agents-databricks-multi-million-line-codebase",
-      "pubDate": "2026-07-08T21:30:09.000Z",
-      "description": "Article URL: https://www.databricks.com/blog/benchmarking-coding-agents-databricks-multi-million-line-codebase Comments URL: https://news.ycombinator.com/item?id=48837696 Points: 88 # Comments: 33",
+      "title": "A new way to reflect on how you use Claude",
+      "link": "https://www.anthropic.com/news/reflect-with-claude",
+      "pubDate": "2026-07-09T13:30:33.000Z",
+      "description": "Article URL: https://www.anthropic.com/news/reflect-with-claude Comments URL: https://news.ycombinator.com/item?id=48845526 Points: 31 # Comments: 25",
       "source": "Hacker News",
       "category": "Tech News"
     },
