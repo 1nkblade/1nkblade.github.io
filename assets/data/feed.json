@@ -1,166 +1,166 @@
 {
-  "generatedAt": "2026-07-09T15:33:48.658Z",
+  "generatedAt": "2026-07-09T20:04:10.761Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "Debugging a Python \"Memory Leak\" That Was Actually a Measurement Bug (ru_maxrss vs VmRSS)",
-      "link": "https://dev.to/flipslidersand/debugging-a-python-memory-leak-that-was-actually-a-measurement-bug-rumaxrss-vs-vmrss-46c1",
-      "pubDate": "2026-07-09T15:24:10.000Z",
-      "description": "<p>I was running a pipeline for building a RAG knowledge base: crawl web articles, split them into chunks, create embeddings, and push them into Qdrant.</p> <p>Then my memory usage logs started looking like this:<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight plaintext\"><co",
+      "title": "Tombstone v1.3-v1.4: Resilience Was the Easy Layer",
+      "link": "https://dev.to/sai_ram_0000/tombstone-v13-v14-resilience-was-the-easy-layer-370e",
+      "pubDate": "2026-07-09T19:57:31.000Z",
+      "description": "<p>I removed four <code>|| true</code> statements from a GitHub Actions workflow on July 9th and watched CI go red in four different ways within the same run. Not one failure. Four — a Python pytest install that had never actually finished, a ruff lint violation nobody had looked at, a Ruby require ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Docker Compose for Local Development: Complete Setup (2026)",
-      "link": "https://dev.to/stacknotice/docker-compose-for-local-development-complete-setup-2026-2gid",
-      "pubDate": "2026-07-09T15:21:00.000Z",
-      "description": "<p><code>git clone</code> → <code>make dev</code> → working environment with Postgres, Redis, and email testing, same for every developer. That's the goal.</p> <h2> The docker-compose.yml </h2> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight yaml\"><code><span class=\"na\">services</spa",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Go To Do Rust",
-      "link": "https://dev.to/andreimerlescu/go-to-do-rust-1m7c",
-      "pubDate": "2026-07-09T15:15:12.000Z",
-      "description": "<p>In this post, I want to go from step by step what it would look like building a <code>taskr</code> binary in both Go and Rust side by side so you can see conversion conventions and why <strong>Rust</strong> wins in the battle between the <em>gopher</em> and the <em>crab</em>. </p> <h2> Starting P",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Monitor risky agents and keep agent governance current",
-      "link": "https://dev.to/stepbysteptocloud/monitor-risky-agents-and-keep-agent-governance-current-4568",
-      "pubDate": "2026-07-09T15:15:01.000Z",
-      "description": "<p>Agent governance does not finish when inventory, custom security attributes, Conditional Access policies, access packages, and lifecycle workflows are configured. That is only the foundation.</p> <p>The real operating model starts after that.</p> <p>Agents will continue to be created. Sponsors wi",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Installing GBase 8a Cluster with a Non‑Default SSH Port",
-      "link": "https://dev.to/michaelfv/installing-gbase-8a-cluster-with-a-non-default-ssh-port-293l",
-      "pubDate": "2026-07-09T15:15:00.000Z",
-      "description": "<p>If your Linux servers use a custom SSH port (e.g., 2222 instead of 22), a standard GBase 8a cluster installation will fail because the installer and internal services cannot reach each other. This guide shows you how to configure user‑level SSH settings and the installer's <code>sshPort</code> pa",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Show HN: LastShelf – an emergency map of your family's documents bills& contacts",
-      "link": "https://www.lastshelf.ai/",
-      "pubDate": "2026-07-09T15:13:11.000Z",
-      "description": "After my father was diagnosed with Stage 3 kidney cancer, my family was thrown into a tailspin. Getting second opinions, planning surgery, ensuring insurance coverage, coping with the fear. It was a lot to process.In the middle of dealing with all the medical logistics, I realized none of our family",
+      "title": "Don't Get Sick in America",
+      "link": "https://blogography.com/archives/2026/07/dont-get-sick-in-america.html",
+      "pubDate": "2026-07-09T19:45:19.000Z",
+      "description": "Article URL: https://blogography.com/archives/2026/07/dont-get-sick-in-america.html Comments URL: https://news.ycombinator.com/item?id=48851430 Points: 9 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Governing AI agents with Microsoft Entra Agent ID and Agent 365",
-      "link": "https://dev.to/stepbysteptocloud/governing-ai-agents-with-microsoft-entra-agent-id-and-agent-365-3a7g",
-      "pubDate": "2026-07-09T15:04:00.000Z",
-      "description": "<p>AI agents are becoming part of the enterprise identity landscape. They can be created across different platforms, access corporate data, call APIs, participate in workflows, and in some cases operate with their own identity.</p> <p>That makes agent governance more than a discovery exercise. It be",
+      "title": "trelix v1.0 to v2.7: When \"It Works\" Meets \"It Scales\"",
+      "link": "https://dev.to/sai_ram_0000/trelix-v10-to-v27-when-it-works-meets-it-scales-2f25",
+      "pubDate": "2026-07-09T19:39:19.000Z",
+      "description": "<p>Twelve days after I shipped trelix v1.0.0, I was staring at a <code>RetrievalConfig</code> object with two conflicting sets of values and no idea which one was actually running. I'd built <code>AdaptiveRouter</code> to accept a <code>retrieval_config</code> parameter so callers could override the",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Open-ended delegation froze 8 of 13 people. Here's what unfroze them",
-      "link": "https://dev.to/nomurasan/open-ended-delegation-froze-8-of-13-people-heres-what-unfroze-them-3cle",
-      "pubDate": "2026-07-09T15:01:30.000Z",
-      "description": "<blockquote> <p><strong>TL;DR:</strong> \"Do it however you like\" only helps people who can already picture their first move. To everyone else it reads as fog. That one instruction left 8 of my 13 workshop participants stuck at the ten-minute mark. I added three cheap artifacts (a named default tool,",
+      "title": "Puppetlabs Modules Roundup – June 2026",
+      "link": "https://dev.to/puppet/puppetlabs-modules-roundup-june-2026-23da",
+      "pubDate": "2026-07-09T19:38:46.000Z",
+      "description": "<p>In June 2026 we saw the release of a new <code>stdlib 10</code> that was mentioned <a href=\"https://dev.to/puppet/what-you-need-to-know-about-the-new-puppetlabs-stdlib-10-in-june-2026-1jah\">in an earlier article</a> along with numerous modules bumped to use the new stdlib 10. In total, 24 Puppetl",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "\"Back\" to move forward",
-      "link": "https://dev.to/thallred_/back-to-move-forward-5dag",
-      "pubDate": "2026-07-09T14:58:46.000Z",
-      "description": "<p>Sometimes, it’s essential to return to the beginning to clear your mind. Last month, I took a 15-day vacation, and I really needed to reset my thoughts. Working as a QA requires a great deal of attention to detail and accuracy with specifications, among other things. So, I decided to revisit my o",
+      "title": "iOS Location Spoofer: The Pros and Cons of Non-Jailbroken GPS Manipulation",
+      "link": "https://dev.to/dd8888/ios-location-spoofer-the-pros-and-cons-of-non-jailbroken-gps-manipulation-2ndo",
+      "pubDate": "2026-07-09T19:38:33.000Z",
+      "description": "<p>The introduction of the iOS Location Spoofer, a standalone app capable of altering GPS locations on non-jailbroken iOS devices, has stirred conversations among developers and tech enthusiasts. With a GitHub repository boasting 1,848 stars, this JavaScript-based app integrates various modules such",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "TLS certificates for internal services done right",
-      "link": "https://tuxnet.dev/posts/tls-for-internal-services/",
-      "pubDate": "2026-07-09T14:57:02.000Z",
-      "description": "Article URL: https://tuxnet.dev/posts/tls-for-internal-services/ Comments URL: https://news.ycombinator.com/item?id=48846995 Points: 12 # Comments: 3",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "lapse: Keep Burst Photos in Order on Google Photos",
-      "link": "https://dev.to/minodisk/lapse-keep-burst-photos-in-order-on-google-photos-249e",
-      "pubDate": "2026-07-09T14:45:37.000Z",
-      "description": "<p>I built <a href=\"https://github.com/minodisk/lapse\" rel=\"noopener noreferrer\">lapse</a>, a small CLI tool that makes the EXIF timestamps of burst-shot JPEGs unique so that Google Photos displays them in the order they were shot.</p> <h2> The problem </h2> <p>When you shoot a burst, many frames la",
+      "title": "Forget the $5,000 Bootcamp: The Definitive, Open-Source AI &amp; Data Engineering Syllabus for 2026",
+      "link": "https://dev.to/shweta_mishra_b3c97874de9/forget-the-5000-bootcamp-the-definitive-open-source-ai-data-engineering-syllabus-for-2026-c98",
+      "pubDate": "2026-07-09T19:38:22.000Z",
+      "description": "<p>The tech landscape is moving too fast for traditional academia. By 2026, the traditional divide between \"technical execution\" and \"non-technical strategy\" has completely collapsed. AI models have commoditized basic code syntax, simple data entry, and cookie-cutter UI generation.<br> If your core ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Should I quit IT or just live through the burnout?",
-      "link": "https://dev.to/klaudiagrz/should-i-quit-it-or-just-live-through-the-burnout-1gng",
-      "pubDate": "2026-07-09T14:44:40.000Z",
-      "description": "<p>Some of you may have noticed I disappeared a bit from the community over the last couple of weeks. Well, first of all, I've been on holiday. I was travelling through Iceland, admiring its breathtaking landscapes, enjoying nature (I saw whales, reindeer, and puffins!), trying local food, and bathi",
+      "title": "Why Every AI Agent Eventually Becomes an Operating System",
+      "link": "https://dev.to/truehannan/why-every-ai-agent-eventually-becomes-an-operating-system-ljo",
+      "pubDate": "2026-07-09T19:36:24.000Z",
+      "description": "<h2> Every AI Agent Eventually Becomes an Operating System </h2> <p>When I first started building AI agents, I thought the hard part would be making the model intelligent.</p> <p>I was wrong.</p> <p>The intelligence was the easiest part.</p> <p>The real challenge appeared the moment the agent needed",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Show HN: Analog Watch",
-      "link": "https://analog.watch",
-      "pubDate": "2026-07-09T14:30:54.000Z",
-      "description": "Article URL: https://analog.watch Comments URL: https://news.ycombinator.com/item?id=48846510 Points: 21 # Comments: 20",
+      "title": "Understanding cPanel SMTP Restrictions: Security, External SMTP, and the Trade-Offs",
+      "link": "https://dev.to/mshannaq/understanding-cpanel-smtp-restrictions-security-external-smtp-and-the-trade-offs-2n29",
+      "pubDate": "2026-07-09T19:31:52.000Z",
+      "description": "<p>A cPanel setting called:</p> <blockquote> <p><strong>Restrict outgoing SMTP to root, exim, and mailman (FKA SMTP Tweak)</strong></p> </blockquote> <p>looks simple.</p> <p>You either enable it or disable it.</p> <p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "5 AI Agent Mistakes That Can Destroy Your Production Database (And How to Fix Them)",
+      "link": "https://dev.to/prit_indiangamer_1dfa3c5/5-ai-agent-mistakes-that-can-destroy-your-production-database-and-how-to-fix-them-19o7",
+      "pubDate": "2026-07-09T19:23:33.000Z",
+      "description": "<p>\"Hey AI, clean up the database.\"</p> <p>Seconds later: <code>DROP TABLE users;</code></p> <p>Sound familiar? If you are using AI agents like Cursor, Claude, or GitHub Copilot in your workflow, this nightmare is one careless prompt away.</p> <p>After building <a href=\"https://mcp-shield.vercel.app",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Codex is now ChatGPT Codex.",
+      "link": "https://dev.to/alexgetmancom/codex-is-now-chatgpt-codex-kjb",
+      "pubDate": "2026-07-09T19:17:46.000Z",
+      "description": "<p>Codex is now ChatGPT Codex.</p> <p>That’s the right move: Codex made sense as a standalone name for developers, but for everyone else it only added another layer. People already know and use ChatGPT, and then there was this separate Codex thing that was also from OpenAI but somehow lived on its o",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "I built a security scanner, never shipped it, and finally finished the job",
+      "link": "https://dev.to/thisissecurl/i-built-a-security-scanner-never-shipped-it-and-finally-finished-the-job-ipl",
+      "pubDate": "2026-07-09T19:14:20.000Z",
+      "description": "<p>I built SecURL about six months ago during a stretch of evenings where I kept hitting the same frustration: running a security scan on a site and getting back either a wall of jargon or a narrow result that only checked one thing. securityheaders.com checks headers. SSL Labs checks TLS. Mozilla O",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "GLM 5.2 is nearly as accurate as a human book keeper",
+      "link": "https://toot-books.pages.dev/blog/glm-5-2-vat-benchmark",
+      "pubDate": "2026-07-09T18:29:41.000Z",
+      "description": "Article URL: https://toot-books.pages.dev/blog/glm-5-2-vat-benchmark Comments URL: https://news.ycombinator.com/item?id=48850414 Points: 73 # Comments: 34",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "New open access book on history of computers and politics",
-      "link": "https://mitpress.mit.edu/9780262053198/simpolitics/",
-      "pubDate": "2026-07-09T14:20:14.000Z",
-      "description": "Article URL: https://mitpress.mit.edu/9780262053198/simpolitics/ Comments URL: https://news.ycombinator.com/item?id=48846332 Points: 8 # Comments: 0",
+      "title": "How to Start a Ruby Meetup",
+      "link": "https://guides.rubyevents.org/meetups/",
+      "pubDate": "2026-07-09T18:27:06.000Z",
+      "description": "Article URL: https://guides.rubyevents.org/meetups/ Comments URL: https://news.ycombinator.com/item?id=48850372 Points: 22 # Comments: 4",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "PostHog Open Sourced",
-      "link": "https://github.com/PostHog/posthog-foss",
-      "pubDate": "2026-07-09T14:17:40.000Z",
-      "description": "Article URL: https://github.com/PostHog/posthog-foss Comments URL: https://news.ycombinator.com/item?id=48846293 Points: 39 # Comments: 16",
+      "title": "How should group chats work in decentralized systems?",
+      "link": "https://marindedic.com/groups/",
+      "pubDate": "2026-07-09T17:15:47.000Z",
+      "description": "Article URL: https://marindedic.com/groups/ Comments URL: https://news.ycombinator.com/item?id=48849258 Points: 30 # Comments: 17",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "No leap second will be introduced at the end of December 2026",
-      "link": "https://datacenter.iers.org/data/latestVersion/bulletinC.txt",
-      "pubDate": "2026-07-09T14:16:34.000Z",
-      "description": "Article URL: https://datacenter.iers.org/data/latestVersion/bulletinC.txt Comments URL: https://news.ycombinator.com/item?id=48846281 Points: 75 # Comments: 48",
+      "title": "GPT-5.6",
+      "link": "https://openai.com/index/gpt-5-6/",
+      "pubDate": "2026-07-09T17:04:14.000Z",
+      "description": "https://deploymentsafety.openai.com/gpt-5-6/gpt-5-6.pdfhttps://developers.openai.com/api/docs/guides/latest-model Comments URL: https://news.ycombinator.com/item?id=48849066 Points: 672 # Comments: 461",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Maxwell's Equations Were Discovered [video]",
-      "link": "https://www.youtube.com/watch?v=-hua8RWopfw",
-      "pubDate": "2026-07-09T14:16:17.000Z",
-      "description": "Article URL: https://www.youtube.com/watch?v=-hua8RWopfw Comments URL: https://news.ycombinator.com/item?id=48846276 Points: 9 # Comments: 2",
+      "title": "ChatGPT Work",
+      "link": "https://openai.com/index/chatgpt-for-your-most-ambitious-work/",
+      "pubDate": "2026-07-09T17:03:53.000Z",
+      "description": "Article URL: https://openai.com/index/chatgpt-for-your-most-ambitious-work/ Comments URL: https://news.ycombinator.com/item?id=48849059 Points: 247 # Comments: 105",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Transparency efforts behind the Helium Browser",
-      "link": "https://helium.computer/blog/transparency",
-      "pubDate": "2026-07-09T14:11:56.000Z",
-      "description": "Article URL: https://helium.computer/blog/transparency Comments URL: https://news.ycombinator.com/item?id=48846205 Points: 12 # Comments: 4",
+      "title": "Wildcard (YC W25) Is Hiring a Founding Engineer",
+      "link": "https://www.ycombinator.com/companies/wildcard/jobs/ZSLVaaU-founding-engineer",
+      "pubDate": "2026-07-09T17:00:37.000Z",
+      "description": "Article URL: https://www.ycombinator.com/companies/wildcard/jobs/ZSLVaaU-founding-engineer Comments URL: https://news.ycombinator.com/item?id=48849011 Points: 0 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Introducing Muse Spark 1.1",
-      "link": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/?_fb_noscript=1",
-      "pubDate": "2026-07-09T14:10:22.000Z",
-      "description": "Article URL: https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/?_fb_noscript=1 Comments URL: https://news.ycombinator.com/item?id=48846184 Points: 110 # Comments: 65",
+      "title": "Show HN: Devthropology – Better Insights for GitHub Repos",
+      "link": "https://devthropology.com/demo",
+      "pubDate": "2026-07-09T16:47:53.000Z",
+      "description": "Devthropology is a passion project built on top of GitHub pull data. The name is a play on developer anthropology. Pull request data can be cut a lot of ways. The functionality has been built out of curiosity as I want to see different insights into codebases that I work on. Some of the data is typi",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "A new way to reflect on how you use Claude",
-      "link": "https://www.anthropic.com/news/reflect-with-claude",
-      "pubDate": "2026-07-09T13:30:33.000Z",
-      "description": "Article URL: https://www.anthropic.com/news/reflect-with-claude Comments URL: https://news.ycombinator.com/item?id=48845526 Points: 31 # Comments: 25",
+      "title": "Launch HN: Context.dev (YC S26) – API to get structured data from any website",
+      "link": "https://www.context.dev",
+      "pubDate": "2026-07-09T15:28:39.000Z",
+      "description": "Hi Hacker News, I’m Yahia. I built Context.dev (https://www.context.dev/) to make it really easy to integrate web data into your products and agents.Here’s a demo video: https://www.tella.tv/video/build-faster-with-context-dev-api...Since it’s an API, here are the docs: https://docs.context.dev/quic",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Hy3",
+      "link": "https://hy.tencent.com/research/hy3",
+      "pubDate": "2026-07-09T15:27:48.000Z",
+      "description": "Article URL: https://hy.tencent.com/research/hy3 Comments URL: https://news.ycombinator.com/item?id=48847552 Points: 230 # Comments: 62",
       "source": "Hacker News",
       "category": "Tech News"
     },
