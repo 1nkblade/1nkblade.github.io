@@ -1,94 +1,102 @@
 {
-  "generatedAt": "2026-07-10T04:14:54.342Z",
+  "generatedAt": "2026-07-10T09:53:02.986Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "Best AI Agent Governance Tools in 2026: A Layer-by-Layer Guide",
-      "link": "https://dev.to/anantdhavale1/best-ai-agent-governance-tools-in-2026-a-layer-by-layer-guide-dp3",
-      "pubDate": "2026-07-10T03:58:37.000Z",
-      "description": "<p>The best AI agent governance tool for a given team depends on which layer of the problem they need to control: agent identity, runtime action validation, model-level guardrails, observability, or platform posture. No single product covers all five well, and most bad purchases in this category com",
+      "title": "How Reddit Stores Comment Trees and Ranks Hot Posts",
+      "link": "https://dev.to/roni_das_b1b76c5ee6583027/how-reddit-stores-comment-trees-and-ranks-hot-posts-1n0a",
+      "pubDate": "2026-07-10T09:36:53.000Z",
+      "description": "<p>Reddit looks simple and hides two genuinely hard problems. Comments nest arbitrarily deep, and a naive tree structure makes loading a busy thread slow. The front page reorders itself constantly, so ranking cannot just count votes or old posts would never leave. Both problems have well-known answe",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The First Microprocessor Was the Intel 4004",
-      "link": "https://dev.to/fluidwire/the-first-microprocessor-was-the-intel-4004-3lk1",
-      "pubDate": "2026-07-10T03:50:37.000Z",
-      "description": "<p>Every connected device you build today, from an ESP32 blinking on a breadboard to an industrial gateway pushing sensor data to the cloud, is a descendant of one small chip released in 1971: the <strong>Intel 4004</strong>. It was the first commercially available microprocessor, and it proved a ra",
+      "title": "How Elasticsearch Searches Fast: The Inverted Index and Shard Routing",
+      "link": "https://dev.to/roni_das_b1b76c5ee6583027/how-elasticsearch-searches-fast-the-inverted-index-and-shard-routing-50dm",
+      "pubDate": "2026-07-10T09:36:49.000Z",
+      "description": "<p>Searching billions of documents for a phrase and getting ranked results in tens of milliseconds looks like magic. It is not. It comes down to two ideas working together: an index that maps words to documents instead of scanning documents for words, and a way to spread that index across machines s",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "What I learned building an AI video background changer",
-      "link": "https://dev.to/andy_tu/what-i-learned-building-an-ai-video-background-changer-1od8",
-      "pubDate": "2026-07-10T03:45:39.000Z",
-      "description": "<p>Hey DEV community,</p> <p>I recently launched <a href=\"https://bgchanger.video\" rel=\"noopener noreferrer\">bgchanger.video</a>, an AI video background changer for removing or replacing video backgrounds directly in the browser.</p> <p>The idea is simple: many creators, indie hackers, marketers, an",
+      "title": "Why Cursor Keeps Writing Prototype Pollution Into Your Merge Code",
+      "link": "https://dev.to/c_k_fb750e731394/why-cursor-keeps-writing-prototype-pollution-into-your-merge-code-291a",
+      "pubDate": "2026-07-10T09:36:02.000Z",
+      "description": "<h2> TL;DR </h2> <ul> <li>AI editors love writing recursive merge helpers, and most of them are open to prototype pollution.</li> <li>One crafted JSON payload with a <strong>proto</strong> key can flip an isAdmin flag on every object in your app.</li> <li>Guard the keys or merge into a structure tha",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "AI Agent Runtime Policy: Stop Dangerous Tool Calls Before They Execute",
-      "link": "https://dev.to/jackm-singularity/ai-agent-runtime-policy-stop-dangerous-tool-calls-before-they-execute-4hp4",
-      "pubDate": "2026-07-10T03:38:17.000Z",
-      "description": "<p>An AI agent does not need to be malicious to damage production. It only needs the wrong tool, the wrong database, the wrong customer ID, or one confident step that nobody checked.</p> <p>That is the uncomfortable part of building agentic features: prompts can suggest safe behavior, but they do no",
+      "title": "BDE Score™: Open-Source Multi-Factor Stock Analysis Tool Covering US, HK &amp; A-Share Markets",
+      "link": "https://dev.to/hbhqq9/bde-score-open-source-multi-factor-stock-analysis-tool-covering-us-hk-a-share-markets-2p2j",
+      "pubDate": "2026-07-10T09:35:59.000Z",
+      "description": "<h1> BDE Score™ — Open-Source Multi-Factor Stock Analysis </h1> <p>One number. 0-100. Every stock. A composite score combining 5 dimensions: Momentum (30%), Volatility (25%), Volume (20%), Trend (15%), Risk (10%).</p> <p><strong>Coverage</strong>: 74 stocks across US (25), Hong Kong (26), and A-Shar",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "A No-Downgrade Self-Test for GLM-5.2 Coding Routes",
-      "link": "https://dev.to/zephyrelabs369/a-no-downgrade-self-test-for-glm-52-coding-routes-bf4",
-      "pubDate": "2026-07-10T03:36:42.000Z",
-      "description": "<p>When I route coding work to a lower-cost model, I do not want the first question to be \"is it cheaper?\"</p> <p>The first question is:</p> <p><strong>Can I tell whether this route behaves like the model I intended to use?</strong></p> <p>That is especially important when the route is used as a bac",
+      "title": "Imparare a fare domande migliori: una skill sottovalutata per crescere da developer",
+      "link": "https://dev.to/frontendfacile/imparare-a-fare-domande-migliori-una-skill-sottovalutata-per-crescere-da-developer-1bbd",
+      "pubDate": "2026-07-10T09:35:39.000Z",
+      "description": "<blockquote> <p>Non è solo “chiedere aiuto”: è chiarire obiettivi, vincoli e tentativi. E accelera sia l’apprendimento che il lavoro in team.</p> </blockquote> <p>Nel lavoro quotidiano di un frontend developer (e non solo) capita spesso di bloccarsi: un bug che non si riproduce, un layout che “quasi",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I Built a Personal Paper Engine to Stop Losing Research Papers",
-      "link": "https://dev.to/ethanwalker89m/i-built-a-personal-paper-engine-to-stop-losing-research-papers-3d56",
-      "pubDate": "2026-07-10T03:35:47.000Z",
-      "description": "<blockquote> <p>Disclosure: I contribute to the OpenNomos ecosystem where Paper List is listed.</p> </blockquote> <p>I read about 30 research papers a month. Not because I'm an academic—I'm a product person who needs to stay on top of what's happening in AI, developer tools, and Web3.</p> <p>The pro",
+      "title": "Every AI provider fails in its own way. I stopped checking status codes and built an error model instead.",
+      "link": "https://dev.to/manolito99/every-ai-provider-fails-in-its-own-way-i-stopped-checking-status-codes-and-built-an-error-model-25do",
+      "pubDate": "2026-07-10T09:33:00.000Z",
+      "description": "<p>I built an API gateway that routes between OpenAI, Anthropic and Gemini. I figured integrating both providers would be the hard part.</p> <p>It wasn't. Calling their APIs is maybe an afternoon of work each. The hard part showed up later, the first time something went wrong.</p> <h2> The moment it",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The One-Click Exporter: AI Studio Antigravity, Probed to Its Limits",
-      "link": "https://dev.to/gde/the-one-click-exporter-ai-studio-antigravity-probed-to-its-limits-171e",
-      "pubDate": "2026-07-10T03:33:28.000Z",
-      "description": "<p><em>What nobody tells you about exporting your multi-agent prototype to a local workspace.</em></p> <p>Every architect who's prototyped a multi-agent app in Google AI Studio eventually hits the same wall: the prototype works, but it lives in a browser tab. At I/O 2026, Google shipped a fix — Expo",
+      "title": "Node.js Internals Explained by Uncle to Nephew — Part 4: Express Plumbing, Error Handling &amp; The Full Roadmap",
+      "link": "https://dev.to/surajrkhonde/nodejs-internals-explained-by-uncle-to-nephew-part-4-express-plumbing-error-handling-the-4c3n",
+      "pubDate": "2026-07-10T09:29:33.000Z",
+      "description": "<blockquote> <p>Bonus round. Parts 1–3 covered why Node exists, what's happening inside it, and the full request journey. This part mops up the pieces that didn't fit anywhere else — the Express plumbing, error handling, and a checklist to test yourself against.</p> </blockquote> <h2> Saturday, Roun",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Hitting the Iceberg REST Catalog Directly: Understanding the Differences Between Glue Data Catalog and S3 Tables",
-      "link": "https://dev.to/aws-builders/hitting-the-iceberg-rest-catalog-directly-understanding-the-differences-between-glue-data-catalog-43j8",
-      "pubDate": "2026-07-10T03:32:10.000Z",
-      "description": "<blockquote> <p><strong>Original Japanese article</strong>: <a href=\"https://zenn.dev/penginpenguin/articles/9b43fececff5b2\" rel=\"noopener noreferrer\">Iceberg REST Catalogを直接叩いて、Glue Data CatalogとS3 Tablesの違いを理解する</a></p> </blockquote> <h1> Introduction </h1> <p>I'm Aki, an AWS Community Builder (<a",
+      "title": "Two Sum and the use of Dictionary (Easy) | LeetCode Practice #1",
+      "link": "https://dev.to/secondlastsleep/two-sum-and-the-use-of-dictionary-leetcode-practice-1-44mb",
+      "pubDate": "2026-07-10T09:23:30.000Z",
+      "description": "<h2> Two Sum </h2> <blockquote> <p>Given an array of integers <strong><em>nums</em></strong> and an integer <strong><em>target</em></strong>, return indices of the two numbers such that they add up to <em><strong>target</strong></em>.</p> </blockquote> <p>(You may assume that each input would have e",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Unlocking Startup Savings: The Idle-Resource Audit",
-      "link": "https://dev.to/kapil/unlocking-startup-savings-the-idle-resource-audit-10jk",
-      "pubDate": "2026-07-10T03:30:56.000Z",
-      "description": "<h2> Key takeaways </h2> <ul> <li>Idle resources can account for up to 30% of cloud bills.</li> <li>Proactive audits can prevent silent cost overruns.</li> <li>Real-time monitoring tools can pinpoint resource inefficiencies.</li> <li>Implementing resource tagging enhances visibility and accountabili",
+      "title": "# Reflection – Week 2",
+      "link": "https://dev.to/rubi_cloud/-reflection-week-2-4ach",
+      "pubDate": "2026-07-10T09:23:11.000Z",
+      "description": "<p>\"<strong>Shifting from Prompt Engineering to Infrastructure Orchestration</strong>\"</p> <p>Week 2 was a mix of excitement, curiosity, and a little bit of frustration. I learned a lot of new concepts, but I also realized that the best way to understand them is by actually trying them out. Reading ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Semantic Drift in LLMs: How Archetypal Attractors (Like “Goblin”) Emerge and How Structured Reflection Reduces Them",
-      "link": "https://dev.to/__272d48f2ed/semantic-drift-in-llms-how-archetypal-attractors-like-goblin-emerge-and-how-structured-445o",
-      "pubDate": "2026-07-10T03:30:38.000Z",
-      "description": "<p>Large language models often develop recurring symbolic patterns — archetypes, metaphors, and memetic shortcuts — that appear across unrelated contexts. One observed example is the repeated emergence of fantasy-based metaphors such as “goblins,” “gremlins,” or similar entities when describing abst",
+      "title": "Trust Is an Engineering Output",
+      "link": "https://dev.to/sakurasky/trust-is-an-engineering-output-4g06",
+      "pubDate": "2026-07-10T09:21:55.000Z",
+      "description": "<p>A players' union arrived at the athlete-data platform to investigate how its members' data was being handled. The platform had nothing to hide, its access controls were sound, its data accurate, its sharing rules strictly enforced, and its deletion process reliable. By every internal measure, it ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Ben Bernanke Joins Anthropic Oversight Trust",
-      "link": "https://www.anthropic.com/news/ben-bernanke",
-      "pubDate": "2026-07-10T02:39:07.000Z",
-      "description": "Article URL: https://www.anthropic.com/news/ben-bernanke Comments URL: https://news.ycombinator.com/item?id=48855112 Points: 22 # Comments: 6",
+      "title": "In Emacs, Everything Looks Like a Service",
+      "link": "http://yummymelon.com/devnull/in-emacs-everything-looks-like-a-service.html",
+      "pubDate": "2026-07-10T08:21:10.000Z",
+      "description": "Article URL: http://yummymelon.com/devnull/in-emacs-everything-looks-like-a-service.html Comments URL: https://news.ycombinator.com/item?id=48857230 Points: 4 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "AI-generated videos to maximally drive a target brain region",
+      "link": "https://nevo-project.epfl.ch/",
+      "pubDate": "2026-07-10T07:39:11.000Z",
+      "description": "Article URL: https://nevo-project.epfl.ch/ Comments URL: https://news.ycombinator.com/item?id=48856904 Points: 50 # Comments: 49",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -96,31 +104,15 @@
       "title": "Build your own vulnerability harness",
       "link": "https://blog.cloudflare.com/build-your-own-vulnerability-harness/",
       "pubDate": "2026-07-10T01:28:43.000Z",
-      "description": "Article URL: https://blog.cloudflare.com/build-your-own-vulnerability-harness/ Comments URL: https://news.ycombinator.com/item?id=48854681 Points: 21 # Comments: 10",
+      "description": "Article URL: https://blog.cloudflare.com/build-your-own-vulnerability-harness/ Comments URL: https://news.ycombinator.com/item?id=48854681 Points: 45 # Comments: 19",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Star Just Ate a Planet, and It's Not Done Yet",
-      "link": "https://www.nytimes.com/2026/07/09/science/space/planetary-engulfment-hungry-star.html",
-      "pubDate": "2026-07-10T01:20:16.000Z",
-      "description": "Article URL: https://www.nytimes.com/2026/07/09/science/space/planetary-engulfment-hungry-star.html Comments URL: https://news.ycombinator.com/item?id=48854638 Points: 29 # Comments: 37",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Focus",
-      "link": "https://boz.com/articles/focus",
-      "pubDate": "2026-07-10T00:40:33.000Z",
-      "description": "Article URL: https://boz.com/articles/focus Comments URL: https://news.ycombinator.com/item?id=48854363 Points: 76 # Comments: 40",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Study: \"Mommy, do you love your phone more than me?\"",
+      "title": "Parental device use and the adolescent-caregiver attachment bond",
       "link": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1766665/full",
       "pubDate": "2026-07-10T00:20:28.000Z",
-      "description": "Article URL: https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1766665/full Comments URL: https://news.ycombinator.com/item?id=48854247 Points: 27 # Comments: 7",
+      "description": "Article URL: https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1766665/full Comments URL: https://news.ycombinator.com/item?id=48854247 Points: 127 # Comments: 103",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -128,7 +120,7 @@
       "title": "Why American ambulance rides are so expensive",
       "link": "https://davidoks.blog/p/why-american-ambulance-rides-are",
       "pubDate": "2026-07-09T22:15:56.000Z",
-      "description": "Article URL: https://davidoks.blog/p/why-american-ambulance-rides-are Comments URL: https://news.ycombinator.com/item?id=48853091 Points: 132 # Comments: 166",
+      "description": "Article URL: https://davidoks.blog/p/why-american-ambulance-rides-are Comments URL: https://news.ycombinator.com/item?id=48853091 Points: 214 # Comments: 283",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -144,7 +136,7 @@
       "title": "Interview with Mitchell Hashimoto about Ghostty and Zig",
       "link": "https://alexalejandre.com/programming/interview-with-mitchell-hashimoto/",
       "pubDate": "2026-07-09T17:17:16.000Z",
-      "description": "Article URL: https://alexalejandre.com/programming/interview-with-mitchell-hashimoto/ Comments URL: https://news.ycombinator.com/item?id=48849292 Points: 159 # Comments: 66",
+      "description": "Article URL: https://alexalejandre.com/programming/interview-with-mitchell-hashimoto/ Comments URL: https://news.ycombinator.com/item?id=48849292 Points: 247 # Comments: 112",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -152,7 +144,7 @@
       "title": "GPT-5.6",
       "link": "https://openai.com/index/gpt-5-6/",
       "pubDate": "2026-07-09T17:04:14.000Z",
-      "description": "https://deploymentsafety.openai.com/gpt-5-6/gpt-5-6.pdfhttps://developers.openai.com/api/docs/guides/latest-modelhttps://x.com/levie/status/2075287443411222628, https://xcancel.com/levie/status/2075287443411222628 Comments URL: https://news.ycombinator.com/item?id=48849066 Points: 1130 # Comments: 8",
+      "description": "https://deploymentsafety.openai.com/gpt-5-6/gpt-5-6.pdfhttps://developers.openai.com/api/docs/guides/latest-modelhttps://x.com/levie/status/2075287443411222628, https://xcancel.com/levie/status/2075287443411222628 Comments URL: https://news.ycombinator.com/item?id=48849066 Points: 1268 # Comments: 9",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -161,6 +153,14 @@
       "link": "https://www.ycombinator.com/companies/wildcard/jobs/ZSLVaaU-founding-engineer",
       "pubDate": "2026-07-09T17:00:37.000Z",
       "description": "Article URL: https://www.ycombinator.com/companies/wildcard/jobs/ZSLVaaU-founding-engineer Comments URL: https://news.ycombinator.com/item?id=48849011 Points: 0 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Launch HN: Context.dev (YC S26) – API to get structured data from any website",
+      "link": "https://www.context.dev",
+      "pubDate": "2026-07-09T15:28:39.000Z",
+      "description": "Hi Hacker News, I’m Yahia. I built Context.dev (https://www.context.dev/) to make it really easy to integrate web data into your products and agents.Here’s a demo video: https://www.tella.tv/video/build-faster-with-context-dev-api...Since it’s an API, here are the docs: https://docs.context.dev/quic",
       "source": "Hacker News",
       "category": "Tech News"
     },
