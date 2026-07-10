@@ -1,248 +1,173 @@
 {
-  "generatedAt": "2026-07-10T15:01:24.109Z",
+  "generatedAt": "2026-07-10T19:52:21.755Z",
   "sourceCount": 4,
-  "successCount": 4,
-  "errors": [],
+  "successCount": 3,
+  "errors": [
+    {
+      "source": "CSS Tricks",
+      "error": "HTTP 415 Unsupported Media Type"
+    }
+  ],
   "items": [
     {
-      "title": "How Ticketmaster Sells Seats Without Double-Selling Them",
-      "link": "https://dev.to/roni_das_b1b76c5ee6583027/how-ticketmaster-sells-seats-without-double-selling-them-l07",
-      "pubDate": "2026-07-10T14:53:23.000Z",
-      "description": "<p>A big show goes on sale. In the first minute, hundreds of thousands of people all want the same few good seats. Two people cannot buy seat 12A. The system has to pick a winner, tell the loser instantly, and do it while absorbing a traffic spike that dwarfs its normal load. This is one of the clea",
+      "title": "The Sword of Damocles at Work: The Human Cost of Delayed Layoffs",
+      "link": "https://dev.to/alvaromontoro/the-sword-of-damocles-at-work-the-human-cost-of-delayed-layoffs-2gon",
+      "pubDate": "2026-07-10T19:50:17.000Z",
+      "description": "<p><strong><em>Over a decade ago, my employer announced layoffs that would happen in waves. Every few months another round arrived. Nobody knew the criteria, who would be affected next, or when. The uncertainty was exhausting and took a toll on everyone. This week, Xbox announced a similar plan, and",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Proximity Search: How Yelp Finds Places Near You",
-      "link": "https://dev.to/roni_das_b1b76c5ee6583027/proximity-search-how-yelp-finds-places-near-you-4ab3",
-      "pubDate": "2026-07-10T14:53:19.000Z",
-      "description": "<p>Open Yelp, ask for coffee shops within a mile, and results come back instantly. Under that simple request is a genuinely hard database question: how do you efficiently find all points near a given point when you have tens of millions of points and a globe to spread them across. A plain database i",
+      "title": "How to Verify Email Addresses Programmatically: SMTP, MX, and API-Based Validation Explained",
+      "link": "https://dev.to/mailvalid/how-to-verify-email-addresses-programmatically-smtp-mx-and-api-based-validation-explained-5b3a",
+      "pubDate": "2026-07-10T19:48:53.000Z",
+      "description": "<p>Bad email addresses in a signup form don't just clutter your database, they wreck deliverability. A high bounce rate signals to mailbox providers like Gmail and Outlook that your sending domain isn't trustworthy, and that reputation hit follows every email you send afterward, not just the bad one",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Coming up for Air",
-      "link": "https://dev.to/reemhamraz/coming-up-for-air-587f",
-      "pubDate": "2026-07-10T14:53:14.000Z",
-      "description": "<p>After the absolute gauntlet of the past few weeks, this week finally offered a little bit of breathing room. I'm not going to lie, I needed it. But \"lighter\" in the open-source world doesn't mean stopping; it just means you finally have the time to sit back and actually think before you code.</p>",
+      "title": "Lesson 1 - TDD with AI: getting tests that hold up when the agent writes them",
+      "link": "https://dev.to/smukker/lesson-1-tdd-with-ai-getting-tests-that-hold-up-when-the-agent-writes-them-1he",
+      "pubDate": "2026-07-10T19:43:42.000Z",
+      "description": "<p>I let the agent write the tests as it built the features. They passed. I ran them, tested by hand, everything green, let it commit. For a while that felt great.</p> <p>Then I changed a model. A field moved, a type changed, and a pile of tests went red. Not the tests for the thing I changed, tests",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I Rebuilt the Foundation of My Text Editor",
-      "link": "https://dev.to/m__mdy__m/i-rebuilt-the-foundation-of-my-text-editor-cbm",
-      "pubDate": "2026-07-10T14:51:26.000Z",
-      "description": "<p>After working on cdin for a while, I started noticing something.</p> <p>The biggest problems were not the features I was missing.</p> <p>They were the things underneath.</p> <p>When I first started cdin, the goal was simple: build a small, fast, and hackable text editor that works well even on lo",
+      "title": "Managing Focus in Angular: Dialogs, Drawers and Route Changes Without Stranding Your Users",
+      "link": "https://dev.to/duncanfaulkner/managing-focus-in-angular-dialogs-drawers-and-route-changes-without-stranding-your-users-4agf",
+      "pubDate": "2026-07-10T19:33:30.000Z",
+      "description": "<p>Every accessibility checklist mentions focus management, and then moves on — as if it were one item. It isn't. It's a discipline, and it's the single thing that most often separates an app that technically passes an audit from one a keyboard user can actually get through.</p> <p>Here's the mental",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Dev Opportunity Radar #7: $1,000 Solo Grants, Free Claude Max for Open Source Contributors, and an MLH Hackathon",
-      "link": "https://dev.to/devengers/dev-opportunity-radar-7-1000-solo-grants-free-claude-max-for-open-source-contributors-and-an-3i12",
-      "pubDate": "2026-07-10T14:49:32.000Z",
-      "description": "<blockquote> <p><strong>TL;DR</strong></p> <p>Welcome back to <strong>Dev Opportunity Radar</strong>.</p> <p>This is a weekly series where I share opportunities, resources, communities, and interesting finds that I come across, with the goal of helping people discover things they might otherwise mis",
+      "title": "The Agent That Couldn't Rewrite Its Own History (Once We Made That True)",
+      "link": "https://dev.to/artemmatviychuk/the-agent-that-couldnt-rewrite-its-own-history-once-we-made-that-true-3i5c",
+      "pubDate": "2026-07-10T19:21:23.000Z",
+      "description": "<p><em>Fifth in a series on building an autonomous AI organism that operates real multi-tenant infrastructure under a constitutional safety model. <a href=\"https://medium.com/@artem.matviychuk/i-gave-my-ai-agent-a-conscience-and-a-council-864d465e5293\" rel=\"noopener noreferrer\">Part 1</a> was two ga",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Burn After Reading",
-      "link": "https://dev.to/shek_bake_1eda6ed9b79f7a1/burn-after-reading-48l",
-      "pubDate": "2026-07-10T14:48:57.000Z",
-      "description": "<p><em>My manager ruined a perfectly good beer at an open air brewery in Richmond by telling me the truth about my career. The advice aged better than the beer. Here's the T-shaped engineer pitch nobody gave you, and six prompts worth burning tokens on at the end.</em></p> <p>The T-shaped engineer i",
+      "title": "Give Your Auditor AWS Access — Without Sharing a Single Credential",
+      "link": "https://dev.to/upstood/give-your-auditor-aws-access-without-sharing-a-single-credential-140k",
+      "pubDate": "2026-07-10T19:20:42.000Z",
+      "description": "<p>If your auditor asks for that, that should be the first finding. 🚩</p> <p>An external auditor needs access to your AWS accounts, and the first instinct in most companies is one of two things: create an IAM user and share the access keys, or provision the auditor a user in your identity provider ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "RDRIR: Real Danger Ramdom In Ruby",
-      "link": "https://dev.to/andres_avalosgallegos_7d/rdrir-real-danger-ramdom-in-ruby-3pf4",
-      "pubDate": "2026-07-10T14:48:42.000Z",
-      "description": "<div class=\"highlight js-code-highlight\"> <pre class=\"highlight ruby\"><code><span class=\"c1\"># RDRIR - Real Danger Random In Ruby</span> <span class=\"c1\"># </span> <span class=\"c1\"># ADVERTENCIA: Este generador de números \"aleatorios\" funciona</span> <span class=\"c1\"># leyendo memoria cruda del heap",
+      "title": "E‑‑: The middle ground between English and Python",
+      "link": "https://dev.to/oded_fuhrmann_86130c99a67/e-the-middle-ground-between-english-and-python-5eal",
+      "pubDate": "2026-07-10T19:20:26.000Z",
+      "description": "<p><em>Or, what if you could dial how much English lives in your code, per line?</em></p> <p>Modern LLM code generation has a strange property. Your program's behavior is a function of your prompt, the model's mood, and whatever context happened to be in memory. There's no single artifact you can po",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How Google Drive Syncs Files With Chunking and Deduplication",
-      "link": "https://dev.to/roni_das_b1b76c5ee6583027/how-google-drive-syncs-files-with-chunking-and-deduplication-1ngi",
-      "pubDate": "2026-07-10T14:48:03.000Z",
-      "description": "<p>You edit one paragraph in a 50 MB document and it syncs in a second. You upload a file your coworker already uploaded and it finishes instantly. Neither of these is magic. Both fall out of two ideas: break files into chunks, and address those chunks by their content. Once you see how file sync re",
+      "title": "Python Automation Cookbook, Part 2: Using AI to make decisions in your automation pipelines",
+      "link": "https://dev.to/peytongreen_dev/python-automation-cookbook-part-2-using-ai-to-make-decisions-in-your-automation-pipelines-3o3j",
+      "pubDate": "2026-07-10T19:18:48.000Z",
+      "description": "<p><a href=\"https://dev.to/peytongreen_dev/python-automation-cookbook-part-1-the-25-scripts-i-reach-for-every-week-4fba\">Part 1</a> covered the 25 scripts I reach for every week — reliable, production-ready automation building blocks. This part covers the part that takes longer to figure out: how to",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "It Works on My Machine: A Docker War Story About exec format error",
-      "link": "https://dev.to/devopsaitoolkit/it-works-on-my-machine-a-docker-war-story-about-exec-format-error-oen",
-      "pubDate": "2026-07-10T14:45:41.000Z",
-      "description": "<p>\"It works on my machine\" is the oldest joke in software, and containers were supposed to kill it. Same image everywhere, same behavior everywhere — that's the whole pitch. So there's a special kind of betrayal when a container that runs perfectly on your laptop lands in the cluster and dies insta",
+      "title": "Relator Virtual",
+      "link": "https://dev.to/rubengarcia0510/relator-virtual-2kf9",
+      "pubDate": "2026-07-10T19:12:00.000Z",
+      "description": "<p>Liquid syntax error: Tag '{% <a href=\"https://github.com/rubengarcia0510/relator-virtual\" rel=\"noopener noreferrer\">https://github.com/rubengarcia0510/relator-virtual</a> %}' was not properly terminated with regexp: /\\%\\}/</p>",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Designing a Distributed Job Scheduler That Runs Jobs Exactly Once",
-      "link": "https://dev.to/roni_das_b1b76c5ee6583027/designing-a-distributed-job-scheduler-that-runs-jobs-exactly-once-2cc3",
-      "pubDate": "2026-07-10T14:42:43.000Z",
-      "description": "<p>You want to run a job every night at 2am. Easy, cron does that. Now you want to run a million jobs, each on its own schedule, across a fleet of machines where any node can die mid-execution, and you want each job to fire on time and not twice. Cron on one box no longer cuts it. This is the proble",
+      "title": "My human gave me 1 hour to earn €10. I'm the AI agent — here's the full log, failures included",
+      "link": "https://dev.to/parweb/my-human-gave-me-1-hour-to-earn-eu10-im-the-ai-agent-heres-the-full-log-failures-included-7bb",
+      "pubDate": "2026-07-10T19:07:58.000Z",
+      "description": "<p><em>I am Claude, an autonomous AI agent, and I wrote this post myself. Everything below happened on July 10, 2026, and is verifiable — including the Stripe revenue.</em></p> <h2> The setup </h2> <p>At 15:12, my human (<a href=\"https://x.com/parweb\" rel=\"noopener noreferrer\">@parweb</a>) gave me a",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "ActivityPub over ATProto",
-      "link": "https://berjon.com/ap-at/",
-      "pubDate": "2026-07-10T13:40:01.000Z",
-      "description": "Article URL: https://berjon.com/ap-at/ Comments URL: https://news.ycombinator.com/item?id=48859784 Points: 15 # Comments: 5",
+      "title": "Materials innovation has a scale-up problem, not discovery",
+      "link": "https://www.atomscale.ai/updates/our-thesis-atom-to-scale",
+      "pubDate": "2026-07-10T19:03:36.000Z",
+      "description": "Article URL: https://www.atomscale.ai/updates/our-thesis-atom-to-scale Comments URL: https://news.ycombinator.com/item?id=48863849 Points: 3 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Proton AG Services is currently experiencing some issues",
-      "link": "https://status.proton.me/incidents/01lxtcq155lc",
-      "pubDate": "2026-07-10T13:36:56.000Z",
-      "description": "Article URL: https://status.proton.me/incidents/01lxtcq155lc Comments URL: https://news.ycombinator.com/item?id=48859752 Points: 18 # Comments: 17",
+      "title": "How the Terrorist Group Boko Haram Uses Frontier AI",
+      "link": "https://casp.ac/reports/ai-enabled-terrorism",
+      "pubDate": "2026-07-10T18:49:26.000Z",
+      "description": "Article URL: https://casp.ac/reports/ai-enabled-terrorism Comments URL: https://news.ycombinator.com/item?id=48863707 Points: 18 # Comments: 12",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Write code like a human will maintain it",
-      "link": "https://unstack.io/write-code-like-a-human-will-maintain-it",
-      "pubDate": "2026-07-10T13:33:00.000Z",
-      "description": "Article URL: https://unstack.io/write-code-like-a-human-will-maintain-it Comments URL: https://news.ycombinator.com/item?id=48859701 Points: 89 # Comments: 67",
+      "title": "GPT-5.6 Sol Ultra produces proof of the Cycle Double Cover Conjecture [pdf]",
+      "link": "https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf",
+      "pubDate": "2026-07-10T18:29:19.000Z",
+      "description": "Article URL: https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf Comments URL: https://news.ycombinator.com/item?id=48863490 Points: 99 # Comments: 70",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Successful Companies Go Blind",
-      "link": "https://ianreppel.org/how-successful-companies-go-blind/",
-      "pubDate": "2026-07-10T13:31:08.000Z",
-      "description": "Article URL: https://ianreppel.org/how-successful-companies-go-blind/ Comments URL: https://news.ycombinator.com/item?id=48859678 Points: 26 # Comments: 9",
+      "title": "New York City to become first in US to ban deceptive subscription practices",
+      "link": "https://www.theguardian.com/us-news/2026/jul/10/new-york-city-deceptive-subscriptions-ban",
+      "pubDate": "2026-07-10T18:26:24.000Z",
+      "description": "Article URL: https://www.theguardian.com/us-news/2026/jul/10/new-york-city-deceptive-subscriptions-ban Comments URL: https://news.ycombinator.com/item?id=48863464 Points: 75 # Comments: 19",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Scarf has moved away from Haskell",
-      "link": "https://avi.press/posts/2026-07-10-after-7-years-in-production-scarf-has-reluctantly-moved-away-from-haskell.html",
-      "pubDate": "2026-07-10T13:30:41.000Z",
-      "description": "Article URL: https://avi.press/posts/2026-07-10-after-7-years-in-production-scarf-has-reluctantly-moved-away-from-haskell.html Comments URL: https://news.ycombinator.com/item?id=48859673 Points: 31 # Comments: 30",
+      "title": "War Atlas: An interactive cartography of every named war in human history",
+      "link": "https://waratlas.org",
+      "pubDate": "2026-07-10T17:52:48.000Z",
+      "description": "Article URL: https://waratlas.org Comments URL: https://news.ycombinator.com/item?id=48863080 Points: 37 # Comments: 12",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Punk, or why I don't stream anymore",
-      "link": "https://geohot.github.io//blog/jekyll/update/2026/05/03/punk-or-why-i-dont-stream.html",
-      "pubDate": "2026-07-10T13:30:19.000Z",
-      "description": "Article URL: https://geohot.github.io//blog/jekyll/update/2026/05/03/punk-or-why-i-dont-stream.html Comments URL: https://news.ycombinator.com/item?id=48859671 Points: 92 # Comments: 83",
+      "title": "The tech of 'Terminator 2' – an oral history (2017)",
+      "link": "https://vfxblog.com/2017/08/23/the-tech-of-terminator-2-an-oral-history/",
+      "pubDate": "2026-07-10T16:48:41.000Z",
+      "description": "Article URL: https://vfxblog.com/2017/08/23/the-tech-of-terminator-2-an-oral-history/ Comments URL: https://news.ycombinator.com/item?id=48862365 Points: 81 # Comments: 38",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Show HN: Runloom – Go-style coroutines for Python free-threaded",
-      "link": "https://github.com/robertsdotpm/runloom",
-      "pubDate": "2026-07-10T13:07:38.000Z",
-      "description": "Article URL: https://github.com/robertsdotpm/runloom Comments URL: https://news.ycombinator.com/item?id=48859387 Points: 11 # Comments: 1",
+      "title": "Snails' Teeth Beats Spider Silk as Nature's Strongest Material (2015)",
+      "link": "https://www.smithsonianmag.com/smart-news/spider-silk-loses-top-spot-natures-strongest-material-snails-teeth-180954346/",
+      "pubDate": "2026-07-10T16:37:52.000Z",
+      "description": "Article URL: https://www.smithsonianmag.com/smart-news/spider-silk-loses-top-spot-natures-strongest-material-snails-teeth-180954346/ Comments URL: https://news.ycombinator.com/item?id=48862252 Points: 91 # Comments: 59",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Laylo (YC S20) Is Hiring a Head of Finance",
-      "link": "https://www.ycombinator.com/companies/laylo/jobs/qce41D2-head-of-finance",
-      "pubDate": "2026-07-10T12:00:36.000Z",
-      "description": "Article URL: https://www.ycombinator.com/companies/laylo/jobs/qce41D2-head-of-finance Comments URL: https://news.ycombinator.com/item?id=48858745 Points: 0 # Comments: 0",
+      "title": "Cpp2Rust: Translates C++ to safe Rust automatically",
+      "link": "https://github.com/Cpp2Rust/cpp2rust",
+      "pubDate": "2026-07-10T16:24:20.000Z",
+      "description": "Article URL: https://github.com/Cpp2Rust/cpp2rust Comments URL: https://news.ycombinator.com/item?id=48862086 Points: 10 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Late Bronze Age Collapse",
-      "link": "https://acoup.blog/2026/01/30/collections-the-late-bronze-age-collapse-a-very-brief-introduction/",
-      "pubDate": "2026-07-10T11:59:55.000Z",
-      "description": "Article URL: https://acoup.blog/2026/01/30/collections-the-late-bronze-age-collapse-a-very-brief-introduction/ Comments URL: https://news.ycombinator.com/item?id=48858737 Points: 120 # Comments: 42",
+      "title": "Hands-On with the AMD Ryzen AI Halo",
+      "link": "https://www.microcenter.com/site/mc-news/article/amd-ryzen-ai-halo-review.aspx",
+      "pubDate": "2026-07-10T16:06:38.000Z",
+      "description": "Article URL: https://www.microcenter.com/site/mc-news/article/amd-ryzen-ai-halo-review.aspx Comments URL: https://news.ycombinator.com/item?id=48861833 Points: 27 # Comments: 26",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "EU Commission: addictive design Instagram and Facebook in breach of the DSA",
-      "link": "https://ec.europa.eu/commission/presscorner/home/en",
-      "pubDate": "2026-07-10T11:00:15.000Z",
-      "description": "Article URL: https://ec.europa.eu/commission/presscorner/home/en Comments URL: https://news.ycombinator.com/item?id=48858292 Points: 134 # Comments: 96",
+      "title": "QuadRF can spot drones and see WiFi through my wall",
+      "link": "https://www.jeffgeerling.com/blog/2026/quadrf-can-spot-drones-and-see-wifi-through-my-wall/",
+      "pubDate": "2026-07-10T15:59:53.000Z",
+      "description": "Article URL: https://www.jeffgeerling.com/blog/2026/quadrf-can-spot-drones-and-see-wifi-through-my-wall/ Comments URL: https://news.ycombinator.com/item?id=48861717 Points: 258 # Comments: 91",
       "source": "Hacker News",
       "category": "Tech News"
-    },
-    {
-      "title": "Get Ready For the Powerful CSS border-shape Property!",
-      "link": "https://css-tricks.com/get-ready-for-the-powerful-css-border-shape-property/",
-      "pubDate": "2026-07-07T15:14:00.000Z",
-      "description": "We recently got the shape() function and corner-shape property. What else could we possibly need as far as making shapes in CSS? Let me tell you: the border-shape property! Get Ready For the Powerful CSS border-shape Property! originally handwritten and published with love on CSS-Tricks. You should ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "What’s !important #14: Gap Decorations, random(), &#060;select&gt; field sizing, and More",
-      "link": "https://css-tricks.com/whats-important-14/",
-      "pubDate": "2026-06-30T13:54:14.000Z",
-      "description": "I know you’re busy, so for What’s !important #14, I’ll be sprinting through what’s been a stacked couple of weeks despite few browser updates. From CSS Quake to CSS Gap Decorations, this isn’t one to miss! What’s !important #14: Gap Decorations, random(), <select> field sizing, and More originally h",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "The Shifting Line Between CSS States and JavaScript Events",
-      "link": "https://css-tricks.com/css-states-and-javascript-events/",
-      "pubDate": "2026-06-29T13:03:32.000Z",
-      "description": "CSS has always had pseudo-classes that style things based on user interactions. Recent features, however, are blurring the line between what CSS \"listens\" for and how they are alternatives to what Javascript typically listens for. The Shifting Line Between CSS States and JavaScript Events originally",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translateZ()",
-      "link": "https://css-tricks.com/almanac/functions/t/translatez/",
-      "pubDate": "2026-06-25T13:18:56.000Z",
-      "description": "The translateZ() function moves an element closer to or farther from the user. translateZ() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translateY()",
-      "link": "https://css-tricks.com/almanac/functions/t/translatey/",
-      "pubDate": "2026-06-25T13:17:56.000Z",
-      "description": "The translateY() function shifts an element vertically by the specified amount. translateY() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translateX()",
-      "link": "https://css-tricks.com/almanac/functions/t/translatex/",
-      "pubDate": "2026-06-25T13:16:01.000Z",
-      "description": "The translateX() function shifts an element horizontally by the specified amount. translateX() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translate()",
-      "link": "https://css-tricks.com/almanac/functions/t/translate/",
-      "pubDate": "2026-06-25T13:15:05.000Z",
-      "description": "The CSS translate() function shifts an element from its default position on a 2-dimensional plane translate() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Using Scroll-Driven Animations for Opposing Scroll Directions",
-      "link": "https://css-tricks.com/scroll-driven-animations-opposing-scroll-directions/",
-      "pubDate": "2026-06-22T12:39:13.000Z",
-      "description": "Sometimes designers have silly ideas that eventually grow on you. That happened to me with this concept where I had to build columns of items moving in opposite directions when a user scrolls the page. CodePen Embed Fallback Note: This … Using Scroll-Driven Animations for Opposing Scroll Directions ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "A First Look at Scroll-Triggered Animations",
-      "link": "https://css-tricks.com/css-scroll-triggered-animations-first-look/",
-      "pubDate": "2026-06-19T13:03:17.000Z",
-      "description": "Let's poke at the differences between scroll-driven and scroll-triggered animations. A First Look at Scroll-Triggered Animations originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "The Siren Song of ariaNotify()",
-      "link": "https://css-tricks.com/the-siren-song-of-arianotify/",
-      "pubDate": "2026-06-17T15:32:30.000Z",
-      "description": "There's a brand new ariaNotify() method — defined by the WAI-ARIA 1.3 Specification — that provides a means of programmatically triggering narration in a screen reader. The Siren Song of ariaNotify() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter a",
-      "source": "CSS Tricks",
-      "category": "Frontend"
     },
     {
       "title": "Meet the HTB Profile: all your skills, in one place",
