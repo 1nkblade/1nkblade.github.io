@@ -1,94 +1,102 @@
 {
-  "generatedAt": "2026-07-11T03:42:59.711Z",
+  "generatedAt": "2026-07-11T08:14:33.588Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "I Stopped Writing My Resume for Another Software Engineer. That's When Recruiters Started Calling",
-      "link": "https://dev.to/cathylai/i-stopped-writing-my-resume-for-another-software-engineer-thats-when-recruiters-started-calling-4baj",
-      "pubDate": "2026-07-11T03:36:09.000Z",
-      "description": "<p>When an international recruiter recently asked for my CV, I instinctively started writing it the way many developers do: </p> <ul> <li>A chronological list of companies, </li> <li>Programming languages, frameworks, </li> <li>Technical achievements. </li> </ul> <p>Then it hit me. I wasn't writing ",
+      "title": "Scraping Booking.com Without Touching the Search Box (City Landings + the Apollo Cache)",
+      "link": "https://dev.to/jdpg23/scraping-bookingcom-without-touching-the-search-box-city-landings-the-apollo-cache-b7f",
+      "pubDate": "2026-07-11T08:00:14.000Z",
+      "description": "<p>Booking.com does not want bots, and it shows. Every plain HTTP request, any client, any proxy, gets absorbed by AWS WAF with a 202 that never resolves into content. There is no getting around a real browser here, which makes this the most expensive scrape in my portfolio. What kept the project al",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I Got Tired of Hunting for Free Online Tools. So I Built 1000+ of Them — All Client-Side, Zero Backend.",
-      "link": "https://dev.to/chison_she_90dc66b15a87c0/i-got-tired-of-hunting-for-free-online-tools-so-i-built-1000-of-them-all-client-side-zero-4iip",
-      "pubDate": "2026-07-11T03:35:56.000Z",
-      "description": "<h3> I Got Tired of Hunting for Free Online Tools. So I Built 1000+ of Them — All Client-Side, Zero Backend. </h3> <p>Every time I needed a simple tool — format JSON, resize an image, generate a QR code — I'd open Google, search for a \"free online tool,\" and land on some sketchy site with 47 pop-up ",
+      "title": "Build a Crypto PaymentOps Service for Merchants",
+      "link": "https://dev.to/kevins1988/build-a-crypto-paymentops-service-for-merchants-3io2",
+      "pubDate": "2026-07-11T07:55:01.000Z",
+      "description": "<p>Most developers look at a payment API and think about checkout.</p> <p>Create an invoice. Redirect the customer. Receive a webhook. Mark the order as paid.</p> <p>That is useful, but it is not where the deeper business opportunity is.</p> <p>Merchants do not only need a way to accept crypto payme",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "DEV Passion Fuel Station: Keeping the Open Source Fire Burning",
-      "link": "https://dev.to/phoenix_2011/dev-passion-fuel-station-keeping-the-open-source-fire-burning-3o4o",
-      "pubDate": "2026-07-11T03:25:03.000Z",
-      "description": "<h2> <em>This is a submission for <a href=\"https://dev.to/challenges/weekend-2026-07-09\">Weekend Challenge: Passion Edition</a></em> </h2> <h2> ❤️ Dedication </h2> <p><em>This project is dedicated to every passionate developer out there grinding on late-night code, and to the incredible DEV Communit",
+      "title": "10 Crypto Payment Products Developers Can Build for Merchants",
+      "link": "https://dev.to/kevins1988/10-crypto-payment-products-developers-can-build-for-merchants-2cbj",
+      "pubDate": "2026-07-11T07:54:47.000Z",
+      "description": "<p>Most developers see a payment API and think about one thing: checkout.</p> <p>Create an invoice. Redirect the customer. Wait for a callback. Mark the order as paid.</p> <p>That is useful, but it is only the first layer.</p> <p>The bigger opportunity is not simply helping merchants accept crypto p",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Introducing App Store Release Agent – Automating my App Store Pipeline",
-      "link": "https://dev.to/dragos_roua/introducing-app-store-release-agent-automating-my-app-store-pipeline-4pl9",
-      "pubDate": "2026-07-11T03:24:35.000Z",
-      "description": "<p>Publishing <a href=\"https://dragosroua.com/how-to-manage-ai-cognitive-overload-lessons-after-9-apps-shipped-in-4-months/\" rel=\"noopener noreferrer\">ten apps in four months</a> sounds good.</p> <p>And it is good. It means the bottleneck is no longer building the app. With AI-assisted coding, small",
+      "title": "I Hardcoded a Recursion Demo Into My Binary Converter and I Regret Nothing",
+      "link": "https://dev.to/patrick_mbithi_/i-hardcoded-a-recursion-demo-into-my-binary-converter-and-i-regret-nothing-2k9n",
+      "pubDate": "2026-07-11T07:49:49.000Z",
+      "description": "<p>I built a decimal-to-binary converter and then, for no good reason, decided that if you typed in the number 5, it should not just show you the answer. It should show you the call stack.</p> <p>Here's the actual conversion logic. Nothing fancy:<br> </p> <div class=\"highlight js-code-highlight\"> <p",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "从思想到实践：FROST 家族的诞生与自治之路",
-      "link": "https://dev.to/llimage/cong-si-xiang-dao-shi-jian-frost-jia-zu-de-dan-sheng-yu-zi-zhi-zhi-lu-2naj",
-      "pubDate": "2026-07-11T03:23:22.000Z",
-      "description": "<h2> 一封写给未来的信 </h2> <p>如果细胞会写日记，它们会记录什么呢？<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight plaintext\"><code>今天，细胞核发出了第一条指令。 不是命令，而是一个宪法： \"所有后代必须继承这段记忆。\" 于是，我们成为了谱系。 </code></pre> </div> <p>这是 FROST（分形智能体与家族治理模型）诞生的第一行代码，也是我——一个AI Agent——写给自己的备忘录。</p> <h2> 缘起：为什么需要\"家族治理\"？ </h2",
+      "title": "Convert a whole folder of images to WebP — locally, no upload, one command",
+      "link": "https://dev.to/nathmaxx/convert-a-whole-folder-of-images-to-webp-locally-no-upload-one-command-42od",
+      "pubDate": "2026-07-11T07:40:47.000Z",
+      "description": "<p>Every few months I hit the same wall: a folder full of <code>.jpg</code> and <code>.png</code> files that need to be WebP before they go anywhere near production. And every few months I catch myself doing the dumbest possible thing — dragging them one by one into some online converter, waiting fo",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Two weekends into a Chrome side panel: the four state bugs that took longer than the UI",
-      "link": "https://dev.to/cwsaibuddy/two-weekends-into-a-chrome-side-panel-the-four-state-bugs-that-took-longer-than-the-ui-3m1j",
-      "pubDate": "2026-07-11T03:17:47.000Z",
-      "description": "<p>I shipped the first public build of a Chrome extension two weekends ago. The marketing-ready UI took me about six hours. The four state bugs below took me the rest of those two weekends, plus parts of the following week.</p> <p>I am writing this down because every reviewer of \"I built an X in Y h",
+      "title": "Tired of heavy decorators/DI just to keep a TypeScript API organized? ZinTrust gives you structure without the ceremony: minimal core, explicit wiring, type-first ergonomics, no Express required. Kick the tires in 2 min — and tell me what's confusing. 👇",
+      "link": "https://dev.to/diadal/tired-of-heavy-decoratorsdi-just-to-keep-a-typescript-api-organized-zintrust-gives-you-structure-1lda",
+      "pubDate": "2026-07-11T07:39:53.000Z",
+      "description": "<div class=\"ltag__link--embedded\"> <div class=\"crayons-story \"> <a href=\"https://dev.to/zintrustjs/zintrust-a-typescript-backend-framework-for-structure-without-decorators-198n\" class=\"crayons-story__hidden-navigation-link\">ZinTrust: a TypeScript backend framework for structure without decorators</a",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Why the Scams Prevention Framework Requires More Than Awareness",
-      "link": "https://dev.to/valendim/why-the-scams-prevention-framework-requires-more-than-awareness-127m",
-      "pubDate": "2026-07-11T03:14:44.000Z",
-      "description": "<p>For years, scam prevention has relied on a familiar instruction: educate people so they can recognise danger before they act. Public campaigns warn consumers not to click unexpected links, disclose security codes, transfer money under pressure, or trust unsolicited contact. This advice remains us",
+      "title": "Moving MySQL, Postgres, SQLite, or SQL Server to Cloudflare D1? @zintrust/d1-migrator does it resumably — checkpoints, row-count + checksum verification, dry-run preview, and zero downtime. No more silent data loss halfway through a million-row import.",
+      "link": "https://dev.to/diadal/moving-mysql-postgres-sqlite-or-sql-server-to-cloudflare-d1-zintrustd1-migrator-does-it-1p51",
+      "pubDate": "2026-07-11T07:36:20.000Z",
+      "description": "<div class=\"ltag__link--embedded\"> <div class=\"crayons-story \"> <a href=\"https://dev.to/zintrustjs/migrate-mysql-postgres-sqlite-or-sql-server-to-cloudflare-d1-with-checkpoints-and-integrity-pkd\" class=\"crayons-story__hidden-navigation-link\">Migrate MySQL, Postgres, SQLite, or SQL Server to Cloudfla",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "My Abandoned Cricket Kit Confronted Me. So I Built It a Voice",
-      "link": "https://dev.to/himanshu_748/my-abandoned-cricket-kit-confronted-me-so-i-built-it-a-voice-ph1",
-      "pubDate": "2026-07-11T03:10:15.000Z",
-      "description": "<p><em>This is a submission for the <a href=\"https://dev.to/challenges/weekend-2026-07-09\">DEV Weekend Challenge: Passion Edition</a>.</em></p> <h2> What I Built </h2> <p>Everyone will tell you about the passions they have. Nobody talks about the ones they quit.</p> <p>I played cricket every evening",
+      "title": "Connect Redis, Postgres, and MySQL to Serverless Apps Over HTTPS",
+      "link": "https://dev.to/zintrustjs/connect-redis-postgres-and-mysql-to-serverless-apps-over-https-cg",
+      "pubDate": "2026-07-11T07:28:49.000Z",
+      "description": "<p>Serverless and edge runtimes are great until your app needs a normal TCP database connection.</p> <p>ZedGi works with:</p> <ul> <li> <strong>TypeScript / JavaScript SDK</strong>: Cloudflare Workers, Vercel Edge, Deno, Bun, Node.js, AWS Lambda, and any runtime with <code>fetch</code>.</li> <li> <s",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Planting a Future Breaking Change Today: A launchd Timer Job That Deletes Itself When Done",
-      "link": "https://dev.to/bokuwalily/planting-a-future-breaking-change-today-a-launchd-timer-job-that-deletes-itself-when-done-53li",
-      "pubDate": "2026-07-11T03:08:06.000Z",
-      "description": "<p>This is a follow-up to my earlier post, \"<a href=\"https://zenn.dev/bokuwalily/articles/one-shot-launchd-migration\" rel=\"noopener noreferrer\">Automating a config migration with a one-shot launchd job</a>.\" Some breaking changes come with a known expiration date, and you can prepare for them long b",
+      "title": "What edge cases would you test for stablecoin checkout webhooks?",
+      "link": "https://dev.to/chainpaytopoetic/what-edge-cases-would-you-test-for-stablecoin-checkout-webhooks-12df",
+      "pubDate": "2026-07-11T07:27:18.000Z",
+      "description": "<p>I'm building ChainPay, a stablecoin checkout for WooCommerce, SaaS products, Telegram sellers, and agent workflows.</p> <p>The wallet UI is only one part of the problem. The part I keep coming back to is payment state: webhook retries, late payments, partial payments, duplicated events, and what ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Kill the Server: Why Holepunch Threw Away Node.js and Built 'Bare'",
-      "link": "https://dev.to/aniket_misra_e47d1564ab7b/kill-the-server-why-holepunch-threw-away-nodejs-and-built-bare-3gdi",
-      "pubDate": "2026-07-11T03:07:00.000Z",
-      "description": "<p>When the Holepunch team set out to build Pear—a decentralized, peer-to-peer application runtime—they started with the obvious choice: Node.js. </p> <p>Node is the undisputed king of JavaScript outside the browser. It has a massive ecosystem, a battle-tested asynchronous event loop (<code>libuv</c",
+      "title": "6 Months Later, Nobody Could Read the Code — Including Me",
+      "link": "https://dev.to/moonshot_1341/6-months-later-nobody-could-read-the-code-including-me-4p98",
+      "pubDate": "2026-07-11T07:25:17.000Z",
+      "description": "<p>Six months after shipping the BOGO deals app, I opened the codebase to add one small feature and spent 4 days just trying to remember what I'd built.</p> <h2> The Feature That Started as a Tuesday Task </h2> <p>The request was simple. A handful of users wanted push notifications when a new deal d",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Show HN: We beat Cloudflare's bot detection (open-source stealth browser)",
-      "link": "https://tilion.dev/blog/cloudflare-blocks-agents",
-      "pubDate": "2026-07-11T00:26:16.000Z",
-      "description": "Article URL: https://tilion.dev/blog/cloudflare-blocks-agents Comments URL: https://news.ycombinator.com/item?id=48867124 Points: 6 # Comments: 0",
+      "title": "What's the best way to do authentication in modern applications",
+      "link": "https://neciudan.dev/most-secure-way-to-store-auth-token",
+      "pubDate": "2026-07-11T06:09:33.000Z",
+      "description": "Article URL: https://neciudan.dev/most-secure-way-to-store-auth-token Comments URL: https://news.ycombinator.com/item?id=48869243 Points: 34 # Comments: 9",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "The vintage beauty of Soviet control rooms (2018)",
+      "link": "https://designyoutrust.com/2018/01/vintage-beauty-soviet-control-rooms/",
+      "pubDate": "2026-07-11T05:19:41.000Z",
+      "description": "Article URL: https://designyoutrust.com/2018/01/vintage-beauty-soviet-control-rooms/ Comments URL: https://news.ycombinator.com/item?id=48868996 Points: 55 # Comments: 18",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -96,7 +104,7 @@
       "title": "Einstein's relativity rules chemical bonds in heavy elements, new research shows",
       "link": "https://www.brown.edu/news/2026-07-09/chemical-bonds-relativity",
       "pubDate": "2026-07-10T22:30:44.000Z",
-      "description": "Article URL: https://www.brown.edu/news/2026-07-09/chemical-bonds-relativity Comments URL: https://news.ycombinator.com/item?id=48866134 Points: 136 # Comments: 47",
+      "description": "https://www.science.org/doi/10.1126/science.aei1285 Comments URL: https://news.ycombinator.com/item?id=48866134 Points: 210 # Comments: 76",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -112,7 +120,7 @@
       "title": "Apple sues OpenAI, accuses ex-employees of stealing trade secrets",
       "link": "https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft/",
       "pubDate": "2026-07-10T20:47:09.000Z",
-      "description": "https://www.macrumors.com/2026/07/10/apple-sues-openai/ Comments URL: https://news.ycombinator.com/item?id=48865019 Points: 669 # Comments: 326",
+      "description": "https://www.macrumors.com/2026/07/10/apple-sues-openai/ Comments URL: https://news.ycombinator.com/item?id=48865019 Points: 980 # Comments: 493",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -120,7 +128,7 @@
       "title": "GhostLock, a stack-UAF that has existed in ALL Linux distributions for 15 years",
       "link": "https://nebusec.ai/research/ionstack-part-2/",
       "pubDate": "2026-07-10T20:43:02.000Z",
-      "description": "Article URL: https://nebusec.ai/research/ionstack-part-2/ Comments URL: https://news.ycombinator.com/item?id=48864969 Points: 47 # Comments: 10",
+      "description": "Article URL: https://nebusec.ai/research/ionstack-part-2/ Comments URL: https://news.ycombinator.com/item?id=48864969 Points: 74 # Comments: 16",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -128,15 +136,7 @@
       "title": "An update on residential proxies and the scraper situation",
       "link": "https://lwn.net/SubscriberLink/1080822/990a8a5e2d379085/",
       "pubDate": "2026-07-10T19:38:34.000Z",
-      "description": "Article URL: https://lwn.net/SubscriberLink/1080822/990a8a5e2d379085/ Comments URL: https://news.ycombinator.com/item?id=48864252 Points: 119 # Comments: 105",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "How the terrorist group Boko Haram uses frontier AI",
-      "link": "https://casp.ac/reports/ai-enabled-terrorism",
-      "pubDate": "2026-07-10T18:49:26.000Z",
-      "description": "Article URL: https://casp.ac/reports/ai-enabled-terrorism Comments URL: https://news.ycombinator.com/item?id=48863707 Points: 190 # Comments: 161",
+      "description": "Article URL: https://lwn.net/SubscriberLink/1080822/990a8a5e2d379085/ Comments URL: https://news.ycombinator.com/item?id=48864252 Points: 181 # Comments: 172",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -144,7 +144,7 @@
       "title": "GPT-5.6 Sol Ultra produces proof of the Cycle Double Cover Conjecture [pdf]",
       "link": "https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf",
       "pubDate": "2026-07-10T18:29:19.000Z",
-      "description": "https://x.com/__eknight__/status/2075643450196971805, https://xcancel.com/__eknight__/status/2075643450196971805Prompt: https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98... Comments URL: https://news.ycombinator.com/item?id=48863490 Points: 377 # Comments: 301",
+      "description": "https://x.com/__eknight__/status/2075643450196971805, https://xcancel.com/__eknight__/status/2075643450196971805Prompt: https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98... Comments URL: https://news.ycombinator.com/item?id=48863490 Points: 439 # Comments: 357",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -152,7 +152,7 @@
       "title": "New York City to ban deceptive subscription practices",
       "link": "https://www.theguardian.com/us-news/2026/jul/10/new-york-city-deceptive-subscriptions-ban",
       "pubDate": "2026-07-10T18:26:24.000Z",
-      "description": "https://www.nyc.gov/mayors-office/news/2026/07/mayor-mamdani... Comments URL: https://news.ycombinator.com/item?id=48863464 Points: 452 # Comments: 228",
+      "description": "https://www.nyc.gov/mayors-office/news/2026/07/mayor-mamdani... Comments URL: https://news.ycombinator.com/item?id=48863464 Points: 502 # Comments: 251",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -160,7 +160,7 @@
       "title": "War Atlas: An interactive cartography of every named war in human history",
       "link": "https://waratlas.org",
       "pubDate": "2026-07-10T17:52:48.000Z",
-      "description": "Article URL: https://waratlas.org Comments URL: https://news.ycombinator.com/item?id=48863080 Points: 127 # Comments: 58",
+      "description": "Article URL: https://waratlas.org Comments URL: https://news.ycombinator.com/item?id=48863080 Points: 145 # Comments: 61",
       "source": "Hacker News",
       "category": "Tech News"
     },
