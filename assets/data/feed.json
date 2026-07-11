@@ -1,94 +1,118 @@
 {
-  "generatedAt": "2026-07-11T08:14:33.588Z",
+  "generatedAt": "2026-07-11T13:54:37.641Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "Scraping Booking.com Without Touching the Search Box (City Landings + the Apollo Cache)",
-      "link": "https://dev.to/jdpg23/scraping-bookingcom-without-touching-the-search-box-city-landings-the-apollo-cache-b7f",
-      "pubDate": "2026-07-11T08:00:14.000Z",
-      "description": "<p>Booking.com does not want bots, and it shows. Every plain HTTP request, any client, any proxy, gets absorbed by AWS WAF with a 202 that never resolves into content. There is no getting around a real browser here, which makes this the most expensive scrape in my portfolio. What kept the project al",
+      "title": "Setting Up a Local AI Coding Agent with Ollama and Aider",
+      "link": "https://dev.to/eleonorarocchi/setting-up-a-local-ai-coding-agent-with-ollama-and-aider-1jdi",
+      "pubDate": "2026-07-11T13:41:12.000Z",
+      "description": "<p>Over the past few months, I've experimented with several workflows for using LLMs in software development. In this article, I describe the local setup I've validated on my own PC: Ollama running on Windows, Aider inside Ubuntu on WSL2, and a code-focused model running entirely on the local machin",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Build a Crypto PaymentOps Service for Merchants",
-      "link": "https://dev.to/kevins1988/build-a-crypto-paymentops-service-for-merchants-3io2",
-      "pubDate": "2026-07-11T07:55:01.000Z",
-      "description": "<p>Most developers look at a payment API and think about checkout.</p> <p>Create an invoice. Redirect the customer. Receive a webhook. Mark the order as paid.</p> <p>That is useful, but it is not where the deeper business opportunity is.</p> <p>Merchants do not only need a way to accept crypto payme",
+      "title": "Taming the Python and VS Code Workspace Environment",
+      "link": "https://dev.to/nextbigcreative/taming-the-python-and-vs-code-workspace-environment-23po",
+      "pubDate": "2026-07-11T13:23:41.000Z",
+      "description": "<p>The Setup Blueprint<br> Constructing a reliable Python pipeline in VS Code requires anchoring the system with isolated environments. After deploying the editor and core extensions, the workflow shifts to generating a distinct environment layer. Linking the terminal profile to initialize this spac",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "10 Crypto Payment Products Developers Can Build for Merchants",
-      "link": "https://dev.to/kevins1988/10-crypto-payment-products-developers-can-build-for-merchants-2cbj",
-      "pubDate": "2026-07-11T07:54:47.000Z",
-      "description": "<p>Most developers see a payment API and think about one thing: checkout.</p> <p>Create an invoice. Redirect the customer. Wait for a callback. Mark the order as paid.</p> <p>That is useful, but it is only the first layer.</p> <p>The bigger opportunity is not simply helping merchants accept crypto p",
+      "title": "# I built 62 free browser tools in one website — no uploads, no sign-ups, works offline",
+      "link": "https://dev.to/sophia_anjum_0509b2bb7049/-i-built-62-free-browser-tools-in-one-website-no-uploads-no-sign-ups-works-offline-3cia",
+      "pubDate": "2026-07-11T13:21:49.000Z",
+      "description": "<p>I got tired of a routine most of us know too well: you need to merge two PDFs, or shrink an image, or make a QR code — so you Google it, land on some ad-covered site, and it asks you to upload your file to their server and maybe \"create a free account\" before giving you the result.</p> <p>For a 1",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I Hardcoded a Recursion Demo Into My Binary Converter and I Regret Nothing",
-      "link": "https://dev.to/patrick_mbithi_/i-hardcoded-a-recursion-demo-into-my-binary-converter-and-i-regret-nothing-2k9n",
-      "pubDate": "2026-07-11T07:49:49.000Z",
-      "description": "<p>I built a decimal-to-binary converter and then, for no good reason, decided that if you typed in the number 5, it should not just show you the answer. It should show you the call stack.</p> <p>Here's the actual conversion logic. Nothing fancy:<br> </p> <div class=\"highlight js-code-highlight\"> <p",
+      "title": "Will your tracker still exist next year? Switching-cost anxiety, and the one-command exit",
+      "link": "https://dev.to/radial/will-your-tracker-still-exist-next-year-switching-cost-anxiety-and-the-one-command-exit-1e5e",
+      "pubDate": "2026-07-11T13:13:30.000Z",
+      "description": "<p>You are not really deciding whether a tracker is good today. You are betting on whether it will still be the tracker you want a year from now, after the funding round, the acquisition, the pivot to an AI platform, or the quiet shutdown email. That bet is the real cost of adopting a tool, and almo",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Convert a whole folder of images to WebP — locally, no upload, one command",
-      "link": "https://dev.to/nathmaxx/convert-a-whole-folder-of-images-to-webp-locally-no-upload-one-command-42od",
-      "pubDate": "2026-07-11T07:40:47.000Z",
-      "description": "<p>Every few months I hit the same wall: a folder full of <code>.jpg</code> and <code>.png</code> files that need to be WebP before they go anywhere near production. And every few months I catch myself doing the dumbest possible thing — dragging them one by one into some online converter, waiting fo",
+      "title": "[BLOG] Most AI brand names fail one boring test",
+      "link": "https://dev.to/nat_rattanasak_d4c9fc56/blog-most-ai-brand-names-fail-one-boring-test-2nnl",
+      "pubDate": "2026-07-11T13:12:11.000Z",
+      "description": "<h1> Most AI brand names fail one boring test </h1> <h2> Hook </h2> <p>187 domain checks. 4 rounds. 16% actually available. The other 84% were pretty names that will never be a business.</p> <h2> Problem </h2> <p>Founders spend three days generating names with AI. The list looks great. Then the .com",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Tired of heavy decorators/DI just to keep a TypeScript API organized? ZinTrust gives you structure without the ceremony: minimal core, explicit wiring, type-first ergonomics, no Express required. Kick the tires in 2 min — and tell me what's confusing. 👇",
-      "link": "https://dev.to/diadal/tired-of-heavy-decoratorsdi-just-to-keep-a-typescript-api-organized-zintrust-gives-you-structure-1lda",
-      "pubDate": "2026-07-11T07:39:53.000Z",
-      "description": "<div class=\"ltag__link--embedded\"> <div class=\"crayons-story \"> <a href=\"https://dev.to/zintrustjs/zintrust-a-typescript-backend-framework-for-structure-without-decorators-198n\" class=\"crayons-story__hidden-navigation-link\">ZinTrust: a TypeScript backend framework for structure without decorators</a",
+      "title": "Authorization Explained: What Really Happens Before Your Card Payment Is Approved?",
+      "link": "https://dev.to/eunice-js/authorization-explained-what-really-happens-before-your-card-payment-is-approved-3po",
+      "pubDate": "2026-07-11T13:06:39.000Z",
+      "description": "<blockquote> <p><em>A deep dive into the first stage of every card payment.</em></p> </blockquote> <p>Most of us have made a card payment and seen the familiar message:</p> <blockquote> <p><strong>Transaction Successful</strong></p> </blockquote> <p>The entire process takes only a few seconds.</p> <",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Moving MySQL, Postgres, SQLite, or SQL Server to Cloudflare D1? @zintrust/d1-migrator does it resumably — checkpoints, row-count + checksum verification, dry-run preview, and zero downtime. No more silent data loss halfway through a million-row import.",
-      "link": "https://dev.to/diadal/moving-mysql-postgres-sqlite-or-sql-server-to-cloudflare-d1-zintrustd1-migrator-does-it-1p51",
-      "pubDate": "2026-07-11T07:36:20.000Z",
-      "description": "<div class=\"ltag__link--embedded\"> <div class=\"crayons-story \"> <a href=\"https://dev.to/zintrustjs/migrate-mysql-postgres-sqlite-or-sql-server-to-cloudflare-d1-with-checkpoints-and-integrity-pkd\" class=\"crayons-story__hidden-navigation-link\">Migrate MySQL, Postgres, SQLite, or SQL Server to Cloudfla",
+      "title": "What is SAML? A Complete Guide for API and Identity Engineers",
+      "link": "https://dev.to/realnamehidden1_61/what-is-saml-a-complete-guide-for-api-and-identity-engineers-3hp1",
+      "pubDate": "2026-07-11T13:06:36.000Z",
+      "description": "<h1> Introduction </h1> <p>If you've worked with enterprise APIs, you've probably heard statements like:</p> <ul> <li><em>\"Our application uses SAML SSO.\"</em></li> <li><em>\"The Identity Provider will send a SAML Assertion.\"</em></li> <li><em>\"Configure SAML between Okta and the application.\"</em></",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Connect Redis, Postgres, and MySQL to Serverless Apps Over HTTPS",
-      "link": "https://dev.to/zintrustjs/connect-redis-postgres-and-mysql-to-serverless-apps-over-https-cg",
-      "pubDate": "2026-07-11T07:28:49.000Z",
-      "description": "<p>Serverless and edge runtimes are great until your app needs a normal TCP database connection.</p> <p>ZedGi works with:</p> <ul> <li> <strong>TypeScript / JavaScript SDK</strong>: Cloudflare Workers, Vercel Edge, Deno, Bun, Node.js, AWS Lambda, and any runtime with <code>fetch</code>.</li> <li> <s",
+      "title": "Why UUIDs Belong in Every Developer's Toolbelt (Not Just Your Database)",
+      "link": "https://dev.to/zhihu_wu_dea1d82af01a04d7/why-uuids-belong-in-every-developers-toolbelt-not-just-your-database-4jdd",
+      "pubDate": "2026-07-11T13:04:51.000Z",
+      "description": "<p>Most developers first encounter UUIDs when setting up database primary keys. But UUIDs solve problems far beyond the database — and once you start using them, you'll wonder why you ever reached for auto-increment.</p> <h2> The Problem with Sequential IDs </h2> <p>Auto-increment IDs are fast and s",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "What edge cases would you test for stablecoin checkout webhooks?",
-      "link": "https://dev.to/chainpaytopoetic/what-edge-cases-would-you-test-for-stablecoin-checkout-webhooks-12df",
-      "pubDate": "2026-07-11T07:27:18.000Z",
-      "description": "<p>I'm building ChainPay, a stablecoin checkout for WooCommerce, SaaS products, Telegram sellers, and agent workflows.</p> <p>The wallet UI is only one part of the problem. The part I keep coming back to is payment state: webhook retries, late payments, partial payments, duplicated events, and what ",
+      "title": "Semantic/Hybrid Search in the Browser",
+      "link": "https://bart.degoe.de/semantic-search-in-your-browser/",
+      "pubDate": "2026-07-11T13:04:35.000Z",
+      "description": "Article URL: https://bart.degoe.de/semantic-search-in-your-browser/ Comments URL: https://news.ycombinator.com/item?id=48871716 Points: 4 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Rust: a linguagem do futuro para blockchain — por André Dias Moreira Prol",
+      "link": "https://dev.to/andr_diasmoreiraprol_b/rust-a-linguagem-do-futuro-para-blockchain-por-andre-dias-moreira-prol-3f6o",
+      "pubDate": "2026-07-11T13:01:07.000Z",
+      "description": "<p>Quando comecei a estudar Rust há alguns anos, confesso que estranhei sua curva de aprendizado. Hoje, depois de aplicá-la em projetos de tokenização na blockchain Stellar e em sistemas críticos de perícia digital, tenho convicção: estamos diante da linguagem que vai redefinir como construímos infr",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "6 Months Later, Nobody Could Read the Code — Including Me",
-      "link": "https://dev.to/moonshot_1341/6-months-later-nobody-could-read-the-code-including-me-4p98",
-      "pubDate": "2026-07-11T07:25:17.000Z",
-      "description": "<p>Six months after shipping the BOGO deals app, I opened the codebase to add one small feature and spent 4 days just trying to remember what I'd built.</p> <h2> The Feature That Started as a Tuesday Task </h2> <p>The request was simple. A handful of users wanted push notifications when a new deal d",
+      "title": "You're Not Paying for Compute. You're Paying for Memory Bandwidth",
+      "link": "https://dev.to/aiexplore369zoho/youre-not-paying-for-compute-youre-paying-for-memory-bandwidth-3b5h",
+      "pubDate": "2026-07-11T13:00:52.000Z",
+      "description": "<blockquote> <p><strong>TL;DR—</strong> Inference cost conversations obsess over FLOPs and token prices, but the real constraint on LLM serving is memory bandwidth— specifically the cost of moving the KV cache in and out of GPU memory on every decode step. Teams that optimize for compute utilization",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "What's the best way to do authentication in modern applications",
-      "link": "https://neciudan.dev/most-secure-way-to-store-auth-token",
-      "pubDate": "2026-07-11T06:09:33.000Z",
-      "description": "Article URL: https://neciudan.dev/most-secure-way-to-store-auth-token Comments URL: https://news.ycombinator.com/item?id=48869243 Points: 34 # Comments: 9",
+      "title": "Networking and the Internet, from First Principles",
+      "link": "https://fazamhd.com/mental-models/networking/",
+      "pubDate": "2026-07-11T12:30:40.000Z",
+      "description": "Article URL: https://fazamhd.com/mental-models/networking/ Comments URL: https://news.ycombinator.com/item?id=48871470 Points: 67 # Comments: 29",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "FCC Approves Test of Space Mirror to Light Night Sky Despite Outcry",
+      "link": "https://www.nytimes.com/2026/07/10/climate/fcc-space-mirror.html",
+      "pubDate": "2026-07-11T12:12:34.000Z",
+      "description": "Article URL: https://www.nytimes.com/2026/07/10/climate/fcc-space-mirror.html Comments URL: https://news.ycombinator.com/item?id=48871367 Points: 24 # Comments: 13",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Your code is fast – if you're lucky",
+      "link": "https://tiki.li/blog/lucky_code.html",
+      "pubDate": "2026-07-11T10:50:10.000Z",
+      "description": "Article URL: https://tiki.li/blog/lucky_code.html Comments URL: https://news.ycombinator.com/item?id=48870799 Points: 47 # Comments: 9",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -96,7 +120,7 @@
       "title": "The vintage beauty of Soviet control rooms (2018)",
       "link": "https://designyoutrust.com/2018/01/vintage-beauty-soviet-control-rooms/",
       "pubDate": "2026-07-11T05:19:41.000Z",
-      "description": "Article URL: https://designyoutrust.com/2018/01/vintage-beauty-soviet-control-rooms/ Comments URL: https://news.ycombinator.com/item?id=48868996 Points: 55 # Comments: 18",
+      "description": "Article URL: https://designyoutrust.com/2018/01/vintage-beauty-soviet-control-rooms/ Comments URL: https://news.ycombinator.com/item?id=48868996 Points: 149 # Comments: 49",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -104,7 +128,7 @@
       "title": "Einstein's relativity rules chemical bonds in heavy elements, new research shows",
       "link": "https://www.brown.edu/news/2026-07-09/chemical-bonds-relativity",
       "pubDate": "2026-07-10T22:30:44.000Z",
-      "description": "https://www.science.org/doi/10.1126/science.aei1285 Comments URL: https://news.ycombinator.com/item?id=48866134 Points: 210 # Comments: 76",
+      "description": "https://www.science.org/doi/10.1126/science.aei1285 Comments URL: https://news.ycombinator.com/item?id=48866134 Points: 300 # Comments: 120",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -120,15 +144,7 @@
       "title": "Apple sues OpenAI, accuses ex-employees of stealing trade secrets",
       "link": "https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft/",
       "pubDate": "2026-07-10T20:47:09.000Z",
-      "description": "https://www.macrumors.com/2026/07/10/apple-sues-openai/ Comments URL: https://news.ycombinator.com/item?id=48865019 Points: 980 # Comments: 493",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "GhostLock, a stack-UAF that has existed in ALL Linux distributions for 15 years",
-      "link": "https://nebusec.ai/research/ionstack-part-2/",
-      "pubDate": "2026-07-10T20:43:02.000Z",
-      "description": "Article URL: https://nebusec.ai/research/ionstack-part-2/ Comments URL: https://news.ycombinator.com/item?id=48864969 Points: 74 # Comments: 16",
+      "description": "https://www.macrumors.com/2026/07/10/apple-sues-openai/ Comments URL: https://news.ycombinator.com/item?id=48865019 Points: 1241 # Comments: 661",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -136,7 +152,7 @@
       "title": "An update on residential proxies and the scraper situation",
       "link": "https://lwn.net/SubscriberLink/1080822/990a8a5e2d379085/",
       "pubDate": "2026-07-10T19:38:34.000Z",
-      "description": "Article URL: https://lwn.net/SubscriberLink/1080822/990a8a5e2d379085/ Comments URL: https://news.ycombinator.com/item?id=48864252 Points: 181 # Comments: 172",
+      "description": "Article URL: https://lwn.net/SubscriberLink/1080822/990a8a5e2d379085/ Comments URL: https://news.ycombinator.com/item?id=48864252 Points: 243 # Comments: 244",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -144,23 +160,7 @@
       "title": "GPT-5.6 Sol Ultra produces proof of the Cycle Double Cover Conjecture [pdf]",
       "link": "https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf",
       "pubDate": "2026-07-10T18:29:19.000Z",
-      "description": "https://x.com/__eknight__/status/2075643450196971805, https://xcancel.com/__eknight__/status/2075643450196971805Prompt: https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98... Comments URL: https://news.ycombinator.com/item?id=48863490 Points: 439 # Comments: 357",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "New York City to ban deceptive subscription practices",
-      "link": "https://www.theguardian.com/us-news/2026/jul/10/new-york-city-deceptive-subscriptions-ban",
-      "pubDate": "2026-07-10T18:26:24.000Z",
-      "description": "https://www.nyc.gov/mayors-office/news/2026/07/mayor-mamdani... Comments URL: https://news.ycombinator.com/item?id=48863464 Points: 502 # Comments: 251",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "War Atlas: An interactive cartography of every named war in human history",
-      "link": "https://waratlas.org",
-      "pubDate": "2026-07-10T17:52:48.000Z",
-      "description": "Article URL: https://waratlas.org Comments URL: https://news.ycombinator.com/item?id=48863080 Points: 145 # Comments: 61",
+      "description": "https://x.com/__eknight__/status/2075643450196971805, https://xcancel.com/__eknight__/status/2075643450196971805Prompt: https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98... Comments URL: https://news.ycombinator.com/item?id=48863490 Points: 485 # Comments: 394",
       "source": "Hacker News",
       "category": "Tech News"
     },
