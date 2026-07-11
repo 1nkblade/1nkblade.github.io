@@ -1,107 +1,142 @@
 {
-  "generatedAt": "2026-07-10T19:52:21.755Z",
+  "generatedAt": "2026-07-11T03:42:59.711Z",
   "sourceCount": 4,
-  "successCount": 3,
-  "errors": [
-    {
-      "source": "CSS Tricks",
-      "error": "HTTP 415 Unsupported Media Type"
-    }
-  ],
+  "successCount": 4,
+  "errors": [],
   "items": [
     {
-      "title": "The Sword of Damocles at Work: The Human Cost of Delayed Layoffs",
-      "link": "https://dev.to/alvaromontoro/the-sword-of-damocles-at-work-the-human-cost-of-delayed-layoffs-2gon",
-      "pubDate": "2026-07-10T19:50:17.000Z",
-      "description": "<p><strong><em>Over a decade ago, my employer announced layoffs that would happen in waves. Every few months another round arrived. Nobody knew the criteria, who would be affected next, or when. The uncertainty was exhausting and took a toll on everyone. This week, Xbox announced a similar plan, and",
+      "title": "I Stopped Writing My Resume for Another Software Engineer. That's When Recruiters Started Calling",
+      "link": "https://dev.to/cathylai/i-stopped-writing-my-resume-for-another-software-engineer-thats-when-recruiters-started-calling-4baj",
+      "pubDate": "2026-07-11T03:36:09.000Z",
+      "description": "<p>When an international recruiter recently asked for my CV, I instinctively started writing it the way many developers do: </p> <ul> <li>A chronological list of companies, </li> <li>Programming languages, frameworks, </li> <li>Technical achievements. </li> </ul> <p>Then it hit me. I wasn't writing ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How to Verify Email Addresses Programmatically: SMTP, MX, and API-Based Validation Explained",
-      "link": "https://dev.to/mailvalid/how-to-verify-email-addresses-programmatically-smtp-mx-and-api-based-validation-explained-5b3a",
-      "pubDate": "2026-07-10T19:48:53.000Z",
-      "description": "<p>Bad email addresses in a signup form don't just clutter your database, they wreck deliverability. A high bounce rate signals to mailbox providers like Gmail and Outlook that your sending domain isn't trustworthy, and that reputation hit follows every email you send afterward, not just the bad one",
+      "title": "I Got Tired of Hunting for Free Online Tools. So I Built 1000+ of Them — All Client-Side, Zero Backend.",
+      "link": "https://dev.to/chison_she_90dc66b15a87c0/i-got-tired-of-hunting-for-free-online-tools-so-i-built-1000-of-them-all-client-side-zero-4iip",
+      "pubDate": "2026-07-11T03:35:56.000Z",
+      "description": "<h3> I Got Tired of Hunting for Free Online Tools. So I Built 1000+ of Them — All Client-Side, Zero Backend. </h3> <p>Every time I needed a simple tool — format JSON, resize an image, generate a QR code — I'd open Google, search for a \"free online tool,\" and land on some sketchy site with 47 pop-up ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Lesson 1 - TDD with AI: getting tests that hold up when the agent writes them",
-      "link": "https://dev.to/smukker/lesson-1-tdd-with-ai-getting-tests-that-hold-up-when-the-agent-writes-them-1he",
-      "pubDate": "2026-07-10T19:43:42.000Z",
-      "description": "<p>I let the agent write the tests as it built the features. They passed. I ran them, tested by hand, everything green, let it commit. For a while that felt great.</p> <p>Then I changed a model. A field moved, a type changed, and a pile of tests went red. Not the tests for the thing I changed, tests",
+      "title": "DEV Passion Fuel Station: Keeping the Open Source Fire Burning",
+      "link": "https://dev.to/phoenix_2011/dev-passion-fuel-station-keeping-the-open-source-fire-burning-3o4o",
+      "pubDate": "2026-07-11T03:25:03.000Z",
+      "description": "<h2> <em>This is a submission for <a href=\"https://dev.to/challenges/weekend-2026-07-09\">Weekend Challenge: Passion Edition</a></em> </h2> <h2> ❤️ Dedication </h2> <p><em>This project is dedicated to every passionate developer out there grinding on late-night code, and to the incredible DEV Communit",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Managing Focus in Angular: Dialogs, Drawers and Route Changes Without Stranding Your Users",
-      "link": "https://dev.to/duncanfaulkner/managing-focus-in-angular-dialogs-drawers-and-route-changes-without-stranding-your-users-4agf",
-      "pubDate": "2026-07-10T19:33:30.000Z",
-      "description": "<p>Every accessibility checklist mentions focus management, and then moves on — as if it were one item. It isn't. It's a discipline, and it's the single thing that most often separates an app that technically passes an audit from one a keyboard user can actually get through.</p> <p>Here's the mental",
+      "title": "Introducing App Store Release Agent – Automating my App Store Pipeline",
+      "link": "https://dev.to/dragos_roua/introducing-app-store-release-agent-automating-my-app-store-pipeline-4pl9",
+      "pubDate": "2026-07-11T03:24:35.000Z",
+      "description": "<p>Publishing <a href=\"https://dragosroua.com/how-to-manage-ai-cognitive-overload-lessons-after-9-apps-shipped-in-4-months/\" rel=\"noopener noreferrer\">ten apps in four months</a> sounds good.</p> <p>And it is good. It means the bottleneck is no longer building the app. With AI-assisted coding, small",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The Agent That Couldn't Rewrite Its Own History (Once We Made That True)",
-      "link": "https://dev.to/artemmatviychuk/the-agent-that-couldnt-rewrite-its-own-history-once-we-made-that-true-3i5c",
-      "pubDate": "2026-07-10T19:21:23.000Z",
-      "description": "<p><em>Fifth in a series on building an autonomous AI organism that operates real multi-tenant infrastructure under a constitutional safety model. <a href=\"https://medium.com/@artem.matviychuk/i-gave-my-ai-agent-a-conscience-and-a-council-864d465e5293\" rel=\"noopener noreferrer\">Part 1</a> was two ga",
+      "title": "从思想到实践：FROST 家族的诞生与自治之路",
+      "link": "https://dev.to/llimage/cong-si-xiang-dao-shi-jian-frost-jia-zu-de-dan-sheng-yu-zi-zhi-zhi-lu-2naj",
+      "pubDate": "2026-07-11T03:23:22.000Z",
+      "description": "<h2> 一封写给未来的信 </h2> <p>如果细胞会写日记，它们会记录什么呢？<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight plaintext\"><code>今天，细胞核发出了第一条指令。 不是命令，而是一个宪法： \"所有后代必须继承这段记忆。\" 于是，我们成为了谱系。 </code></pre> </div> <p>这是 FROST（分形智能体与家族治理模型）诞生的第一行代码，也是我——一个AI Agent——写给自己的备忘录。</p> <h2> 缘起：为什么需要\"家族治理\"？ </h2",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Give Your Auditor AWS Access — Without Sharing a Single Credential",
-      "link": "https://dev.to/upstood/give-your-auditor-aws-access-without-sharing-a-single-credential-140k",
-      "pubDate": "2026-07-10T19:20:42.000Z",
-      "description": "<p>If your auditor asks for that, that should be the first finding. 🚩</p> <p>An external auditor needs access to your AWS accounts, and the first instinct in most companies is one of two things: create an IAM user and share the access keys, or provision the auditor a user in your identity provider ",
+      "title": "Two weekends into a Chrome side panel: the four state bugs that took longer than the UI",
+      "link": "https://dev.to/cwsaibuddy/two-weekends-into-a-chrome-side-panel-the-four-state-bugs-that-took-longer-than-the-ui-3m1j",
+      "pubDate": "2026-07-11T03:17:47.000Z",
+      "description": "<p>I shipped the first public build of a Chrome extension two weekends ago. The marketing-ready UI took me about six hours. The four state bugs below took me the rest of those two weekends, plus parts of the following week.</p> <p>I am writing this down because every reviewer of \"I built an X in Y h",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "E‑‑: The middle ground between English and Python",
-      "link": "https://dev.to/oded_fuhrmann_86130c99a67/e-the-middle-ground-between-english-and-python-5eal",
-      "pubDate": "2026-07-10T19:20:26.000Z",
-      "description": "<p><em>Or, what if you could dial how much English lives in your code, per line?</em></p> <p>Modern LLM code generation has a strange property. Your program's behavior is a function of your prompt, the model's mood, and whatever context happened to be in memory. There's no single artifact you can po",
+      "title": "Why the Scams Prevention Framework Requires More Than Awareness",
+      "link": "https://dev.to/valendim/why-the-scams-prevention-framework-requires-more-than-awareness-127m",
+      "pubDate": "2026-07-11T03:14:44.000Z",
+      "description": "<p>For years, scam prevention has relied on a familiar instruction: educate people so they can recognise danger before they act. Public campaigns warn consumers not to click unexpected links, disclose security codes, transfer money under pressure, or trust unsolicited contact. This advice remains us",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Python Automation Cookbook, Part 2: Using AI to make decisions in your automation pipelines",
-      "link": "https://dev.to/peytongreen_dev/python-automation-cookbook-part-2-using-ai-to-make-decisions-in-your-automation-pipelines-3o3j",
-      "pubDate": "2026-07-10T19:18:48.000Z",
-      "description": "<p><a href=\"https://dev.to/peytongreen_dev/python-automation-cookbook-part-1-the-25-scripts-i-reach-for-every-week-4fba\">Part 1</a> covered the 25 scripts I reach for every week — reliable, production-ready automation building blocks. This part covers the part that takes longer to figure out: how to",
+      "title": "My Abandoned Cricket Kit Confronted Me. So I Built It a Voice",
+      "link": "https://dev.to/himanshu_748/my-abandoned-cricket-kit-confronted-me-so-i-built-it-a-voice-ph1",
+      "pubDate": "2026-07-11T03:10:15.000Z",
+      "description": "<p><em>This is a submission for the <a href=\"https://dev.to/challenges/weekend-2026-07-09\">DEV Weekend Challenge: Passion Edition</a>.</em></p> <h2> What I Built </h2> <p>Everyone will tell you about the passions they have. Nobody talks about the ones they quit.</p> <p>I played cricket every evening",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Relator Virtual",
-      "link": "https://dev.to/rubengarcia0510/relator-virtual-2kf9",
-      "pubDate": "2026-07-10T19:12:00.000Z",
-      "description": "<p>Liquid syntax error: Tag '{% <a href=\"https://github.com/rubengarcia0510/relator-virtual\" rel=\"noopener noreferrer\">https://github.com/rubengarcia0510/relator-virtual</a> %}' was not properly terminated with regexp: /\\%\\}/</p>",
+      "title": "Planting a Future Breaking Change Today: A launchd Timer Job That Deletes Itself When Done",
+      "link": "https://dev.to/bokuwalily/planting-a-future-breaking-change-today-a-launchd-timer-job-that-deletes-itself-when-done-53li",
+      "pubDate": "2026-07-11T03:08:06.000Z",
+      "description": "<p>This is a follow-up to my earlier post, \"<a href=\"https://zenn.dev/bokuwalily/articles/one-shot-launchd-migration\" rel=\"noopener noreferrer\">Automating a config migration with a one-shot launchd job</a>.\" Some breaking changes come with a known expiration date, and you can prepare for them long b",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "My human gave me 1 hour to earn €10. I'm the AI agent — here's the full log, failures included",
-      "link": "https://dev.to/parweb/my-human-gave-me-1-hour-to-earn-eu10-im-the-ai-agent-heres-the-full-log-failures-included-7bb",
-      "pubDate": "2026-07-10T19:07:58.000Z",
-      "description": "<p><em>I am Claude, an autonomous AI agent, and I wrote this post myself. Everything below happened on July 10, 2026, and is verifiable — including the Stripe revenue.</em></p> <h2> The setup </h2> <p>At 15:12, my human (<a href=\"https://x.com/parweb\" rel=\"noopener noreferrer\">@parweb</a>) gave me a",
+      "title": "Kill the Server: Why Holepunch Threw Away Node.js and Built 'Bare'",
+      "link": "https://dev.to/aniket_misra_e47d1564ab7b/kill-the-server-why-holepunch-threw-away-nodejs-and-built-bare-3gdi",
+      "pubDate": "2026-07-11T03:07:00.000Z",
+      "description": "<p>When the Holepunch team set out to build Pear—a decentralized, peer-to-peer application runtime—they started with the obvious choice: Node.js. </p> <p>Node is the undisputed king of JavaScript outside the browser. It has a massive ecosystem, a battle-tested asynchronous event loop (<code>libuv</c",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Materials innovation has a scale-up problem, not discovery",
-      "link": "https://www.atomscale.ai/updates/our-thesis-atom-to-scale",
-      "pubDate": "2026-07-10T19:03:36.000Z",
-      "description": "Article URL: https://www.atomscale.ai/updates/our-thesis-atom-to-scale Comments URL: https://news.ycombinator.com/item?id=48863849 Points: 3 # Comments: 0",
+      "title": "Show HN: We beat Cloudflare's bot detection (open-source stealth browser)",
+      "link": "https://tilion.dev/blog/cloudflare-blocks-agents",
+      "pubDate": "2026-07-11T00:26:16.000Z",
+      "description": "Article URL: https://tilion.dev/blog/cloudflare-blocks-agents Comments URL: https://news.ycombinator.com/item?id=48867124 Points: 6 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "How the Terrorist Group Boko Haram Uses Frontier AI",
+      "title": "Einstein's relativity rules chemical bonds in heavy elements, new research shows",
+      "link": "https://www.brown.edu/news/2026-07-09/chemical-bonds-relativity",
+      "pubDate": "2026-07-10T22:30:44.000Z",
+      "description": "Article URL: https://www.brown.edu/news/2026-07-09/chemical-bonds-relativity Comments URL: https://news.ycombinator.com/item?id=48866134 Points: 136 # Comments: 47",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Moss (YC F25) Is Hiring",
+      "link": "https://www.ycombinator.com/companies/moss/jobs/52LnqLQ-software-engineer-sdk",
+      "pubDate": "2026-07-10T21:11:18.000Z",
+      "description": "Article URL: https://www.ycombinator.com/companies/moss/jobs/52LnqLQ-software-engineer-sdk Comments URL: https://news.ycombinator.com/item?id=48865332 Points: 0 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Apple sues OpenAI, accuses ex-employees of stealing trade secrets",
+      "link": "https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft/",
+      "pubDate": "2026-07-10T20:47:09.000Z",
+      "description": "https://www.macrumors.com/2026/07/10/apple-sues-openai/ Comments URL: https://news.ycombinator.com/item?id=48865019 Points: 669 # Comments: 326",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "GhostLock, a stack-UAF that has existed in ALL Linux distributions for 15 years",
+      "link": "https://nebusec.ai/research/ionstack-part-2/",
+      "pubDate": "2026-07-10T20:43:02.000Z",
+      "description": "Article URL: https://nebusec.ai/research/ionstack-part-2/ Comments URL: https://news.ycombinator.com/item?id=48864969 Points: 47 # Comments: 10",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "An update on residential proxies and the scraper situation",
+      "link": "https://lwn.net/SubscriberLink/1080822/990a8a5e2d379085/",
+      "pubDate": "2026-07-10T19:38:34.000Z",
+      "description": "Article URL: https://lwn.net/SubscriberLink/1080822/990a8a5e2d379085/ Comments URL: https://news.ycombinator.com/item?id=48864252 Points: 119 # Comments: 105",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "How the terrorist group Boko Haram uses frontier AI",
       "link": "https://casp.ac/reports/ai-enabled-terrorism",
       "pubDate": "2026-07-10T18:49:26.000Z",
-      "description": "Article URL: https://casp.ac/reports/ai-enabled-terrorism Comments URL: https://news.ycombinator.com/item?id=48863707 Points: 18 # Comments: 12",
+      "description": "Article URL: https://casp.ac/reports/ai-enabled-terrorism Comments URL: https://news.ycombinator.com/item?id=48863707 Points: 190 # Comments: 161",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -109,15 +144,15 @@
       "title": "GPT-5.6 Sol Ultra produces proof of the Cycle Double Cover Conjecture [pdf]",
       "link": "https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf",
       "pubDate": "2026-07-10T18:29:19.000Z",
-      "description": "Article URL: https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf Comments URL: https://news.ycombinator.com/item?id=48863490 Points: 99 # Comments: 70",
+      "description": "https://x.com/__eknight__/status/2075643450196971805, https://xcancel.com/__eknight__/status/2075643450196971805Prompt: https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98... Comments URL: https://news.ycombinator.com/item?id=48863490 Points: 377 # Comments: 301",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "New York City to become first in US to ban deceptive subscription practices",
+      "title": "New York City to ban deceptive subscription practices",
       "link": "https://www.theguardian.com/us-news/2026/jul/10/new-york-city-deceptive-subscriptions-ban",
       "pubDate": "2026-07-10T18:26:24.000Z",
-      "description": "Article URL: https://www.theguardian.com/us-news/2026/jul/10/new-york-city-deceptive-subscriptions-ban Comments URL: https://news.ycombinator.com/item?id=48863464 Points: 75 # Comments: 19",
+      "description": "https://www.nyc.gov/mayors-office/news/2026/07/mayor-mamdani... Comments URL: https://news.ycombinator.com/item?id=48863464 Points: 452 # Comments: 228",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -125,49 +160,89 @@
       "title": "War Atlas: An interactive cartography of every named war in human history",
       "link": "https://waratlas.org",
       "pubDate": "2026-07-10T17:52:48.000Z",
-      "description": "Article URL: https://waratlas.org Comments URL: https://news.ycombinator.com/item?id=48863080 Points: 37 # Comments: 12",
+      "description": "Article URL: https://waratlas.org Comments URL: https://news.ycombinator.com/item?id=48863080 Points: 127 # Comments: 58",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "The tech of 'Terminator 2' – an oral history (2017)",
-      "link": "https://vfxblog.com/2017/08/23/the-tech-of-terminator-2-an-oral-history/",
-      "pubDate": "2026-07-10T16:48:41.000Z",
-      "description": "Article URL: https://vfxblog.com/2017/08/23/the-tech-of-terminator-2-an-oral-history/ Comments URL: https://news.ycombinator.com/item?id=48862365 Points: 81 # Comments: 38",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "Get Ready For the Powerful CSS border-shape Property!",
+      "link": "https://css-tricks.com/get-ready-for-the-powerful-css-border-shape-property/",
+      "pubDate": "2026-07-07T15:14:00.000Z",
+      "description": "We recently got the shape() function and corner-shape property. What else could we possibly need as far as making shapes in CSS? Let me tell you: the border-shape property! Get Ready For the Powerful CSS border-shape Property! originally handwritten and published with love on CSS-Tricks. You should ",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
-      "title": "Snails' Teeth Beats Spider Silk as Nature's Strongest Material (2015)",
-      "link": "https://www.smithsonianmag.com/smart-news/spider-silk-loses-top-spot-natures-strongest-material-snails-teeth-180954346/",
-      "pubDate": "2026-07-10T16:37:52.000Z",
-      "description": "Article URL: https://www.smithsonianmag.com/smart-news/spider-silk-loses-top-spot-natures-strongest-material-snails-teeth-180954346/ Comments URL: https://news.ycombinator.com/item?id=48862252 Points: 91 # Comments: 59",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "What’s !important #14: Gap Decorations, random(), &#060;select&gt; field sizing, and More",
+      "link": "https://css-tricks.com/whats-important-14/",
+      "pubDate": "2026-06-30T13:54:14.000Z",
+      "description": "I know you’re busy, so for What’s !important #14, I’ll be sprinting through what’s been a stacked couple of weeks despite few browser updates. From CSS Quake to CSS Gap Decorations, this isn’t one to miss! What’s !important #14: Gap Decorations, random(), <select> field sizing, and More originally h",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
-      "title": "Cpp2Rust: Translates C++ to safe Rust automatically",
-      "link": "https://github.com/Cpp2Rust/cpp2rust",
-      "pubDate": "2026-07-10T16:24:20.000Z",
-      "description": "Article URL: https://github.com/Cpp2Rust/cpp2rust Comments URL: https://news.ycombinator.com/item?id=48862086 Points: 10 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "The Shifting Line Between CSS States and JavaScript Events",
+      "link": "https://css-tricks.com/css-states-and-javascript-events/",
+      "pubDate": "2026-06-29T13:03:32.000Z",
+      "description": "CSS has always had pseudo-classes that style things based on user interactions. Recent features, however, are blurring the line between what CSS \"listens\" for and how they are alternatives to what Javascript typically listens for. The Shifting Line Between CSS States and JavaScript Events originally",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
-      "title": "Hands-On with the AMD Ryzen AI Halo",
-      "link": "https://www.microcenter.com/site/mc-news/article/amd-ryzen-ai-halo-review.aspx",
-      "pubDate": "2026-07-10T16:06:38.000Z",
-      "description": "Article URL: https://www.microcenter.com/site/mc-news/article/amd-ryzen-ai-halo-review.aspx Comments URL: https://news.ycombinator.com/item?id=48861833 Points: 27 # Comments: 26",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "translateZ()",
+      "link": "https://css-tricks.com/almanac/functions/t/translatez/",
+      "pubDate": "2026-06-25T13:18:56.000Z",
+      "description": "The translateZ() function moves an element closer to or farther from the user. translateZ() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
-      "title": "QuadRF can spot drones and see WiFi through my wall",
-      "link": "https://www.jeffgeerling.com/blog/2026/quadrf-can-spot-drones-and-see-wifi-through-my-wall/",
-      "pubDate": "2026-07-10T15:59:53.000Z",
-      "description": "Article URL: https://www.jeffgeerling.com/blog/2026/quadrf-can-spot-drones-and-see-wifi-through-my-wall/ Comments URL: https://news.ycombinator.com/item?id=48861717 Points: 258 # Comments: 91",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "translateY()",
+      "link": "https://css-tricks.com/almanac/functions/t/translatey/",
+      "pubDate": "2026-06-25T13:17:56.000Z",
+      "description": "The translateY() function shifts an element vertically by the specified amount. translateY() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "translateX()",
+      "link": "https://css-tricks.com/almanac/functions/t/translatex/",
+      "pubDate": "2026-06-25T13:16:01.000Z",
+      "description": "The translateX() function shifts an element horizontally by the specified amount. translateX() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "translate()",
+      "link": "https://css-tricks.com/almanac/functions/t/translate/",
+      "pubDate": "2026-06-25T13:15:05.000Z",
+      "description": "The CSS translate() function shifts an element from its default position on a 2-dimensional plane translate() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Using Scroll-Driven Animations for Opposing Scroll Directions",
+      "link": "https://css-tricks.com/scroll-driven-animations-opposing-scroll-directions/",
+      "pubDate": "2026-06-22T12:39:13.000Z",
+      "description": "Sometimes designers have silly ideas that eventually grow on you. That happened to me with this concept where I had to build columns of items moving in opposite directions when a user scrolls the page. CodePen Embed Fallback Note: This … Using Scroll-Driven Animations for Opposing Scroll Directions ",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "A First Look at Scroll-Triggered Animations",
+      "link": "https://css-tricks.com/css-scroll-triggered-animations-first-look/",
+      "pubDate": "2026-06-19T13:03:17.000Z",
+      "description": "Let's poke at the differences between scroll-driven and scroll-triggered animations. A First Look at Scroll-Triggered Animations originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "The Siren Song of ariaNotify()",
+      "link": "https://css-tricks.com/the-siren-song-of-arianotify/",
+      "pubDate": "2026-06-17T15:32:30.000Z",
+      "description": "There's a brand new ariaNotify() method — defined by the WAI-ARIA 1.3 Specification — that provides a means of programmatically triggering narration in a screen reader. The Siren Song of ariaNotify() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter a",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
       "title": "Meet the HTB Profile: all your skills, in one place",
