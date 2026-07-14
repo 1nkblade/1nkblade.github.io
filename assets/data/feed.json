@@ -1,102 +1,134 @@
 {
-  "generatedAt": "2026-07-14T03:34:05.680Z",
+  "generatedAt": "2026-07-14T08:27:59.170Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "Privatise your Data Streams with Bring Your Own Cloud (BYOC)",
-      "link": "https://dev.to/zeliotofficial/privatise-your-data-streams-with-bring-your-own-cloud-byoc-4f8d",
-      "pubDate": "2026-07-14T03:25:10.000Z",
-      "description": "<h2> TL;DR </h2> <p>Traditional SaaS streaming requires exporting sensitive data to a vendor cloud, creating security risks and egress costs. BYOC reverses this model by running the data plane inside the customer’s cloud while the vendor manages the control plane. This keeps data within the enterpri",
+      "title": "Neura has Amazon, Nvidia and Europe's Sovereign Capital in its Corner. The Humanoid Race just got geopolitical.",
+      "link": "https://dev.to/xberry-tech/neura-has-amazon-nvidia-and-europes-sovereign-capital-in-its-corner-the-humanoid-race-just-got-4cnk",
+      "pubDate": "2026-07-14T08:20:38.000Z",
+      "description": "<blockquote> <p>Neura Robotics closed $1.4B from Amazon, Nvidia, Qualcomm, Bosch, and the European Investment Bank. LimX Dynamics announced a $200M pre-IPO round. Chinese humanoids are heading to public markets. The warehouse now runs itself. Physical AI stopped being a technology race and became an",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Fix Docker Exit Code 137 (OOMKilled): Why It Happens and How to Stop It",
-      "link": "https://dev.to/jjoyneriv/fix-docker-exit-code-137-oomkilled-why-it-happens-and-how-to-stop-it-4ipf",
-      "pubDate": "2026-07-14T03:21:09.000Z",
-      "description": "<p>Your container died and <code>docker ps -a</code> shows something like <code>Exited (137) 4 minutes ago</code>. Nine times out of ten that's the kernel's OOM killer, not your app crashing on its own. Here's what exit code 137 actually means and how I go about stopping it from happening again.</p>",
+      "title": "Typemock Releases Isolator++ 5.4.5 with Expanded Linux Support, Visual Studio 2026 Integration, and Improved Runtime Reliability",
+      "link": "https://dev.to/ncsm_pr_d8911c7b6fc8c3829/typemock-releases-isolator-545-with-expanded-linux-support-visual-studio-2026-integration-and-26lh",
+      "pubDate": "2026-07-14T08:16:18.000Z",
+      "description": "<p>New release helps C++ teams test confidently across more compilers, modern development environments, and Visual Studio 2026<br> TEL AVIV, Israel – July 13, 2026 – Typemock, a leading provider of unit testing solutions, today announced the release of Isolator++ 5.4.5, helping development teams tes",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The Problem: The \"Extract-Edit-Recompress\" Loop",
-      "link": "https://dev.to/mystrowin/the-problem-the-extract-edit-recompress-loop-28og",
-      "pubDate": "2026-07-14T03:13:00.000Z",
-      "description": "<p>We've all been there. You have a compressed file, you need to change one tiny thing inside it, so you:</p> <p>Extract the whole thing.<br> Find the file and edit it.<br> Delete the old archive.<br> Re-compress the folder.<br> It’s a waste of time and storage. I wanted something that felt more lik",
+      "title": "Unify Web and Mobile Development with OTF's Cross-Platform Components",
+      "link": "https://dev.to/davekurian/unify-web-and-mobile-development-with-otfs-cross-platform-components-3fjg",
+      "pubDate": "2026-07-14T08:07:52.000Z",
+      "description": "<p>I've shipped three Buttons to production. The web one lives in your JS bundle. The iOS one is a SwiftUI view. The Android one is a Compose composable. They all say \"Primary\". None of them look the same.</p> <p>That is the cross-platform tax. You don't see it on day one. You see it in month six — ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "CTF Players: Quick File Sharing Setup for Your Team",
-      "link": "https://dev.to/simpledrop/ctf-players-quick-file-sharing-setup-for-your-team-59dg",
-      "pubDate": "2026-07-14T03:10:57.000Z",
-      "description": "<p>CTF competitions move fast. You find an exploit, grab a config file, capture a flag screenshot —<br> and then spend the next two minutes figuring out how to get it to your teammate.</p> <p>Here's a practical breakdown of file sharing methods, from raw CLI to dedicated tools,<br> so you can stay f",
+      "title": "I Made My Voice Agent Feel Faster by Streaming Sentences, Not Audio",
+      "link": "https://dev.to/toddsullivan/i-made-my-voice-agent-feel-faster-by-streaming-sentences-not-audio-4jej",
+      "pubDate": "2026-07-14T08:05:39.000Z",
+      "description": "<p>The annoying thing about voice agents is that “the model is fast” does not mean the experience is fast.</p> <p>I had a small voice assistant running on a local device, talking to a hosted chat backend. The actual LLM call was only one part of the wait. The full path looked more like this:</p> <ol",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Lesson 0 - Learning to build with AI: where I learned not to trust it",
-      "link": "https://dev.to/smukker/lesson-0-learning-to-build-with-ai-where-i-learned-not-to-trust-it-49hf",
-      "pubDate": "2026-07-14T03:08:09.000Z",
-      "description": "<p>After publishing the first lesson, I realized I should have started the series with why I started to build with AI, what I learned, and how it shaped my view of software development in the age of AI.</p> <p>I've led engineering teams for about 25 years. Lately I've been back in the code myself. O",
+      "title": "How to Scrape Trip.com and Ctrip Hotel Reviews in 2026 (Python + a No-Code Shortcut)",
+      "link": "https://dev.to/factden/how-to-scrape-tripcom-and-ctrip-hotel-reviews-in-2026-python-a-no-code-shortcut-in6",
+      "pubDate": "2026-07-14T08:00:07.000Z",
+      "description": "<p>Most \"Trip.com scrapers\" only see half the picture. <a href=\"https://www.trip.com\" rel=\"noopener noreferrer\">Trip.com</a> is the international brand, but the same hotel usually has a much larger pool of reviews on its Chinese-domestic sibling, <code>hotels.ctrip.com</code> (携程). If you want hones",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "3 Claude Bugs That Anthropic Still Hasn't Fixed",
-      "link": "https://dev.to/heyradcode/3-claude-bugs-that-anthropic-still-hasnt-fixed-2dpp",
-      "pubDate": "2026-07-14T02:56:03.000Z",
-      "description": "<p>I've been using Claude for a long time, and overall, I think Anthropic has built one of the best AI products available today.</p> <p>But over the past few months, I encountered three product bugs that surprised me.</p> <p>None of them are catastrophic, but what stood out is that these issues rema",
+      "title": "Git is the Developer Tool We All Take for Granted",
+      "link": "https://dev.to/flutwiz/git-is-the-developer-tool-we-all-take-for-granted-2aak",
+      "pubDate": "2026-07-14T07:56:59.000Z",
+      "description": "<p>Every year we get a new framework, AI model, or editor to talk about.</p> <p>But one tool has quietly stayed at the center of software development for nearly two decades:</p> <p><strong>Git.</strong></p> <p>It's more than version control.</p> <p>Every commit tells a story.</p> <p>Every branch is ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The Unspoken Grief of Switching From a Language You Loved",
-      "link": "https://dev.to/_boweii/the-unspoken-grief-of-switching-from-a-language-you-loved-2o3k",
-      "pubDate": "2026-07-14T02:55:21.000Z",
-      "description": "<p>Nobody prepares you for the day you have to leave a programming language behind. There's no ceremony. No goodbye. One day you're writing it fluently, thinking in it, dreaming in its syntax — and the next, a job requirement, a team decision, or a \"the industry has moved on\" forces you into somethi",
+      "title": "How to parse lots of PDFs and more into markdown, with Laravel",
+      "link": "https://dev.to/peter_vandijck_2e476eb9b/how-to-parse-lots-of-pdfs-and-more-into-markdown-with-laravel-5c9h",
+      "pubDate": "2026-07-14T07:56:08.000Z",
+      "description": "<p>You want to ask questions about your own documents from a Laravel app. The AI SDK that shipped with Laravel 13 handles most of it: embeddings, vector queries, agents. What it doesn't handle is the part that comes first, where a user hands you a 40-page scanned PDF and you need clean text out of i",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Testing Against State Drift: Guarding a Config Tool Whose Source of Truth Lives Somewhere Else",
-      "link": "https://dev.to/dobybaxter127/testing-against-state-drift-guarding-a-config-tool-whose-source-of-truth-lives-somewhere-else-kgf",
-      "pubDate": "2026-07-14T02:54:49.000Z",
-      "description": "<p><strong>TL;DR</strong> — I maintain a browser-based configuration tool for <a href=\"https://esa.gitlab.io/pyxel/\" rel=\"noopener noreferrer\">ESA's Pyxel</a> detector-simulation framework. Its whole job is to help people write configs that a <em>separate, independently-versioned</em> project will a",
+      "title": "How to Scrape G2 Reviews in 2026 (Python + a No-Code Shortcut)",
+      "link": "https://dev.to/factden/how-to-scrape-g2-reviews-in-2026-python-a-no-code-shortcut-18eb",
+      "pubDate": "2026-07-14T07:52:34.000Z",
+      "description": "<p>If you have tried to <strong>scrape G2 reviews</strong> with a quick <code>requests.get()</code>, you already know how it goes: a <code>403</code>, a CAPTCHA, or a blank page. G2 is one of the tougher public sites to pull at scale. But the data behind it (ratings, structured pros and cons, and wh",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Stratagems #13: P Posted a Question on a Public Forum. 24 Hours Later, Their Sales Team Called.",
-      "link": "https://dev.to/xulingfeng/stratagems-13-p-posted-a-question-on-a-public-forum-24-hours-later-their-sales-team-called-29h1",
-      "pubDate": "2026-07-14T02:54:49.000Z",
-      "description": "<blockquote> <p><em>Startle the snake by striking the grass.</em><br> — The 36 Stratagems, <a href=\"https://en.wikipedia.org/wiki/Thirty-Six_Stratagems#Stomp_the_grass_to_scare_the_snake_(%E6%89%93%E8%8D%89%E9%A9%9A%E8%9B%87,_D%C7%8E_c%C7%8Eo_j%C4%ABng_sh%C3%A9)\" rel=\"noopener noreferrer\">Stomp the ",
+      "title": "Panduan Teknikal: Compile llama.cpp di Debian 12/13 dan Cross Compile ARM64",
+      "link": "https://dev.to/hardyweb/panduan-teknikal-compile-llamacpp-di-debian-1213-dan-cross-compile-arm64-1pj3",
+      "pubDate": "2026-07-14T07:52:24.000Z",
+      "description": "<p><strong>1. Pengenalan</strong></p> <p>llama.cpp ialah runtime inference LLM berasaskan C/C++ yang popular kerana ringan, pantas, dan sesuai untuk menjalankan model GGUF secara local. Ia boleh digunakan pada:</p> <p>Server x86_64<br> Workstation Linux<br> Mini PC<br> Raspberry Pi<br> Orange Pi<br>",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "8 Azure Interview Questions That Reveal Who's Actually Run a Subscription",
-      "link": "https://dev.to/maheshbandaru_ba8cc2/8-azure-interview-questions-that-reveal-whos-actually-run-a-subscription-13fm",
-      "pubDate": "2026-07-14T02:51:54.000Z",
-      "description": "<p>I once sat across from a candidate who'd listed \"Azure\" four separate times on his resume — AZ-104, three years of \"cloud infrastructure,\" the works. I asked him to walk me through what happens when you assign a Contributor role at the subscription level versus the resource group level, and he we",
+      "title": "Improving UX in Three.js 'Scroll Me' Websites: Addressing Common Pitfalls for Better User Engagement",
+      "link": "https://dev.to/maxgeris/improving-ux-in-threejs-scroll-me-websites-addressing-common-pitfalls-for-better-user-engagement-5d7e",
+      "pubDate": "2026-07-14T07:51:10.000Z",
+      "description": "<h2> Introduction: The Allure and Pitfalls of Three.js 'Scroll Me' Websites </h2> <p>Three.js \"scroll me\" websites are digital marvels—visually stunning, pushing the boundaries of what web design can achieve. They’re like interactive art installations, blending 3D graphics with scrolling narratives ",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "OpenAI's Ad Business Is on Pace to Miss Its Own Forecast by 90%, Analyst Says",
+      "link": "https://www.adweek.com/media/openais-ad-business-is-on-pace-to-miss-its-own-forecast-by-90-analyst-says/",
+      "pubDate": "2026-07-14T05:21:02.000Z",
+      "description": "Article URL: https://www.adweek.com/media/openais-ad-business-is-on-pace-to-miss-its-own-forecast-by-90-analyst-says/ Comments URL: https://news.ycombinator.com/item?id=48902599 Points: 46 # Comments: 30",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Australian energy retailers must provide three hours of free daytime electricity",
+      "link": "https://lenergy.com.au/free-daytime-electricity-is-coming-heres-how-it-actually-works/",
+      "pubDate": "2026-07-14T04:31:48.000Z",
+      "description": "Article URL: https://lenergy.com.au/free-daytime-electricity-is-coming-heres-how-it-actually-works/ Comments URL: https://news.ycombinator.com/item?id=48902320 Points: 54 # Comments: 67",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "YouTrackDB is a general-use object-oriented graph database",
+      "link": "https://github.com/JetBrains/youtrackdb",
+      "pubDate": "2026-07-14T03:39:55.000Z",
+      "description": "Article URL: https://github.com/JetBrains/youtrackdb Comments URL: https://news.ycombinator.com/item?id=48902026 Points: 102 # Comments: 28",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Our Amish Language",
+      "link": "https://www.thedial.world/articles/news/amish-pennsylvania-dutch",
+      "pubDate": "2026-07-14T02:40:41.000Z",
+      "description": "Article URL: https://www.thedial.world/articles/news/amish-pennsylvania-dutch Comments URL: https://news.ycombinator.com/item?id=48901645 Points: 42 # Comments: 19",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "Japan develops a method to recover up to 90% of lithium from used EV batteries",
       "link": "https://tech.supercarblondie.com/japan-recovers-up-to-90-of-lithium-from-used-ev-batteries/",
       "pubDate": "2026-07-14T02:27:20.000Z",
-      "description": "Article URL: https://tech.supercarblondie.com/japan-recovers-up-to-90-of-lithium-from-used-ev-batteries/ Comments URL: https://news.ycombinator.com/item?id=48901569 Points: 24 # Comments: 0",
+      "description": "Article URL: https://tech.supercarblondie.com/japan-recovers-up-to-90-of-lithium-from-used-ev-batteries/ Comments URL: https://news.ycombinator.com/item?id=48901569 Points: 401 # Comments: 96",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Fundamentals of Wireless Communication",
+      "title": "Fundamentals of Wireless Communication (2005)",
       "link": "https://web.stanford.edu/~dntse/wireless_book.html",
       "pubDate": "2026-07-14T02:10:19.000Z",
-      "description": "Article URL: https://web.stanford.edu/~dntse/wireless_book.html Comments URL: https://news.ycombinator.com/item?id=48901454 Points: 27 # Comments: 2",
+      "description": "Article URL: https://web.stanford.edu/~dntse/wireless_book.html Comments URL: https://news.ycombinator.com/item?id=48901454 Points: 121 # Comments: 4",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -104,15 +136,7 @@
       "title": "Satellite Tracker – Live Map of Starlink and 30k Satellites",
       "link": "https://satellitemap.space/",
       "pubDate": "2026-07-14T01:55:24.000Z",
-      "description": "Article URL: https://satellitemap.space/ Comments URL: https://news.ycombinator.com/item?id=48901356 Points: 15 # Comments: 4",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "What will be left for us to work on?",
-      "link": "https://www.normaltech.ai/p/what-will-be-left-for-us-to-work",
-      "pubDate": "2026-07-14T01:44:40.000Z",
-      "description": "Article URL: https://www.normaltech.ai/p/what-will-be-left-for-us-to-work Comments URL: https://news.ycombinator.com/item?id=48901292 Points: 32 # Comments: 11",
+      "description": "Article URL: https://satellitemap.space/ Comments URL: https://news.ycombinator.com/item?id=48901356 Points: 75 # Comments: 32",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -120,7 +144,7 @@
       "title": "Building Food Metadata with LLM Juries",
       "link": "https://careersatdoordash.com/blog/building-food-metadata-with-llm-juries-context-optimization-multimodal-ai/",
       "pubDate": "2026-07-14T01:41:49.000Z",
-      "description": "Article URL: https://careersatdoordash.com/blog/building-food-metadata-with-llm-juries-context-optimization-multimodal-ai/ Comments URL: https://news.ycombinator.com/item?id=48901275 Points: 14 # Comments: 0",
+      "description": "Article URL: https://careersatdoordash.com/blog/building-food-metadata-with-llm-juries-context-optimization-multimodal-ai/ Comments URL: https://news.ycombinator.com/item?id=48901275 Points: 35 # Comments: 9",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -128,7 +152,7 @@
       "title": "Is x86 ready to ACE it?",
       "link": "https://chipsandcheese.com/p/is-x86-ready-to-ace-it",
       "pubDate": "2026-07-14T01:36:13.000Z",
-      "description": "Article URL: https://chipsandcheese.com/p/is-x86-ready-to-ace-it Comments URL: https://news.ycombinator.com/item?id=48901235 Points: 14 # Comments: 0",
+      "description": "Article URL: https://chipsandcheese.com/p/is-x86-ready-to-ace-it Comments URL: https://news.ycombinator.com/item?id=48901235 Points: 69 # Comments: 10",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -136,31 +160,7 @@
       "title": "The Economics of Recursive Self-Improvement [pdf]",
       "link": "https://elasticity.institute/rsi-paper.pdf",
       "pubDate": "2026-07-14T01:35:23.000Z",
-      "description": "Article URL: https://elasticity.institute/rsi-paper.pdf Comments URL: https://news.ycombinator.com/item?id=48901224 Points: 18 # Comments: 1",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "MorphoHDL: A minimalistic language for growing circuits",
-      "link": "https://paradigms-of-intelligence.github.io/morpho/",
-      "pubDate": "2026-07-14T01:17:30.000Z",
-      "description": "Article URL: https://paradigms-of-intelligence.github.io/morpho/ Comments URL: https://news.ycombinator.com/item?id=48901126 Points: 26 # Comments: 1",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Show HN: MemStitch – Zero-copy context bridging for vLLM (25x TTFT speedup)",
-      "link": "https://github.com/DaqulaLin/MemStitch",
-      "pubDate": "2026-07-14T01:04:02.000Z",
-      "description": "Article URL: https://github.com/DaqulaLin/MemStitch Comments URL: https://news.ycombinator.com/item?id=48901051 Points: 6 # Comments: 1",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "ESBMC-Arduino: Closing the Deployment Gap for Formal Verification",
-      "link": "https://arxiv.org/abs/2607.08550",
-      "pubDate": "2026-07-14T00:58:55.000Z",
-      "description": "Article URL: https://arxiv.org/abs/2607.08550 Comments URL: https://news.ycombinator.com/item?id=48901020 Points: 5 # Comments: 1",
+      "description": "Article URL: https://elasticity.institute/rsi-paper.pdf Comments URL: https://news.ycombinator.com/item?id=48901224 Points: 82 # Comments: 27",
       "source": "Hacker News",
       "category": "Tech News"
     },
