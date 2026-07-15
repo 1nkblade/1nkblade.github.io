@@ -1,248 +1,97 @@
 {
-  "generatedAt": "2026-07-15T08:35:44.966Z",
+  "generatedAt": "2026-07-15T14:09:58.592Z",
   "sourceCount": 4,
-  "successCount": 4,
-  "errors": [],
+  "successCount": 2,
+  "errors": [
+    {
+      "source": "Hacker News",
+      "error": "fetch failed"
+    },
+    {
+      "source": "CSS Tricks",
+      "error": "HTTP 415 Unsupported Media Type"
+    }
+  ],
   "items": [
     {
-      "title": "Cleanup Functions in useEffect: Stop Leaks Before They Start",
-      "link": "https://dev.to/naserrasouli/cleanup-functions-in-useeffect-stop-leaks-before-they-start-5h54",
-      "pubDate": "2026-07-15T08:30:00.000Z",
-      "description": "<h2> <strong>Introduction</strong> </h2> <p>Almost everyone uses <code>useEffect</code> in React for fetching data, timers, or adding event listeners. The part that causes the most silent bugs is the <code>cleanup</code> function. Skip it or write it incorrectly and you get memory leaks, duplicate h",
+      "title": "Lessons from Embedding an LLM Inside a Drag-and-Drop Editor",
+      "link": "https://dev.to/innocodes/lessons-from-embedding-an-llm-inside-a-drag-and-drop-editor-apm",
+      "pubDate": "2026-07-15T14:00:00.000Z",
+      "description": "<p>When you integrate an AI generation step into a drag-and-drop editor, you face a problem that is rarely discussed in LLM tutorials: <strong>the model's output must be structurally valid, not just semantically good</strong>. A hallucinated CSS class name is a style regression. A hallucinated prop ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "What Makes Healthcare App Testing Different from Every Other App Category",
-      "link": "https://dev.to/drizzdev/what-makes-healthcare-app-testing-different-from-every-other-app-category-4ibn",
-      "pubDate": "2026-07-15T08:19:36.000Z",
-      "description": "<p>A patient opens their prescription and sees 500mg instead of 50mg. A lab report displays \"Normal\" when the value is critically high. A teleconsult disconnects the misdiagnosis, and the prescription is never generated. The doctor's registration number is missing from the prescription, making it le",
+      "title": "Are Bigger AI Models Actually Making Developers Faster?",
+      "link": "https://dev.to/emekaugbanu/are-bigger-ai-models-actually-making-developers-faster-1nom",
+      "pubDate": "2026-07-15T14:00:00.000Z",
+      "description": "<p>It's no secret that AI models have come a long way since the early days. They've become one of the most useful tools available to developers around the world. At this point, AI feels as essential as our IDE. Many of us rely on it daily, and without it we sometimes feel slower or left behind.</p> ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Ask HN: How do you track feedback when you post across multiple places?",
-      "link": "https://news.ycombinator.com/item?id=48917697",
-      "pubDate": "2026-07-15T08:10:27.000Z",
-      "description": "Over the last two years I have been working on multiple projects and when trying to get feedback from people, I kept facing the same problem. I post across multiple platforms - X, Reddit, Facebook, etc and all responses ended up scattered across different places. So I'm wondering if others have the ",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "If You Can't Run It Local, You're Not Ready to Deploy",
-      "link": "https://dev.to/shiva_kadiri/if-you-cant-run-it-local-youre-not-ready-to-deploy-506n",
-      "pubDate": "2026-07-15T08:05:15.000Z",
-      "description": "<p>I'm big on developer experience.</p> <p>As a leader, I want my team to be self-sufficient and handle any edge cases — without waiting on me, a shared staging box, or the one person who \"knows how the env works.\"</p> <p>DX, for me, is operational: short feedback loops, reproducible failures, and a",
+      "title": "What Community Managers Know About First Users That Founders Forget",
+      "link": "https://dev.to/sophiacartvutw/what-community-managers-know-about-first-users-that-founders-forget-2l2m",
+      "pubDate": "2026-07-15T13:55:19.000Z",
+      "description": "<p><em>Disclosure: I do community work in the OpenNomos ecosystem, and 01MVP (<a href=\"https://01mvp.com\" rel=\"noopener noreferrer\">https://01mvp.com</a>) is one of the projects I help support. Opinions below are my own, learned the hard way.</em></p> <p>Founders talk about their \"first 10 users\" as",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "NH:STA S01E06 Reproducible Builds",
-      "link": "https://dev.to/neighbourhoodie/nhsta-s01e06-reproducible-builds-12o2",
-      "pubDate": "2026-07-15T08:00:00.000Z",
-      "description": "<p>This post is part of our series on our work for the <a href=\"https://neighbourhood.ie/blog/2024/06/06/neighbourhoodie-and-the-sovereign-tech-fund\" rel=\"noopener noreferrer\">Sovereign Tech Agency</a> (STA), formerly the Sovereign Tech Fund. Our <a href=\"https://neighbourhood.ie/blog/2024/06/06/nei",
+      "title": "Why I built realtime-calib: real-time, headless multi-camera calibration",
+      "link": "https://dev.to/hans_bourgeois_b17a4e7652/why-i-built-realtime-calib-real-time-headless-multi-camera-calibration-1i2n",
+      "pubDate": "2026-07-15T13:53:49.000Z",
+      "description": "<p>I'm a freelance computer-vision developer with a PhD in human-movement science, and I build applied technology for health, physical activity and sports performance. This is the story of why I ended up writing my own multi-camera calibration tool — and why I open-sourced it.</p> <h2> The dependenc",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "MCP Design Patterns: 6 Architectures for Your AI Tools",
-      "link": "https://dev.to/ben-witt/mcp-design-patterns-6-architectures-for-your-ai-tools-1d02",
-      "pubDate": "2026-07-15T08:00:00.000Z",
-      "description": "<p>The Model Context Protocol is everywhere right now. Everyone is building MCP servers, connecting tools to agents, and exposing internal systems to AI clients.</p> <p>What gets less attention is the architecture behind those servers.</p> <p>An MCP server is not just a template you set up once and ",
+      "title": "The status page you can't fake: measured uptime, not published",
+      "link": "https://dev.to/slima4/the-status-page-you-cant-fake-measured-uptime-not-published-ckp",
+      "pubDate": "2026-07-15T13:50:26.000Z",
+      "description": "<p>A status page is the one dashboard a company publishes about its own service. It is also the one place where the company has a reason to look good. That is a problem. If the page can be edited to look better than reality, it stops being useful. So when you build or choose a status page, ask one t",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "FullAgenticStack: Semantic Behavior Type: LinearAutoDestroy",
-      "link": "https://dev.to/fullagenticstack/fullagenticstack-semantic-behavior-type-linearautodestroy-4bi3",
-      "pubDate": "2026-07-15T07:56:23.000Z",
-      "description": "<p>Existe uma classe inteira de bugs e falhas de segurança que nasce de uma suposição errada: a de que o programador sempre vai lembrar de destruir, invalidar, limpar, revogar ou consumir corretamente um valor sensível depois do seu uso.</p> <p>Essa suposição é fraca.</p> <p>Na minha concepção, uma ",
+      "title": "The Trillion-Parameter RL Paper Is Really About Letting the Model Find the Workflow",
+      "link": "https://dev.to/komo/the-trillion-parameter-rl-paper-is-really-about-letting-the-model-find-the-workflow-2cgp",
+      "pubDate": "2026-07-15T13:45:19.000Z",
+      "description": "<h1> The Trillion-Parameter RL Paper Is Really About Letting the Model Find the Workflow </h1> <p>A new arXiv paper, <em>Ring-Zero: Scaling Zero RL to a Trillion Parameters for Emergent Reasoning</em>, reports a 1T-parameter mixture-of-experts reasoning model trained with reinforcement learning from",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I Merged 348 PRs. Here Are The 11 Bugs That Tested My Sanity.",
-      "link": "https://dev.to/aniruddhaadak/i-merged-348-prs-here-are-the-11-bugs-that-tested-my-sanity-1ne8",
-      "pubDate": "2026-07-15T07:56:07.000Z",
-      "description": "<p>Hey. I am Aniruddha Adak. </p> <p>A final year computer science student coding from a hostel room in West Bengal. </p> <p>Two years ago, I was staring at a blank terminal. I was trying to understand how Git actually worked. I was terrified of merge conflicts. </p> <p>Today, I am looking back at 3",
+      "title": "Why Not Every AI Application Needs Vector Embeddings",
+      "link": "https://dev.to/syed11/why-not-every-ai-application-needs-vector-embeddings-417",
+      "pubDate": "2026-07-15T13:43:40.000Z",
+      "description": "<p><em>How building an AI chapter generator taught me to stop reaching for a vector database first.</em></p> <p>When I started building my AI chapter generator, I spent hours researching vector databases. I was convinced I needed one.</p> <p>I didn't.</p> <h2> The idea </h2> <p>The project was simpl",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Making Film Format Searchable",
-      "link": "https://dev.to/alistairjcbrown/making-film-format-searchable-cgi",
-      "pubDate": "2026-07-15T07:47:00.000Z",
-      "description": "<p>In <a href=\"https://dev.to/alistairjcbrown/i-built-a-film-club-discovery-tool-for-londons-cinema-community-2md\">Making London's hidden film clubs discoverable</a>, I didn't need to scrape new data. The information needed to identify a film club was already sitting in the collected data; in the ti",
+      "title": "The most complete Angular UI library has 35 open accessibility bugs. A fair teardown of PrimeNG on Angular 21.",
+      "link": "https://dev.to/filip_luca_artificial_sense/the-most-complete-angular-ui-library-has-35-open-accessibility-bugs-a-fair-teardown-of-primeng-on-3c44",
+      "pubDate": "2026-07-15T13:42:58.000Z",
+      "description": "<p>PrimeNG calls itself <em>\"the most complete Angular UI component library,\"</em> and points at Fortune 500s and governments as users. It's genuinely one of the most-used libraries in the Angular ecosystem — <strong>12.5k stars</strong>, a release the same week Angular 21 shipped, vendor-backed by ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "RxJS in Angular — Chapter 10 (Final) | Real-World Patterns, Best Practices &amp; Everything That Actually Matters",
-      "link": "https://dev.to/jps27cse/rxjs-in-angular-chapter-10-final-real-world-patterns-best-practices-everything-that-mid",
-      "pubDate": "2026-07-15T07:38:29.000Z",
-      "description": "<h2> 👋 Welcome to the Final Chapter! </h2> <p>You've made it. 🎉</p> <p>Over the past 9 chapters, you've learned Observables, subscribe, pipe, map, filter, tap, switchMap, mergeMap, concatMap, Subject, BehaviorSubject, error handling, combining operators, forms, and timing operators.</p> <p>Now let",
+      "title": "Your AI built something private. A public link is the wrong way to share it.",
+      "link": "https://dev.to/thryvate/your-ai-built-something-private-a-public-link-is-the-wrong-way-to-share-it-138j",
+      "pubDate": "2026-07-15T13:31:51.000Z",
+      "description": "<p>Building with AI got fast. You describe a thing, and a page, a dashboard, a small<br> internal report, or a client-facing microsite comes out. The awkward part is the<br> next step: you want exactly three people to see it, and the default way we share a<br> built thing is a public URL that anyone",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "RAG vs Fine-tuning",
-      "link": "https://dev.to/vahid_aghajani_60ce9dbec9/rag-vs-fine-tuning-2m64",
-      "pubDate": "2026-07-15T07:35:10.000Z",
-      "description": "<blockquote> <p>📺 Prefer to watch? <a href=\"https://youtu.be/71z_IxAmvYI\" rel=\"noopener noreferrer\">90-second YouTube Short</a> · 💬 <a href=\"https://t.me/SoftwareEngineerBlog\" rel=\"noopener noreferrer\">Telegram</a></p> </blockquote> <p><em>Originally published on <a href=\"https://software-engineer",
+      "title": "17 PRs a Day, One QA: How We Automated E2E Failure Triage",
+      "link": "https://dev.to/denis_skvortsov/17-prs-a-day-one-qa-how-we-automated-e2e-failure-triage-260g",
+      "pubDate": "2026-07-15T13:30:13.000Z",
+      "description": "<p>Picture this: 18 AI-augmented developers merging an average of 17 pull requests every working day — 33 on the peak day. And at the time, exactly one QA engineer watching over all of it. The fact that things didn't fall apart daily looks like a miracle. Spoiler: it's not a miracle, it's e2e tests ",
       "source": "Dev.to Feed",
       "category": "Development"
-    },
-    {
-      "title": "Who's running all those tiny RPKI servers?",
-      "link": "https://blog.apnic.net/2026/07/15/whos-running-all-those-tiny-rpki-servers/",
-      "pubDate": "2026-07-15T06:38:56.000Z",
-      "description": "Article URL: https://blog.apnic.net/2026/07/15/whos-running-all-those-tiny-rpki-servers/ Comments URL: https://news.ycombinator.com/item?id=48917055 Points: 4 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "I tricked Claude into leaking your deepest, darkest secrets",
-      "link": "https://www.ayush.digital/blog/the-memory-heist",
-      "pubDate": "2026-07-15T06:28:00.000Z",
-      "description": "Article URL: https://www.ayush.digital/blog/the-memory-heist Comments URL: https://news.ycombinator.com/item?id=48916975 Points: 178 # Comments: 70",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "RISC-V Is Inevitable: State of the Union Keynote Argues",
-      "link": "https://www.eetimes.com/risc-v-is-inevitable-state-of-the-union-keynote-argues/",
-      "pubDate": "2026-07-15T06:02:17.000Z",
-      "description": "Article URL: https://www.eetimes.com/risc-v-is-inevitable-state-of-the-union-keynote-argues/ Comments URL: https://news.ycombinator.com/item?id=48916805 Points: 38 # Comments: 12",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Jurassic Park computers in excruciating detail",
-      "link": "https://fabiensanglard.net/jurrasic_park_computers/index.html",
-      "pubDate": "2026-07-15T02:57:47.000Z",
-      "description": "Article URL: https://fabiensanglard.net/jurrasic_park_computers/index.html Comments URL: https://news.ycombinator.com/item?id=48915709 Points: 359 # Comments: 86",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "TS-2026-009: Insecure argument handling in Tailscale SSH permitted root access",
-      "link": "https://tailscale.com/security-bulletins",
-      "pubDate": "2026-07-15T01:08:26.000Z",
-      "description": "Article URL: https://tailscale.com/security-bulletins Comments URL: https://news.ycombinator.com/item?id=48915004 Points: 140 # Comments: 62",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Solving 20 Erdős Problems with 20 Codex Accounts Running in Parallel",
-      "link": "https://www.starfleetmath.com/",
-      "pubDate": "2026-07-15T00:15:56.000Z",
-      "description": "Article URL: https://www.starfleetmath.com/ Comments URL: https://news.ycombinator.com/item?id=48914646 Points: 123 # Comments: 54",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Vancouver PD website features Quick Escape button that wipes itself from history",
-      "link": "https://vpd.ca/",
-      "pubDate": "2026-07-15T00:15:53.000Z",
-      "description": "Article URL: https://vpd.ca/ Comments URL: https://news.ycombinator.com/item?id=48914644 Points: 252 # Comments: 99",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "LeMario: Training a JEPA World Model on Super Mario Bros",
-      "link": "https://www.benjamin-bai.com/projects/lemario",
-      "pubDate": "2026-07-14T22:30:47.000Z",
-      "description": "Article URL: https://www.benjamin-bai.com/projects/lemario Comments URL: https://news.ycombinator.com/item?id=48913763 Points: 89 # Comments: 11",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Probably check on your smart appliances",
-      "link": "https://xeiaso.net/notes/2026/check-your-smart-tv/",
-      "pubDate": "2026-07-14T22:00:41.000Z",
-      "description": "Article URL: https://xeiaso.net/notes/2026/check-your-smart-tv/ Comments URL: https://news.ycombinator.com/item?id=48913457 Points: 61 # Comments: 21",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Get Ready For the Powerful CSS border-shape Property!",
-      "link": "https://css-tricks.com/get-ready-for-the-powerful-css-border-shape-property/",
-      "pubDate": "2026-07-07T15:14:00.000Z",
-      "description": "We recently got the shape() function and corner-shape property. What else could we possibly need as far as making shapes in CSS? Let me tell you: the border-shape property! Get Ready For the Powerful CSS border-shape Property! originally handwritten and published with love on CSS-Tricks. You should ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "What’s !important #14: Gap Decorations, random(), &#060;select&gt; field-sizing, and More",
-      "link": "https://css-tricks.com/whats-important-14/",
-      "pubDate": "2026-06-30T13:54:14.000Z",
-      "description": "I know you’re busy, so for What’s !important #14, I’ll be sprinting through what’s been a stacked couple of weeks despite few browser updates. From CSS Quake to CSS Gap Decorations, this isn’t one to miss! What’s !important #14: Gap Decorations, random(), <select> field-sizing, and More originally h",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "The Shifting Line Between CSS States and JavaScript Events",
-      "link": "https://css-tricks.com/css-states-and-javascript-events/",
-      "pubDate": "2026-06-29T13:03:32.000Z",
-      "description": "CSS has always had pseudo-classes that style things based on user interactions. Recent features, however, are blurring the line between what CSS \"listens\" for and how they are alternatives to what Javascript typically listens for. The Shifting Line Between CSS States and JavaScript Events originally",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translateZ()",
-      "link": "https://css-tricks.com/almanac/functions/t/translatez/",
-      "pubDate": "2026-06-25T13:18:56.000Z",
-      "description": "The translateZ() function moves an element closer to or farther from the user. translateZ() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translateY()",
-      "link": "https://css-tricks.com/almanac/functions/t/translatey/",
-      "pubDate": "2026-06-25T13:17:56.000Z",
-      "description": "The translateY() function shifts an element vertically by the specified amount. translateY() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translateX()",
-      "link": "https://css-tricks.com/almanac/functions/t/translatex/",
-      "pubDate": "2026-06-25T13:16:01.000Z",
-      "description": "The translateX() function shifts an element horizontally by the specified amount. translateX() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translate()",
-      "link": "https://css-tricks.com/almanac/functions/t/translate/",
-      "pubDate": "2026-06-25T13:15:05.000Z",
-      "description": "The CSS translate() function shifts an element from its default position on a 2-dimensional plane translate() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Using Scroll-Driven Animations for Opposing Scroll Directions",
-      "link": "https://css-tricks.com/scroll-driven-animations-opposing-scroll-directions/",
-      "pubDate": "2026-06-22T12:39:13.000Z",
-      "description": "Sometimes designers have silly ideas that eventually grow on you. That happened to me with this concept where I had to build columns of items moving in opposite directions when a user scrolls the page. CodePen Embed Fallback Note: This … Using Scroll-Driven Animations for Opposing Scroll Directions ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "A First Look at Scroll-Triggered Animations",
-      "link": "https://css-tricks.com/css-scroll-triggered-animations-first-look/",
-      "pubDate": "2026-06-19T13:03:17.000Z",
-      "description": "Let's poke at the differences between scroll-driven and scroll-triggered animations. A First Look at Scroll-Triggered Animations originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "The Siren Song of ariaNotify()",
-      "link": "https://css-tricks.com/the-siren-song-of-arianotify/",
-      "pubDate": "2026-06-17T15:32:30.000Z",
-      "description": "There's a brand new ariaNotify() method — defined by the WAI-ARIA 1.3 Specification — that provides a means of programmatically triggering narration in a screen reader. The Siren Song of ariaNotify() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter a",
-      "source": "CSS Tricks",
-      "category": "Frontend"
     },
     {
       "title": "Meet the HTB Profile: all your skills, in one place",
