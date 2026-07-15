@@ -1,97 +1,248 @@
 {
-  "generatedAt": "2026-07-15T14:09:58.592Z",
+  "generatedAt": "2026-07-15T19:36:32.786Z",
   "sourceCount": 4,
-  "successCount": 2,
-  "errors": [
-    {
-      "source": "Hacker News",
-      "error": "fetch failed"
-    },
-    {
-      "source": "CSS Tricks",
-      "error": "HTTP 415 Unsupported Media Type"
-    }
-  ],
+  "successCount": 4,
+  "errors": [],
   "items": [
     {
-      "title": "Lessons from Embedding an LLM Inside a Drag-and-Drop Editor",
-      "link": "https://dev.to/innocodes/lessons-from-embedding-an-llm-inside-a-drag-and-drop-editor-apm",
-      "pubDate": "2026-07-15T14:00:00.000Z",
-      "description": "<p>When you integrate an AI generation step into a drag-and-drop editor, you face a problem that is rarely discussed in LLM tutorials: <strong>the model's output must be structurally valid, not just semantically good</strong>. A hallucinated CSS class name is a style regression. A hallucinated prop ",
+      "title": "7 advanced Claude Code tips from 17 months of intense use",
+      "link": "https://dev.to/ykdap/7-advanced-claude-code-tips-from-17-months-of-intense-use-13ik",
+      "pubDate": "2026-07-15T19:30:13.000Z",
+      "description": "<p>I've been using Claude Code intensely for about 17 months now, and I've ramped it up significantly over the past few months. So I wanted to share some of the more advanced tips I've learned.</p> <h2> 1. Use auto mode </h2> <p>Auto mode lets Claude decide whether a command is safe to run in contex",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Are Bigger AI Models Actually Making Developers Faster?",
-      "link": "https://dev.to/emekaugbanu/are-bigger-ai-models-actually-making-developers-faster-1nom",
-      "pubDate": "2026-07-15T14:00:00.000Z",
-      "description": "<p>It's no secret that AI models have come a long way since the early days. They've become one of the most useful tools available to developers around the world. At this point, AI feels as essential as our IDE. Many of us rely on it daily, and without it we sometimes feel slower or left behind.</p> ",
+      "title": "TypeScript `const` Type Parameters: Immutable Inference and When It Beats `as const`",
+      "link": "https://dev.to/jsmanifest/typescript-const-type-parameters-immutable-inference-and-when-it-beats-as-const-5523",
+      "pubDate": "2026-07-15T19:22:29.000Z",
+      "description": "<h1> TypeScript <code>const</code> Type Parameters: Immutable Inference and When It Beats <code>as const</code> </h1> <blockquote> <p><em>This article was written with the assistance of AI, under human supervision and review.</em></p> </blockquote> <p>Most TypeScript type widening problems in generi",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "What Community Managers Know About First Users That Founders Forget",
-      "link": "https://dev.to/sophiacartvutw/what-community-managers-know-about-first-users-that-founders-forget-2l2m",
-      "pubDate": "2026-07-15T13:55:19.000Z",
-      "description": "<p><em>Disclosure: I do community work in the OpenNomos ecosystem, and 01MVP (<a href=\"https://01mvp.com\" rel=\"noopener noreferrer\">https://01mvp.com</a>) is one of the projects I help support. Opinions below are my own, learned the hard way.</em></p> <p>Founders talk about their \"first 10 users\" as",
+      "title": "🚀 10 AI Tools Every Developer Should Try in 2026",
+      "link": "https://dev.to/darshanraval/10-ai-tools-every-developer-should-try-in-2026-lg2",
+      "pubDate": "2026-07-15T19:22:26.000Z",
+      "description": "<h1> 🚀 10 AI Tools Every Developer Should Try in 2026 </h1> <blockquote> <p><strong>Stop coding harder. Start coding smarter.</strong></p> <p>In 2026, the developers shipping the fastest aren't the ones writing the most code—they're the ones using AI to eliminate repetitive work.</p> </blockquote> ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Why I built realtime-calib: real-time, headless multi-camera calibration",
-      "link": "https://dev.to/hans_bourgeois_b17a4e7652/why-i-built-realtime-calib-real-time-headless-multi-camera-calibration-1i2n",
-      "pubDate": "2026-07-15T13:53:49.000Z",
-      "description": "<p>I'm a freelance computer-vision developer with a PhD in human-movement science, and I build applied technology for health, physical activity and sports performance. This is the story of why I ended up writing my own multi-camera calibration tool — and why I open-sourced it.</p> <h2> The dependenc",
+      "title": "When fastembed silently rotted my worker: anchor your caches, don't trust /tmp",
+      "link": "https://dev.to/yogeshchavan2008/when-fastembed-silently-rotted-my-worker-anchor-your-caches-dont-trust-tmp-3ab3",
+      "pubDate": "2026-07-15T19:21:44.000Z",
+      "description": "<p>My worker just crashed on a research job, and the traceback pointed at a file that should have been there:<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight plaintext\"><code>WARNING fastembed.common.model_management:download_files_from_huggingface Local file sizes do not ma",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The status page you can't fake: measured uptime, not published",
-      "link": "https://dev.to/slima4/the-status-page-you-cant-fake-measured-uptime-not-published-ckp",
-      "pubDate": "2026-07-15T13:50:26.000Z",
-      "description": "<p>A status page is the one dashboard a company publishes about its own service. It is also the one place where the company has a reason to look good. That is a problem. If the page can be edited to look better than reality, it stops being useful. So when you build or choose a status page, ask one t",
+      "title": "agentproto 0.5.0 — credentials, sandboxes, and cost accounting that refuses to lie",
+      "link": "https://dev.to/agentiknet/agentproto-050-credentials-sandboxes-and-cost-accounting-that-refuses-to-lie-53e7",
+      "pubDate": "2026-07-15T19:16:51.000Z",
+      "description": "<p><em>Released 2026-07-08 · <code>npm i -g @agentproto/cli</code> · <a href=\"https://github.com/agentproto/ts\" rel=\"noopener noreferrer\">source</a> · Apache-2.0</em></p> <p><a href=\"https://dev.to/agentiknet/agentproto-040-the-daemon-grows-up-into-a-supervision-surface-37ig\">0.4</a><br> turned the ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The Trillion-Parameter RL Paper Is Really About Letting the Model Find the Workflow",
-      "link": "https://dev.to/komo/the-trillion-parameter-rl-paper-is-really-about-letting-the-model-find-the-workflow-2cgp",
-      "pubDate": "2026-07-15T13:45:19.000Z",
-      "description": "<h1> The Trillion-Parameter RL Paper Is Really About Letting the Model Find the Workflow </h1> <p>A new arXiv paper, <em>Ring-Zero: Scaling Zero RL to a Trillion Parameters for Emergent Reasoning</em>, reports a 1T-parameter mixture-of-experts reasoning model trained with reinforcement learning from",
+      "title": "🚀 7 Git Commands Every Developer Should Know (But Most Don't)",
+      "link": "https://dev.to/darshanraval/7-git-commands-every-developer-should-know-but-most-dont-3g9k",
+      "pubDate": "2026-07-15T19:06:54.000Z",
+      "description": "<h2> 🚀 7 Git Commands Every Developer Should Know (But Most Don't) </h2> <p>If your Git workflow still looks like this...<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight shell\"><code>git add <span class=\"nb\">.</span> git commit <span class=\"nt\">-m</span> <span class=\"s2\">\"f",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Why Not Every AI Application Needs Vector Embeddings",
-      "link": "https://dev.to/syed11/why-not-every-ai-application-needs-vector-embeddings-417",
-      "pubDate": "2026-07-15T13:43:40.000Z",
-      "description": "<p><em>How building an AI chapter generator taught me to stop reaching for a vector database first.</em></p> <p>When I started building my AI chapter generator, I spent hours researching vector databases. I was convinced I needed one.</p> <p>I didn't.</p> <h2> The idea </h2> <p>The project was simpl",
+      "title": "Why did my benchmark stop at N=22? A debugging story in nine bugs",
+      "link": "https://dev.to/xbill/why-did-my-benchmark-stop-at-n22-a-debugging-story-in-nine-bugs-3m2l",
+      "pubDate": "2026-07-15T18:56:45.000Z",
+      "description": "<p><em>Submission for <a href=\"https://dev.to/challenges/dev-summer-bug-smash\">DEV's Summer Bug Smash</a> — Smash Stories track.</em></p> <p>There was a file in my repo called <code>run_benchmark_1_22.py</code>.</p> <p>Not 1 to 24, which is what the harness was written to do. Not 1 to 26, which is h",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The most complete Angular UI library has 35 open accessibility bugs. A fair teardown of PrimeNG on Angular 21.",
-      "link": "https://dev.to/filip_luca_artificial_sense/the-most-complete-angular-ui-library-has-35-open-accessibility-bugs-a-fair-teardown-of-primeng-on-3c44",
-      "pubDate": "2026-07-15T13:42:58.000Z",
-      "description": "<p>PrimeNG calls itself <em>\"the most complete Angular UI component library,\"</em> and points at Fortune 500s and governments as users. It's genuinely one of the most-used libraries in the Angular ecosystem — <strong>12.5k stars</strong>, a release the same week Angular 21 shipped, vendor-backed by ",
+      "title": "My benchmark's Python column was N/A for a year — CPython's 4300-digit limit, and eight other bugs",
+      "link": "https://dev.to/xbill/my-benchmarks-python-column-was-na-for-a-year-cpythons-4300-digit-limit-and-eight-other-bugs-1hgk",
+      "pubDate": "2026-07-15T18:56:09.000Z",
+      "description": "<p><em>Submission for <a href=\"https://dev.to/challenges/dev-summer-bug-smash\">DEV's Summer Bug Smash</a> — Clear the Lineup track.</em></p> <h2> The codebase </h2> <p><a href=\"https://github.com/xbill9/a2a-benchmark\" rel=\"noopener noreferrer\"><code>a2a-benchmark</code></a> is my multi-language A2A ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Your AI built something private. A public link is the wrong way to share it.",
-      "link": "https://dev.to/thryvate/your-ai-built-something-private-a-public-link-is-the-wrong-way-to-share-it-138j",
-      "pubDate": "2026-07-15T13:31:51.000Z",
-      "description": "<p>Building with AI got fast. You describe a thing, and a page, a dashboard, a small<br> internal report, or a client-facing microsite comes out. The awkward part is the<br> next step: you want exactly three people to see it, and the default way we share a<br> built thing is a public URL that anyone",
+      "title": "I spent a week trying to intercept Slack push notifications from a Chrome extension. Here's why it's impossible.",
+      "link": "https://dev.to/mbilalkhan192003/i-spent-a-week-trying-to-intercept-slack-push-notifications-from-a-chrome-extension-heres-why-9mc",
+      "pubDate": "2026-07-15T18:55:52.000Z",
+      "description": "<p>After I published my last article about building a Chrome extension that speaks browser notifications aloud, a commenter asked a question I didn't have a good answer to.</p> <p>He pointed out that a lot of web apps — Slack, Gmail, most modern tools — fire their notifications from a service worker",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "17 PRs a Day, One QA: How We Automated E2E Failure Triage",
-      "link": "https://dev.to/denis_skvortsov/17-prs-a-day-one-qa-how-we-automated-e2e-failure-triage-260g",
-      "pubDate": "2026-07-15T13:30:13.000Z",
-      "description": "<p>Picture this: 18 AI-augmented developers merging an average of 17 pull requests every working day — 33 on the peak day. And at the time, exactly one QA engineer watching over all of it. The fact that things didn't fall apart daily looks like a miracle. Spoiler: it's not a miracle, it's e2e tests ",
+      "title": "How to Summarize PDFs Programmatically in 2026 (+ a Free No-Code Option)",
+      "link": "https://dev.to/aitools_overview/how-to-summarize-pdfs-programmatically-in-2026-a-free-no-code-option-4kej",
+      "pubDate": "2026-07-15T18:54:52.000Z",
+      "description": "<p>You've got a folder of PDFs and you want summaries — not by hand. Here are three approaches that actually work in 2026, roughly from \"most control\" to \"least effort,\" plus an honest note on when you shouldn't build this at all.</p> <h2> The part everyone underestimates: extraction + length </h2> ",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "Why I Left Google DeepMind",
+      "link": "https://turntrout.com/why-i-left-google-deepmind",
+      "pubDate": "2026-07-15T18:40:34.000Z",
+      "description": "Article URL: https://turntrout.com/why-i-left-google-deepmind Comments URL: https://news.ycombinator.com/item?id=48925271 Points: 93 # Comments: 34",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Inkling: Our Open-Weights Model",
+      "link": "https://thinkingmachines.ai/news/introducing-inkling/",
+      "pubDate": "2026-07-15T18:12:45.000Z",
+      "description": "Article URL: https://thinkingmachines.ai/news/introducing-inkling/ Comments URL: https://news.ycombinator.com/item?id=48924912 Points: 83 # Comments: 30",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Artie (YC S23) Is Hiring Software Engineers",
+      "link": "https://jobs.ashbyhq.com/artie",
+      "pubDate": "2026-07-15T17:01:02.000Z",
+      "description": "Article URL: https://jobs.ashbyhq.com/artie Comments URL: https://news.ycombinator.com/item?id=48923833 Points: 0 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "A General Goal-Conditioned Minecraft Model",
+      "link": "https://pantograph.com/journal/pan-1",
+      "pubDate": "2026-07-15T16:35:09.000Z",
+      "description": "Article URL: https://pantograph.com/journal/pan-1 Comments URL: https://news.ycombinator.com/item?id=48923412 Points: 24 # Comments: 9",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Collection of Digital Clock Designs",
+      "link": "https://clocks.dev",
+      "pubDate": "2026-07-15T16:33:15.000Z",
+      "description": "Article URL: https://clocks.dev Comments URL: https://news.ycombinator.com/item?id=48923380 Points: 60 # Comments: 18",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "FreeBSD 16 Retires the Last of Its GPL Code from Its Base System",
+      "link": "https://www.phoronix.com/news/FreeBSD-16-Goes-GPL-Free",
+      "pubDate": "2026-07-15T16:32:05.000Z",
+      "description": "Article URL: https://www.phoronix.com/news/FreeBSD-16-Goes-GPL-Free Comments URL: https://news.ycombinator.com/item?id=48923363 Points: 62 # Comments: 12",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "What designing 54 computer science cards taught me about graphic design",
+      "link": "https://fhoehl.com/designing-algodeck",
+      "pubDate": "2026-07-15T16:22:14.000Z",
+      "description": "Article URL: https://fhoehl.com/designing-algodeck Comments URL: https://news.ycombinator.com/item?id=48923209 Points: 24 # Comments: 10",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Open-source memory for coding agents, synced over SSH",
+      "link": "https://github.com/vshulcz/deja-vu/",
+      "pubDate": "2026-07-15T16:15:03.000Z",
+      "description": "Article URL: https://github.com/vshulcz/deja-vu/ Comments URL: https://news.ycombinator.com/item?id=48923111 Points: 64 # Comments: 16",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Unsolved Problems in MLOps",
+      "link": "https://spawn-queue.acm.org/doi/pdf/10.1145/3762989",
+      "pubDate": "2026-07-15T16:15:01.000Z",
+      "description": "Article URL: https://spawn-queue.acm.org/doi/pdf/10.1145/3762989 Comments URL: https://news.ycombinator.com/item?id=48923109 Points: 22 # Comments: 3",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Codex Micro",
+      "link": "https://openai.com/supply/co-lab/work-louder/",
+      "pubDate": "2026-07-15T16:12:58.000Z",
+      "description": "Article URL: https://openai.com/supply/co-lab/work-louder/ Comments URL: https://news.ycombinator.com/item?id=48923079 Points: 169 # Comments: 141",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "What’s !important #15: Boundary-aware CSS, Time-based CSS, Full-bleed CSS, and More",
+      "link": "https://css-tricks.com/whats-important-15/",
+      "pubDate": "2026-07-15T14:36:18.000Z",
+      "description": "Similar to last time, What’s !important #15 is pretty stacked — read all about boundary-aware CSS, making grid lanes accessible, creating time-based web designs, fixing full-bleed CSS, improving customizable select, new web platform features, and more. What’s !important #15: Boundary-aware CSS, Time",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Get Ready For the Powerful CSS border-shape Property!",
+      "link": "https://css-tricks.com/get-ready-for-the-powerful-css-border-shape-property/",
+      "pubDate": "2026-07-07T15:14:00.000Z",
+      "description": "We recently got the shape() function and corner-shape property. What else could we possibly need as far as making shapes in CSS? Let me tell you: the border-shape property! Get Ready For the Powerful CSS border-shape Property! originally handwritten and published with love on CSS-Tricks. You should ",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "What’s !important #14: Gap Decorations, random(), &#060;select&gt; field-sizing, and More",
+      "link": "https://css-tricks.com/whats-important-14/",
+      "pubDate": "2026-06-30T13:54:14.000Z",
+      "description": "I know you’re busy, so for What’s !important #14, I’ll be sprinting through what’s been a stacked couple of weeks despite few browser updates. From CSS Quake to CSS Gap Decorations, this isn’t one to miss! What’s !important #14: Gap Decorations, random(), <select> field-sizing, and More originally h",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "The Shifting Line Between CSS States and JavaScript Events",
+      "link": "https://css-tricks.com/css-states-and-javascript-events/",
+      "pubDate": "2026-06-29T13:03:32.000Z",
+      "description": "CSS has always had pseudo-classes that style things based on user interactions. Recent features, however, are blurring the line between what CSS \"listens\" for and how they are alternatives to what Javascript typically listens for. The Shifting Line Between CSS States and JavaScript Events originally",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "translateZ()",
+      "link": "https://css-tricks.com/almanac/functions/t/translatez/",
+      "pubDate": "2026-06-25T13:18:56.000Z",
+      "description": "The translateZ() function moves an element closer to or farther from the user. translateZ() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "translateY()",
+      "link": "https://css-tricks.com/almanac/functions/t/translatey/",
+      "pubDate": "2026-06-25T13:17:56.000Z",
+      "description": "The translateY() function shifts an element vertically by the specified amount. translateY() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "translateX()",
+      "link": "https://css-tricks.com/almanac/functions/t/translatex/",
+      "pubDate": "2026-06-25T13:16:01.000Z",
+      "description": "The translateX() function shifts an element horizontally by the specified amount. translateX() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "translate()",
+      "link": "https://css-tricks.com/almanac/functions/t/translate/",
+      "pubDate": "2026-06-25T13:15:05.000Z",
+      "description": "The CSS translate() function shifts an element from its default position on a 2-dimensional plane translate() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Using Scroll-Driven Animations for Opposing Scroll Directions",
+      "link": "https://css-tricks.com/scroll-driven-animations-opposing-scroll-directions/",
+      "pubDate": "2026-06-22T12:39:13.000Z",
+      "description": "Sometimes designers have silly ideas that eventually grow on you. That happened to me with this concept where I had to build columns of items moving in opposite directions when a user scrolls the page. CodePen Embed Fallback Note: This … Using Scroll-Driven Animations for Opposing Scroll Directions ",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "A First Look at Scroll-Triggered Animations",
+      "link": "https://css-tricks.com/css-scroll-triggered-animations-first-look/",
+      "pubDate": "2026-06-19T13:03:17.000Z",
+      "description": "Let's poke at the differences between scroll-driven and scroll-triggered animations. A First Look at Scroll-Triggered Animations originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
       "title": "Meet the HTB Profile: all your skills, in one place",
