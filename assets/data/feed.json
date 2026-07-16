@@ -1,94 +1,150 @@
 {
-  "generatedAt": "2026-07-16T03:37:39.126Z",
+  "generatedAt": "2026-07-16T08:34:36.065Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "Andrej Karpathy Skills review: a single 189k-star CLAUDE.md",
-      "link": "https://dev.to/yimtheppariyapol/andrej-karpathy-skills-review-a-single-189k-star-claudemd-4f78",
-      "pubDate": "2026-07-16T03:30:38.000Z",
-      "description": "<p>andrej-karpathy-skills packages coding practices for AI into a single CLAUDE.md file, distilled from Andrej Karpathy's observations about how models fail when they write code. It reduces to 4 principles: think before coding, simplicity first, surgical changes, and goal-driven execution. It has ov",
+      "title": "The Difference Between Search and Discovery",
+      "link": "https://dev.to/valerykot/the-difference-between-search-and-discovery-30of",
+      "pubDate": "2026-07-16T08:30:54.000Z",
+      "description": "<p><em>Sometimes the answer isn't missing. It's just scattered.</em></p> <p>A few weeks ago I caught myself doing something I suspect every engineer has done.</p> <p>I had five browser tabs open.</p> <p>An ADR.</p> <p>A Jira ticket.</p> <p>A Slack thread.</p> <p>A runbook.</p> <p>A configuration fil",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "mattpocock/skills review: a real engineer's .claude, 160k stars",
-      "link": "https://dev.to/yimtheppariyapol/mattpocockskills-review-a-real-engineers-claude-160k-stars-4d3f",
-      "pubDate": "2026-07-16T03:30:36.000Z",
-      "description": "<p>mattpocock/skills is a repo where Matt Pocock, a TypeScript educator, opened up his own .claude directory for others to use. It holds around 36 Claude Code skills, grouped into categories. The idea is small tools you copy and adapt to yourself, not an enforced framework. It has over 160,000 GitHu",
+      "title": "Your CSS Grid cards look misaligned. `subgrid` is the fix you didn't know existed.",
+      "link": "https://dev.to/parsajiravand/your-css-grid-cards-look-misaligned-subgrid-is-the-fix-you-didnt-know-existed-k94",
+      "pubDate": "2026-07-16T08:21:26.000Z",
+      "description": "<p>Here is a layout I have built more times than I can count.</p> <p>You have a row of cards in a CSS Grid. Each card has a header, a body with variable-length content, and a footer with a button. The card with three lines of copy has its button sitting higher than the card with one line. You want a",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Addy Osmani agent-skills review: 24 production skills, 72.6k stars",
-      "link": "https://dev.to/yimtheppariyapol/addy-osmani-agent-skills-review-24-production-skills-726k-stars-22em",
-      "pubDate": "2026-07-16T03:30:35.000Z",
-      "description": "<p>addyosmani/agent-skills is Addy Osmani's repo, a Google web engineer, packaging 24 skills for AI coding agents that cover the full lifecycle: spec, plan, build, verify, review, ship. What sets it apart is that browser work and performance are first-class. It has 72.6k stars. It is the fourth and ",
+      "title": "Watching Agents by Inithouse vs dashboards and alerts: monitoring future questions, not metrics",
+      "link": "https://dev.to/jakub_inithouse/watching-agents-by-inithouse-vs-dashboards-and-alerts-monitoring-future-questions-not-metrics-1i4n",
+      "pubDate": "2026-07-16T08:21:20.000Z",
+      "description": "<p>Most BI dashboards answer one question: what already happened. <a href=\"https://watchingagents.com\" rel=\"noopener noreferrer\">Watching Agents</a> answers a different one: what might happen next.</p> <p>We built Watching Agents at <a href=\"https://inithouse.com\" rel=\"noopener noreferrer\">Inithouse",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "REST, WebSocket, and Recovery: A Production Architecture for Live Sports Data",
-      "link": "https://dev.to/thesports_api/rest-websocket-and-recovery-a-production-architecture-for-live-sports-data-24f1",
-      "pubDate": "2026-07-16T03:20:50.000Z",
-      "description": "<p>A live sports interface does not fail only when the connection goes down.</p> <p>It can remain online while showing an impossible state: a goal before the score changes, a final whistle while the match is still marked live, or a correction that reaches one screen but not another.</p> <p>That is w",
+      "title": "C++ Standard Library Hidden Gems — 6 Headers You're Probably Overlooking",
+      "link": "https://dev.to/alanwu/c-standard-library-hidden-gems-6-headers-youre-probably-overlooking-4h7p",
+      "pubDate": "2026-07-16T08:21:02.000Z",
+      "description": "<p>Hi everyone! I'm AlanWu, a junior high school C++ learner. When I first started coding, I lived in two headers: <code>#include &lt;iostream&gt;</code> and <code>#include &lt;vector&gt;</code>. Everything else? I either didn't know it existed or assumed it was for \"advanced programmers.\"</p> <p>Tu",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Boost Your Productivity: Atlassian's AI-Powered Jira Revolution",
-      "link": "https://dev.to/davekurian/boost-your-productivity-atlassians-ai-powered-jira-revolution-42ip",
-      "pubDate": "2026-07-16T03:04:18.000Z",
-      "description": "<p>The plan used to have to be re-typed at the keyboard. A senior engineer described a ticket in a 600-word spec, a team triaged it in a 20-minute meeting, and then someone re-keyed the rough shape into the editor before any code existed. Atlassian's new AI suite for Jira collapses that handoff into",
+      "title": "Why does my React component crash on the first render when using data fetched inside useEffect()?",
+      "link": "https://dev.to/codesmithnazim/why-does-my-react-component-crash-on-the-first-render-when-using-data-fetched-inside-useeffect-1cp3",
+      "pubDate": "2026-07-16T08:13:32.000Z",
+      "description": "<p>When you fetch data inside <code>useEffect()</code>, the network request is asynchronous and only runs after the initial render has already completed and painted to the screen.</p> <p>Because React cannot pause rendering to wait for your API response, your component's state is still its initial v",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Cloudflare Workers AI: Add a Free LLM to a Static Site, No Backend Needed",
-      "link": "https://dev.to/yimtheppariyapol/cloudflare-workers-ai-add-a-free-llm-to-a-static-site-no-backend-needed-37ab",
-      "pubDate": "2026-07-16T02:54:34.000Z",
-      "description": "<blockquote> <p><strong>Quick answer:</strong> A static site behind Cloudflare can get AI without a backend and without storing an API key. Workers AI binds a model like Llama 3.3 70B to your worker through a two-line <code>env.AI</code> config binding. The free tier is 10,000 neurons a day. Measure",
+      "title": "Deploying AI-Powered Laravel Apps: Queues, Streaming, Timeouts",
+      "link": "https://dev.to/deploynix/deploying-ai-powered-laravel-apps-queues-streaming-timeouts-5dck",
+      "pubDate": "2026-07-16T08:11:53.000Z",
+      "description": "<p>Somewhere in the Laravel app you're running right now, there's a good chance an HTTP call goes out to OpenAI, Anthropic, or a local model. A chat feature, a summarizer, an agent that triages support tickets. <a href=\"https://laravel-news.com/laravel-13\" rel=\"noopener noreferrer\">Laravel 13 shippe",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Why Your PHP Form Is Not Working — 5 Common Bugs Fixed",
-      "link": "https://dev.to/bikkisingh/why-your-php-form-is-not-working-5-common-bugs-fixed-5cmn",
-      "pubDate": "2026-07-16T02:35:06.000Z",
-      "description": "<h2> 💡 TL;DR </h2> <p>A broken PHP form almost always comes down to one of five things: wrong <code>method</code> attribute, a mismatched <code>name</code> on your input, checking <code>$_POST</code> with the wrong key, a form that isn't actually submitting, or output sent before a <code>header()</",
+      "title": "Fixing Ambiguous Version Labels: From 'Old Version' to 'v1.0' in vibe-coding-universal",
+      "link": "https://dev.to/mage0535/fixing-ambiguous-version-labels-from-old-version-to-v10-in-vibe-coding-universal-3agl",
+      "pubDate": "2026-07-16T08:00:42.000Z",
+      "description": "<p>A recent commit in the vibe-coding-universal project caught my eye: a straightforward fix that replaces the label \"Old Version\" with \"v1.0\" in the project's comparison tables. The change message simply reads \"fix: old version label → v1.0 in comparison tables.\" At first glance, it looks like a mi",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "citefid 0.1.0: verificar la fidelidad de citas en wikis OKF con NLI (AUC 0.7029 sobre código)",
-      "link": "https://dev.to/magopredator/citefid-010-verificar-la-fidelidad-de-citas-en-wikis-okf-con-nli-auc-070-sobre-codigo-1ojf",
-      "pubDate": "2026-07-16T02:28:38.000Z",
-      "description": "<h1> citefid 0.1.0: verificar la fidelidad de citas en wikis OKF con NLI (AUC 0.70 sobre código) </h1> <blockquote> <p>Los generadores de wikis OKF comprueban que la cita existe, no que su contenido respalde la afirmación. citefid cierra esa brecha: verifica fidelidad, no existencia.</p> </blockquot",
+      "title": "Fuse v4.2, an open source MCP/CLI tool to speed up Claude Code on C# codebases",
+      "link": "https://dev.to/litenova/fuse-v42-an-open-source-mcpcli-tool-to-speed-up-claude-code-on-c-codebases-1f33",
+      "pubDate": "2026-07-16T07:59:26.000Z",
+      "description": "<p>Fuse 4.2 is an open source .NET global tool that runs as an MCP server or from the command line.</p> <p>I built Fuse after watching coding agents repeatedly read and search the same .NET files. Across several turns, they would reconstruct symbols, references, dependency injection registrations, a",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "9arm's skills repo is small, but it has one AI cost idea worth stealing",
-      "link": "https://dev.to/yimtheppariyapol/9arms-skills-repo-is-small-but-it-has-one-ai-cost-idea-worth-stealing-2in4",
-      "pubDate": "2026-07-16T02:27:01.000Z",
-      "description": "<blockquote> <p><strong>Quick answer:</strong> <code>9arm-skills</code> is a small Claude Code skills repo by 9arm, a Thai creator: 6 skills, buckets modeled on Matt Pocock's repo. The part worth taking is a skill called <code>qwen-agent</code>, about handing menial work to a cheap model and keeping",
+      "title": "Your AI agent should not have unrestricted power",
+      "link": "https://dev.to/wildeconforce/your-ai-agent-should-not-have-unrestricted-power-4d7e",
+      "pubDate": "2026-07-16T07:52:47.000Z",
+      "description": "<p>Most people building AI agents wire the model straight to real actions.</p> <p>The model says run this. So it runs.</p> <p>That works right up until a fetched web page, a poisoned file, or one bad reasoning step tells your agent to delete a folder, send money, or overwrite production. There is no",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Your ESXi Hosts Are on Two Clocks Now: Support Dates and the Broadcom Licensing Squeeze",
-      "link": "https://dev.to/endoflifeai/your-esxi-hosts-are-on-two-clocks-now-support-dates-and-the-broadcom-licensing-squeeze-aaf",
-      "pubDate": "2026-07-16T02:22:49.000Z",
-      "description": "<p><em>Originally published at <a href=\"https://endoflife.ai/article-vmware-esxi-eol\" rel=\"noopener noreferrer\">endoflife.ai</a>.</em></p> <p>If you run ESXi, you're managing two countdowns at once — and they interact badly.</p> <p><strong>Clock one: support dates.</strong> vSphere/ESXi 7.x reached ",
+      "title": "Streaming AI Responses in Laravel with Server-Sent Events",
+      "link": "https://dev.to/adityakdevin/streaming-ai-responses-in-laravel-with-server-sent-events-3bob",
+      "pubDate": "2026-07-16T07:49:29.000Z",
+      "description": "<p>In <a href=\"https://dev.to/adityakdevin/adding-an-ai-chatbot-to-your-laravel-app-with-the-openai-api-177f\">the first post of this series</a> we built a working AI chatbot in Laravel. It had one problem every user notices immediately: you send a message, then stare at a spinner for five seconds wh",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "Netstrings (1997)",
+      "link": "https://cr.yp.to/proto/netstrings.txt",
+      "pubDate": "2026-07-16T05:33:50.000Z",
+      "description": "Article URL: https://cr.yp.to/proto/netstrings.txt Comments URL: https://news.ycombinator.com/item?id=48930713 Points: 15 # Comments: 7",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "The lost joy of music piracy",
+      "link": "https://www.pigeonsandplanes.com/read/music-piracy-what-cd-oink-nine-inch-nails-streaming",
+      "pubDate": "2026-07-16T04:46:21.000Z",
+      "description": "Article URL: https://www.pigeonsandplanes.com/read/music-piracy-what-cd-oink-nine-inch-nails-streaming Comments URL: https://news.ycombinator.com/item?id=48930454 Points: 242 # Comments: 120",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Reynard: A real Firefox web browser for iOS 13 or later",
+      "link": "https://github.com/minh-ton/reynard-browser",
+      "pubDate": "2026-07-16T04:36:07.000Z",
+      "description": "Article URL: https://github.com/minh-ton/reynard-browser Comments URL: https://news.ycombinator.com/item?id=48930397 Points: 25 # Comments: 8",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "If you want to create a button from scratch, you must first create the universe",
+      "link": "https://madcampos.dev/blog/2026/07/accessibility-from-scratch/",
+      "pubDate": "2026-07-16T03:48:43.000Z",
+      "description": "Article URL: https://madcampos.dev/blog/2026/07/accessibility-from-scratch/ Comments URL: https://news.ycombinator.com/item?id=48930136 Points: 97 # Comments: 47",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Making 768 servers look like 1",
+      "link": "https://planetscale.com/blog/making-768-servers-look-like-1",
+      "pubDate": "2026-07-16T03:36:42.000Z",
+      "description": "Article URL: https://planetscale.com/blog/making-768-servers-look-like-1 Comments URL: https://news.ycombinator.com/item?id=48930075 Points: 73 # Comments: 10",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "1,300 Beautiful Wildlife Illustrations from the 19th Century Now Restored",
+      "link": "https://www.openculture.com/2026/07/explore-1300-beautiful-wildlife-illustrations-from-the-19th-century.html",
+      "pubDate": "2026-07-16T03:12:47.000Z",
+      "description": "Article URL: https://www.openculture.com/2026/07/explore-1300-beautiful-wildlife-illustrations-from-the-19th-century.html Comments URL: https://news.ycombinator.com/item?id=48929945 Points: 75 # Comments: 10",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Can LLMs Perform Deep Technical Comprehension of Computer Architecture Papers",
+      "link": "https://arxiv.org/abs/2607.11859",
+      "pubDate": "2026-07-16T02:17:31.000Z",
+      "description": "Article URL: https://arxiv.org/abs/2607.11859 Comments URL: https://news.ycombinator.com/item?id=48929660 Points: 46 # Comments: 7",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "The Tokio/Rayon Trap and Why Async/Await Fails Concurrency",
       "link": "https://pmbanugo.me/blog/why-async-await-complect-concurrency",
       "pubDate": "2026-07-16T02:06:36.000Z",
-      "description": "Article URL: https://pmbanugo.me/blog/why-async-await-complect-concurrency Comments URL: https://news.ycombinator.com/item?id=48929587 Points: 6 # Comments: 0",
+      "description": "Article URL: https://pmbanugo.me/blog/why-async-await-complect-concurrency Comments URL: https://news.ycombinator.com/item?id=48929587 Points: 54 # Comments: 35",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -96,23 +152,7 @@
       "title": "Bluesky Trademarks ATProto",
       "link": "https://atproto.com/blog/at-protocol-trademark",
       "pubDate": "2026-07-16T01:21:04.000Z",
-      "description": "Article URL: https://atproto.com/blog/at-protocol-trademark Comments URL: https://news.ycombinator.com/item?id=48929351 Points: 17 # Comments: 4",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Show HN: One More Letter",
-      "link": "https://playonemoreletter.com/",
-      "pubDate": "2026-07-15T23:10:10.000Z",
-      "description": "Article URL: https://playonemoreletter.com/ Comments URL: https://news.ycombinator.com/item?id=48928402 Points: 53 # Comments: 31",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Nul Characters in Strings in SQLite",
-      "link": "https://sqlite.org/nulinstr.html",
-      "pubDate": "2026-07-15T23:03:45.000Z",
-      "description": "Article URL: https://sqlite.org/nulinstr.html Comments URL: https://news.ycombinator.com/item?id=48928343 Points: 37 # Comments: 10",
+      "description": "Article URL: https://atproto.com/blog/at-protocol-trademark Comments URL: https://news.ycombinator.com/item?id=48929351 Points: 88 # Comments: 34",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -120,47 +160,7 @@
       "title": "Metal-Organic Frameworks, Chemistry's New Miracle Materials (2018)",
       "link": "https://chemistry.berkeley.edu/news/meet-metal-organic-frameworks-chemistry%E2%80%99s-new-miracle-materials",
       "pubDate": "2026-07-15T23:00:31.000Z",
-      "description": "Article URL: https://chemistry.berkeley.edu/news/meet-metal-organic-frameworks-chemistry%E2%80%99s-new-miracle-materials Comments URL: https://news.ycombinator.com/item?id=48928313 Points: 43 # Comments: 10",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "SQLite should have (Rust-style) editions",
-      "link": "https://mort.coffee/home/sqlite-editions/",
-      "pubDate": "2026-07-15T22:42:58.000Z",
-      "description": "Article URL: https://mort.coffee/home/sqlite-editions/ Comments URL: https://news.ycombinator.com/item?id=48928135 Points: 143 # Comments: 59",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "LLM Networking with MikroTik",
-      "link": "https://blog.greg.technology/2026/07/14/llm-networking-with-mikrotik.html",
-      "pubDate": "2026-07-15T22:23:27.000Z",
-      "description": "Article URL: https://blog.greg.technology/2026/07/14/llm-networking-with-mikrotik.html Comments URL: https://news.ycombinator.com/item?id=48927915 Points: 60 # Comments: 23",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "P2P local file transfer based on WebRTC",
-      "link": "https://pairdrop.net/",
-      "pubDate": "2026-07-15T22:22:08.000Z",
-      "description": "Article URL: https://pairdrop.net/ Comments URL: https://news.ycombinator.com/item?id=48927900 Points: 38 # Comments: 16",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Governments, companies, nonprofits should invest in free, open source AI [pdf]",
-      "link": "https://www.siegelendowment.org/wp-content/uploads/2026/07/fortune-david-siegel-open-source-ai.pdf",
-      "pubDate": "2026-07-15T21:16:36.000Z",
-      "description": "Article URL: https://www.siegelendowment.org/wp-content/uploads/2026/07/fortune-david-siegel-open-source-ai.pdf Comments URL: https://news.ycombinator.com/item?id=48927095 Points: 108 # Comments: 46",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Show HN: Firefox in WebAssembly",
-      "link": "https://developer.puter.com/labs/firefox-wasm/",
-      "pubDate": "2026-07-15T21:00:17.000Z",
-      "description": "This is the entire Firefox browser rendering to a element. Gecko, all UI components, and the Spidermonkey JS engine are all compiled and running in WebAssembly.Here are a few things you might find interesting:- This is fully end to end encrypted! We use the WISP protocol for TCP-over-websockets.- Th",
+      "description": "Article URL: https://chemistry.berkeley.edu/news/meet-metal-organic-frameworks-chemistry%E2%80%99s-new-miracle-materials Comments URL: https://news.ycombinator.com/item?id=48928313 Points: 53 # Comments: 12",
       "source": "Hacker News",
       "category": "Tech News"
     },
