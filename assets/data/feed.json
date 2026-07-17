@@ -1,94 +1,158 @@
 {
-  "generatedAt": "2026-07-17T08:28:22.028Z",
+  "generatedAt": "2026-07-17T14:03:34.154Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "Guardsman SKILL; From Lazy to Loyal: Why My AI Agent Needed a Promotion",
-      "link": "https://dev.to/antoinette_clennox/guardsman-skill-from-lazy-to-loyal-why-my-ai-agent-needed-a-promotion-hjb",
-      "pubDate": "2026-07-17T08:22:25.000Z",
-      "description": "<blockquote> <p>Ponytail made my agent lazy. Guardsman made it loyal. The difference is everything.</p> </blockquote> <h2> The Day I Met Ponytail </h2> <p>It was a Tuesday in June. I was pair-programming with Claude Code on a FastAPI project, and I made the mistake of asking for a date picker.</p> <",
+      "title": "Five Gemma-4 models, one accelerator: what porting E2B 31B to AWS Inferentia2 taught me",
+      "link": "https://dev.to/gde/five-gemma-4-models-one-accelerator-what-porting-e2b-31b-to-aws-inferentia2-taught-me-2gf5",
+      "pubDate": "2026-07-17T13:39:29.000Z",
+      "description": "<p><em>I ported the whole Gemma-4 family — E2B, E4B, 12B, 31B, and the 26B-A4B MoE — to run on AWS<br> Inferentia2. Each has its own write-up in this series; this is the map. What's shared, what's different,<br> how the recipe evolved from \"trace it and pray\" to a single-rank-compile pipeline that c",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "My AI harness is an external executive function",
-      "link": "https://dev.to/nazarii-ahapevych/my-ai-harness-is-an-external-executive-function-5efh",
-      "pubDate": "2026-07-17T08:14:38.000Z",
-      "description": "<p>I built an AI setup to save money on tokens. It turned into the memory and focus my ADHD brain is missing.</p> <p>TL;DR: A messy AI agent wastes money. A messy ADHD brain wastes effort. The same thing fixes both: external structure. I built it for the agent, then I saw I had built it for myself.<",
+      "title": "Show DEV: I built a lightweight, extensible Web Page Builder using React 🚀",
+      "link": "https://dev.to/ebrahim_elmwafy_5d64d93ce/show-dev-i-built-a-lightweight-extensible-web-page-builder-using-react-6b6",
+      "pubDate": "2026-07-17T13:38:03.000Z",
+      "description": "<p>Hey DEV Community! 👋</p> <p>I wanted to share a project I've been working on recently: <strong>Pepsi Page Builder</strong>. It’s an open-source, lightweight web page builder designed to help users create responsive layouts visually.</p> <h3> 🚀 Key Features: </h3> <ul> <li> <strong>Drag and Drop",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Why I Switched from Ponytail to Guardsman for AI Coding",
-      "link": "https://dev.to/antoinette_clennox/why-i-switched-from-ponytail-to-guardsman-for-ai-coding-2m8a",
-      "pubDate": "2026-07-17T08:05:54.000Z",
-      "description": "<blockquote> <p><strong>TL;DR:</strong> Ponytail taught my AI agent to write less code. Guardsman taught it to write <em>accountable</em> code. If you're tired of deleting AI-generated bloat <em>or</em> debugging AI-generated \"minimal\" disasters three weeks later, read this.</p> </blockquote> <h2> I",
+      "title": "HackTheBox : Void Whispers Writeup",
+      "link": "https://dev.to/exploitnotes/hackthebox-void-whispers-writeup-bh5",
+      "pubDate": "2026-07-17T13:37:17.000Z",
+      "description": "<h2> Summary </h2> <p>The \"Void Whispers\" mail-settings panel passes the user-supplied <code>sendMailPath</code> field directly into <code>shell_exec(\"which $sendMailPath\")</code> with no escaping. The app only filters literal whitespace, which is trivially bypassed using bash's <code>${IFS}</code> ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I Automated My Entire Dev Workflow with AI Agents Running 24/7 on a Mac Mini",
-      "link": "https://dev.to/samhartley_dev/i-automated-my-entire-dev-workflow-with-ai-agents-running-247-on-a-mac-mini-1ikc",
-      "pubDate": "2026-07-17T08:03:02.000Z",
-      "description": "<h1> I Automated My Entire Dev Workflow with AI Agents Running 24/7 on a Mac Mini </h1> <p>Every morning I wake up and check Telegram. There's a message from Celebi — my AI agent — telling me what happened overnight. New emails summarized. A draft article ready for review. A reminder that I have a m",
+      "title": "Generator Internals: Why They Are Lazy and What That Actually Means",
+      "link": "https://dev.to/ameer_abdullah_68d48c8496/generator-internals-why-they-are-lazy-and-what-that-actually-means-1eh1",
+      "pubDate": "2026-07-17T13:32:00.000Z",
+      "description": "<p>Tracing a generator's execution reveals a fundamentally different way Python can run code.</p> <p>A generator function looks like a regular function but behaves in a fundamentally different way. Understanding that difference requires tracing through what Python actually does when it executes one.",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Building a Closed-Loop A2A Autonomous Sales Pipeline with PixelPay",
-      "link": "https://dev.to/denisssenkyrmaker/building-a-closed-loop-a2a-autonomous-sales-pipeline-with-pixelpay-42lf",
-      "pubDate": "2026-07-17T08:02:53.000Z",
-      "description": "<h2> Building a Closed-Loop A2A Autonomous Sales Pipeline with PixelPay </h2> <p>The future of sales isn't just B2B or B2C; it's <strong>A2A: Agent-to-Agent</strong>. At Pixel Office, we're pioneering a truly autonomous sales pipeline where intelligent software agents discover, engage, negotiate, an",
+      "title": "Godot 4 hitbox and hurtbox the easy way (damage, teams, i-frames, knockback)",
+      "link": "https://dev.to/saltmire/godot-4-hitbox-and-hurtbox-the-easy-way-damage-teams-i-frames-knockback-1ccj",
+      "pubDate": "2026-07-17T13:31:30.000Z",
+      "description": "<p>Almost every action game needs the same thing: something that deals damage, and<br> something that takes it. In Godot 4 the raw tools are <code>Area2D</code> + <code>CollisionShape2D</code>,<br> but wiring them into a real hit is where people get stuck — collision layers vs<br> masks, stopping th",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Have you wasted cost on too many tokens and too many interactions? I did too.\n\nThe fix wasn't a better model. It was a better architecture. Moving state outside the LLM &amp; simplifying agent interactions cut costs by 82%.\nRead more here on how I did it.",
-      "link": "https://dev.to/royanannya/have-you-wasted-cost-on-too-many-tokens-and-too-many-interactions-i-did-too-the-fix-wasnt-a-n6g",
-      "pubDate": "2026-07-17T08:00:43.000Z",
-      "description": "<div class=\"ltag__link--embedded\"> <div class=\"crayons-story \"> <a href=\"https://dev.to/royanannya/my-multi-agent-ai-cost-1847-in-one-weekend-heres-the-fix-that-cut-it-82-3mi4\" class=\"crayons-story__hidden-navigation-link\">My Multi-Agent AI Cost $1,847 in One Weekend — Here's the Fix That Cut It 82%",
+      "title": "Porting Gemma-4 12B (the encoder-free multimodal one) to AWS Inferentia2",
+      "link": "https://dev.to/xbill/porting-gemma-4-12b-the-encoder-free-multimodal-one-to-aws-inferentia2-5f19",
+      "pubDate": "2026-07-17T13:30:09.000Z",
+      "description": "<p><em>The middle child of the series. The 12B is the first Gemma-4 that's neither a MatFormer \"effective\"<br> model (E2B/E4B) nor a giant (31B/26B) — but it has its own two surprises: it's packaged as a<br> **multimodal</em>* model with an encoder that isn't there, and its attention <strong>overflo",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How to Summarize PDFs Locally with Open-Source LLMs (No API, No Data Leaving Your Machine)",
-      "link": "https://dev.to/aitools_overview/how-to-summarize-pdfs-locally-with-open-source-llms-no-api-no-data-leaving-your-machine-3oko",
-      "pubDate": "2026-07-17T08:00:24.000Z",
-      "description": "<p>Most \"summarize a PDF with AI\" tutorials send your document to a cloud API. That's fine — until the document is a contract, a patient record, or anything your compliance team would rather not ship to a third party. The alternative in 2026 is genuinely good: run an open-source model <strong>locall",
+      "title": "My Inferentia port matched its reference token-for-token — and still output garbage",
+      "link": "https://dev.to/xbill/my-inferentia-port-matched-its-reference-token-for-token-and-still-output-garbage-16d4",
+      "pubDate": "2026-07-17T13:29:49.000Z",
+      "description": "<blockquote> <p>I ported Google's biggest open Gemma-4 — the 30-billion-parameter dense model — to AWS Inferentia2.<br> The compiled model passed my strictest check: its output was <strong>token-for-token identical</strong> to the<br> CPU reference. It was also complete gibberish. Both facts were tr",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Dealing with null in Dart",
-      "link": "https://dev.to/niamtokik/dealing-with-null-in-dart-fgj",
-      "pubDate": "2026-07-17T08:00:00.000Z",
-      "description": "<blockquote> <p>Into the void of silence, into the empty space of nothing, the joy of life is unfurled.</p> <p>-- C. S. Lewis </p> </blockquote> <p>Usually, a developer will focus on errors and exceptions to increase the stability of its application. It can be with defensive programming patterns, or",
+      "title": "Porting a 128-expert MoE (Gemma-4 26B-A4B) to AWS Inferentia2 — where every rank weighted the wrong experts",
+      "link": "https://dev.to/xbill/porting-a-128-expert-moe-gemma-4-26b-a4b-to-aws-inferentia2-where-every-rank-weighted-the-wrong-2ege",
+      "pubDate": "2026-07-17T13:29:28.000Z",
+      "description": "<blockquote> <p>Of the five Gemma-4 models I ported to AWS Inferentia2, the 26B-A4B was the one that was supposed to<br> be impossible: a <strong>Mixture of Experts</strong>. It compiled on the first try — then produced <em>nothing</em>. The<br> device output was empty. The CPU reference was perfect",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How I built an OpenAI-compatible prompt encryption proxy in 300 lines of Python",
-      "link": "https://dev.to/tlyyxjz/devto-ji-zhu-chang-wen-ying-wen-shou-fa-ke-repost-medium-hashnode-4h69",
-      "pubDate": "2026-07-17T07:56:39.000Z",
-      "description": "<p>I sell GPT prompts. Small business, $20-50 per prompt, mostly to people who use ChatBox or Cursor. Last month, one of my buyers screenshotted my prompt text and posted it in a Discord server. Within 24 hours, three other people were reselling it on Telegram. I felt sick.</p> <p>The obvious fix — ",
+      "title": "Five Gemma-4 models, one accelerator: what porting E2B 31B to AWS Inferentia2 taught me",
+      "link": "https://dev.to/aws-builders/five-gemma-4-models-one-accelerator-what-porting-e2b-31b-to-aws-inferentia2-taught-me-2980",
+      "pubDate": "2026-07-17T13:29:07.000Z",
+      "description": "<p><em>I ported the whole Gemma-4 family — E2B, E4B, 12B, 31B, and the 26B-A4B MoE — to run on AWS<br> Inferentia2. Each has its own write-up in this series; this is the map. What's shared, what's different,<br> how the recipe evolved from \"trace it and pray\" to a single-rank-compile pipeline that c",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Attention Sinks: Why Streaming LLMs Break When You Evict Token 0",
-      "link": "https://dev.to/ji_ai/attention-sinks-why-streaming-llms-break-when-you-evict-token-0-5a1b",
-      "pubDate": "2026-07-17T07:55:55.000Z",
-      "description": "<p>Drop the first four tokens from a sliding-window KV cache and your model's perplexity doesn't degrade gracefully — it detonates. Generation turns to garbage within a few steps, even though those four tokens were a <code>&lt;bos&gt;</code> marker and the word \"The.\" That failure is the fingerprint",
+      "title": "The Silent Crash: How Hallucinated Tool Breaks AI Agents",
+      "link": "https://dev.to/keerat_rashid/the-silent-crash-how-hallucinated-tool-breaks-ai-agents-34cc",
+      "pubDate": "2026-07-17T13:27:35.000Z",
+      "description": "<p>There isn't one version of this failure, there are three distinct patterns, and they cause different kinds of damage.</p> <ul> <li><p><strong>Calling a tool that doesn't exist</strong>. The agent invokes a function name that was never registered, sometimes because it was described in an earlier t",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "Manufact (YC S25) Is Hiring a Senior infra engineer to build the MCP cloud",
+      "link": "https://www.ycombinator.com/companies/manufact/jobs/Dh6PYP5-senior-infrastructure-engineer",
+      "pubDate": "2026-07-17T13:22:33.000Z",
+      "description": "Article URL: https://www.ycombinator.com/companies/manufact/jobs/Dh6PYP5-senior-infrastructure-engineer Comments URL: https://news.ycombinator.com/item?id=48947100 Points: 0 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Multi-Primary Color Display Emerges as Next-Gen Color Reproduction Technology",
+      "link": "https://en.ubiresearchnet.com/multi-primary-color-display-technology-2026/",
+      "pubDate": "2026-07-17T13:02:07.000Z",
+      "description": "Article URL: https://en.ubiresearchnet.com/multi-primary-color-display-technology-2026/ Comments URL: https://news.ycombinator.com/item?id=48946895 Points: 10 # Comments: 5",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Minikotlin",
+      "link": "https://minikotlin.run",
+      "pubDate": "2026-07-17T12:50:29.000Z",
+      "description": "Article URL: https://minikotlin.run Comments URL: https://news.ycombinator.com/item?id=48946783 Points: 36 # Comments: 7",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "VulnHunter: Capital One's agentic AI code security tool",
+      "link": "https://www.capitalone.com/tech/open-source/announcing-vulnhunter/",
+      "pubDate": "2026-07-17T12:42:12.000Z",
+      "description": "Article URL: https://www.capitalone.com/tech/open-source/announcing-vulnhunter/ Comments URL: https://news.ycombinator.com/item?id=48946692 Points: 10 # Comments: 2",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Apple targets dozens of OpenAI employees with legal letters",
+      "link": "https://www.ft.com/content/1b8c9d52-88a9-426b-ba47-f1811f859166",
+      "pubDate": "2026-07-17T12:02:39.000Z",
+      "description": "Article URL: https://www.ft.com/content/1b8c9d52-88a9-426b-ba47-f1811f859166 Comments URL: https://news.ycombinator.com/item?id=48946303 Points: 91 # Comments: 52",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Blatant AI slop just won a 25k USD DeepMind Kaggle Grand Prize",
+      "link": "https://www.kaggle.com/competitions/kaggle-measuring-agi/discussion/724918#3498423",
+      "pubDate": "2026-07-17T11:30:00.000Z",
+      "description": "Article URL: https://www.kaggle.com/competitions/kaggle-measuring-agi/discussion/724918#3498423 Comments URL: https://news.ycombinator.com/item?id=48946010 Points: 308 # Comments: 172",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Ask HN: Any AWS billing issues known? Amazon forecast of 3 billion dollars",
+      "link": "https://news.ycombinator.com/item?id=48945681",
+      "pubDate": "2026-07-17T10:45:21.000Z",
+      "description": "I receive an AWS Budgets alert that my budget is exceeding the alert threshold. Threshold is 5$. Forecasted amount is listed as $3,005,575,870.47. (Yepp, right, that’s 3 billion dollars.) I haven't even used AWS actively in the last year, but AWS console lists the amount as stated above. No feedback",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "I Owe My Life to the Commodore 64",
+      "link": "https://www.goto10retro.com/p/i-owe-my-life-to-the-commodore-64",
+      "pubDate": "2026-07-17T09:44:25.000Z",
+      "description": "Article URL: https://www.goto10retro.com/p/i-owe-my-life-to-the-commodore-64 Comments URL: https://news.ycombinator.com/item?id=48945260 Points: 61 # Comments: 40",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "EEG shows brain can simultaneous encode two speech streams",
       "link": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003876",
       "pubDate": "2026-07-17T05:51:10.000Z",
-      "description": "Article URL: https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003876 Comments URL: https://news.ycombinator.com/item?id=48943745 Points: 61 # Comments: 25",
+      "description": "Article URL: https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003876 Comments URL: https://news.ycombinator.com/item?id=48943745 Points: 171 # Comments: 105",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -96,71 +160,7 @@
       "title": "Pebble Mega Update – July 2026",
       "link": "https://repebble.com/blog/pebble-mega-update-july-2026",
       "pubDate": "2026-07-17T03:53:38.000Z",
-      "description": "Article URL: https://repebble.com/blog/pebble-mega-update-july-2026 Comments URL: https://news.ycombinator.com/item?id=48943174 Points: 90 # Comments: 18",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "How Has Roman Concrete Lasted for Millennia? 1,900-Year-Old Latrine Offers Clues",
-      "link": "https://www.smithsonianmag.com/smart-news/how-has-roman-concrete-lasted-for-millennia-a-1900-year-old-latrine-offers-new-clues-about-the-materials-impressive-durability-180989115/",
-      "pubDate": "2026-07-17T03:48:26.000Z",
-      "description": "Article URL: https://www.smithsonianmag.com/smart-news/how-has-roman-concrete-lasted-for-millennia-a-1900-year-old-latrine-offers-new-clues-about-the-materials-impressive-durability-180989115/ Comments URL: https://news.ycombinator.com/item?id=48943142 Points: 106 # Comments: 65",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "UIUC AI Teaching Assistant",
-      "link": "https://github.com/Center-for-AI-Innovation/ai-teaching-assistant-uiuc",
-      "pubDate": "2026-07-17T02:23:18.000Z",
-      "description": "Article URL: https://github.com/Center-for-AI-Innovation/ai-teaching-assistant-uiuc Comments URL: https://news.ycombinator.com/item?id=48942721 Points: 16 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "GrapheneOS recommended for domestic abuse victims",
-      "link": "https://privacypros.com.au/privacy-hub/articles/dv-safe-phone-australia/",
-      "pubDate": "2026-07-17T01:36:52.000Z",
-      "description": "Article URL: https://privacypros.com.au/privacy-hub/articles/dv-safe-phone-australia/ Comments URL: https://news.ycombinator.com/item?id=48942454 Points: 129 # Comments: 99",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "M 3.9 Experimental Explosion – 147 Km ENE of Ponce Inlet, Florida",
-      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t13l/executive",
-      "pubDate": "2026-07-17T00:45:05.000Z",
-      "description": "Article URL: https://earthquake.usgs.gov/earthquakes/eventpage/us7000t13l/executive Comments URL: https://news.ycombinator.com/item?id=48942125 Points: 59 # Comments: 34",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "The human-in-the-loop is tired",
-      "link": "https://pydantic.dev/articles/the-human-in-the-loop-is-tired",
-      "pubDate": "2026-07-17T00:21:09.000Z",
-      "description": "Article URL: https://pydantic.dev/articles/the-human-in-the-loop-is-tired Comments URL: https://news.ycombinator.com/item?id=48942000 Points: 182 # Comments: 97",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "The Little Book of Reinforcement Learning",
-      "link": "https://github.com/alxndrTL/little-book-rl/",
-      "pubDate": "2026-07-16T22:27:22.000Z",
-      "description": "Article URL: https://github.com/alxndrTL/little-book-rl/ Comments URL: https://news.ycombinator.com/item?id=48941104 Points: 120 # Comments: 14",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "'Likweli': A new monkey species discovered in the Congo Basin",
-      "link": "https://news.yale.edu/2026/07/15/meet-likweli-new-monkey-species-discovered-congo-basin",
-      "pubDate": "2026-07-16T22:00:00.000Z",
-      "description": "Article URL: https://news.yale.edu/2026/07/15/meet-likweli-new-monkey-species-discovered-congo-basin Comments URL: https://news.ycombinator.com/item?id=48940833 Points: 77 # Comments: 17",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Ring-Zero: Scaling Zero RL to a Trillion Parameters for Emergent Reasoning",
-      "link": "https://arxiv.org/abs/2607.12395",
-      "pubDate": "2026-07-16T21:38:02.000Z",
-      "description": "Article URL: https://arxiv.org/abs/2607.12395 Comments URL: https://news.ycombinator.com/item?id=48940603 Points: 50 # Comments: 20",
+      "description": "Article URL: https://repebble.com/blog/pebble-mega-update-july-2026 Comments URL: https://news.ycombinator.com/item?id=48943174 Points: 173 # Comments: 88",
       "source": "Hacker News",
       "category": "Tech News"
     },
