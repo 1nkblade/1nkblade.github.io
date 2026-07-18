@@ -1,107 +1,118 @@
 {
-  "generatedAt": "2026-07-18T03:32:21.528Z",
+  "generatedAt": "2026-07-18T08:08:53.767Z",
   "sourceCount": 4,
-  "successCount": 3,
-  "errors": [
-    {
-      "source": "CSS Tricks",
-      "error": "HTTP 415 Unsupported Media Type"
-    }
-  ],
+  "successCount": 4,
+  "errors": [],
   "items": [
     {
-      "title": "OIDC ou SAML : lequel vous faut-il vraiment",
-      "link": "https://dev.to/authagonal/oidc-ou-saml-lequel-vous-faut-il-vraiment-4nkf",
-      "pubDate": "2026-07-18T03:14:31.000Z",
-      "description": "<p>Toute équipe qui développe un logiciel B2B se heurte au même carrefour la première fois qu'un client sérieux annonce « il nous faut le SSO ». Deux acronymes, OIDC et SAML, prétendant chacun être la réponse, et un internet rempli de tableaux comparatifs qui vous disent que SAML est « entreprise » ",
+      "title": "Stop Hand-Translating Between SQL and Your ERD",
+      "link": "https://dev.to/tbson87/stop-hand-translating-between-sql-and-your-erd-4ohm",
+      "pubDate": "2026-07-18T07:53:30.000Z",
+      "description": "<p><em>Disclosure: I build <a href=\"https://schemity.com\" rel=\"noopener noreferrer\">Schemity</a>, a desktop ERD tool - this post is from our blog and uses it for the examples.</em></p> <blockquote> <p><strong>TL;DR:</strong> Most diagram tools force manual translation: retyping SQL dumps into boxes,",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Why Aussom?",
-      "link": "https://dev.to/cup_of_code/why-aussom-3mmk",
-      "pubDate": "2026-07-18T03:02:50.000Z",
-      "description": "<p>You have a Java application, and now you need it to do something Java is awkward at. Maybe you want to let users script your app without recompiling it. Maybe you want to change a piece of business logic without a full redeploy. Maybe you just want to run a quick, throwaway script and not stand u",
+      "title": "Claude Code Forgets Everything Between Sessions. I Built a Fix.",
+      "link": "https://dev.to/_548fe7f9c7fcd1125fd/claude-code-forgets-everything-between-sessions-i-built-a-fix-59n5",
+      "pubDate": "2026-07-18T07:51:31.000Z",
+      "description": "<h2> Claude Code Starts From Scratch Every Session </h2> <p>If you use Claude Code every day, you've probably found yourself repeating the same explanations over and over again.</p> <ul> <li>Why did we choose this architecture?</li> <li>Why did we reject that implementation?</li> <li>What parts are ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Part 2 — Search, palette, and settings",
-      "link": "https://dev.to/nerd_snipe_dev/part-2-intermediate-search-palette-and-settings-gif",
-      "pubDate": "2026-07-18T03:00:00.000Z",
-      "description": "<h2> Part 2 — Search, palette, and settings </h2> <blockquote> <p><strong>Level:</strong> Intermediate · <strong>Time:</strong> ~35 minutes · <strong>Builds on:</strong> <a href=\"https://dev.to/nerd_snipe_dev/build-a-contacts-app-in-20-minutes-with-designfoundation-4ph1\">Part 1 — Contacts app</a></p",
+      "title": "Circuit Breaker Pattern in Go: Stop Cascading Failures",
+      "link": "https://dev.to/rosgluk/circuit-breaker-pattern-in-go-stop-cascading-failures-7cg",
+      "pubDate": "2026-07-18T07:49:30.000Z",
+      "description": "<p>A circuit breaker stops your Go service from hammering a failing dependency,<br> preventing cascading failures that consume goroutines, sockets, and memory until the entire system collapses.</p> <p>The hard part is not the state machine. It is deciding where the breaker belongs, what counts as fa",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Production Interceptors for Solon ReActAgent: Stop Loops, Retry Tools, Sanitize Observations, Stream Events",
-      "link": "https://dev.to/solonjava/production-interceptors-for-solon-reactagent-stop-loops-retry-tools-sanitize-observations-24m2",
-      "pubDate": "2026-07-18T02:52:24.000Z",
-      "description": "<p>Demo agents usually work once. Production agents fail in boring, expensive ways: they loop on the same tool call, they retry forever against a flaky API, and they paste a 40KB JSON blob back into the next thought.</p> <p>Solon AI already ships a small set of <strong>built-in ReAct interceptors</s",
+      "title": "Is Your Team Ready to Embrace AI? I Built a Free In-Browser Assessment to Find Out",
+      "link": "https://dev.to/yunbow/is-your-team-ready-to-embrace-ai-i-built-a-free-in-browser-assessment-to-find-out-51df",
+      "pubDate": "2026-07-18T07:47:22.000Z",
+      "description": "<h2> Hook </h2> <p>Your team bought the AI coding assistant licenses three months ago. Then the real questions started: Can we let an agent refactor the billing module? Does AI-generated code go through the same review? Is our documentation even good enough for an AI to work from?</p> <p>Nobody in t",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "My Mac Said “System Data” Was Using 300 GB. Here’s How I Actually Cleared It.",
-      "link": "https://dev.to/juliojeanfils1/my-mac-said-system-data-was-using-300-gb-heres-how-i-actually-cleared-it-22ij",
-      "pubDate": "2026-07-18T02:50:14.000Z",
-      "description": "<p>I opened <strong>System Settings → General → Storage</strong> and stared at the screen for a second.</p> <p><strong>macOS:</strong> 47 GB. Fine.<br><br> <strong>System Data:</strong> 300 GB.</p> <p>No delete button. No info icon. Just a giant mystery bucket eating my disk.</p> <p>If you’ve hit th",
+      "title": "How to Catch False “Done” Claims in AI-Generated Code",
+      "link": "https://dev.to/reliableaiddelivery/how-to-catch-false-done-claims-in-ai-generated-code-2gp8",
+      "pubDate": "2026-07-18T07:36:52.000Z",
+      "description": "<p>AI-generated code can sound finished long before it is ready to accept. A message such as “tests passed” is a claim, not a verdict. Before accepting delivery, ask a more useful question: what evidence actually supports the claim that the requested work is complete?</p> <h2> Why “tests passed” is ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Instrument First, Then Prompt: Finding Real Agentic Pipeline Bugs",
-      "link": "https://dev.to/hannune/instrument-first-then-prompt-finding-real-agentic-pipeline-bugs-if9",
-      "pubDate": "2026-07-18T02:42:57.000Z",
-      "description": "<p>The default reaction when an agentic pipeline misbehaves is to open the system prompt and start rewriting it. The instinct makes sense — the prompt is visible, editable, and feels like the thing you control.</p> <p>The problem is that the prompt is almost never where the bug is.</p> <h2> What Act",
+      "title": "Why I Built Opposition Into My AI Council",
+      "link": "https://dev.to/j3nnning/why-i-built-opposition-into-my-ai-council-30p2",
+      "pubDate": "2026-07-18T07:36:11.000Z",
+      "description": "<p>One thing I became increasingly uncomfortable with was letting the AI architect decide how its own proposal should be challenged.</p> <p>It was not because I thought the Architect was weak. Most of the time, it was capable, careful, and grounded in the source. But once it had formed the first coh",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "舌尖上的“神迹”：当一个吃货被塔可辣到灵魂出窍",
-      "link": "https://dev.to/bluelobster_agent/she-jian-shang-de-shen-ji-dang-ge-chi-huo-bei-ta-ke-la-dao-ling-hun-chu-qiao-17e3",
-      "pubDate": "2026-07-18T02:40:31.000Z",
-      "description": "<h1> 舌尖上的“神迹”：当一个吃货被塔可辣到灵魂出窍 </h1> <h3> 前言：文本背景还原 </h3> <p>请闭上眼睛，想象这样一个场景：凌晨两点半，在洛杉矶街头一个闪烁着霓虹灯的墨西哥卷饼摊前。一位狂热的食客刚刚吃下了一口涂满了魔鬼椒酱的塔可（Taco）。</p> <p>此时，辣椒素迅速占领了他的大脑高地，多巴胺彻底失控。他颤抖着拿出手机，在备忘录里敲下了下面这段文字。这已经不是简单的英文了，这是<strong>“食物中毒边缘的呓语”</strong>，是<strong>“碳水化合物与香料的交响乐”</strong>：</p> <blockquote> <p><em>\"Very h",
+      "title": "Building AI That Matters: Why We Started Ventara",
+      "link": "https://dev.to/ventara/building-ai-that-matters-why-we-started-ventara-30lb",
+      "pubDate": "2026-07-18T07:23:44.000Z",
+      "description": "<p>The AI world is moving faster than ever.</p> <p>Every day, there's a new model, a new framework, a new benchmark, or a new promise that AI will change everything.</p> <p>Yet, when you talk to businesses, a different picture emerges.</p> <p>Most organizations aren't asking, <em>\"Which LLM has the ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I Asked AI to Turn One Sentence Into a Startup Blueprint — Here's What I Learned",
-      "link": "https://dev.to/kamvalethu_nyikinya_c017b/i-asked-ai-to-turn-one-sentence-into-a-startup-blueprint-heres-what-i-learned-106p",
-      "pubDate": "2026-07-18T02:39:21.000Z",
-      "description": "<p>Like a lot of people who enjoy building things, I have a notebook full of startup ideas.</p> <p>The problem isn't coming up with ideas.</p> <p>The problem is knowing which ones are worth pursuing.</p> <p>Most of them never make it beyond a sentence because the next steps feel overwhelming: custom",
+      "title": "View Transitions in Next.js: How I Added Animated Page Changes Without a Library",
+      "link": "https://dev.to/ahmed_mahmoud360/view-transitions-in-nextjs-how-i-added-animated-page-changes-without-a-library-2a1a",
+      "pubDate": "2026-07-18T07:23:35.000Z",
+      "description": "<blockquote> <p><strong>Headline:</strong> The View Transitions API animates the change between two DOM states — you call <code>document.startViewTransition()</code>, and the browser cross-fades or morphs the old page into the new one. In a Next.js App Router app I added smooth page and element tran",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How I Traced My AI Agent's Decision Loop With OpenTelemetry and Signoz (and Caught It Calling the Same Tool Twice)",
-      "link": "https://dev.to/dhruv_mehta_c8cf1a3eed42f/how-i-traced-my-ai-agents-decision-loop-with-opentelemetry-and-signoz-and-caught-it-calling-the-141f",
-      "pubDate": "2026-07-18T02:35:47.000Z",
-      "description": "<blockquote> <p>From a single JSON response to a full trace of every decision my AI agent made</p> </blockquote> <p>I built a small AI agent, it answers questions by deciding on its own whether to use a calculator, search some notes, or check the time. The answers looked fine, but one query took eig",
+      "title": "I built a toolbox where your files never leave the browser",
+      "link": "https://dev.to/s971153/i-built-a-toolbox-where-your-files-never-leave-the-browser-10cb",
+      "pubDate": "2026-07-18T07:22:41.000Z",
+      "description": "<p>Every time I needed to convert a HEIC photo, compress a PDF, or format some JSON, I'd land on a site that made me upload my file to their server. For a screenshot, fine. For a contract or an ID scan? No thanks.</p> <p>So I built <a href=\"https://yunknow.cc/\" rel=\"noopener noreferrer\">Yunknow Tool",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How to Build an AI-Powered Web Article Summarizer with Python 🐍",
-      "link": "https://dev.to/mohamedpythonist/how-to-build-an-ai-powered-web-article-summarizer-with-python-4djb",
-      "pubDate": "2026-07-18T02:29:12.000Z",
-      "description": "<p>Hey DEV Community! 👋</p> <p>Today, I want to share a super useful Python script I built that uses AI to automatically fetch and summarize any web article. It’s perfect for saving time and automating your daily reading list!</p> <h3> 🛠️ What This Script Does: </h3> <ol> <li>Takes any article URL",
+      "title": "🚀 FREE Oracle APEX Complete Tutorial Series – Learn Oracle APEX Step by Step!",
+      "link": "https://dev.to/mona_khan_a8409e8dde133ae/free-oracle-apex-complete-tutorial-series-learn-oracle-apex-step-by-step-9d9",
+      "pubDate": "2026-07-18T07:21:48.000Z",
+      "description": "<p>Are you looking to learn Oracle APEX from the ground up or improve your existing skills? I've created a completely FREE Oracle APEX tutorial series on my YouTube channel, Developers Diary, to help students, beginners, and professionals build modern web applications using Oracle APEX.</p> <p>📚 Wh",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "Show HN: IKEA Complexity Index",
+      "link": "https://ikea.greg.technology/",
+      "pubDate": "2026-07-18T03:51:42.000Z",
+      "description": "Article URL: https://ikea.greg.technology/ Comments URL: https://news.ycombinator.com/item?id=48955042 Points: 11 # Comments: 4",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Regressive JPEGs",
+      "link": "https://maurycyz.com/projects/bad_jpeg/",
+      "pubDate": "2026-07-18T03:14:20.000Z",
+      "description": "Article URL: https://maurycyz.com/projects/bad_jpeg/ Comments URL: https://news.ycombinator.com/item?id=48954851 Points: 190 # Comments: 10",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "Moonstone: Modern, cross-platform Lua runtime and package manager written in Zig",
       "link": "https://moonstone.sh/",
       "pubDate": "2026-07-18T01:18:15.000Z",
-      "description": "Article URL: https://moonstone.sh/ Comments URL: https://news.ycombinator.com/item?id=48954175 Points: 15 # Comments: 2",
+      "description": "Article URL: https://moonstone.sh/ Comments URL: https://news.ycombinator.com/item?id=48954175 Points: 50 # Comments: 13",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "I Started a \"Dirt Notebook\"",
+      "title": "I started a “dirt notebook”",
       "link": "https://pinewind.bearblog.dev/i-started-a-dirt-notebook/",
       "pubDate": "2026-07-18T01:12:13.000Z",
-      "description": "Article URL: https://pinewind.bearblog.dev/i-started-a-dirt-notebook/ Comments URL: https://news.ycombinator.com/item?id=48954149 Points: 24 # Comments: 14",
+      "description": "Article URL: https://pinewind.bearblog.dev/i-started-a-dirt-notebook/ Comments URL: https://news.ycombinator.com/item?id=48954149 Points: 53 # Comments: 43",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -117,7 +128,7 @@
       "title": "Stenchill: 3D Printable Solder Paste Stencil Generator",
       "link": "https://www.stenchill.com/en/",
       "pubDate": "2026-07-18T00:48:37.000Z",
-      "description": "Article URL: https://www.stenchill.com/en/ Comments URL: https://news.ycombinator.com/item?id=48953981 Points: 15 # Comments: 2",
+      "description": "Article URL: https://www.stenchill.com/en/ Comments URL: https://news.ycombinator.com/item?id=48953981 Points: 40 # Comments: 7",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -125,15 +136,15 @@
       "title": "The Isomorphic Labs Drug Design Engine unlocks a new frontier beyond AlphaFold",
       "link": "https://www.isomorphiclabs.com/articles/the-isomorphic-labs-drug-design-engine-unlocks-a-new-frontier",
       "pubDate": "2026-07-17T23:26:35.000Z",
-      "description": "Article URL: https://www.isomorphiclabs.com/articles/the-isomorphic-labs-drug-design-engine-unlocks-a-new-frontier Comments URL: https://news.ycombinator.com/item?id=48953406 Points: 46 # Comments: 4",
+      "description": "Article URL: https://www.isomorphiclabs.com/articles/the-isomorphic-labs-drug-design-engine-unlocks-a-new-frontier Comments URL: https://news.ycombinator.com/item?id=48953406 Points: 70 # Comments: 6",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Kaiser nurses say AI, workplace surveillance are making their jobs, care worse",
+      "title": "Kaiser nurses say AI, surveillance are making their jobs and patient care worse",
       "link": "https://localnewsmatters.org/2026/07/15/kaiser-nurses-say-ai-workplace-surveillance-are-making-their-jobs-and-patient-care-worse/",
       "pubDate": "2026-07-17T22:26:30.000Z",
-      "description": "Article URL: https://localnewsmatters.org/2026/07/15/kaiser-nurses-say-ai-workplace-surveillance-are-making-their-jobs-and-patient-care-worse/ Comments URL: https://news.ycombinator.com/item?id=48952880 Points: 346 # Comments: 231",
+      "description": "Article URL: https://localnewsmatters.org/2026/07/15/kaiser-nurses-say-ai-workplace-surveillance-are-making-their-jobs-and-patient-care-worse/ Comments URL: https://news.ycombinator.com/item?id=48952880 Points: 490 # Comments: 310",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -141,15 +152,7 @@
       "title": "TP-Link Kasa cameras leaked home GPS via unauthenticated UDP for 6 years",
       "link": "https://github.com/BadChemical/IoT-Vulnerability-Research-Public/blob/main/TP-Link_Kasa_EC71/Kasa_EC71.md",
       "pubDate": "2026-07-17T21:42:43.000Z",
-      "description": "Article URL: https://github.com/BadChemical/IoT-Vulnerability-Research-Public/blob/main/TP-Link_Kasa_EC71/Kasa_EC71.md Comments URL: https://news.ycombinator.com/item?id=48952565 Points: 48 # Comments: 7",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "FAA lets Boeing sign off on 737 MAX, 787 airworthiness certificates again",
-      "link": "https://www.cnbc.com/2026/07/17/faa-boeing-737-max-787.html",
-      "pubDate": "2026-07-17T21:22:53.000Z",
-      "description": "Article URL: https://www.cnbc.com/2026/07/17/faa-boeing-737-max-787.html Comments URL: https://news.ycombinator.com/item?id=48952439 Points: 138 # Comments: 73",
+      "description": "Article URL: https://github.com/BadChemical/IoT-Vulnerability-Research-Public/blob/main/TP-Link_Kasa_EC71/Kasa_EC71.md Comments URL: https://news.ycombinator.com/item?id=48952565 Points: 108 # Comments: 27",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -157,17 +160,89 @@
       "title": "Open Book Touch: open-source e-reader",
       "link": "https://www.crowdsupply.com/oddly-specific-objects/open-book-touch",
       "pubDate": "2026-07-17T20:47:57.000Z",
-      "description": "Article URL: https://www.crowdsupply.com/oddly-specific-objects/open-book-touch Comments URL: https://news.ycombinator.com/item?id=48952135 Points: 73 # Comments: 17",
+      "description": "Article URL: https://www.crowdsupply.com/oddly-specific-objects/open-book-touch Comments URL: https://news.ycombinator.com/item?id=48952135 Points: 104 # Comments: 36",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Topcoat: The full full-stack framework for Rust",
-      "link": "https://github.com/tokio-rs/topcoat",
-      "pubDate": "2026-07-17T20:41:43.000Z",
-      "description": "Article URL: https://github.com/tokio-rs/topcoat Comments URL: https://news.ycombinator.com/item?id=48952067 Points: 55 # Comments: 31",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "pointer-events",
+      "link": "https://css-tricks.com/almanac/properties/p/pointer-events/",
+      "pubDate": "2026-07-15T19:57:51.000Z",
+      "description": "The pointer-events property controls whether an element can become the target of pointer events like clicks, hover states, and other pointer-based events. In other words, it lets you decide whether the browser should treat an element as interactive when the … pointer-events originally handwritten an",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "What’s !important #15: Boundary-aware CSS, Time-based CSS, Full-bleed CSS, and More",
+      "link": "https://css-tricks.com/whats-important-15/",
+      "pubDate": "2026-07-15T14:36:18.000Z",
+      "description": "Read all about boundary-aware CSS, accessible grid lanes, time-based web designs, full-bleed, the customizable select, and new web platform features. What’s !important #15: Boundary-aware CSS, Time-based CSS, Full-bleed CSS, and More originally handwritten and published with love on CSS-Tricks. You ",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Get Ready For the Powerful CSS border-shape Property!",
+      "link": "https://css-tricks.com/get-ready-for-the-powerful-css-border-shape-property/",
+      "pubDate": "2026-07-07T15:14:00.000Z",
+      "description": "We recently got the shape() function and corner-shape property. What else could we possibly need as far as making shapes in CSS? Let me tell you: the border-shape property! Get Ready For the Powerful CSS border-shape Property! originally handwritten and published with love on CSS-Tricks. You should ",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "What’s !important #14: Gap Decorations, random(), &#060;select&gt; field-sizing, and More",
+      "link": "https://css-tricks.com/whats-important-14/",
+      "pubDate": "2026-06-30T13:54:14.000Z",
+      "description": "I know you’re busy, so for What’s !important #14, I’ll be sprinting through what’s been a stacked couple of weeks despite few browser updates. From CSS Quake to CSS Gap Decorations, this isn’t one to miss! What’s !important #14: Gap Decorations, random(), <select> field-sizing, and More originally h",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "The Shifting Line Between CSS States and JavaScript Events",
+      "link": "https://css-tricks.com/css-states-and-javascript-events/",
+      "pubDate": "2026-06-29T13:03:32.000Z",
+      "description": "CSS has always had pseudo-classes that style things based on user interactions. Recent features, however, are blurring the line between what CSS \"listens\" for and how they are alternatives to what Javascript typically listens for. The Shifting Line Between CSS States and JavaScript Events originally",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "translateZ()",
+      "link": "https://css-tricks.com/almanac/functions/t/translatez/",
+      "pubDate": "2026-06-25T13:18:56.000Z",
+      "description": "The translateZ() function moves an element closer to or farther from the user. translateZ() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "translateY()",
+      "link": "https://css-tricks.com/almanac/functions/t/translatey/",
+      "pubDate": "2026-06-25T13:17:56.000Z",
+      "description": "The translateY() function shifts an element vertically by the specified amount. translateY() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "translateX()",
+      "link": "https://css-tricks.com/almanac/functions/t/translatex/",
+      "pubDate": "2026-06-25T13:16:01.000Z",
+      "description": "The translateX() function shifts an element horizontally by the specified amount. translateX() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "translate()",
+      "link": "https://css-tricks.com/almanac/functions/t/translate/",
+      "pubDate": "2026-06-25T13:15:05.000Z",
+      "description": "The CSS translate() function shifts an element from its default position on a 2-dimensional plane translate() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Using Scroll-Driven Animations for Opposing Scroll Directions",
+      "link": "https://css-tricks.com/scroll-driven-animations-opposing-scroll-directions/",
+      "pubDate": "2026-06-22T12:39:13.000Z",
+      "description": "Sometimes designers have silly ideas that eventually grow on you. That happened to me with this concept where I had to build columns of items moving in opposite directions when a user scrolls the page. CodePen Embed Fallback Note: This … Using Scroll-Driven Animations for Opposing Scroll Directions ",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
       "title": "Meet the HTB Profile: all your skills, in one place",
