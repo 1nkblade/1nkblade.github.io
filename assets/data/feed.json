@@ -1,94 +1,163 @@
 {
-  "generatedAt": "2026-07-18T08:08:53.767Z",
+  "generatedAt": "2026-07-18T13:49:50.161Z",
   "sourceCount": 4,
-  "successCount": 4,
-  "errors": [],
+  "successCount": 3,
+  "errors": [
+    {
+      "source": "CSS Tricks",
+      "error": "HTTP 415 Unsupported Media Type"
+    }
+  ],
   "items": [
     {
-      "title": "Stop Hand-Translating Between SQL and Your ERD",
-      "link": "https://dev.to/tbson87/stop-hand-translating-between-sql-and-your-erd-4ohm",
-      "pubDate": "2026-07-18T07:53:30.000Z",
-      "description": "<p><em>Disclosure: I build <a href=\"https://schemity.com\" rel=\"noopener noreferrer\">Schemity</a>, a desktop ERD tool - this post is from our blog and uses it for the examples.</em></p> <blockquote> <p><strong>TL;DR:</strong> Most diagram tools force manual translation: retyping SQL dumps into boxes,",
+      "title": "Manual vs Generated OAuth Scopes: Lessons Learned While Building an Identity Platform",
+      "link": "https://dev.to/oleg_ivanov_a662b77fe36b2/manual-vs-generated-oauth-scopes-lessons-learned-while-building-an-identity-platform-314h",
+      "pubDate": "2026-07-18T13:42:23.000Z",
+      "description": "<p>OAuth scopes have been part of authorization systems for years, and almost every identity provider manages them as independent objects.</p> <p>For small applications, this approach works perfectly.</p> <p>However, after working on enterprise applications and identity systems for many years, I kep",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Claude Code Forgets Everything Between Sessions. I Built a Fix.",
-      "link": "https://dev.to/_548fe7f9c7fcd1125fd/claude-code-forgets-everything-between-sessions-i-built-a-fix-59n5",
-      "pubDate": "2026-07-18T07:51:31.000Z",
-      "description": "<h2> Claude Code Starts From Scratch Every Session </h2> <p>If you use Claude Code every day, you've probably found yourself repeating the same explanations over and over again.</p> <ul> <li>Why did we choose this architecture?</li> <li>Why did we reject that implementation?</li> <li>What parts are ",
+      "title": "Weighted Averages Lie About AI Readiness — The Case for Bottleneck Scoring",
+      "link": "https://dev.to/yun_bow/weighted-averages-lie-about-ai-readiness-the-case-for-bottleneck-scoring-2595",
+      "pubDate": "2026-07-18T13:38:49.000Z",
+      "description": "<h2> Hook </h2> <p>Most self-assessment tools score you the same way: answer questions, multiply by weights, sum it up. Higher total = more ready.</p> <p>That model has a structural flaw. A team that doesn't use Git — but aces documentation, AI policy, and project fit — can score high. Yet without v",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Circuit Breaker Pattern in Go: Stop Cascading Failures",
-      "link": "https://dev.to/rosgluk/circuit-breaker-pattern-in-go-stop-cascading-failures-7cg",
-      "pubDate": "2026-07-18T07:49:30.000Z",
-      "description": "<p>A circuit breaker stops your Go service from hammering a failing dependency,<br> preventing cascading failures that consume goroutines, sockets, and memory until the entire system collapses.</p> <p>The hard part is not the state machine. It is deciding where the breaker belongs, what counts as fa",
+      "title": "Shipping With No Analytics",
+      "link": "https://dev.to/grommash9/shipping-with-no-analytics-4ba8",
+      "pubDate": "2026-07-18T13:35:23.000Z",
+      "description": "<p>When I launched my app I made a decision I was quietly proud of — no analytics, nothing tracked, no data collection at all. I'm the privacy guy, right, the users own their data and I don't spy on anyone. It felt principled. It was actually just me choosing not to know how my own app was doing, an",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Is Your Team Ready to Embrace AI? I Built a Free In-Browser Assessment to Find Out",
-      "link": "https://dev.to/yunbow/is-your-team-ready-to-embrace-ai-i-built-a-free-in-browser-assessment-to-find-out-51df",
-      "pubDate": "2026-07-18T07:47:22.000Z",
-      "description": "<h2> Hook </h2> <p>Your team bought the AI coding assistant licenses three months ago. Then the real questions started: Can we let an agent refactor the billing module? Does AI-generated code go through the same review? Is our documentation even good enough for an AI to work from?</p> <p>Nobody in t",
+      "title": "The Art of Digital Minimalism: How to Stay Focused in a World of Noise",
+      "link": "https://dev.to/pargati_hub_0705c4e214ebe/the-art-of-digital-minimalism-how-to-stay-focused-in-a-world-of-noise-183g",
+      "pubDate": "2026-07-18T13:30:38.000Z",
+      "description": "<p>In an era where our pockets vibrate with the constant hum of notifications and our screens are designed to keep us scrolling indefinitely, silence has become a luxury. We live in a world of digital noise—an endless stream of emails, social media updates, and breaking news that fragments our atten",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How to Catch False “Done” Claims in AI-Generated Code",
-      "link": "https://dev.to/reliableaiddelivery/how-to-catch-false-done-claims-in-ai-generated-code-2gp8",
-      "pubDate": "2026-07-18T07:36:52.000Z",
-      "description": "<p>AI-generated code can sound finished long before it is ready to accept. A message such as “tests passed” is a claim, not a verdict. Before accepting delivery, ask a more useful question: what evidence actually supports the claim that the requested work is complete?</p> <h2> Why “tests passed” is ",
+      "title": "Architecting lean LLM caching: how to drop a 20M-row table without losing your AI memory",
+      "link": "https://dev.to/wondadav/architecting-lean-llm-caching-how-to-drop-a-20m-row-table-without-losing-your-ai-memory-3g2n",
+      "pubDate": "2026-07-18T13:28:25.000Z",
+      "description": "<p>Any team running an agentic pipeline on a periodically-reloaded dataset caches the output of inputs that repeat across periods to save cost. How you store that cache matters. Storing it in the same table as the data is safe, but makes you unable to wipe the data from the previous period before lo",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Why I Built Opposition Into My AI Council",
-      "link": "https://dev.to/j3nnning/why-i-built-opposition-into-my-ai-council-30p2",
-      "pubDate": "2026-07-18T07:36:11.000Z",
-      "description": "<p>One thing I became increasingly uncomfortable with was letting the AI architect decide how its own proposal should be challenged.</p> <p>It was not because I thought the Architect was weak. Most of the time, it was capable, careful, and grounded in the source. But once it had formed the first coh",
+      "title": "Don’t Use console.log for Logging: What Vercel’s Founder Warned About",
+      "link": "https://dev.to/biomathcode/dont-use-consolelog-for-logging-what-vercels-founder-warned-about-1n46",
+      "pubDate": "2026-07-18T13:22:36.000Z",
+      "description": "<p>I used AI for formatting and grammar.</p> <p>Recently came across this x thread by Pooya Parsa(@_pi0_). He is an open source developer of multiple libraries eg. nitrojsdev, unjs. He trying to solve the bottleneck problems that javascript web dev ecosystem faces. A lot of frameworks are dependent ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Building AI That Matters: Why We Started Ventara",
-      "link": "https://dev.to/ventara/building-ai-that-matters-why-we-started-ventara-30lb",
-      "pubDate": "2026-07-18T07:23:44.000Z",
-      "description": "<p>The AI world is moving faster than ever.</p> <p>Every day, there's a new model, a new framework, a new benchmark, or a new promise that AI will change everything.</p> <p>Yet, when you talk to businesses, a different picture emerges.</p> <p>Most organizations aren't asking, <em>\"Which LLM has the ",
+      "title": "Technical Leadership vs. Managerial Leadership: Chart Your Career Path",
+      "link": "https://dev.to/merbayerp/technical-leadership-vs-managerial-leadership-chart-your-career-path-2o13",
+      "pubDate": "2026-07-18T13:18:44.000Z",
+      "description": "<p>When I received an offer to lead a team developing a new module for a production ERP, two different paths emerged in my mind: deepening my existing technical expertise to become a 'Technical Lead,' or moving into an 'Engineering Manager' role by managing a broader unit. This decision was one of t",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "View Transitions in Next.js: How I Added Animated Page Changes Without a Library",
-      "link": "https://dev.to/ahmed_mahmoud360/view-transitions-in-nextjs-how-i-added-animated-page-changes-without-a-library-2a1a",
-      "pubDate": "2026-07-18T07:23:35.000Z",
-      "description": "<blockquote> <p><strong>Headline:</strong> The View Transitions API animates the change between two DOM states — you call <code>document.startViewTransition()</code>, and the browser cross-fades or morphs the old page into the new one. In a Next.js App Router app I added smooth page and element tran",
+      "title": "Can Codex Build an Entire x86 Assembly Game Autonomously? A Real-World Experiment",
+      "link": "https://dev.to/mbostjan/can-codex-build-an-entire-x86-assembly-game-autonomously-a-real-world-experiment-mik",
+      "pubDate": "2026-07-18T13:18:17.000Z",
+      "description": "<h2> Can Codex Build an Entire x86 Assembly Game Autonomously? </h2> <p>Most demonstrations of AI coding focus on generating snippets of code, building CRUD applications, or creating small projects in modern programming languages.</p> <p><strong>I wanted to test something different.</strong></p> <p>",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I built a toolbox where your files never leave the browser",
-      "link": "https://dev.to/s971153/i-built-a-toolbox-where-your-files-never-leave-the-browser-10cb",
-      "pubDate": "2026-07-18T07:22:41.000Z",
-      "description": "<p>Every time I needed to convert a HEIC photo, compress a PDF, or format some JSON, I'd land on a site that made me upload my file to their server. For a screenshot, fine. For a contract or an ID scan? No thanks.</p> <p>So I built <a href=\"https://yunknow.cc/\" rel=\"noopener noreferrer\">Yunknow Tool",
+      "title": "Why Your Kafka Stack Is Holding You Back (And How to Fix It)",
+      "link": "https://dev.to/zeliotofficial/why-your-kafka-stack-is-holding-you-back-and-how-to-fix-it-1gh4",
+      "pubDate": "2026-07-18T13:14:23.000Z",
+      "description": "<h2> TL;DR </h2> <p>Apache Kafka remains foundational but managing it alone is complex and inadequate for modern real-time needs.</p> <p>Condense modernizes Kafka by providing a fully managed, Kafka-native streaming platform deployed inside your cloud (BYOC) with:</p> <ul> <li><p>Prebuilt, domain-sp",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "🚀 FREE Oracle APEX Complete Tutorial Series – Learn Oracle APEX Step by Step!",
-      "link": "https://dev.to/mona_khan_a8409e8dde133ae/free-oracle-apex-complete-tutorial-series-learn-oracle-apex-step-by-step-9d9",
-      "pubDate": "2026-07-18T07:21:48.000Z",
-      "description": "<p>Are you looking to learn Oracle APEX from the ground up or improve your existing skills? I've created a completely FREE Oracle APEX tutorial series on my YouTube channel, Developers Diary, to help students, beginners, and professionals build modern web applications using Oracle APEX.</p> <p>📚 Wh",
+      "title": "I kept losing the things AI made for me, so I built an iPhone library for them",
+      "link": "https://dev.to/spingras/i-kept-losing-the-things-ai-made-for-me-so-i-built-an-iphone-library-for-them-4pe7",
+      "pubDate": "2026-07-18T13:13:22.000Z",
+      "description": "<p>I use Claude and other AIs all the time.</p> <p>A single chat will give me a component. Another will give me a small Python script, Mermaid diagram, Markdown file, or utility that addresses the issue I faced that day.</p> <p>And then it's gone.</p> <p>The AI doesn't fail. The problem is what happ",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "GPT-5.6 used a prompt to close a 30-year gap in convex optimization",
+      "link": "https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a/",
+      "pubDate": "2026-07-18T13:00:52.000Z",
+      "description": "Article URL: https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a/ Comments URL: https://news.ycombinator.com/item?id=48957779 Points: 46 # Comments: 9",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "What AI did to stackoverflow in a graph",
+      "link": "https://data.stackexchange.com/stackoverflow/query/1953768#graph",
+      "pubDate": "2026-07-18T11:12:46.000Z",
+      "description": "Article URL: https://data.stackexchange.com/stackoverflow/query/1953768#graph Comments URL: https://news.ycombinator.com/item?id=48956949 Points: 110 # Comments: 120",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Why do AI company logos look like buttholes? (2025)",
+      "link": "https://velvetshark.com/ai-company-logos-that-look-like-buttholes",
+      "pubDate": "2026-07-18T11:06:50.000Z",
+      "description": "Article URL: https://velvetshark.com/ai-company-logos-that-look-like-buttholes Comments URL: https://news.ycombinator.com/item?id=48956924 Points: 297 # Comments: 90",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Fable 5 vs. GPT-5.6 Sol on an NP-Hard Problem: Does /goal help?",
+      "link": "https://charlesazam.com/blog/fable-5-gpt-5-6-sol-goal/",
+      "pubDate": "2026-07-18T11:00:29.000Z",
+      "description": "Article URL: https://charlesazam.com/blog/fable-5-gpt-5-6-sol-goal/ Comments URL: https://news.ycombinator.com/item?id=48956879 Points: 49 # Comments: 19",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Steam Machine: Between 12k and 15k Units Sold per week",
+      "link": "https://boilingsteam.com/steam-machine-between-10k-and-15k-sold-per-week/",
+      "pubDate": "2026-07-18T10:56:09.000Z",
+      "description": "Article URL: https://boilingsteam.com/steam-machine-between-10k-and-15k-sold-per-week/ Comments URL: https://news.ycombinator.com/item?id=48956852 Points: 42 # Comments: 23",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "LG monitors silently install software through Windows Update without consent",
+      "link": "https://videocardz.com/newz/lg-monitors-silently-install-software-through-windows-update-without-user-consent",
+      "pubDate": "2026-07-18T10:21:19.000Z",
+      "description": "Article URL: https://videocardz.com/newz/lg-monitors-silently-install-software-through-windows-update-without-user-consent Comments URL: https://news.ycombinator.com/item?id=48956688 Points: 365 # Comments: 182",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Qubes OS Security in the Public Record",
+      "link": "https://arxiv.org/abs/2607.14587",
+      "pubDate": "2026-07-18T08:50:07.000Z",
+      "description": "Article URL: https://arxiv.org/abs/2607.14587 Comments URL: https://news.ycombinator.com/item?id=48956307 Points: 34 # Comments: 5",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "The Computer at the Bottom of a Canal",
+      "link": "https://negroniventurestudios.com/2026/07/18/the-computer-at-the-bottom-of-a-canal/",
+      "pubDate": "2026-07-18T08:33:31.000Z",
+      "description": "Article URL: https://negroniventurestudios.com/2026/07/18/the-computer-at-the-bottom-of-a-canal/ Comments URL: https://news.ycombinator.com/item?id=48956231 Points: 56 # Comments: 10",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "Show HN: IKEA Complexity Index",
       "link": "https://ikea.greg.technology/",
       "pubDate": "2026-07-18T03:51:42.000Z",
-      "description": "Article URL: https://ikea.greg.technology/ Comments URL: https://news.ycombinator.com/item?id=48955042 Points: 11 # Comments: 4",
+      "description": "Article URL: https://ikea.greg.technology/ Comments URL: https://news.ycombinator.com/item?id=48955042 Points: 100 # Comments: 52",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -96,153 +165,9 @@
       "title": "Regressive JPEGs",
       "link": "https://maurycyz.com/projects/bad_jpeg/",
       "pubDate": "2026-07-18T03:14:20.000Z",
-      "description": "Article URL: https://maurycyz.com/projects/bad_jpeg/ Comments URL: https://news.ycombinator.com/item?id=48954851 Points: 190 # Comments: 10",
+      "description": "Article URL: https://maurycyz.com/projects/bad_jpeg/ Comments URL: https://news.ycombinator.com/item?id=48954851 Points: 472 # Comments: 46",
       "source": "Hacker News",
       "category": "Tech News"
-    },
-    {
-      "title": "Moonstone: Modern, cross-platform Lua runtime and package manager written in Zig",
-      "link": "https://moonstone.sh/",
-      "pubDate": "2026-07-18T01:18:15.000Z",
-      "description": "Article URL: https://moonstone.sh/ Comments URL: https://news.ycombinator.com/item?id=48954175 Points: 50 # Comments: 13",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "I started a “dirt notebook”",
-      "link": "https://pinewind.bearblog.dev/i-started-a-dirt-notebook/",
-      "pubDate": "2026-07-18T01:12:13.000Z",
-      "description": "Article URL: https://pinewind.bearblog.dev/i-started-a-dirt-notebook/ Comments URL: https://news.ycombinator.com/item?id=48954149 Points: 53 # Comments: 43",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "DrDroid (YC W23) Is Hiring",
-      "link": "https://www.ycombinator.com/companies/drdroid/jobs/w45QcNV-product-engineer-assignment-mandatory",
-      "pubDate": "2026-07-18T01:01:08.000Z",
-      "description": "Article URL: https://www.ycombinator.com/companies/drdroid/jobs/w45QcNV-product-engineer-assignment-mandatory Comments URL: https://news.ycombinator.com/item?id=48954074 Points: 0 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Stenchill: 3D Printable Solder Paste Stencil Generator",
-      "link": "https://www.stenchill.com/en/",
-      "pubDate": "2026-07-18T00:48:37.000Z",
-      "description": "Article URL: https://www.stenchill.com/en/ Comments URL: https://news.ycombinator.com/item?id=48953981 Points: 40 # Comments: 7",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "The Isomorphic Labs Drug Design Engine unlocks a new frontier beyond AlphaFold",
-      "link": "https://www.isomorphiclabs.com/articles/the-isomorphic-labs-drug-design-engine-unlocks-a-new-frontier",
-      "pubDate": "2026-07-17T23:26:35.000Z",
-      "description": "Article URL: https://www.isomorphiclabs.com/articles/the-isomorphic-labs-drug-design-engine-unlocks-a-new-frontier Comments URL: https://news.ycombinator.com/item?id=48953406 Points: 70 # Comments: 6",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Kaiser nurses say AI, surveillance are making their jobs and patient care worse",
-      "link": "https://localnewsmatters.org/2026/07/15/kaiser-nurses-say-ai-workplace-surveillance-are-making-their-jobs-and-patient-care-worse/",
-      "pubDate": "2026-07-17T22:26:30.000Z",
-      "description": "Article URL: https://localnewsmatters.org/2026/07/15/kaiser-nurses-say-ai-workplace-surveillance-are-making-their-jobs-and-patient-care-worse/ Comments URL: https://news.ycombinator.com/item?id=48952880 Points: 490 # Comments: 310",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "TP-Link Kasa cameras leaked home GPS via unauthenticated UDP for 6 years",
-      "link": "https://github.com/BadChemical/IoT-Vulnerability-Research-Public/blob/main/TP-Link_Kasa_EC71/Kasa_EC71.md",
-      "pubDate": "2026-07-17T21:42:43.000Z",
-      "description": "Article URL: https://github.com/BadChemical/IoT-Vulnerability-Research-Public/blob/main/TP-Link_Kasa_EC71/Kasa_EC71.md Comments URL: https://news.ycombinator.com/item?id=48952565 Points: 108 # Comments: 27",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Open Book Touch: open-source e-reader",
-      "link": "https://www.crowdsupply.com/oddly-specific-objects/open-book-touch",
-      "pubDate": "2026-07-17T20:47:57.000Z",
-      "description": "Article URL: https://www.crowdsupply.com/oddly-specific-objects/open-book-touch Comments URL: https://news.ycombinator.com/item?id=48952135 Points: 104 # Comments: 36",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "pointer-events",
-      "link": "https://css-tricks.com/almanac/properties/p/pointer-events/",
-      "pubDate": "2026-07-15T19:57:51.000Z",
-      "description": "The pointer-events property controls whether an element can become the target of pointer events like clicks, hover states, and other pointer-based events. In other words, it lets you decide whether the browser should treat an element as interactive when the … pointer-events originally handwritten an",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "What’s !important #15: Boundary-aware CSS, Time-based CSS, Full-bleed CSS, and More",
-      "link": "https://css-tricks.com/whats-important-15/",
-      "pubDate": "2026-07-15T14:36:18.000Z",
-      "description": "Read all about boundary-aware CSS, accessible grid lanes, time-based web designs, full-bleed, the customizable select, and new web platform features. What’s !important #15: Boundary-aware CSS, Time-based CSS, Full-bleed CSS, and More originally handwritten and published with love on CSS-Tricks. You ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Get Ready For the Powerful CSS border-shape Property!",
-      "link": "https://css-tricks.com/get-ready-for-the-powerful-css-border-shape-property/",
-      "pubDate": "2026-07-07T15:14:00.000Z",
-      "description": "We recently got the shape() function and corner-shape property. What else could we possibly need as far as making shapes in CSS? Let me tell you: the border-shape property! Get Ready For the Powerful CSS border-shape Property! originally handwritten and published with love on CSS-Tricks. You should ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "What’s !important #14: Gap Decorations, random(), &#060;select&gt; field-sizing, and More",
-      "link": "https://css-tricks.com/whats-important-14/",
-      "pubDate": "2026-06-30T13:54:14.000Z",
-      "description": "I know you’re busy, so for What’s !important #14, I’ll be sprinting through what’s been a stacked couple of weeks despite few browser updates. From CSS Quake to CSS Gap Decorations, this isn’t one to miss! What’s !important #14: Gap Decorations, random(), <select> field-sizing, and More originally h",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "The Shifting Line Between CSS States and JavaScript Events",
-      "link": "https://css-tricks.com/css-states-and-javascript-events/",
-      "pubDate": "2026-06-29T13:03:32.000Z",
-      "description": "CSS has always had pseudo-classes that style things based on user interactions. Recent features, however, are blurring the line between what CSS \"listens\" for and how they are alternatives to what Javascript typically listens for. The Shifting Line Between CSS States and JavaScript Events originally",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translateZ()",
-      "link": "https://css-tricks.com/almanac/functions/t/translatez/",
-      "pubDate": "2026-06-25T13:18:56.000Z",
-      "description": "The translateZ() function moves an element closer to or farther from the user. translateZ() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translateY()",
-      "link": "https://css-tricks.com/almanac/functions/t/translatey/",
-      "pubDate": "2026-06-25T13:17:56.000Z",
-      "description": "The translateY() function shifts an element vertically by the specified amount. translateY() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translateX()",
-      "link": "https://css-tricks.com/almanac/functions/t/translatex/",
-      "pubDate": "2026-06-25T13:16:01.000Z",
-      "description": "The translateX() function shifts an element horizontally by the specified amount. translateX() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translate()",
-      "link": "https://css-tricks.com/almanac/functions/t/translate/",
-      "pubDate": "2026-06-25T13:15:05.000Z",
-      "description": "The CSS translate() function shifts an element from its default position on a 2-dimensional plane translate() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Using Scroll-Driven Animations for Opposing Scroll Directions",
-      "link": "https://css-tricks.com/scroll-driven-animations-opposing-scroll-directions/",
-      "pubDate": "2026-06-22T12:39:13.000Z",
-      "description": "Sometimes designers have silly ideas that eventually grow on you. That happened to me with this concept where I had to build columns of items moving in opposite directions when a user scrolls the page. CodePen Embed Fallback Note: This … Using Scroll-Driven Animations for Opposing Scroll Directions ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
     },
     {
       "title": "Meet the HTB Profile: all your skills, in one place",
