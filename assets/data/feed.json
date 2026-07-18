@@ -1,248 +1,173 @@
 {
-  "generatedAt": "2026-07-17T19:32:49.733Z",
+  "generatedAt": "2026-07-18T03:32:21.528Z",
   "sourceCount": 4,
-  "successCount": 4,
-  "errors": [],
+  "successCount": 3,
+  "errors": [
+    {
+      "source": "CSS Tricks",
+      "error": "HTTP 415 Unsupported Media Type"
+    }
+  ],
   "items": [
     {
-      "title": "Five Hours Of Interviewing - Zero Questions About The Job",
-      "link": "https://dev.to/andreimerlescu/five-hours-of-interviewing-zero-questions-about-the-job-378k",
-      "pubDate": "2026-07-17T19:26:46.000Z",
-      "description": "<p>This spring I interviewed with a company whose product I genuinely respect — an internet-intelligence platform built on DNS data, the kind of quiet infrastructure that keeps the modern web navigable. The role was Senior Distributed Systems Engineer. The mission: help rewrite a core product from C",
+      "title": "OIDC ou SAML : lequel vous faut-il vraiment",
+      "link": "https://dev.to/authagonal/oidc-ou-saml-lequel-vous-faut-il-vraiment-4nkf",
+      "pubDate": "2026-07-18T03:14:31.000Z",
+      "description": "<p>Toute équipe qui développe un logiciel B2B se heurte au même carrefour la première fois qu'un client sérieux annonce « il nous faut le SSO ». Deux acronymes, OIDC et SAML, prétendant chacun être la réponse, et un internet rempli de tableaux comparatifs qui vous disent que SAML est « entreprise » ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Build in Public Week 0: Resetting My Indie Strategy to ¥100K in 3 Months",
-      "link": "https://dev.to/masatoman/build-in-public-week-0-resetting-my-indie-strategy-to-y100k-in-3-months-2p46",
-      "pubDate": "2026-07-17T19:21:06.000Z",
-      "description": "<h2> TL;DR </h2> <ul> <li> <strong>Goal</strong>: ¥100,000 ($670) in total revenue by 2026-07-16</li> <li> <strong>Strategy</strong>: One Product Hunt launch on June 9, aiming $149 × 7 = ~¥105,000</li> <li> <strong>Starting line</strong>: 47 weekly sessions on my blog, 50 X followers, 0 paid sales</",
+      "title": "Why Aussom?",
+      "link": "https://dev.to/cup_of_code/why-aussom-3mmk",
+      "pubDate": "2026-07-18T03:02:50.000Z",
+      "description": "<p>You have a Java application, and now you need it to do something Java is awkward at. Maybe you want to let users script your app without recompiling it. Maybe you want to change a piece of business logic without a full redeploy. Maybe you just want to run a quick, throwaway script and not stand u",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I Raised My Price 3x and Revenue Grew 3.6x — Indie Dev Pricing Guide 2026",
-      "link": "https://dev.to/masatoman/i-raised-my-price-3x-and-revenue-grew-36x-indie-dev-pricing-guide-2026-5186",
-      "pubDate": "2026-07-17T19:21:05.000Z",
-      "description": "<h2> The Numbers First </h2> <p>Same content. Same audience. Just a price change.</p> <div class=\"table-wrapper-paragraph\"><table> <thead> <tr> <th>Metric</th> <th>Before</th> <th>After</th> </tr> </thead> <tbody> <tr> <td>Price</td> <td>¥980 (~$6.50)</td> <td>¥2,980 (~$20)</td> </tr> <tr> <td>Month",
+      "title": "Part 2 — Search, palette, and settings",
+      "link": "https://dev.to/nerd_snipe_dev/part-2-intermediate-search-palette-and-settings-gif",
+      "pubDate": "2026-07-18T03:00:00.000Z",
+      "description": "<h2> Part 2 — Search, palette, and settings </h2> <blockquote> <p><strong>Level:</strong> Intermediate · <strong>Time:</strong> ~35 minutes · <strong>Builds on:</strong> <a href=\"https://dev.to/nerd_snipe_dev/build-a-contacts-app-in-20-minutes-with-designfoundation-4ph1\">Part 1 — Contacts app</a></p",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Best CMS in 2026: Sanity vs WordPress",
-      "link": "https://dev.to/maniekm/best-cms-in-2026-sanity-vs-wordpress-2i3m",
-      "pubDate": "2026-07-17T19:21:00.000Z",
-      "description": "<h2> Sanity and WordPress for Content Management </h2> <p>When building a new website or app, picking a CMS can affect your site's current and future performance. For many teams, the decision comes down to Sanity vs WordPress, and their two very different approaches to content management.</p> <p>Wor",
+      "title": "Production Interceptors for Solon ReActAgent: Stop Loops, Retry Tools, Sanitize Observations, Stream Events",
+      "link": "https://dev.to/solonjava/production-interceptors-for-solon-reactagent-stop-loops-retry-tools-sanitize-observations-24m2",
+      "pubDate": "2026-07-18T02:52:24.000Z",
+      "description": "<p>Demo agents usually work once. Production agents fail in boring, expensive ways: they loop on the same tool call, they retry forever against a flaky API, and they paste a 40KB JSON blob back into the next thought.</p> <p>Solon AI already ships a small set of <strong>built-in ReAct interceptors</s",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "A todo.txt shared by a human and AI agents: why plain text beat a SaaS board for my workflow",
-      "link": "https://dev.to/hideyukimori/a-todotxt-shared-by-a-human-and-ai-agents-why-plain-text-beat-a-saas-board-for-my-workflow-5dbh",
-      "pubDate": "2026-07-17T19:14:11.000Z",
-      "description": "<p>If you have tried to give an AI coding agent access to your task board, you have probably hit the wall I did: the board lives behind an API, and the agent lives in your repo. Here is the low-tech surface I use instead, where both of us read and write the same file.</p> <p>I maintain a fleet of sm",
+      "title": "My Mac Said “System Data” Was Using 300 GB. Here’s How I Actually Cleared It.",
+      "link": "https://dev.to/juliojeanfils1/my-mac-said-system-data-was-using-300-gb-heres-how-i-actually-cleared-it-22ij",
+      "pubDate": "2026-07-18T02:50:14.000Z",
+      "description": "<p>I opened <strong>System Settings → General → Storage</strong> and stared at the screen for a second.</p> <p><strong>macOS:</strong> 47 GB. Fine.<br><br> <strong>System Data:</strong> 300 GB.</p> <p>No delete button. No info icon. Just a giant mystery bucket eating my disk.</p> <p>If you’ve hit th",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "クレジットカード不要で使える無料LLM APIプロバイダまとめ（2026年版）",
-      "link": "https://dev.to/orca_forge/kurezitutokadobu-yao-deshi-eruwu-liao-llm-apipurobaidamatome2026nian-ban--4cdk",
-      "pubDate": "2026-07-17T19:02:55.000Z",
-      "description": "<blockquote> <p>📝 Originally published at <a href=\"https://forge.workstyle.tech/blog/free-llm-api-providers-2026/?utm_source=devto&amp;utm_medium=crosspost&amp;utm_campaign=free-llm-api-providers-2026\" rel=\"noopener noreferrer\">forge.workstyle.tech</a>.</p> </blockquote> <h2> はじめに </h2> <p>LLM（大規模言",
+      "title": "Instrument First, Then Prompt: Finding Real Agentic Pipeline Bugs",
+      "link": "https://dev.to/hannune/instrument-first-then-prompt-finding-real-agentic-pipeline-bugs-if9",
+      "pubDate": "2026-07-18T02:42:57.000Z",
+      "description": "<p>The default reaction when an agentic pipeline misbehaves is to open the system prompt and start rewriting it. The instinct makes sense — the prompt is visible, editable, and feels like the thing you control.</p> <p>The problem is that the prompt is almost never where the bug is.</p> <h2> What Act",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "From Legos to Referees: A Brief History of How Online Games Actually Work",
-      "link": "https://dev.to/derek_kahre/from-legos-to-referees-a-brief-history-of-how-online-games-actually-work-1e6o",
-      "pubDate": "2026-07-17T19:02:48.000Z",
-      "description": "<p>Have you ever wondered what’s actually happening behind the scenes when you're staring at a mobile loading screen, or why players suddenly \"teleport\" backward when your Wi-Fi hiccups?</p> <p>Making a game talk to players all over the world is a massive puzzle. Over the last 25 years, developers a",
+      "title": "舌尖上的“神迹”：当一个吃货被塔可辣到灵魂出窍",
+      "link": "https://dev.to/bluelobster_agent/she-jian-shang-de-shen-ji-dang-ge-chi-huo-bei-ta-ke-la-dao-ling-hun-chu-qiao-17e3",
+      "pubDate": "2026-07-18T02:40:31.000Z",
+      "description": "<h1> 舌尖上的“神迹”：当一个吃货被塔可辣到灵魂出窍 </h1> <h3> 前言：文本背景还原 </h3> <p>请闭上眼睛，想象这样一个场景：凌晨两点半，在洛杉矶街头一个闪烁着霓虹灯的墨西哥卷饼摊前。一位狂热的食客刚刚吃下了一口涂满了魔鬼椒酱的塔可（Taco）。</p> <p>此时，辣椒素迅速占领了他的大脑高地，多巴胺彻底失控。他颤抖着拿出手机，在备忘录里敲下了下面这段文字。这已经不是简单的英文了，这是<strong>“食物中毒边缘的呓语”</strong>，是<strong>“碳水化合物与香料的交响乐”</strong>：</p> <blockquote> <p><em>\"Very h",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "🚀 Git Cheat Sheet Every Developer Should Bookmark (Learn Git Faster)",
-      "link": "https://dev.to/sugatadev/git-cheat-sheet-every-developer-should-bookmark-learn-git-faster-465i",
-      "pubDate": "2026-07-17T19:00:00.000Z",
-      "description": "<blockquote> <p><strong>\"Git isn't hard. Remembering the commands is.\"</strong></p> </blockquote> <p>If you've ever found yourself Googling:</p> <ul> <li><em>How do I create a new branch?</em></li> <li> <em>What's the difference between *</em><code>git fetch</code>** and <strong><code>git pull</code",
+      "title": "I Asked AI to Turn One Sentence Into a Startup Blueprint — Here's What I Learned",
+      "link": "https://dev.to/kamvalethu_nyikinya_c017b/i-asked-ai-to-turn-one-sentence-into-a-startup-blueprint-heres-what-i-learned-106p",
+      "pubDate": "2026-07-18T02:39:21.000Z",
+      "description": "<p>Like a lot of people who enjoy building things, I have a notebook full of startup ideas.</p> <p>The problem isn't coming up with ideas.</p> <p>The problem is knowing which ones are worth pursuing.</p> <p>Most of them never make it beyond a sentence because the next steps feel overwhelming: custom",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Python Comprehensions: From Confusing to Crystal Clear in 10 Minutes",
-      "link": "https://dev.to/ameer_abdullah_68d48c8496/python-comprehensions-from-confusing-to-crystal-clear-in-10-minutes-49me",
-      "pubDate": "2026-07-17T19:00:00.000Z",
-      "description": "<p>List comprehensions confuse beginners not because they are complex but because they are written in the opposite order from how most people think about them.</p> <p>Once you learn to read them in the right order, they become faster to understand than the equivalent for loop.</p> <h3> The Reading O",
+      "title": "How I Traced My AI Agent's Decision Loop With OpenTelemetry and Signoz (and Caught It Calling the Same Tool Twice)",
+      "link": "https://dev.to/dhruv_mehta_c8cf1a3eed42f/how-i-traced-my-ai-agents-decision-loop-with-opentelemetry-and-signoz-and-caught-it-calling-the-141f",
+      "pubDate": "2026-07-18T02:35:47.000Z",
+      "description": "<blockquote> <p>From a single JSON response to a full trace of every decision my AI agent made</p> </blockquote> <p>I built a small AI agent, it answers questions by deciding on its own whether to use a calculator, search some notes, or check the time. The answers looked fine, but one query took eig",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Installing Apache Kafka 4.2 on Ubuntu (WSL2): A Complete KRaft Step-by-Step Guide",
-      "link": "https://dev.to/sanjayghosh/installing-apache-kafka-42-on-ubuntu-wsl2-a-complete-kraft-step-by-step-guide-4bmf",
-      "pubDate": "2026-07-17T18:58:38.000Z",
-      "description": "<h2> Installing Apache Kafka 4.2 on Ubuntu 24.04 (WSL2) Using KRaft Mode: A Complete Step-by-Step Guide </h2> <blockquote> <p>Learn how to install Apache Kafka 4.2 in KRaft mode, understand its architecture, create topics, produce and consume messages, and troubleshoot common configuration issues—al",
+      "title": "How to Build an AI-Powered Web Article Summarizer with Python 🐍",
+      "link": "https://dev.to/mohamedpythonist/how-to-build-an-ai-powered-web-article-summarizer-with-python-4djb",
+      "pubDate": "2026-07-18T02:29:12.000Z",
+      "description": "<p>Hey DEV Community! 👋</p> <p>Today, I want to share a super useful Python script I built that uses AI to automatically fetch and summarize any web article. It’s perfect for saving time and automating your daily reading list!</p> <h3> 🛠️ What This Script Does: </h3> <ol> <li>Takes any article URL",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Show HN: A zoomable timeline of 4M Wikipedia events",
-      "link": "https://app.everything.diena.co/",
-      "pubDate": "2026-07-17T18:37:33.000Z",
-      "description": "I'm building a journal app in Kotlin Multiplatform and for this purpose I have created a zoomable timeline interface.This is a side-project where I reuse the timeline interface to display 4 million events imported from Wikipedia / Wikidata, scored using PageRank. There is more information on the abo",
+      "title": "Moonstone: Modern, cross-platform Lua runtime and package manager written in Zig",
+      "link": "https://moonstone.sh/",
+      "pubDate": "2026-07-18T01:18:15.000Z",
+      "description": "Article URL: https://moonstone.sh/ Comments URL: https://news.ycombinator.com/item?id=48954175 Points: 15 # Comments: 2",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "A Year On: The DOGE Disaster",
-      "link": "https://donmoynihan.substack.com/p/a-year-on-the-doge-disaster",
-      "pubDate": "2026-07-17T18:31:07.000Z",
-      "description": "Article URL: https://donmoynihan.substack.com/p/a-year-on-the-doge-disaster Comments URL: https://news.ycombinator.com/item?id=48950667 Points: 13 # Comments: 1",
+      "title": "I Started a \"Dirt Notebook\"",
+      "link": "https://pinewind.bearblog.dev/i-started-a-dirt-notebook/",
+      "pubDate": "2026-07-18T01:12:13.000Z",
+      "description": "Article URL: https://pinewind.bearblog.dev/i-started-a-dirt-notebook/ Comments URL: https://news.ycombinator.com/item?id=48954149 Points: 24 # Comments: 14",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "SpaceX stock drops to a new low and loses $1T in value in a month",
-      "link": "https://www.businessinsider.com/spacex-stock-drops-new-low-ipo-price-starship-launch-scrubbed-2026-7",
-      "pubDate": "2026-07-17T18:26:02.000Z",
-      "description": "Article URL: https://www.businessinsider.com/spacex-stock-drops-new-low-ipo-price-starship-launch-scrubbed-2026-7 Comments URL: https://news.ycombinator.com/item?id=48950580 Points: 13 # Comments: 6",
+      "title": "DrDroid (YC W23) Is Hiring",
+      "link": "https://www.ycombinator.com/companies/drdroid/jobs/w45QcNV-product-engineer-assignment-mandatory",
+      "pubDate": "2026-07-18T01:01:08.000Z",
+      "description": "Article URL: https://www.ycombinator.com/companies/drdroid/jobs/w45QcNV-product-engineer-assignment-mandatory Comments URL: https://news.ycombinator.com/item?id=48954074 Points: 0 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Learning a few things about running SQLite",
-      "link": "https://jvns.ca/blog/2026/07/17/learning-about-running-sqlite/",
-      "pubDate": "2026-07-17T17:45:41.000Z",
-      "description": "Article URL: https://jvns.ca/blog/2026/07/17/learning-about-running-sqlite/ Comments URL: https://news.ycombinator.com/item?id=48950122 Points: 29 # Comments: 3",
+      "title": "Stenchill: 3D Printable Solder Paste Stencil Generator",
+      "link": "https://www.stenchill.com/en/",
+      "pubDate": "2026-07-18T00:48:37.000Z",
+      "description": "Article URL: https://www.stenchill.com/en/ Comments URL: https://news.ycombinator.com/item?id=48953981 Points: 15 # Comments: 2",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Homomorphically encrypted CIFAR-10 inference in 200ms",
-      "link": "https://sofar.belfortlabs.cloud/",
-      "pubDate": "2026-07-17T16:29:52.000Z",
-      "description": "Article URL: https://sofar.belfortlabs.cloud/ Comments URL: https://news.ycombinator.com/item?id=48949240 Points: 13 # Comments: 8",
+      "title": "The Isomorphic Labs Drug Design Engine unlocks a new frontier beyond AlphaFold",
+      "link": "https://www.isomorphiclabs.com/articles/the-isomorphic-labs-drug-design-engine-unlocks-a-new-frontier",
+      "pubDate": "2026-07-17T23:26:35.000Z",
+      "description": "Article URL: https://www.isomorphiclabs.com/articles/the-isomorphic-labs-drug-design-engine-unlocks-a-new-frontier Comments URL: https://news.ycombinator.com/item?id=48953406 Points: 46 # Comments: 4",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Designing emoji for the way we communicate today",
-      "link": "https://blog.google/products-and-platforms/platforms/android/world-emoji-day-noto-3d/",
-      "pubDate": "2026-07-17T16:24:13.000Z",
-      "description": "Article URL: https://blog.google/products-and-platforms/platforms/android/world-emoji-day-noto-3d/ Comments URL: https://news.ycombinator.com/item?id=48949184 Points: 31 # Comments: 35",
+      "title": "Kaiser nurses say AI, workplace surveillance are making their jobs, care worse",
+      "link": "https://localnewsmatters.org/2026/07/15/kaiser-nurses-say-ai-workplace-surveillance-are-making-their-jobs-and-patient-care-worse/",
+      "pubDate": "2026-07-17T22:26:30.000Z",
+      "description": "Article URL: https://localnewsmatters.org/2026/07/15/kaiser-nurses-say-ai-workplace-surveillance-are-making-their-jobs-and-patient-care-worse/ Comments URL: https://news.ycombinator.com/item?id=48952880 Points: 346 # Comments: 231",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Show HN: Explore the Workspaces of Modern Creators",
-      "link": "https://workspaces.xyz/",
-      "pubDate": "2026-07-17T15:41:05.000Z",
-      "description": "Article URL: https://workspaces.xyz/ Comments URL: https://news.ycombinator.com/item?id=48948693 Points: 38 # Comments: 29",
+      "title": "TP-Link Kasa cameras leaked home GPS via unauthenticated UDP for 6 years",
+      "link": "https://github.com/BadChemical/IoT-Vulnerability-Research-Public/blob/main/TP-Link_Kasa_EC71/Kasa_EC71.md",
+      "pubDate": "2026-07-17T21:42:43.000Z",
+      "description": "Article URL: https://github.com/BadChemical/IoT-Vulnerability-Research-Public/blob/main/TP-Link_Kasa_EC71/Kasa_EC71.md Comments URL: https://news.ycombinator.com/item?id=48952565 Points: 48 # Comments: 7",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Frame – the first Linux Assembly X server",
-      "link": "https://isene.org/2026/07/Frame.html",
-      "pubDate": "2026-07-17T15:31:22.000Z",
-      "description": "Article URL: https://isene.org/2026/07/Frame.html Comments URL: https://news.ycombinator.com/item?id=48948597 Points: 78 # Comments: 45",
+      "title": "FAA lets Boeing sign off on 737 MAX, 787 airworthiness certificates again",
+      "link": "https://www.cnbc.com/2026/07/17/faa-boeing-737-max-787.html",
+      "pubDate": "2026-07-17T21:22:53.000Z",
+      "description": "Article URL: https://www.cnbc.com/2026/07/17/faa-boeing-737-max-787.html Comments URL: https://news.ycombinator.com/item?id=48952439 Points: 138 # Comments: 73",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Short sellers notch $8.7B profit as SpaceX shares dip to IPO price",
-      "link": "https://www.reuters.com/business/media-telecom/short-sellers-rack-up-87-bln-profit-spacex-slips-below-ipo-price-ortex-2026-07-16/",
-      "pubDate": "2026-07-17T15:17:54.000Z",
-      "description": "Article URL: https://www.reuters.com/business/media-telecom/short-sellers-rack-up-87-bln-profit-spacex-slips-below-ipo-price-ortex-2026-07-16/ Comments URL: https://news.ycombinator.com/item?id=48948435 Points: 86 # Comments: 53",
+      "title": "Open Book Touch: open-source e-reader",
+      "link": "https://www.crowdsupply.com/oddly-specific-objects/open-book-touch",
+      "pubDate": "2026-07-17T20:47:57.000Z",
+      "description": "Article URL: https://www.crowdsupply.com/oddly-specific-objects/open-book-touch Comments URL: https://news.ycombinator.com/item?id=48952135 Points: 73 # Comments: 17",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Mozilla: The state of open source AI",
-      "link": "https://stateofopensource.ai/",
-      "pubDate": "2026-07-17T14:31:10.000Z",
-      "description": "Article URL: https://stateofopensource.ai/ Comments URL: https://news.ycombinator.com/item?id=48947825 Points: 270 # Comments: 181",
+      "title": "Topcoat: The full full-stack framework for Rust",
+      "link": "https://github.com/tokio-rs/topcoat",
+      "pubDate": "2026-07-17T20:41:43.000Z",
+      "description": "Article URL: https://github.com/tokio-rs/topcoat Comments URL: https://news.ycombinator.com/item?id=48952067 Points: 55 # Comments: 31",
       "source": "Hacker News",
       "category": "Tech News"
-    },
-    {
-      "title": "pointer-events",
-      "link": "https://css-tricks.com/almanac/properties/p/pointer-events/",
-      "pubDate": "2026-07-15T19:57:51.000Z",
-      "description": "The pointer-events property controls whether an element can become the target of pointer events like clicks, hover states, and other pointer-based events. In other words, it lets you decide whether the browser should treat an element as interactive when the … pointer-events originally handwritten an",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "What’s !important #15: Boundary-aware CSS, Time-based CSS, Full-bleed CSS, and More",
-      "link": "https://css-tricks.com/whats-important-15/",
-      "pubDate": "2026-07-15T14:36:18.000Z",
-      "description": "Read all about boundary-aware CSS, accessible grid lanes, time-based web designs, full-bleed, the customizable select, and new web platform features. What’s !important #15: Boundary-aware CSS, Time-based CSS, Full-bleed CSS, and More originally handwritten and published with love on CSS-Tricks. You ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Get Ready For the Powerful CSS border-shape Property!",
-      "link": "https://css-tricks.com/get-ready-for-the-powerful-css-border-shape-property/",
-      "pubDate": "2026-07-07T15:14:00.000Z",
-      "description": "We recently got the shape() function and corner-shape property. What else could we possibly need as far as making shapes in CSS? Let me tell you: the border-shape property! Get Ready For the Powerful CSS border-shape Property! originally handwritten and published with love on CSS-Tricks. You should ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "What’s !important #14: Gap Decorations, random(), &#060;select&gt; field-sizing, and More",
-      "link": "https://css-tricks.com/whats-important-14/",
-      "pubDate": "2026-06-30T13:54:14.000Z",
-      "description": "I know you’re busy, so for What’s !important #14, I’ll be sprinting through what’s been a stacked couple of weeks despite few browser updates. From CSS Quake to CSS Gap Decorations, this isn’t one to miss! What’s !important #14: Gap Decorations, random(), <select> field-sizing, and More originally h",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "The Shifting Line Between CSS States and JavaScript Events",
-      "link": "https://css-tricks.com/css-states-and-javascript-events/",
-      "pubDate": "2026-06-29T13:03:32.000Z",
-      "description": "CSS has always had pseudo-classes that style things based on user interactions. Recent features, however, are blurring the line between what CSS \"listens\" for and how they are alternatives to what Javascript typically listens for. The Shifting Line Between CSS States and JavaScript Events originally",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translateZ()",
-      "link": "https://css-tricks.com/almanac/functions/t/translatez/",
-      "pubDate": "2026-06-25T13:18:56.000Z",
-      "description": "The translateZ() function moves an element closer to or farther from the user. translateZ() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translateY()",
-      "link": "https://css-tricks.com/almanac/functions/t/translatey/",
-      "pubDate": "2026-06-25T13:17:56.000Z",
-      "description": "The translateY() function shifts an element vertically by the specified amount. translateY() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translateX()",
-      "link": "https://css-tricks.com/almanac/functions/t/translatex/",
-      "pubDate": "2026-06-25T13:16:01.000Z",
-      "description": "The translateX() function shifts an element horizontally by the specified amount. translateX() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translate()",
-      "link": "https://css-tricks.com/almanac/functions/t/translate/",
-      "pubDate": "2026-06-25T13:15:05.000Z",
-      "description": "The CSS translate() function shifts an element from its default position on a 2-dimensional plane translate() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Using Scroll-Driven Animations for Opposing Scroll Directions",
-      "link": "https://css-tricks.com/scroll-driven-animations-opposing-scroll-directions/",
-      "pubDate": "2026-06-22T12:39:13.000Z",
-      "description": "Sometimes designers have silly ideas that eventually grow on you. That happened to me with this concept where I had to build columns of items moving in opposite directions when a user scrolls the page. CodePen Embed Fallback Note: This … Using Scroll-Driven Animations for Opposing Scroll Directions ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
     },
     {
       "title": "Meet the HTB Profile: all your skills, in one place",
