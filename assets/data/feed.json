@@ -1,102 +1,110 @@
 {
-  "generatedAt": "2026-07-19T03:54:48.469Z",
+  "generatedAt": "2026-07-19T08:33:02.317Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "I Got Tired of Hand-Translating Xcode Plists, So I Built a Tiny Free Tool to Do It On-Device",
-      "link": "https://dev.to/swainwri/i-got-tired-of-hand-translating-xcode-plists-so-i-built-a-tiny-free-tool-to-do-it-on-device-3cod",
-      "pubDate": "2026-07-19T03:31:47.000Z",
-      "description": "<p>If you've ever localized an iOS or macOS app, you know the drill: you've got a <code>.plist</code> file full of UI strings sitting in <code>Base.lproj</code>, and now you need the same file in <code>fr.lproj</code>, <code>th.lproj</code>, <code>de.lproj</code>... and so on for every language you ",
+      "title": "I built 31 developer tools in a weekend — here's what I learned",
+      "link": "https://dev.to/chenghui_wu_1613965a032b1/i-built-31-developer-tools-in-a-weekend-heres-what-i-learned-1f3h",
+      "pubDate": "2026-07-19T08:08:27.000Z",
+      "description": "<p>Every time I want to format a JSON blob, decode a JWT, or convert a Unix timestamp, I end up on a different random site — each covered in ads, popups, and \"click here to install our extension\" banners. Half of them upload my data to their server for no reason.</p> <p>So this weekend I built <a hr",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Building GateKeeper: Designing a Role-Based Access Control Library in Pure Go",
-      "link": "https://dev.to/dhavalrasputala/building-gatekeeper-designing-a-role-based-access-control-library-in-pure-go-5a7e",
-      "pubDate": "2026-07-19T03:20:56.000Z",
-      "description": "<p>As developers, we use authorization libraries almost every day. Whether it's a web application, an API, or an internal tool, we often rely on packages that decide who can do what.</p> <p>But I realized I had never actually built one.</p> <p>So instead of using an existing library, I decided to bu",
+      "title": "Where Code Meets Medicine, Chemistry, and Even Religion",
+      "link": "https://dev.to/danielioni/where-code-meets-medicine-chemistry-and-even-religion-4kb0",
+      "pubDate": "2026-07-19T08:05:23.000Z",
+      "description": "<h1> GitHub: Where Code Meets Medicine, Chemistry, and Even Religion </h1> <h2> More Than Just Code </h2> <p>When most people think of GitHub, they think of software development. Pull requests, repositories, and lines of code. But GitHub has evolved into something much bigger.</p> <p><strong>Today, ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Clinejection: How a GitHub Issue Title Compromised an AI Coding Assistant Used by 5M Developers",
-      "link": "https://dev.to/eldor_zufarov_1966/clinejection-how-a-github-issue-title-compromised-an-ai-coding-assistant-used-by-5m-developers-1kb5",
-      "pubDate": "2026-07-19T03:17:32.000Z",
-      "description": "<h2> TL;DR </h2> <p>In December 2025, Cline — an AI coding assistant with over 5 million users — gave an AI agent (Claude) write access to triage GitHub issues, including permission to run shell commands. A misconfigured trigger condition let any GitHub user invoke the workflow. What followed was a ",
+      "title": "You Deleted It. The Crawler Still Sees It.",
+      "link": "https://dev.to/henry_dan_81513dd35a2f540/you-deleted-it-the-crawler-still-sees-it-183c",
+      "pubDate": "2026-07-19T07:56:19.000Z",
+      "description": "<p>I removed two listings from a directory site I run. Not for a small reason — they failed the one promise the directory exists to make. The kind of removal you do immediately and double-check.</p> <p>I did double-check. Flipped the flag in the database, loaded the site, watched the queries filter ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "A Practical Workflow for Contributing to a Large, Structured Codebase",
-      "link": "https://dev.to/daniel_wu_c0ec7ad41de5f61/my-workflow-when-contributing-to-a-structured-codebase-1878",
-      "pubDate": "2026-07-19T03:13:08.000Z",
-      "description": "<p>This is the workflow I follow <em>before</em> I use AI agents to implement any feature or bug fix. 🧭</p> <p>Requirements/Specification<br> &nbsp;↓<br> Design/Architecture<br> &nbsp;↓<br> AI Code Generation<br> &nbsp;↓<br> Human Review<br> &nbsp;↓<br> Build &amp; Static Analysis<br> &nbsp;↓<br> T",
+      "title": "One line of math froze my AI agent forever. The timeout watched and did nothing.",
+      "link": "https://dev.to/himanshu_748/one-line-of-math-froze-my-ai-agent-forever-the-timeout-watched-and-did-nothing-2dma",
+      "pubDate": "2026-07-19T07:54:58.000Z",
+      "description": "<p><em>This is my second entry for the DEV x Sentry Bug Smash challenge. <a href=\"https://dev.to/himanshu_748/i-fixed-a-smolagents-bug-that-confused-everyone-who-hit-it-with-sentry-watching-the-whole-time-1im\">Entry #1 was a crash with a confusing error message</a>. This one is the opposite and it i",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Google custom search api free limit: How to bypass the cap",
-      "link": "https://dev.to/serpapiorg/google-custom-search-api-free-limit-how-to-bypass-the-cap-376j",
-      "pubDate": "2026-07-19T03:03:25.000Z",
-      "description": "<p>Running out of API quota in the middle of a production deployment is a frustrating rite of passage. If you are using the Google Custom Search API, you have likely hit that 100 free daily queries wall. Once you do, your application throws a <code>403 Quota Exceeded</code> error, stalling your feat",
+      "title": "What happens after a write? Reworking Squirix's WAL in preview.6",
+      "link": "https://dev.to/__2d3e61e/what-happens-after-a-write-reworking-squirixs-wal-in-preview6-5ha4",
+      "pubDate": "2026-07-19T07:51:43.000Z",
+      "description": "<p>In my<br> <a href=\"https://dev.to/__2d3e61e/why-squirix-uses-a-strict-clientserver-architecture-for-a-net-distributed-cache-5086\">first Squirix article</a>,<br> I wrote about why Squirix keeps a strict boundary between the client and the server. Applications use a typed client<br> over gRPC; the ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Your LLM can't actually watch video. Here's the smallest fix (MIT)",
-      "link": "https://dev.to/huangchihhungleo/your-llm-cant-actually-watch-video-heres-the-smallest-fix-mit-2igp",
-      "pubDate": "2026-07-19T03:01:16.000Z",
-      "description": "<p>Every model card says \"multimodal\". Then you hand the model a real video file and discover what that means in practice: ChatGPT reads the subtitle track, Claude doesn't accept video files at all. The model narrates a video it mostly never saw.</p> <p>I unpack viral videos daily for my own content",
+      "title": "Constrained Decoding vs Post-hoc Validation: Production LLM Extraction Needs Both",
+      "link": "https://dev.to/hitarthbuilds/constrained-decoding-vs-post-hoc-validation-production-llm-extraction-needs-both-4cf",
+      "pubDate": "2026-07-19T07:42:34.000Z",
+      "description": "<p>Constrained decoding and post-hoc validation solve different problems.</p> <p>Constrained decoding is generation-time control:</p> <ul> <li>fewer malformed payloads</li> <li>less wrapper text</li> <li>better adherence to schema/tool shape</li> </ul> <p>Post-hoc validation is the trust boundary:</",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The Problems with Modern Web Development",
-      "link": "https://dev.to/user93390/the-problems-with-modern-web-development-118c",
-      "pubDate": "2026-07-19T02:59:16.000Z",
-      "description": "<p>Before I critique modern web development, I want to make some points:</p> <ul> <li>I'm not discouraging anybody from web development.</li> <li>This is only my opinion and my experience of the story.</li> <li>Everyone has their own story.</li> </ul> <h2> Part 1. Javascript </h2> <p>JavaScript is k",
+      "title": "Your n8n Workflow Passed Schema Validation—and Updated the Wrong Customer",
+      "link": "https://dev.to/moonshot_1341/your-n8n-workflow-passed-schema-validation-and-updated-the-wrong-customer-1570",
+      "pubDate": "2026-07-19T07:38:13.000Z",
+      "description": "<p>A workflow can finish successfully, pass a JSON schema, and still update the wrong customer.</p> <p>The value is present. The type is correct. The meaning is wrong because it came from the wrong source path.</p> <h2> The failure that a schema cannot see </h2> <p>Imagine an order webhook with two ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Backend Development Isn't Just CRUD. Abeg Make We Talk True.",
-      "link": "https://dev.to/technvernacular/backend-development-isnt-just-crud-abeg-make-we-talk-true-nmb",
-      "pubDate": "2026-07-19T02:58:26.000Z",
-      "description": "<p>I don lose count of how many times I don see this kind yarns online:</p> <blockquote> <p>\"Backend development na just CRUD. Everything else na decoration.\"</p> </blockquote> <p>And honestly? I sabi why people dey talk am. E no kuku wrong. E no just complete, na like when person say \"cooking na ju",
+      "title": "PyGo: A Deep Learning Framework Where Go Calls Python Calls C++",
+      "link": "https://dev.to/sarkaragi/pygo-a-deep-learning-framework-where-go-calls-python-calls-c-4amo",
+      "pubDate": "2026-07-19T07:35:56.000Z",
+      "description": "<p><strong>[Project] PyGo – embedding CPython inside a Go process to build a deep learning framework</strong></p> <p>I've been working on something a bit unusual: a deep learning framework where Go is the top-level API, Python handles autograd and the model zoo, and C++/CUDA does the raw compute.</p",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "LLM-Integrated Multivariable Calculus Course",
-      "link": "https://calculus.academa.ai/",
-      "pubDate": "2026-07-19T02:55:43.000Z",
-      "description": "Article URL: https://calculus.academa.ai/ Comments URL: https://news.ycombinator.com/item?id=48964585 Points: 5 # Comments: 1",
+      "title": "How Netflix Doesn't Crash During Peak Hours (Cloud Concepts) ! 😱",
+      "link": "https://dev.to/techie_sprinter/how-netflix-doesnt-crash-during-peak-hours-cloud-concepts--4ci",
+      "pubDate": "2026-07-19T07:29:48.000Z",
+      "description": "<p>Millions of people open Netflix at the same time—during weekends, evenings, or when a new season drops. Despite this massive traffic, users usually experience smooth streaming with minimal downtime.</p> <p>The reason isn't one powerful server. It's a cloud architecture designed for scalability, r",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Zep gives my agent perfect recall. It still can't answer \"average per group\" about its own memory.",
+      "link": "https://dev.to/omer_hochman/zep-gives-my-agent-perfect-recall-it-still-cant-answer-average-per-group-about-its-own-memory-3ae0",
+      "pubDate": "2026-07-19T07:28:37.000Z",
+      "description": "<p><em>Originally published at <a href=\"https://nlqdb.com/blog/zep-recall-vs-analytical-agent-memory/\" rel=\"noopener noreferrer\">nlqdb.com/blog</a></em></p> <p>If you've wired up <a href=\"https://www.getzep.com\" rel=\"noopener noreferrer\">Zep</a> you know the pitch: it's the Context Lake — a temporal",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Scrying the AMD GFX1250 LLVM Tea Leaves",
+      "link": "https://chipsandcheese.com/p/scrying-the-amd-gfx1250-llvm-tea",
+      "pubDate": "2026-07-19T05:07:08.000Z",
+      "description": "Article URL: https://chipsandcheese.com/p/scrying-the-amd-gfx1250-llvm-tea Comments URL: https://news.ycombinator.com/item?id=48965161 Points: 18 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Searchable isn't the same as connected: why team docs still make new hires ask 'why'",
-      "link": "https://dev.to/gwmage/searchable-isnt-the-same-as-connected-why-team-docs-still-make-new-hires-ask-why-125h",
-      "pubDate": "2026-07-19T02:54:18.000Z",
-      "description": "<p>Every team doc tool these days is \"searchable.\" Notion, Confluence, wikis — you can find any page in seconds. But search only tells you a document exists; it doesn't tell you how it connects to the five other docs that explain why it looks the way it does. New hires still end up pinging three peo",
-      "source": "Dev.to Feed",
-      "category": "Development"
+      "title": "I built a browser-based P2P file transfer tool using WebRTC",
+      "link": "https://airdows.com/",
+      "pubDate": "2026-07-19T02:17:03.000Z",
+      "description": "Article URL: https://airdows.com/ Comments URL: https://news.ycombinator.com/item?id=48964424 Points: 17 # Comments: 11",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
-      "title": "Protocol Buffers: Google's Data Interchange Format Continues to Evolve with Bazel 8+ Support and GCC 10 Testing",
-      "link": "https://dev.to/pneumetron/protocol-buffers-googles-data-interchange-format-continues-to-evolve-with-bazel-8-support-and-1p97",
-      "pubDate": "2026-07-19T02:54:13.000Z",
-      "description": "<h2> What Changed </h2> <p>Protocol Buffers (protobuf), Google's widely adopted data interchange format, has undergone several recent updates focusing on build system integration, compiler support, and internal development processes. Key changes include the introduction of Bzlmod support for Bazel 8",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "FDA approves new kind of cholesterol pill",
-      "link": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-oral-pcsk9-inhibitor-lower-ldl-cholesterol-adults-high-cholesterol",
-      "pubDate": "2026-07-19T02:40:22.000Z",
-      "description": "Article URL: https://www.fda.gov/news-events/press-announcements/fda-approves-first-oral-pcsk9-inhibitor-lower-ldl-cholesterol-adults-high-cholesterol Comments URL: https://news.ycombinator.com/item?id=48964536 Points: 4 # Comments: 1",
+      "title": "Deepsec",
+      "link": "https://github.com/vercel-labs/deepsec",
+      "pubDate": "2026-07-19T01:33:32.000Z",
+      "description": "Article URL: https://github.com/vercel-labs/deepsec Comments URL: https://news.ycombinator.com/item?id=48964215 Points: 22 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -104,7 +112,7 @@
       "title": "AI Mania Is Eviscerating Global Decision-Making",
       "link": "https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/#fnref:3",
       "pubDate": "2026-07-19T01:29:19.000Z",
-      "description": "Article URL: https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/#fnref:3 Comments URL: https://news.ycombinator.com/item?id=48964185 Points: 53 # Comments: 11",
+      "description": "Article URL: https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/#fnref:3 Comments URL: https://news.ycombinator.com/item?id=48964185 Points: 187 # Comments: 71",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -112,7 +120,7 @@
       "title": "Better and Cheaper Than IPTV",
       "link": "https://github.com/stupside/castor",
       "pubDate": "2026-07-19T00:59:55.000Z",
-      "description": "Article URL: https://github.com/stupside/castor Comments URL: https://news.ycombinator.com/item?id=48964015 Points: 67 # Comments: 21",
+      "description": "Article URL: https://github.com/stupside/castor Comments URL: https://news.ycombinator.com/item?id=48964015 Points: 168 # Comments: 43",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -120,15 +128,7 @@
       "title": "Transcribe.cpp",
       "link": "https://workshop.cjpais.com/projects/transcribe-cpp",
       "pubDate": "2026-07-19T00:38:26.000Z",
-      "description": "Article URL: https://workshop.cjpais.com/projects/transcribe-cpp Comments URL: https://news.ycombinator.com/item?id=48963879 Points: 186 # Comments: 35",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Harness Engineering",
-      "link": "https://github.com/lopopolo/harness-engineering",
-      "pubDate": "2026-07-18T23:27:36.000Z",
-      "description": "Article URL: https://github.com/lopopolo/harness-engineering Comments URL: https://news.ycombinator.com/item?id=48963483 Points: 42 # Comments: 19",
+      "description": "Article URL: https://workshop.cjpais.com/projects/transcribe-cpp Comments URL: https://news.ycombinator.com/item?id=48963879 Points: 458 # Comments: 84",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -136,31 +136,31 @@
       "title": "Codex Resets",
       "link": "https://codex-resets.com/",
       "pubDate": "2026-07-18T23:24:26.000Z",
-      "description": "Article URL: https://codex-resets.com/ Comments URL: https://news.ycombinator.com/item?id=48963465 Points: 101 # Comments: 85",
+      "description": "Article URL: https://codex-resets.com/ Comments URL: https://news.ycombinator.com/item?id=48963465 Points: 163 # Comments: 117",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "ECHR confirms ethical veganism is a protected philosophical belief",
-      "link": "https://veganfta.com/articles/2026/07/17/european-court-confirms-ethical-veganism-is-a-protected-philosophical-belief-in-europe/",
-      "pubDate": "2026-07-18T23:15:32.000Z",
-      "description": "Article URL: https://veganfta.com/articles/2026/07/17/european-court-confirms-ethical-veganism-is-a-protected-philosophical-belief-in-europe/ Comments URL: https://news.ycombinator.com/item?id=48963402 Points: 18 # Comments: 8",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Mayor Mamdani Says Landlords Can't Use AI Images to Advertise",
+      "title": "NYC may require landlords and realtors to disclose the use of AI in listings",
       "link": "https://petapixel.com/2026/07/16/mayor-mamdani-says-landlords-cant-secretly-use-ai-images-to-advertise-properties/",
       "pubDate": "2026-07-18T22:13:39.000Z",
-      "description": "Article URL: https://petapixel.com/2026/07/16/mayor-mamdani-says-landlords-cant-secretly-use-ai-images-to-advertise-properties/ Comments URL: https://news.ycombinator.com/item?id=48962983 Points: 310 # Comments: 155",
+      "description": "Article URL: https://petapixel.com/2026/07/16/mayor-mamdani-says-landlords-cant-secretly-use-ai-images-to-advertise-properties/ Comments URL: https://news.ycombinator.com/item?id=48962983 Points: 450 # Comments: 202",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Real-Time LuaTeX: Recompiling Large Documents in 1ms [pdf]",
-      "link": "https://www.tug.org/tug2026/preprints/lode-realtime.pdf",
-      "pubDate": "2026-07-18T22:09:07.000Z",
-      "description": "Article URL: https://www.tug.org/tug2026/preprints/lode-realtime.pdf Comments URL: https://news.ycombinator.com/item?id=48962944 Points: 44 # Comments: 8",
+      "title": "Classic Amiga titles, free to download",
+      "link": "https://amigafreeware.downer.tech/",
+      "pubDate": "2026-07-18T21:55:27.000Z",
+      "description": "Article URL: https://amigafreeware.downer.tech/ Comments URL: https://news.ycombinator.com/item?id=48962838 Points: 107 # Comments: 16",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Hardcore IndieWeb: Run your own website 100% independently for only $0.01/day",
+      "link": "https://www.neatnik.net/hardcore-indieweb",
+      "pubDate": "2026-07-18T21:45:12.000Z",
+      "description": "Article URL: https://www.neatnik.net/hardcore-indieweb Comments URL: https://news.ycombinator.com/item?id=48962758 Points: 152 # Comments: 91",
       "source": "Hacker News",
       "category": "Tech News"
     },
