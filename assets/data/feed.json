@@ -1,248 +1,173 @@
 {
-  "generatedAt": "2026-07-20T14:33:11.750Z",
+  "generatedAt": "2026-07-20T19:56:30.231Z",
   "sourceCount": 4,
-  "successCount": 4,
-  "errors": [],
+  "successCount": 3,
+  "errors": [
+    {
+      "source": "CSS Tricks",
+      "error": "HTTP 415 Unsupported Media Type"
+    }
+  ],
   "items": [
     {
-      "title": "Why I Built My Own GPA Calculator (and How I Handled Multi-Scale Grade Math in JavaScript)",
-      "link": "https://dev.to/getinfotoyou/why-i-built-my-own-gpa-calculator-and-how-i-handled-multi-scale-grade-math-in-javascript-500e",
-      "pubDate": "2026-07-20T14:30:28.000Z",
-      "description": "<p>Every finals week in college followed the exact same stressful ritual: sitting in front of a messy spreadsheet at 2 AM, trying to figure out what score I needed on a 30% final exam to keep my 3.5 cumulative GPA. To make matters worse, different courses used different credit weightings, and half o",
+      "title": "I gave my AI agent the ability to send email",
+      "link": "https://dev.to/devopsdaily/i-gave-my-ai-agent-the-ability-to-send-email-18nc",
+      "pubDate": "2026-07-20T19:43:43.000Z",
+      "description": "<p>Last month I wired Claude up to my email infrastructure. Not \"Claude writes an email draft and I paste it somewhere\" but the agent checks my domain status, sends the email, and reads back the delivery events, all from the chat.</p> <p>The glue that makes this possible is MCP (Model Context Protoc",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I scraped live betting odds from 9 countries and never once hit a real anti-bot wall",
-      "link": "https://dev.to/0xgollum/i-scraped-live-betting-odds-from-9-countries-and-never-once-hit-a-real-anti-bot-wall-57ng",
-      "pubDate": "2026-07-20T14:28:45.000Z",
-      "description": "<p>I just shipped a horse-racing odds tracker across 9 countries. Four totally different site architectures, zero paid proxies, zero headless browsers, zero CAPTCHAs solved. Every \"protected\" data source I hit turned out to be a public API hiding in plain sight. Here's what actually worked.</p> <h2>",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Building My Memory Layer - The Thinking Process Behind Every Layer",
-      "link": "https://dev.to/venu_varma/building-my-memory-layer-the-thinking-process-behind-every-layer-1apb",
-      "pubDate": "2026-07-20T14:28:29.000Z",
-      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F7xp0oey2wz0d96uvrj2v.png\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "React Server Components - The Mental Model Shift",
-      "link": "https://dev.to/dimidan/rsc-the-mental-model-shift-5efg",
-      "pubDate": "2026-07-20T14:22:05.000Z",
-      "description": "<p>React Server Components are not a performance trick. They are not a simpler way to do SSR. They represent a genuine renegotiation of where computation lives in a React application — and if you approach them as an incremental upgrade, you will architect yourself into corners that are painful to es",
+      "title": "Named Global Query Filters Were Updated in EF Core 10",
+      "link": "https://dev.to/antonmartyniuk/named-global-query-filters-were-updated-in-ef-core-10-25hp",
+      "pubDate": "2026-07-20T19:41:09.000Z",
+      "description": "<p>Global query filters in Entity Framework Core (EF Core) is a powerful feature that can be effectively used to manage data access patterns.</p> <p>Global query filters are LINQ query predicates applied to EF Core entity models. These filters are automatically applied to all queries that involve th",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
       "title": "Optimizing RAG at Scale: Chunking, Retrieval, and the Bayesian Search That Cut Latency 40%",
-      "link": "https://dev.to/imus_d7584cbc8ee9b0336256/optimizing-rag-at-scale-chunking-retrieval-and-the-bayesian-search-that-cut-latency-40-2g5f",
-      "pubDate": "2026-07-20T14:21:40.000Z",
+      "link": "https://dev.to/imus_d7584cbc8ee9b0336256/optimizing-rag-at-scale-chunking-retrieval-and-the-bayesian-search-that-cut-latency-40-2f68",
+      "pubDate": "2026-07-20T19:40:37.000Z",
       "description": "<h1> Optimizing RAG at Scale: Chunking, Retrieval, and the Bayesian Search That Cut Latency 40% </h1> <p><em>How we moved from \"semantic search + hope\" to a measured, tunable retrieval pipeline with 95% recall@10</em></p> <h2> The RAG Reality Check </h2> <p>Everyone ships RAG the same way: chunk by ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Gemma4 DevOps In Action",
-      "link": "https://dev.to/gde/gemma4-devops-in-action-10bl",
-      "pubDate": "2026-07-20T14:20:31.000Z",
-      "description": "<blockquote> <p>In the last entry I got Gemma-4's 128-expert MoE running on an <code>inf2.24xlarge</code> and signed off with a<br> cliffhanger: fitting it on a 2-core box \"needs fp4 — a separate expedition.\" This is that expedition.<br> It ended nowhere near where I thought it would: <strong>not</s",
+      "title": "Building Production-Grade LLM Evaluation Pipelines: From Vibes to Metrics",
+      "link": "https://dev.to/imus_d7584cbc8ee9b0336256/building-production-grade-llm-evaluation-pipelines-from-vibes-to-metrics-3j5l",
+      "pubDate": "2026-07-20T19:40:36.000Z",
+      "description": "<h1> Building Production-Grade LLM Evaluation Pipelines: From Vibes to Metrics </h1> <p><em>How we replaced \"looks good to me\" with automated evaluation catching 92% of hallucinations before deployment</em></p> <h2> The Problem: Why \"Vibe Checks\" Fail in Production </h2> <p>Three months ago, our tea",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How to tell if a smart-contract audit is worth paying for — a founder's checklist",
-      "link": "https://dev.to/juan23z/how-to-tell-if-a-smart-contract-audit-is-worth-paying-for-a-founders-checklist-3d03",
-      "pubDate": "2026-07-20T14:19:52.000Z",
-      "description": "<p>You're about to put real money on-chain, and you know you need a security review. So you go looking — and the market is bewildering. A firm quotes you $30,000 and a six-week wait. A Fiverr gig offers \"full audit, 24h delivery\" for $60. How are you supposed to tell what's real?</p> <p>I do these r",
+      "title": "AI coding agents still write your SDK's old API — so I built a type-checker to measure it",
+      "link": "https://dev.to/kalpitrathore/ai-coding-agents-still-write-your-sdks-old-api-so-i-built-a-type-checker-to-measure-it-alk",
+      "pubDate": "2026-07-20T19:32:26.000Z",
+      "description": "<p>Here's a bug I kept hitting. I'd ask an AI assistant to write some code against a library — Prisma, the Vercel AI SDK, Zod — and the code would look completely right. Clean, idiomatic, exactly the shape I expected. Then I'd run it, and it wouldn't compile.</p> <p>The reason was always the same: t",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Build a WhatsApp Storefront in Google Sheets with OpenAI Function Calling (No Website)",
-      "link": "https://dev.to/hayrullahkar/build-a-whatsapp-storefront-in-google-sheets-with-openai-function-calling-no-website-4hmk",
-      "pubDate": "2026-07-20T14:17:19.000Z",
-      "description": "<p>A café owner asked me for an online store. She didn't want Shopify, a domain, a theme, or a $90/month bill — she wanted customers to message her on WhatsApp, ask what's available, and place an order. That's not a website. That's three functions and a spreadsheet.</p> <p>Here's the whole thing: an",
+      "title": "I Built an Agent That Refuses to Act — Here's Why Qwen Made It Possible",
+      "link": "https://dev.to/demba09/i-built-an-agent-that-refuses-to-act-heres-why-qwen-made-it-possible-ce0",
+      "pubDate": "2026-07-20T19:31:54.000Z",
+      "description": "<p>Monday, 9am. Conversion drops 3.2%. The PM pings Slack: <em>\"What happened?\"</em><br> A data engineer queries the warehouse. A data analyst slices dashboards — segment<br> by segment, device by device. Four hours later: maybe they found it. Maybe the<br> drop was systemic and they just burned a m",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Squeezing a 26B MoE onto the *cheapest* Inferentia box — from a $6.49/hr 24xlarge to a $0.76/hr inf2.xlarge",
-      "link": "https://dev.to/aws-builders/squeezing-a-26b-moe-onto-the-cheapest-inferentia-box-from-a-649hr-24xlarge-to-a-076hr-3bhg",
-      "pubDate": "2026-07-20T14:17:17.000Z",
-      "description": "<blockquote> <p>In the last entry I got Gemma-4's 128-expert MoE running on an <code>inf2.24xlarge</code> and signed off with a<br> cliffhanger: fitting it on a 2-core box \"needs fp4 — a separate expedition.\" This is that expedition.<br> It ended nowhere near where I thought it would: <strong>not</s",
+      "title": "Repository Harness, Part 2: 30 Runs Later, It Wasn’t Cheaper. It Was More Predictable.",
+      "link": "https://dev.to/lepsistemas/repository-harness-part-2-30-runs-later-it-wasnt-cheaper-it-was-more-predictable-1d8p",
+      "pubDate": "2026-07-20T19:24:35.000Z",
+      "description": "<p>This is the follow-up to <a href=\"https://dev.to/lepsistemas/coding-agents-evolved-our-repositories-didnt-f4\"><strong>Coding Agents Evolved. Our Repositories Didn’t.</strong></a>.</p> <p>My first Repository Harness benchmark produced an uncomfortable result.</p> <p>The Harness completed the task ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Your 1:1s Have No Ticket, So They're the First to Go",
-      "link": "https://dev.to/pixel-wraith/your-11s-have-no-ticket-so-theyre-the-first-to-go-4092",
-      "pubDate": "2026-07-20T14:14:01.000Z",
-      "description": "<p>There are weeks where I finish my personal work after hours because I wouldn't move three meetings.</p> <p>Thirty minutes each, one per person on my team. When the week goes bad, that block doesn't move, and something else pays for it.</p> <p>Everybody agrees you should care about your people. It",
+      "title": "Proposed API Reference",
+      "link": "https://dev.to/doeixd/-appendix-proposed-api-reference-108o",
+      "pubDate": "2026-07-20T19:23:22.000Z",
+      "description": "<p>This appendix defines the concrete API surface and observable semantics of the explicit reactive-dependency proposal.</p> <p>The API is intentionally low-level. It provides invalidation sources, lazy cached derivations, synchronous notification, and deterministic disposal. It does not provide wri",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Perfection Is Not Over-Engineering",
-      "link": "https://var0.xyz/posts/perfection-is-not-over-engineering.html",
-      "pubDate": "2026-07-20T14:10:30.000Z",
-      "description": "Article URL: https://var0.xyz/posts/perfection-is-not-over-engineering.html Comments URL: https://news.ycombinator.com/item?id=48979120 Points: 16 # Comments: 1",
+      "title": "Optimizing RAG at Scale: Chunking, Retrieval, and the Bayesian Search That Cut Latency 40%",
+      "link": "https://dev.to/imus_d7584cbc8ee9b0336256/optimizing-rag-at-scale-chunking-retrieval-and-the-bayesian-search-that-cut-latency-40-1g66",
+      "pubDate": "2026-07-20T19:22:53.000Z",
+      "description": "<h1> Optimizing RAG at Scale: Chunking, Retrieval, and the Bayesian Search That Cut Latency 40% </h1> <p><em>How we moved from \"semantic search + hope\" to a measured, tunable retrieval pipeline with 95% recall@10</em></p> <h2> The RAG Reality Check </h2> <p>Everyone ships RAG the same way: chunk by ",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Building Production-Grade LLM Evaluation Pipelines: From Vibes to Metrics",
+      "link": "https://dev.to/imus_d7584cbc8ee9b0336256/building-production-grade-llm-evaluation-pipelines-from-vibes-to-metrics-50g1",
+      "pubDate": "2026-07-20T19:22:51.000Z",
+      "description": "<h1> Building Production-Grade LLM Evaluation Pipelines: From Vibes to Metrics </h1> <p><em>How we replaced \"looks good to me\" with automated evaluation catching 92% of hallucinations before deployment</em></p> <h2> The Problem: Why \"Vibe Checks\" Fail in Production </h2> <p>Three months ago, our tea",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Human mathematicians are being outcounterexampled",
+      "link": "https://xenaproject.wordpress.com/2026/07/20/human-mathematicians-are-being-outcounterexampled/",
+      "pubDate": "2026-07-20T19:03:37.000Z",
+      "description": "Article URL: https://xenaproject.wordpress.com/2026/07/20/human-mathematicians-are-being-outcounterexampled/ Comments URL: https://news.ycombinator.com/item?id=48983382 Points: 5 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Hacker wipes Romania's land registry database",
-      "link": "https://news.risky.biz/risky-bulletin-hacker-wipes-romanias-entire-land-registry-database/",
-      "pubDate": "2026-07-20T13:28:33.000Z",
-      "description": "Article URL: https://news.risky.biz/risky-bulletin-hacker-wipes-romanias-entire-land-registry-database/ Comments URL: https://news.ycombinator.com/item?id=48978605 Points: 123 # Comments: 40",
+      "title": "Safety and alignment in an era of long-horizon models",
+      "link": "https://openai.com/index/safety-alignment-long-horizon-models/",
+      "pubDate": "2026-07-20T18:43:55.000Z",
+      "description": "Article URL: https://openai.com/index/safety-alignment-long-horizon-models/ Comments URL: https://news.ycombinator.com/item?id=48983108 Points: 12 # Comments: 2",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Modder Makes GTA: Vice City Playable Inside GTA 3 Inside GTA: San Andreas",
-      "link": "https://kotaku.com/gta-vice-city-made-playable-in-gta-3-made-playable-in-gta-san-andreas-2000717510",
-      "pubDate": "2026-07-20T13:23:38.000Z",
-      "description": "Article URL: https://kotaku.com/gta-vice-city-made-playable-in-gta-3-made-playable-in-gta-san-andreas-2000717510 Comments URL: https://news.ycombinator.com/item?id=48978545 Points: 11 # Comments: 0",
+      "title": "Nativ: Run frontier open models locally on your Mac",
+      "link": "https://blaizzy.github.io/nativ/",
+      "pubDate": "2026-07-20T18:16:08.000Z",
+      "description": "Article URL: https://blaizzy.github.io/nativ/ Comments URL: https://news.ycombinator.com/item?id=48982681 Points: 33 # Comments: 14",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Inertia-1: An Open Exploration to a Unified Motion Foundation Model",
-      "link": "https://yang-ai-lab.github.io/Inertia-1/",
-      "pubDate": "2026-07-20T13:11:12.000Z",
-      "description": "Article URL: https://yang-ai-lab.github.io/Inertia-1/ Comments URL: https://news.ycombinator.com/item?id=48978388 Points: 15 # Comments: 0",
+      "title": "An Empirical Study: AI Agent Rules Need Context and Layered Enforcement",
+      "link": "https://eunomia.dev/blog/2026/07/15/ebpf-ai-agent-policy-enforcement/",
+      "pubDate": "2026-07-20T18:10:44.000Z",
+      "description": "Article URL: https://eunomia.dev/blog/2026/07/15/ebpf-ai-agent-policy-enforcement/ Comments URL: https://news.ycombinator.com/item?id=48982583 Points: 13 # Comments: 2",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "We're Squandering LEDs' Potential to Save Our Night Skies",
-      "link": "https://spectrum.ieee.org/led-light-pollution",
-      "pubDate": "2026-07-20T13:07:11.000Z",
-      "description": "Article URL: https://spectrum.ieee.org/led-light-pollution Comments URL: https://news.ycombinator.com/item?id=48978350 Points: 23 # Comments: 1",
+      "title": "The drivers behind software delivery inefficiency",
+      "link": "https://dl.acm.org/doi/10.1145/3800646.3800650",
+      "pubDate": "2026-07-20T18:10:17.000Z",
+      "description": "Article URL: https://dl.acm.org/doi/10.1145/3800646.3800650 Comments URL: https://news.ycombinator.com/item?id=48982578 Points: 18 # Comments: 5",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Codex is wearing out our devices",
-      "link": "https://old.reddit.com/r/codex/comments/1v0m3lt/codex_is_wearing_out_our_devices/",
-      "pubDate": "2026-07-20T13:04:41.000Z",
-      "description": "Article URL: https://old.reddit.com/r/codex/comments/1v0m3lt/codex_is_wearing_out_our_devices/ Comments URL: https://news.ycombinator.com/item?id=48978331 Points: 25 # Comments: 12",
+      "title": "Agent swarms and the new model economics",
+      "link": "https://cursor.com/blog/agent-swarm-model-economics",
+      "pubDate": "2026-07-20T18:06:13.000Z",
+      "description": "Article URL: https://cursor.com/blog/agent-swarm-model-economics Comments URL: https://news.ycombinator.com/item?id=48982535 Points: 18 # Comments: 8",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Stop Using OpenCode",
-      "link": "https://wren.wtf/shower-thoughts/stop-using-opencode/",
-      "pubDate": "2026-07-20T12:45:55.000Z",
-      "description": "Article URL: https://wren.wtf/shower-thoughts/stop-using-opencode/ Comments URL: https://news.ycombinator.com/item?id=48978112 Points: 192 # Comments: 120",
+      "title": "Hyprland 0.55 announced the switch to Lua for its config files",
+      "link": "https://hypr.land/news/update55/",
+      "pubDate": "2026-07-20T17:31:57.000Z",
+      "description": "Article URL: https://hypr.land/news/update55/ Comments URL: https://news.ycombinator.com/item?id=48982011 Points: 79 # Comments: 54",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "The footprints of every building in NYC – updated weekly",
-      "link": "https://www.beautifulpublicdata.com/the-footprints-of-every-building-in-nyc/",
-      "pubDate": "2026-07-20T12:25:49.000Z",
-      "description": "Article URL: https://www.beautifulpublicdata.com/the-footprints-of-every-building-in-nyc/ Comments URL: https://news.ycombinator.com/item?id=48977849 Points: 3 # Comments: 0",
+      "title": "Kimi Work",
+      "link": "https://www.kimi.com/products/kimi-work",
+      "pubDate": "2026-07-20T17:13:23.000Z",
+      "description": "Article URL: https://www.kimi.com/products/kimi-work Comments URL: https://news.ycombinator.com/item?id=48981703 Points: 119 # Comments: 57",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "The EU is about to sell our most sensitive data to the US for visa-free travel",
-      "link": "https://edri.org/our-work/the-eu-is-about-to-sell-our-most-sensitive-data-to-the-us-for-visa-free-travel/",
-      "pubDate": "2026-07-20T12:14:08.000Z",
-      "description": "Article URL: https://edri.org/our-work/the-eu-is-about-to-sell-our-most-sensitive-data-to-the-us-for-visa-free-travel/ Comments URL: https://news.ycombinator.com/item?id=48977711 Points: 201 # Comments: 116",
+      "title": "Jelly UI: Soft-body physics for native HTML form controls",
+      "link": "https://jelly-ui.com/",
+      "pubDate": "2026-07-20T17:07:39.000Z",
+      "description": "Article URL: https://jelly-ui.com/ Comments URL: https://news.ycombinator.com/item?id=48981620 Points: 128 # Comments: 44",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Airport Simulator",
-      "link": "https://airport.apunen.com/",
-      "pubDate": "2026-07-20T10:30:40.000Z",
-      "description": "Article URL: https://airport.apunen.com/ Comments URL: https://news.ycombinator.com/item?id=48976846 Points: 240 # Comments: 66",
+      "title": "How we measured AI writing across arXiv, and where the measurement breaks",
+      "link": "https://unslop.run/blog/measuring-ai-writing-on-arxiv",
+      "pubDate": "2026-07-20T16:36:36.000Z",
+      "description": "Article URL: https://unslop.run/blog/measuring-ai-writing-on-arxiv Comments URL: https://news.ycombinator.com/item?id=48981206 Points: 153 # Comments: 109",
       "source": "Hacker News",
       "category": "Tech News"
-    },
-    {
-      "title": "pointer-events",
-      "link": "https://css-tricks.com/almanac/properties/p/pointer-events/",
-      "pubDate": "2026-07-15T19:57:51.000Z",
-      "description": "The pointer-events property controls whether an element can become the target of pointer events like clicks, hover states, and other pointer-based events. In other words, it lets you decide whether the browser should treat an element as interactive when the … pointer-events originally handwritten an",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "What’s !important #15: Boundary-aware CSS, Time-based CSS, Full-bleed CSS, and More",
-      "link": "https://css-tricks.com/whats-important-15/",
-      "pubDate": "2026-07-15T14:36:18.000Z",
-      "description": "Read all about boundary-aware CSS, accessible grid lanes, time-based web designs, full-bleed, the customizable select, and new web platform features. What’s !important #15: Boundary-aware CSS, Time-based CSS, Full-bleed CSS, and More originally handwritten and published with love on CSS-Tricks. You ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Get Ready For the Powerful CSS border-shape Property!",
-      "link": "https://css-tricks.com/get-ready-for-the-powerful-css-border-shape-property/",
-      "pubDate": "2026-07-07T15:14:00.000Z",
-      "description": "We recently got the shape() function and corner-shape property. What else could we possibly need as far as making shapes in CSS? Let me tell you: the border-shape property! Get Ready For the Powerful CSS border-shape Property! originally handwritten and published with love on CSS-Tricks. You should ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "What’s !important #14: Gap Decorations, random(), &#060;select&gt; field-sizing, and More",
-      "link": "https://css-tricks.com/whats-important-14/",
-      "pubDate": "2026-06-30T13:54:14.000Z",
-      "description": "I know you’re busy, so for What’s !important #14, I’ll be sprinting through what’s been a stacked couple of weeks despite few browser updates. From CSS Quake to CSS Gap Decorations, this isn’t one to miss! What’s !important #14: Gap Decorations, random(), <select> field-sizing, and More originally h",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "The Shifting Line Between CSS States and JavaScript Events",
-      "link": "https://css-tricks.com/css-states-and-javascript-events/",
-      "pubDate": "2026-06-29T13:03:32.000Z",
-      "description": "CSS has always had pseudo-classes that style things based on user interactions. Recent features, however, are blurring the line between what CSS \"listens\" for and how they are alternatives to what Javascript typically listens for. The Shifting Line Between CSS States and JavaScript Events originally",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translateZ()",
-      "link": "https://css-tricks.com/almanac/functions/t/translatez/",
-      "pubDate": "2026-06-25T13:18:56.000Z",
-      "description": "The translateZ() function moves an element closer to or farther from the user. translateZ() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translateY()",
-      "link": "https://css-tricks.com/almanac/functions/t/translatey/",
-      "pubDate": "2026-06-25T13:17:56.000Z",
-      "description": "The translateY() function shifts an element vertically by the specified amount. translateY() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translateX()",
-      "link": "https://css-tricks.com/almanac/functions/t/translatex/",
-      "pubDate": "2026-06-25T13:16:01.000Z",
-      "description": "The translateX() function shifts an element horizontally by the specified amount. translateX() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translate()",
-      "link": "https://css-tricks.com/almanac/functions/t/translate/",
-      "pubDate": "2026-06-25T13:15:05.000Z",
-      "description": "The CSS translate() function shifts an element from its default position on a 2-dimensional plane translate() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Using Scroll-Driven Animations for Opposing Scroll Directions",
-      "link": "https://css-tricks.com/scroll-driven-animations-opposing-scroll-directions/",
-      "pubDate": "2026-06-22T12:39:13.000Z",
-      "description": "Sometimes designers have silly ideas that eventually grow on you. That happened to me with this concept where I had to build columns of items moving in opposite directions when a user scrolls the page. CodePen Embed Fallback Note: This … Using Scroll-Driven Animations for Opposing Scroll Directions ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
     },
     {
       "title": "Meet the HTB Profile: all your skills, in one place",
