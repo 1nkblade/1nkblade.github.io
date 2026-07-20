@@ -1,110 +1,150 @@
 {
-  "generatedAt": "2026-07-19T19:32:30.677Z",
+  "generatedAt": "2026-07-20T04:05:13.699Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "Teaching a phone to disbelieve its own GPS",
-      "link": "https://dev.to/darkpandawarrior/teaching-a-phone-to-disbelieve-its-own-gps-cip",
-      "pubDate": "2026-07-19T19:25:38.000Z",
-      "description": "<p>The bug report came in on a Tuesday. One line:</p> <blockquote> <p>\"Your app says I hit 400 kmph. I was at a red light.\"</p> </blockquote> <p>He wasn't lying. Neither was the app. The phone genuinely believed it, and that is the interesting part.</p> <p>I work on mileage tracking. If you have eve",
+      "title": "I Added GeekDock as a 24-Hour Bonus to My macOS App Bundle",
+      "link": "https://dev.to/quietware/i-added-geekdock-as-a-24-hour-bonus-to-my-macos-app-bundle-1b44",
+      "pubDate": "2026-07-20T03:55:09.000Z",
+      "description": "<p>I’m giving the <strong>QuietWare Workspace Collection</strong> one final update before the promotion ends.</p> <p>For the last 24 hours, <strong>GeekDock</strong> has been added as a bonus app at no extra cost.</p> <p><a href=\"https://itch.io/s/195950/quietware-workspace-collection\" rel=\"noopener",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The AI Wave of 2026: 10 New Things Every Developer Should Know",
-      "link": "https://dev.to/darshanraval/the-ai-wave-of-2026-10-new-things-every-developer-should-know-2mhc",
-      "pubDate": "2026-07-19T19:23:56.000Z",
-      "description": "<h1> 🚀 The AI Wave of 2026: 10 New Things Every Developer Should Know </h1> <blockquote> <p>AI is evolving faster than ever.</p> <p>If you blink for a month, you'll probably miss a breakthrough.</p> </blockquote> <p>2026 isn't just about \"using ChatGPT.\"</p> <p>It's about AI agents collaborating wi",
+      "title": "ADA: an open-source AI data analyst that shows its math",
+      "link": "https://dev.to/sainesh_nakra/ada-an-open-source-ai-data-analyst-that-shows-its-math-3ka7",
+      "pubDate": "2026-07-20T03:35:21.000Z",
+      "description": "<p>I watched my sister paste a CSV into on of our LLM overlords and ask a question then reword it and get a different number. That's the problem with letting an LLM both read your question and trust it's math.</p> <p>ADA splits the two jobs. Drop in a CSV or Excel file, get a dashboard, anomaly dete",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "El día que `pnpm audit` tumbó todos los deploys (y qué correr en su lugar)",
-      "link": "https://dev.to/aws-builders/el-dia-que-pnpm-audit-tumbo-todos-los-deploys-y-que-correr-en-su-lugar-3leh",
-      "pubDate": "2026-07-19T19:23:46.000Z",
-      "description": "<p>Un deploy de frontend falló. No había cambiado código en el pipeline, nose había subido ninguna dependencia, el lockfile era byte por byte<br> idéntico al del deploy que había pasado en verde 23 horas antes. El falló:<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight plaint",
+      "title": "We built an AI board of directors on Qwen. Then we asked it whether we should migrate to Qwen.",
+      "link": "https://dev.to/vincentjulijanto/we-built-an-ai-board-of-directors-on-qwen-then-we-asked-it-whether-we-should-migrate-to-qwen-207j",
+      "pubDate": "2026-07-20T03:31:58.000Z",
+      "description": "<p>Solo founders and small operators make big, irreversible calls alone. Expand into a new market or not. Kill the product line or keep bleeding on it. A real board of advisors would catch the bad ones, but real boards are expensive and slow, and most people running a 10-person company are never get",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "yasbd-lib vs PySBD: two philosophies of sentence boundary detection",
-      "link": "https://dev.to/speed_k_7e1b449706e59e433/yasbd-lib-vs-pysbd-two-philosophies-of-sentence-boundary-detection-i88",
-      "pubDate": "2026-07-19T19:22:59.000Z",
-      "description": "<p>Sentence boundary detection sounds boring. Split on <code>.</code> <code>?</code> <code>!</code>, done, right? Anyone who has tried knows otherwise. Abbreviations, decimals, URLs, nested quotes, ellipsis, legal citations, biomedical jargon—each one turns \"split text\" into a language-specific puzz",
+      "title": "FROST 深度：为什么 AI Agent 需要「家族谱系」？",
+      "link": "https://dev.to/llimage/frost-shen-du-wei-shi-yao-ai-agent-xu-yao-jia-zu-pu-xi--4204",
+      "pubDate": "2026-07-20T03:23:08.000Z",
+      "description": "<h1> FROST 深度：为什么 AI Agent 需要「家族谱系」？ </h1> <h2> 前言：一个古老的管理学问题 </h2> <p>你有没有想过，为什么人类社会的组织方式大多是「层级制」？</p> <p>从部落、到王国、到现代公司，我们习惯了一种结构：<strong>有人决策，有人执行，有人监督</strong>。</p> <p>但当我们构建 AI Agent 系统时，为什么大多数框架都把 Agent 做成「孤岛」？每个 Agent 有自己的记忆、自己的工具、自己的行为逻辑——像一个没有家族传承的独立个体。</p> <p><strong>FROST</strong> 的核心理念是：A",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How I Built an AI Accountability App for Myself — and It Actually Works",
-      "link": "https://dev.to/zenithfortify/how-i-built-an-ai-accountability-app-for-myself-and-it-actually-works-2c5k",
-      "pubDate": "2026-07-19T19:17:00.000Z",
-      "description": "<p>I've struggled with consistency for years.</p> <p>You know the cycle: Get motivated. Download a habit tracker. Use it for three days. Miss a day. Feel like a failure. Delete the app. Repeat.</p> <p>Last month, I decided to stop downloading and start building.</p> <p>The Problem<br> Most habit app",
+      "title": "Strip Location From Both Halves of an iOS Live Photo Before Upload",
+      "link": "https://dev.to/roronoa_/strip-location-from-both-halves-of-an-ios-live-photo-before-upload-4aoa",
+      "pubDate": "2026-07-20T03:18:52.000Z",
+      "description": "<p>A helpful comment on my EXIF test suggested using a metadata scrubber. That is useful for ordinary still images, but a mobile upload contract must define every asset it sends. An iOS Live Photo can include both a photo resource and a paired video resource.</p> <p>The failure case is simple: the J",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Testing AI Agents with AgentSpec: Jest for Non-Deterministic Behavior",
-      "link": "https://dev.to/pawfromoz/testing-ai-agents-with-agentspec-jest-for-non-deterministic-behavior-55kg",
-      "pubDate": "2026-07-19T19:13:47.000Z",
-      "description": "<p>AI agents are non-deterministic. This is both their superpower and their biggest testing challenge.</p> <p>When you change a prompt, swap a model, or update a tool definition, the agent's behavior shifts in ways you can't predict. Traditional test tools (Jest, Vitest, Playwright) are built for de",
+      "title": "Test a Saga When Compensation Times Out and the Message Is Delivered Twice",
+      "link": "https://dev.to/robinzzz/test-a-saga-when-compensation-times-out-and-the-message-is-delivered-twice-5b6d",
+      "pubDate": "2026-07-20T03:18:47.000Z",
+      "description": "<p>A saga test that stops after “payment succeeded, inventory failed, refund called” assumes compensation is reliable. It is another distributed operation, so test it under the same faults.</p> <p>Use this sequence:<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight plaintext\">",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How to Validate an App Idea Before Building It (The Cheap, Honest Way)",
-      "link": "https://dev.to/assindo/how-to-validate-an-app-idea-before-building-it-the-cheap-honest-way-51f6",
-      "pubDate": "2026-07-19T19:06:20.000Z",
-      "description": "<p>Most app ideas die the expensive way. The founder pays an agency or spends a year learning to build, ships the app, and then discovers the market's true opinion: silence. The tragedy is that the silence was knowable in advance, for about one percent of the cost. Learning how to validate an app id",
+      "title": "Ship a Restart-Safe Upload CLI That Survives an Expired Resume URL",
+      "link": "https://dev.to/rivera123/ship-a-restart-safe-upload-cli-that-survives-an-expired-resume-url-182m",
+      "pubDate": "2026-07-20T03:18:45.000Z",
+      "description": "<p>My upload CLI looked restart-safe until I tested two failures together: the process crashed at 63%, and the signed resume URL expired before restart.</p> <p>The checkpoint needs identity, not credentials:<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight json\"><code><span c",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How AI Agents Actually Work",
-      "link": "https://dev.to/paulcrinigan/how-ai-agents-actually-work-1ljd",
-      "pubDate": "2026-07-19T19:05:47.000Z",
-      "description": "<p>An AI agent looks like magic in a demo and like plumbing in production. Underneath the branding, it is a loop: the model observes the current state, plans a next step, calls a tool, reads the result, and repeats until the goal is met or it runs out of room.</p> <p>Three things decide whether that",
+      "title": "Reproduce SQLite WAL Checkpoint Starvation With One Forgotten Reader",
+      "link": "https://dev.to/odd_background_328/reproduce-sqlite-wal-checkpoint-starvation-with-one-forgotten-reader-4jfo",
+      "pubDate": "2026-07-20T03:18:44.000Z",
+      "description": "<p>A SQLite service can keep answering health checks while its WAL grows without a successful checkpoint. One forgotten read transaction is enough to reproduce the risk.</p> <p>Run a controlled drill:</p> <ol> <li>Enable WAL mode and create a small table.</li> <li>Open connection A, begin a read tra",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "A One-Second Static Check for E2E Selector Drift",
-      "link": "https://dev.to/cydavid/a-one-second-static-check-for-e2e-selector-drift-21gf",
-      "pubDate": "2026-07-19T19:00:10.000Z",
-      "description": "<p>Every E2E test run has a price tag, and it's paid in feedback-loop minutes.</p> <p>Here's a classic example. Someone renames a <code>data-test</code> attribute during a refactor, not knowing ten specs reference it. Best case: a 15-minute (or more) pre-merge run fails near the end and tells them. ",
+      "title": "Make Multipart Upload Abort Idempotent Before Orphaned Parts Start Billing You",
+      "link": "https://dev.to/kongkong1/make-multipart-upload-abort-idempotent-before-orphaned-parts-start-billing-you-4gd7",
+      "pubDate": "2026-07-20T03:18:37.000Z",
+      "description": "<p>Multipart finalization is not the only retry boundary. Abort can succeed in object storage while the HTTP response is lost, leaving your database convinced the upload is active.</p> <p>Model abort as a state transition, not a button wired directly to an SDK call:<br> </p> <div class=\"highlight js",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How We Distribute Video Events Across Regions With NATS JetStream",
-      "link": "https://dev.to/ahmet_gedik778845/how-we-distribute-video-events-across-regions-with-nats-jetstream-oam",
-      "pubDate": "2026-07-19T19:00:01.000Z",
-      "description": "<p>When a new video shows up in one of our regional crawlers, three things need to happen almost immediately: the SQLite FTS5 search index for that region needs a new row, the discovery ranking cache needs to be invalidated, and the sitemap generator needs to know a URL was born. For a long time we ",
+      "title": "Reject Image Polyglots After EXIF Removal, Before They Reach Your CDN",
+      "link": "https://dev.to/jaryn_123/reject-image-polyglots-after-exif-removal-before-they-reach-your-cdn-4hi4",
+      "pubDate": "2026-07-20T03:18:35.000Z",
+      "description": "<p>Removing EXIF GPS protects one privacy boundary. It does not prove that an uploaded JPEG contains only a JPEG.</p> <p>A useful hostile fixture is a valid image followed by bytes for another format. Many decoders stop at JPEG’s end marker and display the picture successfully, while downstream scan",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Show HN: How much profit does your employer make per employee?",
-      "link": "https://yourfairshare.info",
-      "pubDate": "2026-07-19T18:47:29.000Z",
-      "description": "Article URL: https://yourfairshare.info Comments URL: https://news.ycombinator.com/item?id=48970684 Points: 3 # Comments: 1",
+      "title": "Claude Fable produced a counterexample to the Jacobian Conjecture",
+      "link": "https://xcancel.com/__alpoge__/status/2079028340955197566",
+      "pubDate": "2026-07-20T02:51:16.000Z",
+      "description": "Article URL: https://xcancel.com/__alpoge__/status/2079028340955197566 Comments URL: https://news.ycombinator.com/item?id=48973869 Points: 56 # Comments: 9",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Less Is More: Why Audio on SoundCloud Looks Different",
-      "link": "https://developers.soundcloud.com/blog/less-is-more-why-soundcloud-low-passes-its-aac-transcodings/",
-      "pubDate": "2026-07-19T18:10:12.000Z",
-      "description": "Article URL: https://developers.soundcloud.com/blog/less-is-more-why-soundcloud-low-passes-its-aac-transcodings/ Comments URL: https://news.ycombinator.com/item?id=48970372 Points: 14 # Comments: 2",
+      "title": "Moonshine: Lets you stream games from your PC to any device running Moonlight",
+      "link": "https://github.com/hgaiser/moonshine",
+      "pubDate": "2026-07-20T00:16:50.000Z",
+      "description": "Article URL: https://github.com/hgaiser/moonshine Comments URL: https://news.ycombinator.com/item?id=48972970 Points: 22 # Comments: 10",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Neither GCC nor Clang are compliant with standard C++",
-      "link": "https://sebsite.pw/w/20260708-badstdcxx.html",
-      "pubDate": "2026-07-19T17:32:41.000Z",
-      "description": "Article URL: https://sebsite.pw/w/20260708-badstdcxx.html Comments URL: https://news.ycombinator.com/item?id=48970039 Points: 19 # Comments: 12",
+      "title": "Grok-iOS – remote Grok Build from your iPhone over ACP",
+      "link": "https://github.com/Pedroshakoor/grok-build-ios",
+      "pubDate": "2026-07-19T21:51:26.000Z",
+      "description": "Article URL: https://github.com/Pedroshakoor/grok-build-ios Comments URL: https://news.ycombinator.com/item?id=48971999 Points: 10 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Biggest Probabilistic Computer Turns Noise into Answers",
+      "link": "https://spectrum.ieee.org/biggest-probabilistic-computer",
+      "pubDate": "2026-07-19T21:42:12.000Z",
+      "description": "Article URL: https://spectrum.ieee.org/biggest-probabilistic-computer Comments URL: https://news.ycombinator.com/item?id=48971938 Points: 48 # Comments: 8",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "AI advice made people less accurate but more confident – sudy",
+      "link": "https://thenextweb.com/news/ai-advice-suppresses-critical-thinking-wrong-answers-study",
+      "pubDate": "2026-07-19T21:18:10.000Z",
+      "description": "Article URL: https://thenextweb.com/news/ai-advice-suppresses-critical-thinking-wrong-answers-study Comments URL: https://news.ycombinator.com/item?id=48971738 Points: 300 # Comments: 168",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "A new Intel Itanium (IA-64) emulator that boots Windows",
+      "link": "https://raymii.org/s/blog/Intel_Itanium_IA-64-Emulator_that_boots_Windows.html",
+      "pubDate": "2026-07-19T20:50:42.000Z",
+      "description": "Article URL: https://raymii.org/s/blog/Intel_Itanium_IA-64-Emulator_that_boots_Windows.html Comments URL: https://news.ycombinator.com/item?id=48971566 Points: 61 # Comments: 45",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Orion Browser by Kagi",
+      "link": "https://orionbrowser.com/",
+      "pubDate": "2026-07-19T19:13:29.000Z",
+      "description": "Article URL: https://orionbrowser.com/ Comments URL: https://news.ycombinator.com/item?id=48970894 Points: 92 # Comments: 79",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "HomeLab #1: MikroTik as a Home Router",
+      "link": "https://justsomebody.dev/blog/mikrotik-home-router",
+      "pubDate": "2026-07-19T18:57:01.000Z",
+      "description": "Article URL: https://justsomebody.dev/blog/mikrotik-home-router Comments URL: https://news.ycombinator.com/item?id=48970772 Points: 78 # Comments: 65",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -112,31 +152,7 @@
       "title": "HMD Touch 4G",
       "link": "https://www.hmd.com/en_int/hmd-touch-4g",
       "pubDate": "2026-07-19T17:25:03.000Z",
-      "description": "Article URL: https://www.hmd.com/en_int/hmd-touch-4g Comments URL: https://news.ycombinator.com/item?id=48969983 Points: 31 # Comments: 34",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "The Last MPEG-4 Visual Patent Has Expired",
-      "link": "https://www.phoronix.com/news/Last-MPEG-4-Patent-Expired",
-      "pubDate": "2026-07-19T16:45:17.000Z",
-      "description": "Article URL: https://www.phoronix.com/news/Last-MPEG-4-Patent-Expired Comments URL: https://news.ycombinator.com/item?id=48969635 Points: 55 # Comments: 12",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Texas Police Spent $4.5M on Four Chevy Tahoes",
-      "link": "https://www.thedrive.com/news/how-texas-police-spent-4-5-million-on-four-chevy-tahoes",
-      "pubDate": "2026-07-19T16:38:36.000Z",
-      "description": "Article URL: https://www.thedrive.com/news/how-texas-police-spent-4-5-million-on-four-chevy-tahoes Comments URL: https://news.ycombinator.com/item?id=48969582 Points: 62 # Comments: 33",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Moonshot AI suspends new subscriptions due to Kimi K3 demand",
-      "link": "https://twitter.com/kimi_moonshot/status/2078855608565207130",
-      "pubDate": "2026-07-19T16:02:25.000Z",
-      "description": "Article URL: https://twitter.com/kimi_moonshot/status/2078855608565207130 Comments URL: https://news.ycombinator.com/item?id=48969291 Points: 79 # Comments: 22",
+      "description": "Article URL: https://www.hmd.com/en_int/hmd-touch-4g Comments URL: https://news.ycombinator.com/item?id=48969983 Points: 62 # Comments: 64",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -144,23 +160,7 @@
       "title": "C64 Basic Dungeon Crawler: Goblin Attack (C64 Basic Part 8)",
       "link": "https://retrogamecoders.com/c64-basic-dungeon-part8/",
       "pubDate": "2026-07-19T15:20:22.000Z",
-      "description": "Article URL: https://retrogamecoders.com/c64-basic-dungeon-part8/ Comments URL: https://news.ycombinator.com/item?id=48968949 Points: 26 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Show HN: I replaced a $120k bowling center system with $1,600 in ESP32s",
-      "link": "https://news.ycombinator.com/item?id=48968606",
-      "pubDate": "2026-07-19T14:41:16.000Z",
-      "description": "I might be the only SRE on Earth with his own bowling center. It's a more in-depth gig than you'd think.My family and I bought an abandoned 8-lane bowling center in the rural mid-west. In our small town there weren't many recreation options for families. You've heard of a food desert? This is an R&R",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Terence McKenna's Mega Bad Trip",
-      "link": "https://psychedelics.community/cultural-icons/terence-mckennas-mega-bad-trip",
-      "pubDate": "2026-07-19T14:30:31.000Z",
-      "description": "Article URL: https://psychedelics.community/cultural-icons/terence-mckennas-mega-bad-trip Comments URL: https://news.ycombinator.com/item?id=48968515 Points: 51 # Comments: 41",
+      "description": "Article URL: https://retrogamecoders.com/c64-basic-dungeon-part8/ Comments URL: https://news.ycombinator.com/item?id=48968949 Points: 63 # Comments: 4",
       "source": "Hacker News",
       "category": "Tech News"
     },
