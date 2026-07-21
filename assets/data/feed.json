@@ -1,102 +1,142 @@
 {
-  "generatedAt": "2026-07-21T03:45:30.445Z",
+  "generatedAt": "2026-07-21T08:45:01.177Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "A Post-Commit Hook Told Me to Rewrite 8 Pushed Commits to Fix \"Unverified.\" I Said No.",
-      "link": "https://dev.to/enjoy_kumawat/a-post-commit-hook-told-me-to-rewrite-8-pushed-commits-to-fix-unverified-i-said-no-19f0",
-      "pubDate": "2026-07-21T03:35:54.000Z",
-      "description": "<p>I run a scheduled agent that publishes to DEV.to twice a day. After one of its runs, a stop hook fired and printed something that looked, at first glance, like a helpful lint warning: 8 commits on <code>main</code> were showing as \"Unverified\" on GitHub, and here's the fix — set the committer ide",
+      "title": "Stop Writing Boilerplate: Turn MySQL Tables into PHP CRUD Grids Instantly with GriD12",
+      "link": "https://dev.to/stefanos_gkoutziantamis_d/stop-writing-boilerplate-turn-mysql-tables-into-php-crud-grids-instantly-with-grid12-2l9g",
+      "pubDate": "2026-07-21T08:38:35.000Z",
+      "description": "<p>If you are a PHP developer, chances are you've spent countless hours building the exact same tedious CRUD (Create, Read, Update, Delete) screens over and over again. Setting up pagination, writing search queries, and validating forms is a repetitive cycle that eats into your development time.</p>",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Exploring the Deep Learning Library in Modern Computer Vision",
-      "link": "https://dev.to/fuadhusnan_f44f3e13/exploring-the-deep-learning-library-in-modern-computer-vision-4j9d",
-      "pubDate": "2026-07-21T03:35:19.000Z",
-      "description": "<p>Picking the right <a href=\"https://openlibrary.telkomuniversity.ac.id/pustaka/165800/deep-learning-with-javascript-neural-networks-in-tensorflow-js.html\" rel=\"noopener noreferrer\">deep learning library</a> shapes almost everything about a computer vision project, from how fast you can prototype a",
+      "title": "If you could download an iOS/Android app that offered a free tool for work, daily life, learning, etc., what would you want it to be? I'm really looking forward to creating an app, but I don't have any ideas yet. Feel free to share your thoughts!",
+      "link": "https://dev.to/andrewhuynh/if-you-could-download-an-iosandroid-app-that-offered-a-free-tool-for-work-daily-life-learning-30p3",
+      "pubDate": "2026-07-21T08:37:51.000Z",
+      "description": "",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The Simplex Method, Explained Like an Algorithm (with a Free Step-by-Step Solver)",
-      "link": "https://dev.to/sadia_sadia_5620dbacc597d/the-simplex-method-explained-like-an-algorithm-with-a-free-step-by-step-solver-3cbn",
-      "pubDate": "2026-07-21T03:25:06.000Z",
-      "description": "<p>If you have written any optimization code, you have met linear programming even if nobody called it that. \"Maximize output without blowing the resource budget\" is an LP problem, and the classic algorithm that solves it is the simplex method. It is worth understanding not because you will hand-cod",
+      "title": "The Math Behind a Late-Fee: Turning \"Net 30\" Into an Enforceable Number",
+      "link": "https://dev.to/kunstudio/the-math-behind-a-late-fee-turning-net-30-into-an-enforceable-number-5bg6",
+      "pubDate": "2026-07-21T08:37:29.000Z",
+      "description": "<h1> The math behind a late-fee: turning \"net 30\" into an enforceable number </h1> <p>I build small web tools, and the one that surprised me most wasn't AI-heavy at all — it was a late-fee calculator for freelancers. The hard part wasn't the arithmetic. It was deciding <em>which</em> arithmetic is d",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "What Is Load Balancing? A Beginner's Guide to Faster and More Reliable Applications",
-      "link": "https://dev.to/ashraful/-what-is-load-balancing-a-beginners-guide-to-faster-and-more-reliable-applications-3pap",
-      "pubDate": "2026-07-21T03:24:35.000Z",
-      "description": "<p>Imagine you're standing in line at a supermarket with only one cashier open. The queue is long, and everyone has to wait.</p> <p>Now imagine the store opens four more checkout counters. Customers are directed to the shortest queue, and everyone gets served much faster.</p> <p>That's exactly how <",
+      "title": "I Got Tired of Opening Dashboards, So We Built an MCP Server",
+      "link": "https://dev.to/janardan_joshi_6f21026e06/i-got-tired-of-opening-dashboards-so-we-built-an-mcp-server-494a",
+      "pubDate": "2026-07-21T08:37:25.000Z",
+      "description": "<p>A months ago, I noticed something about the way I was working.</p> <p>Most of my day was spent inside Cursor, Claude Code, VS Code, or a terminal. That's where I wrote code, debugged issues, and even asked AI to explain unfamiliar libraries.</p> <p>But the moment I wanted to check whether one of ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Your incident postmortems aren't investigations; they're fan fiction.",
-      "link": "https://dev.to/renato_marinho/your-incident-postmortems-arent-investigations-theyre-fan-fiction-3am",
-      "pubDate": "2026-07-21T03:24:24.000Z",
-      "description": "<p>I’ve seen enough postmortems to know that a large percentage of them are essentially polite fiction.</p> <p>We sit in a meeting, everyone is exhausted from the outage, and we agree on a narrative. We write down that 'the database connection pool was exhausted' or 'a bad deploy caused an error spi",
+      "title": "The Bug That Wasn't a Networking Bug: A Railway Healthcheck Timeout in Disguise published: false tags: devchallenge, bugsmash",
+      "link": "https://dev.to/gbolaww/the-bug-that-wasnt-a-networking-bug-a-railway-healthcheck-timeout-in-disguise-published-false-4bdm",
+      "pubDate": "2026-07-21T08:37:25.000Z",
+      "description": "<p><em>This is a submission for <a href=\"https://dev.to/bugsmash\">DEV's Summer Bug Smash: Clear the Lineup</a> powered by <a href=\"https://sentry.io/\" rel=\"noopener noreferrer\">Sentry</a>.</em></p> <h2> Project Overview </h2> <p>supermarket--bot is a WhatsApp order bot written in Go, built for small",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "FROST-SOP V6.1.0 工程实践：从初始化流水线看「零门槛上手」",
-      "link": "https://dev.to/llimage/frost-sop-v610-gong-cheng-shi-jian-cong-chu-shi-hua-liu-shui-xian-kan-ling-men-jian-shang-shou--1off",
-      "pubDate": "2026-07-21T03:24:19.000Z",
-      "description": "<h1> FROST-SOP V6.1.0 工程实践：从初始化流水线看「零门槛上手」 </h1> <p><strong>作者：神通说</strong><br><br> <strong>日期：2026-07-21</strong><br><br> <strong>主题：周二·SOP工程 | V6.1.0 新特性深度解析</strong></p> <h2> 开篇：一个让所有开发者头疼的问题 </h2> <p>想象这个场景：</p> <p>你刚克隆了一个开源项目，兴冲冲地跑起来，结果：<br> </p> <div class=\"highlight js-code-highlight\"> <pre c",
+      "title": "How LINE MINI App Service Notification Tokens Work (and Why You Must Rotate Them)",
+      "link": "https://dev.to/unifyport/how-line-mini-app-service-notification-tokens-work-and-why-you-must-rotate-them-2cgg",
+      "pubDate": "2026-07-21T08:36:35.000Z",
+      "description": "<p>LINE MINI App service messages are not ordinary push notifications.</p> <p>They use a user-bound, action-specific notification token that changes after every successful send. If your application keeps using the original token, later reminders can fail even when the template and channel credential",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Subtitle readability: why a valid file can still be unreadable",
-      "link": "https://dev.to/woshiliyana/subtitle-readability-why-a-valid-file-can-still-be-unreadable-4im0",
-      "pubDate": "2026-07-21T03:21:17.000Z",
-      "description": "<p>I publish the same scripted show in five languages: Spanish, English, Japanese, German, and Chinese. Every episode ships with subtitles, and every language has taught me the same lesson from a different angle: a subtitle file that passes every technical check can still be genuinely hard to read.<",
+      "title": "You're rethrowing errors and losing context. `Error.cause` fixes that.",
+      "link": "https://dev.to/parsajiravand/youre-rethrowing-errors-and-losing-context-errorcause-fixes-that-4l97",
+      "pubDate": "2026-07-21T08:36:01.000Z",
+      "description": "<p>Error handling has a quiet problem. You catch an error deep in a call stack, wrap it in something more descriptive, and rethrow. The caller gets a meaningful message — but the original error, with its stack trace and details, is gone.<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "projports: find every port your project declares",
-      "link": "https://dev.to/sybilgambleyyu/projports-find-every-port-your-project-declares-2d7h",
-      "pubDate": "2026-07-21T03:20:55.000Z",
-      "description": "<p>Every multi-service repo I touch has the same onboarding failure mode: clone, run the happy-path start command, get <code>EADDRINUSE</code> or a silent hang because Postgres is mapped to <code>5433</code> in Compose and <code>5432</code> in someone's muscle memory.</p> <p>The ports are not secret",
+      "title": "Claude Certified Architect Foundations (CCA‑f): cosa studiare davvero e come prepararsi con un approccio “hands-on”",
+      "link": "https://dev.to/frontendfacile/claude-certified-architect-foundations-cca-f-cosa-studiare-davvero-e-come-prepararsi-con-un-48f8",
+      "pubDate": "2026-07-21T08:35:22.000Z",
+      "description": "<blockquote> <p>Domini d’esame, gestione del tempo e concetti chiave come MCP, tool use, stop reason, structured output e affidabilità.</p> </blockquote> <p>Negli ultimi mesi molte organizzazioni stanno passando dalla “semplice chat” a <strong>workload agentici</strong>: strumenti che non si limitan",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "openFDA Adverse Event API: Paging Past 25,000 and Flattening",
-      "link": "https://dev.to/mayd-it/openfda-adverse-event-api-paging-past-25000-and-flattening-2c6l",
-      "pubDate": "2026-07-21T03:18:57.000Z",
-      "description": "<p>You wrote a loop against <code>api.fda.gov/drug/event.json</code>, incremented <code>skip</code>, and at 25,001 got <code>{\"code\":\"BAD_REQUEST\",\"message\":\"Skip value must 25000 or less.\"}</code> (yes, the API's own message is missing the word \"be\"). Meanwhile your row count is 100x what you expec",
+      "title": "Yapay Zeka Aracısı Koruma Mekanizmaları: Onay Kapıları ve Etki Alanı Kontrolü",
+      "link": "https://dev.to/tobiass_hoffmann/yapay-zeka-aracisi-koruma-mekanizmalari-onay-kapilari-ve-etki-alani-kontrolu-mka",
+      "pubDate": "2026-07-21T08:34:43.000Z",
+      "description": "<p>Saat sabah 3. Siz uyurken ajanınız destek bileti kuyruğunu işliyordu. Biletlerden biri acil bir eskalasyon gibi göründü; ajan bir özet hazırladı ve yöneticinize e-posta gönderdi. Özet doğruydu, dilbilgisi temizdi. Sorun şu: Kimse bu e-postayı istemedi, kimse göndermeden önce incelemedi ve ajan ka",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Salesforce Flow Deletion",
-      "link": "https://dev.to/samruddhi_zala_c6151520e6/salesforce-flow-deletion-1dbd",
-      "pubDate": "2026-07-21T03:18:25.000Z",
-      "description": "<p>Ever been blocked by \"<em>Cannot delete field referenced in Flow</em>\" because of dozens of old Flow versions? I got tired of deleting them one by one, so I built an unlocked package to automate it.</p> <p><strong>Features</strong>:</p> <ol> <li>Bulk deletes inactive Flow, Flow versions (active v",
+      "title": "What Is Voice of Customer Analysis, and How Do You Build It in 2026",
+      "link": "https://dev.to/pangolinfo/what-is-voice-of-customer-analysis-and-how-do-you-build-it-in-2026-2me9",
+      "pubDate": "2026-07-21T08:34:22.000Z",
+      "description": "<p><em>Leo · Head of Engineering, Pangolinfo</em></p> <p>If you're a developer building anything customer-aware — a brand monitor, a churn early-warning system, an agent that briefs your PM — the trap isn't your model. It's whether you can actually hear what customers are saying, across the platform",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Is surveillance risk chilling your online speech?",
-      "link": "https://news.ycombinator.com/item?id=48987634",
-      "pubDate": "2026-07-21T03:17:10.000Z",
-      "description": "Given the expansion of the fed/state/local/corporate surveillance net, do you find yourself expressing yourself less freely on the internet than you did five years ago? Comments URL: https://news.ycombinator.com/item?id=48987634 Points: 9 # Comments: 4",
+      "title": "Linux kernel will support $ORIGIN, sort of",
+      "link": "https://fzakaria.com/2026/07/20/linux-kernel-will-support-origin-sort-of",
+      "pubDate": "2026-07-21T06:29:22.000Z",
+      "description": "Article URL: https://fzakaria.com/2026/07/20/linux-kernel-will-support-origin-sort-of Comments URL: https://news.ycombinator.com/item?id=48988793 Points: 24 # Comments: 11",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Ramp Router",
-      "link": "https://ramp.com/router/",
-      "pubDate": "2026-07-21T02:09:27.000Z",
-      "description": "Article URL: https://ramp.com/router/ Comments URL: https://news.ycombinator.com/item?id=48987253 Points: 5 # Comments: 1",
+      "title": "Show HN: Ex Situ – Open-source spatial index of displaced cultural artifacts",
+      "link": "https://exsitu.app/map",
+      "pubDate": "2026-07-21T04:48:32.000Z",
+      "description": "Hi, I designed and developed a spatial index that maps museum artefacts as connecting arcs/hyperlinks from their origin site to institutional location/sources. The Index specifically looks at western/euro-american institutions and maps their collection categorised by them under Islamic art, Asian/Af",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Five US tech giants' hidden debts soar to $1.65T on opaque AI funding",
+      "link": "https://asia.nikkei.com/business/technology/five-us-tech-giants-hidden-debts-soar-to-1.65tn-on-opaque-ai-funding",
+      "pubDate": "2026-07-21T03:56:03.000Z",
+      "description": "Article URL: https://asia.nikkei.com/business/technology/five-us-tech-giants-hidden-debts-soar-to-1.65tn-on-opaque-ai-funding Comments URL: https://news.ycombinator.com/item?id=48987863 Points: 253 # Comments: 125",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Running Doom on Our Custom CPU and Going Viral",
+      "link": "https://www.armaangomes.com/blogs/doom/",
+      "pubDate": "2026-07-21T03:54:16.000Z",
+      "description": "Article URL: https://www.armaangomes.com/blogs/doom/ Comments URL: https://news.ycombinator.com/item?id=48987846 Points: 56 # Comments: 10",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "A Koi Pond Mosaic Made from 10 Pounds of 3D Printer Waste",
+      "link": "https://www.instructables.com/A-Koi-Pond-Mosaic-Made-From-10-Pounds-of-3D-Printe/",
+      "pubDate": "2026-07-21T03:52:05.000Z",
+      "description": "Article URL: https://www.instructables.com/A-Koi-Pond-Mosaic-Made-From-10-Pounds-of-3D-Printe/ Comments URL: https://news.ycombinator.com/item?id=48987831 Points: 31 # Comments: 22",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Incremental – A library for incremental computations",
+      "link": "https://github.com/janestreet/incremental",
+      "pubDate": "2026-07-21T03:50:53.000Z",
+      "description": "Article URL: https://github.com/janestreet/incremental Comments URL: https://news.ycombinator.com/item?id=48987822 Points: 160 # Comments: 23",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "VTubing: How a Japanese Phenomenon Is Going Worldwide",
+      "link": "https://www.tokyodev.com/articles/vtubing-how-a-japanese-phenomenon-is-going-worldwide",
+      "pubDate": "2026-07-21T03:42:47.000Z",
+      "description": "Article URL: https://www.tokyodev.com/articles/vtubing-how-a-japanese-phenomenon-is-going-worldwide Comments URL: https://news.ycombinator.com/item?id=48987775 Points: 17 # Comments: 2",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -104,23 +144,7 @@
       "title": "Flock Credibility Lost as It Repeatedly Lies to City Councils, Police, & Public",
       "link": "https://www.aclu.org/news/privacy-technology/tracking-alpr-cameras/flock-safety-credibility-lost-as-it-repeatedly-lies-to-city-councils-police-departments-and-public-across-the-country",
       "pubDate": "2026-07-21T00:33:53.000Z",
-      "description": "Article URL: https://www.aclu.org/news/privacy-technology/tracking-alpr-cameras/flock-safety-credibility-lost-as-it-repeatedly-lies-to-city-councils-police-departments-and-public-across-the-country Comments URL: https://news.ycombinator.com/item?id=48986731 Points: 180 # Comments: 18",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Jellyfin founder Andrew leaves team",
-      "link": "https://forum.jellyfin.org/t-project-leadership-changes",
-      "pubDate": "2026-07-20T23:15:41.000Z",
-      "description": "Article URL: https://forum.jellyfin.org/t-project-leadership-changes Comments URL: https://news.ycombinator.com/item?id=48986091 Points: 130 # Comments: 59",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Opaque, Interoperable Passkey Records (and a Go API)",
-      "link": "https://words.filippo.io/passkey-record/",
-      "pubDate": "2026-07-20T23:00:29.000Z",
-      "description": "Article URL: https://words.filippo.io/passkey-record/ Comments URL: https://news.ycombinator.com/item?id=48985956 Points: 24 # Comments: 4",
+      "description": "Article URL: https://www.aclu.org/news/privacy-technology/tracking-alpr-cameras/flock-safety-credibility-lost-as-it-repeatedly-lies-to-city-councils-police-departments-and-public-across-the-country Comments URL: https://news.ycombinator.com/item?id=48986731 Points: 379 # Comments: 107",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -128,7 +152,7 @@
       "title": "I wrote an bash enumerator because I was sick of xargs",
       "link": "https://numerlab.org/2025/07/20/bashumerate-enumerator/",
       "pubDate": "2026-07-20T20:12:19.000Z",
-      "description": "Article URL: https://numerlab.org/2025/07/20/bashumerate-enumerator/ Comments URL: https://news.ycombinator.com/item?id=48984270 Points: 82 # Comments: 64",
+      "description": "Article URL: https://numerlab.org/2025/07/20/bashumerate-enumerator/ Comments URL: https://news.ycombinator.com/item?id=48984270 Points: 121 # Comments: 101",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -136,31 +160,7 @@
       "title": "Show HN: Immersive Gaussian Splat tour of grace cathedral, San Francisco",
       "link": "https://vincentwoo.com/3d/grace_cathedral/",
       "pubDate": "2026-07-20T20:10:44.000Z",
-      "description": "Article URL: https://vincentwoo.com/3d/grace_cathedral/ Comments URL: https://news.ycombinator.com/item?id=48984254 Points: 98 # Comments: 22",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "The Power of Awareness: Overcoming Surveillance Capitalism",
-      "link": "https://www.scottrlarson.com/presentations/overcoming-surveillance-capitalism-with-awareness/",
-      "pubDate": "2026-07-20T20:08:45.000Z",
-      "description": "Article URL: https://www.scottrlarson.com/presentations/overcoming-surveillance-capitalism-with-awareness/ Comments URL: https://news.ycombinator.com/item?id=48984231 Points: 68 # Comments: 8",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Human mathematicians are being outcounterexampled",
-      "link": "https://xenaproject.wordpress.com/2026/07/20/human-mathematicians-are-being-outcounterexampled/",
-      "pubDate": "2026-07-20T19:03:37.000Z",
-      "description": "Article URL: https://xenaproject.wordpress.com/2026/07/20/human-mathematicians-are-being-outcounterexampled/ Comments URL: https://news.ycombinator.com/item?id=48983382 Points: 256 # Comments: 87",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Nativ: Run frontier open models locally on your Mac",
-      "link": "https://blaizzy.github.io/nativ/",
-      "pubDate": "2026-07-20T18:16:08.000Z",
-      "description": "Article URL: https://blaizzy.github.io/nativ/ Comments URL: https://news.ycombinator.com/item?id=48982681 Points: 213 # Comments: 80",
+      "description": "Article URL: https://vincentwoo.com/3d/grace_cathedral/ Comments URL: https://news.ycombinator.com/item?id=48984254 Points: 156 # Comments: 33",
       "source": "Hacker News",
       "category": "Tech News"
     },
