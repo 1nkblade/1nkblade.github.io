@@ -1,107 +1,158 @@
 {
-  "generatedAt": "2026-07-20T19:56:30.231Z",
+  "generatedAt": "2026-07-21T03:45:30.445Z",
   "sourceCount": 4,
-  "successCount": 3,
-  "errors": [
-    {
-      "source": "CSS Tricks",
-      "error": "HTTP 415 Unsupported Media Type"
-    }
-  ],
+  "successCount": 4,
+  "errors": [],
   "items": [
     {
-      "title": "I gave my AI agent the ability to send email",
-      "link": "https://dev.to/devopsdaily/i-gave-my-ai-agent-the-ability-to-send-email-18nc",
-      "pubDate": "2026-07-20T19:43:43.000Z",
-      "description": "<p>Last month I wired Claude up to my email infrastructure. Not \"Claude writes an email draft and I paste it somewhere\" but the agent checks my domain status, sends the email, and reads back the delivery events, all from the chat.</p> <p>The glue that makes this possible is MCP (Model Context Protoc",
+      "title": "A Post-Commit Hook Told Me to Rewrite 8 Pushed Commits to Fix \"Unverified.\" I Said No.",
+      "link": "https://dev.to/enjoy_kumawat/a-post-commit-hook-told-me-to-rewrite-8-pushed-commits-to-fix-unverified-i-said-no-19f0",
+      "pubDate": "2026-07-21T03:35:54.000Z",
+      "description": "<p>I run a scheduled agent that publishes to DEV.to twice a day. After one of its runs, a stop hook fired and printed something that looked, at first glance, like a helpful lint warning: 8 commits on <code>main</code> were showing as \"Unverified\" on GitHub, and here's the fix — set the committer ide",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Named Global Query Filters Were Updated in EF Core 10",
-      "link": "https://dev.to/antonmartyniuk/named-global-query-filters-were-updated-in-ef-core-10-25hp",
-      "pubDate": "2026-07-20T19:41:09.000Z",
-      "description": "<p>Global query filters in Entity Framework Core (EF Core) is a powerful feature that can be effectively used to manage data access patterns.</p> <p>Global query filters are LINQ query predicates applied to EF Core entity models. These filters are automatically applied to all queries that involve th",
+      "title": "Exploring the Deep Learning Library in Modern Computer Vision",
+      "link": "https://dev.to/fuadhusnan_f44f3e13/exploring-the-deep-learning-library-in-modern-computer-vision-4j9d",
+      "pubDate": "2026-07-21T03:35:19.000Z",
+      "description": "<p>Picking the right <a href=\"https://openlibrary.telkomuniversity.ac.id/pustaka/165800/deep-learning-with-javascript-neural-networks-in-tensorflow-js.html\" rel=\"noopener noreferrer\">deep learning library</a> shapes almost everything about a computer vision project, from how fast you can prototype a",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Optimizing RAG at Scale: Chunking, Retrieval, and the Bayesian Search That Cut Latency 40%",
-      "link": "https://dev.to/imus_d7584cbc8ee9b0336256/optimizing-rag-at-scale-chunking-retrieval-and-the-bayesian-search-that-cut-latency-40-2f68",
-      "pubDate": "2026-07-20T19:40:37.000Z",
-      "description": "<h1> Optimizing RAG at Scale: Chunking, Retrieval, and the Bayesian Search That Cut Latency 40% </h1> <p><em>How we moved from \"semantic search + hope\" to a measured, tunable retrieval pipeline with 95% recall@10</em></p> <h2> The RAG Reality Check </h2> <p>Everyone ships RAG the same way: chunk by ",
+      "title": "The Simplex Method, Explained Like an Algorithm (with a Free Step-by-Step Solver)",
+      "link": "https://dev.to/sadia_sadia_5620dbacc597d/the-simplex-method-explained-like-an-algorithm-with-a-free-step-by-step-solver-3cbn",
+      "pubDate": "2026-07-21T03:25:06.000Z",
+      "description": "<p>If you have written any optimization code, you have met linear programming even if nobody called it that. \"Maximize output without blowing the resource budget\" is an LP problem, and the classic algorithm that solves it is the simplex method. It is worth understanding not because you will hand-cod",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Building Production-Grade LLM Evaluation Pipelines: From Vibes to Metrics",
-      "link": "https://dev.to/imus_d7584cbc8ee9b0336256/building-production-grade-llm-evaluation-pipelines-from-vibes-to-metrics-3j5l",
-      "pubDate": "2026-07-20T19:40:36.000Z",
-      "description": "<h1> Building Production-Grade LLM Evaluation Pipelines: From Vibes to Metrics </h1> <p><em>How we replaced \"looks good to me\" with automated evaluation catching 92% of hallucinations before deployment</em></p> <h2> The Problem: Why \"Vibe Checks\" Fail in Production </h2> <p>Three months ago, our tea",
+      "title": "What Is Load Balancing? A Beginner's Guide to Faster and More Reliable Applications",
+      "link": "https://dev.to/ashraful/-what-is-load-balancing-a-beginners-guide-to-faster-and-more-reliable-applications-3pap",
+      "pubDate": "2026-07-21T03:24:35.000Z",
+      "description": "<p>Imagine you're standing in line at a supermarket with only one cashier open. The queue is long, and everyone has to wait.</p> <p>Now imagine the store opens four more checkout counters. Customers are directed to the shortest queue, and everyone gets served much faster.</p> <p>That's exactly how <",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "AI coding agents still write your SDK's old API — so I built a type-checker to measure it",
-      "link": "https://dev.to/kalpitrathore/ai-coding-agents-still-write-your-sdks-old-api-so-i-built-a-type-checker-to-measure-it-alk",
-      "pubDate": "2026-07-20T19:32:26.000Z",
-      "description": "<p>Here's a bug I kept hitting. I'd ask an AI assistant to write some code against a library — Prisma, the Vercel AI SDK, Zod — and the code would look completely right. Clean, idiomatic, exactly the shape I expected. Then I'd run it, and it wouldn't compile.</p> <p>The reason was always the same: t",
+      "title": "Your incident postmortems aren't investigations; they're fan fiction.",
+      "link": "https://dev.to/renato_marinho/your-incident-postmortems-arent-investigations-theyre-fan-fiction-3am",
+      "pubDate": "2026-07-21T03:24:24.000Z",
+      "description": "<p>I’ve seen enough postmortems to know that a large percentage of them are essentially polite fiction.</p> <p>We sit in a meeting, everyone is exhausted from the outage, and we agree on a narrative. We write down that 'the database connection pool was exhausted' or 'a bad deploy caused an error spi",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I Built an Agent That Refuses to Act — Here's Why Qwen Made It Possible",
-      "link": "https://dev.to/demba09/i-built-an-agent-that-refuses-to-act-heres-why-qwen-made-it-possible-ce0",
-      "pubDate": "2026-07-20T19:31:54.000Z",
-      "description": "<p>Monday, 9am. Conversion drops 3.2%. The PM pings Slack: <em>\"What happened?\"</em><br> A data engineer queries the warehouse. A data analyst slices dashboards — segment<br> by segment, device by device. Four hours later: maybe they found it. Maybe the<br> drop was systemic and they just burned a m",
+      "title": "FROST-SOP V6.1.0 工程实践：从初始化流水线看「零门槛上手」",
+      "link": "https://dev.to/llimage/frost-sop-v610-gong-cheng-shi-jian-cong-chu-shi-hua-liu-shui-xian-kan-ling-men-jian-shang-shou--1off",
+      "pubDate": "2026-07-21T03:24:19.000Z",
+      "description": "<h1> FROST-SOP V6.1.0 工程实践：从初始化流水线看「零门槛上手」 </h1> <p><strong>作者：神通说</strong><br><br> <strong>日期：2026-07-21</strong><br><br> <strong>主题：周二·SOP工程 | V6.1.0 新特性深度解析</strong></p> <h2> 开篇：一个让所有开发者头疼的问题 </h2> <p>想象这个场景：</p> <p>你刚克隆了一个开源项目，兴冲冲地跑起来，结果：<br> </p> <div class=\"highlight js-code-highlight\"> <pre c",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Repository Harness, Part 2: 30 Runs Later, It Wasn’t Cheaper. It Was More Predictable.",
-      "link": "https://dev.to/lepsistemas/repository-harness-part-2-30-runs-later-it-wasnt-cheaper-it-was-more-predictable-1d8p",
-      "pubDate": "2026-07-20T19:24:35.000Z",
-      "description": "<p>This is the follow-up to <a href=\"https://dev.to/lepsistemas/coding-agents-evolved-our-repositories-didnt-f4\"><strong>Coding Agents Evolved. Our Repositories Didn’t.</strong></a>.</p> <p>My first Repository Harness benchmark produced an uncomfortable result.</p> <p>The Harness completed the task ",
+      "title": "Subtitle readability: why a valid file can still be unreadable",
+      "link": "https://dev.to/woshiliyana/subtitle-readability-why-a-valid-file-can-still-be-unreadable-4im0",
+      "pubDate": "2026-07-21T03:21:17.000Z",
+      "description": "<p>I publish the same scripted show in five languages: Spanish, English, Japanese, German, and Chinese. Every episode ships with subtitles, and every language has taught me the same lesson from a different angle: a subtitle file that passes every technical check can still be genuinely hard to read.<",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Proposed API Reference",
-      "link": "https://dev.to/doeixd/-appendix-proposed-api-reference-108o",
-      "pubDate": "2026-07-20T19:23:22.000Z",
-      "description": "<p>This appendix defines the concrete API surface and observable semantics of the explicit reactive-dependency proposal.</p> <p>The API is intentionally low-level. It provides invalidation sources, lazy cached derivations, synchronous notification, and deterministic disposal. It does not provide wri",
+      "title": "projports: find every port your project declares",
+      "link": "https://dev.to/sybilgambleyyu/projports-find-every-port-your-project-declares-2d7h",
+      "pubDate": "2026-07-21T03:20:55.000Z",
+      "description": "<p>Every multi-service repo I touch has the same onboarding failure mode: clone, run the happy-path start command, get <code>EADDRINUSE</code> or a silent hang because Postgres is mapped to <code>5433</code> in Compose and <code>5432</code> in someone's muscle memory.</p> <p>The ports are not secret",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Optimizing RAG at Scale: Chunking, Retrieval, and the Bayesian Search That Cut Latency 40%",
-      "link": "https://dev.to/imus_d7584cbc8ee9b0336256/optimizing-rag-at-scale-chunking-retrieval-and-the-bayesian-search-that-cut-latency-40-1g66",
-      "pubDate": "2026-07-20T19:22:53.000Z",
-      "description": "<h1> Optimizing RAG at Scale: Chunking, Retrieval, and the Bayesian Search That Cut Latency 40% </h1> <p><em>How we moved from \"semantic search + hope\" to a measured, tunable retrieval pipeline with 95% recall@10</em></p> <h2> The RAG Reality Check </h2> <p>Everyone ships RAG the same way: chunk by ",
+      "title": "openFDA Adverse Event API: Paging Past 25,000 and Flattening",
+      "link": "https://dev.to/mayd-it/openfda-adverse-event-api-paging-past-25000-and-flattening-2c6l",
+      "pubDate": "2026-07-21T03:18:57.000Z",
+      "description": "<p>You wrote a loop against <code>api.fda.gov/drug/event.json</code>, incremented <code>skip</code>, and at 25,001 got <code>{\"code\":\"BAD_REQUEST\",\"message\":\"Skip value must 25000 or less.\"}</code> (yes, the API's own message is missing the word \"be\"). Meanwhile your row count is 100x what you expec",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Building Production-Grade LLM Evaluation Pipelines: From Vibes to Metrics",
-      "link": "https://dev.to/imus_d7584cbc8ee9b0336256/building-production-grade-llm-evaluation-pipelines-from-vibes-to-metrics-50g1",
-      "pubDate": "2026-07-20T19:22:51.000Z",
-      "description": "<h1> Building Production-Grade LLM Evaluation Pipelines: From Vibes to Metrics </h1> <p><em>How we replaced \"looks good to me\" with automated evaluation catching 92% of hallucinations before deployment</em></p> <h2> The Problem: Why \"Vibe Checks\" Fail in Production </h2> <p>Three months ago, our tea",
+      "title": "Salesforce Flow Deletion",
+      "link": "https://dev.to/samruddhi_zala_c6151520e6/salesforce-flow-deletion-1dbd",
+      "pubDate": "2026-07-21T03:18:25.000Z",
+      "description": "<p>Ever been blocked by \"<em>Cannot delete field referenced in Flow</em>\" because of dozens of old Flow versions? I got tired of deleting them one by one, so I built an unlocked package to automate it.</p> <p><strong>Features</strong>:</p> <ol> <li>Bulk deletes inactive Flow, Flow versions (active v",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "Is surveillance risk chilling your online speech?",
+      "link": "https://news.ycombinator.com/item?id=48987634",
+      "pubDate": "2026-07-21T03:17:10.000Z",
+      "description": "Given the expansion of the fed/state/local/corporate surveillance net, do you find yourself expressing yourself less freely on the internet than you did five years ago? Comments URL: https://news.ycombinator.com/item?id=48987634 Points: 9 # Comments: 4",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Ramp Router",
+      "link": "https://ramp.com/router/",
+      "pubDate": "2026-07-21T02:09:27.000Z",
+      "description": "Article URL: https://ramp.com/router/ Comments URL: https://news.ycombinator.com/item?id=48987253 Points: 5 # Comments: 1",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Flock Credibility Lost as It Repeatedly Lies to City Councils, Police, & Public",
+      "link": "https://www.aclu.org/news/privacy-technology/tracking-alpr-cameras/flock-safety-credibility-lost-as-it-repeatedly-lies-to-city-councils-police-departments-and-public-across-the-country",
+      "pubDate": "2026-07-21T00:33:53.000Z",
+      "description": "Article URL: https://www.aclu.org/news/privacy-technology/tracking-alpr-cameras/flock-safety-credibility-lost-as-it-repeatedly-lies-to-city-councils-police-departments-and-public-across-the-country Comments URL: https://news.ycombinator.com/item?id=48986731 Points: 180 # Comments: 18",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Jellyfin founder Andrew leaves team",
+      "link": "https://forum.jellyfin.org/t-project-leadership-changes",
+      "pubDate": "2026-07-20T23:15:41.000Z",
+      "description": "Article URL: https://forum.jellyfin.org/t-project-leadership-changes Comments URL: https://news.ycombinator.com/item?id=48986091 Points: 130 # Comments: 59",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Opaque, Interoperable Passkey Records (and a Go API)",
+      "link": "https://words.filippo.io/passkey-record/",
+      "pubDate": "2026-07-20T23:00:29.000Z",
+      "description": "Article URL: https://words.filippo.io/passkey-record/ Comments URL: https://news.ycombinator.com/item?id=48985956 Points: 24 # Comments: 4",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "I wrote an bash enumerator because I was sick of xargs",
+      "link": "https://numerlab.org/2025/07/20/bashumerate-enumerator/",
+      "pubDate": "2026-07-20T20:12:19.000Z",
+      "description": "Article URL: https://numerlab.org/2025/07/20/bashumerate-enumerator/ Comments URL: https://news.ycombinator.com/item?id=48984270 Points: 82 # Comments: 64",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Show HN: Immersive Gaussian Splat tour of grace cathedral, San Francisco",
+      "link": "https://vincentwoo.com/3d/grace_cathedral/",
+      "pubDate": "2026-07-20T20:10:44.000Z",
+      "description": "Article URL: https://vincentwoo.com/3d/grace_cathedral/ Comments URL: https://news.ycombinator.com/item?id=48984254 Points: 98 # Comments: 22",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "The Power of Awareness: Overcoming Surveillance Capitalism",
+      "link": "https://www.scottrlarson.com/presentations/overcoming-surveillance-capitalism-with-awareness/",
+      "pubDate": "2026-07-20T20:08:45.000Z",
+      "description": "Article URL: https://www.scottrlarson.com/presentations/overcoming-surveillance-capitalism-with-awareness/ Comments URL: https://news.ycombinator.com/item?id=48984231 Points: 68 # Comments: 8",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "Human mathematicians are being outcounterexampled",
       "link": "https://xenaproject.wordpress.com/2026/07/20/human-mathematicians-are-being-outcounterexampled/",
       "pubDate": "2026-07-20T19:03:37.000Z",
-      "description": "Article URL: https://xenaproject.wordpress.com/2026/07/20/human-mathematicians-are-being-outcounterexampled/ Comments URL: https://news.ycombinator.com/item?id=48983382 Points: 5 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Safety and alignment in an era of long-horizon models",
-      "link": "https://openai.com/index/safety-alignment-long-horizon-models/",
-      "pubDate": "2026-07-20T18:43:55.000Z",
-      "description": "Article URL: https://openai.com/index/safety-alignment-long-horizon-models/ Comments URL: https://news.ycombinator.com/item?id=48983108 Points: 12 # Comments: 2",
+      "description": "Article URL: https://xenaproject.wordpress.com/2026/07/20/human-mathematicians-are-being-outcounterexampled/ Comments URL: https://news.ycombinator.com/item?id=48983382 Points: 256 # Comments: 87",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -109,65 +160,89 @@
       "title": "Nativ: Run frontier open models locally on your Mac",
       "link": "https://blaizzy.github.io/nativ/",
       "pubDate": "2026-07-20T18:16:08.000Z",
-      "description": "Article URL: https://blaizzy.github.io/nativ/ Comments URL: https://news.ycombinator.com/item?id=48982681 Points: 33 # Comments: 14",
+      "description": "Article URL: https://blaizzy.github.io/nativ/ Comments URL: https://news.ycombinator.com/item?id=48982681 Points: 213 # Comments: 80",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "An Empirical Study: AI Agent Rules Need Context and Layered Enforcement",
-      "link": "https://eunomia.dev/blog/2026/07/15/ebpf-ai-agent-policy-enforcement/",
-      "pubDate": "2026-07-20T18:10:44.000Z",
-      "description": "Article URL: https://eunomia.dev/blog/2026/07/15/ebpf-ai-agent-policy-enforcement/ Comments URL: https://news.ycombinator.com/item?id=48982583 Points: 13 # Comments: 2",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "pointer-events",
+      "link": "https://css-tricks.com/almanac/properties/p/pointer-events/",
+      "pubDate": "2026-07-15T19:57:51.000Z",
+      "description": "The pointer-events property controls whether an element can become the target of pointer events like clicks, hover states, and other pointer-based events. In other words, it lets you decide whether the browser should treat an element as interactive when the … pointer-events originally handwritten an",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
-      "title": "The drivers behind software delivery inefficiency",
-      "link": "https://dl.acm.org/doi/10.1145/3800646.3800650",
-      "pubDate": "2026-07-20T18:10:17.000Z",
-      "description": "Article URL: https://dl.acm.org/doi/10.1145/3800646.3800650 Comments URL: https://news.ycombinator.com/item?id=48982578 Points: 18 # Comments: 5",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "What’s !important #15: Boundary-aware CSS, Time-based CSS, Full-bleed CSS, and More",
+      "link": "https://css-tricks.com/whats-important-15/",
+      "pubDate": "2026-07-15T14:36:18.000Z",
+      "description": "Read all about boundary-aware CSS, accessible grid lanes, time-based web designs, full-bleed, the customizable select, and new web platform features. What’s !important #15: Boundary-aware CSS, Time-based CSS, Full-bleed CSS, and More originally handwritten and published with love on CSS-Tricks. You ",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
-      "title": "Agent swarms and the new model economics",
-      "link": "https://cursor.com/blog/agent-swarm-model-economics",
-      "pubDate": "2026-07-20T18:06:13.000Z",
-      "description": "Article URL: https://cursor.com/blog/agent-swarm-model-economics Comments URL: https://news.ycombinator.com/item?id=48982535 Points: 18 # Comments: 8",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "Get Ready For the Powerful CSS border-shape Property!",
+      "link": "https://css-tricks.com/get-ready-for-the-powerful-css-border-shape-property/",
+      "pubDate": "2026-07-07T15:14:00.000Z",
+      "description": "We recently got the shape() function and corner-shape property. What else could we possibly need as far as making shapes in CSS? Let me tell you: the border-shape property! Get Ready For the Powerful CSS border-shape Property! originally handwritten and published with love on CSS-Tricks. You should ",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
-      "title": "Hyprland 0.55 announced the switch to Lua for its config files",
-      "link": "https://hypr.land/news/update55/",
-      "pubDate": "2026-07-20T17:31:57.000Z",
-      "description": "Article URL: https://hypr.land/news/update55/ Comments URL: https://news.ycombinator.com/item?id=48982011 Points: 79 # Comments: 54",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "What’s !important #14: Gap Decorations, random(), &#060;select&gt; field-sizing, and More",
+      "link": "https://css-tricks.com/whats-important-14/",
+      "pubDate": "2026-06-30T13:54:14.000Z",
+      "description": "I know you’re busy, so for What’s !important #14, I’ll be sprinting through what’s been a stacked couple of weeks despite few browser updates. From CSS Quake to CSS Gap Decorations, this isn’t one to miss! What’s !important #14: Gap Decorations, random(), <select> field-sizing, and More originally h",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
-      "title": "Kimi Work",
-      "link": "https://www.kimi.com/products/kimi-work",
-      "pubDate": "2026-07-20T17:13:23.000Z",
-      "description": "Article URL: https://www.kimi.com/products/kimi-work Comments URL: https://news.ycombinator.com/item?id=48981703 Points: 119 # Comments: 57",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "The Shifting Line Between CSS States and JavaScript Events",
+      "link": "https://css-tricks.com/css-states-and-javascript-events/",
+      "pubDate": "2026-06-29T13:03:32.000Z",
+      "description": "CSS has always had pseudo-classes that style things based on user interactions. Recent features, however, are blurring the line between what CSS \"listens\" for and how they are alternatives to what Javascript typically listens for. The Shifting Line Between CSS States and JavaScript Events originally",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
-      "title": "Jelly UI: Soft-body physics for native HTML form controls",
-      "link": "https://jelly-ui.com/",
-      "pubDate": "2026-07-20T17:07:39.000Z",
-      "description": "Article URL: https://jelly-ui.com/ Comments URL: https://news.ycombinator.com/item?id=48981620 Points: 128 # Comments: 44",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "translateZ()",
+      "link": "https://css-tricks.com/almanac/functions/t/translatez/",
+      "pubDate": "2026-06-25T13:18:56.000Z",
+      "description": "The translateZ() function moves an element closer to or farther from the user. translateZ() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
-      "title": "How we measured AI writing across arXiv, and where the measurement breaks",
-      "link": "https://unslop.run/blog/measuring-ai-writing-on-arxiv",
-      "pubDate": "2026-07-20T16:36:36.000Z",
-      "description": "Article URL: https://unslop.run/blog/measuring-ai-writing-on-arxiv Comments URL: https://news.ycombinator.com/item?id=48981206 Points: 153 # Comments: 109",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "translateY()",
+      "link": "https://css-tricks.com/almanac/functions/t/translatey/",
+      "pubDate": "2026-06-25T13:17:56.000Z",
+      "description": "The translateY() function shifts an element vertically by the specified amount. translateY() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "translateX()",
+      "link": "https://css-tricks.com/almanac/functions/t/translatex/",
+      "pubDate": "2026-06-25T13:16:01.000Z",
+      "description": "The translateX() function shifts an element horizontally by the specified amount. translateX() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "translate()",
+      "link": "https://css-tricks.com/almanac/functions/t/translate/",
+      "pubDate": "2026-06-25T13:15:05.000Z",
+      "description": "The CSS translate() function shifts an element from its default position on a 2-dimensional plane translate() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Using Scroll-Driven Animations for Opposing Scroll Directions",
+      "link": "https://css-tricks.com/scroll-driven-animations-opposing-scroll-directions/",
+      "pubDate": "2026-06-22T12:39:13.000Z",
+      "description": "Sometimes designers have silly ideas that eventually grow on you. That happened to me with this concept where I had to build columns of items moving in opposite directions when a user scrolls the page. CodePen Embed Fallback Note: This … Using Scroll-Driven Animations for Opposing Scroll Directions ",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
       "title": "Meet the HTB Profile: all your skills, in one place",
