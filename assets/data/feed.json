@@ -1,102 +1,166 @@
 {
-  "generatedAt": "2026-07-21T14:22:41.323Z",
+  "generatedAt": "2026-07-21T19:51:04.837Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "Recording product demos with Playwright and no human",
-      "link": "https://dev.to/kyisaiah47/recording-product-demos-with-playwright-and-no-human-62f",
-      "pubDate": "2026-07-21T14:21:06.000Z",
-      "description": "<p>I record full product demos with no human touching the keyboard — a real Chrome instance drives the app end to end, clicks through the flow, and a recorder captures every frame. The interesting part turned out not to be the clicking. It was deciding <em>when</em> the page was actually ready for t",
+      "title": "Generative AI is a gacha game with no pity system",
+      "link": "https://dev.to/phalkmin/generative-ai-is-a-gacha-game-with-no-pity-system-38in",
+      "pubDate": "2026-07-21T19:35:32.000Z",
+      "description": "<p>Last week, I posted about <a href=\"https://dev.to/phalkmin/i-burned-through-thousands-of-ai-tokens-then-a-friend-did-it-for-free-31m8\">a personal situation where I struggled with Generative AI</a> and how I was able to fix the problem by asking if a real person could help me. I believe that some ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Generate Excel Files with a Specified Number of Rows (WASM + Web Worker Best Practice!)",
-      "link": "https://dev.to/dev365365/generate-excel-files-with-a-specified-number-of-rows-wasm-web-worker-best-practice-58nj",
-      "pubDate": "2026-07-21T14:18:32.000Z",
-      "description": "<p>If you've ever needed to create a large Excel file for testing, benchmarking, demos, or importing data, you probably know how slow browser-based generators can become.</p> <p>I built a free online tool that lets you generate Excel files with any number of rows directly in your browser:</p> <p>👉 ",
+      "title": "a lesson I learned in Teams that work with tickets",
+      "link": "https://dev.to/chompingtoolsalligator/a-lesson-i-learned-in-team-that-work-with-tickets-1h58",
+      "pubDate": "2026-07-21T19:27:56.000Z",
+      "description": "<p>We had a ticket planning meeting.<br> And by going through the tickets I noticed I hadn't completed a jira story in a long time.<br> I got caught up in finding new things that I wanted to implement as part of the same story.<br> I learned that the story needed clearer boundaries and a clear defin",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Monero's Seraphis Migration &amp; FCMP++: A Technical Deep Dive",
-      "link": "https://dev.to/danielioni/moneros-seraphis-migration-fcmp-a-technical-deep-dive-4ih",
-      "pubDate": "2026-07-21T14:18:29.000Z",
-      "description": "<p>The most significant privacy and scalability upgrade in Monero's history is finally taking shape.</p> <p>After years of research and development, Monero is on the verge of deploying Full-Chain Membership Proofs (FCMP++) — a cryptographic breakthrough that redefines what privacy means in a blockch",
+      "title": "Processing Millions of Records Through Shopify: Lessons From High-Volume Integrations",
+      "link": "https://dev.to/masadashraf/processing-millions-of-records-through-shopify-lessons-from-high-volume-integrations-38kf",
+      "pubDate": "2026-07-21T19:21:30.000Z",
+      "description": "<p>Your Shopify integration works great. Until it doesn't.</p> <p>At 1,000 records a day, a simple loop with API calls is fine. At 500,000 records a day, that same loop becomes an eight-hour backlog, a wall of 429 errors, and inventory numbers nobody trusts.</p> <p>I work on enterprise Shopify integ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How I pulled data out of a cross-origin iframe I couldn't touch",
-      "link": "https://dev.to/shaojie/how-i-pulled-data-out-of-a-cross-origin-iframe-i-couldnt-touch-3ccm",
-      "pubDate": "2026-07-21T14:16:54.000Z",
-      "description": "<p>The feature was supposed to be the easy one. NotebookLM generates flashcards. My extension reads them off the page. You export them to Anki. I'd already built the hard-looking part — the export — so I figured reading the cards was an afternoon of work.</p> <p>It took two days, and by the end I wa",
+      "title": "Next.js Server Actions vs tRPC: how to actually choose",
+      "link": "https://dev.to/mudassirworks/nextjs-server-actions-vs-trpc-how-to-actually-choose-17e7",
+      "pubDate": "2026-07-21T19:20:23.000Z",
+      "description": "<h1> Next.js Server Actions vs tRPC: how to actually choose </h1> <p>If you are building a Next.js app with the App Router and trying to decide between Server Actions and tRPC for your mutations, here is the short version: reach for Server Actions when you have simple forms tied to a single web clie",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "An app that tells you exactly where to watch any show/movie, down to which season and episode, on any platform including YouTube",
-      "link": "https://dev.to/shadow_nithaw_6655da8dfc4/an-app-that-tells-you-exactly-where-to-watch-any-showmovie-down-to-which-season-and-episode-on-cgn",
-      "pubDate": "2026-07-21T14:16:49.000Z",
-      "description": "<p>Every \"where to stream\" tool I've tried (JustWatch, Reelgood, etc.) tells you the show is \"on Netflix\" but not which seasons, or if season 3 got pulled and moved somewhere else, which happens constantly. And none of them check YouTube, where a surprising amount of stuff is actually sitting free, ",
+      "title": "Grid in Html",
+      "link": "https://dev.to/ashwinth/grid-in-html-3025",
+      "pubDate": "2026-07-21T19:15:49.000Z",
+      "description": "<p><strong>What Is CSS Grid?</strong></p> <p>CSS Grid is a two-dimensional layout system that allows developers to arrange elements into rows and columns. Unlike Flexbox, which is primarily designed for one-dimensional layouts Grid can manage both dimensions simultaneously.</p> <p><strong>why we use",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "What You Build in the 4-Day AI Cyber Bootcamp at Black Hat",
-      "link": "https://dev.to/cgivre/what-you-build-in-the-4-day-ai-cyber-bootcamp-at-black-hat-10h1",
-      "pubDate": "2026-07-21T14:16:36.000Z",
-      "description": "<p>Four days in the AI Cyber Bootcamp at Black Hat USA 2026 produce a folder of working notebooks: trained detection models, an anomaly-hunting pipeline, an LLM triage workflow, and an AI agent that automates a SOC task. You write the code in labs on real security data, and it runs in your own envir",
+      "title": "Metadata-Only Tracing: Privacy-First Observability for AI Agents",
+      "link": "https://dev.to/raju_dandigam/metadata-only-tracing-privacy-first-observability-for-ai-agents-1a43",
+      "pubDate": "2026-07-21T19:14:31.000Z",
+      "description": "<p>Agent tracing is useful because it reveals execution structure: which step ran, which tool failed, where a retry occurred, how long a model call took, and how the token budget changed.</p> <p>The easiest implementation is to capture every prompt, argument, result, and response. It is also the eas",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Week 1: From Idea to Runnable CLI Framework",
-      "link": "https://dev.to/tianmai2019/week-1-from-idea-to-runnable-cli-framework-1cni",
-      "pubDate": "2026-07-21T14:16:32.000Z",
-      "description": "<h1> Week 1: From Idea to Runnable CLI Framework </h1> <h2> Why I'm Building This Tool </h2> <p>If you've worked on frontend internationalization (i18n) before, you've probably encountered these problems:</p> <ul> <li>Hardcoded Chinese text scattered throughout the project, not knowing where to star",
+      "title": "The First Endpoint Is Easy. The Lifecycle Is the Real Backend Work",
+      "link": "https://dev.to/buildbasekit/the-first-endpoint-is-easy-the-lifecycle-is-the-real-backend-work-3p3l",
+      "pubDate": "2026-07-21T19:11:21.000Z",
+      "description": "<p>Most backend features look simple when reduced to one endpoint.</p> <p>Authentication needs login.<br><br> File storage needs upload.<br><br> Payments need checkout.<br><br> A Discord bot needs a command listener.</p> <p>The first version may take only a few hours. Production is where the real wo",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "When Not to Build: How We Talk Founders Out of Their First MVP",
-      "link": "https://dev.to/senternet/when-not-to-build-how-we-talk-founders-out-of-their-first-mvp-32aa",
-      "pubDate": "2026-07-21T14:15:56.000Z",
-      "description": "<p>The fastest way to waste a first build is to build it. Half the founders who come to us for an MVP need a week of validation more than they need a codebase, and we would rather say so.</p> <p>July 21, 2026</p> <p>Founders come to us with a build already fully formed in their heads. They have the ",
+      "title": "Surviving the Technical Interview",
+      "link": "https://dev.to/srinivas_vj/surviving-the-technical-interview-15f9",
+      "pubDate": "2026-07-21T19:11:08.000Z",
+      "description": "<p>Coding interviews are scary, especially in the age of LLMs, where cheating has spiked and interviewers are implicitly sus of every movement you make. I wanted to write about my experience with coding interviews. Am I really qualified to write about this? Well, obviously not, my success ratio isn'",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Rebuilding SeedMatrix, the Company I Co-Founded in 2008",
-      "link": "https://dev.to/mattsenter/rebuilding-seedmatrix-the-company-i-co-founded-in-2008-4e7c",
-      "pubDate": "2026-07-21T14:15:17.000Z",
-      "description": "<p>Most of what I write about here is new: apps I started this year, tools that did not exist a decade ago. This one is different. I am back inside a company I helped start in 2008.</p> <p>It is called <a href=\"https://www.mattsenter.com/projects/seedmatrix\" rel=\"noopener noreferrer\">SeedMatrix</a>,",
+      "title": "Everything we got wrong caching a multi-tenant SaaS on one domain",
+      "link": "https://dev.to/grouptizer/everything-we-got-wrong-caching-a-multi-tenant-saas-on-one-domain-1jia",
+      "pubDate": "2026-07-21T19:08:44.000Z",
+      "description": "<p>Every page we serve falls into one of four buckets, and they want opposite things from a cache:</p> <ul> <li> <strong>Marketing pages</strong> never change between deploys.</li> <li> <strong>Blog articles</strong> change when someone hits publish in the CMS.</li> <li> <strong>Tenant storefronts</",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "What I learned building one API in front of 70+ AI models (LLM, image, video, music)",
-      "link": "https://dev.to/alterpro/what-i-learned-building-one-api-in-front-of-70-ai-models-llm-image-video-music-54e1",
-      "pubDate": "2026-07-21T14:14:47.000Z",
-      "description": "<blockquote> <p>Disclosure up front: I work on <strong><a href=\"https://you.bot\" rel=\"noopener noreferrer\">you.bot</a></strong>, the gateway described here. This is a build-log about the engineering problems, not a sales pitch — the patterns apply whether you build your own gateway or use one.</p> <",
+      "title": "I Built Pay Splitter to Make Group Expenses Less Awkward",
+      "link": "https://dev.to/adarshpatil/i-built-pay-splitter-to-make-group-expenses-less-awkward-35nf",
+      "pubDate": "2026-07-21T19:07:11.000Z",
+      "description": "<p>Ever been on a trip where everyone keeps asking:</p> <p>\"Who paid for lunch?\"<br> \"How much do I owe?\"<br> \"Can someone calculate everything?\"</p> <p>I've been there more times than I can count.</p> <p>Instead of passing around spreadsheets or scrolling through chat messages, I decided to build P",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "New US homeownership measure puts people first",
-      "link": "https://www.minneapolisfed.org/article/2026/new-homeownership-measure-puts-people-first",
-      "pubDate": "2026-07-21T12:03:14.000Z",
-      "description": "Article URL: https://www.minneapolisfed.org/article/2026/new-homeownership-measure-puts-people-first Comments URL: https://news.ycombinator.com/item?id=48991139 Points: 126 # Comments: 128",
+      "title": "Advertise in ChatGPT",
+      "link": "https://ads.openai.com/",
+      "pubDate": "2026-07-21T18:58:44.000Z",
+      "description": "Article URL: https://ads.openai.com/ Comments URL: https://news.ycombinator.com/item?id=48996571 Points: 124 # Comments: 124",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Israeli spyware vans infiltrate American streets and your phones",
-      "link": "https://cybernews.com/privacy/us-police-israeli-spy-vans-falconet-cognyte/",
-      "pubDate": "2026-07-21T11:34:00.000Z",
-      "description": "Article URL: https://cybernews.com/privacy/us-police-israeli-spy-vans-falconet-cognyte/ Comments URL: https://news.ycombinator.com/item?id=48990886 Points: 16 # Comments: 1",
+      "title": "The Price of Happiness",
+      "link": "https://happiness-science.org/price-of-happiness/",
+      "pubDate": "2026-07-21T18:42:46.000Z",
+      "description": "Article URL: https://happiness-science.org/price-of-happiness/ Comments URL: https://news.ycombinator.com/item?id=48996364 Points: 10 # Comments: 1",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Slater – Low-memory graphdb designed for read-heavy graphs",
+      "link": "https://github.com/Hikari-Systems/slater",
+      "pubDate": "2026-07-21T18:39:41.000Z",
+      "description": "Article URL: https://github.com/Hikari-Systems/slater Comments URL: https://news.ycombinator.com/item?id=48996325 Points: 7 # Comments: 3",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "FreeInk: Open ecosystem for e-readers",
+      "link": "https://freeink.org/",
+      "pubDate": "2026-07-21T18:39:06.000Z",
+      "description": "Article URL: https://freeink.org/ Comments URL: https://news.ycombinator.com/item?id=48996318 Points: 80 # Comments: 13",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "AI Agent – TRMNL",
+      "link": "https://help.trmnl.com/en/articles/14130438-ai-agent",
+      "pubDate": "2026-07-21T18:32:21.000Z",
+      "description": "Article URL: https://help.trmnl.com/en/articles/14130438-ai-agent Comments URL: https://news.ycombinator.com/item?id=48996236 Points: 11 # Comments: 6",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Apple has decided to compete for creativity app users",
+      "link": "https://alex4d.com/notes/item/apple-competing-for-creativity-app-users",
+      "pubDate": "2026-07-21T18:30:53.000Z",
+      "description": "Article URL: https://alex4d.com/notes/item/apple-competing-for-creativity-app-users Comments URL: https://news.ycombinator.com/item?id=48996211 Points: 32 # Comments: 8",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "AI makes programming differently difficult",
+      "link": "https://cacm.acm.org/opinion/ai-didnt-make-programming-easier-it-just-made-it-differently-difficult/",
+      "pubDate": "2026-07-21T18:30:21.000Z",
+      "description": "Article URL: https://cacm.acm.org/opinion/ai-didnt-make-programming-easier-it-just-made-it-differently-difficult/ Comments URL: https://news.ycombinator.com/item?id=48996197 Points: 85 # Comments: 47",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Show HN: A self-running space economy SIM in Rust and Bevy",
+      "link": "https://github.com/Kalcode/spaceprojectsim",
+      "pubDate": "2026-07-21T18:29:57.000Z",
+      "description": "I built this with Claude cause I always wanted to tinker with a simulation economoy and I love space themes.A space-economy sim where nothing is scripted. A few hundred autonomous ships each run their own planner. Some chase the best trade route, take a delivery contract, refuel, retrofit at a shipy",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Cheap self-hosted Kubernetes on Hetzner cloud (2025)",
+      "link": "https://blog.qstars.nl/posts/cheap-self-hosted-kubernetes-on-hetzner-cloud/",
+      "pubDate": "2026-07-21T18:25:08.000Z",
+      "description": "Article URL: https://blog.qstars.nl/posts/cheap-self-hosted-kubernetes-on-hetzner-cloud/ Comments URL: https://news.ycombinator.com/item?id=48996128 Points: 42 # Comments: 18",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Greedy is optimal for single-pass semi-streaming matching",
+      "link": "https://arxiv.org/abs/2607.14656",
+      "pubDate": "2026-07-21T17:59:29.000Z",
+      "description": "Article URL: https://arxiv.org/abs/2607.14656 Comments URL: https://news.ycombinator.com/item?id=48995814 Points: 8 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -107,70 +171,6 @@
       "description": "The writing-mode CSS property sets whether lines of text are laid out horizontally or vertically, and the direction in which blocks and lines progress. .element { writing-mode: vertical-rl; } This is most useful in languages such as Chinese, Japanese or … writing-mode originally handwritten and publ",
       "source": "CSS Tricks",
       "category": "Frontend"
-    },
-    {
-      "title": "Qwen-Image-3.0: Rich Content, Authentic Details, Deep Knowledge",
-      "link": "https://qwen.ai/blog?id=qwen-image-3.0",
-      "pubDate": "2026-07-21T08:44:23.000Z",
-      "description": "Article URL: https://qwen.ai/blog?id=qwen-image-3.0 Comments URL: https://news.ycombinator.com/item?id=48989701 Points: 309 # Comments: 137",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Show HN: Ex Situ – Open-source spatial index of displaced cultural artifacts",
-      "link": "https://exsitu.app/map",
-      "pubDate": "2026-07-21T04:48:32.000Z",
-      "description": "Hi, I designed and developed a spatial index that maps museum artefacts as connecting arcs/hyperlinks from their origin site to institutional location/sources. The Index specifically looks at western/euro-american institutions and maps their collection categorised by them under Islamic art, Asian/Af",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Running Doom on Our Custom CPU and Going Viral",
-      "link": "https://www.armaangomes.com/blogs/doom/",
-      "pubDate": "2026-07-21T03:54:16.000Z",
-      "description": "Article URL: https://www.armaangomes.com/blogs/doom/ Comments URL: https://news.ycombinator.com/item?id=48987846 Points: 102 # Comments: 24",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "A Koi Pond Mosaic Made from 10 Pounds of 3D Printer Waste",
-      "link": "https://www.instructables.com/A-Koi-Pond-Mosaic-Made-From-10-Pounds-of-3D-Printe/",
-      "pubDate": "2026-07-21T03:52:05.000Z",
-      "description": "Article URL: https://www.instructables.com/A-Koi-Pond-Mosaic-Made-From-10-Pounds-of-3D-Printe/ Comments URL: https://news.ycombinator.com/item?id=48987831 Points: 53 # Comments: 40",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Incremental – A library for incremental computations",
-      "link": "https://github.com/janestreet/incremental",
-      "pubDate": "2026-07-21T03:50:53.000Z",
-      "description": "Article URL: https://github.com/janestreet/incremental Comments URL: https://news.ycombinator.com/item?id=48987822 Points: 275 # Comments: 53",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "VTubing: How a Japanese Phenomenon Is Going Worldwide",
-      "link": "https://www.tokyodev.com/articles/vtubing-how-a-japanese-phenomenon-is-going-worldwide",
-      "pubDate": "2026-07-21T03:42:47.000Z",
-      "description": "Article URL: https://www.tokyodev.com/articles/vtubing-how-a-japanese-phenomenon-is-going-worldwide Comments URL: https://news.ycombinator.com/item?id=48987775 Points: 76 # Comments: 60",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Jellyfin founder Andrew leaves team",
-      "link": "https://forum.jellyfin.org/t-project-leadership-changes",
-      "pubDate": "2026-07-20T23:15:41.000Z",
-      "description": "Article URL: https://forum.jellyfin.org/t-project-leadership-changes Comments URL: https://news.ycombinator.com/item?id=48986091 Points: 312 # Comments: 277",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "I wrote an bash enumerator because I was sick of xargs",
-      "link": "https://numerlab.org/2025/07/20/bashumerate-enumerator/",
-      "pubDate": "2026-07-20T20:12:19.000Z",
-      "description": "Article URL: https://numerlab.org/2025/07/20/bashumerate-enumerator/ Comments URL: https://news.ycombinator.com/item?id=48984270 Points: 167 # Comments: 153",
-      "source": "Hacker News",
-      "category": "Tech News"
     },
     {
       "title": "pointer-events",
