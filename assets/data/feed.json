@@ -1,94 +1,134 @@
 {
-  "generatedAt": "2026-07-22T03:46:49.812Z",
+  "generatedAt": "2026-07-22T08:44:46.198Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "Ebook Reviewer Wanted: Help Me Find What's Gone Stale",
-      "link": "https://dev.to/nasrulhazim/ebook-reviewer-wanted-help-me-find-whats-gone-stale-1dh7",
-      "pubDate": "2026-07-22T03:41:53.000Z",
-      "description": "<p>Technical books have a shelf life that nobody prints on the cover.</p> <p>A cookbook from 2018 still works. A history book from 2018 still works. A Laravel book from 2018 will teach you a middleware pattern that was replaced twice, recommend a package whose maintainer archived it, and show you a ",
+      "title": "Perché l’“harness” batte il modello: lezioni pratiche dai sistemi multi‑agente",
+      "link": "https://dev.to/frontendfacile/perche-lharness-batte-il-modello-lezioni-pratiche-dai-sistemi-multi-agente-4od7",
+      "pubDate": "2026-07-22T08:40:31.000Z",
+      "description": "<blockquote> <p>Architettura, ruoli e disciplina del contesto: come spendere meno token e ottenere risultati più affidabili</p> </blockquote> <p>Negli ultimi mesi è diventato evidente un punto che molti team frontend (e non solo) stanno imparando sulla propria pelle: <strong>il modello “più forte” n",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The future of AI coding isn't better prompts. It's better engineering constraints.",
-      "link": "https://dev.to/gnzikoune/the-future-of-ai-coding-isnt-better-prompts-its-better-engineering-constraints-54ff",
-      "pubDate": "2026-07-22T03:35:55.000Z",
-      "description": "<p>Over the past few months, I've noticed that most discussions around AI coding assistants focus on prompts.</p> <p>People share:</p> <ul> <li><code>.cursorrules</code></li> <li><code>AGENTS.md</code></li> <li><code>CLAUDE.md</code></li> <li>long prompt templates</li> <li>custom instructions</li> <",
+      "title": "You keep escaping the Promise constructor. `Promise.withResolvers` does it right.",
+      "link": "https://dev.to/parsajiravand/you-keep-escaping-the-promise-constructor-promisewithresolvers-does-it-right-31c1",
+      "pubDate": "2026-07-22T08:35:51.000Z",
+      "description": "<p>Every JavaScript developer has written this at least once:<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight javascript\"><code><span class=\"kd\">let</span> <span class=\"nx\">resolve</span><span class=\"p\">,</span> <span class=\"nx\">reject</span><span class=\"p\">;</span> <span cl",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Voice Agent Turn-Taking: Stop Live AI Calls From Talking Over Users",
-      "link": "https://dev.to/jackm-singularity/voice-agent-turn-taking-stop-live-ai-calls-from-talking-over-users-590b",
-      "pubDate": "2026-07-22T03:35:02.000Z",
-      "description": "<p>Voice agents do not usually fail because the model is “not smart enough.” They fail in the awkward half-second where the user pauses, breathes, corrects themselves, or interrupts while the AI is still talking.</p> <p>That tiny moment decides whether the product feels useful or robotic.</p> <p>If ",
+      "title": "Browser-Side File Conversion with WebAssembly",
+      "link": "https://dev.to/ahaconvert_4518ffb5e649d6/browser-side-file-conversion-with-webassembly-2ie1",
+      "pubDate": "2026-07-22T08:35:50.000Z",
+      "description": "<p>A few months ago, I needed to add file conversion to a web app — nothing fancy, just letting users drop in a file and get back a different format. My first instinct was \"call an API, done.\" But sending user files to a server means storage costs, privacy headaches, and a queue if traffic spikes. S",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The Hard Part of a Global Birth-Chart Calculator Was Time",
-      "link": "https://dev.to/zbench/the-hard-part-of-a-global-birth-chart-calculator-was-time-3g6p",
-      "pubDate": "2026-07-22T03:33:51.000Z",
-      "description": "<p>A birth-chart form looks simple: ask for a date, time, and place, then calculate.</p> <p>The interface may be simple. The input is not.</p> <p><code>1992-11-01 01:30</code> does not identify one universal instant. It is a wall-clock reading that only becomes meaningful after you resolve the place",
+      "title": "Automating Ubuntu System Maintenance with Cron Jobs",
+      "link": "https://dev.to/coder7475/automating-ubuntu-system-maintenance-with-cron-jobs-447e",
+      "pubDate": "2026-07-22T08:35:50.000Z",
+      "description": "<p>Keeping your Ubuntu server healthy requires more than installing package updates. Over time, unused packages, cached APT files, and Docker resources can consume valuable disk space and affect system performance.</p> <p>By automating routine maintenance with <strong>cron</strong>, you can ensure y",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Is Your AI Agent Production-Ready? Define the Bar First",
-      "link": "https://dev.to/sara_mo/is-your-ai-agent-production-ready-define-the-bar-first-3lm6",
-      "pubDate": "2026-07-22T03:25:59.000Z",
-      "description": "<p>Every team shipping an agent has the same meeting. Someone asks \"is it ready?\" and the room splits. One person saw a great demo. Another watched it invent a refund policy an hour ago. The argument runs in circles because nobody agreed what \"ready\" means, so the loudest opinion wins and the agent ",
+      "title": "A letter that walks your network for you: reproducing a fresh Roundcube SSRF on a live lab",
+      "link": "https://dev.to/cynepmyx/a-letter-that-walks-your-network-for-you-reproducing-a-fresh-roundcube-ssrf-on-a-live-lab-1357",
+      "pubDate": "2026-07-22T08:35:49.000Z",
+      "description": "<p>You open an email. While you are reading it, your mail server is already knocking on an internal address you never handed it, because the email told it to. Not a thought experiment. I reproduced it on a lab and caught the request in a log.</p> <p>Reading an email stopped being a passive act a lon",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "从FROST到FROST-SOP：如何用家族治理模型打造你的\"AI分身\"？",
-      "link": "https://dev.to/llimage/cong-frostdao-frost-sopru-he-yong-jia-zu-zhi-li-mo-xing-da-zao-ni-de-aifen-shen--1o4i",
-      "pubDate": "2026-07-22T03:24:36.000Z",
-      "description": "<h1> 从FROST到FROST-SOP：如何用家族治理模型打造你的\"AI分身\"？ </h1> <p><strong>作者</strong>：神通说<br><br> <strong>日期</strong>：2026-07-22<br><br> <strong>主题</strong>：双项目联动 | 周三轮换<br><br> <strong>阅读时间</strong>：10分钟</p> <h2> 开场：一人公司的终极困境 </h2> <p>你是否有这样的体验？</p> <p>每天醒来，脑子里塞满了要做的事：</p> <ul> <li>写推广文章</li> <li>回复客户咨询</li> <li",
+      "title": "Dijkstra e i 20 minuti che hanno cambiato il modo in cui troviamo la strada",
+      "link": "https://dev.to/frontendfacile/dijkstra-e-i-20-minuti-che-hanno-cambiato-il-modo-in-cui-troviamo-la-strada-2kfc",
+      "pubDate": "2026-07-22T08:35:30.000Z",
+      "description": "<blockquote> <p>Dalla domanda “qual è il percorso più breve?” a un algoritmo che oggi sostiene mappe, reti e sistemi complessi.</p> </blockquote> <p>Nel frontend siamo abituati a misurare tutto: tempi di caricamento, layout shift, dipendenze, percorsi utente. Eppure una delle idee più potenti dell’i",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Next.js 16 on Cloudflare Workers: what broke and what didn't",
-      "link": "https://dev.to/neo_xia_3f4c019330af5fb9d/nextjs-16-on-cloudflare-workers-what-broke-and-what-didnt-5bka",
-      "pubDate": "2026-07-22T03:23:39.000Z",
-      "description": "<p>I shipped a Next.js 16 app on Cloudflare Workers via OpenNext. Not a demo. A real product with streaming chat, server components, D1 at the edge, and anonymous user sessions.</p> <p>Here is what broke, what barely worked, and what turned out to be surprisingly fine.</p> <h2> The stack </h2> <ul> ",
+      "title": "Jellyfin Leadership Void: Key Members Resign, Community Steps Up to Ensure Project Stability",
+      "link": "https://dev.to/elenbit/jellyfin-leadership-void-key-members-resign-community-steps-up-to-ensure-project-stability-1p63",
+      "pubDate": "2026-07-22T08:33:34.000Z",
+      "description": "<h2> Introduction </h2> <p>Jellyfin, a prominent open-source media server project, has long been a cornerstone for users seeking self-hosted alternatives to proprietary streaming solutions. Its value stems not only from its technical capabilities but also from its commitment to decentralization, pri",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I Couldn’t Fix My LLM Costs Until I Measured Tokens Per Feature",
-      "link": "https://dev.to/plasma_01/i-couldnt-fix-my-llm-costs-until-i-measured-tokens-per-feature-3f9n",
-      "pubDate": "2026-07-22T03:15:40.000Z",
-      "description": "<p>My LLM bill kept growing, so I did what seemed obvious: I looked for a cheaper model.</p> <p>That helped a little, but it didn't explain why the bill was growing.</p> <p>The dashboard could tell me how many tokens the application used. It couldn't tell me what those tokens were doing.</p> <p>Were",
+      "title": "Substack's New AI Detector Has the Same Blind Spot DEV.to's Did",
+      "link": "https://dev.to/dannwaneri/substacks-new-ai-detector-has-the-same-blind-spot-devtos-did-103j",
+      "pubDate": "2026-07-22T08:28:46.000Z",
+      "description": "<p>Substack shipped an AI detector this week. Every post, note, and comment over 100 words can now be scanned through Pangram to see how much of it reads as human or AI. <a href=\"https://post.substack.com/p/against-claudefishing\" rel=\"noopener noreferrer\">Chris Best's launch post</a> frames it as gi",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "reconmatch: offline transaction matching for people who reconcile for a living",
-      "link": "https://dev.to/sybilgambleyyu/reconmatch-offline-transaction-matching-for-people-who-reconcile-for-a-living-12g4",
-      "pubDate": "2026-07-22T03:15:20.000Z",
-      "description": "<p>reconmatch is a local-first transaction matching engine for accountants, bookkeepers, and controllers. Two CSVs in — books vs bank, invoices vs payments — a scored, auditable match report out. No account, no upload, no network call.</p> <p><strong>Repo:</strong> <a href=\"https://github.com/SybilG",
+      "title": "Change Data Capture in 2026: Supabase Webhooks, Prisma Pulse, and the \"Thundering Herd\" Problem",
+      "link": "https://dev.to/instawebhook/change-data-capture-in-2026-supabase-webhooks-prisma-pulse-and-the-thundering-herd-problem-4f9a",
+      "pubDate": "2026-07-22T08:19:30.000Z",
+      "description": "<p>async database processing<br> background job processing<br> bulk update webhooks<br> cdc webhooks<br> change data capture<br> database automation<br> database cdc<br> database event architecture<br> database event listeners<br> database event overload<br> database event queueing<br> database even",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Why I Switched to Plain Text Accounting",
-      "link": "https://dev.to/fangxia000101/why-i-switched-to-plain-text-accounting-2hd1",
-      "pubDate": "2026-07-22T03:11:57.000Z",
-      "description": "<h1> Why I Switched to Plain Text Accounting </h1> <p>Mint is shutting down. After 10 years of financial tracking, I am losing my data again. This time, I switched to plain text accounting with Beancount.</p> <h2> The Problem with Traditional Apps </h2> <p>Traditional financial apps have several iss",
+      "title": "Cisco's Antares Models Cost $1 to Find Security Bugs. GPT-5.5 Costs $141",
+      "link": "https://dev.to/peremptory/ciscos-antares-models-cost-1-to-find-security-bugs-gpt-55-costs-141-1967",
+      "pubDate": "2026-07-22T08:18:02.000Z",
+      "description": "<p>Cisco Foundation AI released two open-weight language models today: Antares-350M and Antares-1B. These aren't toys. They're built to do one job and do it better than anything else at the price point, finding security vulnerabilities in codebases by linking CVE entries to specific files.</p> <p>Th",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "I graded 36 popular MCP servers on agent usability. A third got a D or F",
+      "link": "https://tengli.dev/posts/mcp-servers-failing-agents.html",
+      "pubDate": "2026-07-22T05:51:50.000Z",
+      "description": "Article URL: https://tengli.dev/posts/mcp-servers-failing-agents.html Comments URL: https://news.ycombinator.com/item?id=49002358 Points: 7 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Show HN: ReadKinetic – a free, local-first speed reader for your own books",
+      "link": "https://www.readkinetic.com/app/",
+      "pubDate": "2026-07-22T05:49:51.000Z",
+      "description": "Article URL: https://www.readkinetic.com/app/ Comments URL: https://news.ycombinator.com/item?id=49002344 Points: 56 # Comments: 21",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Show HN: A new kind of FPS aim trainer",
+      "link": "https://openaim.pramit.gg/",
+      "pubDate": "2026-07-22T05:39:31.000Z",
+      "description": "I played a lot of Valorant and got mad, so I made an aim trainer that analyzes your raw crosshair movement to explore your raw motor and perceptual weaknesses instead of scoring scenarios. It also chooses sens and difficulty as part of the tasks, and makes playlists that are optimal difficulty for y",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Original Apollo 11 Guidance Computer source code for command and lunar modules",
+      "link": "https://github.com/chrislgarry/Apollo-11",
+      "pubDate": "2026-07-22T05:18:08.000Z",
+      "description": "Article URL: https://github.com/chrislgarry/Apollo-11 Comments URL: https://news.ycombinator.com/item?id=49002166 Points: 62 # Comments: 16",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Late.sh – a command-line Clubhouse for computer people",
+      "link": "https://late.sh/",
+      "pubDate": "2026-07-22T02:32:30.000Z",
+      "description": "Article URL: https://late.sh/ Comments URL: https://news.ycombinator.com/item?id=49001127 Points: 146 # Comments: 49",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "LG to ban residential proxies from smart TV apps",
       "link": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
       "pubDate": "2026-07-22T01:52:31.000Z",
-      "description": "Article URL: https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/ Comments URL: https://news.ycombinator.com/item?id=49000864 Points: 37 # Comments: 28",
+      "description": "Article URL: https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/ Comments URL: https://news.ycombinator.com/item?id=49000864 Points: 249 # Comments: 218",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -96,23 +136,7 @@
       "title": "Ten Steps Towards Happiness (2015)",
       "link": "http://hintjens.com/blog:99",
       "pubDate": "2026-07-22T01:17:26.000Z",
-      "description": "Article URL: http://hintjens.com/blog:99 Comments URL: https://news.ycombinator.com/item?id=49000600 Points: 32 # Comments: 13",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "How an AI Anime Is Created",
-      "link": "https://www.aventos.dev/our-process?view=blog",
-      "pubDate": "2026-07-22T00:53:00.000Z",
-      "description": "Article URL: https://www.aventos.dev/our-process?view=blog Comments URL: https://news.ycombinator.com/item?id=49000429 Points: 25 # Comments: 24",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "A flaky test exposed a Redis client use-after-free",
-      "link": "https://buildkite.engineering/how-a-flaky-test-exposed-a-redis-use-after-free/",
-      "pubDate": "2026-07-22T00:27:35.000Z",
-      "description": "Article URL: https://buildkite.engineering/how-a-flaky-test-exposed-a-redis-use-after-free/ Comments URL: https://news.ycombinator.com/item?id=49000250 Points: 33 # Comments: 10",
+      "description": "Article URL: http://hintjens.com/blog:99 Comments URL: https://news.ycombinator.com/item?id=49000600 Points: 119 # Comments: 41",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -120,7 +144,7 @@
       "title": "It's a shame what's happened to radio",
       "link": "https://blog.jimgrey.net/2026/07/21/its-a-shame-whats-happened-to-radio-3/",
       "pubDate": "2026-07-21T23:33:31.000Z",
-      "description": "Article URL: https://blog.jimgrey.net/2026/07/21/its-a-shame-whats-happened-to-radio-3/ Comments URL: https://news.ycombinator.com/item?id=48999825 Points: 36 # Comments: 18",
+      "description": "Article URL: https://blog.jimgrey.net/2026/07/21/its-a-shame-whats-happened-to-radio-3/ Comments URL: https://news.ycombinator.com/item?id=48999825 Points: 100 # Comments: 93",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -128,15 +152,7 @@
       "title": "Kimi K3 Is Competitive with Fable; Kimi K3 and Fable Is SoTA",
       "link": "https://fireworks.ai/blog/kimik3-fable",
       "pubDate": "2026-07-21T22:35:24.000Z",
-      "description": "Article URL: https://fireworks.ai/blog/kimik3-fable Comments URL: https://news.ycombinator.com/item?id=48999291 Points: 377 # Comments: 213",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Show HN: Computable – Buy, sell, and redeem GPU for the exact weeks you want",
-      "link": "https://www.getcomputable.com/",
-      "pubDate": "2026-07-21T21:48:19.000Z",
-      "description": "Hey we are Computable. We spent years building trading infrastructure at Jump Trading and Coinbase. From that point of view, compute looks like energy markets before 2000: everything trades through private bilateral leases, there’s no visible price, and nothing can be resold. The same H100 rents at ",
+      "description": "Also: Kimi K3: second only to Fable 5 on AA-Briefcase https://artificialanalysis.ai/articles/kimi-k3-agentic-knowl... Comments URL: https://news.ycombinator.com/item?id=48999291 Points: 586 # Comments: 326",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -144,23 +160,7 @@
       "title": "Gemini last models: temperature, top_p, and top_k are deprecated and ignored",
       "link": "https://ai.google.dev/gemini-api/docs/latest-model",
       "pubDate": "2026-07-21T21:27:54.000Z",
-      "description": "Article URL: https://ai.google.dev/gemini-api/docs/latest-model Comments URL: https://news.ycombinator.com/item?id=48998606 Points: 50 # Comments: 16",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "\"Drawing\" the Mona Lisa with GPT-5.6, Claude, Gemini, and Grok",
-      "link": "https://www.tryai.dev/blog/ai-drawing-arena-colored-pencils-claude-gpt-grok",
-      "pubDate": "2026-07-21T21:13:20.000Z",
-      "description": "Article URL: https://www.tryai.dev/blog/ai-drawing-arena-colored-pencils-claude-gpt-grok Comments URL: https://news.ycombinator.com/item?id=48998404 Points: 136 # Comments: 49",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "A digestion of the Jacobian conjecture counterexample",
-      "link": "https://terrytao.wordpress.com/2026/07/21/a-digestion-of-the-jacobian-conjecture-counterexample/",
-      "pubDate": "2026-07-21T21:09:25.000Z",
-      "description": "Article URL: https://terrytao.wordpress.com/2026/07/21/a-digestion-of-the-jacobian-conjecture-counterexample/ Comments URL: https://news.ycombinator.com/item?id=48998362 Points: 205 # Comments: 68",
+      "description": "Article URL: https://ai.google.dev/gemini-api/docs/latest-model Comments URL: https://news.ycombinator.com/item?id=48998606 Points: 77 # Comments: 26",
       "source": "Hacker News",
       "category": "Tech News"
     },
