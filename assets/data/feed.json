@@ -1,102 +1,110 @@
 {
-  "generatedAt": "2026-07-23T03:44:54.579Z",
+  "generatedAt": "2026-07-23T08:44:18.367Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "Inertia and API responses living together in harmony",
-      "link": "https://dev.to/emilien_kopp_88dd3031992b/inertia-and-api-responses-living-together-in-harmony-3mdl",
-      "pubDate": "2026-07-23T03:40:11.000Z",
-      "description": "<h2> I love InertiaJS to the point where it's becoming a personality trait </h2> <p>I tend to want to use it for everything, but adding Inertia to an existing Laravel API gets awkward fast. Same thing happens in the other direction: you start with a full Inertia frontend and then realize you want to",
+      "title": "Swift Classes — The Four Ways Variables and Constants Can Combine 🎭",
+      "link": "https://dev.to/gamya_m/swift-classes-the-four-ways-variables-and-constants-can-combine-3mjj",
+      "pubDate": "2026-07-23T08:44:00.000Z",
+      "description": "<p>A constant class can have its properties changed. A constant struct can't. This sounds inconsistent until you remember the signpost — and then it makes perfect sense.</p> <p>There's a moment when you're learning Swift where something happens that makes absolutely no sense on the surface. You crea",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "My requirements.txt Is Pinned. My MCP Server's Actual Contract Isn't, and Nothing Would Catch It Changing.",
-      "link": "https://dev.to/enjoy_kumawat/my-requirementstxt-is-pinned-my-mcp-servers-actual-contract-isnt-and-nothing-would-catch-it-14ng",
-      "pubDate": "2026-07-23T03:35:07.000Z",
-      "description": "<p>Back on 2026-07-14 I found and fixed a real landmine in this repo: <code>requirements.txt</code> had <code>mcp[cli]</code> with no version constraint at all. Any fresh install could pull in a breaking major version with zero warning. I pinned it to <code>mcp[cli]&gt;=1.28.0,&lt;2.0.0</code> and m",
+      "title": "The Backend Patterns I Wish I Learned Earlier",
+      "link": "https://dev.to/derekmwale/the-backend-patterns-i-wish-i-learned-earlier-3n5a",
+      "pubDate": "2026-07-23T08:39:04.000Z",
+      "description": "<p>When I started building backend systems, I thought becoming a better developer meant learning more technologies.</p> <p>A new framework.</p> <p>A new database.</p> <p>A new programming language.</p> <p>A new cloud platform.</p> <p>Every new tool felt like a level-up.</p> <p>I would look at experi",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Jerry Ran Out of Numbers But Drank All the Punch",
-      "link": "https://dev.to/anchildress1/jerry-ran-out-of-numbers-but-drank-all-the-punch-ne9",
-      "pubDate": "2026-07-23T03:31:24.000Z",
-      "description": "<p><em>This is a submission for <a href=\"https://dev.to/bugsmash\">DEV's Summer Bug Smash: Smash Stories</a> powered by <a href=\"https://sentry.io/\" rel=\"noopener noreferrer\">Sentry</a>.</em></p> <blockquote> <p>🦄 I debated writing this for a long time, but I finally talked myself into really writin",
+      "title": "You've been doing Set math by hand. JavaScript finally shipped `.union()`, `.intersection()`, and friends.",
+      "link": "https://dev.to/parsajiravand/youve-been-doing-set-math-by-hand-javascript-finally-shipped-union-intersection-and-476",
+      "pubDate": "2026-07-23T08:37:01.000Z",
+      "description": "<p>You've written some version of this:<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight javascript\"><code><span class=\"kd\">const</span> <span class=\"nx\">intersection</span> <span class=\"o\">=</span> <span class=\"k\">new</span> <span class=\"nc\">Set</span><span class=\"p\">([...</",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Unity Foundational Architecture: Managing Global State",
-      "link": "https://dev.to/tenaciousdan/unity-foundational-architecture-managing-global-state-1mlp",
-      "pubDate": "2026-07-23T03:28:01.000Z",
-      "description": "<h3> Table of Contents: </h3> <ul> <li>Introduction</li> <li>Constants</li> <li>Singletons &amp; Services</li> <li>Singleton</li> <li>Service Locator</li> </ul> <h2> Introduction </h2> <p>Every Unity developer eventually hits the exact same wall: <em>how do I get my UI script to talk to my Game Mana",
+      "title": "GHSA-GX64-GJ6P-PC4C: GHSA-GX64-GJ6P-PC4C: Stored Cross-Site Scripting in JupyterLab Image Viewer",
+      "link": "https://dev.to/cverports/ghsa-gx64-gj6p-pc4c-ghsa-gx64-gj6p-pc4c-stored-cross-site-scripting-in-jupyterlab-image-viewer-37m7",
+      "pubDate": "2026-07-23T08:30:32.000Z",
+      "description": "<h1> GHSA-GX64-GJ6P-PC4C: Stored Cross-Site Scripting in JupyterLab Image Viewer </h1> <blockquote> <p><strong>Vulnerability ID:</strong> GHSA-GX64-GJ6P-PC4C<br> <strong>CVSS Score:</strong> 8.2<br> <strong>Published:</strong> 2026-07-22</p> </blockquote> <p>A stored Cross-Site Scripting (XSS) vulne",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "用 FROST 家族治理模型，构建你的「AI 第一性原理」",
-      "link": "https://dev.to/llimage/yong-frost-jia-zu-zhi-li-mo-xing-gou-jian-ni-de-ai-di-xing-yuan-li--4gc2",
-      "pubDate": "2026-07-23T03:24:58.000Z",
-      "description": "<h1> 用 FROST 家族治理模型，构建你的「AI 第一性原理」 </h1> <p><strong>作者</strong>：神通说<br><br> <strong>日期</strong>：2026-07-23<br><br> <strong>主题</strong>：双项目联动 | 周四代码教程<br><br> <strong>阅读时间</strong>：12分钟</p> <h2> 前言：为什么你需要「第一性原理」？ </h2> <p>埃隆·马斯克推崇「第一性原理」思维——从物理学的最基本定律出发，而不是类比他人的做法。</p> <p>在 AI Agent 开发领域，大多数人都在用 Lang",
+      "title": "When a WordPress-to-CRM Integration Works Sometimes: A Practical Guide to Debugging Intermittent Failures",
+      "link": "https://dev.to/rahul_sharma_15bd129bc69e/when-a-wordpress-to-crm-integration-works-sometimes-a-practical-guide-to-debugging-intermittent-3egc",
+      "pubDate": "2026-07-23T08:27:04.000Z",
+      "description": "<p>One of the worst integration bugs is not an error that happens every time.</p> <p>It is an error that happens only sometimes.</p> <p>The workflow looks like this:<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight plaintext\"><code>Submission 1 → Success Submission 2 → Succes",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The best config in your bake-off didn't win. Selection did.",
-      "link": "https://dev.to/alex_spinov/the-best-config-in-your-bake-off-didnt-win-selection-did-4jm2",
-      "pubDate": "2026-07-23T03:24:54.000Z",
-      "description": "<p>Best-of-K eval selection bias: pick the highest-scoring config from K candidates on one eval set and that observed score is biased up. It reports the expected maximum of K noisy estimates, which beats the field mean whenever K exceeds one. The bias appears even when all K configs are truly equal,",
+      "title": "CircleCI's CLI is now a Go rewrite with an MCP server bolted on",
+      "link": "https://dev.to/leobaniak/circlecis-cli-is-now-a-go-rewrite-with-an-mcp-server-bolted-on-110c",
+      "pubDate": "2026-07-23T08:26:11.000Z",
+      "description": "<p>The last time I asked a coding agent to look at a failed CircleCI job for me, it burned three tool calls parsing <code>--help</code> output and still picked the wrong flag. I laughed, then I stopped laughing, because I do this a lot now and every wasted turn is a real second off my afternoon. So ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Stop manually curling port 9600: Using MCP to triage Logstash bottlenecks",
-      "link": "https://dev.to/renato_marinho/stop-manually-curling-port-9600-using-mcp-to-triage-logstash-bottlenecks-4o8k",
-      "pubDate": "2026-07-23T03:21:01.000Z",
-      "description": "<p>I have a ritual. Whenever a pipeline latency alert hits my phone, my first instinct isn't to open a heavy dashboard or spin up a full Grafana instance. I grab my terminal and start firing <code>curl</code> commands at port 9600.</p> <p><code>curl -s localhost:9600/_node/stats?pretty</code>... <co",
+      "title": "Fetching Instagram Data at Scale in Python: From One Request to Async",
+      "link": "https://dev.to/shino_17251665a6a8538491b/fetching-instagram-data-at-scale-in-python-from-one-request-to-async-4peg",
+      "pubDate": "2026-07-23T08:20:45.000Z",
+      "description": "<p>I collect Instagram data for &lt;私が収集しているもの・用途 例: hashtag research for my content projects&gt;, and at some point \"just call the API in a loop\" stopped being fast enough. Here's how I went from a single request to concurrent fetching in Python, using <a href=\"https://hikerapi.com\" rel=\"noopener n",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Sovereign Lemmings Released",
-      "link": "https://dev.to/andreimerlescu/sovereign-lemmings-released-4c9l",
-      "pubDate": "2026-07-23T03:17:42.000Z",
-      "description": "<p>I have released the <a href=\"https://github.com/andreimerlescu/sovereign\" rel=\"noopener noreferrer\">Sovereign</a> package on Github. It deploys <a href=\"https://github.com/andreimerlescu/lemmings\" rel=\"noopener noreferrer\">Lemmings</a> into up to 3 cloud regions for your choice in configuration f",
+      "title": "Designing Software That Gets Faster as It Gets Bigger",
+      "link": "https://dev.to/derekmwale/designing-software-that-gets-faster-as-it-gets-bigger-3mih",
+      "pubDate": "2026-07-23T08:03:17.000Z",
+      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fab6mtduh4eo6h4fzqbcs.jpg\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Finding a WinSCP Alternative on macOS:Building a Better SFTP Workflow",
-      "link": "https://dev.to/o_oliver_3b38e6829628a1e9/finding-a-winscp-alternative-on-macosbuilding-a-better-sftp-workflow-22mo",
-      "pubDate": "2026-07-23T03:08:03.000Z",
-      "description": "<p>When I moved my daily development workflow from Windows to macOS, one small thing kept bothering me: remote file management.</p> <p>WinSCP has been a reliable tool for many developers working on Windows. It provides a simple GUI for:</p> <ul> <li>Connecting to servers through SFTP, FTP, SCP, WebD",
+      "title": "Your career doesn't have to stand still just because you're happy at work!",
+      "link": "https://dev.to/gabriel1/your-career-doesnt-have-to-stand-still-just-because-youre-happy-at-work-44nc",
+      "pubDate": "2026-07-23T08:00:33.000Z",
+      "description": "<p><em>Maybe you’re not looking for a new job.</em></p> <p>There is a strange gap in the way we talk about careers. You are either “looking” or you are not.</p> <p>When you're actively looking for a job, the path is familiar. You update your profile, browse job boards, send applications, talk to rec",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Surviving the iOS Push Notification Setup Process",
-      "link": "https://dev.to/hasnain_alam/surviving-the-ios-push-notification-setup-process-1m4k",
-      "pubDate": "2026-07-23T03:03:36.000Z",
-      "description": "<h2>Why iOS is a different beast</h2> <p>To be real with you, setting up notifications on Android is like a walk in the park compared to iOS. Apple takes security seriously, which is great for users but a bit of a nightmare for us developers. You can't just drop a config file and call it a day. You ",
+      "title": "Code Review Habits That Actually Stick",
+      "link": "https://dev.to/codeatlas/code-review-habits-that-actually-stick-56a9",
+      "pubDate": "2026-07-23T08:00:21.000Z",
+      "description": "<h2> Why Code Reviews Matter </h2> <p>Code reviews are one of the most effective ways to catch bugs, share knowledge, and improve code quality. But without good habits, they become a dreaded chore. Over the years, I've refined a few practices that make reviews productive rather than painful.</p> <h2",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "Cruller: Bun's Zig Runtime, Continued on Zig 0.16",
+      "link": "https://ziggit.dev/t/cruller-buns-zig-runtime-continued-on-zig-0-16/16734",
+      "pubDate": "2026-07-23T05:40:20.000Z",
+      "description": "Article URL: https://ziggit.dev/t/cruller-buns-zig-runtime-continued-on-zig-0-16/16734 Comments URL: https://news.ycombinator.com/item?id=49017344 Points: 32 # Comments: 6",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Amiga 1000: Ten years ahead of its time",
+      "link": "https://dfarq.homeip.net/amiga-1000-ten-years-ahead-of-its-time/",
+      "pubDate": "2026-07-23T05:24:17.000Z",
+      "description": "Article URL: https://dfarq.homeip.net/amiga-1000-ten-years-ahead-of-its-time/ Comments URL: https://news.ycombinator.com/item?id=49017265 Points: 57 # Comments: 30",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "Restructuring GitHub's bug bounty program",
       "link": "https://github.blog/security/next-chapter-restructuring-githubs-bug-bounty-program/",
       "pubDate": "2026-07-23T02:28:23.000Z",
-      "description": "Article URL: https://github.blog/security/next-chapter-restructuring-githubs-bug-bounty-program/ Comments URL: https://news.ycombinator.com/item?id=49016099 Points: 10 # Comments: 3",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Honey Bee Colony Monitoring via Audio IoT Sensors, Tensorgrams and RNNs",
-      "link": "https://arxiv.org/abs/2607.20386",
-      "pubDate": "2026-07-23T01:58:18.000Z",
-      "description": "Article URL: https://arxiv.org/abs/2607.20386 Comments URL: https://news.ycombinator.com/item?id=49015878 Points: 4 # Comments: 0",
+      "description": "Article URL: https://github.blog/security/next-chapter-restructuring-githubs-bug-bounty-program/ Comments URL: https://news.ycombinator.com/item?id=49016099 Points: 43 # Comments: 17",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -104,23 +112,15 @@
       "title": "Petals: Run LLMs at home, BitTorrent-style",
       "link": "https://petals.dev/",
       "pubDate": "2026-07-23T01:33:12.000Z",
-      "description": "Article URL: https://petals.dev/ Comments URL: https://news.ycombinator.com/item?id=49015735 Points: 66 # Comments: 24",
+      "description": "Article URL: https://petals.dev/ Comments URL: https://news.ycombinator.com/item?id=49015735 Points: 109 # Comments: 32",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "OpenAI's accidental cyberattack against Hugging Face is science fiction",
-      "link": "https://simonwillison.net/2026/Jul/22/openai-cyberattack/",
-      "pubDate": "2026-07-23T01:16:14.000Z",
-      "description": "Article URL: https://simonwillison.net/2026/Jul/22/openai-cyberattack/ Comments URL: https://news.ycombinator.com/item?id=49015639 Points: 52 # Comments: 37",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Codeberg Bans Cryptocurrency Projects",
-      "link": "https://codeberg.org/Codeberg/org/pulls/1254",
-      "pubDate": "2026-07-23T01:06:56.000Z",
-      "description": "Article URL: https://codeberg.org/Codeberg/org/pulls/1254 Comments URL: https://news.ycombinator.com/item?id=49015588 Points: 146 # Comments: 165",
+      "title": "Protecting our FLOSS commons from LLMs",
+      "link": "https://blog.codeberg.org/protecting-our-floss-commons-from-llms.html",
+      "pubDate": "2026-07-23T01:14:53.000Z",
+      "description": "Article URL: https://blog.codeberg.org/protecting-our-floss-commons-from-llms.html Comments URL: https://news.ycombinator.com/item?id=49015635 Points: 27 # Comments: 2",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -128,15 +128,15 @@
       "title": "Medici family mystery may be solved after more than 400 years",
       "link": "https://www.cnn.com/2026/07/15/science/medici-family-mystery-dna-malaria",
       "pubDate": "2026-07-22T21:55:34.000Z",
-      "description": "Article URL: https://www.cnn.com/2026/07/15/science/medici-family-mystery-dna-malaria Comments URL: https://news.ycombinator.com/item?id=49014007 Points: 88 # Comments: 20",
+      "description": "Article URL: https://www.cnn.com/2026/07/15/science/medici-family-mystery-dna-malaria Comments URL: https://news.ycombinator.com/item?id=49014007 Points: 115 # Comments: 30",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Any text-to-SQL benchmark should address difficulties of real-world data stores",
-      "link": "https://cacm.acm.org/blogcacm/if-you-think-you-can-do-real-world-text-to-sql/",
-      "pubDate": "2026-07-22T21:54:30.000Z",
-      "description": "Article URL: https://cacm.acm.org/blogcacm/if-you-think-you-can-do-real-world-text-to-sql/ Comments URL: https://news.ycombinator.com/item?id=49013995 Points: 42 # Comments: 10",
+      "title": "All 253 Patterns from Christopher Alexander's a Pattern Language Summarized",
+      "link": "https://claytondorge.com/patterns-list",
+      "pubDate": "2026-07-22T21:48:44.000Z",
+      "description": "Article URL: https://claytondorge.com/patterns-list Comments URL: https://news.ycombinator.com/item?id=49013924 Points: 70 # Comments: 12",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -144,15 +144,7 @@
       "title": "Malleable Computing, Emacs, and You",
       "link": "http://yummymelon.com/devnull/malleable-computing-emacs-and-you.html",
       "pubDate": "2026-07-22T21:15:26.000Z",
-      "description": "Article URL: http://yummymelon.com/devnull/malleable-computing-emacs-and-you.html Comments URL: https://news.ycombinator.com/item?id=49013538 Points: 78 # Comments: 22",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "I Inspected My Take-Home Interview Project. It Was a Whole Operation",
-      "link": "https://citizendot.github.io/articles/fake-job-interview-git-hook-malware/",
-      "pubDate": "2026-07-22T20:33:44.000Z",
-      "description": "Article URL: https://citizendot.github.io/articles/fake-job-interview-git-hook-malware/ Comments URL: https://news.ycombinator.com/item?id=49013036 Points: 303 # Comments: 80",
+      "description": "Article URL: http://yummymelon.com/devnull/malleable-computing-emacs-and-you.html Comments URL: https://news.ycombinator.com/item?id=49013538 Points: 102 # Comments: 30",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -160,7 +152,15 @@
       "title": "Fairphone 6 wide camera experimental Linux support",
       "link": "https://nondescriptpointer.com/articles/fairphone-6-wide-camera-linux/",
       "pubDate": "2026-07-22T20:16:01.000Z",
-      "description": "Article URL: https://nondescriptpointer.com/articles/fairphone-6-wide-camera-linux/ Comments URL: https://news.ycombinator.com/item?id=49012777 Points: 80 # Comments: 9",
+      "description": "Article URL: https://nondescriptpointer.com/articles/fairphone-6-wide-camera-linux/ Comments URL: https://news.ycombinator.com/item?id=49012777 Points: 114 # Comments: 24",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "John C. Dvorak has died",
+      "link": "https://twitter.com/na_announce/status/2079952538040672302",
+      "pubDate": "2026-07-22T19:22:19.000Z",
+      "description": "https://xcancel.com/na_announce/status/2079952538040672302https://www.twit.community/t/john-c-dvorak-has-passed-away/2...https://www.facebook.com/aric.mackey/posts/john-c-dvorak-194... Comments URL: https://news.ycombinator.com/item?id=49012070 Points: 734 # Comments: 234",
       "source": "Hacker News",
       "category": "Tech News"
     },
