@@ -1,94 +1,139 @@
 {
-  "generatedAt": "2026-07-23T08:44:18.367Z",
+  "generatedAt": "2026-07-23T14:32:37.532Z",
   "sourceCount": 4,
-  "successCount": 4,
-  "errors": [],
+  "successCount": 3,
+  "errors": [
+    {
+      "source": "CSS Tricks",
+      "error": "HTTP 415 Unsupported Media Type"
+    }
+  ],
   "items": [
     {
-      "title": "Swift Classes — The Four Ways Variables and Constants Can Combine 🎭",
-      "link": "https://dev.to/gamya_m/swift-classes-the-four-ways-variables-and-constants-can-combine-3mjj",
-      "pubDate": "2026-07-23T08:44:00.000Z",
-      "description": "<p>A constant class can have its properties changed. A constant struct can't. This sounds inconsistent until you remember the signpost — and then it makes perfect sense.</p> <p>There's a moment when you're learning Swift where something happens that makes absolutely no sense on the surface. You crea",
+      "title": "# I tried to trick my own agent into deleting the wrong file 👾",
+      "link": "https://dev.to/dambasement/-i-tried-to-trick-my-own-agent-into-deleting-the-wrong-file-55m8",
+      "pubDate": "2026-07-23T14:20:45.000Z",
+      "description": "<p><strong>Month 2 of the AI Red Teaming Journey</strong><br> Month 1 was about building an agent and testing whether it would follow malicious instructions hidden in data. It didn't, twice. Month 2 asks a different question: even when a model resists direct manipulation, can you steer it toward a b",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The Backend Patterns I Wish I Learned Earlier",
-      "link": "https://dev.to/derekmwale/the-backend-patterns-i-wish-i-learned-earlier-3n5a",
-      "pubDate": "2026-07-23T08:39:04.000Z",
-      "description": "<p>When I started building backend systems, I thought becoming a better developer meant learning more technologies.</p> <p>A new framework.</p> <p>A new database.</p> <p>A new programming language.</p> <p>A new cloud platform.</p> <p>Every new tool felt like a level-up.</p> <p>I would look at experi",
+      "title": "Crucible v1.2 — Interactive TUI, Component Lifecycle Commands, React Native, and Security Hardening",
+      "link": "https://dev.to/naveen2070/crucible-v12-interactive-tui-component-lifecycle-commands-react-native-and-security-hardening-3nkm",
+      "pubDate": "2026-07-23T14:10:24.000Z",
+      "description": "<blockquote> <p><strong>TL;DR:</strong> Crucible is a code generation CLI that scaffolds production-ready components (React / Vue / Angular / React Native) directly into your project. You own every generated file. v1.2 ships a full terminal UI wizard, five component lifecycle commands, a React Nativ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "You've been doing Set math by hand. JavaScript finally shipped `.union()`, `.intersection()`, and friends.",
-      "link": "https://dev.to/parsajiravand/youve-been-doing-set-math-by-hand-javascript-finally-shipped-union-intersection-and-476",
-      "pubDate": "2026-07-23T08:37:01.000Z",
-      "description": "<p>You've written some version of this:<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight javascript\"><code><span class=\"kd\">const</span> <span class=\"nx\">intersection</span> <span class=\"o\">=</span> <span class=\"k\">new</span> <span class=\"nc\">Set</span><span class=\"p\">([...</",
+      "title": "I Regret Migrating to Codeberg",
+      "link": "https://xn--gckvb8fzb.com/i-regret-migrating-to-codeberg/",
+      "pubDate": "2026-07-23T14:06:47.000Z",
+      "description": "Article URL: https://xn--gckvb8fzb.com/i-regret-migrating-to-codeberg/ Comments URL: https://news.ycombinator.com/item?id=49021856 Points: 10 # Comments: 1",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "ASP.NET Core Performance Tuning for High-Traffic APIs",
+      "link": "https://dev.to/faisal_nadeem_752520c3e03/aspnet-core-performance-tuning-for-high-traffic-apis-58f4",
+      "pubDate": "2026-07-23T14:05:51.000Z",
+      "description": "<p>When a .NET API works perfectly in staging and then falls over under real production load, the root cause is almost never a single catastrophic bug. It is usually a collection of small inefficiencies — a blocking call here, an untracked entity graph there, a misconfigured middleware pipeline — th",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "GHSA-GX64-GJ6P-PC4C: GHSA-GX64-GJ6P-PC4C: Stored Cross-Site Scripting in JupyterLab Image Viewer",
-      "link": "https://dev.to/cverports/ghsa-gx64-gj6p-pc4c-ghsa-gx64-gj6p-pc4c-stored-cross-site-scripting-in-jupyterlab-image-viewer-37m7",
-      "pubDate": "2026-07-23T08:30:32.000Z",
-      "description": "<h1> GHSA-GX64-GJ6P-PC4C: Stored Cross-Site Scripting in JupyterLab Image Viewer </h1> <blockquote> <p><strong>Vulnerability ID:</strong> GHSA-GX64-GJ6P-PC4C<br> <strong>CVSS Score:</strong> 8.2<br> <strong>Published:</strong> 2026-07-22</p> </blockquote> <p>A stored Cross-Site Scripting (XSS) vulne",
+      "title": "Designing Model-Agnostic Prompts for AI Video Workflows",
+      "link": "https://dev.to/jiaoshuo1997/designing-model-agnostic-prompts-for-ai-video-workflows-52hm",
+      "pubDate": "2026-07-23T14:05:45.000Z",
+      "description": "<p>AI video tools change quickly. A prompt that works well in one model may behave differently in another, and model-specific syntax can become obsolete after an update. A more durable approach is to represent the creative intent first, then translate that representation into the vocabulary of a cho",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "When a WordPress-to-CRM Integration Works Sometimes: A Practical Guide to Debugging Intermittent Failures",
-      "link": "https://dev.to/rahul_sharma_15bd129bc69e/when-a-wordpress-to-crm-integration-works-sometimes-a-practical-guide-to-debugging-intermittent-3egc",
-      "pubDate": "2026-07-23T08:27:04.000Z",
-      "description": "<p>One of the worst integration bugs is not an error that happens every time.</p> <p>It is an error that happens only sometimes.</p> <p>The workflow looks like this:<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight plaintext\"><code>Submission 1 → Success Submission 2 → Succes",
+      "title": "The data model I ended up with after trying to publish one post everywhere",
+      "link": "https://dev.to/rodrgds/the-data-model-i-ended-up-with-after-trying-to-publish-one-post-everywhere-4fp2",
+      "pubDate": "2026-07-23T14:05:25.000Z",
+      "description": "<p>A social post looks like a string until you try to send it to more than one platform.</p> <p>That was roughly where OpenPost started. There was some source content, a list of accounts, and a queue that would publish it later. For a normal text post, that model is fine.</p> <p>Then I started addin",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "CircleCI's CLI is now a Go rewrite with an MCP server bolted on",
-      "link": "https://dev.to/leobaniak/circlecis-cli-is-now-a-go-rewrite-with-an-mcp-server-bolted-on-110c",
-      "pubDate": "2026-07-23T08:26:11.000Z",
-      "description": "<p>The last time I asked a coding agent to look at a failed CircleCI job for me, it burned three tool calls parsing <code>--help</code> output and still picked the wrong flag. I laughed, then I stopped laughing, because I do this a lot now and every wasted turn is a real second off my afternoon. So ",
+      "title": "Astronomers may have found the first exomoon",
+      "link": "https://www.eso.org/public/news/eso2610/",
+      "pubDate": "2026-07-23T14:02:24.000Z",
+      "description": "Article URL: https://www.eso.org/public/news/eso2610/ Comments URL: https://news.ycombinator.com/item?id=49021783 Points: 35 # Comments: 16",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Day 96/100 – Standard SQL Time Functions in ClickHouse® 26.3: Better ANSI SQL Compatibility",
+      "link": "https://dev.to/kanishga_subramani_49ad73/day-96100-standard-sql-time-functions-in-clickhouser-263-better-ansi-sql-compatibility-4m4l",
+      "pubDate": "2026-07-23T14:01:58.000Z",
+      "description": "<h1> Introduction </h1> <p>One of the key goals of recent ClickHouse® releases has been improving compatibility with the ANSI SQL standard. While ClickHouse has always offered a rich set of date and time functions, some syntax differences compared to traditional relational databases required develop",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Fetching Instagram Data at Scale in Python: From One Request to Async",
-      "link": "https://dev.to/shino_17251665a6a8538491b/fetching-instagram-data-at-scale-in-python-from-one-request-to-async-4peg",
-      "pubDate": "2026-07-23T08:20:45.000Z",
-      "description": "<p>I collect Instagram data for &lt;私が収集しているもの・用途 例: hashtag research for my content projects&gt;, and at some point \"just call the API in a loop\" stopped being fast enough. Here's how I went from a single request to concurrent fetching in Python, using <a href=\"https://hikerapi.com\" rel=\"noopener n",
+      "title": "Reading 50MB JSONL logs with a viewer in 2026",
+      "link": "https://dev.to/aidevhub/reading-50mb-jsonl-logs-with-a-viewer-in-2026-262k",
+      "pubDate": "2026-07-23T14:00:04.000Z",
+      "description": "<h1> Reading 50MB JSONL logs with a viewer in 2026 </h1> <blockquote> <p>Use a browser-based JSONL viewer that parses each line as its own JSON object and lays the results out in a filterable, sortable table. That's the fastest way to read newline-delimited logs without writing a throwaway script. P",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Designing Software That Gets Faster as It Gets Bigger",
-      "link": "https://dev.to/derekmwale/designing-software-that-gets-faster-as-it-gets-bigger-3mih",
-      "pubDate": "2026-07-23T08:03:17.000Z",
-      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fab6mtduh4eo6h4fzqbcs.jpg\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/",
+      "title": "Pulseboard: self-hosted HTTP uptime monitoring without the SaaS bill",
+      "link": "https://dev.to/heisenberg_blue/pulseboard-self-hosted-http-uptime-monitoring-without-the-saas-bill-2lf",
+      "pubDate": "2026-07-23T14:00:02.000Z",
+      "description": "<h1> Pulseboard: self-hosted HTTP uptime monitoring without the SaaS bill </h1> <p>I wanted something like Uptime Kuma — lightweight, self-hosted, easy to run — so I built <strong><a href=\"https://github.com/mamyan2001-gif/pulseboard\" rel=\"noopener noreferrer\">Pulseboard</a></strong>.</p> <h2> What ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Your career doesn't have to stand still just because you're happy at work!",
-      "link": "https://dev.to/gabriel1/your-career-doesnt-have-to-stand-still-just-because-youre-happy-at-work-44nc",
-      "pubDate": "2026-07-23T08:00:33.000Z",
-      "description": "<p><em>Maybe you’re not looking for a new job.</em></p> <p>There is a strange gap in the way we talk about careers. You are either “looking” or you are not.</p> <p>When you're actively looking for a job, the path is familiar. You update your profile, browse job boards, send applications, talk to rec",
+      "title": "Add \"Export as image\" to any dashboard",
+      "link": "https://dev.to/accreditly/add-export-as-image-to-any-dashboard-g1a",
+      "pubDate": "2026-07-23T14:00:00.000Z",
+      "description": "<p><em>First published on the <a href=\"https://accreditly.io/articles/add-export-as-image-to-any-dashboard\" rel=\"noopener noreferrer\">Accreditly blog</a>.</em></p> <p>\"Export as image\" is one of those features users expect and developers keep putting off. Someone wants to drop a chart into a slide d",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Code Review Habits That Actually Stick",
-      "link": "https://dev.to/codeatlas/code-review-habits-that-actually-stick-56a9",
-      "pubDate": "2026-07-23T08:00:21.000Z",
-      "description": "<h2> Why Code Reviews Matter </h2> <p>Code reviews are one of the most effective ways to catch bugs, share knowledge, and improve code quality. But without good habits, they become a dreaded chore. Over the years, I've refined a few practices that make reviews productive rather than painful.</p> <h2",
+      "title": "Building a RAG Chatbot with FastAPI and ChromaDB (that runs locally, no API key)",
+      "link": "https://dev.to/deaw_ai/building-a-rag-chatbot-with-fastapi-and-chromadb-that-runs-locally-no-api-key-36aj",
+      "pubDate": "2026-07-23T13:57:14.000Z",
+      "description": "<p>Everyone wants a chatbot that can answer questions from <em>their own</em> documents — a company handbook, a contract, a research paper. The technique behind this is called <strong>RAG (Retrieval-Augmented Generation)</strong>.</p> <p>I build production RAG and LLM systems for a living, and I kep",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "Alphabet's cash burn raises alarm for Big Tech as AI spending climbs",
+      "link": "https://www.reuters.com/business/retail-consumer/alphabets-cash-burn-raises-alarm-big-tech-ai-spending-climbs-2026-07-23/",
+      "pubDate": "2026-07-23T13:10:02.000Z",
+      "description": "Article URL: https://www.reuters.com/business/retail-consumer/alphabets-cash-burn-raises-alarm-big-tech-ai-spending-climbs-2026-07-23/ Comments URL: https://news.ycombinator.com/item?id=49021006 Points: 146 # Comments: 128",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "AI Companies Are Trying to Hide a Staggering Amount of Debt",
+      "link": "https://futurism.com/artificial-intelligence/ai-companies-hide-debt-off-balance-sheet",
+      "pubDate": "2026-07-23T13:09:10.000Z",
+      "description": "Article URL: https://futurism.com/artificial-intelligence/ai-companies-hide-debt-off-balance-sheet Comments URL: https://news.ycombinator.com/item?id=49020999 Points: 85 # Comments: 39",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "OpenAI and Anthropic unite against open-weight AI risks to their bottom line",
+      "link": "https://www.axios.com/2026/07/22/openai-anthropic-open-models-trump-china",
+      "pubDate": "2026-07-23T13:00:03.000Z",
+      "description": "Article URL: https://www.axios.com/2026/07/22/openai-anthropic-open-models-trump-china Comments URL: https://news.ycombinator.com/item?id=49020868 Points: 189 # Comments: 199",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "Cruller: Bun's Zig Runtime, Continued on Zig 0.16",
       "link": "https://ziggit.dev/t/cruller-buns-zig-runtime-continued-on-zig-0-16/16734",
       "pubDate": "2026-07-23T05:40:20.000Z",
-      "description": "Article URL: https://ziggit.dev/t/cruller-buns-zig-runtime-continued-on-zig-0-16/16734 Comments URL: https://news.ycombinator.com/item?id=49017344 Points: 32 # Comments: 6",
+      "description": "Article URL: https://ziggit.dev/t/cruller-buns-zig-runtime-continued-on-zig-0-16/16734 Comments URL: https://news.ycombinator.com/item?id=49017344 Points: 119 # Comments: 74",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -96,23 +141,7 @@
       "title": "Amiga 1000: Ten years ahead of its time",
       "link": "https://dfarq.homeip.net/amiga-1000-ten-years-ahead-of-its-time/",
       "pubDate": "2026-07-23T05:24:17.000Z",
-      "description": "Article URL: https://dfarq.homeip.net/amiga-1000-ten-years-ahead-of-its-time/ Comments URL: https://news.ycombinator.com/item?id=49017265 Points: 57 # Comments: 30",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Restructuring GitHub's bug bounty program",
-      "link": "https://github.blog/security/next-chapter-restructuring-githubs-bug-bounty-program/",
-      "pubDate": "2026-07-23T02:28:23.000Z",
-      "description": "Article URL: https://github.blog/security/next-chapter-restructuring-githubs-bug-bounty-program/ Comments URL: https://news.ycombinator.com/item?id=49016099 Points: 43 # Comments: 17",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Petals: Run LLMs at home, BitTorrent-style",
-      "link": "https://petals.dev/",
-      "pubDate": "2026-07-23T01:33:12.000Z",
-      "description": "Article URL: https://petals.dev/ Comments URL: https://news.ycombinator.com/item?id=49015735 Points: 109 # Comments: 32",
+      "description": "Article URL: https://dfarq.homeip.net/amiga-1000-ten-years-ahead-of-its-time/ Comments URL: https://news.ycombinator.com/item?id=49017265 Points: 131 # Comments: 116",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -120,7 +149,7 @@
       "title": "Protecting our FLOSS commons from LLMs",
       "link": "https://blog.codeberg.org/protecting-our-floss-commons-from-llms.html",
       "pubDate": "2026-07-23T01:14:53.000Z",
-      "description": "Article URL: https://blog.codeberg.org/protecting-our-floss-commons-from-llms.html Comments URL: https://news.ycombinator.com/item?id=49015635 Points: 27 # Comments: 2",
+      "description": "Article URL: https://blog.codeberg.org/protecting-our-floss-commons-from-llms.html Comments URL: https://news.ycombinator.com/item?id=49015635 Points: 140 # Comments: 85",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -128,15 +157,7 @@
       "title": "Medici family mystery may be solved after more than 400 years",
       "link": "https://www.cnn.com/2026/07/15/science/medici-family-mystery-dna-malaria",
       "pubDate": "2026-07-22T21:55:34.000Z",
-      "description": "Article URL: https://www.cnn.com/2026/07/15/science/medici-family-mystery-dna-malaria Comments URL: https://news.ycombinator.com/item?id=49014007 Points: 115 # Comments: 30",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "All 253 Patterns from Christopher Alexander's a Pattern Language Summarized",
-      "link": "https://claytondorge.com/patterns-list",
-      "pubDate": "2026-07-22T21:48:44.000Z",
-      "description": "Article URL: https://claytondorge.com/patterns-list Comments URL: https://news.ycombinator.com/item?id=49013924 Points: 70 # Comments: 12",
+      "description": "Article URL: https://www.cnn.com/2026/07/15/science/medici-family-mystery-dna-malaria Comments URL: https://news.ycombinator.com/item?id=49014007 Points: 141 # Comments: 45",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -144,105 +165,9 @@
       "title": "Malleable Computing, Emacs, and You",
       "link": "http://yummymelon.com/devnull/malleable-computing-emacs-and-you.html",
       "pubDate": "2026-07-22T21:15:26.000Z",
-      "description": "Article URL: http://yummymelon.com/devnull/malleable-computing-emacs-and-you.html Comments URL: https://news.ycombinator.com/item?id=49013538 Points: 102 # Comments: 30",
+      "description": "Article URL: http://yummymelon.com/devnull/malleable-computing-emacs-and-you.html Comments URL: https://news.ycombinator.com/item?id=49013538 Points: 132 # Comments: 36",
       "source": "Hacker News",
       "category": "Tech News"
-    },
-    {
-      "title": "Fairphone 6 wide camera experimental Linux support",
-      "link": "https://nondescriptpointer.com/articles/fairphone-6-wide-camera-linux/",
-      "pubDate": "2026-07-22T20:16:01.000Z",
-      "description": "Article URL: https://nondescriptpointer.com/articles/fairphone-6-wide-camera-linux/ Comments URL: https://news.ycombinator.com/item?id=49012777 Points: 114 # Comments: 24",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "John C. Dvorak has died",
-      "link": "https://twitter.com/na_announce/status/2079952538040672302",
-      "pubDate": "2026-07-22T19:22:19.000Z",
-      "description": "https://xcancel.com/na_announce/status/2079952538040672302https://www.twit.community/t/john-c-dvorak-has-passed-away/2...https://www.facebook.com/aric.mackey/posts/john-c-dvorak-194... Comments URL: https://news.ycombinator.com/item?id=49012070 Points: 734 # Comments: 234",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "writing-mode",
-      "link": "https://css-tricks.com/almanac/properties/w/writing-mode/",
-      "pubDate": "2026-07-21T09:39:10.000Z",
-      "description": "The writing-mode CSS property sets whether lines of text are laid out horizontally or vertically, and the direction in which blocks and lines progress. .element { writing-mode: vertical-rl; } This is most useful in languages such as Chinese, Japanese or … writing-mode originally handwritten and publ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "pointer-events",
-      "link": "https://css-tricks.com/almanac/properties/p/pointer-events/",
-      "pubDate": "2026-07-15T19:57:51.000Z",
-      "description": "The pointer-events property controls whether an element can become the target of pointer events like clicks, hover states, and other pointer-based events. In other words, it lets you decide whether the browser should treat an element as interactive when the … pointer-events originally handwritten an",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "What’s !important #15: Boundary-aware CSS, Time-based CSS, Full-bleed CSS, and More",
-      "link": "https://css-tricks.com/whats-important-15/",
-      "pubDate": "2026-07-15T14:36:18.000Z",
-      "description": "Read all about boundary-aware CSS, accessible grid lanes, time-based web designs, full-bleed, the customizable select, and new web platform features. What’s !important #15: Boundary-aware CSS, Time-based CSS, Full-bleed CSS, and More originally handwritten and published with love on CSS-Tricks. You ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Get Ready For the Powerful CSS border-shape Property!",
-      "link": "https://css-tricks.com/get-ready-for-the-powerful-css-border-shape-property/",
-      "pubDate": "2026-07-07T15:14:00.000Z",
-      "description": "We recently got the shape() function and corner-shape property. What else could we possibly need as far as making shapes in CSS? Let me tell you: the border-shape property! Get Ready For the Powerful CSS border-shape Property! originally handwritten and published with love on CSS-Tricks. You should ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "What’s !important #14: Gap Decorations, random(), &#060;select&gt; field-sizing, and More",
-      "link": "https://css-tricks.com/whats-important-14/",
-      "pubDate": "2026-06-30T13:54:14.000Z",
-      "description": "I know you’re busy, so for What’s !important #14, I’ll be sprinting through what’s been a stacked couple of weeks despite few browser updates. From CSS Quake to CSS Gap Decorations, this isn’t one to miss! What’s !important #14: Gap Decorations, random(), <select> field-sizing, and More originally h",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "The Shifting Line Between CSS States and JavaScript Events",
-      "link": "https://css-tricks.com/css-states-and-javascript-events/",
-      "pubDate": "2026-06-29T13:03:32.000Z",
-      "description": "CSS has always had pseudo-classes that style things based on user interactions. Recent features, however, are blurring the line between what CSS \"listens\" for and how they are alternatives to what Javascript typically listens for. The Shifting Line Between CSS States and JavaScript Events originally",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translateZ()",
-      "link": "https://css-tricks.com/almanac/functions/t/translatez/",
-      "pubDate": "2026-06-25T13:18:56.000Z",
-      "description": "The translateZ() function moves an element closer to or farther from the user. translateZ() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translateY()",
-      "link": "https://css-tricks.com/almanac/functions/t/translatey/",
-      "pubDate": "2026-06-25T13:17:56.000Z",
-      "description": "The translateY() function shifts an element vertically by the specified amount. translateY() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translateX()",
-      "link": "https://css-tricks.com/almanac/functions/t/translatex/",
-      "pubDate": "2026-06-25T13:16:01.000Z",
-      "description": "The translateX() function shifts an element horizontally by the specified amount. translateX() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translate()",
-      "link": "https://css-tricks.com/almanac/functions/t/translate/",
-      "pubDate": "2026-06-25T13:15:05.000Z",
-      "description": "The CSS translate() function shifts an element from its default position on a 2-dimensional plane translate() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
     },
     {
       "title": "Meet the HTB Profile: all your skills, in one place",
