@@ -1,24 +1,136 @@
 {
-  "generatedAt": "2026-07-23T19:45:51.856Z",
+  "generatedAt": "2026-07-24T03:44:15.679Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "Two TrueNAS servers, one rack — the CORE-and-SCALE split I never designed",
-      "link": "https://dev.to/jjozzietech/two-truenas-servers-one-rack-the-core-and-scale-split-i-never-designed-32if",
-      "pubDate": "2026-07-23T19:39:12.000Z",
-      "description": "<p>Two TrueNAS servers. Same rack. One's on CORE, one's on SCALE.</p> <p>If someone asked me why, the honest answer isn't a design decision. It's a series of arrivals — one workload trigger at a time, each landing on whichever server had the shape to accept it, until the current arrangement crystall",
+      "title": "How We Built a 153-Node Interactive Lore Graph for Black Myth: Zhong Kui Using D3.js and Astro",
+      "link": "https://dev.to/rambo586/how-we-built-a-153-node-interactive-lore-graph-for-black-myth-zhong-kui-using-d3js-and-astro-4cn6",
+      "pubDate": "2026-07-24T03:32:45.000Z",
+      "description": "<h2> The Challenge </h2> <p>Rendering a complex 153-concept-node, 1,200-edge mythic relationship topology for mobile devices without triggering main-thread layout thrashing or heavy client-side JavaScript execution.</p> <h2> The Technical Approach </h2> <ol> <li> <strong>Build-Time D3 Force Layout C",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Building an AI Recruitment SaaS: Lessons Learned",
-      "link": "https://dev.to/hasanyildizdev/building-an-ai-recruitment-saas-lessons-learned-3gim",
-      "pubDate": "2026-07-23T19:27:39.000Z",
-      "description": "<p>Five months ago I deleted two months of work and started over.</p> <p>This is the honest version of what happened next building <strong>Beonmap</strong>, an AI-powered job discovery platform, as a bootstrapped team. The good parts, the expensive mistakes, and the problem we still haven't solved.<",
+      "title": "What is a Forward-Deployed Engineer?",
+      "link": "https://dev.to/learnfde/what-is-a-forward-deployed-engineer-375h",
+      "pubDate": "2026-07-24T03:31:10.000Z",
+      "description": "<p>If you've been anywhere near AI job postings lately, you've seen the title: <strong>Forward-Deployed Engineer.</strong> Sometimes it's \"Deployment Engineer\" or \"Solutions Engineer\" or \"Applied AI Engineer.\" Sarvam is hiring more than a hundred of them. Palantir built a large part of its business ",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "Bio-Tuning Glasses: Building an Invisible Biofeedback Interface with Edge AI and Adaptive Optics",
+      "link": "https://dev.to/alirezaai/bio-tuning-glasses-building-an-invisible-biofeedback-interface-with-edge-ai-and-adaptive-optics-2gmg",
+      "pubDate": "2026-07-24T03:13:52.000Z",
+      "description": "<h1> Bio-Tuning Glasses: Building an Invisible Biofeedback Interface with Edge AI and Adaptive Optics </h1> <p>What if smart glasses didn't constantly tell you how healthy—or unhealthy—you are?</p> <p>No step counts.<br> No stress notifications.<br> No endless dashboards.<br> No digital reminders te",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Treat Emergency AI Revocation as a Distributed Protocol",
+      "link": "https://dev.to/robinzzz/treat-emergency-ai-revocation-as-a-distributed-protocol-1ed5",
+      "pubDate": "2026-07-24T03:12:41.000Z",
+      "description": "<p>Controller A records revocation epoch 12. Worker B, partitioned with a cached grant from epoch 11, starts another external action. The database is correct and the system is unsafe. Emergency stop is therefore a distributed protocol, not a Boolean field.</p> <h2> What is verified </h2> <p>In its J",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Show the Evidence That an AI Action Approval Actually Covered",
+      "link": "https://dev.to/haaaaaley/show-the-evidence-that-an-ai-action-approval-actually-covered-mc9",
+      "pubDate": "2026-07-24T03:11:22.000Z",
+      "description": "<p>A reviewer approves “update dependencies,” but the system later interprets that as publishing a package. The human was present; meaningful approval was not. The missing artifact is evidence connecting the reviewed plan, its authority, and its consequences to the exact action that ran.</p> <h2> Wh",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "One video is worth a thousand pictures",
+      "link": "https://dev.to/mousheng_xu_e002b5fecf4ff/one-video-is-worth-a-thousand-pictures-36mf",
+      "pubDate": "2026-07-24T03:11:01.000Z",
+      "description": "<p><em>Turning entire novels into narrated, lip-synced, motion video — locally, on a single 16GB GPU, with FLUX, Wan2.2, PuLID, MuseTalk, and ComfyUI.</em></p> <p>There's an old line: a picture is worth a thousand words. I'd extend it — a video is worth a thousand pictures. So I spent the last few m",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Design a Mobile Kill Switch That Survives Backgrounding and Lost Networks",
+      "link": "https://dev.to/roronoa_/design-a-mobile-kill-switch-that-survives-backgrounding-and-lost-networks-26b8",
+      "pubDate": "2026-07-24T03:10:53.000Z",
+      "description": "<p>A user taps Stop, the phone loses connectivity, and the app moves to the background. Showing a green check would be false; showing nothing would abandon the user. Mobile needs a three-part truth: local intent recorded, server receipt received, revocation confirmed.</p> <h2> What is verified </h2>",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Run the First 15 Minutes of an AI Evaluation Containment Incident",
+      "link": "https://dev.to/odd_background_328/run-the-first-15-minutes-of-an-ai-evaluation-containment-incident-1ng9",
+      "pubDate": "2026-07-24T03:10:46.000Z",
+      "description": "<p>At 14:02, egress policy logs show a benchmark runner requesting an unapproved destination. The first question is not “which model said what?” It is “which authority remains live, and what action removes it without destroying evidence?” This runbook turns that alert into an ordered response.</p> <",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Build an Accessible Emergency Stop for an AI Task",
+      "link": "https://dev.to/babycat/build-an-accessible-emergency-stop-for-an-ai-task-51h2",
+      "pubDate": "2026-07-24T03:10:27.000Z",
+      "description": "<p>The worst stop button is one that visually changes to “Stopped” while the task continues—and announces nothing to a screen-reader user. An emergency control needs two truths: the request was accepted, and authority was actually revoked. Those are separate interface states.</p> <h2> What is verifi",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Put AI Agent Actions Behind an Approval Gate From API to Worker",
+      "link": "https://dev.to/kongkong1/put-ai-agent-actions-behind-an-approval-gate-from-api-to-worker-lak",
+      "pubDate": "2026-07-24T03:10:13.000Z",
+      "description": "<p>A user presses Approve, but the worker receives a changed plan five seconds later. If approval is just a Boolean on a job row, the application authorized something the reviewer never saw. Emergency stopping starts with a stronger end-to-end contract: approval binds an exact plan to limited author",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "The Corporate Creep of Plex: Why it may be time to move to Jellyfin",
+      "link": "https://reprodev.com/the-corporate-creep-of-plex-why-it-may-be-time-to-move-to-jellyfin-and-the-open-source-reality/",
+      "pubDate": "2026-07-24T02:18:23.000Z",
+      "description": "Article URL: https://reprodev.com/the-corporate-creep-of-plex-why-it-may-be-time-to-move-to-jellyfin-and-the-open-source-reality/ Comments URL: https://news.ycombinator.com/item?id=49030547 Points: 10 # Comments: 5",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Police Removed Prominent Scientists from the ADA Meeting. Researchers Respond",
+      "link": "https://www.the-scientist.com/police-removed-prominent-scientists-from-the-ada-meeting-researchers-respond-74607",
+      "pubDate": "2026-07-24T02:06:31.000Z",
+      "description": "Article URL: https://www.the-scientist.com/police-removed-prominent-scientists-from-the-ada-meeting-researchers-respond-74607 Comments URL: https://news.ycombinator.com/item?id=49030474 Points: 29 # Comments: 8",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "The Visual 6502",
+      "link": "http://visual6502.org/JSSim/index.html",
+      "pubDate": "2026-07-23T23:36:42.000Z",
+      "description": "Article URL: http://visual6502.org/JSSim/index.html Comments URL: https://news.ycombinator.com/item?id=49029538 Points: 66 # Comments: 19",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "A taxonomy of omnicidal futures involving artificial intelligence (2025)",
+      "link": "https://arxiv.org/abs/2507.09369",
+      "pubDate": "2026-07-23T22:51:13.000Z",
+      "description": "Article URL: https://arxiv.org/abs/2507.09369 Comments URL: https://news.ycombinator.com/item?id=49029133 Points: 62 # Comments: 50",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "98.css",
+      "link": "https://jdan.github.io/98.css/#status-bar",
+      "pubDate": "2026-07-23T22:30:29.000Z",
+      "description": "Article URL: https://jdan.github.io/98.css/#status-bar Comments URL: https://news.ycombinator.com/item?id=49028927 Points: 312 # Comments: 63",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Mourning Dan Williams",
+      "link": "https://lwn.net/Articles/1084545/",
+      "pubDate": "2026-07-23T19:46:28.000Z",
+      "description": "Article URL: https://lwn.net/Articles/1084545/ Comments URL: https://news.ycombinator.com/item?id=49027052 Points: 38 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "Show HN: Echo – Fable-level results at 1/3 the cost using open-weight models",
@@ -29,138 +141,26 @@
       "category": "Tech News"
     },
     {
-      "title": "Getting Real Numbers Into the VPA Model: The Commands and Tools",
-      "link": "https://dev.to/prasadmk/getting-real-numbers-into-the-vpa-model-the-commands-and-tools-2ol2",
-      "pubDate": "2026-07-23T19:23:19.000Z",
-      "description": "<p>The companion post to this one, \"What the VPA Recommender Is Actually Computing,\" walks through the decay-weighted percentile math, the OOM bump, and the calculator that lets you punch in numbers and see what VPA would recommend. All of that is only useful once you have real numbers to punch in. ",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "I built a machine-payable API for AI agents and made $0.00 from strangers. Here's every number.",
-      "link": "https://dev.to/baolongspx6900/i-built-a-machine-payable-api-for-ai-agents-and-made-000-from-strangers-heres-every-number-3g5k",
-      "pubDate": "2026-07-23T19:20:43.000Z",
-      "description": "<p>Over a few weeks I built and shipped a small x402 service on Base: <strong>token-risk.com</strong>, a pay-per-call API that returns deterministic structural risk reports for ERC-20 tokens and wallet addresses. Agents pay $0.01 in USDC per call — no signup, no API key. It's live, it settles real m",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "10 ChatGPT Prompts for Daily Use by L1 SOC Analysts",
-      "link": "https://dev.to/excalibra/10-chatgpt-prompts-for-daily-use-by-l1-soc-analysts-5g27",
-      "pubDate": "2026-07-23T19:15:26.000Z",
-      "description": "<p><strong>Article Summary:</strong> This article provides ten practical ChatGPT prompts tailored for L1 SOC analysts, covering scenarios such as alert triage, threat analysis, and documentation. It aims to optimise security incident response workflows. The core value lies in assisting analysts with",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Claude Code Plan Mode: How I Use It on Real Multi-File Work",
-      "link": "https://dev.to/stravukarl/claude-code-plan-mode-how-i-use-it-on-real-multi-file-work-40od",
-      "pubDate": "2026-07-23T19:00:00.000Z",
-      "description": "<p>The first time I let Claude Code take a serious auth change straight from prompt to patch, it changed nine files. Three of them were subtly wrong. The compiler was happy. The behavior was not.</p> <p>The mistake was not using an agent. The mistake was letting implementation start before I underst",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Preview and edit material-kit-react without a build step",
-      "link": "https://dev.to/linb/preview-and-edit-material-kit-react-without-a-build-step-1hc9",
-      "pubDate": "2026-07-23T18:52:02.000Z",
-      "description": "<p><em>~7 min read · Tutorial</em></p> <p>I look at a lot of MUI admin templates. <code>material-kit-react</code> from the minimals people is one I keep going back to. Clean, typed, and the folder structure makes sense. Repo: <a href=\"https://github.com/minimal-ui-kit/material-kit-react\" rel=\"noopen",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "How I replaced if statements with a Dictionary delegate in C#",
-      "link": "https://dev.to/mirzaleka/how-i-replaced-if-statements-with-a-dictionary-delegate-in-c-42ma",
-      "pubDate": "2026-07-23T18:30:33.000Z",
-      "description": "<p>Let's say you need to implement a feature that returns a different package based on the user-provided coupon code.</p> <p>So you start with a model:<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight csharp\"><code><span class=\"k\">public</span> <span class=\"k\">record</span> <",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "I built a browser-based pixel-art &amp; animation editor with Vue, Laravel and AI",
-      "link": "https://dev.to/yanbess/i-built-a-browser-based-pixel-art-animation-editor-with-vue-laravel-and-ai-2l58",
-      "pubDate": "2026-07-23T18:30:22.000Z",
-      "description": "<p>I'm a solo dev, and for the past few months I've been building <strong><a href=\"https://pixanima.app\" rel=\"noopener noreferrer\">Pixanima</a></strong> — a pixel-art and animation editor that runs entirely in the browser, with an optional AI assistant baked in. It just launched, and I wanted to sha",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "From Evaluation to Guardrails: What We Brought to ACM FAccT 2026",
-      "link": "https://blog.mozilla.ai/from-evaluation-to-guardrails-what-we-brought-to-acm-facct-2026/",
-      "pubDate": "2026-07-23T18:29:22.000Z",
-      "description": "Article URL: https://blog.mozilla.ai/from-evaluation-to-guardrails-what-we-brought-to-acm-facct-2026/ Comments URL: https://news.ycombinator.com/item?id=49026059 Points: 6 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
       "title": "Building on ATProto",
       "link": "https://lukekanies.com/writing/building-on-atproto/",
       "pubDate": "2026-07-23T18:23:50.000Z",
-      "description": "Article URL: https://lukekanies.com/writing/building-on-atproto/ Comments URL: https://news.ycombinator.com/item?id=49025984 Points: 51 # Comments: 15",
+      "description": "Article URL: https://lukekanies.com/writing/building-on-atproto/ Comments URL: https://news.ycombinator.com/item?id=49025984 Points: 137 # Comments: 66",
       "source": "Hacker News",
       "category": "Tech News"
-    },
-    {
-      "title": "How to get LCSC component prices and stock as JSON (no login, no API key)",
-      "link": "https://dev.to/liuhao04/how-to-get-lcsc-component-prices-and-stock-as-json-no-login-no-api-key-2ekb",
-      "pubDate": "2026-07-23T18:23:28.000Z",
-      "description": "<p>If you build hardware, you have hit this: you have a BOM full of LCSC part codes<br> (<code>C1591</code>, <code>C25804</code>, the <code>C#####</code> numbers on every LCSC and JLCPCB line item), and you<br> want the <strong>live price ladder and stock</strong> as structured data — to cost a buil",
-      "source": "Dev.to Feed",
-      "category": "Development"
     },
     {
       "title": "A solid-state “atomic channel” for separating rare earth elements",
       "link": "https://pme.uchicago.edu/news-events/news/cleaner-route-purifying-rare-earth-elements",
       "pubDate": "2026-07-23T18:13:03.000Z",
-      "description": "Article URL: https://pme.uchicago.edu/news-events/news/cleaner-route-purifying-rare-earth-elements Comments URL: https://news.ycombinator.com/item?id=49025831 Points: 23 # Comments: 0",
+      "description": "Article URL: https://pme.uchicago.edu/news-events/news/cleaner-route-purifying-rare-earth-elements Comments URL: https://news.ycombinator.com/item?id=49025831 Points: 76 # Comments: 22",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Geekbench 7",
-      "link": "https://www.geekbench.com/blog/2026/07/geekbench-7/",
-      "pubDate": "2026-07-23T18:11:46.000Z",
-      "description": "Article URL: https://www.geekbench.com/blog/2026/07/geekbench-7/ Comments URL: https://news.ycombinator.com/item?id=49025812 Points: 16 # Comments: 8",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Show HN: Claude-thermos – keeps your Claude session warm for you",
+      "title": "Show HN: Claude-thermos keeps your Claude session warm for you",
       "link": "https://github.com/izeigerman/claude-thermos",
       "pubDate": "2026-07-23T17:06:22.000Z",
-      "description": "Article URL: https://github.com/izeigerman/claude-thermos Comments URL: https://news.ycombinator.com/item?id=49024882 Points: 26 # Comments: 19",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "What happened to TheNumbers.com",
-      "link": "https://stephenfollows.com/p/what-just-happened-to-thenumberscom-should-worry-us-all",
-      "pubDate": "2026-07-23T16:53:33.000Z",
-      "description": "Article URL: https://stephenfollows.com/p/what-just-happened-to-thenumberscom-should-worry-us-all Comments URL: https://news.ycombinator.com/item?id=49024691 Points: 156 # Comments: 58",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "The arguments against open source AI are bad",
-      "link": "https://tombedor.dev/arguments-against-open-source-ai-are-very-bad/",
-      "pubDate": "2026-07-23T16:49:57.000Z",
-      "description": "Article URL: https://tombedor.dev/arguments-against-open-source-ai-are-very-bad/ Comments URL: https://news.ycombinator.com/item?id=49024643 Points: 88 # Comments: 59",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Launch HN: Screenpipe (YC S26) – Record how you work and turn that into agents",
-      "link": "https://news.ycombinator.com/item?id=49024620",
-      "pubDate": "2026-07-23T16:48:38.000Z",
-      "description": "Hi Hacker News, I'm Louis. I built Screenpipe (https://screenpipe.com), an app that records your screen and audio locally (only!), and gives AI agents a searchable memory of what you've seen, said, and heard. This makes it easier to automate your repetitive tasks, turn them into SOPs (Standard Opera",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "JEP 540: Simple JSON API (Now in Incubator)",
-      "link": "https://openjdk.org/jeps/540",
-      "pubDate": "2026-07-23T16:01:02.000Z",
-      "description": "Article URL: https://openjdk.org/jeps/540 Comments URL: https://news.ycombinator.com/item?id=49023809 Points: 62 # Comments: 43",
+      "description": "Article URL: https://github.com/izeigerman/claude-thermos Comments URL: https://news.ycombinator.com/item?id=49024882 Points: 84 # Comments: 70",
       "source": "Hacker News",
       "category": "Tech News"
     },
