@@ -1,102 +1,115 @@
 {
-  "generatedAt": "2026-07-24T03:44:15.679Z",
+  "generatedAt": "2026-07-24T08:42:25.837Z",
   "sourceCount": 4,
-  "successCount": 4,
-  "errors": [],
+  "successCount": 3,
+  "errors": [
+    {
+      "source": "CSS Tricks",
+      "error": "HTTP 415 Unsupported Media Type"
+    }
+  ],
   "items": [
     {
-      "title": "How We Built a 153-Node Interactive Lore Graph for Black Myth: Zhong Kui Using D3.js and Astro",
-      "link": "https://dev.to/rambo586/how-we-built-a-153-node-interactive-lore-graph-for-black-myth-zhong-kui-using-d3js-and-astro-4cn6",
-      "pubDate": "2026-07-24T03:32:45.000Z",
-      "description": "<h2> The Challenge </h2> <p>Rendering a complex 153-concept-node, 1,200-edge mythic relationship topology for mobile devices without triggering main-thread layout thrashing or heavy client-side JavaScript execution.</p> <h2> The Technical Approach </h2> <ol> <li> <strong>Build-Time D3 Force Layout C",
+      "title": "Performance and Efficiency",
+      "link": "https://dev.to/amazonappdev/performance-and-efficiency-3o67",
+      "pubDate": "2026-07-24T08:36:29.000Z",
+      "description": "<h2> Performance matters </h2> <p>Performance is a quality dimension viewers will notice without measuring anything <a href=\"https://developer.amazon.com/apps-and-games/blogs/2025/03/achieving-app-quality-through-performance-and-stability\" rel=\"noopener noreferrer\">[1]</a> <a href=\"https://developer",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "What is a Forward-Deployed Engineer?",
-      "link": "https://dev.to/learnfde/what-is-a-forward-deployed-engineer-375h",
-      "pubDate": "2026-07-24T03:31:10.000Z",
-      "description": "<p>If you've been anywhere near AI job postings lately, you've seen the title: <strong>Forward-Deployed Engineer.</strong> Sometimes it's \"Deployment Engineer\" or \"Solutions Engineer\" or \"Applied AI Engineer.\" Sarvam is hiring more than a hundred of them. Palantir built a large part of its business ",
+      "title": "Insight and Telemetry",
+      "link": "https://dev.to/amazonappdev/insight-and-telemetry-33gm",
+      "pubDate": "2026-07-24T08:35:27.000Z",
+      "description": "<p>This pillar sets out the telemetry a streaming app needs to detect quality problems, trace them to a cause, and turn them into engineering decisions.</p> <p>Insight and Telemetry is the practice of making the viewer experience visible, measurable, and actionable across every stage of a playback s",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Bio-Tuning Glasses: Building an Invisible Biofeedback Interface with Edge AI and Adaptive Optics",
-      "link": "https://dev.to/alirezaai/bio-tuning-glasses-building-an-invisible-biofeedback-interface-with-edge-ai-and-adaptive-optics-2gmg",
-      "pubDate": "2026-07-24T03:13:52.000Z",
-      "description": "<h1> Bio-Tuning Glasses: Building an Invisible Biofeedback Interface with Edge AI and Adaptive Optics </h1> <p>What if smart glasses didn't constantly tell you how healthy—or unhealthy—you are?</p> <p>No step counts.<br> No stress notifications.<br> No endless dashboards.<br> No digital reminders te",
+      "title": "High-Quality Streaming Apps on Amazon Fire TV: Introducing the Blueprint",
+      "link": "https://dev.to/amazonappdev/high-quality-streaming-apps-on-amazon-fire-tv-introducing-the-blueprint-3k0f",
+      "pubDate": "2026-07-24T08:35:00.000Z",
+      "description": "<p>When viewers open a streaming app on Amazon Fire TV, they expect it to start quickly, be easy to navigate with a remote, and begin playback reliably. In a living-room environment, quality issues are visible immediately. If the app is slow, confusing, or unreliable, viewers may lose patience and l",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Treat Emergency AI Revocation as a Distributed Protocol",
-      "link": "https://dev.to/robinzzz/treat-emergency-ai-revocation-as-a-distributed-protocol-1ed5",
-      "pubDate": "2026-07-24T03:12:41.000Z",
-      "description": "<p>Controller A records revocation epoch 12. Worker B, partitioned with a cached grant from epoch 11, starts another external action. The database is correct and the system is unsafe. Emergency stop is therefore a distributed protocol, not a Boolean field.</p> <h2> What is verified </h2> <p>In its J",
+      "title": "Evenly schedule pods using Topology Spread Constraints in AWS EKS",
+      "link": "https://dev.to/aws-builders/evenly-schedule-pods-using-topology-spread-constraints-in-aws-eks-g8k",
+      "pubDate": "2026-07-24T08:33:32.000Z",
+      "description": "<p>The Kubernetes Topology Spread Constraints allow scheduling pods evenly across nodes, regions and availability zones. </p> <p>The following TopologySpreadConstraints ensure that at any given time, the difference in the number of pods between two nodes never exceeds 2.</p> <p>Instance: If you run ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Show the Evidence That an AI Action Approval Actually Covered",
-      "link": "https://dev.to/haaaaaley/show-the-evidence-that-an-ai-action-approval-actually-covered-mc9",
-      "pubDate": "2026-07-24T03:11:22.000Z",
-      "description": "<p>A reviewer approves “update dependencies,” but the system later interprets that as publishing a package. The human was present; meaningful approval was not. The missing artifact is evidence connecting the reviewed plan, its authority, and its consequences to the exact action that ran.</p> <h2> Wh",
+      "title": "I Built My Own Private Docker Registry with Zot and Backblaze B2",
+      "link": "https://dev.to/harshalranjhani/i-built-my-own-private-docker-registry-with-zot-and-backblaze-b2-1go0",
+      "pubDate": "2026-07-24T08:30:55.000Z",
+      "description": "<p><em>A practical guide to self-hosted Docker image hosting using Zot, Docker Compose, Backblaze B2, private access, RBAC, retention, audit logs, and GitHub Actions.</em></p> <p>I use Docker images for personal projects, client deployments, and services running on my own servers. At some point, I w",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "One video is worth a thousand pictures",
-      "link": "https://dev.to/mousheng_xu_e002b5fecf4ff/one-video-is-worth-a-thousand-pictures-36mf",
-      "pubDate": "2026-07-24T03:11:01.000Z",
-      "description": "<p><em>Turning entire novels into narrated, lip-synced, motion video — locally, on a single 16GB GPU, with FLUX, Wan2.2, PuLID, MuseTalk, and ComfyUI.</em></p> <p>There's an old line: a picture is worth a thousand words. I'd extend it — a video is worth a thousand pictures. So I spent the last few m",
+      "title": "A HAR file is an auth dump: a 30-second safe-sharing checklist",
+      "link": "https://dev.to/hannadevtools/a-har-file-is-an-auth-dump-a-30-second-safe-sharing-checklist-2h25",
+      "pubDate": "2026-07-24T08:27:58.000Z",
+      "description": "<p>When support asks for a HAR file, the request sounds harmless: reproduce the bug, export a log, attach it to a ticket.</p> <p>But a HAR is not just a performance trace. It can be a snapshot of an authenticated browser session.</p> <p>Depending on the page and workflow, it may contain:</p> <ul> <l",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Design a Mobile Kill Switch That Survives Backgrounding and Lost Networks",
-      "link": "https://dev.to/roronoa_/design-a-mobile-kill-switch-that-survives-backgrounding-and-lost-networks-26b8",
-      "pubDate": "2026-07-24T03:10:53.000Z",
-      "description": "<p>A user taps Stop, the phone loses connectivity, and the app moves to the background. Showing a green check would be false; showing nothing would abandon the user. Mobile needs a three-part truth: local intent recorded, server receipt received, revocation confirmed.</p> <h2> What is verified </h2>",
+      "title": "Grafana + Prometheus on a Raspberry Pi: Build a Telemetry Dashboard That Actually Stays Up",
+      "link": "https://dev.to/ericwoooo_kr/grafana-prometheus-on-a-raspberry-pi-build-a-telemetry-dashboard-that-actually-stays-up-37cl",
+      "pubDate": "2026-07-24T08:10:51.000Z",
+      "description": "<blockquote> <p><strong>TL;DR:</strong> The failure mode nobody warns you about with Raspberry Pi clusters: the service dies, you SSH in twenty minutes later, and <code>dmesg</code> shows the CPU was thermally throttling for two hours before the crash. No alert fired.</p> </blockquote> <p><em>📖 Rea",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Run the First 15 Minutes of an AI Evaluation Containment Incident",
-      "link": "https://dev.to/odd_background_328/run-the-first-15-minutes-of-an-ai-evaluation-containment-incident-1ng9",
-      "pubDate": "2026-07-24T03:10:46.000Z",
-      "description": "<p>At 14:02, egress policy logs show a benchmark runner requesting an unapproved destination. The first question is not “which model said what?” It is “which authority remains live, and what action removes it without destroying evidence?” This runbook turns that alert into an ordered response.</p> <",
+      "title": "The Person Who Fixed the Bugs Just Vanished",
+      "link": "https://dev.to/xulingfeng/the-person-who-fixed-the-bugs-just-vanished-34gm",
+      "pubDate": "2026-07-24T08:02:58.000Z",
+      "description": "<p>We've been testing a new project this week.</p> <p>The project's origin story is a mess. Upper management used AI to generate an HTML demo, then handed it to a team called \"Super Individual Department\" — a pure-AI coding unit they'd set up a few months ago. No product manager, no requirements doc",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Build an Accessible Emergency Stop for an AI Task",
-      "link": "https://dev.to/babycat/build-an-accessible-emergency-stop-for-an-ai-task-51h2",
-      "pubDate": "2026-07-24T03:10:27.000Z",
-      "description": "<p>The worst stop button is one that visually changes to “Stopped” while the task continues—and announces nothing to a screen-reader user. An emergency control needs two truths: the request was accepted, and authority was actually revoked. Those are separate interface states.</p> <h2> What is verifi",
+      "title": "How to get started with Web Accessibility in 2026",
+      "link": "https://dev.to/josefine/how-to-get-started-with-web-accessibility-in-2026-2o6p",
+      "pubDate": "2026-07-24T08:01:31.000Z",
+      "description": "<p>Pretty much exactly four years ago, I shared an article about <a href=\"https://dev.to/storyblok/5-places-to-get-started-with-web-accessibility-ba4\">5 places to get started with Web Accessibility</a> - and while much of that still holds, the web and the way we code have also changed quite a bit in",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Put AI Agent Actions Behind an Approval Gate From API to Worker",
-      "link": "https://dev.to/kongkong1/put-ai-agent-actions-behind-an-approval-gate-from-api-to-worker-lak",
-      "pubDate": "2026-07-24T03:10:13.000Z",
-      "description": "<p>A user presses Approve, but the worker receives a changed plan five seconds later. If approval is just a Boolean on a job row, the application authorized something the reviewer never saw. Emergency stopping starts with a stronger end-to-end contract: approval binds an exact plan to limited author",
+      "title": "I Was Optimizing Ranking While the Real Problem Was Selection",
+      "link": "https://dev.to/valerykot/i-was-optimizing-ranking-while-the-real-problem-was-selection-3p0k",
+      "pubDate": "2026-07-24T08:00:08.000Z",
+      "description": "<p><em>I mistook movement for improvement.</em></p> <p>For three months, I changed our ranking algorithm every two weeks.</p> <ul> <li>BM25.</li> <li>Hybrid BM25 + vector search.</li> <li>A cross-encoder reranker.</li> <li>A different embedding model.</li> <li>Yet another embedding model.</li> </ul>",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The Corporate Creep of Plex: Why it may be time to move to Jellyfin",
-      "link": "https://reprodev.com/the-corporate-creep-of-plex-why-it-may-be-time-to-move-to-jellyfin-and-the-open-source-reality/",
-      "pubDate": "2026-07-24T02:18:23.000Z",
-      "description": "Article URL: https://reprodev.com/the-corporate-creep-of-plex-why-it-may-be-time-to-move-to-jellyfin-and-the-open-source-reality/ Comments URL: https://news.ycombinator.com/item?id=49030547 Points: 10 # Comments: 5",
+      "title": "The PImpl idiom and the C++26 std:indirect type",
+      "link": "https://mariusbancila.ro/blog/2026/07/23/the-pimpl-idiom-and-the-cpp26-stdindirect-type/",
+      "pubDate": "2026-07-24T07:02:43.000Z",
+      "description": "Article URL: https://mariusbancila.ro/blog/2026/07/23/the-pimpl-idiom-and-the-cpp26-stdindirect-type/ Comments URL: https://news.ycombinator.com/item?id=49032095 Points: 31 # Comments: 27",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Police Removed Prominent Scientists from the ADA Meeting. Researchers Respond",
-      "link": "https://www.the-scientist.com/police-removed-prominent-scientists-from-the-ada-meeting-researchers-respond-74607",
-      "pubDate": "2026-07-24T02:06:31.000Z",
-      "description": "Article URL: https://www.the-scientist.com/police-removed-prominent-scientists-from-the-ada-meeting-researchers-respond-74607 Comments URL: https://news.ycombinator.com/item?id=49030474 Points: 29 # Comments: 8",
+      "title": "Flux 3",
+      "link": "https://bfl.ai/blog/flux-3",
+      "pubDate": "2026-07-24T06:17:08.000Z",
+      "description": "Article URL: https://bfl.ai/blog/flux-3 Comments URL: https://news.ycombinator.com/item?id=49031796 Points: 177 # Comments: 44",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Claude Cookbook",
+      "link": "https://platform.claude.com/cookbook/",
+      "pubDate": "2026-07-24T05:09:15.000Z",
+      "description": "Article URL: https://platform.claude.com/cookbook/ Comments URL: https://news.ycombinator.com/item?id=49031409 Points: 17 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -104,15 +117,7 @@
       "title": "The Visual 6502",
       "link": "http://visual6502.org/JSSim/index.html",
       "pubDate": "2026-07-23T23:36:42.000Z",
-      "description": "Article URL: http://visual6502.org/JSSim/index.html Comments URL: https://news.ycombinator.com/item?id=49029538 Points: 66 # Comments: 19",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "A taxonomy of omnicidal futures involving artificial intelligence (2025)",
-      "link": "https://arxiv.org/abs/2507.09369",
-      "pubDate": "2026-07-23T22:51:13.000Z",
-      "description": "Article URL: https://arxiv.org/abs/2507.09369 Comments URL: https://news.ycombinator.com/item?id=49029133 Points: 62 # Comments: 50",
+      "description": "Article URL: http://visual6502.org/JSSim/index.html Comments URL: https://news.ycombinator.com/item?id=49029538 Points: 90 # Comments: 22",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -120,7 +125,7 @@
       "title": "98.css",
       "link": "https://jdan.github.io/98.css/#status-bar",
       "pubDate": "2026-07-23T22:30:29.000Z",
-      "description": "Article URL: https://jdan.github.io/98.css/#status-bar Comments URL: https://news.ycombinator.com/item?id=49028927 Points: 312 # Comments: 63",
+      "description": "Article URL: https://jdan.github.io/98.css/#status-bar Comments URL: https://news.ycombinator.com/item?id=49028927 Points: 454 # Comments: 107",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -128,7 +133,7 @@
       "title": "Mourning Dan Williams",
       "link": "https://lwn.net/Articles/1084545/",
       "pubDate": "2026-07-23T19:46:28.000Z",
-      "description": "Article URL: https://lwn.net/Articles/1084545/ Comments URL: https://news.ycombinator.com/item?id=49027052 Points: 38 # Comments: 0",
+      "description": "Article URL: https://lwn.net/Articles/1084545/ Comments URL: https://news.ycombinator.com/item?id=49027052 Points: 68 # Comments: 1",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -144,7 +149,7 @@
       "title": "Building on ATProto",
       "link": "https://lukekanies.com/writing/building-on-atproto/",
       "pubDate": "2026-07-23T18:23:50.000Z",
-      "description": "Article URL: https://lukekanies.com/writing/building-on-atproto/ Comments URL: https://news.ycombinator.com/item?id=49025984 Points: 137 # Comments: 66",
+      "description": "Article URL: https://lukekanies.com/writing/building-on-atproto/ Comments URL: https://news.ycombinator.com/item?id=49025984 Points: 155 # Comments: 76",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -152,97 +157,17 @@
       "title": "A solid-state “atomic channel” for separating rare earth elements",
       "link": "https://pme.uchicago.edu/news-events/news/cleaner-route-purifying-rare-earth-elements",
       "pubDate": "2026-07-23T18:13:03.000Z",
-      "description": "Article URL: https://pme.uchicago.edu/news-events/news/cleaner-route-purifying-rare-earth-elements Comments URL: https://news.ycombinator.com/item?id=49025831 Points: 76 # Comments: 22",
+      "description": "Article URL: https://pme.uchicago.edu/news-events/news/cleaner-route-purifying-rare-earth-elements Comments URL: https://news.ycombinator.com/item?id=49025831 Points: 90 # Comments: 25",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Show HN: Claude-thermos keeps your Claude session warm for you",
-      "link": "https://github.com/izeigerman/claude-thermos",
-      "pubDate": "2026-07-23T17:06:22.000Z",
-      "description": "Article URL: https://github.com/izeigerman/claude-thermos Comments URL: https://news.ycombinator.com/item?id=49024882 Points: 84 # Comments: 70",
+      "title": "Why Sony can't bring back its classic Walkman models",
+      "link": "https://obsoletesony.substack.com/p/why-sony-cant-bring-back-classic-walkman",
+      "pubDate": "2026-07-23T18:08:29.000Z",
+      "description": "Article URL: https://obsoletesony.substack.com/p/why-sony-cant-bring-back-classic-walkman Comments URL: https://news.ycombinator.com/item?id=49025766 Points: 106 # Comments: 104",
       "source": "Hacker News",
       "category": "Tech News"
-    },
-    {
-      "title": "writing-mode",
-      "link": "https://css-tricks.com/almanac/properties/w/writing-mode/",
-      "pubDate": "2026-07-21T09:39:10.000Z",
-      "description": "The writing-mode CSS property sets whether lines of text are laid out horizontally or vertically, and the direction in which blocks and lines progress. .element { writing-mode: vertical-rl; } This is most useful in languages such as Chinese, Japanese or … writing-mode originally handwritten and publ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "pointer-events",
-      "link": "https://css-tricks.com/almanac/properties/p/pointer-events/",
-      "pubDate": "2026-07-15T19:57:51.000Z",
-      "description": "The pointer-events property controls whether an element can become the target of pointer events like clicks, hover states, and other pointer-based events. In other words, it lets you decide whether the browser should treat an element as interactive when the … pointer-events originally handwritten an",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "What’s !important #15: Boundary-aware CSS, Time-based CSS, Full-bleed CSS, and More",
-      "link": "https://css-tricks.com/whats-important-15/",
-      "pubDate": "2026-07-15T14:36:18.000Z",
-      "description": "Read all about boundary-aware CSS, accessible grid lanes, time-based web designs, full-bleed, the customizable select, and new web platform features. What’s !important #15: Boundary-aware CSS, Time-based CSS, Full-bleed CSS, and More originally handwritten and published with love on CSS-Tricks. You ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Get Ready For the Powerful CSS border-shape Property!",
-      "link": "https://css-tricks.com/get-ready-for-the-powerful-css-border-shape-property/",
-      "pubDate": "2026-07-07T15:14:00.000Z",
-      "description": "We recently got the shape() function and corner-shape property. What else could we possibly need as far as making shapes in CSS? Let me tell you: the border-shape property! Get Ready For the Powerful CSS border-shape Property! originally handwritten and published with love on CSS-Tricks. You should ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "What’s !important #14: Gap Decorations, random(), &#060;select&gt; field-sizing, and More",
-      "link": "https://css-tricks.com/whats-important-14/",
-      "pubDate": "2026-06-30T13:54:14.000Z",
-      "description": "I know you’re busy, so for What’s !important #14, I’ll be sprinting through what’s been a stacked couple of weeks despite few browser updates. From CSS Quake to CSS Gap Decorations, this isn’t one to miss! What’s !important #14: Gap Decorations, random(), <select> field-sizing, and More originally h",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "The Shifting Line Between CSS States and JavaScript Events",
-      "link": "https://css-tricks.com/css-states-and-javascript-events/",
-      "pubDate": "2026-06-29T13:03:32.000Z",
-      "description": "CSS has always had pseudo-classes that style things based on user interactions. Recent features, however, are blurring the line between what CSS \"listens\" for and how they are alternatives to what Javascript typically listens for. The Shifting Line Between CSS States and JavaScript Events originally",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translateZ()",
-      "link": "https://css-tricks.com/almanac/functions/t/translatez/",
-      "pubDate": "2026-06-25T13:18:56.000Z",
-      "description": "The translateZ() function moves an element closer to or farther from the user. translateZ() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translateY()",
-      "link": "https://css-tricks.com/almanac/functions/t/translatey/",
-      "pubDate": "2026-06-25T13:17:56.000Z",
-      "description": "The translateY() function shifts an element vertically by the specified amount. translateY() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translateX()",
-      "link": "https://css-tricks.com/almanac/functions/t/translatex/",
-      "pubDate": "2026-06-25T13:16:01.000Z",
-      "description": "The translateX() function shifts an element horizontally by the specified amount. translateX() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translate()",
-      "link": "https://css-tricks.com/almanac/functions/t/translate/",
-      "pubDate": "2026-06-25T13:15:05.000Z",
-      "description": "The CSS translate() function shifts an element from its default position on a 2-dimensional plane translate() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
     },
     {
       "title": "Meet the HTB Profile: all your skills, in one place",
