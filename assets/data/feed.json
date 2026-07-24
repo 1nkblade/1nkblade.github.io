@@ -1,173 +1,248 @@
 {
-  "generatedAt": "2026-07-24T08:42:25.837Z",
+  "generatedAt": "2026-07-24T14:12:45.344Z",
   "sourceCount": 4,
-  "successCount": 3,
-  "errors": [
-    {
-      "source": "CSS Tricks",
-      "error": "HTTP 415 Unsupported Media Type"
-    }
-  ],
+  "successCount": 4,
+  "errors": [],
   "items": [
     {
-      "title": "Performance and Efficiency",
-      "link": "https://dev.to/amazonappdev/performance-and-efficiency-3o67",
-      "pubDate": "2026-07-24T08:36:29.000Z",
-      "description": "<h2> Performance matters </h2> <p>Performance is a quality dimension viewers will notice without measuring anything <a href=\"https://developer.amazon.com/apps-and-games/blogs/2025/03/achieving-app-quality-through-performance-and-stability\" rel=\"noopener noreferrer\">[1]</a> <a href=\"https://developer",
+      "title": "Edge-First Revolution: Reclaiming Data Sovereignty in Cybersecurity",
+      "link": "https://dev.to/hookprobe/edge-first-revolution-reclaiming-data-sovereignty-in-cybersecurity-4ail",
+      "pubDate": "2026-07-24T14:02:51.000Z",
+      "description": "<h2> The Edge-First Revolution: Why Data Sovereignty Must Start at the Edge </h2> <p>The traditional security model—backhauling all telemetry to a centralized cloud SIEM—is collapsing under its own weight. In 2024-25, edge-generated telemetry surged over 300%, driven by AI-enabled sensors, autonomou",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Insight and Telemetry",
-      "link": "https://dev.to/amazonappdev/insight-and-telemetry-33gm",
-      "pubDate": "2026-07-24T08:35:27.000Z",
-      "description": "<p>This pillar sets out the telemetry a streaming app needs to detect quality problems, trace them to a cause, and turn them into engineering decisions.</p> <p>Insight and Telemetry is the practice of making the viewer experience visible, measurable, and actionable across every stage of a playback s",
+      "title": "Agent vocal IA sous 500 ms : l'architecture réelle STT LLM TTS",
+      "link": "https://dev.to/hernanz/agent-vocal-ia-sous-500-ms-larchitecture-reelle-stt-llm-tts-cnc",
+      "pubDate": "2026-07-24T14:02:24.000Z",
+      "description": "<p><strong>500 ms.</strong> C'est le budget total entre l'instant où l'appelant se tait et le premier son de la réponse. Au-delà de 800 ms, l'oreille décroche : la conversation sonne robotique, l'appelant coupe la parole ou raccroche.</p> <p>Un agent vocal pour le service client, c'est trois briques",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "High-Quality Streaming Apps on Amazon Fire TV: Introducing the Blueprint",
-      "link": "https://dev.to/amazonappdev/high-quality-streaming-apps-on-amazon-fire-tv-introducing-the-blueprint-3k0f",
-      "pubDate": "2026-07-24T08:35:00.000Z",
-      "description": "<p>When viewers open a streaming app on Amazon Fire TV, they expect it to start quickly, be easy to navigate with a remote, and begin playback reliably. In a living-room environment, quality issues are visible immediately. If the app is slow, confusing, or unreliable, viewers may lose patience and l",
+      "title": "Sinch from the Command Line: Numbers, Calls, Messages, Logs",
+      "link": "https://dev.to/gunnargrosch/sinch-from-the-command-line-numbers-calls-messages-logs-3eg2",
+      "pubDate": "2026-07-24T14:01:52.000Z",
+      "description": "<p>In <a href=\"https://gunnargrosch.com/posts/getting-started-with-sinch-functions\" rel=\"noopener noreferrer\">my previous post</a> on Sinch Functions, I kept reaching for the CLI to test things. At some point I realized I'd been treating <code>@sinch/cli</code> as a Functions tool when it actually c",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Evenly schedule pods using Topology Spread Constraints in AWS EKS",
-      "link": "https://dev.to/aws-builders/evenly-schedule-pods-using-topology-spread-constraints-in-aws-eks-g8k",
-      "pubDate": "2026-07-24T08:33:32.000Z",
-      "description": "<p>The Kubernetes Topology Spread Constraints allow scheduling pods evenly across nodes, regions and availability zones. </p> <p>The following TopologySpreadConstraints ensure that at any given time, the difference in the number of pods between two nodes never exceeds 2.</p> <p>Instance: If you run ",
+      "title": "How to Detect Typekit (Adobe Fonts) on Any Website (2026)",
+      "link": "https://dev.to/detectzestack/how-to-detect-typekit-adobe-fonts-on-any-website-2026-58o6",
+      "pubDate": "2026-07-24T14:01:20.000Z",
+      "description": "<p>Typekit has not officially existed since 2018, and yet it is still one of the most-detected font technologies on the web. That is because when Adobe rebranded the service to Adobe Fonts, the serving infrastructure kept its old hostnames: every site using it today still loads a stylesheet from <co",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I Built My Own Private Docker Registry with Zot and Backblaze B2",
-      "link": "https://dev.to/harshalranjhani/i-built-my-own-private-docker-registry-with-zot-and-backblaze-b2-1go0",
-      "pubDate": "2026-07-24T08:30:55.000Z",
-      "description": "<p><em>A practical guide to self-hosted Docker image hosting using Zot, Docker Compose, Backblaze B2, private access, RBAC, retention, audit logs, and GitHub Actions.</em></p> <p>I use Docker images for personal projects, client deployments, and services running on my own servers. At some point, I w",
+      "title": "You Think You're Doing Localization. You're Actually Making Decisions for Your Users.",
+      "link": "https://dev.to/icophy/you-think-youre-doing-localization-youre-actually-making-decisions-for-your-users-5fcl",
+      "pubDate": "2026-07-24T14:01:17.000Z",
+      "description": "<p>Yesterday afternoon, Peng showed wwwfate to his partner.</p> <p>The product had just been built: pet name generation. Upload a photo, pick a few options, and the AI gives you a set of names. He walked her through the flow. She watched for a moment, then asked:</p> <p>\"What if Chinese users actual",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "A HAR file is an auth dump: a 30-second safe-sharing checklist",
-      "link": "https://dev.to/hannadevtools/a-har-file-is-an-auth-dump-a-30-second-safe-sharing-checklist-2h25",
-      "pubDate": "2026-07-24T08:27:58.000Z",
-      "description": "<p>When support asks for a HAR file, the request sounds harmless: reproduce the bug, export a log, attach it to a ticket.</p> <p>But a HAR is not just a performance trace. It can be a snapshot of an authenticated browser session.</p> <p>Depending on the page and workflow, it may contain:</p> <ul> <l",
+      "title": "Enrich a CRM lead from nothing but a domain",
+      "link": "https://dev.to/clausenetizen/enrich-a-crm-lead-from-nothing-but-a-domain-3nfo",
+      "pubDate": "2026-07-24T14:00:45.000Z",
+      "description": "<p>A lead comes in with a company website and not much else. You need their tech stack to know if they're worth a demo, their Twitter and LinkedIn for the SDR to reference, and any public contact email so the record isn't a dead end. Doing that by hand takes a few minutes per lead, and it does not s",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Grafana + Prometheus on a Raspberry Pi: Build a Telemetry Dashboard That Actually Stays Up",
-      "link": "https://dev.to/ericwoooo_kr/grafana-prometheus-on-a-raspberry-pi-build-a-telemetry-dashboard-that-actually-stays-up-37cl",
-      "pubDate": "2026-07-24T08:10:51.000Z",
-      "description": "<blockquote> <p><strong>TL;DR:</strong> The failure mode nobody warns you about with Raspberry Pi clusters: the service dies, you SSH in twenty minutes later, and <code>dmesg</code> shows the CPU was thermally throttling for two hours before the crash. No alert fired.</p> </blockquote> <p><em>📖 Rea",
+      "title": "The leads were in the table. The automation never saw them.",
+      "link": "https://dev.to/mike_clarke_50a95013f5c59/the-leads-were-in-the-table-the-automation-never-saw-them-24o",
+      "pubDate": "2026-07-24T14:00:12.000Z",
+      "description": "<p>There were two groups of leads sitting in <code>contacted</code> state. One group was getting follow-up emails, call tasks, the whole sequence. The other group was getting nothing — indefinitely.</p> <p>Same status. Same table. Different outcomes. No errors anywhere.</p> <p><strong>Key Takeaways<",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The Person Who Fixed the Bugs Just Vanished",
-      "link": "https://dev.to/xulingfeng/the-person-who-fixed-the-bugs-just-vanished-34gm",
-      "pubDate": "2026-07-24T08:02:58.000Z",
-      "description": "<p>We've been testing a new project this week.</p> <p>The project's origin story is a mess. Upper management used AI to generate an HTML demo, then handed it to a team called \"Super Individual Department\" — a pure-AI coding unit they'd set up a few months ago. No product manager, no requirements doc",
+      "title": "Why Your Multi-Agent AI System Keeps Getting Stuck in Infinite Loops (And How We Fixed It)",
+      "link": "https://dev.to/shahdinsalman/why-your-multi-agent-ai-system-keeps-getting-stuck-in-infinite-loops-and-how-we-fixed-it-4ek1",
+      "pubDate": "2026-07-24T13:56:07.000Z",
+      "description": "<p>Autonomous AI agents love talking to each other until they get stuck in a cyclic feedback loop and drain your API budget in 10 minutes. Here is the deterministic orchestration pattern we use at <a href=\"https://spaceai360.com/\" rel=\"noopener noreferrer\">SpaceAI360</a>.</p> <p>When developers star",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How to get started with Web Accessibility in 2026",
-      "link": "https://dev.to/josefine/how-to-get-started-with-web-accessibility-in-2026-2o6p",
-      "pubDate": "2026-07-24T08:01:31.000Z",
-      "description": "<p>Pretty much exactly four years ago, I shared an article about <a href=\"https://dev.to/storyblok/5-places-to-get-started-with-web-accessibility-ba4\">5 places to get started with Web Accessibility</a> - and while much of that still holds, the web and the way we code have also changed quite a bit in",
+      "title": "How we solved 502 Read Timeouts on slow reasoning LLM APIs using SSE Stream Aggregation in Python",
+      "link": "https://dev.to/alessandro_pioli_5fcab5ea/how-we-solved-502-read-timeouts-on-slow-reasoning-llm-apis-using-sse-stream-aggregation-in-python-1g36",
+      "pubDate": "2026-07-24T13:44:05.000Z",
+      "description": "<p>Hi everyone!<br> Managing multiple LLM providers, rate limits, and API downtime while keeping latency and costs low became a hassle, so I built llmproxy.<br> What it does:<br> ⚡ Response Caching: Reduces duplicate requests and cuts API costs.<br> 🔄 Automatic Failover: Seamlessly fallbacks to bac",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I Was Optimizing Ranking While the Real Problem Was Selection",
-      "link": "https://dev.to/valerykot/i-was-optimizing-ranking-while-the-real-problem-was-selection-3p0k",
-      "pubDate": "2026-07-24T08:00:08.000Z",
-      "description": "<p><em>I mistook movement for improvement.</em></p> <p>For three months, I changed our ranking algorithm every two weeks.</p> <ul> <li>BM25.</li> <li>Hybrid BM25 + vector search.</li> <li>A cross-encoder reranker.</li> <li>A different embedding model.</li> <li>Yet another embedding model.</li> </ul>",
+      "title": "The NuGet gap Shai-Hulud exposed — and what we built to close part of it)",
+      "link": "https://dev.to/abel-dev/the-nuget-gap-shai-hulud-exposed-and-what-we-built-to-close-part-of-it-3k2j",
+      "pubDate": "2026-07-24T13:44:04.000Z",
+      "description": "<p>In September 2025, security researchers disclosed Shai-Hulud: a self-propagating worm that spread through the npm ecosystem by stealing maintainer credentials and using them to publish malicious versions of legitimate packages. CISA issued an alert within the week. By the time the dust settled, r",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The PImpl idiom and the C++26 std:indirect type",
-      "link": "https://mariusbancila.ro/blog/2026/07/23/the-pimpl-idiom-and-the-cpp26-stdindirect-type/",
-      "pubDate": "2026-07-24T07:02:43.000Z",
-      "description": "Article URL: https://mariusbancila.ro/blog/2026/07/23/the-pimpl-idiom-and-the-cpp26-stdindirect-type/ Comments URL: https://news.ycombinator.com/item?id=49032095 Points: 31 # Comments: 27",
+      "title": "Patreon laying off 20% of staff",
+      "link": "https://www.patreon.com/jackconte/posts/painful-update-164628951",
+      "pubDate": "2026-07-24T13:02:49.000Z",
+      "description": "Article URL: https://www.patreon.com/jackconte/posts/painful-update-164628951 Comments URL: https://news.ycombinator.com/item?id=49034948 Points: 86 # Comments: 99",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Flux 3",
-      "link": "https://bfl.ai/blog/flux-3",
-      "pubDate": "2026-07-24T06:17:08.000Z",
-      "description": "Article URL: https://bfl.ai/blog/flux-3 Comments URL: https://news.ycombinator.com/item?id=49031796 Points: 177 # Comments: 44",
+      "title": "Ah, the Codeberg Drama",
+      "link": "https://gagliardoni.net/#20260724_codeberg_drama",
+      "pubDate": "2026-07-24T13:00:18.000Z",
+      "description": "Article URL: https://gagliardoni.net/#20260724_codeberg_drama Comments URL: https://news.ycombinator.com/item?id=49034928 Points: 28 # Comments: 18",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Claude Cookbook",
-      "link": "https://platform.claude.com/cookbook/",
-      "pubDate": "2026-07-24T05:09:15.000Z",
-      "description": "Article URL: https://platform.claude.com/cookbook/ Comments URL: https://news.ycombinator.com/item?id=49031409 Points: 17 # Comments: 0",
+      "title": "Em dashes are fucking amazing",
+      "link": "https://psychotechnology.substack.com/p/em-dashes-are-fucking-amazing",
+      "pubDate": "2026-07-24T12:40:27.000Z",
+      "description": "Article URL: https://psychotechnology.substack.com/p/em-dashes-are-fucking-amazing Comments URL: https://news.ycombinator.com/item?id=49034747 Points: 65 # Comments: 62",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "The Visual 6502",
-      "link": "http://visual6502.org/JSSim/index.html",
-      "pubDate": "2026-07-23T23:36:42.000Z",
-      "description": "Article URL: http://visual6502.org/JSSim/index.html Comments URL: https://news.ycombinator.com/item?id=49029538 Points: 90 # Comments: 22",
+      "title": "Programming language file extensions that match ISO 3166-1 alpha-2 country code",
+      "link": "https://www.bruh.ltd/blog/programming-language-file-extensions-that-match-an-iso-3166-1-alpha-2-country-code/",
+      "pubDate": "2026-07-24T12:34:28.000Z",
+      "description": "Article URL: https://www.bruh.ltd/blog/programming-language-file-extensions-that-match-an-iso-3166-1-alpha-2-country-code/ Comments URL: https://news.ycombinator.com/item?id=49034673 Points: 17 # Comments: 6",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "98.css",
-      "link": "https://jdan.github.io/98.css/#status-bar",
-      "pubDate": "2026-07-23T22:30:29.000Z",
-      "description": "Article URL: https://jdan.github.io/98.css/#status-bar Comments URL: https://news.ycombinator.com/item?id=49028927 Points: 454 # Comments: 107",
+      "title": "Why is programming so captivating, yet so agonizing?",
+      "link": "https://elsewhere.news/en/zhenfund/why-is-programming-so-captivating-yet-so-agonizing",
+      "pubDate": "2026-07-24T12:15:11.000Z",
+      "description": "Article URL: https://elsewhere.news/en/zhenfund/why-is-programming-so-captivating-yet-so-agonizing Comments URL: https://news.ycombinator.com/item?id=49034468 Points: 15 # Comments: 5",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Mourning Dan Williams",
-      "link": "https://lwn.net/Articles/1084545/",
-      "pubDate": "2026-07-23T19:46:28.000Z",
-      "description": "Article URL: https://lwn.net/Articles/1084545/ Comments URL: https://news.ycombinator.com/item?id=49027052 Points: 68 # Comments: 1",
+      "title": "I Tried Building a Real App with AI. It Took a Year",
+      "link": "https://www.alexhyett.com/videos/tried-building-app-with-ai-it-took-a-year/",
+      "pubDate": "2026-07-24T12:00:17.000Z",
+      "description": "Article URL: https://www.alexhyett.com/videos/tried-building-app-with-ai-it-took-a-year/ Comments URL: https://news.ycombinator.com/item?id=49034342 Points: 50 # Comments: 45",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Show HN: Echo – Fable-level results at 1/3 the cost using open-weight models",
-      "link": "https://news.ycombinator.com/item?id=49026810",
-      "pubDate": "2026-07-23T19:26:01.000Z",
-      "description": "I’ve been building Echo (https://echo.tracerml.ai/), an experiment in making one AI system out of a pool of open-weight models rather than choosing a single model and using it for every task.It started with a simple experiment. I took a group of models, including GLM-5.2, Kimi K2.7 and others, and r",
+      "title": "My security camera shipped a GitHub admin token in its login page",
+      "link": "https://hhh.hn/hanwha-github-token/",
+      "pubDate": "2026-07-24T11:54:41.000Z",
+      "description": "Article URL: https://hhh.hn/hanwha-github-token/ Comments URL: https://news.ycombinator.com/item?id=49034292 Points: 47 # Comments: 10",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Building on ATProto",
-      "link": "https://lukekanies.com/writing/building-on-atproto/",
-      "pubDate": "2026-07-23T18:23:50.000Z",
-      "description": "Article URL: https://lukekanies.com/writing/building-on-atproto/ Comments URL: https://news.ycombinator.com/item?id=49025984 Points: 155 # Comments: 76",
+      "title": "The IBM PC, Part 1: Arrival",
+      "link": "https://technicshistory.com/2026/07/24/the-ibm-pc-part-1-arrival/",
+      "pubDate": "2026-07-24T11:13:59.000Z",
+      "description": "Article URL: https://technicshistory.com/2026/07/24/the-ibm-pc-part-1-arrival/ Comments URL: https://news.ycombinator.com/item?id=49033916 Points: 27 # Comments: 6",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "A solid-state “atomic channel” for separating rare earth elements",
-      "link": "https://pme.uchicago.edu/news-events/news/cleaner-route-purifying-rare-earth-elements",
-      "pubDate": "2026-07-23T18:13:03.000Z",
-      "description": "Article URL: https://pme.uchicago.edu/news-events/news/cleaner-route-purifying-rare-earth-elements Comments URL: https://news.ycombinator.com/item?id=49025831 Points: 90 # Comments: 25",
+      "title": "Game of Trees – Git-based version control from OpenBSD folks",
+      "link": "https://www.gameoftrees.org/",
+      "pubDate": "2026-07-24T10:15:29.000Z",
+      "description": "Article URL: https://www.gameoftrees.org/ Comments URL: https://news.ycombinator.com/item?id=49033412 Points: 26 # Comments: 1",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Why Sony can't bring back its classic Walkman models",
-      "link": "https://obsoletesony.substack.com/p/why-sony-cant-bring-back-classic-walkman",
-      "pubDate": "2026-07-23T18:08:29.000Z",
-      "description": "Article URL: https://obsoletesony.substack.com/p/why-sony-cant-bring-back-classic-walkman Comments URL: https://news.ycombinator.com/item?id=49025766 Points: 106 # Comments: 104",
+      "title": "How Do We Stop Vibe Coding?",
+      "link": "https://alexklos.ca/blog/how-do-we-stop-vibe-coding",
+      "pubDate": "2026-07-24T10:12:39.000Z",
+      "description": "Article URL: https://alexklos.ca/blog/how-do-we-stop-vibe-coding Comments URL: https://news.ycombinator.com/item?id=49033388 Points: 18 # Comments: 15",
       "source": "Hacker News",
       "category": "Tech News"
+    },
+    {
+      "title": "writing-mode",
+      "link": "https://css-tricks.com/almanac/properties/w/writing-mode/",
+      "pubDate": "2026-07-21T09:39:10.000Z",
+      "description": "The writing-mode CSS property sets whether lines of text are laid out horizontally or vertically, and the direction in which blocks and lines progress. .element { writing-mode: vertical-rl; } This is most useful in languages such as Chinese, Japanese or … writing-mode originally handwritten and publ",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "pointer-events",
+      "link": "https://css-tricks.com/almanac/properties/p/pointer-events/",
+      "pubDate": "2026-07-15T19:57:51.000Z",
+      "description": "The pointer-events property controls whether an element can become the target of pointer events like clicks, hover states, and other pointer-based events. In other words, it lets you decide whether the browser should treat an element as interactive when the … pointer-events originally handwritten an",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "What’s !important #15: Boundary-aware CSS, Time-based CSS, Full-bleed CSS, and More",
+      "link": "https://css-tricks.com/whats-important-15/",
+      "pubDate": "2026-07-15T14:36:18.000Z",
+      "description": "Read all about boundary-aware CSS, accessible grid lanes, time-based web designs, full-bleed, the customizable select, and new web platform features. What’s !important #15: Boundary-aware CSS, Time-based CSS, Full-bleed CSS, and More originally handwritten and published with love on CSS-Tricks. You ",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Get Ready For the Powerful CSS border-shape Property!",
+      "link": "https://css-tricks.com/get-ready-for-the-powerful-css-border-shape-property/",
+      "pubDate": "2026-07-07T15:14:00.000Z",
+      "description": "We recently got the shape() function and corner-shape property. What else could we possibly need as far as making shapes in CSS? Let me tell you: the border-shape property! Get Ready For the Powerful CSS border-shape Property! originally handwritten and published with love on CSS-Tricks. You should ",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "What’s !important #14: Gap Decorations, random(), &#060;select&gt; field-sizing, and More",
+      "link": "https://css-tricks.com/whats-important-14/",
+      "pubDate": "2026-06-30T13:54:14.000Z",
+      "description": "I know you’re busy, so for What’s !important #14, I’ll be sprinting through what’s been a stacked couple of weeks despite few browser updates. From CSS Quake to CSS Gap Decorations, this isn’t one to miss! What’s !important #14: Gap Decorations, random(), <select> field-sizing, and More originally h",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "The Shifting Line Between CSS States and JavaScript Events",
+      "link": "https://css-tricks.com/css-states-and-javascript-events/",
+      "pubDate": "2026-06-29T13:03:32.000Z",
+      "description": "CSS has always had pseudo-classes that style things based on user interactions. Recent features, however, are blurring the line between what CSS \"listens\" for and how they are alternatives to what Javascript typically listens for. The Shifting Line Between CSS States and JavaScript Events originally",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "translateZ()",
+      "link": "https://css-tricks.com/almanac/functions/t/translatez/",
+      "pubDate": "2026-06-25T13:18:56.000Z",
+      "description": "The translateZ() function moves an element closer to or farther from the user. translateZ() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "translateY()",
+      "link": "https://css-tricks.com/almanac/functions/t/translatey/",
+      "pubDate": "2026-06-25T13:17:56.000Z",
+      "description": "The translateY() function shifts an element vertically by the specified amount. translateY() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "translateX()",
+      "link": "https://css-tricks.com/almanac/functions/t/translatex/",
+      "pubDate": "2026-06-25T13:16:01.000Z",
+      "description": "The translateX() function shifts an element horizontally by the specified amount. translateX() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "translate()",
+      "link": "https://css-tricks.com/almanac/functions/t/translate/",
+      "pubDate": "2026-06-25T13:15:05.000Z",
+      "description": "The CSS translate() function shifts an element from its default position on a 2-dimensional plane translate() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
       "title": "Meet the HTB Profile: all your skills, in one place",
