@@ -1,94 +1,139 @@
 {
-  "generatedAt": "2026-07-25T08:23:57.403Z",
+  "generatedAt": "2026-07-25T14:01:54.005Z",
   "sourceCount": 4,
-  "successCount": 4,
-  "errors": [],
+  "successCount": 3,
+  "errors": [
+    {
+      "source": "CSS Tricks",
+      "error": "HTTP 415 Unsupported Media Type"
+    }
+  ],
   "items": [
     {
-      "title": "Voice Cloning: Sample Quality Beats Sample Length, and Prosody Beats Both",
-      "link": "https://dev.to/clarajbennett/voice-cloning-sample-quality-beats-sample-length-and-prosody-beats-both-48eb",
-      "pubDate": "2026-07-25T08:11:43.000Z",
-      "description": "<p>The hardest part of a personalized read-aloud picture book isn't generating a voice that sounds like the parent. Current zero-shot TTS clears that bar with a surprisingly short reference clip. The hard part is that a voice which sounds correct can still read <em>wrong</em> — flat, evenly paced, n",
+      "title": "Building on Base: Sub-Cent Gas for Real-Time Blockchain Games",
+      "link": "https://dev.to/gigavariance/building-on-base-sub-cent-gas-for-real-time-blockchain-games-54p8",
+      "pubDate": "2026-07-25T14:00:15.000Z",
+      "description": "<h2> Introduction </h2> <p>One of the biggest challenges in blockchain gaming is balancing decentralization with user experience. High gas fees and slow transaction times can kill the fluid, real-time interactions that players expect from traditional games. When I built <a href=\"https://yoss.gg\" rel",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Automatic Page Layout Is a Search Problem",
-      "link": "https://dev.to/hannahjwhitfield/automatic-page-layout-is-a-search-problem-10c9",
-      "pubDate": "2026-07-25T08:11:24.000Z",
-      "description": "<p>Every recipe layout system I've seen starts the same way. A designer makes a beautiful two-page spread — photo left, recipe right — then someone tries it with a recipe that has 22 ingredients and 14 steps. The text overflows, and now you have that decision to make automatically, on every page, fo",
+      "title": "I Built a Chair Recommendation Tool Using Real Reddit Feedback — Here's What I Learned",
+      "link": "https://dev.to/zhaochangbo888/i-built-a-chair-recommendation-tool-using-real-reddit-feedback-heres-what-i-learned-19k3",
+      "pubDate": "2026-07-25T13:45:13.000Z",
+      "description": "<p>A few months ago, I was stuck in a frustrating loop. My back hurt after long workdays, and I kept buying and returning office chairs that felt fine in the showroom but became unbearable after a week. The problem wasn't the chairs themselves — it was that every \"best chair\" review out there was wr",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Why LLM-Generated Flashcards Are Usually Bad, and How to Screen Them",
-      "link": "https://dev.to/alexrchen/why-llm-generated-flashcards-are-usually-bad-and-how-to-screen-them-20mi",
-      "pubDate": "2026-07-25T08:11:06.000Z",
-      "description": "<p>I've watched a lot of teams bolt an LLM onto a document and call the output flashcards. It demos beautifully and it teaches badly. The generated cards look plausible — grammatical, on-topic, correctly formatted — and they fall apart the moment a real learner tries to review them six weeks later.<",
+      "title": "Dario must be crashing out",
+      "link": "https://dev.to/jon_at_backboardio/dario-must-be-crashing-out-26b9",
+      "pubDate": "2026-07-25T13:39:27.000Z",
+      "description": "<p>We’ve decided to Open Source both HelloNash.ai as well as Backboard Studio in solidarity of Jensen and the AI community. </p> <p>Backboard is here for Sovereign AI, and so that you can own your intelligence. </p> <p>Your business is not our business.</p>",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "What Breaks When Your App Has to Reason About Chinese Characters",
-      "link": "https://dev.to/yuanjzhou/what-breaks-when-your-app-has-to-reason-about-chinese-characters-1hk1",
-      "pubDate": "2026-07-25T08:10:47.000Z",
-      "description": "<p>Most internationalization advice assumes text is a bag of words separated by spaces. Chinese breaks that assumption at every layer of the stack, and if your product's core value depends on reasoning about individual characters — not just displaying them — you end up rewriting infrastructure you a",
+      "title": "Beyond the Model: Building the AI Harness",
+      "link": "https://dev.to/abdulaziz_zos/beyond-the-model-1b23",
+      "pubDate": "2026-07-25T13:33:44.000Z",
+      "description": "<p>The AI Harness is becoming the real engineering layer.</p> <p>Everyone is talking about AI Agents.</p> <p>I think we're missing the more important piece.</p> <p>The AI Harness.</p> <p>A lot of people imagine an AI system like this:</p> <p>User<br> ↓<br> LLM<br> ↓<br> Answer</p> <p>That works for ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Getting Clean Text Out of PDF, DOCX, and HTML",
-      "link": "https://dev.to/ivyjsu/getting-clean-text-out-of-pdf-docx-and-html-cmn",
-      "pubDate": "2026-07-25T08:10:28.000Z",
-      "description": "<p>Anything that turns a document into audio, a summary, or embeddings has the same unglamorous bottleneck: getting clean, correctly-ordered text out of the file. I underestimated this badly. Generation is a solved-ish problem you can buy. Extraction is where the engineering lives.</p> <h2> PDF has ",
+      "title": "Corporate America Has Suddenly Decided to Stop Blowing Money on AI",
+      "link": "https://www.wsj.com/business/china-us-ai-model-costs-53a12e96",
+      "pubDate": "2026-07-25T13:33:03.000Z",
+      "description": "Article URL: https://www.wsj.com/business/china-us-ai-model-costs-53a12e96 Comments URL: https://news.ycombinator.com/item?id=49047448 Points: 4 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "TLS and mTLS for Infra Services: A Production Deep Dive for Solo Devs and Small Startups",
+      "link": "https://dev.to/instanceofgod/tls-and-mtls-for-infra-services-a-production-deep-dive-for-solo-devs-and-small-startups-2j0g",
+      "pubDate": "2026-07-25T13:25:46.000Z",
+      "description": "<h2> Why this exists </h2> <p>This started as a cost problem, not a security paper.</p> <p>I was running a small production setup across two servers: a dedicated 1cpu/1GB RAM server running Redis, and a second OCI server — 2ocpu/12GB RAM — hosting a Postgres database alongside several NestJS app con",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Serving a Large Art Set to a UI That Shows One Image",
-      "link": "https://dev.to/sayajmori/serving-a-large-art-set-to-a-ui-that-shows-one-image-4c6j",
-      "pubDate": "2026-07-25T08:10:10.000Z",
-      "description": "<p>A card-drawing interface is a deceptively nasty frontend problem. The interaction is trivial — tap, reveal one image — but the asset set is large, the art is the entire product, and the user is on a phone. Ship it naively and you have a 40 MB page showing a gray rectangle at the exact moment the ",
+      "title": "#22 Tool #23 Is the Blog You're Reading Right Now",
+      "link": "https://dev.to/fromzerotoship/22-tool-23-is-the-blog-youre-reading-right-now-3ha0",
+      "pubDate": "2026-07-25T13:25:00.000Z",
+      "description": "<p>The story I told across the last twenty-one posts ended with twenty-two tools running at my hospital.</p> <p>This post is what happened next. Tool number twenty-three is the thing you're looking at.</p> <h2> Why a blog, of all things </h2> <p>When the story was finished, I wanted it to travel far",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "A simple readiness checklist before you let an AI agent touch production",
-      "link": "https://dev.to/asterxing/a-simple-readiness-checklist-before-you-let-an-ai-agent-touch-production-1p1e",
-      "pubDate": "2026-07-25T08:10:05.000Z",
-      "description": "<p>If you’re letting an AI agent touch production, a green unit test is not enough. The failure mode is rarely “the model was dumb” — it’s usually missing guardrails around scope, rollback, credentials, or observability.</p> <p>Here’s the lightweight checklist I’d want before any agent can run outsi",
+      "title": "How to Generate Realistic E-Commerce Test Data in 2 Lines of Code",
+      "link": "https://dev.to/hung1510/how-to-generate-realistic-e-commerce-test-data-in-2-lines-of-code-3dj4",
+      "pubDate": "2026-07-25T13:24:58.000Z",
+      "description": "<h1> Generate Realistic E-Commerce Test Data </h1> <p>Some \"fake data\" libraries give a independent random objects. Call <code>faker.commerce.product()</code> a hundred times and you get a hundred products but nothing connects them. If you need a realistic <em>dataset</em> (carts that reference real",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Why Composited People Look Pasted: Lighting and Color Coherence",
-      "link": "https://dev.to/miatanaka/why-composited-people-look-pasted-lighting-and-color-coherence-111o",
-      "pubDate": "2026-07-25T08:09:51.000Z",
-      "description": "<p>You can nail every facial feature and still produce a composite that looks obviously fake. I've watched people burn weeks on identity preservation, get it perfect, then ship an image where two people supposedly standing in the same room are lit by two different suns. The brain catches it instantl",
+      "title": "The AI Prompt a Canadian MLA Read Out Loud — And What It Teaches",
+      "link": "https://dev.to/induwara_ashinsana_9e4d5b/the-ai-prompt-a-canadian-mla-read-out-loud-and-what-it-teaches-50j7",
+      "pubDate": "2026-07-25T13:22:40.000Z",
+      "description": "<p>A <strong>Canadian legislator read an AI prompt out loud</strong> in a floor speech, and the clip is doing the rounds this week for all the wrong reasons. According to <a href=\"https://arstechnica.com/ai/2026/07/canadian-legislator-reads-out-apparent-llm-response-in-floor-speech/\" rel=\"noopener n",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How AI Text Detectors Actually Work (And Why They Flag You)",
-      "link": "https://dev.to/ryotanishiyama/how-ai-text-detectors-actually-work-and-why-they-flag-you-18b4",
-      "pubDate": "2026-07-25T08:09:33.000Z",
-      "description": "<p>Every few months someone forwards me a screenshot: a detector says their essay is \"98% AI-generated,\" and they wrote every word themselves. Usually they're a non-native English speaker. I've spent enough time inside these systems to explain why that happens, and why the number on the dial is not ",
+      "title": "Exploring the VModal Flutter SDK: A Modular SDK for AI-Powered Video Search",
+      "link": "https://dev.to/nauman_khalid_795e95b4501/exploring-the-vmodal-flutter-sdk-a-modular-sdk-for-ai-powered-video-search-plc",
+      "pubDate": "2026-07-25T13:21:26.000Z",
+      "description": "<p>As Flutter developers, we're familiar with SDKs for authentication, analytics, cloud storage, and databases. Recently, I explored the <strong>VModal Flutter SDK</strong>, which takes a different approach by providing a client library for interacting with an AI-powered video platform.</p> <p>Inste",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Barge-In, VAD, and the Latency Budget: Engineering Realtime Voice",
-      "link": "https://dev.to/lenajhoffmann/barge-in-vad-and-the-latency-budget-engineering-realtime-voice-3i1b",
-      "pubDate": "2026-07-25T08:09:14.000Z",
-      "description": "<p>Realtime voice is the only modality where being right is not good enough — you also have to be right <em>now</em>. A text model can take four seconds and nobody blinks. A voice agent that takes four seconds to start speaking sounds broken. I spent a chunk of last year wiring up bidirectional audi",
+      "title": "AI Evaluation Series (06): DeepEval in Practice — Enterprise Agent Evaluation Suite",
+      "link": "https://dev.to/wonderlab/ai-evaluation-series-06-deepeval-in-practice-enterprise-agent-evaluation-suite-22c",
+      "pubDate": "2026-07-25T13:20:43.000Z",
+      "description": "<h2> DeepEval and RAGAS Solve Different Problems </h2> <p>Article 04 used RAGAS to batch-evaluate a RAG system, producing four metric scores. This article uses DeepEval on the same Agent — with a completely different paradigm.</p> <p><strong>RAGAS paradigm:</strong> batch evaluation, DataFrame input",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "League of Legends designer shares game design field manual",
+      "link": "https://areadenial.games/design/preface#00-01",
+      "pubDate": "2026-07-25T12:51:48.000Z",
+      "description": "Article URL: https://areadenial.games/design/preface#00-01 Comments URL: https://news.ycombinator.com/item?id=49047198 Points: 10 # Comments: 5",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Kyber (YC W23) Is Hiring a Head of Engineering",
+      "link": "https://www.ycombinator.com/companies/kyber/jobs/FGmI8mx-head-of-engineering",
+      "pubDate": "2026-07-25T12:00:04.000Z",
+      "description": "Article URL: https://www.ycombinator.com/companies/kyber/jobs/FGmI8mx-head-of-engineering Comments URL: https://news.ycombinator.com/item?id=49046858 Points: 0 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "The Fedora 45 Sausage Factory",
+      "link": "https://supakeen.com/weblog/the-fedora-45-sausage-factory/",
+      "pubDate": "2026-07-25T11:04:57.000Z",
+      "description": "Article URL: https://supakeen.com/weblog/the-fedora-45-sausage-factory/ Comments URL: https://news.ycombinator.com/item?id=49046525 Points: 28 # Comments: 2",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "MouthPad: A Tongue-Controlled Touchpad",
+      "link": "https://www.augmental.tech/",
+      "pubDate": "2026-07-25T07:51:19.000Z",
+      "description": "Article URL: https://www.augmental.tech/ Comments URL: https://news.ycombinator.com/item?id=49045446 Points: 43 # Comments: 9",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "Android May Soon Restrict On-Device ADB",
       "link": "https://kitsumed.github.io/blog/posts/android-may-soon-restrict-on-device-adb/",
       "pubDate": "2026-07-25T06:57:14.000Z",
-      "description": "Article URL: https://kitsumed.github.io/blog/posts/android-may-soon-restrict-on-device-adb/ Comments URL: https://news.ycombinator.com/item?id=49045159 Points: 67 # Comments: 31",
+      "description": "Article URL: https://kitsumed.github.io/blog/posts/android-may-soon-restrict-on-device-adb/ Comments URL: https://news.ycombinator.com/item?id=49045159 Points: 462 # Comments: 204",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -96,7 +141,7 @@
       "title": "ARC-AGI Leaderboard",
       "link": "https://arcprize.org/leaderboard",
       "pubDate": "2026-07-25T06:31:40.000Z",
-      "description": "Article URL: https://arcprize.org/leaderboard Comments URL: https://news.ycombinator.com/item?id=49045040 Points: 50 # Comments: 36",
+      "description": "Article URL: https://arcprize.org/leaderboard Comments URL: https://news.ycombinator.com/item?id=49045040 Points: 122 # Comments: 99",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -104,7 +149,7 @@
       "title": "Extinct Media Museum Tokyo",
       "link": "https://extinct-media-museum.blog.jp/otemachi/",
       "pubDate": "2026-07-25T05:51:27.000Z",
-      "description": "Article URL: https://extinct-media-museum.blog.jp/otemachi/ Comments URL: https://news.ycombinator.com/item?id=49044874 Points: 13 # Comments: 1",
+      "description": "Article URL: https://extinct-media-museum.blog.jp/otemachi/ Comments URL: https://news.ycombinator.com/item?id=49044874 Points: 70 # Comments: 14",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -112,15 +157,7 @@
       "title": "UK AISI / Caisi Preliminary Assessment of Kimi K3's Cyber Capabilities",
       "link": "https://www.nist.gov/news-events/news/2026/07/uk-aisi-caisi-preliminary-assessment-kimi-k3s-cyber-capabilities",
       "pubDate": "2026-07-25T04:20:21.000Z",
-      "description": "Article URL: https://www.nist.gov/news-events/news/2026/07/uk-aisi-caisi-preliminary-assessment-kimi-k3s-cyber-capabilities Comments URL: https://news.ycombinator.com/item?id=49044492 Points: 49 # Comments: 14",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Taylor Farms Called White House to Try to Delay Cyclospora Recall",
-      "link": "https://www.wsj.com/health/taylor-farms-cyclospora-recall-delay-call-41fef0bc",
-      "pubDate": "2026-07-25T02:54:36.000Z",
-      "description": "Article URL: https://www.wsj.com/health/taylor-farms-cyclospora-recall-delay-call-41fef0bc Comments URL: https://news.ycombinator.com/item?id=49044074 Points: 202 # Comments: 81",
+      "description": "Article URL: https://www.nist.gov/news-events/news/2026/07/uk-aisi-caisi-preliminary-assessment-kimi-k3s-cyber-capabilities Comments URL: https://news.ycombinator.com/item?id=49044492 Points: 89 # Comments: 26",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -128,121 +165,9 @@
       "title": "Hannah Fry Wins the Leelavati Prize in 2026 for Mathematics Outreach",
       "link": "https://www.maths.cam.ac.uk/features/professor-hannah-fry-wins-leelavati-prize",
       "pubDate": "2026-07-25T01:44:12.000Z",
-      "description": "Article URL: https://www.maths.cam.ac.uk/features/professor-hannah-fry-wins-leelavati-prize Comments URL: https://news.ycombinator.com/item?id=49043724 Points: 136 # Comments: 26",
+      "description": "Article URL: https://www.maths.cam.ac.uk/features/professor-hannah-fry-wins-leelavati-prize Comments URL: https://news.ycombinator.com/item?id=49043724 Points: 381 # Comments: 62",
       "source": "Hacker News",
       "category": "Tech News"
-    },
-    {
-      "title": "Sperm Whales blow bubbles to achieve restful, vertical sleep",
-      "link": "https://news.st-andrews.ac.uk/archive/sperm-whales-blow-bubbles-to-achieve-restful-vertical-sleep/",
-      "pubDate": "2026-07-24T23:13:18.000Z",
-      "description": "Article URL: https://news.st-andrews.ac.uk/archive/sperm-whales-blow-bubbles-to-achieve-restful-vertical-sleep/ Comments URL: https://news.ycombinator.com/item?id=49042751 Points: 87 # Comments: 12",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Opus 5 is currently #1 on Artificial Analysis Intelligence Leaderboard",
-      "link": "https://artificialanalysis.ai/models",
-      "pubDate": "2026-07-24T19:45:10.000Z",
-      "description": "Article URL: https://artificialanalysis.ai/models Comments URL: https://news.ycombinator.com/item?id=49040741 Points: 269 # Comments: 150",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Postgres LISTEN/NOTIFY actually scales",
-      "link": "https://www.dbos.dev/blog/postgres-listen-notify-scalability",
-      "pubDate": "2026-07-24T19:05:53.000Z",
-      "description": "Article URL: https://www.dbos.dev/blog/postgres-listen-notify-scalability Comments URL: https://news.ycombinator.com/item?id=49040296 Points: 296 # Comments: 54",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Claude Opus 5",
-      "link": "https://www.anthropic.com/news/claude-opus-5",
-      "pubDate": "2026-07-24T16:57:41.000Z",
-      "description": "https://www.anthropic.com/claude-opus-5-system-card Comments URL: https://news.ycombinator.com/item?id=49038433 Points: 1513 # Comments: 846",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "writing-mode",
-      "link": "https://css-tricks.com/almanac/properties/w/writing-mode/",
-      "pubDate": "2026-07-21T09:39:10.000Z",
-      "description": "The writing-mode CSS property sets whether lines of text are laid out horizontally or vertically, and the direction in which blocks and lines progress. .element { writing-mode: vertical-rl; } This is most useful in languages such as Chinese, Japanese or … writing-mode originally handwritten and publ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "pointer-events",
-      "link": "https://css-tricks.com/almanac/properties/p/pointer-events/",
-      "pubDate": "2026-07-15T19:57:51.000Z",
-      "description": "The pointer-events property controls whether an element can become the target of pointer events like clicks, hover states, and other pointer-based events. In other words, it lets you decide whether the browser should treat an element as interactive when the … pointer-events originally handwritten an",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "What’s !important #15: Boundary-aware CSS, Time-based CSS, Full-bleed CSS, and More",
-      "link": "https://css-tricks.com/whats-important-15/",
-      "pubDate": "2026-07-15T14:36:18.000Z",
-      "description": "Read all about boundary-aware CSS, accessible grid lanes, time-based web designs, full-bleed, the customizable select, and new web platform features. What’s !important #15: Boundary-aware CSS, Time-based CSS, Full-bleed CSS, and More originally handwritten and published with love on CSS-Tricks. You ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Get Ready For the Powerful CSS border-shape Property!",
-      "link": "https://css-tricks.com/get-ready-for-the-powerful-css-border-shape-property/",
-      "pubDate": "2026-07-07T15:14:00.000Z",
-      "description": "We recently got the shape() function and corner-shape property. What else could we possibly need as far as making shapes in CSS? Let me tell you: the border-shape property! Get Ready For the Powerful CSS border-shape Property! originally handwritten and published with love on CSS-Tricks. You should ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "What’s !important #14: Gap Decorations, random(), &#060;select&gt; field-sizing, and More",
-      "link": "https://css-tricks.com/whats-important-14/",
-      "pubDate": "2026-06-30T13:54:14.000Z",
-      "description": "I know you’re busy, so for What’s !important #14, I’ll be sprinting through what’s been a stacked couple of weeks despite few browser updates. From CSS Quake to CSS Gap Decorations, this isn’t one to miss! What’s !important #14: Gap Decorations, random(), <select> field-sizing, and More originally h",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "The Shifting Line Between CSS States and JavaScript Events",
-      "link": "https://css-tricks.com/css-states-and-javascript-events/",
-      "pubDate": "2026-06-29T13:03:32.000Z",
-      "description": "CSS has always had pseudo-classes that style things based on user interactions. Recent features, however, are blurring the line between what CSS \"listens\" for and how they are alternatives to what Javascript typically listens for. The Shifting Line Between CSS States and JavaScript Events originally",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translateZ()",
-      "link": "https://css-tricks.com/almanac/functions/t/translatez/",
-      "pubDate": "2026-06-25T13:18:56.000Z",
-      "description": "The translateZ() function moves an element closer to or farther from the user. translateZ() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translateY()",
-      "link": "https://css-tricks.com/almanac/functions/t/translatey/",
-      "pubDate": "2026-06-25T13:17:56.000Z",
-      "description": "The translateY() function shifts an element vertically by the specified amount. translateY() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translateX()",
-      "link": "https://css-tricks.com/almanac/functions/t/translatex/",
-      "pubDate": "2026-06-25T13:16:01.000Z",
-      "description": "The translateX() function shifts an element horizontally by the specified amount. translateX() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translate()",
-      "link": "https://css-tricks.com/almanac/functions/t/translate/",
-      "pubDate": "2026-06-25T13:15:05.000Z",
-      "description": "The CSS translate() function shifts an element from its default position on a 2-dimensional plane translate() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
     },
     {
       "title": "Meet the HTB Profile: all your skills, in one place",
