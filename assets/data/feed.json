@@ -1,102 +1,150 @@
 {
-  "generatedAt": "2026-07-26T08:39:10.024Z",
+  "generatedAt": "2026-07-26T13:56:35.579Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "Frontend Interview Flow: Stages, Signals, and Prep",
-      "link": "https://dev.to/naserrasouli/frontend-interview-flow-stages-signals-and-prep-3aih",
-      "pubDate": "2026-07-26T08:30:00.000Z",
-      "description": "<h2> <strong>What is a frontend interview really looking for?</strong> </h2> <p>Interviewers want proof you can ship a reliable UI—not how many frameworks you know. They check:</p> <ul> <li>Understanding of the web and the browser</li> <li>Problem-solving and analytical skills</li> <li>The reasoning",
+      "title": "#S3 The Loot Report, Vol. 2: Four Lines That Fixed the Boring Parts",
+      "link": "https://dev.to/fromzerotoship/s3-the-loot-report-vol-2-four-lines-that-fixed-the-boring-parts-1ajb",
+      "pubDate": "2026-07-26T13:28:00.000Z",
+      "description": "<p>Last Loot Report was a single day's haul. This one is slower — four lines I lifted over a few weeks, each one aimed at the least glamorous corner of my systems: the checks that were supposed to be watching and quietly weren't. I'm a physical therapist who builds a hospital's internal tools with A",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "AI made novel exploits cheap. Your signature stack didn't get the memo.",
-      "link": "https://dev.to/c_k_eaa0d8cd25e182343052e/ai-made-novel-exploits-cheap-your-signature-stack-didnt-get-the-memo-8pd",
-      "pubDate": "2026-07-26T08:24:24.000Z",
-      "description": "<p>In October 2024 a Google research agent called Big Sleep read the SQLite source and found a memory-safety bug no human had reported. Nine months later a newer version of the same agent found a second one, CVE-2025-6965, live, and Google shut it down before anyone in the wild got to use it. First ",
+      "title": "The Auto-DJ Case Files: Building a Self-Learning Music Brain From Your YouTube Habit",
+      "link": "https://dev.to/bikidev/the-auto-dj-case-files-building-a-self-learning-music-brain-from-your-youtube-habit-1ndl",
+      "pubDate": "2026-07-26T13:22:39.000Z",
+      "description": "<h3> A 3–5 month field guide for turning a browsing habit into an AI orchestra </h3> <h2> Prologue: The Case That Started With a Skip Button </h2> <p>Every great investigation starts with something small and irritating. Yours starts on a Tuesday night. You're three hours deep into a YouTube rabbit h",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Navigation Is a Commit Marker: Handling Partial Success in Blazor",
-      "link": "https://dev.to/iqtechsolutions/navigation-is-a-commit-marker-handling-partial-success-in-blazor-3f0g",
-      "pubDate": "2026-07-26T08:21:26.000Z",
-      "description": "<p>Navigation looks harmless because it sits at the edge of the code: call a method, change the route, and continue the journey.</p> <p>But a redirect is not merely presentation. It tells the user something important about the work they just asked the system to do.</p> <p>If the application moves to",
+      "title": "Built 14+ Free Online Tools in Just One Week – Meet ToolEka",
+      "link": "https://dev.to/rehan_ahx/built-14-free-online-tools-in-just-one-week-meet-tooleka-2c9p",
+      "pubDate": "2026-07-26T13:15:28.000Z",
+      "description": "<p>A week ago, I challenged myself to build a collection of free online tools from scratch.</p> <p>Today, I'm excited to share the first version of <strong>ToolEka</strong> 🎉</p> <p>👉 <a href=\"https://tooleka.com\" rel=\"noopener noreferrer\">https://tooleka.com</a></p> <p>The idea wasn't to create a",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Trendigger – Aggregated Google Trends with AI keyword summaries and daily historical archives",
-      "link": "https://dev.to/harry_ge/trendigger-aggregated-google-trends-with-ai-keyword-summaries-and-daily-historical-archives-2gcc",
-      "pubDate": "2026-07-26T08:17:48.000Z",
-      "description": "<p>Like many of you, I use Google Trends to research market interest, but dealing with raw trend lists and checking them day-by-day can be time-consuming.</p> <p>I built <a href=\"https://trendigger.com\" rel=\"noopener noreferrer\">Trendigger </a> to make trend data actually actionable by combining aut",
+      "title": "How I Found a Critical Cloudflare Turnstile Bypass – And Got Denied a Bounty",
+      "link": "https://dev.to/allonn12/how-i-found-a-critical-cloudflare-turnstile-bypass-and-got-denied-a-bounty-5ai2",
+      "pubDate": "2026-07-26T13:09:51.000Z",
+      "description": "<p>Cloudflare Turnstile stores a token in your browser. I found you can copy it from one browser, paste it into another, and skip the CAPTCHA completely.<br> I tested it on their own demo site. Worked perfectly.<br> I reported it. Gave them the code proof. Showed them how to do it.<br> They said \"we",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "From Random Scripts to a Real Python Package (Part 1)",
-      "link": "https://dev.to/jully-wang/from-random-scripts-to-a-real-python-package-part-1-4ld1",
-      "pubDate": "2026-07-26T08:17:30.000Z",
-      "description": "<h2> The Moment I Realized My Python Project Wasn't Really a Project </h2> <p>When I first started learning Python, my projects were about as simple as they could be.<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight plaintext\"><code>project/ ├── logic.py └── main.py </code></",
+      "title": "Base64 Decoded: What Actually Happens When You Hit 'Encode'",
+      "link": "https://dev.to/zhihu_wu_dea1d82af01a04d7/base64-decoded-what-actually-happens-when-you-hit-encode-1h06",
+      "pubDate": "2026-07-26T13:06:07.000Z",
+      "description": "<p>Base64 is not encryption — it's encoding. If you paste <code>Hello</code> into a Base64 encoder and get <code>SGVsbG8=</code>, no secret key was used. The algorithm just translates binary data into 64 printable ASCII characters so it can travel through text-only channels like email, JSON, and URL",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "One Task.Run Quietly Killed the BackgroundService Startup Footgun",
-      "link": "https://dev.to/ssukhpinder/one-taskrun-quietly-killed-the-backgroundservice-startup-footgun-4b70",
-      "pubDate": "2026-07-26T08:15:24.000Z",
-      "description": "<p>I sat down this week to write about one of my favorite .NET footguns: the <code>BackgroundService</code> that does synchronous warmup and freezes your entire app's startup. I've hit it in real projects, I've seen it in code reviews, and it makes a great demo. So I built the repro on .NET 10, ran ",
+      "title": "The GIGO Crisis: Why Social Media's Fact-Check Rollback Is Teaching AI to Lie",
+      "link": "https://dev.to/alan_scottencinas/the-gigo-crisis-why-social-medias-fact-check-rollback-is-teaching-ai-to-lie-1jka",
+      "pubDate": "2026-07-26T13:00:00.000Z",
+      "description": "<p>This article examines how platform-level moderation decisions are reshaping AI training data, and what happens when the information machines learn from becomes unreliable. It connects data integrity, AI safety, and the structural risks now facing U.S. AI development.</p> <p>The internet is becomi",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Solon Config &amp; Multi-Environment Management: The Layering Model That Fits in Your Head",
-      "link": "https://dev.to/solonjava/solon-config-multi-environment-management-the-layering-model-that-fits-in-your-head-4o4c",
-      "pubDate": "2026-07-26T08:10:18.000Z",
-      "description": "<p>One thing I never appreciated until I ran the same jar across dev, staging, and prod is how much of \"config pain\" is really \"config layering pain.\" Where does a value come from? Which file wins? How do I keep a database password out of Git without wrapping the whole thing in a secrets manager on ",
+      "title": "The Frame Keeps Snapping Back — Part 2: What the Snapback Revealed",
+      "link": "https://dev.to/davidvk89/the-frame-keeps-snapping-back-part-2-what-the-snapback-revealed-278e",
+      "pubDate": "2026-07-26T12:58:49.000Z",
+      "description": "<p><em>Part 1 documented the recurring snapback in practice. This note asks a narrower question: what does the observed pattern support, what remains a working hypothesis, and what changes should follow in the project?</em></p> <blockquote> <p><strong>Status:</strong> Bounded project conclusion. Thi",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The Webhook Bug That Passed Every Test and Every Code Review",
-      "link": "https://dev.to/srinivasa_rao/the-webhook-bug-that-passed-every-test-and-every-code-review-5408",
-      "pubDate": "2026-07-26T07:58:51.000Z",
-      "description": "<p>When a subscriber disappears from a list, nobody gets an error. The campaign sends, the contact count is one fewer than expected, and unless someone is watching very carefully, you might never know you lost a subscriber who had nothing to do with that send.</p> <p>This is about a bug I found in m",
+      "title": "NestJS v12.0 vs. Ditsmod v3.0: A Deep Dive into Node.js Framework Architectures (Part 1)",
+      "link": "https://dev.to/kostyatretyak/nestjs-v120-vs-ditsmod-v30-a-deep-dive-into-nodejs-framework-architectures-part-1-3l82",
+      "pubDate": "2026-07-26T12:56:36.000Z",
+      "description": "<p>If you are building enterprise-grade Node.js applications with TypeScript, chances are you are already deeply familiar with <strong>NestJS</strong>. It has become the de-facto standard for opinionated, heavily structured, Angular-inspired backend development.</p> <p>But the ecosystem is always ev",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "probatum — your tests pass. does it actually boot?",
-      "link": "https://dev.to/arcker/probatum-your-tests-pass-does-it-actually-boot-kcp",
-      "pubDate": "2026-07-26T07:58:47.000Z",
-      "description": "<p><strong>probatum is a test-oriented check runner I build</strong> (in Rust) — one config file, embedded checks (curl, grep and process supervision built in), and only the failures that matter surfaced. This post stands on its own: it's about <em>why</em> I wrote it next to <a href=\"https://github",
+      "title": "Building a Duplicate-File Scanner in .NET 10: Cheap Checks First, Expensive Ones Last",
+      "link": "https://dev.to/amasen/building-a-duplicate-file-scanner-in-net-10-cheap-checks-first-expensive-ones-last-2h58",
+      "pubDate": "2026-07-26T12:55:32.000Z",
+      "description": "<p><em>Engineering decisions behind dsweep — a three-stage detection pipeline, reversible quarantine, and why I keep reaching for .NET when I want a fast CLI.</em></p> <h2> The obvious approach, and why it's wrong </h2> <p>The naive implementation of a duplicate-file scanner goes like this: walk the",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Why I built Sanctuary: A local-first, zero-tracking reflection app",
-      "link": "https://dev.to/hrishikesh_jadhav_bbd2b40/why-i-built-sanctuary-a-local-first-zero-tracking-reflection-app-242f",
-      "pubDate": "2026-07-26T07:54:05.000Z",
-      "description": "<p>Most journaling and mental wellness apps require syncing sensitive personal thoughts to cloud servers where they risk being mined or exposed. I wanted a space where user data never leaves the browser.</p> <p>So I built <strong>Sanctuary</strong> — a lightweight, local-first reflection vault.</p> ",
+      "title": "Why I Built a Free SSMS Extension to Stop Destructive Queries",
+      "link": "https://dev.to/manuelenzo/why-i-built-a-free-ssms-extension-to-stop-destructive-queries-npo",
+      "pubDate": "2026-07-26T12:54:35.000Z",
+      "description": "<p>The moment that started it</p> <p>A colleague of mine was cleaning up some old records in a staging environment. Same query he'd run a dozen times before, except this time he was connected to production. He hit F5. No WHERE clause.</p> <p><strong>47,000 rows gone in milliseconds</strong>.</p> <p>",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "Google Discloses $94.1B in SpaceX Stock, Marking 6% Stake",
+      "link": "https://www.wsj.com/tech/google-discloses-94-1-billion-in-spacex-stock-marking-6-stake-91655d7c",
+      "pubDate": "2026-07-26T12:43:21.000Z",
+      "description": "Article URL: https://www.wsj.com/tech/google-discloses-94-1-billion-in-spacex-stock-marking-6-stake-91655d7c Comments URL: https://news.ycombinator.com/item?id=49057574 Points: 50 # Comments: 20",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Go Analysis Framework: modular static analysis by go team",
+      "link": "https://pkg.go.dev/golang.org/x/tools/go/analysis",
+      "pubDate": "2026-07-26T12:21:26.000Z",
+      "description": "Article URL: https://pkg.go.dev/golang.org/x/tools/go/analysis Comments URL: https://news.ycombinator.com/item?id=49057398 Points: 23 # Comments: 1",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Third Drone Shot Down in Three Days in Romanian Territory",
+      "link": "https://english.mapn.ro/",
+      "pubDate": "2026-07-26T12:00:42.000Z",
+      "description": "Article URL: https://english.mapn.ro/ Comments URL: https://news.ycombinator.com/item?id=49057248 Points: 108 # Comments: 67",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "No Stack Overflow, No Autocomplete: What Coding Felt Like in the 80s",
+      "link": "https://comuniq.xyz/post?t=1439",
+      "pubDate": "2026-07-26T09:58:11.000Z",
+      "description": "Article URL: https://comuniq.xyz/post?t=1439 Comments URL: https://news.ycombinator.com/item?id=49056424 Points: 46 # Comments: 36",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Systemd Linger",
+      "link": "https://etbe.coker.com.au/2026/07/24/systemd-linger/",
+      "pubDate": "2026-07-26T09:43:13.000Z",
+      "description": "Article URL: https://etbe.coker.com.au/2026/07/24/systemd-linger/ Comments URL: https://news.ycombinator.com/item?id=49056351 Points: 32 # Comments: 28",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Elevated Errors for Opus 5",
+      "link": "https://status.claude.com/incidents/zftg3gqkmv18",
+      "pubDate": "2026-07-26T09:18:34.000Z",
+      "description": "Article URL: https://status.claude.com/incidents/zftg3gqkmv18 Comments URL: https://news.ycombinator.com/item?id=49056194 Points: 55 # Comments: 49",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Ruff v0.16.0 – Significant new updates – 413 default rules up from 59",
+      "link": "https://astral.sh/blog/ruff-v0.16.0",
+      "pubDate": "2026-07-26T09:01:39.000Z",
+      "description": "Article URL: https://astral.sh/blog/ruff-v0.16.0 Comments URL: https://news.ycombinator.com/item?id=49056112 Points: 177 # Comments: 98",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "GrapheneOS protections against data extraction from locked devices",
       "link": "https://discuss.grapheneos.org/d/40700-grapheneos-protections-against-data-extraction-from-locked-devices",
       "pubDate": "2026-07-26T05:57:22.000Z",
-      "description": "Article URL: https://discuss.grapheneos.org/d/40700-grapheneos-protections-against-data-extraction-from-locked-devices Comments URL: https://news.ycombinator.com/item?id=49055169 Points: 19 # Comments: 3",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "W4ME Station – a WASM-4 runtime for Java ME phones",
-      "link": "https://github.com/mulfyx/w4me-station",
-      "pubDate": "2026-07-26T04:19:59.000Z",
-      "description": "Article URL: https://github.com/mulfyx/w4me-station Comments URL: https://news.ycombinator.com/item?id=49054697 Points: 15 # Comments: 3",
+      "description": "Article URL: https://discuss.grapheneos.org/d/40700-grapheneos-protections-against-data-extraction-from-locked-devices Comments URL: https://news.ycombinator.com/item?id=49055169 Points: 185 # Comments: 103",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -104,7 +152,7 @@
       "title": "JetZero",
       "link": "https://www.jetzero.aero",
       "pubDate": "2026-07-26T02:55:50.000Z",
-      "description": "Article URL: https://www.jetzero.aero Comments URL: https://news.ycombinator.com/item?id=49054224 Points: 187 # Comments: 146",
+      "description": "Article URL: https://www.jetzero.aero Comments URL: https://news.ycombinator.com/item?id=49054224 Points: 221 # Comments: 206",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -112,55 +160,7 @@
       "title": "An ESP32 based plane radar for my desk",
       "link": "https://blog.ktz.me/esp32-plane-radar/",
       "pubDate": "2026-07-26T02:35:43.000Z",
-      "description": "Article URL: https://blog.ktz.me/esp32-plane-radar/ Comments URL: https://news.ycombinator.com/item?id=49054107 Points: 125 # Comments: 25",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Show HN: I mapped every US golf course",
-      "link": "https://golfcoursebrowser.com/",
-      "pubDate": "2026-07-26T02:22:26.000Z",
-      "description": "I got tired of Googling basic course info, so I made a free directory of every US courseGoogle filters for golf course results are terrible so I built a better way to browse courses using OSM as the backbone.... https://golfcoursebrowser.com/It's a work in progress and mostly US for now, but I want ",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Alien World Chemistry Found Inside Meteorite That Struck New Jersey Home",
-      "link": "https://www.seti.org/news/alien-world-chemistry-found-inside-meteorite/",
-      "pubDate": "2026-07-26T01:35:03.000Z",
-      "description": "Article URL: https://www.seti.org/news/alien-world-chemistry-found-inside-meteorite/ Comments URL: https://news.ycombinator.com/item?id=49053708 Points: 59 # Comments: 15",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Git rebase -I is not that scary",
-      "link": "https://cachebag.sh/journal/interactive-rebasing/",
-      "pubDate": "2026-07-26T00:37:54.000Z",
-      "description": "Article URL: https://cachebag.sh/journal/interactive-rebasing/ Comments URL: https://news.ycombinator.com/item?id=49053385 Points: 60 # Comments: 57",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Systems and Delays",
-      "link": "https://martin.janiczek.cz/2026/07/24/systems-and-delays.html",
-      "pubDate": "2026-07-26T00:37:30.000Z",
-      "description": "Article URL: https://martin.janiczek.cz/2026/07/24/systems-and-delays.html Comments URL: https://news.ycombinator.com/item?id=49053382 Points: 59 # Comments: 14",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Inflect-Micro-v2: complete voice in 9.36M parameters",
-      "link": "https://huggingface.co/owensong/Inflect-Micro-v2",
-      "pubDate": "2026-07-26T00:36:30.000Z",
-      "description": "Article URL: https://huggingface.co/owensong/Inflect-Micro-v2 Comments URL: https://news.ycombinator.com/item?id=49053375 Points: 114 # Comments: 10",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "DeepSeek pause fundraise after comments on compute gap to US leaked (transcript) [pdf]",
-      "link": "https://github.com/demo-zexuan/liang-wenfeng-investor-meeting-2026-7-22/blob/master/%E6%A2%81%E6%96%87%E9%94%8B%E6%8A%95%E8%B5%84%E8%80%85%E4%BA%A4%E6%B5%81%E4%BC%9A-%E6%96%87%E5%AD%97%E7%A8%BF_1_18_translate_20260723201651.pdf",
-      "pubDate": "2026-07-25T23:32:50.000Z",
-      "description": "Article URL: https://github.com/demo-zexuan/liang-wenfeng-investor-meeting-2026-7-22/blob/master/%E6%A2%81%E6%96%87%E9%94%8B%E6%8A%95%E8%B5%84%E8%80%85%E4%BA%A4%E6%B5%81%E4%BC%9A-%E6%96%87%E5%AD%97%E7%A8%BF_1_18_translate_20260723201651.pdf Comments URL: https://news.ycombinator.com/item?id=49052912",
+      "description": "Article URL: https://blog.ktz.me/esp32-plane-radar/ Comments URL: https://news.ycombinator.com/item?id=49054107 Points: 194 # Comments: 40",
       "source": "Hacker News",
       "category": "Tech News"
     },
