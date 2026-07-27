@@ -1,248 +1,173 @@
 {
-  "generatedAt": "2026-07-27T10:09:20.340Z",
+  "generatedAt": "2026-07-27T15:13:32.111Z",
   "sourceCount": 4,
-  "successCount": 4,
-  "errors": [],
+  "successCount": 3,
+  "errors": [
+    {
+      "source": "CSS Tricks",
+      "error": "HTTP 415 Unsupported Media Type"
+    }
+  ],
   "items": [
     {
-      "title": "Fingerprint Verification in ASP.NET Core with SourceAFIS (1:1 Matching)",
-      "link": "https://dev.to/lepresk/fingerprint-verification-in-aspnet-core-with-sourceafis-11-matching-1e99",
-      "pubDate": "2026-07-27T10:01:19.000Z",
-      "description": "<p>Sooner or later a backend has to answer a hard question: is this fingerprint the same person we enrolled earlier? An attendance system, a KYC check, an agent verifying a customer, a high-security login. It feels like deep, vendor-only territory, the kind of thing you buy an expensive SDK for. For",
+      "title": "I Grepped My Own Claude Code Logs and Found the Hidden Tag Anthropic Never Shows You",
+      "link": "https://dev.to/nomurasan/i-grepped-my-own-claude-code-logs-and-found-the-hidden-tag-anthropic-never-shows-you-17c0",
+      "pubDate": "2026-07-27T15:03:20.000Z",
+      "description": "<p>I was mid-conversation with Claude Code, asking it to help draft a blog post, when a literal<br> <code>&lt;ip_reminder&gt;</code> tag showed up pasted into my own message. I hadn't typed it. It took me a few<br> minutes of back-and-forth with the model to figure out what I was even looking at.</p",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How to Deploy Your Python App on a $5/Month Server",
-      "link": "https://dev.to/qingluan/how-to-deploy-your-python-app-on-a-5month-server-nie",
-      "pubDate": "2026-07-27T10:00:59.000Z",
-      "description": "<h1> How to Deploy Your Python App on a $5/Month Server </h1> <p>tags: python, deployment, devops, money</p> <h2> Deploying Your Python App on a $5/Month Server: A Step-by-Step Guide </h2> <p>If you're a Python developer, you know how easy it is to get caught up in the excitement of building a new a",
+      "title": "Thermoelectric Energy Harvesting for Batteryless IoT Sensors",
+      "link": "https://dev.to/pezzullo/thermoelectric-energy-harvesting-for-batteryless-iot-sensors-1j0f",
+      "pubDate": "2026-07-27T15:02:59.000Z",
+      "description": "<p><strong>Industrial motors continuously reject energy as heat. Under the right conditions, a small part of that heat can power the sensor used to monitor the motor itself.</strong> This does not mean unlimited energy or zero engineering effort. It means designing an embedded node that measures, pr",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Hiring Your First Developer: 5 Questions That Filter Out 80%",
-      "link": "https://dev.to/iurii_rogulia/hiring-your-first-developer-5-questions-that-filter-out-80-1f9m",
-      "pubDate": "2026-07-27T10:00:46.000Z",
-      "description": "<p>Hiring your first developer is the most expensive decision a non-technical founder makes blind. Not because the salary is large — because you have no way to check the work, no way to check the interview, and no second engineer to catch the first one's blind spots. You are betting the technical co",
+      "title": "What It Actually Takes to Build an AI That Replies to Google Reviews",
+      "link": "https://dev.to/aboutdavidkim/what-it-actually-takes-to-build-an-ai-that-replies-to-google-reviews-706",
+      "pubDate": "2026-07-27T15:01:18.000Z",
+      "description": "<p>Most \"AI review reply\" tools are template systems wearing an AI label — pick a star rating, swap in a name, done. Building something that actually reads and responds to a review is a different problem, and it surfaces some interesting engineering constraints worth writing about.</p> <p>Detection ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I Built an AI Career Workspace Because a Resume Builder Wasn’t Enough",
-      "link": "https://dev.to/clarrydaro/i-built-an-ai-career-workspace-because-a-resume-builder-wasnt-enough-2g14",
-      "pubDate": "2026-07-27T10:00:42.000Z",
-      "description": "<p>Landing your next job isn’t just about having a good resume anymore.</p> <p>You need to pass Applicant Tracking Systems (ATS), tailor your application for every role, write compelling cover letters, optimize your LinkedIn profile, prepare for interviews, and somehow keep track of every applicatio",
+      "title": "You Think Senior Developers Prompt Better. They Just Stopped Hoping the AI Would Guess Right.",
+      "link": "https://dev.to/avery_code/you-think-senior-developers-prompt-better-they-just-stopped-hoping-the-ai-would-guess-right-5dno",
+      "pubDate": "2026-07-27T15:00:45.000Z",
+      "description": "<p>There is a common belief about why experienced developers get better results from AI. The belief is that they write better prompts. More precise instructions. Better context. A sharper sense of how to phrase a request so the model understands what is actually needed.</p> <p>This belief is not ent",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The Synesthetic Trader: Why Your Ears Might Be Better at Reading Markets Than Your Eyes",
-      "link": "https://dev.to/cm_founder/the-synesthetic-trader-why-your-ears-might-be-better-at-reading-markets-than-your-eyes-h1k",
-      "pubDate": "2026-07-27T10:00:42.000Z",
-      "description": "<p>When I started building Confrontational Meditation® two years ago, I wasn't thinking about meditation at all. I was thinking about my own failure to notice when markets moved.</p> <p>I'd sit there watching charts—the same charts everyone else watches—and miss critical movements. My eyes would gla",
+      "title": "How AI Context Windows Changed My Code Review Process (And Yours Can Too)",
+      "link": "https://dev.to/learnairesource/how-ai-context-windows-changed-my-code-review-process-and-yours-can-too-28ji",
+      "pubDate": "2026-07-27T15:00:37.000Z",
+      "description": "<p>If you're still copy-pasting code snippets one at a time into Claude or ChatGPT for reviews, you're leaving massive productivity on the table.</p> <p>Last month, I started throwing entire pull requests—full diffs, test files, related modules—into a single prompt. The difference? I stopped getting",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "'use client' Injection: Why ViteToNext.AI Adds It Automatically (And When It Gets It Wrong)",
-      "link": "https://dev.to/digitaldev/use-client-injection-why-vitetonextai-adds-it-automatically-and-when-it-gets-it-wrong-2cn",
-      "pubDate": "2026-07-27T10:00:10.000Z",
-      "description": "<h2> The Architectural Shift: From Vite to Next.js App Router </h2> <p>When you move from a traditional Vite-based Single Page Application (SPA) to the Next.js App Router, you aren't just changing build tools; you are shifting your entire execution model. In Vite, your code is 100% client-side. Ever",
+      "title": "Learning Go as a Ruby Developer #3: Functions, Methods, and Why Go Doesn't Have Classes",
+      "link": "https://dev.to/shroukabozeid/learning-go-as-a-ruby-developer-3-functions-methods-and-why-go-doesnt-have-classes-pc7",
+      "pubDate": "2026-07-27T14:59:31.000Z",
+      "description": "<p>One of the biggest mindset shifts I've had while learning Go came when I reached functions and methods.</p> <p>As a Ruby developer, almost everything revolves around objects. Every piece of behavior belongs to a class, and every function is really just a method attached to an object.</p> <p>Go ta",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "AI Writes Your API Tests Now. Here's the Bug It Introduces.",
-      "link": "https://dev.to/imranalmunyeem/ai-writes-your-api-tests-now-heres-the-bug-it-introduces-3kgf",
-      "pubDate": "2026-07-27T10:00:00.000Z",
-      "description": "<p>Ask an AI to write tests for your API endpoint and it will do something subtly dangerous: it will look at the response your API <em>currently gives</em> and write assertions that lock it in.</p> <p>If that response is correct — great, you just saved twenty minutes. If that response is a bug — say",
+      "title": "2 métodos que usei (E USO) nos estudos de programação.",
+      "link": "https://dev.to/he4rt/2-metodos-que-usei-e-uso-nos-estudos-de-programacao-4n1f",
+      "pubDate": "2026-07-27T14:58:19.000Z",
+      "description": "<h2> Prólogo </h2> <p>Para uma pessoa que tem TDAH (eu), é extremamente difícil e desafiador encontrar uma maneira mais “confortável” de estudar, ainda mais quando tal assunto é de exatas (<em>sou de humanas e tô em TI, pasmem</em>), então resolvi encontrar algumas maneiras e que claro, deu super ce",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I Shipped My Second Demo Tonight, and the Relief Was Out of Proportion",
-      "link": "https://dev.to/robert_floyddugger_6f9a4/i-shipped-my-second-demo-tonight-and-the-relief-was-out-of-proportion-36d2",
-      "pubDate": "2026-07-27T09:59:51.000Z",
-      "description": "<p>I shipped my second demo tonight, and the relief was out of proportion to what actually happened.</p> <p>Shoal is small — a steering-behavior reef sim, fish graze, sharks hunt, no win condition. It's been finished in my own arcade for weeks. Tonight I finally packaged it standalone and pushed it ",
+      "title": "Our API docs told AI agents to do the exact thing that fails",
+      "link": "https://dev.to/linknpark/our-api-docs-told-ai-agents-to-do-the-exact-thing-that-fails-4o4g",
+      "pubDate": "2026-07-27T14:54:46.000Z",
+      "description": "<p>We run a helpdesk that AI agents can operate over MCP: list tickets, read a thread, draft a reply for a human to approve. Last week a real agent paid for a call, chained it into a second call, and hit a wall. What we found underneath was embarrassing enough to write up, because I think half the \"",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "PDF Parsing Is the Hidden Bottleneck in Your RAG Pipeline",
-      "link": "https://dev.to/edwardyun/pdf-parsing-is-the-hidden-bottleneck-in-your-rag-pipeline-37gn",
-      "pubDate": "2026-07-27T09:57:20.000Z",
-      "description": "<p>When a RAG system returns hallucinatory or plain wrong answers, our first instinct is usually to blame the retriever or swap the LLM for a bigger one.</p> <p>However, while stress-testing an end-to-end RAG pipeline on table-heavy Korean documents, I realized the real culprit was located one stage",
+      "title": "The Real Cost of Late Client Payments (and How to Stop Absorbing It)",
+      "link": "https://dev.to/abdullahbaig/the-real-cost-of-late-client-payments-and-how-to-stop-absorbing-it-1a4i",
+      "pubDate": "2026-07-27T14:52:03.000Z",
+      "description": "<p>Late client payments don't just delay your money. They cost you real time, real cash flow, and real opportunities — and most freelancers never actually add up the total. This guide breaks down what late payments truly cost you, and the exact steps to stop absorbing that cost.</p> <p><strong>How m",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Technical Analysis: How to Run Android Apps Natively on Linux?",
-      "link": "https://dev.to/ying_xu_0f8a58231902eb42b/technical-analysis-how-to-run-android-apps-natively-on-linux-acm",
-      "pubDate": "2026-07-27T09:53:12.000Z",
-      "description": "<p>It is well known that the Android system runs on the Linux kernel . However, Android's rich and mature software ecosystem stands in stark contrast to that of Linux ; given that they share the same kernel, why can't Android applications run directly on Linux? </p> <p>There are currently two main t",
+      "title": "US Citizen Charged After GrapheneOS Phone Wipes at Airport",
+      "link": "https://dev.to/onsen/us-citizen-charged-after-grapheneos-phone-wipes-at-airport-5f78",
+      "pubDate": "2026-07-27T14:45:52.000Z",
+      "description": "<h1> US Citizen Charged After GrapheneOS Phone Wipes at Airport </h1> <p><strong>Meta Description:</strong> A US citizen faces federal charges after GrapheneOS phone wipes during airport search. What this landmark case means for your digital privacy rights at borders.</p> <blockquote> <p><strong>TL;",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Chinese chipmaker shares surge 470%",
-      "link": "https://www.bbc.com/news/articles/c9q9w3x9qn2o",
-      "pubDate": "2026-07-27T09:11:59.000Z",
-      "description": "Article URL: https://www.bbc.com/news/articles/c9q9w3x9qn2o Comments URL: https://news.ycombinator.com/item?id=49066962 Points: 8 # Comments: 0",
+      "title": "AI companies spend record sums on Washington lobbying",
+      "link": "https://www.ft.com/content/d8a5f95e-3b6d-463a-a848-c9ef8e2394db",
+      "pubDate": "2026-07-27T14:07:48.000Z",
+      "description": "Article URL: https://www.ft.com/content/d8a5f95e-3b6d-463a-a848-c9ef8e2394db Comments URL: https://news.ycombinator.com/item?id=49069939 Points: 14 # Comments: 4",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "How Unix spell ran in 64 kB of RAM",
-      "link": "https://blog.codingconfessions.com/p/how-unix-spell-ran-in-64kb-ram",
-      "pubDate": "2026-07-27T08:43:11.000Z",
-      "description": "Article URL: https://blog.codingconfessions.com/p/how-unix-spell-ran-in-64kb-ram Comments URL: https://news.ycombinator.com/item?id=49066750 Points: 17 # Comments: 0",
+      "title": "We Tested Nonstick Cookware: Coatings Don't Need to Look Worn to Shed Particles",
+      "link": "https://www.rtings.com/air-fryer/learn/research/ptfe-cookware-shedding",
+      "pubDate": "2026-07-27T13:29:12.000Z",
+      "description": "Article URL: https://www.rtings.com/air-fryer/learn/research/ptfe-cookware-shedding Comments URL: https://news.ycombinator.com/item?id=49069447 Points: 43 # Comments: 26",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Kimi-K3 Releases on HuggingFace 7/27",
-      "link": "https://huggingface.co/moonshotai/Kimi-K3",
-      "pubDate": "2026-07-27T06:18:10.000Z",
-      "description": "Article URL: https://huggingface.co/moonshotai/Kimi-K3 Comments URL: https://news.ycombinator.com/item?id=49065752 Points: 306 # Comments: 121",
+      "title": "Should you wash your solar panels?",
+      "link": "https://incoherency.co.uk/blog/stories/should-you-wash-your-solar-panels.html",
+      "pubDate": "2026-07-27T13:04:11.000Z",
+      "description": "Article URL: https://incoherency.co.uk/blog/stories/should-you-wash-your-solar-panels.html Comments URL: https://news.ycombinator.com/item?id=49069132 Points: 87 # Comments: 70",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "The old-school way of keeping the summer heat out of your home",
-      "link": "https://monocle.com/design/architecture/keeping-your-home-cool-without-air-conditioning/",
-      "pubDate": "2026-07-27T02:33:22.000Z",
-      "description": "Article URL: https://monocle.com/design/architecture/keeping-your-home-cool-without-air-conditioning/ Comments URL: https://news.ycombinator.com/item?id=49064588 Points: 17 # Comments: 20",
+      "title": "AI companies are shredding rare books",
+      "link": "https://xcancel.com/HedgieMarkets/status/2081534588485296565",
+      "pubDate": "2026-07-27T12:32:12.000Z",
+      "description": "Article URL: https://xcancel.com/HedgieMarkets/status/2081534588485296565 Comments URL: https://news.ycombinator.com/item?id=49068738 Points: 439 # Comments: 237",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "PGSimCity - How PostgreSQL Works",
-      "link": "https://nikolays.github.io/PGSimCity/",
-      "pubDate": "2026-07-27T00:19:04.000Z",
-      "description": "Article URL: https://nikolays.github.io/PGSimCity/ Comments URL: https://news.ycombinator.com/item?id=49063754 Points: 594 # Comments: 59",
+      "title": "The Proof Machine (2016)",
+      "link": "https://incredible.pm/",
+      "pubDate": "2026-07-27T12:29:24.000Z",
+      "description": "Article URL: https://incredible.pm/ Comments URL: https://news.ycombinator.com/item?id=49068711 Points: 15 # Comments: 1",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Fonts In Use – Find out where a font is used",
-      "link": "https://fontsinuse.com/",
-      "pubDate": "2026-07-26T23:45:09.000Z",
-      "description": "Article URL: https://fontsinuse.com/ Comments URL: https://news.ycombinator.com/item?id=49063523 Points: 69 # Comments: 7",
+      "title": "Elevated errors on Claude Opus 5",
+      "link": "https://status.claude.com/incidents/mfdtrknpxghq",
+      "pubDate": "2026-07-27T11:32:32.000Z",
+      "description": "Article URL: https://status.claude.com/incidents/mfdtrknpxghq Comments URL: https://news.ycombinator.com/item?id=49068029 Points: 60 # Comments: 49",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Scriptc by Vercel: TypeScript-to-Native compiler, no JavaScript engine in binary",
-      "link": "https://github.com/vercel-labs/scriptc",
-      "pubDate": "2026-07-26T22:46:10.000Z",
-      "description": "Article URL: https://github.com/vercel-labs/scriptc Comments URL: https://news.ycombinator.com/item?id=49063175 Points: 179 # Comments: 93",
+      "title": "Google Chrome Arrives on ARM64 Linux, Widevine DRM Included",
+      "link": "https://www.omgubuntu.co.uk/2026/07/chrome-arm64-linux-available",
+      "pubDate": "2026-07-27T11:19:33.000Z",
+      "description": "Article URL: https://www.omgubuntu.co.uk/2026/07/chrome-arm64-linux-available Comments URL: https://news.ycombinator.com/item?id=49067919 Points: 40 # Comments: 16",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "US citizen charged after GrapheneOS phone wipes during airport search",
-      "link": "https://www.techspot.com/news/113236-us-prosecutors-charge-atlanta-man-after-grapheneos-phone.html",
-      "pubDate": "2026-07-26T22:21:41.000Z",
-      "description": "Article URL: https://www.techspot.com/news/113236-us-prosecutors-charge-atlanta-man-after-grapheneos-phone.html Comments URL: https://news.ycombinator.com/item?id=49063022 Points: 770 # Comments: 556",
+      "title": "How is the Bun Rewrite in Rust going?",
+      "link": "https://lockwood.dev/ai/2026/07/27/how-is-the-bun-rewrite-in-rust-going.html",
+      "pubDate": "2026-07-27T11:12:26.000Z",
+      "description": "Article URL: https://lockwood.dev/ai/2026/07/27/how-is-the-bun-rewrite-in-rust-going.html Comments URL: https://news.ycombinator.com/item?id=49067854 Points: 269 # Comments: 179",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "We have proof automation now",
-      "link": "https://www.imperialviolet.org/2026/07/26/zstd-lean.html",
-      "pubDate": "2026-07-26T20:53:26.000Z",
-      "description": "Article URL: https://www.imperialviolet.org/2026/07/26/zstd-lean.html Comments URL: https://news.ycombinator.com/item?id=49062291 Points: 169 # Comments: 56",
+      "title": "The Birth of the American 12-string Guitar",
+      "link": "https://www.harpguitars.net/history/grunewald/12-string.htm",
+      "pubDate": "2026-07-27T10:52:21.000Z",
+      "description": "Article URL: https://www.harpguitars.net/history/grunewald/12-string.htm Comments URL: https://news.ycombinator.com/item?id=49067690 Points: 43 # Comments: 24",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Simulate cassette tape audio profiles using FFmpeg",
-      "link": "https://github.com/AARomanov1985/Audio-Cassette-Simulation",
-      "pubDate": "2026-07-26T20:02:15.000Z",
-      "description": "Article URL: https://github.com/AARomanov1985/Audio-Cassette-Simulation Comments URL: https://news.ycombinator.com/item?id=49061887 Points: 133 # Comments: 55",
+      "title": "Libsm64: Mario 64 as a library for use in external game engines",
+      "link": "https://github.com/libsm64/libsm64",
+      "pubDate": "2026-07-27T10:04:48.000Z",
+      "description": "Article URL: https://github.com/libsm64/libsm64 Comments URL: https://news.ycombinator.com/item?id=49067352 Points: 80 # Comments: 11",
       "source": "Hacker News",
       "category": "Tech News"
-    },
-    {
-      "title": "writing-mode",
-      "link": "https://css-tricks.com/almanac/properties/w/writing-mode/",
-      "pubDate": "2026-07-21T09:39:10.000Z",
-      "description": "The writing-mode CSS property sets whether lines of text are laid out horizontally or vertically, and the direction in which blocks and lines progress. .element { writing-mode: vertical-rl; } This is most useful in languages such as Chinese, Japanese or … writing-mode originally handwritten and publ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "pointer-events",
-      "link": "https://css-tricks.com/almanac/properties/p/pointer-events/",
-      "pubDate": "2026-07-15T19:57:51.000Z",
-      "description": "The pointer-events property controls whether an element can become the target of pointer events like clicks, hover states, and other pointer-based events. In other words, it lets you decide whether the browser should treat an element as interactive when the … pointer-events originally handwritten an",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "What’s !important #15: Boundary-aware CSS, Time-based CSS, Full-bleed CSS, and More",
-      "link": "https://css-tricks.com/whats-important-15/",
-      "pubDate": "2026-07-15T14:36:18.000Z",
-      "description": "Read all about boundary-aware CSS, accessible grid lanes, time-based web designs, full-bleed, the customizable select, and new web platform features. What’s !important #15: Boundary-aware CSS, Time-based CSS, Full-bleed CSS, and More originally handwritten and published with love on CSS-Tricks. You ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Get Ready For the Powerful CSS border-shape Property!",
-      "link": "https://css-tricks.com/get-ready-for-the-powerful-css-border-shape-property/",
-      "pubDate": "2026-07-07T15:14:00.000Z",
-      "description": "We recently got the shape() function and corner-shape property. What else could we possibly need as far as making shapes in CSS? Let me tell you: the border-shape property! Get Ready For the Powerful CSS border-shape Property! originally handwritten and published with love on CSS-Tricks. You should ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "What’s !important #14: Gap Decorations, random(), &#060;select&gt; field-sizing, and More",
-      "link": "https://css-tricks.com/whats-important-14/",
-      "pubDate": "2026-06-30T13:54:14.000Z",
-      "description": "I know you’re busy, so for What’s !important #14, I’ll be sprinting through what’s been a stacked couple of weeks despite few browser updates. From CSS Quake to CSS Gap Decorations, this isn’t one to miss! What’s !important #14: Gap Decorations, random(), <select> field-sizing, and More originally h",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "The Shifting Line Between CSS States and JavaScript Events",
-      "link": "https://css-tricks.com/css-states-and-javascript-events/",
-      "pubDate": "2026-06-29T13:03:32.000Z",
-      "description": "CSS has always had pseudo-classes that style things based on user interactions. Recent features, however, are blurring the line between what CSS \"listens\" for and how they are alternatives to what Javascript typically listens for. The Shifting Line Between CSS States and JavaScript Events originally",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translateZ()",
-      "link": "https://css-tricks.com/almanac/functions/t/translatez/",
-      "pubDate": "2026-06-25T13:18:56.000Z",
-      "description": "The translateZ() function moves an element closer to or farther from the user. translateZ() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translateY()",
-      "link": "https://css-tricks.com/almanac/functions/t/translatey/",
-      "pubDate": "2026-06-25T13:17:56.000Z",
-      "description": "The translateY() function shifts an element vertically by the specified amount. translateY() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translateX()",
-      "link": "https://css-tricks.com/almanac/functions/t/translatex/",
-      "pubDate": "2026-06-25T13:16:01.000Z",
-      "description": "The translateX() function shifts an element horizontally by the specified amount. translateX() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translate()",
-      "link": "https://css-tricks.com/almanac/functions/t/translate/",
-      "pubDate": "2026-06-25T13:15:05.000Z",
-      "description": "The CSS translate() function shifts an element from its default position on a 2-dimensional plane translate() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
     },
     {
       "title": "Meet the HTB Profile: all your skills, in one place",
