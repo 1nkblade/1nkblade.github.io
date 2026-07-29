@@ -1,110 +1,134 @@
 {
-  "generatedAt": "2026-07-29T03:40:56.175Z",
+  "generatedAt": "2026-07-29T09:08:41.018Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "MCP Usage Metering: Track Agent Tool Calls Without Billing Surprises",
-      "link": "https://dev.to/jackm-singularity/mcp-usage-metering-track-agent-tool-calls-without-billing-surprises-2o6g",
-      "pubDate": "2026-07-29T03:34:27.000Z",
-      "description": "<p>An AI agent can turn one user request into a small storm of model calls, MCP tool calls, retries, partial failures, and background work. If you only meter the final response, you are guessing. If you meter every low-level event without context, you create noise customers will not trust.</p> <p>Th",
+      "title": "AI Can Generate a Test Suite. That Does Not Mean You Have One.",
+      "link": "https://dev.to/mellowthunder735/ai-can-generate-a-test-suite-that-does-not-mean-you-have-one-703",
+      "pubDate": "2026-07-29T09:08:16.000Z",
+      "description": "<p>Generating browser tests with AI has become almost comically easy.</p> <p>You paste a requirement into Claude, ChatGPT, Copilot, or another coding assistant. A few seconds later, you have a folder full of Playwright tests, fixtures, page objects, and configuration files.</p> <p>The tests may even",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The Window to Build AI Expertise Is Closing Faster Than Anyone Expected",
-      "link": "https://dev.to/aibughunter/the-window-to-build-ai-expertise-is-closing-faster-than-anyone-expected-5bfb",
-      "pubDate": "2026-07-29T03:31:36.000Z",
-      "description": "<p>I spend a lot of time in the AI space -- reading papers, building things, talking to engineers who are actually shipping. And there is a gap between what the demos show and what production systems actually look like that nobody is being fully honest about.</p> <p>So here is my honest take on wher",
+      "title": "When Database Read Replicas Introduce More Problems Than They Solve",
+      "link": "https://dev.to/nolanvale/when-database-read-replicas-introduce-more-problems-than-they-solve-7kf",
+      "pubDate": "2026-07-29T09:08:12.000Z",
+      "description": "<p>Read replicas are a standard scaling technique: route read-heavy traffic to one or more replica databases, kept in sync with a primary, freeing the primary to handle writes with less contention. The pattern is well understood and genuinely valuable for the right workloads. It's also frequently ad",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Agent Reach installs the tools, then gets out of the way",
-      "link": "https://dev.to/creeta/agent-reach-installs-the-tools-then-gets-out-of-the-way-a34",
-      "pubDate": "2026-07-29T03:31:25.000Z",
-      "description": "<p>Agent Reach is easiest to understand as a setup layer: it gives a command-capable coding agent a local toolbox, then stops being the center of the workflow.</p> <h2> What is Agent Reach CLI for? </h2> <p>Agent Reach CLI is a local, open-source coordinator for AI coding agents that can run shell c",
+      "title": "Why I moved coding-agent work out of the terminal",
+      "link": "https://dev.to/dilless/why-i-moved-coding-agent-work-out-of-the-terminal-bb0",
+      "pubDate": "2026-07-29T09:05:04.000Z",
+      "description": "<p>At some point, I noticed that I had stopped closing terminal tabs.</p> <p>One had an agent halfway through a feature. Another contained a useful investigation I didn’t want to lose. A third was waiting for me to answer a question. I kept them all open because each tab held a piece of project stat",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Two Years From Now, This Will Be the Only Skill That Matters in AI",
-      "link": "https://dev.to/aibughunter/two-years-from-now-this-will-be-the-only-skill-that-matters-in-ai-1a4b",
-      "pubDate": "2026-07-29T03:31:24.000Z",
-      "description": "<p>I spend a lot of time in the AI space -- reading papers, building things, talking to engineers who are actually shipping. And there is a gap between what the demos show and what production systems actually look like that nobody is being fully honest about.</p> <p>So here is my honest take on wher",
+      "title": "BenchmarkGate, Part 2: Why a Baseline Isn't Enough",
+      "link": "https://dev.to/younessaamiri/benchmarkgate-part-2-why-a-baseline-isnt-enough-3ndi",
+      "pubDate": "2026-07-29T09:04:36.000Z",
+      "description": "<p>In <a href=\"https://blog.youness-aamiri.workers.dev/posts/why-a-baseline-isnt-enough/\" rel=\"noopener noreferrer\">part one</a>, I introduced<br> <a href=\"https://github.com/Bijecta/BenchmarkGate\" rel=\"noopener noreferrer\">BenchmarkGate</a> — a local-first<br> performance regression gate for Benchm",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How to safely run AI-generated code — a practical sandboxing checklist",
-      "link": "https://dev.to/weston_carnes_d580b505e0c/how-to-safely-run-ai-generated-code-a-practical-sandboxing-checklist-19hf",
-      "pubDate": "2026-07-29T03:31:14.000Z",
-      "description": "<blockquote> <p>Cross-post. Original: <strong><a href=\"https://www.stellarbytecapital.com/blog/how-to-run-ai-generated-code-safely/\" rel=\"noopener noreferrer\">stellarbytecapital.com/blog/how-to-run-ai-generated-code-safely</a></strong></p> </blockquote> <p>If you're building an AI agent, sooner or l",
+      "title": "EU AI Act Enforcement Starts August 2. Who's Governing Your Agents?",
+      "link": "https://dev.to/narko4u/eu-ai-act-enforcement-starts-august-2-whos-governing-your-agents-30f3",
+      "pubDate": "2026-07-29T09:02:17.000Z",
+      "description": "<h1> EU AI Act Enforcement Starts August 2. Who's Governing Your Agents? </h1> <p><strong>By Empire Labs Security Division</strong><br> <strong>Published: August 2, 2026</strong></p> <p><em>TL;DR — The EU AI Act's high-risk provisions activate today. They weren't written for autonomous AI agents. Bu",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Building a Modern Rate Limiter and DDoS Protection Library for Python",
-      "link": "https://dev.to/zlynv/building-a-modern-rate-limiter-and-ddos-protection-library-for-python-49fe",
-      "pubDate": "2026-07-29T03:31:10.000Z",
-      "description": "<p>Rate limiting is one of those features every production API eventually needs.</p> <p>Whether you're building a public REST API, a WebSocket service, or an authentication endpoint, you'll eventually face problems like:</p> <ul> <li>Credential stuffing</li> <li>Brute-force attacks</li> <li>API abus",
+      "title": "Flux 3 AI: Building a Resilient Multi-Model Video Workbench",
+      "link": "https://dev.to/huahua_ma_9c5860ef60e7991/flux-3-ai-building-a-resilient-multi-model-video-workbench-g2h",
+      "pubDate": "2026-07-29T09:01:15.000Z",
+      "description": "<p>AI video products look simple from the outside: a prompt box, a Generate button, and a result. The implementation becomes much more complicated as soon as multiple models, reference images, different aspect ratios, asynchronous jobs, credit costs, and failures enter the picture.</p> <p>While buil",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "ViciDial \"Campaign Has No Dialable Leads\" — List &amp; Hopper Troubleshooting",
-      "link": "https://dev.to/moisi_trungu_31647b7ac300/vicidial-campaign-has-no-dialable-leads-list-hopper-troubleshooting-2bmi",
-      "pubDate": "2026-07-29T03:30:03.000Z",
-      "description": "<h1> ViciDial \"Campaign Has No Dialable Leads\" — List &amp; Hopper Troubleshooting </h1> <p><strong>Master the root causes of no dialable leads errors and regain full campaign productivity through systematic list validation, hopper configuration, and database troubleshooting.</strong></p> <h2> Prere",
+      "title": "Built, not assembled",
+      "link": "https://dev.to/scalixworld/built-not-assembled-f3m",
+      "pubDate": "2026-07-29T09:00:16.000Z",
+      "description": "<p>Most cloud platforms are not platforms. They are holding companies.</p> <p>A database startup gets acquired. A serverless product gets bolted on. An AI inference layer arrives via partnership. Storage, auth, CDN -- each built by a different team, on different assumptions, with different data mode",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "AI ตรวจจับมัลแวร์เก่งกว่ามนุษย์จริงหรือ? ไขความจริงเบื้องหลังตัวเลขความแม่นยำ",
-      "link": "https://dev.to/11_thanyathonr1ack__b2/ai-trwcchcchabmalaewrekngkwaamnusycchringhruue-aikhkhwaamcchringebuuenghlangtawelkhkhwaamaemnyam-486d",
-      "pubDate": "2026-07-29T03:28:43.000Z",
-      "description": "<p>ทุกวันนี้มัลแวร์รูปแบบใหม่ถูกสร้างขึ้นนับพันนับหมื่นชิ้นในแต่ละวัน ปริมาณภัยคุกคามที่เพิ่มขึ้นอย่างรวดเร็วนี้ทำให้การพึ่งพานักวิเคราะห์ความปลอดภัยไซเบอร์ที่เป็นมนุษย์เพียงอย่างเดียวแทบเป็นไปไม่ได้ นี่คือเหตุผลสำคัญที่บริษัทด้านความปลอดภัยไซเบอร์ทั่วโลกหันมาพึ่งพาปัญญาประดิษฐ์และแมชชีนเลิร์นนิงเป็",
+      "title": "Wrapping Go errors: where, and mostly why",
+      "link": "https://dev.to/ohugonnot/wrapping-go-errors-where-and-mostly-why-1ckc",
+      "pubDate": "2026-07-29T09:00:02.000Z",
+      "description": "<p>Mid-review on an order confirmation mailer, I confidently explained that the right call is to wrap an error once, at the package boundary, not at every internal step. The functions that build the message stay silent, only the public function that sends the email adds useful context. I even quoted",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Your model can't grade its own homework",
-      "link": "https://dev.to/dys5315/your-model-cant-grade-its-own-homework-3c65",
-      "pubDate": "2026-07-29T03:27:50.000Z",
-      "description": "<p>Every team I've watched ship a broken measurement system broke it the same way. Not with bad math — with an org chart problem that happened to live in code.</p> <p>The entity making the claim ended up being the entity that decided whether the claim was right.</p> <p>Once you have the shape in you",
+      "title": "LoopTroop v0.4 is out + just hit 100 GitHub stars! A local-first AI coding orchestrator that turns tickets into real PRs",
+      "link": "https://dev.to/liviux/looptroop-v04-is-out-just-hit-100-github-stars-a-local-first-ai-coding-orchestrator-that-turns-3k43",
+      "pubDate": "2026-07-29T08:50:55.000Z",
+      "description": "<p>Hey everyone! The first 100 stars are always the hardest, so I wanted to share a big milestone and launch update. I just released LoopTroop v0.4!</p> <p>What is LoopTroop?<br> LoopTroop is a free, open-source, local-first GUI designed to eliminate \"endless chat drift\" in AI coding assistants. Ins",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "FROST的复利效应：为什么你的AI Agent需要一本知识账本？",
-      "link": "https://dev.to/llimage/frostde-fu-li-xiao-ying-wei-shi-yao-ni-de-ai-agentxu-yao-ben-zhi-shi-zhang-ben--2edf",
-      "pubDate": "2026-07-29T03:26:50.000Z",
-      "description": "<h1> FROST的复利效应：为什么你的AI Agent需要一本\"知识账本\"？ </h1> <p><strong>作者</strong>：神通说<br><br> <strong>日期</strong>：2026-07-29<br><br> <strong>主题</strong>：双项目联动 | 周三轮换<br><br> <strong>阅读时间</strong>：10分钟</p> <h2> 一个灵魂拷问 </h2> <p>你的AI Agent，每次执行完任务后，学到了什么？</p> <p>如果你的回答是\"什么都没学到\"——恭喜你，你发现了99%的Agent框架都回避的问题。</p> <blo",
+      "title": "Your scraper isn't broken. The site changed, and it didn't tell you.",
+      "link": "https://dev.to/votiakov/your-scraper-isnt-broken-the-site-changed-and-it-didnt-tell-you-ba",
+      "pubDate": "2026-07-29T08:50:28.000Z",
+      "description": "<p>The scraper had been green for eleven weeks. Every run exited 0, every run wrote rows to the warehouse, the dashboard showed a healthy line. Then someone in the pricing team asked why 40% of products suddenly had no price. They'd been shipping decisions on that data for most of a week.</p> <p>Not",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "SQLite in Production: Optimizing WAL Mode, Concurrency, and VFS Layers",
+      "link": "https://micrologics.org/blog/sqlite-in-production-optimizing-wal-mode-concurrency-and-vfs-layers-for-low-latency-app-servers",
+      "pubDate": "2026-07-29T07:18:24.000Z",
+      "description": "Article URL: https://micrologics.org/blog/sqlite-in-production-optimizing-wal-mode-concurrency-and-vfs-layers-for-low-latency-app-servers Comments URL: https://news.ycombinator.com/item?id=49094346 Points: 19 # Comments: 1",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "More Tailscale tricks for your jailbroken Kindle",
+      "link": "https://tailscale.com/blog/jailbroken-kindle-proxy-tun-modes",
+      "pubDate": "2026-07-29T04:58:46.000Z",
+      "description": "Article URL: https://tailscale.com/blog/jailbroken-kindle-proxy-tun-modes Comments URL: https://news.ycombinator.com/item?id=49093569 Points: 163 # Comments: 49",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Cracking Windows Open: Porting RADV to Win32",
+      "link": "https://www.collabora.com/news-and-blog/news-and-events/cracking-windows-open-porting-radv-to-win32.html",
+      "pubDate": "2026-07-29T04:30:47.000Z",
+      "description": "Article URL: https://www.collabora.com/news-and-blog/news-and-events/cracking-windows-open-porting-radv-to-win32.html Comments URL: https://news.ycombinator.com/item?id=49093435 Points: 39 # Comments: 8",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "User Interfaces of the Demo Scene",
+      "link": "https://www.datagubbe.se/scenegui/",
+      "pubDate": "2026-07-29T04:30:36.000Z",
+      "description": "Article URL: https://www.datagubbe.se/scenegui/ Comments URL: https://news.ycombinator.com/item?id=49093434 Points: 158 # Comments: 26",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Transformer Transformer: A Unified Model for Motion-Conditioned Robot Co-Design",
+      "link": "https://transformer-transformer.github.io/",
+      "pubDate": "2026-07-29T03:52:29.000Z",
+      "description": "Article URL: https://transformer-transformer.github.io/ Comments URL: https://news.ycombinator.com/item?id=49093232 Points: 49 # Comments: 2",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "Hooray for the Sockets Interface",
       "link": "https://blog.apnic.net/2026/07/28/hooray-for-the-sockets-interface/",
       "pubDate": "2026-07-29T02:25:29.000Z",
-      "description": "Article URL: https://blog.apnic.net/2026/07/28/hooray-for-the-sockets-interface/ Comments URL: https://news.ycombinator.com/item?id=49092754 Points: 7 # Comments: 4",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Show HN: Lean4 Datalog DSL Based on Google Zanzibar for AI Projects",
-      "link": "https://github.com/jagg-ix/zil-lean",
-      "pubDate": "2026-07-29T02:22:04.000Z",
-      "description": "Google Zanzibar datalog lang lets you describe concepts and express how they are related. I generalize it to DSL you can use on Lean4 (and other languages) this lets you represent a knowledge base you can construct, store and evaluate, have it under git and improve without big engines or relaying on",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Chip stocks slide in US and Asia as AI jitters rattle investors",
-      "link": "https://www.bbc.com/news/articles/cly8zng43npo",
-      "pubDate": "2026-07-29T01:56:00.000Z",
-      "description": "Article URL: https://www.bbc.com/news/articles/cly8zng43npo Comments URL: https://news.ycombinator.com/item?id=49092549 Points: 25 # Comments: 7",
+      "description": "Article URL: https://blog.apnic.net/2026/07/28/hooray-for-the-sockets-interface/ Comments URL: https://news.ycombinator.com/item?id=49092754 Points: 34 # Comments: 18",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -112,7 +136,7 @@
       "title": "LearnVector – Andrew Ng's AI company building one‑to‑one learning experiences",
       "link": "https://learnvector.ai/",
       "pubDate": "2026-07-29T01:49:19.000Z",
-      "description": "Article URL: https://learnvector.ai/ Comments URL: https://news.ycombinator.com/item?id=49092499 Points: 60 # Comments: 30",
+      "description": "Article URL: https://learnvector.ai/ Comments URL: https://news.ycombinator.com/item?id=49092499 Points: 174 # Comments: 103",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -120,23 +144,7 @@
       "title": "Multiple Mouse Cursors in Wayland",
       "link": "https://blinry.org/multi-seat-wayland/",
       "pubDate": "2026-07-29T00:59:37.000Z",
-      "description": "Article URL: https://blinry.org/multi-seat-wayland/ Comments URL: https://news.ycombinator.com/item?id=49092112 Points: 32 # Comments: 13",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Lightweight Spring Boot Monitoring Without Prometheus and Grafana",
-      "link": "https://pvrlabs.xyz/articles/lightweight-spring-boot-monitoring.html",
-      "pubDate": "2026-07-29T00:32:08.000Z",
-      "description": "Article URL: https://pvrlabs.xyz/articles/lightweight-spring-boot-monitoring.html Comments URL: https://news.ycombinator.com/item?id=49091895 Points: 16 # Comments: 2",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "The Difference Between a Button and a Link",
-      "link": "https://unplannedobsolescence.com/blog/buttons-vs-links/",
-      "pubDate": "2026-07-29T00:12:14.000Z",
-      "description": "Article URL: https://unplannedobsolescence.com/blog/buttons-vs-links/ Comments URL: https://news.ycombinator.com/item?id=49091738 Points: 47 # Comments: 18",
+      "description": "Article URL: https://blinry.org/multi-seat-wayland/ Comments URL: https://news.ycombinator.com/item?id=49092112 Points: 120 # Comments: 81",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -144,15 +152,7 @@
       "title": "Hubble: Open-source notetaking app for you and your agents",
       "link": "https://www.hubble.md/",
       "pubDate": "2026-07-29T00:11:23.000Z",
-      "description": "Article URL: https://www.hubble.md/ Comments URL: https://news.ycombinator.com/item?id=49091730 Points: 57 # Comments: 10",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Show HN: Manim (3Blue1Brown's animation engine) in the browser via WebGPU",
-      "link": "https://studio.academa.ai/",
-      "pubDate": "2026-07-29T00:07:43.000Z",
-      "description": "Grant Sanderson (3Blue1Brown) created Manim, the Python library he uses to make the math animations in his videos.We reimplemented Manim with the same Python API, but the implementation underneath is Rust, connected to Python through PyO3. The Rust code uses wgpu, so rendering happens on the GPU.To ",
+      "description": "Article URL: https://www.hubble.md/ Comments URL: https://news.ycombinator.com/item?id=49091730 Points: 104 # Comments: 38",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -160,7 +160,7 @@
       "title": "ReFrame – The EPaper Camera",
       "link": "https://reframe.camera/",
       "pubDate": "2026-07-28T23:27:09.000Z",
-      "description": "Article URL: https://reframe.camera/ Comments URL: https://news.ycombinator.com/item?id=49091379 Points: 51 # Comments: 13",
+      "description": "Article URL: https://reframe.camera/ Comments URL: https://news.ycombinator.com/item?id=49091379 Points: 120 # Comments: 22",
       "source": "Hacker News",
       "category": "Tech News"
     },
