@@ -1,248 +1,173 @@
 {
-  "generatedAt": "2026-07-29T14:31:29.664Z",
+  "generatedAt": "2026-07-29T19:43:50.675Z",
   "sourceCount": 4,
-  "successCount": 4,
-  "errors": [],
+  "successCount": 3,
+  "errors": [
+    {
+      "source": "CSS Tricks",
+      "error": "HTTP 415 Unsupported Media Type"
+    }
+  ],
   "items": [
     {
-      "title": "What is current your \"daily driver\" coding model? (July 2026)",
-      "link": "https://dev.to/peter/what-is-current-your-daily-driver-coding-model-july-2026-24cl",
-      "pubDate": "2026-07-29T14:29:13.000Z",
-      "description": "<p>Fable 5 at Max effort? OpenAI's gpt-5.6? The latest Gemini models? Perhaps Kimi K3 or other open-weight models?</p> <p>For your typical needs these days, what model do you tend to use and why?</p>",
+      "title": "Your coding agent can now write a .NET workflow engine integration",
+      "link": "https://dev.to/optimajet/your-coding-agent-can-now-write-a-net-workflow-engine-integration-2lkb",
+      "pubDate": "2026-07-29T19:34:17.000Z",
+      "description": "<p>Ask Codex, Claude or Cursor to wire a workflow library into a .NET service and you usually get code that looks right and calls a method that doesn't exist. Say the agent gets past that. It then hits the line \"obtain a license key from the vendor\" and stops, because that step was built for a human",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "When you run multiple services on a shared Linux server, one of the most common DevOps challenges is giving a teammate or a client access to exactly one running service: nothing more, nothing less. You don't want to hand them root access, you don't want th",
-      "link": "https://dev.to/saint_vandora/when-you-run-multiple-services-on-a-shared-linux-server-one-of-the-most-common-devops-challenges-3obc",
-      "pubDate": "2026-07-29T14:27:10.000Z",
-      "description": "<div class=\"ltag__link--embedded\"> <div class=\"crayons-story \"> <a href=\"https://dev.to/saint_vandora/how-to-give-a-linux-user-scoped-access-to-a-specific-docker-container-without-exposing-the-entire-10ck\" class=\"crayons-story__hidden-navigation-link\">How to Give a Linux User Scoped Access to a Spec",
+      "title": "Rock paper scissors is secretly a distributed systems problem",
+      "link": "https://dev.to/ozgurozalp/rock-paper-scissors-is-secretly-a-distributed-systems-problem-21i9",
+      "pubDate": "2026-07-29T19:30:04.000Z",
+      "description": "<p>Back in 2023 I built <a href=\"https://rock.paperscissors.online/\" rel=\"noopener noreferrer\">an online rock paper scissors game</a> so my friends and I could settle arguments remotely. Open a room, send the link, best of three. I figured it was a weekend project.</p> <p>It's been running for about",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How to Give a Linux User Scoped Access to a Specific Docker Container (Without Exposing the Entire Server)",
-      "link": "https://dev.to/saint_vandora/how-to-give-a-linux-user-scoped-access-to-a-specific-docker-container-without-exposing-the-entire-10ck",
-      "pubDate": "2026-07-29T14:26:48.000Z",
-      "description": "<p>When you run multiple services on a shared Linux server, one of the most common DevOps challenges is giving a teammate or a client access to exactly one running service: nothing more, nothing less. You don't want to hand them root access, you don't want them browsing other application directories",
+      "title": "Kimi K3-256k",
+      "link": "https://www.kimi.com/code/docs/en/kimi-code/models",
+      "pubDate": "2026-07-29T19:25:33.000Z",
+      "description": "Article URL: https://www.kimi.com/code/docs/en/kimi-code/models Comments URL: https://news.ycombinator.com/item?id=49101852 Points: 5 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "How I schedule work and communication with Morgen",
+      "link": "https://dev.to/geewiz/how-i-schedule-work-and-communication-with-morgen-4lb1",
+      "pubDate": "2026-07-29T19:22:24.000Z",
+      "description": "<p>Time is my most valuable resource. Unlike most others, it can’t be replenished, and at my age, I’m acutely aware of this fact. The app I’ve been using daily for years now to manage my time is <a href=\"https://www.morgen.so\" rel=\"noopener noreferrer\">Morgen</a>. I can’t believe this service is sti",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "CryptanalysisBench Introduces a Framework to Measure LLM Cryptanalysis Capabilities",
-      "link": "https://dev.to/alifar/cryptanalysisbench-introduces-a-framework-to-measure-llm-cryptanalysis-capabilities-2nlb",
-      "pubDate": "2026-07-29T14:20:30.000Z",
-      "description": "<p>CryptanalysisBench is a new benchmark designed to measure whether large language models can contribute to cryptanalysis, a field concerned with finding weaknesses in cryptographic systems. Developed by researchers affiliated with <strong>ETH Zurich, Anthropic, Tel Aviv University, and the Univers",
+      "title": "Orquestração Resiliente de LLMs: Como Construí uma Engine em Python, PyTorch e DeepSpeed Capaz de Sustentar 1 Milhão de Passos sem Erros de OOM",
+      "link": "https://dev.to/nobazzy/orquestracao-resiliente-de-llms-como-construi-uma-engine-em-python-pytorch-e-deepspeed-capaz-de-195e",
+      "pubDate": "2026-07-29T19:18:18.000Z",
+      "description": "<h1> Orquestração Resiliente de LLMs: Como Construí uma Engine em Python, PyTorch e DeepSpeed Capaz de Sustentar 1 Milhão de Passos sem Erros de OOM </h1> <blockquote> <p><strong>Resumo:</strong> Treinar grandes modelos de linguagem (LLMs) é uma das tarefas computacionais mais caras e complexas da e",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The Rogue AI Story Isn't About Rogue AI. It's About Credentials You Forgot Existed",
-      "link": "https://dev.to/coridev/the-rogue-ai-story-isnt-about-rogue-ai-its-about-credentials-you-forgot-existed-5a9c",
-      "pubDate": "2026-07-29T14:19:52.000Z",
-      "description": "<p>An autonomous ChatGPT agent broke out of its test environment and used exposed credentials to hit Hugging Face and at least three other services, for days, before anyone caught it. That sentence should worry you a lot less than the reason it happened.</p> <h2> Context </h2> <p>Let's place this wh",
+      "title": "Amazon Bedrock Agents Orchestrating Google ADK over A2A",
+      "link": "https://dev.to/gde/amazon-bedrock-agents-orchestrating-google-adk-over-a2a-5c2b",
+      "pubDate": "2026-07-29T19:14:47.000Z",
+      "description": "<p>This article explains how to build and test a cross-cloud currency agent. An <strong>Amazon Bedrock master agent</strong>, built with Strands Agents and hosted on <strong>Amazon Bedrock AgentCore Runtime</strong> in AWS <code>us-east-1</code>, delegates to a <strong>Google ADK worker</strong> on ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Hey all, im FINALLY getting back to writing. What are some things you'd want to read?",
-      "link": "https://dev.to/lundjrl/hey-all-im-finally-getting-back-to-writing-what-are-some-things-youd-want-to-read-cmn",
-      "pubDate": "2026-07-29T14:19:32.000Z",
-      "description": "",
+      "title": "Amazon Bedrock Agents Orchestrating Google ADK over A2A",
+      "link": "https://dev.to/aws-builders/amazon-bedrock-agents-orchestrating-google-adk-over-a2a-3khg",
+      "pubDate": "2026-07-29T19:13:53.000Z",
+      "description": "<p>This article explains how to build and test a cross-cloud currency agent. An <strong>Amazon Bedrock master agent</strong>, built with Strands Agents and hosted on <strong>Amazon Bedrock AgentCore Runtime</strong> in AWS <code>us-east-1</code>, delegates to a <strong>Google ADK worker</strong> on ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Pick a Good Manager, and Your Career Changes",
-      "link": "https://dev.to/pskclub/pick-a-good-manager-and-your-career-changes-i62",
-      "pubDate": "2026-07-29T14:15:05.000Z",
-      "description": "<p><em>Adapted from a talk by 9arm — watch the original video at <a href=\"https://www.youtube.com/watch?v=6FMl4YaJnts\" rel=\"noopener noreferrer\">youtube.com/watch?v=6FMl4YaJnts</a></em></p> <h2> The Lesson From 5 Wasted Years: Nobody Teaches You Career Growth </h2> <p>There's one thing nobody teache",
+      "title": "How much can you delegate to agents?",
+      "link": "https://newsletter.posthog.com/p/agent-autonomy",
+      "pubDate": "2026-07-29T19:07:13.000Z",
+      "description": "Article URL: https://newsletter.posthog.com/p/agent-autonomy Comments URL: https://news.ycombinator.com/item?id=49101655 Points: 3 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Montando um Cluster Kubernetes On-Premise — Parte 6: Deploy, Atualização e Escalabilidade de uma Aplicação Própria",
+      "link": "https://dev.to/celsonery/montando-um-cluster-kubernetes-on-premise-parte-6-deploy-atualizacao-e-escalabilidade-de-uma-588g",
+      "pubDate": "2026-07-29T19:04:42.000Z",
+      "description": "<p>🇺🇸 English version coming soon.</p> <p>Na Parte 5 desta série, validamos o cluster de ponta a ponta fazendo o deploy do Nginx. Agora vamos um passo além: construir a imagem Docker de uma aplicação própria, publicá-la, colocá-la para rodar no cluster e explorar operações do dia a dia — atualizaç",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I Built a Code-Roasting Rubber Duck",
-      "link": "https://dev.to/tmoreton/i-built-a-code-roasting-rubber-duck-39d2",
-      "pubDate": "2026-07-29T14:14:06.000Z",
-      "description": "<p>Every developer knows rubber-duck debugging: you explain your code to a rubber duck on your desk, and halfway through the explanation you spot the bug yourself. The duck just sits there. Silent. Judging.</p> <p>I wanted a duck that judges <em>out loud</em>.</p> <p>So I built <strong><a href=\"http",
+      "title": "Montando um Cluster Kubernetes On-Premise — Parte 5: Fazendo o Deploy do Primeiro Container",
+      "link": "https://dev.to/celsonery/montando-um-cluster-kubernetes-on-premise-parte-5-fazendo-o-deploy-do-primeiro-container-3dm1",
+      "pubDate": "2026-07-29T19:04:34.000Z",
+      "description": "<p>🇺🇸 English version coming soon.</p> <p>Nas partes anteriores desta série, construímos o cluster do zero: preparamos o ambiente (Parte 1), instalamos containerd e Kubernetes (Parte 2), inicializamos o control-plane (Parte 3) e ingressamos os workers (Parte 4). Com o cluster de pé e todos os nós ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Sharing tRPC v11 types between Next.js and Expo: a real-world indie Web + iOS setup",
-      "link": "https://dev.to/hirodeath/sharing-trpc-v11-types-between-nextjs-and-expo-a-real-world-indie-web-ios-setup-3067",
-      "pubDate": "2026-07-29T14:08:55.000Z",
-      "description": "<blockquote> <p>This is a translation of my original article in Japanese: <a href=\"https://zenn.dev/hirodeath/articles/trpc-share-types-next-expo\" rel=\"noopener noreferrer\">Zenn</a></p> </blockquote> <p>I build and run a service as a solo developer that ships both a web app (Next.js) and an iOS app ",
+      "title": "Montando um Cluster Kubernetes On-Premise — Parte 2: Instalando Containerd e Kubernetes",
+      "link": "https://dev.to/celsonery/montando-um-cluster-kubernetes-on-premise-parte-2-instalando-containerd-e-kubernetes-ode",
+      "pubDate": "2026-07-29T19:04:05.000Z",
+      "description": "<p>🇺🇸 English version coming soon.</p> <p>Na Parte 1 desta série, preparamos o ambiente: definimos o hardware, configuramos o <code>/etc/hosts</code>, ajustamos o firewall e desabilitamos o SWAP em todos os nós. Agora que a base está pronta, é hora de instalar o container runtime (<strong>containe",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Choose DuckDB rather than SQLite",
-      "link": "https://tracewayapp.com/blog/sqlite-vs-duckdb",
-      "pubDate": "2026-07-29T14:05:40.000Z",
-      "description": "Article URL: https://tracewayapp.com/blog/sqlite-vs-duckdb Comments URL: https://news.ycombinator.com/item?id=49097730 Points: 16 # Comments: 1",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Offense + Defense combined — How the two pair up (for self-taught developers)",
-      "link": "https://dev.to/dexterlung/offense-defense-combined-how-the-two-pair-up-for-self-taught-developers-49c0",
-      "pubDate": "2026-07-29T14:05:15.000Z",
-      "description": "<p><strong>May 2026</strong> · Series \"Trace Lock — Governance notes from pairing with AI to write code\" · Post 4 of 9</p> <p>The previous two posts covered the two trace-lock modes separately:</p> <ul> <li> <a href=\"//./trace-lock-a1-defense-en.md\">A1 Defensive</a>: after tripping on a cross-layer ",
+      "title": "Validating JSON Payloads Against a Schema Before They Hit Your Service",
+      "link": "https://dev.to/lizely/validating-json-payloads-against-a-schema-before-they-hit-your-service-1d39",
+      "pubDate": "2026-07-29T19:01:33.000Z",
+      "description": "<p>A schema is only useful if it actually catches bad payloads before they reach your handler. Most teams write the schema, then forget it during local development, or only enforce it in CI on a handful of fixtures. That gap is where the 2 a.m. incident starts. This walkthrough is about the boring, ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Handbook.md shows that long policy documents do not reliably govern agents",
-      "link": "https://arxiv.org/abs/2607.25398",
-      "pubDate": "2026-07-29T13:01:57.000Z",
-      "description": "Article URL: https://arxiv.org/abs/2607.25398 Comments URL: https://news.ycombinator.com/item?id=49096969 Points: 67 # Comments: 39",
+      "title": "Commodification of Intelligence: Good, Bad, and Ugly Circular AI Deals",
+      "link": "https://www.emergingtrajectories.com/lh/commodification-and-circularity/",
+      "pubDate": "2026-07-29T18:57:10.000Z",
+      "description": "Article URL: https://www.emergingtrajectories.com/lh/commodification-and-circularity/ Comments URL: https://news.ycombinator.com/item?id=49101529 Points: 7 # Comments: 8",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Show HN: Bullshit Detector – agent skills that fact-check videos and articles",
-      "link": "https://github.com/SerhiiKorniienko/bullshit-detector",
-      "pubDate": "2026-07-29T12:58:27.000Z",
-      "description": "Article URL: https://github.com/SerhiiKorniienko/bullshit-detector Comments URL: https://news.ycombinator.com/item?id=49096917 Points: 41 # Comments: 21",
+      "title": "Austerity Breeds Financial Protectionism",
+      "link": "https://theloop.ecpr.eu/who-the-welfare-state-protects-shapes-a-countrys-financial-openness/",
+      "pubDate": "2026-07-29T18:50:10.000Z",
+      "description": "Article URL: https://theloop.ecpr.eu/who-the-welfare-state-protects-shapes-a-countrys-financial-openness/ Comments URL: https://news.ycombinator.com/item?id=49101460 Points: 9 # Comments: 2",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Shipping Godot VR and Porting to PSVR2: A Partial Post Mortem",
-      "link": "https://www.claire-blackshaw.com/blog/2026/07/shipping-godot-vr-and-porting-to-psvr2-a-partial-post-mortem/",
-      "pubDate": "2026-07-29T12:48:18.000Z",
-      "description": "Article URL: https://www.claire-blackshaw.com/blog/2026/07/shipping-godot-vr-and-porting-to-psvr2-a-partial-post-mortem/ Comments URL: https://news.ycombinator.com/item?id=49096811 Points: 10 # Comments: 0",
+      "title": "The motion-sickness cure hidden in iPhone settings",
+      "link": "https://www.bbc.com/future/article/20260728-dancing-dots-the-motion-sickness-cure-hidden-in-your-iphone-settings",
+      "pubDate": "2026-07-29T18:43:18.000Z",
+      "description": "Article URL: https://www.bbc.com/future/article/20260728-dancing-dots-the-motion-sickness-cure-hidden-in-your-iphone-settings Comments URL: https://news.ycombinator.com/item?id=49101371 Points: 9 # Comments: 11",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Show HN: Echologue – the private AI voice journal I built for myself",
-      "link": "https://echologue.com/",
-      "pubDate": "2026-07-29T12:43:36.000Z",
-      "description": "I have tried journaling many times but nothing stuck. So I decided to make my own app for myself with these features:* Voice first* Private first* AI chat* Automatic tagging, meaning extraction, and semantic retrieval using embeddings stored locally* Export to LLMthe AI angle is especially interesti",
+      "title": "How to Not Die by a Thousand Cuts. Or, How to Think About Software Quality",
+      "link": "https://www.evalapply.org/posts/how-to-not-die-by-a-thousand-cuts/index.html",
+      "pubDate": "2026-07-29T18:42:10.000Z",
+      "description": "Article URL: https://www.evalapply.org/posts/how-to-not-die-by-a-thousand-cuts/index.html Comments URL: https://news.ycombinator.com/item?id=49101351 Points: 7 # Comments: 1",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "A Texture Lookup Approach to Bézier Curve Evaluation on the GPU (JCGT)",
-      "link": "https://jcgt.org/published/0015/02/01/",
-      "pubDate": "2026-07-29T12:40:13.000Z",
-      "description": "Article URL: https://jcgt.org/published/0015/02/01/ Comments URL: https://news.ycombinator.com/item?id=49096742 Points: 18 # Comments: 2",
+      "title": "A field day for Gleam's language server – Gleam v1.18.0 release",
+      "link": "https://gleam.run/news/a-field-day-for-gleams-language-server/",
+      "pubDate": "2026-07-29T18:40:52.000Z",
+      "description": "Article URL: https://gleam.run/news/a-field-day-for-gleams-language-server/ Comments URL: https://news.ycombinator.com/item?id=49101334 Points: 3 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Darktable",
-      "link": "https://www.darktable.org/",
-      "pubDate": "2026-07-29T12:33:02.000Z",
-      "description": "Article URL: https://www.darktable.org/ Comments URL: https://news.ycombinator.com/item?id=49096654 Points: 19 # Comments: 2",
+      "title": "Turning a Dumb AC Unit Smart (Without Losing My Security Deposit)",
+      "link": "https://prilik.com/blog/post/automating-ac-nyc/",
+      "pubDate": "2026-07-29T18:28:51.000Z",
+      "description": "Article URL: https://prilik.com/blog/post/automating-ac-nyc/ Comments URL: https://news.ycombinator.com/item?id=49101198 Points: 9 # Comments: 3",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Disrupting supply chain attacks on NPM and GitHub Actions",
-      "link": "https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/",
-      "pubDate": "2026-07-29T12:11:18.000Z",
-      "description": "Article URL: https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/ Comments URL: https://news.ycombinator.com/item?id=49096427 Points: 30 # Comments: 6",
+      "title": "Why has the display control panel pointer truncation bug gone unfixed for long?",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260717-00/?p=112541",
+      "pubDate": "2026-07-29T18:28:49.000Z",
+      "description": "Article URL: https://devblogs.microsoft.com/oldnewthing/20260717-00/?p=112541 Comments URL: https://news.ycombinator.com/item?id=49101197 Points: 4 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "French musician Kavinsky found dead",
-      "link": "https://www.euronews.com/culture/2026/07/29/dj-kavinsky-known-for-his-track-nightcall-found-dead-at-his-paris-home",
-      "pubDate": "2026-07-29T11:54:37.000Z",
-      "description": "Article URL: https://www.euronews.com/culture/2026/07/29/dj-kavinsky-known-for-his-track-nightcall-found-dead-at-his-paris-home Comments URL: https://news.ycombinator.com/item?id=49096290 Points: 166 # Comments: 38",
+      "title": "PgDog (YC P25) Is Hiring",
+      "link": "https://www.ycombinator.com/companies/pgdog/jobs/uWymUYy-founding-software-engineer",
+      "pubDate": "2026-07-29T17:01:10.000Z",
+      "description": "Article URL: https://www.ycombinator.com/companies/pgdog/jobs/uWymUYy-founding-software-engineer Comments URL: https://news.ycombinator.com/item?id=49100056 Points: 0 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
-    },
-    {
-      "title": "Document-borne AI worms can self-propagate through Copilot for Word",
-      "link": "https://enklypesalt.com/posts/context-collapse-part3-ai-worming-through-word/",
-      "pubDate": "2026-07-29T11:44:33.000Z",
-      "description": "Article URL: https://enklypesalt.com/posts/context-collapse-part3-ai-worming-through-word/ Comments URL: https://news.ycombinator.com/item?id=49096188 Points: 147 # Comments: 122",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "writing-mode",
-      "link": "https://css-tricks.com/almanac/properties/w/writing-mode/",
-      "pubDate": "2026-07-21T09:39:10.000Z",
-      "description": "The writing-mode CSS property sets whether lines of text are laid out horizontally or vertically, and the direction in which blocks and lines progress. .element { writing-mode: vertical-rl; } This is most useful in languages such as Chinese, Japanese or … writing-mode originally handwritten and publ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "pointer-events",
-      "link": "https://css-tricks.com/almanac/properties/p/pointer-events/",
-      "pubDate": "2026-07-15T19:57:51.000Z",
-      "description": "The pointer-events property controls whether an element can become the target of pointer events like clicks, hover states, and other pointer-based events. In other words, it lets you decide whether the browser should treat an element as interactive when the … pointer-events originally handwritten an",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "What’s !important #15: Boundary-aware CSS, Time-based CSS, Full-bleed CSS, and More",
-      "link": "https://css-tricks.com/whats-important-15/",
-      "pubDate": "2026-07-15T14:36:18.000Z",
-      "description": "Read all about boundary-aware CSS, accessible grid lanes, time-based web designs, full-bleed, the customizable select, and new web platform features. What’s !important #15: Boundary-aware CSS, Time-based CSS, Full-bleed CSS, and More originally handwritten and published with love on CSS-Tricks. You ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Get Ready For the Powerful CSS border-shape Property!",
-      "link": "https://css-tricks.com/get-ready-for-the-powerful-css-border-shape-property/",
-      "pubDate": "2026-07-07T15:14:00.000Z",
-      "description": "We recently got the shape() function and corner-shape property. What else could we possibly need as far as making shapes in CSS? Let me tell you: the border-shape property! Get Ready For the Powerful CSS border-shape Property! originally handwritten and published with love on CSS-Tricks. You should ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "What’s !important #14: Gap Decorations, random(), &#060;select&gt; field-sizing, and More",
-      "link": "https://css-tricks.com/whats-important-14/",
-      "pubDate": "2026-06-30T13:54:14.000Z",
-      "description": "I know you’re busy, so for What’s !important #14, I’ll be sprinting through what’s been a stacked couple of weeks despite few browser updates. From CSS Quake to CSS Gap Decorations, this isn’t one to miss! What’s !important #14: Gap Decorations, random(), <select> field-sizing, and More originally h",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "The Shifting Line Between CSS States and JavaScript Events",
-      "link": "https://css-tricks.com/css-states-and-javascript-events/",
-      "pubDate": "2026-06-29T13:03:32.000Z",
-      "description": "CSS has always had pseudo-classes that style things based on user interactions. Recent features, however, are blurring the line between what CSS \"listens\" for and how they are alternatives to what Javascript typically listens for. The Shifting Line Between CSS States and JavaScript Events originally",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translateZ()",
-      "link": "https://css-tricks.com/almanac/functions/t/translatez/",
-      "pubDate": "2026-06-25T13:18:56.000Z",
-      "description": "The translateZ() function moves an element closer to or farther from the user. translateZ() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translateY()",
-      "link": "https://css-tricks.com/almanac/functions/t/translatey/",
-      "pubDate": "2026-06-25T13:17:56.000Z",
-      "description": "The translateY() function shifts an element vertically by the specified amount. translateY() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translateX()",
-      "link": "https://css-tricks.com/almanac/functions/t/translatex/",
-      "pubDate": "2026-06-25T13:16:01.000Z",
-      "description": "The translateX() function shifts an element horizontally by the specified amount. translateX() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translate()",
-      "link": "https://css-tricks.com/almanac/functions/t/translate/",
-      "pubDate": "2026-06-25T13:15:05.000Z",
-      "description": "The CSS translate() function shifts an element from its default position on a 2-dimensional plane translate() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
     },
     {
       "title": "Meet the HTB Profile: all your skills, in one place",
