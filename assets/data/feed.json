@@ -1,168 +1,101 @@
 {
-  "generatedAt": "2026-07-31T09:16:49.739Z",
+  "generatedAt": "2026-07-31T14:35:39.354Z",
   "sourceCount": 4,
-  "successCount": 4,
-  "errors": [],
+  "successCount": 3,
+  "errors": [
+    {
+      "source": "Hacker News",
+      "error": "fetch failed"
+    }
+  ],
   "items": [
     {
-      "title": "How to Test an AI Agent Before Giving It Access to Your Files",
-      "link": "https://dev.to/gailoo/how-to-test-an-ai-agent-before-giving-it-access-to-your-files-595j",
-      "pubDate": "2026-07-31T09:10:25.000Z",
-      "description": "<h1> How to Test an AI Agent Before Giving It Access to Your Files </h1> <p>AI agent demos usually show the happy path: a prompt goes in, a polished result comes out.</p> <p>For developers, that is not enough. The real question is whether the agent can produce a verifiable artifact without gaining m",
+      "title": "Publishers Block AI Crawlers, Reshaping News Data Licensing and AI Strategy",
+      "link": "https://dev.to/alifar/publishers-block-ai-crawlers-reshaping-news-data-licensing-and-ai-strategy-199n",
+      "pubDate": "2026-07-31T14:20:30.000Z",
+      "description": "<p>Major news publishers are increasingly restricting AI web crawlers from accessing their sites, creating a more controlled and contested market for journalism data. The shift does not mean publishers have adopted a single approach. Some are blocking selected crawlers, some are pursuing licensing d",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The 40% Cancellation Trap: Why Agentic AI Projects Die in Production 🪤",
-      "link": "https://dev.to/cypriantinasheaarons/the-40-cancellation-trap-why-agentic-ai-projects-die-in-production-9kn",
-      "pubDate": "2026-07-31T09:06:26.000Z",
-      "description": "<blockquote> <p>Gartner reckons over 40% of agentic AI projects get canned by 2027. Not because the models are bad. Because nobody built the safety net.</p> </blockquote> <p>Okay so that stat has been quoted so much it's basically lost its bite by now. But stick with me, because the reason buried in",
+      "title": "Sign in with Apple broke with invalid_client after 6 months? Here's why — and how to never deal with it again",
+      "link": "https://dev.to/oskarmakarov/sign-in-with-apple-broke-with-invalidclient-after-6-months-heres-why-and-how-to-never-deal-2mhk",
+      "pubDate": "2026-07-31T14:20:16.000Z",
+      "description": "<p>If you're here because Apple login on your production app suddenly started failing with <code>invalid_client</code> — and you changed <em>nothing</em> — this post is for you. The fix takes 5 minutes, the permanent fix takes 10, and both are below.</p> <h2> The symptom </h2> <ul> <li>\"Sign in with",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The all-purpose agent isn't an architecture. It's a single point of failure with a system prompt.",
-      "link": "https://dev.to/cyclopt_dimitrisk/the-all-purpose-agent-isnt-an-architecture-its-a-single-point-of-failure-with-a-system-prompt-3je0",
-      "pubDate": "2026-07-31T09:06:04.000Z",
-      "description": "<h2> Intro </h2> <p>In a demo, one agent that \"does everything\" looks like impressive economy: one prompt, one API call, one mental model. Nobody's testing it against thousands of edge cases a day, and nobody's paying for the tokens burned parsing forty unrelated instructions to answer a two-line qu",
+      "title": "Build vs Buy: What Belongs in Your MVP and What You Should Rent",
+      "link": "https://dev.to/senternet/build-vs-buy-what-belongs-in-your-mvp-and-what-you-should-rent-2h6e",
+      "pubDate": "2026-07-31T14:15:35.000Z",
+      "description": "<p>There is exactly one part of a first product that has to be yours: the thing you are here to prove. Everything else is plumbing, and plumbing is cheaper to rent than to build. The hard part is drawing the line precisely.</p> <p>July 30, 2026</p> <p>Once a founder has settled on a stack, the next ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "When you actually need a headless browser (and when you're just wasting RAM)",
-      "link": "https://dev.to/votiakov/when-you-actually-need-a-headless-browser-and-when-youre-just-wasting-ram-209e",
-      "pubDate": "2026-07-31T09:05:56.000Z",
-      "description": "<p>Most of the store-locator scrapers I build never touch a browser. I open the Network tab, find the JSON endpoint the map calls, hit it with <code>fetch</code>, done. A browser is slow, hungry, and flaky, so I treat it as the last resort.</p> <p>National Book Tokens is where the last resort actual",
+      "title": "From AI support copilot to agentic customer service",
+      "link": "https://dev.to/eelcolos/from-ai-support-copilot-to-agentic-customer-service-4eb4",
+      "pubDate": "2026-07-31T14:12:27.000Z",
+      "description": "<p><strong>TL;DR</strong></p> <ul> <li>Tokenizing at intake does nothing for the return path. Evidence agents query the CRM and raw identity comes back as a tool result, straight into model context.</li> <li>The detector cannot be a language model. The thing you are protecting against is the input.<",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Anthropic Python SDK v0.119.0: New LLM Stop Reason — Plus Rust, FastAPI &amp; More",
-      "link": "https://dev.to/soytuber/anthropic-python-sdk-v01190-new-llm-stop-reason-plus-rust-fastapi-more-162h",
-      "pubDate": "2026-07-31T09:04:32.000Z",
-      "description": "<p>Today's digest highlights the Anthropic Python SDK v0.119.0, which introduces a new <code>model_context_window_exceeded</code> stop reason and agent tool fixes. Additional releases include Anthropic Python SDK v0.120.1, Rust 1.96.1, FastAPI 0.141.0, MCP Python SDK v1.29.0, and cloudflared 2026.7.",
+      "title": "What’s !important #16: sibling-index() Animations, Use Cases for the infinity Keyword, Container Stuck Queries, and More",
+      "link": "https://css-tricks.com/whats-important-16/",
+      "pubDate": "2026-07-31T14:06:21.000Z",
+      "description": "In What’s !important #16, see how the soon-Baseline sibling-index() function can be used for animations, revisit the 2026 FIFA World Cup with CSS, explore the use cases for the infinity keyword, learn about container ‘stuck’ queries, and much more. What’s !important #16: sibling-index() Animations, ",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "A Safe Outcome Can Hide a Failed Security Control",
+      "link": "https://dev.to/gyubinsec/a-safe-outcome-can-hide-a-failed-security-control-58p",
+      "pubDate": "2026-07-31T14:05:44.000Z",
+      "description": "<p>I kept coming back to a small problem in security testing:</p> <blockquote> <p>If the business outcome is safe, do we know that the control under test actually worked?</p> </blockquote> <p>Often, we do not.</p> <p>A downstream safeguard may prevent the final impact after an earlier control has al",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Benchmark Mobile AI Reconnect Recovery Across Lifecycle Transitions With a Server You Can Kill",
-      "link": "https://dev.to/roronoa_/benchmark-mobile-ai-reconnect-recovery-across-lifecycle-transitions-with-a-server-you-can-kill-2836",
-      "pubDate": "2026-07-31T09:04:31.000Z",
-      "description": "<p>Last week I was testing an AI chat feature on my iPhone 14 (iOS 17.5, React Native 0.74, Hermes). The flow looked fine on Wi-Fi. Then I walked into an elevator mid-stream, the radio dropped, iOS suspended the app, and when I came back the conversation had silently lost the last two turns. No erro",
+      "title": "How Local AI Became My 24/7 Python Tutor (Without Doing the Work for Me)",
+      "link": "https://dev.to/henderson01/how-local-ai-became-my-247-python-tutor-without-doing-the-work-for-me-5en",
+      "pubDate": "2026-07-31T14:04:00.000Z",
+      "description": "<p>When people talk about using AI for coding, the conversation usually goes straight to \"AI writes all my code now.\"</p> <p>That isn't how I use it, and honestly, if you're trying to actually learn, letting an LLM write your entire project defeats the purpose.</p> <p>For me, AI has completely chang",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Reject Coding-Agent Queue Depth Before Your Latency SLO Breaks",
-      "link": "https://dev.to/odd_background_328/reject-coding-agent-queue-depth-before-your-latency-slo-breaks-4n5b",
-      "pubDate": "2026-07-31T09:04:27.000Z",
-      "description": "<h2> The alert that started this </h2> <p>At 09:14 the dashboard for our internal AI-assisted code review service showed p95 turnaround at 41 seconds against a 60-second SLO. At 09:31 p95 was 3m 40s and the queue held 212 pending tasks. Nothing had crashed. No pod restarts, no OOMKills, no upstream ",
+      "title": "How to Prevent Multiple AI Coding Agents from Editing the Same Files",
+      "link": "https://dev.to/_3ffb5be7950c3a975b5d/how-to-prevent-multiple-ai-coding-agents-from-editing-the-same-files-4aib",
+      "pubDate": "2026-07-31T14:01:20.000Z",
+      "description": "<p>A team of developers, each running their own AI coding agent, is fast — right up until two agents refactor the same file at the same time. One overwrites the other's work, or you discover the collision at merge time and spend the afternoon untangling it.</p> <p>You can't always prevent this with ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Stop Slopsquatting With a CI Gate, Not a Better Prompt",
-      "link": "https://dev.to/jaryn_123/stop-slopsquatting-with-a-ci-gate-not-a-better-prompt-480m",
-      "pubDate": "2026-07-31T09:04:23.000Z",
-      "description": "<p>A coding assistant proposes <code>pip install requests-utils-pro</code> at 09:41. By 09:43 the dependency is in a pull request, by 09:47 CI is green because the install worked, and by 10:15 the package has egress to a domain no reviewer typed. The failure is not that a model hallucinated. The fai",
+      "title": "Your Sandbox Isn't a Sandbox If It Can Reach Production",
+      "link": "https://dev.to/coridev/your-sandbox-isnt-a-sandbox-if-it-can-reach-production-1m7e",
+      "pubDate": "2026-07-31T14:00:41.000Z",
+      "description": "<h2> Your Sandbox Isn't a Sandbox If It Can Reach Production </h2> <p>Here's the sentence that should stop you mid-scroll: an AI model published a malicious package to a public registry <em>after convincing itself it was still in a simulation</em>. Not despite thinking it was fake. Because it though",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Canary Idempotent Webhooks With Duplicate, Timeout, and Reorder Gates",
-      "link": "https://dev.to/robinzzz/canary-idempotent-webhooks-with-duplicate-timeout-and-reorder-gates-3khp",
-      "pubDate": "2026-07-31T09:04:18.000Z",
-      "description": "<p>A payment webhook once <code>ack=timeout -&gt; retry -&gt; reorder -&gt; duplicate ack</code> can look healthy in logs while applying the same intent twice. The common handler invariant — “return 200 fast, then process asynchronously” — is not sufficient unless a stronger invariant holds:</p> <bl",
+      "title": "OpenAI Pricing Strategy Signal Points to a Broader Price and Intelligence Tradeoff",
+      "link": "https://dev.to/alifar/openai-pricing-strategy-signal-points-to-a-broader-price-and-intelligence-tradeoff-3i67",
+      "pubDate": "2026-07-31T14:00:30.000Z",
+      "description": "<p>OpenAI may be preparing to frame its API strategy more explicitly around a familiar developer decision: how much model intelligence an application needs for the price it can sustain. A credible signal associated with the company suggests a goal of delivering a strong price-to-intelligence tradeof",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How to Evaluate an AI Agent Vendor Before You Sign",
-      "link": "https://dev.to/pykero/how-to-evaluate-an-ai-agent-vendor-before-you-sign-p0k",
-      "pubDate": "2026-07-31T09:02:04.000Z",
-      "description": "<p>Score AI agent vendors on how they handle failure, not on their demo. A polished demo tells you the agent can handle the five inputs the sales team rehearsed. It tells you nothing about what happens on input six, when a customer types something unexpected, uploads a bad file, or asks the agent to",
+      "title": "#How I built an automated digital product workflow with Payhip,Make,Telegram and Notion",
+      "link": "https://dev.to/eva-nomados/how-i-built-an-automated-digital-product-workflow-with-payhipmaketelegram-and-notion-3fkm",
+      "pubDate": "2026-07-31T14:00:23.000Z",
+      "description": "<h1> How I built an automated digital product workflow with Payhip,Make,Telegram and Notion </h1> <p>Selling digital products sounds simple:</p> <p>Create a product → receive payment → deliver the product.</p> <p>But the operational workflow quickly becomes messy.</p> <p>You need:</p> <ul> <li>Payme",
       "source": "Dev.to Feed",
       "category": "Development"
-    },
-    {
-      "title": "Danube's record low levels force shutdown of Hungary's only nuclear plant",
-      "link": "https://www.bbc.com/news/articles/cn0nqv05g0do",
-      "pubDate": "2026-07-31T07:33:10.000Z",
-      "description": "Article URL: https://www.bbc.com/news/articles/cn0nqv05g0do Comments URL: https://news.ycombinator.com/item?id=49120120 Points: 6 # Comments: 3",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Google fixed more Chrome bugs in June than over the past two years, thanks to AI",
-      "link": "https://blog.google/security/chrome-stronger-with-every-update/",
-      "pubDate": "2026-07-31T07:29:22.000Z",
-      "description": "Article URL: https://blog.google/security/chrome-stronger-with-every-update/ Comments URL: https://news.ycombinator.com/item?id=49120097 Points: 25 # Comments: 34",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "DeepSeek-V4-Flash Update",
-      "link": "https://api-docs.deepseek.com/updates/",
-      "pubDate": "2026-07-31T06:08:36.000Z",
-      "description": "Article URL: https://api-docs.deepseek.com/updates/ Comments URL: https://news.ycombinator.com/item?id=49119559 Points: 212 # Comments: 86",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Show HN: Gander, an Android file viewer that asks for no permissions at all",
-      "link": "https://github.com/mokshablr/gander",
-      "pubDate": "2026-07-31T05:45:13.000Z",
-      "description": "Hi HN,I built an Android file viewer that opens PDF, Word, Excel, PowerPoint, images, video, audio, Markdown and code, and asks for no permissions at all.I have always been uneasy about opening files people send me. On Android you either install a 400 MB office suite and sign in or use a small free ",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Show HN: What should the GUI for AI agents look like?",
-      "link": "https://marbleos.com/demo",
-      "pubDate": "2026-07-31T05:17:29.000Z",
-      "description": "Hi HN! We’re Akilan and Miguel, the creators of MarbleOS.The inspiration for Marble comes from the GUI work at Xerox PARC, the 1984 Macintosh, and later NeXTSTEP, which became the foundation for Mac OS X. Before GUIs, interacting with a computer was limited to strange terminal commands:C:\\> DIRC:\\> ",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "JEP 401: Value Objects (Preview) merged to OpenJDK master",
-      "link": "https://github.com/openjdk/jdk/pull/31120",
-      "pubDate": "2026-07-31T04:38:19.000Z",
-      "description": "Article URL: https://github.com/openjdk/jdk/pull/31120 Comments URL: https://news.ycombinator.com/item?id=49119063 Points: 96 # Comments: 36",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "The session you cannot take with you",
-      "link": "https://earendil.com/posts/session-portability/",
-      "pubDate": "2026-07-31T03:47:59.000Z",
-      "description": "Article URL: https://earendil.com/posts/session-portability/ Comments URL: https://news.ycombinator.com/item?id=49118781 Points: 289 # Comments: 61",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "\"the very foundation of modern academia has been blown to bits\"",
-      "link": "https://twitter.com/lemire/status/2082851447499088173",
-      "pubDate": "2026-07-31T02:54:02.000Z",
-      "description": "Article URL: https://twitter.com/lemire/status/2082851447499088173 Comments URL: https://news.ycombinator.com/item?id=49118474 Points: 28 # Comments: 12",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "The Religion of Speed",
-      "link": "https://graybeard.ing/the-religion-of-speed/",
-      "pubDate": "2026-07-30T23:43:22.000Z",
-      "description": "Article URL: https://graybeard.ing/the-religion-of-speed/ Comments URL: https://news.ycombinator.com/item?id=49117284 Points: 149 # Comments: 70",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "The AI Aesthetic",
-      "link": "https://blog.jim-nielsen.com/2026/ai-aesthetic/",
-      "pubDate": "2026-07-30T23:22:16.000Z",
-      "description": "Article URL: https://blog.jim-nielsen.com/2026/ai-aesthetic/ Comments URL: https://news.ycombinator.com/item?id=49117099 Points: 300 # Comments: 131",
-      "source": "Hacker News",
-      "category": "Tech News"
     },
     {
       "title": "writing-mode",
@@ -233,14 +166,6 @@
       "link": "https://css-tricks.com/almanac/functions/t/translatex/",
       "pubDate": "2026-06-25T13:16:01.000Z",
       "description": "The translateX() function shifts an element horizontally by the specified amount. translateX() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translate()",
-      "link": "https://css-tricks.com/almanac/functions/t/translate/",
-      "pubDate": "2026-06-25T13:15:05.000Z",
-      "description": "The CSS translate() function shifts an element from its default position on a 2-dimensional plane translate() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
       "source": "CSS Tricks",
       "category": "Frontend"
     },
