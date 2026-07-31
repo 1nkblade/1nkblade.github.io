@@ -1,110 +1,158 @@
 {
-  "generatedAt": "2026-07-30T19:52:30.212Z",
+  "generatedAt": "2026-07-31T03:50:47.602Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "Building Scalable APIs with Go: A Startup's Guide to Not Overengineering",
-      "link": "https://dev.to/logical_bytes/building-scalable-apis-with-go-a-startups-guide-to-not-overengineering-445d",
-      "pubDate": "2026-07-30T19:44:41.000Z",
-      "description": "<p>Every startup engineering conversation eventually arrives at: \"But what if we need to scale?\"</p> <p>Here's the uncomfortable truth: you probably won't. Not in the way Twitter or Uber scaled. The infrastructure decisions that make sense for 100 million users are actively harmful at 1,000.</p> <p>",
+      "title": "5 macOS-on-Proxmox Bugs That No Guide Warns You About",
+      "link": "https://dev.to/lucidfabrics/5-macos-on-proxmox-bugs-that-no-guide-warns-you-about-56b6",
+      "pubDate": "2026-07-31T03:46:33.000Z",
+      "description": "<p>Back in February I published <a href=\"https://dev.to/lucidfabrics/i-built-a-one-command-macos-vm-tool-for-proxmox-9-190j\">a post about osx-proxmox-next</a>, a tool that builds a macOS VM on Proxmox with one command instead of an afternoon of OpenCore plist editing.</p> <p>About 1,500 people read ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "A Dead-Man's Switch for Scheduled Jobs (Because Silent Failures Rot Data)",
-      "link": "https://dev.to/jenatechio/a-dead-mans-switch-for-scheduled-jobs-because-silent-failures-rot-data-3nmh",
-      "pubDate": "2026-07-30T19:40:21.000Z",
-      "description": "<p>A scheduled job has two failure modes. The loud one throws an error and your alerting catches it. The quiet one just stops running, and nothing catches it, because your alerting is wired to the job itself. No job, no error, no alert. The data it maintains gets staler by the day and every downstre",
+      "title": "Mastering Claude Code Configs: `CLAUDE.md` vs `.claude/rules/`",
+      "link": "https://dev.to/mdiffshashank/mastering-claude-code-configs-claudemd-vs-clauderules-37g7",
+      "pubDate": "2026-07-31T03:36:07.000Z",
+      "description": "<p>When configuring <strong>Claude Code</strong> (or Claude-driven AI coding assistants) in your projects, structuring your instructions efficiently is key to getting accurate code generation while keeping token consumption low. </p> <p>Understanding when to use a single <strong><code>CLAUDE.md</cod",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "My Auto-Publish Pipeline Shipped a Two-Year-Old News Story. Here's the Fix — All Three Layers of It.",
-      "link": "https://dev.to/jenatechio/my-auto-publish-pipeline-shipped-a-two-year-old-news-story-heres-the-fix-all-three-layers-of-it-4750",
-      "pubDate": "2026-07-30T19:39:23.000Z",
-      "description": "<p>I run a content pipeline that finds industry news, has an LLM judge score it, and publishes what clears the bar. Fully automated, Cloudflare Workers and D1, one operator: me. It runs daily and the whole point is that I don't babysit it.</p> <p>In July it published a news story from 2024 as if it ",
+      "title": "A California aquifer may have crossed the point of no return",
+      "link": "https://www.science.org/content/article/california-aquifer-may-have-crossed-point-no-return",
+      "pubDate": "2026-07-31T03:27:36.000Z",
+      "description": "Article URL: https://www.science.org/content/article/california-aquifer-may-have-crossed-point-no-return Comments URL: https://news.ycombinator.com/item?id=49118663 Points: 9 # Comments: 1",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "How a Baseten Engineer Traced 7 Years of Attention Mechanism Evolution -- From GPT-2 to Kimi K3, in Runable PyTorch",
+      "link": "https://dev.to/cdragon123code/how-a-baseten-engineer-traced-7-years-of-attention-mechanism-evolution-from-gpt-2-to-kimi-k3-in-pl7",
+      "pubDate": "2026-07-31T03:23:15.000Z",
+      "description": "<p>Last week, a Baseten inference engineer who goes by <a href=\"https://x.com/waterloo_intern/status/2081762065392541951\" rel=\"noopener noreferrer\">@waterloo_intern</a> published a technical blog post titled <strong>\"22,580: From GPT-2 to Kimi K3, Explained.\"</strong> It hit 2.4 million views in day",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Your AI gave that fix 92% confidence. Nothing checked it.",
-      "link": "https://dev.to/mohi_uddin_719/your-ai-gave-that-fix-92-confidence-nothing-checked-it-564",
-      "pubDate": "2026-07-30T19:38:00.000Z",
-      "description": "<p>Your agent hands you a fix with 92% confidence.</p> <p>Ask yourself what produced the 92. Not what it means. What produced it.</p> <p>A model wrote that number about its own output. Nothing ran. Nothing parsed. No test executed. It is a language model's estimate of how a language model feels abou",
+      "title": "Why NVIDIA Open-Sourced Its Linux GPU Kernel Modules",
+      "link": "https://dev.to/vast-cow/why-nvidia-open-sourced-its-linux-gpu-kernel-modules-48dd",
+      "pubDate": "2026-07-31T03:20:24.000Z",
+      "description": "<p>The biggest reason NVIDIA began providing GPL-licensed kernel modules is that <strong>its driver architecture evolved to the point where Linux integration, distribution, and maintenance could be greatly simplified while keeping the GPU's critical intellectual property in firmware and user-space c",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Raspberry Pi 5 Price History: How Far Have Prices Come?",
-      "link": "https://dev.to/revenueclaw/raspberry-pi-5-price-history-how-far-have-prices-come-187h",
-      "pubDate": "2026-07-30T19:25:00.000Z",
-      "description": "<h1> Raspberry Pi 5 Price History: How Far Have Prices Come? </h1> <p>The Raspberry Pi 5 has been on the market for a while now, and if you’ve been watching the price tags, you’ve probably noticed some wild swings. From launch-day shortages that pushed prices through the roof to a more mature market",
+      "title": "Stop Guessing If Your Agents Are Actually Learning From Their Mistakes",
+      "link": "https://dev.to/renato_marinho/stop-guessing-if-your-agents-are-actually-learning-from-their-mistakes-3g6m",
+      "pubDate": "2026-07-31T03:20:01.000Z",
+      "description": "<p>Watching an autonomous agent run through a loop of tasks is like watching a black box try to solve a puzzle in another room. You can see the final result, but the middle part—the reasoning, the failures, and that pivotal moment where it realizes its plan was garbage—is buried in thousands of line",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Raspberry Pi 5 vs Radxa Rock 5B: Speed vs Value in 2026",
-      "link": "https://dev.to/revenueclaw/raspberry-pi-5-vs-radxa-rock-5b-speed-vs-value-in-2026-1nad",
-      "pubDate": "2026-07-30T19:24:59.000Z",
-      "description": "<h1> Raspberry Pi 5 vs Radxa Rock 5B: Speed vs Value in 2026 </h1> <p>When you’re building a home server, an edge AI rig, or a desktop replacement on the cheap, the choice usually comes down to two families: the ubiquitous Raspberry Pi 5 and the powerful Radxa Rock 5 series. The Rock 5B is the curre",
+      "title": "Audit, Observability &amp; Lineage for Enterprise AI Agents",
+      "link": "https://dev.to/jitu028/audit-observability-lineage-for-enterprise-ai-agents-106m",
+      "pubDate": "2026-07-31T03:19:56.000Z",
+      "description": "<h2> The Observability Black Box </h2> <p>As autonomous AI agents evolve from isolated chat assistants into multi-agent systems executing multi-step business logic across databases, APIs, and microservices, enterprise platform teams face an acute operational challenge: black-box opacity.</p> <p>When",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Orange Pi 5 Max vs Rock 5B+: The 32GB SBC Battle in 2026",
-      "link": "https://dev.to/revenueclaw/orange-pi-5-max-vs-rock-5b-the-32gb-sbc-battle-in-2026-3ho0",
-      "pubDate": "2026-07-30T19:24:58.000Z",
-      "description": "<h1> Orange Pi 5 Max vs Rock 5B+: The 32GB SBC Battle in 2026 </h1> <p>If you’ve been shopping for a high-performance single-board computer in 2026, you’ve likely run into two names: the <strong>Orange Pi 5 Max</strong> and the <strong>Radxa Rock 5B+</strong>. Both are built around the RK3588 system",
+      "title": "JavaScript vs React: What's the Difference?",
+      "link": "https://dev.to/arijit_banerjee_a45b6e660/javascript-vs-react-whats-the-difference-2mf3",
+      "pubDate": "2026-07-31T03:17:36.000Z",
+      "description": "<h1> JavaScript vs React: Understanding How They Work Together </h1> <p>If you're starting web development, you've probably heard about JavaScript and React. Many beginners think they are competitors, but they actually work together. Let's understand them in simple terms.</p> <h2> What is JavaScript",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "2026 Cost of a Data Breach Report: AI Is Changing Cybersecurity",
-      "link": "https://dev.to/jamilxt/2026-cost-of-a-data-breach-report-ai-is-changing-cybersecurity-n25",
-      "pubDate": "2026-07-30T19:23:05.000Z",
-      "description": "<p>I watched IBM Technology's breakdown of the 2026 Cost of a Data Breach Report and then read the full study published by IBM and the Ponemon Institute. As a backend software engineer, the numbers hit close to home.</p> <p>The global average cost of a data breach has hit an all-time high of <strong",
+      "title": "STAC4749: Chaos Ransomware in Under 17 Hours via Teams IT Support Scam",
+      "link": "https://dev.to/anoymask/stac4749-chaos-ransomware-in-under-17-hours-via-teams-it-support-scam-558",
+      "pubDate": "2026-07-31T03:15:21.000Z",
+      "description": "<h1> STAC4749: Chaos Ransomware in Under 17 Hours via Teams IT Support Scam </h1> <h2> 1. Basic Information </h2> <ul> <li> <strong>Article Name</strong>: Chaos in Teams vishing</li> <li> <strong>Publisher</strong>: Sophos</li> <li> <strong>Publication Date</strong>: 2026-07-28 (Detailed report by t",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Gemini Omni Brings AI Video Relighting to Google Photos and Google Vids",
-      "link": "https://dev.to/alifar/gemini-omni-brings-ai-video-relighting-to-google-photos-and-google-vids-4ac",
-      "pubDate": "2026-07-30T19:20:30.000Z",
-      "description": "<p>Google is expanding <a href=\"https://scalevise.com/resources/gemini-omni-video-background-changes/\" rel=\"noopener noreferrer\"><strong>Gemini Omni video editing</strong></a> beyond a single consumer feature with relighting tools in Google Photos and Google Vids. The capability lets users change or",
+      "title": "GTIG: 2026 OSS Supply Chain Compromise, Credential Theft, and Self-Propagation",
+      "link": "https://dev.to/anoymask/gtig-2026-oss-supply-chain-compromise-credential-theft-and-self-propagation-1g81",
+      "pubDate": "2026-07-31T03:15:05.000Z",
+      "description": "<h1> GTIG: 2026 OSS Supply Chain Compromise, Credential Theft, and Self-Propagation </h1> <h2> 1. Basic Information </h2> <ul> <li> <strong>Article Title</strong>: Batten Down Your Packages: Mitigation Guidance for Supply Chain Compromise</li> <li> <strong>Publisher</strong>: Google Threat Intellige",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How coding agents like Cursor quietly cut input costs by reusing KV states across turns — and what actually breaks the cache",
-      "link": "https://dev.to/susheem-k/how-coding-agents-like-cursor-quietly-cut-input-costs-by-reusing-kv-states-across-turns-and-what-49fe",
-      "pubDate": "2026-07-30T19:11:26.000Z",
-      "description": "<h2> Why my Cursor bill looked weird </h2> <p>I was poking around my usage dashboard in Cursor and noticed a metric I'd never paid attention to before: <strong>Cache Read</strong>.<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight plaintext\"><code>Date Type Model Tokens May 2,",
+      "title": "TA488 OWAReaper: A \"Half-Click\" Attack that Adds Persistence Inside OWA Just by Opening an Email",
+      "link": "https://dev.to/anoymask/ta488-owareaper-a-half-click-attack-that-adds-persistence-inside-owa-just-by-opening-an-email-ghd",
+      "pubDate": "2026-07-31T03:14:51.000Z",
+      "description": "<h1> TA488 OWAReaper: A \"Half-Click\" Attack that Adds Persistence Inside OWA Just by Opening an Email </h1> <h2> 1. Basic Information </h2> <ul> <li> <strong>Article Name</strong>: Cleaning Out Inboxes: TA488 Comes for Outlook with Another Half-Click Exploit</li> <li> <strong>Publisher</strong>: Pro",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "The Religion of Speed",
+      "link": "https://graybeard.ing/the-religion-of-speed/",
+      "pubDate": "2026-07-30T23:43:22.000Z",
+      "description": "Article URL: https://graybeard.ing/the-religion-of-speed/ Comments URL: https://news.ycombinator.com/item?id=49117284 Points: 29 # Comments: 8",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "The AI Aesthetic",
+      "link": "https://blog.jim-nielsen.com/2026/ai-aesthetic/",
+      "pubDate": "2026-07-30T23:22:16.000Z",
+      "description": "Article URL: https://blog.jim-nielsen.com/2026/ai-aesthetic/ Comments URL: https://news.ycombinator.com/item?id=49117099 Points: 165 # Comments: 87",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Investigating three real-world incidents in our cybersecurity evaluations",
+      "link": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
+      "pubDate": "2026-07-30T23:00:51.000Z",
+      "description": "Article URL: https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals Comments URL: https://news.ycombinator.com/item?id=49116922 Points: 120 # Comments: 92",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "I flagged two research papers for fake authors and both were accepted as orals",
+      "link": "https://geospatialml.com/posts/reviewing-ai-slop/",
+      "pubDate": "2026-07-30T22:33:11.000Z",
+      "description": "Article URL: https://geospatialml.com/posts/reviewing-ai-slop/ Comments URL: https://news.ycombinator.com/item?id=49116721 Points: 118 # Comments: 48",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Rune 1.1: adds Python, an Emacs editor, a symbol index and is now free",
+      "link": "https://rune.build/blog/rune-1-1-release",
+      "pubDate": "2026-07-30T21:47:31.000Z",
+      "description": "Article URL: https://rune.build/blog/rune-1-1-release Comments URL: https://news.ycombinator.com/item?id=49116272 Points: 54 # Comments: 18",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Saber-toothed cats became inbred–and struggled to move–before they went extinct",
+      "link": "https://www.science.org/content/article/saber-toothed-cats-became-inbred-and-struggled-move-they-went-extinct",
+      "pubDate": "2026-07-30T21:31:03.000Z",
+      "description": "Article URL: https://www.science.org/content/article/saber-toothed-cats-became-inbred-and-struggled-move-they-went-extinct Comments URL: https://news.ycombinator.com/item?id=49116074 Points: 34 # Comments: 11",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Agent Skill to Force Docs in ASD-STE100 Simplified Technical English",
+      "link": "https://github.com/AminBlg/SimpleEnglish",
+      "pubDate": "2026-07-30T19:34:27.000Z",
+      "description": "Article URL: https://github.com/AminBlg/SimpleEnglish Comments URL: https://news.ycombinator.com/item?id=49114639 Points: 235 # Comments: 85",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "UEFA and its national associations will not participate in FIFA competitions",
       "link": "https://www.uefa.com/news-media/news/02a7-213a92896eb0-54dfbf454e3b-1000--statement-on-behalf-of-uefa-and-its-55-national-associations/",
       "pubDate": "2026-07-30T18:40:52.000Z",
-      "description": "Article URL: https://www.uefa.com/news-media/news/02a7-213a92896eb0-54dfbf454e3b-1000--statement-on-behalf-of-uefa-and-its-55-national-associations/ Comments URL: https://news.ycombinator.com/item?id=49113929 Points: 234 # Comments: 134",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Making Postgres queues scale",
-      "link": "https://www.dbos.dev/blog/making-postgres-queues-scale",
-      "pubDate": "2026-07-30T18:39:32.000Z",
-      "description": "Article URL: https://www.dbos.dev/blog/making-postgres-queues-scale Comments URL: https://news.ycombinator.com/item?id=49113913 Points: 37 # Comments: 2",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "So you want to use plants to reduce CO₂",
-      "link": "https://dynomight.net/plants/",
-      "pubDate": "2026-07-30T18:31:02.000Z",
-      "description": "Article URL: https://dynomight.net/plants/ Comments URL: https://news.ycombinator.com/item?id=49113801 Points: 27 # Comments: 15",
+      "description": "Article URL: https://www.uefa.com/news-media/news/02a7-213a92896eb0-54dfbf454e3b-1000--statement-on-behalf-of-uefa-and-its-55-national-associations/ Comments URL: https://news.ycombinator.com/item?id=49113929 Points: 839 # Comments: 468",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -113,54 +161,6 @@
       "link": "https://www.ctgt.ai/research/distillation-censorship-transfer",
       "pubDate": "2026-07-30T18:13:06.000Z",
       "description": "We recently used DeepSeek V4 Flash as a teacher for finance tasks with GPT-OSS-120B. Distillation works well on this problem. At a constrained 8k token budget, our self-distilled 120B scores 83.61% on FinanceReasoning, above Kimi K3 (81.93%) and Inkling (65.13%). We released the 20B open weights. Wi",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Show HN: Noisegate – a differential-privacy gateway for untrusted AI agents",
-      "link": "https://github.com/yashmahajan10/llm-differential-privacy-gateway",
-      "pubDate": "2026-07-30T18:08:48.000Z",
-      "description": "Article URL: https://github.com/yashmahajan10/llm-differential-privacy-gateway Comments URL: https://news.ycombinator.com/item?id=49113543 Points: 7 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Show HN: Tally – check a spreadsheet's numbers against their source, in-browser",
-      "link": "https://tally.jiegou.ai/",
-      "pubDate": "2026-07-30T17:55:54.000Z",
-      "description": "Article URL: https://tally.jiegou.ai/ Comments URL: https://news.ycombinator.com/item?id=49113381 Points: 4 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "CodePen 2.0",
-      "link": "https://chriscoyier.net/2026/07/30/codepen-2-0/",
-      "pubDate": "2026-07-30T17:52:51.000Z",
-      "description": "Article URL: https://chriscoyier.net/2026/07/30/codepen-2-0/ Comments URL: https://news.ycombinator.com/item?id=49113338 Points: 38 # Comments: 9",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "We Gave GPT 5.6 Sol a Real Business. It Lied, Spammed, and Lost $447",
-      "link": "https://www.bottlenecklabs.com/blog/autonomously-run-businesses",
-      "pubDate": "2026-07-30T17:31:07.000Z",
-      "description": "Article URL: https://www.bottlenecklabs.com/blog/autonomously-run-businesses Comments URL: https://news.ycombinator.com/item?id=49113059 Points: 152 # Comments: 92",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Advancing the price-performance frontier with GPT‑5.6",
-      "link": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/",
-      "pubDate": "2026-07-30T17:15:51.000Z",
-      "description": "Article URL: https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/ Comments URL: https://news.ycombinator.com/item?id=49112867 Points: 330 # Comments: 215",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Read this before you buy that TV streaming stick",
-      "link": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
-      "pubDate": "2026-07-30T17:04:53.000Z",
-      "description": "Article URL: https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/ Comments URL: https://news.ycombinator.com/item?id=49112744 Points: 205 # Comments: 96",
       "source": "Hacker News",
       "category": "Tech News"
     },
