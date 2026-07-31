@@ -1,101 +1,184 @@
 {
-  "generatedAt": "2026-07-31T14:35:39.354Z",
+  "generatedAt": "2026-07-31T19:52:39.553Z",
   "sourceCount": 4,
-  "successCount": 3,
-  "errors": [
-    {
-      "source": "Hacker News",
-      "error": "fetch failed"
-    }
-  ],
+  "successCount": 4,
+  "errors": [],
   "items": [
     {
-      "title": "Publishers Block AI Crawlers, Reshaping News Data Licensing and AI Strategy",
-      "link": "https://dev.to/alifar/publishers-block-ai-crawlers-reshaping-news-data-licensing-and-ai-strategy-199n",
-      "pubDate": "2026-07-31T14:20:30.000Z",
-      "description": "<p>Major news publishers are increasingly restricting AI web crawlers from accessing their sites, creating a more controlled and contested market for journalism data. The shift does not mean publishers have adopted a single approach. Some are blocking selected crawlers, some are pursuing licensing d",
+      "title": "Why Deleting a Hardcoded Secret Does Not Fix It (CWE-798)",
+      "link": "https://dev.to/c_k_fb750e731394/why-deleting-a-hardcoded-secret-does-not-fix-it-cwe-798-1bp1",
+      "pubDate": "2026-07-31T19:38:33.000Z",
+      "description": "<h2> TL;DR </h2> <ul> <li>AI editors paste real-looking API keys, JWT secrets, and DB passwords straight into your source code because their training data is full of tutorials that do exactly that.</li> <li>A hardcoded secret in a committed file is a live credential the moment it hits your git histo",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Sign in with Apple broke with invalid_client after 6 months? Here's why — and how to never deal with it again",
-      "link": "https://dev.to/oskarmakarov/sign-in-with-apple-broke-with-invalidclient-after-6-months-heres-why-and-how-to-never-deal-2mhk",
-      "pubDate": "2026-07-31T14:20:16.000Z",
-      "description": "<p>If you're here because Apple login on your production app suddenly started failing with <code>invalid_client</code> — and you changed <em>nothing</em> — this post is for you. The fix takes 5 minutes, the permanent fix takes 10, and both are below.</p> <h2> The symptom </h2> <ul> <li>\"Sign in with",
+      "title": "Demystifying Bitcoin Transaction Fees: How Explicit Fee Selection Works",
+      "link": "https://dev.to/vkimutai/demystifying-bitcoin-transaction-fees-how-explicit-fee-selection-works-3g0c",
+      "pubDate": "2026-07-31T19:34:00.000Z",
+      "description": "<p>If you are new to building on the Bitcoin network or diving into raw transaction construction, one core concept you must master is how transaction fees are paid. Unlike some account-based chains with fixed gas costs, Bitcoin uses a UTXO model where you explicitly calculate and set your fee rate. ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Build vs Buy: What Belongs in Your MVP and What You Should Rent",
-      "link": "https://dev.to/senternet/build-vs-buy-what-belongs-in-your-mvp-and-what-you-should-rent-2h6e",
-      "pubDate": "2026-07-31T14:15:35.000Z",
-      "description": "<p>There is exactly one part of a first product that has to be yours: the thing you are here to prove. Everything else is plumbing, and plumbing is cheaper to rent than to build. The hard part is drawing the line precisely.</p> <p>July 30, 2026</p> <p>Once a founder has settled on a stack, the next ",
+      "title": "The engineering behind a search bar. Is it worth reinventing the wheel?",
+      "link": "https://dev.to/filipe_neves/the-engineering-behind-a-search-bar-is-it-worth-reinventing-the-wheel-4ef4",
+      "pubDate": "2026-07-31T19:30:29.000Z",
+      "description": "<blockquote> <p>This article it is about the follow <a href=\"https://github.com/FlipNeves/search-bar-anatomy\" rel=\"noopener noreferrer\">repository</a>. I hope you all have a moment to understanding more about it and feel the fun of knowledge.</p> </blockquote> <p>Have you ever stopped to think about",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "From AI support copilot to agentic customer service",
-      "link": "https://dev.to/eelcolos/from-ai-support-copilot-to-agentic-customer-service-4eb4",
-      "pubDate": "2026-07-31T14:12:27.000Z",
-      "description": "<p><strong>TL;DR</strong></p> <ul> <li>Tokenizing at intake does nothing for the return path. Evidence agents query the CRM and raw identity comes back as a tool result, straight into model context.</li> <li>The detector cannot be a language model. The thing you are protecting against is the input.<",
+      "title": "Data Migration, Conversion, and ETL — What I Actually Did, Across Two Eras",
+      "link": "https://dev.to/sangeetha_kalia_cb89c90aa/data-migration-conversion-and-etl-what-i-actually-did-across-two-eras-2emj",
+      "pubDate": "2026-07-31T19:26:58.000Z",
+      "description": "<blockquote> <p><strong>Three words that engineers use interchangeably and shouldn't:</strong><br> <strong>Migration</strong> is a one-time move — different system, different schema, run once, archive the scripts.<br> <strong>Conversion</strong> is what happens <em>inside</em> a migration when the s",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "Reversible PII anonymization for Laravel with Laranon",
+      "link": "https://dev.to/edulazaro/reversible-pii-anonymization-for-laravel-with-laranon-16ie",
+      "pubDate": "2026-07-31T19:19:25.000Z",
+      "description": "<p>I build a legal-tech product where an AI assistant answers questions about real cases: client names, national IDs, IBANs, phone numbers, the lot. That conversation goes to an LLM I do not control. Sending it raw is not an option.</p> <p>The obvious fix, a pile of regexes that blank out anything t",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "What The GIF :The GIF editor where your footage never leaves your browser",
+      "link": "https://dev.to/peter_hootman_0f5e7b61ca7/what-the-gif-the-gif-editor-where-your-footage-never-leaves-your-browser-46a6",
+      "pubDate": "2026-07-31T19:13:22.000Z",
+      "description": "<p>What The GIF is a free, in-browser GIF and video editor that never uploads your file. Drop in a video, a photo, or an existing GIF and turn it into a clean GIF, MP4, or APNG, with frame-accurate trimming, a multi-clip timeline, captions, filters, and more. </p> <p>The entire conversion runs insid",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "I built a full-screen news reader that lives in the terminal",
+      "link": "https://dev.to/nishal21/i-built-a-full-screen-news-reader-that-lives-in-the-terminal-jmp",
+      "pubDate": "2026-07-31T19:11:31.000Z",
+      "description": "<h2> Installation </h2> <h3> Linux / macOS </h3> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight shell\"><code>pip <span class=\"nb\">install </span>worldnews-cli worldnews </code></pre> </div> <h3> Windows </h3> <p>If <code>pip</code> isn't in your PATH:<br> </p> <div class=\"highlight ",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Tailscale didn't stop the Hugging Face intrusion",
+      "link": "https://tailscale.com/blog/hugging-face-intrusion",
+      "pubDate": "2026-07-31T19:03:45.000Z",
+      "description": "Article URL: https://tailscale.com/blog/hugging-face-intrusion Comments URL: https://news.ycombinator.com/item?id=49127306 Points: 44 # Comments: 20",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Designing QR Codes That Survive Real-World Scanning: A Debugging Playbook",
+      "link": "https://dev.to/lizely/designing-qr-codes-that-survive-real-world-scanning-a-debugging-playbook-1f9l",
+      "pubDate": "2026-07-31T19:02:30.000Z",
+      "description": "<p>A QR code can look perfect in your browser and still fail on a printed flyer behind glass, on a wrinkled shipping label, or under a flickering streetlight at dusk. When you treat generation as a one-step drop into a designer, you skip the constraints that decide whether the code is actually scann",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "AI companies destroy rare and non recoverable physical books",
+      "link": "https://www.heraldscotland.com/opinion/26422014.library-alexandria-burns-ai-companies-destroying-books-bulk/",
+      "pubDate": "2026-07-31T19:01:52.000Z",
+      "description": "Article URL: https://www.heraldscotland.com/opinion/26422014.library-alexandria-burns-ai-companies-destroying-books-bulk/ Comments URL: https://news.ycombinator.com/item?id=49127284 Points: 36 # Comments: 30",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "I Stopped Building More Tools and Started Building Better Ones (Toolora Journey)",
+      "link": "https://dev.to/sunil_thapa_310640b19249b/i-stopped-building-more-tools-and-started-building-better-ones-toolora-journey-3j58",
+      "pubDate": "2026-07-31T19:01:13.000Z",
+      "description": "<p>I Stopped Building More Tools and Started Building Better Ones (Toolora Journey)<br> A few days ago, I shared my side project Toolora, a collection of developer and everyday tools.<br> One piece of feedback completely changed my roadmap.<br> Instead of adding more tools, someone told me:<br> \"Bui",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "How I Put My Agent in CI to Automate Release Notes",
+      "link": "https://dev.to/blackgirlbytes/how-i-put-my-agent-in-ci-to-automate-release-notes-2c2h",
+      "pubDate": "2026-07-31T19:00:39.000Z",
+      "description": "<h1> I Put goose in CI to Draft Entire’s Weekly Release Notes </h1> <p>When I joined Entire, I noticed my boss spending a chunk of time every week writing detailed release notes, called Dispatches at Entire. It looked like a painful process. Each Dispatch had to cover changes across several reposito",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Nuclear Waste Cleanup: DOE Is Missing Opportunities to Apply Lessons",
+      "link": "https://www.gao.gov/products/gao-26-108082",
+      "pubDate": "2026-07-31T18:54:13.000Z",
+      "description": "Article URL: https://www.gao.gov/products/gao-26-108082 Comments URL: https://news.ycombinator.com/item?id=49127205 Points: 4 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Golang proposal: container/: generic collection types",
+      "link": "https://github.com/golang/go/issues/80590",
+      "pubDate": "2026-07-31T18:39:47.000Z",
+      "description": "Article URL: https://github.com/golang/go/issues/80590 Comments URL: https://news.ycombinator.com/item?id=49127031 Points: 16 # Comments: 1",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Orca-Bench: How Ready Are Language Model Agents for Oncall?",
+      "link": "https://arxiv.org/abs/2607.28545",
+      "pubDate": "2026-07-31T18:32:43.000Z",
+      "description": "Article URL: https://arxiv.org/abs/2607.28545 Comments URL: https://news.ycombinator.com/item?id=49126943 Points: 8 # Comments: 3",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Using the railway network as a flatbed scanner [video]",
+      "link": "https://media.ccc.de/v/emf2026-74-1-using-the-railway-network-as-a-flatbed-scanner",
+      "pubDate": "2026-07-31T18:30:44.000Z",
+      "description": "Article URL: https://media.ccc.de/v/emf2026-74-1-using-the-railway-network-as-a-flatbed-scanner Comments URL: https://news.ycombinator.com/item?id=49126919 Points: 9 # Comments: 3",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Termixer (TUI DJ Mixer)",
+      "link": "https://github.com/l00sed/termixer",
+      "pubDate": "2026-07-31T18:28:08.000Z",
+      "description": "Article URL: https://github.com/l00sed/termixer Comments URL: https://news.ycombinator.com/item?id=49126883 Points: 19 # Comments: 7",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "June in Servo: real world compat, media queries, SharedWorker, and more",
+      "link": "https://servo.org/blog/2026/07/31/june-in-servo/",
+      "pubDate": "2026-07-31T18:17:52.000Z",
+      "description": "Article URL: https://servo.org/blog/2026/07/31/june-in-servo/ Comments URL: https://news.ycombinator.com/item?id=49126765 Points: 11 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Everyone is building LLM routers, we deprecated ours",
+      "link": "https://manifest.build/blog/why-we-deprecated-our-llm-router/",
+      "pubDate": "2026-07-31T18:06:39.000Z",
+      "description": "Article URL: https://manifest.build/blog/why-we-deprecated-our-llm-router/ Comments URL: https://news.ycombinator.com/item?id=49126630 Points: 22 # Comments: 11",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "qm",
+      "link": "https://github.com/yc-software/qm",
+      "pubDate": "2026-07-31T18:04:58.000Z",
+      "description": "Article URL: https://github.com/yc-software/qm Comments URL: https://news.ycombinator.com/item?id=49126604 Points: 130 # Comments: 37",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Get Ready For the Powerful CSS border-shape Property!",
+      "link": "https://css-tricks.com/get-ready-for-the-powerful-css-border-shape-property/",
+      "pubDate": "2026-07-31T15:14:00.000Z",
+      "description": "We recently got the shape() function and corner-shape property. What else could we possibly need as far as making shapes in CSS? Let me tell you: the border-shape property! Get Ready For the Powerful CSS border-shape Property! originally handwritten and published with love on CSS-Tricks. You should ",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
       "title": "What’s !important #16: sibling-index() Animations, Use Cases for the infinity Keyword, Container Stuck Queries, and More",
       "link": "https://css-tricks.com/whats-important-16/",
       "pubDate": "2026-07-31T14:06:21.000Z",
-      "description": "In What’s !important #16, see how the soon-Baseline sibling-index() function can be used for animations, revisit the 2026 FIFA World Cup with CSS, explore the use cases for the infinity keyword, learn about container ‘stuck’ queries, and much more. What’s !important #16: sibling-index() Animations, ",
+      "description": "The soon-Baseline sibling-index() function for animations, CSS and the 2026 FIFA World Cup, use cases for the infinity keyword, container \"stuck\" queries, and more. What’s !important #16: sibling-index() Animations, Use Cases for the infinity Keyword, Container Stuck Queries, and More originally han",
       "source": "CSS Tricks",
       "category": "Frontend"
-    },
-    {
-      "title": "A Safe Outcome Can Hide a Failed Security Control",
-      "link": "https://dev.to/gyubinsec/a-safe-outcome-can-hide-a-failed-security-control-58p",
-      "pubDate": "2026-07-31T14:05:44.000Z",
-      "description": "<p>I kept coming back to a small problem in security testing:</p> <blockquote> <p>If the business outcome is safe, do we know that the control under test actually worked?</p> </blockquote> <p>Often, we do not.</p> <p>A downstream safeguard may prevent the final impact after an earlier control has al",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "How Local AI Became My 24/7 Python Tutor (Without Doing the Work for Me)",
-      "link": "https://dev.to/henderson01/how-local-ai-became-my-247-python-tutor-without-doing-the-work-for-me-5en",
-      "pubDate": "2026-07-31T14:04:00.000Z",
-      "description": "<p>When people talk about using AI for coding, the conversation usually goes straight to \"AI writes all my code now.\"</p> <p>That isn't how I use it, and honestly, if you're trying to actually learn, letting an LLM write your entire project defeats the purpose.</p> <p>For me, AI has completely chang",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "How to Prevent Multiple AI Coding Agents from Editing the Same Files",
-      "link": "https://dev.to/_3ffb5be7950c3a975b5d/how-to-prevent-multiple-ai-coding-agents-from-editing-the-same-files-4aib",
-      "pubDate": "2026-07-31T14:01:20.000Z",
-      "description": "<p>A team of developers, each running their own AI coding agent, is fast — right up until two agents refactor the same file at the same time. One overwrites the other's work, or you discover the collision at merge time and spend the afternoon untangling it.</p> <p>You can't always prevent this with ",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Your Sandbox Isn't a Sandbox If It Can Reach Production",
-      "link": "https://dev.to/coridev/your-sandbox-isnt-a-sandbox-if-it-can-reach-production-1m7e",
-      "pubDate": "2026-07-31T14:00:41.000Z",
-      "description": "<h2> Your Sandbox Isn't a Sandbox If It Can Reach Production </h2> <p>Here's the sentence that should stop you mid-scroll: an AI model published a malicious package to a public registry <em>after convincing itself it was still in a simulation</em>. Not despite thinking it was fake. Because it though",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "OpenAI Pricing Strategy Signal Points to a Broader Price and Intelligence Tradeoff",
-      "link": "https://dev.to/alifar/openai-pricing-strategy-signal-points-to-a-broader-price-and-intelligence-tradeoff-3i67",
-      "pubDate": "2026-07-31T14:00:30.000Z",
-      "description": "<p>OpenAI may be preparing to frame its API strategy more explicitly around a familiar developer decision: how much model intelligence an application needs for the price it can sustain. A credible signal associated with the company suggests a goal of delivering a strong price-to-intelligence tradeof",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "#How I built an automated digital product workflow with Payhip,Make,Telegram and Notion",
-      "link": "https://dev.to/eva-nomados/how-i-built-an-automated-digital-product-workflow-with-payhipmaketelegram-and-notion-3fkm",
-      "pubDate": "2026-07-31T14:00:23.000Z",
-      "description": "<h1> How I built an automated digital product workflow with Payhip,Make,Telegram and Notion </h1> <p>Selling digital products sounds simple:</p> <p>Create a product → receive payment → deliver the product.</p> <p>But the operational workflow quickly becomes messy.</p> <p>You need:</p> <ul> <li>Payme",
-      "source": "Dev.to Feed",
-      "category": "Development"
     },
     {
       "title": "writing-mode",
@@ -116,16 +199,8 @@
     {
       "title": "What’s !important #15: Boundary-aware CSS, Time-based CSS, Full-bleed CSS, and More",
       "link": "https://css-tricks.com/whats-important-15/",
-      "pubDate": "2026-07-15T14:36:18.000Z",
+      "pubDate": "2026-07-14T14:36:18.000Z",
       "description": "Read all about boundary-aware CSS, accessible grid lanes, time-based web designs, full-bleed, the customizable select, and new web platform features. What’s !important #15: Boundary-aware CSS, Time-based CSS, Full-bleed CSS, and More originally handwritten and published with love on CSS-Tricks. You ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Get Ready For the Powerful CSS border-shape Property!",
-      "link": "https://css-tricks.com/get-ready-for-the-powerful-css-border-shape-property/",
-      "pubDate": "2026-07-07T15:14:00.000Z",
-      "description": "We recently got the shape() function and corner-shape property. What else could we possibly need as far as making shapes in CSS? Let me tell you: the border-shape property! Get Ready For the Powerful CSS border-shape Property! originally handwritten and published with love on CSS-Tricks. You should ",
       "source": "CSS Tricks",
       "category": "Frontend"
     },
