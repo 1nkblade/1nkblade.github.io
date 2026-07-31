@@ -1,102 +1,158 @@
 {
-  "generatedAt": "2026-07-31T03:50:47.602Z",
+  "generatedAt": "2026-07-31T09:16:49.739Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "5 macOS-on-Proxmox Bugs That No Guide Warns You About",
-      "link": "https://dev.to/lucidfabrics/5-macos-on-proxmox-bugs-that-no-guide-warns-you-about-56b6",
-      "pubDate": "2026-07-31T03:46:33.000Z",
-      "description": "<p>Back in February I published <a href=\"https://dev.to/lucidfabrics/i-built-a-one-command-macos-vm-tool-for-proxmox-9-190j\">a post about osx-proxmox-next</a>, a tool that builds a macOS VM on Proxmox with one command instead of an afternoon of OpenCore plist editing.</p> <p>About 1,500 people read ",
+      "title": "How to Test an AI Agent Before Giving It Access to Your Files",
+      "link": "https://dev.to/gailoo/how-to-test-an-ai-agent-before-giving-it-access-to-your-files-595j",
+      "pubDate": "2026-07-31T09:10:25.000Z",
+      "description": "<h1> How to Test an AI Agent Before Giving It Access to Your Files </h1> <p>AI agent demos usually show the happy path: a prompt goes in, a polished result comes out.</p> <p>For developers, that is not enough. The real question is whether the agent can produce a verifiable artifact without gaining m",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Mastering Claude Code Configs: `CLAUDE.md` vs `.claude/rules/`",
-      "link": "https://dev.to/mdiffshashank/mastering-claude-code-configs-claudemd-vs-clauderules-37g7",
-      "pubDate": "2026-07-31T03:36:07.000Z",
-      "description": "<p>When configuring <strong>Claude Code</strong> (or Claude-driven AI coding assistants) in your projects, structuring your instructions efficiently is key to getting accurate code generation while keeping token consumption low. </p> <p>Understanding when to use a single <strong><code>CLAUDE.md</cod",
+      "title": "The 40% Cancellation Trap: Why Agentic AI Projects Die in Production 🪤",
+      "link": "https://dev.to/cypriantinasheaarons/the-40-cancellation-trap-why-agentic-ai-projects-die-in-production-9kn",
+      "pubDate": "2026-07-31T09:06:26.000Z",
+      "description": "<blockquote> <p>Gartner reckons over 40% of agentic AI projects get canned by 2027. Not because the models are bad. Because nobody built the safety net.</p> </blockquote> <p>Okay so that stat has been quoted so much it's basically lost its bite by now. But stick with me, because the reason buried in",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "A California aquifer may have crossed the point of no return",
-      "link": "https://www.science.org/content/article/california-aquifer-may-have-crossed-point-no-return",
-      "pubDate": "2026-07-31T03:27:36.000Z",
-      "description": "Article URL: https://www.science.org/content/article/california-aquifer-may-have-crossed-point-no-return Comments URL: https://news.ycombinator.com/item?id=49118663 Points: 9 # Comments: 1",
+      "title": "The all-purpose agent isn't an architecture. It's a single point of failure with a system prompt.",
+      "link": "https://dev.to/cyclopt_dimitrisk/the-all-purpose-agent-isnt-an-architecture-its-a-single-point-of-failure-with-a-system-prompt-3je0",
+      "pubDate": "2026-07-31T09:06:04.000Z",
+      "description": "<h2> Intro </h2> <p>In a demo, one agent that \"does everything\" looks like impressive economy: one prompt, one API call, one mental model. Nobody's testing it against thousands of edge cases a day, and nobody's paying for the tokens burned parsing forty unrelated instructions to answer a two-line qu",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "When you actually need a headless browser (and when you're just wasting RAM)",
+      "link": "https://dev.to/votiakov/when-you-actually-need-a-headless-browser-and-when-youre-just-wasting-ram-209e",
+      "pubDate": "2026-07-31T09:05:56.000Z",
+      "description": "<p>Most of the store-locator scrapers I build never touch a browser. I open the Network tab, find the JSON endpoint the map calls, hit it with <code>fetch</code>, done. A browser is slow, hungry, and flaky, so I treat it as the last resort.</p> <p>National Book Tokens is where the last resort actual",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Anthropic Python SDK v0.119.0: New LLM Stop Reason — Plus Rust, FastAPI &amp; More",
+      "link": "https://dev.to/soytuber/anthropic-python-sdk-v01190-new-llm-stop-reason-plus-rust-fastapi-more-162h",
+      "pubDate": "2026-07-31T09:04:32.000Z",
+      "description": "<p>Today's digest highlights the Anthropic Python SDK v0.119.0, which introduces a new <code>model_context_window_exceeded</code> stop reason and agent tool fixes. Additional releases include Anthropic Python SDK v0.120.1, Rust 1.96.1, FastAPI 0.141.0, MCP Python SDK v1.29.0, and cloudflared 2026.7.",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Benchmark Mobile AI Reconnect Recovery Across Lifecycle Transitions With a Server You Can Kill",
+      "link": "https://dev.to/roronoa_/benchmark-mobile-ai-reconnect-recovery-across-lifecycle-transitions-with-a-server-you-can-kill-2836",
+      "pubDate": "2026-07-31T09:04:31.000Z",
+      "description": "<p>Last week I was testing an AI chat feature on my iPhone 14 (iOS 17.5, React Native 0.74, Hermes). The flow looked fine on Wi-Fi. Then I walked into an elevator mid-stream, the radio dropped, iOS suspended the app, and when I came back the conversation had silently lost the last two turns. No erro",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Reject Coding-Agent Queue Depth Before Your Latency SLO Breaks",
+      "link": "https://dev.to/odd_background_328/reject-coding-agent-queue-depth-before-your-latency-slo-breaks-4n5b",
+      "pubDate": "2026-07-31T09:04:27.000Z",
+      "description": "<h2> The alert that started this </h2> <p>At 09:14 the dashboard for our internal AI-assisted code review service showed p95 turnaround at 41 seconds against a 60-second SLO. At 09:31 p95 was 3m 40s and the queue held 212 pending tasks. Nothing had crashed. No pod restarts, no OOMKills, no upstream ",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Stop Slopsquatting With a CI Gate, Not a Better Prompt",
+      "link": "https://dev.to/jaryn_123/stop-slopsquatting-with-a-ci-gate-not-a-better-prompt-480m",
+      "pubDate": "2026-07-31T09:04:23.000Z",
+      "description": "<p>A coding assistant proposes <code>pip install requests-utils-pro</code> at 09:41. By 09:43 the dependency is in a pull request, by 09:47 CI is green because the install worked, and by 10:15 the package has egress to a domain no reviewer typed. The failure is not that a model hallucinated. The fai",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Canary Idempotent Webhooks With Duplicate, Timeout, and Reorder Gates",
+      "link": "https://dev.to/robinzzz/canary-idempotent-webhooks-with-duplicate-timeout-and-reorder-gates-3khp",
+      "pubDate": "2026-07-31T09:04:18.000Z",
+      "description": "<p>A payment webhook once <code>ack=timeout -&gt; retry -&gt; reorder -&gt; duplicate ack</code> can look healthy in logs while applying the same intent twice. The common handler invariant — “return 200 fast, then process asynchronously” — is not sufficient unless a stronger invariant holds:</p> <bl",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "How to Evaluate an AI Agent Vendor Before You Sign",
+      "link": "https://dev.to/pykero/how-to-evaluate-an-ai-agent-vendor-before-you-sign-p0k",
+      "pubDate": "2026-07-31T09:02:04.000Z",
+      "description": "<p>Score AI agent vendors on how they handle failure, not on their demo. A polished demo tells you the agent can handle the five inputs the sales team rehearsed. It tells you nothing about what happens on input six, when a customer types something unexpected, uploads a bad file, or asks the agent to",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Danube's record low levels force shutdown of Hungary's only nuclear plant",
+      "link": "https://www.bbc.com/news/articles/cn0nqv05g0do",
+      "pubDate": "2026-07-31T07:33:10.000Z",
+      "description": "Article URL: https://www.bbc.com/news/articles/cn0nqv05g0do Comments URL: https://news.ycombinator.com/item?id=49120120 Points: 6 # Comments: 3",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "How a Baseten Engineer Traced 7 Years of Attention Mechanism Evolution -- From GPT-2 to Kimi K3, in Runable PyTorch",
-      "link": "https://dev.to/cdragon123code/how-a-baseten-engineer-traced-7-years-of-attention-mechanism-evolution-from-gpt-2-to-kimi-k3-in-pl7",
-      "pubDate": "2026-07-31T03:23:15.000Z",
-      "description": "<p>Last week, a Baseten inference engineer who goes by <a href=\"https://x.com/waterloo_intern/status/2081762065392541951\" rel=\"noopener noreferrer\">@waterloo_intern</a> published a technical blog post titled <strong>\"22,580: From GPT-2 to Kimi K3, Explained.\"</strong> It hit 2.4 million views in day",
-      "source": "Dev.to Feed",
-      "category": "Development"
+      "title": "Google fixed more Chrome bugs in June than over the past two years, thanks to AI",
+      "link": "https://blog.google/security/chrome-stronger-with-every-update/",
+      "pubDate": "2026-07-31T07:29:22.000Z",
+      "description": "Article URL: https://blog.google/security/chrome-stronger-with-every-update/ Comments URL: https://news.ycombinator.com/item?id=49120097 Points: 25 # Comments: 34",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
-      "title": "Why NVIDIA Open-Sourced Its Linux GPU Kernel Modules",
-      "link": "https://dev.to/vast-cow/why-nvidia-open-sourced-its-linux-gpu-kernel-modules-48dd",
-      "pubDate": "2026-07-31T03:20:24.000Z",
-      "description": "<p>The biggest reason NVIDIA began providing GPL-licensed kernel modules is that <strong>its driver architecture evolved to the point where Linux integration, distribution, and maintenance could be greatly simplified while keeping the GPU's critical intellectual property in firmware and user-space c",
-      "source": "Dev.to Feed",
-      "category": "Development"
+      "title": "DeepSeek-V4-Flash Update",
+      "link": "https://api-docs.deepseek.com/updates/",
+      "pubDate": "2026-07-31T06:08:36.000Z",
+      "description": "Article URL: https://api-docs.deepseek.com/updates/ Comments URL: https://news.ycombinator.com/item?id=49119559 Points: 212 # Comments: 86",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
-      "title": "Stop Guessing If Your Agents Are Actually Learning From Their Mistakes",
-      "link": "https://dev.to/renato_marinho/stop-guessing-if-your-agents-are-actually-learning-from-their-mistakes-3g6m",
-      "pubDate": "2026-07-31T03:20:01.000Z",
-      "description": "<p>Watching an autonomous agent run through a loop of tasks is like watching a black box try to solve a puzzle in another room. You can see the final result, but the middle part—the reasoning, the failures, and that pivotal moment where it realizes its plan was garbage—is buried in thousands of line",
-      "source": "Dev.to Feed",
-      "category": "Development"
+      "title": "Show HN: Gander, an Android file viewer that asks for no permissions at all",
+      "link": "https://github.com/mokshablr/gander",
+      "pubDate": "2026-07-31T05:45:13.000Z",
+      "description": "Hi HN,I built an Android file viewer that opens PDF, Word, Excel, PowerPoint, images, video, audio, Markdown and code, and asks for no permissions at all.I have always been uneasy about opening files people send me. On Android you either install a 400 MB office suite and sign in or use a small free ",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
-      "title": "Audit, Observability &amp; Lineage for Enterprise AI Agents",
-      "link": "https://dev.to/jitu028/audit-observability-lineage-for-enterprise-ai-agents-106m",
-      "pubDate": "2026-07-31T03:19:56.000Z",
-      "description": "<h2> The Observability Black Box </h2> <p>As autonomous AI agents evolve from isolated chat assistants into multi-agent systems executing multi-step business logic across databases, APIs, and microservices, enterprise platform teams face an acute operational challenge: black-box opacity.</p> <p>When",
-      "source": "Dev.to Feed",
-      "category": "Development"
+      "title": "Show HN: What should the GUI for AI agents look like?",
+      "link": "https://marbleos.com/demo",
+      "pubDate": "2026-07-31T05:17:29.000Z",
+      "description": "Hi HN! We’re Akilan and Miguel, the creators of MarbleOS.The inspiration for Marble comes from the GUI work at Xerox PARC, the 1984 Macintosh, and later NeXTSTEP, which became the foundation for Mac OS X. Before GUIs, interacting with a computer was limited to strange terminal commands:C:\\> DIRC:\\> ",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
-      "title": "JavaScript vs React: What's the Difference?",
-      "link": "https://dev.to/arijit_banerjee_a45b6e660/javascript-vs-react-whats-the-difference-2mf3",
-      "pubDate": "2026-07-31T03:17:36.000Z",
-      "description": "<h1> JavaScript vs React: Understanding How They Work Together </h1> <p>If you're starting web development, you've probably heard about JavaScript and React. Many beginners think they are competitors, but they actually work together. Let's understand them in simple terms.</p> <h2> What is JavaScript",
-      "source": "Dev.to Feed",
-      "category": "Development"
+      "title": "JEP 401: Value Objects (Preview) merged to OpenJDK master",
+      "link": "https://github.com/openjdk/jdk/pull/31120",
+      "pubDate": "2026-07-31T04:38:19.000Z",
+      "description": "Article URL: https://github.com/openjdk/jdk/pull/31120 Comments URL: https://news.ycombinator.com/item?id=49119063 Points: 96 # Comments: 36",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
-      "title": "STAC4749: Chaos Ransomware in Under 17 Hours via Teams IT Support Scam",
-      "link": "https://dev.to/anoymask/stac4749-chaos-ransomware-in-under-17-hours-via-teams-it-support-scam-558",
-      "pubDate": "2026-07-31T03:15:21.000Z",
-      "description": "<h1> STAC4749: Chaos Ransomware in Under 17 Hours via Teams IT Support Scam </h1> <h2> 1. Basic Information </h2> <ul> <li> <strong>Article Name</strong>: Chaos in Teams vishing</li> <li> <strong>Publisher</strong>: Sophos</li> <li> <strong>Publication Date</strong>: 2026-07-28 (Detailed report by t",
-      "source": "Dev.to Feed",
-      "category": "Development"
+      "title": "The session you cannot take with you",
+      "link": "https://earendil.com/posts/session-portability/",
+      "pubDate": "2026-07-31T03:47:59.000Z",
+      "description": "Article URL: https://earendil.com/posts/session-portability/ Comments URL: https://news.ycombinator.com/item?id=49118781 Points: 289 # Comments: 61",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
-      "title": "GTIG: 2026 OSS Supply Chain Compromise, Credential Theft, and Self-Propagation",
-      "link": "https://dev.to/anoymask/gtig-2026-oss-supply-chain-compromise-credential-theft-and-self-propagation-1g81",
-      "pubDate": "2026-07-31T03:15:05.000Z",
-      "description": "<h1> GTIG: 2026 OSS Supply Chain Compromise, Credential Theft, and Self-Propagation </h1> <h2> 1. Basic Information </h2> <ul> <li> <strong>Article Title</strong>: Batten Down Your Packages: Mitigation Guidance for Supply Chain Compromise</li> <li> <strong>Publisher</strong>: Google Threat Intellige",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "TA488 OWAReaper: A \"Half-Click\" Attack that Adds Persistence Inside OWA Just by Opening an Email",
-      "link": "https://dev.to/anoymask/ta488-owareaper-a-half-click-attack-that-adds-persistence-inside-owa-just-by-opening-an-email-ghd",
-      "pubDate": "2026-07-31T03:14:51.000Z",
-      "description": "<h1> TA488 OWAReaper: A \"Half-Click\" Attack that Adds Persistence Inside OWA Just by Opening an Email </h1> <h2> 1. Basic Information </h2> <ul> <li> <strong>Article Name</strong>: Cleaning Out Inboxes: TA488 Comes for Outlook with Another Half-Click Exploit</li> <li> <strong>Publisher</strong>: Pro",
-      "source": "Dev.to Feed",
-      "category": "Development"
+      "title": "\"the very foundation of modern academia has been blown to bits\"",
+      "link": "https://twitter.com/lemire/status/2082851447499088173",
+      "pubDate": "2026-07-31T02:54:02.000Z",
+      "description": "Article URL: https://twitter.com/lemire/status/2082851447499088173 Comments URL: https://news.ycombinator.com/item?id=49118474 Points: 28 # Comments: 12",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "The Religion of Speed",
       "link": "https://graybeard.ing/the-religion-of-speed/",
       "pubDate": "2026-07-30T23:43:22.000Z",
-      "description": "Article URL: https://graybeard.ing/the-religion-of-speed/ Comments URL: https://news.ycombinator.com/item?id=49117284 Points: 29 # Comments: 8",
+      "description": "Article URL: https://graybeard.ing/the-religion-of-speed/ Comments URL: https://news.ycombinator.com/item?id=49117284 Points: 149 # Comments: 70",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -104,63 +160,7 @@
       "title": "The AI Aesthetic",
       "link": "https://blog.jim-nielsen.com/2026/ai-aesthetic/",
       "pubDate": "2026-07-30T23:22:16.000Z",
-      "description": "Article URL: https://blog.jim-nielsen.com/2026/ai-aesthetic/ Comments URL: https://news.ycombinator.com/item?id=49117099 Points: 165 # Comments: 87",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Investigating three real-world incidents in our cybersecurity evaluations",
-      "link": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
-      "pubDate": "2026-07-30T23:00:51.000Z",
-      "description": "Article URL: https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals Comments URL: https://news.ycombinator.com/item?id=49116922 Points: 120 # Comments: 92",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "I flagged two research papers for fake authors and both were accepted as orals",
-      "link": "https://geospatialml.com/posts/reviewing-ai-slop/",
-      "pubDate": "2026-07-30T22:33:11.000Z",
-      "description": "Article URL: https://geospatialml.com/posts/reviewing-ai-slop/ Comments URL: https://news.ycombinator.com/item?id=49116721 Points: 118 # Comments: 48",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Rune 1.1: adds Python, an Emacs editor, a symbol index and is now free",
-      "link": "https://rune.build/blog/rune-1-1-release",
-      "pubDate": "2026-07-30T21:47:31.000Z",
-      "description": "Article URL: https://rune.build/blog/rune-1-1-release Comments URL: https://news.ycombinator.com/item?id=49116272 Points: 54 # Comments: 18",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Saber-toothed cats became inbred–and struggled to move–before they went extinct",
-      "link": "https://www.science.org/content/article/saber-toothed-cats-became-inbred-and-struggled-move-they-went-extinct",
-      "pubDate": "2026-07-30T21:31:03.000Z",
-      "description": "Article URL: https://www.science.org/content/article/saber-toothed-cats-became-inbred-and-struggled-move-they-went-extinct Comments URL: https://news.ycombinator.com/item?id=49116074 Points: 34 # Comments: 11",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Agent Skill to Force Docs in ASD-STE100 Simplified Technical English",
-      "link": "https://github.com/AminBlg/SimpleEnglish",
-      "pubDate": "2026-07-30T19:34:27.000Z",
-      "description": "Article URL: https://github.com/AminBlg/SimpleEnglish Comments URL: https://news.ycombinator.com/item?id=49114639 Points: 235 # Comments: 85",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "UEFA and its national associations will not participate in FIFA competitions",
-      "link": "https://www.uefa.com/news-media/news/02a7-213a92896eb0-54dfbf454e3b-1000--statement-on-behalf-of-uefa-and-its-55-national-associations/",
-      "pubDate": "2026-07-30T18:40:52.000Z",
-      "description": "Article URL: https://www.uefa.com/news-media/news/02a7-213a92896eb0-54dfbf454e3b-1000--statement-on-behalf-of-uefa-and-its-55-national-associations/ Comments URL: https://news.ycombinator.com/item?id=49113929 Points: 839 # Comments: 468",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Show HN: Distilling DeepSeek into GPT-OSS doesn't transfer censorship. Try it",
-      "link": "https://www.ctgt.ai/research/distillation-censorship-transfer",
-      "pubDate": "2026-07-30T18:13:06.000Z",
-      "description": "We recently used DeepSeek V4 Flash as a teacher for finance tasks with GPT-OSS-120B. Distillation works well on this problem. At a constrained 8k token budget, our self-distilled 120B scores 83.61% on FinanceReasoning, above Kimi K3 (81.93%) and Inkling (65.13%). We released the 20B open weights. Wi",
+      "description": "Article URL: https://blog.jim-nielsen.com/2026/ai-aesthetic/ Comments URL: https://news.ycombinator.com/item?id=49117099 Points: 300 # Comments: 131",
       "source": "Hacker News",
       "category": "Tech News"
     },
