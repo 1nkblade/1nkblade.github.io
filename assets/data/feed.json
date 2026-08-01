@@ -1,94 +1,163 @@
 {
-  "generatedAt": "2026-08-01T08:33:49.323Z",
+  "generatedAt": "2026-08-01T13:56:45.975Z",
   "sourceCount": 4,
-  "successCount": 4,
-  "errors": [],
+  "successCount": 3,
+  "errors": [
+    {
+      "source": "CSS Tricks",
+      "error": "HTTP 415 Unsupported Media Type"
+    }
+  ],
   "items": [
     {
-      "title": "Pascal Programming",
-      "link": "https://dev.to/bekbrace/pascal-programming-146",
-      "pubDate": "2026-08-01T08:04:47.000Z",
-      "description": "<p>One small confession before we begin.</p> <p>The first programming language I ever used was <strong>not Pascal</strong>. It was the built-in <strong>BASIC</strong> on the Atari 800XL home computer. At the time, in Egypt, that was what was available to many of us—mostly home computers imported fro",
+      "title": "Why Your JavaScript Toolchain Keeps Breaking (And How to Fix It with Jolter)",
+      "link": "https://dev.to/byjonas/why-your-javascript-toolchain-keeps-breaking-and-how-to-fix-it-with-jolter-31am",
+      "pubDate": "2026-08-01T13:44:11.000Z",
+      "description": "<p>If you've worked with JavaScript for a while, you've probably experienced something like this:</p> <p>You clone a repository.</p> <p>You install dependencies.</p> <p>A few seconds later:</p> <blockquote> <p>Unsupported engine.</p> </blockquote> <p><em>\"Okay, I'll switch my Node version.\"</em></p>",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Offline Table Builder: Build Tables Without an Internet Connection",
-      "link": "https://dev.to/olayiwola_akinnagbe/offline-table-builder-build-tables-without-an-internet-connection-4igg",
-      "pubDate": "2026-08-01T08:00:00.000Z",
-      "description": "<p>Most web tools stop working the moment you lose your internet<br> connection. For a table builder used on a train, in a conference<br> room with spotty wifi, or on a flight, this is a real problem.</p> <p>Progressive Web Apps solve this through service workers, a background<br> script that caches",
+      "title": "Can Vibe Coding Work With Less Human Intervention? I'm Building a Framework to Find Out",
+      "link": "https://dev.to/ty215/can-vibe-coding-work-with-less-human-intervention-im-building-a-framework-to-find-out-39hd",
+      "pubDate": "2026-08-01T13:41:33.000Z",
+      "description": "<p>In my vibe-coding work, reducing human checks has allowed projects to move far from the original direction. Periodic corrections have not stopped the drift from happening again.</p> <p>That experience led me to start building SDAQF, a specification-driven development and quality-assurance framewo",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Fixing a Search Race Condition in npmx",
-      "link": "https://dev.to/anilloutombam/fixing-a-search-race-condition-in-npmx-4la3",
-      "pubDate": "2026-08-01T07:55:07.000Z",
-      "description": "<p><em>This is a submission for <a href=\"https://dev.to/bugsmash\">DEV's Summer Bug Smash: Clear the Lineup</a> powered by <a href=\"https://sentry.io/\" rel=\"noopener noreferrer\">Sentry</a>.</em></p> <h2> Project Overview </h2> <p><a href=\"https://npmx.dev\" rel=\"noopener noreferrer\">npmx</a> is a mode",
+      "title": "Google’s April Gemini Drop Expands Desktop, Mobile and Agentic App Integration",
+      "link": "https://dev.to/alifar/googles-april-gemini-drop-expands-desktop-mobile-and-agentic-app-integration-1hmn",
+      "pubDate": "2026-08-01T13:30:31.000Z",
+      "description": "<p>Google’s April 2026 Gemini Drop broadens how the Gemini app connects across desktop and mobile experiences. The update adds a native macOS app, integrates NotebookLM into Gemini conversations and introduces new ways to organize chats. It also sits within Google’s wider push toward agent-like task",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I Was About to Spend Money on Ads. So I Made an AI Agent Test My Product for 29 Hours.",
-      "link": "https://dev.to/kansm/i-was-about-to-spend-money-on-ads-so-i-made-an-ai-agent-test-my-product-for-29-hours-mhc",
-      "pubDate": "2026-08-01T07:54:42.000Z",
-      "description": "<p><strong>872 million tokens processed — 97.63% of them cached inputs. 5,222 tool calls. 88 issues closed. Zero critical bugs, and several high-severity ones, in a product I had been QA-ing the whole time I built it.</strong></p> <p><strong>A note before we start.</strong> There's nothing exotic in",
+      "title": "What \"Context-Aware Code Review\" Actually Means🤔",
+      "link": "https://dev.to/dev_kiran/what-context-aware-code-review-actually-means-30gm",
+      "pubDate": "2026-08-01T13:27:33.000Z",
+      "description": "<p>Hello Devs 👋</p> <p>If you've looked at AI code review tools recently, you've probably seen the term <strong>\"context-aware code review\"</strong> everywhere.</p> <p>Every tool seems to use it.</p> <p>Some talk about repository awareness. Others mention codebase understanding. A few claim they un",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Complex Requirements Are Not the Biggest Problem Anymore: Why Workflow Quality Matters More in the AI Era",
-      "link": "https://dev.to/ahikmah/complex-requirements-are-not-the-biggest-problem-anymore-why-workflow-quality-matters-more-in-the-33oi",
-      "pubDate": "2026-08-01T07:50:01.000Z",
-      "description": "<p><em>How we used AI to make CI stricter, more observable, and easier to improve across repositories.</em></p> <p>Having worked across both implementation and delivery, I’ve learned that complex requirements are not necessarily the biggest problem in the current AI era.</p> <p>AI can help us break ",
+      "title": "My first product I ever made (an online sports watch party)",
+      "link": "https://dev.to/sheyahi_4bb10b5d/my-first-product-i-ever-made-an-online-sports-watch-party-46h5",
+      "pubDate": "2026-08-01T13:25:15.000Z",
+      "description": "<div class=\"ltag__link--embedded\"> <div class=\"crayons-story \"> <a href=\"https://dev.to/sheyahi_4bb10b5d/i-built-a-chrome-extension-sidekick-787\" class=\"crayons-story__hidden-navigation-link\">I Built a Chrome Extension - Sidekick</a> <div class=\"crayons-story__body crayons-story__body-full_post\"> <d",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Day 171 of Learning MERN Stack",
-      "link": "https://dev.to/ali_hamza_589ec7b3eb6688d/day-171-of-learning-mern-stack-3jkc",
-      "pubDate": "2026-08-01T07:49:22.000Z",
-      "description": "<p>Hello Dev Community! 👋</p> <p>It is officially <strong>Day 171</strong> of my full-stack web development journey, and I am thrilled to announce that <strong>QuickChat (MERN Stack Real-Time Chat App)</strong> is officially complete! 🎉🚀</p> <p>Today, I finalized the last key security layer: <str",
+      "title": "Building Fair Rhythm-Game Judgement Windows in JavaScript",
+      "link": "https://dev.to/skywalker_2de7de5f97df567/building-fair-rhythm-game-judgement-windows-in-javascript-1og9",
+      "pubDate": "2026-08-01T13:21:24.000Z",
+      "description": "<p>A rhythm game can feel unfair even when its note chart is correct. The usual cause is timing logic that mixes wall-clock time, animation frames, and audio playback position. A fair judgement system needs one authoritative clock and explicit windows for each result.</p> <p>This walkthrough builds ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Everything Is Reversed",
-      "link": "https://dev.to/ku5ic/everything-is-reversed-2j2l",
-      "pubDate": "2026-08-01T07:48:09.000Z",
-      "description": "<p><em>What happens to a medicated ADHD brain when AI removes the last thing that used to slow it down.</em></p> <p>I have ADHD, and I am medicated for it. I take it first thing. It lands about thirty minutes later, roughly as I finish the first coffee. Then I sit down to write software with an agen",
+      "title": "Implementing FreeCell SuperMoves: Capacity Rules and Edge Cases",
+      "link": "https://dev.to/skywalker_2de7de5f97df567/implementing-freecell-supermoves-capacity-rules-and-edge-cases-2012",
+      "pubDate": "2026-08-01T13:20:42.000Z",
+      "description": "<p>FreeCell looks simple until a player tries to move a long descending run and the interface refuses. The useful programming lesson is that a legal “supermove” is not a special card rule. It is a compact way of representing a sequence of ordinary single-card moves through temporary storage.</p> <p>",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The real cost of Instagram data in 2026 (measured, not estimated)",
-      "link": "https://dev.to/sieve_seo_c4e0747f2ecc0e2/the-real-cost-of-instagram-data-in-2026-measured-not-estimated-2o3f",
-      "pubDate": "2026-08-01T07:45:16.000Z",
-      "description": "<p>I spent the last week building a small \"who unfollowed me\" tool, which means I needed one boring thing: the follower list of an Instagram account. Here is everything I measured while figuring out how to get it in 2026 — what's dead, what's free, and what the paid options actually cost.</p> <h2> T",
+      "title": "Who sells the book when the customer asks an AI? Romania's book market across 5 AI engines",
+      "link": "https://dev.to/dan_cristian_c97aa535c495/who-sells-the-book-when-the-customer-asks-an-ai-romanias-book-market-across-5-ai-engines-2g30",
+      "pubDate": "2026-08-01T13:19:01.000Z",
+      "description": "<p>When someone asks ChatGPT <em>\"which online bookstore should I use for children's books?\"</em>, they get <strong>one answer</strong>, not ten blue links.</p> <p>So we measured who is inside that answer.</p> <p>We put <strong>18 real purchase questions</strong> to five AI engines — ChatGPT, Google",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Two of my projects were about to jump a grade. Nobody had fixed anything.",
-      "link": "https://dev.to/fromzerotoship/two-of-my-projects-were-about-to-jump-a-grade-nobody-had-fixed-anything-2med",
-      "pubDate": "2026-08-01T07:41:00.000Z",
-      "description": "<p>I have a scanner that grades my own projects. It reads the code, applies a list of rules, subtracts points per finding, and hands each project a letter grade. It exists because I build with AI and needed something that wasn't me deciding whether my work was fine.</p> <p>Someone in a thread here p",
+      "title": "More Tools Can Make Your AI Agent Slower",
+      "link": "https://dev.to/coryntas/more-tools-can-make-your-ai-agent-slower-7id",
+      "pubDate": "2026-08-01T13:15:48.000Z",
+      "description": "<p>A renewal agent can call the CRM, email, calendar, support, document search, and contract systems. On its first run, it asks every system for everything related to one customer.</p> <p>The result looks thorough: hundreds of CRM fields, years of ticket history, complete email threads, and the same",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "What UK Bootstrapped SaaS Founders Actually Pay for Business Banking",
-      "link": "https://dev.to/benten_clifford/what-uk-bootstrapped-saas-founders-actually-pay-for-business-banking-mk6",
-      "pubDate": "2026-08-01T07:39:38.000Z",
-      "description": "<p>\"Free business banking\" is one of the most misleading phrases in UK fintech marketing. Every major digital bank advertises a free tier — Starling, Tide, Mettle, Monzo, Revolut — but \"free\" depends entirely on how many transfers you make, whether you invoice, and whether you touch foreign currency",
+      "title": "Spec-driven development with AI agents: constitutions, checkpoints, and handoffs",
+      "link": "https://dev.to/hannody/spec-driven-development-with-ai-agents-constitutions-checkpoints-and-handoffs-2o8l",
+      "pubDate": "2026-08-01T13:09:19.000Z",
+      "description": "<p>AI coding agents are strangely lopsided. Hand one a well-scoped task and it writes better code, faster, than I do. Hand it a <em>large</em> feature, the kind that takes days and touches a dozen files across several layers, and the failure mode changes. The context window fills up and quality quie",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "Google kills Earth AI generator after one day",
+      "link": "https://twitter.com/newsfromgoogle/status/2083249962150760610",
+      "pubDate": "2026-08-01T13:02:44.000Z",
+      "description": "Article URL: https://twitter.com/newsfromgoogle/status/2083249962150760610 Comments URL: https://news.ycombinator.com/item?id=49134079 Points: 40 # Comments: 36",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "RipGrep musl binaries occasionally segfault during very-large searches",
+      "link": "https://github.com/BurntSushi/ripgrep/issues/3494",
+      "pubDate": "2026-08-01T12:34:25.000Z",
+      "description": "Article URL: https://github.com/BurntSushi/ripgrep/issues/3494 Comments URL: https://news.ycombinator.com/item?id=49133889 Points: 66 # Comments: 24",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Kontigo (YC S24) Is Hiring",
+      "link": "https://www.ycombinator.com/companies/kontigo/jobs/xAo6tMt-founding-engineer",
+      "pubDate": "2026-08-01T12:00:25.000Z",
+      "description": "Article URL: https://www.ycombinator.com/companies/kontigo/jobs/xAo6tMt-founding-engineer Comments URL: https://news.ycombinator.com/item?id=49133655 Points: 0 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Morten Linderud resigning from Arch Linux development team",
+      "link": "https://lists.archlinux.org/archives/list/arch-dev-public@lists.archlinux.org/thread/2AX2BCJ3EQX7G3YXSDX73BR4NCAWXXBZ/",
+      "pubDate": "2026-08-01T11:59:45.000Z",
+      "description": "Article URL: https://lists.archlinux.org/archives/list/arch-dev-public@lists.archlinux.org/thread/2AX2BCJ3EQX7G3YXSDX73BR4NCAWXXBZ/ Comments URL: https://news.ycombinator.com/item?id=49133647 Points: 16 # Comments: 2",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "RamenHaus",
+      "link": "https://ramen.haus/",
+      "pubDate": "2026-08-01T08:48:58.000Z",
+      "description": "Article URL: https://ramen.haus/ Comments URL: https://news.ycombinator.com/item?id=49132460 Points: 129 # Comments: 74",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "How to Do Great Work (2023)",
+      "link": "https://paulgraham.com/greatwork.html",
+      "pubDate": "2026-08-01T08:19:44.000Z",
+      "description": "Article URL: https://paulgraham.com/greatwork.html Comments URL: https://news.ycombinator.com/item?id=49132289 Points: 58 # Comments: 38",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "AI doesn't generate working products, that's still your job",
+      "link": "https://weeraman.com/the-prototype-isnt-the-product/",
+      "pubDate": "2026-08-01T07:52:10.000Z",
+      "description": "Article URL: https://weeraman.com/the-prototype-isnt-the-product/ Comments URL: https://news.ycombinator.com/item?id=49132130 Points: 214 # Comments: 204",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Solid Queue 1.6.0 now supports fiber workers",
+      "link": "https://github.com/rails/solid_queue/releases/tag/v1.6.0",
+      "pubDate": "2026-08-01T07:42:08.000Z",
+      "description": "Article URL: https://github.com/rails/solid_queue/releases/tag/v1.6.0 Comments URL: https://news.ycombinator.com/item?id=49132083 Points: 39 # Comments: 8",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "Ten advances in mathematics and theoretical computer science",
       "link": "https://openai.com/index/ten-advances-in-mathematics/",
       "pubDate": "2026-08-01T07:37:44.000Z",
-      "description": "Article URL: https://openai.com/index/ten-advances-in-mathematics/ Comments URL: https://news.ycombinator.com/item?id=49132058 Points: 51 # Comments: 25",
+      "description": "Article URL: https://openai.com/index/ten-advances-in-mathematics/ Comments URL: https://news.ycombinator.com/item?id=49132058 Points: 200 # Comments: 150",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -96,153 +165,9 @@
       "title": "Ten Ways NAS Is Getting Enshitified",
       "link": "https://nascompares.com/2026/07/31/the-10-ways-nas-is-getting-enshitified/",
       "pubDate": "2026-08-01T05:38:16.000Z",
-      "description": "Article URL: https://nascompares.com/2026/07/31/the-10-ways-nas-is-getting-enshitified/ Comments URL: https://news.ycombinator.com/item?id=49131367 Points: 55 # Comments: 46",
+      "description": "Article URL: https://nascompares.com/2026/07/31/the-10-ways-nas-is-getting-enshitified/ Comments URL: https://news.ycombinator.com/item?id=49131367 Points: 137 # Comments: 128",
       "source": "Hacker News",
       "category": "Tech News"
-    },
-    {
-      "title": "The development pipeline is a production system",
-      "link": "https://sundry.jerryorr.com/2026/07/31/development-pipeline-is-a-production-system",
-      "pubDate": "2026-08-01T03:16:09.000Z",
-      "description": "Article URL: https://sundry.jerryorr.com/2026/07/31/development-pipeline-is-a-production-system Comments URL: https://news.ycombinator.com/item?id=49130726 Points: 70 # Comments: 23",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Flint: A Visualization Language for the AI Era",
-      "link": "https://microsoft.github.io/flint-chart/",
-      "pubDate": "2026-08-01T02:45:09.000Z",
-      "description": "Article URL: https://microsoft.github.io/flint-chart/ Comments URL: https://news.ycombinator.com/item?id=49130604 Points: 98 # Comments: 31",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "A week in Matrix",
-      "link": "https://piegames.de/dumps/a-week-in-matrix/",
-      "pubDate": "2026-08-01T01:35:53.000Z",
-      "description": "Article URL: https://piegames.de/dumps/a-week-in-matrix/ Comments URL: https://news.ycombinator.com/item?id=49130295 Points: 57 # Comments: 32",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "How to Exist",
-      "link": "https://www.raptitude.com/2026/07/how-to-exist/",
-      "pubDate": "2026-08-01T00:25:00.000Z",
-      "description": "Article URL: https://www.raptitude.com/2026/07/how-to-exist/ Comments URL: https://news.ycombinator.com/item?id=49129990 Points: 172 # Comments: 94",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Loops (YC W22) Is Hiring a Product Educator",
-      "link": "https://www.ycombinator.com/companies/loops/jobs/zqUnwqB-product-educator-technical-content-creator",
-      "pubDate": "2026-07-31T21:00:40.000Z",
-      "description": "Article URL: https://www.ycombinator.com/companies/loops/jobs/zqUnwqB-product-educator-technical-content-creator Comments URL: https://news.ycombinator.com/item?id=49128462 Points: 0 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Demystifying DRAM Read Disturbance: RowHammer and RowPress Phenomena",
-      "link": "https://arxiv.org/abs/2607.28233",
-      "pubDate": "2026-07-31T20:44:29.000Z",
-      "description": "Article URL: https://arxiv.org/abs/2607.28233 Comments URL: https://news.ycombinator.com/item?id=49128323 Points: 49 # Comments: 26",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Tailscale didn't stop the Hugging Face intrusion",
-      "link": "https://tailscale.com/blog/hugging-face-intrusion",
-      "pubDate": "2026-07-31T19:03:45.000Z",
-      "description": "Article URL: https://tailscale.com/blog/hugging-face-intrusion Comments URL: https://news.ycombinator.com/item?id=49127306 Points: 540 # Comments: 201",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Golang proposal: container/: generic collection types",
-      "link": "https://github.com/golang/go/issues/80590",
-      "pubDate": "2026-07-31T18:39:47.000Z",
-      "description": "Article URL: https://github.com/golang/go/issues/80590 Comments URL: https://news.ycombinator.com/item?id=49127031 Points: 148 # Comments: 116",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Get Ready For the Powerful CSS border-shape Property!",
-      "link": "https://css-tricks.com/get-ready-for-the-powerful-css-border-shape-property/",
-      "pubDate": "2026-07-31T15:14:00.000Z",
-      "description": "We recently got the shape() function and corner-shape property. What else could we possibly need as far as making shapes in CSS? Let me tell you: the border-shape property! Get Ready For the Powerful CSS border-shape Property! originally handwritten and published with love on CSS-Tricks. You should ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "What’s !important #16: sibling-index() Animations, Use Cases for the infinity Keyword, Container Stuck Queries, and More",
-      "link": "https://css-tricks.com/whats-important-16/",
-      "pubDate": "2026-07-31T14:06:21.000Z",
-      "description": "The soon-Baseline sibling-index() function for animations, CSS and the 2026 FIFA World Cup, use cases for the infinity keyword, container \"stuck\" queries, and more. What’s !important #16: sibling-index() Animations, Use Cases for the infinity Keyword, Container Stuck Queries, and More originally han",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "writing-mode",
-      "link": "https://css-tricks.com/almanac/properties/w/writing-mode/",
-      "pubDate": "2026-07-21T09:39:10.000Z",
-      "description": "The writing-mode CSS property sets whether lines of text are laid out horizontally or vertically, and the direction in which blocks and lines progress. .element { writing-mode: vertical-rl; } This is most useful in languages such as Chinese, Japanese or … writing-mode originally handwritten and publ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "pointer-events",
-      "link": "https://css-tricks.com/almanac/properties/p/pointer-events/",
-      "pubDate": "2026-07-15T19:57:51.000Z",
-      "description": "The pointer-events property controls whether an element can become the target of pointer events like clicks, hover states, and other pointer-based events. In other words, it lets you decide whether the browser should treat an element as interactive when the … pointer-events originally handwritten an",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "What’s !important #15: Boundary-aware CSS, Time-based CSS, Full-bleed CSS, and More",
-      "link": "https://css-tricks.com/whats-important-15/",
-      "pubDate": "2026-07-14T14:36:18.000Z",
-      "description": "Read all about boundary-aware CSS, accessible grid lanes, time-based web designs, full-bleed, the customizable select, and new web platform features. What’s !important #15: Boundary-aware CSS, Time-based CSS, Full-bleed CSS, and More originally handwritten and published with love on CSS-Tricks. You ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "What’s !important #14: Gap Decorations, random(), &#060;select&gt; field-sizing, and More",
-      "link": "https://css-tricks.com/whats-important-14/",
-      "pubDate": "2026-06-30T13:54:14.000Z",
-      "description": "I know you’re busy, so for What’s !important #14, I’ll be sprinting through what’s been a stacked couple of weeks despite few browser updates. From CSS Quake to CSS Gap Decorations, this isn’t one to miss! What’s !important #14: Gap Decorations, random(), <select> field-sizing, and More originally h",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "The Shifting Line Between CSS States and JavaScript Events",
-      "link": "https://css-tricks.com/css-states-and-javascript-events/",
-      "pubDate": "2026-06-29T13:03:32.000Z",
-      "description": "CSS has always had pseudo-classes that style things based on user interactions. Recent features, however, are blurring the line between what CSS \"listens\" for and how they are alternatives to what Javascript typically listens for. The Shifting Line Between CSS States and JavaScript Events originally",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translateZ()",
-      "link": "https://css-tricks.com/almanac/functions/t/translatez/",
-      "pubDate": "2026-06-25T13:18:56.000Z",
-      "description": "The translateZ() function moves an element closer to or farther from the user. translateZ() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translateY()",
-      "link": "https://css-tricks.com/almanac/functions/t/translatey/",
-      "pubDate": "2026-06-25T13:17:56.000Z",
-      "description": "The translateY() function shifts an element vertically by the specified amount. translateY() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translateX()",
-      "link": "https://css-tricks.com/almanac/functions/t/translatex/",
-      "pubDate": "2026-06-25T13:16:01.000Z",
-      "description": "The translateX() function shifts an element horizontally by the specified amount. translateX() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
     },
     {
       "title": "Meet the HTB Profile: all your skills, in one place",
