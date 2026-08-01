@@ -1,110 +1,163 @@
 {
-  "generatedAt": "2026-07-31T19:52:39.553Z",
+  "generatedAt": "2026-08-01T03:50:36.960Z",
   "sourceCount": 4,
-  "successCount": 4,
-  "errors": [],
+  "successCount": 3,
+  "errors": [
+    {
+      "source": "CSS Tricks",
+      "error": "HTTP 415 Unsupported Media Type"
+    }
+  ],
   "items": [
     {
-      "title": "Why Deleting a Hardcoded Secret Does Not Fix It (CWE-798)",
-      "link": "https://dev.to/c_k_fb750e731394/why-deleting-a-hardcoded-secret-does-not-fix-it-cwe-798-1bp1",
-      "pubDate": "2026-07-31T19:38:33.000Z",
-      "description": "<h2> TL;DR </h2> <ul> <li>AI editors paste real-looking API keys, JWT secrets, and DB passwords straight into your source code because their training data is full of tutorials that do exactly that.</li> <li>A hardcoded secret in a committed file is a live credential the moment it hits your git histo",
+      "title": "BMW Is Showing Full-Screen Ads on Its Cars' Main Dashboard Control Display",
+      "link": "https://consumerrights.wiki/w/BMW_Spider-Man_in-car_advertising",
+      "pubDate": "2026-08-01T03:25:12.000Z",
+      "description": "Article URL: https://consumerrights.wiki/w/BMW_Spider-Man_in-car_advertising Comments URL: https://news.ycombinator.com/item?id=49130756 Points: 11 # Comments: 2",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Word review artifacts need a CI boundary too",
+      "link": "https://dev.to/sybilgambleyyu/word-review-artifacts-need-a-ci-boundary-too-5ann",
+      "pubDate": "2026-08-01T03:20:10.000Z",
+      "description": "<h1> Word review artifacts need a CI boundary too </h1> <p>Word already has useful interactive review workflows: legal blackline comparison<br> and Document Inspector. But a controlled handoff or CI workflow has a different<br> question: did this package gain unresolved revisions, comments, hidden r",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Demystifying Bitcoin Transaction Fees: How Explicit Fee Selection Works",
-      "link": "https://dev.to/vkimutai/demystifying-bitcoin-transaction-fees-how-explicit-fee-selection-works-3g0c",
-      "pubDate": "2026-07-31T19:34:00.000Z",
-      "description": "<p>If you are new to building on the Bitcoin network or diving into raw transaction construction, one core concept you must master is how transaction fees are paid. Unlike some account-based chains with fixed gas costs, Bitcoin uses a UTXO model where you explicitly calculate and set your fee rate. ",
+      "title": "The development pipeline is a production system",
+      "link": "https://sundry.jerryorr.com/2026/07/31/development-pipeline-is-a-production-system",
+      "pubDate": "2026-08-01T03:16:09.000Z",
+      "description": "Article URL: https://sundry.jerryorr.com/2026/07/31/development-pipeline-is-a-production-system Comments URL: https://news.ycombinator.com/item?id=49130726 Points: 8 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "On-premise RAG without GPU, cloud, or Docker: five lessons that cost me a week each",
+      "link": "https://dev.to/hubertgarcia/on-premise-rag-without-gpu-cloud-or-docker-five-lessons-that-cost-me-a-week-each-3bjm",
+      "pubDate": "2026-08-01T03:10:27.000Z",
+      "description": "<p>Every RAG tutorial I've read makes the same two assumptions: you have a GPU, and you can call a cloud API. For the environments I build for, both assumptions are wrong.</p> <p>I work on health information systems in the public sector. The stack has to run inside institutional infrastructure — no ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The engineering behind a search bar. Is it worth reinventing the wheel?",
-      "link": "https://dev.to/filipe_neves/the-engineering-behind-a-search-bar-is-it-worth-reinventing-the-wheel-4ef4",
-      "pubDate": "2026-07-31T19:30:29.000Z",
-      "description": "<blockquote> <p>This article it is about the follow <a href=\"https://github.com/FlipNeves/search-bar-anatomy\" rel=\"noopener noreferrer\">repository</a>. I hope you all have a moment to understanding more about it and feel the fun of knowledge.</p> </blockquote> <p>Have you ever stopped to think about",
+      "title": "How to Learn Linux in 2026 (Hands-On, Free, No Experience Needed)",
+      "link": "https://dev.to/thelinuxcamp/how-to-learn-linux-in-2026-hands-on-free-no-experience-needed-19hg",
+      "pubDate": "2026-08-01T03:05:10.000Z",
+      "description": "<p>Here is the whole method: get access to a real Linux machine, type commands on it for 30 to 60 minutes every day, and follow a plan that builds from navigating the filesystem up to running your own web server. Do that and you will be comfortable in four weeks and genuinely fluent in about eight.<",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Data Migration, Conversion, and ETL — What I Actually Did, Across Two Eras",
-      "link": "https://dev.to/sangeetha_kalia_cb89c90aa/data-migration-conversion-and-etl-what-i-actually-did-across-two-eras-2emj",
-      "pubDate": "2026-07-31T19:26:58.000Z",
-      "description": "<blockquote> <p><strong>Three words that engineers use interchangeably and shouldn't:</strong><br> <strong>Migration</strong> is a one-time move — different system, different schema, run once, archive the scripts.<br> <strong>Conversion</strong> is what happens <em>inside</em> a migration when the s",
+      "title": "Upgrade .NET 8 to .NET 10 Without Breaking Your API Contract",
+      "link": "https://dev.to/csharp-programming/upgrade-net-8-to-net-10-without-breaking-your-api-contract-51h",
+      "pubDate": "2026-08-01T03:04:43.000Z",
+      "description": "<p>If I need to <strong>upgrade .NET 8 to .NET 10</strong>, I treat the work as an API contract migration, not a project-file edit. A service can compile, pass unit tests, and still surprise consumers with a changed JSON shape, status code, authentication response, or OpenAPI document.</p> <p>That r",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Reversible PII anonymization for Laravel with Laranon",
-      "link": "https://dev.to/edulazaro/reversible-pii-anonymization-for-laravel-with-laranon-16ie",
-      "pubDate": "2026-07-31T19:19:25.000Z",
-      "description": "<p>I build a legal-tech product where an AI assistant answers questions about real cases: client names, national IDs, IBANs, phone numbers, the lot. That conversation goes to an LLM I do not control. Sending it raw is not an option.</p> <p>The obvious fix, a pile of regexes that blank out anything t",
+      "title": "Hello, Dev.to — I'm Building a Data Format Nobody Asked For (But Everyone Needs)",
+      "link": "https://dev.to/liesliy/hello-devto-im-building-a-data-format-nobody-asked-for-but-everyone-needs-4a5i",
+      "pubDate": "2026-08-01T03:04:41.000Z",
+      "description": "<p>Hey 👋 I'm Liesliy, a developer working on tactile data infrastructure for robots.<br> <strong>The Problem That Brought Me Here</strong><br> If you work in robotics, you've probably noticed something: nobody can agree on how to label tactile data.<br> Every lab has its own format. Every dataset s",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "What The GIF :The GIF editor where your footage never leaves your browser",
-      "link": "https://dev.to/peter_hootman_0f5e7b61ca7/what-the-gif-the-gif-editor-where-your-footage-never-leaves-your-browser-46a6",
-      "pubDate": "2026-07-31T19:13:22.000Z",
-      "description": "<p>What The GIF is a free, in-browser GIF and video editor that never uploads your file. Drop in a video, a photo, or an existing GIF and turn it into a clean GIF, MP4, or APNG, with frame-accurate trimming, a multi-clip timeline, captions, filters, and more. </p> <p>The entire conversion runs insid",
+      "title": "Building Real-Time AI Translation Assistance with FastAPI, Claude, and Server-Sent Events",
+      "link": "https://dev.to/jacob_gong/building-real-time-ai-translation-assistance-with-fastapi-claude-and-server-sent-events-5al",
+      "pubDate": "2026-08-01T03:02:37.000Z",
+      "description": "<p><em>How we added an on-demand translation help feature to our book translation platform, streaming LLM suggestions for tricky passages.</em></p> <p>At LectuLibre, our AI-powered book translation service allows users to upload EPUB or PDF files and get translations generated by large language mode",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I built a full-screen news reader that lives in the terminal",
-      "link": "https://dev.to/nishal21/i-built-a-full-screen-news-reader-that-lives-in-the-terminal-jmp",
-      "pubDate": "2026-07-31T19:11:31.000Z",
-      "description": "<h2> Installation </h2> <h3> Linux / macOS </h3> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight shell\"><code>pip <span class=\"nb\">install </span>worldnews-cli worldnews </code></pre> </div> <h3> Windows </h3> <p>If <code>pip</code> isn't in your PATH:<br> </p> <div class=\"highlight ",
+      "title": "Why Your AI Agent Forgets Everything Overnight — From Prompt to Loop Engineering",
+      "link": "https://dev.to/weiwuji/why-your-ai-agent-forgets-everything-overnight-from-prompt-to-loop-engineering-4b96",
+      "pubDate": "2026-08-01T03:01:33.000Z",
+      "description": "<blockquote> <p><strong>The Pain</strong>: You spent an afternoon tuning your agent. Next morning, it stares at you blankly — as if yesterday never happened.<br> <strong>What You'll Learn</strong>: The 4-stage evolution (Prompt → Context → Harness → Loop), and a runnable 50-line Loop Agent that pers",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "How I Fixed an Expo SDK 54 Android Build with SDK 55 Packages Mixed In",
+      "link": "https://dev.to/hirodeath/how-i-fixed-an-expo-sdk-54-android-build-with-sdk-55-packages-mixed-in-19d",
+      "pubDate": "2026-08-01T03:00:32.000Z",
+      "description": "<blockquote> <p>This is an English translation of my original article on <a href=\"https://qiita.com/hiro123/items/c6e645cc27c4e2a6f919\" rel=\"noopener noreferrer\">Qiita</a>.</p> </blockquote> <p>An Android build failed in an Expo SDK 54 app. The project still used Expo SDK 54, but several Expo packag",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Google Gemini’s AI Trip Planner Is an Established Travel Tool, Not a New Launch",
+      "link": "https://dev.to/alifar/google-geminis-ai-trip-planner-is-an-established-travel-tool-not-a-new-launch-4fd4",
+      "pubDate": "2026-08-01T03:00:30.000Z",
+      "description": "<p>Google Gemini offers an <strong>AI trip planner</strong> that combines travel research, itinerary generation and Google service integrations in one conversational workflow. The capability can surface real-time flight and hotel options, build itineraries around a traveler’s interests and adjust pl",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Linear Regression: From Least Squares to Production-Ready Practice",
+      "link": "https://dev.to/blockchainlab/linear-regression-from-least-squares-to-production-ready-practice-3b2i",
+      "pubDate": "2026-08-01T03:00:26.000Z",
+      "description": "<h1> Linear Regression: From Least Squares to Production-Ready Practice </h1> <blockquote> <p><strong>Tags</strong>: <code>machinelearning</code>, <code>datascience</code>, <code>python</code>, <code>tutorial</code></p> </blockquote> <p>Linear regression is the first algorithm most people learn, and",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Flint: A Visualization Language for the AI Era",
+      "link": "https://microsoft.github.io/flint-chart/",
+      "pubDate": "2026-08-01T02:45:09.000Z",
+      "description": "Article URL: https://microsoft.github.io/flint-chart/ Comments URL: https://news.ycombinator.com/item?id=49130604 Points: 10 # Comments: 1",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "How to Exist",
+      "link": "https://www.raptitude.com/2026/07/how-to-exist/",
+      "pubDate": "2026-08-01T00:25:00.000Z",
+      "description": "Article URL: https://www.raptitude.com/2026/07/how-to-exist/ Comments URL: https://news.ycombinator.com/item?id=49129990 Points: 56 # Comments: 19",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Show HN: I worked on a new browser for 2 years, today it passed Acid 3",
+      "link": "https://code.intellios.ai/cwbrowser/",
+      "pubDate": "2026-07-31T21:39:52.000Z",
+      "description": "Article URL: https://code.intellios.ai/cwbrowser/ Comments URL: https://news.ycombinator.com/item?id=49128826 Points: 53 # Comments: 20",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Loops (YC W22) Is Hiring a Product Educator",
+      "link": "https://www.ycombinator.com/companies/loops/jobs/zqUnwqB-product-educator-technical-content-creator",
+      "pubDate": "2026-07-31T21:00:40.000Z",
+      "description": "Article URL: https://www.ycombinator.com/companies/loops/jobs/zqUnwqB-product-educator-technical-content-creator Comments URL: https://news.ycombinator.com/item?id=49128462 Points: 0 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Demystifying DRAM Read Disturbance: RowHammer and RowPress Phenomena",
+      "link": "https://arxiv.org/abs/2607.28233",
+      "pubDate": "2026-07-31T20:44:29.000Z",
+      "description": "Article URL: https://arxiv.org/abs/2607.28233 Comments URL: https://news.ycombinator.com/item?id=49128323 Points: 42 # Comments: 17",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Predictive Speculative KV Replication for Bursty LLM Inference",
+      "link": "https://jwlabs.vercel.app/post/biting-the-bullet",
+      "pubDate": "2026-07-31T19:55:41.000Z",
+      "description": "https://github.com/jwlaboratory/bite-the-bullet Comments URL: https://news.ycombinator.com/item?id=49127874 Points: 33 # Comments: 3",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "Tailscale didn't stop the Hugging Face intrusion",
       "link": "https://tailscale.com/blog/hugging-face-intrusion",
       "pubDate": "2026-07-31T19:03:45.000Z",
-      "description": "Article URL: https://tailscale.com/blog/hugging-face-intrusion Comments URL: https://news.ycombinator.com/item?id=49127306 Points: 44 # Comments: 20",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Designing QR Codes That Survive Real-World Scanning: A Debugging Playbook",
-      "link": "https://dev.to/lizely/designing-qr-codes-that-survive-real-world-scanning-a-debugging-playbook-1f9l",
-      "pubDate": "2026-07-31T19:02:30.000Z",
-      "description": "<p>A QR code can look perfect in your browser and still fail on a printed flyer behind glass, on a wrinkled shipping label, or under a flickering streetlight at dusk. When you treat generation as a one-step drop into a designer, you skip the constraints that decide whether the code is actually scann",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "AI companies destroy rare and non recoverable physical books",
-      "link": "https://www.heraldscotland.com/opinion/26422014.library-alexandria-burns-ai-companies-destroying-books-bulk/",
-      "pubDate": "2026-07-31T19:01:52.000Z",
-      "description": "Article URL: https://www.heraldscotland.com/opinion/26422014.library-alexandria-burns-ai-companies-destroying-books-bulk/ Comments URL: https://news.ycombinator.com/item?id=49127284 Points: 36 # Comments: 30",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "I Stopped Building More Tools and Started Building Better Ones (Toolora Journey)",
-      "link": "https://dev.to/sunil_thapa_310640b19249b/i-stopped-building-more-tools-and-started-building-better-ones-toolora-journey-3j58",
-      "pubDate": "2026-07-31T19:01:13.000Z",
-      "description": "<p>I Stopped Building More Tools and Started Building Better Ones (Toolora Journey)<br> A few days ago, I shared my side project Toolora, a collection of developer and everyday tools.<br> One piece of feedback completely changed my roadmap.<br> Instead of adding more tools, someone told me:<br> \"Bui",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "How I Put My Agent in CI to Automate Release Notes",
-      "link": "https://dev.to/blackgirlbytes/how-i-put-my-agent-in-ci-to-automate-release-notes-2c2h",
-      "pubDate": "2026-07-31T19:00:39.000Z",
-      "description": "<h1> I Put goose in CI to Draft Entire’s Weekly Release Notes </h1> <p>When I joined Entire, I noticed my boss spending a chunk of time every week writing detailed release notes, called Dispatches at Entire. It looked like a painful process. Each Dispatch had to cover changes across several reposito",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Nuclear Waste Cleanup: DOE Is Missing Opportunities to Apply Lessons",
-      "link": "https://www.gao.gov/products/gao-26-108082",
-      "pubDate": "2026-07-31T18:54:13.000Z",
-      "description": "Article URL: https://www.gao.gov/products/gao-26-108082 Comments URL: https://news.ycombinator.com/item?id=49127205 Points: 4 # Comments: 0",
+      "description": "Article URL: https://tailscale.com/blog/hugging-face-intrusion Comments URL: https://news.ycombinator.com/item?id=49127306 Points: 484 # Comments: 189",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -112,137 +165,9 @@
       "title": "Golang proposal: container/: generic collection types",
       "link": "https://github.com/golang/go/issues/80590",
       "pubDate": "2026-07-31T18:39:47.000Z",
-      "description": "Article URL: https://github.com/golang/go/issues/80590 Comments URL: https://news.ycombinator.com/item?id=49127031 Points: 16 # Comments: 1",
+      "description": "Article URL: https://github.com/golang/go/issues/80590 Comments URL: https://news.ycombinator.com/item?id=49127031 Points: 133 # Comments: 81",
       "source": "Hacker News",
       "category": "Tech News"
-    },
-    {
-      "title": "Orca-Bench: How Ready Are Language Model Agents for Oncall?",
-      "link": "https://arxiv.org/abs/2607.28545",
-      "pubDate": "2026-07-31T18:32:43.000Z",
-      "description": "Article URL: https://arxiv.org/abs/2607.28545 Comments URL: https://news.ycombinator.com/item?id=49126943 Points: 8 # Comments: 3",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Using the railway network as a flatbed scanner [video]",
-      "link": "https://media.ccc.de/v/emf2026-74-1-using-the-railway-network-as-a-flatbed-scanner",
-      "pubDate": "2026-07-31T18:30:44.000Z",
-      "description": "Article URL: https://media.ccc.de/v/emf2026-74-1-using-the-railway-network-as-a-flatbed-scanner Comments URL: https://news.ycombinator.com/item?id=49126919 Points: 9 # Comments: 3",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Termixer (TUI DJ Mixer)",
-      "link": "https://github.com/l00sed/termixer",
-      "pubDate": "2026-07-31T18:28:08.000Z",
-      "description": "Article URL: https://github.com/l00sed/termixer Comments URL: https://news.ycombinator.com/item?id=49126883 Points: 19 # Comments: 7",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "June in Servo: real world compat, media queries, SharedWorker, and more",
-      "link": "https://servo.org/blog/2026/07/31/june-in-servo/",
-      "pubDate": "2026-07-31T18:17:52.000Z",
-      "description": "Article URL: https://servo.org/blog/2026/07/31/june-in-servo/ Comments URL: https://news.ycombinator.com/item?id=49126765 Points: 11 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Everyone is building LLM routers, we deprecated ours",
-      "link": "https://manifest.build/blog/why-we-deprecated-our-llm-router/",
-      "pubDate": "2026-07-31T18:06:39.000Z",
-      "description": "Article URL: https://manifest.build/blog/why-we-deprecated-our-llm-router/ Comments URL: https://news.ycombinator.com/item?id=49126630 Points: 22 # Comments: 11",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "qm",
-      "link": "https://github.com/yc-software/qm",
-      "pubDate": "2026-07-31T18:04:58.000Z",
-      "description": "Article URL: https://github.com/yc-software/qm Comments URL: https://news.ycombinator.com/item?id=49126604 Points: 130 # Comments: 37",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Get Ready For the Powerful CSS border-shape Property!",
-      "link": "https://css-tricks.com/get-ready-for-the-powerful-css-border-shape-property/",
-      "pubDate": "2026-07-31T15:14:00.000Z",
-      "description": "We recently got the shape() function and corner-shape property. What else could we possibly need as far as making shapes in CSS? Let me tell you: the border-shape property! Get Ready For the Powerful CSS border-shape Property! originally handwritten and published with love on CSS-Tricks. You should ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "What’s !important #16: sibling-index() Animations, Use Cases for the infinity Keyword, Container Stuck Queries, and More",
-      "link": "https://css-tricks.com/whats-important-16/",
-      "pubDate": "2026-07-31T14:06:21.000Z",
-      "description": "The soon-Baseline sibling-index() function for animations, CSS and the 2026 FIFA World Cup, use cases for the infinity keyword, container \"stuck\" queries, and more. What’s !important #16: sibling-index() Animations, Use Cases for the infinity Keyword, Container Stuck Queries, and More originally han",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "writing-mode",
-      "link": "https://css-tricks.com/almanac/properties/w/writing-mode/",
-      "pubDate": "2026-07-21T09:39:10.000Z",
-      "description": "The writing-mode CSS property sets whether lines of text are laid out horizontally or vertically, and the direction in which blocks and lines progress. .element { writing-mode: vertical-rl; } This is most useful in languages such as Chinese, Japanese or … writing-mode originally handwritten and publ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "pointer-events",
-      "link": "https://css-tricks.com/almanac/properties/p/pointer-events/",
-      "pubDate": "2026-07-15T19:57:51.000Z",
-      "description": "The pointer-events property controls whether an element can become the target of pointer events like clicks, hover states, and other pointer-based events. In other words, it lets you decide whether the browser should treat an element as interactive when the … pointer-events originally handwritten an",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "What’s !important #15: Boundary-aware CSS, Time-based CSS, Full-bleed CSS, and More",
-      "link": "https://css-tricks.com/whats-important-15/",
-      "pubDate": "2026-07-14T14:36:18.000Z",
-      "description": "Read all about boundary-aware CSS, accessible grid lanes, time-based web designs, full-bleed, the customizable select, and new web platform features. What’s !important #15: Boundary-aware CSS, Time-based CSS, Full-bleed CSS, and More originally handwritten and published with love on CSS-Tricks. You ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "What’s !important #14: Gap Decorations, random(), &#060;select&gt; field-sizing, and More",
-      "link": "https://css-tricks.com/whats-important-14/",
-      "pubDate": "2026-06-30T13:54:14.000Z",
-      "description": "I know you’re busy, so for What’s !important #14, I’ll be sprinting through what’s been a stacked couple of weeks despite few browser updates. From CSS Quake to CSS Gap Decorations, this isn’t one to miss! What’s !important #14: Gap Decorations, random(), <select> field-sizing, and More originally h",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "The Shifting Line Between CSS States and JavaScript Events",
-      "link": "https://css-tricks.com/css-states-and-javascript-events/",
-      "pubDate": "2026-06-29T13:03:32.000Z",
-      "description": "CSS has always had pseudo-classes that style things based on user interactions. Recent features, however, are blurring the line between what CSS \"listens\" for and how they are alternatives to what Javascript typically listens for. The Shifting Line Between CSS States and JavaScript Events originally",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translateZ()",
-      "link": "https://css-tricks.com/almanac/functions/t/translatez/",
-      "pubDate": "2026-06-25T13:18:56.000Z",
-      "description": "The translateZ() function moves an element closer to or farther from the user. translateZ() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translateY()",
-      "link": "https://css-tricks.com/almanac/functions/t/translatey/",
-      "pubDate": "2026-06-25T13:17:56.000Z",
-      "description": "The translateY() function shifts an element vertically by the specified amount. translateY() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translateX()",
-      "link": "https://css-tricks.com/almanac/functions/t/translatex/",
-      "pubDate": "2026-06-25T13:16:01.000Z",
-      "description": "The translateX() function shifts an element horizontally by the specified amount. translateX() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
     },
     {
       "title": "Meet the HTB Profile: all your skills, in one place",
