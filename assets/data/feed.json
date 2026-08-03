@@ -1,248 +1,173 @@
 {
-  "generatedAt": "2026-08-03T15:16:41.721Z",
+  "generatedAt": "2026-08-03T19:58:21.656Z",
   "sourceCount": 4,
-  "successCount": 4,
-  "errors": [],
+  "successCount": 3,
+  "errors": [
+    {
+      "source": "CSS Tricks",
+      "error": "HTTP 415 Unsupported Media Type"
+    }
+  ],
   "items": [
     {
-      "title": "Autoscaling Doesn't Fit Every Workload Here's How to Tell, and What to Build Instead",
-      "link": "https://dev.to/techwithhari/autoscaling-doesnt-fit-every-workload-heres-how-to-tell-and-what-to-build-instead-45ff",
-      "pubDate": "2026-08-03T15:06:37.000Z",
-      "description": "<p>\"Just put it behind an autoscaling group\" is one of those pieces of advice that's right so often it stops getting questioned. For a stateless API or a web server, it's genuinely close to free scaling add a replica, traffic balances across it, remove a replica, nobody notices. It's such a reliable",
+      "title": "A friend dared me to build Pass the Pigs during the apéro. Two LLMs reviewed my plan.",
+      "link": "https://dev.to/chpomob/a-friend-dared-me-to-build-pass-the-pigs-during-the-apero-two-llms-reviewed-my-plan-3132",
+      "pubDate": "2026-08-03T19:47:02.000Z",
+      "description": "<h1> A friend dared me to build Pass the Pigs during the apéro. Two LLMs reviewed my plan. </h1> <p><em>Or: a non-technical friend wanted to see what AI could do. He watched it plan — and watched two AIs shred the plan.</em></p> <h2> The challenge </h2> <p>It happened at an apéritif, in front of a n",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I put a public graffiti wall on my SaaS homepage",
-      "link": "https://dev.to/ownvital/i-put-a-public-graffiti-wall-on-my-saas-homepage-4n4l",
-      "pubDate": "2026-08-03T15:05:06.000Z",
-      "description": "<p>Somewhere below the hero, most SaaS homepages have the same section: a screenshot of the product, slightly angled, maybe in a browser mockup with fake traffic numbers. Everyone scrolls past it, because everyone knows screenshots are where marketing happens.</p> <p>Our homepage section is literall",
+      "title": "CRM integration. Shall we talk about it?",
+      "link": "https://dev.to/dimidan/crm-integration-shall-we-talk-about-it-3kki",
+      "pubDate": "2026-08-03T19:46:38.000Z",
+      "description": "<p>You've got one CRM integration in production and it's been fine for months. Now there's a second one to wire up. Same contract, same schema, same node shape. Should be a couple of days.</p> <p>You pull the first payload from CRM B and put it next to CRM A out of habit.</p> <p>CRM A, a monetary fi",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The Mindset of a Hacker",
-      "link": "https://dev.to/mirrai/the-mindset-of-a-hacker-1454",
-      "pubDate": "2026-08-03T14:57:30.000Z",
-      "description": "<p>Hello everyone. Mirrai here. If you've followed my content so far you'll know I usually write technical stuff. Registers, offsets, shellcode, that kind of thing; but today I'm in a more reflective mood. If you've been in cybersec or any technical skill really, you must have heard about the growth",
+      "title": "Run It, Don't Read It: coding agents predict check scripts instead of running them",
+      "link": "https://dev.to/vasyltretiakov/run-it-dont-read-it-coding-agents-predict-check-scripts-instead-of-running-them-1987",
+      "pubDate": "2026-08-03T19:45:43.000Z",
+      "description": "<p><em>A coding agent with read access to your check scripts will predict them instead of running them. Prediction costs more and gets the answer wrong.</em></p> <p>A session I was directing had a small decision in front of it: whether to switch on an optional guard that nudges delegated sessions to",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How to add UI for your RAG?!?",
-      "link": "https://dev.to/coji831/how-to-add-ui-for-your-rag-51bl",
-      "pubDate": "2026-08-03T14:53:12.000Z",
-      "description": "<p>Just built some FastAPI SSE backend streaming LLM responses token-by-token,<br> after i got some free time.</p> <p>Two things broke in production that worked fine locally 🙃:</p> <ul> <li><p>nginx buffers SSE by default. The stream was delivering locally, dead<br> silent on Railway. <code>proxy_b",
+      "title": "I Built an MCP Server So AI Assistants Can Process PDFs Directly",
+      "link": "https://dev.to/peter_ndumia_pdfhaul/i-built-an-mcp-server-so-ai-assistants-can-process-pdfs-directly-80k",
+      "pubDate": "2026-08-03T19:35:24.000Z",
+      "description": "<p>I run PDFHaul, a free browser and mobile PDF toolkit, as a solo founder. A few months ago I kept running into the same friction point: every time I wanted an AI assistant to help with a PDF task, I had to manually download the file, upload it somewhere, run the tool, then feed the result back int",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How to reduce AWS NAT Gateway costs: 7 ways, ranked by savings",
-      "link": "https://dev.to/enforza/how-to-reduce-aws-nat-gateway-costs-7-ways-ranked-by-savings-ll4",
-      "pubDate": "2026-08-03T14:49:39.000Z",
-      "description": "<p>The AWS NAT Gateway bill has two lines. The hourly fee is $0.045 per<br> gateway-hour, about $33 a month, and it is the least interesting number on your<br> invoice. The other line is the <strong>data-processing charge</strong>: $0.045 for every<br> gigabyte the gateway touches, in either directi",
+      "title": "Do Not Trust the Green Checkmark",
+      "link": "https://dev.to/onurkesim/do-not-trust-the-green-checkmark-48i5",
+      "pubDate": "2026-08-03T19:33:05.000Z",
+      "description": "<p>Most people trust a green checkmark in a CI pipeline. If every job is marked as successful, we usually believe that everything worked correctly. I was doing the same. Then I found a case where a completely green workflow was hiding an important problem.</p> <p>While testing hafiza-kur across diff",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How would you decide, whether the content is good or bad?",
-      "link": "https://dev.to/francistrdev/how-would-you-decide-whether-the-content-is-good-or-bad-295p",
-      "pubDate": "2026-08-03T14:47:20.000Z",
-      "description": "<p>I want to talk about what I have notice on the platform and want to address what we all have been thinking about, <strong>but not really talked as much on dev.to, which is the use of AI.</strong></p> <p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=au",
+      "title": "I got offered a Web3 job on LinkedIn. The \"codebase\" was built to rob me.",
+      "link": "https://dev.to/pycanis/title-suggestion-i-got-offered-a-web3-job-on-linkedin-the-codebase-was-built-to-rob-me-e59",
+      "pubDate": "2026-08-03T19:31:04.000Z",
+      "description": "<p>A stranger messaged me on LinkedIn about a job in the Web3 space. Friendly, low pressure, said it sounded like a good fit. To show me what the team was building, they shared a private GitHub repository and asked me to spend \"15 to 30 minutes running it and looking around\" to see whether the proje",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "One locale code silently killed 92% of a Magento Shopware migration — and the tool reported Done",
-      "link": "https://dev.to/yuriydne/one-locale-code-silently-killed-92-of-a-magento-shopware-migration-and-the-tool-reported-done-4l6j",
-      "pubDate": "2026-08-03T14:40:21.000Z",
-      "description": "<p><strong>13,154 orders in. 1 order out.</strong></p> <p>The source was an anonymised copy of a real Magento CE store: 3 websites, 13 store views, 7 languages including Simplified and Traditional Chinese, 7,629 products, 6,960 customers. Shopware's Migration Assistant ran every step green and finis",
+      "title": "An editable range can change without changing Word text",
+      "link": "https://dev.to/sybilgambleyyu/an-editable-range-can-change-without-changing-word-text-532o",
+      "pubDate": "2026-08-03T19:19:59.000Z",
+      "description": "<h1> An editable range can change without changing Word text </h1> <p>A Word document can store an editable-range marker around text and associate<br> that marker with an individual editor. The covered text can remain exactly the<br> same while the stored editor assignment changes. Text-only review ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "What are your goals for the week? #190",
-      "link": "https://dev.to/jarvisscript/what-are-your-goals-for-the-week-190-d5p",
-      "pubDate": "2026-08-03T14:39:25.000Z",
-      "description": "<p>Last full week of Summer vacation for students. Been so busy, I missed the new announcement of a new frontend challenge.</p> <h2> What are your goals for the week? </h2> <ul> <li>What are you building this week?</li> <li>What do you want to learn?</li> <li>What events are you attending this week?",
+      "title": "Germany's Energy Revolution: Wind and Solar Overtake Fossil Fuels for the First Time",
+      "link": "https://dev.to/kaixintelligence/germanys-energy-revolution-wind-and-solar-overtake-fossil-fuels-for-the-first-time-1kpj",
+      "pubDate": "2026-08-03T19:13:27.000Z",
+      "description": "<h1> Germany's Energy Revolution: Wind and Solar Overtake Fossil Fuels for the First Time </h1> <p>In 2026, Germany crossed a historic threshold: for the first time, wind and solar photovoltaic (PV) systems generated more electricity than fossil fuels across the year. This isn't just a statistic—it'",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "OWASP Top 10: The Web's Most Critical Security Risks",
-      "link": "https://dev.to/rhuturaj_takle/owasp-top-10-the-webs-most-critical-security-risks-5clo",
-      "pubDate": "2026-08-03T14:33:50.000Z",
-      "description": "<h1> OWASP Top 10: The Web's Most Critical Security Risks </h1> <p><em>A practical guide to the OWASP Top 10 — the industry-standard awareness document listing the most critical web application security risks — covering each category with concrete examples, .NET-specific mitigations, and connections",
+      "title": "Celebrating 45 Years of Kermit: The Protocol That Refuses to Die, Now Reborn in C",
+      "link": "https://dev.to/kaixintelligence/celebrating-45-years-of-kermit-the-protocol-that-refuses-to-die-now-reborn-in-c-5f54",
+      "pubDate": "2026-08-03T19:11:51.000Z",
+      "description": "<h1> Celebrating 45 Years of Kermit: The Protocol That Refuses to Die, Now Reborn in C </h1> <p>In the pantheon of early network protocols, few have enjoyed the staying power of Kermit. Born in the early 1980s at Columbia University, Kermit was a simple, robust file transfer protocol that conquered ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Behind the scenes: How we build, test, and scale Google Agent Skills",
-      "link": "https://dev.to/googleai/behind-the-scenes-how-we-build-test-and-scale-google-agent-skills-1am5",
-      "pubDate": "2026-08-03T14:33:20.000Z",
-      "description": "<p>AI agents are only as good as the instructions and context you give them. When we launched <a href=\"https://github.com/google/skills\" rel=\"noopener noreferrer\">Google Agent Skills</a>, our goal was simple: encode Google Cloud domain knowledge into structured, open-source instructions that make AI",
+      "title": "Ten Breakthrough Advances in Mathematics and Theoretical Computer Science (2026)",
+      "link": "https://dev.to/kaixintelligence/ten-breakthrough-advances-in-mathematics-and-theoretical-computer-science-2026-13ac",
+      "pubDate": "2026-08-03T19:10:13.000Z",
+      "description": "<h1> Ten Breakthroughs in Mathematics and Theoretical Computer Science (2026) </h1> <p>The year 2026 has already witnessed a remarkable confluence of human intuition and machine intelligence, reshaping the landscape of pure and applied mathematics. From formal proof verification to quantum complexit",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Devtools must be open source",
-      "link": "https://blog.exe.dev/devtools-must-be-open-source",
-      "pubDate": "2026-08-03T14:15:47.000Z",
-      "description": "Article URL: https://blog.exe.dev/devtools-must-be-open-source Comments URL: https://news.ycombinator.com/item?id=49156111 Points: 27 # Comments: 2",
+      "title": "ZX Spectrum System Tour: Sound",
+      "link": "https://bumbershootsoft.wordpress.com/2026/08/01/zx-spectrum-system-tour-sound/",
+      "pubDate": "2026-08-03T18:32:06.000Z",
+      "description": "Article URL: https://bumbershootsoft.wordpress.com/2026/08/01/zx-spectrum-system-tour-sound/ Comments URL: https://news.ycombinator.com/item?id=49159676 Points: 4 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "The Future, Made in China",
-      "link": "https://www.newyorker.com/magazine/2026/08/10/the-future-made-in-china",
-      "pubDate": "2026-08-03T14:02:37.000Z",
-      "description": "Article URL: https://www.newyorker.com/magazine/2026/08/10/the-future-made-in-china Comments URL: https://news.ycombinator.com/item?id=49155940 Points: 21 # Comments: 5",
+      "title": "The Billable Usage API: programmatic cost visibility for Cloudflare",
+      "link": "https://blog.cloudflare.com/billable-usage-api/",
+      "pubDate": "2026-08-03T17:18:06.000Z",
+      "description": "Article URL: https://blog.cloudflare.com/billable-usage-api/ Comments URL: https://news.ycombinator.com/item?id=49158714 Points: 21 # Comments: 4",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "MiniMax H3 Day-0 Support in ComfyUI: Open Weights, Native Audio, and 2K Video",
-      "link": "https://blog.comfy.org/p/minimax-h3-day-0-support-in-comfyui",
-      "pubDate": "2026-08-03T13:34:43.000Z",
-      "description": "Article URL: https://blog.comfy.org/p/minimax-h3-day-0-support-in-comfyui Comments URL: https://news.ycombinator.com/item?id=49155629 Points: 78 # Comments: 35",
+      "title": "Smaller, faster, safer: running Kimi and GLM at scale",
+      "link": "https://blog.cloudflare.com/smaller-faster-safer-models/",
+      "pubDate": "2026-08-03T17:08:46.000Z",
+      "description": "Article URL: https://blog.cloudflare.com/smaller-faster-safer-models/ Comments URL: https://news.ycombinator.com/item?id=49158581 Points: 42 # Comments: 9",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "SPF Record Syntax: Mechanisms, Qualifiers, Modifiers, and Macros",
-      "link": "https://dmarcguard.io/blog/spf-record-syntax/",
-      "pubDate": "2026-08-03T13:34:25.000Z",
-      "description": "Article URL: https://dmarcguard.io/blog/spf-record-syntax/ Comments URL: https://news.ycombinator.com/item?id=49155626 Points: 16 # Comments: 3",
+      "title": "Celebrating 45 Years of Kermit with the First New C-Kermit Release in 15 Years",
+      "link": "https://changelog.complete.org/archives/44456-celebrating-45-years-of-kermit-with-the-first-new-c-kermit-release-in-15-years-and-working-with-a-decades-old-c-codebase",
+      "pubDate": "2026-08-03T17:02:10.000Z",
+      "description": "Article URL: https://changelog.complete.org/archives/44456-celebrating-45-years-of-kermit-with-the-first-new-c-kermit-release-in-15-years-and-working-with-a-decades-old-c-codebase Comments URL: https://news.ycombinator.com/item?id=49158474 Points: 73 # Comments: 24",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Critical CVE issued for hallucinated SQLite vulnerability",
-      "link": "https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops/",
-      "pubDate": "2026-08-03T11:28:54.000Z",
-      "description": "Article URL: https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops/ Comments URL: https://news.ycombinator.com/item?id=49154332 Points: 412 # Comments: 131",
+      "title": "Use Task Runners for Common Coding Tasks",
+      "link": "https://hamvocke.com/blog/task-runners/",
+      "pubDate": "2026-08-03T16:51:51.000Z",
+      "description": "Article URL: https://hamvocke.com/blog/task-runners/ Comments URL: https://news.ycombinator.com/item?id=49158287 Points: 30 # Comments: 8",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "9front \"This Was Supposed to Be Fun\" Released",
-      "link": "https://9front.org/releases/2026/08/02/0/",
-      "pubDate": "2026-08-03T11:17:56.000Z",
-      "description": "Article URL: https://9front.org/releases/2026/08/02/0/ Comments URL: https://news.ycombinator.com/item?id=49154249 Points: 68 # Comments: 22",
+      "title": "SearXNG in Rust",
+      "link": "https://github.com/MikeLuu99/searxng-rust",
+      "pubDate": "2026-08-03T16:41:40.000Z",
+      "description": "Article URL: https://github.com/MikeLuu99/searxng-rust Comments URL: https://news.ycombinator.com/item?id=49158141 Points: 32 # Comments: 11",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "AirLLM 70B inference with single 4GB GPU",
-      "link": "https://github.com/lyogavin/airllm",
-      "pubDate": "2026-08-03T11:15:48.000Z",
-      "description": "Article URL: https://github.com/lyogavin/airllm Comments URL: https://news.ycombinator.com/item?id=49154228 Points: 67 # Comments: 32",
+      "title": "Launch HN: Hoplite (YC S26) – Effortlessly deploy cloud coding agents",
+      "link": "https://hoplite.sh",
+      "pubDate": "2026-08-03T16:32:06.000Z",
+      "description": "Hi HN, we’re Bence and Ryan, founders of Hoplite (https://hoplite.sh). Hoplite lets you deploy coding agents in the cloud, with a suite of tools that makes it incredibly easy to QA features. During onboarding, we port over your local setup - sessions, memories, MCP servers, and get your projects rea",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Show HN: Nightcrawler – A local AI pentesting agent running on a smartphone",
-      "link": "https://github.com/garagehq/nightcrawler/",
-      "pubDate": "2026-08-03T11:06:15.000Z",
-      "description": "Article URL: https://github.com/garagehq/nightcrawler/ Comments URL: https://news.ycombinator.com/item?id=49154127 Points: 55 # Comments: 19",
+      "title": "Ten advances in mathematics and theoretical computer science",
+      "link": "https://openai.com/index/ten-advances-in-mathematics/",
+      "pubDate": "2026-08-03T16:27:12.000Z",
+      "description": "Article URL: https://openai.com/index/ten-advances-in-mathematics/ Comments URL: https://news.ycombinator.com/item?id=49157930 Points: 217 # Comments: 482",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Prevent cognitive debt by manually retyping LLM-generated code",
-      "link": "https://ankursethi.com/blog/prevent-cognitive-debt-by-manually-retyping-llm-generated-code/",
-      "pubDate": "2026-08-03T09:32:07.000Z",
-      "description": "Article URL: https://ankursethi.com/blog/prevent-cognitive-debt-by-manually-retyping-llm-generated-code/ Comments URL: https://news.ycombinator.com/item?id=49153374 Points: 222 # Comments: 171",
+      "title": "Show HN: Product analytics (and evals) for agent sessions on your MCP",
+      "link": "https://armature.tech/",
+      "pubDate": "2026-08-03T16:17:59.000Z",
+      "description": "Hi HN! We’re Theodore and Louis, founders of Armature (YC P26). We reconstruct the entire session behind the MCP tool calls you receive, including what the user asked their agent to do and what the agent thought.You wrap your MCP in 3 lines of code (our SDK is available in Typescript, Python and Go)",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "What DMARC Protects You From, and What It Does Not",
-      "link": "https://senderledger.com/articles/what-dmarc-actually-protects-you-from",
-      "pubDate": "2026-08-03T09:29:46.000Z",
-      "description": "Article URL: https://senderledger.com/articles/what-dmarc-actually-protects-you-from Comments URL: https://news.ycombinator.com/item?id=49153361 Points: 68 # Comments: 20",
+      "title": "Explanation of INT8 ConvRot (FP8 is no longer needed)",
+      "link": "https://note.com/hirorohi03/n/n047a8c5f7f8b?hl=en",
+      "pubDate": "2026-08-03T16:07:09.000Z",
+      "description": "Article URL: https://note.com/hirorohi03/n/n047a8c5f7f8b?hl=en Comments URL: https://news.ycombinator.com/item?id=49157645 Points: 16 # Comments: 5",
       "source": "Hacker News",
       "category": "Tech News"
-    },
-    {
-      "title": "Get Ready For the Powerful CSS border-shape Property!",
-      "link": "https://css-tricks.com/get-ready-for-the-powerful-css-border-shape-property/",
-      "pubDate": "2026-07-31T15:14:00.000Z",
-      "description": "We recently got the shape() function and corner-shape property. What else could we possibly need as far as making shapes in CSS? Let me tell you: the border-shape property! Get Ready For the Powerful CSS border-shape Property! originally handwritten and published with love on CSS-Tricks. You should ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "What’s !important #16: sibling-index() Animations, Use Cases for the infinity Keyword, Container Stuck Queries, and More",
-      "link": "https://css-tricks.com/whats-important-16/",
-      "pubDate": "2026-07-31T14:06:21.000Z",
-      "description": "The soon-Baseline sibling-index() function for animations, CSS and the 2026 FIFA World Cup, use cases for the infinity keyword, container \"stuck\" queries, and more. What’s !important #16: sibling-index() Animations, Use Cases for the infinity Keyword, Container Stuck Queries, and More originally han",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "writing-mode",
-      "link": "https://css-tricks.com/almanac/properties/w/writing-mode/",
-      "pubDate": "2026-07-21T09:39:10.000Z",
-      "description": "The writing-mode CSS property sets whether lines of text are laid out horizontally or vertically, and the direction in which blocks and lines progress. .element { writing-mode: vertical-rl; } This is most useful in languages such as Chinese, Japanese or … writing-mode originally handwritten and publ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "pointer-events",
-      "link": "https://css-tricks.com/almanac/properties/p/pointer-events/",
-      "pubDate": "2026-07-15T19:57:51.000Z",
-      "description": "The pointer-events property controls whether an element can become the target of pointer events like clicks, hover states, and other pointer-based events. In other words, it lets you decide whether the browser should treat an element as interactive when the … pointer-events originally handwritten an",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "What’s !important #15: Boundary-aware CSS, Time-based CSS, Full-bleed CSS, and More",
-      "link": "https://css-tricks.com/whats-important-15/",
-      "pubDate": "2026-07-14T14:36:18.000Z",
-      "description": "Read all about boundary-aware CSS, accessible grid lanes, time-based web designs, full-bleed, the customizable select, and new web platform features. What’s !important #15: Boundary-aware CSS, Time-based CSS, Full-bleed CSS, and More originally handwritten and published with love on CSS-Tricks. You ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "What’s !important #14: Gap Decorations, random(), &#060;select&gt; field-sizing, and More",
-      "link": "https://css-tricks.com/whats-important-14/",
-      "pubDate": "2026-06-30T13:54:14.000Z",
-      "description": "I know you’re busy, so for What’s !important #14, I’ll be sprinting through what’s been a stacked couple of weeks despite few browser updates. From CSS Quake to CSS Gap Decorations, this isn’t one to miss! What’s !important #14: Gap Decorations, random(), <select> field-sizing, and More originally h",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "The Shifting Line Between CSS States and JavaScript Events",
-      "link": "https://css-tricks.com/css-states-and-javascript-events/",
-      "pubDate": "2026-06-29T13:03:32.000Z",
-      "description": "CSS has always had pseudo-classes that style things based on user interactions. Recent features, however, are blurring the line between what CSS \"listens\" for and how they are alternatives to what Javascript typically listens for. The Shifting Line Between CSS States and JavaScript Events originally",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translateZ()",
-      "link": "https://css-tricks.com/almanac/functions/t/translatez/",
-      "pubDate": "2026-06-25T13:18:56.000Z",
-      "description": "The translateZ() function moves an element closer to or farther from the user. translateZ() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translateY()",
-      "link": "https://css-tricks.com/almanac/functions/t/translatey/",
-      "pubDate": "2026-06-25T13:17:56.000Z",
-      "description": "The translateY() function shifts an element vertically by the specified amount. translateY() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translateX()",
-      "link": "https://css-tricks.com/almanac/functions/t/translatex/",
-      "pubDate": "2026-06-25T13:16:01.000Z",
-      "description": "The translateX() function shifts an element horizontally by the specified amount. translateX() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
     },
     {
       "title": "Meet the HTB Profile: all your skills, in one place",
