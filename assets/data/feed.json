@@ -1,248 +1,173 @@
 {
-  "generatedAt": "2026-08-03T03:55:03.257Z",
+  "generatedAt": "2026-08-03T10:05:27.463Z",
   "sourceCount": 4,
-  "successCount": 4,
-  "errors": [],
+  "successCount": 3,
+  "errors": [
+    {
+      "source": "CSS Tricks",
+      "error": "HTTP 415 Unsupported Media Type"
+    }
+  ],
   "items": [
     {
-      "title": "When DeepSeek-V4-Flash Is the Right Call: A Guide to High-Throughput LLM Calls published: true",
-      "link": "https://dev.to/routeai_official/when-deepseek-v4-flash-is-the-right-call-a-guide-to-high-throughput-llm-callspublished-true-1in8",
-      "pubDate": "2026-08-03T03:50:40.000Z",
-      "description": "<p>Hey DEV — <a href=\"//www.fastrouteai.com\">RouteAI</a> team here, disclosure upfront. We've written about DeepSeek V4's Pro/Flash split before; this one's specifically about Flash and where it actually earns its place — high-volume, latency-sensitive workloads, not just \"the cheaper option.\"<br> <",
+      "title": "My Terraform Runner Destroyed Itself Mid-Apply",
+      "link": "https://dev.to/dwoitzik/my-terraform-runner-destroyed-itself-mid-apply-2995",
+      "pubDate": "2026-08-03T09:54:57.000Z",
+      "description": "<blockquote> <p><em>Originally published at <a href=\"https://woitzik.dev/blog/atlantis-terraform-destroyed-itself-mid-apply/\" rel=\"noopener noreferrer\">woitzik.dev</a></em></p> </blockquote> <p><em>Disclosure: This post contains Amazon affiliate links (marked with *). If you buy through them, I earn",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Part 5: SQL Parsing: Turning Strings Into Commands",
-      "link": "https://dev.to/gagandeepahuja09/part-5-sql-parsing-turning-strings-into-commands-397m",
-      "pubDate": "2026-08-03T03:37:48.000Z",
-      "description": "<p>In Parts 1-4, we built a transactional key-value store. It has WAL for durability, memtables and SSTables for storage, compaction to control file growth, and transactions for atomic multi-key writes.</p> <p>Now we move to the query layer where users can actually fire SQL queries like:<br> </p> <d",
+      "title": "5 Words that Describe Me",
+      "link": "https://dev.to/bibimbop123/5-words-that-describe-me-1nil",
+      "pubDate": "2026-08-03T09:54:36.000Z",
+      "description": "<h1> Brian Kim </h1> <h1> 5 Words that Describe Me </h1> <h2> Determined </h2> <p>I am not one to quit on what I set my goals on. This can be seen through wrestling. Wrestling has been difficult for me both physically and mentally. Since freshman year, my goal was to be in Varsity wrestling. I have ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "suddo – sudo password prompts without leaving your AI agent's chat",
-      "link": "https://dev.to/sunu15712/suddo-sudo-password-prompts-without-leaving-your-ai-agents-chat-2dgg",
-      "pubDate": "2026-08-03T03:37:02.000Z",
-      "description": "<p># suddo (superuser don't do)</p> <p>Sometimes AI needs to run commands with sudo (installing a package,</p> <p>reading a file in /etc, etc). But most MCP clients don't support</p> <p>creating a PTY, so you end up having to open a separate terminal</p> <p>just to type your password:<br> </p> <div ",
+      "title": "AI Is Great at Reasoning. Stop Using It for Workflows.",
+      "link": "https://dev.to/orelbello/ai-is-great-at-reasoning-stop-using-it-for-workflows-313c",
+      "pubDate": "2026-08-03T09:50:13.000Z",
+      "description": "<p>More than a year ago, which is practically ancient history in the AI years, I wrote a blog about using AI to build new self-service capabilities.</p> <p>It felt like the future.</p> <p>We built a self-service action that could create new self-service actions, helping us move faster, reduce bottle",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How to Remember Namespaces",
-      "link": "https://dev.to/midpolarnight/how-to-remember-namespaces-106g",
-      "pubDate": "2026-08-03T03:14:30.000Z",
-      "description": "<p>I often see people using the term \"namespace\" incorrectly. Even when explanations of what a namespace is are presented, they only go as far as describing its function, neglecting to properly define the name \"namespace\" itself.</p> <h2> Definition of the Namespace </h2> <p>A namespace is literally",
+      "title": "I Built a Language Where AI Calls Are Sandboxed by Default",
+      "link": "https://dev.to/harry_machura_67442b7a2ab/i-built-a-language-where-ai-calls-are-sandboxed-by-default-3eg0",
+      "pubDate": "2026-08-03T09:48:25.000Z",
+      "description": "<h1> I Built a Language Where AI Calls Are Sandboxed by Default </h1> <h2> The 30-line Python problem </h2> <p>Last month I needed a script that reads server logs, classifies errors with an LLM, summarizes them, and writes a report. In Python, it looked like this:</p> <ul> <li>Import the SDK</li> <l",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Approval Is Not a Boolean: What Must Still Be True When an Agent Resumes?",
-      "link": "https://dev.to/gangan/approval-is-not-a-boolean-what-must-still-be-true-when-an-agent-resumes-4ib2",
-      "pubDate": "2026-08-03T03:14:05.000Z",
-      "description": "<blockquote> <p>Human approval is a decision about one action under a particular set of facts. It is not a permanent permission bit.</p> </blockquote> <p>Imagine an AI agent preparing a refund request:<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight plaintext\"><code>Order: S",
+      "title": "Can revenge be heroic?",
+      "link": "https://dev.to/bibimbop123/can-revenge-be-heroic-4acd",
+      "pubDate": "2026-08-03T09:42:20.000Z",
+      "description": "<h1> Brian Kim </h1> <p><strong>1st Period</strong><br><br> <strong>Mrs. Lukens</strong> </p> <h1> Can revenge be heroic? </h1> <p>Hamlet proves that revenge is heroic, despite it’s evil nature. Through the course of the book, Hamlet restores peace to his kingdom and balances the offenses of King Cl",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Atomic Money: Making a PHP/MySQL Wallet Safe Under Concurrency",
-      "link": "https://dev.to/amc_animarcelinus_b4a718/atomic-money-making-a-phpmysql-wallet-safe-under-concurrency-1b0m",
-      "pubDate": "2026-08-03T03:09:47.000Z",
-      "description": "<p>The lost-update bug that quietly corrupts homegrown wallet balances — and the five disciplines we used across PayWithToken to make money movement correct under concurrency.</p> <p>There is a bug that lives in a large share of the world's homegrown wallet systems. It doesn't throw an error. It doe",
+      "title": "We crossed 6,000 downloads. Here's what we shipped to get there.",
+      "link": "https://dev.to/sirinivask/we-crossed-6000-downloads-heres-what-we-shipped-to-get-there-3a1j",
+      "pubDate": "2026-08-03T09:39:55.000Z",
+      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fap2blzp2unap9fz5gmd9.png\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Building Three Privacy-First Mini Apps That Feel Like Standalone Products",
-      "link": "https://dev.to/purehub/building-three-privacy-first-mini-apps-that-feel-like-standalone-products-2ofo",
-      "pubDate": "2026-08-03T03:07:27.000Z",
-      "description": "<h1> Building Three Privacy-First Mini Apps That Feel Like Standalone Products </h1> <p>PureHub is an open-source collection of 22 free, ad-free mini apps. This release focuses on a simple product question: can a mini app inside a hub still feel dependable, focused, and complete?</p> <h2> QR Studio ",
+      "title": "Compressing Video to a Target File Size: The Bitrate Math in TypeScript",
+      "link": "https://dev.to/noahchenbuilds/compressing-video-to-a-target-file-size-the-bitrate-math-in-typescript-4m00",
+      "pubDate": "2026-08-03T09:39:39.000Z",
+      "description": "<p><em>A practical calculator for turning an upload limit into a video bitrate, with enough margin for audio and container overhead.</em></p> <p>“Make this video smaller” is an open-ended request. “Make this three-minute video fit under 10 MB” is an engineering constraint.</p> <p>The second version ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "30 technical interview questions, explained the way you'd actually say them",
-      "link": "https://dev.to/ramana_babu_c787073206bef/30-technical-interview-questions-explained-the-way-youd-actually-say-them-4a3g",
-      "pubDate": "2026-08-03T03:05:35.000Z",
-      "description": "<h1> 30 Technical Interview Questions You Should Be Able to Explain Out Loud (JS / React / Node) </h1> <p>Most interview prep content gives you a definition. Real interviews test<br> something different: can you explain your reasoning clearly, out loud,<br> under a little pressure — not just recite ",
+      "title": "A PDF a Human Reads and a Machine Parses at the Same Time: How PDF4me Builds ZUGFeRD E-Invoices",
+      "link": "https://dev.to/pdf4me/a-pdf-a-human-reads-and-a-machine-parses-at-the-same-time-how-pdf4me-builds-zugferd-e-invoices-5enf",
+      "pubDate": "2026-08-03T09:37:16.000Z",
+      "description": "<p>Picture the scenario: your invoicing pipeline generates a clean, branded PDF for a German B2B customer. It looks right. It would print fine, email fine, and satisfy anyone who opens it by hand. Then it bounces, because since January 1, 2025, that customer is legally required to receive invoices i",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The Mini PC Market Was a Mess. So This Developer Built a Better Comparison Tool.",
-      "link": "https://dev.to/wplacetool/the-mini-pc-market-was-a-mess-so-this-developer-built-a-better-comparison-tool-3dlj",
-      "pubDate": "2026-08-03T03:04:14.000Z",
-      "description": "<h2> How one frustrated shopper turned a spreadsheet nightmare into a community-powered resource that's saving buyers hours of research. </h2> <p>If you've ever shopped for a mini PC, you know the drill. Open a dozen retailer tabs. Copy specs into a spreadsheet. Squint at product titles that hide cr",
+      "title": "Fail the build when your prompt gets dumber: evalgate for prompt regression CI",
+      "link": "https://dev.to/royalpinto007/fail-the-build-when-your-prompt-gets-dumber-evalgate-for-prompt-regression-ci-4k36",
+      "pubDate": "2026-08-03T09:30:29.000Z",
+      "description": "<p>Prompts rot silently. I swap a model, tweak a system prompt, add a tool, and everything still runs. No exception is thrown, no test goes red, the JSON still parses. The output is just quietly worse, and I usually find out from a user rather than from CI. Unit tests are the wrong instrument here b",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "What I got wrong building a browser extension with an AI assistant",
-      "link": "https://dev.to/tryclicked/what-i-got-wrong-building-a-browser-extension-with-an-ai-assistant-3n8d",
-      "pubDate": "2026-08-03T03:03:53.000Z",
-      "description": "<p>First hour with Claude's browser extension: I pointed it at our LLC registration and watched it work through the forms, finding the right pages, filling the fields, moving on. I sat there holding a coffee, contributing nothing.</p> <p>I thought: I'm going to ship so many products.</p> <p>I shippe",
+      "title": "5 Career Lessons I Didn't Expect to Learn in Church",
+      "link": "https://dev.to/towernter/5-career-lessons-i-didnt-expect-to-learn-in-church-3fle",
+      "pubDate": "2026-08-03T09:30:10.000Z",
+      "description": "<p>You wouldn't believe what they were preaching about in church this week.</p> <p>Normally, these days you walk in expecting to be bombarded with Bible verses and the classic <em>\"tell your neighbour to tell their neighbour\"</em> routine. But guess what, my preacherman was on point. The whole sermo",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Qwen3.8-Max: A New Bar for Coding and Cowork",
-      "link": "https://qwen.ai/blog?id=qwen3.8",
-      "pubDate": "2026-08-03T02:16:09.000Z",
-      "description": "Article URL: https://qwen.ai/blog?id=qwen3.8 Comments URL: https://news.ycombinator.com/item?id=49150470 Points: 106 # Comments: 35",
+      "title": "What DMARC Protects You From, and What It Does Not",
+      "link": "https://senderledger.com/articles/what-dmarc-actually-protects-you-from",
+      "pubDate": "2026-08-03T09:29:46.000Z",
+      "description": "Article URL: https://senderledger.com/articles/what-dmarc-actually-protects-you-from Comments URL: https://news.ycombinator.com/item?id=49153361 Points: 4 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "RFC 9851: TLS 1.2 is in Feature Freeze",
-      "link": "https://www.rfc-editor.org/rfc/rfc9851.html",
-      "pubDate": "2026-08-03T01:23:26.000Z",
-      "description": "Article URL: https://www.rfc-editor.org/rfc/rfc9851.html Comments URL: https://news.ycombinator.com/item?id=49150181 Points: 19 # Comments: 5",
+      "title": "MPs demand answers on Fujitsu's inclusion in lucrative frameworks",
+      "link": "https://www.computerweekly.com/news/366646721/MPs-demand-answers-on-Fujitsus-inclusion-in-lucrative-frameworks",
+      "pubDate": "2026-08-03T09:25:15.000Z",
+      "description": "Article URL: https://www.computerweekly.com/news/366646721/MPs-demand-answers-on-Fujitsus-inclusion-in-lucrative-frameworks Comments URL: https://news.ycombinator.com/item?id=49153308 Points: 9 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Show HN: Isopolis – Isometric pixel map of SF",
-      "link": "https://sf.isopolis.city/",
-      "pubDate": "2026-08-03T00:46:38.000Z",
-      "description": "Article URL: https://sf.isopolis.city/ Comments URL: https://news.ycombinator.com/item?id=49149966 Points: 79 # Comments: 18",
+      "title": "Less Coffee, Better Sleep",
+      "link": "https://www.marginalia.nu/log/a_109_sleep2/",
+      "pubDate": "2026-08-03T09:10:07.000Z",
+      "description": "Article URL: https://www.marginalia.nu/log/a_109_sleep2/ Comments URL: https://news.ycombinator.com/item?id=49153158 Points: 4 # Comments: 1",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "CP/M-386 – CP/M for 386 protected mode, derived from CP/M‑68K",
-      "link": "https://github.com/johnsonjh/cpm386",
-      "pubDate": "2026-08-03T00:38:10.000Z",
-      "description": "Article URL: https://github.com/johnsonjh/cpm386 Comments URL: https://news.ycombinator.com/item?id=49149898 Points: 42 # Comments: 9",
+      "title": "PISIGuard: Protect your personal and sensitive info when you chat with AI",
+      "link": "https://github.com/mohamed--abdel-maksoud/pisiguard",
+      "pubDate": "2026-08-03T08:54:00.000Z",
+      "description": "Article URL: https://github.com/mohamed--abdel-maksoud/pisiguard Comments URL: https://news.ycombinator.com/item?id=49153029 Points: 4 # Comments: 2",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Show HN: ssh ssh.place",
-      "link": "https://ssh.place",
-      "pubDate": "2026-08-03T00:23:21.000Z",
-      "description": "Article URL: https://ssh.place Comments URL: https://news.ycombinator.com/item?id=49149805 Points: 51 # Comments: 25",
+      "title": "The true power of regular expressions (2012)",
+      "link": "https://www.npopov.com/2012/06/15/The-true-power-of-regular-expressions.html",
+      "pubDate": "2026-08-03T08:47:23.000Z",
+      "description": "Article URL: https://www.npopov.com/2012/06/15/The-true-power-of-regular-expressions.html Comments URL: https://news.ycombinator.com/item?id=49152973 Points: 3 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Why Book Corners won't sync contributions back to OpenStreetMap",
-      "link": "https://www.andreagrandi.it/posts/why-book-corners-wont-sync-contributions-back-to-openstreetmap/",
-      "pubDate": "2026-08-03T00:12:16.000Z",
-      "description": "Article URL: https://www.andreagrandi.it/posts/why-book-corners-wont-sync-contributions-back-to-openstreetmap/ Comments URL: https://news.ycombinator.com/item?id=49149746 Points: 60 # Comments: 34",
+      "title": "Show HN: We Fixed UniFi's Slow PPPoE Performance with PPPoE Half-Bridge",
+      "link": "https://arcbox.dev/blog/unifi-pppoe-half-bridge-acceleration",
+      "pubDate": "2026-08-03T08:34:24.000Z",
+      "description": "Article URL: https://arcbox.dev/blog/unifi-pppoe-half-bridge-acceleration Comments URL: https://news.ycombinator.com/item?id=49152871 Points: 5 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Show HN: Shitty – fast terminal. Memory-unsafe and faster than yours",
-      "link": "https://github.com/pg83/shitty",
-      "pubDate": "2026-08-02T23:05:41.000Z",
-      "description": "Article URL: https://github.com/pg83/shitty Comments URL: https://news.ycombinator.com/item?id=49149326 Points: 101 # Comments: 98",
+      "title": "Bonsai: Janestreet's UI Library",
+      "link": "https://github.com/janestreet/bonsai",
+      "pubDate": "2026-08-03T08:29:57.000Z",
+      "description": "Article URL: https://github.com/janestreet/bonsai Comments URL: https://news.ycombinator.com/item?id=49152842 Points: 31 # Comments: 6",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "The Computational Theory of Mind (2015)",
-      "link": "https://plato.stanford.edu/entries/computational-mind/",
-      "pubDate": "2026-08-02T22:35:35.000Z",
-      "description": "Article URL: https://plato.stanford.edu/entries/computational-mind/ Comments URL: https://news.ycombinator.com/item?id=49149125 Points: 40 # Comments: 16",
+      "title": "Octane – React's programming model, compiled",
+      "link": "https://octanejs.dev",
+      "pubDate": "2026-08-03T08:04:04.000Z",
+      "description": "Article URL: https://octanejs.dev Comments URL: https://news.ycombinator.com/item?id=49152640 Points: 16 # Comments: 4",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Californians' data deletion requests, DROP, become enforceable Aug. 1",
-      "link": "https://www.nbcsandiego.com/nbc-7-responds-2/californians-data-deletion-requests-drop-become-enforceable-aug-1/4054771/",
-      "pubDate": "2026-08-02T22:16:34.000Z",
-      "description": "Article URL: https://www.nbcsandiego.com/nbc-7-responds-2/californians-data-deletion-requests-drop-become-enforceable-aug-1/4054771/ Comments URL: https://news.ycombinator.com/item?id=49148987 Points: 113 # Comments: 48",
+      "title": "The Shape of Things to Come",
+      "link": "https://yegge.ai/essays/the-shape-of-things-to-come/",
+      "pubDate": "2026-08-03T07:22:27.000Z",
+      "description": "Article URL: https://yegge.ai/essays/the-shape-of-things-to-come/ Comments URL: https://news.ycombinator.com/item?id=49152316 Points: 14 # Comments: 8",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Show HN: Mu – Tools for Agents",
-      "link": "https://github.com/micro/mu",
-      "pubDate": "2026-08-02T22:06:34.000Z",
-      "description": "Article URL: https://github.com/micro/mu Comments URL: https://news.ycombinator.com/item?id=49148899 Points: 40 # Comments: 12",
+      "title": "The AI Productivity Gap",
+      "link": "https://bjorg.bjornroche.com/management/ai-productivity-gap/",
+      "pubDate": "2026-08-03T07:07:20.000Z",
+      "description": "Article URL: https://bjorg.bjornroche.com/management/ai-productivity-gap/ Comments URL: https://news.ycombinator.com/item?id=49152222 Points: 31 # Comments: 34",
       "source": "Hacker News",
       "category": "Tech News"
-    },
-    {
-      "title": "Get Ready For the Powerful CSS border-shape Property!",
-      "link": "https://css-tricks.com/get-ready-for-the-powerful-css-border-shape-property/",
-      "pubDate": "2026-07-31T15:14:00.000Z",
-      "description": "We recently got the shape() function and corner-shape property. What else could we possibly need as far as making shapes in CSS? Let me tell you: the border-shape property! Get Ready For the Powerful CSS border-shape Property! originally handwritten and published with love on CSS-Tricks. You should ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "What’s !important #16: sibling-index() Animations, Use Cases for the infinity Keyword, Container Stuck Queries, and More",
-      "link": "https://css-tricks.com/whats-important-16/",
-      "pubDate": "2026-07-31T14:06:21.000Z",
-      "description": "The soon-Baseline sibling-index() function for animations, CSS and the 2026 FIFA World Cup, use cases for the infinity keyword, container \"stuck\" queries, and more. What’s !important #16: sibling-index() Animations, Use Cases for the infinity Keyword, Container Stuck Queries, and More originally han",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "writing-mode",
-      "link": "https://css-tricks.com/almanac/properties/w/writing-mode/",
-      "pubDate": "2026-07-21T09:39:10.000Z",
-      "description": "The writing-mode CSS property sets whether lines of text are laid out horizontally or vertically, and the direction in which blocks and lines progress. .element { writing-mode: vertical-rl; } This is most useful in languages such as Chinese, Japanese or … writing-mode originally handwritten and publ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "pointer-events",
-      "link": "https://css-tricks.com/almanac/properties/p/pointer-events/",
-      "pubDate": "2026-07-15T19:57:51.000Z",
-      "description": "The pointer-events property controls whether an element can become the target of pointer events like clicks, hover states, and other pointer-based events. In other words, it lets you decide whether the browser should treat an element as interactive when the … pointer-events originally handwritten an",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "What’s !important #15: Boundary-aware CSS, Time-based CSS, Full-bleed CSS, and More",
-      "link": "https://css-tricks.com/whats-important-15/",
-      "pubDate": "2026-07-14T14:36:18.000Z",
-      "description": "Read all about boundary-aware CSS, accessible grid lanes, time-based web designs, full-bleed, the customizable select, and new web platform features. What’s !important #15: Boundary-aware CSS, Time-based CSS, Full-bleed CSS, and More originally handwritten and published with love on CSS-Tricks. You ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "What’s !important #14: Gap Decorations, random(), &#060;select&gt; field-sizing, and More",
-      "link": "https://css-tricks.com/whats-important-14/",
-      "pubDate": "2026-06-30T13:54:14.000Z",
-      "description": "I know you’re busy, so for What’s !important #14, I’ll be sprinting through what’s been a stacked couple of weeks despite few browser updates. From CSS Quake to CSS Gap Decorations, this isn’t one to miss! What’s !important #14: Gap Decorations, random(), <select> field-sizing, and More originally h",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "The Shifting Line Between CSS States and JavaScript Events",
-      "link": "https://css-tricks.com/css-states-and-javascript-events/",
-      "pubDate": "2026-06-29T13:03:32.000Z",
-      "description": "CSS has always had pseudo-classes that style things based on user interactions. Recent features, however, are blurring the line between what CSS \"listens\" for and how they are alternatives to what Javascript typically listens for. The Shifting Line Between CSS States and JavaScript Events originally",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translateZ()",
-      "link": "https://css-tricks.com/almanac/functions/t/translatez/",
-      "pubDate": "2026-06-25T13:18:56.000Z",
-      "description": "The translateZ() function moves an element closer to or farther from the user. translateZ() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translateY()",
-      "link": "https://css-tricks.com/almanac/functions/t/translatey/",
-      "pubDate": "2026-06-25T13:17:56.000Z",
-      "description": "The translateY() function shifts an element vertically by the specified amount. translateY() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translateX()",
-      "link": "https://css-tricks.com/almanac/functions/t/translatex/",
-      "pubDate": "2026-06-25T13:16:01.000Z",
-      "description": "The translateX() function shifts an element horizontally by the specified amount. translateX() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
     },
     {
       "title": "Meet the HTB Profile: all your skills, in one place",
