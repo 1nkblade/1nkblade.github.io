@@ -1,248 +1,173 @@
 {
-  "generatedAt": "2026-08-04T09:08:07.688Z",
+  "generatedAt": "2026-08-04T14:39:32.606Z",
   "sourceCount": 4,
-  "successCount": 4,
-  "errors": [],
+  "successCount": 3,
+  "errors": [
+    {
+      "source": "CSS Tricks",
+      "error": "HTTP 415 Unsupported Media Type"
+    }
+  ],
   "items": [
     {
-      "title": "Why Building Projects Is the Fastest Way to Become a Better Developer",
-      "link": "https://dev.to/alvin_james/why-building-projects-is-the-fastest-way-to-become-a-better-developer-2p81",
-      "pubDate": "2026-08-04T09:04:18.000Z",
-      "description": "<p>There’s a common question that almost every beginner in software development asks:</p> <p><em>\"When will I finally feel like a real developer?\"</em></p> <p>Some believe the answer is after completing another online course. Others think it's after mastering a new programming language or earning a ",
+      "title": "Fast Agent Quality Gates: Deterministic Rules Over LLM Judges",
+      "link": "https://dev.to/raju_dandigam/fast-agent-quality-gates-deterministic-rules-over-llm-judges-4b1o",
+      "pubDate": "2026-08-04T14:35:34.000Z",
+      "description": "<p>Deterministic agent tests become much more valuable when they are expressed as reusable quality gates rather than one-off assertions scattered across test files.</p> <p>A gate answers a narrow engineering question: Did the run validate before writing data? Did retries stay within policy? Was toke",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I Tested Every Chrome Screenshot Extension. Here's Why I Built My Own.",
-      "link": "https://dev.to/wayknow123/i-tested-every-chrome-screenshot-extension-heres-why-i-built-my-own-1inj",
-      "pubDate": "2026-08-04T09:02:28.000Z",
-      "description": "<h1> I Tested Every Chrome Screenshot Extension. Here's Why I Built My Own. </h1> <p>I take a lot of screenshots. Bug reports, design feedback, tutorial steps, competitor research — easily 20+ a day. So I went looking for the perfect Chrome screenshot extension. What I found was surprising.</p> <h2>",
+      "title": "Debugging Complex Pointer and Touch Event Interactions in Mobile Browsers",
+      "link": "https://dev.to/mspk97/debugging-complex-pointer-and-touch-event-interactions-in-mobile-browsers-393f",
+      "pubDate": "2026-08-04T14:31:01.000Z",
+      "description": "<p>Ever tried to build a smooth swipe or pinch gesture on mobile only to find it firing weird events, missing touches, or blocking scroll? If you’ve been there, you know it quickly devolves into a maze of event handlers, mysterious no-ops, and contradictory docs. </p> <p>I recently spent days debugg",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Most Important Programming Languages in 2026",
-      "link": "https://dev.to/hadil/most-important-programming-languages-in-2026-2a1",
-      "pubDate": "2026-08-04T09:01:14.000Z",
-      "description": "<div class=\"ltag__link--embedded\"> <div class=\"crayons-story \"> <a href=\"https://dev.to/hadil/5-most-important-programming-languages-to-learn-in-2026-based-on-real-industry-demand-3dc7\" class=\"crayons-story__hidden-navigation-link\">5 Most Important Programming Languages to Learn in 2026 (Based on Re",
+      "title": "Debugging AI-Generated Code: Practical Strategies That Actually Work",
+      "link": "https://dev.to/codexlancers/debugging-ai-generated-code-practical-strategies-that-actually-work-40dc",
+      "pubDate": "2026-08-04T14:30:00.000Z",
+      "description": "<h2> Introduction </h2> <p>Artificial Intelligence has fundamentally changed software development. Whether you're using GitHub Copilot, ChatGPT, Claude, Gemini, or Cursor, AI can generate complete functions, APIs, UI components, database queries, and even entire applications within seconds.</p> <p>B",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The AI Feature Is Cheap to Build and Expensive to Run",
-      "link": "https://dev.to/sagar_jain4010/the-ai-feature-is-cheap-to-build-and-expensive-to-run-3924",
-      "pubDate": "2026-08-04T09:00:18.000Z",
-      "description": "<p>The quote everyone remembers is the build cost. The number that decides whether an AI feature survives is the monthly one, and it tends to show up in month two, right when the trial credits run dry and real traffic arrives.</p> <p>I budget AI features the way I'd budget a delivery van. Buying it ",
+      "title": "Your AI Assistant is Eating Money You Can't See. Here's the Math",
+      "link": "https://dev.to/aws-builders/your-ai-assistant-is-eating-money-you-cant-see-heres-the-math-50of",
+      "pubDate": "2026-08-04T14:25:54.000Z",
+      "description": "<p>Last month, one of my colleagues racked up a $1,200 bill in a single two-hour coding session with an AI assistant. He wasn't doing anything unusual. Just debugging, pasting code blocks, asking follow-up questions.</p> <p>He had no idea how much each interaction cost.</p> <p>And that's the problem",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Software Engineer Resume Example and Writing Guide",
-      "link": "https://dev.to/ahmedsevindik/software-engineer-resume-example-and-writing-guide-577a",
-      "pubDate": "2026-08-04T08:58:50.000Z",
-      "description": "<p>Software engineer resumes get read a bit differently than resumes in other fields: as important as the list of technical skills is whether that skill was actually used to solve a real problem. This article covers how to structure a software engineer's resume section by section, with a concrete ex",
+      "title": "Most Developers Don't Care About Customer Health. That Used to Be Fine.",
+      "link": "https://dev.to/mateuxcv/most-developers-dont-care-about-customer-health-that-used-to-be-fine-3g85",
+      "pubDate": "2026-08-04T14:23:50.000Z",
+      "description": "<p>Every SaaS company runs health checks on its servers every 30 seconds. Ask the same company how often it checks customer health, and the answer is usually:</p> <blockquote> <p>During the monthly QBR, if someone remembers to pull the report.</p> </blockquote> <p>Most developers don't think about c",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I rebuilt a 1996 Macintosh and found nothing missing",
-      "link": "https://dev.to/marciojpflorindo/i-rebuilt-a-1996-macintosh-and-found-nothing-missing-58kl",
-      "pubDate": "2026-08-04T08:57:09.000Z",
-      "description": "<p>I skinned my personal site to look like Mac OS System 7.5.3, the version that came out in 1996. Every section of the site turns into a Finder window you can drag around, resize from the corner, or roll up by its title bar. It took me a while to work out what I was actually nostalgic for.</p> <p>T",
+      "title": "Pricing Your First Product: Why Free Is the Most Expensive Number",
+      "link": "https://dev.to/senternet/pricing-your-first-product-why-free-is-the-most-expensive-number-4c6l",
+      "pubDate": "2026-08-04T14:15:54.000Z",
+      "description": "<p>The hardest part of pricing a first product is not the number. It is that charging money is the only test that tells you whether anyone actually wants the thing. Free postpones that test, and the delay is the expense.</p> <p>August 4, 2026</p> <p>Founders will spend six weeks agonizing over a fea",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Three things Indian finance code gets wrong (with the numbers)",
-      "link": "https://dev.to/javeed450sudo/three-things-indian-finance-code-gets-wrong-with-the-numbers-3hm0",
-      "pubDate": "2026-08-04T08:55:59.000Z",
-      "description": "<p>I maintain a set of finance calculators for India. Every formula ships with a unit test, and the<br> build fails if a number drifts more than 0.5% from a verified value. That sounds like overkill for<br> arithmetic until you find out how much published finance code is quietly wrong.</p> <p>Here a",
+      "title": "CVE-2026-8457: WooCommerce Social Login Auth Bypass — Forged Apple JWTs Take Over Accounts",
+      "link": "https://dev.to/stanleya/cve-2026-8457-woocommerce-social-login-auth-bypass-forged-apple-jwts-take-over-accounts-14m6",
+      "pubDate": "2026-08-04T14:08:00.000Z",
+      "description": "<p>On August 1, 2026, Wordfence disclosed a <strong>critical authentication bypass</strong> in the <strong>WooCommerce – Social Login</strong> plugin (WPWeb Elite), tracked as <strong>CVE-2026-8457</strong> (CVSS 9.8).</p> <p>The short version: the plugin's Apple login handler accepts an <code>id_to",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "trycompai/crm: The Open-Source, Agentic-First CRM Revolutionizing Sales Workflows",
-      "link": "https://dev.to/kaixintelligence/trycompaicrm-the-open-source-agentic-first-crm-revolutionizing-sales-workflows-2614",
-      "pubDate": "2026-08-04T08:53:18.000Z",
-      "description": "<h1> trycompai/crm: The Open-Source, Agentic-First CRM Revolutionizing Sales Workflows </h1> <p>Customer Relationship Management (CRM) systems have long been the backbone of sales operations. But traditional CRMs are reactive — they wait for humans to enter data, update fields, and trigger workflows",
+      "title": "Render invoices to PDF with a GET request instead of shipping Chromium",
+      "link": "https://dev.to/clausenetizen/render-invoices-to-pdf-with-a-get-request-instead-of-shipping-chromium-39o7",
+      "pubDate": "2026-08-04T14:01:05.000Z",
+      "description": "<p>Every \"generate a PDF invoice\" ticket ends the same way: you already have the invoice as an HTML template that looks right in the browser, and now you need bytes you can email or store. The usual answer is Puppeteer, which drags a ~300MB Chromium download into your image, needs a pile of shared l",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "decimen-optical-transfer: The Trending Open-Source Tool for High-Precision Numeric OCR",
-      "link": "https://dev.to/kaixintelligence/decimen-optical-transfer-the-trending-open-source-tool-for-high-precision-numeric-ocr-2b74",
-      "pubDate": "2026-08-04T08:52:34.000Z",
-      "description": "<h1> decimen-optical-transfer: The Trending Open-Source Tool for High-Precision Numeric OCR </h1> <p>In the fast-paced world of data extraction, one open-source project is rapidly gaining attention for its impressive accuracy and specialized focus: <strong>decimen-optical-transfer</strong>. Develope",
+      "title": "An MCP server on Cloudflare's free plan, measured against the 10 ms CPU limit",
+      "link": "https://dev.to/301st/an-mcp-server-on-cloudflares-free-plan-measured-against-the-10-ms-cpu-limit-468b",
+      "pubDate": "2026-08-04T14:00:54.000Z",
+      "description": "<p>Two things happened this week that turn \"can I run an MCP server for free\" from a compromise into a plain yes, with one measurable condition. Today the Model Context Protocol shipped its <code>2026-07-28</code> revision, and the headline change is that the protocol core went stateless: sessions, ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Body Language in Interviews: A Guide to Leaving the Right Impression",
-      "link": "https://dev.to/ahmedsevindik/body-language-in-interviews-a-guide-to-leaving-the-right-impression-113m",
-      "pubDate": "2026-08-04T08:52:18.000Z",
-      "description": "<p><a href=\"https://xn--cvimar-u9a.xyz/en/blog\" rel=\"noopener noreferrer\">Before you start reading, if you enjoy this article, you can find more educational articles on my website.</a></p> <p>How you say something leaves as much of an impression in an interview as what you say. Your body language co",
+      "title": "I Was in 340 Telegram Groups, So I Built a Cleanup Tool",
+      "link": "https://dev.to/aftersnow/i-was-in-340-telegram-groups-so-i-built-a-cleanup-tool-2kfl",
+      "pubDate": "2026-08-04T14:00:00.000Z",
+      "description": "<h2> The problem I kept ignoring </h2> <p>I was in 340 Telegram groups.</p> <p>Crypto project chats from 2021. Dev communities I joined once and never visited again. Random hobby groups I'd completely forgotten about. Every single one of them still sitting in my chat list muted, ignored, but never c",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "CollectWise (YC F24) Is Hiring",
-      "link": "https://www.ycombinator.com/companies/collectwise/jobs/oEAfzBS-ai-agent-engineer",
-      "pubDate": "2026-08-04T07:01:26.000Z",
-      "description": "Article URL: https://www.ycombinator.com/companies/collectwise/jobs/oEAfzBS-ai-agent-engineer Comments URL: https://news.ycombinator.com/item?id=49165170 Points: 0 # Comments: 0",
+      "title": "Xbox goes down. You can't play games you own on disc",
+      "link": "https://birchtree.me/blog/xbox-goes-down-you-cant-play-games-you-own-on-disc/",
+      "pubDate": "2026-08-04T12:01:02.000Z",
+      "description": "Article URL: https://birchtree.me/blog/xbox-goes-down-you-cant-play-games-you-own-on-disc/ Comments URL: https://news.ycombinator.com/item?id=49167448 Points: 230 # Comments: 235",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Harness Engineering for Self-Improvement",
-      "link": "https://lilianweng.github.io/posts/2026-07-04-harness/",
-      "pubDate": "2026-08-04T06:17:54.000Z",
-      "description": "Article URL: https://lilianweng.github.io/posts/2026-07-04-harness/ Comments URL: https://news.ycombinator.com/item?id=49164896 Points: 9 # Comments: 0",
+      "title": "Roame (YC S23) Is Hiring Lead Engineer",
+      "link": "https://www.ycombinator.com/companies/roame/jobs/mqqfa38-lead-full-stack-engineer",
+      "pubDate": "2026-08-04T12:00:51.000Z",
+      "description": "Article URL: https://www.ycombinator.com/companies/roame/jobs/mqqfa38-lead-full-stack-engineer Comments URL: https://news.ycombinator.com/item?id=49167444 Points: 0 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Apple is getting this wrong",
-      "link": "https://openai.com/index/apple-is-getting-this-wrong/",
-      "pubDate": "2026-08-04T05:32:13.000Z",
-      "description": "Article URL: https://openai.com/index/apple-is-getting-this-wrong/ Comments URL: https://news.ycombinator.com/item?id=49164649 Points: 171 # Comments: 161",
+      "title": "Buckminster Fuller: everything I know",
+      "link": "https://www.bfi.org/about-fuller/everything-i-know/",
+      "pubDate": "2026-08-04T11:33:32.000Z",
+      "description": "Article URL: https://www.bfi.org/about-fuller/everything-i-know/ Comments URL: https://news.ycombinator.com/item?id=49167147 Points: 53 # Comments: 17",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Why did we wait so long for the bicycle? (2019)",
-      "link": "https://blog.rootsofprogress.org/why-did-we-wait-so-long-for-the-bicycle",
-      "pubDate": "2026-08-03T23:44:19.000Z",
-      "description": "Article URL: https://blog.rootsofprogress.org/why-did-we-wait-so-long-for-the-bicycle Comments URL: https://news.ycombinator.com/item?id=49162787 Points: 40 # Comments: 37",
+      "title": "AI-Generated Images Discourage Me from Reading Your Blog",
+      "link": "https://nelson.cloud/ai-generated-images-discourage-me-from-reading-your-blog/",
+      "pubDate": "2026-08-04T11:30:17.000Z",
+      "description": "Article URL: https://nelson.cloud/ai-generated-images-discourage-me-from-reading-your-blog/ Comments URL: https://news.ycombinator.com/item?id=49167113 Points: 462 # Comments: 269",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "There Will Come Soft Rains (1950) [pdf]",
-      "link": "https://users.wpi.edu/~zrbutzke/Docs/BradburyStories(1).pdf",
-      "pubDate": "2026-08-03T23:24:53.000Z",
-      "description": "Article URL: https://users.wpi.edu/~zrbutzke/Docs/BradburyStories(1).pdf Comments URL: https://news.ycombinator.com/item?id=49162653 Points: 148 # Comments: 56",
+      "title": "Show HN: Fine-tune an 8B model on a 4 GB laptop GPU",
+      "link": "https://github.com/MakazhanAlpamys/Soup",
+      "pubDate": "2026-08-04T11:17:57.000Z",
+      "description": "Article URL: https://github.com/MakazhanAlpamys/Soup Comments URL: https://news.ycombinator.com/item?id=49166984 Points: 49 # Comments: 7",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Windows XP 2002 for the Itanium: Unbridled rage",
-      "link": "https://virtuallyfun.com/2026/08/03/windows-xp-2002-for-the-itanium-unbridled-rage/",
-      "pubDate": "2026-08-03T22:04:49.000Z",
-      "description": "Article URL: https://virtuallyfun.com/2026/08/03/windows-xp-2002-for-the-itanium-unbridled-rage/ Comments URL: https://news.ycombinator.com/item?id=49162086 Points: 102 # Comments: 53",
+      "title": "Keyv and friends compromised in active Shai-Hulud supply chain attack",
+      "link": "https://www.aikido.dev/blog/keyv-and-friends-compromised-in-npm-supply-chain-attack",
+      "pubDate": "2026-08-04T11:01:37.000Z",
+      "description": "Article URL: https://www.aikido.dev/blog/keyv-and-friends-compromised-in-npm-supply-chain-attack Comments URL: https://news.ycombinator.com/item?id=49166874 Points: 63 # Comments: 12",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "LLMs reward expertise",
-      "link": "https://www.seangoedecke.com/llms-reward-expertise/",
-      "pubDate": "2026-08-03T21:13:53.000Z",
-      "description": "Article URL: https://www.seangoedecke.com/llms-reward-expertise/ Comments URL: https://news.ycombinator.com/item?id=49161518 Points: 897 # Comments: 368",
+      "title": "Safe Lock-free Primitives with iceoryx2's ByteAtomic",
+      "link": "https://ekxide.io/blog/byte-wise-atomic-wrapper-to-prevent-ub/",
+      "pubDate": "2026-08-04T10:35:41.000Z",
+      "description": "Article URL: https://ekxide.io/blog/byte-wise-atomic-wrapper-to-prevent-ub/ Comments URL: https://news.ycombinator.com/item?id=49166672 Points: 10 # Comments: 6",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Smaller, faster, safer: running Kimi and GLM at scale",
-      "link": "https://blog.cloudflare.com/smaller-faster-safer-models/",
-      "pubDate": "2026-08-03T17:08:46.000Z",
-      "description": "Article URL: https://blog.cloudflare.com/smaller-faster-safer-models/ Comments URL: https://news.ycombinator.com/item?id=49158581 Points: 211 # Comments: 52",
+      "title": "Ray Bradbury's \"There Will Come Soft Rains\" is set today (2026-08-04)",
+      "link": "https://short-stories.co/@raybradbury/there-will-come-soft-rains-6k8vr4xxlnmj",
+      "pubDate": "2026-08-04T10:13:13.000Z",
+      "description": "Article URL: https://short-stories.co/@raybradbury/there-will-come-soft-rains-6k8vr4xxlnmj Comments URL: https://news.ycombinator.com/item?id=49166491 Points: 214 # Comments: 54",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Celebrating 45 Years of Kermit with the First New C-Kermit Release in 15 Years",
-      "link": "https://changelog.complete.org/archives/44456-celebrating-45-years-of-kermit-with-the-first-new-c-kermit-release-in-15-years-and-working-with-a-decades-old-c-codebase",
-      "pubDate": "2026-08-03T17:02:10.000Z",
-      "description": "Article URL: https://changelog.complete.org/archives/44456-celebrating-45-years-of-kermit-with-the-first-new-c-kermit-release-in-15-years-and-working-with-a-decades-old-c-codebase Comments URL: https://news.ycombinator.com/item?id=49158474 Points: 160 # Comments: 40",
+      "title": "Why Large Language Models Fail at Tabular Prediction",
+      "link": "https://arxiv.org/abs/2608.02412",
+      "pubDate": "2026-08-04T10:07:06.000Z",
+      "description": "Article URL: https://arxiv.org/abs/2608.02412 Comments URL: https://news.ycombinator.com/item?id=49166442 Points: 36 # Comments: 7",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Show HN: Run an 80B Qwen in 4.3 GB of RAM on a Mac, and a 35B on an iPhone",
-      "link": "https://github.com/leonickson1/Swiftlet",
-      "pubDate": "2026-08-03T16:54:15.000Z",
-      "description": "Article URL: https://github.com/leonickson1/Swiftlet Comments URL: https://news.ycombinator.com/item?id=49158333 Points: 162 # Comments: 67",
+      "title": "Learning-Rust.Github.io: Rust Programming Language Tutorials for Everyone",
+      "link": "https://learning-rust.github.io",
+      "pubDate": "2026-08-04T10:03:46.000Z",
+      "description": "Article URL: https://learning-rust.github.io Comments URL: https://news.ycombinator.com/item?id=49166411 Points: 21 # Comments: 1",
       "source": "Hacker News",
       "category": "Tech News"
-    },
-    {
-      "title": "Gap Decorations Are Now Available, Here’s What’s New",
-      "link": "https://css-tricks.com/css-gap-decorations-now-available/",
-      "pubDate": "2026-08-03T15:53:20.000Z",
-      "description": "Today, with CSS gap decorations fully supported in Chrome and Edge, starting with version 149, you can now very easily style gaps, and with a lot of control. Gap Decorations Are Now Available, Here’s What’s New originally handwritten and published with love on CSS-Tricks. You should really get the n",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Get Ready For the Powerful CSS border-shape Property!",
-      "link": "https://css-tricks.com/get-ready-for-the-powerful-css-border-shape-property/",
-      "pubDate": "2026-07-31T15:14:00.000Z",
-      "description": "We recently got the shape() function and corner-shape property. What else could we possibly need as far as making shapes in CSS? Let me tell you: the border-shape property! Get Ready For the Powerful CSS border-shape Property! originally handwritten and published with love on CSS-Tricks. You should ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "What’s !important #16: sibling-index() Animations, Use Cases for the infinity Keyword, Container Stuck Queries, and More",
-      "link": "https://css-tricks.com/whats-important-16/",
-      "pubDate": "2026-07-31T14:06:21.000Z",
-      "description": "The soon-Baseline sibling-index() function for animations, CSS and the 2026 FIFA World Cup, use cases for the infinity keyword, container \"stuck\" queries, and more. What’s !important #16: sibling-index() Animations, Use Cases for the infinity Keyword, Container Stuck Queries, and More originally han",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "writing-mode",
-      "link": "https://css-tricks.com/almanac/properties/w/writing-mode/",
-      "pubDate": "2026-07-21T09:39:10.000Z",
-      "description": "The writing-mode CSS property sets whether lines of text are laid out horizontally or vertically, and the direction in which blocks and lines progress. .element { writing-mode: vertical-rl; } This is most useful in languages such as Chinese, Japanese or … writing-mode originally handwritten and publ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "pointer-events",
-      "link": "https://css-tricks.com/almanac/properties/p/pointer-events/",
-      "pubDate": "2026-07-15T19:57:51.000Z",
-      "description": "The pointer-events property controls whether an element can become the target of pointer events like clicks, hover states, and other pointer-based events. In other words, it lets you decide whether the browser should treat an element as interactive when the … pointer-events originally handwritten an",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "What’s !important #15: Boundary-aware CSS, Time-based CSS, Full-bleed CSS, and More",
-      "link": "https://css-tricks.com/whats-important-15/",
-      "pubDate": "2026-07-14T14:36:18.000Z",
-      "description": "Read all about boundary-aware CSS, accessible grid lanes, time-based web designs, full-bleed, the customizable select, and new web platform features. What’s !important #15: Boundary-aware CSS, Time-based CSS, Full-bleed CSS, and More originally handwritten and published with love on CSS-Tricks. You ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "What’s !important #14: Gap Decorations, random(), &#060;select&gt; field-sizing, and More",
-      "link": "https://css-tricks.com/whats-important-14/",
-      "pubDate": "2026-06-30T13:54:14.000Z",
-      "description": "I know you’re busy, so for What’s !important #14, I’ll be sprinting through what’s been a stacked couple of weeks despite few browser updates. From CSS Quake to CSS Gap Decorations, this isn’t one to miss! What’s !important #14: Gap Decorations, random(), <select> field-sizing, and More originally h",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "The Shifting Line Between CSS States and JavaScript Events",
-      "link": "https://css-tricks.com/css-states-and-javascript-events/",
-      "pubDate": "2026-06-29T13:03:32.000Z",
-      "description": "CSS has always had pseudo-classes that style things based on user interactions. Recent features, however, are blurring the line between what CSS \"listens\" for and how they are alternatives to what Javascript typically listens for. The Shifting Line Between CSS States and JavaScript Events originally",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translateZ()",
-      "link": "https://css-tricks.com/almanac/functions/t/translatez/",
-      "pubDate": "2026-06-25T13:18:56.000Z",
-      "description": "The translateZ() function moves an element closer to or farther from the user. translateZ() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translateY()",
-      "link": "https://css-tricks.com/almanac/functions/t/translatey/",
-      "pubDate": "2026-06-25T13:17:56.000Z",
-      "description": "The translateY() function shifts an element vertically by the specified amount. translateY() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
     },
     {
       "title": "Meet the HTB Profile: all your skills, in one place",
