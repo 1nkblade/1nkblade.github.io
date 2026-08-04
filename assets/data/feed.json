@@ -1,107 +1,142 @@
 {
-  "generatedAt": "2026-08-03T19:58:21.656Z",
+  "generatedAt": "2026-08-04T03:37:35.216Z",
   "sourceCount": 4,
-  "successCount": 3,
-  "errors": [
-    {
-      "source": "CSS Tricks",
-      "error": "HTTP 415 Unsupported Media Type"
-    }
-  ],
+  "successCount": 4,
+  "errors": [],
   "items": [
     {
-      "title": "A friend dared me to build Pass the Pigs during the apéro. Two LLMs reviewed my plan.",
-      "link": "https://dev.to/chpomob/a-friend-dared-me-to-build-pass-the-pigs-during-the-apero-two-llms-reviewed-my-plan-3132",
-      "pubDate": "2026-08-03T19:47:02.000Z",
-      "description": "<h1> A friend dared me to build Pass the Pigs during the apéro. Two LLMs reviewed my plan. </h1> <p><em>Or: a non-technical friend wanted to see what AI could do. He watched it plan — and watched two AIs shred the plan.</em></p> <h2> The challenge </h2> <p>It happened at an apéritif, in front of a n",
+      "title": "Decision Trees Aren't Trained. They're Grown.",
+      "link": "https://dev.to/nishant_banginwar_80b7dc5/decision-trees-arent-trained-theyre-grown-fhe",
+      "pubDate": "2026-08-04T03:16:57.000Z",
+      "description": "<p><strong>Classic Machine Learning Through the Eyes of an SRE — Part 2</strong></p> <p>The second algorithm I studied broke everything I'd just learned from the first.</p> <p>Logistic regression taught me that training means gradient descent: guess, measure error, adjust the weights, repeat until c",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "CRM integration. Shall we talk about it?",
-      "link": "https://dev.to/dimidan/crm-integration-shall-we-talk-about-it-3kki",
-      "pubDate": "2026-08-03T19:46:38.000Z",
-      "description": "<p>You've got one CRM integration in production and it's been fine for months. Now there's a second one to wire up. Same contract, same schema, same node shape. Should be a couple of days.</p> <p>You pull the first payload from CRM B and put it next to CRM A out of habit.</p> <p>CRM A, a monetary fi",
+      "title": "Mendapi 0.5.5: the one bug we shipped on purpose, now fixed",
+      "link": "https://dev.to/mendapi/mendapi-055-the-one-bug-we-shipped-on-purpose-now-fixed-2ge4",
+      "pubDate": "2026-08-04T03:13:56.000Z",
+      "description": "<p>The 0.5.4 release notes carried an unusual section: <strong>Known issue shipped with 0.5.4</strong>. We had spent that whole release fixing the first minute of using the CLI — twelve corrections to help text, exit codes, path handling, and MCP behaviour — and in the middle of it we found one more",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Run It, Don't Read It: coding agents predict check scripts instead of running them",
-      "link": "https://dev.to/vasyltretiakov/run-it-dont-read-it-coding-agents-predict-check-scripts-instead-of-running-them-1987",
-      "pubDate": "2026-08-03T19:45:43.000Z",
-      "description": "<p><em>A coding agent with read access to your check scripts will predict them instead of running them. Prediction costs more and gets the answer wrong.</em></p> <p>A session I was directing had a small decision in front of it: whether to switch on an optional guard that nudges delegated sessions to",
+      "title": "VPS.org One-Click Template: Public PostgreSQL Fixed Password and Zulip Session Forgery",
+      "link": "https://dev.to/anoymask/vpsorg-one-click-template-public-postgresql-fixed-password-and-zulip-session-forgery-5bg6",
+      "pubDate": "2026-08-04T03:09:56.000Z",
+      "description": "<h1> VPS.org One-Click Template: Public PostgreSQL Fixed Password and Zulip Session Forgery </h1> <h2> 1. Basic Information </h2> <ul> <li> <strong>Article Title</strong>: JVNVU#91736352 Multiple Vulnerabilities in VPS.org One-Click Deployment Templates</li> <li> <strong>Published By</strong>: JVN</",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I Built an MCP Server So AI Assistants Can Process PDFs Directly",
-      "link": "https://dev.to/peter_ndumia_pdfhaul/i-built-an-mcp-server-so-ai-assistants-can-process-pdfs-directly-80k",
-      "pubDate": "2026-08-03T19:35:24.000Z",
-      "description": "<p>I run PDFHaul, a free browser and mobile PDF toolkit, as a solo founder. A few months ago I kept running into the same friction point: every time I wanted an AI assistant to help with a PDF task, I had to manually download the file, upload it somewhere, run the tool, then feed the result back int",
+      "title": "N-central CVE-2026-18577: Lateral Movement from RMM Admin Rights to Customer Endpoints and Persistence via Cloudflare Tunnel",
+      "link": "https://dev.to/anoymask/n-central-cve-2026-18577-lateral-movement-from-rmm-admin-rights-to-customer-endpoints-and-47aa",
+      "pubDate": "2026-08-04T03:09:45.000Z",
+      "description": "<h1> N-central CVE-2026-18577: Lateral Movement from RMM Admin Rights to Customer Endpoints and Persistence via Cloudflare Tunnel </h1> <h2> 1. Basic Information </h2> <ul> <li> <strong>Article Title</strong>: N-able warns of N-central auth bypass flaw exploited in attacks</li> <li> <strong>Source</",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Do Not Trust the Green Checkmark",
-      "link": "https://dev.to/onurkesim/do-not-trust-the-green-checkmark-48i5",
-      "pubDate": "2026-08-03T19:33:05.000Z",
-      "description": "<p>Most people trust a green checkmark in a CI pipeline. If every job is marked as successful, we usually believe that everything worked correctly. I was doing the same. Then I found a case where a completely green workflow was hiding an important problem.</p> <p>While testing hafiza-kur across diff",
+      "title": "CC-Link IE TSN CVE-2026-13584: OT Protocol Vulnerability Enabling Control I/O Value Tampering from Adjacent Networks",
+      "link": "https://dev.to/anoymask/cc-link-ie-tsn-cve-2026-13584-ot-protocol-vulnerability-enabling-control-io-value-tampering-from-5gdk",
+      "pubDate": "2026-08-04T03:09:26.000Z",
+      "description": "<h1> CC-Link IE TSN CVE-2026-13584: OT Protocol Vulnerability Enabling Control I/O Value Tampering from Adjacent Networks </h1> <h2> 1. Basic Information </h2> <ul> <li> <strong>Article Name</strong>: JVNVU#98879231: Incomplete Integrity Verification in CC-Link IE TSN Communication Protocol for Mult",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I got offered a Web3 job on LinkedIn. The \"codebase\" was built to rob me.",
-      "link": "https://dev.to/pycanis/title-suggestion-i-got-offered-a-web3-job-on-linkedin-the-codebase-was-built-to-rob-me-e59",
-      "pubDate": "2026-08-03T19:31:04.000Z",
-      "description": "<p>A stranger messaged me on LinkedIn about a job in the Web3 space. Friendly, low pressure, said it sounded like a good fit. To show me what the team was building, they shared a private GitHub repository and asked me to spend \"15 to 30 minutes running it and looking around\" to see whether the proje",
+      "title": "DOUBLECUP: ClickFix Loader-as-a-Service Restoring Fileless Payload from PNG in Browser Cache",
+      "link": "https://dev.to/anoymask/doublecup-clickfix-loader-as-a-service-restoring-fileless-payload-from-png-in-browser-cache-2j1p",
+      "pubDate": "2026-08-04T03:09:12.000Z",
+      "description": "<h1> DOUBLECUP: ClickFix Loader-as-a-Service Restoring Fileless Payload from PNG in Browser Cache </h1> <h2> 1. Basic Information </h2> <ul> <li> <strong>Article Title</strong>: New DOUBLECUP ClickFix service hides malware in browser cache images</li> <li> <strong>Source</strong>: BleepingComputer</",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "An editable range can change without changing Word text",
-      "link": "https://dev.to/sybilgambleyyu/an-editable-range-can-change-without-changing-word-text-532o",
-      "pubDate": "2026-08-03T19:19:59.000Z",
-      "description": "<h1> An editable range can change without changing Word text </h1> <p>A Word document can store an editable-range marker around text and associate<br> that marker with an individual editor. The covered text can remain exactly the<br> same while the stored editor assignment changes. Text-only review ",
+      "title": "Beyond Scraping: Operationalizing Aviation Intelligence with MCP",
+      "link": "https://dev.to/renato_marinho/beyond-scraping-operationalizing-aviation-intelligence-with-mcp-24ep",
+      "pubDate": "2026-08-04T03:05:18.000Z",
+      "description": "<p>If you are trying to build an AI agent that actually understands aviation, stop looking at scrapers and start looking at toolsets.</p> <p>I have seen developers spend weeks trying to fine-tune models or write complex regex parsers just to extract meaningful data from NOTAMs (Notices to Air Missio",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Germany's Energy Revolution: Wind and Solar Overtake Fossil Fuels for the First Time",
-      "link": "https://dev.to/kaixintelligence/germanys-energy-revolution-wind-and-solar-overtake-fossil-fuels-for-the-first-time-1kpj",
-      "pubDate": "2026-08-03T19:13:27.000Z",
-      "description": "<h1> Germany's Energy Revolution: Wind and Solar Overtake Fossil Fuels for the First Time </h1> <p>In 2026, Germany crossed a historic threshold: for the first time, wind and solar photovoltaic (PV) systems generated more electricity than fossil fuels across the year. This isn't just a statistic—it'",
+      "title": "You Can't Unit-Test an LLM. Here's What I Built Instead.",
+      "link": "https://dev.to/amirmarcel/you-cant-unit-test-an-llm-heres-what-i-built-instead-m6g",
+      "pubDate": "2026-08-04T03:00:02.000Z",
+      "description": "<p>Every team shipping an LLM feature eventually hits the same wall: the thing you built is non-deterministic, and your whole testing culture assumes it isn't. assertEqual(output, expected) is meaningless when the output is a paragraph of generated prose that will be slightly different next time.</p",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Celebrating 45 Years of Kermit: The Protocol That Refuses to Die, Now Reborn in C",
-      "link": "https://dev.to/kaixintelligence/celebrating-45-years-of-kermit-the-protocol-that-refuses-to-die-now-reborn-in-c-5f54",
-      "pubDate": "2026-08-03T19:11:51.000Z",
-      "description": "<h1> Celebrating 45 Years of Kermit: The Protocol That Refuses to Die, Now Reborn in C </h1> <p>In the pantheon of early network protocols, few have enjoyed the staying power of Kermit. Born in the early 1980s at Columbia University, Kermit was a simple, robust file transfer protocol that conquered ",
+      "title": "Hello, DEV Community!",
+      "link": "https://dev.to/meiglyph/hello-dev-community-map",
+      "pubDate": "2026-08-04T02:49:19.000Z",
+      "description": "<p>Hi, I’m Meiglyph.</p> <p>I have a background in design, and I’m currently learning Python and exploring software development.</p> <p>As I build small tools and web applications, I often discover useful lessons about programming, debugging, user experience, and the development process itself.</p> ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Ten Breakthrough Advances in Mathematics and Theoretical Computer Science (2026)",
-      "link": "https://dev.to/kaixintelligence/ten-breakthrough-advances-in-mathematics-and-theoretical-computer-science-2026-13ac",
-      "pubDate": "2026-08-03T19:10:13.000Z",
-      "description": "<h1> Ten Breakthroughs in Mathematics and Theoretical Computer Science (2026) </h1> <p>The year 2026 has already witnessed a remarkable confluence of human intuition and machine intelligence, reshaping the landscape of pure and applied mathematics. From formal proof verification to quantum complexit",
+      "title": "Incremental Graph Updates for Corporate Knowledge Graphs: Three Problems Batch Pipelines Can't Solve",
+      "link": "https://dev.to/hannune/incremental-graph-updates-for-corporate-knowledge-graphs-three-problems-batch-pipelines-cant-solve-2phm",
+      "pubDate": "2026-08-04T02:38:14.000Z",
+      "description": "<p>Corporate knowledge graphs break in production the moment you treat them as a batch artifact.</p> <p>I ran into this building <a href=\"https://2asy.ai\" rel=\"noopener noreferrer\">2asy.ai</a>, a Graph-RAG system for East Asian corporate intelligence. The initial architecture was standard: ingest a ",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "There Will Come Soft Rains (1950) [pdf]",
+      "link": "https://users.wpi.edu/~zrbutzke/Docs/BradburyStories(1).pdf",
+      "pubDate": "2026-08-03T23:24:53.000Z",
+      "description": "Article URL: https://users.wpi.edu/~zrbutzke/Docs/BradburyStories(1).pdf Comments URL: https://news.ycombinator.com/item?id=49162653 Points: 52 # Comments: 20",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Windows XP 2002 for the Itanium: Unbridled rage",
+      "link": "https://virtuallyfun.com/2026/08/03/windows-xp-2002-for-the-itanium-unbridled-rage/",
+      "pubDate": "2026-08-03T22:04:49.000Z",
+      "description": "Article URL: https://virtuallyfun.com/2026/08/03/windows-xp-2002-for-the-itanium-unbridled-rage/ Comments URL: https://news.ycombinator.com/item?id=49162086 Points: 65 # Comments: 34",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "ZX Spectrum System Tour: Text Mode",
+      "link": "https://bumbershootsoft.wordpress.com/2026/05/30/zx-spectrum-system-tour-text-mode/",
+      "pubDate": "2026-08-03T21:39:12.000Z",
+      "description": "Article URL: https://bumbershootsoft.wordpress.com/2026/05/30/zx-spectrum-system-tour-text-mode/ Comments URL: https://news.ycombinator.com/item?id=49161801 Points: 25 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "LLMs reward expertise",
+      "link": "https://www.seangoedecke.com/llms-reward-expertise/",
+      "pubDate": "2026-08-03T21:13:53.000Z",
+      "description": "Article URL: https://www.seangoedecke.com/llms-reward-expertise/ Comments URL: https://news.ycombinator.com/item?id=49161518 Points: 549 # Comments: 242",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "The Dunning-Kruger effect may just be a data artefact (2020)",
+      "link": "https://www.mcgill.ca/oss/article/critical-thinking/dunning-kruger-effect-probably-not-real",
+      "pubDate": "2026-08-03T19:39:34.000Z",
+      "description": "Article URL: https://www.mcgill.ca/oss/article/critical-thinking/dunning-kruger-effect-probably-not-real Comments URL: https://news.ycombinator.com/item?id=49160437 Points: 132 # Comments: 145",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "KisakCOD – Open-source reimplementation of Call of Duty 4 Multiplayer",
+      "link": "https://github.com/SwagSoftware/KisakCOD",
+      "pubDate": "2026-08-03T18:58:00.000Z",
+      "description": "Article URL: https://github.com/SwagSoftware/KisakCOD Comments URL: https://news.ycombinator.com/item?id=49159970 Points: 50 # Comments: 4",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "ZX Spectrum System Tour: Sound",
       "link": "https://bumbershootsoft.wordpress.com/2026/08/01/zx-spectrum-system-tour-sound/",
       "pubDate": "2026-08-03T18:32:06.000Z",
-      "description": "Article URL: https://bumbershootsoft.wordpress.com/2026/08/01/zx-spectrum-system-tour-sound/ Comments URL: https://news.ycombinator.com/item?id=49159676 Points: 4 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "The Billable Usage API: programmatic cost visibility for Cloudflare",
-      "link": "https://blog.cloudflare.com/billable-usage-api/",
-      "pubDate": "2026-08-03T17:18:06.000Z",
-      "description": "Article URL: https://blog.cloudflare.com/billable-usage-api/ Comments URL: https://news.ycombinator.com/item?id=49158714 Points: 21 # Comments: 4",
+      "description": "Article URL: https://bumbershootsoft.wordpress.com/2026/08/01/zx-spectrum-system-tour-sound/ Comments URL: https://news.ycombinator.com/item?id=49159676 Points: 33 # Comments: 8",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -109,7 +144,7 @@
       "title": "Smaller, faster, safer: running Kimi and GLM at scale",
       "link": "https://blog.cloudflare.com/smaller-faster-safer-models/",
       "pubDate": "2026-08-03T17:08:46.000Z",
-      "description": "Article URL: https://blog.cloudflare.com/smaller-faster-safer-models/ Comments URL: https://news.ycombinator.com/item?id=49158581 Points: 42 # Comments: 9",
+      "description": "Article URL: https://blog.cloudflare.com/smaller-faster-safer-models/ Comments URL: https://news.ycombinator.com/item?id=49158581 Points: 162 # Comments: 40",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -117,57 +152,97 @@
       "title": "Celebrating 45 Years of Kermit with the First New C-Kermit Release in 15 Years",
       "link": "https://changelog.complete.org/archives/44456-celebrating-45-years-of-kermit-with-the-first-new-c-kermit-release-in-15-years-and-working-with-a-decades-old-c-codebase",
       "pubDate": "2026-08-03T17:02:10.000Z",
-      "description": "Article URL: https://changelog.complete.org/archives/44456-celebrating-45-years-of-kermit-with-the-first-new-c-kermit-release-in-15-years-and-working-with-a-decades-old-c-codebase Comments URL: https://news.ycombinator.com/item?id=49158474 Points: 73 # Comments: 24",
+      "description": "Article URL: https://changelog.complete.org/archives/44456-celebrating-45-years-of-kermit-with-the-first-new-c-kermit-release-in-15-years-and-working-with-a-decades-old-c-codebase Comments URL: https://news.ycombinator.com/item?id=49158474 Points: 135 # Comments: 37",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Use Task Runners for Common Coding Tasks",
-      "link": "https://hamvocke.com/blog/task-runners/",
-      "pubDate": "2026-08-03T16:51:51.000Z",
-      "description": "Article URL: https://hamvocke.com/blog/task-runners/ Comments URL: https://news.ycombinator.com/item?id=49158287 Points: 30 # Comments: 8",
+      "title": "Show HN: Run an 80B Qwen in 4.3 GB of RAM on a Mac, and a 35B on an iPhone",
+      "link": "https://github.com/leonickson1/Swiftlet",
+      "pubDate": "2026-08-03T16:54:15.000Z",
+      "description": "Article URL: https://github.com/leonickson1/Swiftlet Comments URL: https://news.ycombinator.com/item?id=49158333 Points: 18 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "SearXNG in Rust",
-      "link": "https://github.com/MikeLuu99/searxng-rust",
-      "pubDate": "2026-08-03T16:41:40.000Z",
-      "description": "Article URL: https://github.com/MikeLuu99/searxng-rust Comments URL: https://news.ycombinator.com/item?id=49158141 Points: 32 # Comments: 11",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "Gap Decorations Are Now Available, Here’s What’s New",
+      "link": "https://css-tricks.com/css-gap-decorations-now-available/",
+      "pubDate": "2026-08-03T15:53:20.000Z",
+      "description": "Today, with CSS gap decorations fully supported in Chrome and Edge, starting with version 149, you can now very easily style gaps, and with a lot of control. Gap Decorations Are Now Available, Here’s What’s New originally handwritten and published with love on CSS-Tricks. You should really get the n",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
-      "title": "Launch HN: Hoplite (YC S26) – Effortlessly deploy cloud coding agents",
-      "link": "https://hoplite.sh",
-      "pubDate": "2026-08-03T16:32:06.000Z",
-      "description": "Hi HN, we’re Bence and Ryan, founders of Hoplite (https://hoplite.sh). Hoplite lets you deploy coding agents in the cloud, with a suite of tools that makes it incredibly easy to QA features. During onboarding, we port over your local setup - sessions, memories, MCP servers, and get your projects rea",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "Get Ready For the Powerful CSS border-shape Property!",
+      "link": "https://css-tricks.com/get-ready-for-the-powerful-css-border-shape-property/",
+      "pubDate": "2026-07-31T15:14:00.000Z",
+      "description": "We recently got the shape() function and corner-shape property. What else could we possibly need as far as making shapes in CSS? Let me tell you: the border-shape property! Get Ready For the Powerful CSS border-shape Property! originally handwritten and published with love on CSS-Tricks. You should ",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
-      "title": "Ten advances in mathematics and theoretical computer science",
-      "link": "https://openai.com/index/ten-advances-in-mathematics/",
-      "pubDate": "2026-08-03T16:27:12.000Z",
-      "description": "Article URL: https://openai.com/index/ten-advances-in-mathematics/ Comments URL: https://news.ycombinator.com/item?id=49157930 Points: 217 # Comments: 482",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "What’s !important #16: sibling-index() Animations, Use Cases for the infinity Keyword, Container Stuck Queries, and More",
+      "link": "https://css-tricks.com/whats-important-16/",
+      "pubDate": "2026-07-31T14:06:21.000Z",
+      "description": "The soon-Baseline sibling-index() function for animations, CSS and the 2026 FIFA World Cup, use cases for the infinity keyword, container \"stuck\" queries, and more. What’s !important #16: sibling-index() Animations, Use Cases for the infinity Keyword, Container Stuck Queries, and More originally han",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
-      "title": "Show HN: Product analytics (and evals) for agent sessions on your MCP",
-      "link": "https://armature.tech/",
-      "pubDate": "2026-08-03T16:17:59.000Z",
-      "description": "Hi HN! We’re Theodore and Louis, founders of Armature (YC P26). We reconstruct the entire session behind the MCP tool calls you receive, including what the user asked their agent to do and what the agent thought.You wrap your MCP in 3 lines of code (our SDK is available in Typescript, Python and Go)",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "writing-mode",
+      "link": "https://css-tricks.com/almanac/properties/w/writing-mode/",
+      "pubDate": "2026-07-21T09:39:10.000Z",
+      "description": "The writing-mode CSS property sets whether lines of text are laid out horizontally or vertically, and the direction in which blocks and lines progress. .element { writing-mode: vertical-rl; } This is most useful in languages such as Chinese, Japanese or … writing-mode originally handwritten and publ",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
-      "title": "Explanation of INT8 ConvRot (FP8 is no longer needed)",
-      "link": "https://note.com/hirorohi03/n/n047a8c5f7f8b?hl=en",
-      "pubDate": "2026-08-03T16:07:09.000Z",
-      "description": "Article URL: https://note.com/hirorohi03/n/n047a8c5f7f8b?hl=en Comments URL: https://news.ycombinator.com/item?id=49157645 Points: 16 # Comments: 5",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "pointer-events",
+      "link": "https://css-tricks.com/almanac/properties/p/pointer-events/",
+      "pubDate": "2026-07-15T19:57:51.000Z",
+      "description": "The pointer-events property controls whether an element can become the target of pointer events like clicks, hover states, and other pointer-based events. In other words, it lets you decide whether the browser should treat an element as interactive when the … pointer-events originally handwritten an",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "What’s !important #15: Boundary-aware CSS, Time-based CSS, Full-bleed CSS, and More",
+      "link": "https://css-tricks.com/whats-important-15/",
+      "pubDate": "2026-07-14T14:36:18.000Z",
+      "description": "Read all about boundary-aware CSS, accessible grid lanes, time-based web designs, full-bleed, the customizable select, and new web platform features. What’s !important #15: Boundary-aware CSS, Time-based CSS, Full-bleed CSS, and More originally handwritten and published with love on CSS-Tricks. You ",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "What’s !important #14: Gap Decorations, random(), &#060;select&gt; field-sizing, and More",
+      "link": "https://css-tricks.com/whats-important-14/",
+      "pubDate": "2026-06-30T13:54:14.000Z",
+      "description": "I know you’re busy, so for What’s !important #14, I’ll be sprinting through what’s been a stacked couple of weeks despite few browser updates. From CSS Quake to CSS Gap Decorations, this isn’t one to miss! What’s !important #14: Gap Decorations, random(), <select> field-sizing, and More originally h",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "The Shifting Line Between CSS States and JavaScript Events",
+      "link": "https://css-tricks.com/css-states-and-javascript-events/",
+      "pubDate": "2026-06-29T13:03:32.000Z",
+      "description": "CSS has always had pseudo-classes that style things based on user interactions. Recent features, however, are blurring the line between what CSS \"listens\" for and how they are alternatives to what Javascript typically listens for. The Shifting Line Between CSS States and JavaScript Events originally",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "translateZ()",
+      "link": "https://css-tricks.com/almanac/functions/t/translatez/",
+      "pubDate": "2026-06-25T13:18:56.000Z",
+      "description": "The translateZ() function moves an element closer to or farther from the user. translateZ() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "translateY()",
+      "link": "https://css-tricks.com/almanac/functions/t/translatey/",
+      "pubDate": "2026-06-25T13:17:56.000Z",
+      "description": "The translateY() function shifts an element vertically by the specified amount. translateY() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
       "title": "Meet the HTB Profile: all your skills, in one place",
