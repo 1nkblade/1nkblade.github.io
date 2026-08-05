@@ -1,248 +1,173 @@
 {
-  "generatedAt": "2026-08-04T19:56:41.428Z",
+  "generatedAt": "2026-08-05T03:33:08.995Z",
   "sourceCount": 4,
-  "successCount": 4,
-  "errors": [],
+  "successCount": 3,
+  "errors": [
+    {
+      "source": "CSS Tricks",
+      "error": "HTTP 415 Unsupported Media Type"
+    }
+  ],
   "items": [
     {
-      "title": "Google Renames NotebookLM as Gemini Notebook, Expanding Its Role Across Gemini",
-      "link": "https://dev.to/alifar/google-renames-notebooklm-as-gemini-notebook-expanding-its-role-across-gemini-2485",
-      "pubDate": "2026-08-04T19:50:30.000Z",
-      "description": "<p>Google has renamed NotebookLM as <a href=\"https://scalevise.com/resources/notebooklm/\" rel=\"noopener noreferrer\"><strong>Gemini Notebook</strong></a>, tying its source-grounded research workspace more closely to the wider Gemini ecosystem. The change is more than a new label: Google says notebook",
+      "title": "We Measured AI Code Drift Across 5 Tools and 210 Components. Frequency Alone Lied to Us.",
+      "link": "https://dev.to/gojongo/we-measured-ai-code-drift-across-5-tools-and-210-components-frequency-alone-lied-to-us-4g85",
+      "pubDate": "2026-08-05T03:29:17.000Z",
+      "description": "<p><em>Empirical research from ReWeaver AI. 42 identical prompts, across 5 tools and 8 production dimensions, compared to human baseline. One metric that changes how you see drift.</em></p> <p>Everyone knows AI-generated code has quality issues. What’s less understood is that the way most teams meas",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Tenía 100% de cobertura y aun así se cayó producción",
-      "link": "https://dev.to/rrondan/tenia-100-de-cobertura-y-aun-asi-se-cayo-produccion-43oc",
-      "pubDate": "2026-08-04T19:50:26.000Z",
-      "description": "<p>Hoy buena parte del código que entra a mis proyectos lo escribe un modelo. No es un experimento, es cómo trabajamos. Y eso me trajo una pregunta que antes casi no me hacía, porque el código lo escribía yo y más o menos sabía dónde estaban los huecos: si no escribí esto, ¿cómo sé que sirve?</p> <p",
+      "title": "Image Upload Moderation Beyond Node.js: Classify NSFW and Violence with Multimodal Chat",
+      "link": "https://dev.to/jamesanderson121/image-upload-moderation-beyond-nodejs-classify-nsfw-and-violence-with-multimodal-chat-2n47",
+      "pubDate": "2026-08-05T03:21:58.000Z",
+      "description": "<p>Use multimodal chat with a strict JSON schema when your policy needs explainable labels for uploaded images; otherwise reach for a managed, fixed-taxonomy service. There is no dedicated image moderation endpoint here, so the practical design is a policy prompt, a vision-capable chat model, schema",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Apache Polaris 1.7.0 and the Quiet Work of Making a Catalog Trustworthy",
-      "link": "https://dev.to/alexmercedcoder/apache-polaris-170-and-the-quiet-work-of-making-a-catalog-trustworthy-5bd3",
-      "pubDate": "2026-08-04T19:47:44.000Z",
-      "description": "<p>A Spark job commits a table update. The catalog writes the change to Postgres. Then the network drops between the catalog and the client, and the client never sees the response. The client does the sensible thing and retries. This time the catalog sees that the table has already moved past the ba",
+      "title": "Looking for Contributors to Build Zentrail IDE — An AI-Native Open Source Desktop IDE",
+      "link": "https://dev.to/menmengleap-org/looking-for-contributors-to-build-zentrail-ide-an-ai-native-open-source-desktop-ide-148b",
+      "pubDate": "2026-08-05T03:21:16.000Z",
+      "description": "<h1> Looking for Contributors to Build Zentrail IDE — An AI-Native Open Source Desktop IDE </h1> <p>Hello everyone! 👋</p> <p>I'm building <strong>Zentrail IDE</strong>, an open-source, AI-native desktop IDE designed for the next generation of software development.</p> <p>The goal isn't to build ano",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Waste: Tackling Massive AI Models with an Innovative Streaming Approach",
-      "link": "https://dev.to/dd8888/waste-tackling-massive-ai-models-with-an-innovative-streaming-approach-1nf1",
-      "pubDate": "2026-08-04T19:37:38.000Z",
-      "description": "<p>A new GitHub project titled \"Waste\" aims to tackle the challenges of running enormous AI models in environments with limited RAM. By leveraging a streaming mechanism to pull activated weights directly from NVMe storage, developers can execute the hefty 2.78-trillion-parameter Kimi K3 model withou",
+      "title": "AWS launches Kiro Crew for autonomous engineering teams",
+      "link": "https://dev.to/vpodk/aws-launches-kiro-crew-for-autonomous-engineering-teams-1o7m",
+      "pubDate": "2026-08-05T03:16:51.000Z",
+      "description": "<p>AWS introduced Kiro Crew on Tuesday as a new open-source orchestration platform. This tool aims to help businesses shift from interactive AI coding assistants toward autonomous engineering workflows. The system manages tasks across various repositories and developer tools over multiple work sessi",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The Day I Became a Bug Hunter",
-      "link": "https://dev.to/konark_13/the-day-i-became-a-bug-hunter-3e41",
-      "pubDate": "2026-08-04T19:33:21.000Z",
-      "description": "<p><em>This is a submission for <a href=\"https://dev.to/bugsmash\">DEV's Summer Bug Smash: Smash Stories</a> powered by <a href=\"https://sentry.io/\" rel=\"noopener noreferrer\">Sentry</a>.</em></p> <p>Did anyone ask for a bug hunter? No? Well, here I am.</p> <p><a href=\"https://media2.dev.to/dynamic/im",
+      "title": "Google ADK security flaws impact AI agent workflows",
+      "link": "https://dev.to/vpodk/google-adk-security-flaws-impact-ai-agent-workflows-5cg7",
+      "pubDate": "2026-08-05T03:16:40.000Z",
+      "description": "<p>Security vulnerabilities discovered in the GitHub repository for the Google Agent Development Kit for Python show how public AI agents can trigger unauthorized, high-privilege automation. These flaws allowed external contributors to manipulate code reviews and expose sensitive credentials. Google",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Top 7 Featured DEV Posts of the Week",
-      "link": "https://dev.to/devteam/top-7-featured-dev-posts-of-the-week-4pk2",
-      "pubDate": "2026-08-04T19:29:09.000Z",
-      "description": "<p><em>Welcome to this week's Top 7, where the DEV editorial team handpicks their favorite posts from the previous week (Saturday-Friday).</em></p> <p>Congrats to all the authors that made it onto the list 👏</p> <div class=\"ltag__link--embedded\"> <div class=\"crayons-story \"> <a href=\"https://dev.to",
+      "title": "GitHub releases stacked pull requests for public preview",
+      "link": "https://dev.to/vpodk/github-releases-stacked-pull-requests-for-public-preview-do6",
+      "pubDate": "2026-08-05T03:16:15.000Z",
+      "description": "<p>GitHub officially launched the public preview of stacked pull requests on July 30, providing a new way for software engineers to manage complex code updates. This feature enables developers to break down massive, monolithic changes into a sequential chain of smaller, dependent pull requests for b",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Building SwiftLoad Downloader: Go Meets Swift for Modern Downloads",
-      "link": "https://dev.to/pokemon_go/building-swiftload-downloader-go-meets-swift-for-modern-downloads-4gmk",
-      "pubDate": "2026-08-04T19:24:49.000Z",
-      "description": "<p>I recently released SwiftLoad Downloader, a fast, modern download manager built with Go and Swift.</p> <p>🔧 Tech stack:</p> <p>Go backend for protocol handling (HTTP, BitTorrent, Magnet, eD2k).</p> <p>Swift frontend for a polished, cross‑platform UI.</p> <p>🚀 Why it matters:</p> <p>Demonstrates",
+      "title": "An LLM described a website in detail. The website doesn't exist.",
+      "link": "https://dev.to/visibilityatlas/an-llm-described-a-website-in-detail-the-website-doesnt-exist-3ldp",
+      "pubDate": "2026-08-05T03:13:21.000Z",
+      "description": "<p>An LLM described a company's official website to me in detail: complete Simplified Chinese interface, pricing displayed in RMB marked \"tax not included\", China-specific terms of service, a localized privacy policy. It told me this site was \"the most important source\" for verifying the company's c",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I Spent $4 in AI Tokens to Avoid Buying a $10 HDMI Switch (And It Was Worth It)",
-      "link": "https://dev.to/shiv_garg_ec7172f9eeb7cff/i-spent-4-in-ai-tokens-to-avoid-buying-a-10-hdmi-switch-and-it-was-worth-it-1pem",
-      "pubDate": "2026-08-04T19:19:33.000Z",
-      "description": "<p><em>A journey into DDC/CI — the remote-control protocol that has been hiding inside your display cable for over twenty years, and how it turned my monitor into a KVM.</em></p> <h2> The desk that started it all </h2> <p>My setup looks ordinary: a MacBook Air open on the desk (my primary machine), ",
+      "title": "One Bug Hit 11 Rows. Another Hit 36 Million.",
+      "link": "https://dev.to/arthurtorres/one-bug-hit-11-rows-another-hit-36-million-lc0",
+      "pubDate": "2026-08-05T03:13:02.000Z",
+      "description": "<p>I built a predictive maintenance model on 37,164,054 telemetry records from an iron ore mine. Six months of alarms from haul trucks and excavators. The goal was to predict \"Don't Go\" events, the ones that stop a machine mid-operation, hours before they happen.</p> <p>Before any of that, I had to ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Investors in Situational Awareness deserved to lose their shirts",
-      "link": "https://www.economist.com/finance-and-economics/2026/08/04/investors-in-situational-awareness-deserved-to-lose-their-shirts",
-      "pubDate": "2026-08-04T19:18:35.000Z",
-      "description": "Article URL: https://www.economist.com/finance-and-economics/2026/08/04/investors-in-situational-awareness-deserved-to-lose-their-shirts Comments URL: https://news.ycombinator.com/item?id=49173576 Points: 32 # Comments: 34",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Building Enola, Part 2: From Source Code to an Architectural Fact Model",
-      "link": "https://dev.to/gert_/building-enola-part-2-from-source-code-to-an-architectural-fact-model-djm",
-      "pubDate": "2026-08-04T19:09:12.000Z",
-      "description": "<p>In Part 1, I explained why Enola extracts deterministic architectural facts before an AI agent begins reasoning.</p> <p>That leaves the next design question:</p> <p>How should those facts be represented?</p> <p>The obvious answer is to build a graph containing every symbol, dependency, route, ser",
+      "title": "Node.js Image API Experiment: Developer Experience, Docs, and Payload Contracts",
+      "link": "https://dev.to/colemitchell4991/nodejs-image-api-experiment-developer-experience-docs-and-payload-contracts-2gda",
+      "pubDate": "2026-08-05T03:11:55.000Z",
+      "description": "<h2> TL;DR </h2> <p>For a junior-friendly web app, I would choose the text-to-image API with the clearest REST request, stable documentation, and most predictable response format, not the longest model menu. My test is deliberately boring: can I validate one payload, make one generation call, preser",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Identifying the Processor of a Bare-Metal Binary (Strategy 2): Testing LLMs",
-      "link": "https://dev.to/ddupard/identifying-the-processor-of-a-bare-metal-binary-strategy-2-and-testing-llms-1i8n",
-      "pubDate": "2026-08-04T19:01:19.000Z",
-      "description": "<p>Industrializing the disassembly of an undocumented processor from a raw binary is a complex challenge that can be broken down into 4 main phases:</p> <ul> <li>Verify that the binary does not belong to an already known processor.</li> <li>Verify that the binary does not correspond to obfuscated, c",
+      "title": "Building Cinematic Depth in the Browser with Depth Anything V2 Small and WebGPU",
+      "link": "https://dev.to/martindelophy/building-cinematic-depth-in-the-browser-with-depth-anything-v2-small-and-webgpu-1k07",
+      "pubDate": "2026-08-05T03:08:09.000Z",
+      "description": "<h2> Introduction </h2> <p>We recently added <strong>Cinematic Depth</strong> to <a href=\"https://video-editor.ai-creator.top/\" rel=\"noopener noreferrer\">Timeline Studio</a>, an open-source browser video editor.</p> <p>The feature runs Depth Anything V2 Small through WebGPU, analyzes images and vide",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Stephen Wolfram's Wife Has Died",
-      "link": "https://writings.stephenwolfram.com/2026/08/in-memory-of-my-wife-elise-cawley-1961-2026-with-thanks-for-36-wonderful-years/",
-      "pubDate": "2026-08-04T18:51:38.000Z",
-      "description": "Article URL: https://writings.stephenwolfram.com/2026/08/in-memory-of-my-wife-elise-cawley-1961-2026-with-thanks-for-36-wonderful-years/ Comments URL: https://news.ycombinator.com/item?id=49173165 Points: 98 # Comments: 6",
+      "title": "After Losses, Retail Investors Flock to 3x Leverage as 2x Product Are Restricted",
+      "link": "https://www.asiae.co.kr/en/article/2026080416131786841",
+      "pubDate": "2026-08-05T01:34:26.000Z",
+      "description": "Article URL: https://www.asiae.co.kr/en/article/2026080416131786841 Comments URL: https://news.ycombinator.com/item?id=49177554 Points: 18 # Comments: 10",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Launch HN: EdotEnv (YC S26) – Quant Trading RL Envs to Teach LLMs Research",
-      "link": "https://edotenv.com/",
-      "pubDate": "2026-08-04T18:36:02.000Z",
-      "description": "We are Rui and Michael and we’re building EdotEnv (https://edotenv.com): self-improving RL environments from Quant Trading workflows.With all the benchmaxxing around, evals saturate and become meaningless for model comparison. Useful benchmarks should increase in difficulty as models advance. Back i",
+      "title": "Zigbee vs. Matter over Thread:Understanding IoT Protocol Performance in Practice",
+      "link": "https://arxiv.org/abs/2603.04221",
+      "pubDate": "2026-08-05T00:10:37.000Z",
+      "description": "Article URL: https://arxiv.org/abs/2603.04221 Comments URL: https://news.ycombinator.com/item?id=49176983 Points: 31 # Comments: 24",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Waymo – Dallas Open to All",
-      "link": "https://waymo.com/blog/shorts/dallas-open-to-all/",
-      "pubDate": "2026-08-04T18:29:41.000Z",
-      "description": "Article URL: https://waymo.com/blog/shorts/dallas-open-to-all/ Comments URL: https://news.ycombinator.com/item?id=49172836 Points: 45 # Comments: 35",
+      "title": "Bugtraq Is Back",
+      "link": "https://lists.securityfocus.com/hyperkitty/list/bugtraq@securityfocus.com/thread/CHKLXLA7SJEWLDFHWXB3QU57ADOXGL2E/",
+      "pubDate": "2026-08-05T00:05:49.000Z",
+      "description": "Article URL: https://lists.securityfocus.com/hyperkitty/list/bugtraq@securityfocus.com/thread/CHKLXLA7SJEWLDFHWXB3QU57ADOXGL2E/ Comments URL: https://news.ycombinator.com/item?id=49176947 Points: 29 # Comments: 6",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Web security is too hard",
-      "link": "https://textslashplain.com/2026/08/04/security-is-hard-yall/",
-      "pubDate": "2026-08-04T18:29:32.000Z",
-      "description": "Article URL: https://textslashplain.com/2026/08/04/security-is-hard-yall/ Comments URL: https://news.ycombinator.com/item?id=49172834 Points: 106 # Comments: 38",
+      "title": "Flowise Is Shutting Down",
+      "link": "https://flowiseai.com/sunset",
+      "pubDate": "2026-08-05T00:02:40.000Z",
+      "description": "Article URL: https://flowiseai.com/sunset Comments URL: https://news.ycombinator.com/item?id=49176920 Points: 24 # Comments: 11",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Blackmail Fail (2013)",
-      "link": "https://gwern.net/blackmail",
-      "pubDate": "2026-08-04T18:11:09.000Z",
-      "description": "Article URL: https://gwern.net/blackmail Comments URL: https://news.ycombinator.com/item?id=49172597 Points: 12 # Comments: 1",
+      "title": "Eight Myths on Software Engineering and GenAI",
+      "link": "https://queue.acm.org/detail.cfm?id=3807963",
+      "pubDate": "2026-08-04T23:50:52.000Z",
+      "description": "Article URL: https://queue.acm.org/detail.cfm?id=3807963 Comments URL: https://news.ycombinator.com/item?id=49176830 Points: 102 # Comments: 60",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Why some people mow a lawn better than others",
-      "link": "https://pudding.cool/2026/06/mow/",
-      "pubDate": "2026-08-04T18:06:12.000Z",
-      "description": "Article URL: https://pudding.cool/2026/06/mow/ Comments URL: https://news.ycombinator.com/item?id=49172550 Points: 77 # Comments: 69",
+      "title": "IP and DNS Leaks in WebKit Affecting Proxy Browsers and iCloud Private Relay",
+      "link": "https://mysk.blog/2026/08/04/webkit-proxy-icloud-private-relay-ip-leak/",
+      "pubDate": "2026-08-04T23:31:46.000Z",
+      "description": "Article URL: https://mysk.blog/2026/08/04/webkit-proxy-icloud-private-relay-ip-leak/ Comments URL: https://news.ycombinator.com/item?id=49176697 Points: 53 # Comments: 7",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Hop.earth – OpenStreetMap based car racing game",
-      "link": "https://hop.earth/?server=lkhr7&amp;route=fQ5nuu9R",
-      "pubDate": "2026-08-04T17:55:19.000Z",
-      "description": "Article URL: https://hop.earth/?server=lkhr7&route=fQ5nuu9R Comments URL: https://news.ycombinator.com/item?id=49172405 Points: 37 # Comments: 23",
+      "title": "Pass the Passkey: A Novel Attack Surface in Passwordless Authentication",
+      "link": "https://unit42.paloaltonetworks.com/passwordless-authentication-security-risks/",
+      "pubDate": "2026-08-04T23:22:37.000Z",
+      "description": "Article URL: https://unit42.paloaltonetworks.com/passwordless-authentication-security-risks/ Comments URL: https://news.ycombinator.com/item?id=49176644 Points: 45 # Comments: 38",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Vlt 1.0 and Hosted Package Registries",
-      "link": "https://www.vlt.io/blog/1-0",
-      "pubDate": "2026-08-04T17:43:55.000Z",
-      "description": "Article URL: https://www.vlt.io/blog/1-0 Comments URL: https://news.ycombinator.com/item?id=49172251 Points: 37 # Comments: 7",
+      "title": "FIPS 140-3 is not a security guarantee, and auditors know it",
+      "link": "https://808bits.com/articles/fips-140-3-not-a-security-guarantee/",
+      "pubDate": "2026-08-04T23:21:33.000Z",
+      "description": "Article URL: https://808bits.com/articles/fips-140-3-not-a-security-guarantee/ Comments URL: https://news.ycombinator.com/item?id=49176634 Points: 32 # Comments: 18",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "What's Behind the Sharp Drop in Labor Force Participation?",
-      "link": "https://www.stlouisfed.org/on-the-economy/2026/aug/what-is-behind-sharp-drop-labor-force-participation",
-      "pubDate": "2026-08-04T17:37:17.000Z",
-      "description": "Article URL: https://www.stlouisfed.org/on-the-economy/2026/aug/what-is-behind-sharp-drop-labor-force-participation Comments URL: https://news.ycombinator.com/item?id=49172159 Points: 15 # Comments: 17",
+      "title": "libexpat now funded by the City of Munich for up to 6 months",
+      "link": "https://blog.hartwork.org/posts/libexpat-city-of-munich-open-source-sabbatical/",
+      "pubDate": "2026-08-04T23:18:12.000Z",
+      "description": "Article URL: https://blog.hartwork.org/posts/libexpat-city-of-munich-open-source-sabbatical/ Comments URL: https://news.ycombinator.com/item?id=49176606 Points: 172 # Comments: 16",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Gap Decorations Are Now Available, Here’s What’s New",
-      "link": "https://css-tricks.com/css-gap-decorations-now-available/",
-      "pubDate": "2026-08-03T15:53:20.000Z",
-      "description": "Today, with CSS gap decorations fully supported in Chrome and Edge, starting with version 149, you can now very easily style gaps, and with a lot of control. Gap Decorations Are Now Available, Here’s What’s New originally handwritten and published with love on CSS-Tricks. You should really get the n",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Get Ready For the Powerful CSS border-shape Property!",
-      "link": "https://css-tricks.com/get-ready-for-the-powerful-css-border-shape-property/",
-      "pubDate": "2026-07-31T15:14:00.000Z",
-      "description": "We recently got the shape() function and corner-shape property. What else could we possibly need as far as making shapes in CSS? Let me tell you: the border-shape property! Get Ready For the Powerful CSS border-shape Property! originally handwritten and published with love on CSS-Tricks. You should ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "What’s !important #16: sibling-index() Animations, Use Cases for the infinity Keyword, Container Stuck Queries, and More",
-      "link": "https://css-tricks.com/whats-important-16/",
-      "pubDate": "2026-07-31T14:06:21.000Z",
-      "description": "The soon-Baseline sibling-index() function for animations, CSS and the 2026 FIFA World Cup, use cases for the infinity keyword, container \"stuck\" queries, and more. What’s !important #16: sibling-index() Animations, Use Cases for the infinity Keyword, Container Stuck Queries, and More originally han",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "writing-mode",
-      "link": "https://css-tricks.com/almanac/properties/w/writing-mode/",
-      "pubDate": "2026-07-21T09:39:10.000Z",
-      "description": "The writing-mode CSS property sets whether lines of text are laid out horizontally or vertically, and the direction in which blocks and lines progress. .element { writing-mode: vertical-rl; } This is most useful in languages such as Chinese, Japanese or … writing-mode originally handwritten and publ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "pointer-events",
-      "link": "https://css-tricks.com/almanac/properties/p/pointer-events/",
-      "pubDate": "2026-07-15T19:57:51.000Z",
-      "description": "The pointer-events property controls whether an element can become the target of pointer events like clicks, hover states, and other pointer-based events. In other words, it lets you decide whether the browser should treat an element as interactive when the … pointer-events originally handwritten an",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "What’s !important #15: Boundary-aware CSS, Time-based CSS, Full-bleed CSS, and More",
-      "link": "https://css-tricks.com/whats-important-15/",
-      "pubDate": "2026-07-14T14:36:18.000Z",
-      "description": "Read all about boundary-aware CSS, accessible grid lanes, time-based web designs, full-bleed, the customizable select, and new web platform features. What’s !important #15: Boundary-aware CSS, Time-based CSS, Full-bleed CSS, and More originally handwritten and published with love on CSS-Tricks. You ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "What’s !important #14: Gap Decorations, random(), &#060;select&gt; field-sizing, and More",
-      "link": "https://css-tricks.com/whats-important-14/",
-      "pubDate": "2026-06-30T13:54:14.000Z",
-      "description": "I know you’re busy, so for What’s !important #14, I’ll be sprinting through what’s been a stacked couple of weeks despite few browser updates. From CSS Quake to CSS Gap Decorations, this isn’t one to miss! What’s !important #14: Gap Decorations, random(), <select> field-sizing, and More originally h",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "The Shifting Line Between CSS States and JavaScript Events",
-      "link": "https://css-tricks.com/css-states-and-javascript-events/",
-      "pubDate": "2026-06-29T13:03:32.000Z",
-      "description": "CSS has always had pseudo-classes that style things based on user interactions. Recent features, however, are blurring the line between what CSS \"listens\" for and how they are alternatives to what Javascript typically listens for. The Shifting Line Between CSS States and JavaScript Events originally",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translateZ()",
-      "link": "https://css-tricks.com/almanac/functions/t/translatez/",
-      "pubDate": "2026-06-25T13:18:56.000Z",
-      "description": "The translateZ() function moves an element closer to or farther from the user. translateZ() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translateY()",
-      "link": "https://css-tricks.com/almanac/functions/t/translatey/",
-      "pubDate": "2026-06-25T13:17:56.000Z",
-      "description": "The translateY() function shifts an element vertically by the specified amount. translateY() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
+      "title": "Show HN: SIMD Viterbi Decoder in Rust",
+      "link": "https://github.com/brian-armstrong/fec",
+      "pubDate": "2026-08-04T22:37:05.000Z",
+      "description": "I wrote libcorrect in C in 2016 and wanted to revisit it in Rust. Instead of doing just a direct conversion, I went down the rabbit hole of making Rust's std::simd work for me. I ended up with a templated, generic Viterbi decoder for convolutional codes that dispatches the decode at runtime dependin",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "Meet the HTB Profile: all your skills, in one place",
