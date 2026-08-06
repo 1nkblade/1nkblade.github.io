@@ -1,102 +1,150 @@
 {
-  "generatedAt": "2026-08-05T19:55:08.710Z",
+  "generatedAt": "2026-08-06T03:38:27.238Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "Thumbnail Architecture for Small SaaS: Object Storage, Image CDN, or Resize on Upload?",
-      "link": "https://dev.to/liamfoster1844/thumbnail-architecture-for-small-saas-object-storage-image-cdn-or-resize-on-upload-2jdj",
-      "pubDate": "2026-08-05T19:43:59.000Z",
-      "description": "<p>Bottom line: for a beginner SaaS, put originals in object storage and have a backend worker write each thumbnail as a separate object with a deterministic key; don't make edge transformation or synchronous resize-on-upload part of the first critical path.</p> <p>This is the boring design, which i",
+      "title": "AWS Summit Bogotá 2026: Paradigmas agénticos, resiliencia multirregión y seguridad declarativa",
+      "link": "https://dev.to/djhuertasg/aws-summit-bogota-2026-paradigmas-agenticos-resiliencia-multirregion-y-seguridad-declarativa-3fmn",
+      "pubDate": "2026-08-06T03:28:48.000Z",
+      "description": "<p>El AWS Summit Bogotá 2026 mostró que la infraestructura en la nube es cada vez más un entorno dominado por agentes autónomos, esquemas de seguridad multi-capa y modelos de resiliencia avanzada. En este post entregó un resumen de los temas que pude observar y que comparto con ustedes.</p> <h2> Eco",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Enterprise MCP Gateway with Built-In Security: OAuth 2.0, RBAC, and Tool Access Control",
-      "link": "https://dev.to/anthonymax/enterprise-mcp-gateway-with-built-in-security-oauth-20-rbac-and-tool-access-control-68n",
-      "pubDate": "2026-08-05T19:41:55.000Z",
-      "description": "<h2> TL;DR </h2> <p>MCP servers are powerful, but they can expose production systems if anyone on the team can connect and run tools without guardrails.</p> <p>Imagine a new hire testing the app on their laptop and accidentally granting an MCP server access to the production database. Without govern",
+      "title": "The Rise of Mini PCs: Are Traditional Desktops Losing Their Place?",
+      "link": "https://dev.to/jeronimo_azalot/why-mini-pcs-could-be-the-future-of-desktop-computing-gld",
+      "pubDate": "2026-08-06T03:07:55.000Z",
+      "description": "<p>For decades, desktop computers followed a familiar formula: a large case, powerful components, dedicated graphics cards, and plenty of space for upgrades.</p> <p>But the way we use computers is changing.</p> <p>Today, many users are looking for something different: a computer that is powerful eno",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "AirLLM: Running 70B Parameter LLMs on a Single 4GB GPU",
-      "link": "https://dev.to/terminalchai/airllm-running-70b-parameter-llms-on-a-single-4gb-gpu-3730",
-      "pubDate": "2026-08-05T19:41:08.000Z",
-      "description": "<h2> Low-Memory LLM Inference: Meet AirLLM </h2> <p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fuzddle5rn0yr0xfxckrt.png\" class=\"article-body-image-wrappe",
+      "title": "Beyond Borders: Building the Technology for a Caribbean Regional Stock Exchange",
+      "link": "https://dev.to/xbze3/beyond-borders-building-the-technology-for-a-caribbean-regional-stock-exchange-20j9",
+      "pubDate": "2026-08-06T02:55:27.000Z",
+      "description": "<p>On July 27, 2026, the Caribbean Development Bank announced that it had approved a US$100,000 grant to the CARICOM Private Sector Organization to support the first phase of a study examining the feasibility and possible design of a regional stock exchange for participating states of the CARICOM Si",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Left Brain vs Right Brain in Trading: What Science Says",
-      "link": "https://dev.to/shaktitiwari/left-brain-vs-right-brain-in-trading-what-science-says-758",
-      "pubDate": "2026-08-05T19:32:11.000Z",
-      "description": "<h2> Why your trading losses might not be strategy failures — they could be brain mismatches </h2> <p>I failed at trading for 18 months. Not because my strategies were bad. Because I was using a right-brain strategy with a left-brain execution style.</p> <p>Then I discovered neuroscience research on",
+      "title": "EU AI Act Four Risk Levels: What Developers and Enterprises Need to Know",
+      "link": "https://dev.to/alifar/eu-ai-act-four-risk-levels-what-developers-and-enterprises-need-to-know-1pni",
+      "pubDate": "2026-08-06T02:50:30.000Z",
+      "description": "<p>The European Union's AI Act establishes a <strong>risk-based framework for AI systems</strong> that ranges from prohibited practices to minimal-risk uses. Regulation (EU) 2024/1689 divides the framework into four levels: unacceptable risk, high risk, limited risk and minimal risk. For AI develope",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "General Challenge Updates Moving Forward",
-      "link": "https://dev.to/thepracticaldev/general-challenge-updates-moving-forward-5h39",
-      "pubDate": "2026-08-05T19:27:14.000Z",
-      "description": "<p>Hey all, as part of our expanding challenge program we want to update and clarify some challenge requirements moving forward. First off, we want to express our gratitude for the dedication and effort you have put into your submissions. This has been one of our busiest years yet in terms of challe",
+      "title": "COLDCARD Audit Phishing: 25.7MB Batch File Embeds ScreenConnect and Uses Chat to Trick Admins into Running It",
+      "link": "https://dev.to/anoymask/coldcard-audit-phishing-257mb-batch-file-embeds-screenconnect-and-uses-chat-to-trick-admins-into-3o35",
+      "pubDate": "2026-08-06T02:50:02.000Z",
+      "description": "<h1> COLDCARD Audit Phishing: 25.7MB Batch File Embeds ScreenConnect and Uses Chat to Trick Admins into Running It </h1> <h2> 1. Basic Information </h2> <ul> <li> <strong>Article Title</strong>: COLDCARD security audit phishing attack installs remote access tool</li> <li> <strong>Publisher</strong>:",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Understanding Bug Reports",
-      "link": "https://dev.to/steve12/understanding-bug-reports-1l0k",
-      "pubDate": "2026-08-05T19:20:48.000Z",
-      "description": "<p>If you are new in the QA space, you may not really know what a bug report is. While this is a common term, many fail to dissect what it really is and what an effective bug report should really look like. In this blog we discuss everything you need to know about bug reports.</p> <p>A <strong>bug r",
+      "title": "Langflow CVE-2026-9198: Active Exploitation RCE via Auto-Login Superuser Token and Code Validator `exec()` Chain",
+      "link": "https://dev.to/anoymask/langflow-cve-2026-9198-active-exploitation-rce-via-auto-login-superuser-token-and-code-validator-2ga1",
+      "pubDate": "2026-08-06T02:49:30.000Z",
+      "description": "<h1> Langflow CVE-2026-9198: Active Exploitation RCE via Auto-Login Superuser Token and Code Validator <code>exec()</code> Chain </h1> <h2> 1. Basic Information </h2> <ul> <li> <strong>Article Title</strong>: CISA warns of hackers exploiting Langflow, N-central, Apache Tomcat flaws</li> <li> <strong",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Best Amazon Redshift alternatives (2026) for real-time analytics: cost, tuning, and latency",
-      "link": "https://dev.to/dataengineeringguide/redshift-alternatives-2026-2k6n",
-      "pubDate": "2026-08-05T19:18:28.000Z",
-      "description": "<p>Amazon Redshift is an AWS-native cloud data warehouse for batch BI, reporting, and large analytical workloads. The question in 2026 is not whether Redshift still works. It is whether its execution model, scaling controls, and billing mechanics fit workloads that now require continuous ingestion, ",
+      "title": "claude -p: what headless Claude Code actually loads (and when --bare is the right call)",
+      "link": "https://dev.to/rulestack/claude-p-what-headless-claude-code-actually-loads-and-when-bare-is-the-right-call-182c",
+      "pubDate": "2026-08-06T02:48:17.000Z",
+      "description": "<p>You wire <code>claude -p</code> into a script, it works, and then the usage numbers make no sense: a one-line prompt cost as much as a whole working session. We hit this running Claude Code on a schedule — a cold <code>claude -p</code> in our repo root burned roughly <strong>150,000 tokens before",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "khunt: SQL Injection to Resident Threat Inside Oracle Database Stealing Credentials with SYSTEM Privileges",
+      "link": "https://dev.to/anoymask/khunt-sql-injection-to-resident-threat-inside-oracle-database-stealing-credentials-with-system-431j",
+      "pubDate": "2026-08-06T02:47:27.000Z",
+      "description": "<h1> khunt: SQL Injection to Resident Threat Inside Oracle Database Stealing Credentials with SYSTEM Privileges </h1> <h2> 1. Basic Information </h2> <ul> <li> <strong>Article Title</strong>: Inside an Oracle Database SQL Injection Attack</li> <li> <strong>Publisher</strong>: Huntress</li> <li> <str",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Two gotchas when your Laravel app shells out to a CLI",
+      "link": "https://dev.to/nasrulhazim/two-gotchas-when-your-laravel-app-shells-out-to-a-cli-2n2l",
+      "pubDate": "2026-08-06T02:45:26.000Z",
+      "description": "<h2> TL;DR </h2> <ul> <li>If a web request shells out to a slow CLI (<code>docker</code>, <code>kubectl</code>, <code>rsync</code>…), move it to a <strong>queued job</strong> — PHP-FPM/nginx will kill it at ~30s anyway.</li> <li>Processes spawned from an HTTP worker inherit <strong>almost no environ",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Dev Log: 2026-08-05 — reverse proxies, email journeys, and a tenant that wasn't there",
+      "link": "https://dev.to/nasrulhazim/dev-log-2026-08-05-reverse-proxies-email-journeys-and-a-tenant-that-wasnt-there-1o9b",
+      "pubDate": "2026-08-06T02:45:25.000Z",
+      "description": "<h2> TL;DR </h2> <ul> <li>On a deployment platform: added a real <strong>nginx reverse-proxy tier</strong> with health gating, provider <strong>capability enforcement</strong>, a standard blueprint library, and release <strong>rollback</strong>.</li> <li>On a CRM app: shipped <strong>email automatio",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Nashville uses eminent domain to block data center near zoo",
+      "link": "https://www.costar.com/article/970809918/nashville-council-approves-eminent-domain-action-to-halt-data-center-project",
+      "pubDate": "2026-08-06T02:15:14.000Z",
+      "description": "Article URL: https://www.costar.com/article/970809918/nashville-council-approves-eminent-domain-action-to-halt-data-center-project Comments URL: https://news.ycombinator.com/item?id=49191624 Points: 58 # Comments: 40",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "LLMs won't break symmetric crypto",
+      "link": "https://www.bfswa.blog/p/llms-wont-break-symmetric-crypto",
+      "pubDate": "2026-08-06T01:39:06.000Z",
+      "description": "Article URL: https://www.bfswa.blog/p/llms-wont-break-symmetric-crypto Comments URL: https://news.ycombinator.com/item?id=49191365 Points: 43 # Comments: 31",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "The title cards in Blade Runner are amazing",
+      "link": "https://randsinrepose.com/archives/blade-runner-title-cards/",
+      "pubDate": "2026-08-05T21:29:23.000Z",
+      "description": "Article URL: https://randsinrepose.com/archives/blade-runner-title-cards/ Comments URL: https://news.ycombinator.com/item?id=49189287 Points: 175 # Comments: 76",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "NVIDIA’s Vera Whitepaper Has a Thread Loose",
+      "link": "https://chipsandcheese.com/p/nvidias-vera-whitepaper-has-a-thread",
+      "pubDate": "2026-08-05T21:24:45.000Z",
+      "description": "Article URL: https://chipsandcheese.com/p/nvidias-vera-whitepaper-has-a-thread Comments URL: https://news.ycombinator.com/item?id=49189234 Points: 98 # Comments: 14",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "I'll be stepping back from leading product for X",
+      "link": "https://twitter.com/nikitabier/status/2085105586966827343/",
+      "pubDate": "2026-08-05T21:15:40.000Z",
+      "description": "https://xcancel.com/nikitabier/status/2085105586966827343/ Comments URL: https://news.ycombinator.com/item?id=49189113 Points: 81 # Comments: 123",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Prime Agent: A self-improving RLM agent",
+      "link": "https://www.primeintellect.ai/blog/prime-agent",
+      "pubDate": "2026-08-05T21:11:57.000Z",
+      "description": "Article URL: https://www.primeintellect.ai/blog/prime-agent Comments URL: https://news.ycombinator.com/item?id=49189075 Points: 119 # Comments: 20",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "I'm switching my phone from Android to Linux",
+      "link": "https://runarcn.no/android-to-linux/",
+      "pubDate": "2026-08-05T19:50:13.000Z",
+      "description": "Article URL: https://runarcn.no/android-to-linux/ Comments URL: https://news.ycombinator.com/item?id=49188022 Points: 238 # Comments: 193",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "Muse Code and Muse Spark 1.2",
       "link": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2",
       "pubDate": "2026-08-05T19:15:52.000Z",
-      "description": "Article URL: https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2 Comments URL: https://news.ycombinator.com/item?id=49187575 Points: 24 # Comments: 11",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Good QA Systems Reduce Ambiguity",
-      "link": "https://dev.to/sleepyfalcon247/good-qa-systems-reduce-ambiguity-1dci",
-      "pubDate": "2026-08-05T19:12:01.000Z",
-      "description": "<p>A lot of QA work is not really test execution.</p> <p>It is ambiguity management.</p> <p>What does this requirement mean?</p> <p>Is this visual difference intentional?</p> <p>Did the test fail because of the product, data, browser, or test code?</p> <p>Does this issue block the release?</p> <p>Wh",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "My smart-contract scanner reports almost nothing — and that's the whole point",
-      "link": "https://dev.to/juan23z/my-smart-contract-scanner-reports-almost-nothing-and-thats-the-whole-point-1gkk",
-      "pubDate": "2026-08-05T19:09:48.000Z",
-      "description": "<p>Most Solidity security tools have the same failure mode: they cry wolf. You run them on an audited protocol and get 600 \"findings,\" 98% of which are noise. The signal drowns. Worse — send a client a report full of false positives once, and you've burned your credibility.</p> <p>I've been building",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "The Framework Tax Is a Product Decision",
-      "link": "https://dev.to/mellowthunder735/the-framework-tax-is-a-product-decision-51b5",
-      "pubDate": "2026-08-05T19:07:15.000Z",
-      "description": "<p>A few years ago, the default test automation decision was mostly technical.</p> <p>Do we use Selenium? Which language? Where do we run the grid?</p> <p>Today, the menu is much larger. You can write Playwright tests, ask Claude to generate them, use an AI-first testing platform, or combine several",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Sula: A Gemini protocol server written in Scryer Prolog",
-      "link": "https://sagredo.dev/projects/sula/",
-      "pubDate": "2026-08-05T18:52:58.000Z",
-      "description": "Article URL: https://sagredo.dev/projects/sula/ Comments URL: https://news.ycombinator.com/item?id=49187259 Points: 7 # Comments: 0",
+      "description": "Article URL: https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2 Comments URL: https://news.ycombinator.com/item?id=49187575 Points: 200 # Comments: 116",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -104,15 +152,7 @@
       "title": "Zed DeltaDB",
       "link": "https://zed.dev/deltadb",
       "pubDate": "2026-08-05T18:52:54.000Z",
-      "description": "Article URL: https://zed.dev/deltadb Comments URL: https://news.ycombinator.com/item?id=49187256 Points: 85 # Comments: 17",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "What happens if you put work into the second dimension?",
-      "link": "https://norbertkozsir.com/posts/work-in-the-second-dimension/",
-      "pubDate": "2026-08-05T18:39:31.000Z",
-      "description": "Article URL: https://norbertkozsir.com/posts/work-in-the-second-dimension/ Comments URL: https://news.ycombinator.com/item?id=49187084 Points: 4 # Comments: 0",
+      "description": "Article URL: https://zed.dev/deltadb Comments URL: https://news.ycombinator.com/item?id=49187256 Points: 328 # Comments: 173",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -120,47 +160,7 @@
       "title": "Born Against, or why hobby programming communities are against LLM usage",
       "link": "https://blog.fogus.me/llm/born-against.html",
       "pubDate": "2026-08-05T18:37:49.000Z",
-      "description": "Article URL: https://blog.fogus.me/llm/born-against.html Comments URL: https://news.ycombinator.com/item?id=49187061 Points: 59 # Comments: 52",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Microsoft's AI Sales Mostly Come from OpenAI, Disclosures Show",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-05/microsoft-s-ai-sales-mostly-come-from-openai-disclosures-show",
-      "pubDate": "2026-08-05T18:19:10.000Z",
-      "description": "https://www.bloomberg.com/news/articles/2026-08-05/microsoft... Comments URL: https://news.ycombinator.com/item?id=49186766 Points: 44 # Comments: 9",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Beating GPT-5.6 Sol on retrieval with 100x cheaper open models",
-      "link": "https://neon.com/blog/how-castform-neon-beats-frontier-models-on-price-and-efficiency",
-      "pubDate": "2026-08-05T18:18:56.000Z",
-      "description": "Article URL: https://neon.com/blog/how-castform-neon-beats-frontier-models-on-price-and-efficiency Comments URL: https://news.ycombinator.com/item?id=49186762 Points: 66 # Comments: 12",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Show HN: ClickBench Playground – a playground for 110 database systems",
-      "link": "https://benchmark.clickhouse.com/playground/",
-      "pubDate": "2026-08-05T18:17:35.000Z",
-      "description": "I created it mostly for testing and exploration, but the main reason was that it became possible after previous work. Comments URL: https://news.ycombinator.com/item?id=49186732 Points: 3 # Comments: 1",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Sycophantic AI Decreases Prosocial Intentions and Promotes Dependence (2025)",
-      "link": "https://arxiv.org/abs/2510.01395",
-      "pubDate": "2026-08-05T18:17:03.000Z",
-      "description": "Article URL: https://arxiv.org/abs/2510.01395 Comments URL: https://news.ycombinator.com/item?id=49186720 Points: 21 # Comments: 8",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Atlassian Rovo Exfiltrates Data, Bypassing Controls",
-      "link": "https://www.promptarmor.com/resources/atlassian-rovo-exfiltrates-data",
-      "pubDate": "2026-08-05T17:23:25.000Z",
-      "description": "Article URL: https://www.promptarmor.com/resources/atlassian-rovo-exfiltrates-data Comments URL: https://news.ycombinator.com/item?id=49185983 Points: 63 # Comments: 17",
+      "description": "Article URL: https://blog.fogus.me/llm/born-against.html Comments URL: https://news.ycombinator.com/item?id=49187061 Points: 157 # Comments: 157",
       "source": "Hacker News",
       "category": "Tech News"
     },
