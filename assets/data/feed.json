@@ -1,248 +1,173 @@
 {
-  "generatedAt": "2026-08-06T14:39:49.295Z",
+  "generatedAt": "2026-08-07T00:15:47.645Z",
   "sourceCount": 4,
-  "successCount": 4,
-  "errors": [],
+  "successCount": 3,
+  "errors": [
+    {
+      "source": "CSS Tricks",
+      "error": "HTTP 415 Unsupported Media Type"
+    }
+  ],
   "items": [
     {
-      "title": "Why Robotic Pollinators Must Learn to Hesitate",
-      "link": "https://dev.to/jsb-securedme/why-robotic-pollinators-must-learn-to-hesitate-2il1",
-      "pubDate": "2026-08-06T14:23:51.000Z",
-      "description": "<p><strong>Full research white paper:</strong> <a href=\"https://drive.google.com/file/d/1QdXg--6fn8W1S-U_kC9mcKlLf2JNQvpE/view?usp=sharing\" rel=\"noopener noreferrer\">https://drive.google.com/file/d/1QdXg--6fn8W1S-U_kC9mcKlLf2JNQvpE/view?usp=sharing</a><br><br> <strong>Companion podcast:</strong> <a ",
+      "title": "I built 623 web tools with AI. Ad revenue: about $0.07 a day. A post-mortem with real Search Console data",
+      "link": "https://dev.to/mxhlix/i-built-623-web-tools-with-ai-ad-revenue-about-007-a-day-a-post-mortem-with-real-search-275a",
+      "pubDate": "2026-08-07T00:04:22.000Z",
+      "description": "<p>Numbers first.</p> <ul> <li>What I built: 623 browser-based web tools × 5 languages (ja/en/es/fr/pt)</li> <li>How: an AI-driven generation pipeline, nearly fully automated</li> <li>Current ad revenue: <strong>about $0.07 per day</strong> (roughly ¥10)</li> <li>Times a Google update wiped out my s",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Agent Memory in TypeScript: Short-Term, Long-Term, and What to Throw Away",
-      "link": "https://dev.to/gabrielanhaia/agent-memory-in-typescript-short-term-long-term-and-what-to-throw-away-303b",
-      "pubDate": "2026-08-06T14:20:42.000Z",
-      "description": "<ul> <li> <strong>Book:</strong> <a href=\"https://www.amazon.com/dp/B0HBXFXMDT\" rel=\"noopener noreferrer\">AI That Plans</a> </li> <li> <strong>The series:</strong> <em>AI in TypeScript</em> — 5 books, from your first LLM call to agents in production — <a href=\"https://xgabriel.com/ai-in-typescript\" ",
+      "title": "22.05kHz vs 44.1kHz — What's the Difference Between 'True Broadband' and Upsampling?",
+      "link": "https://dev.to/orca_forge/2205khz-vs-441khz-whats-the-difference-between-true-broadband-and-upsampling-3lhl",
+      "pubDate": "2026-08-07T00:02:22.000Z",
+      "description": "<blockquote> <p>📝 Originally published (in Japanese) at <a href=\"https://forge.workstyle.tech/blog/true-44khz-vs-upsampling-voice/?utm_source=devto&amp;utm_medium=crosspost&amp;utm_campaign=true-44khz-vs-upsampling-voice\" rel=\"noopener noreferrer\">forge.workstyle.tech</a>.</p> </blockquote> <p>When",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Citations That Survive a TypeScript Refactor",
-      "link": "https://dev.to/gabrielanhaia/citations-that-survive-a-typescript-refactor-5e0p",
-      "pubDate": "2026-08-06T14:18:32.000Z",
-      "description": "<ul> <li> <strong>Book:</strong> <a href=\"https://www.amazon.com/dp/B0HBNJJRD9\" rel=\"noopener noreferrer\">AI That Reads</a> </li> <li> <strong>The series:</strong> <em>AI in TypeScript</em> — 5 books, from your first LLM call to agents in production — <a href=\"https://xgabriel.com/ai-in-typescript\" ",
+      "title": "Refactoring Safely: A Step-by-Step Guide",
+      "link": "https://dev.to/codeatlas/refactoring-safely-a-step-by-step-guide-17b5",
+      "pubDate": "2026-08-07T00:01:55.000Z",
+      "description": "<h2> Refactoring Safely: A Step-by-Step Guide </h2> <p>Refactoring is like renovating a house: you want to improve the structure without breaking the plumbing. Done carelessly, it can introduce bugs and chaos. Done methodically, it makes your code cleaner and more maintainable. Here's how I approach",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How to Make Your App Look Good When You’re Not a Designer",
-      "link": "https://dev.to/imforja/how-to-make-your-app-look-good-when-youre-not-a-designer-4di9",
-      "pubDate": "2026-08-06T14:12:41.000Z",
-      "description": "<blockquote> <p>I know what my app needs to do, but I don't know what it should look like.</p> </blockquote> <p>When we build a new app, we often know exactly what it needs to do. We know what information users need and which actions they need to take. But those requirements don't tell us how to org",
+      "title": "A Turn-Based Multiplayer Server That Fits in One PHP File",
+      "link": "https://dev.to/paulcrinigan/a-turn-based-multiplayer-server-that-fits-in-one-php-file-15l6",
+      "pubDate": "2026-08-07T00:00:34.000Z",
+      "description": "<p>Adding online play to a turn-based game usually stalls on infrastructure rather than on gameplay. The moment you decide two people should be able to play your chess or card game from different machines, the conversation turns into websockets, a persistent process, a host that will keep that proce",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "This is a submission for [Frontend Challenge - Comfort Food Edition, Perfect Landing] 😊",
-      "link": "https://dev.to/edmundsparrow/this-is-a-submission-for-frontend-challenge-comfort-food-edition-perfect-landing-1p8c",
-      "pubDate": "2026-08-06T14:08:13.000Z",
-      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Feke1zapj9mh63gqwdg8u.png\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/",
+      "title": "Build a Circuit Breaker Pattern in Python",
+      "link": "https://dev.to/qingluan/build-a-circuit-breaker-pattern-in-python-17b5",
+      "pubDate": "2026-08-07T00:00:10.000Z",
+      "description": "<h1> Build a Circuit Breaker Pattern in Python </h1> <p>tags: python, architecture, tutorial, programming</p> <p>tags: python, git, devops, tools</p> <p>tags: python, git, devops, tools</p> <p>tags: python, devops, architecture, tutorial</p> <p>tags: python, devops, architecture, tutorial</p> <p>tag",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "4,407 Rockwell PLCs Sit on the Public Internet, 22 in Cities Hit by Water Utility Attacks",
-      "link": "https://dev.to/etairos/4407-rockwell-plcs-sit-on-the-public-internet-22-in-cities-hit-by-water-utility-attacks-5337",
-      "pubDate": "2026-08-06T14:05:13.000Z",
-      "description": "<h2> TL;DR </h2> <ul> <li> <strong>what:</strong> Forescout's August 3 scan found 4,407 internet-facing Rockwell PLCs worldwide, including 22 in US cities where water utilities reported attacks since July 27.</li> </ul> <p>Forescout scanned the internet on August 3 and counted 4,407 exposed Rockwell",
+      "title": "The Quota Said 100% Used. Actual Demand Was 13%.",
+      "link": "https://dev.to/hexisteme/the-quota-said-100-used-actual-demand-was-13-43pg",
+      "pubDate": "2026-08-07T00:00:06.000Z",
+      "description": "<p><em>Originally published on <a href=\"https://hexisteme.github.io/notes/measure-unit-price-before-you-ration.html\" rel=\"noopener noreferrer\">hexisteme notes</a>.</em></p> <p>On July 31st, the accelerator quota API on one of my Kaggle accounts came back at 108,511.735 seconds used against 108,000 a",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Java CMYK to RGB Conversion – Speed Comparison",
-      "link": "https://dev.to/idrsolutions/java-cmyk-to-rgb-conversion-speed-comparison-1onl",
-      "pubDate": "2026-08-06T14:03:12.000Z",
-      "description": "<h2> Introduction </h2> <p>Some optimisations are best left to Java. For example a <code>System.arraycopy</code> is the fastest way to create a new version because it is optimised in hardware inside Java. So in general, any function which might have hardware optimisation is best left to the JVM.</p>",
+      "title": "The Redis &amp; Kafka Interview Questions I Got Asked 23 Times (And How I Finally Answered Them)",
+      "link": "https://dev.to/moyuping/the-redis-kafka-interview-questions-i-got-asked-23-times-and-how-i-finally-answered-them-2ho",
+      "pubDate": "2026-08-06T23:46:05.000Z",
+      "description": "<blockquote> <p>Every senior backend interview I've done in the last 18 months asked at least one Redis question and one Kafka question. Below are the 10 that came up most often, answered with the patterns I actually use in production — not the textbook version.</p> </blockquote> <h2> 0. Context (re",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "React Suspense and Error Boundaries: How They Interact and How to Debug Failures",
-      "link": "https://dev.to/mspk97/react-suspense-and-error-boundaries-how-they-interact-and-how-to-debug-failures-4i1e",
-      "pubDate": "2026-08-06T14:02:57.000Z",
-      "description": "<p>Ever had your React component throw an error inside a Suspense boundary and wondered why neither your Suspense fallback nor your Error Boundary’s fallback UI showed up?</p> <p>I ran into this exact headache recently. I wrapped my lazy-loaded component with Suspense and an Error Boundary, expectin",
+      "title": "Why I Stopped Trusting \"It Works on My Machine\" and Actually Learned to Ship",
+      "link": "https://dev.to/yassines99/why-i-stopped-trusting-it-works-on-my-machine-and-actually-learned-to-ship-41ml",
+      "pubDate": "2026-08-06T23:33:07.000Z",
+      "description": "<p>I'll be honest about where this started. I could run <code>docker-compose up</code> and get an app running locally. I could follow a tutorial and end up with something that \"worked.\" But if you'd asked me to actually explain what happens when a real user hits my app over HTTPS, how traffic gets f",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "A unique click id on a free Cloudflare redirect, no Worker involved",
-      "link": "https://dev.to/301st/a-unique-click-id-on-a-free-cloudflare-redirect-no-worker-involved-1750",
-      "pubDate": "2026-08-06T14:00:21.000Z",
-      "description": "<p>You send paid or partner traffic through a redirect and you want every click to arrive at the destination carrying its own identifier — something to join against a conversion later. The obvious tool is a Worker, and for anything that needs to <em>record</em> the click, a Worker <a href=\"https://3",
+      "title": "Every vendor says they detect AI agents. None of them can.",
+      "link": "https://dev.to/layercall/every-vendor-says-they-detect-ai-agents-none-of-them-can-222m",
+      "pubDate": "2026-08-06T23:30:54.000Z",
+      "description": "<p>This is going to be an unpopular one, and I would like to be argued out of it.</p> <p>A capable agent driving a real browser on a residential connection is indistinguishable from a person by construction. Not \"hard to distinguish\". Not \"we are working on it\". By construction — because every prope",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How I Built an iOS AI Companion That Can See What You Show It",
-      "link": "https://dev.to/apoorvdarshan/how-i-built-an-ios-ai-companion-that-can-see-what-you-show-it-5hj",
-      "pubDate": "2026-08-06T14:00:19.000Z",
-      "description": "<p>Most AI companions only know what you type or say. Scowld adds an optional third input: a single camera frame you deliberately choose to share.</p> <h2> The interaction I wanted </h2> <p>Describing an object is often harder than showing it. With vision enabled, you can hold something up, point th",
+      "title": "Your bot detection works perfectly. That's the problem.",
+      "link": "https://dev.to/layercall/your-bot-detection-works-perfectly-thats-the-problem-3h87",
+      "pubDate": "2026-08-06T23:30:51.000Z",
+      "description": "<p>Every bot signal we have is a proxy for one question: is a human here?</p> <p>Device fingerprint says a real browser. IP reputation says a home connection, not a rented server. Email verification says someone opened the mailbox and clicked. Behavioural analysis says the mouse moved like a person'",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I added a real-time chat to my blog, people used it to attack me",
-      "link": "https://en.andros.dev/blog/b6c32a90/i-added-a-real-time-chat-to-my-blog-people-used-it-to-attack-me/",
-      "pubDate": "2026-08-06T13:53:16.000Z",
-      "description": "Article URL: https://en.andros.dev/blog/b6c32a90/i-added-a-real-time-chat-to-my-blog-people-used-it-to-attack-me/ Comments URL: https://news.ycombinator.com/item?id=49196745 Points: 29 # Comments: 25",
+      "title": "Spin audit of SQD/QSCI quantum-chemistry benchmarks on iron–sulfur clusters",
+      "link": "https://zenodo.org/records/21359923",
+      "pubDate": "2026-08-06T22:50:09.000Z",
+      "description": "Author here.Background, for anyone who hasn't followed this fight: IBM's iron–sulfur SQD results (Sci. Adv. 2025) are one of the flagship \"quantum computers are useful for chemistry now\" claims, and a published critique (arXiv:2501.07231) argues the quantum samples never beat classical selected-CI a",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "US beef prices have soared but farmers aren't making more money",
-      "link": "https://www.bbc.com/news/articles/cdrv0k0j662o",
-      "pubDate": "2026-08-06T13:38:22.000Z",
-      "description": "Article URL: https://www.bbc.com/news/articles/cdrv0k0j662o Comments URL: https://news.ycombinator.com/item?id=49196510 Points: 20 # Comments: 16",
+      "title": "Welcoming the Nepalese Government to Have I Been Pwned",
+      "link": "https://www.troyhunt.com/welcoming-the-nepalese-government-to-have-i-been-pwned/",
+      "pubDate": "2026-08-06T21:52:16.000Z",
+      "description": "Article URL: https://www.troyhunt.com/welcoming-the-nepalese-government-to-have-i-been-pwned/ Comments URL: https://news.ycombinator.com/item?id=49203105 Points: 55 # Comments: 13",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Telephones Caught in Between",
-      "link": "https://computer.rip/2026-08-02-telephone-leasing.html",
-      "pubDate": "2026-08-06T12:36:50.000Z",
-      "description": "Article URL: https://computer.rip/2026-08-02-telephone-leasing.html Comments URL: https://news.ycombinator.com/item?id=49195819 Points: 9 # Comments: 0",
+      "title": "Show HN: Pokémon Emerald Ported to Raspberry Pi Pico 2",
+      "link": "https://github.com/mattdeeds/pokeemerald-rp2350",
+      "pubDate": "2026-08-06T21:49:07.000Z",
+      "description": "Pokémon Emerald ported to the RP2350 microcontroller. No emulator, 60 fps HDMI output. Recompiled from ARMv4T to Cortex-M33 and the Game Boy Advance's video hardware is reimplemented in software on the second core. Comments URL: https://news.ycombinator.com/item?id=49203059 Points: 35 # Comments: 16",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Humans missed 1 in 3 threats approving AI agent commands across 40k game runs",
-      "link": "https://scalex.dev/blog/ai-agent-permissions-stats/",
-      "pubDate": "2026-08-06T11:58:07.000Z",
-      "description": "Article URL: https://scalex.dev/blog/ai-agent-permissions-stats/ Comments URL: https://news.ycombinator.com/item?id=49195468 Points: 68 # Comments: 44",
+      "title": "Inside vLLM: Anatomy of a High-Throughput LLM Inference System (2025)",
+      "link": "https://www.aleksagordic.com/blog/vllm",
+      "pubDate": "2026-08-06T21:30:21.000Z",
+      "description": "Article URL: https://www.aleksagordic.com/blog/vllm Comments URL: https://news.ycombinator.com/item?id=49202852 Points: 42 # Comments: 3",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Show HN: demake – one source project compiles to any retro game console ROM",
-      "link": "https://geosona.com/demake/",
-      "pubDate": "2026-08-06T11:28:00.000Z",
-      "description": "This started life as a graphics tool for a specific problem: gen AI can make retro-styled sprites but can't follow exact hardware constraints of pixels and colors.While building this I liked the idea that I can fan-out to any retro videogame console or handheld's specifications.I then devised my own",
+      "title": "Bioengineered chewing gum may offer a way to fight microbes linked to cancers",
+      "link": "https://www.sciencedaily.com/releases/2026/08/260803080917.htm",
+      "pubDate": "2026-08-06T21:18:32.000Z",
+      "description": "Article URL: https://www.sciencedaily.com/releases/2026/08/260803080917.htm Comments URL: https://news.ycombinator.com/item?id=49202716 Points: 37 # Comments: 2",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Mario Meets Pareto",
-      "link": "https://www.mayerowitz.io/blog/mario-meets-pareto",
-      "pubDate": "2026-08-06T11:24:53.000Z",
-      "description": "Article URL: https://www.mayerowitz.io/blog/mario-meets-pareto Comments URL: https://news.ycombinator.com/item?id=49195231 Points: 258 # Comments: 45",
+      "title": "AMD acquires Taalas to boost inference performance by etching models in silicon",
+      "link": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
+      "pubDate": "2026-08-06T20:23:11.000Z",
+      "description": "https://ir.amd.com/news-events/press-releases/detail/1296/am...https://chatjimmy.ai/ Comments URL: https://news.ycombinator.com/item?id=49201970 Points: 304 # Comments: 241",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "On non-rooted Android 17, ADB uninstall of system apps fails",
-      "link": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/issues/1426",
-      "pubDate": "2026-08-06T06:24:42.000Z",
-      "description": "Article URL: https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/issues/1426 Comments URL: https://news.ycombinator.com/item?id=49193173 Points: 154 # Comments: 110",
+      "title": "Quake – 30th Anniversary Update",
+      "link": "https://slayersclub.bethesda.net/en-US/news/quake-30th-anniversary-update",
+      "pubDate": "2026-08-06T20:21:19.000Z",
+      "description": "Article URL: https://slayersclub.bethesda.net/en-US/news/quake-30th-anniversary-update Comments URL: https://news.ycombinator.com/item?id=49201930 Points: 192 # Comments: 91",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Crime Pays but Botany Doesn't",
-      "link": "https://www.crimepaysbutbotanydoesnt.com/reading-list",
-      "pubDate": "2026-08-06T04:46:35.000Z",
-      "description": "Article URL: https://www.crimepaysbutbotanydoesnt.com/reading-list Comments URL: https://news.ycombinator.com/item?id=49192566 Points: 394 # Comments: 125",
+      "title": "Herdr is joining Y Combinator. The runtime stays open",
+      "link": "https://herdr.dev/blog/herdr-is-joining-y-combinator/",
+      "pubDate": "2026-08-06T19:14:21.000Z",
+      "description": "Article URL: https://herdr.dev/blog/herdr-is-joining-y-combinator/ Comments URL: https://news.ycombinator.com/item?id=49201003 Points: 127 # Comments: 84",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "The title cards in Blade Runner are amazing",
-      "link": "https://randsinrepose.com/archives/blade-runner-title-cards/",
-      "pubDate": "2026-08-05T21:29:23.000Z",
-      "description": "Article URL: https://randsinrepose.com/archives/blade-runner-title-cards/ Comments URL: https://news.ycombinator.com/item?id=49189287 Points: 338 # Comments: 162",
+      "title": "Can you reverse engineer an ASIC?",
+      "link": "https://blog.janestreet.com/can-you-reverse-engineer-an-asic/",
+      "pubDate": "2026-08-06T19:07:33.000Z",
+      "description": "Article URL: https://blog.janestreet.com/can-you-reverse-engineer-an-asic/ Comments URL: https://news.ycombinator.com/item?id=49200933 Points: 53 # Comments: 30",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "NVIDIA’s Vera Whitepaper Has a Thread Loose",
-      "link": "https://chipsandcheese.com/p/nvidias-vera-whitepaper-has-a-thread",
-      "pubDate": "2026-08-05T21:24:45.000Z",
-      "description": "Article URL: https://chipsandcheese.com/p/nvidias-vera-whitepaper-has-a-thread Comments URL: https://news.ycombinator.com/item?id=49189234 Points: 170 # Comments: 36",
+      "title": "Qwen3.8 Max now ranked as the best overall model by agentic index",
+      "link": "https://artificialanalysis.ai/?intelligence=agentic-index",
+      "pubDate": "2026-08-06T18:44:49.000Z",
+      "description": "Article URL: https://artificialanalysis.ai/?intelligence=agentic-index Comments URL: https://news.ycombinator.com/item?id=49200652 Points: 406 # Comments: 263",
       "source": "Hacker News",
       "category": "Tech News"
-    },
-    {
-      "title": "Gap Decorations Are Now Available, Here’s What’s New",
-      "link": "https://css-tricks.com/css-gap-decorations-now-available/",
-      "pubDate": "2026-08-03T15:53:20.000Z",
-      "description": "Today, with CSS gap decorations fully supported in Chrome and Edge, starting with version 149, you can now very easily style gaps, and with a lot of control. Gap Decorations Are Now Available, Here’s What’s New originally handwritten and published with love on CSS-Tricks. You should really get the n",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Get Ready For the Powerful CSS border-shape Property!",
-      "link": "https://css-tricks.com/get-ready-for-the-powerful-css-border-shape-property/",
-      "pubDate": "2026-07-31T15:14:00.000Z",
-      "description": "We recently got the shape() function and corner-shape property. What else could we possibly need as far as making shapes in CSS? Let me tell you: the border-shape property! Get Ready For the Powerful CSS border-shape Property! originally handwritten and published with love on CSS-Tricks. You should ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "What’s !important #16: sibling-index() Animations, Use Cases for the infinity Keyword, Container Stuck Queries, and More",
-      "link": "https://css-tricks.com/whats-important-16/",
-      "pubDate": "2026-07-31T14:06:21.000Z",
-      "description": "The soon-Baseline sibling-index() function for animations, CSS and the 2026 FIFA World Cup, use cases for the infinity keyword, container \"stuck\" queries, and more. What’s !important #16: sibling-index() Animations, Use Cases for the infinity Keyword, Container Stuck Queries, and More originally han",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "writing-mode",
-      "link": "https://css-tricks.com/almanac/properties/w/writing-mode/",
-      "pubDate": "2026-07-21T09:39:10.000Z",
-      "description": "The writing-mode CSS property sets whether lines of text are laid out horizontally or vertically, and the direction in which blocks and lines progress. .element { writing-mode: vertical-rl; } This is most useful in languages such as Chinese, Japanese or … writing-mode originally handwritten and publ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "pointer-events",
-      "link": "https://css-tricks.com/almanac/properties/p/pointer-events/",
-      "pubDate": "2026-07-15T19:57:51.000Z",
-      "description": "The pointer-events property controls whether an element can become the target of pointer events like clicks, hover states, and other pointer-based events. In other words, it lets you decide whether the browser should treat an element as interactive when the … pointer-events originally handwritten an",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "What’s !important #15: Boundary-aware CSS, Time-based CSS, Full-bleed CSS, and More",
-      "link": "https://css-tricks.com/whats-important-15/",
-      "pubDate": "2026-07-14T14:36:18.000Z",
-      "description": "Read all about boundary-aware CSS, accessible grid lanes, time-based web designs, full-bleed, the customizable select, and new web platform features. What’s !important #15: Boundary-aware CSS, Time-based CSS, Full-bleed CSS, and More originally handwritten and published with love on CSS-Tricks. You ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "What’s !important #14: Gap Decorations, random(), &#060;select&gt; field-sizing, and More",
-      "link": "https://css-tricks.com/whats-important-14/",
-      "pubDate": "2026-06-30T13:54:14.000Z",
-      "description": "I know you’re busy, so for What’s !important #14, I’ll be sprinting through what’s been a stacked couple of weeks despite few browser updates. From CSS Quake to CSS Gap Decorations, this isn’t one to miss! What’s !important #14: Gap Decorations, random(), <select> field-sizing, and More originally h",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "The Shifting Line Between CSS States and JavaScript Events",
-      "link": "https://css-tricks.com/css-states-and-javascript-events/",
-      "pubDate": "2026-06-29T13:03:32.000Z",
-      "description": "CSS has always had pseudo-classes that style things based on user interactions. Recent features, however, are blurring the line between what CSS \"listens\" for and how they are alternatives to what Javascript typically listens for. The Shifting Line Between CSS States and JavaScript Events originally",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translateZ()",
-      "link": "https://css-tricks.com/almanac/functions/t/translatez/",
-      "pubDate": "2026-06-25T13:18:56.000Z",
-      "description": "The translateZ() function moves an element closer to or farther from the user. translateZ() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "translateY()",
-      "link": "https://css-tricks.com/almanac/functions/t/translatey/",
-      "pubDate": "2026-06-25T13:17:56.000Z",
-      "description": "The translateY() function shifts an element vertically by the specified amount. translateY() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
     },
     {
       "title": "Meet the HTB Profile: all your skills, in one place",
