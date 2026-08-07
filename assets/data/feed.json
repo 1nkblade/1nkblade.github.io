@@ -1,94 +1,126 @@
 {
-  "generatedAt": "2026-08-07T07:41:28.123Z",
+  "generatedAt": "2026-08-07T13:39:30.128Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "Netdata Cloud vs a Self Hosted Parent Node: The Real Three Year Cost for a Home Server",
-      "link": "https://dev.to/jachin_ocacio_e8de2a25158/netdata-cloud-vs-a-self-hosted-parent-node-the-real-three-year-cost-for-a-home-server-3mah",
-      "pubDate": "2026-08-07T07:35:22.000Z",
-      "description": "<p>If you run Netdata on one to three machines at home, the local agent dashboard on port 19999 plus the free Netdata Cloud tier covers almost everything you need, and a paid plan rarely earns its keep across three years. Pay only when you need durable multi node views, alert routing that reaches ot",
+      "title": "Testing AI Agents in TypeScript Without Calling the Model",
+      "link": "https://dev.to/gabrielanhaia/testing-ai-agents-in-typescript-without-calling-the-model-1ip3",
+      "pubDate": "2026-08-07T13:30:47.000Z",
+      "description": "<ul> <li> <strong>Book:</strong> <a href=\"https://www.amazon.com/dp/B0HBTDV75G\" rel=\"noopener noreferrer\">AI That Acts</a> </li> <li> <strong>The series:</strong> <em>AI in TypeScript</em> — 5 books, from your first LLM call to agents in production — <a href=\"https://xgabriel.com/ai-in-typescript\" r",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Build a Maintainable Node.js CRUD API with Express and MySQL",
-      "link": "https://dev.to/blogs_world/build-a-maintainable-nodejs-crud-api-with-express-and-mysql-41ei",
-      "pubDate": "2026-08-07T07:34:52.000Z",
-      "description": "<p>Writing <code>SELECT</code>, <code>INSERT</code>, <code>UPDATE</code>, and <code>DELETE</code> queries is not the difficult part of a CRUD API. The difficulty begins when every route starts handling SQL, input validation, HTTP status codes, and error formatting at the same time.</p> <p>That versi",
+      "title": "Bridge the gap between MasterGo and your IDE: Why design context belongs in your MCP agent",
+      "link": "https://dev.to/renato_marinho/bridge-the-gap-between-mastergo-and-your-ide-why-design-context-belongs-in-your-mcp-agent-2fck",
+      "pubDate": "2026-08-07T13:28:00.000Z",
+      "description": "<p>The most expensive part of any UI implementation isn't writing the CSS; it's the cognitive tax of navigating the context switch between a design tool and your editor.</p> <p>You know the drill. A designer leaves a comment in MasterGo about a specific margin adjustment or a typography change in th",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I measured 11,450 DEV articles. 78% got zero reactions, and the rest had things in common.",
-      "link": "https://dev.to/marcosgcuenta1/i-measured-11450-dev-articles-78-got-zero-reactions-and-the-rest-had-things-in-common-1nf0",
-      "pubDate": "2026-08-07T07:32:51.000Z",
-      "description": "<p>Two days ago I changed the tags on three of my own posts, added cover images, and watched reads go from 2 to 45. That is an anecdote with n=3 and a proud author attached to it, which is worth roughly nothing.</p> <p>So I collected 16,599 articles from the public API across 20 tags, kept the 11,45",
+      "title": "Cómo diseñamos sitios WordPress autogestionables sin sacrificar rendimiento ni SEO",
+      "link": "https://dev.to/wormuy/como-disenamos-sitios-wordpress-autogestionables-sin-sacrificar-rendimiento-ni-seo-24ma",
+      "pubDate": "2026-08-07T13:26:47.000Z",
+      "description": "<p>Cuando un cliente pide una web autogestionable, la idea parece sencilla: quiere poder modificar el contenido de su sitio sin depender de un desarrollador.</p> <p>El problema aparece cuando interpretamos <em>autogestionable</em> como <em>todo tiene que ser editable</em>.</p> <p>Más opciones, más p",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "A UI test that guesses is worse than one that fails",
-      "link": "https://dev.to/joduchan/a-ui-test-that-guesses-is-worse-than-one-that-fails-953",
-      "pubDate": "2026-08-07T07:22:10.000Z",
-      "description": "<p>The worst bug I've seen in a test suite wasn't a failure. It was a pass.</p> <p>A login test tapped a button labeled \"Continue\". The app then shipped a second \"Continue\" inside a consent sheet, and the recorded test — which resolved its selector by taking the first match — started tapping the wro",
+      "title": "Stop Using Random Strings in JMeter: Generate Algorithmically Correct Mock Data with Mock Jutsu",
+      "link": "https://dev.to/altansezerayan/stop-using-random-strings-in-jmeter-generate-algorithmically-correct-mock-data-with-mock-jutsu-5039",
+      "pubDate": "2026-08-07T13:24:56.000Z",
+      "description": "<p>Load testing is only as good as your test data.</p> <p>If you're using <code>${__Random(1000,9999)}</code> to simulate credit card numbers or bank account IDs in JMeter, you're not really testing your system — you're testing it with data that will fail validation before it even reaches your busin",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "300 Customer Interviews Before Writing a Line of Code - The Discovery Process Behind Omnea",
-      "link": "https://dev.to/stella_penso/300-customer-interviews-before-writing-a-line-of-code-the-discovery-process-behind-omnea-474",
-      "pubDate": "2026-08-07T07:21:56.000Z",
-      "description": "<p>Most \"how we built it\" write ups start with the tech stack. This one starts earlier: with 300 conversations a founder had with procurement leaders before deciding what to build at all. <br> Omnea's founder, Ben Freeman, spent that discovery phase hearing some version of the same complaint repeate",
+      "title": "The Unit Economics of an AI Agent Feature, Measured in TypeScript",
+      "link": "https://dev.to/gabrielanhaia/the-unit-economics-of-an-ai-agent-feature-measured-in-typescript-9l8",
+      "pubDate": "2026-08-07T13:23:48.000Z",
+      "description": "<ul> <li> <strong>Book:</strong> <a href=\"https://www.amazon.com/dp/B0HCC3G7T4\" rel=\"noopener noreferrer\">AI That Ships</a> </li> <li> <strong>The series:</strong> <em>AI in TypeScript</em> — 5 books, from your first LLM call to agents in production — <a href=\"https://xgabriel.com/ai-in-typescript\" ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Designing a Better Random Pokémon Generator Around Discovery and Replayability",
-      "link": "https://dev.to/leeswal123/designing-a-better-random-pokemon-generator-around-discovery-and-replayability-38n6",
-      "pubDate": "2026-08-07T07:20:59.000Z",
-      "description": "<p>Random generators look simple from the outside. Press a button, get a result, repeat.</p> <p>But a good <a href=\"https://randompokemon.xyz/\" rel=\"noopener noreferrer\">Random Pokémon Generator</a> is not really about randomness alone. The useful part is giving players enough control to make each r",
+      "title": "ZATCA Wave 25: What Developers Integrating Before 1 February 2027 Need to Know",
+      "link": "https://dev.to/mousah20/zatca-wave-25-what-developers-integrating-before-1-february-2027-need-to-know-4lkn",
+      "pubDate": "2026-08-07T13:23:27.000Z",
+      "description": "<p>On 24 July 2026, Saudi Arabia's ZATCA announced the selection criteria for <strong>Wave 25</strong> of Phase 2 e-invoicing integration: taxpayers whose taxable turnover exceeded <strong>SAR 187,500</strong> in 2022, 2023 or 2024 must integrate their systems with the Fatoora platform no later than",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "7 Habits of Developers Who Never Have to Optimize Later",
-      "link": "https://dev.to/web_dev-usman/7-habits-of-developers-who-never-have-to-optimize-later-30gc",
-      "pubDate": "2026-08-07T07:19:47.000Z",
-      "description": "<p>Open DevTools right now. Go to the Network tab, find the throttling dropdown, and set it to Slow 3G. Now reload something you built.</p> <p>Watch the blank white screen sit there for a few seconds. Watch the layout jump around as fonts and images land out of order. Somewhere in the world, someone",
+      "title": "Your AI Agent's Context Window Is Full — What Should It Forget?",
+      "link": "https://dev.to/gabrielanhaia/your-ai-agents-context-window-is-full-what-should-it-forget-1kk",
+      "pubDate": "2026-08-07T13:22:31.000Z",
+      "description": "<ul> <li> <strong>Book:</strong> <a href=\"https://www.amazon.com/dp/B0HBXFXMDT\" rel=\"noopener noreferrer\">AI That Plans</a> </li> <li> <strong>The series:</strong> <em>AI in TypeScript</em> — 5 books, from your first LLM call to agents in production — <a href=\"https://xgabriel.com/ai-in-typescript\" ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Claude Code Now Runs Subagents in the Background by Default — What Actually Changed",
-      "link": "https://dev.to/alvarito1983/claude-code-now-runs-subagents-in-the-background-by-default-what-actually-changed-54kb",
-      "pubDate": "2026-08-07T07:15:58.000Z",
-      "description": "<p>Original article in Spanish on El Rack: Claude Code ya no espera a que le mires: subagentes en segundo plano por defecto</p> <p>I run Claude Code daily as my main dev agent, both locally and over SSH against a VPS running a handful of production sites. A change that landed over the last few weeks",
+      "title": "How Kiro Crew's Cron Jobs Replaced 4 Hours of Weekly Toil",
+      "link": "https://dev.to/aws-builders/how-kiro-crews-cron-jobs-replaced-4-hours-of-weekly-toil-37h",
+      "pubDate": "2026-08-07T13:22:29.000Z",
+      "description": "<p> <iframe src=\"https://www.youtube.com/embed/PMa9W-arkBQ\"> </iframe> </p> <p>Yesterday I showed Kiro Crew investigating a production incident in 33 seconds. Reactive. Impressive. But still reactive.</p> <p>This week I asked a different question. What if the agent ran my boring weekly rituals while",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "VizMail: Building a Complete Email API with AI Agents",
-      "link": "https://dev.to/ekioo/vizmail-building-a-complete-email-api-with-ai-agents-3b3p",
-      "pubDate": "2026-08-07T07:02:57.000Z",
-      "description": "<p>This piece documents VizMail, a local email client developed within the <a href=\"https://ekioo.com/en\" rel=\"noopener noreferrer\">Ekioo</a> agent-fleet R&amp;D. Alongside <a href=\"https://bloomii.fr/\" rel=\"noopener noreferrer\">Bloomii</a> (constructive-journalism media) and <a href=\"https://kalceo",
+      "title": "AI Voice Agent with Function Calling — Calling Real APIs Mid-Conversation in Python",
+      "link": "https://dev.to/harpreetseehra/ai-voice-agent-with-function-calling-calling-real-apis-mid-conversation-in-python-22gg",
+      "pubDate": "2026-08-07T13:22:25.000Z",
+      "description": "<blockquote> <p>A phone-call voice agent that calls real APIs (weather, orders, balances) in the middle of a conversation. Speech recognition, LLM tool-calling, and Telnyx text-to-speech in one Flask file. One API key for calls, AI inference, and TTS.</p> </blockquote> <h2> The Problem: Voice Agents",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "A regression gate cannot see an already stale signature boundary",
-      "link": "https://dev.to/sybilgambleyyu/a-regression-gate-cannot-see-an-already-stale-signature-boundary-cga",
-      "pubDate": "2026-08-07T07:02:35.000Z",
-      "description": "<h1> A regression gate cannot see an already stale signature boundary </h1> <p>PDFFence 1.17 could make one important condition review-visible: a semantic<br> PDF signature's <code>/ByteRange</code> reached the file end before a comparison and does<br> not now. That is a regression question. But rev",
+      "title": "The AI Slop Tsunami: Why \"10x Coding Speed\" Is Ruining Software Engineering",
+      "link": "https://dev.to/bhavnish_e35294bf0fd0b2df/the-ai-slop-tsunami-why-10x-coding-speed-is-ruining-software-engineering-icc",
+      "pubDate": "2026-08-07T13:21:23.000Z",
+      "description": "<p>*<em>Software engineering has a dirty secret: typing speed was never the bottleneck.<br> *</em><br> The real bottleneck has always been thinking, analyzing edge cases, and making sure the architecture actually works.<br> Today, AI is flooding our codebases with a tsunami of low-quality code. On p",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Framework discloses data breach via Metabase 0-day",
-      "link": "https://community.frame.work/t/framework-data-breach-discussion/83939",
-      "pubDate": "2026-08-07T05:17:57.000Z",
-      "description": "Article URL: https://community.frame.work/t/framework-data-breach-discussion/83939 Comments URL: https://news.ycombinator.com/item?id=49206130 Points: 54 # Comments: 12",
+      "title": "The web server deployment model breaks at hobby scale",
+      "link": "https://w.on-t.work/web-deployment-model",
+      "pubDate": "2026-08-07T13:15:36.000Z",
+      "description": "Article URL: https://w.on-t.work/web-deployment-model Comments URL: https://news.ycombinator.com/item?id=49209921 Points: 7 # Comments: 1",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "U.S. economy lost 23,000 jobs in July, a sudden reversal",
+      "link": "https://www.nbcnews.com/business/economy/july-2026-jobs-report-rcna591138",
+      "pubDate": "2026-08-07T12:42:58.000Z",
+      "description": "Article URL: https://www.nbcnews.com/business/economy/july-2026-jobs-report-rcna591138 Comments URL: https://news.ycombinator.com/item?id=49209546 Points: 16 # Comments: 4",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "DOGE overstated savings, government watchdog says",
+      "link": "https://www.politico.com/news/2026/08/06/doge-savings-overstated-watchdog-report-01027797",
+      "pubDate": "2026-08-07T12:27:40.000Z",
+      "description": "Article URL: https://www.politico.com/news/2026/08/06/doge-savings-overstated-watchdog-report-01027797 Comments URL: https://news.ycombinator.com/item?id=49209368 Points: 44 # Comments: 19",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Kitesurf: Agent-first browser that runs in V8 isolates",
+      "link": "https://blog.cloudflare.com/kitesurf/",
+      "pubDate": "2026-08-07T10:42:07.000Z",
+      "description": "Article URL: https://blog.cloudflare.com/kitesurf/ Comments URL: https://news.ycombinator.com/item?id=49208393 Points: 4 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "US strikes $1.2B deal to pay German firm to halt offshore wind projects",
+      "link": "https://www.bbc.com/news/articles/c1e1vg0gjl5o",
+      "pubDate": "2026-08-07T10:28:55.000Z",
+      "description": "Article URL: https://www.bbc.com/news/articles/c1e1vg0gjl5o Comments URL: https://news.ycombinator.com/item?id=49208314 Points: 428 # Comments: 405",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -96,23 +128,15 @@
       "title": "New Orleans is testing Carbyne’s AI-powered Emergency Call Triage software",
       "link": "https://www.shreveporttimes.com/story/news/local/louisiana/2026/07/28/is-new-orleans-using-ai-to-answer-911-calls-instead-of-human-dispatchers-impacts-emergencies-crime/91065014007/",
       "pubDate": "2026-08-07T00:37:30.000Z",
-      "description": "Article URL: https://www.shreveporttimes.com/story/news/local/louisiana/2026/07/28/is-new-orleans-using-ai-to-answer-911-calls-instead-of-human-dispatchers-impacts-emergencies-crime/91065014007/ Comments URL: https://news.ycombinator.com/item?id=49204546 Points: 53 # Comments: 67",
+      "description": "Article URL: https://www.shreveporttimes.com/story/news/local/louisiana/2026/07/28/is-new-orleans-using-ai-to-answer-911-calls-instead-of-human-dispatchers-impacts-emergencies-crime/91065014007/ Comments URL: https://news.ycombinator.com/item?id=49204546 Points: 66 # Comments: 106",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Meta Ordered to Pay $942M to Address Harm to Kids from Social Media",
-      "link": "https://www.wsj.com/tech/meta-ordered-to-pay-942-million-to-address-harm-to-kids-from-social-media-8ba5aab7",
+      "title": "New Mexico court orders Meta to pay $567m over harms to children’s mental health",
+      "link": "https://www.theguardian.com/technology/2026/aug/06/new-mexico-court-meta",
       "pubDate": "2026-08-07T00:06:28.000Z",
-      "description": "Article URL: https://www.wsj.com/tech/meta-ordered-to-pay-942-million-to-address-harm-to-kids-from-social-media-8ba5aab7 Comments URL: https://news.ycombinator.com/item?id=49204352 Points: 181 # Comments: 110",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Spin audit of SQD/QSCI quantum-chemistry benchmarks on iron–sulfur clusters",
-      "link": "https://zenodo.org/records/21359923",
-      "pubDate": "2026-08-06T22:50:09.000Z",
-      "description": "Author here.Background, for anyone who hasn't followed this fight: IBM's iron–sulfur SQD results (Sci. Adv. 2025) are one of the flagship \"quantum computers are useful for chemistry now\" claims, and a published critique (arXiv:2501.07231) argues the quantum samples never beat classical selected-CI a",
+      "description": "https://www.reuters.com/world/new-mexico-court-orders-meta-p...https://www.theguardian.com/technology/2026/aug/06/new-mexic...https://www.kob.com/new-mexico/nm-court-orders-meta-to-pay-5...https://www.bbc.com/news/articles/cd7lz3wr2rlohttps://www.wsj.com/tech/meta-ordered-to-pay-942-million-to-... C",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -120,7 +144,7 @@
       "title": "Welcoming the Nepalese Government to Have I Been Pwned",
       "link": "https://www.troyhunt.com/welcoming-the-nepalese-government-to-have-i-been-pwned/",
       "pubDate": "2026-08-06T21:52:16.000Z",
-      "description": "Article URL: https://www.troyhunt.com/welcoming-the-nepalese-government-to-have-i-been-pwned/ Comments URL: https://news.ycombinator.com/item?id=49203105 Points: 141 # Comments: 21",
+      "description": "Article URL: https://www.troyhunt.com/welcoming-the-nepalese-government-to-have-i-been-pwned/ Comments URL: https://news.ycombinator.com/item?id=49203105 Points: 178 # Comments: 27",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -128,7 +152,7 @@
       "title": "Inside vLLM: Anatomy of a High-Throughput LLM Inference System (2025)",
       "link": "https://www.aleksagordic.com/blog/vllm",
       "pubDate": "2026-08-06T21:30:21.000Z",
-      "description": "Article URL: https://www.aleksagordic.com/blog/vllm Comments URL: https://news.ycombinator.com/item?id=49202852 Points: 92 # Comments: 5",
+      "description": "Article URL: https://www.aleksagordic.com/blog/vllm Comments URL: https://news.ycombinator.com/item?id=49202852 Points: 127 # Comments: 8",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -136,31 +160,7 @@
       "title": "Bioengineered chewing gum may offer a way to fight HPV and other microbes",
       "link": "https://www.sciencedaily.com/releases/2026/08/260803080917.htm",
       "pubDate": "2026-08-06T21:18:32.000Z",
-      "description": "Article URL: https://www.sciencedaily.com/releases/2026/08/260803080917.htm Comments URL: https://news.ycombinator.com/item?id=49202716 Points: 110 # Comments: 28",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "What is a product?",
-      "link": "https://roge.onwrite.app/what-is-a-product",
-      "pubDate": "2026-08-06T21:16:52.000Z",
-      "description": "Article URL: https://roge.onwrite.app/what-is-a-product Comments URL: https://news.ycombinator.com/item?id=49202690 Points: 21 # Comments: 6",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "AMD acquires Taalas to boost inference performance by etching models in silicon",
-      "link": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
-      "pubDate": "2026-08-06T20:23:11.000Z",
-      "description": "https://ir.amd.com/news-events/press-releases/detail/1296/am...https://chatjimmy.ai/ Comments URL: https://news.ycombinator.com/item?id=49201970 Points: 594 # Comments: 445",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Quake – 30th Anniversary Update",
-      "link": "https://slayersclub.bethesda.net/en-US/news/quake-30th-anniversary-update",
-      "pubDate": "2026-08-06T20:21:19.000Z",
-      "description": "Article URL: https://slayersclub.bethesda.net/en-US/news/quake-30th-anniversary-update Comments URL: https://news.ycombinator.com/item?id=49201930 Points: 281 # Comments: 145",
+      "description": "Article URL: https://www.sciencedaily.com/releases/2026/08/260803080917.htm Comments URL: https://news.ycombinator.com/item?id=49202716 Points: 162 # Comments: 46",
       "source": "Hacker News",
       "category": "Tech News"
     },
