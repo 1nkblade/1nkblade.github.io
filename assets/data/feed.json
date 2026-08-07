@@ -1,94 +1,110 @@
 {
-  "generatedAt": "2026-08-07T03:18:59.749Z",
+  "generatedAt": "2026-08-07T07:41:28.123Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "Running local and cloud models in the same coding agent: what actually ships in 2026",
-      "link": "https://dev.to/jacksonxly/running-local-and-cloud-models-in-the-same-coding-agent-what-actually-ships-in-2026-18eo",
-      "pubDate": "2026-08-07T03:09:57.000Z",
-      "description": "<p>Someone on r/LocalLLaMA asked a question this week that turned out to be harder to answer than it looks: which open-source coding harness lets a local model and a cloud model work on the same task, together, in one loop?</p> <p>The answers he got were a proxy and a shrug. He rejected both, correc",
+      "title": "Netdata Cloud vs a Self Hosted Parent Node: The Real Three Year Cost for a Home Server",
+      "link": "https://dev.to/jachin_ocacio_e8de2a25158/netdata-cloud-vs-a-self-hosted-parent-node-the-real-three-year-cost-for-a-home-server-3mah",
+      "pubDate": "2026-08-07T07:35:22.000Z",
+      "description": "<p>If you run Netdata on one to three machines at home, the local agent dashboard on port 19999 plus the free Netdata Cloud tier covers almost everything you need, and a paid plan rarely earns its keep across three years. Pay only when you need durable multi node views, alert routing that reaches ot",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Canary Tests for AI Coding Agents: A Sandbox Harness You Can Run Yourself",
-      "link": "https://dev.to/applab_743/canary-tests-for-ai-coding-agents-a-sandbox-harness-you-can-run-yourself-35il",
-      "pubDate": "2026-08-07T03:05:30.000Z",
-      "description": "<p>Last week I watched an AI coding agent, given a routine refactor task, cheerfully read a <code>.env</code> file it had no business touching and echo a database URL into its plan. Nothing was exfiltrated — it was a toy project — but it made the recent \"what happens when agent tool boundaries fail\"",
+      "title": "Build a Maintainable Node.js CRUD API with Express and MySQL",
+      "link": "https://dev.to/blogs_world/build-a-maintainable-nodejs-crud-api-with-express-and-mysql-41ei",
+      "pubDate": "2026-08-07T07:34:52.000Z",
+      "description": "<p>Writing <code>SELECT</code>, <code>INSERT</code>, <code>UPDATE</code>, and <code>DELETE</code> queries is not the difficult part of a CRUD API. The difficulty begins when every route starts handling SQL, input validation, HTTP status codes, and error formatting at the same time.</p> <p>That versi",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Attack Your Agent's Tool Boundaries Before Someone Else Does: A Repeatable Test Harness",
-      "link": "https://dev.to/hackjs_8688/attack-your-agents-tool-boundaries-before-someone-else-does-a-repeatable-test-harness-5cgd",
-      "pubDate": "2026-08-07T03:04:02.000Z",
-      "description": "<p>A few months ago I wrote about regression-testing prompts before shipping them. The responses that stuck with me weren't about prompts at all — they were about what happens when the model behind the prompt gets <em>tools</em>. A prompt that misbehaves wastes tokens. An agent that misbehaves delet",
+      "title": "I measured 11,450 DEV articles. 78% got zero reactions, and the rest had things in common.",
+      "link": "https://dev.to/marcosgcuenta1/i-measured-11450-dev-articles-78-got-zero-reactions-and-the-rest-had-things-in-common-1nf0",
+      "pubDate": "2026-08-07T07:32:51.000Z",
+      "description": "<p>Two days ago I changed the tags on three of my own posts, added cover images, and watched reads go from 2 to 45. That is an anecdote with n=3 and a proud author attached to it, which is worth roughly nothing.</p> <p>So I collected 16,599 articles from the public API across 20 tags, kept the 11,45",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Before You Give a Coding Agent Shell Access, Test Where Its Boundaries Actually Are",
-      "link": "https://dev.to/appjs_7055/before-you-give-a-coding-agent-shell-access-test-where-its-boundaries-actually-are-1fl5",
-      "pubDate": "2026-08-07T03:03:35.000Z",
-      "description": "<p>A lot of us are now running coding agents that can read files, write files, and execute shell commands. The default posture is permissive: you point the agent at a repo, approve a few prompts, and let it work. Most of the time nothing bad happens. But \"most of the time\" is not a security model, a",
+      "title": "A UI test that guesses is worse than one that fails",
+      "link": "https://dev.to/joduchan/a-ui-test-that-guesses-is-worse-than-one-that-fails-953",
+      "pubDate": "2026-08-07T07:22:10.000Z",
+      "description": "<p>The worst bug I've seen in a test suite wasn't a failure. It was a pass.</p> <p>A login test tapped a button labeled \"Continue\". The app then shipped a second \"Continue\" inside a consent sheet, and the recorded test — which resolved its selector by taking the first match — started tapping the wro",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "EU AI Innovation Package Links Supercomputing Access, Funding and AI Act Governance",
-      "link": "https://dev.to/alifar/eu-ai-innovation-package-links-supercomputing-access-funding-and-ai-act-governance-2e6m",
-      "pubDate": "2026-08-07T03:00:30.000Z",
-      "description": "<p>The European Union's AI Innovation Package is designed to give AI startups and small and medium-sized enterprises three things that can be difficult to secure independently: large-scale computing capacity, investment support and a clearer governance framework for building trustworthy AI. First ou",
+      "title": "300 Customer Interviews Before Writing a Line of Code - The Discovery Process Behind Omnea",
+      "link": "https://dev.to/stella_penso/300-customer-interviews-before-writing-a-line-of-code-the-discovery-process-behind-omnea-474",
+      "pubDate": "2026-08-07T07:21:56.000Z",
+      "description": "<p>Most \"how we built it\" write ups start with the tech stack. This one starts earlier: with 300 conversations a founder had with procurement leaders before deciding what to build at all. <br> Omnea's founder, Ben Freeman, spent that discovery phase hearing some version of the same complaint repeate",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "UNC6671: Helpdesk Vishing, SSO and SaaS Cross-Traversal, and Multi-Brand Extortion via Notification Deletion",
-      "link": "https://dev.to/anoymask/unc6671-helpdesk-vishing-sso-and-saas-cross-traversal-and-multi-brand-extortion-via-notification-1pbl",
-      "pubDate": "2026-08-07T02:57:19.000Z",
-      "description": "<h1> UNC6671: Helpdesk Vishing, SSO and SaaS Cross-Traversal, and Multi-Brand Extortion via Notification Deletion </h1> <h2> 1. Basic Information </h2> <ul> <li> <strong>Article Title</strong>: UNC6671 Rebrands: Multi-Brand Vishing Extortion Targets Financial Services and Enterprise Cloud Environmen",
+      "title": "Designing a Better Random Pokémon Generator Around Discovery and Replayability",
+      "link": "https://dev.to/leeswal123/designing-a-better-random-pokemon-generator-around-discovery-and-replayability-38n6",
+      "pubDate": "2026-08-07T07:20:59.000Z",
+      "description": "<p>Random generators look simple from the outside. Press a button, get a result, repeat.</p> <p>But a good <a href=\"https://randompokemon.xyz/\" rel=\"noopener noreferrer\">Random Pokémon Generator</a> is not really about randomness alone. The useful part is giving players enough control to make each r",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Paperclip CVE-2026-41679: 6 API Calls from Public Registration to AI Agent Host Process RCE",
-      "link": "https://dev.to/anoymask/paperclip-cve-2026-41679-6-api-calls-from-public-registration-to-ai-agent-host-process-rce-4ec4",
-      "pubDate": "2026-08-07T02:57:06.000Z",
-      "description": "<h1> Paperclip CVE-2026-41679: 6 API Calls from Public Registration to AI Agent Host Process RCE </h1> <h2> 1. Basic Information </h2> <ul> <li> <strong>Article Title</strong>: Critical Paperclip Flaw Allowed Admin Access, Code Execution</li> <li> <strong>Publisher</strong>: SecurityWeek</li> <li> <",
+      "title": "7 Habits of Developers Who Never Have to Optimize Later",
+      "link": "https://dev.to/web_dev-usman/7-habits-of-developers-who-never-have-to-optimize-later-30gc",
+      "pubDate": "2026-08-07T07:19:47.000Z",
+      "description": "<p>Open DevTools right now. Go to the Network tab, find the throttling dropdown, and set it to Slow 3G. Now reload something you built.</p> <p>Watch the blank white screen sit there for a few seconds. Watch the layout jump around as fonts and images land out of order. Somewhere in the world, someone",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "TONTOU: Linux Kernel Leak via Timer Interrupt Stealing After Spectre v2 Defense Neutralization",
-      "link": "https://dev.to/anoymask/tontou-linux-kernel-leak-via-timer-interrupt-stealing-after-spectre-v2-defense-neutralization-1gpc",
-      "pubDate": "2026-08-07T02:56:51.000Z",
-      "description": "<h1> TONTOU: Linux Kernel Leak via Timer Interrupt Stealing After Spectre v2 Defense Neutralization </h1> <h2> 1. Basic Information </h2> <ul> <li> <strong>Article Title</strong>: New TONTOU CPU attack bypasses Spectre v2 fixes, leaks Linux password hashes</li> <li> <strong>Publisher</strong>: Bleep",
+      "title": "Claude Code Now Runs Subagents in the Background by Default — What Actually Changed",
+      "link": "https://dev.to/alvarito1983/claude-code-now-runs-subagents-in-the-background-by-default-what-actually-changed-54kb",
+      "pubDate": "2026-08-07T07:15:58.000Z",
+      "description": "<p>Original article in Spanish on El Rack: Claude Code ya no espera a que le mires: subagentes en segundo plano por defecto</p> <p>I run Claude Code daily as my main dev agent, both locally and over SSH against a VPS running a handful of production sites. A change that landed over the last few weeks",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "TeamCity CVE-2026-63077: Unauthenticated Deserialization RCE in Agent Polling Actively Exploited",
-      "link": "https://dev.to/anoymask/teamcity-cve-2026-63077-unauthenticated-deserialization-rce-in-agent-polling-actively-exploited-2712",
-      "pubDate": "2026-08-07T02:56:41.000Z",
-      "description": "<h1> TeamCity CVE-2026-63077: Unauthenticated Deserialization RCE in Agent Polling Actively Exploited </h1> <h2> 1. Basic Information </h2> <ul> <li> <strong>Article Title</strong>: Hackers Start Exploiting Recent JetBrains TeamCity Vulnerability</li> <li> <strong>Publisher</strong>: SecurityWeek</l",
+      "title": "VizMail: Building a Complete Email API with AI Agents",
+      "link": "https://dev.to/ekioo/vizmail-building-a-complete-email-api-with-ai-agents-3b3p",
+      "pubDate": "2026-08-07T07:02:57.000Z",
+      "description": "<p>This piece documents VizMail, a local email client developed within the <a href=\"https://ekioo.com/en\" rel=\"noopener noreferrer\">Ekioo</a> agent-fleet R&amp;D. Alongside <a href=\"https://bloomii.fr/\" rel=\"noopener noreferrer\">Bloomii</a> (constructive-journalism media) and <a href=\"https://kalceo",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "They scoped the customer and forgot the customer's ledger — a High-severity cross-tenant BOLA in Open Food Network",
-      "link": "https://dev.to/santosh_kumarpuppala_96e/they-scoped-the-customer-and-forgot-the-customers-ledger-a-high-severity-cross-tenant-bola-in-3j3g",
-      "pubDate": "2026-08-07T02:55:47.000Z",
-      "description": "<h2> TL;DR </h2> <ul> <li> <strong>What:</strong> <code>POST /api/v1/customer_account_transaction</code> in <a href=\"https://github.com/openfoodfoundation/openfoodnetwork\" rel=\"noopener noreferrer\">Open Food Network</a> authorized against the <strong>class</strong>, not the record. It took <code>cus",
+      "title": "A regression gate cannot see an already stale signature boundary",
+      "link": "https://dev.to/sybilgambleyyu/a-regression-gate-cannot-see-an-already-stale-signature-boundary-cga",
+      "pubDate": "2026-08-07T07:02:35.000Z",
+      "description": "<h1> A regression gate cannot see an already stale signature boundary </h1> <p>PDFFence 1.17 could make one important condition review-visible: a semantic<br> PDF signature's <code>/ByteRange</code> reached the file end before a comparison and does<br> not now. That is a regression question. But rev",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "Framework discloses data breach via Metabase 0-day",
+      "link": "https://community.frame.work/t/framework-data-breach-discussion/83939",
+      "pubDate": "2026-08-07T05:17:57.000Z",
+      "description": "Article URL: https://community.frame.work/t/framework-data-breach-discussion/83939 Comments URL: https://news.ycombinator.com/item?id=49206130 Points: 54 # Comments: 12",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "New Orleans is testing Carbyne’s AI-powered Emergency Call Triage software",
+      "link": "https://www.shreveporttimes.com/story/news/local/louisiana/2026/07/28/is-new-orleans-using-ai-to-answer-911-calls-instead-of-human-dispatchers-impacts-emergencies-crime/91065014007/",
+      "pubDate": "2026-08-07T00:37:30.000Z",
+      "description": "Article URL: https://www.shreveporttimes.com/story/news/local/louisiana/2026/07/28/is-new-orleans-using-ai-to-answer-911-calls-instead-of-human-dispatchers-impacts-emergencies-crime/91065014007/ Comments URL: https://news.ycombinator.com/item?id=49204546 Points: 53 # Comments: 67",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "Meta Ordered to Pay $942M to Address Harm to Kids from Social Media",
       "link": "https://www.wsj.com/tech/meta-ordered-to-pay-942-million-to-address-harm-to-kids-from-social-media-8ba5aab7",
       "pubDate": "2026-08-07T00:06:28.000Z",
-      "description": "Article URL: https://www.wsj.com/tech/meta-ordered-to-pay-942-million-to-address-harm-to-kids-from-social-media-8ba5aab7 Comments URL: https://news.ycombinator.com/item?id=49204352 Points: 81 # Comments: 44",
+      "description": "Article URL: https://www.wsj.com/tech/meta-ordered-to-pay-942-million-to-address-harm-to-kids-from-social-media-8ba5aab7 Comments URL: https://news.ycombinator.com/item?id=49204352 Points: 181 # Comments: 110",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -104,7 +120,7 @@
       "title": "Welcoming the Nepalese Government to Have I Been Pwned",
       "link": "https://www.troyhunt.com/welcoming-the-nepalese-government-to-have-i-been-pwned/",
       "pubDate": "2026-08-06T21:52:16.000Z",
-      "description": "Article URL: https://www.troyhunt.com/welcoming-the-nepalese-government-to-have-i-been-pwned/ Comments URL: https://news.ycombinator.com/item?id=49203105 Points: 101 # Comments: 18",
+      "description": "Article URL: https://www.troyhunt.com/welcoming-the-nepalese-government-to-have-i-been-pwned/ Comments URL: https://news.ycombinator.com/item?id=49203105 Points: 141 # Comments: 21",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -112,7 +128,7 @@
       "title": "Inside vLLM: Anatomy of a High-Throughput LLM Inference System (2025)",
       "link": "https://www.aleksagordic.com/blog/vllm",
       "pubDate": "2026-08-06T21:30:21.000Z",
-      "description": "Article URL: https://www.aleksagordic.com/blog/vllm Comments URL: https://news.ycombinator.com/item?id=49202852 Points: 74 # Comments: 3",
+      "description": "Article URL: https://www.aleksagordic.com/blog/vllm Comments URL: https://news.ycombinator.com/item?id=49202852 Points: 92 # Comments: 5",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -120,7 +136,15 @@
       "title": "Bioengineered chewing gum may offer a way to fight HPV and other microbes",
       "link": "https://www.sciencedaily.com/releases/2026/08/260803080917.htm",
       "pubDate": "2026-08-06T21:18:32.000Z",
-      "description": "Article URL: https://www.sciencedaily.com/releases/2026/08/260803080917.htm Comments URL: https://news.ycombinator.com/item?id=49202716 Points: 64 # Comments: 11",
+      "description": "Article URL: https://www.sciencedaily.com/releases/2026/08/260803080917.htm Comments URL: https://news.ycombinator.com/item?id=49202716 Points: 110 # Comments: 28",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "What is a product?",
+      "link": "https://roge.onwrite.app/what-is-a-product",
+      "pubDate": "2026-08-06T21:16:52.000Z",
+      "description": "Article URL: https://roge.onwrite.app/what-is-a-product Comments URL: https://news.ycombinator.com/item?id=49202690 Points: 21 # Comments: 6",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -128,7 +152,7 @@
       "title": "AMD acquires Taalas to boost inference performance by etching models in silicon",
       "link": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
       "pubDate": "2026-08-06T20:23:11.000Z",
-      "description": "https://ir.amd.com/news-events/press-releases/detail/1296/am...https://chatjimmy.ai/ Comments URL: https://news.ycombinator.com/item?id=49201970 Points: 419 # Comments: 328",
+      "description": "https://ir.amd.com/news-events/press-releases/detail/1296/am...https://chatjimmy.ai/ Comments URL: https://news.ycombinator.com/item?id=49201970 Points: 594 # Comments: 445",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -136,31 +160,7 @@
       "title": "Quake – 30th Anniversary Update",
       "link": "https://slayersclub.bethesda.net/en-US/news/quake-30th-anniversary-update",
       "pubDate": "2026-08-06T20:21:19.000Z",
-      "description": "Article URL: https://slayersclub.bethesda.net/en-US/news/quake-30th-anniversary-update Comments URL: https://news.ycombinator.com/item?id=49201930 Points: 227 # Comments: 113",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Herdr is joining Y Combinator. The runtime stays open",
-      "link": "https://herdr.dev/blog/herdr-is-joining-y-combinator/",
-      "pubDate": "2026-08-06T19:14:21.000Z",
-      "description": "Article URL: https://herdr.dev/blog/herdr-is-joining-y-combinator/ Comments URL: https://news.ycombinator.com/item?id=49201003 Points: 158 # Comments: 106",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Can you reverse engineer an ASIC?",
-      "link": "https://blog.janestreet.com/can-you-reverse-engineer-an-asic/",
-      "pubDate": "2026-08-06T19:07:33.000Z",
-      "description": "Article URL: https://blog.janestreet.com/can-you-reverse-engineer-an-asic/ Comments URL: https://news.ycombinator.com/item?id=49200933 Points: 67 # Comments: 46",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Qwen3.8 Max now ranked as the best overall model by agentic index",
-      "link": "https://artificialanalysis.ai/?intelligence=agentic-index",
-      "pubDate": "2026-08-06T18:44:49.000Z",
-      "description": "Article URL: https://artificialanalysis.ai/?intelligence=agentic-index Comments URL: https://news.ycombinator.com/item?id=49200652 Points: 449 # Comments: 288",
+      "description": "Article URL: https://slayersclub.bethesda.net/en-US/news/quake-30th-anniversary-update Comments URL: https://news.ycombinator.com/item?id=49201930 Points: 281 # Comments: 145",
       "source": "Hacker News",
       "category": "Tech News"
     },
