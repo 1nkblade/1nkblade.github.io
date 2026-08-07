@@ -1,93 +1,96 @@
 {
-  "generatedAt": "2026-08-07T00:15:47.645Z",
+  "generatedAt": "2026-08-07T03:18:59.749Z",
   "sourceCount": 4,
-  "successCount": 3,
-  "errors": [
-    {
-      "source": "CSS Tricks",
-      "error": "HTTP 415 Unsupported Media Type"
-    }
-  ],
+  "successCount": 4,
+  "errors": [],
   "items": [
     {
-      "title": "I built 623 web tools with AI. Ad revenue: about $0.07 a day. A post-mortem with real Search Console data",
-      "link": "https://dev.to/mxhlix/i-built-623-web-tools-with-ai-ad-revenue-about-007-a-day-a-post-mortem-with-real-search-275a",
-      "pubDate": "2026-08-07T00:04:22.000Z",
-      "description": "<p>Numbers first.</p> <ul> <li>What I built: 623 browser-based web tools × 5 languages (ja/en/es/fr/pt)</li> <li>How: an AI-driven generation pipeline, nearly fully automated</li> <li>Current ad revenue: <strong>about $0.07 per day</strong> (roughly ¥10)</li> <li>Times a Google update wiped out my s",
+      "title": "Running local and cloud models in the same coding agent: what actually ships in 2026",
+      "link": "https://dev.to/jacksonxly/running-local-and-cloud-models-in-the-same-coding-agent-what-actually-ships-in-2026-18eo",
+      "pubDate": "2026-08-07T03:09:57.000Z",
+      "description": "<p>Someone on r/LocalLLaMA asked a question this week that turned out to be harder to answer than it looks: which open-source coding harness lets a local model and a cloud model work on the same task, together, in one loop?</p> <p>The answers he got were a proxy and a shrug. He rejected both, correc",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "22.05kHz vs 44.1kHz — What's the Difference Between 'True Broadband' and Upsampling?",
-      "link": "https://dev.to/orca_forge/2205khz-vs-441khz-whats-the-difference-between-true-broadband-and-upsampling-3lhl",
-      "pubDate": "2026-08-07T00:02:22.000Z",
-      "description": "<blockquote> <p>📝 Originally published (in Japanese) at <a href=\"https://forge.workstyle.tech/blog/true-44khz-vs-upsampling-voice/?utm_source=devto&amp;utm_medium=crosspost&amp;utm_campaign=true-44khz-vs-upsampling-voice\" rel=\"noopener noreferrer\">forge.workstyle.tech</a>.</p> </blockquote> <p>When",
+      "title": "Canary Tests for AI Coding Agents: A Sandbox Harness You Can Run Yourself",
+      "link": "https://dev.to/applab_743/canary-tests-for-ai-coding-agents-a-sandbox-harness-you-can-run-yourself-35il",
+      "pubDate": "2026-08-07T03:05:30.000Z",
+      "description": "<p>Last week I watched an AI coding agent, given a routine refactor task, cheerfully read a <code>.env</code> file it had no business touching and echo a database URL into its plan. Nothing was exfiltrated — it was a toy project — but it made the recent \"what happens when agent tool boundaries fail\"",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Refactoring Safely: A Step-by-Step Guide",
-      "link": "https://dev.to/codeatlas/refactoring-safely-a-step-by-step-guide-17b5",
-      "pubDate": "2026-08-07T00:01:55.000Z",
-      "description": "<h2> Refactoring Safely: A Step-by-Step Guide </h2> <p>Refactoring is like renovating a house: you want to improve the structure without breaking the plumbing. Done carelessly, it can introduce bugs and chaos. Done methodically, it makes your code cleaner and more maintainable. Here's how I approach",
+      "title": "Attack Your Agent's Tool Boundaries Before Someone Else Does: A Repeatable Test Harness",
+      "link": "https://dev.to/hackjs_8688/attack-your-agents-tool-boundaries-before-someone-else-does-a-repeatable-test-harness-5cgd",
+      "pubDate": "2026-08-07T03:04:02.000Z",
+      "description": "<p>A few months ago I wrote about regression-testing prompts before shipping them. The responses that stuck with me weren't about prompts at all — they were about what happens when the model behind the prompt gets <em>tools</em>. A prompt that misbehaves wastes tokens. An agent that misbehaves delet",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "A Turn-Based Multiplayer Server That Fits in One PHP File",
-      "link": "https://dev.to/paulcrinigan/a-turn-based-multiplayer-server-that-fits-in-one-php-file-15l6",
-      "pubDate": "2026-08-07T00:00:34.000Z",
-      "description": "<p>Adding online play to a turn-based game usually stalls on infrastructure rather than on gameplay. The moment you decide two people should be able to play your chess or card game from different machines, the conversation turns into websockets, a persistent process, a host that will keep that proce",
+      "title": "Before You Give a Coding Agent Shell Access, Test Where Its Boundaries Actually Are",
+      "link": "https://dev.to/appjs_7055/before-you-give-a-coding-agent-shell-access-test-where-its-boundaries-actually-are-1fl5",
+      "pubDate": "2026-08-07T03:03:35.000Z",
+      "description": "<p>A lot of us are now running coding agents that can read files, write files, and execute shell commands. The default posture is permissive: you point the agent at a repo, approve a few prompts, and let it work. Most of the time nothing bad happens. But \"most of the time\" is not a security model, a",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Build a Circuit Breaker Pattern in Python",
-      "link": "https://dev.to/qingluan/build-a-circuit-breaker-pattern-in-python-17b5",
-      "pubDate": "2026-08-07T00:00:10.000Z",
-      "description": "<h1> Build a Circuit Breaker Pattern in Python </h1> <p>tags: python, architecture, tutorial, programming</p> <p>tags: python, git, devops, tools</p> <p>tags: python, git, devops, tools</p> <p>tags: python, devops, architecture, tutorial</p> <p>tags: python, devops, architecture, tutorial</p> <p>tag",
+      "title": "EU AI Innovation Package Links Supercomputing Access, Funding and AI Act Governance",
+      "link": "https://dev.to/alifar/eu-ai-innovation-package-links-supercomputing-access-funding-and-ai-act-governance-2e6m",
+      "pubDate": "2026-08-07T03:00:30.000Z",
+      "description": "<p>The European Union's AI Innovation Package is designed to give AI startups and small and medium-sized enterprises three things that can be difficult to secure independently: large-scale computing capacity, investment support and a clearer governance framework for building trustworthy AI. First ou",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The Quota Said 100% Used. Actual Demand Was 13%.",
-      "link": "https://dev.to/hexisteme/the-quota-said-100-used-actual-demand-was-13-43pg",
-      "pubDate": "2026-08-07T00:00:06.000Z",
-      "description": "<p><em>Originally published on <a href=\"https://hexisteme.github.io/notes/measure-unit-price-before-you-ration.html\" rel=\"noopener noreferrer\">hexisteme notes</a>.</em></p> <p>On July 31st, the accelerator quota API on one of my Kaggle accounts came back at 108,511.735 seconds used against 108,000 a",
+      "title": "UNC6671: Helpdesk Vishing, SSO and SaaS Cross-Traversal, and Multi-Brand Extortion via Notification Deletion",
+      "link": "https://dev.to/anoymask/unc6671-helpdesk-vishing-sso-and-saas-cross-traversal-and-multi-brand-extortion-via-notification-1pbl",
+      "pubDate": "2026-08-07T02:57:19.000Z",
+      "description": "<h1> UNC6671: Helpdesk Vishing, SSO and SaaS Cross-Traversal, and Multi-Brand Extortion via Notification Deletion </h1> <h2> 1. Basic Information </h2> <ul> <li> <strong>Article Title</strong>: UNC6671 Rebrands: Multi-Brand Vishing Extortion Targets Financial Services and Enterprise Cloud Environmen",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The Redis &amp; Kafka Interview Questions I Got Asked 23 Times (And How I Finally Answered Them)",
-      "link": "https://dev.to/moyuping/the-redis-kafka-interview-questions-i-got-asked-23-times-and-how-i-finally-answered-them-2ho",
-      "pubDate": "2026-08-06T23:46:05.000Z",
-      "description": "<blockquote> <p>Every senior backend interview I've done in the last 18 months asked at least one Redis question and one Kafka question. Below are the 10 that came up most often, answered with the patterns I actually use in production — not the textbook version.</p> </blockquote> <h2> 0. Context (re",
+      "title": "Paperclip CVE-2026-41679: 6 API Calls from Public Registration to AI Agent Host Process RCE",
+      "link": "https://dev.to/anoymask/paperclip-cve-2026-41679-6-api-calls-from-public-registration-to-ai-agent-host-process-rce-4ec4",
+      "pubDate": "2026-08-07T02:57:06.000Z",
+      "description": "<h1> Paperclip CVE-2026-41679: 6 API Calls from Public Registration to AI Agent Host Process RCE </h1> <h2> 1. Basic Information </h2> <ul> <li> <strong>Article Title</strong>: Critical Paperclip Flaw Allowed Admin Access, Code Execution</li> <li> <strong>Publisher</strong>: SecurityWeek</li> <li> <",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Why I Stopped Trusting \"It Works on My Machine\" and Actually Learned to Ship",
-      "link": "https://dev.to/yassines99/why-i-stopped-trusting-it-works-on-my-machine-and-actually-learned-to-ship-41ml",
-      "pubDate": "2026-08-06T23:33:07.000Z",
-      "description": "<p>I'll be honest about where this started. I could run <code>docker-compose up</code> and get an app running locally. I could follow a tutorial and end up with something that \"worked.\" But if you'd asked me to actually explain what happens when a real user hits my app over HTTPS, how traffic gets f",
+      "title": "TONTOU: Linux Kernel Leak via Timer Interrupt Stealing After Spectre v2 Defense Neutralization",
+      "link": "https://dev.to/anoymask/tontou-linux-kernel-leak-via-timer-interrupt-stealing-after-spectre-v2-defense-neutralization-1gpc",
+      "pubDate": "2026-08-07T02:56:51.000Z",
+      "description": "<h1> TONTOU: Linux Kernel Leak via Timer Interrupt Stealing After Spectre v2 Defense Neutralization </h1> <h2> 1. Basic Information </h2> <ul> <li> <strong>Article Title</strong>: New TONTOU CPU attack bypasses Spectre v2 fixes, leaks Linux password hashes</li> <li> <strong>Publisher</strong>: Bleep",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Every vendor says they detect AI agents. None of them can.",
-      "link": "https://dev.to/layercall/every-vendor-says-they-detect-ai-agents-none-of-them-can-222m",
-      "pubDate": "2026-08-06T23:30:54.000Z",
-      "description": "<p>This is going to be an unpopular one, and I would like to be argued out of it.</p> <p>A capable agent driving a real browser on a residential connection is indistinguishable from a person by construction. Not \"hard to distinguish\". Not \"we are working on it\". By construction — because every prope",
+      "title": "TeamCity CVE-2026-63077: Unauthenticated Deserialization RCE in Agent Polling Actively Exploited",
+      "link": "https://dev.to/anoymask/teamcity-cve-2026-63077-unauthenticated-deserialization-rce-in-agent-polling-actively-exploited-2712",
+      "pubDate": "2026-08-07T02:56:41.000Z",
+      "description": "<h1> TeamCity CVE-2026-63077: Unauthenticated Deserialization RCE in Agent Polling Actively Exploited </h1> <h2> 1. Basic Information </h2> <ul> <li> <strong>Article Title</strong>: Hackers Start Exploiting Recent JetBrains TeamCity Vulnerability</li> <li> <strong>Publisher</strong>: SecurityWeek</l",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Your bot detection works perfectly. That's the problem.",
-      "link": "https://dev.to/layercall/your-bot-detection-works-perfectly-thats-the-problem-3h87",
-      "pubDate": "2026-08-06T23:30:51.000Z",
-      "description": "<p>Every bot signal we have is a proxy for one question: is a human here?</p> <p>Device fingerprint says a real browser. IP reputation says a home connection, not a rented server. Email verification says someone opened the mailbox and clicked. Behavioural analysis says the mouse moved like a person'",
+      "title": "They scoped the customer and forgot the customer's ledger — a High-severity cross-tenant BOLA in Open Food Network",
+      "link": "https://dev.to/santosh_kumarpuppala_96e/they-scoped-the-customer-and-forgot-the-customers-ledger-a-high-severity-cross-tenant-bola-in-3j3g",
+      "pubDate": "2026-08-07T02:55:47.000Z",
+      "description": "<h2> TL;DR </h2> <ul> <li> <strong>What:</strong> <code>POST /api/v1/customer_account_transaction</code> in <a href=\"https://github.com/openfoodfoundation/openfoodnetwork\" rel=\"noopener noreferrer\">Open Food Network</a> authorized against the <strong>class</strong>, not the record. It took <code>cus",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "Meta Ordered to Pay $942M to Address Harm to Kids from Social Media",
+      "link": "https://www.wsj.com/tech/meta-ordered-to-pay-942-million-to-address-harm-to-kids-from-social-media-8ba5aab7",
+      "pubDate": "2026-08-07T00:06:28.000Z",
+      "description": "Article URL: https://www.wsj.com/tech/meta-ordered-to-pay-942-million-to-address-harm-to-kids-from-social-media-8ba5aab7 Comments URL: https://news.ycombinator.com/item?id=49204352 Points: 81 # Comments: 44",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "Spin audit of SQD/QSCI quantum-chemistry benchmarks on iron–sulfur clusters",
@@ -101,15 +104,7 @@
       "title": "Welcoming the Nepalese Government to Have I Been Pwned",
       "link": "https://www.troyhunt.com/welcoming-the-nepalese-government-to-have-i-been-pwned/",
       "pubDate": "2026-08-06T21:52:16.000Z",
-      "description": "Article URL: https://www.troyhunt.com/welcoming-the-nepalese-government-to-have-i-been-pwned/ Comments URL: https://news.ycombinator.com/item?id=49203105 Points: 55 # Comments: 13",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Show HN: Pokémon Emerald Ported to Raspberry Pi Pico 2",
-      "link": "https://github.com/mattdeeds/pokeemerald-rp2350",
-      "pubDate": "2026-08-06T21:49:07.000Z",
-      "description": "Pokémon Emerald ported to the RP2350 microcontroller. No emulator, 60 fps HDMI output. Recompiled from ARMv4T to Cortex-M33 and the Game Boy Advance's video hardware is reimplemented in software on the second core. Comments URL: https://news.ycombinator.com/item?id=49203059 Points: 35 # Comments: 16",
+      "description": "Article URL: https://www.troyhunt.com/welcoming-the-nepalese-government-to-have-i-been-pwned/ Comments URL: https://news.ycombinator.com/item?id=49203105 Points: 101 # Comments: 18",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -117,15 +112,15 @@
       "title": "Inside vLLM: Anatomy of a High-Throughput LLM Inference System (2025)",
       "link": "https://www.aleksagordic.com/blog/vllm",
       "pubDate": "2026-08-06T21:30:21.000Z",
-      "description": "Article URL: https://www.aleksagordic.com/blog/vllm Comments URL: https://news.ycombinator.com/item?id=49202852 Points: 42 # Comments: 3",
+      "description": "Article URL: https://www.aleksagordic.com/blog/vllm Comments URL: https://news.ycombinator.com/item?id=49202852 Points: 74 # Comments: 3",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Bioengineered chewing gum may offer a way to fight microbes linked to cancers",
+      "title": "Bioengineered chewing gum may offer a way to fight HPV and other microbes",
       "link": "https://www.sciencedaily.com/releases/2026/08/260803080917.htm",
       "pubDate": "2026-08-06T21:18:32.000Z",
-      "description": "Article URL: https://www.sciencedaily.com/releases/2026/08/260803080917.htm Comments URL: https://news.ycombinator.com/item?id=49202716 Points: 37 # Comments: 2",
+      "description": "Article URL: https://www.sciencedaily.com/releases/2026/08/260803080917.htm Comments URL: https://news.ycombinator.com/item?id=49202716 Points: 64 # Comments: 11",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -133,7 +128,7 @@
       "title": "AMD acquires Taalas to boost inference performance by etching models in silicon",
       "link": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
       "pubDate": "2026-08-06T20:23:11.000Z",
-      "description": "https://ir.amd.com/news-events/press-releases/detail/1296/am...https://chatjimmy.ai/ Comments URL: https://news.ycombinator.com/item?id=49201970 Points: 304 # Comments: 241",
+      "description": "https://ir.amd.com/news-events/press-releases/detail/1296/am...https://chatjimmy.ai/ Comments URL: https://news.ycombinator.com/item?id=49201970 Points: 419 # Comments: 328",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -141,7 +136,7 @@
       "title": "Quake – 30th Anniversary Update",
       "link": "https://slayersclub.bethesda.net/en-US/news/quake-30th-anniversary-update",
       "pubDate": "2026-08-06T20:21:19.000Z",
-      "description": "Article URL: https://slayersclub.bethesda.net/en-US/news/quake-30th-anniversary-update Comments URL: https://news.ycombinator.com/item?id=49201930 Points: 192 # Comments: 91",
+      "description": "Article URL: https://slayersclub.bethesda.net/en-US/news/quake-30th-anniversary-update Comments URL: https://news.ycombinator.com/item?id=49201930 Points: 227 # Comments: 113",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -149,7 +144,7 @@
       "title": "Herdr is joining Y Combinator. The runtime stays open",
       "link": "https://herdr.dev/blog/herdr-is-joining-y-combinator/",
       "pubDate": "2026-08-06T19:14:21.000Z",
-      "description": "Article URL: https://herdr.dev/blog/herdr-is-joining-y-combinator/ Comments URL: https://news.ycombinator.com/item?id=49201003 Points: 127 # Comments: 84",
+      "description": "Article URL: https://herdr.dev/blog/herdr-is-joining-y-combinator/ Comments URL: https://news.ycombinator.com/item?id=49201003 Points: 158 # Comments: 106",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -157,7 +152,7 @@
       "title": "Can you reverse engineer an ASIC?",
       "link": "https://blog.janestreet.com/can-you-reverse-engineer-an-asic/",
       "pubDate": "2026-08-06T19:07:33.000Z",
-      "description": "Article URL: https://blog.janestreet.com/can-you-reverse-engineer-an-asic/ Comments URL: https://news.ycombinator.com/item?id=49200933 Points: 53 # Comments: 30",
+      "description": "Article URL: https://blog.janestreet.com/can-you-reverse-engineer-an-asic/ Comments URL: https://news.ycombinator.com/item?id=49200933 Points: 67 # Comments: 46",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -165,9 +160,89 @@
       "title": "Qwen3.8 Max now ranked as the best overall model by agentic index",
       "link": "https://artificialanalysis.ai/?intelligence=agentic-index",
       "pubDate": "2026-08-06T18:44:49.000Z",
-      "description": "Article URL: https://artificialanalysis.ai/?intelligence=agentic-index Comments URL: https://news.ycombinator.com/item?id=49200652 Points: 406 # Comments: 263",
+      "description": "Article URL: https://artificialanalysis.ai/?intelligence=agentic-index Comments URL: https://news.ycombinator.com/item?id=49200652 Points: 449 # Comments: 288",
       "source": "Hacker News",
       "category": "Tech News"
+    },
+    {
+      "title": "2026 State of CSS, Devs Surveys",
+      "link": "https://css-tricks.com/2026-state-of-css-devs-surveys/",
+      "pubDate": "2026-08-06T15:54:52.000Z",
+      "description": "A few notes and takeaways from the 2026 State of CSS survey results, including a nice CSS-Tricks cameo! 2026 State of CSS, Devs Surveys originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Gap Decorations Are Now Available, Here’s What’s New",
+      "link": "https://css-tricks.com/css-gap-decorations-now-available/",
+      "pubDate": "2026-08-03T15:53:20.000Z",
+      "description": "Today, with CSS gap decorations fully supported in Chrome and Edge, starting with version 149, you can now very easily style gaps, and with a lot of control. Gap Decorations Are Now Available, Here’s What’s New originally handwritten and published with love on CSS-Tricks. You should really get the n",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Get Ready For the Powerful CSS border-shape Property!",
+      "link": "https://css-tricks.com/get-ready-for-the-powerful-css-border-shape-property/",
+      "pubDate": "2026-07-31T15:14:00.000Z",
+      "description": "We recently got the shape() function and corner-shape property. What else could we possibly need as far as making shapes in CSS? Let me tell you: the border-shape property! Get Ready For the Powerful CSS border-shape Property! originally handwritten and published with love on CSS-Tricks. You should ",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "What’s !important #16: sibling-index() Animations, Use Cases for the infinity Keyword, Container Stuck Queries, and More",
+      "link": "https://css-tricks.com/whats-important-16/",
+      "pubDate": "2026-07-31T14:06:21.000Z",
+      "description": "The soon-Baseline sibling-index() function for animations, CSS and the 2026 FIFA World Cup, use cases for the infinity keyword, container \"stuck\" queries, and more. What’s !important #16: sibling-index() Animations, Use Cases for the infinity Keyword, Container Stuck Queries, and More originally han",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "writing-mode",
+      "link": "https://css-tricks.com/almanac/properties/w/writing-mode/",
+      "pubDate": "2026-07-21T09:39:10.000Z",
+      "description": "The writing-mode CSS property sets whether lines of text are laid out horizontally or vertically, and the direction in which blocks and lines progress. .element { writing-mode: vertical-rl; } This is most useful in languages such as Chinese, Japanese or … writing-mode originally handwritten and publ",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "pointer-events",
+      "link": "https://css-tricks.com/almanac/properties/p/pointer-events/",
+      "pubDate": "2026-07-15T19:57:51.000Z",
+      "description": "The pointer-events property controls whether an element can become the target of pointer events like clicks, hover states, and other pointer-based events. In other words, it lets you decide whether the browser should treat an element as interactive when the … pointer-events originally handwritten an",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "What’s !important #15: Boundary-aware CSS, Time-based CSS, Full-bleed CSS, and More",
+      "link": "https://css-tricks.com/whats-important-15/",
+      "pubDate": "2026-07-14T14:36:18.000Z",
+      "description": "Read all about boundary-aware CSS, accessible grid lanes, time-based web designs, full-bleed, the customizable select, and new web platform features. What’s !important #15: Boundary-aware CSS, Time-based CSS, Full-bleed CSS, and More originally handwritten and published with love on CSS-Tricks. You ",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "What’s !important #14: Gap Decorations, random(), &#060;select&gt; field-sizing, and More",
+      "link": "https://css-tricks.com/whats-important-14/",
+      "pubDate": "2026-06-30T13:54:14.000Z",
+      "description": "I know you’re busy, so for What’s !important #14, I’ll be sprinting through what’s been a stacked couple of weeks despite few browser updates. From CSS Quake to CSS Gap Decorations, this isn’t one to miss! What’s !important #14: Gap Decorations, random(), <select> field-sizing, and More originally h",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "The Shifting Line Between CSS States and JavaScript Events",
+      "link": "https://css-tricks.com/css-states-and-javascript-events/",
+      "pubDate": "2026-06-29T13:03:32.000Z",
+      "description": "CSS has always had pseudo-classes that style things based on user interactions. Recent features, however, are blurring the line between what CSS \"listens\" for and how they are alternatives to what Javascript typically listens for. The Shifting Line Between CSS States and JavaScript Events originally",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "translateZ()",
+      "link": "https://css-tricks.com/almanac/functions/t/translatez/",
+      "pubDate": "2026-06-25T13:18:56.000Z",
+      "description": "The translateZ() function moves an element closer to or farther from the user. translateZ() originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
       "title": "Meet the HTB Profile: all your skills, in one place",
