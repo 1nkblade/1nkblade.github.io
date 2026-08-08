@@ -1,99 +1,110 @@
 {
-  "generatedAt": "2026-08-08T02:21:37.434Z",
+  "generatedAt": "2026-08-08T07:15:45.026Z",
   "sourceCount": 4,
-  "successCount": 3,
-  "errors": [
-    {
-      "source": "CSS Tricks",
-      "error": "HTTP 415 Unsupported Media Type"
-    }
-  ],
+  "successCount": 4,
+  "errors": [],
   "items": [
     {
-      "title": "Service-to-Service Communication — gRPC vs REST",
-      "link": "https://dev.to/gouranga-das-khulna/service-to-service-communication-grpc-vs-rest-1c5d",
-      "pubDate": "2026-08-08T02:00:00.000Z",
-      "description": "<blockquote> <h2> <strong>One-liner:</strong> REST uses JSON over HTTP/1.1 and is human-readable; gRPC uses binary Protocol Buffers over HTTP/2 and is 5-10× faster — pick based on who's calling your service. </h2> </blockquote> <h2> 📡 REST — Representational State Transfer </h2> <p>The universal la",
+      "title": "My routing policy and my traces disagreed 96 times. Never once on the main thread.",
+      "link": "https://dev.to/lizhuojunx86/my-routing-policy-and-my-traces-disagreed-96-times-never-once-on-the-main-thread-ffp",
+      "pubDate": "2026-08-08T07:13:08.000Z",
+      "description": "<p>This is part four of a series about pointing an append-only audit log at things that count tokens. <a href=\"https://dev.to/lizhuojunx86/a-missing-model-line-was-half-my-ai-agent-overspend-auditing-34-days-of-multi-model-claude-code-mc7\">Part one</a> found that a missing model line was half my age",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Converting SVG strokes to fills in the browser: the geometry problem nobody warns you about",
-      "link": "https://dev.to/svg_garagemade/converting-svg-strokes-to-fills-in-the-browser-the-geometry-problem-nobody-warns-you-about-9ko",
-      "pubDate": "2026-08-08T01:50:16.000Z",
-      "description": "<p>A while back I was building an icon font with IcoMoon. I dragged in my SVGs, hit generate, and about half the icons came out wrong — hollow outlines, missing pieces, shapes that looked nothing like the source.</p> <p>The reason turned out to be simple, and it's a trap a lot of tooling sets for yo",
+      "title": "Scraping Ethically: A Practical Guide to Respectful Web Crawling",
+      "link": "https://dev.to/aimigo_57e64d6aeaf6a67a02/scraping-ethically-a-practical-guide-to-respectful-web-crawling-4820",
+      "pubDate": "2026-08-08T07:00:16.000Z",
+      "description": "<h2> Scraping Ethically: A Practical Guide to Respectful Web Crawling </h2> <p><strong>The single most important thing to understand about web scraping is this: ethical crawling is not a legal gray area—it’s a technical and reputational survival strategy.</strong> If you scrape without respecting ro",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How full-text search works in pure Python (a tour with Whoosh)",
-      "link": "https://dev.to/priyasundaram/how-full-text-search-works-in-pure-python-a-tour-with-whoosh-1bi",
-      "pubDate": "2026-08-08T01:30:24.000Z",
-      "description": "<blockquote> <p>Disclosure: I'm an AI agent (I go by Priya Sundaram) and I wrote this article.<br> <code>#ABotWroteThis</code>. I also help maintain the library used in the examples, so<br> treat the \"when to use it\" section as an interested party's opinion and check<br> the claims yourself — every ",
+      "title": "You built your modal with a `&lt;div&gt;` and a focus trap library. The native `&lt;dialog&gt;` does all of that.",
+      "link": "https://dev.to/parsajiravand/you-built-your-modal-with-a-and-a-focus-trap-library-the-native-does-all-of-15lg",
+      "pubDate": "2026-08-08T07:00:10.000Z",
+      "description": "<p>Building a modal from scratch means writing the same boilerplate every time: a <code>&lt;div&gt;</code> with <code>role=\"dialog\"</code>, an <code>aria-modal</code> attribute, a <code>tabindex=\"-1\"</code> to steal focus, a <code>keydown</code> listener to catch Escape, a focus-trap library to keep",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "LLD Design Patterns: How Experienced Engineers Recognize Patterns Instead of Memorizing Them",
-      "link": "https://dev.to/saras_growth_space/lld-design-patterns-how-experienced-engineers-recognize-patterns-instead-of-memorizing-them-4pf9",
-      "pubDate": "2026-08-08T01:30:00.000Z",
-      "description": "<p>By now, we've reached an important milestone in this series.</p> <p>We've learned that:</p> <ul> <li>SOLID principles help us design maintainable components.</li> <li>Software keeps evolving even after we've applied good design principles.</li> <li>The same categories of design problems appear ac",
+      "title": "Stop importing `uuid`. `crypto.randomUUID()` has been native since 2021.",
+      "link": "https://dev.to/parsajiravand/stop-importing-uuid-cryptorandomuuid-has-been-native-since-2021-ehm",
+      "pubDate": "2026-08-08T07:00:09.000Z",
+      "description": "<p>The <code>uuid</code> npm package is one of the most downloaded libraries in the JavaScript ecosystem. The vast majority of those installs exist for one thing: <code>uuid/v4</code>, which generates a random unique identifier in the standard <code>xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx</code> format",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How We Handled Our First Major Outage (And Survived)",
-      "link": "https://dev.to/samson_tanimawo/how-we-handled-our-first-major-outage-and-survived-3nap",
-      "pubDate": "2026-08-08T01:27:13.000Z",
-      "description": "<p>Three years ago we had our first real outage. Six hours of downtime. Thousands of angry users. Multiple executives on the call. Here's what we did right, what we did wrong, and what we'd do differently.</p> <h2> What we did right </h2> <p><strong>1. Communicated immediately.</strong> The moment w",
+      "title": "Your store weighs 1.7 MB and still takes 18 seconds: the number that matters is 364 requests",
+      "link": "https://dev.to/smirnovartur/your-store-weighs-17-mb-and-still-takes-18-seconds-the-number-that-matters-is-364-requests-6lb",
+      "pubDate": "2026-08-08T06:55:02.000Z",
+      "description": "<p>Page weight is the number everyone checks, and it is the reason this store has been slow for<br> months without anyone finding out why.</p> <p>I measured a Shopify storefront twice, cold cache, an hour apart:</p> <div class=\"table-wrapper-paragraph\"><table> <thead> <tr> <th></th> <th>visit 1</th>",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Building a Ride-Share Zone-Balancing Agent with LangGraph — Part 5: Coordinating Two Zones at Once",
-      "link": "https://dev.to/ebrahim_arian_37097b72c7e/building-a-ride-share-zone-balancing-agent-with-langgraph-part-5-coordinating-two-zones-at-once-2c17",
-      "pubDate": "2026-08-08T01:24:29.000Z",
-      "description": "<p>This is Part 5, the last part of this series. <a href=\"https://dev.to/ebrahim_arian_37097b72c7e/building-a-ride-share-zone-balancing-agent-with-langgraph-part-4-letting-a-human-step-in-5die\">Part 4</a> let a human step into the loop before a risky decision executes. Every part so far, though, has",
+      "title": "x402 designs out the intermediaries that produce your tax records",
+      "link": "https://dev.to/rpulicen/x402-designs-out-the-intermediaries-that-produce-your-tax-records-j28",
+      "pubDate": "2026-08-08T06:54:46.000Z",
+      "description": "<p>x402 lets software pay for things over HTTP. An agent calls a paid API, a<br> fraction of a cent in USDC settles on-chain, the agent gets its data. No<br> accounts, no API keys, no invoice. In December 2025 the protocol handled roughly<br> 63 million transactions across 64,000 unique buyers, aver",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Building a Ride-Share Zone-Balancing Agent with LangGraph — Part 4: Letting a Human Step In",
-      "link": "https://dev.to/ebrahim_arian_37097b72c7e/building-a-ride-share-zone-balancing-agent-with-langgraph-part-4-letting-a-human-step-in-5die",
-      "pubDate": "2026-08-08T01:24:26.000Z",
-      "description": "<p>This is Part 4 of a 5-part series. <a href=\"https://dev.to/ebrahim_arian_37097b72c7e/building-a-ride-share-zone-balancing-agent-with-langgraph-part-3-giving-the-agent-memory-obb\">Part 3</a> gave the agent memory. It can now run for hours on its own, cycle after cycle, without forgetting what it a",
+      "title": "rulsynor-core v1.0: An AI Agent You Can Audit",
+      "link": "https://dev.to/haorantang/rulsynor-core-v10-an-ai-agent-you-can-audit-oie",
+      "pubDate": "2026-08-08T06:51:27.000Z",
+      "description": "<h1> rulsynor-core v1.0: An AI Agent You Can Audit </h1> <p>How do you trust an AI Agent in production? Not \"trust\" as in <em>I think it'll do the right thing</em>. Trust as in <strong>cryptographic proof</strong> that every decision was correct, traceable, and independently verifiable.</p> <h2> Tod",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Building a Ride-Share Zone-Balancing Agent with LangGraph — Part 3: Giving the Agent Memory",
-      "link": "https://dev.to/ebrahim_arian_37097b72c7e/building-a-ride-share-zone-balancing-agent-with-langgraph-part-3-giving-the-agent-memory-obb",
-      "pubDate": "2026-08-08T01:24:22.000Z",
-      "description": "<p>This is Part 3 of a 5-part series. <a href=\"https://dev.to/ebrahim_arian_37097b72c7e/building-a-ride-share-zone-balancing-agent-with-langgraph-part-1-a-rule-based-agent-no-llm-yet-6pm\">Part 1</a> built a rule-based agent for one zone. <a href=\"https://dev.to/ebrahim_arian_37097b72c7e/building-a-r",
+      "title": "I Tried to Get Roblox Working on University Wifi and Ended Up Learning Infrastructure",
+      "link": "https://dev.to/ailanoor13/i-tried-to-get-roblox-working-on-university-wifi-and-ended-up-learning-infrastructure-33d",
+      "pubDate": "2026-08-08T06:47:36.000Z",
+      "description": "<p>A few months ago I had one goal: get around my university's wifi restrictions so I could play Roblox at university. What actually happened is I ended up learning Terraform, Ansible, and a decent chunk of cloud networking, and came out the other side with a self-hosted VPN running on Oracle Cloud.",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Building a Ride-Share Zone-Balancing Agent with LangGraph — Part 2: Teaching the Agent to Read Ops Notes",
-      "link": "https://dev.to/ebrahim_arian_37097b72c7e/building-a-ride-share-zone-balancing-agent-with-langgraph-part-2-teaching-the-agent-to-read-ops-3706",
-      "pubDate": "2026-08-08T01:24:17.000Z",
-      "description": "<p>This is Part 2 of a 5-part series. <a href=\"https://dev.to/ebrahim_arian_37097b72c7e/building-a-ride-share-zone-balancing-agent-with-langgraph-part-1-a-rule-based-agent-no-llm-yet-6pm\">Part 1</a> built a rule-based agent for a single ride-share zone — no LLM, just structured numbers and determini",
+      "title": "I Built an Open-Source AI Video Clipping Pipeline",
+      "link": "https://dev.to/sreegeethesh/i-built-an-open-source-ai-video-clipping-pipeline-13c6",
+      "pubDate": "2026-08-08T06:46:05.000Z",
+      "description": "<h1> I Built an Open-Source AI Video Clipping Pipeline </h1> <p>I wanted a tool that could take a long video and turn it into social-ready clips without uploading the entire video to some SaaS platform.</p> <p>So I built <strong>AutoClip</strong>.</p> <p>The idea is simple:<br> </p> <div class=\"high",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Building a Ride-Share Zone-Balancing Agent with LangGraph — Part 1: A Rule-Based Agent, No LLM Yet",
-      "link": "https://dev.to/ebrahim_arian_37097b72c7e/building-a-ride-share-zone-balancing-agent-with-langgraph-part-1-a-rule-based-agent-no-llm-yet-6pm",
-      "pubDate": "2026-08-08T01:24:04.000Z",
-      "description": "<p>It's 5pm on a weekday, and you're standing outside a stadium after an event just wrapped up. You open your ride-share app. Estimated wait: 12 minutes. Meanwhile, three neighborhoods over, drivers are circling empty streets with nobody requesting a ride.</p> <p>This happens constantly on any ride-",
+      "title": "How I Built a Real-Time Windows RAM Optimizer in Rust &amp; Tauri v2",
+      "link": "https://dev.to/jojin1709/how-i-built-a-real-time-windows-ram-optimizer-in-rust-tauri-v2-b9p",
+      "pubDate": "2026-08-08T06:41:31.000Z",
+      "description": "<p>Many memory cleaner utilities on Windows rely on placebo tricks—forcing artificial allocation spikes that trigger Windows pageouts while causing heavy system stutter. </p> <p>To solve this, I built <strong>RAMGuard Pro</strong>: a lightweight, high-performance desktop memory reclamation utility p",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "Mythos social engineering AISI INC-2026-07-28-01",
+      "link": "https://web.archive.org/web/20260731053721/http://github.com/ancaferro/myNetwork/pull/3",
+      "pubDate": "2026-08-08T03:41:56.000Z",
+      "description": "Article URL: https://web.archive.org/web/20260731053721/http://github.com/ancaferro/myNetwork/pull/3 Comments URL: https://news.ycombinator.com/item?id=49218707 Points: 45 # Comments: 17",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "NASA to keep its 48-year-old Voyager 2 probe running for yet another year",
+      "link": "https://www.space.com/space-exploration/voyager/nasa-figured-out-how-to-keep-its-48-year-old-voyager-2-probe-running-for-yet-another-year",
+      "pubDate": "2026-08-08T01:49:11.000Z",
+      "description": "Article URL: https://www.space.com/space-exploration/voyager/nasa-figured-out-how-to-keep-its-48-year-old-voyager-2-probe-running-for-yet-another-year Comments URL: https://news.ycombinator.com/item?id=49218179 Points: 187 # Comments: 34",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "The Nixpkgs core team has disbanded",
       "link": "https://discourse.nixos.org/t/the-nixpkgs-core-team-has-disbanded/79413",
       "pubDate": "2026-08-08T01:12:45.000Z",
-      "description": "Article URL: https://discourse.nixos.org/t/the-nixpkgs-core-team-has-disbanded/79413 Comments URL: https://news.ycombinator.com/item?id=49217993 Points: 58 # Comments: 11",
+      "description": "Article URL: https://discourse.nixos.org/t/the-nixpkgs-core-team-has-disbanded/79413 Comments URL: https://news.ycombinator.com/item?id=49217993 Points: 263 # Comments: 114",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -101,7 +112,7 @@
       "title": "U.S. Department of Energy Launches the Genesis Open Models Initiative",
       "link": "https://genesisopenmodels.anl.gov/",
       "pubDate": "2026-08-07T22:24:27.000Z",
-      "description": "Article URL: https://genesisopenmodels.anl.gov/ Comments URL: https://news.ycombinator.com/item?id=49216946 Points: 98 # Comments: 41",
+      "description": "Article URL: https://genesisopenmodels.anl.gov/ Comments URL: https://news.ycombinator.com/item?id=49216946 Points: 199 # Comments: 66",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -109,7 +120,7 @@
       "title": "Water system controllers don't belong on the internet, says ex-NSA chief",
       "link": "https://www.theregister.com/security/2026/08/07/water-system-controllers-dont-belong-on-the-internet-says-ex-nsa-chief-after-suspected-iran-attacks/5285070",
       "pubDate": "2026-08-07T21:19:57.000Z",
-      "description": "Article URL: https://www.theregister.com/security/2026/08/07/water-system-controllers-dont-belong-on-the-internet-says-ex-nsa-chief-after-suspected-iran-attacks/5285070 Comments URL: https://news.ycombinator.com/item?id=49216362 Points: 132 # Comments: 89",
+      "description": "Article URL: https://www.theregister.com/security/2026/08/07/water-system-controllers-dont-belong-on-the-internet-says-ex-nsa-chief-after-suspected-iran-attacks/5285070 Comments URL: https://news.ycombinator.com/item?id=49216362 Points: 173 # Comments: 114",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -117,7 +128,7 @@
       "title": "Psychological Warfare in Reverse Engineering (2015)",
       "link": "https://github.com/xoreaxeaxeax/repsych",
       "pubDate": "2026-08-07T18:51:45.000Z",
-      "description": "Article URL: https://github.com/xoreaxeaxeax/repsych Comments URL: https://news.ycombinator.com/item?id=49214775 Points: 54 # Comments: 2",
+      "description": "Article URL: https://github.com/xoreaxeaxeax/repsych Comments URL: https://news.ycombinator.com/item?id=49214775 Points: 62 # Comments: 3",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -125,7 +136,7 @@
       "title": "Ancient Library – 1,060 Greek/Latin texts, click any word to parse it",
       "link": "https://ancientlibrary.net/",
       "pubDate": "2026-08-07T18:51:14.000Z",
-      "description": "Article URL: https://ancientlibrary.net/ Comments URL: https://news.ycombinator.com/item?id=49214770 Points: 152 # Comments: 51",
+      "description": "Article URL: https://ancientlibrary.net/ Comments URL: https://news.ycombinator.com/item?id=49214770 Points: 189 # Comments: 58",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -133,7 +144,7 @@
       "title": "Managing AI Coding Costs at Scale",
       "link": "https://www.databricks.com/blog/managing-ai-coding-costs-scale",
       "pubDate": "2026-08-07T18:25:17.000Z",
-      "description": "Article URL: https://www.databricks.com/blog/managing-ai-coding-costs-scale Comments URL: https://news.ycombinator.com/item?id=49214468 Points: 168 # Comments: 173",
+      "description": "Article URL: https://www.databricks.com/blog/managing-ai-coding-costs-scale Comments URL: https://news.ycombinator.com/item?id=49214468 Points: 215 # Comments: 194",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -141,7 +152,7 @@
       "title": "Assembly Hall of Shame",
       "link": "https://github.com/xoreaxeaxeax/asm-hall-of-shame",
       "pubDate": "2026-08-07T18:01:30.000Z",
-      "description": "Article URL: https://github.com/xoreaxeaxeax/asm-hall-of-shame Comments URL: https://news.ycombinator.com/item?id=49214098 Points: 259 # Comments: 61",
+      "description": "Article URL: https://github.com/xoreaxeaxeax/asm-hall-of-shame Comments URL: https://news.ycombinator.com/item?id=49214098 Points: 308 # Comments: 74",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -149,25 +160,89 @@
       "title": "DeepSeek V4 Flash 0731",
       "link": "https://arcprize.org/results/deepseek-v4-flash-0731",
       "pubDate": "2026-08-07T17:56:20.000Z",
-      "description": "Article URL: https://arcprize.org/results/deepseek-v4-flash-0731 Comments URL: https://news.ycombinator.com/item?id=49214008 Points: 474 # Comments: 286",
+      "description": "Article URL: https://arcprize.org/results/deepseek-v4-flash-0731 Comments URL: https://news.ycombinator.com/item?id=49214008 Points: 564 # Comments: 340",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Oracle bans AI-generated code from OpenJDK",
-      "link": "https://app.dealroom.co/news/feed/oracle-bans-ai-generated-code-from-openjdk-despite-ellison-s-claim-oracle-isn-t-writing-its-own-code",
-      "pubDate": "2026-08-07T17:36:30.000Z",
-      "description": "Article URL: https://app.dealroom.co/news/feed/oracle-bans-ai-generated-code-from-openjdk-despite-ellison-s-claim-oracle-isn-t-writing-its-own-code Comments URL: https://news.ycombinator.com/item?id=49213754 Points: 395 # Comments: 265",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "Using and Styling the Dialog Element",
+      "link": "https://css-tricks.com/using-and-styling-the-dialog-element/",
+      "pubDate": "2026-08-07T14:06:43.000Z",
+      "description": "There's a lot of nuance to the <dialog> element, a seemingly little piece of web architecture. I've got some notes from digging into it. Using and Styling the Dialog Element originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
-      "title": "Responding to the next frontier of critical cyber capabilities",
-      "link": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/",
-      "pubDate": "2026-08-07T16:39:36.000Z",
-      "description": "Article URL: https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/ Comments URL: https://news.ycombinator.com/item?id=49213029 Points: 156 # Comments: 167",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "2026 State of CSS, Devs Surveys",
+      "link": "https://css-tricks.com/2026-state-of-css-devs-surveys/",
+      "pubDate": "2026-08-06T15:54:52.000Z",
+      "description": "A few notes and takeaways from the 2026 State of CSS survey results, including a nice CSS-Tricks cameo! 2026 State of CSS, Devs Surveys originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Gap Decorations Are Now Available, Here’s What’s New",
+      "link": "https://css-tricks.com/css-gap-decorations-now-available/",
+      "pubDate": "2026-08-03T15:53:20.000Z",
+      "description": "Today, with CSS gap decorations fully supported in Chrome and Edge, starting with version 149, you can now very easily style gaps, and with a lot of control. Gap Decorations Are Now Available, Here’s What’s New originally handwritten and published with love on CSS-Tricks. You should really get the n",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Get Ready For the Powerful CSS border-shape Property!",
+      "link": "https://css-tricks.com/get-ready-for-the-powerful-css-border-shape-property/",
+      "pubDate": "2026-07-31T15:14:00.000Z",
+      "description": "We recently got the shape() function and corner-shape property. What else could we possibly need as far as making shapes in CSS? Let me tell you: the border-shape property! Get Ready For the Powerful CSS border-shape Property! originally handwritten and published with love on CSS-Tricks. You should ",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "What’s !important #16: sibling-index() Animations, Use Cases for the infinity Keyword, Container Stuck Queries, and More",
+      "link": "https://css-tricks.com/whats-important-16/",
+      "pubDate": "2026-07-31T14:06:21.000Z",
+      "description": "The soon-Baseline sibling-index() function for animations, CSS and the 2026 FIFA World Cup, use cases for the infinity keyword, container \"stuck\" queries, and more. What’s !important #16: sibling-index() Animations, Use Cases for the infinity Keyword, Container Stuck Queries, and More originally han",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "writing-mode",
+      "link": "https://css-tricks.com/almanac/properties/w/writing-mode/",
+      "pubDate": "2026-07-21T09:39:10.000Z",
+      "description": "The writing-mode CSS property sets whether lines of text are laid out horizontally or vertically, and the direction in which blocks and lines progress. .element { writing-mode: vertical-rl; } This is most useful in languages such as Chinese, Japanese or … writing-mode originally handwritten and publ",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "pointer-events",
+      "link": "https://css-tricks.com/almanac/properties/p/pointer-events/",
+      "pubDate": "2026-07-15T19:57:51.000Z",
+      "description": "The pointer-events property controls whether an element can become the target of pointer events like clicks, hover states, and other pointer-based events. In other words, it lets you decide whether the browser should treat an element as interactive when the … pointer-events originally handwritten an",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "What’s !important #15: Boundary-aware CSS, Time-based CSS, Full-bleed CSS, and More",
+      "link": "https://css-tricks.com/whats-important-15/",
+      "pubDate": "2026-07-14T14:36:18.000Z",
+      "description": "Read all about boundary-aware CSS, accessible grid lanes, time-based web designs, full-bleed, the customizable select, and new web platform features. What’s !important #15: Boundary-aware CSS, Time-based CSS, Full-bleed CSS, and More originally handwritten and published with love on CSS-Tricks. You ",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "What’s !important #14: Gap Decorations, random(), &#060;select&gt; field-sizing, and More",
+      "link": "https://css-tricks.com/whats-important-14/",
+      "pubDate": "2026-06-30T13:54:14.000Z",
+      "description": "I know you’re busy, so for What’s !important #14, I’ll be sprinting through what’s been a stacked couple of weeks despite few browser updates. From CSS Quake to CSS Gap Decorations, this isn’t one to miss! What’s !important #14: Gap Decorations, random(), <select> field-sizing, and More originally h",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "The Shifting Line Between CSS States and JavaScript Events",
+      "link": "https://css-tricks.com/css-states-and-javascript-events/",
+      "pubDate": "2026-06-29T13:03:32.000Z",
+      "description": "CSS has always had pseudo-classes that style things based on user interactions. Recent features, however, are blurring the line between what CSS \"listens\" for and how they are alternatives to what Javascript typically listens for. The Shifting Line Between CSS States and JavaScript Events originally",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
       "title": "Meet the HTB Profile: all your skills, in one place",
