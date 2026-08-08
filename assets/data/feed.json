@@ -1,102 +1,147 @@
 {
-  "generatedAt": "2026-08-07T19:15:22.693Z",
+  "generatedAt": "2026-08-08T02:21:37.434Z",
   "sourceCount": 4,
-  "successCount": 4,
-  "errors": [],
+  "successCount": 3,
+  "errors": [
+    {
+      "source": "CSS Tricks",
+      "error": "HTTP 415 Unsupported Media Type"
+    }
+  ],
   "items": [
     {
-      "title": "Picking the Right Video Compression Path for Web Delivery: A Practical Decision Guide",
-      "link": "https://dev.to/lizely/picking-the-right-video-compression-path-for-web-delivery-a-practical-decision-guide-3fj5",
-      "pubDate": "2026-08-07T19:03:07.000Z",
-      "description": "<p>When a web team owns video assets, the hardest part is rarely the encoding itself — it's choosing a workflow that fits the team's constraints. Files arrive from product shoots, screen recordings, partner agencies, and customer support screen captures. Each one has a different source size, codec, ",
+      "title": "Service-to-Service Communication — gRPC vs REST",
+      "link": "https://dev.to/gouranga-das-khulna/service-to-service-communication-grpc-vs-rest-1c5d",
+      "pubDate": "2026-08-08T02:00:00.000Z",
+      "description": "<blockquote> <h2> <strong>One-liner:</strong> REST uses JSON over HTTP/1.1 and is human-readable; gRPC uses binary Protocol Buffers over HTTP/2 and is 5-10× faster — pick based on who's calling your service. </h2> </blockquote> <h2> 📡 REST — Representational State Transfer </h2> <p>The universal la",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "Converting SVG strokes to fills in the browser: the geometry problem nobody warns you about",
+      "link": "https://dev.to/svg_garagemade/converting-svg-strokes-to-fills-in-the-browser-the-geometry-problem-nobody-warns-you-about-9ko",
+      "pubDate": "2026-08-08T01:50:16.000Z",
+      "description": "<p>A while back I was building an icon font with IcoMoon. I dragged in my SVGs, hit generate, and about half the icons came out wrong — hollow outlines, missing pieces, shapes that looked nothing like the source.</p> <p>The reason turned out to be simple, and it's a trap a lot of tooling sets for yo",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "How full-text search works in pure Python (a tour with Whoosh)",
+      "link": "https://dev.to/priyasundaram/how-full-text-search-works-in-pure-python-a-tour-with-whoosh-1bi",
+      "pubDate": "2026-08-08T01:30:24.000Z",
+      "description": "<blockquote> <p>Disclosure: I'm an AI agent (I go by Priya Sundaram) and I wrote this article.<br> <code>#ABotWroteThis</code>. I also help maintain the library used in the examples, so<br> treat the \"when to use it\" section as an interested party's opinion and check<br> the claims yourself — every ",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "LLD Design Patterns: How Experienced Engineers Recognize Patterns Instead of Memorizing Them",
+      "link": "https://dev.to/saras_growth_space/lld-design-patterns-how-experienced-engineers-recognize-patterns-instead-of-memorizing-them-4pf9",
+      "pubDate": "2026-08-08T01:30:00.000Z",
+      "description": "<p>By now, we've reached an important milestone in this series.</p> <p>We've learned that:</p> <ul> <li>SOLID principles help us design maintainable components.</li> <li>Software keeps evolving even after we've applied good design principles.</li> <li>The same categories of design problems appear ac",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "How We Handled Our First Major Outage (And Survived)",
+      "link": "https://dev.to/samson_tanimawo/how-we-handled-our-first-major-outage-and-survived-3nap",
+      "pubDate": "2026-08-08T01:27:13.000Z",
+      "description": "<p>Three years ago we had our first real outage. Six hours of downtime. Thousands of angry users. Multiple executives on the call. Here's what we did right, what we did wrong, and what we'd do differently.</p> <h2> What we did right </h2> <p><strong>1. Communicated immediately.</strong> The moment w",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Building a Ride-Share Zone-Balancing Agent with LangGraph — Part 5: Coordinating Two Zones at Once",
+      "link": "https://dev.to/ebrahim_arian_37097b72c7e/building-a-ride-share-zone-balancing-agent-with-langgraph-part-5-coordinating-two-zones-at-once-2c17",
+      "pubDate": "2026-08-08T01:24:29.000Z",
+      "description": "<p>This is Part 5, the last part of this series. <a href=\"https://dev.to/ebrahim_arian_37097b72c7e/building-a-ride-share-zone-balancing-agent-with-langgraph-part-4-letting-a-human-step-in-5die\">Part 4</a> let a human step into the loop before a risky decision executes. Every part so far, though, has",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Building a Ride-Share Zone-Balancing Agent with LangGraph — Part 4: Letting a Human Step In",
+      "link": "https://dev.to/ebrahim_arian_37097b72c7e/building-a-ride-share-zone-balancing-agent-with-langgraph-part-4-letting-a-human-step-in-5die",
+      "pubDate": "2026-08-08T01:24:26.000Z",
+      "description": "<p>This is Part 4 of a 5-part series. <a href=\"https://dev.to/ebrahim_arian_37097b72c7e/building-a-ride-share-zone-balancing-agent-with-langgraph-part-3-giving-the-agent-memory-obb\">Part 3</a> gave the agent memory. It can now run for hours on its own, cycle after cycle, without forgetting what it a",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Building a Ride-Share Zone-Balancing Agent with LangGraph — Part 3: Giving the Agent Memory",
+      "link": "https://dev.to/ebrahim_arian_37097b72c7e/building-a-ride-share-zone-balancing-agent-with-langgraph-part-3-giving-the-agent-memory-obb",
+      "pubDate": "2026-08-08T01:24:22.000Z",
+      "description": "<p>This is Part 3 of a 5-part series. <a href=\"https://dev.to/ebrahim_arian_37097b72c7e/building-a-ride-share-zone-balancing-agent-with-langgraph-part-1-a-rule-based-agent-no-llm-yet-6pm\">Part 1</a> built a rule-based agent for one zone. <a href=\"https://dev.to/ebrahim_arian_37097b72c7e/building-a-r",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Building a Ride-Share Zone-Balancing Agent with LangGraph — Part 2: Teaching the Agent to Read Ops Notes",
+      "link": "https://dev.to/ebrahim_arian_37097b72c7e/building-a-ride-share-zone-balancing-agent-with-langgraph-part-2-teaching-the-agent-to-read-ops-3706",
+      "pubDate": "2026-08-08T01:24:17.000Z",
+      "description": "<p>This is Part 2 of a 5-part series. <a href=\"https://dev.to/ebrahim_arian_37097b72c7e/building-a-ride-share-zone-balancing-agent-with-langgraph-part-1-a-rule-based-agent-no-llm-yet-6pm\">Part 1</a> built a rule-based agent for a single ride-share zone — no LLM, just structured numbers and determini",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Building a Ride-Share Zone-Balancing Agent with LangGraph — Part 1: A Rule-Based Agent, No LLM Yet",
+      "link": "https://dev.to/ebrahim_arian_37097b72c7e/building-a-ride-share-zone-balancing-agent-with-langgraph-part-1-a-rule-based-agent-no-llm-yet-6pm",
+      "pubDate": "2026-08-08T01:24:04.000Z",
+      "description": "<p>It's 5pm on a weekday, and you're standing outside a stadium after an event just wrapped up. You open your ride-share app. Estimated wait: 12 minutes. Meanwhile, three neighborhoods over, drivers are circling empty streets with nobody requesting a ride.</p> <p>This happens constantly on any ride-",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "The Nixpkgs core team has disbanded",
+      "link": "https://discourse.nixos.org/t/the-nixpkgs-core-team-has-disbanded/79413",
+      "pubDate": "2026-08-08T01:12:45.000Z",
+      "description": "Article URL: https://discourse.nixos.org/t/the-nixpkgs-core-team-has-disbanded/79413 Comments URL: https://news.ycombinator.com/item?id=49217993 Points: 58 # Comments: 11",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "U.S. Department of Energy Launches the Genesis Open Models Initiative",
+      "link": "https://genesisopenmodels.anl.gov/",
+      "pubDate": "2026-08-07T22:24:27.000Z",
+      "description": "Article URL: https://genesisopenmodels.anl.gov/ Comments URL: https://news.ycombinator.com/item?id=49216946 Points: 98 # Comments: 41",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Water system controllers don't belong on the internet, says ex-NSA chief",
+      "link": "https://www.theregister.com/security/2026/08/07/water-system-controllers-dont-belong-on-the-internet-says-ex-nsa-chief-after-suspected-iran-attacks/5285070",
+      "pubDate": "2026-08-07T21:19:57.000Z",
+      "description": "Article URL: https://www.theregister.com/security/2026/08/07/water-system-controllers-dont-belong-on-the-internet-says-ex-nsa-chief-after-suspected-iran-attacks/5285070 Comments URL: https://news.ycombinator.com/item?id=49216362 Points: 132 # Comments: 89",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Psychological Warfare in Reverse Engineering (2015)",
+      "link": "https://github.com/xoreaxeaxeax/repsych",
+      "pubDate": "2026-08-07T18:51:45.000Z",
+      "description": "Article URL: https://github.com/xoreaxeaxeax/repsych Comments URL: https://news.ycombinator.com/item?id=49214775 Points: 54 # Comments: 2",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "Ancient Library – 1,060 Greek/Latin texts, click any word to parse it",
       "link": "https://ancientlibrary.net/",
       "pubDate": "2026-08-07T18:51:14.000Z",
-      "description": "Article URL: https://ancientlibrary.net/ Comments URL: https://news.ycombinator.com/item?id=49214770 Points: 4 # Comments: 0",
+      "description": "Article URL: https://ancientlibrary.net/ Comments URL: https://news.ycombinator.com/item?id=49214770 Points: 152 # Comments: 51",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "O Guia Definitivo de Python!",
-      "link": "https://dev.to/juan_menezes_4931bdd4dd22/o-guia-definitivo-de-python-1pf9",
-      "pubDate": "2026-08-07T18:50:53.000Z",
-      "description": "<p>O Guia Definitivo do Python: Por Que Esta É a Melhor Linguagem para Quem Está Começando no mercado de tecnologia expande em ritmo acelerado. Com essa expansão, a busca por programação cresce diariamente. Diante de tantas opções de linguagens no mercado, como JavaScript, C++, Java e Rust, uma perg",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "What 170 Million Residential Proxy IPs Reveal About Infrastructure Churn",
-      "link": "https://dev.to/ipinfo/what-170-million-residential-proxy-ips-reveal-about-infrastructure-churn-1i9d",
-      "pubDate": "2026-08-07T18:48:51.000Z",
-      "description": "<p>TL;DR</p> <p>We often think of residential proxies as just another source of anonymous traffic. After digging into data covering more than <strong>170 million residential proxy IPs</strong>, I came away thinking the real challenge is how quickly the infrastructure itself changes.</p> <p>Two patte",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Agents can generate results — but on what authority do we accept delivery?",
-      "link": "https://dev.to/dengyier/agents-can-generate-results-but-on-what-authority-do-we-accept-delivery-3cnh",
-      "pubDate": "2026-08-07T18:48:44.000Z",
-      "description": "<h2> 30-Second Overview </h2> <p>MCP connects agents to tools. A2A connects agents to agents. AgentTeams orchestrates agent collaboration.</p> <p>But when an agent says \"I'm done,\" no existing layer answers:</p> <ul> <li>What authorization backs this work?</li> <li>Did every step stay within scope a",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Google Adds Notebooks to Gemini, Bringing Source-Backed Projects Into Its AI App",
-      "link": "https://dev.to/alifar/google-adds-notebooks-to-gemini-bringing-source-backed-projects-into-its-ai-app-3pnk",
-      "pubDate": "2026-08-07T18:45:30.000Z",
-      "description": "<p>Google has announced <a href=\"https://scalevise.com/resources/google-notebooks-in-gemini/\" rel=\"noopener noreferrer\"><strong>Notebooks in Gemini</strong></a>, a new feature that turns the Gemini app into a more persistent, project-oriented workspace. Rather than treating each prompt as an isolate",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Two errors, one error code, and an hour in the wrong editor : What i learnt building WP-Supabase Sync",
-      "link": "https://dev.to/0xclaudi0/two-errors-one-error-code-and-an-hour-in-the-wrong-editor-what-i-learnt-building-wp-supabase-22mh",
-      "pubDate": "2026-08-07T18:38:46.000Z",
-      "description": "<p>If you write to Supabase from anything, sooner or later Postgres hands you<br> SQLSTATE <code>42501</code>. It means one of two things:<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight sql\"><code><span class=\"n\">permission</span> <span class=\"n\">denied</span> <span class=\"",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "I stopped letting GPT-5 babysit my inbox and the whole workflow got cheaper and better",
-      "link": "https://dev.to/lars_winstand/i-stopped-letting-gpt-5-babysit-my-inbox-and-the-whole-workflow-got-cheaper-and-better-2bi5",
-      "pubDate": "2026-08-07T18:35:36.000Z",
-      "description": "<p>I used to think email was a terrible place for AI.</p> <p>Too messy. Too human. Too full of forwarded chains from 2017 and HTML generated by software nobody at the company can name.</p> <p>Then I spent some time reading inbox automation threads, especially a good one on r/openclaw about email flo",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "The Gate Everyone Cited and Nobody Enforced: A War Story About Policy-as-Text vs. Policy-as-Code",
-      "link": "https://dev.to/mukesh_13/the-gate-everyone-cited-and-nobody-enforced-a-war-story-about-policy-as-text-vs-policy-as-code-1gbo",
-      "pubDate": "2026-08-07T18:34:32.000Z",
-      "description": "<p>I run an autonomous agent that works a real job. Not a chatbot — a daemon that picks its own tasks (content, freelance proposals, digital products, paper trading), spends its own compute budget, and logs a lesson to itself every time something goes wrong. The idea was that the lesson log would fu",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Phase 6 — Give Me the Receipts: Date-Range Reports &amp; CSV Export in FastAPI",
-      "link": "https://dev.to/silentcarry/phase-6-give-me-the-receipts-date-range-reports-csv-export-in-fastapi-5acm",
-      "pubDate": "2026-08-07T18:26:51.000Z",
-      "description": "<p>Tagline: Let the database do the filtering, let Python do the formatting, and never hand-build a CSV.</p> <h2> Introduction </h2> <p>By the end of Phase 5 my app could already tell me how much I'd spent this month and whether I was up or down versus last month. Nice numbers on a dashboard. But nu",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Dos formas en que un backtest te miente (y cómo evitarlas)",
-      "link": "https://dev.to/isazajuancarlos/dos-formas-en-que-un-backtest-te-miente-y-como-evitarlas-4c63",
-      "pubDate": "2026-08-07T18:23:26.000Z",
-      "description": "<p>Pruebas una estrategia, o un modelo, sobre datos históricos. El backtest da un número bonito. Y luego, en real, no aparece. Casi siempre es una de estas dos ilusiones — y las dos se descartan con muy poco código.</p> <p>Empaqueté las dos correcciones como librería: <a href=\"https://github.com/isa",
-      "source": "Dev.to Feed",
-      "category": "Development"
+      "title": "Managing AI Coding Costs at Scale",
+      "link": "https://www.databricks.com/blog/managing-ai-coding-costs-scale",
+      "pubDate": "2026-08-07T18:25:17.000Z",
+      "description": "Article URL: https://www.databricks.com/blog/managing-ai-coding-costs-scale Comments URL: https://news.ycombinator.com/item?id=49214468 Points: 168 # Comments: 173",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "Assembly Hall of Shame",
       "link": "https://github.com/xoreaxeaxeax/asm-hall-of-shame",
       "pubDate": "2026-08-07T18:01:30.000Z",
-      "description": "Article URL: https://github.com/xoreaxeaxeax/asm-hall-of-shame Comments URL: https://news.ycombinator.com/item?id=49214098 Points: 41 # Comments: 9",
+      "description": "Article URL: https://github.com/xoreaxeaxeax/asm-hall-of-shame Comments URL: https://news.ycombinator.com/item?id=49214098 Points: 259 # Comments: 61",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -104,7 +149,7 @@
       "title": "DeepSeek V4 Flash 0731",
       "link": "https://arcprize.org/results/deepseek-v4-flash-0731",
       "pubDate": "2026-08-07T17:56:20.000Z",
-      "description": "Article URL: https://arcprize.org/results/deepseek-v4-flash-0731 Comments URL: https://news.ycombinator.com/item?id=49214008 Points: 101 # Comments: 60",
+      "description": "Article URL: https://arcprize.org/results/deepseek-v4-flash-0731 Comments URL: https://news.ycombinator.com/item?id=49214008 Points: 474 # Comments: 286",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -112,7 +157,7 @@
       "title": "Oracle bans AI-generated code from OpenJDK",
       "link": "https://app.dealroom.co/news/feed/oracle-bans-ai-generated-code-from-openjdk-despite-ellison-s-claim-oracle-isn-t-writing-its-own-code",
       "pubDate": "2026-08-07T17:36:30.000Z",
-      "description": "Article URL: https://app.dealroom.co/news/feed/oracle-bans-ai-generated-code-from-openjdk-despite-ellison-s-claim-oracle-isn-t-writing-its-own-code Comments URL: https://news.ycombinator.com/item?id=49213754 Points: 176 # Comments: 106",
+      "description": "Article URL: https://app.dealroom.co/news/feed/oracle-bans-ai-generated-code-from-openjdk-despite-ellison-s-claim-oracle-isn-t-writing-its-own-code Comments URL: https://news.ycombinator.com/item?id=49213754 Points: 395 # Comments: 265",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -120,129 +165,9 @@
       "title": "Responding to the next frontier of critical cyber capabilities",
       "link": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/",
       "pubDate": "2026-08-07T16:39:36.000Z",
-      "description": "Article URL: https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/ Comments URL: https://news.ycombinator.com/item?id=49213029 Points: 88 # Comments: 91",
+      "description": "Article URL: https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/ Comments URL: https://news.ycombinator.com/item?id=49213029 Points: 156 # Comments: 167",
       "source": "Hacker News",
       "category": "Tech News"
-    },
-    {
-      "title": "This Mine Predicts Major Wars. It's Opening Again",
-      "link": "https://www.bloomberg.com/graphics/2026-opinion-australia-tungsten-mine-us-war-defense-china/",
-      "pubDate": "2026-08-07T16:14:37.000Z",
-      "description": "Article URL: https://www.bloomberg.com/graphics/2026-opinion-australia-tungsten-mine-us-war-defense-china/ Comments URL: https://news.ycombinator.com/item?id=49212698 Points: 50 # Comments: 15",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "An all-sky map of half a million supermassive black holes",
-      "link": "https://www.sdss.org/black-hole-mapper-release-20/",
-      "pubDate": "2026-08-07T15:24:53.000Z",
-      "description": "Article URL: https://www.sdss.org/black-hole-mapper-release-20/ Comments URL: https://news.ycombinator.com/item?id=49211921 Points: 85 # Comments: 28",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Möbius-Strip Crosswords",
-      "link": "https://quuxplusone.github.io/blog/2026/08/04/mobius-crossword/",
-      "pubDate": "2026-08-07T15:10:34.000Z",
-      "description": "Article URL: https://quuxplusone.github.io/blog/2026/08/04/mobius-crossword/ Comments URL: https://news.ycombinator.com/item?id=49211660 Points: 27 # Comments: 4",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "A year of fighting scrapers on my 1.5 million-page website",
-      "link": "https://patronview.com/news/99-percent-of-my-website-traffic-is-bots/",
-      "pubDate": "2026-08-07T14:51:57.000Z",
-      "description": "Article URL: https://patronview.com/news/99-percent-of-my-website-traffic-is-bots/ Comments URL: https://news.ycombinator.com/item?id=49211386 Points: 288 # Comments: 276",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Using and Styling the Dialog Element",
-      "link": "https://css-tricks.com/using-and-styling-the-dialog-element/",
-      "pubDate": "2026-08-07T14:06:43.000Z",
-      "description": "There's a lot of nuance to the <dialog> element, a seemingly little piece of web architecture. I've got some notes from digging into it. Using and Styling the Dialog Element originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "USA Today Co., partners with Palantir to analyze audience data",
-      "link": "https://www.niemanlab.org/2026/08/americas-largest-newspaper-chain-usa-today-co-partners-with-palantir-to-analyze-audience-data/",
-      "pubDate": "2026-08-07T14:02:15.000Z",
-      "description": "Article URL: https://www.niemanlab.org/2026/08/americas-largest-newspaper-chain-usa-today-co-partners-with-palantir-to-analyze-audience-data/ Comments URL: https://news.ycombinator.com/item?id=49210589 Points: 166 # Comments: 67",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "2026 State of CSS, Devs Surveys",
-      "link": "https://css-tricks.com/2026-state-of-css-devs-surveys/",
-      "pubDate": "2026-08-06T15:54:52.000Z",
-      "description": "A few notes and takeaways from the 2026 State of CSS survey results, including a nice CSS-Tricks cameo! 2026 State of CSS, Devs Surveys originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Gap Decorations Are Now Available, Here’s What’s New",
-      "link": "https://css-tricks.com/css-gap-decorations-now-available/",
-      "pubDate": "2026-08-03T15:53:20.000Z",
-      "description": "Today, with CSS gap decorations fully supported in Chrome and Edge, starting with version 149, you can now very easily style gaps, and with a lot of control. Gap Decorations Are Now Available, Here’s What’s New originally handwritten and published with love on CSS-Tricks. You should really get the n",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Get Ready For the Powerful CSS border-shape Property!",
-      "link": "https://css-tricks.com/get-ready-for-the-powerful-css-border-shape-property/",
-      "pubDate": "2026-07-31T15:14:00.000Z",
-      "description": "We recently got the shape() function and corner-shape property. What else could we possibly need as far as making shapes in CSS? Let me tell you: the border-shape property! Get Ready For the Powerful CSS border-shape Property! originally handwritten and published with love on CSS-Tricks. You should ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "What’s !important #16: sibling-index() Animations, Use Cases for the infinity Keyword, Container Stuck Queries, and More",
-      "link": "https://css-tricks.com/whats-important-16/",
-      "pubDate": "2026-07-31T14:06:21.000Z",
-      "description": "The soon-Baseline sibling-index() function for animations, CSS and the 2026 FIFA World Cup, use cases for the infinity keyword, container \"stuck\" queries, and more. What’s !important #16: sibling-index() Animations, Use Cases for the infinity Keyword, Container Stuck Queries, and More originally han",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "writing-mode",
-      "link": "https://css-tricks.com/almanac/properties/w/writing-mode/",
-      "pubDate": "2026-07-21T09:39:10.000Z",
-      "description": "The writing-mode CSS property sets whether lines of text are laid out horizontally or vertically, and the direction in which blocks and lines progress. .element { writing-mode: vertical-rl; } This is most useful in languages such as Chinese, Japanese or … writing-mode originally handwritten and publ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "pointer-events",
-      "link": "https://css-tricks.com/almanac/properties/p/pointer-events/",
-      "pubDate": "2026-07-15T19:57:51.000Z",
-      "description": "The pointer-events property controls whether an element can become the target of pointer events like clicks, hover states, and other pointer-based events. In other words, it lets you decide whether the browser should treat an element as interactive when the … pointer-events originally handwritten an",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "What’s !important #15: Boundary-aware CSS, Time-based CSS, Full-bleed CSS, and More",
-      "link": "https://css-tricks.com/whats-important-15/",
-      "pubDate": "2026-07-14T14:36:18.000Z",
-      "description": "Read all about boundary-aware CSS, accessible grid lanes, time-based web designs, full-bleed, the customizable select, and new web platform features. What’s !important #15: Boundary-aware CSS, Time-based CSS, Full-bleed CSS, and More originally handwritten and published with love on CSS-Tricks. You ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "What’s !important #14: Gap Decorations, random(), &#060;select&gt; field-sizing, and More",
-      "link": "https://css-tricks.com/whats-important-14/",
-      "pubDate": "2026-06-30T13:54:14.000Z",
-      "description": "I know you’re busy, so for What’s !important #14, I’ll be sprinting through what’s been a stacked couple of weeks despite few browser updates. From CSS Quake to CSS Gap Decorations, this isn’t one to miss! What’s !important #14: Gap Decorations, random(), <select> field-sizing, and More originally h",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "The Shifting Line Between CSS States and JavaScript Events",
-      "link": "https://css-tricks.com/css-states-and-javascript-events/",
-      "pubDate": "2026-06-29T13:03:32.000Z",
-      "description": "CSS has always had pseudo-classes that style things based on user interactions. Recent features, however, are blurring the line between what CSS \"listens\" for and how they are alternatives to what Javascript typically listens for. The Shifting Line Between CSS States and JavaScript Events originally",
-      "source": "CSS Tricks",
-      "category": "Frontend"
     },
     {
       "title": "Meet the HTB Profile: all your skills, in one place",
