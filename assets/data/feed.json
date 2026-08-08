@@ -1,102 +1,150 @@
 {
-  "generatedAt": "2026-08-08T07:15:45.026Z",
+  "generatedAt": "2026-08-08T13:12:15.231Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "My routing policy and my traces disagreed 96 times. Never once on the main thread.",
-      "link": "https://dev.to/lizhuojunx86/my-routing-policy-and-my-traces-disagreed-96-times-never-once-on-the-main-thread-ffp",
-      "pubDate": "2026-08-08T07:13:08.000Z",
-      "description": "<p>This is part four of a series about pointing an append-only audit log at things that count tokens. <a href=\"https://dev.to/lizhuojunx86/a-missing-model-line-was-half-my-ai-agent-overspend-auditing-34-days-of-multi-model-claude-code-mc7\">Part one</a> found that a missing model line was half my age",
+      "title": "SEQUENCE vs IDENTITY in SQL Server: Choosing the Right Auto-Increment",
+      "link": "https://dev.to/tygryso/sequence-vs-identity-in-sql-server-choosing-the-right-auto-increment-3bf3",
+      "pubDate": "2026-08-08T13:05:59.000Z",
+      "description": "<h2> TL;DR </h2> <p>Pick the wrong auto-increment strategy in SQL Server and you find out in production. An <code>INT IDENTITY</code> column hits 2,147,483,647. Replication nodes collide on the same keys. A failover jumps the counter by 10,000.</p> <p><strong>IDENTITY for simple single-table surroga",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Scraping Ethically: A Practical Guide to Respectful Web Crawling",
-      "link": "https://dev.to/aimigo_57e64d6aeaf6a67a02/scraping-ethically-a-practical-guide-to-respectful-web-crawling-4820",
-      "pubDate": "2026-08-08T07:00:16.000Z",
-      "description": "<h2> Scraping Ethically: A Practical Guide to Respectful Web Crawling </h2> <p><strong>The single most important thing to understand about web scraping is this: ethical crawling is not a legal gray area—it’s a technical and reputational survival strategy.</strong> If you scrape without respecting ro",
+      "title": "This Last Week in AI: Aug 8, 2026",
+      "link": "https://dev.to/lukeocodes/this-last-week-in-ai-aug-8-2026-46g6",
+      "pubDate": "2026-08-08T12:56:56.000Z",
+      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Flukeocodes.dev%2Fblog%2Fai-industry-this-week-new-browsers-new-standards%2Fhero.svg\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/width=",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "You built your modal with a `&lt;div&gt;` and a focus trap library. The native `&lt;dialog&gt;` does all of that.",
-      "link": "https://dev.to/parsajiravand/you-built-your-modal-with-a-and-a-focus-trap-library-the-native-does-all-of-15lg",
-      "pubDate": "2026-08-08T07:00:10.000Z",
-      "description": "<p>Building a modal from scratch means writing the same boilerplate every time: a <code>&lt;div&gt;</code> with <code>role=\"dialog\"</code>, an <code>aria-modal</code> attribute, a <code>tabindex=\"-1\"</code> to steal focus, a <code>keydown</code> listener to catch Escape, a focus-trap library to keep",
+      "title": "How Git Worktrees Improve AI Coding Workflows",
+      "link": "https://dev.to/evbermudez/how-git-worktrees-improve-ai-coding-workflows-5afd",
+      "pubDate": "2026-08-08T12:48:51.000Z",
+      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Frsp5gnfupjr1swicp8qg.png\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Stop importing `uuid`. `crypto.randomUUID()` has been native since 2021.",
-      "link": "https://dev.to/parsajiravand/stop-importing-uuid-cryptorandomuuid-has-been-native-since-2021-ehm",
-      "pubDate": "2026-08-08T07:00:09.000Z",
-      "description": "<p>The <code>uuid</code> npm package is one of the most downloaded libraries in the JavaScript ecosystem. The vast majority of those installs exist for one thing: <code>uuid/v4</code>, which generates a random unique identifier in the standard <code>xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx</code> format",
+      "title": "I built an async wrapper for OpenAI/Anthropic SDKs because I didn't want a proxy in my request path",
+      "link": "https://dev.to/mandarvshinde/i-built-an-async-wrapper-for-openaianthropic-sdks-because-i-didnt-want-a-proxy-in-my-request-path-1h1p",
+      "pubDate": "2026-08-08T12:46:54.000Z",
+      "description": "<p>I kept running into the same tradeoff building cost tooling for teams shipping LLM features. Every attribution tool in this space works the same way: you point <code>base_url</code> at a proxy, and it sees every call before it happens. That's genuinely useful if you want to block or downgrade a c",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Your store weighs 1.7 MB and still takes 18 seconds: the number that matters is 364 requests",
-      "link": "https://dev.to/smirnovartur/your-store-weighs-17-mb-and-still-takes-18-seconds-the-number-that-matters-is-364-requests-6lb",
-      "pubDate": "2026-08-08T06:55:02.000Z",
-      "description": "<p>Page weight is the number everyone checks, and it is the reason this store has been slow for<br> months without anyone finding out why.</p> <p>I measured a Shopify storefront twice, cold cache, an hour apart:</p> <div class=\"table-wrapper-paragraph\"><table> <thead> <tr> <th></th> <th>visit 1</th>",
+      "title": "My Idempotency Guard Exists to Survive One Specific Error. That Error Made It Fail Open.",
+      "link": "https://dev.to/enjoy_kumawat/my-idempotency-guard-exists-to-survive-one-specific-error-that-error-made-it-fail-open-4fbo",
+      "pubDate": "2026-08-08T12:46:02.000Z",
+      "description": "<p>Five days ago I added a duplicate-publish guard to <code>publish_devto.py</code>, the script this blog's own publishing pipeline calls to go live. The reasoning was straightforward: a POST to DEV.to's API can succeed on their end while the client only sees a timeout or a dropped connection — the ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "x402 designs out the intermediaries that produce your tax records",
-      "link": "https://dev.to/rpulicen/x402-designs-out-the-intermediaries-that-produce-your-tax-records-j28",
-      "pubDate": "2026-08-08T06:54:46.000Z",
-      "description": "<p>x402 lets software pay for things over HTTP. An agent calls a paid API, a<br> fraction of a cent in USDC settles on-chain, the agent gets its data. No<br> accounts, no API keys, no invoice. In December 2025 the protocol handled roughly<br> 63 million transactions across 64,000 unique buyers, aver",
+      "title": "My MCP Tool Fetches Before It Writes and Logs Every Change. It Never Checked Whether There Was Anything to Change.",
+      "link": "https://dev.to/enjoy_kumawat/my-mcp-tool-fetches-before-it-writes-and-logs-every-change-it-never-checked-whether-there-was-243m",
+      "pubDate": "2026-08-08T12:45:33.000Z",
+      "description": "<p>Two fixes ago, <code>update_article</code> — one of the tools in this repo's MCP server — got hardened twice. The first time, because it took a bare integer <code>article_id</code>, PUT whatever fields you gave it straight to the DEV.to API, and if the id was wrong it would silently overwrite a l",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "rulsynor-core v1.0: An AI Agent You Can Audit",
-      "link": "https://dev.to/haorantang/rulsynor-core-v10-an-ai-agent-you-can-audit-oie",
-      "pubDate": "2026-08-08T06:51:27.000Z",
-      "description": "<h1> rulsynor-core v1.0: An AI Agent You Can Audit </h1> <p>How do you trust an AI Agent in production? Not \"trust\" as in <em>I think it'll do the right thing</em>. Trust as in <strong>cryptographic proof</strong> that every decision was correct, traceable, and independently verifiable.</p> <h2> Tod",
+      "title": "A Government Liquor Board Lab-Tests Every Bottle It Sells. Almost Nobody Uses the Data.",
+      "link": "https://dev.to/sakurai_ts_745cc85d7d4294/a-government-liquor-board-lab-tests-every-bottle-it-sells-almost-nobody-uses-the-data-1j4d",
+      "pubDate": "2026-08-08T12:43:47.000Z",
+      "description": "<p>The best datasets aren't hidden. They're published in plain sight by bureaucracies that have no idea anyone might want them — collected for compliance, exposed out of habit, and abandoned one page at a time.</p> <p>Here's my favorite example. The LCBO — Ontario's government liquor monopoly, and o",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I Tried to Get Roblox Working on University Wifi and Ended Up Learning Infrastructure",
-      "link": "https://dev.to/ailanoor13/i-tried-to-get-roblox-working-on-university-wifi-and-ended-up-learning-infrastructure-33d",
-      "pubDate": "2026-08-08T06:47:36.000Z",
-      "description": "<p>A few months ago I had one goal: get around my university's wifi restrictions so I could play Roblox at university. What actually happened is I ended up learning Terraform, Ansible, and a decent chunk of cloud networking, and came out the other side with a self-hosted VPN running on Oracle Cloud.",
+      "title": "Day 24 of 100",
+      "link": "https://dev.to/hirave_palak/day-24-of-100-4b92",
+      "pubDate": "2026-08-08T12:43:34.000Z",
+      "description": "<p>Today I learnt all about files, paths and directories. I learnt what a relative and absolute file path is as well as how to use both in Pycharm alongside reading and writing files. Rather than doing a singular main project I did multiple small ones, including upgrading my Snake game to have a hig",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I Built an Open-Source AI Video Clipping Pipeline",
-      "link": "https://dev.to/sreegeethesh/i-built-an-open-source-ai-video-clipping-pipeline-13c6",
-      "pubDate": "2026-08-08T06:46:05.000Z",
-      "description": "<h1> I Built an Open-Source AI Video Clipping Pipeline </h1> <p>I wanted a tool that could take a long video and turn it into social-ready clips without uploading the entire video to some SaaS platform.</p> <p>So I built <strong>AutoClip</strong>.</p> <p>The idea is simple:<br> </p> <div class=\"high",
+      "title": "Why Low-Code Platforms Need a Plugin Mechanism",
+      "link": "https://dev.to/informat/why-low-code-platforms-need-a-plugin-mechanism-5ag3",
+      "pubDate": "2026-08-08T12:43:16.000Z",
+      "description": "<p>In the previous post about workflow engines, I ended with a distinction:</p> <p>Workflows determine how business moves forward. Automation and plugins determine how the platform extends those actions beyond its core.</p> <p>This post is about the plugin mechanism.</p> <p>But first, the term \"plug",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How I Built a Real-Time Windows RAM Optimizer in Rust &amp; Tauri v2",
-      "link": "https://dev.to/jojin1709/how-i-built-a-real-time-windows-ram-optimizer-in-rust-tauri-v2-b9p",
-      "pubDate": "2026-08-08T06:41:31.000Z",
-      "description": "<p>Many memory cleaner utilities on Windows rely on placebo tricks—forcing artificial allocation spikes that trigger Windows pageouts while causing heavy system stutter. </p> <p>To solve this, I built <strong>RAMGuard Pro</strong>: a lightweight, high-performance desktop memory reclamation utility p",
+      "title": "If You Can Give a Lightning Talk, You Can Probably Go Bungee Jumping",
+      "link": "https://dev.to/tanahiro2010/if-you-can-give-a-lightning-talk-you-can-probably-go-bungee-jumping-4005",
+      "pubDate": "2026-08-08T12:42:03.000Z",
+      "description": "<h1> If You Can Give a Lightning Talk, You Can Probably Go Bungee Jumping </h1> <p>I have a question for anyone who has ever given a lightning talk.</p> <p>Do you remember those few dozen seconds right before you walked on stage?</p> <p>Do you remember what was happening to your body?</p> <p>I do.</",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Mythos social engineering AISI INC-2026-07-28-01",
-      "link": "https://web.archive.org/web/20260731053721/http://github.com/ancaferro/myNetwork/pull/3",
-      "pubDate": "2026-08-08T03:41:56.000Z",
-      "description": "Article URL: https://web.archive.org/web/20260731053721/http://github.com/ancaferro/myNetwork/pull/3 Comments URL: https://news.ycombinator.com/item?id=49218707 Points: 45 # Comments: 17",
+      "title": "The CPU is back: Rethinking the CPU-GPU split for LLM inference",
+      "link": "https://www.redhat.com/en/blog/cpu-back-rethinking-cpu-gpu-split-llm-inference",
+      "pubDate": "2026-08-08T12:16:03.000Z",
+      "description": "Article URL: https://www.redhat.com/en/blog/cpu-back-rethinking-cpu-gpu-split-llm-inference Comments URL: https://news.ycombinator.com/item?id=49221089 Points: 26 # Comments: 2",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "NASA to keep its 48-year-old Voyager 2 probe running for yet another year",
+      "title": "Now we have a timeline of the OpenAI accidental attack against Hugging Face",
+      "link": "https://simonwillison.net/2026/Aug/7/openai-timeline/",
+      "pubDate": "2026-08-08T10:57:44.000Z",
+      "description": "Article URL: https://simonwillison.net/2026/Aug/7/openai-timeline/ Comments URL: https://news.ycombinator.com/item?id=49220609 Points: 59 # Comments: 80",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Apple Introduces Leasing Program for iPhones and Other Devices",
+      "link": "https://www.nytimes.com/2026/07/28/technology/apple-leasing-program.html",
+      "pubDate": "2026-08-08T10:16:01.000Z",
+      "description": "Article URL: https://www.nytimes.com/2026/07/28/technology/apple-leasing-program.html Comments URL: https://news.ycombinator.com/item?id=49220390 Points: 18 # Comments: 34",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "New Amazon Data Center Is Set to Have the Most Polluting Power Plant in the U.S.",
+      "link": "https://www.nytimes.com/2026/08/08/climate/amazon-data-center-texas-pollution.html",
+      "pubDate": "2026-08-08T10:07:06.000Z",
+      "description": "Article URL: https://www.nytimes.com/2026/08/08/climate/amazon-data-center-texas-pollution.html Comments URL: https://news.ycombinator.com/item?id=49220350 Points: 119 # Comments: 108",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Europe's free satellite service just made it easier to track wildfires",
+      "link": "https://arstechnica.com/gadgets/2026/08/europes-free-satellite-service-just-made-it-easier-to-track-wildfires/",
+      "pubDate": "2026-08-08T09:58:41.000Z",
+      "description": "Article URL: https://arstechnica.com/gadgets/2026/08/europes-free-satellite-service-just-made-it-easier-to-track-wildfires/ Comments URL: https://news.ycombinator.com/item?id=49220313 Points: 60 # Comments: 4",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "DeepMind's WeatherNext model achieves breakthrough forecasting cyclones",
+      "link": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
+      "pubDate": "2026-08-08T09:18:50.000Z",
+      "description": "Article URL: https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/ Comments URL: https://news.ycombinator.com/item?id=49220126 Points: 59 # Comments: 14",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Hardware backdoors in some x86 CPUs",
+      "link": "https://github.com/xoreaxeaxeax/rosenbridge",
+      "pubDate": "2026-08-08T07:04:51.000Z",
+      "description": "Article URL: https://github.com/xoreaxeaxeax/rosenbridge Comments URL: https://news.ycombinator.com/item?id=49219508 Points: 180 # Comments: 54",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "NASA figured out how to keep its Voyager 2 probe running for another year",
       "link": "https://www.space.com/space-exploration/voyager/nasa-figured-out-how-to-keep-its-48-year-old-voyager-2-probe-running-for-yet-another-year",
       "pubDate": "2026-08-08T01:49:11.000Z",
-      "description": "Article URL: https://www.space.com/space-exploration/voyager/nasa-figured-out-how-to-keep-its-48-year-old-voyager-2-probe-running-for-yet-another-year Comments URL: https://news.ycombinator.com/item?id=49218179 Points: 187 # Comments: 34",
+      "description": "Article URL: https://www.space.com/space-exploration/voyager/nasa-figured-out-how-to-keep-its-48-year-old-voyager-2-probe-running-for-yet-another-year Comments URL: https://news.ycombinator.com/item?id=49218179 Points: 279 # Comments: 55",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -104,7 +152,7 @@
       "title": "The Nixpkgs core team has disbanded",
       "link": "https://discourse.nixos.org/t/the-nixpkgs-core-team-has-disbanded/79413",
       "pubDate": "2026-08-08T01:12:45.000Z",
-      "description": "Article URL: https://discourse.nixos.org/t/the-nixpkgs-core-team-has-disbanded/79413 Comments URL: https://news.ycombinator.com/item?id=49217993 Points: 263 # Comments: 114",
+      "description": "Article URL: https://discourse.nixos.org/t/the-nixpkgs-core-team-has-disbanded/79413 Comments URL: https://news.ycombinator.com/item?id=49217993 Points: 326 # Comments: 161",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -112,55 +160,7 @@
       "title": "U.S. Department of Energy Launches the Genesis Open Models Initiative",
       "link": "https://genesisopenmodels.anl.gov/",
       "pubDate": "2026-08-07T22:24:27.000Z",
-      "description": "Article URL: https://genesisopenmodels.anl.gov/ Comments URL: https://news.ycombinator.com/item?id=49216946 Points: 199 # Comments: 66",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Water system controllers don't belong on the internet, says ex-NSA chief",
-      "link": "https://www.theregister.com/security/2026/08/07/water-system-controllers-dont-belong-on-the-internet-says-ex-nsa-chief-after-suspected-iran-attacks/5285070",
-      "pubDate": "2026-08-07T21:19:57.000Z",
-      "description": "Article URL: https://www.theregister.com/security/2026/08/07/water-system-controllers-dont-belong-on-the-internet-says-ex-nsa-chief-after-suspected-iran-attacks/5285070 Comments URL: https://news.ycombinator.com/item?id=49216362 Points: 173 # Comments: 114",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Psychological Warfare in Reverse Engineering (2015)",
-      "link": "https://github.com/xoreaxeaxeax/repsych",
-      "pubDate": "2026-08-07T18:51:45.000Z",
-      "description": "Article URL: https://github.com/xoreaxeaxeax/repsych Comments URL: https://news.ycombinator.com/item?id=49214775 Points: 62 # Comments: 3",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Ancient Library – 1,060 Greek/Latin texts, click any word to parse it",
-      "link": "https://ancientlibrary.net/",
-      "pubDate": "2026-08-07T18:51:14.000Z",
-      "description": "Article URL: https://ancientlibrary.net/ Comments URL: https://news.ycombinator.com/item?id=49214770 Points: 189 # Comments: 58",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Managing AI Coding Costs at Scale",
-      "link": "https://www.databricks.com/blog/managing-ai-coding-costs-scale",
-      "pubDate": "2026-08-07T18:25:17.000Z",
-      "description": "Article URL: https://www.databricks.com/blog/managing-ai-coding-costs-scale Comments URL: https://news.ycombinator.com/item?id=49214468 Points: 215 # Comments: 194",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Assembly Hall of Shame",
-      "link": "https://github.com/xoreaxeaxeax/asm-hall-of-shame",
-      "pubDate": "2026-08-07T18:01:30.000Z",
-      "description": "Article URL: https://github.com/xoreaxeaxeax/asm-hall-of-shame Comments URL: https://news.ycombinator.com/item?id=49214098 Points: 308 # Comments: 74",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "DeepSeek V4 Flash 0731",
-      "link": "https://arcprize.org/results/deepseek-v4-flash-0731",
-      "pubDate": "2026-08-07T17:56:20.000Z",
-      "description": "Article URL: https://arcprize.org/results/deepseek-v4-flash-0731 Comments URL: https://news.ycombinator.com/item?id=49214008 Points: 564 # Comments: 340",
+      "description": "Article URL: https://genesisopenmodels.anl.gov/ Comments URL: https://news.ycombinator.com/item?id=49216946 Points: 266 # Comments: 99",
       "source": "Hacker News",
       "category": "Tech News"
     },
