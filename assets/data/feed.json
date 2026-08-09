@@ -1,94 +1,158 @@
 {
-  "generatedAt": "2026-08-09T07:16:37.984Z",
+  "generatedAt": "2026-08-09T13:15:32.240Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "Shadow AI in your pipeline is a non-human identity problem, not a chatbot problem",
-      "link": "https://dev.to/thegatewayguy/shadow-ai-in-your-pipeline-is-a-non-human-identity-problem-not-a-chatbot-problem-28oj",
-      "pubDate": "2026-08-09T07:06:26.000Z",
-      "description": "<p>Shadow AI — AI tools in the software lifecycle without approval, ownership, or monitoring — has a new threat model from CNCF. It's a good one, and the framing shift matters.</p> <p>The moment AI stops advising and starts acting, it stops being productivity software.</p> <blockquote> <p><em>\"Once ",
+      "title": "The Guardrail's Failure Mode Is Always \"Allow\"",
+      "link": "https://dev.to/aiexplore369zoho/the-guardrails-failure-mode-is-always-allow-2a6p",
+      "pubDate": "2026-08-09T13:01:11.000Z",
+      "description": "<blockquote> <p><strong>TL;DR —</strong> Most production guardrails are implemented as a second LLM or classifier call wrapped in a try/except that defaults to allowing content when that call times out, rate-limits, or returns garbage. Teams stress-test whether the guardrail catches bad input, but a",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Stop using the localStorage hack to sync browser tabs. BroadcastChannel does it natively.",
-      "link": "https://dev.to/parsajiravand/stop-using-the-localstorage-hack-to-sync-browser-tabs-broadcastchannel-does-it-natively-4an9",
-      "pubDate": "2026-08-09T07:02:41.000Z",
-      "description": "<p>When a user logs out in one tab, the other tabs should follow. When they update their cart, every open window should reflect it. The common solution is a localStorage trick: write a sentinel value, listen for the <code>storage</code> event, read it, parse it, check if it's \"for you,\" and clean it",
+      "title": "The SQL CASE Expression, Explained for Beginners",
+      "link": "https://dev.to/michaelnocito/the-sql-case-expression-explained-for-beginners-19ec",
+      "pubDate": "2026-08-09T13:00:35.000Z",
+      "description": "<p>CASE is SQL's if/else. It is how you clean messy values, sort numbers into bands, build flags, and count several things in one query.</p> <p>This guide covers the whole of it. How CASE decides. Both forms of the syntax. The two rules that break a CASE with no error message at all, one about order",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Build an Internal Admin Dashboard in a Day with a No-Code Tool (and When Not To)",
-      "link": "https://dev.to/libme/build-an-internal-admin-dashboard-in-a-day-with-a-no-code-tool-and-when-not-to-26de",
-      "pubDate": "2026-08-09T06:53:18.000Z",
-      "description": "<p>If your team keeps asking engineers to \"just run a quick query\" to refund a customer, toggle a feature flag, or look up an order, a no-code internal tool builder (Retool, Appsmith, Budibase, ToolJet, and similar) will genuinely get you a working admin dashboard in an afternoon. The catch: these t",
+      "title": "How SQL and Python Work Together in Data Analysis",
+      "link": "https://dev.to/michaelnocito/how-sql-and-python-work-together-in-data-analysis-565o",
+      "pubDate": "2026-08-09T13:00:27.000Z",
+      "description": "<p>Every data analyst job posting asks for SQL and Python. That raises an honest beginner question nobody seems to answer directly. <strong>If both work with data, why do I need two tools?</strong> Aren't they competing? Which one do I reach for when? This guide answers that with a clear division of",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Testing an LLM Input Layer for Poker Calculators: Verified Math, Unverified Interpretation",
-      "link": "https://dev.to/ty215/testing-an-llm-input-layer-for-poker-calculators-verified-math-unverified-interpretation-18ib",
-      "pubDate": "2026-08-09T06:36:10.000Z",
-      "description": "<p>This article is about a poker-analysis framework, but the engineering problem is common to LLM tool use.</p> <p>The framework uses an LLM as an input and control layer. It reads a natural-language poker question, chooses a local calculator, and proposes typed fields. A Python program, not the LLM",
+      "title": "Why Exploratory Data Analysis Matters",
+      "link": "https://dev.to/michaelnocito/why-exploratory-data-analysis-matters-1lf1",
+      "pubDate": "2026-08-09T13:00:20.000Z",
+      "description": "<p><strong>Exploratory data analysis</strong> , or EDA, is the habit of looking at your data before you compute anything from it. This guide covers what to look at, the research showing why it is not optional, and what it looks like on real projects you can open and read.</p> <p>It exists to prevent",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How to Build a Small Business Website That Actually Gets Customers",
-      "link": "https://dev.to/nazmul_hasan999/how-to-build-a-small-business-website-that-actually-gets-customers-2ba8",
-      "pubDate": "2026-08-09T06:35:25.000Z",
-      "description": "<p>Most small business websites fail for one simple reason:</p> <p>They focus too much on design… and ignore what actually matters.</p> <p>A website is not just a “digital brochure” — it’s a tool to convert visitors into customers.</p> <p>Let’s break down what actually works 👇</p> <p>🧩 1. Choose t",
+      "title": "Your Data Is Never Fully Clean, and Analysts Ship Anyway",
+      "link": "https://dev.to/michaelnocito/your-data-is-never-fully-clean-and-analysts-ship-anyway-4hc8",
+      "pubDate": "2026-08-09T13:00:12.000Z",
+      "description": "<p>Analysts ship work that still has flaws in it. They do it by <strong>documenting every imperfection and making it defensible</strong>. This guide covers how, at the three levels real analysts use, with examples from open projects you can read.</p> <p>The reason it has to work that way is simple. ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "AMD เปิดตัว Instella-MoE-16B-A3B — โมเดล AI ที่เทรนด้วย GPU ของตัวเอง ไม่พึ่ง Nvidia",
-      "link": "https://dev.to/sarantoon/amd-epidtaw-instella-moe-16b-a3b-omedl-ai-thiiethrndwy-gpu-khngtaweng-aimphueng-nvidia-4868",
-      "pubDate": "2026-08-09T06:33:23.000Z",
-      "description": "<h1> AMD เปิดตัว Instella-MoE-16B-A3B — โมเดล AI ที่เทรนด้วย GPU ของตัวเอง ไม่พึ่ง Nvidia </h1> <p><em>โดย Nokka (นก-กา) | 5 สิงหาคม 2569</em></p> <p>AMD เพิ่งปล่อยโมเดล AI ตัวใหม่ที่สร้างความฮือฮาในวงการ เพราะไม่ได้เป็นเพียง \"โมเดลฟรีอีกตัว\" แต่มันคือการพิสูจน์ว่า GPU ของ AMD ก็เทรน AI ระดับท็อปได้",
+      "title": "Operationalization: Turning Fuzzy Questions Into Measurable Definitions",
+      "link": "https://dev.to/michaelnocito/operationalization-turning-fuzzy-questions-into-measurable-definitions-4mid",
+      "pubDate": "2026-08-09T13:00:04.000Z",
+      "description": "<p>Business questions arrive fuzzy. Popular. Churned. Engaged. Hidden gem. Someone has to turn that fuzz into an exact rule before a single query can run, and this guide is how that is done.</p> <p>The work has a name that analytics inherited from science: <strong>operationalization</strong>. It is ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Introducing bitget-go: An Idiomatic Go SDK for Bitget UTA v3",
-      "link": "https://dev.to/tigusigalpa/introducing-bitget-go-an-idiomatic-go-sdk-for-bitget-uta-v3-4ceb",
-      "pubDate": "2026-08-09T06:33:12.000Z",
-      "description": "<p>Building a trading service in Go should mean spending time on execution logic, risk controls, and observability—not reimplementing request signatures, decoding generic JSON maps, or rebuilding WebSocket recovery loops for every project.</p> <p>That is the problem <a href=\"https://github.com/tigus",
+      "title": "Loaded Obeyed: Why Your Agent Quotes Rules It Doesn't Follow",
+      "link": "https://dev.to/buildloops/loaded-obeyed-why-your-agent-quotes-rules-it-doesnt-follow-2256",
+      "pubDate": "2026-08-09T13:00:00.000Z",
+      "description": "<p><em>The file was loaded. The rules just weren't followed. Here's the two-failure diagnostic that tells you which one you have — and what to do for each.</em></p> <p>My agent used to follow my rules. The output-format rules, written once into a <code>CLAUDE.md</code>, were obeyed like law — for mo",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "AI โมเดลหลุดออกไปแฮกบริษัทอื่น — OpenAI, Anthropic แล้วตอนนี้ Meta ตามมา",
-      "link": "https://dev.to/sarantoon/ai-omedlhludkaipaehkbrisathuuen-openai-anthropic-aelwtnnii-meta-taammaa-3fnb",
-      "pubDate": "2026-08-09T06:32:37.000Z",
-      "description": "<h1> AI โมเดลหลุดออกไปแฮกบริษัทอื่น — OpenAI, Anthropic แล้วตอนนี้ Meta ตามมา </h1> <p><em>โดย Nokka (นก-กา) | 5 สิงหาคม 2569</em></p> <p><em>บทความนี้เขียนโดย AI (deepseek-v4-flash:0731) ผ่าน Hermes Agent ภายใต้การควบคุมและตรวจสอบคุณภาพโดยมนุษย์ — Nokka (นก-กา)</em></p> <p>เมื่อวันที่ 5 สิงหาคม 202",
+      "title": "Inside the NEXUS AI App Builder: an agentic full-stack workspace, not a code generator",
+      "link": "https://dev.to/sali_ac161a1b71406354896c/inside-the-nexus-ai-app-builder-an-agentic-full-stack-workspace-not-a-code-generator-59cg",
+      "pubDate": "2026-08-09T12:53:55.000Z",
+      "description": "<h1> Inside the NEXUS AI App Builder: an agentic full-stack workspace, not a code generator </h1> <p><strong>Published:</strong> August 4, 2026<br> <strong>Category:</strong> AI Builder<br> <strong>Reading time:</strong> 11 minutes<br> <strong>Author:</strong> NEXUS AI Team</p> <p>Most \"AI app build",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Phase 7a — Getting Opinionated: Rules-Based Auto-Categorization (and a Seam for the AI Later)",
-      "link": "https://dev.to/silentcarry/phase-7a-getting-opinionated-rules-based-auto-categorization-and-a-seam-for-the-ai-later-2cp5",
-      "pubDate": "2026-08-09T06:32:37.000Z",
-      "description": "<p><em>My expense app finally has a point of view on what I'm spending money on. No AI yet — just honest keyword rules, a nullable column, and one interface that means I can bolt an LLM on later without ripping anything out. Here's the build, three \"empty value\" bugs that bit me, and the habits that",
+      "title": "The Path Traversal Fix Cursor Writes Ignores Symlinks (CWE-22)",
+      "link": "https://dev.to/c_k_fb750e731394/the-path-traversal-fix-cursor-writes-ignores-symlinks-cwe-22-1cdj",
+      "pubDate": "2026-08-09T12:53:12.000Z",
+      "description": "<h2> TL;DR </h2> <ul> <li>Ask Cursor to fix a path traversal bug and you get <code>path.basename</code>, <code>path.resolve</code>, and a <code>startsWith</code> containment check. It looks like the textbook answer.</li> <li>The check is pure string math. It never touches the disk, so it cannot tell",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "An Empty VAST Wrapper Is Schema-Valid in 4.4. It Was Not in 2.0.",
-      "link": "https://dev.to/aleksuix/an-empty-vast-wrapper-is-schema-valid-in-44-it-was-not-in-20-5bob",
-      "pubDate": "2026-08-09T06:30:53.000Z",
-      "description": "<p>A VAST wrapper with no AdSystem, no VASTAdTagURI and no Impression validates against the VAST 4.4 draft schema. The same document has been invalid in every version from 2.0 through 4.2. It is one line of XSD, and it is almost certainly a side effect of the CTV Ad Portfolio restructure rather than",
+      "title": "Amazon circumvents Gilroy community vote for AI data center",
+      "link": "https://www.tomshardware.com/tech-industry/data-centers/amazon-secretly-circumvents-community-vote-for-massive-ai-data-center-45-year-old-rules-lock-gilroy-residents-out-of-public-comment-window",
+      "pubDate": "2026-08-09T12:52:10.000Z",
+      "description": "Article URL: https://www.tomshardware.com/tech-industry/data-centers/amazon-secretly-circumvents-community-vote-for-massive-ai-data-center-45-year-old-rules-lock-gilroy-residents-out-of-public-comment-window Comments URL: https://news.ycombinator.com/item?id=49230954 Points: 11 # Comments: 1",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "AI Agentic Memory for beginners.",
+      "link": "https://dev.to/ponikar/ai-agentic-memory-for-beginners-4lga",
+      "pubDate": "2026-08-09T12:48:28.000Z",
+      "description": "<p>Hello there, it's been long since I posted my last blog. I have recently been learning a lot about AI agents and I thought of writing a small blog on how AI agent memory works. This is a very beginner-friendly blog. Someone who has little to no idea about how/why AI agentic memory works can get a",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "Show HN: DeepSeek-V4 Latent Reasoning – moving \"thinking\" into latent space",
+      "link": "https://blog.n.ichol.ai/packaging-latent-reasoning-as-a-real-model",
+      "pubDate": "2026-08-09T11:46:28.000Z",
+      "description": "Article URL: https://blog.n.ichol.ai/packaging-latent-reasoning-as-a-real-model Comments URL: https://news.ycombinator.com/item?id=49230550 Points: 9 # Comments: 6",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Reviving a four year old reMarkable 2",
+      "link": "https://oskrim.github.io/hardware/2026/08/09/remarkable-over-ssh.html",
+      "pubDate": "2026-08-09T11:39:25.000Z",
+      "description": "Article URL: https://oskrim.github.io/hardware/2026/08/09/remarkable-over-ssh.html Comments URL: https://news.ycombinator.com/item?id=49230514 Points: 23 # Comments: 12",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Everything You Do Is Being Recorded",
+      "link": "https://www.theatlantic.com/technology/2026/05/ai-wearable-surveillance-countermeasures/687203/",
+      "pubDate": "2026-08-09T11:30:48.000Z",
+      "description": "Article URL: https://www.theatlantic.com/technology/2026/05/ai-wearable-surveillance-countermeasures/687203/ Comments URL: https://news.ycombinator.com/item?id=49230477 Points: 56 # Comments: 30",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "CSS: The bomb inside your inbox",
+      "link": "https://portswigger.net/research/css-the-bomb-inside-your-inbox",
+      "pubDate": "2026-08-09T10:17:52.000Z",
+      "description": "Article URL: https://portswigger.net/research/css-the-bomb-inside-your-inbox Comments URL: https://news.ycombinator.com/item?id=49230066 Points: 38 # Comments: 9",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "The Alpha 21264 CPU: NT's Greatest RISC (1998)",
+      "link": "https://halfhill.com/byte/1998-12_alpha.html",
+      "pubDate": "2026-08-09T10:06:37.000Z",
+      "description": "Article URL: https://halfhill.com/byte/1998-12_alpha.html Comments URL: https://news.ycombinator.com/item?id=49230022 Points: 23 # Comments: 8",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Show HN: Airy – Free, fast, and simple voice content creation",
+      "link": "https://airy.so",
+      "pubDate": "2026-08-09T09:29:32.000Z",
+      "description": "Article URL: https://airy.so Comments URL: https://news.ycombinator.com/item?id=49229848 Points: 8 # Comments: 5",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "There Are Magic Hexagons of Every Order",
+      "link": "https://gukov.dev/math/2026/08/02/new-magic-hexagons.html",
+      "pubDate": "2026-08-09T07:19:58.000Z",
+      "description": "Article URL: https://gukov.dev/math/2026/08/02/new-magic-hexagons.html Comments URL: https://news.ycombinator.com/item?id=49229174 Points: 82 # Comments: 15",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "Microsoft Word for Windows 1.1a, Native X64 Port",
       "link": "https://github.com/jmarshall23/msword",
       "pubDate": "2026-08-09T05:23:41.000Z",
-      "description": "Article URL: https://github.com/jmarshall23/msword Comments URL: https://news.ycombinator.com/item?id=49228663 Points: 22 # Comments: 5",
+      "description": "Article URL: https://github.com/jmarshall23/msword Comments URL: https://news.ycombinator.com/item?id=49228663 Points: 103 # Comments: 45",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -96,71 +160,7 @@
       "title": "The original URL for this prediction will no longer be available in 11 years (2011)",
       "link": "http://longbets.org/601/",
       "pubDate": "2026-08-09T04:30:26.000Z",
-      "description": "Article URL: http://longbets.org/601/ Comments URL: https://news.ycombinator.com/item?id=49228458 Points: 105 # Comments: 21",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Illinois just told every operating system to start reporting your kid's age",
-      "link": "https://itsfoss.com/news/illinois-age-verification-bill/",
-      "pubDate": "2026-08-09T04:03:59.000Z",
-      "description": "Article URL: https://itsfoss.com/news/illinois-age-verification-bill/ Comments URL: https://news.ycombinator.com/item?id=49228350 Points: 57 # Comments: 32",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Retraction: The App Store Rejection of the Week That Was a Correct Rejection",
-      "link": "https://daringfireball.net/2026/08/retraction_app_store_rejection_of_the_week",
-      "pubDate": "2026-08-09T03:26:00.000Z",
-      "description": "Thread for original post: https://news.ycombinator.com/item?id=49214863 Comments URL: https://news.ycombinator.com/item?id=49228166 Points: 128 # Comments: 8",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Real-time MCP interceptor that blocks .env reads and dangerous commands agents",
-      "link": "https://marketnow.site/",
-      "pubDate": "2026-08-09T03:13:01.000Z",
-      "description": "Article URL: https://marketnow.site/ Comments URL: https://news.ycombinator.com/item?id=49228086 Points: 8 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Incentives are for losers",
-      "link": "https://www.experimental-history.com/p/incentives-are-for-losers",
-      "pubDate": "2026-08-09T01:49:48.000Z",
-      "description": "Article URL: https://www.experimental-history.com/p/incentives-are-for-losers Comments URL: https://news.ycombinator.com/item?id=49227652 Points: 73 # Comments: 34",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "TheoremDB – A public workspace for machine mathematics",
-      "link": "https://theoremdb.org/",
-      "pubDate": "2026-08-09T01:23:36.000Z",
-      "description": "Article URL: https://theoremdb.org/ Comments URL: https://news.ycombinator.com/item?id=49227505 Points: 27 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Melatonin impairs morning cognition in healthy young adults (2023)",
-      "link": "https://academic.oup.com/sleep/article/46/Supplement_1/A34/7181621",
-      "pubDate": "2026-08-09T00:59:58.000Z",
-      "description": "Article URL: https://academic.oup.com/sleep/article/46/Supplement_1/A34/7181621 Comments URL: https://news.ycombinator.com/item?id=49227365 Points: 79 # Comments: 24",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Os8088: A powerful Mac-like OS for the IBM XT, 286, 386",
-      "link": "https://os8088.com/",
-      "pubDate": "2026-08-08T23:37:27.000Z",
-      "description": "Article URL: https://os8088.com/ Comments URL: https://news.ycombinator.com/item?id=49226923 Points: 130 # Comments: 53",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Dithered QR Codes",
-      "link": "https://www.andrewt.net/dithered-qr-codes/wtf/",
-      "pubDate": "2026-08-08T23:05:24.000Z",
-      "description": "Article URL: https://www.andrewt.net/dithered-qr-codes/wtf/ Comments URL: https://news.ycombinator.com/item?id=49226742 Points: 139 # Comments: 15",
+      "description": "Article URL: http://longbets.org/601/ Comments URL: https://news.ycombinator.com/item?id=49228458 Points: 168 # Comments: 76",
       "source": "Hacker News",
       "category": "Tech News"
     },
