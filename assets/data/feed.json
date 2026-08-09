@@ -1,166 +1,166 @@
 {
-  "generatedAt": "2026-08-09T13:15:32.240Z",
+  "generatedAt": "2026-08-09T19:00:59.400Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "The Guardrail's Failure Mode Is Always \"Allow\"",
-      "link": "https://dev.to/aiexplore369zoho/the-guardrails-failure-mode-is-always-allow-2a6p",
-      "pubDate": "2026-08-09T13:01:11.000Z",
-      "description": "<blockquote> <p><strong>TL;DR —</strong> Most production guardrails are implemented as a second LLM or classifier call wrapped in a try/except that defaults to allowing content when that call times out, rate-limits, or returns garbage. Teams stress-test whether the guardrail catches bad input, but a",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "The SQL CASE Expression, Explained for Beginners",
-      "link": "https://dev.to/michaelnocito/the-sql-case-expression-explained-for-beginners-19ec",
-      "pubDate": "2026-08-09T13:00:35.000Z",
-      "description": "<p>CASE is SQL's if/else. It is how you clean messy values, sort numbers into bands, build flags, and count several things in one query.</p> <p>This guide covers the whole of it. How CASE decides. Both forms of the syntax. The two rules that break a CASE with no error message at all, one about order",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "How SQL and Python Work Together in Data Analysis",
-      "link": "https://dev.to/michaelnocito/how-sql-and-python-work-together-in-data-analysis-565o",
-      "pubDate": "2026-08-09T13:00:27.000Z",
-      "description": "<p>Every data analyst job posting asks for SQL and Python. That raises an honest beginner question nobody seems to answer directly. <strong>If both work with data, why do I need two tools?</strong> Aren't they competing? Which one do I reach for when? This guide answers that with a clear division of",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Why Exploratory Data Analysis Matters",
-      "link": "https://dev.to/michaelnocito/why-exploratory-data-analysis-matters-1lf1",
-      "pubDate": "2026-08-09T13:00:20.000Z",
-      "description": "<p><strong>Exploratory data analysis</strong> , or EDA, is the habit of looking at your data before you compute anything from it. This guide covers what to look at, the research showing why it is not optional, and what it looks like on real projects you can open and read.</p> <p>It exists to prevent",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Your Data Is Never Fully Clean, and Analysts Ship Anyway",
-      "link": "https://dev.to/michaelnocito/your-data-is-never-fully-clean-and-analysts-ship-anyway-4hc8",
-      "pubDate": "2026-08-09T13:00:12.000Z",
-      "description": "<p>Analysts ship work that still has flaws in it. They do it by <strong>documenting every imperfection and making it defensible</strong>. This guide covers how, at the three levels real analysts use, with examples from open projects you can read.</p> <p>The reason it has to work that way is simple. ",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Operationalization: Turning Fuzzy Questions Into Measurable Definitions",
-      "link": "https://dev.to/michaelnocito/operationalization-turning-fuzzy-questions-into-measurable-definitions-4mid",
-      "pubDate": "2026-08-09T13:00:04.000Z",
-      "description": "<p>Business questions arrive fuzzy. Popular. Churned. Engaged. Hidden gem. Someone has to turn that fuzz into an exact rule before a single query can run, and this guide is how that is done.</p> <p>The work has a name that analytics inherited from science: <strong>operationalization</strong>. It is ",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Loaded Obeyed: Why Your Agent Quotes Rules It Doesn't Follow",
-      "link": "https://dev.to/buildloops/loaded-obeyed-why-your-agent-quotes-rules-it-doesnt-follow-2256",
-      "pubDate": "2026-08-09T13:00:00.000Z",
-      "description": "<p><em>The file was loaded. The rules just weren't followed. Here's the two-failure diagnostic that tells you which one you have — and what to do for each.</em></p> <p>My agent used to follow my rules. The output-format rules, written once into a <code>CLAUDE.md</code>, were obeyed like law — for mo",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Inside the NEXUS AI App Builder: an agentic full-stack workspace, not a code generator",
-      "link": "https://dev.to/sali_ac161a1b71406354896c/inside-the-nexus-ai-app-builder-an-agentic-full-stack-workspace-not-a-code-generator-59cg",
-      "pubDate": "2026-08-09T12:53:55.000Z",
-      "description": "<h1> Inside the NEXUS AI App Builder: an agentic full-stack workspace, not a code generator </h1> <p><strong>Published:</strong> August 4, 2026<br> <strong>Category:</strong> AI Builder<br> <strong>Reading time:</strong> 11 minutes<br> <strong>Author:</strong> NEXUS AI Team</p> <p>Most \"AI app build",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "The Path Traversal Fix Cursor Writes Ignores Symlinks (CWE-22)",
-      "link": "https://dev.to/c_k_fb750e731394/the-path-traversal-fix-cursor-writes-ignores-symlinks-cwe-22-1cdj",
-      "pubDate": "2026-08-09T12:53:12.000Z",
-      "description": "<h2> TL;DR </h2> <ul> <li>Ask Cursor to fix a path traversal bug and you get <code>path.basename</code>, <code>path.resolve</code>, and a <code>startsWith</code> containment check. It looks like the textbook answer.</li> <li>The check is pure string math. It never touches the disk, so it cannot tell",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Amazon circumvents Gilroy community vote for AI data center",
-      "link": "https://www.tomshardware.com/tech-industry/data-centers/amazon-secretly-circumvents-community-vote-for-massive-ai-data-center-45-year-old-rules-lock-gilroy-residents-out-of-public-comment-window",
-      "pubDate": "2026-08-09T12:52:10.000Z",
-      "description": "Article URL: https://www.tomshardware.com/tech-industry/data-centers/amazon-secretly-circumvents-community-vote-for-massive-ai-data-center-45-year-old-rules-lock-gilroy-residents-out-of-public-comment-window Comments URL: https://news.ycombinator.com/item?id=49230954 Points: 11 # Comments: 1",
+      "title": "If experience is the goal, then you always win",
+      "link": "https://www.startingfromnix.com/p/if-experience-is-the-goal-then-you",
+      "pubDate": "2026-08-09T18:42:09.000Z",
+      "description": "Article URL: https://www.startingfromnix.com/p/if-experience-is-the-goal-then-you Comments URL: https://news.ycombinator.com/item?id=49234279 Points: 3 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "AI Agentic Memory for beginners.",
-      "link": "https://dev.to/ponikar/ai-agentic-memory-for-beginners-4lga",
-      "pubDate": "2026-08-09T12:48:28.000Z",
-      "description": "<p>Hello there, it's been long since I posted my last blog. I have recently been learning a lot about AI agents and I thought of writing a small blog on how AI agent memory works. This is a very beginner-friendly blog. Someone who has little to no idea about how/why AI agentic memory works can get a",
+      "title": "Where Does Judgment End and Runtime Policy Begin?",
+      "link": "https://dev.to/kikashy/where-does-judgment-end-and-runtime-policy-begin-59cf",
+      "pubDate": "2026-08-09T18:24:35.000Z",
+      "description": "<p>AWS introduced something this week that is close enough to the problem I have been working on that I do not think it should be casually labeled complementary.</p> <p><a href=\"https://aws.amazon.com/blogs/machine-learning/control-agent-behaviors-and-cost-beyond-a-single-action-new-capabilities-in-",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Show HN: DeepSeek-V4 Latent Reasoning – moving \"thinking\" into latent space",
-      "link": "https://blog.n.ichol.ai/packaging-latent-reasoning-as-a-real-model",
-      "pubDate": "2026-08-09T11:46:28.000Z",
-      "description": "Article URL: https://blog.n.ichol.ai/packaging-latent-reasoning-as-a-real-model Comments URL: https://news.ycombinator.com/item?id=49230550 Points: 9 # Comments: 6",
+      "title": "How I Protected My Express API from Spam and High AI Costs Using Redis",
+      "link": "https://dev.to/nikhil_singh_e20fff10a888/how-i-protected-my-express-api-from-spam-and-high-ai-costs-using-redis-40c",
+      "pubDate": "2026-08-09T18:24:10.000Z",
+      "description": "<p>When I was building my backend API, I realized a big problem: anyone could spam my endpoints. </p> <p>If a user repeatedly reloads a page or hits an endpoint calling an external AI service, it can crash the server or run up high API costs.</p> <p>To fix this, I added <strong>Rate Limiting</strong",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Cpynet a pastebin you talk to with curl, that forgets everything you send it",
+      "link": "https://dev.to/eminbuyuk/why-i-built-a-zero-dependency-single-file-go-clipboard-for-terminal-junkies-2ob6",
+      "pubDate": "2026-08-09T18:21:49.000Z",
+      "description": "<p>A zero-dependency, single-file Go pastebin built for terminals — burn-after-read by default, two independent encryption layers, and a curl one-liner instead of a login form.</p> <p>I keep ending up in situations where I need to move a small piece of text — a<br> log snippet, a password, a contain",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Topic selected: Option A – Purely Technical: \"Building a Secure AI Proxy for Browser Tools",
+      "link": "https://dev.to/obed_avorlenu/topic-selected-option-a-purely-technical-building-a-secure-ai-proxy-for-browser-tools-5bc",
+      "pubDate": "2026-08-09T18:20:32.000Z",
+      "description": "<p>This is the strongest choice. It teaches a tangible, highly demanded skill (API key security) with actual code, making the backlink to AfriWidget feel like a natural, neutral citation rather than a sales pitch.</p> <p>Here is the article, rewritten to be strictly technical, objective, and genuine",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Who Did This? Identity Across Async Boundaries",
+      "link": "https://dev.to/ramesh-yara/who-did-this-identity-across-async-boundaries-1n4n",
+      "pubDate": "2026-08-09T18:20:05.000Z",
+      "description": "<p>You put a lot of work into authentication. A gateway validates the Keycloak JWT, maps realm roles to authorities, checks that the caller is allowed. By the time a request reaches your service, you know exactly who is calling.</p> <p>Then the request crosses into async land, and all of that evapor",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Absorber les +50 % de l'API Claude sans couper une feature",
+      "link": "https://dev.to/hernanz/absorber-les-50-de-lapi-claude-sans-couper-une-feature-4nj",
+      "pubDate": "2026-08-09T18:13:52.000Z",
+      "description": "<p>Le 1er septembre 2026, le tarif de lancement de Claude Sonnet 5 s'arrête. L'input passe de 2 $ à 3 $ le million de tokens, l'output de 10 $ à 15 $ : +50 % sur les deux lignes, pour tout le monde qui appelle l'API en paiement à l'usage. La panique par défaut, c'est de couper des fonctionnalités ou",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Our AI Agent Failed 5 Times in One Day. Here is Why It Never Happened Again.",
+      "link": "https://dev.to/zwiserfit/our-ai-agent-failed-5-times-in-one-day-here-is-why-it-never-happened-again-1e5p",
+      "pubDate": "2026-08-09T18:12:48.000Z",
+      "description": "<h1> Our AI Agent Failed 5 Times in One Day. Here is Why It Never Happened Again. </h1> <p><strong>LAO Runtime Protection in action — real failures, self-repaired, permanently prevented, zero repeats.</strong></p> <p>August 9, 2026 · by the ZWISERFIT engineering team</p> <blockquote> <p>AI agents fa",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Your Service Map Is Lying",
+      "link": "https://dev.to/ramesh-yara/your-service-map-is-lying-4g47",
+      "pubDate": "2026-08-09T18:10:22.000Z",
+      "description": "<p>You attach the OpenTelemetry Java agent, point it at a collector, and within minutes Grafana is drawing a service map you never drew. A box for each service, arrows between them, latency on every edge. It feels like magic, and — more dangerously — it feels <em>complete</em>. \"The agent traces eve",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Why a 24 GB GPU Does Not Give Your Local LLM 24 GB",
+      "link": "https://dev.to/deep_mehta_b12a764b0ec6b5/why-a-24-gb-gpu-does-not-give-your-local-llm-24-gb-4b0k",
+      "pubDate": "2026-08-09T18:07:01.000Z",
+      "description": "<p>I keep seeing the same local LLM sizing mistake:</p> <p>\"The model file is smaller than my GPU, so it should fit.\"</p> <p>That is only the first check. A 24 GB GPU does not give your model a clean 24 GB memory budget. The display stack, runtime, temporary buffers, model weights, and KV cache all ",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Technical Documentation Template: Build Product Docs With a Tested Structure",
+      "link": "https://dev.to/ninadpathak/technical-documentation-template-build-product-docs-with-a-tested-structure-39m7",
+      "pubDate": "2026-08-09T18:02:39.000Z",
+      "description": "<blockquote> <p>Originally published at <a href=\"https://ninadpathak.com/articles/technical-documentation-template/\" rel=\"noopener noreferrer\">https://ninadpathak.com/articles/technical-documentation-template/</a>.</p> </blockquote> <p>Creating documentation often forces several decisions at once: w",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "OpenChamber: An Agentic Development Environment",
+      "link": "https://openchamber.dev/",
+      "pubDate": "2026-08-09T17:27:16.000Z",
+      "description": "Article URL: https://openchamber.dev/ Comments URL: https://news.ycombinator.com/item?id=49233448 Points: 28 # Comments: 10",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Reviving a four year old reMarkable 2",
-      "link": "https://oskrim.github.io/hardware/2026/08/09/remarkable-over-ssh.html",
-      "pubDate": "2026-08-09T11:39:25.000Z",
-      "description": "Article URL: https://oskrim.github.io/hardware/2026/08/09/remarkable-over-ssh.html Comments URL: https://news.ycombinator.com/item?id=49230514 Points: 23 # Comments: 12",
+      "title": "Ask HN: What are you working on? (August 2026)",
+      "link": "https://news.ycombinator.com/item?id=49233423",
+      "pubDate": "2026-08-09T17:23:22.000Z",
+      "description": "What are you working on? What have you been curious about lately? Comments URL: https://news.ycombinator.com/item?id=49233423 Points: 44 # Comments: 137",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Everything You Do Is Being Recorded",
-      "link": "https://www.theatlantic.com/technology/2026/05/ai-wearable-surveillance-countermeasures/687203/",
-      "pubDate": "2026-08-09T11:30:48.000Z",
-      "description": "Article URL: https://www.theatlantic.com/technology/2026/05/ai-wearable-surveillance-countermeasures/687203/ Comments URL: https://news.ycombinator.com/item?id=49230477 Points: 56 # Comments: 30",
+      "title": "Production Imminent: 40 Solar-Charging Aptera EVs Coming Soon",
+      "link": "https://frequal.com/aptera/ProductionImminent.html",
+      "pubDate": "2026-08-09T17:19:48.000Z",
+      "description": "Article URL: https://frequal.com/aptera/ProductionImminent.html Comments URL: https://news.ycombinator.com/item?id=49233394 Points: 30 # Comments: 22",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "CSS: The bomb inside your inbox",
-      "link": "https://portswigger.net/research/css-the-bomb-inside-your-inbox",
-      "pubDate": "2026-08-09T10:17:52.000Z",
-      "description": "Article URL: https://portswigger.net/research/css-the-bomb-inside-your-inbox Comments URL: https://news.ycombinator.com/item?id=49230066 Points: 38 # Comments: 9",
+      "title": "Show HN: A replayable A2A jury for tracing how agents influence decisions",
+      "link": "https://github.com/nMaroulis/protolink/tree/main/examples/ai_courtroom",
+      "pubDate": "2026-08-09T17:10:05.000Z",
+      "description": "Article URL: https://github.com/nMaroulis/protolink/tree/main/examples/ai_courtroom Comments URL: https://news.ycombinator.com/item?id=49233306 Points: 7 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "The Alpha 21264 CPU: NT's Greatest RISC (1998)",
-      "link": "https://halfhill.com/byte/1998-12_alpha.html",
-      "pubDate": "2026-08-09T10:06:37.000Z",
-      "description": "Article URL: https://halfhill.com/byte/1998-12_alpha.html Comments URL: https://news.ycombinator.com/item?id=49230022 Points: 23 # Comments: 8",
+      "title": "FCC moves to ban Lidar-equipped foreign drones from US",
+      "link": "https://www.tomshardware.com/tech-industry/drones/fcc-moves-to-ban-lidar-equipped-foreign-drones-from-us-classifies-the-technology-as-military-grade-in-a-proposal-that-could-also-hit-thermal-models-and-the-swarms-used-drone-light-shows",
+      "pubDate": "2026-08-09T16:24:59.000Z",
+      "description": "Article URL: https://www.tomshardware.com/tech-industry/drones/fcc-moves-to-ban-lidar-equipped-foreign-drones-from-us-classifies-the-technology-as-military-grade-in-a-proposal-that-could-also-hit-thermal-models-and-the-swarms-used-drone-light-shows Comments URL: https://news.ycombinator.com/item?id=",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Show HN: Airy – Free, fast, and simple voice content creation",
-      "link": "https://airy.so",
-      "pubDate": "2026-08-09T09:29:32.000Z",
-      "description": "Article URL: https://airy.so Comments URL: https://news.ycombinator.com/item?id=49229848 Points: 8 # Comments: 5",
+      "title": "An OpenAI Strategist Says AI Labs Should Rival Government Power",
+      "link": "https://ai-updates.net/an-openai-strategist-says-ai-labs-should-rival-government-power/",
+      "pubDate": "2026-08-09T16:18:39.000Z",
+      "description": "Article URL: https://ai-updates.net/an-openai-strategist-says-ai-labs-should-rival-government-power/ Comments URL: https://news.ycombinator.com/item?id=49232778 Points: 15 # Comments: 19",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "There Are Magic Hexagons of Every Order",
-      "link": "https://gukov.dev/math/2026/08/02/new-magic-hexagons.html",
-      "pubDate": "2026-08-09T07:19:58.000Z",
-      "description": "Article URL: https://gukov.dev/math/2026/08/02/new-magic-hexagons.html Comments URL: https://news.ycombinator.com/item?id=49229174 Points: 82 # Comments: 15",
+      "title": "UnYOLO: Agent credential broker and policy engine for your GitHub account",
+      "link": "https://unyolo.io/",
+      "pubDate": "2026-08-09T15:53:03.000Z",
+      "description": "Article URL: https://unyolo.io/ Comments URL: https://news.ycombinator.com/item?id=49232548 Points: 5 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Microsoft Word for Windows 1.1a, Native X64 Port",
-      "link": "https://github.com/jmarshall23/msword",
-      "pubDate": "2026-08-09T05:23:41.000Z",
-      "description": "Article URL: https://github.com/jmarshall23/msword Comments URL: https://news.ycombinator.com/item?id=49228663 Points: 103 # Comments: 45",
+      "title": "Every fast write moves work somewhere else",
+      "link": "https://www.shayon.dev/post/2026/220/every-fast-write-moves-work-somewhere-else/",
+      "pubDate": "2026-08-09T15:36:52.000Z",
+      "description": "Article URL: https://www.shayon.dev/post/2026/220/every-fast-write-moves-work-somewhere-else/ Comments URL: https://news.ycombinator.com/item?id=49232410 Points: 30 # Comments: 13",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "The original URL for this prediction will no longer be available in 11 years (2011)",
-      "link": "http://longbets.org/601/",
-      "pubDate": "2026-08-09T04:30:26.000Z",
-      "description": "Article URL: http://longbets.org/601/ Comments URL: https://news.ycombinator.com/item?id=49228458 Points: 168 # Comments: 76",
+      "title": "Analyzing data from Silicon Valley ventures and founders prosecuted for fraud",
+      "link": "https://pubsonline.informs.org/doi/full/10.1287/orsc.2024.19981",
+      "pubDate": "2026-08-09T15:26:45.000Z",
+      "description": "Article URL: https://pubsonline.informs.org/doi/full/10.1287/orsc.2024.19981 Comments URL: https://news.ycombinator.com/item?id=49232318 Points: 139 # Comments: 60",
       "source": "Hacker News",
       "category": "Tech News"
     },
