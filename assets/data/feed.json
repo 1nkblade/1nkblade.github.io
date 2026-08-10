@@ -1,248 +1,173 @@
 {
-  "generatedAt": "2026-08-09T19:00:59.400Z",
+  "generatedAt": "2026-08-10T02:34:42.867Z",
   "sourceCount": 4,
-  "successCount": 4,
-  "errors": [],
+  "successCount": 3,
+  "errors": [
+    {
+      "source": "CSS Tricks",
+      "error": "HTTP 415 Unsupported Media Type"
+    }
+  ],
   "items": [
     {
-      "title": "If experience is the goal, then you always win",
-      "link": "https://www.startingfromnix.com/p/if-experience-is-the-goal-then-you",
-      "pubDate": "2026-08-09T18:42:09.000Z",
-      "description": "Article URL: https://www.startingfromnix.com/p/if-experience-is-the-goal-then-you Comments URL: https://news.ycombinator.com/item?id=49234279 Points: 3 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Where Does Judgment End and Runtime Policy Begin?",
-      "link": "https://dev.to/kikashy/where-does-judgment-end-and-runtime-policy-begin-59cf",
-      "pubDate": "2026-08-09T18:24:35.000Z",
-      "description": "<p>AWS introduced something this week that is close enough to the problem I have been working on that I do not think it should be casually labeled complementary.</p> <p><a href=\"https://aws.amazon.com/blogs/machine-learning/control-agent-behaviors-and-cost-beyond-a-single-action-new-capabilities-in-",
+      "title": "Memory Management and Optimization in JavaScript",
+      "link": "https://dev.to/sharique_siddiqui_8242dad/memory-management-and-optimization-in-javascript-dbh",
+      "pubDate": "2026-08-10T02:30:00.000Z",
+      "description": "<p>When building JavaScript applications—whether front-end or back-end—performance is more than just execution speed. Memory management plays a vital role in how smooth and responsive your applications feel. Poor handling of memory often results in sluggish user experiences, freezes, or even crashes",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How I Protected My Express API from Spam and High AI Costs Using Redis",
-      "link": "https://dev.to/nikhil_singh_e20fff10a888/how-i-protected-my-express-api-from-spam-and-high-ai-costs-using-redis-40c",
-      "pubDate": "2026-08-09T18:24:10.000Z",
-      "description": "<p>When I was building my backend API, I realized a big problem: anyone could spam my endpoints. </p> <p>If a user repeatedly reloads a page or hits an endpoint calling an external AI service, it can crash the server or run up high API costs.</p> <p>To fix this, I added <strong>Rate Limiting</strong",
+      "title": "Loop engineering: stop prompting, start defining outcomes",
+      "link": "https://dev.to/ayaan278/loop-engineering-stop-prompting-start-defining-outcomes-lho",
+      "pubDate": "2026-08-10T02:20:00.000Z",
+      "description": "<p>A few years ago, I was integrating with an API that shall remain nameless. It told me almost nothing — no error messages, no logs worth reading. Just HTTP status codes and a dashboard with exactly one metric: failed requests over total requests.</p> <p>It started at <strong>1/1</strong>. Then <st",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Cpynet a pastebin you talk to with curl, that forgets everything you send it",
-      "link": "https://dev.to/eminbuyuk/why-i-built-a-zero-dependency-single-file-go-clipboard-for-terminal-junkies-2ob6",
-      "pubDate": "2026-08-09T18:21:49.000Z",
-      "description": "<p>A zero-dependency, single-file Go pastebin built for terminals — burn-after-read by default, two independent encryption layers, and a curl one-liner instead of a login form.</p> <p>I keep ending up in situations where I need to move a small piece of text — a<br> log snippet, a password, a contain",
+      "title": "Too lazy for Bash: My life with a local AI assistant",
+      "link": "https://dev.to/codisfy/too-lazy-for-bash-my-life-with-a-local-ai-assistant-25pb",
+      "pubDate": "2026-08-10T02:13:52.000Z",
+      "description": "<p>A few days ago I wanted to change something on my local media server.</p> <p>Normally I'd SSH into it, remember where I'd configured everything, look up a couple of commands I'd forgotten, make the change and move on.</p> <p>Instead I opened Pi(coding agent) and typed, more or less:</p> <blockquo",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Topic selected: Option A – Purely Technical: \"Building a Secure AI Proxy for Browser Tools",
-      "link": "https://dev.to/obed_avorlenu/topic-selected-option-a-purely-technical-building-a-secure-ai-proxy-for-browser-tools-5bc",
-      "pubDate": "2026-08-09T18:20:32.000Z",
-      "description": "<p>This is the strongest choice. It teaches a tangible, highly demanded skill (API key security) with actual code, making the backlink to AfriWidget feel like a natural, neutral citation rather than a sales pitch.</p> <p>Here is the article, rewritten to be strictly technical, objective, and genuine",
+      "title": "Sharepoint List daoru test",
+      "link": "https://dev.to/yili_zhang_flow/sharepoint-list-study-20260800-46o6",
+      "pubDate": "2026-08-10T02:09:23.000Z",
+      "description": "<div class=\"highlight js-code-highlight\"> <pre class=\"highlight javascript\"><code><span class=\"p\">(</span><span class=\"k\">async </span><span class=\"p\">()</span> <span class=\"o\">=&gt;</span> <span class=\"p\">{</span> <span class=\"kd\">const</span> <span class=\"nx\">web</span> <span class=\"o\">=</span> <s",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Who Did This? Identity Across Async Boundaries",
-      "link": "https://dev.to/ramesh-yara/who-did-this-identity-across-async-boundaries-1n4n",
-      "pubDate": "2026-08-09T18:20:05.000Z",
-      "description": "<p>You put a lot of work into authentication. A gateway validates the Keycloak JWT, maps realm roles to authorities, checks that the caller is allowed. By the time a request reaches your service, you know exactly who is calling.</p> <p>Then the request crosses into async land, and all of that evapor",
+      "title": "Dev Log: 2026-08-09 — 72 classes that should have been 8 rows, and a compliance clock",
+      "link": "https://dev.to/nasrulhazim/dev-log-2026-08-09-72-classes-that-should-have-been-8-rows-and-a-compliance-clock-25h0",
+      "pubDate": "2026-08-10T02:02:26.000Z",
+      "description": "<p>Sixteen commits, all on one private deployment platform, spread across a very long day — a batch just after midnight and then a second run in the late afternoon.</p> <p>The big architectural thread of the day — drivers that admit what they can't do — is written up properly in a separate post. Thi",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Absorber les +50 % de l'API Claude sans couper une feature",
-      "link": "https://dev.to/hernanz/absorber-les-50-de-lapi-claude-sans-couper-une-feature-4nj",
-      "pubDate": "2026-08-09T18:13:52.000Z",
-      "description": "<p>Le 1er septembre 2026, le tarif de lancement de Claude Sonnet 5 s'arrête. L'input passe de 2 $ à 3 $ le million de tokens, l'output de 10 $ à 15 $ : +50 % sur les deux lignes, pour tout le monde qui appelle l'API en paiement à l'usage. La panique par défaut, c'est de couper des fonctionnalités ou",
+      "title": "A driver that quietly does nothing is worse than one that isn't there",
+      "link": "https://dev.to/nasrulhazim/a-driver-that-quietly-does-nothing-is-worse-than-one-that-isnt-there-61m",
+      "pubDate": "2026-08-10T02:02:02.000Z",
+      "description": "<h2> TL;DR </h2> <ul> <li>A method that can't do its job has three options: do it, <strong>throw</strong>, or <strong>return \"I can't\"</strong> as a value. What it must never do is return normally having done nothing.</li> <li>I gave a firewall abstraction two extra methods — <code>enforces()</code>",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Our AI Agent Failed 5 Times in One Day. Here is Why It Never Happened Again.",
-      "link": "https://dev.to/zwiserfit/our-ai-agent-failed-5-times-in-one-day-here-is-why-it-never-happened-again-1e5p",
-      "pubDate": "2026-08-09T18:12:48.000Z",
-      "description": "<h1> Our AI Agent Failed 5 Times in One Day. Here is Why It Never Happened Again. </h1> <p><strong>LAO Runtime Protection in action — real failures, self-repaired, permanently prevented, zero repeats.</strong></p> <p>August 9, 2026 · by the ZWISERFIT engineering team</p> <blockquote> <p>AI agents fa",
+      "title": "How I built an automated Twitter + Telegram whale alert bot for Polymarket",
+      "link": "https://dev.to/manpreet_brar_264e408885a/how-i-built-an-automated-twitter-telegram-whale-alert-bot-for-polymarket-1ahp",
+      "pubDate": "2026-08-10T01:45:58.000Z",
+      "description": "<p>Built WhaleTrack — it tracks big Polymarket traders and alerts when they place large bets. Here's the technical stack behind the automated alert system.</p> <ul> <li>The core loop (runs every 5 min):</li> </ul> <ol> <li><p>Polls Polymarket's API for recent trades across known whale wallets</p></l",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Your Service Map Is Lying",
-      "link": "https://dev.to/ramesh-yara/your-service-map-is-lying-4g47",
-      "pubDate": "2026-08-09T18:10:22.000Z",
-      "description": "<p>You attach the OpenTelemetry Java agent, point it at a collector, and within minutes Grafana is drawing a service map you never drew. A box for each service, arrows between them, latency on every edge. It feels like magic, and — more dangerously — it feels <em>complete</em>. \"The agent traces eve",
+      "title": "I Built a Free AI Screen Recorder That Auto-Edits Your Videos",
+      "link": "https://dev.to/gabutskuy/i-built-a-free-ai-screen-recorder-that-auto-edits-your-videos-3gkj",
+      "pubDate": "2026-08-10T01:45:20.000Z",
+      "description": "<h1> I Built a Free AI Screen Recorder That Auto-Edits Your Videos </h1> <p>Every content creator knows the pain: you spend <strong>3-5 hours editing</strong> a 10-minute screen recording. Cropping dead space, adding zooms, fixing transitions... it's tedious, it's boring, and it eats your life.</p> ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Why a 24 GB GPU Does Not Give Your Local LLM 24 GB",
-      "link": "https://dev.to/deep_mehta_b12a764b0ec6b5/why-a-24-gb-gpu-does-not-give-your-local-llm-24-gb-4b0k",
-      "pubDate": "2026-08-09T18:07:01.000Z",
-      "description": "<p>I keep seeing the same local LLM sizing mistake:</p> <p>\"The model file is smaller than my GPU, so it should fit.\"</p> <p>That is only the first check. A 24 GB GPU does not give your model a clean 24 GB memory budget. The display stack, runtime, temporary buffers, model weights, and KV cache all ",
+      "title": "AI Agent vs. Single Prompt: When Automation Actually Pays Off",
+      "link": "https://dev.to/hakiimi_claw/ai-agent-vs-single-prompt-when-automation-actually-pays-off-1cbe",
+      "pubDate": "2026-08-10T01:44:56.000Z",
+      "description": "<p>Everyone is talking about AI agents, but most people still use a single prompt. The honest question: <strong>when does an agent actually pay for itself?</strong></p> <p>Here is my rule, learned from building an OpenClaw-driven content system.</p> <h2> The difference in one line </h2> <ul> <li> <s",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Technical Documentation Template: Build Product Docs With a Tested Structure",
-      "link": "https://dev.to/ninadpathak/technical-documentation-template-build-product-docs-with-a-tested-structure-39m7",
-      "pubDate": "2026-08-09T18:02:39.000Z",
-      "description": "<blockquote> <p>Originally published at <a href=\"https://ninadpathak.com/articles/technical-documentation-template/\" rel=\"noopener noreferrer\">https://ninadpathak.com/articles/technical-documentation-template/</a>.</p> </blockquote> <p>Creating documentation often forces several decisions at once: w",
+      "title": "AI Agent vs. Single Prompt: When Automation Actually Pays Off",
+      "link": "https://dev.to/hakiimi_claw/ai-agent-vs-single-prompt-when-automation-actually-pays-off-2951",
+      "pubDate": "2026-08-10T01:44:56.000Z",
+      "description": "<p>Everyone is talking about AI agents, but most people still use a single prompt. The honest question: <strong>when does an agent actually pay for itself?</strong></p> <p>Here is my rule, learned from building an OpenClaw-driven content system.</p> <h2> The difference in one line </h2> <ul> <li> <s",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "OpenChamber: An Agentic Development Environment",
-      "link": "https://openchamber.dev/",
-      "pubDate": "2026-08-09T17:27:16.000Z",
-      "description": "Article URL: https://openchamber.dev/ Comments URL: https://news.ycombinator.com/item?id=49233448 Points: 28 # Comments: 10",
+      "title": "How We Pushed CDC into Postgres",
+      "link": "https://www.snowflake.com/en/blog/engineering/postgres-to-snowflake-replication-mirroring/",
+      "pubDate": "2026-08-10T01:01:34.000Z",
+      "description": "Article URL: https://www.snowflake.com/en/blog/engineering/postgres-to-snowflake-replication-mirroring/ Comments URL: https://news.ycombinator.com/item?id=49238050 Points: 22 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Ask HN: What are you working on? (August 2026)",
-      "link": "https://news.ycombinator.com/item?id=49233423",
-      "pubDate": "2026-08-09T17:23:22.000Z",
-      "description": "What are you working on? What have you been curious about lately? Comments URL: https://news.ycombinator.com/item?id=49233423 Points: 44 # Comments: 137",
+      "title": "Japanese court overturns Red RAW video patent",
+      "link": "https://www.dpreview.com/news/panasonic-did-what-apple-sony-and-nikon-couldnt-overturn-a-red-raw-video-patent/",
+      "pubDate": "2026-08-10T00:36:24.000Z",
+      "description": "Article URL: https://www.dpreview.com/news/panasonic-did-what-apple-sony-and-nikon-couldnt-overturn-a-red-raw-video-patent/ Comments URL: https://news.ycombinator.com/item?id=49237873 Points: 33 # Comments: 3",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Production Imminent: 40 Solar-Charging Aptera EVs Coming Soon",
-      "link": "https://frequal.com/aptera/ProductionImminent.html",
-      "pubDate": "2026-08-09T17:19:48.000Z",
-      "description": "Article URL: https://frequal.com/aptera/ProductionImminent.html Comments URL: https://news.ycombinator.com/item?id=49233394 Points: 30 # Comments: 22",
+      "title": "The Ambition Project",
+      "link": "https://www.betonit.ai/p/the-ambition-project",
+      "pubDate": "2026-08-09T23:36:05.000Z",
+      "description": "Article URL: https://www.betonit.ai/p/the-ambition-project Comments URL: https://news.ycombinator.com/item?id=49237407 Points: 9 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Show HN: A replayable A2A jury for tracing how agents influence decisions",
-      "link": "https://github.com/nMaroulis/protolink/tree/main/examples/ai_courtroom",
-      "pubDate": "2026-08-09T17:10:05.000Z",
-      "description": "Article URL: https://github.com/nMaroulis/protolink/tree/main/examples/ai_courtroom Comments URL: https://news.ycombinator.com/item?id=49233306 Points: 7 # Comments: 0",
+      "title": "To Recruit Teachers, School Districts Are Building Homes",
+      "link": "https://www.nytimes.com/2026/07/28/business/affordable-housing-schools-teachers.html",
+      "pubDate": "2026-08-09T22:00:36.000Z",
+      "description": "Article URL: https://www.nytimes.com/2026/07/28/business/affordable-housing-schools-teachers.html Comments URL: https://news.ycombinator.com/item?id=49236541 Points: 45 # Comments: 31",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "FCC moves to ban Lidar-equipped foreign drones from US",
-      "link": "https://www.tomshardware.com/tech-industry/drones/fcc-moves-to-ban-lidar-equipped-foreign-drones-from-us-classifies-the-technology-as-military-grade-in-a-proposal-that-could-also-hit-thermal-models-and-the-swarms-used-drone-light-shows",
-      "pubDate": "2026-08-09T16:24:59.000Z",
-      "description": "Article URL: https://www.tomshardware.com/tech-industry/drones/fcc-moves-to-ban-lidar-equipped-foreign-drones-from-us-classifies-the-technology-as-military-grade-in-a-proposal-that-could-also-hit-thermal-models-and-the-swarms-used-drone-light-shows Comments URL: https://news.ycombinator.com/item?id=",
+      "title": "Tuxedo No. 2 – Cocktail recipes",
+      "link": "https://tuxedono2.com",
+      "pubDate": "2026-08-09T20:48:46.000Z",
+      "description": "Article URL: https://tuxedono2.com Comments URL: https://news.ycombinator.com/item?id=49235697 Points: 51 # Comments: 13",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "An OpenAI Strategist Says AI Labs Should Rival Government Power",
-      "link": "https://ai-updates.net/an-openai-strategist-says-ai-labs-should-rival-government-power/",
-      "pubDate": "2026-08-09T16:18:39.000Z",
-      "description": "Article URL: https://ai-updates.net/an-openai-strategist-says-ai-labs-should-rival-government-power/ Comments URL: https://news.ycombinator.com/item?id=49232778 Points: 15 # Comments: 19",
+      "title": "New Zealand lost its music media, and what we're building to replace it",
+      "link": "https://propelmusic.co.nz/articles/the-sound-went-quiet-nz-music-media",
+      "pubDate": "2026-08-09T20:42:29.000Z",
+      "description": "Article URL: https://propelmusic.co.nz/articles/the-sound-went-quiet-nz-music-media Comments URL: https://news.ycombinator.com/item?id=49235641 Points: 81 # Comments: 44",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "UnYOLO: Agent credential broker and policy engine for your GitHub account",
-      "link": "https://unyolo.io/",
-      "pubDate": "2026-08-09T15:53:03.000Z",
-      "description": "Article URL: https://unyolo.io/ Comments URL: https://news.ycombinator.com/item?id=49232548 Points: 5 # Comments: 0",
+      "title": "The Hacker's Renaissance (2025)",
+      "link": "https://phrack.org/issues/72/19#article",
+      "pubDate": "2026-08-09T20:18:44.000Z",
+      "description": "Article URL: https://phrack.org/issues/72/19#article Comments URL: https://news.ycombinator.com/item?id=49235378 Points: 97 # Comments: 69",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Every fast write moves work somewhere else",
-      "link": "https://www.shayon.dev/post/2026/220/every-fast-write-moves-work-somewhere-else/",
-      "pubDate": "2026-08-09T15:36:52.000Z",
-      "description": "Article URL: https://www.shayon.dev/post/2026/220/every-fast-write-moves-work-somewhere-else/ Comments URL: https://news.ycombinator.com/item?id=49232410 Points: 30 # Comments: 13",
+      "title": "Show HN: Alphabet Soup, a multiplayer game, build the longest word to win",
+      "link": "https://alphabetsoup.club",
+      "pubDate": "2026-08-09T20:15:45.000Z",
+      "description": "I've been working on a simple multiplayer word game called Alphabet Soup.It's a bit like NYT Spelling Bee, except it's multiplayer and only your best (longest) word counts toward your score. So, instead of trying to find as many words as possible, the game is more about finding one unusually good wo",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Analyzing data from Silicon Valley ventures and founders prosecuted for fraud",
-      "link": "https://pubsonline.informs.org/doi/full/10.1287/orsc.2024.19981",
-      "pubDate": "2026-08-09T15:26:45.000Z",
-      "description": "Article URL: https://pubsonline.informs.org/doi/full/10.1287/orsc.2024.19981 Comments URL: https://news.ycombinator.com/item?id=49232318 Points: 139 # Comments: 60",
+      "title": "The tragedy of the commons, AI edition",
+      "link": "https://www.economist.com/britain/2026/08/06/the-tragedy-of-the-commons-ai-edition",
+      "pubDate": "2026-08-09T19:43:52.000Z",
+      "description": "Article URL: https://www.economist.com/britain/2026/08/06/the-tragedy-of-the-commons-ai-edition Comments URL: https://news.ycombinator.com/item?id=49235011 Points: 78 # Comments: 42",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Using and Styling the Dialog Element",
-      "link": "https://css-tricks.com/using-and-styling-the-dialog-element/",
-      "pubDate": "2026-08-07T14:06:43.000Z",
-      "description": "There's a lot of nuance to the <dialog> element, a seemingly little piece of web architecture. I've got some notes from digging into it. Using and Styling the Dialog Element originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "2026 State of CSS, Devs Surveys",
-      "link": "https://css-tricks.com/2026-state-of-css-devs-surveys/",
-      "pubDate": "2026-08-06T15:54:52.000Z",
-      "description": "A few notes and takeaways from the 2026 State of CSS survey results, including a nice CSS-Tricks cameo! 2026 State of CSS, Devs Surveys originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Gap Decorations Are Now Available, Here’s What’s New",
-      "link": "https://css-tricks.com/css-gap-decorations-now-available/",
-      "pubDate": "2026-08-03T15:53:20.000Z",
-      "description": "Today, with CSS gap decorations fully supported in Chrome and Edge, starting with version 149, you can now very easily style gaps, and with a lot of control. Gap Decorations Are Now Available, Here’s What’s New originally handwritten and published with love on CSS-Tricks. You should really get the n",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Get Ready For the Powerful CSS border-shape Property!",
-      "link": "https://css-tricks.com/get-ready-for-the-powerful-css-border-shape-property/",
-      "pubDate": "2026-07-31T15:14:00.000Z",
-      "description": "We recently got the shape() function and corner-shape property. What else could we possibly need as far as making shapes in CSS? Let me tell you: the border-shape property! Get Ready For the Powerful CSS border-shape Property! originally handwritten and published with love on CSS-Tricks. You should ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "What’s !important #16: sibling-index() Animations, Use Cases for the infinity Keyword, Container Stuck Queries, and More",
-      "link": "https://css-tricks.com/whats-important-16/",
-      "pubDate": "2026-07-31T14:06:21.000Z",
-      "description": "The soon-Baseline sibling-index() function for animations, CSS and the 2026 FIFA World Cup, use cases for the infinity keyword, container \"stuck\" queries, and more. What’s !important #16: sibling-index() Animations, Use Cases for the infinity Keyword, Container Stuck Queries, and More originally han",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "writing-mode",
-      "link": "https://css-tricks.com/almanac/properties/w/writing-mode/",
-      "pubDate": "2026-07-21T09:39:10.000Z",
-      "description": "The writing-mode CSS property sets whether lines of text are laid out horizontally or vertically, and the direction in which blocks and lines progress. .element { writing-mode: vertical-rl; } This is most useful in languages such as Chinese, Japanese or … writing-mode originally handwritten and publ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "pointer-events",
-      "link": "https://css-tricks.com/almanac/properties/p/pointer-events/",
-      "pubDate": "2026-07-15T19:57:51.000Z",
-      "description": "The pointer-events property controls whether an element can become the target of pointer events like clicks, hover states, and other pointer-based events. In other words, it lets you decide whether the browser should treat an element as interactive when the … pointer-events originally handwritten an",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "What’s !important #15: Boundary-aware CSS, Time-based CSS, Full-bleed CSS, and More",
-      "link": "https://css-tricks.com/whats-important-15/",
-      "pubDate": "2026-07-14T14:36:18.000Z",
-      "description": "Read all about boundary-aware CSS, accessible grid lanes, time-based web designs, full-bleed, the customizable select, and new web platform features. What’s !important #15: Boundary-aware CSS, Time-based CSS, Full-bleed CSS, and More originally handwritten and published with love on CSS-Tricks. You ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "What’s !important #14: Gap Decorations, random(), &#060;select&gt; field-sizing, and More",
-      "link": "https://css-tricks.com/whats-important-14/",
-      "pubDate": "2026-06-30T13:54:14.000Z",
-      "description": "I know you’re busy, so for What’s !important #14, I’ll be sprinting through what’s been a stacked couple of weeks despite few browser updates. From CSS Quake to CSS Gap Decorations, this isn’t one to miss! What’s !important #14: Gap Decorations, random(), <select> field-sizing, and More originally h",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "The Shifting Line Between CSS States and JavaScript Events",
-      "link": "https://css-tricks.com/css-states-and-javascript-events/",
-      "pubDate": "2026-06-29T13:03:32.000Z",
-      "description": "CSS has always had pseudo-classes that style things based on user interactions. Recent features, however, are blurring the line between what CSS \"listens\" for and how they are alternatives to what Javascript typically listens for. The Shifting Line Between CSS States and JavaScript Events originally",
-      "source": "CSS Tricks",
-      "category": "Frontend"
+      "title": "How I use LLMs to learn complex topics",
+      "link": "https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/",
+      "pubDate": "2026-08-09T19:16:49.000Z",
+      "description": "Article URL: https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/ Comments URL: https://news.ycombinator.com/item?id=49234675 Points: 439 # Comments: 256",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "Meet the HTB Profile: all your skills, in one place",
