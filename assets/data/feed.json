@@ -1,248 +1,173 @@
 {
-  "generatedAt": "2026-08-10T08:04:11.574Z",
+  "generatedAt": "2026-08-10T13:44:36.086Z",
   "sourceCount": 4,
-  "successCount": 4,
-  "errors": [],
+  "successCount": 3,
+  "errors": [
+    {
+      "source": "CSS Tricks",
+      "error": "HTTP 415 Unsupported Media Type"
+    }
+  ],
   "items": [
     {
-      "title": "Multi-tenant DKIM in Haraka: two signatures on one message",
-      "link": "https://dev.to/eric-houz/multi-tenant-dkim-in-haraka-two-signatures-on-one-message-46b4",
-      "pubDate": "2026-08-10T07:52:24.000Z",
-      "description": "<p>In my <a href=\"https://dev.to/eric-houz/catch-all-email-aliasing-a-different-address-for-every-service-haraka-srs-dkim-545a\">previous post</a><br> I described a catch-all email forwarder built on Haraka, and I waved at the<br> bring-your-own-domain case with one lazy sentence: <em>\"a small additi",
+      "title": "How Should Scripting Work in a Low-Code Platform?",
+      "link": "https://dev.to/informat/how-should-scripting-work-in-a-low-code-platform-1mfn",
+      "pubDate": "2026-08-10T13:41:58.000Z",
+      "description": "<p>In the previous post about automation, I ended with a question:</p> <p>Once automation connects business actions, where should the complex logic live?</p> <p>The answer is scripts.</p> <p>Scripting is easily misunderstood in a low-code platform.</p> <p>Some people ask why a low-code product needs",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Canary a Free-Tier Model Promotion With Rate Limits, Truncation, and a Shadow Gate",
-      "link": "https://dev.to/robinzzz/canary-a-free-tier-model-promotion-with-rate-limits-truncation-and-a-shadow-gate-28fk",
-      "pubDate": "2026-08-10T07:50:39.000Z",
-      "description": "<h2> A violating event order first </h2> <p>Here is a sequence I have seen cause a quiet production regression when a team switched an agent backend to a free model endpoint to cut cost:<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight plaintext\"><code>t1 router shifts 100% o",
+      "title": "Sadhya — A Feast Served on a Leaf 🍃",
+      "link": "https://dev.to/adhu070/sadhya-a-feast-served-on-a-leaf-4adh",
+      "pubDate": "2026-08-10T13:39:08.000Z",
+      "description": "<p><em>This is a submission for</em> <em><a href=\"https://dev.to/challenges/frontend-2026-07-29\">Frontend Challenge - Comfort Food Edition, CSS Art</a></em>.</p> <h1> Sadhya — A Feast Served on a Leaf 🌿 </h1> <h2> Inspiration </h2> <p>For this challenge, I wanted to celebrate a comfort food that me",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Filament v4.12 and v5.7: 92% Faster Forms, and the Security Fixes You Still Have to Turn On",
-      "link": "https://dev.to/hafiz619/filament-v412-and-v57-92-faster-forms-and-the-security-fixes-you-still-have-to-turn-on-47d",
-      "pubDate": "2026-08-10T07:49:53.000Z",
-      "description": "<blockquote> <p><strong>Originally published at <a href=\"https://hafiz.dev/blog/filament-v4-12-v5-7-performance-security-breakdown\" rel=\"noopener noreferrer\">hafiz.dev</a></strong></p> </blockquote> <p>Filament shipped its biggest performance release since the v4 launch on August 6. Versions v4.12.6",
+      "title": "I Compared 12 WHOIS APIs — Subdomain Center Won on 3 Metrics",
+      "link": "https://dev.to/onizuka/i-compared-12-whois-apis-subdomain-center-won-on-3-metrics-2nll",
+      "pubDate": "2026-08-10T13:37:58.000Z",
+      "description": "<h1> cybersecurity, #api, #python, #sideprojects </h1> <h2> The benchmark that embarrassed my wallet </h2> <p>I burned $47 in API credits in 14 minutes. Same domain. Twelve different WHOIS endpoints. The worst one returned 312 subdomains and charged $0.09 per call. The best one returned 11,847 subdo",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "You're importing pako to gzip data. `CompressionStream` does it natively.",
-      "link": "https://dev.to/parsajiravand/youre-importing-pako-to-gzip-data-compressionstream-does-it-natively-4d7b",
-      "pubDate": "2026-08-10T07:49:27.000Z",
-      "description": "<p>Compressing data before writing it to IndexedDB or sending it over a slow connection is a real optimization. When a cached API response is too large for reliable storage, or when you need to shrink a JSON payload before POSTing it, <code>pako.gzip()</code> is the standard reach. But pako is a pur",
+      "title": "Sound Is Just Numbers: Generating a Tone From Scratch in C++",
+      "link": "https://dev.to/mwiginton/sound-is-just-numbers-generating-a-tone-from-scratch-in-c-30no",
+      "pubDate": "2026-08-10T13:35:38.000Z",
+      "description": "<p>Before you can build a synthesizer, an audio effect, or anything that makes noise in code, one idea has to click: digital sound is just a list of numbers. No magic, no special hardware required to understand it. If you can fill an array with the right values and write them to a file, you have mad",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I accidentally built a forward-deployed engineer's field kit",
-      "link": "https://dev.to/ferhatatagun/i-accidentally-built-a-forward-deployed-engineers-field-kit-khi",
-      "pubDate": "2026-08-10T07:48:53.000Z",
-      "description": "<p>A year ago I deleted <code>@anthropic-ai/sdk</code> from a project and wrote about 150<br> lines of TypeScript to replace it.</p> <p>The reason I gave myself was honest and boring. The SDK pulled <code>node:fs/promises</code><br> in through an agent-toolset module, which broke the browser bundle.",
+      "title": "I Built Genesis: The First Brain for AI Agents (Agent-skills)",
+      "link": "https://dev.to/raiyanu/i-built-genesis-the-first-brain-for-ai-agents-agent-skills-41f4",
+      "pubDate": "2026-08-10T13:35:36.000Z",
+      "description": "<p>AI coding agents are getting better at writing code.</p> <p>But there is still a problem I keep seeing:</p> <p><strong>Every new agent session starts by rediscovering the project.</strong></p> <p>It has to figure out the architecture.</p> <p>It has to discover conventions.</p> <p>It has to unders",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Linking Go pprof Samples to OpenTelemetry Traces with OTLP Profiles",
-      "link": "https://dev.to/trknhr/linking-go-pprof-samples-to-opentelemetry-traces-with-otlp-profiles-1mf0",
-      "pubDate": "2026-08-10T07:37:34.000Z",
-      "description": "<p>Traces tell us which request was slow. CPU profiles tell us which functions consumed CPU time.</p> <p>Can we start from a slow span and open only the CPU profile samples captured while that span was running?</p> <p>This article explores that question by converting Go's built-in pprof data into OT",
+      "title": "Multipart form data isn't as mysterious as it looks",
+      "link": "https://dev.to/mksunny1/multipart-form-data-isnt-as-mysterious-as-it-looks-3e6f",
+      "pubDate": "2026-08-10T13:35:08.000Z",
+      "description": "<p>If you've ever uploaded a file from a browser, you've probably encountered <code>multipart/form-data</code>. The name sounds more complicated than it really is. A browser submitting a form might send something conceptually like this:<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Git: ডেভেলপার ও শিক্ষার্থীদের জন্য একটি পূর্ণাঙ্গ গাইড",
-      "link": "https://dev.to/jeyaul_hoque/git-ddebhelpaar-o-shikssaarthiider-jny-ektti-puurnnaangg-gaaidd-5b1a",
-      "pubDate": "2026-08-10T07:29:09.000Z",
-      "description": "<h1> 🚀 Git: ডেভেলপারদের জন্য Version Control-এর সম্পূর্ণ গাইড </h1> <blockquote> <p><strong>\"Code লিখা যতটা গুরুত্বপূর্ণ, সেই code-এর পরিবর্তনগুলো সঠিকভাবে manage করাও ততটাই গুরুত্বপূর্ণ।\"</strong></p> </blockquote> <p>আপনি যদি Web Development, Software Development অথবা Programming শেখেন, তাহলে খুব",
+      "title": "Declarative AI Agents: Spec Once, Generate Everywhere with ACEL",
+      "link": "https://dev.to/tposchel/declarative-ai-agents-spec-once-generate-everywhere-with-acel-88k",
+      "pubDate": "2026-08-10T13:32:00.000Z",
+      "description": "<p>Most agent frameworks still force you to write imperative code: wire tools, manage memory, hard-code oversight logic, and re-implement the same patterns for every new runtime. The result is brittle agents that are hard to review, version, audit, or port.</p> <p>A cleaner path is emerging: treat t",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "It speaks German. It cannot read a part number.",
-      "link": "https://dev.to/aws-builders/it-speaks-german-it-cannot-read-a-part-number-1lc6",
-      "pubDate": "2026-08-10T07:25:17.000Z",
-      "description": "<p><strong>Local speech synthesis on a laptop, tested against the text that fills industrial documents.</strong></p> <p><strong>TL;DR</strong></p> <p><em>Tested Qwen3-TTS 1.7B (Apache 2.0) on Apple Silicon against forty German sentences full of part numbers, acronyms, dates and currency. Raw text de",
+      "title": "Architecture Decision Records for Agents",
+      "link": "https://dev.to/diyaburman/architecture-decision-records-for-agents-1jo",
+      "pubDate": "2026-08-10T13:30:00.000Z",
+      "description": "<p><em>Building the AI Dark Factory — Issue #16</em></p> <h3> Preface </h3> <p>I want to be upfront about something before we get into it. None of the frameworks in this article is mine. The ideas here come from two people who have been thinking about this stuff way harder and longer than I have — a",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Open Source WordPress Contribution: My July 2026 Recap",
-      "link": "https://dev.to/faisalahammad/open-source-wordpress-contribution-my-july-2026-recap-1f28",
-      "pubDate": "2026-08-10T07:11:01.000Z",
-      "description": "<p>July felt different from the start. I opened the month with a WooCommerce logging bug and closed it 24 pull requests later, spread across 9 different WordPress repositories. Some fixes took ten minutes. One took a full week of back and forth with a maintainer over a single line of code.</p> <p>Th",
+      "title": "I gave Claude Desktop a tax-free MCP memory layer",
+      "link": "https://dev.to/kike/i-gave-claude-desktop-a-tax-free-mcp-memory-layer-pl",
+      "pubDate": "2026-08-10T13:30:00.000Z",
+      "description": "<p>Most of us have felt it by now. <strong>The Context Tax.</strong></p> <p>Slow token bleed just to re-establish what the AI already knew last session. A real dollar cost.</p> <p>But the problem started before AI tools existed. I once spent nearly a full week reverse-engineering a Django SaaS I was",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Build vs Buy: What Founders Get Wrong About Templates",
-      "link": "https://dev.to/nikolas_mi_5f4aa63cc4080/build-vs-buy-what-founders-get-wrong-about-templates-494m",
-      "pubDate": "2026-08-10T07:10:19.000Z",
-      "description": "<p>Every week a founder DMs me the same question: <em>\"Should I build my React Native app from scratch or buy a template?\"</em> Here's the framework I use to answer it, plus the five wrong assumptions that make the debate louder than it needs to be.</p> <h2> TL;DR </h2> <ul> <li>Differentiation live",
+      "title": "Mistral Patent for \"Code implemented tool calls\"",
+      "link": "https://patentsgazette.uspto.gov/week26/OG/html/1547-5/US12670045-20260630.html",
+      "pubDate": "2026-08-10T13:29:12.000Z",
+      "description": "Article URL: https://patentsgazette.uspto.gov/week26/OG/html/1547-5/US12670045-20260630.html Comments URL: https://news.ycombinator.com/item?id=49243397 Points: 15 # Comments: 7",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "How to speed up a Next.js application without guessing",
+      "link": "https://dev.to/zanreal/how-to-speed-up-a-nextjs-application-without-guessing-33fe",
+      "pubDate": "2026-08-10T13:27:39.000Z",
+      "description": "<p>Performance work in Next.js often starts with the wrong question: “what can we optimize?”. That is too broad. Soon the team is compressing images, moving components, removing libraries, changing cache settings and hoping the graphs improve. Sometimes they do. More often, nobody knows which change",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Docker Sandboxes – Disposable, isolated sandboxes for AI agents",
-      "link": "https://www.docker.com/products/docker-sandboxes/",
-      "pubDate": "2026-08-10T06:02:38.000Z",
-      "description": "Article URL: https://www.docker.com/products/docker-sandboxes/ Comments URL: https://news.ycombinator.com/item?id=49239751 Points: 101 # Comments: 57",
+      "title": "Resurrecting the SuperH Architecture (2015)",
+      "link": "https://lwn.net/Articles/647636/",
+      "pubDate": "2026-08-10T13:13:47.000Z",
+      "description": "Article URL: https://lwn.net/Articles/647636/ Comments URL: https://news.ycombinator.com/item?id=49243193 Points: 3 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "The Philippines' big offshoring industry is growing despite AI",
-      "link": "https://www.economist.com/asia/2026/08/06/the-philippines-big-offshoring-industry-is-growing-despite-ai",
-      "pubDate": "2026-08-10T04:35:24.000Z",
-      "description": "Article URL: https://www.economist.com/asia/2026/08/06/the-philippines-big-offshoring-industry-is-growing-despite-ai Comments URL: https://news.ycombinator.com/item?id=49239226 Points: 26 # Comments: 27",
+      "title": "From 13.5M installs to 499 active devices",
+      "link": "https://games.lukicengineering.com/blog/2013-vs-2026/",
+      "pubDate": "2026-08-10T13:05:32.000Z",
+      "description": "Article URL: https://games.lukicengineering.com/blog/2013-vs-2026/ Comments URL: https://news.ycombinator.com/item?id=49243104 Points: 6 # Comments: 2",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Auto mode is now the default in Claude Code",
-      "link": "https://claude.com/blog/auto-mode-default-in-claude-code",
-      "pubDate": "2026-08-10T03:50:00.000Z",
-      "description": "Article URL: https://claude.com/blog/auto-mode-default-in-claude-code Comments URL: https://news.ycombinator.com/item?id=49239021 Points: 168 # Comments: 152",
+      "title": "50k Boat Names",
+      "link": "https://www.beautifulpublicdata.com/boat-names/",
+      "pubDate": "2026-08-10T12:58:16.000Z",
+      "description": "Article URL: https://www.beautifulpublicdata.com/boat-names/ Comments URL: https://news.ycombinator.com/item?id=49243029 Points: 26 # Comments: 11",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Show HN: Voice driven murder mystery, Interview AI suspects with your voice",
-      "link": "https://www.whodunnitai.com/",
-      "pubDate": "2026-08-10T03:18:40.000Z",
-      "description": "Hey HN!I'm excited to show off this really fun project I put together. I originally built this project 2-3 years ago, AI was already booming at the time, however voice AI agents were still very early. I loved my proof of concept at the time, but wasn't quite happy with it.I recently had the desire t",
+      "title": "Over 181,000 AI meeting recordings left wide open in note taking app",
+      "link": "https://bobdahacker.com/blog/tldv-hack",
+      "pubDate": "2026-08-10T12:26:05.000Z",
+      "description": "Article URL: https://bobdahacker.com/blog/tldv-hack Comments URL: https://news.ycombinator.com/item?id=49242739 Points: 55 # Comments: 20",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Run Android ARM64 VR APKs on Apple Vision Pro",
-      "link": "https://github.com/shinyquagsire23/Klepton",
-      "pubDate": "2026-08-10T03:12:48.000Z",
-      "description": "Article URL: https://github.com/shinyquagsire23/Klepton Comments URL: https://news.ycombinator.com/item?id=49238818 Points: 51 # Comments: 5",
+      "title": "DeepSeek costs OpenCode Go user $1.14/day; dual DGX breaks even in 24 years",
+      "link": "https://twitter.com/thdxr/status/2086599224674681242",
+      "pubDate": "2026-08-10T12:24:48.000Z",
+      "description": "Article URL: https://twitter.com/thdxr/status/2086599224674681242 Comments URL: https://news.ycombinator.com/item?id=49242728 Points: 29 # Comments: 29",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Turn satellite imagery into a paper globe you fold yourself",
-      "link": "https://foldingglobes.com/",
-      "pubDate": "2026-08-10T02:57:38.000Z",
-      "description": "Article URL: https://foldingglobes.com/ Comments URL: https://news.ycombinator.com/item?id=49238735 Points: 45 # Comments: 10",
+      "title": "Squeak/Smalltalk 6.1 Release Notes",
+      "link": "https://squeak.org/release_notes/6.1/",
+      "pubDate": "2026-08-10T12:15:53.000Z",
+      "description": "Article URL: https://squeak.org/release_notes/6.1/ Comments URL: https://news.ycombinator.com/item?id=49242653 Points: 25 # Comments: 5",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "What Happened to HackerOne?",
-      "link": "https://blog.teknogeek.io/posts/what-happened-to-hackerone/",
-      "pubDate": "2026-08-10T02:23:17.000Z",
-      "description": "Article URL: https://blog.teknogeek.io/posts/what-happened-to-hackerone/ Comments URL: https://news.ycombinator.com/item?id=49238561 Points: 181 # Comments: 72",
+      "title": "Tail-call optimization in C is relatively recent",
+      "link": "https://lwn.net/Articles/1034703/",
+      "pubDate": "2026-08-10T11:34:40.000Z",
+      "description": "Article URL: https://lwn.net/Articles/1034703/ Comments URL: https://news.ycombinator.com/item?id=49242297 Points: 45 # Comments: 16",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "How We Pushed CDC into Postgres",
-      "link": "https://www.snowflake.com/en/blog/engineering/postgres-to-snowflake-replication-mirroring/",
-      "pubDate": "2026-08-10T01:01:34.000Z",
-      "description": "Article URL: https://www.snowflake.com/en/blog/engineering/postgres-to-snowflake-replication-mirroring/ Comments URL: https://news.ycombinator.com/item?id=49238050 Points: 83 # Comments: 7",
+      "title": "Because It's Not Fun Enough: why languages fail",
+      "link": "https://bytecode.news/posts/2026/08/because-it-s-not-fun-enough",
+      "pubDate": "2026-08-10T11:27:47.000Z",
+      "description": "Article URL: https://bytecode.news/posts/2026/08/because-it-s-not-fun-enough Comments URL: https://news.ycombinator.com/item?id=49242245 Points: 63 # Comments: 60",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "The Ambition Project",
-      "link": "https://www.betonit.ai/p/the-ambition-project",
-      "pubDate": "2026-08-09T23:36:05.000Z",
-      "description": "Article URL: https://www.betonit.ai/p/the-ambition-project Comments URL: https://news.ycombinator.com/item?id=49237407 Points: 35 # Comments: 1",
+      "title": "Meta's new open-weight model targets local agentic AI",
+      "link": "https://twitter.com/finkd/status/2086754845218726027",
+      "pubDate": "2026-08-10T10:55:03.000Z",
+      "description": "Article URL: https://twitter.com/finkd/status/2086754845218726027 Comments URL: https://news.ycombinator.com/item?id=49242038 Points: 20 # Comments: 2",
       "source": "Hacker News",
       "category": "Tech News"
-    },
-    {
-      "title": "Tuxedo No. 2 – Cocktail recipes",
-      "link": "https://tuxedono2.com",
-      "pubDate": "2026-08-09T20:48:46.000Z",
-      "description": "Article URL: https://tuxedono2.com Comments URL: https://news.ycombinator.com/item?id=49235697 Points: 83 # Comments: 22",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Using and Styling the Dialog Element",
-      "link": "https://css-tricks.com/using-and-styling-the-dialog-element/",
-      "pubDate": "2026-08-07T14:06:43.000Z",
-      "description": "There's a lot of nuance to the <dialog> element, a seemingly little piece of web architecture. I've got some notes from digging into it. Using and Styling the Dialog Element originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "2026 State of CSS, Devs Surveys",
-      "link": "https://css-tricks.com/2026-state-of-css-devs-surveys/",
-      "pubDate": "2026-08-06T15:54:52.000Z",
-      "description": "A few notes and takeaways from the 2026 State of CSS survey results, including a nice CSS-Tricks cameo! 2026 State of CSS, Devs Surveys originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Gap Decorations Are Now Available, Here’s What’s New",
-      "link": "https://css-tricks.com/css-gap-decorations-now-available/",
-      "pubDate": "2026-08-03T15:53:20.000Z",
-      "description": "Today, with CSS gap decorations fully supported in Chrome and Edge, starting with version 149, you can now very easily style gaps, and with a lot of control. Gap Decorations Are Now Available, Here’s What’s New originally handwritten and published with love on CSS-Tricks. You should really get the n",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Get Ready For the Powerful CSS border-shape Property!",
-      "link": "https://css-tricks.com/get-ready-for-the-powerful-css-border-shape-property/",
-      "pubDate": "2026-07-31T15:14:00.000Z",
-      "description": "We recently got the shape() function and corner-shape property. What else could we possibly need as far as making shapes in CSS? Let me tell you: the border-shape property! Get Ready For the Powerful CSS border-shape Property! originally handwritten and published with love on CSS-Tricks. You should ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "What’s !important #16: sibling-index() Animations, Use Cases for the infinity Keyword, Container Stuck Queries, and More",
-      "link": "https://css-tricks.com/whats-important-16/",
-      "pubDate": "2026-07-31T14:06:21.000Z",
-      "description": "The soon-Baseline sibling-index() function for animations, CSS and the 2026 FIFA World Cup, use cases for the infinity keyword, container \"stuck\" queries, and more. What’s !important #16: sibling-index() Animations, Use Cases for the infinity Keyword, Container Stuck Queries, and More originally han",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "writing-mode",
-      "link": "https://css-tricks.com/almanac/properties/w/writing-mode/",
-      "pubDate": "2026-07-21T09:39:10.000Z",
-      "description": "The writing-mode CSS property sets whether lines of text are laid out horizontally or vertically, and the direction in which blocks and lines progress. .element { writing-mode: vertical-rl; } This is most useful in languages such as Chinese, Japanese or … writing-mode originally handwritten and publ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "pointer-events",
-      "link": "https://css-tricks.com/almanac/properties/p/pointer-events/",
-      "pubDate": "2026-07-15T19:57:51.000Z",
-      "description": "The pointer-events property controls whether an element can become the target of pointer events like clicks, hover states, and other pointer-based events. In other words, it lets you decide whether the browser should treat an element as interactive when the … pointer-events originally handwritten an",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "What’s !important #15: Boundary-aware CSS, Time-based CSS, Full-bleed CSS, and More",
-      "link": "https://css-tricks.com/whats-important-15/",
-      "pubDate": "2026-07-14T14:36:18.000Z",
-      "description": "Read all about boundary-aware CSS, accessible grid lanes, time-based web designs, full-bleed, the customizable select, and new web platform features. What’s !important #15: Boundary-aware CSS, Time-based CSS, Full-bleed CSS, and More originally handwritten and published with love on CSS-Tricks. You ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "What’s !important #14: Gap Decorations, random(), &#060;select&gt; field-sizing, and More",
-      "link": "https://css-tricks.com/whats-important-14/",
-      "pubDate": "2026-06-30T13:54:14.000Z",
-      "description": "I know you’re busy, so for What’s !important #14, I’ll be sprinting through what’s been a stacked couple of weeks despite few browser updates. From CSS Quake to CSS Gap Decorations, this isn’t one to miss! What’s !important #14: Gap Decorations, random(), <select> field-sizing, and More originally h",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "The Shifting Line Between CSS States and JavaScript Events",
-      "link": "https://css-tricks.com/css-states-and-javascript-events/",
-      "pubDate": "2026-06-29T13:03:32.000Z",
-      "description": "CSS has always had pseudo-classes that style things based on user interactions. Recent features, however, are blurring the line between what CSS \"listens\" for and how they are alternatives to what Javascript typically listens for. The Shifting Line Between CSS States and JavaScript Events originally",
-      "source": "CSS Tricks",
-      "category": "Frontend"
     },
     {
       "title": "Meet the HTB Profile: all your skills, in one place",
