@@ -1,107 +1,158 @@
 {
-  "generatedAt": "2026-08-10T19:17:12.805Z",
+  "generatedAt": "2026-08-11T02:27:48.004Z",
   "sourceCount": 4,
-  "successCount": 3,
-  "errors": [
-    {
-      "source": "CSS Tricks",
-      "error": "HTTP 415 Unsupported Media Type"
-    }
-  ],
+  "successCount": 4,
+  "errors": [],
   "items": [
     {
-      "title": "The First NexFlow CLI Should Refuse to Run Agents",
-      "link": "https://dev.to/alexander_iwizard/the-first-nexflow-cli-should-refuse-to-run-agents-2jje",
-      "pubDate": "2026-08-10T19:09:03.000Z",
-      "description": "<p>Give a specification a CLI and someone will eventually ask it to execute the system.</p> <p>For NexFlow, that would be the most tempting feature to build first and the wrong one.</p> <p>A command that launches agents makes a better demo than a validator. It also turns early implementation choices",
+      "title": "BdThemes API-Driven Supply Chain Compromise: Admin XSS to Web Shell and Hidden Admin",
+      "link": "https://dev.to/anoymask/bdthemes-api-driven-supply-chain-compromise-admin-xss-to-web-shell-and-hidden-admin-5c70",
+      "pubDate": "2026-08-11T02:14:03.000Z",
+      "description": "<h1> BdThemes API-Driven Supply Chain Compromise: Admin XSS to Web Shell and Hidden Admin </h1> <h2> 1. Basic Information </h2> <ul> <li> <strong>Article Title</strong>: PSA: Supply Chain Compromise in BdThemes Ecosystem via Poisoned API Response</li> <li> <strong>Publisher</strong>: Wordfence Threa",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Choosing How to Merge PDF Files: A Practical Engineer's Decision Guide",
-      "link": "https://dev.to/lizely/choosing-how-to-merge-pdf-files-a-practical-engineers-decision-guide-1j1h",
-      "pubDate": "2026-08-10T19:08:48.000Z",
-      "description": "<p>Combining separate PDF documents into a single file sounds like a trivial operation until you hit your second real-world use case. A one-off personal scan is one thing; a recurring team process with naming conventions, retention rules, and audit trails is another. This guide walks through the thr",
+      "title": "Ghostjacking: Turning Logs and Alerts into Commands to Take Over AI Agents",
+      "link": "https://dev.to/anoymask/ghostjacking-turning-logs-and-alerts-into-commands-to-take-over-ai-agents-4l0h",
+      "pubDate": "2026-08-11T02:13:53.000Z",
+      "description": "<h1> Ghostjacking: Turning Logs and Alerts into Commands to Take Over AI Agents </h1> <h2> 1. Basic Information </h2> <ul> <li> <strong>Article Title</strong>: GhostJacking Attacks: Half of the Fortune 500 Run These Tools</li> <li> <strong>Publisher</strong>: Tenet Security Threat Labs</li> <li> <st",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "[Advanced Rust] 2.9. API Design Principles of Obviousness - Documentation and Type System, Semantic Types, and Zero-Sized Types",
-      "link": "https://dev.to/someb1oody/advanced-rust-29-api-design-principles-of-obviousness-documentation-and-type-system-semantic-22m4",
-      "pubDate": "2026-08-10T19:03:59.000Z",
-      "description": "<h2> 2.9.1. Documentation and the Type System </h2> <p>Users may not fully understand all of an API's rules and restrictions. So your API should be easy for users to understand and hard to misuse.</p> <p>With Rust's documentation and type system, we can try to achieve that.</p> <h2> 2.9.2. Documenta",
+      "title": "Disruption of Polish CHP: Wind Farm to OT via Private APN",
+      "link": "https://dev.to/anoymask/disruption-of-polish-chp-wind-farm-to-ot-via-private-apn-1jp1",
+      "pubDate": "2026-08-11T02:13:15.000Z",
+      "description": "<h1> Disruption of Polish CHP: Wind Farm to OT via Private APN </h1> <h2> 1. Basic Information </h2> <ul> <li> <strong>Article Title</strong>: Follow-Up Analysis of the 29 December 2025 Energy Sector Incident</li> <li> <strong>Publisher</strong>: CERT Polska (CERT.PL / NASK)</li> <li> <strong>Public",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Porting qs to Go: an honest account",
-      "link": "https://dev.to/realist/porting-qs-to-go-an-honest-account-5e4l",
-      "pubDate": "2026-08-10T19:00:35.000Z",
-      "description": "<p>I spent the weekend rewriting <code>qs</code>, the query-string parser bundled inside Express, used across a huge chunk of the Node ecosystem to Go language. This is what actually happened: what I picked, where my first version was wrong, how I checked that the rewrite behaves the same as the ori",
+      "title": "Dev Log: 2026-08-10 — a toast that lied, an enum with a missing case, and a design system that finally has an address",
+      "link": "https://dev.to/nasrulhazim/dev-log-2026-08-10-a-toast-that-lied-an-enum-with-a-missing-case-and-a-design-system-that-405j",
+      "pubDate": "2026-08-11T01:57:47.000Z",
+      "description": "<p>Four commits across two repos, and a short day by commit count that still managed to contain the most instructive bug I've hit in a while. The through-line, if there is one: <strong>things that report a state they haven't verified.</strong></p> <p>The big piece — bulk actions and how they report ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Anthropic Claude Riemann Hypothesis Claim Highlights the Need for Verifiable AI Math Research",
-      "link": "https://dev.to/alifar/anthropic-claude-riemann-hypothesis-claim-highlights-the-need-for-verifiable-ai-math-research-mk5",
-      "pubDate": "2026-08-10T19:00:30.000Z",
-      "description": "<p>A claim that an unreleased Anthropic Claude research version made progress on a problem related to the Riemann hypothesis has not been corroborated by public primary-source material or credible secondary reporting. The claim is consequential because it describes a quantified advance in pure mathe",
+      "title": "\"3 skipped\" tells the operator nothing",
+      "link": "https://dev.to/nasrulhazim/3-skipped-tells-the-operator-nothing-c7i",
+      "pubDate": "2026-08-11T01:57:35.000Z",
+      "description": "<h2> TL;DR </h2> <ul> <li>Bulk actions over a mixed selection always skip rows. A count of skips is not a result — the operator needs to know <em>which</em> reason applied to how many, because \"not permitted\" and \"already gone\" call for completely different next moves.</li> <li>Count skip reasons in",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Convergent evidence",
-      "link": "https://dev.to/thekilteddev/convergent-evidence-3ohk",
-      "pubDate": "2026-08-10T18:57:13.000Z",
-      "description": "<div> <iframe src=\"https://www.youtube.com/embed/iaFH_sg8mec\"> </iframe> </div> <p>Companion to <a href=\"https://thekilted.dev/route-dont-guess/\" rel=\"noopener noreferrer\">Route, don't guess</a>: nine tools crossed the desk during the ten-day build. Not one became a dependency. The reasons why are t",
+      "title": "7 กฎสำหรับ Self-Improving Agent Loops ที่ AI Engineer ทุกคนควรรู้, Google Cloud เปิดตัว agents-cli",
+      "link": "https://dev.to/sarantoon/7-kdsamhrab-self-improving-agent-loops-thii-ai-engineer-thukkhnkhwrruu-google-cloud-epidtaw-agents-cli-o0m",
+      "pubDate": "2026-08-11T01:56:15.000Z",
+      "description": "<h1> 7 กฎสำหรับ Self-Improving Agent Loops ที่ AI Engineer ทุกคนควรรู้, Google Cloud เปิดตัว agents-cli </h1> <p><em>โดย Nokka (นก-กา) | 11 สิงหาคม 2569</em></p> <p><em>บทความนี้เขียนโดย AI (deepseek-v4-pro) ผ่าน Hermes Agent ภายใต้การควบคุมและตรวจสอบคุณภาพโดยมนุษย์, Nokka (นก-กา)</em></p> <p>Google",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Free Is a Design Choice: Building a Board Game Platform Without Ads or Paywalls",
-      "link": "https://dev.to/ahmed_isam_752b775a50fd90/free-is-a-design-choice-building-a-board-game-platform-without-ads-or-paywalls-2al8",
-      "pubDate": "2026-08-10T18:56:27.000Z",
-      "description": "<p>--<br> title: \"Free Is a Design Choice: Building a Board Game Platform Without Ads or Paywalls\"<br> description: \"Why YiBoard runs on a free-forever model: no ads, no paywall, no energy bars. The product philosophy, the cost discipline that makes it sustainable, and the three tests for a genuinel",
+      "title": "100 Days of Solana - 2",
+      "link": "https://dev.to/ik_8a78062fd65be769dd835/100-days-of-solana-2-160c",
+      "pubDate": "2026-08-11T01:50:46.000Z",
+      "description": "<h2> Day 2: Creating a Wallet and Checking Its Balance Programmatically </h2> <h3> What I Learned </h3> <p>I learned how to generate a Solana wallet programmatically and then check its balance using the devnet RPC.<br><br> I discovered that while I could create a wallet with just a few lines of code",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The Quiet Design Choices Behind a 50-Line CLI Tool",
-      "link": "https://dev.to/carl_yo/the-quiet-design-choices-behind-a-50-line-cli-tool-1ci2",
-      "pubDate": "2026-08-10T18:55:13.000Z",
-      "description": "<p>I'm building a CLI tool that scans a directory and sorts files into folders by type. Small in scope, but every small tool still forces real design decisions. Here are three from this week, and the reasoning behind each.</p> <p><strong>pathlib over os.path</strong><br> I chose <code>pathlib</code>",
+      "title": "The text-to-SQL demo takes an afternoon. The other 90% is why you should buy it.",
+      "link": "https://dev.to/omer_hochman/the-text-to-sql-demo-takes-an-afternoon-the-other-90-is-why-you-should-buy-it-4iko",
+      "pubDate": "2026-08-11T01:46:04.000Z",
+      "description": "<p><em>Originally published at <a href=\"https://nlqdb.com/blog/text-to-sql-build-vs-buy/?utm_source=devto\" rel=\"noopener noreferrer\">nlqdb.com/blog</a></em></p> <p>The demo really is an afternoon. Pull the table definitions out of <code>information_schema</code>, template them into a prompt with the",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "8051 What does SDCC do part 1 ?",
-      "link": "https://dev.to/ddupard/8051-what-does-sdcc-do-part-1--2d1d",
-      "pubDate": "2026-08-10T18:53:59.000Z",
-      "description": "<h3> 1. Introduction and Problem Statement </h3> <p>A good way to learn what a compiler really does when transforming a C source code into a binary is to disassemble the binary and compare it with the C source code. It is especially true for 8 bits microcontrollers like the 8051.</p> <p>In order to ",
+      "title": "Infrastructure Drift: Detecting and Preventing It",
+      "link": "https://dev.to/samson_tanimawo/infrastructure-drift-detecting-and-preventing-it-5gg4",
+      "pubDate": "2026-08-11T01:45:12.000Z",
+      "description": "<p>Your Terraform says the firewall rule is A. The cloud console says it's B. Someone changed it manually and didn't tell anyone. This is infrastructure drift, and it's a reliability killer.</p> <h2> How drift happens </h2> <p><strong>The emergency edit.</strong> At 2 AM, someone clicks a button in ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Curate a CMS API into 7 Governed Agent Skills with NodeJS",
-      "link": "https://dev.to/nisa_fatima_bcd75fa085b76/curate-a-cms-api-into-7-governed-agent-skills-with-nodejs-1ml6",
-      "pubDate": "2026-08-10T18:52:59.000Z",
-      "description": "<p>A production CMS is a sprawl of endpoints: content types, entries, media, users, webhooks, plugins, settings, admin routes. Hand an agent all of it and the agent gets worse, not better. The model's tool selection drifts as the list grows, and half the tools are things a publishing assistant shoul",
+      "title": "I built a detector for invisible records on Monday. On Tuesday it caught me, three times",
+      "link": "https://dev.to/blueticks/i-built-a-detector-for-invisible-records-on-monday-on-tuesday-it-caught-me-three-times-55hn",
+      "pubDate": "2026-08-11T01:44:06.000Z",
+      "description": "<p>Yesterday I found that six of my published pages were sitting in my ledger in a table with the<br> wrong shape, so every script that reads that ledger skipped them. Not misfiled. Invisible. I wrote<br> about it, and I wrote a small detector: walk the ledger, collect every url on a domain I publis",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Security Vulnerability in Pioneer Rekordbox",
-      "link": "https://alphatheta.com/en/information/important-notice-security-vulnerability-in-pro-dj-link/",
-      "pubDate": "2026-08-10T18:11:52.000Z",
-      "description": "Article URL: https://alphatheta.com/en/information/important-notice-security-vulnerability-in-pro-dj-link/ Comments URL: https://news.ycombinator.com/item?id=49247461 Points: 5 # Comments: 0",
+      "title": "Chicken Scheme 6.0",
+      "link": "https://code.call-cc.org/releases/6.0.0/NEWS",
+      "pubDate": "2026-08-11T00:24:15.000Z",
+      "description": "Article URL: https://code.call-cc.org/releases/6.0.0/NEWS Comments URL: https://news.ycombinator.com/item?id=49251702 Points: 55 # Comments: 4",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Learning more about Claude's mathematical capabilities",
-      "link": "https://www.anthropic.com/research/riemann-zeta",
-      "pubDate": "2026-08-10T17:41:13.000Z",
-      "description": "Article URL: https://www.anthropic.com/research/riemann-zeta Comments URL: https://news.ycombinator.com/item?id=49247070 Points: 76 # Comments: 39",
+      "title": "The UK's War on Anonymity Has Come to America",
+      "link": "https://www.effort.news/uk-lobby",
+      "pubDate": "2026-08-10T23:45:50.000Z",
+      "description": "Article URL: https://www.effort.news/uk-lobby Comments URL: https://news.ycombinator.com/item?id=49251411 Points: 231 # Comments: 153",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Show HN: Scroll through all 43252003274489856000 Rubik's Cube states",
+      "link": "https://everycube.alen.is/",
+      "pubDate": "2026-08-10T23:16:25.000Z",
+      "description": "Article URL: https://everycube.alen.is/ Comments URL: https://news.ycombinator.com/item?id=49251179 Points: 75 # Comments: 14",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "World Train Map – 1247 train routes around the world",
+      "link": "https://worldtrainmap.com/",
+      "pubDate": "2026-08-10T22:42:14.000Z",
+      "description": "Article URL: https://worldtrainmap.com/ Comments URL: https://news.ycombinator.com/item?id=49250894 Points: 42 # Comments: 12",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Confessions of a Long-Distance Sailor",
+      "link": "https://arachnoid.com/lutusp/sailbook.html",
+      "pubDate": "2026-08-10T20:52:55.000Z",
+      "description": "Article URL: https://arachnoid.com/lutusp/sailbook.html Comments URL: https://news.ycombinator.com/item?id=49249555 Points: 66 # Comments: 14",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Stop Killing Games: It's time to sue Sony, join us",
+      "link": "https://www.massaschadeconsument.nl/collectieve-acties/playstation/",
+      "pubDate": "2026-08-10T20:47:13.000Z",
+      "description": "Article URL: https://www.massaschadeconsument.nl/collectieve-acties/playstation/ Comments URL: https://news.ycombinator.com/item?id=49249481 Points: 179 # Comments: 81",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Rust SIMD on the GPU",
+      "link": "https://www.vectorware.com/blog/simd-on-gpu/",
+      "pubDate": "2026-08-10T18:12:49.000Z",
+      "description": "Article URL: https://www.vectorware.com/blog/simd-on-gpu/ Comments URL: https://news.ycombinator.com/item?id=49247477 Points: 129 # Comments: 62",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots",
+      "link": "https://cactuscompute.com/needle",
+      "pubDate": "2026-08-10T17:22:07.000Z",
+      "description": "Hey HN,Henry from Cactus here!We previously released Cactus Needle, a 14MB agentic LLM for tool call, device use, and structured extraction for phones, wearables, smart homes, small robots and microcontrollers. We got really great feedback here, and have now incorporated the suggestions to release N",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "GPT 5.6 Cyber",
+      "link": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/",
+      "pubDate": "2026-08-10T17:14:00.000Z",
+      "description": "Article URL: https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/ Comments URL: https://news.ycombinator.com/item?id=49246704 Points: 81 # Comments: 36",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -114,60 +165,84 @@
       "category": "Tech News"
     },
     {
-      "title": "Why Addresses Have Numbers",
-      "link": "https://thehistoricalinsights.page/2026/06/why-addresses-have-numbers.html",
-      "pubDate": "2026-08-10T16:12:54.000Z",
-      "description": "Article URL: https://thehistoricalinsights.page/2026/06/why-addresses-have-numbers.html Comments URL: https://news.ycombinator.com/item?id=49245646 Points: 16 # Comments: 37",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "Animating CSS border-image",
+      "link": "https://css-tricks.com/animating-css-border-image/",
+      "pubDate": "2026-08-10T15:58:47.000Z",
+      "description": "Border images are an overlooked feature. One neat fact is that border image slices can run across entire borders on an element, and animating it creates beautiful effects. Animating CSS border-image originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
-      "title": "Exploiting System Management Mode with a very long interrupt",
-      "link": "https://github.com/xoreaxeaxeax/smiiiiiiiiiiiiiiii",
-      "pubDate": "2026-08-10T16:03:14.000Z",
-      "description": "Article URL: https://github.com/xoreaxeaxeax/smiiiiiiiiiiiiiiii Comments URL: https://news.ycombinator.com/item?id=49245491 Points: 68 # Comments: 16",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "SmashingConf Freiburg 2026, September 7-10",
+      "link": "https://css-tricks.com/smashingconf-freiburg-2026-september-7-10/",
+      "pubDate": "2026-08-10T15:57:39.000Z",
+      "description": "Smashing Magazine’s in-person conferences are back and returning to the wonderful city of Freiburg next month, September 7–10. SmashingConf Freiburg 2026, September 7-10 originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
-      "title": "Show HN: Ante, a coding agent in a single binary that runs offline",
-      "link": "https://github.com/AntigmaLabs/ante",
-      "pubDate": "2026-08-10T15:59:23.000Z",
-      "description": "Article URL: https://github.com/AntigmaLabs/ante Comments URL: https://news.ycombinator.com/item?id=49245437 Points: 79 # Comments: 52",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "Using and Styling the Dialog Element",
+      "link": "https://css-tricks.com/using-and-styling-the-dialog-element/",
+      "pubDate": "2026-08-07T14:06:43.000Z",
+      "description": "There's a lot of nuance to the <dialog> element, a seemingly little piece of web architecture. I've got some notes from digging into it. Using and Styling the Dialog Element originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
-      "title": "Back to the Future of Handwriting Recognition (2016)",
-      "link": "https://jackschaedler.github.io/handwriting-recognition/",
-      "pubDate": "2026-08-10T15:58:32.000Z",
-      "description": "Article URL: https://jackschaedler.github.io/handwriting-recognition/ Comments URL: https://news.ycombinator.com/item?id=49245421 Points: 21 # Comments: 6",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "2026 State of CSS, Devs Surveys",
+      "link": "https://css-tricks.com/2026-state-of-css-devs-surveys/",
+      "pubDate": "2026-08-06T15:54:52.000Z",
+      "description": "A few notes and takeaways from the 2026 State of CSS survey results, including a nice CSS-Tricks cameo! 2026 State of CSS, Devs Surveys originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
-      "title": "The Tragedy of the Cognitive Commons",
-      "link": "https://arxiv.org/abs/2607.29380",
-      "pubDate": "2026-08-10T15:55:15.000Z",
-      "description": "Article URL: https://arxiv.org/abs/2607.29380 Comments URL: https://news.ycombinator.com/item?id=49245359 Points: 45 # Comments: 22",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "Gap Decorations Are Now Available, Here’s What’s New",
+      "link": "https://css-tricks.com/css-gap-decorations-now-available/",
+      "pubDate": "2026-08-03T15:53:20.000Z",
+      "description": "Today, with CSS gap decorations fully supported in Chrome and Edge, starting with version 149, you can now very easily style gaps, and with a lot of control. Gap Decorations Are Now Available, Here’s What’s New originally handwritten and published with love on CSS-Tricks. You should really get the n",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
-      "title": "Midlife Vascular Risk Burden and Dementia-Free Survival Years",
-      "link": "https://www.neurology.org/doi/10.1212/WN9.0000000000000152",
-      "pubDate": "2026-08-10T15:54:47.000Z",
-      "description": "Article URL: https://www.neurology.org/doi/10.1212/WN9.0000000000000152 Comments URL: https://news.ycombinator.com/item?id=49245348 Points: 53 # Comments: 26",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "Get Ready For the Powerful CSS border-shape Property!",
+      "link": "https://css-tricks.com/get-ready-for-the-powerful-css-border-shape-property/",
+      "pubDate": "2026-07-31T15:14:00.000Z",
+      "description": "We recently got the shape() function and corner-shape property. What else could we possibly need as far as making shapes in CSS? Let me tell you: the border-shape property! Get Ready For the Powerful CSS border-shape Property! originally handwritten and published with love on CSS-Tricks. You should ",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
-      "title": "Extreme 220GHz+Broadband Silicon Capacitor X2SC 0201M 22nF BV11",
-      "link": "https://pim.murata.com/asset/pim4/siliconCapacitor/SICAP_X2SC422522_PDF_SILICONCAPACITOR",
-      "pubDate": "2026-08-10T15:53:01.000Z",
-      "description": "Article URL: https://pim.murata.com/asset/pim4/siliconCapacitor/SICAP_X2SC422522_PDF_SILICONCAPACITOR Comments URL: https://news.ycombinator.com/item?id=49245318 Points: 31 # Comments: 10",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "What’s !important #16: sibling-index() Animations, Use Cases for the infinity Keyword, Container Stuck Queries, and More",
+      "link": "https://css-tricks.com/whats-important-16/",
+      "pubDate": "2026-07-31T14:06:21.000Z",
+      "description": "The soon-Baseline sibling-index() function for animations, CSS and the 2026 FIFA World Cup, use cases for the infinity keyword, container \"stuck\" queries, and more. What’s !important #16: sibling-index() Animations, Use Cases for the infinity Keyword, Container Stuck Queries, and More originally han",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "writing-mode",
+      "link": "https://css-tricks.com/almanac/properties/w/writing-mode/",
+      "pubDate": "2026-07-21T09:39:10.000Z",
+      "description": "The writing-mode CSS property sets whether lines of text are laid out horizontally or vertically, and the direction in which blocks and lines progress. .element { writing-mode: vertical-rl; } This is most useful in languages such as Chinese, Japanese or … writing-mode originally handwritten and publ",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "pointer-events",
+      "link": "https://css-tricks.com/almanac/properties/p/pointer-events/",
+      "pubDate": "2026-07-15T19:57:51.000Z",
+      "description": "The pointer-events property controls whether an element can become the target of pointer events like clicks, hover states, and other pointer-based events. In other words, it lets you decide whether the browser should treat an element as interactive when the … pointer-events originally handwritten an",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "What’s !important #15: Boundary-aware CSS, Time-based CSS, Full-bleed CSS, and More",
+      "link": "https://css-tricks.com/whats-important-15/",
+      "pubDate": "2026-07-14T14:36:18.000Z",
+      "description": "Read all about boundary-aware CSS, accessible grid lanes, time-based web designs, full-bleed, the customizable select, and new web platform features. What’s !important #15: Boundary-aware CSS, Time-based CSS, Full-bleed CSS, and More originally handwritten and published with love on CSS-Tricks. You ",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
       "title": "Meet the HTB Profile: all your skills, in one place",
