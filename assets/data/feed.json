@@ -1,102 +1,150 @@
 {
-  "generatedAt": "2026-08-11T07:37:22.749Z",
+  "generatedAt": "2026-08-11T13:42:56.251Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "The two support questions that move revenue, and why we route them differently",
-      "link": "https://dev.to/bynevolabs/the-two-support-questions-that-move-revenue-and-why-we-route-them-differently-78c",
-      "pubDate": "2026-08-11T07:34:58.000Z",
-      "description": "<p>An online shop's support inbox is really two inboxes wearing the same chat bubble. One is the shopper who has not bought yet and is deciding whether to. The other is the customer who already paid and now needs something to go right. They arrive through the same widget, and the cheapest mistake yo",
+      "title": "How does an LLM \"know\" the sky is blue?",
+      "link": "https://dev.to/anay_pandya_bfac6bcdbb055/how-does-an-llm-know-the-sky-is-blue-5gap",
+      "pubDate": "2026-08-11T13:41:08.000Z",
+      "description": "<p>For most people, LLMs are a magic box that spews out language. Somehow, that language is very similar to \"<strong>what a human would say</strong>\". \"LLMs work on neural networks\", \"LLMs predict the next words in a sentence\", \"They're trained on a large set of data\", are some of the common things ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "What changes when your support LLM has to stay in the EU",
-      "link": "https://dev.to/bynevolabs/what-changes-when-your-support-llm-has-to-stay-in-the-eu-4k50",
-      "pubDate": "2026-08-11T07:34:20.000Z",
-      "description": "<p>Most tutorials for building a support agent start with an OpenAI key and a vector store on someone else's cloud. I build these <a href=\"https://bynevolabs.com/ia-souveraine-service-client/\" rel=\"noopener noreferrer\">sovereign AI support agents</a> for French online shops, and for a lot of them th",
+      "title": "Through the Tunnel(Ep-5 of The $0 cloud)",
+      "link": "https://dev.to/adhithyan_b_5d2daadc216e4/through-the-tunnelep-5-of-the-0-cloud-mm0",
+      "pubDate": "2026-08-11T13:40:47.000Z",
+      "description": "<p>After searching for a solution (I just GPT'd my way through it lol), I found that Cloudflare was the way to go.</p> <p>The thing about CGNAT (Carrier-Grade Network Address Translation) is that it allows outgoing requests. Things like opening YouTube, calling an external API, downloading files, or",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How to Tell When Your LLM's Knowledge Actually Stops",
-      "link": "https://dev.to/basavaraj_sh_1ea7d95f0f2e/how-to-tell-when-your-llms-knowledge-actually-stops-319c",
-      "pubDate": "2026-08-11T07:30:52.000Z",
-      "description": "<p>Every AI model has a knowledge cutoff - but the official date rarely captures the whole story.</p> <h2> The Hidden Gap Between Training and Knowing </h2> <p>Model providers list a knowledge cutoff date, but that figure is deceptive in practice. According to research on model training practices, t",
+      "title": "We ported JSBI to C++ — and the benchmark taught us more than the port did",
+      "link": "https://dev.to/devanshkant/we-ported-jsbi-to-c-and-the-benchmark-taught-us-more-than-the-port-did-14c",
+      "pubDate": "2026-08-11T13:40:46.000Z",
+      "description": "<p><strong>TL;DR:</strong> We ported <a href=\"https://github.com/GoogleChromeLabs/jsbi\" rel=\"noopener noreferrer\">GoogleChromeLabs/jsbi</a> — a pure-JS arbitrary-precision integer library — to modern C++17, bridged back to Node via N-API, for Port Mortem 2026 (Track H). The port itself wasn't the ha",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I tried stacked pull requests on my own portfolio",
-      "link": "https://dev.to/creativoma/i-tried-stacked-pull-requests-on-my-own-portfolio-52cp",
-      "pubDate": "2026-08-11T07:29:06.000Z",
-      "description": "<p>GitHub just announced <a href=\"https://docs.github.com/en/pull-requests/how-tos/stacked-pull-requests\" rel=\"noopener noreferrer\">stacked pull requests</a> in public preview. Instead of reading the changelog and moving on, I decided to actually try it on this same portfolio repo.</p> <h2> The prob",
+      "title": "Everything I got wrong building an autonomous X bot",
+      "link": "https://dev.to/kanurkarprateek/everything-i-got-wrong-building-an-autonomous-x-bot-5hk9",
+      "pubDate": "2026-08-11T13:39:50.000Z",
+      "description": "<h1> Everything I got wrong building an autonomous X bot </h1> <p>It writes a tech post three times a day and publishes without me. The code took an afternoon. The interesting part was the six times testing proved a design I was confident about was wrong.</p> <div class=\"table-wrapper-paragraph\"><ta",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Docker Security Internals: How Safe Are Your Containers Really?",
-      "link": "https://dev.to/sreekanth_kuruba_91721e5d/docker-security-internals-how-safe-are-your-containers-really-281e",
-      "pubDate": "2026-08-11T07:27:40.000Z",
-      "description": "<blockquote> <p><em>post 6:</em></p> </blockquote> <p>You run containers every day.</p> <p>But have you ever asked yourself this uncomfortable question:</p> <p><strong>If one container gets compromised… can it break out and take down the entire host?</strong></p> <p>Most people assume containers are",
+      "title": "Making SVG icons screen-reader accessible: titles, aria-labels, and unique IDs",
+      "link": "https://dev.to/rushan123/making-svg-icons-screen-reader-accessible-titles-aria-labels-and-unique-ids-9g5",
+      "pubDate": "2026-08-11T13:37:39.000Z",
+      "description": "<p>When you build an interface, icons are the part you check with your eyes and then stop thinking about. You drop an <code>&lt;svg&gt;</code> into a button, it looks great, and you move on. A screen reader user gets a different experience: either nothing where a label belonged, or an announcement o",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I ran Claude Code unattended, all night",
-      "link": "https://dev.to/creativoma/i-ran-claude-code-unattended-all-night-5c0j",
-      "pubDate": "2026-08-11T07:25:45.000Z",
-      "description": "<p>I keep a running list of small, well-defined tasks I never get to: a missing health-check endpoint, a flaky test, a config file that could use a default. None of them are hard. All of them lose every day to whatever is actually on fire. So I built <a href=\"https://github.com/creativoma/auto-claud",
+      "title": "Pi Agent vs Claude Code After 100 Hours of Real Use 🔥",
+      "link": "https://dev.to/composiodev/pi-agent-vs-claude-code-after-100-hours-of-real-use-1dfp",
+      "pubDate": "2026-08-11T13:36:48.000Z",
+      "description": "<p>While researching for this post, I found out something funny. Pi, the most interesting coding agent of 2026, was built by a guy who got fed up with Claude Code. 🥶</p> <p><a href=\"https://x.com/badlogicgames\" rel=\"noopener noreferrer\">Mario Zechner</a>, the creator of libGDX, was a hardcore Claud",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How to Measure AI Search Visibility in 2026: A Complete Guide",
-      "link": "https://dev.to/bhavesh_p_tech/how-to-measure-ai-search-visibility-in-2026-a-complete-guide-4o8k",
-      "pubDate": "2026-08-11T07:18:50.000Z",
-      "description": "<h1> How to Measure AI Search Visibility in 2026: A Complete Guide </h1> <p>Search is changing.</p> <p>Instead of clicking through a list of blue links, users can now ask questions and receive synthesized answers from AI-powered search experiences. Google has AI Overviews and AI Mode, while platform",
+      "title": "PayPal Payment Gateway Integration in Flutter — 2026 Refresh",
+      "link": "https://dev.to/mryadavgulshan/paypal-payment-gateway-integration-in-flutter-2026-refresh-21me",
+      "pubDate": "2026-08-11T13:30:00.000Z",
+      "description": "<p>The original version of this article became my most-clapped story on Medium, so here is the 2026 refresh: the same practical walkthrough, updated for the PayPal Orders API v2, modern Flutter, and the packages that actually work today.</p> <p>So, in this article, I will be showing you how you can ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "ModuleNotFoundError: No module named 'X' — a debugging checklist that actually works",
-      "link": "https://dev.to/websilvercraft/modulenotfounderror-no-module-named-x-a-debugging-checklist-that-actually-works-4fap",
-      "pubDate": "2026-08-11T07:18:00.000Z",
-      "description": "<p>You ran <code>pip install pandas</code>. You're sure you did. And yet:<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight python\"><code><span class=\"nc\">Traceback </span><span class=\"p\">(</span><span class=\"n\">most</span> <span class=\"n\">recent</span> <span class=\"n\">call</s",
+      "title": "Smakosz: Modern Polish Comfort Kitchen — Awwwards-Tier Dining Experience 🍽️✨",
+      "link": "https://dev.to/johnnylemonny/smakosz-modern-polish-comfort-kitchen-awwwards-tier-dining-experience-2gf8",
+      "pubDate": "2026-08-11T13:30:00.000Z",
+      "description": "<p><em>This is a submission for <a href=\"https://dev.to/challenges/frontend-2026-07-29\">Frontend Challenge - Comfort Food Edition, Perfect Landing</a>.</em></p> <h2> What I Built </h2> <p><strong>Smakosz</strong> (<em>Polish for \"connoisseur\" or \"lover of fine food\"</em>) is an editorial, fine-dinin",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "From Read-Only Pages to Ownership: A Quick Look at the Evolution of the Web",
-      "link": "https://dev.to/prashantmalla/from-read-only-pages-to-ownership-a-quick-look-at-the-evolution-of-the-web-1kh9",
-      "pubDate": "2026-08-11T07:16:39.000Z",
-      "description": "<p>The internet didn’t appear fully formed. It evolved in distinct generations, each reshaping how we create, share, and control information.</p> <p><strong>Web 1.0</strong>: The Static Web (1990s)<br> Think of it as a giant digital library. Pages were fixed documents built with HTML, CSS, and simpl",
+      "title": "Real-Life Refactoring Example: ~3x Less Code to Read",
+      "link": "https://dev.to/valentineshi-dev/real-life-refactoring-example-3x-less-code-to-read-3mdl",
+      "pubDate": "2026-08-11T13:24:24.000Z",
+      "description": "<p>There is a popular idea that refactoring is making code shorter. It is not entirely wrong. Repetition, pointless conditional branches, and dead variables do make code longer for no reason. But the usual topmost problems are when the intentions of a class's main public method, the business or oper",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "209 AI Code Reviews: Accurate Is Not Necessary",
-      "link": "https://dev.to/johnonlee/209-ai-code-reviews-accurate-is-not-necessary-4cc3",
-      "pubDate": "2026-08-11T07:14:56.000Z",
-      "description": "<p>Late last month a PR opened on our repo: <a href=\"https://github.com/team-monet/aart/pull/10\" rel=\"noopener noreferrer\">propagating secret taint across workflow steps</a>, a security feature. The numbers: 83 files, 21,962 lines added, 36 commits. And on the way to merge, 209 review conversations ",
+      "title": "Workday job boards have a JSON API too. It's just better hidden.",
+      "link": "https://dev.to/udaninn/workday-job-boards-have-a-json-api-too-its-just-better-hidden-23fl",
+      "pubDate": "2026-08-11T13:21:35.000Z",
+      "description": "<p>In <a href=\"https://dev.to/udaninn/six-ats-platforms-publish-their-job-boards-as-open-json-here-are-the-endpoints-2d3k\">the last post</a><br> I listed six ATS platforms whose job boards are open JSON APIs — Greenhouse,<br> Lever, Ashby, Workable, Recruitee, SmartRecruiters. The honest caveat at t",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Show HN: Mcptoon – Token-efficient MCP CLI client",
-      "link": "https://github.com/activeing123/mcptoon",
-      "pubDate": "2026-08-11T05:26:58.000Z",
-      "description": "Article URL: https://github.com/activeing123/mcptoon Comments URL: https://news.ycombinator.com/item?id=49253721 Points: 29 # Comments: 17",
+      "title": "It's time Amazon played by the same rules as everyone else [video]",
+      "link": "https://www.youtube.com/watch?v=91DoiansHqk",
+      "pubDate": "2026-08-11T13:00:34.000Z",
+      "description": "Article URL: https://www.youtube.com/watch?v=91DoiansHqk Comments URL: https://news.ycombinator.com/item?id=49257601 Points: 47 # Comments: 11",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Hyperspace",
-      "link": "https://hypercritical.co/hyperspace/",
-      "pubDate": "2026-08-11T02:04:35.000Z",
-      "description": "Article URL: https://hypercritical.co/hyperspace/ Comments URL: https://news.ycombinator.com/item?id=49252493 Points: 63 # Comments: 42",
+      "title": "England set to be one of the first countries to eliminate hepatitis C",
+      "link": "https://www.bbc.com/news/articles/c75gk620r22o",
+      "pubDate": "2026-08-11T12:41:59.000Z",
+      "description": "Article URL: https://www.bbc.com/news/articles/c75gk620r22o Comments URL: https://news.ycombinator.com/item?id=49257377 Points: 46 # Comments: 19",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "How to organize Claude Code for product work",
+      "link": "https://www.theaithinker.com/p/how-to-organize-claude-code-for-product",
+      "pubDate": "2026-08-11T11:02:34.000Z",
+      "description": "Article URL: https://www.theaithinker.com/p/how-to-organize-claude-code-for-product Comments URL: https://news.ycombinator.com/item?id=49256258 Points: 17 # Comments: 5",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "What I learned by putting GitHub Copilot behind a MitM proxy",
+      "link": "https://www.lighthousenewsletter.com/p/i-put-github-copilot-behind-a-mitm",
+      "pubDate": "2026-08-11T10:40:47.000Z",
+      "description": "Article URL: https://www.lighthousenewsletter.com/p/i-put-github-copilot-behind-a-mitm Comments URL: https://news.ycombinator.com/item?id=49256057 Points: 11 # Comments: 2",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Nvidia's Risky Business",
+      "link": "https://stratechery.com/2026/nvidias-risky-business/",
+      "pubDate": "2026-08-11T10:02:00.000Z",
+      "description": "Article URL: https://stratechery.com/2026/nvidias-risky-business/ Comments URL: https://news.ycombinator.com/item?id=49255710 Points: 34 # Comments: 1",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "More than 10 firms pay up to $100k a month for access to Truth Social posts",
+      "link": "https://www.bbc.com/news/articles/ce3q5nxpgk1o",
+      "pubDate": "2026-08-11T09:57:14.000Z",
+      "description": "Article URL: https://www.bbc.com/news/articles/ce3q5nxpgk1o Comments URL: https://news.ycombinator.com/item?id=49255672 Points: 131 # Comments: 106",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Closing Canario Terminal source code",
+      "link": "https://rapha.land/closing-canario-terminal-source-code/",
+      "pubDate": "2026-08-11T08:16:19.000Z",
+      "description": "Article URL: https://rapha.land/closing-canario-terminal-source-code/ Comments URL: https://news.ycombinator.com/item?id=49254881 Points: 24 # Comments: 29",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "France to ban unsolicited telemarketing calls",
+      "link": "https://www.lemonde.fr/en/france/article/2026/08/06/france-to-ban-unsolicited-telemarketing-calls-from-august-11_6756208_7.html",
+      "pubDate": "2026-08-11T08:15:46.000Z",
+      "description": "Article URL: https://www.lemonde.fr/en/france/article/2026/08/06/france-to-ban-unsolicited-telemarketing-calls-from-august-11_6756208_7.html Comments URL: https://news.ycombinator.com/item?id=49254880 Points: 552 # Comments: 312",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -104,7 +152,7 @@
       "title": "Recycle – Floppydisks",
       "link": "https://www.floppydisk.com/recycle",
       "pubDate": "2026-08-11T02:01:01.000Z",
-      "description": "Article URL: https://www.floppydisk.com/recycle Comments URL: https://news.ycombinator.com/item?id=49252462 Points: 51 # Comments: 20",
+      "description": "Article URL: https://www.floppydisk.com/recycle Comments URL: https://news.ycombinator.com/item?id=49252462 Points: 84 # Comments: 35",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -112,55 +160,7 @@
       "title": "H3-metal – Native MiniMax-H3 inference for Apple Silicon",
       "link": "https://github.com/antirez/h3.c",
       "pubDate": "2026-08-11T01:22:09.000Z",
-      "description": "Article URL: https://github.com/antirez/h3.c Comments URL: https://news.ycombinator.com/item?id=49252179 Points: 206 # Comments: 29",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Chicken Scheme 6.0",
-      "link": "https://code.call-cc.org/releases/6.0.0/NEWS",
-      "pubDate": "2026-08-11T00:24:15.000Z",
-      "description": "Article URL: https://code.call-cc.org/releases/6.0.0/NEWS Comments URL: https://news.ycombinator.com/item?id=49251702 Points: 158 # Comments: 17",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "The UK's war on anonymity has come to America",
-      "link": "https://www.effort.news/uk-lobby",
-      "pubDate": "2026-08-10T23:45:50.000Z",
-      "description": "Article URL: https://www.effort.news/uk-lobby Comments URL: https://news.ycombinator.com/item?id=49251411 Points: 448 # Comments: 331",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Show HN: Scroll through all 43252003274489856000 Rubik's Cube states",
-      "link": "https://everycube.alen.is/",
-      "pubDate": "2026-08-10T23:16:25.000Z",
-      "description": "Article URL: https://everycube.alen.is/ Comments URL: https://news.ycombinator.com/item?id=49251179 Points: 166 # Comments: 53",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "As AI eats the web, the internet’s collective memory is disappearing",
-      "link": "https://thewalrus.ca/google-search-is-dying/",
-      "pubDate": "2026-08-10T22:36:30.000Z",
-      "description": "Article URL: https://thewalrus.ca/google-search-is-dying/ Comments URL: https://news.ycombinator.com/item?id=49250836 Points: 170 # Comments: 152",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "How Claude marks AI-generated content",
-      "link": "https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content",
-      "pubDate": "2026-08-10T21:36:56.000Z",
-      "description": "Article URL: https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content Comments URL: https://news.ycombinator.com/item?id=49250109 Points: 120 # Comments: 93",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Confessions of a Long-Distance Sailor",
-      "link": "https://arachnoid.com/lutusp/sailbook.html",
-      "pubDate": "2026-08-10T20:52:55.000Z",
-      "description": "Article URL: https://arachnoid.com/lutusp/sailbook.html Comments URL: https://news.ycombinator.com/item?id=49249555 Points: 98 # Comments: 28",
+      "description": "Article URL: https://github.com/antirez/h3.c Comments URL: https://news.ycombinator.com/item?id=49252179 Points: 347 # Comments: 76",
       "source": "Hacker News",
       "category": "Tech News"
     },
