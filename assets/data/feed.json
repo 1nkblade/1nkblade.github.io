@@ -1,102 +1,134 @@
 {
-  "generatedAt": "2026-08-11T02:27:48.004Z",
+  "generatedAt": "2026-08-11T07:37:22.749Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "BdThemes API-Driven Supply Chain Compromise: Admin XSS to Web Shell and Hidden Admin",
-      "link": "https://dev.to/anoymask/bdthemes-api-driven-supply-chain-compromise-admin-xss-to-web-shell-and-hidden-admin-5c70",
-      "pubDate": "2026-08-11T02:14:03.000Z",
-      "description": "<h1> BdThemes API-Driven Supply Chain Compromise: Admin XSS to Web Shell and Hidden Admin </h1> <h2> 1. Basic Information </h2> <ul> <li> <strong>Article Title</strong>: PSA: Supply Chain Compromise in BdThemes Ecosystem via Poisoned API Response</li> <li> <strong>Publisher</strong>: Wordfence Threa",
+      "title": "The two support questions that move revenue, and why we route them differently",
+      "link": "https://dev.to/bynevolabs/the-two-support-questions-that-move-revenue-and-why-we-route-them-differently-78c",
+      "pubDate": "2026-08-11T07:34:58.000Z",
+      "description": "<p>An online shop's support inbox is really two inboxes wearing the same chat bubble. One is the shopper who has not bought yet and is deciding whether to. The other is the customer who already paid and now needs something to go right. They arrive through the same widget, and the cheapest mistake yo",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Ghostjacking: Turning Logs and Alerts into Commands to Take Over AI Agents",
-      "link": "https://dev.to/anoymask/ghostjacking-turning-logs-and-alerts-into-commands-to-take-over-ai-agents-4l0h",
-      "pubDate": "2026-08-11T02:13:53.000Z",
-      "description": "<h1> Ghostjacking: Turning Logs and Alerts into Commands to Take Over AI Agents </h1> <h2> 1. Basic Information </h2> <ul> <li> <strong>Article Title</strong>: GhostJacking Attacks: Half of the Fortune 500 Run These Tools</li> <li> <strong>Publisher</strong>: Tenet Security Threat Labs</li> <li> <st",
+      "title": "What changes when your support LLM has to stay in the EU",
+      "link": "https://dev.to/bynevolabs/what-changes-when-your-support-llm-has-to-stay-in-the-eu-4k50",
+      "pubDate": "2026-08-11T07:34:20.000Z",
+      "description": "<p>Most tutorials for building a support agent start with an OpenAI key and a vector store on someone else's cloud. I build these <a href=\"https://bynevolabs.com/ia-souveraine-service-client/\" rel=\"noopener noreferrer\">sovereign AI support agents</a> for French online shops, and for a lot of them th",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Disruption of Polish CHP: Wind Farm to OT via Private APN",
-      "link": "https://dev.to/anoymask/disruption-of-polish-chp-wind-farm-to-ot-via-private-apn-1jp1",
-      "pubDate": "2026-08-11T02:13:15.000Z",
-      "description": "<h1> Disruption of Polish CHP: Wind Farm to OT via Private APN </h1> <h2> 1. Basic Information </h2> <ul> <li> <strong>Article Title</strong>: Follow-Up Analysis of the 29 December 2025 Energy Sector Incident</li> <li> <strong>Publisher</strong>: CERT Polska (CERT.PL / NASK)</li> <li> <strong>Public",
+      "title": "How to Tell When Your LLM's Knowledge Actually Stops",
+      "link": "https://dev.to/basavaraj_sh_1ea7d95f0f2e/how-to-tell-when-your-llms-knowledge-actually-stops-319c",
+      "pubDate": "2026-08-11T07:30:52.000Z",
+      "description": "<p>Every AI model has a knowledge cutoff - but the official date rarely captures the whole story.</p> <h2> The Hidden Gap Between Training and Knowing </h2> <p>Model providers list a knowledge cutoff date, but that figure is deceptive in practice. According to research on model training practices, t",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Dev Log: 2026-08-10 — a toast that lied, an enum with a missing case, and a design system that finally has an address",
-      "link": "https://dev.to/nasrulhazim/dev-log-2026-08-10-a-toast-that-lied-an-enum-with-a-missing-case-and-a-design-system-that-405j",
-      "pubDate": "2026-08-11T01:57:47.000Z",
-      "description": "<p>Four commits across two repos, and a short day by commit count that still managed to contain the most instructive bug I've hit in a while. The through-line, if there is one: <strong>things that report a state they haven't verified.</strong></p> <p>The big piece — bulk actions and how they report ",
+      "title": "I tried stacked pull requests on my own portfolio",
+      "link": "https://dev.to/creativoma/i-tried-stacked-pull-requests-on-my-own-portfolio-52cp",
+      "pubDate": "2026-08-11T07:29:06.000Z",
+      "description": "<p>GitHub just announced <a href=\"https://docs.github.com/en/pull-requests/how-tos/stacked-pull-requests\" rel=\"noopener noreferrer\">stacked pull requests</a> in public preview. Instead of reading the changelog and moving on, I decided to actually try it on this same portfolio repo.</p> <h2> The prob",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "\"3 skipped\" tells the operator nothing",
-      "link": "https://dev.to/nasrulhazim/3-skipped-tells-the-operator-nothing-c7i",
-      "pubDate": "2026-08-11T01:57:35.000Z",
-      "description": "<h2> TL;DR </h2> <ul> <li>Bulk actions over a mixed selection always skip rows. A count of skips is not a result — the operator needs to know <em>which</em> reason applied to how many, because \"not permitted\" and \"already gone\" call for completely different next moves.</li> <li>Count skip reasons in",
+      "title": "Docker Security Internals: How Safe Are Your Containers Really?",
+      "link": "https://dev.to/sreekanth_kuruba_91721e5d/docker-security-internals-how-safe-are-your-containers-really-281e",
+      "pubDate": "2026-08-11T07:27:40.000Z",
+      "description": "<blockquote> <p><em>post 6:</em></p> </blockquote> <p>You run containers every day.</p> <p>But have you ever asked yourself this uncomfortable question:</p> <p><strong>If one container gets compromised… can it break out and take down the entire host?</strong></p> <p>Most people assume containers are",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "7 กฎสำหรับ Self-Improving Agent Loops ที่ AI Engineer ทุกคนควรรู้, Google Cloud เปิดตัว agents-cli",
-      "link": "https://dev.to/sarantoon/7-kdsamhrab-self-improving-agent-loops-thii-ai-engineer-thukkhnkhwrruu-google-cloud-epidtaw-agents-cli-o0m",
-      "pubDate": "2026-08-11T01:56:15.000Z",
-      "description": "<h1> 7 กฎสำหรับ Self-Improving Agent Loops ที่ AI Engineer ทุกคนควรรู้, Google Cloud เปิดตัว agents-cli </h1> <p><em>โดย Nokka (นก-กา) | 11 สิงหาคม 2569</em></p> <p><em>บทความนี้เขียนโดย AI (deepseek-v4-pro) ผ่าน Hermes Agent ภายใต้การควบคุมและตรวจสอบคุณภาพโดยมนุษย์, Nokka (นก-กา)</em></p> <p>Google",
+      "title": "I ran Claude Code unattended, all night",
+      "link": "https://dev.to/creativoma/i-ran-claude-code-unattended-all-night-5c0j",
+      "pubDate": "2026-08-11T07:25:45.000Z",
+      "description": "<p>I keep a running list of small, well-defined tasks I never get to: a missing health-check endpoint, a flaky test, a config file that could use a default. None of them are hard. All of them lose every day to whatever is actually on fire. So I built <a href=\"https://github.com/creativoma/auto-claud",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "100 Days of Solana - 2",
-      "link": "https://dev.to/ik_8a78062fd65be769dd835/100-days-of-solana-2-160c",
-      "pubDate": "2026-08-11T01:50:46.000Z",
-      "description": "<h2> Day 2: Creating a Wallet and Checking Its Balance Programmatically </h2> <h3> What I Learned </h3> <p>I learned how to generate a Solana wallet programmatically and then check its balance using the devnet RPC.<br><br> I discovered that while I could create a wallet with just a few lines of code",
+      "title": "How to Measure AI Search Visibility in 2026: A Complete Guide",
+      "link": "https://dev.to/bhavesh_p_tech/how-to-measure-ai-search-visibility-in-2026-a-complete-guide-4o8k",
+      "pubDate": "2026-08-11T07:18:50.000Z",
+      "description": "<h1> How to Measure AI Search Visibility in 2026: A Complete Guide </h1> <p>Search is changing.</p> <p>Instead of clicking through a list of blue links, users can now ask questions and receive synthesized answers from AI-powered search experiences. Google has AI Overviews and AI Mode, while platform",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The text-to-SQL demo takes an afternoon. The other 90% is why you should buy it.",
-      "link": "https://dev.to/omer_hochman/the-text-to-sql-demo-takes-an-afternoon-the-other-90-is-why-you-should-buy-it-4iko",
-      "pubDate": "2026-08-11T01:46:04.000Z",
-      "description": "<p><em>Originally published at <a href=\"https://nlqdb.com/blog/text-to-sql-build-vs-buy/?utm_source=devto\" rel=\"noopener noreferrer\">nlqdb.com/blog</a></em></p> <p>The demo really is an afternoon. Pull the table definitions out of <code>information_schema</code>, template them into a prompt with the",
+      "title": "ModuleNotFoundError: No module named 'X' — a debugging checklist that actually works",
+      "link": "https://dev.to/websilvercraft/modulenotfounderror-no-module-named-x-a-debugging-checklist-that-actually-works-4fap",
+      "pubDate": "2026-08-11T07:18:00.000Z",
+      "description": "<p>You ran <code>pip install pandas</code>. You're sure you did. And yet:<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight python\"><code><span class=\"nc\">Traceback </span><span class=\"p\">(</span><span class=\"n\">most</span> <span class=\"n\">recent</span> <span class=\"n\">call</s",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Infrastructure Drift: Detecting and Preventing It",
-      "link": "https://dev.to/samson_tanimawo/infrastructure-drift-detecting-and-preventing-it-5gg4",
-      "pubDate": "2026-08-11T01:45:12.000Z",
-      "description": "<p>Your Terraform says the firewall rule is A. The cloud console says it's B. Someone changed it manually and didn't tell anyone. This is infrastructure drift, and it's a reliability killer.</p> <h2> How drift happens </h2> <p><strong>The emergency edit.</strong> At 2 AM, someone clicks a button in ",
+      "title": "From Read-Only Pages to Ownership: A Quick Look at the Evolution of the Web",
+      "link": "https://dev.to/prashantmalla/from-read-only-pages-to-ownership-a-quick-look-at-the-evolution-of-the-web-1kh9",
+      "pubDate": "2026-08-11T07:16:39.000Z",
+      "description": "<p>The internet didn’t appear fully formed. It evolved in distinct generations, each reshaping how we create, share, and control information.</p> <p><strong>Web 1.0</strong>: The Static Web (1990s)<br> Think of it as a giant digital library. Pages were fixed documents built with HTML, CSS, and simpl",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I built a detector for invisible records on Monday. On Tuesday it caught me, three times",
-      "link": "https://dev.to/blueticks/i-built-a-detector-for-invisible-records-on-monday-on-tuesday-it-caught-me-three-times-55hn",
-      "pubDate": "2026-08-11T01:44:06.000Z",
-      "description": "<p>Yesterday I found that six of my published pages were sitting in my ledger in a table with the<br> wrong shape, so every script that reads that ledger skipped them. Not misfiled. Invisible. I wrote<br> about it, and I wrote a small detector: walk the ledger, collect every url on a domain I publis",
+      "title": "209 AI Code Reviews: Accurate Is Not Necessary",
+      "link": "https://dev.to/johnonlee/209-ai-code-reviews-accurate-is-not-necessary-4cc3",
+      "pubDate": "2026-08-11T07:14:56.000Z",
+      "description": "<p>Late last month a PR opened on our repo: <a href=\"https://github.com/team-monet/aart/pull/10\" rel=\"noopener noreferrer\">propagating secret taint across workflow steps</a>, a security feature. The numbers: 83 files, 21,962 lines added, 36 commits. And on the way to merge, 209 review conversations ",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "Show HN: Mcptoon – Token-efficient MCP CLI client",
+      "link": "https://github.com/activeing123/mcptoon",
+      "pubDate": "2026-08-11T05:26:58.000Z",
+      "description": "Article URL: https://github.com/activeing123/mcptoon Comments URL: https://news.ycombinator.com/item?id=49253721 Points: 29 # Comments: 17",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Hyperspace",
+      "link": "https://hypercritical.co/hyperspace/",
+      "pubDate": "2026-08-11T02:04:35.000Z",
+      "description": "Article URL: https://hypercritical.co/hyperspace/ Comments URL: https://news.ycombinator.com/item?id=49252493 Points: 63 # Comments: 42",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Recycle – Floppydisks",
+      "link": "https://www.floppydisk.com/recycle",
+      "pubDate": "2026-08-11T02:01:01.000Z",
+      "description": "Article URL: https://www.floppydisk.com/recycle Comments URL: https://news.ycombinator.com/item?id=49252462 Points: 51 # Comments: 20",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "H3-metal – Native MiniMax-H3 inference for Apple Silicon",
+      "link": "https://github.com/antirez/h3.c",
+      "pubDate": "2026-08-11T01:22:09.000Z",
+      "description": "Article URL: https://github.com/antirez/h3.c Comments URL: https://news.ycombinator.com/item?id=49252179 Points: 206 # Comments: 29",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "Chicken Scheme 6.0",
       "link": "https://code.call-cc.org/releases/6.0.0/NEWS",
       "pubDate": "2026-08-11T00:24:15.000Z",
-      "description": "Article URL: https://code.call-cc.org/releases/6.0.0/NEWS Comments URL: https://news.ycombinator.com/item?id=49251702 Points: 55 # Comments: 4",
+      "description": "Article URL: https://code.call-cc.org/releases/6.0.0/NEWS Comments URL: https://news.ycombinator.com/item?id=49251702 Points: 158 # Comments: 17",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "The UK's War on Anonymity Has Come to America",
+      "title": "The UK's war on anonymity has come to America",
       "link": "https://www.effort.news/uk-lobby",
       "pubDate": "2026-08-10T23:45:50.000Z",
-      "description": "Article URL: https://www.effort.news/uk-lobby Comments URL: https://news.ycombinator.com/item?id=49251411 Points: 231 # Comments: 153",
+      "description": "Article URL: https://www.effort.news/uk-lobby Comments URL: https://news.ycombinator.com/item?id=49251411 Points: 448 # Comments: 331",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -104,15 +136,23 @@
       "title": "Show HN: Scroll through all 43252003274489856000 Rubik's Cube states",
       "link": "https://everycube.alen.is/",
       "pubDate": "2026-08-10T23:16:25.000Z",
-      "description": "Article URL: https://everycube.alen.is/ Comments URL: https://news.ycombinator.com/item?id=49251179 Points: 75 # Comments: 14",
+      "description": "Article URL: https://everycube.alen.is/ Comments URL: https://news.ycombinator.com/item?id=49251179 Points: 166 # Comments: 53",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "World Train Map – 1247 train routes around the world",
-      "link": "https://worldtrainmap.com/",
-      "pubDate": "2026-08-10T22:42:14.000Z",
-      "description": "Article URL: https://worldtrainmap.com/ Comments URL: https://news.ycombinator.com/item?id=49250894 Points: 42 # Comments: 12",
+      "title": "As AI eats the web, the internet’s collective memory is disappearing",
+      "link": "https://thewalrus.ca/google-search-is-dying/",
+      "pubDate": "2026-08-10T22:36:30.000Z",
+      "description": "Article URL: https://thewalrus.ca/google-search-is-dying/ Comments URL: https://news.ycombinator.com/item?id=49250836 Points: 170 # Comments: 152",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "How Claude marks AI-generated content",
+      "link": "https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content",
+      "pubDate": "2026-08-10T21:36:56.000Z",
+      "description": "Article URL: https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content Comments URL: https://news.ycombinator.com/item?id=49250109 Points: 120 # Comments: 93",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -120,47 +160,7 @@
       "title": "Confessions of a Long-Distance Sailor",
       "link": "https://arachnoid.com/lutusp/sailbook.html",
       "pubDate": "2026-08-10T20:52:55.000Z",
-      "description": "Article URL: https://arachnoid.com/lutusp/sailbook.html Comments URL: https://news.ycombinator.com/item?id=49249555 Points: 66 # Comments: 14",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Stop Killing Games: It's time to sue Sony, join us",
-      "link": "https://www.massaschadeconsument.nl/collectieve-acties/playstation/",
-      "pubDate": "2026-08-10T20:47:13.000Z",
-      "description": "Article URL: https://www.massaschadeconsument.nl/collectieve-acties/playstation/ Comments URL: https://news.ycombinator.com/item?id=49249481 Points: 179 # Comments: 81",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Rust SIMD on the GPU",
-      "link": "https://www.vectorware.com/blog/simd-on-gpu/",
-      "pubDate": "2026-08-10T18:12:49.000Z",
-      "description": "Article URL: https://www.vectorware.com/blog/simd-on-gpu/ Comments URL: https://news.ycombinator.com/item?id=49247477 Points: 129 # Comments: 62",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots",
-      "link": "https://cactuscompute.com/needle",
-      "pubDate": "2026-08-10T17:22:07.000Z",
-      "description": "Hey HN,Henry from Cactus here!We previously released Cactus Needle, a 14MB agentic LLM for tool call, device use, and structured extraction for phones, wearables, smart homes, small robots and microcontrollers. We got really great feedback here, and have now incorporated the suggestions to release N",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "GPT 5.6 Cyber",
-      "link": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/",
-      "pubDate": "2026-08-10T17:14:00.000Z",
-      "description": "Article URL: https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/ Comments URL: https://news.ycombinator.com/item?id=49246704 Points: 81 # Comments: 36",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Launch HN: Stoa Markets (YC S26) – A Marketplace for GPUs and AI Servers",
-      "link": "https://www.stoaexchange.com",
-      "pubDate": "2026-08-10T16:35:27.000Z",
-      "description": "Hi HN, we’re Eren, Berat and Kaan. We’re building Stoa (https://www.stoaexchange.com), a marketplace for new and used GPUs and AI servers.GPUs are the collateral in the data center buildout. Today, financing terms mostly depend on the offtaker, meaning the company that has committed to use the compu",
+      "description": "Article URL: https://arachnoid.com/lutusp/sailbook.html Comments URL: https://news.ycombinator.com/item?id=49249555 Points: 98 # Comments: 28",
       "source": "Hacker News",
       "category": "Tech News"
     },
