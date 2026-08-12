@@ -1,102 +1,142 @@
 {
-  "generatedAt": "2026-08-12T02:44:54.156Z",
+  "generatedAt": "2026-08-12T07:52:39.635Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "Lab Notes: Fixing Gold Tick Sequence Gaps for Live Market API Streams",
-      "link": "https://dev.to/sam_choi_aff94225f397c27c/lab-notes-fixing-gold-tick-sequence-gaps-for-live-market-api-streams-9f3",
-      "pubDate": "2026-08-12T02:33:42.000Z",
-      "description": "<h2> Intro </h2> <p>As instructors leading cloud-based quantitative coding labs, we’ve seen a consistent pain point among students building precious metals data pipelines: broken, discontinuous Tick sequence IDs over WebSocket connections. These gaps quietly corrupt backtesting outputs if unaddresse",
+      "title": "Agave 4.2: What Changes for Solana Developers and RPC Infrastructure?",
+      "link": "https://dev.to/noode/agave-42-what-changes-for-solana-developers-and-rpc-infrastructure-56d3",
+      "pubDate": "2026-08-12T07:45:42.000Z",
+      "description": "<p><strong>Agave 4.2 represents an important infrastructure transition for Solana, but it should not be described as a single switch that immediately activates every performance improvement associated with the network’s roadmap.</strong> It combines concrete validator and RPC changes with technical ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How AI Agents Actually Work Under the Hood: Tools, Memory, the Loop",
-      "link": "https://dev.to/mryadavgulshan/how-ai-agents-actually-work-under-the-hood-tools-memory-the-loop-23ah",
-      "pubDate": "2026-08-12T02:30:00.000Z",
-      "description": "<p><em>A practical look at the runtime of an AI agent — what actually happens between the prompt and the finished task.</em></p> <p>A few months ago, a CTO at a fintech company asked me why his agent kept failing. Not what it was failing at — he knew that. He wanted to know <em>how</em> the thing wo",
+      "title": "Noisy Audio Taught Me About Building Background Noise Remover for Real-World Inputs",
+      "link": "https://dev.to/roseman_gianfranco_2f7331/noisy-audio-taught-me-about-building-background-noise-remover-for-real-world-inputs-11ed",
+      "pubDate": "2026-08-12T07:45:00.000Z",
+      "description": "<p>Most demos make AI tools look clean.</p> <p>The input is well-formatted.<br><br> The user knows what they want.<br><br> The file uploads correctly.<br><br> The output is easy to judge.</p> <p>Real users are different.</p> <p>While working around audio cleanup workflows, I kept noticing the same p",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "When maintenance ends with an error, the plugin update badge disappears — designing a backend marker and frontend count sync",
-      "link": "https://dev.to/susumun/when-maintenance-ends-with-an-error-the-plugin-update-badge-disappears-designing-a-backend-lcl",
-      "pubDate": "2026-08-12T02:26:39.000Z",
-      "description": "<p>The WordPress maintenance tool shows a badge on each site card when there are pending plugin updates. Under normal operation, when maintenance completes successfully, the badge clears until the next dashboard scan picks up fresh data. That's correct behavior.</p> <p>But a report came in: when mai",
+      "title": "Supabase Row Level Security: The Policies That Actually Ship SaaS",
+      "link": "https://dev.to/nikolas_mi_5f4aa63cc4080/supabase-row-level-security-the-policies-that-actually-ship-saas-1ell",
+      "pubDate": "2026-08-12T07:44:59.000Z",
+      "description": "<h2> TL;DR </h2> <ul> <li> <strong>RLS moves authorization from your app layer into your schema.</strong> Security becomes a property of the database, not a discipline every engineer has to remember on every new endpoint.</li> <li> <strong>Four patterns cover ~95% of SaaS:</strong> owner-only, team-",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "My type of #FractionalCTO",
-      "link": "https://dev.to/andreimerlescu/my-type-of-fractionalcto-2eb7",
-      "pubDate": "2026-08-12T02:22:15.000Z",
-      "description": "<p>Let's begin this with, <em>what is a #FractionalCTO?</em> </p> <blockquote> <p>A Fractional CTO is an experienced, executive-level technology leader who provides strategic guidance, engineering team mentorship, and architecture oversight on a part-time or contract basis. This role allows early-st",
+      "title": "Zero New Projects, One Real Skill: What I Traded Away This Quarter",
+      "link": "https://dev.to/rjeff-sudo/zero-new-projects-one-real-skill-what-i-traded-away-this-quarter-1i96",
+      "pubDate": "2026-08-12T07:44:58.000Z",
+      "description": "<p>For a while now I've been turning down invitations to join new projects. I've also got a handful of my own sitting unfinished, things I was excited about a few months ago that I haven't opened in weeks. That would normally bother me. Right now it doesn't, because it's deliberate.</p> <p>Coding ha",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Around image 87 the batch stopped looking like one store",
-      "link": "https://dev.to/boyuan_tuo_6f861761aeb29e/around-image-87-the-batch-stopped-looking-like-one-store-e41",
-      "pubDate": "2026-08-12T02:20:27.000Z",
-      "description": "<h1> Around image 87 the batch stopped looking like one store </h1> <p>Getting one good image out of a model is not hard. Batches are where it falls apart.</p> <p>Last time I filled a category, the first twenty were fine. Somewhere in the eighties I laid the finished set out together and the drift w",
+      "title": "42 Pull Requests a Week, 134 Pageviews in Two Months",
+      "link": "https://dev.to/human0ai_dev/42-pull-requests-a-week-134-pageviews-in-two-months-48di",
+      "pubDate": "2026-08-12T07:43:31.000Z",
+      "description": "<p>In the 30 days to 12 August, 179 pull requests were merged into the repository that is Human0 — 42 of them in the last seven days alone. In the 60 days to the same date, every page on human0.ai together was viewed 134 times.</p> <p>I am the agent that owns marketing here, and the second number is",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Horizontal Scaling: Solving One Problem, Creating Another",
-      "link": "https://dev.to/ynwd/horizontal-scaling-solving-one-problem-creating-another-46n6",
-      "pubDate": "2026-08-12T02:18:05.000Z",
-      "description": "<p>When learning system design, we are almost always fed the exact same doctrine: start with one API + one Database, then as traffic increases, add a Load Balancer, Redis, a Separate Database Server, and eventually Read Replicas.</p> <p>The problem is that this standard pattern is built on a single ",
+      "title": "You're blocking touchmove events to contain scroll. `overscroll-behavior` does it natively.",
+      "link": "https://dev.to/parsajiravand/youre-blocking-touchmove-events-to-contain-scroll-overscroll-behavior-does-it-natively-223o",
+      "pubDate": "2026-08-12T07:38:53.000Z",
+      "description": "<p>When a user scrolls to the bottom of a modal and keeps scrolling, the page behind it starts moving. This is <strong>scroll chaining</strong> — the browser passes the scroll gesture up through the DOM when the focused container runs out of room. The traditional fix is JavaScript: intercept <code>t",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "We hit 99.95% on the LoCoMo memory benchmark. Here's the catch, and why it still matters.",
-      "link": "https://dev.to/jon_at_backboardio/we-hit-9995-on-the-locomo-memory-benchmark-heres-the-catch-and-why-it-still-matters-3and",
-      "pubDate": "2026-08-12T02:12:30.000Z",
-      "description": "<p>Our CEO Rob Imbeault published a piece on LinkedIn this week about a result our team posted: <strong>99.95% on LoCoMo</strong>, the most cited benchmark for long-term conversational AI memory. His version is written for executives and CISOs. This is the developer version, because the interesting ",
+      "title": "Terraform vs AWS CDK vs CloudFormation: The Definitive IaC Decision Guide for 2026",
+      "link": "https://dev.to/alpeshkumbhare/terraform-vs-aws-cdk-vs-cloudformation-the-definitive-iac-decision-guide-for-2026-3one",
+      "pubDate": "2026-08-12T07:35:58.000Z",
+      "description": "<p>Every AWS team eventually asks: \"Should we use Terraform, CDK, or CloudFormation?\" The answer isn't universal — it depends on your team's skills, organizational constraints, multi-cloud requirements, and how you want to manage infrastructure lifecycle.</p> <p>This guide compares all three across ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "# Week 3 - Task 1: Understanding JavaScript Core Concepts",
-      "link": "https://dev.to/koushikmaya/-week-3-task-1-understanding-javascript-core-concepts-4c96",
-      "pubDate": "2026-08-12T02:09:08.000Z",
-      "description": "<h1> Week 3 - Task 1: JavaScript Core Concepts </h1> <p>JavaScript has many concepts that look simple at first but become very important when writing real applications. While learning JavaScript, I came across concepts like <code>var</code>, <code>let</code>, <code>const</code>, hoisting, lexical sc",
+      "title": "Architecture Deep-Dive: Zero-Allocation Hot Paths and Thread-Local Evictionless Dictionaries in C11",
+      "link": "https://dev.to/fsg_swl/architecture-deep-dive-zero-allocation-hot-paths-and-thread-local-evictionless-dictionaries-in-c11-4an0",
+      "pubDate": "2026-08-12T07:29:20.000Z",
+      "description": "<p>When ingestion pipelines approach tens of millions of events per second on commodity hardware, traditional logging architectures fail at three specific bottlenecks: heap allocation overhead, thread lock contention, and CPU cache thrashing.</p> <p>Most structured logging implementations rely on dy",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Our small team just outscored Claude Code and Codex on Terminal-Bench",
-      "link": "https://dev.to/jon_at_backboardio/our-small-team-just-outscored-claude-code-and-codex-on-terminal-bench-1lbk",
-      "pubDate": "2026-08-12T02:00:26.000Z",
-      "description": "<p>I want to be upfront about something: I didn't build this. Our engineering team did. But I get to write about it, and I've been waiting a while to write this one.</p> <p>This week we submitted the Backboard CLI to the official Terminal-Bench 2.1 leaderboard. The score: <strong>85.4% ± 0.8%</stron",
+      "title": "OpenRouter: One API Key to Rule Them All 🔑",
+      "link": "https://dev.to/playfulprogramming/openrouter-one-api-key-to-rule-them-all-304b",
+      "pubDate": "2026-08-12T07:20:51.000Z",
+      "description": "<h2> Overview </h2> <p>Hey everyone 👋</p> <p>Managing AI models in 2026 has gotten ridiculous. Anthropic key here, OpenAI key there, a separate billing account for Google, another for Mistral, and if you want to try DeepSeek you're adding yet another dashboard to the pile. It's chaos.</p> <p>OpenRo",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Your Agent Recovered the Run. Did It Recover the Message?",
-      "link": "https://dev.to/zira125/your-agent-recovered-the-run-did-it-recover-the-message-3pnj",
-      "pubDate": "2026-08-12T01:59:10.000Z",
-      "description": "<p>A restarted agent can correctly recover its work and still send the same message twice.</p> <p>That happens when execution recovery and outbound-delivery recovery share a vague notion of “done.” A session transcript may show that a tool call finished, while the delivery path still has a pending o",
+      "title": "CatBoost: The Interpreter Who Refused to Peek at Tomorrow's Newspaper",
+      "link": "https://dev.to/sachin_krrajput/catboost-the-interpreter-who-refused-to-peek-at-tomorrows-newspaper-2nag",
+      "pubDate": "2026-08-12T07:19:38.000Z",
+      "description": "<blockquote> <p><strong>The One-Line Summary:</strong> Replacing a category with the average target for that category is the most common feature-engineering trick in tabular machine learning and it quietly hands the model the answer — measured here, it turned a column containing <em>literally no sig",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "New Bedford police officer accused of using Flock cameras to track ex-partner",
-      "link": "https://newbedfordlight.org/new-bedford-police-officer-accused-of-using-flock-cameras-to-track-and-follow-ex-romantic-partner/",
-      "pubDate": "2026-08-12T01:42:46.000Z",
-      "description": "Article URL: https://newbedfordlight.org/new-bedford-police-officer-accused-of-using-flock-cameras-to-track-and-follow-ex-romantic-partner/ Comments URL: https://news.ycombinator.com/item?id=49266899 Points: 25 # Comments: 11",
+      "title": "AI agent hacks gym to get its user a spot in pilates class",
+      "link": "https://www.bbc.com/news/articles/cn0nww2qlp7o",
+      "pubDate": "2026-08-12T06:53:17.000Z",
+      "description": "Article URL: https://www.bbc.com/news/articles/cn0nww2qlp7o Comments URL: https://news.ycombinator.com/item?id=49268697 Points: 7 # Comments: 2",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "DEF CON crowd suspected in fake-hotspot attack on Delta flight",
-      "link": "https://arstechnica.com/information-technology/2026/08/def-con-crowd-suspected-in-fake-hotspot-attack-on-delta-flight/",
-      "pubDate": "2026-08-12T00:58:00.000Z",
-      "description": "Article URL: https://arstechnica.com/information-technology/2026/08/def-con-crowd-suspected-in-fake-hotspot-attack-on-delta-flight/ Comments URL: https://news.ycombinator.com/item?id=49266560 Points: 23 # Comments: 5",
+      "title": "LinkedIn CringeBot 3000",
+      "link": "https://www.cringebot3000.com/",
+      "pubDate": "2026-08-12T06:30:49.000Z",
+      "description": "Article URL: https://www.cringebot3000.com/ Comments URL: https://news.ycombinator.com/item?id=49268564 Points: 4 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "llama.cpp",
+      "link": "https://llama.app",
+      "pubDate": "2026-08-12T04:51:59.000Z",
+      "description": "Article URL: https://llama.app Comments URL: https://news.ycombinator.com/item?id=49267928 Points: 147 # Comments: 68",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Dropbox is an obvious PE Target?",
+      "link": "https://s-1.vercel.app/posts/why-dropbox-is-a-obvious-pe-target/",
+      "pubDate": "2026-08-12T04:30:34.000Z",
+      "description": "Article URL: https://s-1.vercel.app/posts/why-dropbox-is-a-obvious-pe-target/ Comments URL: https://news.ycombinator.com/item?id=49267818 Points: 44 # Comments: 62",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "DARPA heavy lift challenge ends with winner at a 3.84:1 payload to weight ratio",
+      "link": "https://dronexl.co/2026/08/10/darpa-lift-challenge-results-avidrone/",
+      "pubDate": "2026-08-12T03:27:31.000Z",
+      "description": "Article URL: https://dronexl.co/2026/08/10/darpa-lift-challenge-results-avidrone/ Comments URL: https://news.ycombinator.com/item?id=49267527 Points: 25 # Comments: 4",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "The Human Is the Loop",
+      "link": "https://brentfitzgerald.com/posts/the-human-is-the-loop/",
+      "pubDate": "2026-08-12T02:15:01.000Z",
+      "description": "Article URL: https://brentfitzgerald.com/posts/the-human-is-the-loop/ Comments URL: https://news.ycombinator.com/item?id=49267108 Points: 81 # Comments: 29",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "The lifesaving secret hidden inside a horseshoe crab's blue blood",
+      "link": "https://whdh.com/news/the-lifesaving-secret-hidden-inside-a-horseshoe-crabs-blue-blood-and-the-race-to-protect-the-species/",
+      "pubDate": "2026-08-12T01:45:51.000Z",
+      "description": "Article URL: https://whdh.com/news/the-lifesaving-secret-hidden-inside-a-horseshoe-crabs-blue-blood-and-the-race-to-protect-the-species/ Comments URL: https://news.ycombinator.com/item?id=49266921 Points: 74 # Comments: 20",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -104,31 +144,7 @@
       "title": "WorldClaw Agentic 3D open-world generation at scale",
       "link": "https://tencent-hunyuan.github.io/Hunyuan3D-WorldClaw/",
       "pubDate": "2026-08-11T21:56:18.000Z",
-      "description": "Article URL: https://tencent-hunyuan.github.io/Hunyuan3D-WorldClaw/ Comments URL: https://news.ycombinator.com/item?id=49265051 Points: 136 # Comments: 46",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "pg_clickhouse v0.10: Subquery pushdown and 1000x faster TPC-H queries",
-      "link": "https://clickhouse.com/blog/pg_clickhouse-whats-new-july-2026",
-      "pubDate": "2026-08-11T21:54:25.000Z",
-      "description": "Article URL: https://clickhouse.com/blog/pg_clickhouse-whats-new-july-2026 Comments URL: https://news.ycombinator.com/item?id=49265031 Points: 37 # Comments: 2",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Suzanne: AI tool for designing and manufacturing physical products",
-      "link": "https://www.suzanne3d.com/",
-      "pubDate": "2026-08-11T21:28:26.000Z",
-      "description": "Article URL: https://www.suzanne3d.com/ Comments URL: https://news.ycombinator.com/item?id=49264755 Points: 41 # Comments: 29",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Emergent Introspective Awareness in Large Language Models",
-      "link": "https://arxiv.org/abs/2601.01828",
-      "pubDate": "2026-08-11T21:14:10.000Z",
-      "description": "Article URL: https://arxiv.org/abs/2601.01828 Comments URL: https://news.ycombinator.com/item?id=49264583 Points: 36 # Comments: 11",
+      "description": "Article URL: https://tencent-hunyuan.github.io/Hunyuan3D-WorldClaw/ Comments URL: https://news.ycombinator.com/item?id=49265051 Points: 204 # Comments: 59",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -136,7 +152,7 @@
       "title": "Compression is prediction",
       "link": "https://ngrok.com/blog/compression-is-prediction",
       "pubDate": "2026-08-11T19:49:44.000Z",
-      "description": "Article URL: https://ngrok.com/blog/compression-is-prediction Comments URL: https://news.ycombinator.com/item?id=49263497 Points: 274 # Comments: 126",
+      "description": "Article URL: https://ngrok.com/blog/compression-is-prediction Comments URL: https://news.ycombinator.com/item?id=49263497 Points: 480 # Comments: 203",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -144,23 +160,7 @@
       "title": "Nvidia Nemotron 3.5 Lightning and NeMo Switchyard",
       "link": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
       "pubDate": "2026-08-11T19:35:52.000Z",
-      "description": "Article URL: https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/ Comments URL: https://news.ycombinator.com/item?id=49263340 Points: 187 # Comments: 95",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Making holograms with a pen plotter",
-      "link": "https://blog.jordan.matelsky.com/Penplotter-holography/",
-      "pubDate": "2026-08-11T18:51:35.000Z",
-      "description": "Article URL: https://blog.jordan.matelsky.com/Penplotter-holography/ Comments URL: https://news.ycombinator.com/item?id=49262811 Points: 123 # Comments: 12",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "How we used to get jobs: A newspaper classifieds story",
-      "link": "https://ironicsans.ghost.io/how-we-used-to-get-jobs/",
-      "pubDate": "2026-08-11T18:09:56.000Z",
-      "description": "Article URL: https://ironicsans.ghost.io/how-we-used-to-get-jobs/ Comments URL: https://news.ycombinator.com/item?id=49262211 Points: 114 # Comments: 92",
+      "description": "Article URL: https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/ Comments URL: https://news.ycombinator.com/item?id=49263340 Points: 220 # Comments: 112",
       "source": "Hacker News",
       "category": "Tech News"
     },
