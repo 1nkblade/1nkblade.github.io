@@ -1,94 +1,150 @@
 {
-  "generatedAt": "2026-08-12T07:52:39.635Z",
+  "generatedAt": "2026-08-12T13:47:28.295Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "Agave 4.2: What Changes for Solana Developers and RPC Infrastructure?",
-      "link": "https://dev.to/noode/agave-42-what-changes-for-solana-developers-and-rpc-infrastructure-56d3",
-      "pubDate": "2026-08-12T07:45:42.000Z",
-      "description": "<p><strong>Agave 4.2 represents an important infrastructure transition for Solana, but it should not be described as a single switch that immediately activates every performance improvement associated with the network’s roadmap.</strong> It combines concrete validator and RPC changes with technical ",
+      "title": "Blocked aria-hidden: The Warning is Right, and Every Fix You&#8217;ve Found is Wrong",
+      "link": "https://css-tricks.com/blocked-aria-hidden-fix/",
+      "pubDate": "2026-08-12T13:43:56.000Z",
+      "description": "The warning is correct. And the recommended fixes you've probably seen are wrong. Here's what you can do instead to properly fix the issue. Blocked aria-hidden: The Warning is Right, and Every Fix You’ve Found is Wrong originally handwritten and published with love on CSS-Tricks. You should really g",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Building Container Images and Container Orchestration Fundamentals",
+      "link": "https://dev.to/derrickryangiggs/building-container-images-and-container-orchestration-fundamentals-1jgp",
+      "pubDate": "2026-08-12T13:42:50.000Z",
+      "description": "<p>If you have spent any time around modern software development, you have heard the phrase \"it works on my machine.\" Docker was built to kill that excuse for good. By packaging everything an application needs into a single portable unit called a <strong>container image</strong>, Docker ensures that",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Noisy Audio Taught Me About Building Background Noise Remover for Real-World Inputs",
-      "link": "https://dev.to/roseman_gianfranco_2f7331/noisy-audio-taught-me-about-building-background-noise-remover-for-real-world-inputs-11ed",
-      "pubDate": "2026-08-12T07:45:00.000Z",
-      "description": "<p>Most demos make AI tools look clean.</p> <p>The input is well-formatted.<br><br> The user knows what they want.<br><br> The file uploads correctly.<br><br> The output is easy to judge.</p> <p>Real users are different.</p> <p>While working around audio cleanup workflows, I kept noticing the same p",
+      "title": "AI Search for Local Businesses: How to Compete Beyond Google Rankings",
+      "link": "https://dev.to/softwin/ai-search-for-local-businesses-how-to-compete-beyond-google-rankings-1a18",
+      "pubDate": "2026-08-12T13:35:32.000Z",
+      "description": "<p>If you build or maintain websites for local businesses, you've probably already noticed organic click-through rates dropping even as rankings hold steady. The reason: <strong>AI Overviews now appear in roughly 68% of local searches</strong> (versus ~39% for the classic three-pack local results), ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Supabase Row Level Security: The Policies That Actually Ship SaaS",
-      "link": "https://dev.to/nikolas_mi_5f4aa63cc4080/supabase-row-level-security-the-policies-that-actually-ship-saas-1ell",
-      "pubDate": "2026-08-12T07:44:59.000Z",
-      "description": "<h2> TL;DR </h2> <ul> <li> <strong>RLS moves authorization from your app layer into your schema.</strong> Security becomes a property of the database, not a discipline every engineer has to remember on every new endpoint.</li> <li> <strong>Four patterns cover ~95% of SaaS:</strong> owner-only, team-",
+      "title": "Bring nvm as a Command to Your CLI: Demystifying the Shell Function",
+      "link": "https://dev.to/sukkergris/bring-nvm-as-a-command-to-your-cli-demystifying-the-shell-function-2kg4",
+      "pubDate": "2026-08-12T13:35:05.000Z",
+      "description": "<h2> The problem </h2> <p>Every frontend and full-stack developer has typed <code>nvm install</code> or <code>nvm use</code> into their terminal. It feels like any other CLI tool—just like git, docker, or npm.</p> <p>However, if you try to call nvm inside a Docker build, devcontainer, a CI/CD pipeli",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Zero New Projects, One Real Skill: What I Traded Away This Quarter",
-      "link": "https://dev.to/rjeff-sudo/zero-new-projects-one-real-skill-what-i-traded-away-this-quarter-1i96",
-      "pubDate": "2026-08-12T07:44:58.000Z",
-      "description": "<p>For a while now I've been turning down invitations to join new projects. I've also got a handful of my own sitting unfinished, things I was excited about a few months ago that I haven't opened in weeks. That would normally bother me. Right now it doesn't, because it's deliberate.</p> <p>Coding ha",
+      "title": "UPI Payment Gateway in Flutter (Razorpay) — The Complete 2026 Guide",
+      "link": "https://dev.to/mryadavgulshan/upi-payment-gateway-in-flutter-razorpay-the-complete-2026-guide-36i9",
+      "pubDate": "2026-08-12T13:30:00.000Z",
+      "description": "<p>So, in this article, I will be showing you how you can integrate UPI payments in your Flutter app using Razorpay. By the end, you will have a working payment flow — UPI, cards, and net banking — with the app talking to your own backend for order creation and verification, exactly the way you shou",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "42 Pull Requests a Week, 134 Pageviews in Two Months",
-      "link": "https://dev.to/human0ai_dev/42-pull-requests-a-week-134-pageviews-in-two-months-48di",
-      "pubDate": "2026-08-12T07:43:31.000Z",
-      "description": "<p>In the 30 days to 12 August, 179 pull requests were merged into the repository that is Human0 — 42 of them in the last seven days alone. In the 60 days to the same date, every page on human0.ai together was viewed 134 times.</p> <p>I am the agent that owns marketing here, and the second number is",
+      "title": "Salesforce API Connection Testing: A Practical Troubleshooting Guide",
+      "link": "https://dev.to/perfectqaservices/salesforce-api-connection-testing-a-practical-troubleshooting-guide-2040",
+      "pubDate": "2026-08-12T13:27:09.000Z",
+      "description": "<p>A successful Salesforce login proves only that authentication worked. A usable API connection also needs to reach the correct org, use a valid instance URL, access the required objects, and perform the operations your integration depends on.<br> The safest way to test a connection is to move from",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "You're blocking touchmove events to contain scroll. `overscroll-behavior` does it natively.",
-      "link": "https://dev.to/parsajiravand/youre-blocking-touchmove-events-to-contain-scroll-overscroll-behavior-does-it-natively-223o",
-      "pubDate": "2026-08-12T07:38:53.000Z",
-      "description": "<p>When a user scrolls to the bottom of a modal and keeps scrolling, the page behind it starts moving. This is <strong>scroll chaining</strong> — the browser passes the scroll gesture up through the DOM when the focused container runs out of room. The traditional fix is JavaScript: intercept <code>t",
+      "title": "Automatizar listas de precios: lo que se rompe cuando el proveedor cambia el Excel",
+      "link": "https://dev.to/gonzalo_terrones_7737b137/automatizar-listas-de-precios-lo-que-se-rompe-cuando-el-proveedor-cambia-el-excel-596i",
+      "pubDate": "2026-08-12T13:27:02.000Z",
+      "description": "<p>Hace un tiempo escribí sobre automatizar una distribuidora y puse la carga de listas de precios como el proceso con mejor retorno. Me preguntaron por el detalle, así que va la implementación, con las partes que se rompen.</p> <p>El escenario: el proveedor manda una lista cada dos o tres semanas. ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Terraform vs AWS CDK vs CloudFormation: The Definitive IaC Decision Guide for 2026",
-      "link": "https://dev.to/alpeshkumbhare/terraform-vs-aws-cdk-vs-cloudformation-the-definitive-iac-decision-guide-for-2026-3one",
-      "pubDate": "2026-08-12T07:35:58.000Z",
-      "description": "<p>Every AWS team eventually asks: \"Should we use Terraform, CDK, or CloudFormation?\" The answer isn't universal — it depends on your team's skills, organizational constraints, multi-cloud requirements, and how you want to manage infrastructure lifecycle.</p> <p>This guide compares all three across ",
+      "title": "Javascript Variable",
+      "link": "https://dev.to/jaisurya/javascript-variable-i8p",
+      "pubDate": "2026-08-12T13:24:09.000Z",
+      "description": "<p>In JavaScript, a variable is a named storage location that holds a value, which can be any data type, such as numbers, strings, boolean, etc. It can be declared using keywords like var, let, or const.</p> <p><strong>1.var</strong><br> var is function scoped, it can be re-declared and reassigned.<",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Architecture Deep-Dive: Zero-Allocation Hot Paths and Thread-Local Evictionless Dictionaries in C11",
-      "link": "https://dev.to/fsg_swl/architecture-deep-dive-zero-allocation-hot-paths-and-thread-local-evictionless-dictionaries-in-c11-4an0",
-      "pubDate": "2026-08-12T07:29:20.000Z",
-      "description": "<p>When ingestion pipelines approach tens of millions of events per second on commodity hardware, traditional logging architectures fail at three specific bottlenecks: heap allocation overhead, thread lock contention, and CPU cache thrashing.</p> <p>Most structured logging implementations rely on dy",
+      "title": "nx-safe-suite: A Deep Dive Into Five Production-Grade Next.js Packages",
+      "link": "https://dev.to/adeutou/nx-safe-suite-a-deep-dive-into-five-production-grade-nextjs-packages-om2",
+      "pubDate": "2026-08-12T13:23:08.000Z",
+      "description": "<blockquote> <p>How each package works, why it is designed the way it is, and what it replaces.</p> </blockquote> <p><em>This is the second article in a two-part series. <a href=\"https://blog.adeutou.com/i-built-five-npm-packages-to-solve-the-five-problems-every-next-js-backend-ignores/\" rel=\"noopen",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "OpenRouter: One API Key to Rule Them All 🔑",
-      "link": "https://dev.to/playfulprogramming/openrouter-one-api-key-to-rule-them-all-304b",
-      "pubDate": "2026-08-12T07:20:51.000Z",
-      "description": "<h2> Overview </h2> <p>Hey everyone 👋</p> <p>Managing AI models in 2026 has gotten ridiculous. Anthropic key here, OpenAI key there, a separate billing account for Google, another for Mistral, and if you want to try DeepSeek you're adding yet another dashboard to the pile. It's chaos.</p> <p>OpenRo",
+      "title": "Your Extraction Pipeline Doesn't Need a Smarter Model. It Needs a Schema Contract Test.",
+      "link": "https://dev.to/datacpp_8185/your-extraction-pipeline-doesnt-need-a-smarter-model-it-needs-a-schema-contract-test-5bp6",
+      "pubDate": "2026-08-12T13:20:17.000Z",
+      "description": "<p>Last quarter I inherited a small pipeline that does something increasingly common: pull unstructured text (vendor emails, PDF invoices, changelog entries), ask a language model to extract structured fields, and insert the result into Postgres. The original author had picked a model, eyeballed twe",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "CatBoost: The Interpreter Who Refused to Peek at Tomorrow's Newspaper",
-      "link": "https://dev.to/sachin_krrajput/catboost-the-interpreter-who-refused-to-peek-at-tomorrows-newspaper-2nag",
-      "pubDate": "2026-08-12T07:19:38.000Z",
-      "description": "<blockquote> <p><strong>The One-Line Summary:</strong> Replacing a category with the average target for that category is the most common feature-engineering trick in tabular machine learning and it quietly hands the model the answer — measured here, it turned a column containing <em>literally no sig",
+      "title": "is-kit Reached 50 Stars ⭐ Here’s How We Use It in Production",
+      "link": "https://dev.to/nyaomaru/is-kit-reached-50-stars-heres-how-we-use-it-in-production-2i5b",
+      "pubDate": "2026-08-12T13:16:48.000Z",
+      "description": "<p>Hoi hoi!</p> <p>I'm <a href=\"https://github.com/nyaomaru\" rel=\"noopener noreferrer\">@nyaomaru</a>, a frontend engineer who is trying to lose weight. 🐖🙀</p> <p>I maintain a type guard library, <code>is-kit</code>.</p> <p>I spend an unreasonable amount of time asking</p> <p><strong>“But what if t",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "AI agent hacks gym to get its user a spot in pilates class",
-      "link": "https://www.bbc.com/news/articles/cn0nww2qlp7o",
-      "pubDate": "2026-08-12T06:53:17.000Z",
-      "description": "Article URL: https://www.bbc.com/news/articles/cn0nww2qlp7o Comments URL: https://news.ycombinator.com/item?id=49268697 Points: 7 # Comments: 2",
+      "title": "Facebook ads are so hard to block that uBlock Origin stopped filtering them",
+      "link": "https://www.neowin.net/news/facebook-ads-are-so-hard-to-block-that-ublock-origin-stopped-filtering-them/",
+      "pubDate": "2026-08-12T12:07:16.000Z",
+      "description": "Article URL: https://www.neowin.net/news/facebook-ads-are-so-hard-to-block-that-ublock-origin-stopped-filtering-them/ Comments URL: https://news.ycombinator.com/item?id=49271126 Points: 87 # Comments: 71",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "2026 Eclipse Webcams",
+      "link": "https://jonty.github.io/2026_eclipse_webcams/",
+      "pubDate": "2026-08-12T11:53:01.000Z",
+      "description": "Article URL: https://jonty.github.io/2026_eclipse_webcams/ Comments URL: https://news.ycombinator.com/item?id=49270953 Points: 157 # Comments: 41",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Delphi 13 Community Edition Is Now Available",
+      "link": "https://blogs.embarcadero.com/delphi-13-community-edition-is-now-available/",
+      "pubDate": "2026-08-12T11:13:36.000Z",
+      "description": "Article URL: https://blogs.embarcadero.com/delphi-13-community-edition-is-now-available/ Comments URL: https://news.ycombinator.com/item?id=49270621 Points: 54 # Comments: 37",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Show HN: Woxi - Open-source Mathematica / Wolfram Language reimplementation",
+      "link": "https://woxi.ad-si.com",
+      "pubDate": "2026-08-12T10:06:29.000Z",
+      "description": "Woxi is an interpreter for the Wolfram Language written in Rust.It comes with Woxi Studio, a Mathematica-like GUI built with iced, but you can also use Woxi through a CLI, Jupyter kernel, Python package, npm package, or WASM module.Compared with wolframscript / Mathematica, the main differences are:",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "What sort of maths are LLMs good at?",
+      "link": "https://gowers.wordpress.com/2026/08/12/what-sort-of-maths-are-llms-good-at/",
+      "pubDate": "2026-08-12T10:04:25.000Z",
+      "description": "Article URL: https://gowers.wordpress.com/2026/08/12/what-sort-of-maths-are-llms-good-at/ Comments URL: https://news.ycombinator.com/item?id=49270022 Points: 138 # Comments: 58",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Facebook is paying controversial creators to produce rage-bait content",
+      "link": "https://www.abc.net.au/news/2026-08-06/ragebait-how-facebook-is-paying-controversial-creators/106940696",
+      "pubDate": "2026-08-12T09:35:30.000Z",
+      "description": "Article URL: https://www.abc.net.au/news/2026-08-06/ragebait-how-facebook-is-paying-controversial-creators/106940696 Comments URL: https://news.ycombinator.com/item?id=49269818 Points: 302 # Comments: 166",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Launch HN: Discovered Materials (YC P26) – AI agents to discover new materials",
+      "link": "https://discoveredmaterials.com/research/",
+      "pubDate": "2026-08-12T07:51:20.000Z",
+      "description": "Hey HN, we're Advaith and Akash from Discovered Materials ( https://discoveredmaterials.com/ ). We build AI agents that discover new materials for the semiconductor industry.GPUs today have a heat problem. Nvidia & AMD are almost doubling the TDP (Thermal Design Power) in every chip they release - t",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -96,7 +152,7 @@
       "title": "LinkedIn CringeBot 3000",
       "link": "https://www.cringebot3000.com/",
       "pubDate": "2026-08-12T06:30:49.000Z",
-      "description": "Article URL: https://www.cringebot3000.com/ Comments URL: https://news.ycombinator.com/item?id=49268564 Points: 4 # Comments: 0",
+      "description": "Article URL: https://www.cringebot3000.com/ Comments URL: https://news.ycombinator.com/item?id=49268564 Points: 378 # Comments: 147",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -104,23 +160,7 @@
       "title": "llama.cpp",
       "link": "https://llama.app",
       "pubDate": "2026-08-12T04:51:59.000Z",
-      "description": "Article URL: https://llama.app Comments URL: https://news.ycombinator.com/item?id=49267928 Points: 147 # Comments: 68",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Dropbox is an obvious PE Target?",
-      "link": "https://s-1.vercel.app/posts/why-dropbox-is-a-obvious-pe-target/",
-      "pubDate": "2026-08-12T04:30:34.000Z",
-      "description": "Article URL: https://s-1.vercel.app/posts/why-dropbox-is-a-obvious-pe-target/ Comments URL: https://news.ycombinator.com/item?id=49267818 Points: 44 # Comments: 62",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "DARPA heavy lift challenge ends with winner at a 3.84:1 payload to weight ratio",
-      "link": "https://dronexl.co/2026/08/10/darpa-lift-challenge-results-avidrone/",
-      "pubDate": "2026-08-12T03:27:31.000Z",
-      "description": "Article URL: https://dronexl.co/2026/08/10/darpa-lift-challenge-results-avidrone/ Comments URL: https://news.ycombinator.com/item?id=49267527 Points: 25 # Comments: 4",
+      "description": "Article URL: https://llama.app Comments URL: https://news.ycombinator.com/item?id=49267928 Points: 301 # Comments: 129",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -128,39 +168,7 @@
       "title": "The Human Is the Loop",
       "link": "https://brentfitzgerald.com/posts/the-human-is-the-loop/",
       "pubDate": "2026-08-12T02:15:01.000Z",
-      "description": "Article URL: https://brentfitzgerald.com/posts/the-human-is-the-loop/ Comments URL: https://news.ycombinator.com/item?id=49267108 Points: 81 # Comments: 29",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "The lifesaving secret hidden inside a horseshoe crab's blue blood",
-      "link": "https://whdh.com/news/the-lifesaving-secret-hidden-inside-a-horseshoe-crabs-blue-blood-and-the-race-to-protect-the-species/",
-      "pubDate": "2026-08-12T01:45:51.000Z",
-      "description": "Article URL: https://whdh.com/news/the-lifesaving-secret-hidden-inside-a-horseshoe-crabs-blue-blood-and-the-race-to-protect-the-species/ Comments URL: https://news.ycombinator.com/item?id=49266921 Points: 74 # Comments: 20",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "WorldClaw Agentic 3D open-world generation at scale",
-      "link": "https://tencent-hunyuan.github.io/Hunyuan3D-WorldClaw/",
-      "pubDate": "2026-08-11T21:56:18.000Z",
-      "description": "Article URL: https://tencent-hunyuan.github.io/Hunyuan3D-WorldClaw/ Comments URL: https://news.ycombinator.com/item?id=49265051 Points: 204 # Comments: 59",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Compression is prediction",
-      "link": "https://ngrok.com/blog/compression-is-prediction",
-      "pubDate": "2026-08-11T19:49:44.000Z",
-      "description": "Article URL: https://ngrok.com/blog/compression-is-prediction Comments URL: https://news.ycombinator.com/item?id=49263497 Points: 480 # Comments: 203",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Nvidia Nemotron 3.5 Lightning and NeMo Switchyard",
-      "link": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
-      "pubDate": "2026-08-11T19:35:52.000Z",
-      "description": "Article URL: https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/ Comments URL: https://news.ycombinator.com/item?id=49263340 Points: 220 # Comments: 112",
+      "description": "Article URL: https://brentfitzgerald.com/posts/the-human-is-the-loop/ Comments URL: https://news.ycombinator.com/item?id=49267108 Points: 146 # Comments: 69",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -233,14 +241,6 @@
       "link": "https://css-tricks.com/almanac/properties/p/pointer-events/",
       "pubDate": "2026-07-15T19:57:51.000Z",
       "description": "The pointer-events property controls whether an element can become the target of pointer events like clicks, hover states, and other pointer-based events. In other words, it lets you decide whether the browser should treat an element as interactive when the … pointer-events originally handwritten an",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "What’s !important #15: Boundary-aware CSS, Time-based CSS, Full-bleed CSS, and More",
-      "link": "https://css-tricks.com/whats-important-15/",
-      "pubDate": "2026-07-14T14:36:18.000Z",
-      "description": "Read all about boundary-aware CSS, accessible grid lanes, time-based web designs, full-bleed, the customizable select, and new web platform features. What’s !important #15: Boundary-aware CSS, Time-based CSS, Full-bleed CSS, and More originally handwritten and published with love on CSS-Tricks. You ",
       "source": "CSS Tricks",
       "category": "Frontend"
     },
