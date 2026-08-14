@@ -1,248 +1,173 @@
 {
-  "generatedAt": "2026-08-14T13:43:19.581Z",
+  "generatedAt": "2026-08-14T19:14:13.569Z",
   "sourceCount": 4,
-  "successCount": 4,
-  "errors": [],
+  "successCount": 3,
+  "errors": [
+    {
+      "source": "CSS Tricks",
+      "error": "HTTP 415 Unsupported Media Type"
+    }
+  ],
   "items": [
     {
-      "title": "My Fanless Mac Skewed My Benchmark by 54% — Thermal Throttling and Round-Robin Measurement",
-      "link": "https://dev.to/_156a59a8566fe532e165/my-fanless-mac-skewed-my-benchmark-by-54-thermal-throttling-and-round-robin-measurement-b45",
-      "pubDate": "2026-08-14T13:41:36.000Z",
-      "description": "<p>While measuring how my search engine scales with thread count (results in the <a href=\"https://dev.to/_156a59a8566fe532e165/how-many-search-threads-is-the-right-number-i-measured-089-billion-lines-at-1-16-threads-47ni\">companion article</a>, I threw away my entire first data set. Here's why — and",
+      "title": "Woof Are You, Really? A Dog Personality Quiz Built in a Weekend",
+      "link": "https://dev.to/lanthanum89/woof-are-you-really-a-dog-personality-quiz-built-in-a-weekend-4ep6",
+      "pubDate": "2026-08-14T19:14:03.000Z",
+      "description": "<p><em>This is a submission for <a href=\"https://dev.to/challenges/weekend-2026-08-13\">Weekend Challenge: Dog Days Edition</a></em></p> <h2> What I Built </h2> <p><strong>Which Dog Are You Today?</strong> — a tiny, silly personality quiz. Five daft questions about your Saturday mornings, your feelin",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "# Java Meets AI: Practical Integration Patterns for Modern Enterprises",
-      "link": "https://dev.to/ubhrat_001/-java-meets-ai-practical-integration-patterns-for-modern-enterprises-148e",
-      "pubDate": "2026-08-14T13:34:36.000Z",
-      "description": "<p>Hello, DEV community! This is my very first post here. I've been exploring the intersection of traditional enterprise software and modern artificial intelligence, and to kick things off, I want to share a summary of a great paper I recently read: \"Java Meets AI: Practical Integration Patterns for",
+      "title": "Build a Federated Learning System on Android with Kotlin",
+      "link": "https://dev.to/vmodal_ai/build-a-federated-learning-system-on-android-with-kotlin-53j0",
+      "pubDate": "2026-08-14T19:10:43.000Z",
+      "description": "<h1> Build a Federated Learning System on Android with Kotlin </h1> <p>Traditional machine learning often requires collecting training data on a central server. Federated learning takes a different approach: the model is sent to participating devices, training happens locally, and devices send model",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Why Did AWS Release Yet Another Vector Store?",
-      "link": "https://dev.to/aws-builders/why-did-aws-release-yet-another-vector-store-1pd7",
-      "pubDate": "2026-08-14T13:32:45.000Z",
-      "description": "<p>When AWS announced DynamoDB Vector Search last week, my first thought was... didn't AWS just launch S3 Vectors?</p> <p>I mean, S3 Vectors went GA back in December. It's been less than a year, and now we have another service that stores vectors and does similarity search. I'll be honest, I was a b",
+      "title": "Building Custom Gradle Plugins for Android Projects",
+      "link": "https://dev.to/vmodal_ai/building-custom-gradle-plugins-for-android-projects-3jja",
+      "pubDate": "2026-08-14T19:09:52.000Z",
+      "description": "<h1> Building Custom Gradle Plugins for Android Projects </h1> <p>Large Android repositories often contain dozens of modules with repeated Gradle configuration.</p> <p>Custom Gradle convention plugins allow teams to centralize build rules and apply them consistently.</p> <p>Instead of repeating conf",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "AWS Managed Microsoft AD - integração com FortiGate",
-      "link": "https://dev.to/aws-builders/no-aws-managed-microsoft-ad-integracao-com-fortigate-35i6",
-      "pubDate": "2026-08-14T13:32:14.000Z",
-      "description": "<h2> 1. Objetivo </h2> <p>Migrar a autenticação LDAP do FortiGate do cliente (hoje em texto claro na porta 389, via túnel VPN) para <strong>LDAPS na porta 636</strong>, com criptografia TLS ponta a ponta, mantendo o mesmo diretório AWS Managed Microsoft AD.</p> <p><strong>Resultado esperado:</strong",
+      "title": "Kotlin Compiler Plugins &amp; KSP: Building Code Generation Tools",
+      "link": "https://dev.to/vmodal_ai/kotlin-compiler-plugins-ksp-building-code-generation-tools-4nde",
+      "pubDate": "2026-08-14T19:09:19.000Z",
+      "description": "<h1> Kotlin Compiler Plugins &amp; KSP: Building Code Generation Tools </h1> <p>Large Kotlin applications often contain repetitive code for serialization, dependency injection, adapters, database mappings, and API models.</p> <p>Code generation can automate this work while keeping generated code con",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Flutter Cashfree Integration Step-by-Step",
-      "link": "https://dev.to/mryadavgulshan/flutter-cashfree-integration-step-by-step-3jaa",
-      "pubDate": "2026-08-14T13:30:00.000Z",
-      "description": "<p>So, in this article, I will be showing you how you can integrate Cashfree Payments into your Flutter app, step by step. Cashfree is a solid choice for Indian payments — first-class UPI, cards, and net banking, plus the strongest UPI Autopay story for subscriptions — and its Flutter SDK (<code>cas",
+      "title": "Build an AI-Powered Document Scanner and OCR Pipeline with Kotlin",
+      "link": "https://dev.to/vmodal_ai/build-an-ai-powered-document-scanner-and-ocr-pipeline-with-kotlin-3e8b",
+      "pubDate": "2026-08-14T19:09:08.000Z",
+      "description": "<h1> Build an AI-Powered Document Scanner and OCR Pipeline with Kotlin </h1> <p>A document scanner can do much more than capture an image. Modern Android applications can detect document boundaries, correct perspective, recognize text, classify documents, extract fields, and generate summaries.</p> ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "TinocLang: v0.1.0 changelogs",
-      "link": "https://dev.to/prathmesh_pro/tinoclang-v010-changelogs-2h52",
-      "pubDate": "2026-08-14T13:27:53.000Z",
-      "description": "<h2> <a href=\"https://github.com/tinoc-lang/tinoc/releases/tag/v0.1.0\" rel=\"noopener noreferrer\">0.1.0</a>: 2026-08-05 </h2> <p>First public release. Tinoc transpiles to <strong>C11</strong> and ships a CLI with<br> <code>build</code>, <code>run</code>, and <code>check</code> subcommands (<code>-l/-",
+      "title": "Beyond the Chatbot: Why the Future of Workplace AI Needs a \"Chief of Staff\" Control Plane",
+      "link": "https://dev.to/yuens1002/beyond-the-chatbot-why-the-future-of-workplace-ai-needs-a-chief-of-staff-control-plane-2jhm",
+      "pubDate": "2026-08-14T19:09:02.000Z",
+      "description": "<p>Today, teams deploying AI across business operations keep hitting the same wall: <strong>agent sprawl</strong>. Organizations end up with siloed AI tools — one for customer support, another for lead scoring, another for code verification — operating in isolation with fragmented context, unpredict",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The API Endpoint Explosion: What If AI Agents Could use SQL on User Data Directly?",
-      "link": "https://dev.to/slipxnot/the-api-endpoint-explosion-what-if-ai-agents-could-query-user-data-directly-56dp",
-      "pubDate": "2026-08-14T13:25:26.000Z",
-      "description": "<p>Imagine you're architecting an MCP server for a financial platform.</p> <p>A customer connects their AI agent and asks:</p> <blockquote> <p>\"What's my current account balance?\"</p> </blockquote> <p>Simple.</p> <p>You expose an API:<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"hi",
+      "title": "Build a RAG-Based AI Assistant in Kotlin with a Vector Database",
+      "link": "https://dev.to/vmodal_ai/build-a-rag-based-ai-assistant-in-kotlin-with-a-vector-database-4eab",
+      "pubDate": "2026-08-14T19:08:20.000Z",
+      "description": "<h1> Build a RAG-Based AI Assistant in Kotlin with a Vector Database </h1> <p>A normal LLM answers questions from information contained in its model. A Retrieval-Augmented Generation (RAG) system adds an external knowledge layer so an application can answer questions using private or frequently chan",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How We Reduced Our SQLite Database from 8.7GB to 3.8GB Without Downtime",
-      "link": "https://dev.to/xxxn3m3s1sxxx/how-we-reduced-our-sqlite-database-from-87gb-to-38gb-without-downtime-187g",
-      "pubDate": "2026-08-14T13:23:24.000Z",
-      "description": "<h1> How We Reduced Our SQLite Database from 8.7GB to 3.8GB Without Downtime </h1> <p>Our OpenCode session database had grown to 8.7GB — 1.26 million event rows, most of them redundant state updates. Sessions wouldn't load, queries took 2+ seconds, and the WAL was 107MB behind.</p> <p>Here's how we ",
+      "title": "Real-Time Object Detection and Tracking with Kotlin and YOLO on Android",
+      "link": "https://dev.to/vmodal_ai/real-time-object-detection-and-tracking-with-kotlin-and-yolo-on-android-3p78",
+      "pubDate": "2026-08-14T19:07:04.000Z",
+      "description": "<h1> Real-Time Object Detection and Tracking with Kotlin and YOLO on Android </h1> <p>Real-time computer vision is one of the most useful applications of machine learning on mobile devices. Android phones provide cameras, GPU acceleration, and enough processing power to run optimized detection model",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "SLURP. — A Bowl Worth Stopping For",
-      "link": "https://dev.to/nandan_das_369/slurp-a-bowl-worth-stopping-for-3c99",
-      "pubDate": "2026-08-14T13:21:20.000Z",
-      "description": "<p><em>This is a submission for <a href=\"https://dev.to/challenges/frontend-2026-07-29\">Frontend Challenge - Comfort Food Edition, CSS Art</a>.</em></p> <blockquote> <p>A bowl is not a meal. It is an instruction.</p> </blockquote> <h2> Inspiration </h2> <p>Tonkotsu ramen — specifically the version y",
+      "title": "Build an On-Device LLM Chatbot with Kotlin and TensorFlow Lite",
+      "link": "https://dev.to/vmodal_ai/build-an-on-device-llm-chatbot-with-kotlin-and-tensorflow-lite-36d3",
+      "pubDate": "2026-08-14T19:06:39.000Z",
+      "description": "<h1> Build an On-Device LLM Chatbot with Kotlin and TensorFlow Lite </h1> <p>Large language models are usually accessed through cloud APIs, but modern Android devices can also run smaller AI models locally. This makes it possible to build applications that work offline and keep sensitive prompts on ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I Built PasteDB CLI in 1 Day — Upload Files to the Web with pdb create 🚀",
-      "link": "https://dev.to/aditya_sorathiya_069252f4/i-built-pastedb-cli-in-1-day-upload-files-to-the-web-with-pdb-create-k0a",
-      "pubDate": "2026-08-14T13:20:33.000Z",
-      "description": "<h2> Want to do this? </h2> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight shell\"><code>pdb create app.py </code></pre> </div> <p>…and have your file uploaded online with a shareable PasteDB link returned instantly?</p> <p>Now it's possible. 🚀</p> <p>I built PasteDB CLI in just 1 d",
+      "title": "Kotlin Multimodule Android Architecture for Large-Scale Applications",
+      "link": "https://dev.to/vmodal_ai/kotlin-multimodule-android-architecture-for-large-scale-applications-1fh1",
+      "pubDate": "2026-08-14T19:06:12.000Z",
+      "description": "<h1> Kotlin Multimodule Android Architecture for Large-Scale Applications </h1> <p>As an Android application grows, a single Gradle module becomes harder to maintain. Build times increase, dependencies become tightly coupled, and unrelated features can accidentally depend on each other.</p> <p>A mul",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "France's tax authority had data stolen on 680k taxpayers",
-      "link": "https://korben.info/en/france-tax-authority-data-breach-680000-taxpayers.html",
-      "pubDate": "2026-08-14T13:18:53.000Z",
-      "description": "Article URL: https://korben.info/en/france-tax-authority-data-breach-680000-taxpayers.html Comments URL: https://news.ycombinator.com/item?id=49298303 Points: 29 # Comments: 9",
+      "title": "Show HN: Mole – Deep research agent for your terminal",
+      "link": "https://github.com/lajosdeme/mole",
+      "pubDate": "2026-08-14T18:52:48.000Z",
+      "description": "Doing research with agents is fun until they blow way past budget, jumble the sources, and don't even give you the best possible answer, just sound confident.And if you want to run some research task on local data - you have no idea where your data ends up after the prompt consumes it.So I built thi",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Dear people who work at the airport",
-      "link": "https://life-after-ssri.bearblog.dev/dear-people-who-work-at-the-airport/",
-      "pubDate": "2026-08-14T12:23:22.000Z",
-      "description": "Article URL: https://life-after-ssri.bearblog.dev/dear-people-who-work-at-the-airport/ Comments URL: https://news.ycombinator.com/item?id=49297801 Points: 24 # Comments: 9",
+      "title": "Show HN: Embed a real Linux terminal on your website",
+      "link": "https://sandbox.bio/training/embed",
+      "pubDate": "2026-08-14T18:51:27.000Z",
+      "description": "Article URL: https://sandbox.bio/training/embed Comments URL: https://news.ycombinator.com/item?id=49303027 Points: 7 # Comments: 1",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Why does Opus 5 feel worse to work with?",
-      "link": "https://mun-logadan.github.io/why-does-opus-5-feel-worse/",
-      "pubDate": "2026-08-14T10:12:48.000Z",
-      "description": "Article URL: https://mun-logadan.github.io/why-does-opus-5-feel-worse/ Comments URL: https://news.ycombinator.com/item?id=49296740 Points: 240 # Comments: 225",
+      "title": "A Contract-Grade Verifier for LLM-Generated GPU Kernels",
+      "link": "https://arxiv.org/abs/2608.12700",
+      "pubDate": "2026-08-14T16:57:14.000Z",
+      "description": "Article URL: https://arxiv.org/abs/2608.12700 Comments URL: https://news.ycombinator.com/item?id=49301417 Points: 12 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "DeepSeek peak/off-peak pricing update",
-      "link": "https://api-docs.deepseek.com/news/news260813/",
-      "pubDate": "2026-08-14T09:55:33.000Z",
-      "description": "Article URL: https://api-docs.deepseek.com/news/news260813/ Comments URL: https://news.ycombinator.com/item?id=49296627 Points: 114 # Comments: 52",
+      "title": "Count Binface receives over a quarter of votes in Clacton by-election",
+      "link": "https://www.bbc.com/news/articles/ce97mm3vvemo",
+      "pubDate": "2026-08-14T16:45:49.000Z",
+      "description": "Article URL: https://www.bbc.com/news/articles/ce97mm3vvemo Comments URL: https://news.ycombinator.com/item?id=49301260 Points: 261 # Comments: 168",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Ruby 4.0 Universal RCE Deserialization Gadget Chain",
-      "link": "https://www.elttam.com/blog/ruby-4-0-universal-rce-deserialization-gadget-chain",
-      "pubDate": "2026-08-14T06:09:04.000Z",
-      "description": "Article URL: https://www.elttam.com/blog/ruby-4-0-universal-rce-deserialization-gadget-chain Comments URL: https://news.ycombinator.com/item?id=49295238 Points: 54 # Comments: 14",
+      "title": "Show HN: LuaCAD – Parametric CAD Scripted in Lua",
+      "link": "https://luacad.ad-si.com",
+      "pubDate": "2026-08-14T16:43:22.000Z",
+      "description": "LuaCAD models solids in Lua rather than the OpenSCAD language, with operator overloading for CSG (`a + b`, `a - b`, `a * b`).It ships with a CLI and a desktop app, including a preview area and a text editor.I've always been a big fan of OpenSCAD, but the SCAD language itself is unfortunately quite c",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "GLM-5.3: Frontier coding with emergent cyber capabilities",
-      "link": "https://z.ai/blog/glm-5.3",
-      "pubDate": "2026-08-14T05:19:59.000Z",
-      "description": "Article URL: https://z.ai/blog/glm-5.3 Comments URL: https://news.ycombinator.com/item?id=49294997 Points: 707 # Comments: 354",
+      "title": "Maximizing the value of your Claude Code sessions",
+      "link": "https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions",
+      "pubDate": "2026-08-14T16:15:21.000Z",
+      "description": "Article URL: https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions Comments URL: https://news.ycombinator.com/item?id=49300800 Points: 66 # Comments: 34",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Show HN: Lumabri – Run Moe Models on a P2P Swarm with Colibri",
-      "link": "https://github.com/JustVugg/lumabri",
-      "pubDate": "2026-08-14T00:47:04.000Z",
-      "description": "Article URL: https://github.com/JustVugg/lumabri Comments URL: https://news.ycombinator.com/item?id=49293523 Points: 38 # Comments: 14",
+      "title": "RustDesk now supports true unattended remote access on Wayland",
+      "link": "https://rustdesk.com/blog/unattended-remote-access-wayland/",
+      "pubDate": "2026-08-14T16:12:52.000Z",
+      "description": "Article URL: https://rustdesk.com/blog/unattended-remote-access-wayland/ Comments URL: https://news.ycombinator.com/item?id=49300759 Points: 108 # Comments: 46",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Bluesky Protocol Services",
-      "link": "https://atproto.com/blog/introducing-bluesky-protocol-services",
-      "pubDate": "2026-08-14T00:14:28.000Z",
-      "description": "Article URL: https://atproto.com/blog/introducing-bluesky-protocol-services Comments URL: https://news.ycombinator.com/item?id=49293324 Points: 187 # Comments: 52",
+      "title": "France's top court blocks social media ban for under-15s",
+      "link": "https://www.reuters.com/world/frances-top-court-rules-social-media-ban-curtails-freedom-expression-2026-08-14/",
+      "pubDate": "2026-08-14T16:06:49.000Z",
+      "description": "Article URL: https://www.reuters.com/world/frances-top-court-rules-social-media-ban-curtails-freedom-expression-2026-08-14/ Comments URL: https://news.ycombinator.com/item?id=49300671 Points: 138 # Comments: 79",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Blog about things you don't understand yet",
-      "link": "https://www.seangoedecke.com/blog-about-things-you-dont-understand-yet/",
-      "pubDate": "2026-08-13T23:39:33.000Z",
-      "description": "Article URL: https://www.seangoedecke.com/blog-about-things-you-dont-understand-yet/ Comments URL: https://news.ycombinator.com/item?id=49293087 Points: 135 # Comments: 41",
+      "title": "RayforceDB – a pure C analytics database with a Lisp-like syntax",
+      "link": "https://rayforcedb.com/",
+      "pubDate": "2026-08-14T16:02:20.000Z",
+      "description": "Article URL: https://rayforcedb.com/ Comments URL: https://news.ycombinator.com/item?id=49300615 Points: 25 # Comments: 14",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Understanding is the new bottleneck",
-      "link": "https://www.geoffreylitt.com/2026/07/02/understanding-is-the-new-bottleneck",
-      "pubDate": "2026-08-13T18:47:19.000Z",
-      "description": "Article URL: https://www.geoffreylitt.com/2026/07/02/understanding-is-the-new-bottleneck Comments URL: https://news.ycombinator.com/item?id=49290299 Points: 378 # Comments: 205",
+      "title": "AI by Hand",
+      "link": "https://www.byhand.ai/",
+      "pubDate": "2026-08-14T15:58:59.000Z",
+      "description": "Article URL: https://www.byhand.ai/ Comments URL: https://news.ycombinator.com/item?id=49300568 Points: 77 # Comments: 9",
       "source": "Hacker News",
       "category": "Tech News"
-    },
-    {
-      "title": "Blocked aria-hidden: The Warning is Right, and Every Fix You&#8217;ve Found is Wrong",
-      "link": "https://css-tricks.com/blocked-aria-hidden-fix/",
-      "pubDate": "2026-08-12T13:43:56.000Z",
-      "description": "The warning is correct. And the recommended fixes you've probably seen are wrong. Here's what you can do instead to properly fix the issue. Blocked aria-hidden: The Warning is Right, and Every Fix You’ve Found is Wrong originally handwritten and published with love on CSS-Tricks. You should really g",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Animating CSS border-image",
-      "link": "https://css-tricks.com/animating-css-border-image/",
-      "pubDate": "2026-08-10T15:58:47.000Z",
-      "description": "Border images are an overlooked feature. One neat fact is that border image slices can run across entire borders on an element, and animating it creates beautiful effects. Animating CSS border-image originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "SmashingConf Freiburg 2026, September 7-10",
-      "link": "https://css-tricks.com/smashingconf-freiburg-2026-september-7-10/",
-      "pubDate": "2026-08-10T15:57:39.000Z",
-      "description": "Smashing Magazine’s in-person conferences are back and returning to the wonderful city of Freiburg next month, September 7–10. SmashingConf Freiburg 2026, September 7-10 originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Using and Styling the Dialog Element",
-      "link": "https://css-tricks.com/using-and-styling-the-dialog-element/",
-      "pubDate": "2026-08-07T14:06:43.000Z",
-      "description": "There's a lot of nuance to the <dialog> element, a seemingly little piece of web architecture. I've got some notes from digging into it. Using and Styling the Dialog Element originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "2026 State of CSS, Devs Surveys",
-      "link": "https://css-tricks.com/2026-state-of-css-devs-surveys/",
-      "pubDate": "2026-08-06T15:54:52.000Z",
-      "description": "A few notes and takeaways from the 2026 State of CSS survey results, including a nice CSS-Tricks cameo! 2026 State of CSS, Devs Surveys originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Gap Decorations Are Now Available, Here’s What’s New",
-      "link": "https://css-tricks.com/css-gap-decorations-now-available/",
-      "pubDate": "2026-08-03T15:53:20.000Z",
-      "description": "Today, with CSS gap decorations fully supported in Chrome and Edge, starting with version 149, you can now very easily style gaps, and with a lot of control. Gap Decorations Are Now Available, Here’s What’s New originally handwritten and published with love on CSS-Tricks. You should really get the n",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Get Ready For the Powerful CSS border-shape Property!",
-      "link": "https://css-tricks.com/get-ready-for-the-powerful-css-border-shape-property/",
-      "pubDate": "2026-07-31T15:14:00.000Z",
-      "description": "We recently got the shape() function and corner-shape property. What else could we possibly need as far as making shapes in CSS? Let me tell you: the border-shape property! Get Ready For the Powerful CSS border-shape Property! originally handwritten and published with love on CSS-Tricks. You should ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "What’s !important #16: sibling-index() Animations, Use Cases for the infinity Keyword, Container Stuck Queries, and More",
-      "link": "https://css-tricks.com/whats-important-16/",
-      "pubDate": "2026-07-31T14:06:21.000Z",
-      "description": "The soon-Baseline sibling-index() function for animations, CSS and the 2026 FIFA World Cup, use cases for the infinity keyword, container \"stuck\" queries, and more. What’s !important #16: sibling-index() Animations, Use Cases for the infinity Keyword, Container Stuck Queries, and More originally han",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "writing-mode",
-      "link": "https://css-tricks.com/almanac/properties/w/writing-mode/",
-      "pubDate": "2026-07-21T09:39:10.000Z",
-      "description": "The writing-mode CSS property sets whether lines of text are laid out horizontally or vertically, and the direction in which blocks and lines progress. .element { writing-mode: vertical-rl; } This is most useful in languages such as Chinese, Japanese or … writing-mode originally handwritten and publ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "pointer-events",
-      "link": "https://css-tricks.com/almanac/properties/p/pointer-events/",
-      "pubDate": "2026-07-15T19:57:51.000Z",
-      "description": "The pointer-events property controls whether an element can become the target of pointer events like clicks, hover states, and other pointer-based events. In other words, it lets you decide whether the browser should treat an element as interactive when the … pointer-events originally handwritten an",
-      "source": "CSS Tricks",
-      "category": "Frontend"
     },
     {
       "title": "Meet the HTB Profile: all your skills, in one place",
