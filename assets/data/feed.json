@@ -1,102 +1,118 @@
 {
-  "generatedAt": "2026-08-14T02:46:26.417Z",
+  "generatedAt": "2026-08-14T07:50:41.222Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "Why AI Agents Fail in Production — and How I Fixed Each Failure",
-      "link": "https://dev.to/mryadavgulshan/why-ai-agents-fail-in-production-and-how-i-fixed-each-failure-577a",
-      "pubDate": "2026-08-14T02:30:00.000Z",
-      "description": "<p><em>The contrarian take: most agent failures are not the model's fault. They are architectural. Here is what I have debugged in real deployments and the exact fix for each.</em></p> <p>Here is an opinion that has cost me clients and then won them back: <strong>most AI agents fail in production be",
+      "title": "The rounding bug that almost shipped in a payroll calculator",
+      "link": "https://dev.to/saurabh_sharma_7a9a61107d/the-rounding-bug-that-almost-shipped-in-a-payroll-calculator-jm3",
+      "pubDate": "2026-08-14T07:47:02.000Z",
+      "description": "<p>I've been building <a href=\"https://paytimehub.com\" rel=\"noopener noreferrer\">PayTimeHub</a>, a set of free payroll and pay calculators — paycheck withholding, raise calculator, hours-to-decimal, time and a half. Money math looks trivial until you actually ship it, and one bug almost got through ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Why NocoBase rejects your .doc and .xls uploads",
-      "link": "https://dev.to/stale_orbit/why-nocobase-rejects-your-doc-and-xls-uploads-4o53",
-      "pubDate": "2026-08-14T02:24:50.000Z",
-      "description": "<p>NocoBase file storage lets you restrict uploads to a list of allowed MIME types. Someone on the official forum filled that list in correctly — <code>application/pdf</code>, <code>application/msword</code>, <code>application/vnd.ms-excel</code>, and the two OOXML types — and found that <strong>leg",
+      "title": "Translating Culinary Comfort into Pure CSS Art",
+      "link": "https://dev.to/inushathathsara/translating-culinary-comfort-into-pure-css-art-39gg",
+      "pubDate": "2026-08-14T07:45:45.000Z",
+      "description": "<p><em>This is a submission for <a href=\"https://dev.to/challenges/frontend-2026-07-29\">Frontend Challenge - Comfort Food Edition, CSS Art</a>.</em></p> <h2> Inspiration </h2> <p>Ramen is the ultimate universal comfort food: rich, layered, and crafted with meticulous attention to detail. This projec",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Architecting Offline Geofencing Without Battery Drain: The Muffle Journey",
-      "link": "https://dev.to/haseebthedev0/architecting-offline-geofencing-without-battery-drain-the-muffle-journey-4f0a",
-      "pubDate": "2026-08-14T02:22:25.000Z",
-      "description": "<p>It happened during a quiet afternoon at the local library. I was deep in a focused debugging session when my phone suddenly blared a loud, jarring ringtone. Every head in the room turned toward me. My face burned with immediate, intense embarrassment. I had forgotten to silence my device after le",
+      "title": "Serverless Bill Shock: Tracking Edge Function and Database Expirations (Vercel, Supabase, Netlify, Neon)",
+      "link": "https://dev.to/instarenewal/serverless-bill-shock-tracking-edge-function-and-database-expirations-vercel-supabase-netlify-1ca8",
+      "pubDate": "2026-08-14T07:45:36.000Z",
+      "description": "<p>Article image<br> Serverless Bill Shock: Tracking Edge Function and Database Expirations (Vercel, Supabase, Netlify, Neon)<br> For over two decades, agency hosting economics were beautifully predictable. You bought a reseller web server or dedicated cPanel account for $50 a month, crammed 30 clie",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Two thirds of my architecture document wasn't enforceable",
-      "link": "https://dev.to/kaleemn/two-thirds-of-my-architecture-document-wasnt-enforceable-am6",
-      "pubDate": "2026-08-14T02:21:30.000Z",
-      "description": "<p>I keep an architecture document for a platform I've been building for months. Not diagrams. Just decisions in plain English. \"This system fulfills orders, it never creates them.\" \"External integrations log and continue, they never block the core workflow.\"</p> <p>I keep it because I build with a ",
+      "title": "AI Voice Agents Need Improvement in Handling Natural Human Interruptions During Conversations",
+      "link": "https://dev.to/natcher/ai-voice-agents-need-improvement-in-handling-natural-human-interruptions-during-conversations-1lf3",
+      "pubDate": "2026-08-14T07:45:35.000Z",
+      "description": "<h2> The Interruption Challenge: Uncovering the Gap in AI Voice Agent Performance </h2> <p>While AI voice agents have demonstrated impressive capabilities in controlled demonstrations, their effectiveness in real-world customer interactions hinges on a critical, often overlooked factor: handling nat",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Payment system security: protecting money, keys, and trust",
-      "link": "https://dev.to/weston_carnes_d580b505e0c/payment-system-security-protecting-money-keys-and-trust-i52",
-      "pubDate": "2026-08-14T02:16:00.000Z",
-      "description": "<blockquote> <p>Cross-post. Original: <strong><a href=\"https://www.stellarbytecapital.com/blog/payment-system-security/\" rel=\"noopener noreferrer\">stellarbytecapital.com/blog/payment-system-security</a></strong></p> </blockquote> <p>A payment system is a target from the first day it touches real mon",
+      "title": "# I Built a Linux System-Intelligence Tool Using Bash, C and C#",
+      "link": "https://dev.to/yathartsalil/-i-built-a-linux-system-intelligence-tool-using-bash-c-and-c-bl1",
+      "pubDate": "2026-08-14T07:40:58.000Z",
+      "description": "<p>I wanted to build something that would force me to work with Linux at a level deeper than simply running commands in a terminal.</p> <p>That became <strong>LinuxGuard</strong>.</p> <p>LinuxGuard is a small cross-language Linux system-intelligence project built using <strong>Bash, C, and C#/.NET</",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The Write Policy Is the Hard Part: Promotion Pipelines for Agent Memory",
-      "link": "https://dev.to/futhgar/the-write-policy-is-the-hard-part-promotion-pipelines-for-agent-memory-5mc",
-      "pubDate": "2026-08-14T02:15:48.000Z",
-      "description": "<p>Most \"agent memory\" tutorials stop at the retrieval side. They show you a Qdrant collection, a <code>qdrant-find</code> call, an embedding model, and call it done. Retrieval is the easy 20%. The part that quietly eats your week is the write-path: deciding what deserves to be written, sanitizing i",
+      "title": "Rendere “permanente” un hover con una sola riga di CSS (senza JavaScript)",
+      "link": "https://dev.to/frontendfacile/rendere-permanente-un-hover-con-una-sola-riga-di-css-senza-javascript-3bbm",
+      "pubDate": "2026-08-14T07:40:38.000Z",
+      "description": "<blockquote> <p>Un trucco con transition-duration e calc() per far sì che lo stato ritorni… in “infinito” tempo.</p> </blockquote> <p>In UI e microinterazioni capita spesso di voler ottenere un effetto “sticky”: passi sopra un elemento, lui cambia stile… e quando te ne vai rimane così. Magari per se",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I Built a Free Online Tools Website for Developers",
-      "link": "https://dev.to/chenshanyue/i-built-a-free-online-tools-website-for-developers-1nng",
-      "pubDate": "2026-08-14T02:06:19.000Z",
-      "description": "<p>Hey devs!</p> <p>I recently built a simple tools website for developers:</p> <ul> <li>JSON Formatter &amp; Validator</li> <li>QR Code Generator</li> <li>Password Generator</li> <li>Base64 Encoder/Decoder</li> </ul> <p>All free, no signup required.<br> <a href=\"https://stellular-tanuki-3b890f.netl",
+      "title": "Correggere gli errori Lighthouse con un agente AI direttamente in Chrome DevTools",
+      "link": "https://dev.to/frontendfacile/correggere-gli-errori-lighthouse-con-un-agente-ai-direttamente-in-chrome-devtools-4k79",
+      "pubDate": "2026-08-14T07:35:38.000Z",
+      "description": "<blockquote> <p>Dalla lista di audit falliti alle patch applicate: un flusso più rapido per sistemare problemi “di superficie” e prepararsi anche al web agentico.</p> </blockquote> <p>Negli ultimi anni Lighthouse è diventato uno standard di fatto per controllare qualità, performance, accessibilità e",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The Heart of .NET: A Deep Dive into the System Namespace",
-      "link": "https://dev.to/csadikemre/the-heart-of-net-a-deep-dive-into-the-system-namespace-db0",
-      "pubDate": "2026-08-14T02:00:55.000Z",
-      "description": "<p>If you write C# every day, you use the <strong>System</strong> namespace all the time — probably without thinking about it. In this post, we'll slow down and really look at it: what it is, what's inside it, where it stops, how it got here, and where it's going next.</p> <p>I'll keep the words sim",
+      "title": "Why Books Don't Work: Constructivism over Transmissionism (2021)",
+      "link": "https://www.masterhowtolearn.com/2021-01-30-why-books-dont-work-constructivism-over-transmissionism/",
+      "pubDate": "2026-08-14T07:31:01.000Z",
+      "description": "Article URL: https://www.masterhowtolearn.com/2021-01-30-why-books-dont-work-constructivism-over-transmissionism/ Comments URL: https://news.ycombinator.com/item?id=49295666 Points: 4 # Comments: 1",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Choosing colors (for developers)",
+      "link": "https://dev.to/railsdesigner/choosing-colors-for-developers-1o0o",
+      "pubDate": "2026-08-14T07:30:00.000Z",
+      "description": "<p>The eleven-shade color scale from Tailwind CSS is one of those ideas I keep stealing. You know the one: <code>50</code> through <code>950</code> gives you enough stops for backgrounds, borders, hover states, text, everything. I use it even when I’m not using Tailwind.</p> <p>But I almost never us",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "OpenAI Foundation Expands Civil Society AI Effort With Grants and New Leadership",
-      "link": "https://dev.to/alifar/openai-foundation-expands-civil-society-ai-effort-with-grants-and-new-leadership-46f4",
-      "pubDate": "2026-08-14T02:00:30.000Z",
-      "description": "<p>The OpenAI Foundation is expanding its work with nonprofits, NGOs and philanthropic institutions through a combination of grantmaking, leadership and public-interest AI strategy. The effort is anchored by the <strong>$50 million People-First AI Fund</strong>, announced in September 2025, and an A",
+      "title": "The Python GIL, explained without the hand-waving",
+      "link": "https://dev.to/websilvercraft/the-python-gil-explained-without-the-hand-waving-10jo",
+      "pubDate": "2026-08-14T07:27:00.000Z",
+      "description": "<p>Every Python developer eventually hits this conversation:</p> <blockquote> <p>\"Just use threads to speed it up.\"<br> \"Python threads don't run in parallel. The GIL.\"<br> \"So threads are useless in Python?\"<br> \"No, they're great for—\"<br> \"You just said they don't run in parallel!\"</p> </blockquo",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Join our DEV Weekend Challenge: Dog Days Edition! $1,000 in Prizes Across FIVE Winners. Submissions Due August 17 at 6:59 AM UTC.",
-      "link": "https://dev.to/devteam/join-our-dev-weekend-challenge-dog-days-edition-1000-in-prizes-across-five-winners-submissions-1g4i",
-      "pubDate": "2026-08-14T02:00:00.000Z",
-      "description": "<p>We're back with another <strong><a href=\"https://dev.to/challenges/weekend-2026-08-13\">DEV Weekend Challenge</a></strong>, a short bite-sized challenge planned to fit into your weekend. We know the submission window is tight, so we've set the timing to ensure that no matter where you are in the w",
+      "title": "I Asked Claude Code to Find Me a Trading Edge. It Killed Three Strategies First.",
+      "link": "https://dev.to/hidenari/i-asked-claude-code-to-find-me-a-trading-edge-it-killed-three-strategies-first-22ai",
+      "pubDate": "2026-08-14T07:26:03.000Z",
+      "description": "<p><em>How I built a fully automated, rule-based Japanese stock research pipeline with Claude Code, J-Quants, and a macOS cron job — and why \"the AI is not allowed to predict anything\" turned out to be the most useful constraint in the whole project.</em></p> <p>Everyone's first idea for \"AI + stock",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "Ruby 4.0 Universal RCE Deserialization Gadget Chain",
+      "link": "https://www.elttam.com/blog/ruby-4-0-universal-rce-deserialization-gadget-chain",
+      "pubDate": "2026-08-14T06:09:04.000Z",
+      "description": "Article URL: https://www.elttam.com/blog/ruby-4-0-universal-rce-deserialization-gadget-chain Comments URL: https://news.ycombinator.com/item?id=49295238 Points: 4 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "GLM-5.3: Frontier Coding with Emergent Cyber Capabilities",
+      "link": "https://z.ai/blog/glm-5.3",
+      "pubDate": "2026-08-14T05:19:59.000Z",
+      "description": "Article URL: https://z.ai/blog/glm-5.3 Comments URL: https://news.ycombinator.com/item?id=49294997 Points: 300 # Comments: 107",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "Bluesky Protocol Services",
       "link": "https://atproto.com/blog/introducing-bluesky-protocol-services",
       "pubDate": "2026-08-14T00:14:28.000Z",
-      "description": "Article URL: https://atproto.com/blog/introducing-bluesky-protocol-services Comments URL: https://news.ycombinator.com/item?id=49293324 Points: 78 # Comments: 18",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "SparrowMap – Cameras that watch government vehicles",
-      "link": "https://sparrowmap.com/",
-      "pubDate": "2026-08-14T00:10:04.000Z",
-      "description": "Article URL: https://sparrowmap.com/ Comments URL: https://news.ycombinator.com/item?id=49293294 Points: 66 # Comments: 13",
+      "description": "Article URL: https://atproto.com/blog/introducing-bluesky-protocol-services Comments URL: https://news.ycombinator.com/item?id=49293324 Points: 152 # Comments: 28",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -104,15 +120,7 @@
       "title": "Blog about things you don't understand yet",
       "link": "https://www.seangoedecke.com/blog-about-things-you-dont-understand-yet/",
       "pubDate": "2026-08-13T23:39:33.000Z",
-      "description": "Article URL: https://www.seangoedecke.com/blog-about-things-you-dont-understand-yet/ Comments URL: https://news.ycombinator.com/item?id=49293087 Points: 18 # Comments: 3",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "How AI text watermarking works",
-      "link": "https://declaude.org/watermarking/",
-      "pubDate": "2026-08-13T23:16:55.000Z",
-      "description": "Article URL: https://declaude.org/watermarking/ Comments URL: https://news.ycombinator.com/item?id=49292932 Points: 87 # Comments: 59",
+      "description": "Article URL: https://www.seangoedecke.com/blog-about-things-you-dont-understand-yet/ Comments URL: https://news.ycombinator.com/item?id=49293087 Points: 85 # Comments: 29",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -120,7 +128,7 @@
       "title": "NP-overrated",
       "link": "https://gruhn.me/blog/2026-08-13/",
       "pubDate": "2026-08-13T20:14:17.000Z",
-      "description": "Article URL: https://gruhn.me/blog/2026-08-13/ Comments URL: https://news.ycombinator.com/item?id=49291268 Points: 161 # Comments: 101",
+      "description": "Article URL: https://gruhn.me/blog/2026-08-13/ Comments URL: https://news.ycombinator.com/item?id=49291268 Points: 197 # Comments: 131",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -128,7 +136,7 @@
       "title": "How Gödel's Proof Works (2020)",
       "link": "https://www.quantamagazine.org/how-godels-proof-works-20200714/",
       "pubDate": "2026-08-13T19:44:46.000Z",
-      "description": "Article URL: https://www.quantamagazine.org/how-godels-proof-works-20200714/ Comments URL: https://news.ycombinator.com/item?id=49290969 Points: 76 # Comments: 39",
+      "description": "Article URL: https://www.quantamagazine.org/how-godels-proof-works-20200714/ Comments URL: https://news.ycombinator.com/item?id=49290969 Points: 99 # Comments: 42",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -136,7 +144,7 @@
       "title": "How Organizations Use AI: Evidence from ChatGPT [pdf]",
       "link": "https://cdn.openai.com/pdf/how-organizations-use-chatgpt.pdf",
       "pubDate": "2026-08-13T19:25:38.000Z",
-      "description": "Article URL: https://cdn.openai.com/pdf/how-organizations-use-chatgpt.pdf Comments URL: https://news.ycombinator.com/item?id=49290768 Points: 71 # Comments: 46",
+      "description": "Article URL: https://cdn.openai.com/pdf/how-organizations-use-chatgpt.pdf Comments URL: https://news.ycombinator.com/item?id=49290768 Points: 100 # Comments: 56",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -144,7 +152,7 @@
       "title": "Understanding is the new bottleneck",
       "link": "https://www.geoffreylitt.com/2026/07/02/understanding-is-the-new-bottleneck",
       "pubDate": "2026-08-13T18:47:19.000Z",
-      "description": "Article URL: https://www.geoffreylitt.com/2026/07/02/understanding-is-the-new-bottleneck Comments URL: https://news.ycombinator.com/item?id=49290299 Points: 220 # Comments: 119",
+      "description": "Article URL: https://www.geoffreylitt.com/2026/07/02/understanding-is-the-new-bottleneck Comments URL: https://news.ycombinator.com/item?id=49290299 Points: 298 # Comments: 160",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -152,15 +160,7 @@
       "title": "Single log line is 49KB+ (ext4) / 110KB+ (btrfs) of systemd-journald disk writes",
       "link": "https://github.com/systemd/systemd/issues/40262",
       "pubDate": "2026-08-13T18:41:01.000Z",
-      "description": "Article URL: https://github.com/systemd/systemd/issues/40262 Comments URL: https://news.ycombinator.com/item?id=49290215 Points: 154 # Comments: 100",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Hello, me. It's been a while",
-      "link": "https://themech.net/2026/08/hello-me-its-been-a-while/",
-      "pubDate": "2026-08-13T18:37:18.000Z",
-      "description": "Article URL: https://themech.net/2026/08/hello-me-its-been-a-while/ Comments URL: https://news.ycombinator.com/item?id=49290166 Points: 35 # Comments: 14",
+      "description": "Article URL: https://github.com/systemd/systemd/issues/40262 Comments URL: https://news.ycombinator.com/item?id=49290215 Points: 201 # Comments: 126",
       "source": "Hacker News",
       "category": "Tech News"
     },
