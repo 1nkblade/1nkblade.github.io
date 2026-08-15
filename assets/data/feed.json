@@ -1,150 +1,158 @@
 {
-  "generatedAt": "2026-08-15T01:49:26.009Z",
+  "generatedAt": "2026-08-15T06:57:53.804Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "Predicting the Future of Glucose: Real-time CGM Anomaly Detection with LSTM and TSFresh 🚀",
-      "link": "https://dev.to/wellallytech/predicting-the-future-of-glucose-real-time-cgm-anomaly-detection-with-lstm-and-tsfresh-20pp",
-      "pubDate": "2026-08-15T01:30:00.000Z",
-      "description": "<p>Managing metabolic health is like trying to fly a plane while building it in mid-air. For those using <strong>Continuous Glucose Monitoring (CGM)</strong> devices like Dexcom or Abbott Libre, the data stream is a goldmine—but raw data without context is just noise. If you've ever dealt with \"alar",
+      "title": "Make AI-Generated HTTP Endpoints Prove Themselves on a Disposable Server",
+      "link": "https://dev.to/codepy_1473/make-ai-generated-http-endpoints-prove-themselves-on-a-disposable-server-hm4",
+      "pubDate": "2026-08-15T06:40:28.000Z",
+      "description": "<p>The fastest way to trust a generated API is not to read the code and not even to run its tests locally; it is to make the code stand up as an actual HTTP server and answer real requests before you let it anywhere near a merge request. Most failures in LLM-generated backend code hide between stati",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How to Handle Audio Transcription API 404/501 — available=false Speech-to-Text in 2026",
-      "link": "https://dev.to/zylahmorn61835/how-to-handle-audio-transcription-api-404501-availablefalse-speech-to-text-in-2026-2k07",
-      "pubDate": "2026-08-15T01:23:55.000Z",
-      "description": "<p>Short answer: route production supplier-invoice audio to an external speech-to-text provider whenever the model catalog does not advertise an available ASR model, and record that routing decision against the tenant before attempting an upload. A <code>404</code>, <code>501</code>, or <code>availa",
+      "title": "A Free Server Caught the GUI Fallback a Model Buried in a CLI",
+      "link": "https://dev.to/datacpp_8185/a-free-server-caught-the-gui-fallback-a-model-buried-in-a-cli-70e",
+      "pubDate": "2026-08-15T06:32:09.000Z",
+      "description": "<p>A small team shipped a CSV validation service. It passed on a workstation. It died three seconds after starting on a free server.</p> <p>This article reconstructs that failure as a reproducible case. It is not a benchmark and not a product review. The point is to show a workflow for finding displ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How to Build a Cybersecurity Metric Data Dictionary That Executives Can Actually Trust",
-      "link": "https://dev.to/santa412_929884369ea40d9a/how-to-build-a-cybersecurity-metric-data-dictionary-that-executives-can-actually-trust-1f92",
-      "pubDate": "2026-08-15T01:14:53.000Z",
-      "description": "<h2> Cybersecurity Metric Data Dictionary: Make Every Dashboard Number Reproducible </h2> <p><strong>Audience:</strong> security program managers, GRC leads, control owners, audit coordinators, and consultants</p> <p>A dashboard can look precise while hiding a basic operating problem: two people can",
+      "title": "How Ranex Judges AI-Written Code: The Kernel, Explained",
+      "link": "https://dev.to/anthonygarces/how-ranex-judges-ai-written-code-the-kernel-explained-3d8",
+      "pubDate": "2026-08-15T06:23:20.000Z",
+      "description": "<p><strong>Your agent reports “done — all tests pass.” Do you believe it?</strong></p> <p>Nothing in that sentence is evidence, and the cost of finding out lands on you, later. I’ve been building with AI coding assistants for years, and the failure that kept costing me time was never that the model ",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "How Garbage Collection Works: Let's Build One From Scratch",
+      "link": "https://dev.to/aditya_d_sharma/how-garbage-collection-works-lets-build-one-from-scratch-39fh",
+      "pubDate": "2026-08-15T06:23:09.000Z",
+      "description": "<h2> Introduction </h2> <p>Your program keeps creating objects. Every function call, every loop iteration, every parsed JSON response produces new ones. You don't manually delete most of them. You've never written a line of code that says \"free this memory now.\" And yet your application doesn't imme",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Building Samar: My 10-Day Voice AI Agent Journey with Murf Falcon",
+      "link": "https://dev.to/raghul_p23itr122_8708ad5/building-samar-my-10-day-voice-ai-agent-journey-with-murf-falcon-41no",
+      "pubDate": "2026-08-15T06:22:37.000Z",
+      "description": "<h1> Building Samar: My 10-Day Voice AI Agent Journey with Murf Falcon </h1> <p>Over the past 10 days, I built <strong>Samar</strong>, a multilingual AI voice agent for a Bharat Digital Bank use case as part of the <strong>10 Days of Voice Agents – VoiceForBharat Edition</strong> challenge.</p> <p>T",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "How do you regression-test a ReDoS fix without hanging CI?",
+      "link": "https://dev.to/tanya_monoware/how-do-you-regression-test-a-redos-fix-without-hanging-ci-1al3",
+      "pubDate": "2026-08-15T06:22:21.000Z",
+      "description": "<p>A known-bad regex is useful evidence, but putting it directly in the test process can hang the runner before the timeout assertion fires.</p> <p>The boundary I am using:</p> <ul> <li>run each adversarial case in a fresh worker thread or child process</li> <li>let the parent own a hard timeout and",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "The head of your CSV is lying: how 9,291 invoice numbers almost vanished",
+      "link": "https://dev.to/ahmedabdeltawab/the-head-of-your-csv-is-lying-how-9291-invoice-numbers-almost-vanished-3891",
+      "pubDate": "2026-08-15T06:19:41.000Z",
+      "description": "<p>Real transaction data is never clean — and the worst part is that it <em>looks</em> clean. This is a short story from a real dataset (UCI Online Retail: 541,909 e-commerce transactions) about the quietest way to destroy data: silent type coercion. All numbers below come verbatim from an executed ",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "\"How Does LLM Actually Work? From Prompt to Prediction\"",
+      "link": "https://dev.to/ravindranath_k/how-does-llm-actually-work-from-prompt-to-prediction-1a21",
+      "pubDate": "2026-08-15T06:19:13.000Z",
+      "description": "<blockquote> <p>Large Language Models have quickly become part of everyday software development.</p> </blockquote> <p>We ask them to explain code, debug errors, generate tests, write Python scripts, summarize documentation, or help us understand an unfamiliar codebase.</p> <p>Within seconds, we get ",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Retrieval Is Not Memory",
+      "link": "https://dev.to/chillpill_ak/retrieval-is-not-memory-34f6",
+      "pubDate": "2026-08-15T06:10:57.000Z",
+      "description": "<p>\"We have memory. We're using RAG.\"</p> <p>You have retrieval. Those aren't the same thing, and the gap between them is where agents quietly go wrong.</p> <p>Day 2.</p> <p>RAG finds documents that look relevant to your question. That's it . That's the whole job. It's a very good search engine bolt",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Building AarogyaMitra: My 10-Day Journey Building a Voice AI Agent for Healthcare Access",
+      "link": "https://dev.to/vamshi_krishna_27bdf365a1/building-aarogyamitra-my-10-day-journey-building-a-voice-ai-agent-for-healthcare-access-3ig5",
+      "pubDate": "2026-08-15T06:05:27.000Z",
+      "description": "<h2> From a Simple Voice Conversation to a Multi-Capability Healthcare Voice Agent </h2> <p>Over the past 10 days, I had the opportunity to participate in <strong>10 Days of Voice Agents — VoiceForBharat Edition</strong>, a challenge focused on learning how to build practical, real-world voice AI ag",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "\"That's not SoC 2 compliant\"",
+      "link": "https://ampcode.com/notes/thats-not-soc-2-compliant",
+      "pubDate": "2026-08-15T06:01:19.000Z",
+      "description": "Article URL: https://ampcode.com/notes/thats-not-soc-2-compliant Comments URL: https://news.ycombinator.com/item?id=49308073 Points: 25 # Comments: 12",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Ask HN: How do you keep up with HN these days?",
+      "link": "https://news.ycombinator.com/item?id=49308059",
+      "pubDate": "2026-08-15T05:59:12.000Z",
+      "description": "In the last 2-3 years, mostly because of AI, keeping up with interesting articles on HN has become harder and harder.How do you deal with it? Besides the simple solution of simply ignoring interesting stuff more and more. Comments URL: https://news.ycombinator.com/item?id=49308059 Points: 23 # Comme",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Show HN: ThoughtDAG – An editable context graph for LLM conversations",
+      "link": "https://chenxiachan.github.io/thoughtdag/",
+      "pubDate": "2026-08-15T04:42:07.000Z",
+      "description": "Article URL: https://chenxiachan.github.io/thoughtdag/ Comments URL: https://news.ycombinator.com/item?id=49307700 Points: 9 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "The other Sean Byrne doesn't exist",
+      "link": "https://conic.al/writing/the-other-sean-byrne-doesnt-exist/",
+      "pubDate": "2026-08-15T04:18:44.000Z",
+      "description": "Article URL: https://conic.al/writing/the-other-sean-byrne-doesnt-exist/ Comments URL: https://news.ycombinator.com/item?id=49307592 Points: 45 # Comments: 13",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "The End of Mathematics",
+      "link": "https://www.daniellitt.com/blog/2026/8/11/the-end-of-mathematics",
+      "pubDate": "2026-08-15T03:37:00.000Z",
+      "description": "Article URL: https://www.daniellitt.com/blog/2026/8/11/the-end-of-mathematics Comments URL: https://news.ycombinator.com/item?id=49307383 Points: 21 # Comments: 8",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Show HN: Deltix – AI Driven Testing",
+      "link": "https://app.deltix.ai",
+      "pubDate": "2026-08-15T02:42:14.000Z",
+      "description": "Article URL: https://app.deltix.ai Comments URL: https://news.ycombinator.com/item?id=49307099 Points: 23 # Comments: 7",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "Magnitude 7.7 Earthquake – 68 km NNW of Ende, Indonesia",
       "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkt2/executive",
       "pubDate": "2026-08-15T01:14:05.000Z",
-      "description": "Article URL: https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkt2/executive Comments URL: https://news.ycombinator.com/item?id=49306577 Points: 3 # Comments: 0",
+      "description": "Article URL: https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkt2/executive Comments URL: https://news.ycombinator.com/item?id=49306577 Points: 173 # Comments: 36",
       "source": "Hacker News",
       "category": "Tech News"
-    },
-    {
-      "title": "Toast 1: A New Embedding Model That Rivals OpenAI at a Fraction of the Cost",
-      "link": "https://dev.to/trismegistus/toast-1-a-new-embedding-model-that-rivals-openai-at-a-fraction-of-the-cost-3k79",
-      "pubDate": "2026-08-15T01:13:27.000Z",
-      "description": "<p>Toast 1: A New Embedding Model That Rivals OpenAI at a Fraction of the Cost</p> <p>Mixedbread AI announced Toast 1, a new embedding model that claims to match or exceed OpenAI's text-embedding-3-large on standard benchmarks while being significantly cheaper to run. The announcement reached 173 po",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "I couldn't find a tool that lets agents verify what they're buying. So I built it.",
-      "link": "https://dev.to/fieldmodellc/i-couldnt-find-a-tool-that-lets-agents-verify-what-theyre-buying-so-i-built-it-j0b",
-      "pubDate": "2026-08-15T01:12:39.000Z",
-      "description": "<p>I built ScrapeCheck because as someone who has been in the crypto industry for over 9 years, I know how important it is for information to be public, like the blockchain. With the rise of agentic commerce, I wondered if there was a tool that bots could use to ensure that the item they're looking ",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Migrating Off Nordigen: A Field Guide for Indie Builders (2026)",
-      "link": "https://dev.to/johnfrandsen/migrating-off-nordigen-a-field-guide-for-indie-builders-2026-4o3j",
-      "pubDate": "2026-08-15T01:12:36.000Z",
-      "description": "<h2> What happened </h2> <p>The short version: the era of free bank data for side projects is over at the big aggregators.</p> <p>Nordigen — the Latvian open-banking startup that ran a genuinely free account-information API — was acquired by GoCardless in 2022 and is being folded into \"GoCardless Ba",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "I Ran 4,200 Trials Testing LLM Agent Reliability. Here’s What Broke.",
-      "link": "https://dev.to/hd_gregory/i-ran-4200-trials-testing-llm-agent-reliability-heres-what-broke-4dek",
-      "pubDate": "2026-08-15T01:11:38.000Z",
-      "description": "<p>We know when an AI agent gets a response from a tool, getting a response back doesn’t necessarily mean that response should be trusted.</p> <p>It can lose context, become repetitive, grow less confident, fill gaps with agreeable language, or return something that looks usable while creating probl",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Maximizing Your Claude Code Sessions: 7 Tips from Anthropic's Own Engineers",
-      "link": "https://dev.to/trismegistus/maximizing-your-claude-code-sessions-7-tips-from-anthropics-own-engineers-gg6",
-      "pubDate": "2026-08-15T01:11:30.000Z",
-      "description": "<p>Maximizing Your Claude Code Sessions: 7 Tips from Anthropic's Own Engineers</p> <p>Anthropic published a guide on maximizing the value of Claude Code sessions, and it hit the Hacker News front page with 130 points and 87 comments. The guide offers practical advice for developers using Claude Code",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Going Dark: Why Law Enforcement Hacking Is the New Surveillance Frontier",
-      "link": "https://dev.to/trismegistus/going-dark-why-law-enforcement-hacking-is-the-new-surveillance-frontier-376a",
-      "pubDate": "2026-08-15T01:10:54.000Z",
-      "description": "<p>Going Dark: Why Law Enforcement Hacking Is the New Surveillance Frontier</p> <p>A provocative essay by cryptography engineer Matthew Green titled \"Going Dark, and the era of law enforcement hacking\" reached the Hacker News front page with 179 points and 109 comments. It argues that we're entering",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Introducing Murya AI",
-      "link": "https://dev.to/adabtech/introducing-murya-ai-5429",
-      "pubDate": "2026-08-15T01:08:17.000Z",
-      "description": "<p>Dear DEV Community, </p> <p>It feels great to be here, and thank you for the opportunity to be a part of this platform! </p> <p>This is my first post, and I am thrilled to share a recent project that kept me working late into the night. It is codenamed <a href=\"https://murya.ng\" rel=\"noopener nor",
-      "source": "Dev.to Feed",
-      "category": "Development"
     },
     {
       "title": "The Ploopy A+ Trackball Is Here",
       "link": "https://blog.ploopy.co/the-aplus-is-finally-here-499",
       "pubDate": "2026-08-15T00:55:31.000Z",
-      "description": "Article URL: https://blog.ploopy.co/the-aplus-is-finally-here-499 Comments URL: https://news.ycombinator.com/item?id=49306443 Points: 8 # Comments: 2",
+      "description": "Article URL: https://blog.ploopy.co/the-aplus-is-finally-here-499 Comments URL: https://news.ycombinator.com/item?id=49306443 Points: 92 # Comments: 40",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Simplifying and Refactoring Introductory Calculus",
+      "title": "Simplifying and Refactoring Introductory Calculus (2018)",
       "link": "https://arxiv.org/abs/1811.03459",
       "pubDate": "2026-08-15T00:15:23.000Z",
-      "description": "Article URL: https://arxiv.org/abs/1811.03459 Comments URL: https://news.ycombinator.com/item?id=49306196 Points: 8 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Corgi kills short-lived website that ranked its female employees",
-      "link": "https://sf.gazetteer.co/corgi-kills-short-lived-website-that-ranked-its-female-employees",
-      "pubDate": "2026-08-15T00:00:55.000Z",
-      "description": "Article URL: https://sf.gazetteer.co/corgi-kills-short-lived-website-that-ranked-its-female-employees Comments URL: https://news.ycombinator.com/item?id=49306080 Points: 9 # Comments: 2",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Jane Street suffers $15B hit after meltdown at Situational Awareness",
-      "link": "https://www.ft.com/content/47dd5308-dd17-404a-a615-61046defd697",
-      "pubDate": "2026-08-14T23:40:37.000Z",
-      "description": "Article URL: https://www.ft.com/content/47dd5308-dd17-404a-a615-61046defd697 Comments URL: https://news.ycombinator.com/item?id=49305927 Points: 83 # Comments: 42",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "The case for overhauling American science",
-      "link": "https://www.economist.com/by-invitation/2026/08/13/the-case-for-overhauling-american-science",
-      "pubDate": "2026-08-14T23:11:34.000Z",
-      "description": "Article URL: https://www.economist.com/by-invitation/2026/08/13/the-case-for-overhauling-american-science Comments URL: https://news.ycombinator.com/item?id=49305708 Points: 36 # Comments: 24",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Stop sending me huge PRs; a rant",
-      "link": "https://getsmall.xyz/post/cmstjfl9l000if70ljmpzr4va",
-      "pubDate": "2026-08-14T22:48:15.000Z",
-      "description": "Article URL: https://getsmall.xyz/post/cmstjfl9l000if70ljmpzr4va Comments URL: https://news.ycombinator.com/item?id=49305558 Points: 68 # Comments: 44",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "RISC-V: They should have known better",
-      "link": "https://dmitry.gr/?r=06.%20Thoughts&amp;proj=12.%20RV",
-      "pubDate": "2026-08-14T22:38:34.000Z",
-      "description": "Article URL: https://dmitry.gr/?r=06.%20Thoughts&proj=12.%20RV Comments URL: https://news.ycombinator.com/item?id=49305492 Points: 117 # Comments: 81",
+      "description": "Article URL: https://arxiv.org/abs/1811.03459 Comments URL: https://news.ycombinator.com/item?id=49306196 Points: 74 # Comments: 27",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -152,15 +160,7 @@
       "title": "eigendrum",
       "link": "https://eigendrum.com/#p=circle",
       "pubDate": "2026-08-14T22:15:12.000Z",
-      "description": "Article URL: https://eigendrum.com/#p=circle Comments URL: https://news.ycombinator.com/item?id=49305250 Points: 27 # Comments: 3",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Going Dark, and the era of law enforcement hacking",
-      "link": "https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark/",
-      "pubDate": "2026-08-14T20:52:44.000Z",
-      "description": "Article URL: https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark/ Comments URL: https://news.ycombinator.com/item?id=49304447 Points: 198 # Comments: 119",
+      "description": "Article URL: https://eigendrum.com/#p=circle Comments URL: https://news.ycombinator.com/item?id=49305250 Points: 117 # Comments: 23",
       "source": "Hacker News",
       "category": "Tech News"
     },
