@@ -1,166 +1,166 @@
 {
-  "generatedAt": "2026-08-15T18:47:20.345Z",
+  "generatedAt": "2026-08-16T01:57:19.783Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "One-Shot UI Side Effects in BlocSignal: Snackbars, Dialogs, and Navigation Without State Pollution",
-      "link": "https://dev.to/gde/one-shot-ui-side-effects-in-blocsignal-snackbars-dialogs-and-navigation-without-state-pollution-52j4",
-      "pubDate": "2026-08-15T18:45:56.000Z",
-      "description": "<p>Every Flutter developer has run into the <strong>Sticky State Dilemma</strong>.</p> <p>You build a login screen. When authentication fails, your state container emits an error. You catch it in your UI and show a <code>SnackBar</code>. Everything works—until the user rotates their phone, pulls dow",
+      "title": "NestJS Error Capture: Tracking HTTP Exceptions Through Filter and Interceptor Boundaries",
+      "link": "https://dev.to/elvrythn486209/nestjs-error-capture-tracking-http-exceptions-through-filter-and-interceptor-boundaries-3f6i",
+      "pubDate": "2026-08-16T01:35:52.000Z",
+      "description": "<p>For a production logistics agent, error tracking should use one failure envelope at every execution boundary, then attach cost and latency before the boundary reports or rethrows the failure. An HTTP exception filter alone cannot do that job: scheduled route refreshes and queue-driven shipment ch",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "An open-source, modular CMS for developers and AI-assisted/vibe-coded websites.",
-      "link": "https://dev.to/cloudhim/an-open-source-modular-cms-for-developers-and-ai-assistedvibe-coded-websites-1lc3",
-      "pubDate": "2026-08-15T18:42:59.000Z",
-      "description": "<p>For years, the CMS ecosystem has largely followed the same formula.</p> <p>Install a CMS.<br> Choose a theme.<br> Install plugins.<br> Customize some templates.<br> Add an API when you need one.<br> Then, eventually, try to connect everything to AI.</p> <p>But the way we build software has change",
+      "title": "Stop Sending Your Vitals to the Cloud: Running Llama-3 Locally in the Browser with WebLLM &amp; WebGPU 🥑",
+      "link": "https://dev.to/wellallytech/stop-sending-your-vitals-to-the-cloud-running-llama-3-locally-in-the-browser-with-webllm-webgpu-16jc",
+      "pubDate": "2026-08-16T01:31:00.000Z",
+      "description": "<p>Privacy is the ultimate \"final boss\" in HealthTech. When users record sensitive medical logs, the last thing they want is their data being used to train a massive corporate model. Today, we are pushing the boundaries of <strong>Edge AI</strong> by building a 100% private, client-side health log a",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Harness Engineering - Part 8: Observability",
-      "link": "https://dev.to/coderonfleek/harness-engineering-part-8-observability-3gc1",
-      "pubDate": "2026-08-15T18:35:30.000Z",
-      "description": "<p><em>Welcome back to the Harness Engineering series — a 10-part journey from raw language model to production-ready agentic system. Made by builders. For builders.</em></p> <p>In Part 7, I closed on a line worth expanding: <strong>\"I built an agent\"</strong> vs <strong>\"I built an agent I can actu",
+      "title": "In the Beginning...",
+      "link": "https://dev.to/professortom/in-the-beginning-5amp",
+      "pubDate": "2026-08-16T01:30:08.000Z",
+      "description": "<h1> Working with Modern AIs </h1> <h2> The day I met Claude was a dark day </h2> <p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fkhlgrye7f2l37naa0cth.png\"",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Network Troubleshooting as a Stack: Find Which Layer Is Broken First",
-      "link": "https://dev.to/jjoyneriv/network-troubleshooting-as-a-stack-find-which-layer-is-broken-first-2nm6",
-      "pubDate": "2026-08-15T18:34:37.000Z",
-      "description": "<p>The difference between a good infrastructure troubleshooter and someone who restarts services and hopes is a mental model. When \"HTTPS times out\" lands in your inbox, you don't guess — you know exactly which layer to interrogate first, and in what order.</p> <h2> The network is a stack, so treat ",
+      "title": "A stale response can quietly break a recommendation tool",
+      "link": "https://dev.to/mrzhu/a-stale-response-can-quietly-break-a-recommendation-tool-3p9c",
+      "pubDate": "2026-08-16T01:23:06.000Z",
+      "description": "<p>A recommendation page can perform the correct calculation and still show the wrong result. The failure happens when two valid requests finish in the wrong order.</p> <p>Consider a player who starts a Members search, then switches to F2P while the first request is still running. The F2P request fi",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Voltair (YC W26) Is Hiring a Test Flight Engineer",
-      "link": "https://www.ycombinator.com/companies/voltair/jobs/sSOD2Ox-flight-test-engineer",
-      "pubDate": "2026-08-15T18:33:25.000Z",
-      "description": "Article URL: https://www.ycombinator.com/companies/voltair/jobs/sSOD2Ox-flight-test-engineer Comments URL: https://news.ycombinator.com/item?id=49313047 Points: 0 # Comments: 0",
+      "title": "Building a Multi-Agent System in TypeScript",
+      "link": "https://dev.to/kristinz/building-a-multi-agent-system-in-typescript-58ki",
+      "pubDate": "2026-08-16T01:16:45.000Z",
+      "description": "<p>Single agents hit real limits in production. Long tasks exceed context windows. Complex goals need different tools at different stages. Sequential reasoning is slow when subtasks are independent.</p> <p>Multi-agent systems solve these problems by decomposing work across specialized agents that ca",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Free Signup vs Production Access: What Self-Serve PSD2 Providers Actually Gate",
+      "link": "https://dev.to/johnfrandsen/free-signup-vs-production-access-what-self-serve-psd2-providers-actually-gate-306p",
+      "pubDate": "2026-08-16T01:15:35.000Z",
+      "description": "<h2> \"Self-serve\" is doing a lot of work </h2> <p>Every PSD2 account-information provider markets some version of \"get started in minutes.\" What varies — enormously — is what you can actually do before a human from sales gets involved. There are really three gates:</p> <ol> <li> <strong>Signup</stro",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Your AI Agent Doesn't Need More Memory. It Needs Receipts.",
+      "link": "https://dev.to/anasbuilds997/your-ai-agent-doesnt-need-more-memory-it-needs-receipts-1e3m",
+      "pubDate": "2026-08-16T01:15:21.000Z",
+      "description": "<p>An AI agent can remember a 30-page conversation and still perform the same action twice.</p> <p>It sends a request. The connection times out. The agent remembers the goal, the plan, and the tool<br> call—but not whether the outside system changed. So it tries again.</p> <p>That is not a vector-me",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Add human approval to a LangChain agent in 5 minutes",
+      "link": "https://dev.to/shakirriyaz/add-human-approval-to-a-langchain-agent-in-5-minutes-281d",
+      "pubDate": "2026-08-16T01:10:04.000Z",
+      "description": "<h1> Add human approval to a LangChain agent in 5 minutes </h1> <p>Your agent can send the email. That's the whole problem.</p> <p>A month ago it could only draft one. Now it has a tool that actually calls the API, and somewhere between \"draft\" and \"send\" there used to be a person reading it first. ",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Qdrant Recall Inconsistency: It Took 300 Test Runs to Discover the Index Wasn't Refreshed",
+      "link": "https://dev.to/_eb7f2a654e97a60ae9f96e/qdrant-recall-inconsistency-it-took-300-test-runs-to-discover-the-index-wasnt-refreshed-3agf",
+      "pubDate": "2026-08-16T01:05:06.000Z",
+      "description": "<p>At 2 AM, a user reported that the AI Agent suddenly forgot details of a project we discussed yesterday. I groggily opened Grafana and saw the memory recall rate had dropped from 98% to 60%. My first thought was the embedding model acting up again, but after digging through logs, I found a \"time g",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "The most boring service in the stack",
+      "link": "https://dev.to/kayashaolu/the-most-boring-service-in-the-stack-2kim",
+      "pubDate": "2026-08-16T01:03:38.000Z",
+      "description": "<p>The most reliable part of a stack is rarely the part anyone shows off. It has no clever layer to point at. That is the whole reason it never breaks.</p> <p>A payment service I want to walk through this week is a clean example of that. One queue sat in front of it, catching every incoming charge. ",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Tea5767-Radio-Tuner",
+      "link": "https://github.com/turtushig22-blip/tea5767-radio-tuner",
+      "pubDate": "2026-08-15T23:54:35.000Z",
+      "description": "Article URL: https://github.com/turtushig22-blip/tea5767-radio-tuner Comments URL: https://news.ycombinator.com/item?id=49315456 Points: 9 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Harness Engineering - Part 7: The Memory Layer",
-      "link": "https://dev.to/coderonfleek/harness-engineering-part-7-the-memory-layer-3oon",
-      "pubDate": "2026-08-15T18:32:49.000Z",
-      "description": "<p><em>Welcome back to the Harness Engineering series — a 10-part journey from raw language model to production-ready agentic system. Made by builders. For builders.</em></p> <p>In Part 6, we closed on a limitation the previous four components can't solve on their own: <strong>the agent forgets.</st",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Harness Engineering - Part 6: The Filesystem &amp; Environment",
-      "link": "https://dev.to/coderonfleek/harness-engineering-part-6-the-filesystem-environment-17m0",
-      "pubDate": "2026-08-15T18:32:09.000Z",
-      "description": "<p><em>Welcome back to the Harness Engineering series — a 10-part journey from raw language model to production-ready agentic system. Made by builders. For builders.</em></p> <p>In Part 5, we looked at the Context — the payload the model sees on every call. Now we look at what happens <em>after</em>",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Harness Engineering - Part 5: Context Engineering",
-      "link": "https://dev.to/coderonfleek/harness-engineering-part-5-context-engineering-94d",
-      "pubDate": "2026-08-15T18:31:14.000Z",
-      "description": "<p><em>Welcome back to the Harness Engineering series — a 10-part journey from raw language model to production-ready agentic system. Made by builders. For builders.</em></p> <p>In Part 4, we looked at the Tools — the set of functions the model can call. But there's still one big open question hangi",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Building FinSaathi: A Voice-First AI Financial Assistant with LiveKit and Murf",
-      "link": "https://dev.to/truebrace05/building-finsaathi-a-voice-first-ai-financial-assistant-with-livekit-and-murf-4pfe",
-      "pubDate": "2026-08-15T18:29:43.000Z",
-      "description": "<h1> Building FinSaathi: A Voice-First AI Financial Assistant </h1> <p>Financial information can be difficult to understand. Banking terms, loans, credit scores, payments, and other financial decisions can quickly become overwhelming when users have to navigate everything through forms and complicat",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Harness Engineering - Part 4: The Tool Layer",
-      "link": "https://dev.to/coderonfleek/harness-engineering-part-4-the-tool-layer-2p3f",
-      "pubDate": "2026-08-15T18:29:15.000Z",
-      "description": "<p><em>Welcome back to the Harness Engineering series — a 10-part journey from raw language model to production-ready agentic system. Made by builders. For builders.</em></p> <p>In Part 3, we looked at the Loop — the outermost machinery of a harness, the piece that drives everything else. But a Loop",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Notificar a varios canales sin que un fallo tumbe al resto",
-      "link": "https://dev.to/isazajuancarlos/notificar-a-varios-canales-sin-que-un-fallo-tumbe-al-resto-3b5a",
-      "pubDate": "2026-08-15T18:28:19.000Z",
-      "description": "<p>Quieres mandar la misma notificación a varios sitios: Slack, Discord, un webhook, un email. La primera versión es un <code>for</code> de tres líneas:<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight python\"><code><span class=\"k\">for</span> <span class=\"n\">canal</span> <spa",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "AI Isn't Outthinking Mathematicians. It's Out-Remembering Them",
-      "link": "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians",
-      "pubDate": "2026-08-15T18:13:02.000Z",
-      "description": "Article URL: https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians Comments URL: https://news.ycombinator.com/item?id=49312845 Points: 47 # Comments: 32",
+      "title": "SugarTrack – an offline Android logbook for blood sugar (no account, no cloud)",
+      "link": "https://sugartrack-beta.vercel.app/",
+      "pubDate": "2026-08-15T22:28:14.000Z",
+      "description": "Article URL: https://sugartrack-beta.vercel.app/ Comments URL: https://news.ycombinator.com/item?id=49314884 Points: 20 # Comments: 5",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "TreasuryDirect: Prepare for ID.me – Your New Way to Log In",
-      "link": "https://www.treasurydirect.gov/savings-bonds/idme-one-month/",
-      "pubDate": "2026-08-15T17:30:02.000Z",
-      "description": "Article URL: https://www.treasurydirect.gov/savings-bonds/idme-one-month/ Comments URL: https://news.ycombinator.com/item?id=49312465 Points: 18 # Comments: 16",
+      "title": "Modeling and Verification of Keeta's Consensus [pdf]",
+      "link": "https://xescu.re/keeta-consensus.pdf",
+      "pubDate": "2026-08-15T21:49:45.000Z",
+      "description": "Article URL: https://xescu.re/keeta-consensus.pdf Comments URL: https://news.ycombinator.com/item?id=49314642 Points: 11 # Comments: 1",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Europe's scorched landscapes seen from space after summer heatwaves",
-      "link": "https://www.bbc.com/news/articles/c4gxy0wqqd9o",
-      "pubDate": "2026-08-15T17:21:26.000Z",
-      "description": "Article URL: https://www.bbc.com/news/articles/c4gxy0wqqd9o Comments URL: https://news.ycombinator.com/item?id=49312413 Points: 40 # Comments: 18",
+      "title": "Were Touch Bar's problems software rather than hardware?",
+      "link": "https://unsung.aresluna.org/deeper-dive-were-touch-bars-problems-software-rather-than-hardware/",
+      "pubDate": "2026-08-15T21:47:56.000Z",
+      "description": "Article URL: https://unsung.aresluna.org/deeper-dive-were-touch-bars-problems-software-rather-than-hardware/ Comments URL: https://news.ycombinator.com/item?id=49314630 Points: 6 # Comments: 1",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "The Dutch Community Where People Live on Strips of Land in a Lake",
-      "link": "https://www.core77.com/posts/144869",
-      "pubDate": "2026-08-15T16:53:47.000Z",
-      "description": "Article URL: https://www.core77.com/posts/144869 Comments URL: https://news.ycombinator.com/item?id=49312165 Points: 40 # Comments: 18",
+      "title": "Bede Liu, a digital signal processing pioneer, has died",
+      "link": "https://spectrum.ieee.org/digital-signal-processing",
+      "pubDate": "2026-08-15T21:45:54.000Z",
+      "description": "Article URL: https://spectrum.ieee.org/digital-signal-processing Comments URL: https://news.ycombinator.com/item?id=49314615 Points: 55 # Comments: 2",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "A controversial Alzheimer's surgery is said to reverse symptoms",
-      "link": "https://www.nature.com/articles/d41586-026-02448-x",
-      "pubDate": "2026-08-15T16:38:34.000Z",
-      "description": "Article URL: https://www.nature.com/articles/d41586-026-02448-x Comments URL: https://news.ycombinator.com/item?id=49312008 Points: 77 # Comments: 27",
+      "title": "The Wow signal was a strong narrowband radio signal detected on August 15, 1977",
+      "link": "https://en.wikipedia.org/wiki/Wow!_signal",
+      "pubDate": "2026-08-15T21:42:47.000Z",
+      "description": "Article URL: https://en.wikipedia.org/wiki/Wow!_signal Comments URL: https://news.ycombinator.com/item?id=49314596 Points: 63 # Comments: 16",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Semaglutide linked to 26% lower 5-year predicted dementia risk",
-      "link": "https://alz-journals.onlinelibrary.wiley.com/doi/10.1002/dad2.70432",
-      "pubDate": "2026-08-15T15:58:53.000Z",
-      "description": "Article URL: https://alz-journals.onlinelibrary.wiley.com/doi/10.1002/dad2.70432 Comments URL: https://news.ycombinator.com/item?id=49311651 Points: 144 # Comments: 82",
+      "title": "Tracking down a Zsh history data loss bug",
+      "link": "https://michael.stapelberg.ch/posts/2026-08-09-zsh-history-truncation-bug/",
+      "pubDate": "2026-08-15T21:39:09.000Z",
+      "description": "Article URL: https://michael.stapelberg.ch/posts/2026-08-09-zsh-history-truncation-bug/ Comments URL: https://news.ycombinator.com/item?id=49314579 Points: 33 # Comments: 5",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "A Spectre Is Haunting Unicode",
-      "link": "https://www.dampfkraft.com/ghost-characters.html",
-      "pubDate": "2026-08-15T14:34:04.000Z",
-      "description": "Article URL: https://www.dampfkraft.com/ghost-characters.html Comments URL: https://news.ycombinator.com/item?id=49310926 Points: 57 # Comments: 9",
+      "title": "Abdominal fat predicts heart disease risk better than BMI",
+      "link": "https://www.acc.org/about-acc/press-releases/2026/08/11/14/59/abdominal-fat-predicts-heart-disease-risk-better-than-bmi",
+      "pubDate": "2026-08-15T21:14:34.000Z",
+      "description": "Article URL: https://www.acc.org/about-acc/press-releases/2026/08/11/14/59/abdominal-fat-predicts-heart-disease-risk-better-than-bmi Comments URL: https://news.ycombinator.com/item?id=49314403 Points: 148 # Comments: 111",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Printytron – Type it. 3D Print it",
-      "link": "https://printytron.com",
-      "pubDate": "2026-08-15T14:22:20.000Z",
-      "description": "Article URL: https://printytron.com Comments URL: https://news.ycombinator.com/item?id=49310829 Points: 12 # Comments: 0",
+      "title": "Cultivating a state of mind where new ideas are born (2023)",
+      "link": "https://www.henrikkarlsson.xyz/p/good-ideas",
+      "pubDate": "2026-08-15T20:54:11.000Z",
+      "description": "Article URL: https://www.henrikkarlsson.xyz/p/good-ideas Comments URL: https://news.ycombinator.com/item?id=49314235 Points: 77 # Comments: 20",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "The First At-Home Test for Infected Ticks Could Improve Lyme Disease Diagnosis",
-      "link": "https://www.smithsonianmag.com/innovation/the-first-at-home-test-for-infected-ticks-could-improve-lyme-disease-diagnosis-180989235/",
-      "pubDate": "2026-08-15T14:04:49.000Z",
-      "description": "Article URL: https://www.smithsonianmag.com/innovation/the-first-at-home-test-for-infected-ticks-could-improve-lyme-disease-diagnosis-180989235/ Comments URL: https://news.ycombinator.com/item?id=49310682 Points: 123 # Comments: 46",
+      "title": "Humazon",
+      "link": "https://hughhowey.com/humazon/",
+      "pubDate": "2026-08-15T20:18:37.000Z",
+      "description": "Article URL: https://hughhowey.com/humazon/ Comments URL: https://news.ycombinator.com/item?id=49313941 Points: 25 # Comments: 11",
       "source": "Hacker News",
       "category": "Tech News"
     },
