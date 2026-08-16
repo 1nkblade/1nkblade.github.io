@@ -1,248 +1,173 @@
 {
-  "generatedAt": "2026-08-16T01:57:19.783Z",
+  "generatedAt": "2026-08-16T06:59:08.299Z",
   "sourceCount": 4,
-  "successCount": 4,
-  "errors": [],
+  "successCount": 3,
+  "errors": [
+    {
+      "source": "CSS Tricks",
+      "error": "HTTP 415 Unsupported Media Type"
+    }
+  ],
   "items": [
     {
-      "title": "NestJS Error Capture: Tracking HTTP Exceptions Through Filter and Interceptor Boundaries",
-      "link": "https://dev.to/elvrythn486209/nestjs-error-capture-tracking-http-exceptions-through-filter-and-interceptor-boundaries-3f6i",
-      "pubDate": "2026-08-16T01:35:52.000Z",
-      "description": "<p>For a production logistics agent, error tracking should use one failure envelope at every execution boundary, then attach cost and latency before the boundary reports or rethrows the failure. An HTTP exception filter alone cannot do that job: scheduled route refreshes and queue-driven shipment ch",
+      "title": "A Game Wallet Is More Than a Number: Handling Retries and Concurrency",
+      "link": "https://dev.to/zzzu2221/a-game-wallet-is-more-than-a-number-handling-retries-and-concurrency-2al3",
+      "pubDate": "2026-08-16T06:45:33.000Z",
+      "description": "<p>A game wallet often starts as a single balance field. That is fine for a prototype, but payment retries and unreliable networks quickly make the number hard to trust.</p> <p>A player can tap “buy,” lose the connection, and try again. A store callback can arrive more than once. Two devices can spe",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Stop Sending Your Vitals to the Cloud: Running Llama-3 Locally in the Browser with WebLLM &amp; WebGPU 🥑",
-      "link": "https://dev.to/wellallytech/stop-sending-your-vitals-to-the-cloud-running-llama-3-locally-in-the-browser-with-webllm-webgpu-16jc",
-      "pubDate": "2026-08-16T01:31:00.000Z",
-      "description": "<p>Privacy is the ultimate \"final boss\" in HealthTech. When users record sensitive medical logs, the last thing they want is their data being used to train a massive corporate model. Today, we are pushing the boundaries of <strong>Edge AI</strong> by building a 100% private, client-side health log a",
+      "title": "Android’s Walled Garden: Google’s Developer Verification Lockdown That Changes Everything",
+      "link": "https://dev.to/ezhil_sivarajsr/androids-walled-garden-googles-developer-verification-lockdown-that-changes-everything-27po",
+      "pubDate": "2026-08-16T06:45:31.000Z",
+      "description": "<h2> 1. What Is Android Developer Verification and Why Google Introduced It </h2> <p>In August 2025, Google quietly announced a major policy change called <strong>Android Developer Verification</strong>. Starting September 2026 (first in select countries like Brazil, Indonesia, Singapore, and Thaila",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "In the Beginning...",
-      "link": "https://dev.to/professortom/in-the-beginning-5amp",
-      "pubDate": "2026-08-16T01:30:08.000Z",
-      "description": "<h1> Working with Modern AIs </h1> <h2> The day I met Claude was a dark day </h2> <p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fkhlgrye7f2l37naa0cth.png\"",
+      "title": "Reverse-Engineering SWIO: Why Existing CH32V003 Programmers Fail and How I Built One That Works",
+      "link": "https://dev.to/ishu1519/i-built-an-esp32-s3-ch32v003-swio-programmer-51p8",
+      "pubDate": "2026-08-16T06:42:27.000Z",
+      "description": "<p>I wanted to see if an ESP32-S3 could be used as a programmer for the WCH CH32V003 instead of using a dedicated WCH-Link.</p> <p>The final setup is:</p> <p>PC → ESP32-S3 → SWIO → CH32V003</p> <p>The ESP32-S3 handles the timing-sensitive SWIO communication and the CH32 debug/DMI interface. On top o",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "A stale response can quietly break a recommendation tool",
-      "link": "https://dev.to/mrzhu/a-stale-response-can-quietly-break-a-recommendation-tool-3p9c",
-      "pubDate": "2026-08-16T01:23:06.000Z",
-      "description": "<p>A recommendation page can perform the correct calculation and still show the wrong result. The failure happens when two valid requests finish in the wrong order.</p> <p>Consider a player who starts a Members search, then switches to F2P while the first request is still running. The F2P request fi",
+      "title": "What the browser can actually tell you about your hardware (and what it can't)",
+      "link": "https://dev.to/member_2ef2ebd8/what-the-browser-can-actually-tell-you-about-your-hardware-and-what-it-cant-2d2j",
+      "pubDate": "2026-08-16T06:24:10.000Z",
+      "description": "<p>I spent a while building browser-based hardware diagnostics and came away with a much clearer sense of where the web platform is genuinely capable and where it quietly lies to you. Notes below, with live demos for each API so you can poke at them yourself.</p> <h2> Refresh rate: <code>requestAnim",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Building a Multi-Agent System in TypeScript",
-      "link": "https://dev.to/kristinz/building-a-multi-agent-system-in-typescript-58ki",
-      "pubDate": "2026-08-16T01:16:45.000Z",
-      "description": "<p>Single agents hit real limits in production. Long tasks exceed context windows. Complex goals need different tools at different stages. Sequential reasoning is slow when subtasks are independent.</p> <p>Multi-agent systems solve these problems by decomposing work across specialized agents that ca",
+      "title": "Four patterns that keep my YouTube longform JSON queue from going stale",
+      "link": "https://dev.to/morinaga/four-patterns-that-keep-my-youtube-longform-json-queue-from-going-stale-2750",
+      "pubDate": "2026-08-16T06:20:40.000Z",
+      "description": "<p>I manage the YouTube longform queue for my BuilderStack channel as JSON files in <code>content/yt-longform-queue/</code>. A spec file lands there when a generator script commits a new dialogue; the publish workflow picks the file, renders it to MP4, uploads it, then moves the file to <code>upload",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Free Signup vs Production Access: What Self-Serve PSD2 Providers Actually Gate",
-      "link": "https://dev.to/johnfrandsen/free-signup-vs-production-access-what-self-serve-psd2-providers-actually-gate-306p",
-      "pubDate": "2026-08-16T01:15:35.000Z",
-      "description": "<h2> \"Self-serve\" is doing a lot of work </h2> <p>Every PSD2 account-information provider markets some version of \"get started in minutes.\" What varies — enormously — is what you can actually do before a human from sales gets involved. There are really three gates:</p> <ol> <li> <strong>Signup</stro",
+      "title": "Code Review From the Terminal and CI, No MCP Client Required",
+      "link": "https://dev.to/goodjobwilliam/code-review-from-the-terminal-and-ci-no-mcp-client-required-33jf",
+      "pubDate": "2026-08-16T06:17:00.000Z",
+      "description": "<p>A month ago I shipped <a href=\"https://github.com/GoodJobwilliam/aicraft/tree/main/products/mcp-code-review\" rel=\"noopener noreferrer\">aicraft-code-review</a>, an MCP server that reviews code locally. This week I added a CLI mode — because not everyone wants to wire up an MCP client just to check",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Your AI Agent Doesn't Need More Memory. It Needs Receipts.",
-      "link": "https://dev.to/anasbuilds997/your-ai-agent-doesnt-need-more-memory-it-needs-receipts-1e3m",
-      "pubDate": "2026-08-16T01:15:21.000Z",
-      "description": "<p>An AI agent can remember a 30-page conversation and still perform the same action twice.</p> <p>It sends a request. The connection times out. The agent remembers the goal, the plan, and the tool<br> call—but not whether the outside system changed. So it tries again.</p> <p>That is not a vector-me",
+      "title": "How to Catch a Pine Script Repaint Bug Before It Costs You Real Money",
+      "link": "https://dev.to/rezali/how-to-catch-a-pine-script-repaint-bug-before-it-costs-you-real-money-38m4",
+      "pubDate": "2026-08-16T06:13:54.000Z",
+      "description": "<p>I've watched too many TradingView strategies look great in the Strategy Tester and then fall apart the moment real money went live. Almost every time, the code compiled fine. The bug wasn't syntax. It was repainting, the script quietly using information it shouldn't have had yet.</p> <p>Repaintin",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Add human approval to a LangChain agent in 5 minutes",
-      "link": "https://dev.to/shakirriyaz/add-human-approval-to-a-langchain-agent-in-5-minutes-281d",
-      "pubDate": "2026-08-16T01:10:04.000Z",
-      "description": "<h1> Add human approval to a LangChain agent in 5 minutes </h1> <p>Your agent can send the email. That's the whole problem.</p> <p>A month ago it could only draft one. Now it has a tool that actually calls the API, and somewhere between \"draft\" and \"send\" there used to be a person reading it first. ",
+      "title": "Tail Talk: reading the half of the conversation your dog is already having",
+      "link": "https://dev.to/benjaminsqlserver/tail-talk-reading-the-half-of-the-conversation-your-dog-is-already-having-3eno",
+      "pubDate": "2026-08-16T06:13:26.000Z",
+      "description": "<p><em>This is a submission for <a href=\"https://dev.to/challenges/weekend-2026-08-13\">Weekend Challenge: Dog Days Edition</a></em></p> <h2> What I Built </h2> <p>Tail Talk reads a dog's body language from a photo.</p> <p>You upload a picture. Gemini walks the whole dog; ears, eyes, mouth, tail, pos",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Qdrant Recall Inconsistency: It Took 300 Test Runs to Discover the Index Wasn't Refreshed",
-      "link": "https://dev.to/_eb7f2a654e97a60ae9f96e/qdrant-recall-inconsistency-it-took-300-test-runs-to-discover-the-index-wasnt-refreshed-3agf",
-      "pubDate": "2026-08-16T01:05:06.000Z",
-      "description": "<p>At 2 AM, a user reported that the AI Agent suddenly forgot details of a project we discussed yesterday. I groggily opened Grafana and saw the memory recall rate had dropped from 98% to 60%. My first thought was the embedding model acting up again, but after digging through logs, I found a \"time g",
+      "title": "Why your App Tracking Transparency prompt doesn't show up (and how it got my app rejected)",
+      "link": "https://dev.to/ninomaedev/why-your-app-tracking-transparency-prompt-doesnt-show-up-and-how-it-got-my-app-rejected-oob",
+      "pubDate": "2026-08-16T06:12:52.000Z",
+      "description": "<p>App Review rejected my iOS app under Guideline 2.1. The note said reviewers were unable to locate the App Tracking Transparency permission request when they tested the build.</p> <p>The prompt worked on my iPhone. Every single launch. It just didn't work on theirs.</p> <p>The cause turned out to ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The most boring service in the stack",
-      "link": "https://dev.to/kayashaolu/the-most-boring-service-in-the-stack-2kim",
-      "pubDate": "2026-08-16T01:03:38.000Z",
-      "description": "<p>The most reliable part of a stack is rarely the part anyone shows off. It has no clever layer to point at. That is the whole reason it never breaks.</p> <p>A payment service I want to walk through this week is a clean example of that. One queue sat in front of it, catching every incoming charge. ",
+      "title": "Modern IT Helpdesk &amp; Ticketing System Built with PHP Native &amp; MySQL",
+      "link": "https://dev.to/janrosedev/modern-it-helpdesk-ticketing-system-built-with-php-native-mysql-504p",
+      "pubDate": "2026-08-16T06:12:01.000Z",
+      "description": "<p>Are you looking for a clean, efficient, and modern way to manage IT support requests? Stop dealing with messy manual reports via chat and start using a professional ticketing system!</p> <p>In this video, I’m showcasing \"HelpdeskKu\"—a powerful, custom-built IT ticketing system designed for effici",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "Targeted marine cloud brightening weakens subsequent El Niño",
+      "link": "https://www.science.org/doi/10.1126/sciadv.adx3012",
+      "pubDate": "2026-08-16T03:40:05.000Z",
+      "description": "Article URL: https://www.science.org/doi/10.1126/sciadv.adx3012 Comments URL: https://news.ycombinator.com/item?id=49316685 Points: 15 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Government sponsored study on alcohol doesn't stand up to scrutiny",
+      "link": "https://nntaleb.substack.com/p/have-another-drink",
+      "pubDate": "2026-08-16T03:23:34.000Z",
+      "description": "Article URL: https://nntaleb.substack.com/p/have-another-drink Comments URL: https://news.ycombinator.com/item?id=49316611 Points: 31 # Comments: 11",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Zapping Rocks Unlocks Stimulated Geologic Hydrogen",
+      "link": "https://spectrum.ieee.org/stimulated-geologic-hydrogen",
+      "pubDate": "2026-08-16T02:36:10.000Z",
+      "description": "Article URL: https://spectrum.ieee.org/stimulated-geologic-hydrogen Comments URL: https://news.ycombinator.com/item?id=49316395 Points: 12 # Comments: 3",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Patterns and problems in emerging multi-agent systems",
+      "link": "https://www.anthropic.com/research/multiagent-systems",
+      "pubDate": "2026-08-16T02:12:53.000Z",
+      "description": "Article URL: https://www.anthropic.com/research/multiagent-systems Comments URL: https://news.ycombinator.com/item?id=49316271 Points: 45 # Comments: 13",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Guiding Ships with Moire Patterns",
+      "link": "https://tinkerings.org/2018/03/28/guiding-ships-with-moire-patterns/",
+      "pubDate": "2026-08-16T01:26:44.000Z",
+      "description": "Article URL: https://tinkerings.org/2018/03/28/guiding-ships-with-moire-patterns/ Comments URL: https://news.ycombinator.com/item?id=49315995 Points: 30 # Comments: 7",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Show HN: Mic Drop, a real-time multiplayer karaoke game",
+      "link": "https://www.micdrop.gg/",
+      "pubDate": "2026-08-16T00:46:29.000Z",
+      "description": "Article URL: https://www.micdrop.gg/ Comments URL: https://news.ycombinator.com/item?id=49315742 Points: 45 # Comments: 17",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Big Pickle on SWE Atlas – Codebase QnA",
+      "link": "https://github.com/PhillipChaffee/big-pickle-swe-atlas",
+      "pubDate": "2026-08-16T00:10:48.000Z",
+      "description": "Article URL: https://github.com/PhillipChaffee/big-pickle-swe-atlas Comments URL: https://news.ycombinator.com/item?id=49315563 Points: 4 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "Tea5767-Radio-Tuner",
       "link": "https://github.com/turtushig22-blip/tea5767-radio-tuner",
       "pubDate": "2026-08-15T23:54:35.000Z",
-      "description": "Article URL: https://github.com/turtushig22-blip/tea5767-radio-tuner Comments URL: https://news.ycombinator.com/item?id=49315456 Points: 9 # Comments: 0",
+      "description": "Article URL: https://github.com/turtushig22-blip/tea5767-radio-tuner Comments URL: https://news.ycombinator.com/item?id=49315456 Points: 35 # Comments: 2",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "SugarTrack – an offline Android logbook for blood sugar (no account, no cloud)",
-      "link": "https://sugartrack-beta.vercel.app/",
-      "pubDate": "2026-08-15T22:28:14.000Z",
-      "description": "Article URL: https://sugartrack-beta.vercel.app/ Comments URL: https://news.ycombinator.com/item?id=49314884 Points: 20 # Comments: 5",
+      "title": "AI-Assisted GPU Porting of a 250k Line Legacy Weather Simulation Code",
+      "link": "https://arxiv.org/abs/2608.13122",
+      "pubDate": "2026-08-15T22:41:51.000Z",
+      "description": "Article URL: https://arxiv.org/abs/2608.13122 Comments URL: https://news.ycombinator.com/item?id=49314967 Points: 21 # Comments: 2",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Modeling and Verification of Keeta's Consensus [pdf]",
-      "link": "https://xescu.re/keeta-consensus.pdf",
-      "pubDate": "2026-08-15T21:49:45.000Z",
-      "description": "Article URL: https://xescu.re/keeta-consensus.pdf Comments URL: https://news.ycombinator.com/item?id=49314642 Points: 11 # Comments: 1",
+      "title": "Software Engineering fundamentals matter more",
+      "link": "https://rhonabwy.com/2026/08/15/software-engineering-fundamentals-matter-more-than-ever/",
+      "pubDate": "2026-08-15T22:31:09.000Z",
+      "description": "Article URL: https://rhonabwy.com/2026/08/15/software-engineering-fundamentals-matter-more-than-ever/ Comments URL: https://news.ycombinator.com/item?id=49314902 Points: 82 # Comments: 22",
       "source": "Hacker News",
       "category": "Tech News"
-    },
-    {
-      "title": "Were Touch Bar's problems software rather than hardware?",
-      "link": "https://unsung.aresluna.org/deeper-dive-were-touch-bars-problems-software-rather-than-hardware/",
-      "pubDate": "2026-08-15T21:47:56.000Z",
-      "description": "Article URL: https://unsung.aresluna.org/deeper-dive-were-touch-bars-problems-software-rather-than-hardware/ Comments URL: https://news.ycombinator.com/item?id=49314630 Points: 6 # Comments: 1",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Bede Liu, a digital signal processing pioneer, has died",
-      "link": "https://spectrum.ieee.org/digital-signal-processing",
-      "pubDate": "2026-08-15T21:45:54.000Z",
-      "description": "Article URL: https://spectrum.ieee.org/digital-signal-processing Comments URL: https://news.ycombinator.com/item?id=49314615 Points: 55 # Comments: 2",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "The Wow signal was a strong narrowband radio signal detected on August 15, 1977",
-      "link": "https://en.wikipedia.org/wiki/Wow!_signal",
-      "pubDate": "2026-08-15T21:42:47.000Z",
-      "description": "Article URL: https://en.wikipedia.org/wiki/Wow!_signal Comments URL: https://news.ycombinator.com/item?id=49314596 Points: 63 # Comments: 16",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Tracking down a Zsh history data loss bug",
-      "link": "https://michael.stapelberg.ch/posts/2026-08-09-zsh-history-truncation-bug/",
-      "pubDate": "2026-08-15T21:39:09.000Z",
-      "description": "Article URL: https://michael.stapelberg.ch/posts/2026-08-09-zsh-history-truncation-bug/ Comments URL: https://news.ycombinator.com/item?id=49314579 Points: 33 # Comments: 5",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Abdominal fat predicts heart disease risk better than BMI",
-      "link": "https://www.acc.org/about-acc/press-releases/2026/08/11/14/59/abdominal-fat-predicts-heart-disease-risk-better-than-bmi",
-      "pubDate": "2026-08-15T21:14:34.000Z",
-      "description": "Article URL: https://www.acc.org/about-acc/press-releases/2026/08/11/14/59/abdominal-fat-predicts-heart-disease-risk-better-than-bmi Comments URL: https://news.ycombinator.com/item?id=49314403 Points: 148 # Comments: 111",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Cultivating a state of mind where new ideas are born (2023)",
-      "link": "https://www.henrikkarlsson.xyz/p/good-ideas",
-      "pubDate": "2026-08-15T20:54:11.000Z",
-      "description": "Article URL: https://www.henrikkarlsson.xyz/p/good-ideas Comments URL: https://news.ycombinator.com/item?id=49314235 Points: 77 # Comments: 20",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Humazon",
-      "link": "https://hughhowey.com/humazon/",
-      "pubDate": "2026-08-15T20:18:37.000Z",
-      "description": "Article URL: https://hughhowey.com/humazon/ Comments URL: https://news.ycombinator.com/item?id=49313941 Points: 25 # Comments: 11",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "What’s !important #17: Custom Highlight API, CSS Navigation Matching, Fixing text-stroke, and More",
-      "link": "https://css-tricks.com/whats-important-17/",
-      "pubDate": "2026-08-14T14:01:51.000Z",
-      "description": "Plus, how to style skeleton UIs, how to enable diagonal scrolling, how images can overflow themselves, and yet, still more. Basically, how to do a lot of really cool (CSS) stuff. What’s !important #17: Custom Highlight API, CSS Navigation Matching, Fixing text-stroke, and More originally handwritten",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Blocked aria-hidden: The Warning is Right, and Every Fix You&#8217;ve Found is Wrong",
-      "link": "https://css-tricks.com/blocked-aria-hidden-fix/",
-      "pubDate": "2026-08-12T13:43:56.000Z",
-      "description": "The warning is correct. And the recommended fixes you've probably seen are wrong. Here's what you can do instead to properly fix the issue. Blocked aria-hidden: The Warning is Right, and Every Fix You’ve Found is Wrong originally handwritten and published with love on CSS-Tricks. You should really g",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Animating CSS border-image",
-      "link": "https://css-tricks.com/animating-css-border-image/",
-      "pubDate": "2026-08-10T15:58:47.000Z",
-      "description": "Border images are an overlooked feature. One neat fact is that border image slices can run across entire borders on an element, and animating it creates beautiful effects. Animating CSS border-image originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "SmashingConf Freiburg 2026, September 7-10",
-      "link": "https://css-tricks.com/smashingconf-freiburg-2026-september-7-10/",
-      "pubDate": "2026-08-10T15:57:39.000Z",
-      "description": "Smashing Magazine’s in-person conferences are back and returning to the wonderful city of Freiburg next month, September 7–10. SmashingConf Freiburg 2026, September 7-10 originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Using and Styling the Dialog Element",
-      "link": "https://css-tricks.com/using-and-styling-the-dialog-element/",
-      "pubDate": "2026-08-07T14:06:43.000Z",
-      "description": "There's a lot of nuance to the <dialog> element, a seemingly little piece of web architecture. I've got some notes from digging into it. Using and Styling the Dialog Element originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "2026 State of CSS, Devs Surveys",
-      "link": "https://css-tricks.com/2026-state-of-css-devs-surveys/",
-      "pubDate": "2026-08-06T15:54:52.000Z",
-      "description": "A few notes and takeaways from the 2026 State of CSS survey results, including a nice CSS-Tricks cameo! 2026 State of CSS, Devs Surveys originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Gap Decorations Are Now Available, Here’s What’s New",
-      "link": "https://css-tricks.com/css-gap-decorations-now-available/",
-      "pubDate": "2026-08-03T15:53:20.000Z",
-      "description": "Today, with CSS gap decorations fully supported in Chrome and Edge, starting with version 149, you can now very easily style gaps, and with a lot of control. Gap Decorations Are Now Available, Here’s What’s New originally handwritten and published with love on CSS-Tricks. You should really get the n",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Get Ready For the Powerful CSS border-shape Property!",
-      "link": "https://css-tricks.com/get-ready-for-the-powerful-css-border-shape-property/",
-      "pubDate": "2026-07-31T15:14:00.000Z",
-      "description": "We recently got the shape() function and corner-shape property. What else could we possibly need as far as making shapes in CSS? Let me tell you: the border-shape property! Get Ready For the Powerful CSS border-shape Property! originally handwritten and published with love on CSS-Tricks. You should ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "What’s !important #16: sibling-index() Animations, Use Cases for the infinity Keyword, Container Stuck Queries, and More",
-      "link": "https://css-tricks.com/whats-important-16/",
-      "pubDate": "2026-07-31T14:06:21.000Z",
-      "description": "The soon-Baseline sibling-index() function for animations, CSS and the 2026 FIFA World Cup, use cases for the infinity keyword, container \"stuck\" queries, and more. What’s !important #16: sibling-index() Animations, Use Cases for the infinity Keyword, Container Stuck Queries, and More originally han",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "writing-mode",
-      "link": "https://css-tricks.com/almanac/properties/w/writing-mode/",
-      "pubDate": "2026-07-21T09:39:10.000Z",
-      "description": "The writing-mode CSS property sets whether lines of text are laid out horizontally or vertically, and the direction in which blocks and lines progress. .element { writing-mode: vertical-rl; } This is most useful in languages such as Chinese, Japanese or … writing-mode originally handwritten and publ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
     },
     {
       "title": "Meet the HTB Profile: all your skills, in one place",
