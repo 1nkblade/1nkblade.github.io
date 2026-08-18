@@ -1,173 +1,248 @@
 {
-  "generatedAt": "2026-08-18T13:08:00.513Z",
+  "generatedAt": "2026-08-18T18:56:38.908Z",
   "sourceCount": 4,
-  "successCount": 3,
-  "errors": [
-    {
-      "source": "CSS Tricks",
-      "error": "HTTP 415 Unsupported Media Type"
-    }
-  ],
+  "successCount": 4,
+  "errors": [],
   "items": [
     {
-      "title": "Multimodal AI at Scale: My Cloud Architect's Production Notes",
-      "link": "https://dev.to/swift-logic-io218/multimodal-ai-at-scale-my-cloud-architects-production-notes-56nj",
-      "pubDate": "2026-08-18T13:00:26.000Z",
-      "description": "<p>Multimodal AI at Scale: My Cloud Architect's Production Notes</p> <p>I shipped my first multimodal vision pipeline back in early 2025, and looking back, I'm honestly a little embarrassed at how naive my architecture was. Single-region deployment, no caching, blind faith in vendor uptime — the wor",
+      "title": "Moderation Intake Accounting: Bulk LLM Text Classification API With Tenant Chargeback",
+      "link": "https://dev.to/evanshepherd8274/moderation-intake-accounting-bulk-llm-text-classification-api-with-tenant-chargeback-2l8o",
+      "pubDate": "2026-08-18T18:49:54.000Z",
+      "description": "<p>Short answer: For cheap bulk CSV tagging, use an asynchronous LLM text classification API, estimate each tenant batch before it runs, and attach the eventual export to the same tenant ledger instead of sending one request per row.</p> <p>For a one-person B2B SaaS, the useful comparison is not a m",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The hard part of batch date conversion isn't formatting — it's deciding what `01/02/2024` means",
-      "link": "https://dev.to/begoodtool/the-hard-part-of-batch-date-conversion-isnt-formatting-its-deciding-what-01022024-means-49o5",
-      "pubDate": "2026-08-18T13:00:03.000Z",
-      "description": "<p>I used to think a bulk date converter was basically a dropdown wrapped around a date library. Paste a bunch of rows, pick <code>YYYY-MM-DD</code>, done. Then you look at real exports from spreadsheets, CRMs, logs, and old internal tools and realize the problem isn't \"formatting\" at all.</p> <p>It",
+      "title": ".NET 10 dotnet tool exec: Pin the Version and Feed in CI",
+      "link": "https://dev.to/ssukhpinder/net-10-dotnet-tool-exec-pin-the-version-and-feed-in-ci-2jgl",
+      "pubDate": "2026-08-18T18:45:55.000Z",
+      "description": "<p>A CI step that says <code>dotnet tool exec Some.Tool</code> looks isolated, but it is not fully reproducible. Without a version, the command can resolve the latest package from the configured feeds. Machine-level NuGet settings can also change which feeds participate. I use <strong>.NET 10 dotnet",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Top 7 Featured DEV Posts of the Week",
-      "link": "https://dev.to/devteam/top-7-featured-dev-posts-of-the-week-5c26",
-      "pubDate": "2026-08-18T13:00:00.000Z",
-      "description": "<p><em>Welcome to this week's Top 7, where the DEV editorial team handpicks their favorite posts from the previous week (Saturday-Friday).</em></p> <p>Congrats to all the authors that made it onto the list 👏</p> <div class=\"ltag__link--embedded\"> <div class=\"crayons-story \"> <a href=\"https://dev.to",
+      "title": "NiceGUI: crea una aplicación web en Python sin escribir JavaScript",
+      "link": "https://dev.to/isazajuancarlos/nicegui-crea-una-aplicacion-web-en-python-sin-escribir-javascript-3kef",
+      "pubDate": "2026-08-18T18:45:05.000Z",
+      "description": "<p>Si sabes Python pero el frontend te frena, <strong>NiceGUI</strong> es una de las mejores noticias de los últimos años: te permite construir aplicaciones web completas —con botones, formularios, gráficos y navegación— usando solo Python.</p> <h2> ¿Qué es NiceGUI? </h2> <p>Es un framework construi",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I built a PDF merger that never uploads your files — here's how published: false",
-      "link": "https://dev.to/jeffrey_hamilton6399/i-built-a-pdf-merger-that-never-uploads-your-files-heres-howpublished-false-1iik",
-      "pubDate": "2026-08-18T13:00:00.000Z",
-      "description": "<p>MergePDF is a 100% client-side PDF tool. No backend, no uploads, no sign-up. Here's the architecture, the tricky parts, and why privacy is a feature, not a setting.<br> Every tax season, the same thing happens. Someone in my family asks me to merge a few PDFs. They Google \"merge PDF.\" They click ",
+      "title": "Java 11 New Features and Performance Improvements: A Practical Guide (2026-08-18 18:42)",
+      "link": "https://dev.to/said_olano/java-11-new-features-and-performance-improvements-a-practical-guide-2026-08-18-1842-1op6",
+      "pubDate": "2026-08-18T18:42:40.000Z",
+      "description": "<h1> Java 11 New Features and Performance Improvements </h1> <p>Released in September 2018, Java 11 is a <strong>Long-Term Support (LTS)</strong> release, making it one of the most important milestones since Java 8. For teams planning migrations, Java 11 offers a compelling mix of new language featu",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Research, Plan, Implement: A Workflow That Keeps AI Agents Accurate",
-      "link": "https://dev.to/shayan-araghi/research-plan-implement-a-workflow-that-keeps-ai-agents-accurate-npb",
-      "pubDate": "2026-08-18T13:00:00.000Z",
-      "description": "<h2> The Problem: Context Rot </h2> <p>Have you ever had to stop an AI agent halfway through a task to correct it? Work with AI agents long enough and you'll see a pattern: the longer a session runs, the worse the output gets.</p> <p>Every input you give the agent and every output it produces gets a",
+      "title": "Building Suzi Chat: A retro MSN-style chat platform with mini-games",
+      "link": "https://dev.to/suzichat_2e99f8fec3b/building-suzi-chat-a-retro-msn-style-chat-platform-with-mini-games-3431",
+      "pubDate": "2026-08-18T18:40:57.000Z",
+      "description": "<p>I built Suzi Chat to bring back the nostalgic feel of late-90s/early-2000s browser chat rooms.</p> <p>Key Features:</p> <p>Create and customize your own public or private chat rooms instantly from the browser.</p> <p>Built-in multiplayer casual board games (Chess, Checkers, Gomoku).</p> <p>No com",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How to Replicate MySQL to BigQuery with Sling",
-      "link": "https://dev.to/flarco/how-to-replicate-mysql-to-bigquery-with-sling-2a05",
-      "pubDate": "2026-08-18T12:59:41.000Z",
-      "description": "<h1> How to Replicate MySQL to BigQuery with Sling </h1> <blockquote> <p>Last updated: July 2026</p> </blockquote> <p>Getting MySQL data into BigQuery usually means picking a tradeoff. Hand-rolled scripts are cheap to start and expensive to keep alive once schemas drift. Managed connectors are quick",
+      "title": "How We Built a Safe GitHub Bounty Lifecycle for MyZubster",
+      "link": "https://dev.to/danielioni/how-we-built-a-safe-github-bounty-lifecycle-for-myzubster-a2",
+      "pubDate": "2026-08-18T18:39:20.000Z",
+      "description": "<h1> How We Built a Safe GitHub Bounty Lifecycle for MyZubster </h1> <p>MyZubster is evolving into a distributed ecosystem of repositories, services, automation, hardware projects, AI components, and contributor workflows.</p> <p>As the number of repositories and contributors increased, one problem ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "GPT-4o API Costs Dropped 50% - How to Recalculate Your AI Budget",
-      "link": "https://dev.to/basavaraj_sh_1ea7d95f0f2e/gpt-4o-api-costs-dropped-50-how-to-recalculate-your-ai-budget-cj",
-      "pubDate": "2026-08-18T12:55:03.000Z",
-      "description": "<p>OpenAI has cut prices on its frontier models again. If you're running any production workload on the API, your cost assumptions from six months ago are probably stale.</p> <h2> The Real Impact of a Pricing Halving </h2> <p>A 50% price cut sounds like pure good news, but it changes the calculus on",
+      "title": "How to Build an AI Agent That Asks Permission First (Nuxt + AI SDK 7)",
+      "link": "https://dev.to/aws/how-to-build-an-ai-agent-that-asks-permission-first-nuxt-ai-sdk-7-n42",
+      "pubDate": "2026-08-18T18:38:25.000Z",
+      "description": "<h2> Introduction </h2> <p>I did something stupid. I built a superhero-themed Nuxt app, connected it to an Anthropic model through <a href=\"https://aws.amazon.com/bedrock/?trk=1ad04439-1c50-4fdd-a845-d07d2655fe7a&amp;sc_channel=el\" rel=\"noopener noreferrer\">Amazon Bedrock</a>, and gave it a tool tha",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Every Laptop Is a Credential Store: Complete Map of Hidden Secrets",
-      "link": "https://dev.to/gitguardian/every-laptop-is-a-credential-store-complete-map-of-hidden-secrets-187c",
-      "pubDate": "2026-08-18T12:50:18.000Z",
-      "description": "<p>👉 <strong>TL;DR:</strong> A developer's laptop quietly becomes one of the densest credential stores in the organization. Cloud keys sit in ~/.aws, tokens pile up in shell history and .npmrc, SSH keys live in ~/.ssh, session cookies persist in the browser, and AI coding agents cache secrets in th",
+      "title": "Transactions in NestJS and TypeORM without passing the EntityManager around",
+      "link": "https://dev.to/josec_gc/transactions-in-nestjs-and-typeorm-without-passing-the-entitymanager-around-1k9h",
+      "pubDate": "2026-08-18T18:37:48.000Z",
+      "description": "<p>Transactions promise a simple guarantee: either everything commits, or nothing does. And yet, in a NestJS application with a repository layer, it is perfectly possible to run a rollback with no errors and then find a row still sitting in the database that should have disappeared with it.</p> <p>T",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "When AI Agents Turn on Each Other: Anthropic's Frontier Red Team Exposes Six Deadly Failure Modes in Multi-Agent Systems",
-      "link": "https://dev.to/sanyaduan/when-ai-agents-turn-on-each-other-anthropics-frontier-red-team-exposes-six-deadly-failure-modes-2cfj",
-      "pubDate": "2026-08-18T12:47:01.000Z",
-      "description": "<h2> I. What the Research Actually Found </h2> <p>The report is titled \"Patterns and problems in emerging multiagent systems,\" published by Anthropic's internal Frontier Red Team on August 13, 2026. It designed six independent experiments, each probing a different failure mode: sabotage under goal c",
+      "title": "# From Silent Failure to a Definitive Fix: Debugging an Existing AI Application",
+      "link": "https://dev.to/nikhil_ramank_152ca48266/-from-silent-failure-to-a-definitive-fix-debugging-an-existing-ai-application-hja",
+      "pubDate": "2026-08-18T18:37:42.000Z",
+      "description": "<p>Clear the Lineup Submission<br> The Bug<br> AI applications can fail silently — producing wrong outputs, degraded performance, or unexpected behaviors without explicit errors. In my case, the issue was SQL drift: queries executed successfully but returned incomplete or unstable results due to uns",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Flutter Streaming UI: How the Typewriter Experience of AI Replies Is Built",
-      "link": "https://dev.to/yuelinghuashu/flutter-streaming-ui-how-the-typewriter-experience-of-ai-replies-is-built-371l",
-      "pubDate": "2026-08-18T12:44:59.000Z",
-      "description": "<blockquote> <p>The typewriter effect looks simple: characters appear one by one. But behind \"skip animation\", \"no truncation\", and \"no performance regression\" lies a whole set of engineering decisions.</p> <p>The implementation in this article is Flutter/Dart based, but the core semantic decisions ",
+      "title": "Apache Data Lakehouse Weekly: August 10 to 18, 2026",
+      "link": "https://dev.to/alexmercedcoder/apache-data-lakehouse-weekly-august-10-to-18-2026-1nf5",
+      "pubDate": "2026-08-18T18:33:00.000Z",
+      "description": "<p>The lakehouse community spent this week deciding what gets carried forward and what gets left behind. Iceberg voted to forbid new equality deletes in V4 and debated whether the format still needs Avro manifests at all. Parquet shipped 1.18.0 and then spent the back half of the week chasing two da",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Using the railway network as a flatbed scanner",
-      "link": "https://philo.gay/linecam/",
-      "pubDate": "2026-08-18T12:43:54.000Z",
-      "description": "Article URL: https://philo.gay/linecam/ Comments URL: https://news.ycombinator.com/item?id=49344825 Points: 6 # Comments: 0",
+      "title": "How does IKEA come up with names for its products?",
+      "link": "https://www.ikea.com/se/en/customer-service/knowledge/articles/6f564c4d-2ccc-46de-b643-545a3948dc79.html",
+      "pubDate": "2026-08-18T18:11:53.000Z",
+      "description": "Article URL: https://www.ikea.com/se/en/customer-service/knowledge/articles/6f564c4d-2ccc-46de-b643-545a3948dc79.html Comments URL: https://news.ycombinator.com/item?id=49349984 Points: 25 # Comments: 5",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Meta Files Patent for Facial Recognition, Automatic Recording of People",
-      "link": "https://www.privacyguides.org/news/2026/08/17/meta-files-patent-for-facial-recognition-automatic-recording-of-people/",
-      "pubDate": "2026-08-18T12:23:55.000Z",
-      "description": "Article URL: https://www.privacyguides.org/news/2026/08/17/meta-files-patent-for-facial-recognition-automatic-recording-of-people/ Comments URL: https://news.ycombinator.com/item?id=49344654 Points: 9 # Comments: 0",
+      "title": "Turbovec – Google's TurboQuant for vector search in Rust",
+      "link": "https://github.com/RyanCodrai/turbovec",
+      "pubDate": "2026-08-18T18:07:21.000Z",
+      "description": "Article URL: https://github.com/RyanCodrai/turbovec Comments URL: https://news.ycombinator.com/item?id=49349898 Points: 21 # Comments: 1",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Claude writing a macOS driver for my obscure HP printer built only for Windows",
-      "link": "https://twitter.com/kuberwastaken/status/2089377982536388964",
-      "pubDate": "2026-08-18T12:22:58.000Z",
-      "description": "Article URL: https://twitter.com/kuberwastaken/status/2089377982536388964 Comments URL: https://news.ycombinator.com/item?id=49344643 Points: 9 # Comments: 2",
+      "title": "Show HN: macOS data protection keychain for Electron apps",
+      "link": "https://github.com/biw/keychain-store",
+      "pubDate": "2026-08-18T17:25:19.000Z",
+      "description": "Hey HN,I've been working on Hansel [1] (an encrypted personal data store you can query with agents), and there wasn't a good way to use the modern macOS Data Protection Keychain.Electron's safeStorage [2] uses the legacy file-based keychain, which allows other apps/agents to query it with the `secur",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "As Wisconsin cities flee Flock, its shared camera network loses value",
-      "link": "https://arstechnica.com/tech-policy/2026/08/as-wisconsin-cities-flee-flock-its-shared-camera-network-loses-value/",
-      "pubDate": "2026-08-18T11:27:03.000Z",
-      "description": "Article URL: https://arstechnica.com/tech-policy/2026/08/as-wisconsin-cities-flee-flock-its-shared-camera-network-loses-value/ Comments URL: https://news.ycombinator.com/item?id=49344114 Points: 51 # Comments: 16",
+      "title": "Data centers raise nearby temperatures by up to 4 degrees in Phoenix",
+      "link": "https://asmedigitalcollection.asme.org/sustainablebuildings/article/7/2/024501/1233035/Data-Center-Waste-Heat-as-an-Emerging-Urban",
+      "pubDate": "2026-08-18T17:24:53.000Z",
+      "description": "Article URL: https://asmedigitalcollection.asme.org/sustainablebuildings/article/7/2/024501/1233035/Data-Center-Waste-Heat-as-an-Emerging-Urban Comments URL: https://news.ycombinator.com/item?id=49349147 Points: 111 # Comments: 90",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Google buys crashed airline Spirit's data at auction, because AI",
-      "link": "https://www.theregister.com/ai-and-ml/2026/08/18/google-buys-crashed-airline-spirits-data-at-auction-because-ai/5288962",
-      "pubDate": "2026-08-18T10:13:28.000Z",
-      "description": "Article URL: https://www.theregister.com/ai-and-ml/2026/08/18/google-buys-crashed-airline-spirits-data-at-auction-because-ai/5288962 Comments URL: https://news.ycombinator.com/item?id=49343559 Points: 213 # Comments: 124",
+      "title": "Claude Code weekly limits reduce by a third tomorrow",
+      "link": "https://support.claude.com/en/articles/15910845-claude-code-may-august-2026-weekly-limits-promotion",
+      "pubDate": "2026-08-18T17:02:15.000Z",
+      "description": "Article URL: https://support.claude.com/en/articles/15910845-claude-code-may-august-2026-weekly-limits-promotion Comments URL: https://news.ycombinator.com/item?id=49348751 Points: 204 # Comments: 140",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Linux 7.3 improves performance when running out of vRAM",
-      "link": "https://pixelcluster.dev/VRAM-Overcommit/",
-      "pubDate": "2026-08-18T07:51:50.000Z",
-      "description": "Article URL: https://pixelcluster.dev/VRAM-Overcommit/ Comments URL: https://news.ycombinator.com/item?id=49342719 Points: 280 # Comments: 91",
+      "title": "Diesel Margins Top $100 a Barrel to Reach Record High as Supply Crunch Grows",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-18/diesel-margins-top-100-a-barrel-to-reach-record-high-as-supply-crunch-grows",
+      "pubDate": "2026-08-18T16:40:07.000Z",
+      "description": "Article URL: https://www.bloomberg.com/news/articles/2026-08-18/diesel-margins-top-100-a-barrel-to-reach-record-high-as-supply-crunch-grows Comments URL: https://news.ycombinator.com/item?id=49348356 Points: 36 # Comments: 13",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Rethinking Database Programming",
-      "link": "https://acadia.engineering/blog/rethinking-database-programming",
-      "pubDate": "2026-08-18T07:28:27.000Z",
-      "description": "Article URL: https://acadia.engineering/blog/rethinking-database-programming Comments URL: https://news.ycombinator.com/item?id=49342530 Points: 117 # Comments: 57",
+      "title": "Superpowers, Not Superintelligence",
+      "link": "https://bond.now/news/superpowers-not-superintelligence",
+      "pubDate": "2026-08-18T16:27:41.000Z",
+      "description": "Article URL: https://bond.now/news/superpowers-not-superintelligence Comments URL: https://news.ycombinator.com/item?id=49348152 Points: 22 # Comments: 24",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Finger: Social network that never died",
-      "link": "https://en.andros.dev/blog/54572bc7/finger-the-1971-social-network-that-never-died/",
-      "pubDate": "2026-08-18T07:21:35.000Z",
-      "description": "Article URL: https://en.andros.dev/blog/54572bc7/finger-the-1971-social-network-that-never-died/ Comments URL: https://news.ycombinator.com/item?id=49342472 Points: 52 # Comments: 21",
+      "title": "Launch HN: machine0 (YC S26) – Persistent CPU and GPU VMs from the CLI",
+      "link": "https://machine0.io",
+      "pubDate": "2026-08-18T16:26:42.000Z",
+      "description": "Hi HN! I’m Barnaby, founder of machine0 (https://machine0.io). I’m building a CLI for long horizon agent compute: `machine0 new mybox` gives your agent a persistent cloud VM, billed by the minute, from $0.013/hr up to 60 vCPU / 240 GB RAM and GPUs (H100s, H200s etc), with 99.99% VM level uptime. Age",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Exercise intensity modulates interorgan communication and is associated with",
-      "link": "https://www.cell.com/cell-reports-medicine/fulltext/S2666-3791%2826%2900405-2?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS2666379126004052%3Fshowall%3Dtrue",
-      "pubDate": "2026-08-18T04:51:33.000Z",
-      "description": "Article URL: https://www.cell.com/cell-reports-medicine/fulltext/S2666-3791%2826%2900405-2?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS2666379126004052%3Fshowall%3Dtrue Comments URL: https://news.ycombinator.com/item?id=49341411 Points: 63 # Comments: 24",
+      "title": "Show HN: Openleetcode – local LeetCode runner where tests live in the repo",
+      "link": "https://github.com/therepanic/openleetcode",
+      "pubDate": "2026-08-18T15:30:40.000Z",
+      "description": "You write a standard solution, just like on LeetCode, and run it through the CLI. It identifies the problem by ID or title, executes your code against local test cases, and shows the result.It currently supports around 1.4k problems and multiple languages, including Python, C++, Rust, Java, Go, Type",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "The Benchmarkpocalypse",
-      "link": "https://danluu.com/benchpocalypse/",
-      "pubDate": "2026-08-18T02:11:02.000Z",
-      "description": "Article URL: https://danluu.com/benchpocalypse/ Comments URL: https://news.ycombinator.com/item?id=49340299 Points: 137 # Comments: 40",
+      "title": "Code-native generation of highly programmable 3D assets (2026)",
+      "link": "https://arxiv.org/abs/2607.22738",
+      "pubDate": "2026-08-18T14:54:44.000Z",
+      "description": "Article URL: https://arxiv.org/abs/2607.22738 Comments URL: https://news.ycombinator.com/item?id=49346538 Points: 36 # Comments: 34",
       "source": "Hacker News",
       "category": "Tech News"
+    },
+    {
+      "title": "Dark mode toggles: two states are enough",
+      "link": "https://css-tricks.com/dark-mode-toggles-two-states-are-enough/",
+      "pubDate": "2026-08-17T14:15:50.000Z",
+      "description": "Lea's pushing back on light/dark mode implementations that display three state options for visitors: light, dark, and system. Dark mode toggles: two states are enough originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "What’s !important #17: Custom Highlight API, CSS Navigation Matching, Fixing text-stroke, and More",
+      "link": "https://css-tricks.com/whats-important-17/",
+      "pubDate": "2026-08-14T14:01:51.000Z",
+      "description": "Plus, how to style skeleton UIs, how to enable diagonal scrolling, how images can overflow themselves, and yet, still more. Basically, how to do a lot of really cool (CSS) stuff. What’s !important #17: Custom Highlight API, CSS Navigation Matching, Fixing text-stroke, and More originally handwritten",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Blocked aria-hidden: The Warning is Right, and Every Fix You&#8217;ve Found is Wrong",
+      "link": "https://css-tricks.com/blocked-aria-hidden-fix/",
+      "pubDate": "2026-08-12T13:43:56.000Z",
+      "description": "The warning is correct. And the recommended fixes you've probably seen are wrong. Here's what you can do instead to properly fix the issue. Blocked aria-hidden: The Warning is Right, and Every Fix You’ve Found is Wrong originally handwritten and published with love on CSS-Tricks. You should really g",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Animating CSS border-image",
+      "link": "https://css-tricks.com/animating-css-border-image/",
+      "pubDate": "2026-08-10T15:58:47.000Z",
+      "description": "Border images are an overlooked feature. One neat fact is that border image slices can run across entire borders on an element, and animating it creates beautiful effects. Animating CSS border-image originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "SmashingConf Freiburg 2026, September 7-10",
+      "link": "https://css-tricks.com/smashingconf-freiburg-2026-september-7-10/",
+      "pubDate": "2026-08-10T15:57:39.000Z",
+      "description": "Smashing Magazine’s in-person conferences are back and returning to the wonderful city of Freiburg next month, September 7–10. SmashingConf Freiburg 2026, September 7-10 originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Using and Styling the Dialog Element",
+      "link": "https://css-tricks.com/using-and-styling-the-dialog-element/",
+      "pubDate": "2026-08-07T14:06:43.000Z",
+      "description": "There's a lot of nuance to the <dialog> element, a seemingly little piece of web architecture. I've got some notes from digging into it. Using and Styling the Dialog Element originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "2026 State of CSS, Devs Surveys",
+      "link": "https://css-tricks.com/2026-state-of-css-devs-surveys/",
+      "pubDate": "2026-08-06T15:54:52.000Z",
+      "description": "A few notes and takeaways from the 2026 State of CSS survey results, including a nice CSS-Tricks cameo! 2026 State of CSS, Devs Surveys originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Gap Decorations Are Now Available, Here’s What’s New",
+      "link": "https://css-tricks.com/css-gap-decorations-now-available/",
+      "pubDate": "2026-08-03T15:53:20.000Z",
+      "description": "Today, with CSS gap decorations fully supported in Chrome and Edge, starting with version 149, you can now very easily style gaps, and with a lot of control. Gap Decorations Are Now Available, Here’s What’s New originally handwritten and published with love on CSS-Tricks. You should really get the n",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Get Ready For the Powerful CSS border-shape Property!",
+      "link": "https://css-tricks.com/get-ready-for-the-powerful-css-border-shape-property/",
+      "pubDate": "2026-07-31T15:14:00.000Z",
+      "description": "We recently got the shape() function and corner-shape property. What else could we possibly need as far as making shapes in CSS? Let me tell you: the border-shape property! Get Ready For the Powerful CSS border-shape Property! originally handwritten and published with love on CSS-Tricks. You should ",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "What’s !important #16: sibling-index() Animations, Use Cases for the infinity Keyword, Container Stuck Queries, and More",
+      "link": "https://css-tricks.com/whats-important-16/",
+      "pubDate": "2026-07-31T14:06:21.000Z",
+      "description": "The soon-Baseline sibling-index() function for animations, CSS and the 2026 FIFA World Cup, use cases for the infinity keyword, container \"stuck\" queries, and more. What’s !important #16: sibling-index() Animations, Use Cases for the infinity Keyword, Container Stuck Queries, and More originally han",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
       "title": "Meet the HTB Profile: all your skills, in one place",
