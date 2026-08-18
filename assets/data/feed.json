@@ -1,107 +1,102 @@
 {
-  "generatedAt": "2026-08-18T01:50:44.957Z",
+  "generatedAt": "2026-08-18T07:04:12.953Z",
   "sourceCount": 4,
-  "successCount": 3,
-  "errors": [
-    {
-      "source": "CSS Tricks",
-      "error": "HTTP 415 Unsupported Media Type"
-    }
-  ],
+  "successCount": 4,
+  "errors": [],
   "items": [
     {
-      "title": "A Generated SQL Query Got Faster by Returning Fewer Rows. Test That Before You Merge It",
-      "link": "https://dev.to/codepy_1473/a-generated-sql-query-got-faster-by-returning-fewer-rows-test-that-before-you-merge-it-h50",
-      "pubDate": "2026-08-18T01:34:15.000Z",
-      "description": "<p>Have you ever watched a generated SQL refactor run faster and assumed it must be correct? That assumption breaks down when the speedup comes from an inner join that silently drops rows the old left join preserved. The output still looks plausible because every displayed row has a customer name, s",
+      "title": "YouTube Playlist to a 100% Static",
+      "link": "https://dev.to/focss/youtube-playlist-to-a-100-static-18b6",
+      "pubDate": "2026-08-18T06:55:04.000Z",
+      "description": "<p>Every so often you find a mobile game you enjoy but can't finish. <strong>Food Hunt</strong> is one of those match-3-style puzzle games where you clear colored tiles by tapping — and the difficulty climbs fast. The content lives on YouTube as a long playlist of level-by-level walkthrough videos, ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "A Free Model vs 30 Security Advisory Records: An Accuracy Test You Can Rerun",
-      "link": "https://dev.to/gitlab_3188/a-free-model-vs-30-security-advisory-records-an-accuracy-test-you-can-rerun-67h",
-      "pubDate": "2026-08-18T01:30:03.000Z",
-      "description": "<p>A single wrong severity label can push a bad dependency upgrade into production.</p> <p>An advisory said \"moderate.\" The package in our tree was critical. The model guessed low. I did not trust the model after that.</p> <p>I wanted a repeatable accuracy test. So I built one.</p> <p>I ran the test",
+      "title": "The Hidden Math of VPS Hosting: Why Your $5 Server Actually Costs $150",
+      "link": "https://dev.to/the_nazar/the-hidden-math-of-vps-hosting-why-your-5-server-actually-costs-150-4263",
+      "pubDate": "2026-08-18T06:47:10.000Z",
+      "description": "<p>The advertised base price of a Virtual Private Server (VPS) is rarely the final operational cost. For developers transitioning from shared hosting or rigid PaaS, understanding the architectural and economic realities of a VPS is the foundational step toward true infrastructure autonomy.</p> <p>In",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "DeepSeek vs Qwen vs Kimi vs GLM: A Cloud Architect's Take",
-      "link": "https://dev.to/bolddeck/deepseek-vs-qwen-vs-kimi-vs-glm-a-cloud-architects-take-278m",
-      "pubDate": "2026-08-18T01:29:48.000Z",
-      "description": "<p>DeepSeek vs Qwen vs Kimi vs GLM: A Cloud Architect's Take</p> <p>I've been running LLM workloads in production for the better part of three years now, and the past twelve months have been wild. The Chinese AI ecosystem went from \"interesting curiosity\" to \"legitimate alternative to OpenAI and Ant",
+      "title": "Getting Started with WEKA: A Beginner’s Guide to Machine Learning Without Code",
+      "link": "https://dev.to/prabhat_anand_9b7f07dcfb4/getting-started-with-weka-a-beginners-guide-to-machine-learning-without-code-1021",
+      "pubDate": "2026-08-18T06:45:44.000Z",
+      "description": "<p>Getting started with machine learning WEKA for Beginners: A Practical Introduction to Machine Learning Without Code</p> <p>Getting started with machine learning often means learning Python, libraries, datasets, and a lot of new terminology at the same time.</p> <p>WEKA offers a different approach",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "An ambiguity gate for AI coding agents: measure the request before writing code",
-      "link": "https://dev.to/q00/an-ambiguity-gate-for-ai-coding-agents-measure-the-request-before-writing-code-4n75",
-      "pubDate": "2026-08-18T01:27:41.000Z",
-      "description": "<p>Every AI coding agent I have used will happily start writing code from a one-line request. \"Build a task management CLI\" leaves the data model, storage, priority rules, and ID scheme for the model to guess, and each guess is defensible and wrong. You find out three files into review, and the fix ",
+      "title": "Codex Maxxing: The Copy-Paste Skill I Use to Ship with Agents",
+      "link": "https://dev.to/devansh365/codex-maxxing-the-copy-paste-skill-i-use-to-ship-with-agents-4ahh",
+      "pubDate": "2026-08-18T06:44:29.000Z",
+      "description": "<p>Codex maxxing started as a joke about using more agents.</p> <p>I have started treating it as a skill instead.</p> <p>I use Codex for implementation, research, repository audits, planning, and writing. The hard part is no longer getting an agent to produce a first draft. The hard part is turning ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Reading an IP Address Like a Security Analyst: A Field Guide",
-      "link": "https://dev.to/cris240493/reading-an-ip-address-like-a-security-analyst-a-field-guide-1ffg",
-      "pubDate": "2026-08-18T01:18:16.000Z",
-      "description": "<p>Every device on the internet is reachable through an IP address. Behind each address hides a story: a country, an organization, a network operator, and sometimes a threat actor. Reading that story quickly is one of the most useful skills a security analyst, developer, or IT professional can have.",
+      "title": "How to Compress a GIF Without Losing Quality (2026 Guide)",
+      "link": "https://dev.to/gavin2020/how-to-compress-a-gif-without-losing-quality-2026-guide-365a",
+      "pubDate": "2026-08-18T06:42:58.000Z",
+      "description": "<p>Let's be honest about why you're here. You have a 4MB animated GIF that's slowing down a product page, bouncing back from an email attachment limit, or getting rejected by an ecommerce backend that caps images at 2MB. Or maybe a client sent you a loop that's 15MB and you need it under 1MB for a S",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Why Strong Google Rankings Do Not Necessarily Translate Into LLM Brand Visibility",
-      "link": "https://dev.to/alifar/why-strong-google-rankings-do-not-necessarily-translate-into-llm-brand-visibility-2hb7",
-      "pubDate": "2026-08-18T01:15:30.000Z",
-      "description": "<p>Strong Google rankings remain valuable, but they are not a direct measure of whether a brand will be surfaced, cited, or recalled in LLM-driven search experiences. Fractl's <a href=\"https://scalevise.com/resources/geo/\" rel=\"noopener noreferrer\">Generative Engine Optimization research</a> examine",
+      "title": "How to Use the SH-C30L USB-to-CAN Adapter with Arduino UNO and MCP2515",
+      "link": "https://dev.to/play_withcircuit_241ef87/how-to-use-the-sh-c30l-usb-to-can-adapter-with-arduino-uno-and-mcp2515-p8n",
+      "pubDate": "2026-08-18T06:39:35.000Z",
+      "description": "<p>Controller Area Network (CAN) is one of those technologies that quietly powers a huge number of embedded systems. It is commonly found in cars, EVs, industrial controllers, robotics, and other distributed systems where multiple devices need to exchange data reliably over a shared bus.</p> <p>For ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Generated Report Delivery — Bulk Email, SMS, Queue Workers, and Cron Reconciliation",
-      "link": "https://dev.to/ashwhispertorvin64/generated-report-delivery-bulk-email-sms-queue-workers-and-cron-reconciliation-264p",
-      "pubDate": "2026-08-18T01:13:19.000Z",
-      "description": "<p>A Node.js service tries to send bulk event notifications for a generated media report, but the page says <code>report_delivery_unknown</code> after its email worker completes. The worker dashboard is green. That is almost useless at 3am, because it answers whether code ran rather than whether the",
+      "title": "Anthropic's Watermarking Controversy: Who Owns Your AI-Edited Words",
+      "link": "https://dev.to/jamilxt/anthropics-watermarking-controversy-who-owns-your-ai-edited-words-l6d",
+      "pubDate": "2026-08-18T06:38:45.000Z",
+      "description": "<p>You typed it. Claude rewrote it. Then it watermarked its version and shipped it to your reader without telling either of you.</p> <p>Last week, Anthropic's text adulteration watermarking became the most-discussed AI topic on Hacker News. Daring Fireball called it a perversion of writing. The thre",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "So we got hit by a scraping attack today. \n\nAI Agent scraped one of my website, even cloudflare out of the box wasn’t able to stop it. 5m requests in a span of 2hrs\n\nThey were using Lightpanda, a headless browser for agents, but instead of running workflow",
-      "link": "https://dev.to/jeramos/so-we-got-hit-by-a-scraping-attack-today-ai-agent-scraped-one-of-my-website-even-cloudflare-4n2l",
-      "pubDate": "2026-08-18T01:09:24.000Z",
-      "description": "",
+      "title": "AI Observability Explained: What It Is and How It Works",
+      "link": "https://dev.to/swapnoneel123/ai-observability-explained-what-it-is-and-how-it-works-487",
+      "pubDate": "2026-08-18T06:25:25.000Z",
+      "description": "<p>Traditional monitoring rests on one quiet assumption that nobody ever writes down: the same input gives you the same output. Something breaks, you replay the request, you watch it break again, you fix it.</p> <p>Now send the same request to a model twice. You get two different answers, and neithe",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Building an Immersive 3D Dice Roller with React and Three.js",
-      "link": "https://dev.to/mahankenway/building-an-immersive-3d-dice-roller-with-react-and-threejs-15jj",
-      "pubDate": "2026-08-18T01:06:21.000Z",
-      "description": "<p>Hey RPG community! I wanted to share a tool I built for my tabletop sessions — <strong>Arcane-Dice</strong>.</p> <p>Inspired by the immersive dice rolling experience in Baldur's Gate 3, I built this web-based 3D dice roller app to bring that same feeling to any browser.</p> <h3> Features: </h3> <",
+      "title": "Mongodb Partitioning",
+      "link": "https://dev.to/vincent_couturier_91/mongodb-partitioning-o35",
+      "pubDate": "2026-08-18T06:24:32.000Z",
+      "description": "<p>At <a href=\"https://www.whoz.com\" rel=\"noopener noreferrer\">Whoz</a>, we build a SaaS platform that helps professional services companies manage their talent staffing. At the heart of our product lies a concept called a <strong>worklog</strong> — a record of time spent by a user on a given activi",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "From 30 Minutes to 3 Seconds: Automated LLM Memory Recall Testing with pytest + FAISS",
-      "link": "https://dev.to/_eb7f2a654e97a60ae9f96e/from-30-minutes-to-3-seconds-automated-llm-memory-recall-testing-with-pytest-faiss-3f12",
-      "pubDate": "2026-08-18T01:05:47.000Z",
-      "description": "<p>At 1:30 a.m., the user group blew up: \"Why did the AI forget my dietary restriction again?\" I dragged myself out of bed and checked. The memory \"no cilantro\" was still in the memory store, but top-k recall just didn't include it. Manually comparing 20 memories took 30 minutes. As my eyelids grew ",
+      "title": "[Technical Discussion] IPC Message Queue Tuning for WLOADCTL on Linux",
+      "link": "https://dev.to/weeli_632477a9c141395/technical-discussion-ipc-message-queue-tuning-for-wloadctl-on-linux-3pe5",
+      "pubDate": "2026-08-18T06:23:20.000Z",
+      "description": "<p>WLOADCTL is built as a distributed scheduling platform composed of multiple cooperating processes.</p> <p>Communication between different nodes, such as:</p> <ul> <li>Server ↔ Agent</li> <li>Server ↔ Client</li> </ul> <p>is handled through TCP/IP socket communication.</p> <p>However, communicatio",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "The Benchmarkpocalypse",
+      "link": "https://danluu.com/benchpocalypse/",
+      "pubDate": "2026-08-18T02:11:02.000Z",
+      "description": "Article URL: https://danluu.com/benchpocalypse/ Comments URL: https://news.ycombinator.com/item?id=49340299 Points: 64 # Comments: 8",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "Repair Cafe – Fix Your Broken Items",
       "link": "https://www.repaircafe.org/",
       "pubDate": "2026-08-17T23:28:28.000Z",
-      "description": "Article URL: https://www.repaircafe.org/ Comments URL: https://news.ycombinator.com/item?id=49339097 Points: 9 # Comments: 2",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Puppy PPE",
-      "link": "http://amosdudley.com/weblog/Designing-PPE-for-Hilde",
-      "pubDate": "2026-08-17T23:10:06.000Z",
-      "description": "Article URL: http://amosdudley.com/weblog/Designing-PPE-for-Hilde Comments URL: https://news.ycombinator.com/item?id=49338953 Points: 16 # Comments: 3",
+      "description": "Article URL: https://www.repaircafe.org/ Comments URL: https://news.ycombinator.com/item?id=49339097 Points: 82 # Comments: 11",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -109,7 +104,7 @@
       "title": "How Bluesky draws its logo on screenshots",
       "link": "https://timmarinin.net/2026/bluesky-screenshots/",
       "pubDate": "2026-08-17T22:20:40.000Z",
-      "description": "Article URL: https://timmarinin.net/2026/bluesky-screenshots/ Comments URL: https://news.ycombinator.com/item?id=49338459 Points: 212 # Comments: 153",
+      "description": "Article URL: https://timmarinin.net/2026/bluesky-screenshots/ Comments URL: https://news.ycombinator.com/item?id=49338459 Points: 411 # Comments: 277",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -117,7 +112,7 @@
       "title": "scScript for Linux",
       "link": "https://scapplications.com/",
       "pubDate": "2026-08-17T22:18:05.000Z",
-      "description": "Article URL: https://scapplications.com/ Comments URL: https://news.ycombinator.com/item?id=49338428 Points: 15 # Comments: 4",
+      "description": "Article URL: https://scapplications.com/ Comments URL: https://news.ycombinator.com/item?id=49338428 Points: 31 # Comments: 11",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -125,7 +120,7 @@
       "title": "Quake Shareware, a CD-ROM just a little too full",
       "link": "https://fabiensanglard.net/quake_shareware_cd/index.html",
       "pubDate": "2026-08-17T22:06:14.000Z",
-      "description": "Article URL: https://fabiensanglard.net/quake_shareware_cd/index.html Comments URL: https://news.ycombinator.com/item?id=49338328 Points: 137 # Comments: 63",
+      "description": "Article URL: https://fabiensanglard.net/quake_shareware_cd/index.html Comments URL: https://news.ycombinator.com/item?id=49338328 Points: 282 # Comments: 119",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -133,15 +128,7 @@
       "title": "Fairphone 6 and PostmarketOS working main camera",
       "link": "https://catcrafts.net/posts/fairphone-6-postmarketos-working-main-camera",
       "pubDate": "2026-08-17T22:01:17.000Z",
-      "description": "Article URL: https://catcrafts.net/posts/fairphone-6-postmarketos-working-main-camera Comments URL: https://news.ycombinator.com/item?id=49338285 Points: 79 # Comments: 19",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "My friends all hate AI; I just joined an AI startup",
-      "link": "https://www.fast.ai/posts/2026-08-18-returning-to-AI/",
-      "pubDate": "2026-08-17T21:47:30.000Z",
-      "description": "Article URL: https://www.fast.ai/posts/2026-08-18-returning-to-AI/ Comments URL: https://news.ycombinator.com/item?id=49338139 Points: 23 # Comments: 70",
+      "description": "Article URL: https://catcrafts.net/posts/fairphone-6-postmarketos-working-main-camera Comments URL: https://news.ycombinator.com/item?id=49338285 Points: 143 # Comments: 32",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -149,7 +136,7 @@
       "title": "How do functions like alloca allocate memory from the stack?",
       "link": "https://devblogs.microsoft.com/oldnewthing/20260817-40/?p=112617",
       "pubDate": "2026-08-17T21:06:10.000Z",
-      "description": "Article URL: https://devblogs.microsoft.com/oldnewthing/20260817-40/?p=112617 Comments URL: https://news.ycombinator.com/item?id=49337630 Points: 29 # Comments: 5",
+      "description": "Article URL: https://devblogs.microsoft.com/oldnewthing/20260817-40/?p=112617 Comments URL: https://news.ycombinator.com/item?id=49337630 Points: 49 # Comments: 24",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -157,7 +144,7 @@
       "title": "GPT-5.6 Sol Pricing Cut by 50%",
       "link": "https://openrouter.ai/openai/gpt-5.6-sol",
       "pubDate": "2026-08-17T21:03:18.000Z",
-      "description": "Article URL: https://openrouter.ai/openai/gpt-5.6-sol Comments URL: https://news.ycombinator.com/item?id=49337602 Points: 109 # Comments: 46",
+      "description": "Article URL: https://openrouter.ai/openai/gpt-5.6-sol Comments URL: https://news.ycombinator.com/item?id=49337602 Points: 355 # Comments: 188",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -165,9 +152,97 @@
       "title": "Israel creates fake think tank in likely attempt to dupe AI chatbots",
       "link": "https://responsiblestatecraft.org/israel-influence-chatgpt/",
       "pubDate": "2026-08-17T20:46:10.000Z",
-      "description": "Article URL: https://responsiblestatecraft.org/israel-influence-chatgpt/ Comments URL: https://news.ycombinator.com/item?id=49337392 Points: 61 # Comments: 11",
+      "description": "Article URL: https://responsiblestatecraft.org/israel-influence-chatgpt/ Comments URL: https://news.ycombinator.com/item?id=49337392 Points: 357 # Comments: 223",
       "source": "Hacker News",
       "category": "Tech News"
+    },
+    {
+      "title": "AI;DR (AI; Didn't Read)",
+      "link": "https://www.rickmanelius.com/p/aidr-ai-didnt-read",
+      "pubDate": "2026-08-17T19:47:15.000Z",
+      "description": "Article URL: https://www.rickmanelius.com/p/aidr-ai-didnt-read Comments URL: https://news.ycombinator.com/item?id=49336573 Points: 788 # Comments: 496",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Dark mode toggles: two states are enough",
+      "link": "https://css-tricks.com/dark-mode-toggles-two-states-are-enough/",
+      "pubDate": "2026-08-17T14:15:50.000Z",
+      "description": "Lea's pushing back on light/dark mode implementations that display three state options for visitors: light, dark, and system. Dark mode toggles: two states are enough originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "What’s !important #17: Custom Highlight API, CSS Navigation Matching, Fixing text-stroke, and More",
+      "link": "https://css-tricks.com/whats-important-17/",
+      "pubDate": "2026-08-14T14:01:51.000Z",
+      "description": "Plus, how to style skeleton UIs, how to enable diagonal scrolling, how images can overflow themselves, and yet, still more. Basically, how to do a lot of really cool (CSS) stuff. What’s !important #17: Custom Highlight API, CSS Navigation Matching, Fixing text-stroke, and More originally handwritten",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Blocked aria-hidden: The Warning is Right, and Every Fix You&#8217;ve Found is Wrong",
+      "link": "https://css-tricks.com/blocked-aria-hidden-fix/",
+      "pubDate": "2026-08-12T13:43:56.000Z",
+      "description": "The warning is correct. And the recommended fixes you've probably seen are wrong. Here's what you can do instead to properly fix the issue. Blocked aria-hidden: The Warning is Right, and Every Fix You’ve Found is Wrong originally handwritten and published with love on CSS-Tricks. You should really g",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Animating CSS border-image",
+      "link": "https://css-tricks.com/animating-css-border-image/",
+      "pubDate": "2026-08-10T15:58:47.000Z",
+      "description": "Border images are an overlooked feature. One neat fact is that border image slices can run across entire borders on an element, and animating it creates beautiful effects. Animating CSS border-image originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "SmashingConf Freiburg 2026, September 7-10",
+      "link": "https://css-tricks.com/smashingconf-freiburg-2026-september-7-10/",
+      "pubDate": "2026-08-10T15:57:39.000Z",
+      "description": "Smashing Magazine’s in-person conferences are back and returning to the wonderful city of Freiburg next month, September 7–10. SmashingConf Freiburg 2026, September 7-10 originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Using and Styling the Dialog Element",
+      "link": "https://css-tricks.com/using-and-styling-the-dialog-element/",
+      "pubDate": "2026-08-07T14:06:43.000Z",
+      "description": "There's a lot of nuance to the <dialog> element, a seemingly little piece of web architecture. I've got some notes from digging into it. Using and Styling the Dialog Element originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "2026 State of CSS, Devs Surveys",
+      "link": "https://css-tricks.com/2026-state-of-css-devs-surveys/",
+      "pubDate": "2026-08-06T15:54:52.000Z",
+      "description": "A few notes and takeaways from the 2026 State of CSS survey results, including a nice CSS-Tricks cameo! 2026 State of CSS, Devs Surveys originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Gap Decorations Are Now Available, Here’s What’s New",
+      "link": "https://css-tricks.com/css-gap-decorations-now-available/",
+      "pubDate": "2026-08-03T15:53:20.000Z",
+      "description": "Today, with CSS gap decorations fully supported in Chrome and Edge, starting with version 149, you can now very easily style gaps, and with a lot of control. Gap Decorations Are Now Available, Here’s What’s New originally handwritten and published with love on CSS-Tricks. You should really get the n",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Get Ready For the Powerful CSS border-shape Property!",
+      "link": "https://css-tricks.com/get-ready-for-the-powerful-css-border-shape-property/",
+      "pubDate": "2026-07-31T15:14:00.000Z",
+      "description": "We recently got the shape() function and corner-shape property. What else could we possibly need as far as making shapes in CSS? Let me tell you: the border-shape property! Get Ready For the Powerful CSS border-shape Property! originally handwritten and published with love on CSS-Tricks. You should ",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "What’s !important #16: sibling-index() Animations, Use Cases for the infinity Keyword, Container Stuck Queries, and More",
+      "link": "https://css-tricks.com/whats-important-16/",
+      "pubDate": "2026-07-31T14:06:21.000Z",
+      "description": "The soon-Baseline sibling-index() function for animations, CSS and the 2026 FIFA World Cup, use cases for the infinity keyword, container \"stuck\" queries, and more. What’s !important #16: sibling-index() Animations, Use Cases for the infinity Keyword, Container Stuck Queries, and More originally han",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
       "title": "Meet the HTB Profile: all your skills, in one place",
