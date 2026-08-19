@@ -1,248 +1,173 @@
 {
-  "generatedAt": "2026-08-18T18:56:38.908Z",
+  "generatedAt": "2026-08-19T01:52:52.951Z",
   "sourceCount": 4,
-  "successCount": 4,
-  "errors": [],
+  "successCount": 3,
+  "errors": [
+    {
+      "source": "CSS Tricks",
+      "error": "HTTP 415 Unsupported Media Type"
+    }
+  ],
   "items": [
     {
-      "title": "Moderation Intake Accounting: Bulk LLM Text Classification API With Tenant Chargeback",
-      "link": "https://dev.to/evanshepherd8274/moderation-intake-accounting-bulk-llm-text-classification-api-with-tenant-chargeback-2l8o",
-      "pubDate": "2026-08-18T18:49:54.000Z",
-      "description": "<p>Short answer: For cheap bulk CSV tagging, use an asynchronous LLM text classification API, estimate each tenant batch before it runs, and attach the eventual export to the same tenant ledger instead of sending one request per row.</p> <p>For a one-person B2B SaaS, the useful comparison is not a m",
+      "title": "How to Build a CAD-Style Layout Editor on Top of Extracted HTML",
+      "link": "https://dev.to/bonzai2carn/how-to-build-a-cad-style-layout-editor-on-top-of-extracted-html-4ihd",
+      "pubDate": "2026-08-19T01:45:47.000Z",
+      "description": "<h2> TLDR </h2> <p>If you have extracted a PDF to HTML and want users to rearrange and edit the layout in the browser, you do not need <code>position: absolute</code> or canvas overlays. The extracted DOM is already a structured CSS Grid box model. HTML5 drag-and-drop combined with native DOM <code>",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": ".NET 10 dotnet tool exec: Pin the Version and Feed in CI",
-      "link": "https://dev.to/ssukhpinder/net-10-dotnet-tool-exec-pin-the-version-and-feed-in-ci-2jgl",
-      "pubDate": "2026-08-18T18:45:55.000Z",
-      "description": "<p>A CI step that says <code>dotnet tool exec Some.Tool</code> looks isolated, but it is not fully reproducible. Without a version, the command can resolve the latest package from the configured feeds. Machine-level NuGet settings can also change which feeds participate. I use <strong>.NET 10 dotnet",
+      "title": "Warp terminal alternatives in 2026 (and 2 outdated reasons to switch)",
+      "link": "https://dev.to/chen_zong_43c81f1a65b1a54/warp-terminal-alternatives-in-2026-and-2-outdated-reasons-to-switch-1ll5",
+      "pubDate": "2026-08-19T01:37:20.000Z",
+      "description": "<h2> The short answer </h2> <p>Warp is an excellent AI terminal — and in 2026 it's a different product than most \"Warp alternative\" articles describe. Two of the old complaints are gone: Warp <strong>no longer forces you to log in</strong> (that changed in November 2024) and the terminal client <str",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "NiceGUI: crea una aplicación web en Python sin escribir JavaScript",
-      "link": "https://dev.to/isazajuancarlos/nicegui-crea-una-aplicacion-web-en-python-sin-escribir-javascript-3kef",
-      "pubDate": "2026-08-18T18:45:05.000Z",
-      "description": "<p>Si sabes Python pero el frontend te frena, <strong>NiceGUI</strong> es una de las mejores noticias de los últimos años: te permite construir aplicaciones web completas —con botones, formularios, gráficos y navegación— usando solo Python.</p> <h2> ¿Qué es NiceGUI? </h2> <p>Es un framework construi",
+      "title": "How 500 Concurrent HN Connections Took Down Peakd.io - and How I Rebuilt the Infrastructure",
+      "link": "https://dev.to/peakd/how-500-concurrent-hn-connections-took-down-peakd-and-how-i-rebuilt-the-infrastructure-4537",
+      "pubDate": "2026-08-19T01:33:53.000Z",
+      "description": "<p>A few weeks ago I posted Peakd on Hacker News, and ~500 concurrent connections took the site down in under a minute.</p> <p>The failure: a single Express instance, no HTTP cache, no connection pooling, sequential database queries everywhere. PostgreSQL's connection pool maxed at 20, requests queu",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Java 11 New Features and Performance Improvements: A Practical Guide (2026-08-18 18:42)",
-      "link": "https://dev.to/said_olano/java-11-new-features-and-performance-improvements-a-practical-guide-2026-08-18-1842-1op6",
-      "pubDate": "2026-08-18T18:42:40.000Z",
-      "description": "<h1> Java 11 New Features and Performance Improvements </h1> <p>Released in September 2018, Java 11 is a <strong>Long-Term Support (LTS)</strong> release, making it one of the most important milestones since Java 8. For teams planning migrations, Java 11 offers a compelling mix of new language featu",
+      "title": "Why I Don’t Want AI Coding Agents to Have Shell Access by Default",
+      "link": "https://dev.to/lukie81/why-i-dont-want-ai-coding-agents-to-have-shell-access-by-default-kng",
+      "pubDate": "2026-08-19T01:33:41.000Z",
+      "description": "<p>AI coding agents are becoming very good at working with real codebases.</p> <p>They can inspect a repository, trace bugs across multiple files, suggest architectural changes, write tests, and increasingly implement entire features.</p> <p>But there is a security question I think we are moving pas",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Building Suzi Chat: A retro MSN-style chat platform with mini-games",
-      "link": "https://dev.to/suzichat_2e99f8fec3b/building-suzi-chat-a-retro-msn-style-chat-platform-with-mini-games-3431",
-      "pubDate": "2026-08-18T18:40:57.000Z",
-      "description": "<p>I built Suzi Chat to bring back the nostalgic feel of late-90s/early-2000s browser chat rooms.</p> <p>Key Features:</p> <p>Create and customize your own public or private chat rooms instantly from the browser.</p> <p>Built-in multiplayer casual board games (Chess, Checkers, Gomoku).</p> <p>No com",
+      "title": "Building a server monitoring SaaS on Cloudflare Workers — architecture, decisions, mistakes",
+      "link": "https://dev.to/shannonops/building-a-server-monitoring-saas-on-cloudflare-workers-architecture-decisions-mistakes-7em",
+      "pubDate": "2026-08-19T01:33:00.000Z",
+      "description": "<h2> TL;DR </h2> <p><strong>Pulse</strong> is a server monitoring SaaS I built as a solo founder for Latin American small businesses. It runs entirely on Cloudflare Workers + Turso (libsql) + R2, with a Go agent that installs on Linux, macOS, Windows, or Docker via a single <code>curl</code> command",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How We Built a Safe GitHub Bounty Lifecycle for MyZubster",
-      "link": "https://dev.to/danielioni/how-we-built-a-safe-github-bounty-lifecycle-for-myzubster-a2",
-      "pubDate": "2026-08-18T18:39:20.000Z",
-      "description": "<h1> How We Built a Safe GitHub Bounty Lifecycle for MyZubster </h1> <p>MyZubster is evolving into a distributed ecosystem of repositories, services, automation, hardware projects, AI components, and contributor workflows.</p> <p>As the number of repositories and contributors increased, one problem ",
+      "title": "Best Strategy Frameworks Every Product Leader Should Know",
+      "link": "https://dev.to/david_moralesweaver_3807/best-strategy-frameworks-every-product-leader-should-know-27hi",
+      "pubDate": "2026-08-19T01:31:25.000Z",
+      "description": "<p>Product leaders have no shortage of frameworks.</p> <p>There are frameworks for prioritization, discovery, roadmapping, growth, pricing, positioning, customer interviews, experimentation, and almost every other activity that happens inside a product organization.</p> <p>Strategy is different.</p>",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How to Build an AI Agent That Asks Permission First (Nuxt + AI SDK 7)",
-      "link": "https://dev.to/aws/how-to-build-an-ai-agent-that-asks-permission-first-nuxt-ai-sdk-7-n42",
-      "pubDate": "2026-08-18T18:38:25.000Z",
-      "description": "<h2> Introduction </h2> <p>I did something stupid. I built a superhero-themed Nuxt app, connected it to an Anthropic model through <a href=\"https://aws.amazon.com/bedrock/?trk=1ad04439-1c50-4fdd-a845-d07d2655fe7a&amp;sc_channel=el\" rel=\"noopener noreferrer\">Amazon Bedrock</a>, and gave it a tool tha",
+      "title": "Google Gemini Adds Free Full-Length SAT Practice Tests With Instant Study Feedback",
+      "link": "https://dev.to/alifar/google-gemini-adds-free-full-length-sat-practice-tests-with-instant-study-feedback-25d4",
+      "pubDate": "2026-08-19T01:30:30.000Z",
+      "description": "<p>Google Gemini now lets users take <strong>free, full-length SAT practice tests</strong> directly in the <a href=\"https://scalevise.com/resources/gemini/\" rel=\"noopener noreferrer\">Gemini app</a>. The feature combines vetted test content from education partners including The Princeton Review with ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Transactions in NestJS and TypeORM without passing the EntityManager around",
-      "link": "https://dev.to/josec_gc/transactions-in-nestjs-and-typeorm-without-passing-the-entitymanager-around-1k9h",
-      "pubDate": "2026-08-18T18:37:48.000Z",
-      "description": "<p>Transactions promise a simple guarantee: either everything commits, or nothing does. And yet, in a NestJS application with a repository layer, it is perfectly possible to run a rollback with no errors and then find a row still sitting in the database that should have disappeared with it.</p> <p>T",
+      "title": "The cp932 crash in the build gate that only happened on Windows — static detection, behavioral testing, and a negative check",
+      "link": "https://dev.to/susumun/the-cp932-crash-in-the-build-gate-that-only-happened-on-windows-static-detection-behavioral-mpd",
+      "pubDate": "2026-08-19T01:26:25.000Z",
+      "description": "<h2> The symptom </h2> <p>During the Windows build for v1.6.11, the build gate reported \"version number consistency check failed.\" But the version numbers were correct everywhere.</p> <p>The real cause was not a version mismatch. The build gate in <code>build_app.py</code> calls <code>tools/bump_ver",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "# From Silent Failure to a Definitive Fix: Debugging an Existing AI Application",
-      "link": "https://dev.to/nikhil_ramank_152ca48266/-from-silent-failure-to-a-definitive-fix-debugging-an-existing-ai-application-hja",
-      "pubDate": "2026-08-18T18:37:42.000Z",
-      "description": "<p>Clear the Lineup Submission<br> The Bug<br> AI applications can fail silently — producing wrong outputs, degraded performance, or unexpected behaviors without explicit errors. In my case, the issue was SQL drift: queries executed successfully but returned incomplete or unstable results due to uns",
+      "title": "We scanned a bunch of vibe-coded repos. Here's what showed up every time.",
+      "link": "https://dev.to/gojongo/we-scanned-a-bunch-of-vibe-coded-repos-heres-what-showed-up-every-time-5a5m",
+      "pubDate": "2026-08-19T01:24:41.000Z",
+      "description": "<p>We know AI builds fast. We also know that things happen inside the AI black box that no one plans or intends. We set out to open the box and look at what AI produced---not in a demo, not in a blog post about how great Cursor is---the <em>real</em> code in <em>real</em> repositories that <em>real<",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Apache Data Lakehouse Weekly: August 10 to 18, 2026",
-      "link": "https://dev.to/alexmercedcoder/apache-data-lakehouse-weekly-august-10-to-18-2026-1nf5",
-      "pubDate": "2026-08-18T18:33:00.000Z",
-      "description": "<p>The lakehouse community spent this week deciding what gets carried forward and what gets left behind. Iceberg voted to forbid new equality deletes in V4 and debated whether the format still needs Avro manifests at all. Parquet shipped 1.18.0 and then spent the back half of the week chasing two da",
+      "title": "Designing High-Availability Architecture for Google Cloud: Real-World GCP Architect Insights",
+      "link": "https://dev.to/packetsnifferben/designing-high-availability-architecture-for-google-cloud-real-world-gcp-architect-insights-4ekd",
+      "pubDate": "2026-08-19T01:21:48.000Z",
+      "description": "<p>Designing enterprise applications on Google Cloud Platform (GCP) requires moving beyond theoretical product features and addressing real-world operational challenges—such as high availability, strict disaster recovery RPOs/RTOs, and global traffic routing.</p> <p>In this guide, we explore core GC",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How does IKEA come up with names for its products?",
-      "link": "https://www.ikea.com/se/en/customer-service/knowledge/articles/6f564c4d-2ccc-46de-b643-545a3948dc79.html",
-      "pubDate": "2026-08-18T18:11:53.000Z",
-      "description": "Article URL: https://www.ikea.com/se/en/customer-service/knowledge/articles/6f564c4d-2ccc-46de-b643-545a3948dc79.html Comments URL: https://news.ycombinator.com/item?id=49349984 Points: 25 # Comments: 5",
+      "title": "Tiny satellite will use the dark side of the Moon as a shield",
+      "link": "https://www.cam.ac.uk/research/news/tiny-satellite-will-use-the-dark-side-of-the-moon-to-eavesdrop-on-whispers-from-the-early-universe",
+      "pubDate": "2026-08-19T01:06:03.000Z",
+      "description": "Article URL: https://www.cam.ac.uk/research/news/tiny-satellite-will-use-the-dark-side-of-the-moon-to-eavesdrop-on-whispers-from-the-early-universe Comments URL: https://news.ycombinator.com/item?id=49355232 Points: 6 # Comments: 1",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Turbovec – Google's TurboQuant for vector search in Rust",
-      "link": "https://github.com/RyanCodrai/turbovec",
-      "pubDate": "2026-08-18T18:07:21.000Z",
-      "description": "Article URL: https://github.com/RyanCodrai/turbovec Comments URL: https://news.ycombinator.com/item?id=49349898 Points: 21 # Comments: 1",
+      "title": "New paper shows that 37% of workers in US saw real wages decline from 2021-2024 [pdf]",
+      "link": "https://bfi.uchicago.edu/wp-content/uploads/2026/08/BFI_WP_2026-108-1.pdf",
+      "pubDate": "2026-08-19T00:53:51.000Z",
+      "description": "Article URL: https://bfi.uchicago.edu/wp-content/uploads/2026/08/BFI_WP_2026-108-1.pdf Comments URL: https://news.ycombinator.com/item?id=49355142 Points: 29 # Comments: 13",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Show HN: macOS data protection keychain for Electron apps",
-      "link": "https://github.com/biw/keychain-store",
-      "pubDate": "2026-08-18T17:25:19.000Z",
-      "description": "Hey HN,I've been working on Hansel [1] (an encrypted personal data store you can query with agents), and there wasn't a good way to use the modern macOS Data Protection Keychain.Electron's safeStorage [2] uses the legacy file-based keychain, which allows other apps/agents to query it with the `secur",
+      "title": "Scientists stunned by children's lung recovery in ultra low emission zone",
+      "link": "https://www.bbc.com/news/articles/c1l1r1zne1ro",
+      "pubDate": "2026-08-19T00:48:23.000Z",
+      "description": "Article URL: https://www.bbc.com/news/articles/c1l1r1zne1ro Comments URL: https://news.ycombinator.com/item?id=49355105 Points: 14 # Comments: 1",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Data centers raise nearby temperatures by up to 4 degrees in Phoenix",
-      "link": "https://asmedigitalcollection.asme.org/sustainablebuildings/article/7/2/024501/1233035/Data-Center-Waste-Heat-as-an-Emerging-Urban",
-      "pubDate": "2026-08-18T17:24:53.000Z",
-      "description": "Article URL: https://asmedigitalcollection.asme.org/sustainablebuildings/article/7/2/024501/1233035/Data-Center-Waste-Heat-as-an-Emerging-Urban Comments URL: https://news.ycombinator.com/item?id=49349147 Points: 111 # Comments: 90",
+      "title": "Cerebras CS4",
+      "link": "https://www.cerebras.ai/cs4",
+      "pubDate": "2026-08-19T00:28:18.000Z",
+      "description": "Article URL: https://www.cerebras.ai/cs4 Comments URL: https://news.ycombinator.com/item?id=49354949 Points: 34 # Comments: 17",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Claude Code weekly limits reduce by a third tomorrow",
-      "link": "https://support.claude.com/en/articles/15910845-claude-code-may-august-2026-weekly-limits-promotion",
-      "pubDate": "2026-08-18T17:02:15.000Z",
-      "description": "Article URL: https://support.claude.com/en/articles/15910845-claude-code-may-august-2026-weekly-limits-promotion Comments URL: https://news.ycombinator.com/item?id=49348751 Points: 204 # Comments: 140",
+      "title": "Why crypto's best infrastructure companies stopped looking like crypto?",
+      "link": "https://konstantintkachuk.com/writing/depin-is-dead-long-live-infrastructure-as-a-service/",
+      "pubDate": "2026-08-19T00:11:35.000Z",
+      "description": "Article URL: https://konstantintkachuk.com/writing/depin-is-dead-long-live-infrastructure-as-a-service/ Comments URL: https://news.ycombinator.com/item?id=49354778 Points: 11 # Comments: 1",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Diesel Margins Top $100 a Barrel to Reach Record High as Supply Crunch Grows",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-18/diesel-margins-top-100-a-barrel-to-reach-record-high-as-supply-crunch-grows",
-      "pubDate": "2026-08-18T16:40:07.000Z",
-      "description": "Article URL: https://www.bloomberg.com/news/articles/2026-08-18/diesel-margins-top-100-a-barrel-to-reach-record-high-as-supply-crunch-grows Comments URL: https://news.ycombinator.com/item?id=49348356 Points: 36 # Comments: 13",
+      "title": "Show HN: Interactive, animated architecture of any HuggingFace models",
+      "link": "https://modelmap.cc",
+      "pubDate": "2026-08-18T23:57:36.000Z",
+      "description": "Article URL: https://modelmap.cc Comments URL: https://news.ycombinator.com/item?id=49354664 Points: 30 # Comments: 4",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Superpowers, Not Superintelligence",
-      "link": "https://bond.now/news/superpowers-not-superintelligence",
-      "pubDate": "2026-08-18T16:27:41.000Z",
-      "description": "Article URL: https://bond.now/news/superpowers-not-superintelligence Comments URL: https://news.ycombinator.com/item?id=49348152 Points: 22 # Comments: 24",
+      "title": "Solo – a .so loader for static Linux binaries",
+      "link": "https://github.com/pg83/solo",
+      "pubDate": "2026-08-18T23:51:49.000Z",
+      "description": "Article URL: https://github.com/pg83/solo Comments URL: https://news.ycombinator.com/item?id=49354613 Points: 39 # Comments: 50",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Launch HN: machine0 (YC S26) – Persistent CPU and GPU VMs from the CLI",
-      "link": "https://machine0.io",
-      "pubDate": "2026-08-18T16:26:42.000Z",
-      "description": "Hi HN! I’m Barnaby, founder of machine0 (https://machine0.io). I’m building a CLI for long horizon agent compute: `machine0 new mybox` gives your agent a persistent cloud VM, billed by the minute, from $0.013/hr up to 60 vCPU / 240 GB RAM and GPUs (H100s, H200s etc), with 99.99% VM level uptime. Age",
+      "title": "The 90-year history of the binoculars bolted to scenic overlooks",
+      "link": "https://www.dpreview.com/news/the-90-year-history-of-the-binoculars-bolted-to-scenic-overlooks/",
+      "pubDate": "2026-08-18T22:43:06.000Z",
+      "description": "Article URL: https://www.dpreview.com/news/the-90-year-history-of-the-binoculars-bolted-to-scenic-overlooks/ Comments URL: https://news.ycombinator.com/item?id=49353854 Points: 20 # Comments: 3",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Show HN: Openleetcode – local LeetCode runner where tests live in the repo",
-      "link": "https://github.com/therepanic/openleetcode",
-      "pubDate": "2026-08-18T15:30:40.000Z",
-      "description": "You write a standard solution, just like on LeetCode, and run it through the CLI. It identifies the problem by ID or title, executes your code against local test cases, and shows the result.It currently supports around 1.4k problems and multiple languages, including Python, C++, Rust, Java, Go, Type",
+      "title": "AI usage patterns in software teams",
+      "link": "https://linear.app/data",
+      "pubDate": "2026-08-18T22:08:07.000Z",
+      "description": "Article URL: https://linear.app/data Comments URL: https://news.ycombinator.com/item?id=49353432 Points: 42 # Comments: 19",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Code-native generation of highly programmable 3D assets (2026)",
-      "link": "https://arxiv.org/abs/2607.22738",
-      "pubDate": "2026-08-18T14:54:44.000Z",
-      "description": "Article URL: https://arxiv.org/abs/2607.22738 Comments URL: https://news.ycombinator.com/item?id=49346538 Points: 36 # Comments: 34",
+      "title": "GLM-5.3 Artificial Analysis Benchmarks",
+      "link": "https://artificialanalysis.ai/models/glm-5-3",
+      "pubDate": "2026-08-18T22:06:10.000Z",
+      "description": "Article URL: https://artificialanalysis.ai/models/glm-5-3 Comments URL: https://news.ycombinator.com/item?id=49353407 Points: 78 # Comments: 37",
       "source": "Hacker News",
       "category": "Tech News"
-    },
-    {
-      "title": "Dark mode toggles: two states are enough",
-      "link": "https://css-tricks.com/dark-mode-toggles-two-states-are-enough/",
-      "pubDate": "2026-08-17T14:15:50.000Z",
-      "description": "Lea's pushing back on light/dark mode implementations that display three state options for visitors: light, dark, and system. Dark mode toggles: two states are enough originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "What’s !important #17: Custom Highlight API, CSS Navigation Matching, Fixing text-stroke, and More",
-      "link": "https://css-tricks.com/whats-important-17/",
-      "pubDate": "2026-08-14T14:01:51.000Z",
-      "description": "Plus, how to style skeleton UIs, how to enable diagonal scrolling, how images can overflow themselves, and yet, still more. Basically, how to do a lot of really cool (CSS) stuff. What’s !important #17: Custom Highlight API, CSS Navigation Matching, Fixing text-stroke, and More originally handwritten",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Blocked aria-hidden: The Warning is Right, and Every Fix You&#8217;ve Found is Wrong",
-      "link": "https://css-tricks.com/blocked-aria-hidden-fix/",
-      "pubDate": "2026-08-12T13:43:56.000Z",
-      "description": "The warning is correct. And the recommended fixes you've probably seen are wrong. Here's what you can do instead to properly fix the issue. Blocked aria-hidden: The Warning is Right, and Every Fix You’ve Found is Wrong originally handwritten and published with love on CSS-Tricks. You should really g",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Animating CSS border-image",
-      "link": "https://css-tricks.com/animating-css-border-image/",
-      "pubDate": "2026-08-10T15:58:47.000Z",
-      "description": "Border images are an overlooked feature. One neat fact is that border image slices can run across entire borders on an element, and animating it creates beautiful effects. Animating CSS border-image originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "SmashingConf Freiburg 2026, September 7-10",
-      "link": "https://css-tricks.com/smashingconf-freiburg-2026-september-7-10/",
-      "pubDate": "2026-08-10T15:57:39.000Z",
-      "description": "Smashing Magazine’s in-person conferences are back and returning to the wonderful city of Freiburg next month, September 7–10. SmashingConf Freiburg 2026, September 7-10 originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Using and Styling the Dialog Element",
-      "link": "https://css-tricks.com/using-and-styling-the-dialog-element/",
-      "pubDate": "2026-08-07T14:06:43.000Z",
-      "description": "There's a lot of nuance to the <dialog> element, a seemingly little piece of web architecture. I've got some notes from digging into it. Using and Styling the Dialog Element originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "2026 State of CSS, Devs Surveys",
-      "link": "https://css-tricks.com/2026-state-of-css-devs-surveys/",
-      "pubDate": "2026-08-06T15:54:52.000Z",
-      "description": "A few notes and takeaways from the 2026 State of CSS survey results, including a nice CSS-Tricks cameo! 2026 State of CSS, Devs Surveys originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Gap Decorations Are Now Available, Here’s What’s New",
-      "link": "https://css-tricks.com/css-gap-decorations-now-available/",
-      "pubDate": "2026-08-03T15:53:20.000Z",
-      "description": "Today, with CSS gap decorations fully supported in Chrome and Edge, starting with version 149, you can now very easily style gaps, and with a lot of control. Gap Decorations Are Now Available, Here’s What’s New originally handwritten and published with love on CSS-Tricks. You should really get the n",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Get Ready For the Powerful CSS border-shape Property!",
-      "link": "https://css-tricks.com/get-ready-for-the-powerful-css-border-shape-property/",
-      "pubDate": "2026-07-31T15:14:00.000Z",
-      "description": "We recently got the shape() function and corner-shape property. What else could we possibly need as far as making shapes in CSS? Let me tell you: the border-shape property! Get Ready For the Powerful CSS border-shape Property! originally handwritten and published with love on CSS-Tricks. You should ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "What’s !important #16: sibling-index() Animations, Use Cases for the infinity Keyword, Container Stuck Queries, and More",
-      "link": "https://css-tricks.com/whats-important-16/",
-      "pubDate": "2026-07-31T14:06:21.000Z",
-      "description": "The soon-Baseline sibling-index() function for animations, CSS and the 2026 FIFA World Cup, use cases for the infinity keyword, container \"stuck\" queries, and more. What’s !important #16: sibling-index() Animations, Use Cases for the infinity Keyword, Container Stuck Queries, and More originally han",
-      "source": "CSS Tricks",
-      "category": "Frontend"
     },
     {
       "title": "Meet the HTB Profile: all your skills, in one place",
