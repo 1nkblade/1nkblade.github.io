@@ -1,102 +1,158 @@
 {
-  "generatedAt": "2026-08-20T07:06:28.378Z",
+  "generatedAt": "2026-08-20T13:11:15.397Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "Regex Against a PDF: The One Endpoint That Skips OCR Entirely",
-      "link": "https://dev.to/pdf4me/regex-against-a-pdf-the-one-endpoint-that-skips-ocr-entirely-28jm",
-      "pubDate": "2026-08-20T06:56:29.000Z",
-      "description": "<p>Most document pipelines have a reflex. A PDF comes in, and the first instinct is: run OCR, then parse it. That reflex costs time and money on documents that never needed it in the first place.</p> <p>Here's the distinction that gets skipped over. A PDF generated from Word, from an invoicing syste",
+      "title": "The antivirus said 'no malware detected'. It was sitting right there on the disk.",
+      "link": "https://dev.to/dexterlung/the-antivirus-said-no-malware-detected-it-was-sitting-right-there-on-the-disk-4fl8",
+      "pubDate": "2026-08-20T13:05:13.000Z",
+      "description": "<blockquote> <p>A real incident, and a lesson about green lights.<br> Every command output, version number and CVE ID below is from the actual investigation. Nothing was invented for the narrative.</p> </blockquote> <h2> It started with an unrelated question </h2> <p>I was tidying up scheduled tasks",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Stop Writing Regex to Match URLs — The Browser Already Can",
-      "link": "https://dev.to/parsajiravand/stop-writing-regex-to-match-urls-the-browser-already-can-1e3e",
-      "pubDate": "2026-08-20T06:53:07.000Z",
-      "description": "<p>Priya was three paragraphs into rewriting a support ticket when the page flashed and her draft reverted to what it had looked like an hour earlier. She hadn't refreshed. Nobody had.</p> <p>The service worker had.</p> <p>It was running a cache-first strategy for ticket pages — fetch once, serve fr",
+      "title": "Computing WHO growth percentiles on-device",
+      "link": "https://dev.to/romankoropets/computing-who-growth-percentiles-on-device-4b5n",
+      "pubDate": "2026-08-20T13:04:15.000Z",
+      "description": "<p>Every baby tracker shows growth percentiles. \"Your daughter is in the 72nd percentile for weight.\" It looks like a lookup — find the row for her age, compare, print a number.</p> <p>It isn't. And the ways it goes wrong are interesting enough to be worth writing down.</p> <p>I ended up implementin",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Dashforge: an application orchestrator for React",
-      "link": "https://dev.to/kensaadi/dashforge-an-application-orchestrator-for-react-56o9",
-      "pubDate": "2026-08-20T06:52:28.000Z",
-      "description": "<p>React solved rendering. Dashforge tries to solve orchestration — theming, forms,<br> permissions, and visibility moved out of your components, declaratively, predictably,<br> reusably. Two skins (MUI and Tailwind), one contract.</p> <p><strong>Building complex applications isn't about building co",
+      "title": "Background removal without a green screen is an underdetermined problem. Here's what the maths is doing.",
+      "link": "https://dev.to/miriam_alonso_01/background-removal-without-a-green-screen-is-an-underdetermined-problem-heres-what-the-maths-is-3id",
+      "pubDate": "2026-08-20T13:04:02.000Z",
+      "description": "<p>Every pixel in a photograph of a person against a wall is a blend of two things. The compositing equation is the whole problem in one line:<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight plaintext\"><code>C = αF + (1 - α)B </code></pre> </div> <p><code>C</code> is the pix",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "1a vez trabalhando com git com time: tudo que você precisa saber",
-      "link": "https://dev.to/he4rt/1a-vez-trabalhando-com-git-com-time-tudo-que-voce-precisa-saber-19il",
-      "pubDate": "2026-08-20T06:52:21.000Z",
-      "description": "<p>Faz mais de 5 anos que eu não abria um PR ou issue técnica no Github, mas essa semana tenho aprendido algumas boas práticas e termos que reuni neste artigo.</p> <h2> Introdução </h2> <p>Essa semana eu fiz uma coisa simples: atualizei o README de um projeto open source, o <a href=\"https://github.c",
+      "title": "How AI headshot generators actually work: LoRA, 15 selfies, and the overfitting problem",
+      "link": "https://dev.to/miriam_alonso_01/how-ai-headshot-generators-actually-work-lora-15-selfies-and-the-overfitting-problem-43p",
+      "pubDate": "2026-08-20T13:04:01.000Z",
+      "description": "<p>Every AI headshot product works roughly the same way under the hood, and once you know the shape of it, most of the weird results stop being weird.</p> <p>You upload 10 to 20 selfies. Twenty minutes later you get 100 portraits back. Some look exactly like you. Some look like your cousin. One look",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Vibe Coding vs Prompt-Driven: One Year Later, the Debate Is Already Outdated",
-      "link": "https://dev.to/ndabene/vibe-coding-vs-prompt-driven-one-year-later-the-debate-is-already-outdated-3oap",
-      "pubDate": "2026-08-20T06:51:38.000Z",
-      "description": "<p>A year ago, the debate between “vibe coding” and “prompt-driven development” felt like the right lens for using AI in software. Today it’s outdated. The real frontier is no longer how to phrase a request, but how to build an environment that lets an AI agent explore, modify, and verify code safel",
+      "title": "INTERFACE SEGREGATION PRINCIPLE",
+      "link": "https://dev.to/victorlisbronzo/interface-segregation-principle-1l0m",
+      "pubDate": "2026-08-20T13:03:54.000Z",
+      "description": "<p>No class should be dependent on methods it doesn't need.</p> <p>An example would be a \"Machine\" interface that forces the <code>print()</code>, <code>scan()</code>, and <code>fax()</code> methods. Not every machine has these 3 methods.</p> <p>So we create the <code>IPrinter</code>, <code>IScanner",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "HTTP Caching Explained: max-age, ETag and Why Your Users Still See Last Week's CSS",
-      "link": "https://dev.to/vahid_aghajani_60ce9dbec9/http-caching-explained-max-age-etag-and-why-your-users-still-see-last-weeks-css-nk6",
-      "pubDate": "2026-08-20T06:45:35.000Z",
-      "description": "<blockquote> <p>📺 Prefer to watch? <a href=\"https://youtube.com/shorts/glcncGsG9xo\" rel=\"noopener noreferrer\">90-second YouTube Short</a> · 💬 <a href=\"https://t.me/SoftwareEngineerBlog\" rel=\"noopener noreferrer\">Telegram</a></p> </blockquote> <p><em>Originally published on <a href=\"https://softwar",
+      "title": "PRINCÍPIO DA SEGREGAÇÃO DE INTERFACES",
+      "link": "https://dev.to/victorlisbronzo/principio-da-segregacao-de-interfaces-72a",
+      "pubDate": "2026-08-20T13:03:04.000Z",
+      "description": "<p>Nenhuma classe deve ser dependente de métodos que não precisa.</p> <p>Um exemplo seria uma interface “Máquina”, que força os métodos <code>print( )</code>, <code>scan( )</code> e <code>fax( )</code>. Nem toda máquina tem esses 3 métodos.</p> <p>Então criamos as interfaces <code>IPrinter</code>, <",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "D8：他猜00919會漲，信心五成，然後整天沒動",
-      "link": "https://dev.to/_2ab71a79dd36101e6be89/d8ta-cai-00919hui-zhang-xin-xin-wu-cheng-ran-hou-zheng-tian-mei-dong-4j53",
-      "pubDate": "2026-08-20T06:35:26.000Z",
-      "description": "<p>今天早上八點三十六分，阿富在盤前計畫裡對他手上唯一的持股00919下了一個判斷：會漲，信心0.50。</p> <p>0.50。在方向類的預測裡，這個數字的意思是他沒有意見。丟銅板也是0.50。交給他的盤前任務描述有一句寫得很明白，信心要填真實信心、0到1的小數、避免湊整數，他填了正好一半。同一批預測裡加權指數那筆他給0.56，看得出來有斟酌過位數。00919這筆就是0.50。</p> <h2> 他猜漲，00919跌了，計分系統判他沒錯 </h2> <p>收盤數字擺出來：加權指數收44,933.74，比昨收的44,719.35漲214點，0.48%。00919開30.45、盤中高30.47",
+      "title": "Four Numbers Across the Top Do More Than Four Charts",
+      "link": "https://dev.to/michaelnocito/four-numbers-across-the-top-do-more-than-four-charts-4ek4",
+      "pubDate": "2026-08-20T13:00:36.000Z",
+      "description": "<p>This article gives you the KPI row: a handful of big numbers across the top of a dashboard that tell the whole story before any chart is read. Four cells, four labels, and a reader who arrives cold knows in five seconds what the page found.</p> <p>Here is the build's row, and read it as a sentenc",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Physical Server vs Cloud Server: Which Infrastructure Makes More Sense?",
-      "link": "https://dev.to/beny_2005/physical-server-vs-cloud-server-which-infrastructure-makes-more-sense-3han",
-      "pubDate": "2026-08-20T06:23:06.000Z",
-      "description": "<h2> When building an application, we usually focus on the frontend, backend, APIs, and database. </h2> <p><strong>But there is another important question:</strong></p> <p>Where should the application actually run?</p> <p>Two common approaches are physical servers and cloud/virtual servers. Understa",
+      "title": "One Row at a Time, or All Rows at Once",
+      "link": "https://dev.to/michaelnocito/one-row-at-a-time-or-all-rows-at-once-52o4",
+      "pubDate": "2026-08-20T13:00:28.000Z",
+      "description": "<p>This article gives you the one distinction that sorts out Excel's whole IF family, and ends the specific confusion where you try to make IF produce a total and cannot work out why it will not.</p> <p><strong>IF works on one row and writes an answer into that row.</strong> Give it 82,956 rows and ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Switch Icons v0.2.0: A React Icon Library Built for the Icons Developers Actually Need",
-      "link": "https://dev.to/howelldevs/switch-icons-v020-a-react-icon-library-built-for-the-icons-developers-actually-need-2g68",
-      "pubDate": "2026-08-20T06:21:20.000Z",
-      "description": "<p>Modern web applications rarely need only arrows, menus, and generic interface icons.</p> <p>A fintech dashboard needs payment and banking icons. A logistics platform needs waybills, packages, warehouses, and delivery trucks. An AI application needs model, prompt, and AI-related visual language. A",
+      "title": "Show the Unit Without Breaking the Number",
+      "link": "https://dev.to/michaelnocito/show-the-unit-without-breaking-the-number-3foo",
+      "pubDate": "2026-08-20T13:00:12.000Z",
+      "description": "<p>This article gives you the move that lets a cell read \"21.2x\" while it still holds 21.1919 underneath: a custom number format. Press <strong>Ctrl+1</strong> , pick <strong>Custom</strong> , type <code>0.0\"x\"</code>. The display changes. The number does not.</p> <p>The principle is one line, and i",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Fix Next.js \"params should be awaited\" Error in Next.js 15+",
-      "link": "https://dev.to/amrishkhan05/fix-nextjs-params-should-be-awaited-error-in-nextjs-15-273d",
-      "pubDate": "2026-08-20T06:16:41.000Z",
-      "description": "<h1> Fix Next.js \"params should be awaited\" Error in Next.js 15+ </h1> <p>If you are seeing the <strong>params should be awaited Next.js</strong> error after upgrading to Next.js 15 or following an older App Router tutorial, you are not alone.</p> <p>The error usually looks something like this:<br> ",
+      "title": "I built a dedicated, ISE-style environment &amp; EXE exporter for PowerShell 7 (Testers Welcome!)",
+      "link": "https://dev.to/njdevils28/i-built-a-dedicated-ise-style-environment-exe-exporter-for-powershell-7-testers-welcome-mch",
+      "pubDate": "2026-08-20T13:00:11.000Z",
+      "description": "<p>Hey everyone!</p> <p>Like many of you, when PowerShell 7 came out, I migrated my workflow over to VS Code. While VS Code is an absolute powerhouse, I found myself occasionally missing the lightweight, hyper-focused, \"just open it and write\" experience of the classic native PowerShell ISE.</p> <p>",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Windows brings out the Rorschach test in everyone",
-      "link": "https://devblogs.microsoft.com/oldnewthing/20030825-00/?p=42803",
-      "pubDate": "2026-08-20T06:16:40.000Z",
-      "description": "Article URL: https://devblogs.microsoft.com/oldnewthing/20030825-00/?p=42803 Comments URL: https://news.ycombinator.com/item?id=49371006 Points: 5 # Comments: 0",
+      "title": "Browser De-Slop",
+      "link": "https://www.sacredheartsc.com/blog/browser-de-slop/",
+      "pubDate": "2026-08-20T12:19:37.000Z",
+      "description": "Article URL: https://www.sacredheartsc.com/blog/browser-de-slop/ Comments URL: https://news.ycombinator.com/item?id=49373616 Points: 13 # Comments: 2",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Why Microsoft Entertainment Pack had a sticker announcing that it had Tetris?",
-      "link": "https://devblogs.microsoft.com/oldnewthing/20260818-00/?p=112621",
-      "pubDate": "2026-08-20T04:42:02.000Z",
-      "description": "Article URL: https://devblogs.microsoft.com/oldnewthing/20260818-00/?p=112621 Comments URL: https://news.ycombinator.com/item?id=49370440 Points: 39 # Comments: 11",
+      "title": "Show HN: I trained a 125M model to autocomplete piano on-device",
+      "link": "https://simedw.com/2026/08/20/midi-autocomplete/",
+      "pubDate": "2026-08-20T12:04:38.000Z",
+      "description": "I trained a 125M-parameter transformer to autocomplete piano performances in real time (~108 notes/sec on an iPhone 15).The idea is basically GitHub Copilot or Tabnine, except instead of prompting it with code, you prompt it by playing a few notes on a MIDI piano. The model then continues what you p",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Proof of Human (YC S23) Is Hiring a Member of Technical Staff",
+      "link": "https://www.ycombinator.com/companies/proof-of-human/jobs/ZTZHEbb-member-of-technical-staff",
+      "pubDate": "2026-08-20T12:00:23.000Z",
+      "description": "Article URL: https://www.ycombinator.com/companies/proof-of-human/jobs/ZTZHEbb-member-of-technical-staff Comments URL: https://news.ycombinator.com/item?id=49373423 Points: 0 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Australia passes law to levy tech giants that fail to pay for local news",
+      "link": "https://www.reuters.com/legal/litigation/australia-passes-law-levy-tech-giants-that-fail-pay-local-news-2026-08-20/",
+      "pubDate": "2026-08-20T11:23:43.000Z",
+      "description": "Article URL: https://www.reuters.com/legal/litigation/australia-passes-law-levy-tech-giants-that-fail-pay-local-news-2026-08-20/ Comments URL: https://news.ycombinator.com/item?id=49373123 Points: 19 # Comments: 5",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Seeing beyond BMI: Estimating cardiometabolic risk with smartphone imagery",
+      "link": "https://research.google/blog/seeing-beyond-bmi-estimating-cardiometabolic-risk-with-smartphone-imagery/",
+      "pubDate": "2026-08-20T11:03:29.000Z",
+      "description": "Article URL: https://research.google/blog/seeing-beyond-bmi-estimating-cardiometabolic-risk-with-smartphone-imagery/ Comments URL: https://news.ycombinator.com/item?id=49372994 Points: 11 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Risk Engineering",
+      "link": "https://risk-engineering.org/",
+      "pubDate": "2026-08-20T10:18:58.000Z",
+      "description": "Article URL: https://risk-engineering.org/ Comments URL: https://news.ycombinator.com/item?id=49372661 Points: 9 # Comments: 2",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "AliExpress runs silent WebAudio fingerprinting that breaks Bluetooth multipoint",
+      "link": "https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html",
+      "pubDate": "2026-08-20T10:08:52.000Z",
+      "description": "Article URL: https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html Comments URL: https://news.ycombinator.com/item?id=49372583 Points: 211 # Comments: 64",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Don't Paste the AI, please",
+      "link": "https://dontpastetheai.com/",
+      "pubDate": "2026-08-20T08:20:44.000Z",
+      "description": "Article URL: https://dontpastetheai.com/ Comments URL: https://news.ycombinator.com/item?id=49371857 Points: 644 # Comments: 310",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Windows brings out the Rorschach test in everyone (2003)",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20030825-00/?p=42803",
+      "pubDate": "2026-08-20T06:16:40.000Z",
+      "description": "Article URL: https://devblogs.microsoft.com/oldnewthing/20030825-00/?p=42803 Comments URL: https://news.ycombinator.com/item?id=49371006 Points: 255 # Comments: 97",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -104,63 +160,7 @@
       "title": "Turns are Better than Radians (2022)",
       "link": "https://www.computerenhance.com/p/turns-are-better-than-radians",
       "pubDate": "2026-08-20T01:29:12.000Z",
-      "description": "Article URL: https://www.computerenhance.com/p/turns-are-better-than-radians Comments URL: https://news.ycombinator.com/item?id=49369408 Points: 144 # Comments: 59",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Feature Request: Support AGENTS.md",
-      "link": "https://github.com/anthropics/claude-code/issues/6235",
-      "pubDate": "2026-08-19T21:19:50.000Z",
-      "description": "Article URL: https://github.com/anthropics/claude-code/issues/6235 Comments URL: https://news.ycombinator.com/item?id=49367350 Points: 212 # Comments: 121",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Os8088.com: IBM XT OS now has a Browser, CP/M 2.2 with Z80 core and MS Word 1.1a",
-      "link": "https://os8088.com/spotlight/",
-      "pubDate": "2026-08-19T21:11:31.000Z",
-      "description": "Article URL: https://os8088.com/spotlight/ Comments URL: https://news.ycombinator.com/item?id=49367256 Points: 80 # Comments: 37",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Pixel 11 Pro Fold feels like the end of an era",
-      "link": "https://www.theverge.com/tech/981956/google-pixel-11-pro-fold-review",
-      "pubDate": "2026-08-19T19:43:48.000Z",
-      "description": "Article URL: https://www.theverge.com/tech/981956/google-pixel-11-pro-fold-review Comments URL: https://news.ycombinator.com/item?id=49366264 Points: 55 # Comments: 117",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Unlocking a locked/deactivated e-waste Cricut Maker",
-      "link": "https://sprocketfox.io/xssfox/2026/07/01/cricut-unlock/",
-      "pubDate": "2026-08-19T19:06:16.000Z",
-      "description": "Article URL: https://sprocketfox.io/xssfox/2026/07/01/cricut-unlock/ Comments URL: https://news.ycombinator.com/item?id=49365841 Points: 190 # Comments: 45",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Unsloth Dynamic 3.0 GGUFs",
-      "link": "https://unsloth.ai/docs/basics/dynamic-3.0-ggufs",
-      "pubDate": "2026-08-19T18:36:45.000Z",
-      "description": "Article URL: https://unsloth.ai/docs/basics/dynamic-3.0-ggufs Comments URL: https://news.ycombinator.com/item?id=49365443 Points: 233 # Comments: 90",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Go 1.27",
-      "link": "https://go.dev/blog/go1.27",
-      "pubDate": "2026-08-19T18:33:49.000Z",
-      "description": "Article URL: https://go.dev/blog/go1.27 Comments URL: https://news.ycombinator.com/item?id=49365405 Points: 582 # Comments: 150",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Google has stopped pushing Git tags for some Android source code",
-      "link": "https://grapheneos.social/@GrapheneOS/117057099753905023",
-      "pubDate": "2026-08-19T17:47:29.000Z",
-      "description": "Article URL: https://grapheneos.social/@GrapheneOS/117057099753905023 Comments URL: https://news.ycombinator.com/item?id=49364745 Points: 445 # Comments: 185",
+      "description": "Article URL: https://www.computerenhance.com/p/turns-are-better-than-radians Comments URL: https://news.ycombinator.com/item?id=49369408 Points: 255 # Comments: 135",
       "source": "Hacker News",
       "category": "Tech News"
     },
