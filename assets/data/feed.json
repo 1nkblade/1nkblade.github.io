@@ -1,102 +1,118 @@
 {
-  "generatedAt": "2026-08-22T06:59:08.962Z",
+  "generatedAt": "2026-08-22T13:00:51.501Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "Your TTS shortlist is three shortlists, and they barely intersect",
-      "link": "https://dev.to/aialleyway/your-tts-shortlist-is-three-shortlists-and-they-barely-intersect-jhf",
-      "pubDate": "2026-08-22T06:40:20.000Z",
-      "description": "<p>Every \"best text-to-speech API\" list I have read is ranked. Number one, number two, number three, with a verdict at the bottom.</p> <p>That shape cannot express the actual decision, and I want to show you why with something you can run.</p> <p>The problem is that the three things that decide a TT",
+      "title": "PR#1: Make SurrealDB performance slightly better",
+      "link": "https://dev.to/hosseinmobarakian/pr1-make-surrealdb-performance-slightly-better-102m",
+      "pubDate": "2026-08-22T12:50:45.000Z",
+      "description": "<p>At the first step, I picked up the SurrealDB project for contribution. I didn't know how I could help this project become better. So I asked my beautiful OpenCode to find parts of the project that could be better.</p> <p>It suggested this file of the project(core/src/val/value/get.rs) to me and s",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "From Sandbox to Review Queue: My GSoC 2026 Project with OWASP OWTF",
-      "link": "https://dev.to/piyush140104/from-sandbox-to-review-queue-my-gsoc-2026-project-with-owasp-owtf-50dd",
-      "pubDate": "2026-08-22T06:24:06.000Z",
-      "description": "<p>When I started GSoC in May, my plan was to build a runtime sandbox for community plugins. By week two my mentor had talked me out of it, and I ended up spending the rest of the summer building a review queue instead. This post is about how that happened and what I actually shipped.</p> <h2> Quick",
+      "title": "Why AI Output Feels Wrong Even When It Is Correct",
+      "link": "https://dev.to/synthaicode_commander/why-ai-output-feels-wrong-even-when-it-is-correct-29cc",
+      "pubDate": "2026-08-22T12:47:38.000Z",
+      "description": "<p>AI can produce an answer in seconds.</p> <p>The answer may be clear, plausible, and even correct. Yet something about it can still feel wrong.</p> <p>I do not think this discomfort comes only from hallucinations or poor model accuracy. Sometimes the real problem is simpler:</p> <blockquote> <p>Th",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Designing a Reasoning Ledger Record",
-      "link": "https://dev.to/kenwalger/designing-a-reasoning-ledger-record-22eo",
-      "pubDate": "2026-08-22T06:23:00.000Z",
-      "description": "<p><em>A companion to Part 4 of the Building the AI Memory Stack series. Part 4.5 of the series.</em></p> <p><em>Part 4 argued that agentic systems need a <a href=\"https://sovereignplatform.dev/terms/reasoning-ledger.html\" rel=\"noopener noreferrer\">Reasoning Ledger</a>: a layer that preserves why a ",
+      "title": "The multilingual bugs that never throw: hreflang, JSON-LD and a site in 12 languages",
+      "link": "https://dev.to/ohadfarkash/the-multilingual-bugs-that-never-throw-hreflang-json-ld-and-a-site-in-12-languages-50d2",
+      "pubDate": "2026-08-22T12:47:29.000Z",
+      "description": "<p>I run a search engine that publishes in twelve languages from one static site on Cloudflare Pages. Last week I audited its machine-readable layer — the part crawlers and answer engines read rather than humans — and found four problems.</p> <p>None of them threw an error. None appeared in logs. Ev",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The Bug That Hid Behind Its Own Comment: Fixing Inconsistent Inference in astroid",
-      "link": "https://dev.to/kartikey_d47d5d0a50247b86/the-bug-that-hid-behind-its-own-comment-fixing-inconsistent-inference-in-astroid-10io",
-      "pubDate": "2026-08-22T06:20:26.000Z",
-      "description": "<p><em>This is a submission for <a href=\"https://dev.to/bugsmash\">DEV's Summer Bug Smash: Clear the Lineup</a> powered by <a href=\"https://sentry.io/\" rel=\"noopener noreferrer\">Sentry</a>.</em></p> <h2> Project Overview </h2> <p><a href=\"https://github.com/pylint-dev/astroid\" rel=\"noopener noreferre",
+      "title": "Four things SVG and CSS did that I did not expect",
+      "link": "https://dev.to/pop3_zxcv/four-things-svg-and-css-did-that-i-did-not-expect-4f4d",
+      "pubDate": "2026-08-22T12:46:28.000Z",
+      "description": "<p>I spent a while building an icon editor that runs entirely in the browser<br> (icons.jamuny.com, free, no account). Here is what cost me the most time.</p> <h3> A presentation attribute loses to any author CSS rule </h3> <p>I was scaling handle stroke widths by <code>1 / zoom</code> and writing t",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Building a 9-Language Fan Site with Next.js 15 and next-intl (No Middleware)",
-      "link": "https://dev.to/coolnico/building-a-9-language-fan-site-with-nextjs-15-and-next-intl-no-middleware-5ae6",
-      "pubDate": "2026-08-22T06:19:16.000Z",
-      "description": "<p>I recently built a multilingual fan site for <em>The Duskbloods</em>, an upcoming FromSoftware game. The challenge: <strong>9 languages</strong> (English, Japanese, Korean, Chinese, Spanish, French, German, Italian, Portuguese), <strong>static generation</strong>, and <strong>no middleware</stron",
+      "title": "Bulletproofing AI Agents: How to Prevent $2,000 Infinite API Loops",
+      "link": "https://dev.to/srijan_bhai/bulletproofing-ai-agents-how-to-prevent-2000-infinite-api-loops-21gm",
+      "pubDate": "2026-08-22T12:38:17.000Z",
+      "description": "<p><em>Implement multi-layer circuit breakers, payload hashing, and financial cutoffs before an autonomous agent drains your backend.</em></p> <h3> The Bottleneck in Production </h3> <p>Autonomous AI agents running in tool-use loops fail unpredictably. When an LLM encounters an unexpected schema, a ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Your AI doesn't understand design. So I gave it a library it can read.",
-      "link": "https://dev.to/voltwake/your-ai-doesnt-understand-design-so-i-gave-it-a-library-it-can-read-5cg0",
-      "pubDate": "2026-08-22T06:18:47.000Z",
-      "description": "<p>Ask any LLM to \"make this landing page look like a high-end Swiss design studio\" and you'll get something that <em>gestures</em> at the idea — a sans-serif font, some whitespace, maybe a red accent because it half-remembers Müller-Brockmann. It looks AI-generated because it is. The model has read",
+      "title": "Pydantic AI keeps one growing message list per run — and re-sends the whole thing every step",
+      "link": "https://dev.to/wartzarbee/pydantic-ai-keeps-one-growing-message-list-per-run-and-re-sends-the-whole-thing-every-step-4o7b",
+      "pubDate": "2026-08-22T12:37:48.000Z",
+      "description": "<p>Pydantic AI gives you a clean, typed agent: define an <code>Agent</code>, hand it tools, call <code>agent.run(...)</code>, and it loops — model call, tool call, model call — until it produces a validated result. The typed ergonomics are great. What the quickstart doesn't spell out is <em>what the",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Understanding the Git workflow",
-      "link": "https://dev.to/vyonara_keiy_535f4abe0b00/understanding-the-git-workflow-3ml",
-      "pubDate": "2026-08-22T06:17:56.000Z",
-      "description": "<p>Introduction<br> Hello,I'm currently a data science student and this is my understanding of git workflow, from creating folders on my local computer to adding files, pushing and having them on my github repository.</p> <h2> Working directory </h2> <p>This is the active folder created in the local",
+      "title": "Build a Real-Time Polymarket Order Book Monitor with Python",
+      "link": "https://dev.to/xniiinx/build-a-real-time-polymarket-order-book-monitor-with-python-10pf",
+      "pubDate": "2026-08-22T12:35:31.000Z",
+      "description": "<h1> Build a Real-Time Polymarket Order Book Monitor </h1> <p>A trading bot should not make decisions from stale snapshots. If you want to understand liquidity, spread, depth, or changes in market structure, you need a continuously updated view of the Polymarket order book.</p> <p>This tutorial buil",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Canada will match US tariffs 'dollar for dollar' as trade talks break down",
-      "link": "https://www.bbc.com/news/articles/cvgvyy4x2mvo",
-      "pubDate": "2026-08-22T06:16:57.000Z",
-      "description": "Article URL: https://www.bbc.com/news/articles/cvgvyy4x2mvo Comments URL: https://news.ycombinator.com/item?id=49397074 Points: 8 # Comments: 0",
+      "title": "How to Check Closed-Source Firmware for Known CVEs (No Source Code Needed)",
+      "link": "https://dev.to/rockyyy/how-to-check-closed-source-firmware-for-known-cves-no-source-code-needed-a0m",
+      "pubDate": "2026-08-22T12:34:54.000Z",
+      "description": "<p>A router, an IP camera, an industrial controller: somewhere in that device's firmware there's a Linux kernel with modules, a handful of statically linked binaries, and a userspace built from a dozen open source components. You don't have the vendor's source tree. What you have is a <code>.bin</co",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "완전자동매매 시스템에 사람이 직접 개입해야 했던 사례 3가지",
+      "link": "https://dev.to/finaltype/wanjeonjadongmaemae-siseuteme-sarami-jigjeob-gaeibhaeya-haessdeon-sarye-3gaji-21c6",
+      "pubDate": "2026-08-22T12:33:47.000Z",
+      "description": "<p><em>자동으로 돌아가게 만든 것과, 자동으로 끝까지 처리되는 것은 다른 문장이었습니다</em></p> <p>이 시스템은 사람 승인 없이 스스로 판단하고 매매하는 걸 목표로 설계했습니다. <a href=\"https://finaltype.github.io/quant-blog/architecture/05_execution_architecture/\" rel=\"noopener noreferrer\">실계좌 주문 실행과 안전장치</a>(새 창)도 그 목표에 맞춰 만들었습니다.</p> <p>그런데 최근 한 달 사이 실계좌에서 세 번, 사람",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "3 Cases Where Fully Automated Trading Still Needed a Human",
+      "link": "https://dev.to/finaltype/3-cases-where-fully-automated-trading-still-needed-a-human-5d0d",
+      "pubDate": "2026-08-22T12:33:46.000Z",
+      "description": "<p><em>Making something run automatically and having it actually get handled to completion turned out to be two different sentences</em></p> <p><em>This is the English version of a post originally written in Korean for my <a href=\"https://finaltype.github.io/quant-blog/en/architecture/01_project_arc",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Hook, hold, harvest and hide: Meta's alleged strategy laid out in first week",
+      "link": "https://www.theguardian.com/technology/2026/aug/22/meta-trial-children-privacy",
+      "pubDate": "2026-08-22T12:07:06.000Z",
+      "description": "Article URL: https://www.theguardian.com/technology/2026/aug/22/meta-trial-children-privacy Comments URL: https://news.ycombinator.com/item?id=49398904 Points: 13 # Comments: 1",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Tailscale Kernel TUN in Unprivileged LXC: Direct SSH Without Userspace Networking",
-      "link": "https://dev.to/futhgar/tailscale-kernel-tun-in-unprivileged-lxc-direct-ssh-without-userspace-networking-18la",
-      "pubDate": "2026-08-22T06:15:48.000Z",
-      "description": "<p><code>tailscale up --tun=userspace-networking</code> gets you a green dot in the admin console and almost nothing else. The node appears in your tailnet, <code>tailscale status</code> looks healthy, and then you try to SSH into that container from your laptop and the connection hangs until TCP gi",
-      "source": "Dev.to Feed",
-      "category": "Development"
+      "title": "Canada suspends trade negotiations with USA and match tariffs dollar for dollar",
+      "link": "https://www.pm.gc.ca/en/news/statements/2026/08/21/statement-prime-minister-carney-canada-us-trade-negotiations",
+      "pubDate": "2026-08-22T10:26:09.000Z",
+      "description": "Article URL: https://www.pm.gc.ca/en/news/statements/2026/08/21/statement-prime-minister-carney-canada-us-trade-negotiations Comments URL: https://news.ycombinator.com/item?id=49398304 Points: 366 # Comments: 235",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
-      "title": "I Built Browser-Local File Tools So Files Don't Need to Be Uploaded",
-      "link": "https://dev.to/filenest12/i-built-browser-local-file-tools-so-files-dont-need-to-be-uploaded-416a",
-      "pubDate": "2026-08-22T06:14:11.000Z",
-      "description": "<p>A lot of small file jobs still follow the same awkward pattern:</p> <ol> <li>choose a file,</li> <li>upload it to someone else's server,</li> <li>wait for processing,</li> <li>download the result.</li> </ol> <p>For some tasks, that server round trip is unnecessary.</p> <p>I have been building <st",
-      "source": "Dev.to Feed",
-      "category": "Development"
+      "title": "Z80–The 1970s Microprocessor Still Alive",
+      "link": "https://www.computer.org/csdl/magazine/mi/2021/06/09623402/1yJTvlRLmhi",
+      "pubDate": "2026-08-22T09:49:57.000Z",
+      "description": "Article URL: https://www.computer.org/csdl/magazine/mi/2021/06/09623402/1yJTvlRLmhi Comments URL: https://news.ycombinator.com/item?id=49398158 Points: 37 # Comments: 17",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
-      "title": "Did the Model Upgrade Break Your AI Agent?",
-      "link": "https://dev.to/sara_mo/did-the-model-upgrade-break-your-ai-agent-4ogp",
-      "pubDate": "2026-08-22T06:09:20.000Z",
-      "description": "<p>Nothing happened. That is the strange part.</p> <p>No deploy. No pull request. Nobody touched the prompt. Your agent ran the way it always ran on Friday, and it runs on Monday, and every dashboard is green. Then a ticket comes in about an answer nobody on your team would have written, and you go ",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "GPT 5.6 Sol 20% price reduction",
-      "link": "https://developers.openai.com/api/docs/models/gpt-5.6-sol",
-      "pubDate": "2026-08-22T04:33:06.000Z",
-      "description": "Article URL: https://developers.openai.com/api/docs/models/gpt-5.6-sol Comments URL: https://news.ycombinator.com/item?id=49396590 Points: 52 # Comments: 33",
+      "title": "Munder Difflin – Agent harness to run an office of your clones",
+      "link": "https://munderdiffl.in/",
+      "pubDate": "2026-08-22T09:49:14.000Z",
+      "description": "Article URL: https://munderdiffl.in/ Comments URL: https://news.ycombinator.com/item?id=49398152 Points: 57 # Comments: 20",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -104,15 +120,7 @@
       "title": "There's no reason for software to be slow anymore",
       "link": "https://danluu.com/perf-opt/",
       "pubDate": "2026-08-22T01:06:17.000Z",
-      "description": "Article URL: https://danluu.com/perf-opt/ Comments URL: https://news.ycombinator.com/item?id=49395628 Points: 313 # Comments: 217",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Initial focus for our partnership with Motorola is a regular non-folding device",
-      "link": "https://grapheneos.social/@GrapheneOS/117136278553665985",
-      "pubDate": "2026-08-22T01:02:09.000Z",
-      "description": "Article URL: https://grapheneos.social/@GrapheneOS/117136278553665985 Comments URL: https://news.ycombinator.com/item?id=49395605 Points: 96 # Comments: 31",
+      "description": "Article URL: https://danluu.com/perf-opt/ Comments URL: https://news.ycombinator.com/item?id=49395628 Points: 490 # Comments: 337",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -120,15 +128,7 @@
       "title": "HN: The Good Parts (2016)",
       "link": "https://danluu.com/hn-comments/",
       "pubDate": "2026-08-21T23:53:03.000Z",
-      "description": "Article URL: https://danluu.com/hn-comments/ Comments URL: https://news.ycombinator.com/item?id=49395171 Points: 39 # Comments: 8",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Show HN: OzBrain, a shared brain for knowledge between agents and your team",
-      "link": "https://ozbrain.com",
-      "pubDate": "2026-08-21T23:09:06.000Z",
-      "description": "I think agent-first chat interfaces will be a primary software modality and busy dashboard/UI will go away. I’m not sure who exactly wins it, but I want my knowledge to grow/go with me.A lot of the “knowledge” ie research, analysis, reasoning will be done by agents as the primary user. Our current n",
+      "description": "Article URL: https://danluu.com/hn-comments/ Comments URL: https://news.ycombinator.com/item?id=49395171 Points: 62 # Comments: 11",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -136,7 +136,7 @@
       "title": "Three important steps in my maturation process",
       "link": "https://thomasdullien.github.io/posts/2026-08-21-three-important-steps-in-my-maturation-process/",
       "pubDate": "2026-08-21T22:29:00.000Z",
-      "description": "Article URL: https://thomasdullien.github.io/posts/2026-08-21-three-important-steps-in-my-maturation-process/ Comments URL: https://news.ycombinator.com/item?id=49394496 Points: 118 # Comments: 41",
+      "description": "Article URL: https://thomasdullien.github.io/posts/2026-08-21-three-important-steps-in-my-maturation-process/ Comments URL: https://news.ycombinator.com/item?id=49394496 Points: 166 # Comments: 78",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -152,15 +152,15 @@
       "title": "Rust Glancer: Rust LSP using 100x less RAM",
       "link": "https://rust-glancer.github.io/blog/hello-world/",
       "pubDate": "2026-08-21T19:51:54.000Z",
-      "description": "https://matklad.github.io/2026/08/21/rust-glancer.html Comments URL: https://news.ycombinator.com/item?id=49393052 Points: 119 # Comments: 31",
+      "description": "https://matklad.github.io/2026/08/21/rust-glancer.html Comments URL: https://news.ycombinator.com/item?id=49393052 Points: 301 # Comments: 58",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Tumble Forth – from assembly to OS with C compiler (2023)",
-      "link": "https://tumbleforth.hardcoded.net/",
-      "pubDate": "2026-08-21T18:59:52.000Z",
-      "description": "Article URL: https://tumbleforth.hardcoded.net/ Comments URL: https://news.ycombinator.com/item?id=49392465 Points: 72 # Comments: 11",
+      "title": "Scientists release biggest 2D map of the universe",
+      "link": "https://newscenter.lbl.gov/2026/08/10/scientists-release-biggest-2d-map-of-the-universe/",
+      "pubDate": "2026-08-21T18:36:34.000Z",
+      "description": "Direct link to Legacy Survey Sky Viewer: https://viewer.legacysurvey.org Comments URL: https://news.ycombinator.com/item?id=49392200 Points: 219 # Comments: 58",
       "source": "Hacker News",
       "category": "Tech News"
     },
