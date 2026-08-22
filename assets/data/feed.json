@@ -1,110 +1,147 @@
 {
-  "generatedAt": "2026-08-22T13:00:51.501Z",
+  "generatedAt": "2026-08-22T18:49:01.844Z",
   "sourceCount": 4,
-  "successCount": 4,
-  "errors": [],
+  "successCount": 3,
+  "errors": [
+    {
+      "source": "CSS Tricks",
+      "error": "HTTP 415 Unsupported Media Type"
+    }
+  ],
   "items": [
     {
-      "title": "PR#1: Make SurrealDB performance slightly better",
-      "link": "https://dev.to/hosseinmobarakian/pr1-make-surrealdb-performance-slightly-better-102m",
-      "pubDate": "2026-08-22T12:50:45.000Z",
-      "description": "<p>At the first step, I picked up the SurrealDB project for contribution. I didn't know how I could help this project become better. So I asked my beautiful OpenCode to find parts of the project that could be better.</p> <p>It suggested this file of the project(core/src/val/value/get.rs) to me and s",
+      "title": "AWS EC2 Deployment — Q&amp;A Reference",
+      "link": "https://dev.to/goose2585/aws-ec2-deployment-qa-reference-279b",
+      "pubDate": "2026-08-22T18:30:06.000Z",
+      "description": "<p>A reference guide compiled from deploying two Node.js/Docker apps to AWS EC2, covering the real issues hit and how they were fixed.</p> <h2> 1. Getting Connected </h2> <p><strong>Q: How do I SSH into my EC2 instance?</strong><br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highligh",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Why AI Output Feels Wrong Even When It Is Correct",
-      "link": "https://dev.to/synthaicode_commander/why-ai-output-feels-wrong-even-when-it-is-correct-29cc",
-      "pubDate": "2026-08-22T12:47:38.000Z",
-      "description": "<p>AI can produce an answer in seconds.</p> <p>The answer may be clear, plausible, and even correct. Yet something about it can still feel wrong.</p> <p>I do not think this discomfort comes only from hallucinations or poor model accuracy. Sometimes the real problem is simpler:</p> <blockquote> <p>Th",
+      "title": "No LeetCode. No club leadership. No internship on my resume.\nStill got the offer.\n\nI wrote about how that happened — and it involved a semester I almost didn't recover from.\n\nWhat actually got your first interview? 👀",
+      "link": "https://dev.to/dj29/no-leetcode-no-club-leadership-no-internship-on-my-resume-still-got-the-offer-i-wrote-about-3d3o",
+      "pubDate": "2026-08-22T18:29:17.000Z",
+      "description": "<div class=\"ltag__link--embedded\"> <div class=\"crayons-story \"> <a href=\"https://dev.to/dj29/how-i-got-a-job-offer-as-a-fresher-in-an-ai-fearing-market-without-leetcode-or-club-leaderships-2gig\" class=\"crayons-story__hidden-navigation-link\">How I Got a Job Offer as a Fresher in an AI-Fearing Market ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The multilingual bugs that never throw: hreflang, JSON-LD and a site in 12 languages",
-      "link": "https://dev.to/ohadfarkash/the-multilingual-bugs-that-never-throw-hreflang-json-ld-and-a-site-in-12-languages-50d2",
-      "pubDate": "2026-08-22T12:47:29.000Z",
-      "description": "<p>I run a search engine that publishes in twelve languages from one static site on Cloudflare Pages. Last week I audited its machine-readable layer — the part crawlers and answer engines read rather than humans — and found four problems.</p> <p>None of them threw an error. None appeared in logs. Ev",
+      "title": "Hello Everyone",
+      "link": "https://dev.to/trenton_toenyes_11a9bb45b/hello-everyone-k1b",
+      "pubDate": "2026-08-22T18:25:25.000Z",
+      "description": "<p>Hello everyone, I am new to coding just begun to learn the ins and outs of coding and what it can do. I am in the process of getting my Full Stack Developer certificates. I have always wanted to do something that has to do with computers because I needed something to pass the time when I hurt mys",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Four things SVG and CSS did that I did not expect",
-      "link": "https://dev.to/pop3_zxcv/four-things-svg-and-css-did-that-i-did-not-expect-4f4d",
-      "pubDate": "2026-08-22T12:46:28.000Z",
-      "description": "<p>I spent a while building an icon editor that runs entirely in the browser<br> (icons.jamuny.com, free, no account). Here is what cost me the most time.</p> <h3> A presentation attribute loses to any author CSS rule </h3> <p>I was scaling handle stroke widths by <code>1 / zoom</code> and writing t",
+      "title": "RAG explicado: cómo darle a un LLM tu propia información",
+      "link": "https://dev.to/isazajuancarlos/rag-explicado-como-darle-a-un-llm-tu-propia-informacion-2a8b",
+      "pubDate": "2026-08-22T18:25:06.000Z",
+      "description": "<p>Un modelo de lenguaje sabe mucho del mundo, pero <strong>no sabe nada de tu empresa</strong>: tus manuales, tus políticas, tus productos. Y si le preguntas por algo que no sabe, puede <em>inventar</em> una respuesta que suena convincente. <strong>RAG</strong> (Retrieval-Augmented Generation) resu",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Bulletproofing AI Agents: How to Prevent $2,000 Infinite API Loops",
-      "link": "https://dev.to/srijan_bhai/bulletproofing-ai-agents-how-to-prevent-2000-infinite-api-loops-21gm",
-      "pubDate": "2026-08-22T12:38:17.000Z",
-      "description": "<p><em>Implement multi-layer circuit breakers, payload hashing, and financial cutoffs before an autonomous agent drains your backend.</em></p> <h3> The Bottleneck in Production </h3> <p>Autonomous AI agents running in tool-use loops fail unpredictably. When an LLM encounters an unexpected schema, a ",
+      "title": "From Prompt to Playable: Building a Phaser Survival Game with Codex and SpriteShip",
+      "link": "https://dev.to/spriteship/from-prompt-to-playable-building-a-phaser-survival-game-with-codex-and-spriteship-2me0",
+      "pubDate": "2026-08-22T18:22:01.000Z",
+      "description": "<p>There is a big difference between a game prototype that technically works and one that feels like a game.</p> <p>Movement, spawning, upgrades, and collision can be built with colored rectangles. That is often the right way to start. But the moment you want an animated player, a family of enemies,",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Pydantic AI keeps one growing message list per run — and re-sends the whole thing every step",
-      "link": "https://dev.to/wartzarbee/pydantic-ai-keeps-one-growing-message-list-per-run-and-re-sends-the-whole-thing-every-step-4o7b",
-      "pubDate": "2026-08-22T12:37:48.000Z",
-      "description": "<p>Pydantic AI gives you a clean, typed agent: define an <code>Agent</code>, hand it tools, call <code>agent.run(...)</code>, and it loops — model call, tool call, model call — until it produces a validated result. The typed ergonomics are great. What the quickstart doesn't spell out is <em>what the",
+      "title": "How I Built Memory for a Local AI Companion Without Sending Chats to a Server",
+      "link": "https://dev.to/lukasz_141142/how-i-built-memory-for-a-local-ai-companion-without-sending-chats-to-a-server-2ki8",
+      "pubDate": "2026-08-22T18:17:18.000Z",
+      "description": "<p>A chatbot can sound convincing for five minutes without remembering anything.</p> <p>Then you mention the job interview you were stressed about last week, the name of your dog, or a small detail from a late-night conversation. It replies like none of it happened.</p> <p>That is where most \"AI com",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Build a Real-Time Polymarket Order Book Monitor with Python",
-      "link": "https://dev.to/xniiinx/build-a-real-time-polymarket-order-book-monitor-with-python-10pf",
-      "pubDate": "2026-08-22T12:35:31.000Z",
-      "description": "<h1> Build a Real-Time Polymarket Order Book Monitor </h1> <p>A trading bot should not make decisions from stale snapshots. If you want to understand liquidity, spread, depth, or changes in market structure, you need a continuously updated view of the Polymarket order book.</p> <p>This tutorial buil",
+      "title": "Your birth time is lying to you: a time-zone rabbit hole in a Chinese astrology calculator",
+      "link": "https://dev.to/shanni/your-birth-time-is-lying-to-you-a-time-zone-rabbit-hole-in-a-chinese-astrology-calculator-46on",
+      "pubDate": "2026-08-22T18:09:26.000Z",
+      "description": "<p>I built a calculator for BaZi — Chinese \"Four Pillars\" birth charts. Whatever you think of the interpretive tradition (and I'll get to that), the <em>input</em> math turned out to be a genuinely deep time-zone problem, and that's what this post is about. If you've ever thought \"time zones, how ha",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How to Check Closed-Source Firmware for Known CVEs (No Source Code Needed)",
-      "link": "https://dev.to/rockyyy/how-to-check-closed-source-firmware-for-known-cves-no-source-code-needed-a0m",
-      "pubDate": "2026-08-22T12:34:54.000Z",
-      "description": "<p>A router, an IP camera, an industrial controller: somewhere in that device's firmware there's a Linux kernel with modules, a handful of statically linked binaries, and a userspace built from a dozen open source components. You don't have the vendor's source tree. What you have is a <code>.bin</co",
+      "title": "Enterprise vibe coding: the governance framework for shipping AI-generated apps to production",
+      "link": "https://dev.to/sali_ac161a1b71406354896c/enterprise-vibe-coding-the-governance-framework-for-shipping-ai-generated-apps-to-production-32j1",
+      "pubDate": "2026-08-22T18:09:02.000Z",
+      "description": "<h1> Enterprise vibe coding: the governance framework for shipping AI-generated apps to production </h1> <p><strong>Published:</strong> August 22, 2026<br> <strong>Category:</strong> Enterprise · AI Deployments<br> <strong>Reading time:</strong> 9 minutes<br> <strong>Author:</strong> NEXUS AI Team</",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "완전자동매매 시스템에 사람이 직접 개입해야 했던 사례 3가지",
-      "link": "https://dev.to/finaltype/wanjeonjadongmaemae-siseuteme-sarami-jigjeob-gaeibhaeya-haessdeon-sarye-3gaji-21c6",
-      "pubDate": "2026-08-22T12:33:47.000Z",
-      "description": "<p><em>자동으로 돌아가게 만든 것과, 자동으로 끝까지 처리되는 것은 다른 문장이었습니다</em></p> <p>이 시스템은 사람 승인 없이 스스로 판단하고 매매하는 걸 목표로 설계했습니다. <a href=\"https://finaltype.github.io/quant-blog/architecture/05_execution_architecture/\" rel=\"noopener noreferrer\">실계좌 주문 실행과 안전장치</a>(새 창)도 그 목표에 맞춰 만들었습니다.</p> <p>그런데 최근 한 달 사이 실계좌에서 세 번, 사람",
+      "title": "Stop Blaming the LLM: Why Your AI Agents Keep Failing (And How to Fix Them)",
+      "link": "https://dev.to/abdullahahmad/stop-blaming-the-llm-why-your-ai-agents-keep-failing-and-how-to-fix-them-4a2g",
+      "pubDate": "2026-08-22T18:08:42.000Z",
+      "description": "<p>I was staring at a broken Next.js and Express backend integration late at night, convinced my AI agent had lost its mind. It was supposed to be a straightforward n8n automation pipeline. Yet, every time it ran, it hallucinated non-existent packages and dumped its context halfway through.</p> <p>M",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "3 Cases Where Fully Automated Trading Still Needed a Human",
-      "link": "https://dev.to/finaltype/3-cases-where-fully-automated-trading-still-needed-a-human-5d0d",
-      "pubDate": "2026-08-22T12:33:46.000Z",
-      "description": "<p><em>Making something run automatically and having it actually get handled to completion turned out to be two different sentences</em></p> <p><em>This is the English version of a post originally written in Korean for my <a href=\"https://finaltype.github.io/quant-blog/en/architecture/01_project_arc",
+      "title": "If your MCP server uses OAuth, every directory thinks it has zero tools",
+      "link": "https://dev.to/leo_framethrower/if-your-mcp-server-uses-oauth-every-directory-thinks-it-has-zero-tools-3cco",
+      "pubDate": "2026-08-22T18:07:33.000Z",
+      "description": "<p>We shipped a remote MCP server, registered it everywhere, and then noticed<br> something odd: every directory listed it as having <strong>no tools at all</strong>.</p> <p>Not the wrong tools. Not a stale count. Zero.</p> <p>glama's API returned this:<br> </p> <div class=\"highlight js-code-highlig",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Hook, hold, harvest and hide: Meta's alleged strategy laid out in first week",
-      "link": "https://www.theguardian.com/technology/2026/aug/22/meta-trial-children-privacy",
-      "pubDate": "2026-08-22T12:07:06.000Z",
-      "description": "Article URL: https://www.theguardian.com/technology/2026/aug/22/meta-trial-children-privacy Comments URL: https://news.ycombinator.com/item?id=49398904 Points: 13 # Comments: 1",
+      "title": "Belgian car salesman becomes prince after DNA test proves royal parentage",
+      "link": "https://www.cnn.com/2026/08/22/europe/prince-belgium-secret-son-scli-intl",
+      "pubDate": "2026-08-22T17:09:27.000Z",
+      "description": "Article URL: https://www.cnn.com/2026/08/22/europe/prince-belgium-secret-son-scli-intl Comments URL: https://news.ycombinator.com/item?id=49401621 Points: 46 # Comments: 24",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Canada suspends trade negotiations with USA and match tariffs dollar for dollar",
-      "link": "https://www.pm.gc.ca/en/news/statements/2026/08/21/statement-prime-minister-carney-canada-us-trade-negotiations",
-      "pubDate": "2026-08-22T10:26:09.000Z",
-      "description": "Article URL: https://www.pm.gc.ca/en/news/statements/2026/08/21/statement-prime-minister-carney-canada-us-trade-negotiations Comments URL: https://news.ycombinator.com/item?id=49398304 Points: 366 # Comments: 235",
+      "title": "Learning about \"The Unix Time-Sharing System\"",
+      "link": "https://playtechnique.io/long/the-unix-time-sharing-system.html",
+      "pubDate": "2026-08-22T16:11:16.000Z",
+      "description": "Article URL: https://playtechnique.io/long/the-unix-time-sharing-system.html Comments URL: https://news.ycombinator.com/item?id=49401122 Points: 15 # Comments: 3",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Z80–The 1970s Microprocessor Still Alive",
+      "title": "ElevenLabs, TwelveLabs, ThirteenLabs",
+      "link": "https://quantumi.sh/public/labs.html",
+      "pubDate": "2026-08-22T14:54:07.000Z",
+      "description": "Article URL: https://quantumi.sh/public/labs.html Comments URL: https://news.ycombinator.com/item?id=49400408 Points: 144 # Comments: 61",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "A Friendly Introduction to Racket",
+      "link": "https://geometridae.bearblog.dev/a-friendly-introduction-to-racket/",
+      "pubDate": "2026-08-22T14:08:19.000Z",
+      "description": "Article URL: https://geometridae.bearblog.dev/a-friendly-introduction-to-racket/ Comments URL: https://news.ycombinator.com/item?id=49399898 Points: 77 # Comments: 24",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Chinese robot runs 100M sprint quicker than Usain Bolt's world record",
+      "link": "https://www.theguardian.com/sport/2026/aug/22/chinese-robot-runs-100m-sprint-quicker-usain-bolt-world-record",
+      "pubDate": "2026-08-22T13:39:07.000Z",
+      "description": "Article URL: https://www.theguardian.com/sport/2026/aug/22/chinese-robot-runs-100m-sprint-quicker-usain-bolt-world-record Comments URL: https://news.ycombinator.com/item?id=49399642 Points: 14 # Comments: 6",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "New MCP Roadmap",
+      "link": "https://blog.modelcontextprotocol.io/posts/mcp-roadmap/",
+      "pubDate": "2026-08-22T13:31:34.000Z",
+      "description": "Article URL: https://blog.modelcontextprotocol.io/posts/mcp-roadmap/ Comments URL: https://news.ycombinator.com/item?id=49399591 Points: 131 # Comments: 100",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Z80 – The 1970s Microprocessor Still Alive (2021)",
       "link": "https://www.computer.org/csdl/magazine/mi/2021/06/09623402/1yJTvlRLmhi",
       "pubDate": "2026-08-22T09:49:57.000Z",
-      "description": "Article URL: https://www.computer.org/csdl/magazine/mi/2021/06/09623402/1yJTvlRLmhi Comments URL: https://news.ycombinator.com/item?id=49398158 Points: 37 # Comments: 17",
+      "description": "Article URL: https://www.computer.org/csdl/magazine/mi/2021/06/09623402/1yJTvlRLmhi Comments URL: https://news.ycombinator.com/item?id=49398158 Points: 90 # Comments: 46",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -112,31 +149,15 @@
       "title": "Munder Difflin – Agent harness to run an office of your clones",
       "link": "https://munderdiffl.in/",
       "pubDate": "2026-08-22T09:49:14.000Z",
-      "description": "Article URL: https://munderdiffl.in/ Comments URL: https://news.ycombinator.com/item?id=49398152 Points: 57 # Comments: 20",
+      "description": "Article URL: https://munderdiffl.in/ Comments URL: https://news.ycombinator.com/item?id=49398152 Points: 208 # Comments: 83",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "There's no reason for software to be slow anymore",
-      "link": "https://danluu.com/perf-opt/",
-      "pubDate": "2026-08-22T01:06:17.000Z",
-      "description": "Article URL: https://danluu.com/perf-opt/ Comments URL: https://news.ycombinator.com/item?id=49395628 Points: 490 # Comments: 337",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "HN: The Good Parts (2016)",
-      "link": "https://danluu.com/hn-comments/",
-      "pubDate": "2026-08-21T23:53:03.000Z",
-      "description": "Article URL: https://danluu.com/hn-comments/ Comments URL: https://news.ycombinator.com/item?id=49395171 Points: 62 # Comments: 11",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Three important steps in my maturation process",
-      "link": "https://thomasdullien.github.io/posts/2026-08-21-three-important-steps-in-my-maturation-process/",
-      "pubDate": "2026-08-21T22:29:00.000Z",
-      "description": "Article URL: https://thomasdullien.github.io/posts/2026-08-21-three-important-steps-in-my-maturation-process/ Comments URL: https://news.ycombinator.com/item?id=49394496 Points: 166 # Comments: 78",
+      "title": "Canada will match US tariffs 'dollar for dollar' as trade talks break down",
+      "link": "https://www.bbc.com/news/articles/cvgvyy4x2mvo",
+      "pubDate": "2026-08-22T06:16:57.000Z",
+      "description": "https://www.pm.gc.ca/en/news/statements/2026/08/21/statement... Comments URL: https://news.ycombinator.com/item?id=49397074 Points: 167 # Comments: 767",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -147,102 +168,6 @@
       "description": "Article URL: https://www.ycombinator.com/companies/salespatriot/jobs/M46X6YX-forward-deployed-engineer Comments URL: https://news.ycombinator.com/item?id=49393733 Points: 0 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
-    },
-    {
-      "title": "Rust Glancer: Rust LSP using 100x less RAM",
-      "link": "https://rust-glancer.github.io/blog/hello-world/",
-      "pubDate": "2026-08-21T19:51:54.000Z",
-      "description": "https://matklad.github.io/2026/08/21/rust-glancer.html Comments URL: https://news.ycombinator.com/item?id=49393052 Points: 301 # Comments: 58",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Scientists release biggest 2D map of the universe",
-      "link": "https://newscenter.lbl.gov/2026/08/10/scientists-release-biggest-2d-map-of-the-universe/",
-      "pubDate": "2026-08-21T18:36:34.000Z",
-      "description": "Direct link to Legacy Survey Sky Viewer: https://viewer.legacysurvey.org Comments URL: https://news.ycombinator.com/item?id=49392200 Points: 219 # Comments: 58",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Resolved: CSS Class Prefix Selector",
-      "link": "https://css-tricks.com/resolved-css-class-prefix-selector/",
-      "pubDate": "2026-08-21T15:13:03.000Z",
-      "description": "A newly resolved proposal would allow us to select classes that are a prefix for variations with a wildcard, like .prefix-*. Resolved: CSS Class Prefix Selector originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "CSS Navigation Matching, Early Days",
-      "link": "https://css-tricks.com/css-navigation-matching-early-days/",
-      "pubDate": "2026-08-19T14:44:41.000Z",
-      "description": "Apply a style when someone navigates from one specific page to another. The idea being it'd make the sources for cross-document view transitions declarative in CSS rather than managing that stuff in JavaScript. CSS Navigation Matching, Early Days originally handwritten and published with love on CSS",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "WordPress.com Student Plan",
-      "link": "https://css-tricks.com/wordpress-student-plan/",
-      "pubDate": "2026-08-19T08:50:00.000Z",
-      "description": "As someone who teaches beginning web development, I find that building a WordPress site makes for a great final project. Hosting those projects has always been a roadblock though. WordPress.com Student Plan originally handwritten and published with love on CSS-Tricks. You should really get the newsl",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Dark mode toggles: two states are enough",
-      "link": "https://css-tricks.com/dark-mode-toggles-two-states-are-enough/",
-      "pubDate": "2026-08-17T14:15:50.000Z",
-      "description": "Lea's pushing back on light/dark mode implementations that display three state options for visitors: light, dark, and system. Dark mode toggles: two states are enough originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "What’s !important #17: Custom Highlight API, CSS Navigation Matching, Fixing text-stroke, and More",
-      "link": "https://css-tricks.com/whats-important-17/",
-      "pubDate": "2026-08-14T14:01:51.000Z",
-      "description": "Plus, how to style skeleton UIs, how to enable diagonal scrolling, how images can overflow themselves, and yet, still more. Basically, how to do a lot of really cool (CSS) stuff. What’s !important #17: Custom Highlight API, CSS Navigation Matching, Fixing text-stroke, and More originally handwritten",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Blocked aria-hidden: The Warning is Right, and Every Fix You&#8217;ve Found is Wrong",
-      "link": "https://css-tricks.com/blocked-aria-hidden-fix/",
-      "pubDate": "2026-08-12T13:43:56.000Z",
-      "description": "The warning is correct. And the recommended fixes you've probably seen are wrong. Here's what you can do instead to properly fix the issue. Blocked aria-hidden: The Warning is Right, and Every Fix You’ve Found is Wrong originally handwritten and published with love on CSS-Tricks. You should really g",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Animating CSS border-image",
-      "link": "https://css-tricks.com/animating-css-border-image/",
-      "pubDate": "2026-08-10T15:58:47.000Z",
-      "description": "Border images are an overlooked feature. One neat fact is that border image slices can run across entire borders on an element, and animating it creates beautiful effects. Animating CSS border-image originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "SmashingConf Freiburg 2026, September 7-10",
-      "link": "https://css-tricks.com/smashingconf-freiburg-2026-september-7-10/",
-      "pubDate": "2026-08-10T15:57:39.000Z",
-      "description": "Smashing Magazine’s in-person conferences are back and returning to the wonderful city of Freiburg next month, September 7–10. SmashingConf Freiburg 2026, September 7-10 originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Using and Styling the Dialog Element",
-      "link": "https://css-tricks.com/using-and-styling-the-dialog-element/",
-      "pubDate": "2026-08-07T14:06:43.000Z",
-      "description": "There's a lot of nuance to the <dialog> element, a seemingly little piece of web architecture. I've got some notes from digging into it. Using and Styling the Dialog Element originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "2026 State of CSS, Devs Surveys",
-      "link": "https://css-tricks.com/2026-state-of-css-devs-surveys/",
-      "pubDate": "2026-08-06T15:54:52.000Z",
-      "description": "A few notes and takeaways from the 2026 State of CSS survey results, including a nice CSS-Tricks cameo! 2026 State of CSS, Devs Surveys originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
     },
     {
       "title": "Meet the HTB Profile: all your skills, in one place",
