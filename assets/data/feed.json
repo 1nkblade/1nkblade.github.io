@@ -1,173 +1,248 @@
 {
-  "generatedAt": "2026-08-22T18:49:01.844Z",
+  "generatedAt": "2026-08-23T01:59:45.242Z",
   "sourceCount": 4,
-  "successCount": 3,
-  "errors": [
-    {
-      "source": "CSS Tricks",
-      "error": "HTTP 415 Unsupported Media Type"
-    }
-  ],
+  "successCount": 4,
+  "errors": [],
   "items": [
     {
-      "title": "AWS EC2 Deployment — Q&amp;A Reference",
-      "link": "https://dev.to/goose2585/aws-ec2-deployment-qa-reference-279b",
-      "pubDate": "2026-08-22T18:30:06.000Z",
-      "description": "<p>A reference guide compiled from deploying two Node.js/Docker apps to AWS EC2, covering the real issues hit and how they were fixed.</p> <h2> 1. Getting Connected </h2> <p><strong>Q: How do I SSH into my EC2 instance?</strong><br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highligh",
+      "title": "Your Agent Loop Is Lying About Being Done: Writing Verifiable Stop Conditions",
+      "link": "https://dev.to/shipwithaiio/your-agent-loop-is-lying-about-being-done-writing-verifiable-stop-conditions-270p",
+      "pubDate": "2026-08-23T01:30:00.000Z",
+      "description": "<p><strong>TL;DR</strong> — A loop is only as trustworthy as its stop condition. \"Done\" has to be checkable by a <em>different</em> model — tests pass, lint clean, schema validates — never the worker's own claim. Below: why self-grading fails, the four rungs of verification, a checker-agent template",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "No LeetCode. No club leadership. No internship on my resume.\nStill got the offer.\n\nI wrote about how that happened — and it involved a semester I almost didn't recover from.\n\nWhat actually got your first interview? 👀",
-      "link": "https://dev.to/dj29/no-leetcode-no-club-leadership-no-internship-on-my-resume-still-got-the-offer-i-wrote-about-3d3o",
-      "pubDate": "2026-08-22T18:29:17.000Z",
-      "description": "<div class=\"ltag__link--embedded\"> <div class=\"crayons-story \"> <a href=\"https://dev.to/dj29/how-i-got-a-job-offer-as-a-fresher-in-an-ai-fearing-market-without-leetcode-or-club-leaderships-2gig\" class=\"crayons-story__hidden-navigation-link\">How I Got a Job Offer as a Fresher in an AI-Fearing Market ",
+      "title": "I failed at time management five times. Then I audited where the time actually went.",
+      "link": "https://dev.to/hyunho_lee_e4373878e60f62/i-failed-at-time-management-five-times-then-i-audited-where-the-time-actually-went-ode",
+      "pubDate": "2026-08-23T01:29:13.000Z",
+      "description": "<p>I've promised myself I'd \"manage my time better\" more times than I can count. None of it lasted a month.</p> <p>Work harder. Cut the distractions. Stay focused. Every one of those resolutions quietly died, and for years I didn't notice the pattern, because there was always a good excuse. A friend",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Hello Everyone",
-      "link": "https://dev.to/trenton_toenyes_11a9bb45b/hello-everyone-k1b",
-      "pubDate": "2026-08-22T18:25:25.000Z",
-      "description": "<p>Hello everyone, I am new to coding just begun to learn the ins and outs of coding and what it can do. I am in the process of getting my Full Stack Developer certificates. I have always wanted to do something that has to do with computers because I needed something to pass the time when I hurt mys",
+      "title": "My First GitHub Project: From a Local Folder to GitHub Using Git and SSH.",
+      "link": "https://dev.to/alfred-otuko/my-first-github-project-from-a-local-folder-to-github-using-git-and-ssh-3lae",
+      "pubDate": "2026-08-23T01:20:14.000Z",
+      "description": "<h1> Introduction </h1> <p>Git is local software that i installed on my machine to help me manage codes while github is an online platform that host git repositories.<br> This is a step by step guide of how i used git to publish my first project to github while a SSH key for a secure connection with",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "RAG explicado: cómo darle a un LLM tu propia información",
-      "link": "https://dev.to/isazajuancarlos/rag-explicado-como-darle-a-un-llm-tu-propia-informacion-2a8b",
-      "pubDate": "2026-08-22T18:25:06.000Z",
-      "description": "<p>Un modelo de lenguaje sabe mucho del mundo, pero <strong>no sabe nada de tu empresa</strong>: tus manuales, tus políticas, tus productos. Y si le preguntas por algo que no sabe, puede <em>inventar</em> una respuesta que suena convincente. <strong>RAG</strong> (Retrieval-Augmented Generation) resu",
+      "title": "Github Project Workflow: Local Folder - Github",
+      "link": "https://dev.to/njenga_allan/github-project-workflow-local-folder-github-10pk",
+      "pubDate": "2026-08-23T01:17:48.000Z",
+      "description": "<h1> Introduction </h1> <p>The world, as we know it, is changing and data is at the center of it all. As a beginner at <em>LuxdevHq</em>, I will cover <strong>Git</strong> and <strong>Github</strong>, how they connect and especially the process to follow when moving a project from Local Folder to Gi",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "From Prompt to Playable: Building a Phaser Survival Game with Codex and SpriteShip",
-      "link": "https://dev.to/spriteship/from-prompt-to-playable-building-a-phaser-survival-game-with-codex-and-spriteship-2me0",
-      "pubDate": "2026-08-22T18:22:01.000Z",
-      "description": "<p>There is a big difference between a game prototype that technically works and one that feels like a game.</p> <p>Movement, spawning, upgrades, and collision can be built with colored rectangles. That is often the right way to start. But the moment you want an animated player, a family of enemies,",
+      "title": "Google เปิดซอร์ส Long Horizon, 5 design patterns ที่ทำให้ agent ทำงานข้ามสัปดาห์ได้โดยไม่พังเงียบๆ",
+      "link": "https://dev.to/sarantoon/google-epidchrs-long-horizon-5-design-patterns-thiithamaih-agent-thamngaankhaamsapdaahaidodyaimphangengiiyb-330",
+      "pubDate": "2026-08-23T01:14:53.000Z",
+      "description": "<h1> Google เปิดซอร์ส Long Horizon, 5 design patterns ที่ทำให้ agent ทำงานข้ามสัปดาห์ได้โดยไม่พังเงียบๆ </h1> <p><em>โดย Nokka (นก-กา) | 22 สิงหาคม 2026</em></p> <p><em>บทความนี้เขียนโดย AI (deepseek-v4-pro) ผ่าน Hermes Agent ภายใต้การควบคุมและตรวจสอบคุณภาพโดยมนุษย์, Nokka (นก-กา)</em></p> <p>มีประโ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How I Built Memory for a Local AI Companion Without Sending Chats to a Server",
-      "link": "https://dev.to/lukasz_141142/how-i-built-memory-for-a-local-ai-companion-without-sending-chats-to-a-server-2ki8",
-      "pubDate": "2026-08-22T18:17:18.000Z",
-      "description": "<p>A chatbot can sound convincing for five minutes without remembering anything.</p> <p>Then you mention the job interview you were stressed about last week, the name of your dog, or a small detail from a late-night conversation. It replies like none of it happened.</p> <p>That is where most \"AI com",
+      "title": "Tauri Apps without Rust? Write Your Backend in Javascript",
+      "link": "https://dev.to/ozymandiasthegreat/tauri-apps-without-rust-write-your-backend-in-javascript-20g4",
+      "pubDate": "2026-08-23T01:07:55.000Z",
+      "description": "<p>TL;DR I wrote Tauri-specific rust bindings for <a href=\"https://github.com/holepunchto/bare-kit\" rel=\"noopener noreferrer\">BareKit</a> as a Tauri plugin so you can write your backend in javascript without touching rust at all (other than enabling the plugin) or split your logic between javascript",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Your birth time is lying to you: a time-zone rabbit hole in a Chinese astrology calculator",
-      "link": "https://dev.to/shanni/your-birth-time-is-lying-to-you-a-time-zone-rabbit-hole-in-a-chinese-astrology-calculator-46on",
-      "pubDate": "2026-08-22T18:09:26.000Z",
-      "description": "<p>I built a calculator for BaZi — Chinese \"Four Pillars\" birth charts. Whatever you think of the interpretive tradition (and I'll get to that), the <em>input</em> math turned out to be a genuinely deep time-zone problem, and that's what this post is about. If you've ever thought \"time zones, how ha",
+      "title": "JarService / zhima Malware Entering via Insecure Android Car Head Unit Update Paths",
+      "link": "https://dev.to/anoymask/jarservice-zhima-malware-entering-via-insecure-android-car-head-unit-update-paths-221l",
+      "pubDate": "2026-08-23T01:05:01.000Z",
+      "description": "<h2> 1. Basic Information </h2> <ul> <li> <strong>Article Name</strong>: The invisible passenger in your car</li> <li> <strong>Source</strong>: Kaspersky Securelist</li> <li> <strong>Publication Date</strong>: 2026-08-21</li> <li> <strong>Update Date</strong>: None</li> <li> <strong>Severity</strong",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Enterprise vibe coding: the governance framework for shipping AI-generated apps to production",
-      "link": "https://dev.to/sali_ac161a1b71406354896c/enterprise-vibe-coding-the-governance-framework-for-shipping-ai-generated-apps-to-production-32j1",
-      "pubDate": "2026-08-22T18:09:02.000Z",
-      "description": "<h1> Enterprise vibe coding: the governance framework for shipping AI-generated apps to production </h1> <p><strong>Published:</strong> August 22, 2026<br> <strong>Category:</strong> Enterprise · AI Deployments<br> <strong>Reading time:</strong> 9 minutes<br> <strong>Author:</strong> NEXUS AI Team</",
+      "title": "My First GitHub Project: From A Local Folder To GitHub Using Git And SSH",
+      "link": "https://dev.to/samwel_shihande_3b29d4559/my-first-github-project-from-a-local-folder-to-github-using-git-and-ssh-4ifh",
+      "pubDate": "2026-08-23T01:02:57.000Z",
+      "description": "<h2> Introduction. </h2> <p>I have folder with files sitting quietly on my laptop, and the idea of turning it into a \"real project\" on github feels like a mountain. This week, i climbed that mountain and i want to walk you through exactly how i did.</p> <h2> Git vs GitHub. </h2> <p>Git is a tool tha",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Stop Blaming the LLM: Why Your AI Agents Keep Failing (And How to Fix Them)",
-      "link": "https://dev.to/abdullahahmad/stop-blaming-the-llm-why-your-ai-agents-keep-failing-and-how-to-fix-them-4a2g",
-      "pubDate": "2026-08-22T18:08:42.000Z",
-      "description": "<p>I was staring at a broken Next.js and Express backend integration late at night, convinced my AI agent had lost its mind. It was supposed to be a straightforward n8n automation pipeline. Yet, every time it ran, it hallucinated non-existent packages and dumped its context halfway through.</p> <p>M",
+      "title": "# Understanding The Git Workflow",
+      "link": "https://dev.to/mbirua-j/-understanding-the-git-workflow-24p8",
+      "pubDate": "2026-08-23T01:01:01.000Z",
+      "description": "<h2> My Understanding Of Git </h2> <p>Git is a place where one is able to create projects using commands and they can be tried, tested and if something is not right the correction is also done here. Projects worked on via Git are stored in a local repository where GitHub acts as a backup platform fo",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "If your MCP server uses OAuth, every directory thinks it has zero tools",
-      "link": "https://dev.to/leo_framethrower/if-your-mcp-server-uses-oauth-every-directory-thinks-it-has-zero-tools-3cco",
-      "pubDate": "2026-08-22T18:07:33.000Z",
-      "description": "<p>We shipped a remote MCP server, registered it everywhere, and then noticed<br> something odd: every directory listed it as having <strong>no tools at all</strong>.</p> <p>Not the wrong tools. Not a stale count. Zero.</p> <p>glama's API returned this:<br> </p> <div class=\"highlight js-code-highlig",
+      "title": "Building a 24/7 Home Security NVR Using Frugal Hardware and a Raspberry Pi 3 Bridge",
+      "link": "https://dev.to/whatelse/building-a-247-home-security-nvr-using-a-7-year-old-raspberry-pi-3-24ff",
+      "pubDate": "2026-08-23T01:00:08.000Z",
+      "description": "<h1> Building a 24/7 Home NVR Using Frugal Hardware and a Raspberry Pi 3 Bridge </h1> <p>How to transform a 10-year-old Dell laptop and a 7-year-old Raspberry Pi 3 Wi-Fi bridge into a robust, high-efficiency security camera NVR for 2018-era legacy IP cameras using Linux systemd services, FFmpeg, Pro",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Belgian car salesman becomes prince after DNA test proves royal parentage",
-      "link": "https://www.cnn.com/2026/08/22/europe/prince-belgium-secret-son-scli-intl",
-      "pubDate": "2026-08-22T17:09:27.000Z",
-      "description": "Article URL: https://www.cnn.com/2026/08/22/europe/prince-belgium-secret-son-scli-intl Comments URL: https://news.ycombinator.com/item?id=49401621 Points: 46 # Comments: 24",
+      "title": "Software Engineering in the Agentic Era",
+      "link": "https://simonwillison.net/2026/Feb/23/agentic-engineering-patterns/",
+      "pubDate": "2026-08-23T00:20:21.000Z",
+      "description": "Article URL: https://simonwillison.net/2026/Feb/23/agentic-engineering-patterns/ Comments URL: https://news.ycombinator.com/item?id=49405117 Points: 3 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Learning about \"The Unix Time-Sharing System\"",
-      "link": "https://playtechnique.io/long/the-unix-time-sharing-system.html",
-      "pubDate": "2026-08-22T16:11:16.000Z",
-      "description": "Article URL: https://playtechnique.io/long/the-unix-time-sharing-system.html Comments URL: https://news.ycombinator.com/item?id=49401122 Points: 15 # Comments: 3",
+      "title": "US Military newspaper editor voices censorship fears after being fired",
+      "link": "https://www.bbc.com/news/articles/cm2g23ng8p4o",
+      "pubDate": "2026-08-23T00:19:17.000Z",
+      "description": "Article URL: https://www.bbc.com/news/articles/cm2g23ng8p4o Comments URL: https://news.ycombinator.com/item?id=49405110 Points: 31 # Comments: 6",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "ElevenLabs, TwelveLabs, ThirteenLabs",
-      "link": "https://quantumi.sh/public/labs.html",
-      "pubDate": "2026-08-22T14:54:07.000Z",
-      "description": "Article URL: https://quantumi.sh/public/labs.html Comments URL: https://news.ycombinator.com/item?id=49400408 Points: 144 # Comments: 61",
+      "title": "NanoGPT Speedrun Frontier",
+      "link": "https://www.primeintellect.ai/research/nanogpt-speedrun",
+      "pubDate": "2026-08-22T22:14:27.000Z",
+      "description": "Article URL: https://www.primeintellect.ai/research/nanogpt-speedrun Comments URL: https://news.ycombinator.com/item?id=49404380 Points: 44 # Comments: 12",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "A Friendly Introduction to Racket",
-      "link": "https://geometridae.bearblog.dev/a-friendly-introduction-to-racket/",
-      "pubDate": "2026-08-22T14:08:19.000Z",
-      "description": "Article URL: https://geometridae.bearblog.dev/a-friendly-introduction-to-racket/ Comments URL: https://news.ycombinator.com/item?id=49399898 Points: 77 # Comments: 24",
+      "title": "NetBSD and my life (2005)",
+      "link": "https://mail-index.netbsd.org/netbsd-advocacy/2005/09/10/0000.html",
+      "pubDate": "2026-08-22T19:07:46.000Z",
+      "description": "Article URL: https://mail-index.netbsd.org/netbsd-advocacy/2005/09/10/0000.html Comments URL: https://news.ycombinator.com/item?id=49402781 Points: 96 # Comments: 24",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Chinese robot runs 100M sprint quicker than Usain Bolt's world record",
-      "link": "https://www.theguardian.com/sport/2026/aug/22/chinese-robot-runs-100m-sprint-quicker-usain-bolt-world-record",
-      "pubDate": "2026-08-22T13:39:07.000Z",
-      "description": "Article URL: https://www.theguardian.com/sport/2026/aug/22/chinese-robot-runs-100m-sprint-quicker-usain-bolt-world-record Comments URL: https://news.ycombinator.com/item?id=49399642 Points: 14 # Comments: 6",
+      "title": "hdiutil is deprecated in macOS 27 Golden Gate",
+      "link": "https://lapcatsoftware.com/articles/2026/8/7.html",
+      "pubDate": "2026-08-22T19:04:41.000Z",
+      "description": "Article URL: https://lapcatsoftware.com/articles/2026/8/7.html Comments URL: https://news.ycombinator.com/item?id=49402741 Points: 159 # Comments: 68",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "New MCP Roadmap",
-      "link": "https://blog.modelcontextprotocol.io/posts/mcp-roadmap/",
-      "pubDate": "2026-08-22T13:31:34.000Z",
-      "description": "Article URL: https://blog.modelcontextprotocol.io/posts/mcp-roadmap/ Comments URL: https://news.ycombinator.com/item?id=49399591 Points: 131 # Comments: 100",
+      "title": "Why your local LLM feels dumber than it is",
+      "link": "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917",
+      "pubDate": "2026-08-22T18:14:16.000Z",
+      "description": "Article URL: https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917 Comments URL: https://news.ycombinator.com/item?id=49402232 Points: 181 # Comments: 62",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Z80 – The 1970s Microprocessor Still Alive (2021)",
-      "link": "https://www.computer.org/csdl/magazine/mi/2021/06/09623402/1yJTvlRLmhi",
-      "pubDate": "2026-08-22T09:49:57.000Z",
-      "description": "Article URL: https://www.computer.org/csdl/magazine/mi/2021/06/09623402/1yJTvlRLmhi Comments URL: https://news.ycombinator.com/item?id=49398158 Points: 90 # Comments: 46",
+      "title": "Figmimic – A bookmarklet to copy any webpage into Figma as editable layers",
+      "link": "https://marcua.net/minitools/figmimic/",
+      "pubDate": "2026-08-22T18:11:40.000Z",
+      "description": "Article URL: https://marcua.net/minitools/figmimic/ Comments URL: https://news.ycombinator.com/item?id=49402213 Points: 19 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Munder Difflin – Agent harness to run an office of your clones",
-      "link": "https://munderdiffl.in/",
-      "pubDate": "2026-08-22T09:49:14.000Z",
-      "description": "Article URL: https://munderdiffl.in/ Comments URL: https://news.ycombinator.com/item?id=49398152 Points: 208 # Comments: 83",
+      "title": "Thinking in Python by Bruce Eckel",
+      "link": "https://thinkinginpython.com/",
+      "pubDate": "2026-08-22T18:10:49.000Z",
+      "description": "Article URL: https://thinkinginpython.com/ Comments URL: https://news.ycombinator.com/item?id=49402202 Points: 50 # Comments: 12",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Canada will match US tariffs 'dollar for dollar' as trade talks break down",
-      "link": "https://www.bbc.com/news/articles/cvgvyy4x2mvo",
-      "pubDate": "2026-08-22T06:16:57.000Z",
-      "description": "https://www.pm.gc.ca/en/news/statements/2026/08/21/statement... Comments URL: https://news.ycombinator.com/item?id=49397074 Points: 167 # Comments: 767",
+      "title": "Scrap (2006)",
+      "link": "https://twitter.com/moxie/status/2091218652133732491",
+      "pubDate": "2026-08-22T18:08:56.000Z",
+      "description": "https://xcancel.com/moxie/status/2091218652133732491 Comments URL: https://news.ycombinator.com/item?id=49402189 Points: 314 # Comments: 176",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "SalesPatriot (YC W25) Is Hiring Forward Deployed Engineers",
-      "link": "https://www.ycombinator.com/companies/salespatriot/jobs/M46X6YX-forward-deployed-engineer",
-      "pubDate": "2026-08-21T21:00:48.000Z",
-      "description": "Article URL: https://www.ycombinator.com/companies/salespatriot/jobs/M46X6YX-forward-deployed-engineer Comments URL: https://news.ycombinator.com/item?id=49393733 Points: 0 # Comments: 0",
+      "title": "I set a trap for a book-marketing scammer (2025)",
+      "link": "https://rwwgreene.substack.com/p/i-set-a-trap-for-a-book-marketing",
+      "pubDate": "2026-08-22T18:08:25.000Z",
+      "description": "Article URL: https://rwwgreene.substack.com/p/i-set-a-trap-for-a-book-marketing Comments URL: https://news.ycombinator.com/item?id=49402181 Points: 6 # Comments: 6",
       "source": "Hacker News",
       "category": "Tech News"
+    },
+    {
+      "title": "Resolved: CSS Class Prefix Selector",
+      "link": "https://css-tricks.com/resolved-css-class-prefix-selector/",
+      "pubDate": "2026-08-21T15:13:03.000Z",
+      "description": "A newly resolved proposal would allow us to select classes that are a prefix for variations with a wildcard, like .prefix-*. Resolved: CSS Class Prefix Selector originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "CSS Navigation Matching, Early Days",
+      "link": "https://css-tricks.com/css-navigation-matching-early-days/",
+      "pubDate": "2026-08-19T14:44:41.000Z",
+      "description": "Apply a style when someone navigates from one specific page to another. The idea being it'd make the sources for cross-document view transitions declarative in CSS rather than managing that stuff in JavaScript. CSS Navigation Matching, Early Days originally handwritten and published with love on CSS",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "WordPress.com Student Plan",
+      "link": "https://css-tricks.com/wordpress-student-plan/",
+      "pubDate": "2026-08-19T08:50:00.000Z",
+      "description": "As someone who teaches beginning web development, I find that building a WordPress site makes for a great final project. Hosting those projects has always been a roadblock though. WordPress.com Student Plan originally handwritten and published with love on CSS-Tricks. You should really get the newsl",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Dark mode toggles: two states are enough",
+      "link": "https://css-tricks.com/dark-mode-toggles-two-states-are-enough/",
+      "pubDate": "2026-08-17T14:15:50.000Z",
+      "description": "Lea's pushing back on light/dark mode implementations that display three state options for visitors: light, dark, and system. Dark mode toggles: two states are enough originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "What’s !important #17: Custom Highlight API, CSS Navigation Matching, Fixing text-stroke, and More",
+      "link": "https://css-tricks.com/whats-important-17/",
+      "pubDate": "2026-08-14T14:01:51.000Z",
+      "description": "Plus, how to style skeleton UIs, how to enable diagonal scrolling, how images can overflow themselves, and yet, still more. Basically, how to do a lot of really cool (CSS) stuff. What’s !important #17: Custom Highlight API, CSS Navigation Matching, Fixing text-stroke, and More originally handwritten",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Blocked aria-hidden: The Warning is Right, and Every Fix You&#8217;ve Found is Wrong",
+      "link": "https://css-tricks.com/blocked-aria-hidden-fix/",
+      "pubDate": "2026-08-12T13:43:56.000Z",
+      "description": "The warning is correct. And the recommended fixes you've probably seen are wrong. Here's what you can do instead to properly fix the issue. Blocked aria-hidden: The Warning is Right, and Every Fix You’ve Found is Wrong originally handwritten and published with love on CSS-Tricks. You should really g",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Animating CSS border-image",
+      "link": "https://css-tricks.com/animating-css-border-image/",
+      "pubDate": "2026-08-10T15:58:47.000Z",
+      "description": "Border images are an overlooked feature. One neat fact is that border image slices can run across entire borders on an element, and animating it creates beautiful effects. Animating CSS border-image originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "SmashingConf Freiburg 2026, September 7-10",
+      "link": "https://css-tricks.com/smashingconf-freiburg-2026-september-7-10/",
+      "pubDate": "2026-08-10T15:57:39.000Z",
+      "description": "Smashing Magazine’s in-person conferences are back and returning to the wonderful city of Freiburg next month, September 7–10. SmashingConf Freiburg 2026, September 7-10 originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Using and Styling the Dialog Element",
+      "link": "https://css-tricks.com/using-and-styling-the-dialog-element/",
+      "pubDate": "2026-08-07T14:06:43.000Z",
+      "description": "There's a lot of nuance to the <dialog> element, a seemingly little piece of web architecture. I've got some notes from digging into it. Using and Styling the Dialog Element originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "2026 State of CSS, Devs Surveys",
+      "link": "https://css-tricks.com/2026-state-of-css-devs-surveys/",
+      "pubDate": "2026-08-06T15:54:52.000Z",
+      "description": "A few notes and takeaways from the 2026 State of CSS survey results, including a nice CSS-Tricks cameo! 2026 State of CSS, Devs Surveys originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
       "title": "Meet the HTB Profile: all your skills, in one place",
