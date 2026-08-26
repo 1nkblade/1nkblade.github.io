@@ -1,94 +1,110 @@
 {
-  "generatedAt": "2026-08-26T01:58:32.177Z",
+  "generatedAt": "2026-08-26T07:08:53.766Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "Building OmniGIF: A Client-Side GIF Toolkit with WebAssembly (No Server Uploads)",
-      "link": "https://dev.to/sunkehappy/building-omnigif-a-client-side-gif-toolkit-with-webassembly-no-server-uploads-29o1",
-      "pubDate": "2026-08-26T01:30:38.000Z",
-      "description": "<p>Most online GIF tools send your file to a remote server. I built <a href=\"https://www.omnigif.com\" rel=\"noopener noreferrer\">OmniGIF</a> to prove that's unnecessary — modern browsers can decode, encode, and transform GIFs entirely on the client.</p> <h2> The architecture problem </h2> <p>Traditio",
+      "title": "Understanding RCDA: A Strategic Approach to Managing Risk and Cost in Architecture",
+      "link": "https://dev.to/chtwilfer/understanding-rcda-a-strategic-approach-to-managing-risk-and-cost-in-architecture-43e6",
+      "pubDate": "2026-08-26T07:00:00.000Z",
+      "description": "<p>In today’s fast-paced digital world, organizations face a growing number of challenges in managing their enterprise architectures. Complex systems, rapid technological advancements, and evolving business needs make it difficult to maintain a balance between risk management and cost efficiency. Th",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Copilot's Code Review Cannot Block Your Merge. It Says So in the Docs.",
-      "link": "https://dev.to/ugliai/copilots-code-review-cannot-block-your-merge-it-says-so-in-the-docs-hfm",
-      "pubDate": "2026-08-26T01:26:55.000Z",
-      "description": "<p>GitHub's own documentation is unambiguous about this: <strong>Copilot always submits a Comment review — never Approve, never Request changes.</strong> It does not count toward required approvals. It does not block a merge.</p> <p>That is a sensible safety boundary. It is also the single most misr",
+      "title": "A Unified KPI Framework for Automation Testing with Playwright &amp; JavaScript",
+      "link": "https://dev.to/she11_qa/a-unified-kpi-framework-for-automation-testing-with-playwright-javascript-2oce",
+      "pubDate": "2026-08-26T06:48:04.000Z",
+      "description": "<p>Measuring the impact of test automation goes beyond simple pass/fail ratios. To demonstrate real engineering excellence and business value, automation metrics must capture execution speed, suite stability, test coverage, maintenance cost, and CI/CD integration.</p> <p>Here is a comprehensive, uni",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The fuss with running a code ONLY once in React.js (after page load)",
-      "link": "https://dev.to/midnqp/the-fuss-with-running-a-code-only-once-in-reactjs-after-page-load-jo7",
-      "pubDate": "2026-08-26T01:10:41.000Z",
-      "description": "<p>Firstly, filename here is <code>_runOnce.tsx</code>. This file here is a client-side component that allows for important client side logic.<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight jsx\"><code><span class=\"dl\">'</span><span class=\"s1\">use client</span><span class=\"d",
+      "title": "Building a Client-Side N-gram Utility for Text Structure and Phrase Audit",
+      "link": "https://dev.to/hoangvibecode/building-a-client-side-n-gram-utility-for-text-structure-and-phrase-audit-4623",
+      "pubDate": "2026-08-26T06:47:25.000Z",
+      "description": "<p>Hey DEV community! 👋</p> <p>When writing technical documentation, user guides, or long-form informational articles, maintaining a clear and engaging reading style is highly important. However, as writers, we often fall into repetitive phrasing habits without realizing it. </p> <p>Traditional wor",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Implementing a Free LLM API Without a Credit Card — Understanding Rate Limits and Fallback Design",
-      "link": "https://dev.to/orca_forge/implementing-a-free-llm-api-without-a-credit-card-understanding-rate-limits-and-fallback-design-322b",
-      "pubDate": "2026-08-26T01:09:01.000Z",
-      "description": "<blockquote> <p>📝 Originally published (in Japanese) at <a href=\"https://forge.workstyle.tech/blog/free-llm-api-rate-limits-fallback/?utm_source=devto&amp;utm_medium=crosspost&amp;utm_campaign=free-llm-api-rate-limits-fallback\" rel=\"noopener noreferrer\">forge.workstyle.tech</a>.</p> </blockquote> <",
+      "title": "Testing an AI shopping agent's checkout flow? There's no sandbox for that yet — so I built one",
+      "link": "https://dev.to/flovoice53tech/testing-an-ai-shopping-agents-checkout-flow-theres-no-sandbox-for-that-yet-so-i-built-one-dgo",
+      "pubDate": "2026-08-26T06:46:59.000Z",
+      "description": "<p>If you're building or evaluating an AI agent that can shop and check out on its own, you've probably run into the new \"agentic commerce\" protocols: <a href=\"https://github.com/agentic-commerce-protocol/agentic-commerce-protocol\" rel=\"noopener noreferrer\">ACP</a> (OpenAI + Stripe + Meta), AP2 (Goo",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Incin, a rust machine learning framework for setting fire to dimensionality bugs",
-      "link": "https://dev.to/xupremix/incin-a-rust-machine-learning-framework-for-setting-fire-to-dimensionality-bugs-55h8",
-      "pubDate": "2026-08-26T01:07:13.000Z",
-      "description": "<p><a href=\"https://github.com/xupremix/incin\" rel=\"noopener noreferrer\">Incin</a> is a deep learning framework in Rust where a tensor’s shape, dtype, device and gradient state all live in its type. Shape, dtype, device mismatches and so on are compiler errors.<br> </p> <div class=\"highlight js-code",
+      "title": "Building an Automated QA KPI Dashboard for Playwright &amp; BDD Pipelines",
+      "link": "https://dev.to/she11_qa/building-an-automated-qa-kpi-dashboard-for-playwright-bdd-pipelines-31p7",
+      "pubDate": "2026-08-26T06:41:36.000Z",
+      "description": "<p>Tracking test automation metrics manually often leads to outdated figures and missed engineering gaps. To solve this, automated reporting directly from your test suites—such as Playwright and Cucumber—provides clear visibility into health, execution speed, and coverage.</p> <p>Below is a breakdow",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "AI Cut Korean Herbal Medicine Prep Time from 300 Minutes to 5 - But the Smart Part Is What It Didn't Touch: the Korean Medicine Doctor's Judgment",
-      "link": "https://dev.to/judy_miranttie/ai-cut-korean-herbal-medicine-prep-time-from-300-minutes-to-5-but-the-smart-part-is-what-it-1hlc",
-      "pubDate": "2026-08-26T01:00:27.000Z",
-      "description": "<p>Honestly, when I saw the headline \"Someone in Korea used AI to cut the prep time for a dose of Korean herbal medicine from 300 minutes to 5,\" the first thing that caught my eye wasn't \"whoa, robots can make herbal medicine now.\" It was <em>how</em> they did it—because they happened to get right t",
+      "title": "Codex Memory Internals: What It Remembers, Who Decides, and How It Compares to OpenCode",
+      "link": "https://dev.to/antonio_zhu_e726fd856cd86/codex-memory-internals-what-it-remembers-who-decides-and-how-it-compares-to-opencode-5bmm",
+      "pubDate": "2026-08-26T06:38:08.000Z",
+      "description": "<p>I began this investigation with a specific question: can Codex autonomously add, modify, and delete its own memories? The product documentation already says that it has memory. What I wanted to know was who actually decides what survives.</p> <p>When an old chat contains a useful build command, d",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Even Cloudflare Is Now Issuing Wallets to AI - The 'Spending Cap' Everyone's Racing to Build Is What Actually Makes AI Safe to Spend Money",
-      "link": "https://dev.to/judy_miranttie/even-cloudflare-is-now-issuing-wallets-to-ai-the-spending-cap-everyones-racing-to-build-is-4opm",
-      "pubDate": "2026-08-26T01:00:08.000Z",
-      "description": "<p>Honestly, when I saw Cloudflare's announcement, my first reaction wasn't \"oh cool, something new\"—it was \"there goes another giant company proving the thing I've been saying all along.\"</p> <h2> What Cloudflare Actually Did </h2> <p>On August 4, Cloudflare (yes, the infrastructure giant that bloc",
+      "title": "Portfolio Update, I Guess",
+      "link": "https://dev.to/adamthedeveloper/portfolio-update-i-guess-4ob3",
+      "pubDate": "2026-08-26T06:35:44.000Z",
+      "description": "<p>This isn't my main piece for the week, it's more of a \"contributes nothing to knowledge\" kind of post.</p> <p>Last week I took another look at my portfolio and thought, \"Hey, why not make this feel a bit more like me?\" So I set out to give it a makeover, stuffed as much of my personality into it ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Self-Healing Playwright Tests for $0: Five Versions of Getting There",
-      "link": "https://dev.to/flashpeter7/self-healing-playwright-tests-for-0-five-versions-of-getting-there-93p",
-      "pubDate": "2026-08-26T00:59:32.000Z",
-      "description": "<h1> Five Versions of an AI Testing Tool: What I Tried, What It Cost, Where It Broke </h1> <p>I wanted automated health checks for an e-commerce storefront. Standard stuff: search works, product page renders, cart accepts items, checkout doesn't explode.</p> <p>But I had one requirement that made it",
+      "title": "A year of coding by talking: what I gained and what I lost",
+      "link": "https://dev.to/tacckim/a-year-of-coding-by-talking-what-i-gained-and-what-i-lost-1p15",
+      "pubDate": "2026-08-26T06:35:29.000Z",
+      "description": "<p>2024 was the year AI was everywhere. The ads, the praise, the feeling that something had already been decided without me.</p> <p>I am in my fifties. I had to decide whether to watch or take part.</p> <p>I decided to take part. I started with VS Code, on a paid plan.</p> <p>I did not have to think",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Proxmox vs Spinifex: Hypervisor Management vs AWS-Compatible Cloud",
-      "link": "https://dev.to/toddyholiday/proxmox-vs-spinifex-hypervisor-management-vs-aws-compatible-cloud-81e",
-      "pubDate": "2026-08-26T00:58:30.000Z",
-      "description": "<p>Proxmox VE and Spinifex are both open source platforms for running virtual machines on hardware you own, and both are licensed under AGPLv3. That's roughly where the similarity ends. Proxmox is a hypervisor management platform with a web interface, a REST API, and deep integrations for storage an",
+      "title": "I built plugins for three editors. Everywhere, you're a guest in someone else's house",
+      "link": "https://dev.to/eugeniya_ivanova_4a58eadc/i-built-plugins-for-three-editors-everywhere-youre-a-guest-in-someone-elses-house-34ck",
+      "pubDate": "2026-08-26T06:34:45.000Z",
+      "description": "<p>Over the last while I've built integrations for three places where people work with text and images: <a href=\"https://dev.to/eugeniya_ivanova_4a58eadc/i-shipped-a-plugin-with-one-branch-i-hadnt-tested-so-i-built-a-fallback-lc8\">Obsidian</a>, VS Code, and Figma. Doing a few of them back to back, I",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "[Boost]",
-      "link": "https://dev.to/justin_engelbrecht_183ff3/-12la",
-      "pubDate": "2026-08-26T00:55:36.000Z",
-      "description": "<div class=\"ltag__link--embedded\"> <div class=\"crayons-story \"> <a href=\"https://dev.to/debashish_ghosal/i-tried-to-prompt-inject-my-own-agent-engine-it-didnt-work-heres-why-57m0\" class=\"crayons-story__hidden-navigation-link\">I Tried to Prompt-Inject My Own Agent Engine. It Didn't Work. Here's Why.<",
+      "title": "How I \"Vibe-Coded\" a Privacy-First, Client-Side Base64 Tool (Deep-Dive into Unicode Handling in JS)",
+      "link": "https://dev.to/hoangvibecode/how-i-vibe-coded-a-privacy-first-client-side-base64-tool-deep-dive-into-unicode-handling-in-js-39m9",
+      "pubDate": "2026-08-26T06:32:33.000Z",
+      "description": "<p>Hey DEV community! 👋</p> <p>As developers, we handle Base64 encoding and decoding almost daily—whether we're debugging API payloads, formatting authorization headers, or embedding small graphic assets directly into stylesheets.</p> <p>However, many online translation utilities process your input",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The brain may be about to have its Ozempic moment",
-      "link": "https://www.economist.com/science-and-technology/2026/08/11/the-brain-may-be-about-to-have-its-ozempic-moment",
-      "pubDate": "2026-08-26T00:40:41.000Z",
-      "description": "Article URL: https://www.economist.com/science-and-technology/2026/08/11/the-brain-may-be-about-to-have-its-ozempic-moment Comments URL: https://news.ycombinator.com/item?id=49442743 Points: 10 # Comments: 3",
+      "title": "More than half of adults in U.S. say they lack basic statistical understanding",
+      "link": "https://www.psu.edu/news/research/story/more-half-adults-us-say-they-lack-basic-statistical-understanding",
+      "pubDate": "2026-08-26T05:49:20.000Z",
+      "description": "Article URL: https://www.psu.edu/news/research/story/more-half-adults-us-say-they-lack-basic-statistical-understanding Comments URL: https://news.ycombinator.com/item?id=49444514 Points: 33 # Comments: 36",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Secret Cold War IBM Supercomputer Was Built for One Job",
+      "link": "https://spectrum.ieee.org/cold-war-codebreaker-nsa-ibm",
+      "pubDate": "2026-08-26T05:09:07.000Z",
+      "description": "Article URL: https://spectrum.ieee.org/cold-war-codebreaker-nsa-ibm Comments URL: https://news.ycombinator.com/item?id=49444232 Points: 6 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Agentic Context Management: Memory and Cost as Architecture Problems",
+      "link": "https://arxiv.org/abs/2607.21503",
+      "pubDate": "2026-08-26T02:35:25.000Z",
+      "description": "Article URL: https://arxiv.org/abs/2607.21503 Comments URL: https://news.ycombinator.com/item?id=49443523 Points: 24 # Comments: 12",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -96,7 +112,7 @@
       "title": "Queryable Executables",
       "link": "https://fzakaria.com/2026/08/24/actually-queryable-executables",
       "pubDate": "2026-08-26T00:20:49.000Z",
-      "description": "Article URL: https://fzakaria.com/2026/08/24/actually-queryable-executables Comments URL: https://news.ycombinator.com/item?id=49442589 Points: 8 # Comments: 2",
+      "description": "Article URL: https://fzakaria.com/2026/08/24/actually-queryable-executables Comments URL: https://news.ycombinator.com/item?id=49442589 Points: 113 # Comments: 18",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -104,7 +120,7 @@
       "title": "Maiao: Gerrit-style code review workflow for GitHub, GitLab, Gitea, others",
       "link": "https://github.com/runetes/maiao",
       "pubDate": "2026-08-25T22:40:07.000Z",
-      "description": "Article URL: https://github.com/runetes/maiao Comments URL: https://news.ycombinator.com/item?id=49441666 Points: 26 # Comments: 8",
+      "description": "Article URL: https://github.com/runetes/maiao Comments URL: https://news.ycombinator.com/item?id=49441666 Points: 63 # Comments: 33",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -117,18 +133,10 @@
       "category": "Tech News"
     },
     {
-      "title": "Python's pre-declared constants are kinda weird",
-      "link": "https://sebsite.pw/w/20260801-pythonconstants.html",
-      "pubDate": "2026-08-25T21:39:02.000Z",
-      "description": "Article URL: https://sebsite.pw/w/20260801-pythonconstants.html Comments URL: https://news.ycombinator.com/item?id=49441033 Points: 148 # Comments: 117",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "When str.lower() is a security vulnerability in Python – Seth Larson",
+      "title": "When str.lower() is a security vulnerability in Python",
       "link": "https://sethmlarson.dev/when-str-lower-is-a-security-vulnerability",
       "pubDate": "2026-08-25T20:49:03.000Z",
-      "description": "Article URL: https://sethmlarson.dev/when-str-lower-is-a-security-vulnerability Comments URL: https://news.ycombinator.com/item?id=49440410 Points: 63 # Comments: 29",
+      "description": "Article URL: https://sethmlarson.dev/when-str-lower-is-a-security-vulnerability Comments URL: https://news.ycombinator.com/item?id=49440410 Points: 98 # Comments: 43",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -136,7 +144,7 @@
       "title": "C2PA Cameras Do Not Survive Contact with Reality",
       "link": "https://www.da.vidbuchanan.co.uk/blog/android-c2pa.html",
       "pubDate": "2026-08-25T19:38:24.000Z",
-      "description": "Article URL: https://www.da.vidbuchanan.co.uk/blog/android-c2pa.html Comments URL: https://news.ycombinator.com/item?id=49439499 Points: 80 # Comments: 36",
+      "description": "Article URL: https://www.da.vidbuchanan.co.uk/blog/android-c2pa.html Comments URL: https://news.ycombinator.com/item?id=49439499 Points: 127 # Comments: 75",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -144,7 +152,7 @@
       "title": "A brief history of federal lift ticket regulation",
       "link": "https://zakpodmore.substack.com/p/a-brief-history-of-federal-lift-ticket",
       "pubDate": "2026-08-25T19:25:43.000Z",
-      "description": "Article URL: https://zakpodmore.substack.com/p/a-brief-history-of-federal-lift-ticket Comments URL: https://news.ycombinator.com/item?id=49439296 Points: 33 # Comments: 0",
+      "description": "Article URL: https://zakpodmore.substack.com/p/a-brief-history-of-federal-lift-ticket Comments URL: https://news.ycombinator.com/item?id=49439296 Points: 58 # Comments: 10",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -152,15 +160,7 @@
       "title": "FDA authorizes first wearable device that monitors ketone and blood sugar levels",
       "link": "https://www.fda.gov/news-events/press-announcements/fda-authorizes-first-wearable-device-continuously-monitors-both-ketone-levels-and-blood-sugar",
       "pubDate": "2026-08-25T19:07:01.000Z",
-      "description": "Article URL: https://www.fda.gov/news-events/press-announcements/fda-authorizes-first-wearable-device-continuously-monitors-both-ketone-levels-and-blood-sugar Comments URL: https://news.ycombinator.com/item?id=49439017 Points: 265 # Comments: 145",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Dolly Parton has died",
-      "link": "https://www.theguardian.com/music/2026/aug/25/dolly-parton-country-singer-dead",
-      "pubDate": "2026-08-25T18:02:22.000Z",
-      "description": "https://www.cnn.com/2026/08/25/entertainment/dolly-parton-de...https://www.nytimes.com/2026/08/25/arts/music/dolly-parton-d..., https://archive.ph/w4vsEhttps://www.hollywoodreporter.com/music/music-news/dolly-par... Comments URL: https://news.ycombinator.com/item?id=49438052 Points: 1220 # Comments:",
+      "description": "Article URL: https://www.fda.gov/news-events/press-announcements/fda-authorizes-first-wearable-device-continuously-monitors-both-ketone-levels-and-blood-sugar Comments URL: https://news.ycombinator.com/item?id=49439017 Points: 353 # Comments: 174",
       "source": "Hacker News",
       "category": "Tech News"
     },
