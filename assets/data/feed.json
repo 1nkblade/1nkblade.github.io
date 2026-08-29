@@ -1,94 +1,142 @@
 {
-  "generatedAt": "2026-08-29T07:05:37.569Z",
+  "generatedAt": "2026-08-29T16:43:31.767Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "Calling redirect() Inside a Suspense Boundary Doesn't Undo What Already Streamed to the Browser",
-      "link": "https://dev.to/anas_sheikh_2/calling-redirect-inside-a-suspense-boundary-doesnt-undo-what-already-streamed-to-the-browser-4159",
-      "pubDate": "2026-08-29T07:02:59.000Z",
-      "description": "<p>Streaming is one of the genuinely great things about the App Router, the browser can start receiving and rendering parts of a page before every single piece of data has finished loading. It also introduces a real ordering question that's easy to get wrong when auth checks and Suspense boundaries ",
+      "title": "How I Found an SSR Cache Isolation Failure in a React Data Fetching Library",
+      "link": "https://dev.to/thecrazyrabbit/how-i-found-an-ssr-cache-isolation-failure-in-a-react-data-fetching-library-36l0",
+      "pubDate": "2026-08-29T16:36:52.000Z",
+      "description": "<p>There's a certain kind of bug that only shows up when you stop thinking about what code <em>does</em> and start thinking about <em>when</em> it does it.</p> <p>Most security researchers spend their time asking \"can an attacker make this code do something bad?\" That's a fine question. But it misse",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Send Pingvera Events to a Help Desk with Webhooks",
-      "link": "https://dev.to/artem_meleshkin_0c4e0a675/send-pingvera-events-to-a-help-desk-with-webhooks-6fa",
-      "pubDate": "2026-08-29T07:00:14.000Z",
-      "description": "<h1> Send Pingvera Events to a Help Desk with Webhooks </h1> <p>A reliable monitoring-to-help-desk integration creates one incident ticket for one confirmed failure, updates that ticket as evidence or severity changes, and resolves it only after confirmed recovery. It should not create a new ticket ",
+      "title": "How to Build an **ai upsell during customer support** System",
+      "link": "https://dev.to/samchenreviews/how-to-build-an-ai-upsell-during-customer-support-system-2lcc",
+      "pubDate": "2026-08-29T16:35:46.000Z",
+      "description": "<p>You can turn every live chat or ticket into a revenue opportunity by wiring a generative-AI model into your support platform, letting it suggest the next best product in real time. The result is a fully automated \"AI upsell during customer support\" flow that surfaces a personalized offer, sends t",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Subqueries vs CTEs: Query Optimizer Internals &amp; Memory Spooling Explained",
-      "link": "https://dev.to/arpitmbangre/subqueries-vs-ctes-query-optimizer-internals-memory-spooling-explained-4mlm",
-      "pubDate": "2026-08-29T06:38:48.000Z",
-      "description": "<p>Many engineers believe Common Table Expressions (CTEs) are always faster than subqueries. </p> <p>In modern SQL Server (and PostgreSQL), <strong>that is a myth</strong>. Here is what actually happens under the hood:</p> <h3> 1. Inlining &amp; The Query Optimizer </h3> <p>By default, the SQL optim",
+      "title": "Four pull requests, four full suites, one answer",
+      "link": "https://dev.to/andrei_petukhov_1dda22c82/four-pull-requests-four-full-suites-one-answer-2j5b",
+      "pubDate": "2026-08-29T16:31:20.000Z",
+      "description": "<p>While the project was small, none of this mattered. It grew, and the suite grew with it. A great many tests need a great deal of machine time, and that becomes a choice where both answers cost: run the whole suite on every pull request, or land changes by hand-rebasing each one behind the last. W",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Building a Client-Side Byte to String Decoder with Unicode Support",
-      "link": "https://dev.to/hoangvibecode/building-a-client-side-byte-to-string-decoder-with-unicode-support-35n",
-      "pubDate": "2026-08-29T06:26:59.000Z",
-      "description": "<p>Hey DEV community! 👋</p> <p>When debugging network streams, parsing custom file formats, or inspecting database buffers, we often extract data as raw arrays of numbers rather than human-readable text. This data typically presents itself as raw byte sequences formatted in either decimal or hexade",
+      "title": "I Asked for a Portfolio but Got a Filing Cabinet",
+      "link": "https://dev.to/anchildress1/i-asked-for-a-portfolio-but-got-a-filing-cabinet-4ef8",
+      "pubDate": "2026-08-29T16:28:50.000Z",
+      "description": "<blockquote> <p>🦄 I really am trying to get back to writing more and decided to write up a quick, fun post about my arguments with all of my AI friends. It took me nearly a week to redesign my portfolio site and most of that time was spent frustrated that nothing was working.</p> <p>So here's the q",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "okf-guard: A Security Layer for Open Knowledge Format (OKF) Pipelines",
-      "link": "https://dev.to/darshan_buddhdev/catching-prompt-injection-before-it-enters-a-trusted-knowledge-base-5hf4",
-      "pubDate": "2026-08-29T06:25:31.000Z",
-      "description": "<p>Catching Prompt Injection Before It Enters a Trusted Knowledge Base</p> <p>AI agents increasingly consume knowledge from sources they did not author and cannot independently verify: a PDF policy document, a scraped web page, a spreadsheet exported from another team's system. The prevailing approa",
+      "title": "\"Built on real paid demand data\" — until I checked, and found out how wrong that can still be",
+      "link": "https://dev.to/snowwolf_snowwolf_4e681d1/built-on-real-paid-demand-data-until-i-checked-and-found-out-how-wrong-that-can-still-be-6dk",
+      "pubDate": "2026-08-29T16:24:48.000Z",
+      "description": "<p>If you're an indie dev, you've probably heard some version of this advice: \"don't guess what to build — look at real demand data.\" I build a product called Idea Miner that's built entirely on that premise: it mines real, budget-backed paid tasks from global outsourcing platforms and surfaces the ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "LeetCode ~ first 30 Hard problems, with solutions",
-      "link": "https://dev.to/aniruddha_adak/leetcode-first-30-hard-problems-with-solutions-2ioe",
-      "pubDate": "2026-08-29T06:24:19.000Z",
-      "description": "<p>Pulled live from <code>leetcode.com/problemset/?difficulty=Hard</code> on <strong>29 Aug 2026</strong> (895 hard problems in the Algorithms list). \"First 30\" = the 30 lowest problem numbers. Everything below is <strong>Python 3</strong>.</p> <h2> How to use this </h2> <ol> <li>Open the problem on",
+      "title": "I A/B tested my own system prompt: 24 generations, one clear win, one rule that did nothing | Flash Onyx 2.2",
+      "link": "https://dev.to/natuworkguy/i-ab-tested-my-own-system-prompt-24-generations-one-clear-win-one-rule-that-did-nothing-flash-2ejg",
+      "pubDate": "2026-08-29T16:20:00.000Z",
+      "description": "<p>Flash Onyx is the model line behind <a href=\"https://github.com/Natuworkguy/Flash\" rel=\"noopener noreferrer\">FLASH</a>, the local-first agent shell I work on. It is <code>gemma4</code> plus a system prompt that turns it into an engineering agent. It runs locally, and nothing leaves the machine.</",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Treat Voice-Companion Memory as a Consent Ledger, Not Prompt History",
-      "link": "https://dev.to/susiewang/treat-voice-companion-memory-as-a-consent-ledger-not-prompt-history-32pi",
-      "pubDate": "2026-08-29T06:22:41.000Z",
-      "description": "<p>A personalized voice companion creates an uncomfortable trade-off: users do not want to repeat themselves, but they also do not want a misheard sentence to become a permanent “fact.”</p> <p>That tension is often hidden by calling conversation history <em>memory</em>. The implementation then retri",
+      "title": "5 Claude Code Skills That Saved Me 10 Hours a Week (With Real Code &amp; Architecture)",
+      "link": "https://dev.to/yevhen_shaforostov_5a73a4/5-claude-code-skills-that-saved-me-10-hours-a-week-with-real-code-architecture-c4f",
+      "pubDate": "2026-08-29T16:19:43.000Z",
+      "description": "<p>When building software with Claude Code and autonomous agent harnesses, relying solely on generic conversational prompts quickly creates bottlenecks. As codebases scale, agents without structured instructions tend to make breaking changes, skip edge-case testing, or hallucinate non-existent API p",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "This week at Romi #1",
-      "link": "https://dev.to/romiadhd/this-week-at-romi-1-48lc",
-      "pubDate": "2026-08-29T06:21:04.000Z",
-      "description": "<p>We finally added OTA updates to Romi.</p> <p>This is something apps have been doing for years, but it’s new territory for us.</p> <p>Instead of waiting for Apple’s review every time we need to push a small fix, we can now ship certain updates directly to users.</p> <p>And because apparently payin",
+      "title": "Crypts and Commits: This Documentation Isn't for You",
+      "link": "https://dev.to/thebraindonor/crypts-and-commits-this-documentation-isnt-for-you-1063",
+      "pubDate": "2026-08-29T16:17:56.000Z",
+      "description": "<p><em>The Audience I Didn't Know I Had — Part Two</em></p> <p>When I leave a software project, I want the next person to be able to take it over without needing me in the room.</p> <p>Sometimes that next person is another engineer. Sometimes it is someone joining the team, a client receiving a hand",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I Built Unmuse — An AI Tool That Turns Rough Ideas Into Content",
-      "link": "https://dev.to/irfan12345/i-built-unmuse-an-ai-tool-that-turns-rough-ideas-into-content-4la",
-      "pubDate": "2026-08-29T06:16:28.000Z",
-      "description": "<p>I’ve been building Unmuse because I kept noticing a simple problem:</p> <p>Having an idea is easy.</p> <p>Turning that idea into something actually worth posting is the hard part.</p> <p>You can have a thought like:</p> <p>“People keep waiting for the perfect time to start.”</p> <p>But turning th",
+      "title": "Managing External Secrets in Docker Swarm",
+      "link": "https://dev.to/artarts36/managing-external-secrets-in-docker-swarm-1jnl",
+      "pubDate": "2026-08-29T16:14:01.000Z",
+      "description": "<p>I've been working with Docker Swarm secrets and kept running into the same limitation: secrets are immutable.</p> <p>Once a secret is created, you can't update its value. When a password, API key, or another secret changes in an external secret store, you need a way to propagate that change to Do",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The Rapid Evolution of AI",
-      "link": "https://dev.to/nikhilpande08/the-rapid-evolution-of-ai-2206",
-      "pubDate": "2026-08-29T06:08:25.000Z",
-      "description": "<p>From Basic AI to Autonomous Agents: How AI Changed the Developer World</p> <p>The world of Artificial Intelligence has changed at an incredible pace. Not long ago, using AI meant asking a chatbot a question, generating a paragraph, summarizing a document, or getting help with code. AI was primari",
+      "title": "I tried to cut our 12-container stack down to 4. Two of my three conclusions were wrong.",
+      "link": "https://dev.to/judezh/i-tried-to-cut-our-12-container-stack-down-to-4-two-of-my-three-conclusions-were-wrong-49i1",
+      "pubDate": "2026-08-29T16:10:58.000Z",
+      "description": "<p>Self-hosted projects lose most of their prospective users at the first command in the README. Here is ours:<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight shell\"><code>docker compose <span class=\"nt\">--env-file</span> .env <span class=\"nt\">-f</span> docker/docker-compose",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "Nancy Grace Roman Space Telescope",
+      "link": "https://science.nasa.gov/mission/roman-space-telescope/",
+      "pubDate": "2026-08-29T15:48:02.000Z",
+      "description": "Article URL: https://science.nasa.gov/mission/roman-space-telescope/ Comments URL: https://news.ycombinator.com/item?id=49490870 Points: 6 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Parsing the Infamous Japanese Postal CSV",
+      "link": "https://www.dampfkraft.com/posuto.html",
+      "pubDate": "2026-08-29T15:42:43.000Z",
+      "description": "Article URL: https://www.dampfkraft.com/posuto.html Comments URL: https://news.ycombinator.com/item?id=49490826 Points: 12 # Comments: 1",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "GrapheneOS project: pixel 11 no longer supports hardware memory tagging (MTE)",
+      "link": "https://bsky.app/profile/grapheneos.org/post/3mua32q4ds22e",
+      "pubDate": "2026-08-29T15:26:28.000Z",
+      "description": "Article URL: https://bsky.app/profile/grapheneos.org/post/3mua32q4ds22e Comments URL: https://news.ycombinator.com/item?id=49490702 Points: 22 # Comments: 5",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Indirect Calling of Nested Functions on GCC Without Executable Stack",
+      "link": "https://uecker.codeberg.page/2026-08-29.html",
+      "pubDate": "2026-08-29T14:20:33.000Z",
+      "description": "Article URL: https://uecker.codeberg.page/2026-08-29.html Comments URL: https://news.ycombinator.com/item?id=49490138 Points: 33 # Comments: 8",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Debian votes to allow \"responsible use of generative AI\"",
+      "link": "https://lwn.net/Articles/1091231/",
+      "pubDate": "2026-08-29T14:02:10.000Z",
+      "description": "Article URL: https://lwn.net/Articles/1091231/ Comments URL: https://news.ycombinator.com/item?id=49489982 Points: 280 # Comments: 219",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Iceland votes on whether to restart talks on joining EU",
+      "link": "https://www.bbc.com/news/articles/cn45vdxyvvlo",
+      "pubDate": "2026-08-29T11:39:38.000Z",
+      "description": "Article URL: https://www.bbc.com/news/articles/cn45vdxyvvlo Comments URL: https://news.ycombinator.com/item?id=49489057 Points: 269 # Comments: 325",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "Samsung's Processing-in-Memory (PIM)",
       "link": "https://chipsandcheese.com/p/hot-chips-2026-samsungs-processing",
       "pubDate": "2026-08-29T06:06:51.000Z",
-      "description": "Article URL: https://chipsandcheese.com/p/hot-chips-2026-samsungs-processing Comments URL: https://news.ycombinator.com/item?id=49487341 Points: 4 # Comments: 0",
+      "description": "Article URL: https://chipsandcheese.com/p/hot-chips-2026-samsungs-processing Comments URL: https://news.ycombinator.com/item?id=49487341 Points: 196 # Comments: 65",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -96,15 +144,7 @@
       "title": "TurboKV: Insanely fast Rust key-value store",
       "link": "https://github.com/kingroryg/turbokv",
       "pubDate": "2026-08-29T02:23:37.000Z",
-      "description": "Article URL: https://github.com/kingroryg/turbokv Comments URL: https://news.ycombinator.com/item?id=49486334 Points: 68 # Comments: 24",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Kumander Linux – A Linux Distro with a Windows 7 Desktop",
-      "link": "https://www.kumander.org/",
-      "pubDate": "2026-08-29T01:48:15.000Z",
-      "description": "Article URL: https://www.kumander.org/ Comments URL: https://news.ycombinator.com/item?id=49486176 Points: 34 # Comments: 13",
+      "description": "Article URL: https://github.com/kingroryg/turbokv Comments URL: https://news.ycombinator.com/item?id=49486334 Points: 154 # Comments: 73",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -112,7 +152,7 @@
       "title": "Our decision on Cursor following its acquisition by SpaceX",
       "link": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/",
       "pubDate": "2026-08-29T01:47:53.000Z",
-      "description": "Article URL: https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/ Comments URL: https://news.ycombinator.com/item?id=49486172 Points: 407 # Comments: 172",
+      "description": "Article URL: https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/ Comments URL: https://news.ycombinator.com/item?id=49486172 Points: 701 # Comments: 425",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -120,47 +160,7 @@
       "title": "StemDeck, a free, open-source and local AI stem separator",
       "link": "https://github.com/stemdeckapp/stemdeck",
       "pubDate": "2026-08-29T01:24:13.000Z",
-      "description": "Article URL: https://github.com/stemdeckapp/stemdeck Comments URL: https://news.ycombinator.com/item?id=49486081 Points: 69 # Comments: 13",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Does the Sumerian King List Align with Paleoclimate Events?",
-      "link": "https://www.vectorian.be/articles/2026-06-07/sumerian-king-list-paleoclimate-alignment-explorer/",
-      "pubDate": "2026-08-28T23:46:10.000Z",
-      "description": "Article URL: https://www.vectorian.be/articles/2026-06-07/sumerian-king-list-paleoclimate-alignment-explorer/ Comments URL: https://news.ycombinator.com/item?id=49485532 Points: 86 # Comments: 30",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "9th Circuit sides with states in Kalshi gambling fight",
-      "link": "https://azmirror.com/2026/08/28/9th-circuit-sides-with-states-in-kalshi-gambling-fight-potentially-reviving-arizonas-prosecution/",
-      "pubDate": "2026-08-28T23:32:22.000Z",
-      "description": "Article URL: https://azmirror.com/2026/08/28/9th-circuit-sides-with-states-in-kalshi-gambling-fight-potentially-reviving-arizonas-prosecution/ Comments URL: https://news.ycombinator.com/item?id=49485452 Points: 116 # Comments: 91",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "I accidentally turned LLM memory into program analysis",
-      "link": "https://pwning.systems/posts/llm-memory-program-analysis/",
-      "pubDate": "2026-08-28T23:27:45.000Z",
-      "description": "Article URL: https://pwning.systems/posts/llm-memory-program-analysis/ Comments URL: https://news.ycombinator.com/item?id=49485416 Points: 104 # Comments: 19",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Boot a Virtual iPhone via Apple's Virtualization.framework",
-      "link": "https://github.com/Lakr233/vphone-cli",
-      "pubDate": "2026-08-28T23:02:21.000Z",
-      "description": "Article URL: https://github.com/Lakr233/vphone-cli Comments URL: https://news.ycombinator.com/item?id=49485267 Points: 221 # Comments: 67",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Identifying fake cosmetics using AI",
-      "link": "https://groverlab.org/hnbfpr/2026-08-26-ai-counterfeit-cosmetics.html",
-      "pubDate": "2026-08-28T22:18:27.000Z",
-      "description": "Article URL: https://groverlab.org/hnbfpr/2026-08-26-ai-counterfeit-cosmetics.html Comments URL: https://news.ycombinator.com/item?id=49484925 Points: 48 # Comments: 19",
+      "description": "Article URL: https://github.com/stemdeckapp/stemdeck Comments URL: https://news.ycombinator.com/item?id=49486081 Points: 171 # Comments: 45",
       "source": "Hacker News",
       "category": "Tech News"
     },
