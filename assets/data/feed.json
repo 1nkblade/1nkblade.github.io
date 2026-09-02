@@ -1,166 +1,166 @@
 {
-  "generatedAt": "2026-09-01T21:02:49.832Z",
+  "generatedAt": "2026-09-02T04:35:12.612Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "CVE-2026-32193 Is a Copilot Hijack Disguised as a Boring Path Traversal",
-      "link": "https://dev.to/secbyjasonmiller/cve-2026-32193-is-a-copilot-hijack-disguised-as-a-boring-path-traversal-6nf",
-      "pubDate": "2026-09-01T20:50:14.000Z",
-      "description": "<p>The official record is one sentence: an \"authorized attacker,\" a local path traversal in Azure Kubernetes Service, 8.8 CVSS. The researchers who found the bug headlined it differently: \"From AKS node root vulnerability to Microsoft Copilot hijack.\" Same vulnerability. The distance between those t",
+      "title": "5 Ways my new AI WordPress Workflow Actually Speeds up Development (and what it doesn't)",
+      "link": "https://dev.to/matthummeldev/5-ways-my-new-ai-wordpress-workflow-actually-speeds-up-development-and-what-it-doesn8217t-md6",
+      "pubDate": "2026-09-02T04:25:12.000Z",
+      "description": "<p>My new AI WordPress workflow helps me finish the parts of a WordPress build I already know how to check. It does not replace the check.</p> <p>I use Cursor in the Sage repo, ChatGPT and Claude for a second pass, n8n for form handoff, GitHub Actions for the zip, and Vite for the compile. Scaffoldi",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I Built an API That AI Agents Pay in USDC — Full x402 Walkthrough (27 Endpoints, Real Transactions)",
-      "link": "https://dev.to/entreprisedaney33rgb/i-built-an-api-that-ai-agents-pay-in-usdc-full-x402-walkthrough-27-endpoints-real-transactions-44jn",
-      "pubDate": "2026-09-01T20:48:09.000Z",
-      "description": "<p>I built an Express API that AI agents (or humans, or anything with <code>fetch</code>) can pay per call, in USDC, with no signup and no API key. It's live on Base mainnet with 27 paid endpoints, and I've run real settled transactions against it. This is the technical walkthrough — the code, the p",
+      "title": "The call transfer that reported success and rang nobody",
+      "link": "https://dev.to/dialogbrain/the-call-transfer-that-reported-success-and-rang-nobody-1c01",
+      "pubDate": "2026-09-02T04:21:46.000Z",
+      "description": "<p>Our voice agents can hand a live phone call to a human. Getting there took two rewrites, and the first one shipped without ever delivering a single call — while our own logs said it worked. This is what the feature does now, and what the failure taught us.</p> <h2> What the caller hears </h2> <p>",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "WP Engine AI Bot Blocks Put Fetchability at the Center of GEO Audits",
-      "link": "https://dev.to/alifar/wp-engine-ai-bot-blocks-put-fetchability-at-the-center-of-geo-audits-2ka7",
-      "pubDate": "2026-09-01T20:45:30.000Z",
-      "description": "<p>A website can be indexed, receive search traffic, and show no obvious issue in standard SEO tools while some AI crawlers cannot retrieve its pages. That gap is the central finding in a documented case involving WP Engine, where platform-level controls reportedly block or rate-limit certain AI bot",
+      "title": "Claude Mythos 5.1 vs Fable 5.1: Mismo Modelo, Diferentes Salvaguardias",
+      "link": "https://dev.to/roobia/claude-mythos-51-vs-fable-51-mismo-modelo-diferentes-salvaguardias-1oc1",
+      "pubDate": "2026-09-02T04:20:02.000Z",
+      "description": "<h1> Claude Fable 5.1 vs. Mythos 5.1: modelo idéntico, salvaguardias diferentes </h1> <p>Anthropic lanzó Claude Fable 5.1 y Claude Mythos 5.1 el 1 de septiembre de 2026, y los describió como “el mismo modelo pero con diferentes niveles de salvaguardias”. Comparten pesos, especificaciones, precios de",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I tested Claude Code's memory against mine. They are not doing the same job.",
-      "link": "https://dev.to/heinrichneb/i-tested-claude-codes-memory-against-mine-they-are-not-doing-the-same-job-35jb",
-      "pubDate": "2026-09-01T20:40:47.000Z",
-      "description": "<p><em>Proof over claim</em></p> <p>Last time I described <a href=\"https://dev.to/heinrichneb/the-best-argument-against-my-mcp-server-came-from-anthropic-p1m\">the hour a platform shipped the feature I had spent months building</a>. This is the part where I ran the test instead of the emotions, and f",
+      "title": "How do you keep your AI agent skills from rotting silently?",
+      "link": "https://dev.to/klymentiev/how-do-you-keep-your-ai-agent-skills-from-rotting-silently-2c5g",
+      "pubDate": "2026-09-02T04:15:12.000Z",
+      "description": "<p>Storing AI agent skills as files in a folder does not scale. Claude Code skills, your <code>claude.md</code> instructions, and every other slice of your agent's memory eventually rots, conflicts, or eats the context window. A better pattern is to store each skill as a document in a semantic memor",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Inside the Puffin File Format",
-      "link": "https://dev.to/alexmercedcoder/inside-the-puffin-file-format-p21",
-      "pubDate": "2026-09-01T20:20:13.000Z",
-      "description": "<p>A query joins a 2-billion-row fact table to a 40,000-row dimension table. The optimizer has to decide which side to broadcast and which side to hash. It reads the manifests and finds row counts, min and max values, and null counts for every column in every file. What it does not find is how many ",
+      "title": "Exploitation of JFrog Artifactory CVE-2026-82329: Unauthenticated Administrator Token Generation",
+      "link": "https://dev.to/anoymask/exploitation-of-jfrog-artifactory-cve-2026-82329-unauthenticated-administrator-token-generation-je1",
+      "pubDate": "2026-09-02T04:12:23.000Z",
+      "description": "<h2> 1. Overview </h2> <ul> <li> <strong>Article Title</strong>: Critical JFrog Artifactory Vulnerability Reportedly Exploited in the Wild</li> <li> <strong>Source</strong>: SecurityWeek</li> <li> <strong>Publication Date</strong>: 2026-09-01</li> <li> <strong>Original Article</strong>: <a href=\"htt",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Apple reveals 'shocking evidence' from ex-employee's MacBook in OpenAI suit",
-      "link": "https://9to5mac.com/2026/08/31/apple-openai-forensic-macbook-evidence/",
-      "pubDate": "2026-09-01T20:19:11.000Z",
-      "description": "Article URL: https://9to5mac.com/2026/08/31/apple-openai-forensic-macbook-evidence/ Comments URL: https://news.ycombinator.com/item?id=49527573 Points: 30 # Comments: 9",
+      "title": "AI Experiment: Porting a PLC Exploit Takes Hours and Hundreds of Dollars",
+      "link": "https://dev.to/anoymask/ai-experiment-porting-a-plc-exploit-takes-hours-and-hundreds-of-dollars-56od",
+      "pubDate": "2026-09-02T04:11:55.000Z",
+      "description": "<h2> 1. Basic Information </h2> <ul> <li> <strong>Article Title</strong>: Experiment: Porting a PLC Exploit With AI Takes Hours and Hundreds of Dollars</li> <li> <strong>Publisher</strong>: SecurityWeek</li> <li> <strong>Publication Date</strong>: September 1, 2026</li> <li> <strong>Source URL</stro",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "METR AI Infrastructure Compromise: Fail-Open Authentication Leads to API Key Theft, SSH Persistence, and $600K in Unauthorized Usage",
+      "link": "https://dev.to/anoymask/metr-ai-infrastructure-compromise-fail-open-authentication-leads-to-api-key-theft-ssh-c82",
+      "pubDate": "2026-09-02T04:11:07.000Z",
+      "description": "<h2> 1. Basic Information </h2> <ul> <li> <strong>Article Title</strong>: AI Model Evaluator METR Hit by Credential Theft, Probing</li> <li> <strong>Publisher</strong>: Dark Reading</li> <li> <strong>Publication Date</strong>: 2026-09-01</li> <li> <strong>Original Source</strong>: <a href=\"https://w",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Exploitation of Langflow CVE-2026-0768: From Unauthenticated Root RCE to Secret Theft and Lateral Movement",
+      "link": "https://dev.to/anoymask/exploitation-of-langflow-cve-2026-0768-from-unauthenticated-root-rce-to-secret-theft-and-lateral-1poi",
+      "pubDate": "2026-09-02T04:10:21.000Z",
+      "description": "<h2> 1. Basic Information </h2> <ul> <li> <strong>Article Title</strong>: Critical Langflow Flaw Exploited as Attacks on AI Platform Rise</li> <li> <strong>Publisher</strong>: Dark Reading</li> <li> <strong>Publication Date</strong>: September 1, 2026</li> <li> <strong>Source</strong>: <a href=\"http",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Your Agent Has Tools Now: Why MCP Tool Calls Need Runtime Verification",
+      "link": "https://dev.to/correctover/your-agent-has-tools-now-why-mcp-tool-calls-need-runtime-verification-53i6",
+      "pubDate": "2026-09-02T04:01:34.000Z",
+      "description": "<p>For most of the short history of LLM applications, model risk was <em>text</em> risk. A model could output bad advice, leak something from its prompt, or produce a convincing phishing draft — but it couldn't touch your machine. The worst case ended at the screen.</p> <p>Wire a few tools into that",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "O prompt de AppSec que eu criei achou 4 gaps de segurança",
+      "link": "https://dev.to/tiagovilasboas/prompt-appsec-4-gaps-autorizacao-1k77",
+      "pubDate": "2026-09-02T03:58:17.000Z",
+      "description": "<p>Pessoal, eu quase mandei uma lista de 23 \"vulnerabilidades\" para projetos de software livre.</p> <p>Esses dias rodei um prompt de AppSec próprio em alguns repositórios conhecidos.</p> <p>XSS, CORS, CSP, um SVG suspeito. O LLM tinha encontrado um monte de coisa. Na hora, parecia um ótimo resultad,",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "WebFPGA",
+      "link": "https://webfpga.io/",
+      "pubDate": "2026-09-02T03:54:58.000Z",
+      "description": "Article URL: https://webfpga.io/ Comments URL: https://news.ycombinator.com/item?id=49531525 Points: 6 # Comments: 2",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "OpenAI Prism Launches a GPT-5.2 Workspace for Scientific and LaTeX Writing",
-      "link": "https://dev.to/alifar/openai-prism-launches-a-gpt-52-workspace-for-scientific-and-latex-writing-1o5j",
-      "pubDate": "2026-09-01T20:15:30.000Z",
-      "description": "<p>OpenAI has launched <strong>Prism</strong>, a free AI-native workspace for scientists to write, revise, collaborate on, and prepare research for publication. Built on GPT-5.2, <a href=\"https://scalevise.com/resources/openai/\" rel=\"noopener noreferrer\">OpenAI's model for mathematical and scientifi",
-      "source": "Dev.to Feed",
-      "category": "Development"
+      "title": "True Rate of Unemployment",
+      "link": "https://www.lisep.org/tru",
+      "pubDate": "2026-09-02T02:21:10.000Z",
+      "description": "Article URL: https://www.lisep.org/tru Comments URL: https://news.ycombinator.com/item?id=49530989 Points: 36 # Comments: 3",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
-      "title": "I Built a Next.js Auth Boilerplate That Saves Developers Two to Four Weeks of Setup Time",
-      "link": "https://dev.to/allenarduino/i-built-a-nextjs-auth-boilerplate-that-saves-developers-two-to-four-weeks-of-setup-time-2m3j",
-      "pubDate": "2026-09-01T20:11:29.000Z",
-      "description": "<p>Every time I started a new project, whether it was Formgrid, Sheetrocket, or a client build, the first week or two disappeared into authentication. Email verification tokens. Password reset flows. NextAuth configuration. A Prisma schema for users and sessions. Setting up the Google OAuth consent ",
-      "source": "Dev.to Feed",
-      "category": "Development"
+      "title": "The efficient frontier of LLM inference",
+      "link": "https://www.baseten.co/blog/the-efficient-frontier-of-llm-inference/",
+      "pubDate": "2026-09-01T23:48:05.000Z",
+      "description": "Article URL: https://www.baseten.co/blog/the-efficient-frontier-of-llm-inference/ Comments URL: https://news.ycombinator.com/item?id=49529898 Points: 64 # Comments: 10",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
-      "title": "Measuring the Tea Break",
-      "link": "https://dev.to/aws-builders/measuring-the-tea-break-55hf",
-      "pubDate": "2026-09-01T20:09:42.000Z",
-      "description": "<p>I am not a fan of pull requests (PRs). I've <a href=\"https://sethorell.substack.com/p/code-review-musings\" rel=\"noopener noreferrer\">written about them</a>, lost bloody battles over them (Hi, Amazon), and helped many software teams move past them.</p> <p>I advocate for continuous integration (CI)",
-      "source": "Dev.to Feed",
-      "category": "Development"
+      "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
+      "link": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
+      "pubDate": "2026-09-01T23:17:43.000Z",
+      "description": "Article URL: https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/ Comments URL: https://news.ycombinator.com/item?id=49529621 Points: 79 # Comments: 19",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "My local model setup on an M4 Pro Mac Mini",
+      "link": "https://lws.io/blog/my-local-model-setup/",
+      "pubDate": "2026-09-01T22:30:52.000Z",
+      "description": "Article URL: https://lws.io/blog/my-local-model-setup/ Comments URL: https://news.ycombinator.com/item?id=49529132 Points: 105 # Comments: 51",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Show HN: Weedout – Safari extension that hides YouTube AI-labeled videos",
+      "link": "https://masteranza.github.io/weedout/",
+      "pubDate": "2026-09-01T22:06:57.000Z",
+      "description": "I'm the developer. I built this because AI-generated conspiracy videos were getting out of control in my own YouTube feed. Weedout is a $1.99 Safari extension for macOS that removes videos YouTube labels “Made with AI” from feed, search, related videos, playlists and Shorts. It uses YouTube's label ",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Show HN: HN Match Maker – Matching \"Who Wants to Be Hired?\" With \"Who's Hiring?\"",
+      "link": "https://hnmatchmaker.com/",
+      "pubDate": "2026-09-01T20:53:35.000Z",
+      "description": "Hi!Every month the \"Who Wants to Be Hired?\" and \"Who's Hiring?\" Threads come through I would think to myself, \"there should be a match maker for these two threads\".So I had abacus.ai whip one up. The methodology is pretty simple, data is extracted from posts using an LLM, score matches based on sala",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Path to Astra: critical capabilities and frontier safeguards",
+      "link": "https://openai.com/index/path-to-astra/",
+      "pubDate": "2026-09-01T20:20:41.000Z",
+      "description": "Article URL: https://openai.com/index/path-to-astra/ Comments URL: https://news.ycombinator.com/item?id=49527595 Points: 106 # Comments: 49",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "The ChatGPT/Codex app bundles a full copy of LibreOffice",
       "link": "https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
       "pubDate": "2026-09-01T20:07:57.000Z",
-      "description": "Article URL: https://simonwillison.net/2026/Sep/1/codex-libreoffice/ Comments URL: https://news.ycombinator.com/item?id=49527396 Points: 69 # Comments: 37",
+      "description": "Article URL: https://simonwillison.net/2026/Sep/1/codex-libreoffice/ Comments URL: https://news.ycombinator.com/item?id=49527396 Points: 295 # Comments: 133",
       "source": "Hacker News",
       "category": "Tech News"
-    },
-    {
-      "title": "Why Enterprise AI Fails: The Hidden Trap of Pure Probabilistic LLMs and the Rise of Neuro-Symbolic Architecture",
-      "link": "https://dev.to/programmingcentral/why-enterprise-ai-fails-the-hidden-trap-of-pure-probabilistic-llms-and-the-rise-of-neuro-symbolic-40p3",
-      "pubDate": "2026-09-01T20:00:00.000Z",
-      "description": "<p>The modern enterprise software landscape sits at a precarious crossroads. For the past few years, the narrative around artificial intelligence has been dominated by neural scaling laws. We have watched Large Language Models (LLMs) scale from niche research projects into trillion-parameter juggern",
-      "source": "Dev.to Feed",
-      "category": "Development"
     },
     {
       "title": "Refurbishing a Tektronix TDS7104 Oscilloscope",
       "link": "https://tomverbeure.github.io/2026/08/23/Tektronix-TDS7104-Refurbishing.html",
       "pubDate": "2026-09-01T19:55:47.000Z",
-      "description": "Article URL: https://tomverbeure.github.io/2026/08/23/Tektronix-TDS7104-Refurbishing.html Comments URL: https://news.ycombinator.com/item?id=49527232 Points: 22 # Comments: 6",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Codex with ChatGPT Splits Planning From Execution",
-      "link": "https://dev.to/dd8888/codex-with-chatgpt-splits-planning-from-execution-3bp2",
-      "pubDate": "2026-09-01T19:39:25.000Z",
-      "description": "<p><a href=\"https://github.com/XiaoDuoYa/codex-with-chatgpt\" rel=\"noopener noreferrer\">Codex with ChatGPT</a>, a public GitHub project, routes planning and code review to the ChatGPT web app while retaining Codex as the agent that edits files, runs shell commands and executes tests. For developers, ",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "How accurate have Ed Zitron's AI skeptic predictions been?",
-      "link": "https://danluu.com/zitron/",
-      "pubDate": "2026-09-01T18:35:15.000Z",
-      "description": "Article URL: https://danluu.com/zitron/ Comments URL: https://news.ycombinator.com/item?id=49526069 Points: 150 # Comments: 162",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Claude Fable 5.1 and Claude Mythos 5.1",
-      "link": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
-      "pubDate": "2026-09-01T17:53:53.000Z",
-      "description": "What's new in Claude Fable 5.1 – https://platform.claude.com/docs/en/models/fable-5-1/whats-n...System Card: https://www-cdn.anthropic.com/0339e6a7c5c7b87f5c07798616dc32... Comments URL: https://news.ycombinator.com/item?id=49525378 Points: 632 # Comments: 588",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "The creator of Jujutsu has joined ERSC",
-      "link": "https://ersc.io/blog/martin-joins-ersc",
-      "pubDate": "2026-09-01T17:46:21.000Z",
-      "description": "Article URL: https://ersc.io/blog/martin-joins-ersc Comments URL: https://news.ycombinator.com/item?id=49525297 Points: 122 # Comments: 104",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Atlas: A World Model for Spatial Intelligence",
-      "link": "https://www.worldlabs.ai/blog/atlas",
-      "pubDate": "2026-09-01T17:36:02.000Z",
-      "description": "Article URL: https://www.worldlabs.ai/blog/atlas Comments URL: https://news.ycombinator.com/item?id=49525160 Points: 81 # Comments: 7",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Launch HN: Nori Robotics (YC S26) – A low-cost humanoid robot for development",
-      "link": "https://www.norirobotics.com/",
-      "pubDate": "2026-09-01T17:35:10.000Z",
-      "description": "Hey HN, I’m Antonio from Nori Robotics (https://norirobotics.com). We build a $1,688 bimanual mobile robot in San Francisco for robotics developers and researchers.I started working on Nori while doing robotics research at Columbia. I was teaching robots through human demonstrations, but getting my ",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Quill (YC W20) Is Hiring a Fullstack SWE",
-      "link": "https://news.ycombinator.com/item?id=49524704",
-      "pubDate": "2026-09-01T17:00:14.000Z",
-      "description": "Comments URL: https://news.ycombinator.com/item?id=49524704 Points: 0 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Show HN: Newton's Orchard – Browser-based space/gravity playground",
-      "link": "https://newtonsorchard.app",
-      "pubDate": "2026-09-01T16:43:40.000Z",
-      "description": "Hi HN!My son spent a lot of time in 5th grade playing with the 2-dimensional PhET gravity/space sims[1]. His STEM class uses it, and he was playing with it at home, and has been looking for more. I found several space sims/playgrounds online, including NASA's Eyes on the Solar System[2], but nothing",
+      "description": "Article URL: https://tomverbeure.github.io/2026/08/23/Tektronix-TDS7104-Refurbishing.html Comments URL: https://news.ycombinator.com/item?id=49527232 Points: 100 # Comments: 48",
       "source": "Hacker News",
       "category": "Tech News"
     },
