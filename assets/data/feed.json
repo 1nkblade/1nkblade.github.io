@@ -1,168 +1,93 @@
 {
-  "generatedAt": "2026-09-02T16:35:24.485Z",
+  "generatedAt": "2026-09-02T21:04:20.716Z",
   "sourceCount": 4,
-  "successCount": 4,
-  "errors": [],
+  "successCount": 3,
+  "errors": [
+    {
+      "source": "Hacker News",
+      "error": "fetch failed"
+    }
+  ],
   "items": [
     {
-      "title": "How to Write Reliable Rubrics for LLM-as-a-Judge Evaluations",
-      "link": "https://dev.to/googleai/how-to-write-reliable-rubrics-for-llm-as-a-judge-evaluations-ndp",
-      "pubDate": "2026-09-02T16:35:00.000Z",
-      "description": "<p><em>Follow up to <a href=\"https://dev.to/googleai/how-to-design-ai-evaluations-you-can-actually-trust-41c3\">Part 1: How to Design AI Evaluations You Can Actually Trust</a></em></p> <p>At Google, we are publishing a suite of <a href=\"https://github.com/google/skills\" rel=\"noopener noreferrer\">Agen",
+      "title": "Getting Started With Excel For Data Analytics",
+      "link": "https://dev.to/ndinda_mwanzia_d6b37c466f/getting-started-with-excel-for-data-analytics-1l15",
+      "pubDate": "2026-09-02T20:58:48.000Z",
+      "description": "<h1> <strong>Introduction to Excel</strong> </h1> <p>Excel is a spreadsheet application that uses a grid of rows and columns to organize, manipulate, and analyze data. Beyond simple calculations, it functions as a lightweight database engine, a statistical tool, and a data visualization platform mak",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Build vs Buy: You Don't Need Another Side Project",
-      "link": "https://dev.to/avlcodemonkey-industries/build-vs-buy-you-dont-need-another-side-project-2cgm",
-      "pubDate": "2026-09-02T16:32:47.000Z",
-      "description": "<p>When you first need feature flags in a .NET application, the answer is wonderfully boring. Install <code>Microsoft.FeatureManagement</code>, put some flags in <code>appsettings.json</code>, and you're off to the races. Microsoft handles the feature evaluation plumbing, filters, targeting, and ASP",
+      "title": "Shopify flash sale zamanı yükü necə idarə edir?",
+      "link": "https://dev.to/camal1o/shopify-flash-sale-zamani-yuku-nec-idar-edir-3f86",
+      "pubDate": "2026-09-02T20:43:33.000Z",
+      "description": "<p>Bir məhsul buraxılışı elan olunur, geri sayım bitir və minlərlə alıcı eyni saniyələrdə səhifəni yeniləyir. Bir qismi məhsula baxır, digərləri səbətə əlavə edir, ən bahalı qrup isə checkout və ödəniş axınına keçir. Flash sale zamanı sistemin dərdi trafik sayından çox onun formasıdır: yük qəfil gəl",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Build a rag for customer support knowledge base that answers tickets automatically",
-      "link": "https://dev.to/samchenreviews/build-a-rag-for-customer-support-knowledge-base-that-answers-tickets-automatically-311o",
-      "pubDate": "2026-09-02T16:31:27.000Z",
-      "description": "<p>You'll create a Retrieval-Augmented Generation (RAG) pipeline that pulls the most relevant support articles from your knowledge base, feeds them to an OpenAI LLM, and returns a ready-to-send answer to Zendesk tickets. The result is a hands-free response engine that reduces agent load while keepin",
+      "title": "Accessible and Functional Quantity Spinbutton Pattern",
+      "link": "https://dev.to/micaavigliano/accessible-and-functional-quantity-spinbutton-pattern-1945",
+      "pubDate": "2026-09-02T20:42:40.000Z",
+      "description": "<p>Hey! This is Mica writing, a human not an AI agent (nothing against them, not discrimination of any kind is allowed here). Just a brief disclaimer before starting: this post was non AI-generated (I am not going to lie, I tried to use it for some research but since the errors I found were not prop",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Verifiable Credentials and Zero-Knowledge Proofs, Explained",
-      "link": "https://dev.to/raj6939/verifiable-credentials-and-zero-knowledge-proofs-explained-1d43",
-      "pubDate": "2026-09-02T16:31:21.000Z",
-      "description": "<p>Verifiable credentials, zero-knowledge proofs, and selective disclosure get used almost interchangeably in identity marketing, and that's a problem for anyone actually building on top of them. A verifiable credential is a data format. A zero-knowledge proof is a cryptographic proof technique. Sel",
+      "title": "Every run said pass while the pipeline was quietly getting worse",
+      "link": "https://dev.to/unmannedops/every-run-said-pass-while-the-pipeline-was-quietly-getting-worse-592b",
+      "pubDate": "2026-09-02T20:41:36.000Z",
+      "description": "<p>Our agent runs unattended. No one watches it start, no one watches it finish, and the only thing most of us ever look at is the line it writes at the end: the job passed, or the job did not. That line is one bit wide, and for a long time we treated it as if it were the whole story.</p> <p>It is n",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "API Gateway with Ocelot in ASP.NET Core",
-      "link": "https://dev.to/ravi-vishwakarma-hash/api-gateway-with-ocelot-in-aspnet-core-40e2",
-      "pubDate": "2026-09-02T16:30:02.000Z",
-      "description": "<p>If you are building a small application with one API, you probably don't need an API Gateway.</p> <p>But as your application grows, you may end up with multiple APIs:</p> <ul> <li>User API</li> <li>Product API</li> <li>Order API</li> <li>Payment API</li> <li>Notification API</li> </ul> <p>Now ima",
+      "title": "Why \"tests passed\" is the wrong question for an AI coding agent",
+      "link": "https://dev.to/elirangodov/why-tests-passed-is-the-wrong-question-for-an-ai-coding-agent-4h76",
+      "pubDate": "2026-09-02T20:41:17.000Z",
+      "description": "<p>Your coding agent finishes a task and tells you the tests passed.</p> <p>You accept the report. Later, when one claim does not match what happened, you go back through the log to find where the story diverged - and the log cannot tell you. It records what the agent said. It does not record what r",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I Stopped Treating Long AI Coding Runs Like Chats — Nightshift Now Treats Them Like Shifts",
-      "link": "https://dev.to/orwamahmoud/i-stopped-treating-long-ai-coding-runs-like-chats-nightshift-now-treats-them-like-shifts-40ec",
-      "pubDate": "2026-09-02T16:28:10.000Z",
-      "description": "<p>A while ago I wrote about a problem I kept hitting with Claude Code: I could give it a large task, walk away, and come back later to find that it had stopped somewhere in the middle.</p> <p>That problem is what originally pushed me to build <strong>Nightshift</strong>.</p> <p>At first, the goal w",
+      "title": "The Return of the Super App",
+      "link": "https://dev.to/jalal246/the-return-of-the-super-app-58e2",
+      "pubDate": "2026-09-02T20:37:14.000Z",
+      "description": "<p>Super apps were always the right idea. The timing was just wrong.</p> <p>For years, the barrier wasn't strategy. It was the interface. You can't group twenty services into one app without burying the user in menus, tabs, and onboarding flows nobody finishes.</p> <p>That barrier is gone.</p> <p>Wh",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "My AI Gateway Added 400ms to Every Request. Here's Where It Went",
-      "link": "https://dev.to/devstackhub/my-ai-gateway-added-400ms-to-every-request-heres-where-it-went-2fkp",
-      "pubDate": "2026-09-02T16:21:42.000Z",
-      "description": "<p>If your AI application suddenly becomes 300–500ms slower after adding an AI gateway, the first question should not be “Is the gateway slow?” It should be “Which part of the gateway is actually consuming the time?” An extra network hop can add latency, but a 400ms increase is usually a sign that s",
+      "title": "Автоматизуйте не деплой, а відкат",
+      "link": "https://dev.to/sergey_shinder_ab2d943365/avtomatizuitie-nie-dieploi-a-vidkat-1n19",
+      "pubDate": "2026-09-02T20:36:04.000Z",
+      "description": "<p>Коли говорять про автоматизацію релізів, майже завжди мають на увазі шлях уперед: як швидше зібрати, як гладше викотити, як довести деплой одним натиском. Це важливо. Але за роки я зрозумів просту річ: найцінніша автоматизація — не в тому, як швидко ти викотиш, а в тому, як швидко й спокійно ти з",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Show HN: FrontierHarness Eval – 9 harness, same model, cost per pass varies 17x",
-      "link": "https://frontierharness.org",
-      "pubDate": "2026-09-02T16:14:52.000Z",
-      "description": "Article URL: https://frontierharness.org Comments URL: https://news.ycombinator.com/item?id=49538490 Points: 9 # Comments: 2",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "What an Embeddable Paycheck Calculator Taught Me About Iframes, Privacy, and Honest UX",
-      "link": "https://dev.to/sertunc_ozgunes/what-an-embeddable-paycheck-calculator-taught-me-about-iframes-privacy-and-honest-ux-180f",
-      "pubDate": "2026-09-02T16:14:37.000Z",
-      "description": "<p>Most “embed this tool” features are really small integration projects: install a script, create an account, obtain a key, add a container, and hope the host site's CSS does not win a specificity fight.</p> <p>For PaycheckForge, I wanted the integration to be boring:<br> </p> <div class=\"highlight",
+      "title": "The \"Delete\" Mindset: Why Most AI Strategies Fail Founders",
+      "link": "https://dev.to/jalal246/the-delete-mindset-why-most-ai-strategies-fail-founders-1aep",
+      "pubDate": "2026-09-02T20:34:16.000Z",
+      "description": "<p>Most \"AI strategy\" in businesses right now is just adding a chatbot to something that was already broken.</p> <p>That's not strategy. That's decoration.</p> <p>The real question every CEO should be asking isn't \"where can we add AI\"; it's \"which slow, manual decision in this company should no lon",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Staking rewards are just an accumulator (Vyper 🐍)",
-      "link": "https://dev.to/rabuawad/staking-rewards-are-just-an-accumulator-in-vyper--48i2",
-      "pubDate": "2026-09-02T16:13:32.000Z",
-      "description": "<p>Staking rewards look complicated. They are not.</p> <p>I went through a pile of articles on staking, and the mechanism is simpler than I expected. If you are going to ship a staking pool, you need to understand this model.</p> <h2> The naive way </h2> <p>First thought: an offchain bot that pays e",
+      "title": "Gemini Notebook Moves to Flexible Usage Limits With Five-Hour Resets",
+      "link": "https://dev.to/alifar/gemini-notebook-moves-to-flexible-usage-limits-with-five-hour-resets-kh6",
+      "pubDate": "2026-09-02T20:30:30.000Z",
+      "description": "<p>Google is changing how <a href=\"https://scalevise.com/resources/notebooklm/\" rel=\"noopener noreferrer\">Gemini Notebook</a> manages usage. Rather than relying on fixed daily caps, the product is moving to <strong>flexible, compute-based limits</strong> that refresh every five hours. The update als",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Stop Being Your Agent's QA: A Skill That Makes AI Coding Agents Prove Their Work",
-      "link": "https://dev.to/kaiji1126/stop-being-your-agents-qa-a-skill-that-makes-ai-coding-agents-prove-their-work-4gkn",
-      "pubDate": "2026-09-02T16:11:56.000Z",
-      "description": "<p>Every AI coding session ends the same way: the agent says \"Done ✓\" — and you spend the next 30 minutes manually clicking through everything to find out it isn't.</p> <p>I got tired of being my agent's test suite. So I built <strong>stop-manual-testing</strong> — a skill that flips the loop: every",
+      "title": "Building an AI-Assisted Pentesting Platform Without Creating an Auto-Pwn",
+      "link": "https://dev.to/evolve-space/building-an-ai-assisted-pentesting-platform-without-creating-an-auto-pwn-4jgd",
+      "pubDate": "2026-09-02T20:27:32.000Z",
+      "description": "<p>AI agents are becoming increasingly capable of interacting with tools.</p> <p>In cybersecurity, that creates an obvious opportunity: let an agent inspect a target, run reconnaissance, interpret the output and decide what to test next.</p> <p>It also creates an obvious problem.</p> <p>What happens",
       "source": "Dev.to Feed",
       "category": "Development"
-    },
-    {
-      "title": "Saving money on Google Photos with Immich: Your own personal photo storage",
-      "link": "https://www.markpitblado.me/blog/saving-on-google-photos-with-immich-your-own-personal-photo-storage/",
-      "pubDate": "2026-09-02T16:07:18.000Z",
-      "description": "Article URL: https://www.markpitblado.me/blog/saving-on-google-photos-with-immich-your-own-personal-photo-storage/ Comments URL: https://news.ycombinator.com/item?id=49538375 Points: 11 # Comments: 6",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Gemini 3.8 Flash and 3.8 Flash Cyber",
-      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
-      "pubDate": "2026-09-02T15:44:06.000Z",
-      "description": "Article URL: https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/ Comments URL: https://news.ycombinator.com/item?id=49538007 Points: 37 # Comments: 3",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Gemini 3.8 Flash",
-      "link": "https://deepmind.google/models/model-cards/gemini-3-8-flash/",
-      "pubDate": "2026-09-02T15:12:40.000Z",
-      "description": "Article URL: https://deepmind.google/models/model-cards/gemini-3-8-flash/ Comments URL: https://news.ycombinator.com/item?id=49537553 Points: 257 # Comments: 134",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Exit the Cave",
-      "link": "https://turtlespace.blog/p/exit-the-cave",
-      "pubDate": "2026-09-02T14:16:45.000Z",
-      "description": "Article URL: https://turtlespace.blog/p/exit-the-cave Comments URL: https://news.ycombinator.com/item?id=49536606 Points: 63 # Comments: 13",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "WebLLM: high-performance in-browser LLM inference engine",
-      "link": "https://github.com/mlc-ai/web-llm",
-      "pubDate": "2026-09-02T14:02:35.000Z",
-      "description": "Article URL: https://github.com/mlc-ai/web-llm Comments URL: https://news.ycombinator.com/item?id=49536411 Points: 29 # Comments: 8",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "GrapheneOS says Pixel 11 has MTE support after all",
-      "link": "https://grapheneos.social/@GrapheneOS/117194007157499435",
-      "pubDate": "2026-09-02T14:00:28.000Z",
-      "description": "Article URL: https://grapheneos.social/@GrapheneOS/117194007157499435 Comments URL: https://news.ycombinator.com/item?id=49536384 Points: 96 # Comments: 60",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Three sites made 215,128 “best software” pages for AI. Perplexity cites them",
-      "link": "https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/",
-      "pubDate": "2026-09-02T13:59:59.000Z",
-      "description": "Article URL: https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/ Comments URL: https://news.ycombinator.com/item?id=49536375 Points: 142 # Comments: 80",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "A third of Perplexity's citations don't contain the number they're cited for",
-      "link": "https://hausresearch.com/reports/perplexity-citation-audit/",
-      "pubDate": "2026-09-02T13:49:23.000Z",
-      "description": "Article URL: https://hausresearch.com/reports/perplexity-citation-audit/ Comments URL: https://news.ycombinator.com/item?id=49536201 Points: 47 # Comments: 14",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Poisson Disk Sampling",
-      "link": "https://stripeacross.com/posts/poisson-disk-sampling/",
-      "pubDate": "2026-09-02T13:47:49.000Z",
-      "description": "Article URL: https://stripeacross.com/posts/poisson-disk-sampling/ Comments URL: https://news.ycombinator.com/item?id=49536177 Points: 55 # Comments: 6",
-      "source": "Hacker News",
-      "category": "Tech News"
     },
     {
       "title": "Let’s Use the Emergent CSS random() Function in all the Browsers",
