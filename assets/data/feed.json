@@ -1,166 +1,166 @@
 {
-  "generatedAt": "2026-09-03T11:15:40.134Z",
+  "generatedAt": "2026-09-03T16:26:04.587Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "I Built a 1-Click DNS Provisioning Platform for Developer Subdomains",
-      "link": "https://dev.to/hackwithmagic/i-built-a-1-click-dns-provisioning-platform-for-developer-subdomains-1kno",
-      "pubDate": "2026-09-03T11:12:19.000Z",
-      "description": "<p><a href=\"https://go-live.me?utm_source=chatgpt.com\" rel=\"noopener noreferrer\">Go-Live.me</a><br> <a href=\"https://github.com/shanmukhasaireddy13/Go-Live?utm_source=chatgpt.com\" rel=\"noopener noreferrer\">GitHub Repository</a></p> <h2> I Built a 1-Click DNS Provisioning Platform for Developer Subdo",
+      "title": "Stop pasting your JWTs into random websites to decode them",
+      "link": "https://dev.to/faizan_shakeel_1dda753363/stop-pasting-your-jwts-into-random-websites-to-decode-them-18nl",
+      "pubDate": "2026-09-03T16:14:06.000Z",
+      "description": "<p>You've got a JWT and you need to see what's inside it — which user it's for, what scopes it carries, when it expires. The quick move is to search \"jwt decoder,\" grab the first result, and paste your token in. <strong>Don't.</strong> A JWT is often a live credential, and decoding one is so simple ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Inside Instagram's Anti-Bot Stack: What Actually Catches You",
-      "link": "https://dev.to/2xtract_dev/inside-instagrams-anti-bot-stack-what-actually-catches-you-2ldd",
-      "pubDate": "2026-09-03T11:11:48.000Z",
-      "description": "<p>Anti-bot protection is usually described as a wall. It is closer to a stack of independent checks, each reading a different part of the connection, each costing the operator something different to run and the automated client something different to defeat.</p> <p>Meta's stack makes a good case st",
+      "title": "A Node.js App Builder Contract for Cross-Border 2FA SMS OTP Support",
+      "link": "https://dev.to/mt41vb6/a-nodejs-app-builder-contract-for-cross-border-2fa-sms-otp-support-13a1",
+      "pubDate": "2026-09-03T16:13:25.000Z",
+      "description": "<h2> TL;DR </h2> <p>Short answer: treat the SMS OTP API as transport while your application owns a small, atomic challenge state machine for issue, verify, resend, cancel, and expiry. The provider should transport messages and report outcomes; it should not become the authority on whether a login at",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I built Agent Review Studio: a local-first workbench for agent harness evaluations",
-      "link": "https://dev.to/chaseintech/i-built-agent-review-studio-a-local-first-workbench-for-agent-harness-evaluations-158p",
-      "pubDate": "2026-09-03T11:08:36.000Z",
-      "description": "<p>I have been building Chaser Agent and other AI systems across the Chase ecosystem. As those systems became more capable, I needed a better way to inspect what an agent actually did—not just look at its final answer.</p> <p>So I built <strong>Agent Review Studio</strong>.</p> <p>It is an open-sour",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "A guide to proper semantic markup for blog posts",
-      "link": "https://dev.to/seppegadeyne/a-guide-to-proper-semantic-markup-for-blog-posts-lna",
-      "pubDate": "2026-09-03T11:06:26.000Z",
-      "description": "<p>Semantic markup means choosing HTML elements for their meaning: one <code>&lt;h1&gt;</code> for your title, <code>&lt;h2&gt;</code> and <code>&lt;h3&gt;</code> for logical sections, <code>&lt;figure&gt;</code> with <code>&lt;figcaption&gt;</code> for images, <code>&lt;time&gt;</code> for your pub",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Superpowers vs Plain Old Debugger in Explyt",
-      "link": "https://dev.to/marketing_explyt_a7b53da9/superpowers-vs-plain-old-debugger-in-explyt-3271",
-      "pubDate": "2026-09-03T11:04:36.000Z",
-      "description": "<p>An AI agent can follow a debugging checklist and still miss the bug.</p> <p>The question I kept coming back to was simple: who ran the experiment?</p> <p>I interviewed our users, mostly senior developers. In those interviews, debugging a hard problem came up most often. In practice, the investiga",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "解决端口占用问题（window）",
-      "link": "https://dev.to/yyt0901/jie-jue-duan-kou-zhan-yong-wen-ti-window-3a9j",
-      "pubDate": "2026-09-03T11:01:36.000Z",
-      "description": "<h3> 方案一：最快解决办法（重置网络端口保留） </h3> <p>大多数情况下，这是因为 Windows 的 NAT 服务（WinNat）保留了该端口。重启该服务通常能释放被错误保留的端口。</p> <p>请以 <strong>管理员身份</strong> 打开 PowerShell 或 CMD，然后依次运行以下命令：<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight batchfile\"><code><span class=\"nb\">net</span> <span class=\"kd\">st",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "How to Stop Fighting Your AI Coding Assistant",
-      "link": "https://dev.to/ntty/how-to-stop-fighting-your-ai-coding-assistant-3f8o",
-      "pubDate": "2026-09-03T11:00:56.000Z",
-      "description": "<p>I used to hate AI coding assistants. They felt like talking to a junior developer who had read the documentation once and forgot the rest. You ask for a complex system design, and they give you a <code>for</code> loop and a comment that says \"// add error handling here.\" </p> <p>Then I changed ho",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "RonanRX: Vertically Integrated Pharmaceuticals for Peptides and GLP-1s!",
-      "link": "https://dev.to/mgobea/ronanrx-vertically-integrated-pharmaceuticals-for-peptides-and-glp-1s-1mjn",
-      "pubDate": "2026-09-03T11:00:36.000Z",
-      "description": "<h2> Engineering Vertical Integration in Pharmaceutical Manufacturing: The RonanRx Stack </h2> <p>The pharmaceutical industry suffers from a systemic architectural fragmentation. Modern medicine relies on a linear chain: Electronic Health Record (EHR) systems, disparate telehealth portals, 3PL (Thir",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Why Most Multi-Agent Systems Fail in Production (And How to Fix It)",
-      "link": "https://dev.to/albert_zhang_f468830cf0e6/why-most-multi-agent-systems-fail-in-production-and-how-to-fix-it-57in",
-      "pubDate": "2026-09-03T11:00:14.000Z",
-      "description": "<p>Most multi-agent demos look impressive on stage. Then they hit production and fall apart.</p> <p>Here's the pattern: agents that \"worked\" in a Jupyter notebook start conflicting, retrying infinitely, or silently failing when other agents are involved.</p> <p><strong>The root cause isn't the LLM. ",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Your coding agent can now write the launch post for the feature it just helped you ship",
-      "link": "https://dev.to/akshay_sharma_06637368320/your-coding-agent-can-now-write-the-launch-post-for-the-feature-it-just-helped-you-ship-14g0",
-      "pubDate": "2026-09-03T11:00:07.000Z",
-      "description": "<p>I ship a feature, and then I don't tell anyone about it.</p> <p>Not out of laziness. The context switch is the problem. I'm deep in a branch, the thing works, and announcing it means leaving the terminal, opening a doc, re-explaining my product to a chat window that has never heard of it, rewriti",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "WASM_OS, an operating-system experiment that runs inside a browser tab",
-      "link": "https://wasmos-production.up.railway.app",
-      "pubDate": "2026-09-03T10:36:09.000Z",
-      "description": "Article URL: https://wasmos-production.up.railway.app Comments URL: https://news.ycombinator.com/item?id=49548285 Points: 8 # Comments: 1",
+      "title": "Texas Data Center Map: See where data centers are operating or planned",
+      "link": "https://www.kxan.com/news/texas/texas-data-center-tracker-see-where-600-projects-are-operating-or-planned-across-state-in-interactive-map/",
+      "pubDate": "2026-09-03T16:10:12.000Z",
+      "description": "Article URL: https://www.kxan.com/news/texas/texas-data-center-tracker-see-where-600-projects-are-operating-or-planned-across-state-in-interactive-map/ Comments URL: https://news.ycombinator.com/item?id=49552375 Points: 4 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Japan halves speed limit to 30km/h on all narrow city streets",
-      "link": "https://www.theguardian.com/world/2026/sep/02/japan-new-speed-limit-30kmh-narrow-city-streets",
-      "pubDate": "2026-09-03T09:21:53.000Z",
-      "description": "Article URL: https://www.theguardian.com/world/2026/sep/02/japan-new-speed-limit-30kmh-narrow-city-streets Comments URL: https://news.ycombinator.com/item?id=49547763 Points: 52 # Comments: 36",
+      "title": "European Infrastructure is having a Moment",
+      "link": "https://dev.to/eliasfromlily/european-infrastructure-is-having-a-moment-ml1",
+      "pubDate": "2026-09-03T16:08:29.000Z",
+      "description": "<p>While the demand for compute is blowing up, the supply side hasn't caught up. That gap is the entire opportunity.</p> <p>Something has started to shift in the European cloud space. It is not arriving in the form of launches, It is arriving in the form of experiments.</p> <p>Providers that spent a",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "RDP Into a Proxmox VM Without Opening It Up to the Network",
+      "link": "https://dev.to/lugerlogic/rdp-into-a-proxmox-vm-without-opening-it-up-to-the-network-52nj",
+      "pubDate": "2026-09-03T16:08:29.000Z",
+      "description": "<p>I run an Ubuntu Desktop VM on my Proxmox server and wanted to RDP into it without exposing port 3389 to my whole network. What i ended up with: <strong>tunnel RDP through SSH</strong>.</p> <h2> The Idea </h2> <p>I already trust my SSH connection to the Proxmox host. So instead of opening RDP up d",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "The Death of Story Points: Engineering Metrics in the Agentic Era",
+      "link": "https://dev.to/dmitryame/the-death-of-story-points-engineering-metrics-in-the-agentic-era-2kho",
+      "pubDate": "2026-09-03T16:07:55.000Z",
+      "description": "<p>Traditional Scrum optimizes for human cognitive load. Agentic development shatters this constraint. </p> <p>The two-week sprint, the Fibonacci estimation sequence, and bottom-up story pointing are artifacts of a legacy delivery model. When AI agents write the code, the correlation between task co",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Discord's Wild 2026: A 3-Hour Voice Catastrophe, a Hidden Mailbox Monster, and the Biggest Privacy Win in Gaming",
+      "link": "https://dev.to/theanalystsouvic/discords-wild-2026-a-3-hour-voice-catastrophe-a-hidden-mailbox-monster-and-the-biggest-privacy-1285",
+      "pubDate": "2026-09-03T16:07:41.000Z",
+      "description": "<p><em>A deep dive into the March 25th voice outage and the E2EE rollout that followed — two stories that together define Discord's most technically eventful year yet.</em></p> <p>If you were trying to hop on a Discord voice call on the afternoon of March 25, 2026, you probably stared at that madden",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Crawling at Scale: Scheduling, Deduplication, and Storage",
+      "link": "https://dev.to/3ni8ma/crawling-at-scale-scheduling-deduplication-and-storage-3e5p",
+      "pubDate": "2026-09-03T16:01:48.000Z",
+      "description": "<h2> The Frontier: What to Fetch Next </h2> <p>The crawl frontier is a priority queue of URLs, not a set. Rules that matter: scope filtering (stay on allowed hosts/paths), freshness (when to re-fetch a page), and prioritization (document pages over index pages). A frontier without priorities degener",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "The Biggest Problem With AI-Generated Code Isn't Bad Code. It's Unfamiliar Code.",
+      "link": "https://dev.to/hakeem/the-biggest-problem-with-ai-generated-code-isnt-bad-code-its-unfamiliar-code-3ama",
+      "pubDate": "2026-09-03T16:00:41.000Z",
+      "description": "<p>A developer opens a pull request. The feature works. The tests are green. The implementation looks reasonably clean. Then they realize the PR changes 17 files for what should have been a relatively small feature.<br> There is a new abstraction nobody on the team has seen before. A dependency has ",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Refactoring Safely: A Step-by-Step Guide",
+      "link": "https://dev.to/codeatlas/refactoring-safely-a-step-by-step-guide-2nlh",
+      "pubDate": "2026-09-03T16:00:32.000Z",
+      "description": "<h2> Refactoring Safely: A Step-by-Step Guide </h2> <p>We all know that feeling: a function that's 200 lines long, a class that does too many things, or a variable named <code>data2</code>. Refactoring is the cure, but doing it recklessly can break your app and your confidence. Here's how I approach",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "I Wanted \"agy .\" for Google Antigravity on WSL2 — So I Built \"wagy\"",
+      "link": "https://dev.to/rakbro/i-wanted-agy-for-google-antigravity-on-wsl2-so-i-built-wagy-44g1",
+      "pubDate": "2026-09-03T16:00:28.000Z",
+      "description": "<p>I use WSL2 as my main development environment on Windows.</p> <p>My projects live in Linux:<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight plaintext\"><code>/home/user/Projects/... </code></pre> </div> <p>Node.js, pnpm, Git, Docker, and the rest of my toolchain also run i",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Sony makes bold claim about game ownership",
+      "link": "https://aginggamer.net/game-industry/sony-makes-bold-claim-about-game-ownership/",
+      "pubDate": "2026-09-03T15:44:54.000Z",
+      "description": "Article URL: https://aginggamer.net/game-industry/sony-makes-bold-claim-about-game-ownership/ Comments URL: https://news.ycombinator.com/item?id=49551925 Points: 67 # Comments: 58",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Three schoolgirls in Kinsale pulled up a pea plant covered in warts (2016)",
-      "link": "https://scienceblog.com/b-three-schoolgirls-in-kinsale-pulled-up-a-pea-plant-covered-in-warts-and-instead-of-binning-it-spent-three-years-testing-13000-seeds-in-a-spare-bedroom-the-bacteria-living-in-those-warts-made-barley/",
-      "pubDate": "2026-09-03T07:04:13.000Z",
-      "description": "Article URL: https://scienceblog.com/b-three-schoolgirls-in-kinsale-pulled-up-a-pea-plant-covered-in-warts-and-instead-of-binning-it-spent-three-years-testing-13000-seeds-in-a-spare-bedroom-the-bacteria-living-in-those-warts-made-barley/ Comments URL: https://news.ycombinator.com/item?id=49546800 Po",
+      "title": "K2 Horizon: Frontier Performance, Radically Open",
+      "link": "https://ifm.ai/blog/k2/",
+      "pubDate": "2026-09-03T15:36:43.000Z",
+      "description": "Article URL: https://ifm.ai/blog/k2/ Comments URL: https://news.ycombinator.com/item?id=49551760 Points: 29 # Comments: 5",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Pre-Release of Polars 2.0",
-      "link": "https://pola.rs/posts/announcing-polars-2/",
-      "pubDate": "2026-09-03T06:59:08.000Z",
-      "description": "Article URL: https://pola.rs/posts/announcing-polars-2/ Comments URL: https://news.ycombinator.com/item?id=49546753 Points: 189 # Comments: 36",
+      "title": "ChatGPT, Claude, and Grok Are Down",
+      "link": "https://www.macrumors.com/2026/09/03/chatgpt-claude-and-grok-are-down/",
+      "pubDate": "2026-09-03T15:30:10.000Z",
+      "description": "Article URL: https://www.macrumors.com/2026/09/03/chatgpt-claude-and-grok-are-down/ Comments URL: https://news.ycombinator.com/item?id=49551658 Points: 57 # Comments: 17",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Launch HN: RonanRX (YC S26) – Personalized Peptides and GLP-1s",
-      "link": "https://news.ycombinator.com/item?id=49543530",
-      "pubDate": "2026-09-02T22:36:04.000Z",
-      "description": "Hi HN,I’m Lloyd, one of two founders of RonanRx (https://ronanrx.com/). We are building a vertically integrated pharmaceutical company with software for prescribing, telehealth, compounding, manufacturing, and delivery. We are starting with GLP-1s and peptides.The path to RonanRx is fairly unconvent",
+      "title": "Grok Outage",
+      "link": "https://status.x.ai/",
+      "pubDate": "2026-09-03T15:26:01.000Z",
+      "description": "Article URL: https://status.x.ai/ Comments URL: https://news.ycombinator.com/item?id=49551589 Points: 120 # Comments: 90",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Altair Basic Interpreter Source Code (1975) [pdf]",
-      "link": "https://images.gatesnotes.com/12514eb8-7b51-008e-41a9-512542cf683b/34d561c8-cf5c-4e69-af47-3782ea11482e/Original-Microsoft-Source-Code.pdf",
-      "pubDate": "2026-09-02T20:08:22.000Z",
-      "description": "Article URL: https://images.gatesnotes.com/12514eb8-7b51-008e-41a9-512542cf683b/34d561c8-cf5c-4e69-af47-3782ea11482e/Original-Microsoft-Source-Code.pdf Comments URL: https://news.ycombinator.com/item?id=49541754 Points: 63 # Comments: 34",
+      "title": "Ask HN: Why are OpenAI, Claude, and Grok simultaneously down? Coincidence?",
+      "link": "https://news.ycombinator.com/item?id=49551096",
+      "pubDate": "2026-09-03T15:07:01.000Z",
+      "description": "https://status.openai.com https://status.claude.com https://status.x.ai Comments URL: https://news.ycombinator.com/item?id=49551096 Points: 79 # Comments: 60",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Fable 5.1 World Modeling",
-      "link": "https://github.com/PhiloLabs/fable51-worlds",
-      "pubDate": "2026-09-02T19:49:01.000Z",
-      "description": "Article URL: https://github.com/PhiloLabs/fable51-worlds Comments URL: https://news.ycombinator.com/item?id=49541458 Points: 271 # Comments: 79",
+      "title": ".name Termination",
+      "link": "https://neil.fraser.name/news/2026/09/03/",
+      "pubDate": "2026-09-03T14:54:39.000Z",
+      "description": "Article URL: https://neil.fraser.name/news/2026/09/03/ Comments URL: https://news.ycombinator.com/item?id=49550772 Points: 97 # Comments: 23",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Muse Spark 1.3",
-      "link": "https://developer.meta.com/ai/models/muse-spark/",
-      "pubDate": "2026-09-02T19:35:04.000Z",
-      "description": "https://research.meta.ai/blog/introducing-muse-spark-1-3 Comments URL: https://news.ycombinator.com/item?id=49541256 Points: 598 # Comments: 393",
+      "title": "Codex Is Down",
+      "link": "https://github.com/openai/codex/issues/28756",
+      "pubDate": "2026-09-03T14:54:31.000Z",
+      "description": "Article URL: https://github.com/openai/codex/issues/28756 Comments URL: https://news.ycombinator.com/item?id=49550769 Points: 95 # Comments: 41",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Qantas Airbus A380 engine failure in 2010 (2023)",
-      "link": "https://admiralcloudberg.medium.com/a-matter-of-millimeters-the-story-of-qantas-flight-32-bdaa62dc98e7",
-      "pubDate": "2026-09-02T18:42:41.000Z",
-      "description": "Article URL: https://admiralcloudberg.medium.com/a-matter-of-millimeters-the-story-of-qantas-flight-32-bdaa62dc98e7 Comments URL: https://news.ycombinator.com/item?id=49540565 Points: 147 # Comments: 89",
+      "title": "Any Human Ever – One life, drawn at random from all who have ever lived",
+      "link": "https://anyhumanever.com/",
+      "pubDate": "2026-09-03T14:51:10.000Z",
+      "description": "Article URL: https://anyhumanever.com/ Comments URL: https://news.ycombinator.com/item?id=49550698 Points: 82 # Comments: 47",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Async Rust vs RTOS showdown (2022)",
-      "link": "https://tweedegolf.nl/en/blog/65/async-rust-vs-rtos-showdown/",
-      "pubDate": "2026-09-02T18:32:24.000Z",
-      "description": "Article URL: https://tweedegolf.nl/en/blog/65/async-rust-vs-rtos-showdown/ Comments URL: https://news.ycombinator.com/item?id=49540415 Points: 98 # Comments: 46",
+      "title": "ChatGPT Is Throwing 404",
+      "link": "https://chatgpt.com/",
+      "pubDate": "2026-09-03T14:46:47.000Z",
+      "description": "Article URL: https://chatgpt.com/ Comments URL: https://news.ycombinator.com/item?id=49550614 Points: 342 # Comments: 259",
       "source": "Hacker News",
       "category": "Tech News"
     },
