@@ -1,166 +1,166 @@
 {
-  "generatedAt": "2026-09-03T16:26:04.587Z",
+  "generatedAt": "2026-09-03T21:03:01.830Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "Stop pasting your JWTs into random websites to decode them",
-      "link": "https://dev.to/faizan_shakeel_1dda753363/stop-pasting-your-jwts-into-random-websites-to-decode-them-18nl",
-      "pubDate": "2026-09-03T16:14:06.000Z",
-      "description": "<p>You've got a JWT and you need to see what's inside it — which user it's for, what scopes it carries, when it expires. The quick move is to search \"jwt decoder,\" grab the first result, and paste your token in. <strong>Don't.</strong> A JWT is often a live credential, and decoding one is so simple ",
+      "title": "Why I Rewrote My Flutter Tray App as a C++ Daemon",
+      "link": "https://dev.to/muhammetali/why-i-rewrote-my-flutter-tray-app-as-a-c-daemon-1oec",
+      "pubDate": "2026-09-03T20:53:21.000Z",
+      "description": "<p>I built a screen-capture tool for Linux in Flutter. Tray icon, global hotkey, region select, done — that was the plan. It worked, right up until three separate parts of the Linux desktop stack quietly broke it in ways that never showed up as errors. I ended up splitting the app into a long-runnin",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "A Node.js App Builder Contract for Cross-Border 2FA SMS OTP Support",
-      "link": "https://dev.to/mt41vb6/a-nodejs-app-builder-contract-for-cross-border-2fa-sms-otp-support-13a1",
-      "pubDate": "2026-09-03T16:13:25.000Z",
-      "description": "<h2> TL;DR </h2> <p>Short answer: treat the SMS OTP API as transport while your application owns a small, atomic challenge state machine for issue, verify, resend, cancel, and expiry. The provider should transport messages and report outcomes; it should not become the authority on whether a login at",
+      "title": "I built a 12-state accountability layer for AI agents here's what I learned",
+      "link": "https://dev.to/yaminbinyoosuf/i-built-a-12-state-accountability-layer-for-ai-agents-heres-what-i-learned-361i",
+      "pubDate": "2026-09-03T20:49:01.000Z",
+      "description": "<p>By the time you finish reading this, your AI agent will have made at least one promise it can't keep.</p> <p>That's not a dig at your code. It's a fundamental property of how we build AI systems today. Agents are brilliant at generating intent and terrible at tracking it. They'll promise to email",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Texas Data Center Map: See where data centers are operating or planned",
-      "link": "https://www.kxan.com/news/texas/texas-data-center-tracker-see-where-600-projects-are-operating-or-planned-across-state-in-interactive-map/",
-      "pubDate": "2026-09-03T16:10:12.000Z",
-      "description": "Article URL: https://www.kxan.com/news/texas/texas-data-center-tracker-see-where-600-projects-are-operating-or-planned-across-state-in-interactive-map/ Comments URL: https://news.ycombinator.com/item?id=49552375 Points: 4 # Comments: 0",
+      "title": "Prompt filters are advisory. Enforce on the execution path.",
+      "link": "https://dev.to/doberman/prompt-filters-are-advisory-enforce-on-the-execution-path-kd4",
+      "pubDate": "2026-09-03T20:46:10.000Z",
+      "description": "<p>Simon Willison calls it the lethal trifecta: private data, untrusted content, and a way to exfiltrate, all in the same session. A coding agent on your laptop has all three by default. It reads your code (private data), it reads whatever a dependency's README or a fetched URL says (untrusted conte",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Ressuscitei uma impressora térmica de banco que não fala ESC/POS nem imprime QR Code",
+      "link": "https://dev.to/feliperocha7/ressuscitei-uma-impressora-termica-de-banco-que-nao-fala-escpos-nem-imprime-qr-code-jb0",
+      "pubDate": "2026-09-03T20:44:30.000Z",
+      "description": "<p><em>Como fazer uma impressora que \"imprime tudo errado e não faz QR Code\" voltar a<br> ser útil num PDV moderno — sem trocar nada nela.</em></p> <h2> O problema </h2> <p>Tem uma pilha de impressoras térmicas <strong>Diebold Procomp IM453H</strong> (e primas:<br> IM433, IT4x2, IM1x3I, TSP143M) enc",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "The Queen of Computer Vision and Her Kingdoms",
+      "link": "https://dev.to/opaul/the-queen-of-computer-vision-and-her-four-kingdoms-46i8",
+      "pubDate": "2026-09-03T20:44:09.000Z",
+      "description": "<p>Once upon a time, in the Universe of Machine Learning, on the planet of Computer Vision, there lived a powerful queen named OpenCV.</p> <p>Her royal palace stood in the Kingdom of C++, where she had ruled for many years. Her court was magnificent: image processing, object detection, feature extra",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "DaaC: The Lost XaaC Nobody Talks About",
+      "link": "https://dev.to/hatamabolghasemi/daac-the-lost-xaac-nobody-talks-about-1b77",
+      "pubDate": "2026-09-03T20:23:38.000Z",
+      "description": "<p>I needed three new VMs. Fine, easy, except I needed to know which IPs in the subnet were actually free first, and the \"system of record\" for that was, depending on the day, either a NetBox instance nobody had touched since the person who set it up left, or a Google Sheet that three people had \"th",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "I set up my first Docker SBX kit, and here's how I did it",
+      "link": "https://dev.to/yhary_arias/i-set-up-my-first-docker-sbx-kit-and-heres-how-i-did-it-b9a",
+      "pubDate": "2026-09-03T20:22:23.000Z",
+      "description": "<p>A practical guide to building a real MLflow mixin kit from scratch, errors included.</p> <p>Hey! Let me tell you something. When I first heard about <strong>Docker Sandbox Kits</strong>, my first reaction was: \"Okay, another YAML thing. How hard can it be?\"</p> <p>Spoiler: it was harder than expe",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "5 Reasons to Switch From Google Analytics in 2026",
+      "link": "https://dev.to/zenovay/5-reasons-to-switch-from-google-analytics-in-2026-1019",
+      "pubDate": "2026-09-03T20:21:03.000Z",
+      "description": "<p>Google Analytics has been the default for over a decade. It is free, it is everywhere, and most teams set it up without questioning whether they should.</p> <p>But the product you are using today is not the product you installed five years ago. GA4 arrived in 2023, and with it came a completely d",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Your Observability Bill Is a Codebase Nobody Reviews",
+      "link": "https://dev.to/nishant_arora/your-observability-bill-is-a-codebase-nobody-reviews-3827",
+      "pubDate": "2026-09-03T20:20:08.000Z",
+      "description": "<p><em>It started with one $120K/year config fix. By the time I stopped asking questions, it was $150K+/year in waste — and a FinOps framework I wish I'd had from day one.</em></p> <h2> Observability Spend Feels Like Insurance </h2> <p>I'm an Sr. SRE at a company that processes payroll for hundreds ",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "The Org Chart Is About to Become Obsolete",
+      "link": "https://dev.to/jalal246/the-org-chart-is-about-to-become-obsolete-5bd",
+      "pubDate": "2026-09-03T20:20:00.000Z",
+      "description": "<p>The org chart is about to become obsolete.</p> <p>Not because companies will stop needing people. </p> <p>Because companies will stop needing as many people to coordinate the work.</p> <p>For decades, scaling a company meant scaling management. More employees led to more managers, more coordinato",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "OpenAI's GPT-6 Astra on ARC-AGI-3",
+      "link": "https://arcprize.org/blog/astra",
+      "pubDate": "2026-09-03T19:45:00.000Z",
+      "description": "Article URL: https://arcprize.org/blog/astra Comments URL: https://news.ycombinator.com/item?id=49555691 Points: 58 # Comments: 25",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "European Infrastructure is having a Moment",
-      "link": "https://dev.to/eliasfromlily/european-infrastructure-is-having-a-moment-ml1",
-      "pubDate": "2026-09-03T16:08:29.000Z",
-      "description": "<p>While the demand for compute is blowing up, the supply side hasn't caught up. That gap is the entire opportunity.</p> <p>Something has started to shift in the European cloud space. It is not arriving in the form of launches, It is arriving in the form of experiments.</p> <p>Providers that spent a",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "RDP Into a Proxmox VM Without Opening It Up to the Network",
-      "link": "https://dev.to/lugerlogic/rdp-into-a-proxmox-vm-without-opening-it-up-to-the-network-52nj",
-      "pubDate": "2026-09-03T16:08:29.000Z",
-      "description": "<p>I run an Ubuntu Desktop VM on my Proxmox server and wanted to RDP into it without exposing port 3389 to my whole network. What i ended up with: <strong>tunnel RDP through SSH</strong>.</p> <h2> The Idea </h2> <p>I already trust my SSH connection to the Proxmox host. So instead of opening RDP up d",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "The Death of Story Points: Engineering Metrics in the Agentic Era",
-      "link": "https://dev.to/dmitryame/the-death-of-story-points-engineering-metrics-in-the-agentic-era-2kho",
-      "pubDate": "2026-09-03T16:07:55.000Z",
-      "description": "<p>Traditional Scrum optimizes for human cognitive load. Agentic development shatters this constraint. </p> <p>The two-week sprint, the Fibonacci estimation sequence, and bottom-up story pointing are artifacts of a legacy delivery model. When AI agents write the code, the correlation between task co",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Discord's Wild 2026: A 3-Hour Voice Catastrophe, a Hidden Mailbox Monster, and the Biggest Privacy Win in Gaming",
-      "link": "https://dev.to/theanalystsouvic/discords-wild-2026-a-3-hour-voice-catastrophe-a-hidden-mailbox-monster-and-the-biggest-privacy-1285",
-      "pubDate": "2026-09-03T16:07:41.000Z",
-      "description": "<p><em>A deep dive into the March 25th voice outage and the E2EE rollout that followed — two stories that together define Discord's most technically eventful year yet.</em></p> <p>If you were trying to hop on a Discord voice call on the afternoon of March 25, 2026, you probably stared at that madden",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Crawling at Scale: Scheduling, Deduplication, and Storage",
-      "link": "https://dev.to/3ni8ma/crawling-at-scale-scheduling-deduplication-and-storage-3e5p",
-      "pubDate": "2026-09-03T16:01:48.000Z",
-      "description": "<h2> The Frontier: What to Fetch Next </h2> <p>The crawl frontier is a priority queue of URLs, not a set. Rules that matter: scope filtering (stay on allowed hosts/paths), freshness (when to re-fetch a page), and prioritization (document pages over index pages). A frontier without priorities degener",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "The Biggest Problem With AI-Generated Code Isn't Bad Code. It's Unfamiliar Code.",
-      "link": "https://dev.to/hakeem/the-biggest-problem-with-ai-generated-code-isnt-bad-code-its-unfamiliar-code-3ama",
-      "pubDate": "2026-09-03T16:00:41.000Z",
-      "description": "<p>A developer opens a pull request. The feature works. The tests are green. The implementation looks reasonably clean. Then they realize the PR changes 17 files for what should have been a relatively small feature.<br> There is a new abstraction nobody on the team has seen before. A dependency has ",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Refactoring Safely: A Step-by-Step Guide",
-      "link": "https://dev.to/codeatlas/refactoring-safely-a-step-by-step-guide-2nlh",
-      "pubDate": "2026-09-03T16:00:32.000Z",
-      "description": "<h2> Refactoring Safely: A Step-by-Step Guide </h2> <p>We all know that feeling: a function that's 200 lines long, a class that does too many things, or a variable named <code>data2</code>. Refactoring is the cure, but doing it recklessly can break your app and your confidence. Here's how I approach",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "I Wanted \"agy .\" for Google Antigravity on WSL2 — So I Built \"wagy\"",
-      "link": "https://dev.to/rakbro/i-wanted-agy-for-google-antigravity-on-wsl2-so-i-built-wagy-44g1",
-      "pubDate": "2026-09-03T16:00:28.000Z",
-      "description": "<p>I use WSL2 as my main development environment on Windows.</p> <p>My projects live in Linux:<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight plaintext\"><code>/home/user/Projects/... </code></pre> </div> <p>Node.js, pnpm, Git, Docker, and the rest of my toolchain also run i",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Sony makes bold claim about game ownership",
-      "link": "https://aginggamer.net/game-industry/sony-makes-bold-claim-about-game-ownership/",
-      "pubDate": "2026-09-03T15:44:54.000Z",
-      "description": "Article URL: https://aginggamer.net/game-industry/sony-makes-bold-claim-about-game-ownership/ Comments URL: https://news.ycombinator.com/item?id=49551925 Points: 67 # Comments: 58",
+      "title": "The death of San Francisco's Market Street",
+      "link": "https://www.noahpinion.blog/p/the-death-of-market-street",
+      "pubDate": "2026-09-03T19:33:17.000Z",
+      "description": "Article URL: https://www.noahpinion.blog/p/the-death-of-market-street Comments URL: https://news.ycombinator.com/item?id=49555478 Points: 25 # Comments: 23",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "K2 Horizon: Frontier Performance, Radically Open",
+      "title": "The asteroid currently hitting front end web development",
+      "link": "https://nolanlawson.com/2026/08/23/the-asteroid-currently-hitting-frontend-web-development/",
+      "pubDate": "2026-09-03T19:17:24.000Z",
+      "description": "Article URL: https://nolanlawson.com/2026/08/23/the-asteroid-currently-hitting-frontend-web-development/ Comments URL: https://news.ycombinator.com/item?id=49555233 Points: 24 # Comments: 15",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "GPT-6 Astra",
+      "link": "https://openai.com/index/gpt-6-astra/",
+      "pubDate": "2026-09-03T18:41:05.000Z",
+      "description": "System Card: https://deploymentsafety.openai.com/gpt-6-astraRelated ongoing threads:OpenAI's GPT-6 Astra on ARC-AGI-3 - https://news.ycombinator.com/item?id=49555691GPT-6 Astra makes major gains in the Artificial Analysis Coding Agent Index - https://news.ycombinator.com/item?id=49556147 Comments UR",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Qwen 3.8 27B available on Cerebras at 1500 tokens/s",
+      "link": "https://inference-docs.cerebras.ai/models/overview",
+      "pubDate": "2026-09-03T18:32:13.000Z",
+      "description": "Article URL: https://inference-docs.cerebras.ai/models/overview Comments URL: https://news.ycombinator.com/item?id=49554520 Points: 291 # Comments: 96",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "How concerned should we be about Astra's recurrent architecture?",
+      "link": "https://www.lesswrong.com/posts/PLisnSFir8y5AHkmP/how-concerned-should-we-be-about-astra-s-recurrent",
+      "pubDate": "2026-09-03T17:10:06.000Z",
+      "description": "Article URL: https://www.lesswrong.com/posts/PLisnSFir8y5AHkmP/how-concerned-should-we-be-about-astra-s-recurrent Comments URL: https://news.ycombinator.com/item?id=49553321 Points: 44 # Comments: 23",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Gooseworks (YC W23) Is Hiring – Founding Creative Engineer",
+      "link": "https://www.ycombinator.com/companies/gooseworks/jobs/rfgY8La-founding-creative-engineer",
+      "pubDate": "2026-09-03T17:00:16.000Z",
+      "description": "Article URL: https://www.ycombinator.com/companies/gooseworks/jobs/rfgY8La-founding-creative-engineer Comments URL: https://news.ycombinator.com/item?id=49553173 Points: 0 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Launch HN: Mireye (YC S26) – Infrastructure for Physical World AI Agents",
+      "link": "https://news.ycombinator.com/item?id=49552616",
+      "pubDate": "2026-09-03T16:24:13.000Z",
+      "description": "Hi HN, I'm Ansh, founder of Mireye (https://www.mireye.com). I'm building the infrastructure AI agents use to make decisions about physical places: data, enrichment, tools, and signals for any US location, behind one API and MCP server.Here's a demo video: https://www.youtube.com/watch?v=haqO6UbUqU0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Artificial beaver dams saw juvenile coho salmon survival rates go from 8% to 60%",
+      "link": "https://www.discoverwildlife.com/animal-facts/artificial-beaver-dams-california",
+      "pubDate": "2026-09-03T16:21:33.000Z",
+      "description": "Article URL: https://www.discoverwildlife.com/animal-facts/artificial-beaver-dams-california Comments URL: https://news.ycombinator.com/item?id=49552572 Points: 75 # Comments: 21",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "K2 Horizon: A connected fleet of six open models",
       "link": "https://ifm.ai/blog/k2/",
       "pubDate": "2026-09-03T15:36:43.000Z",
-      "description": "Article URL: https://ifm.ai/blog/k2/ Comments URL: https://news.ycombinator.com/item?id=49551760 Points: 29 # Comments: 5",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "ChatGPT, Claude, and Grok Are Down",
-      "link": "https://www.macrumors.com/2026/09/03/chatgpt-claude-and-grok-are-down/",
-      "pubDate": "2026-09-03T15:30:10.000Z",
-      "description": "Article URL: https://www.macrumors.com/2026/09/03/chatgpt-claude-and-grok-are-down/ Comments URL: https://news.ycombinator.com/item?id=49551658 Points: 57 # Comments: 17",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Grok Outage",
-      "link": "https://status.x.ai/",
-      "pubDate": "2026-09-03T15:26:01.000Z",
-      "description": "Article URL: https://status.x.ai/ Comments URL: https://news.ycombinator.com/item?id=49551589 Points: 120 # Comments: 90",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Ask HN: Why are OpenAI, Claude, and Grok simultaneously down? Coincidence?",
-      "link": "https://news.ycombinator.com/item?id=49551096",
-      "pubDate": "2026-09-03T15:07:01.000Z",
-      "description": "https://status.openai.com https://status.claude.com https://status.x.ai Comments URL: https://news.ycombinator.com/item?id=49551096 Points: 79 # Comments: 60",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": ".name Termination",
-      "link": "https://neil.fraser.name/news/2026/09/03/",
-      "pubDate": "2026-09-03T14:54:39.000Z",
-      "description": "Article URL: https://neil.fraser.name/news/2026/09/03/ Comments URL: https://news.ycombinator.com/item?id=49550772 Points: 97 # Comments: 23",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Codex Is Down",
-      "link": "https://github.com/openai/codex/issues/28756",
-      "pubDate": "2026-09-03T14:54:31.000Z",
-      "description": "Article URL: https://github.com/openai/codex/issues/28756 Comments URL: https://news.ycombinator.com/item?id=49550769 Points: 95 # Comments: 41",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Any Human Ever – One life, drawn at random from all who have ever lived",
-      "link": "https://anyhumanever.com/",
-      "pubDate": "2026-09-03T14:51:10.000Z",
-      "description": "Article URL: https://anyhumanever.com/ Comments URL: https://news.ycombinator.com/item?id=49550698 Points: 82 # Comments: 47",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "ChatGPT Is Throwing 404",
-      "link": "https://chatgpt.com/",
-      "pubDate": "2026-09-03T14:46:47.000Z",
-      "description": "Article URL: https://chatgpt.com/ Comments URL: https://news.ycombinator.com/item?id=49550614 Points: 342 # Comments: 259",
+      "description": "Article URL: https://ifm.ai/blog/k2/ Comments URL: https://news.ycombinator.com/item?id=49551760 Points: 203 # Comments: 70",
       "source": "Hacker News",
       "category": "Tech News"
     },
