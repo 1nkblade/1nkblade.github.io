@@ -1,102 +1,126 @@
 {
-  "generatedAt": "2026-09-04T04:35:01.102Z",
+  "generatedAt": "2026-09-04T11:18:59.783Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "When Code Looks Fine but Isn’t: Building Nice Code for Evidence-Based Review",
-      "link": "https://dev.to/sayanmohsin/when-code-looks-fine-but-isnt-building-nice-code-for-evidence-based-review-212b",
-      "pubDate": "2026-09-04T04:23:23.000Z",
-      "description": "<p>A pull request can pass the compiler, the formatter, and the linter and still leave behind a serious engineering problem.</p> <p>Maybe two independent network requests are being awaited one after another. Maybe a log line includes credentials or personal data. Maybe an error is being discarded wi",
+      "title": "Persist AI Agent State on Free Servers with JSON Checkpoints",
+      "link": "https://dev.to/applab_743/persist-ai-agent-state-on-free-servers-with-json-checkpoints-5c14",
+      "pubDate": "2026-09-04T11:10:07.000Z",
+      "description": "<p>I stop losing AI agent insights on free ephemeral servers by writing a JSON checkpoint after every meaningful step and loading that file before the next session does any real work. Token grants fund compute, but only an external persistence layer preserves the context the agent already paid to ea",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Proving Your AI Agent Rules Hold for Every Input — Not Just the Ones You Tested",
-      "link": "https://dev.to/haorantang/proving-your-ai-agent-rules-hold-for-every-input-not-just-the-ones-you-tested-2984",
-      "pubDate": "2026-09-04T04:21:39.000Z",
-      "description": "<h1> Proving Your AI Agent Rules Hold for Every Input — Not Just the Ones You Tested </h1> <p>Here's a question your auditors will eventually ask: <strong>\"This decision the agent made — on what basis?\"</strong></p> <p>LLMs are probabilistic. Ask twice, get two answers. If your enterprise delegates ",
+      "title": "Migrating Petabyte-Scale Parquet to Iceberg Without Dropping a Single Row",
+      "link": "https://dev.to/aniketsoni/migrating-petabyte-scale-parquet-to-iceberg-without-dropping-a-single-row-3k9g",
+      "pubDate": "2026-09-04T11:09:57.000Z",
+      "description": "<p>Roughly 70% of companies that migrate their data lakes to Iceberg end up with \"zombie\" datasets: half-migrated, out-of-sync, and consuming double the storage costs. They treat the migration like a switch-flip, and that is exactly how you cause a P0 incident.</p> <blockquote> <p><strong>Why I chos",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I built GitCard, a visual portfolio for developers",
-      "link": "https://dev.to/ptb4866/i-built-gitcard-a-visual-portfolio-for-developers-2j1g",
-      "pubDate": "2026-09-04T04:20:29.000Z",
-      "description": "<p>I’ve been working on a side project called <strong>GitCard</strong>, and I’m finally at the point where I’d like other developers to try it.</p> <p>The original idea was pretty simple:</p> <p>Developers have GitHub, LinkedIn, resumes, and personal websites, but it can still be difficult to quickl",
+      "title": "Don't put an LLM in charge of your production database",
+      "link": "https://dev.to/aniketsoni/dont-put-an-llm-in-charge-of-your-production-database-1o9e",
+      "pubDate": "2026-09-04T11:09:23.000Z",
+      "description": "<p>Last June, a junior analyst pushed a \"helpful\" GenAI assistant to our internal Tableau-connected lakehouse. Within forty minutes, the agent generated a <code>SELECT *</code> across a 40-terabyte partitioned table joined against a cross-region S3 bucket. The query didn't just fail; it locked the D",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How I Built My Personal Blog &amp; Portfolio",
-      "link": "https://dev.to/osafalisayed/how-i-built-my-personal-blog-portfolio-4b9n",
-      "pubDate": "2026-09-04T04:19:02.000Z",
-      "description": "<p>You might be reading this blog on my personal website, which also serves as my portfolio. I use this space to document what I’m building, the decisions I make, and the things I learn along the way as a freelancer.</p> <p>In this article, I’ll walk through the architecture and implementation of my",
+      "title": "Invoice2Excel Pro – A local, privacy-focused GUI tool built with Python &amp; CustomTkinter to extract PDF invoices to Excel",
+      "link": "https://dev.to/travletothefurureprogramming/invoice2excel-pro-a-local-privacy-focused-gui-tool-built-with-python-customtkinter-to-extract-4kde",
+      "pubDate": "2026-09-04T11:06:54.000Z",
+      "description": "<h1> Invoice2Excel Pro – A Local, Privacy-Focused PDF Invoice Parser </h1> <p>Hi everyone!</p> <p>I built <strong>Invoice2Excel Pro</strong>, an open-source desktop application that automatically reads PDF invoices and exports key financial data into structured Excel (<code>.xlsx</code>) spreadsheet",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Why I Built Arqen: Giving Backend Infrastructure a Clear Home in Rust",
-      "link": "https://dev.to/sayanmohsin/why-i-built-arqen-giving-backend-infrastructure-a-clear-home-in-rust-429l",
-      "pubDate": "2026-09-04T04:13:22.000Z",
-      "description": "<p>Most backend projects do not become complicated all at once.</p> <p>They start with a route or two. Then come configuration, authentication, storage, background work, health checks, logging, metrics, migrations, and deployment concerns.</p> <p>Each addition is reasonable on its own, but over time",
+      "title": "When the Token Well Runs Dry: A Degradation State Machine for LLM Services",
+      "link": "https://dev.to/apprs_6334/when-the-token-well-runs-dry-a-degradation-state-machine-for-llm-services-1fhm",
+      "pubDate": "2026-09-04T11:06:12.000Z",
+      "description": "<p>The alert fires at 3:14 AM. Your LLM service returns 500s. The free quota is gone. You check the dashboard. 10,000,000 tokens. Zero remaining.</p> <p>Most guides teach prevention. Budgets. Ledgers. Pre-checks. This one teaches survival. What happens after the quota dies? The answer determines if ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "GEO for Developers: Structuring Websites for AI Search, Retrieval, and Entity Clarity",
-      "link": "https://dev.to/joynomediaofficial/geo-for-developers-structuring-websites-for-ai-search-retrieval-and-entity-clarity-3dmd",
-      "pubDate": "2026-09-04T04:01:34.000Z",
-      "description": "<p>Generative Engine Optimization (GEO) is not only a content-writing task. Developers influence whether AI-powered search systems can reliably access, interpret, connect, and retrieve the information published on a website.</p> <p>A GEO-friendly website should make important relationships obvious:<",
+      "title": "Real-Time Features Need to Match Your Infrastructure, Not Just Your Feature Spec",
+      "link": "https://dev.to/ariyoaresa/real-time-features-need-to-match-your-infrastructure-not-just-your-feature-spec-1pi3",
+      "pubDate": "2026-09-04T11:06:09.000Z",
+      "description": "<p>I got an email from Vercel.</p> <p>\"You've used 75% of your free plan resources.\"</p> <p>I ignored it.</p> <p>A few hours later, I was at 100%.</p> <p>I'd been building VisionBoard — AI workflows, MCPs, goal tracking, task assignments, a notification engine, the usual list of things a project man",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Copy Files Between a Mac and AWS EC2 with SCP",
-      "link": "https://dev.to/mike_anderson_d01f52129fb/copy-files-between-a-mac-and-aws-ec2-with-scp-3gem",
-      "pubDate": "2026-09-04T03:59:55.000Z",
-      "description": "<p>If you already connect from your Mac to a Linux Amazon EC2 instance with an SSH key pair, <code>scp</code> is the simplest tool for a one-time file transfer. It uses the same SSH connection, identity, and network path.</p> <p>One detail matters: your <strong>private key stays on the Mac</strong>.",
+      "title": "Putting GitHub Actions runners on your private network with NetBird",
+      "link": "https://dev.to/ankurk91/putting-github-actions-runners-on-your-private-network-with-netbird-3hcg",
+      "pubDate": "2026-09-04T11:05:45.000Z",
+      "description": "<p>Sooner or later a CI job needs to reach something that is not on the public internet. A staging database, an internal<br> container registry, a deploy target sitting behind a firewall, an integration test suite that talks to a service you<br> have no intention of exposing.</p> <p>The usual answer",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Muse Spark 1.3 - A Review",
-      "link": "https://dev.to/gosukiwi/muse-spark-13-a-review-3h7",
-      "pubDate": "2026-09-04T03:56:36.000Z",
-      "description": "<p>In this post I'll talk about my brief experience with <code>muse</code>, Meta's LLM harness for developers, as well as Muse Spark 1.3, their latest frontier-level model.</p> <h1> The Bad </h1> <p>I'll start with the bad, just because I like to end with the positive :)</p> <h2> Skill Usage </h2> <",
+      "title": "A Webhook, a Free Server, and a Token Ledger",
+      "link": "https://dev.to/applab_8831/a-webhook-a-free-server-and-a-token-ledger-36jo",
+      "pubDate": "2026-09-04T11:04:12.000Z",
+      "description": "<p>A developer needed a small notification service. GitHub pushes had to become short messages in a private chat. The budget was zero, and the tolerance for maintenance was lower than the budget.</p> <p>The obvious options were a hosted function or a cheap VPS. Both cost something, and both came wit",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Your OpenSearch aggregation is lying to you: it returns 200 OK",
-      "link": "https://dev.to/ab1109/your-opensearch-aggregation-is-lying-to-you-it-returns-200-ok-4a2p",
-      "pubDate": "2026-09-04T03:54:28.000Z",
-      "description": "<p>A dashboard panel went blank in production. No error in the logs, no failed request, no alert. The panel just showed \"no data\", and the query had been fine for months.</p> <p>The cause: someone renamed an index field from <code>customer_country</code> to <code>country</code>, updated the mapping,",
+      "title": "Free AI Tiers Fail Differently. Run a Budget Burn-Down Before You Commit.",
+      "link": "https://dev.to/gitrs_5994/free-ai-tiers-fail-differently-run-a-budget-burn-down-before-you-commit-d4j",
+      "pubDate": "2026-09-04T11:02:54.000Z",
+      "description": "<p>A free AI tier is not a smaller paid tier. It is a different product with different failure modes. Token price is only half of the equation. The real metric is tokens per passing task.</p> <p>AI coding assistants now compete on free access. Open-source projects use token grants as their growth en",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "What a Linux Safety Certification Actually Covers",
-      "link": "https://dev.to/raghu_bharadwaj_404e60eb0c/what-a-linux-safety-certification-actually-covers-45oh",
-      "pubDate": "2026-09-04T03:51:46.000Z",
-      "description": "<blockquote> <p>A Linux safety certification is a statement about one defined software configuration running on named hardware, assessed by a named body. It is not a statement about the Linux kernel, and it does not give your item its integrity level. The document describing how a component like the",
+      "title": "It Ran Every Morning and Still Broke: Failure Modes of a Free-Tier AI Job",
+      "link": "https://dev.to/codego_3211/it-ran-every-morning-and-still-broke-failure-modes-of-a-free-tier-ai-job-2bmo",
+      "pubDate": "2026-09-04T11:02:36.000Z",
+      "description": "<p>The cron log said <code>exit 0</code> every morning. The summary file updated on schedule. The job was running. The output was wrong.</p> <p>This is an autopsy of a small automation that failed without crashing. It ran on MonkeyCode's free tier: a daily job that fetched upstream release notes, su",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Grep beats LSP? Why coding agents ignore your fancier tools",
-      "link": "https://www.agentconnect.md/blog/grep-beat-lsp-harness/",
-      "pubDate": "2026-09-04T03:40:26.000Z",
-      "description": "Article URL: https://www.agentconnect.md/blog/grep-beat-lsp-harness/ Comments URL: https://news.ycombinator.com/item?id=49560260 Points: 12 # Comments: 1",
+      "title": "OpenAI agents hijacked German website in previously undisclosed AI breakout",
+      "link": "https://www.reuters.com/world/europe/openai-agents-hijacked-german-website-previously-undisclosed-ai-breakout-this-2026-09-04/",
+      "pubDate": "2026-09-04T10:30:57.000Z",
+      "description": "Article URL: https://www.reuters.com/world/europe/openai-agents-hijacked-german-website-previously-undisclosed-ai-breakout-this-2026-09-04/ Comments URL: https://news.ycombinator.com/item?id=49562744 Points: 12 # Comments: 5",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "A Mysterious Kidney Disease Has Arrived in Texas",
-      "link": "https://www.texasmonthly.com/news-politics/ckdu-kidney-disease-immigration/",
-      "pubDate": "2026-09-04T02:54:16.000Z",
-      "description": "Article URL: https://www.texasmonthly.com/news-politics/ckdu-kidney-disease-immigration/ Comments URL: https://news.ycombinator.com/item?id=49559992 Points: 22 # Comments: 23",
+      "title": "Solving the Jane Street Reverse Engineering Challenge",
+      "link": "https://jestoph.com/2026/09/04/jane-street-challenge.html",
+      "pubDate": "2026-09-04T10:17:01.000Z",
+      "description": "Article URL: https://jestoph.com/2026/09/04/jane-street-challenge.html Comments URL: https://news.ycombinator.com/item?id=49562657 Points: 27 # Comments: 11",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "The Raspberry Pi Interactive Timeline · 2006–2026",
+      "link": "https://raspberry.tips/en/raspberrypi-infos/raspberry-pi-history-timeline",
+      "pubDate": "2026-09-04T08:35:15.000Z",
+      "description": "Article URL: https://raspberry.tips/en/raspberrypi-infos/raspberry-pi-history-timeline Comments URL: https://news.ycombinator.com/item?id=49562062 Points: 33 # Comments: 24",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Carbon-aware electricity pricing, measured daily on 38 grids",
+      "link": "https://carbonawarepricing.com/",
+      "pubDate": "2026-09-04T08:19:57.000Z",
+      "description": "Article URL: https://carbonawarepricing.com/ Comments URL: https://news.ycombinator.com/item?id=49561975 Points: 45 # Comments: 18",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Hackers Had a Live Feed of Every ID Verification Company Scanned for over a Year",
+      "link": "http://www.techdirt.com/2026/09/03/hackers-had-a-live-feed-of-every-id-this-verification-company-scanned-for-over-a-year/",
+      "pubDate": "2026-09-04T06:47:51.000Z",
+      "description": "Article URL: http://www.techdirt.com/2026/09/03/hackers-had-a-live-feed-of-every-id-this-verification-company-scanned-for-over-a-year/ Comments URL: https://news.ycombinator.com/item?id=49561320 Points: 199 # Comments: 63",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -104,23 +128,15 @@
       "title": "From Hookswitch to Grave",
       "link": "https://computer.rip/2026-06-14-hookswitch-to-grave.html",
       "pubDate": "2026-09-04T02:40:12.000Z",
-      "description": "Article URL: https://computer.rip/2026-06-14-hookswitch-to-grave.html Comments URL: https://news.ycombinator.com/item?id=49559901 Points: 10 # Comments: 0",
+      "description": "Article URL: https://computer.rip/2026-06-14-hookswitch-to-grave.html Comments URL: https://news.ycombinator.com/item?id=49559901 Points: 30 # Comments: 2",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Project Xanadu: Even More Hindsight",
+      "title": "Project Xanadu: Even More Hindsight (2025)",
       "link": "https://gwern.net/xanadu",
       "pubDate": "2026-09-04T01:45:23.000Z",
-      "description": "Article URL: https://gwern.net/xanadu Comments URL: https://news.ycombinator.com/item?id=49559522 Points: 33 # Comments: 5",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "GLP-1s are being linked to fewer serious infections, including TB",
-      "link": "https://gizmodo.com/ozempic-and-other-glp-1s-are-being-linked-to-fewer-serious-infections-including-tb-2000806796",
-      "pubDate": "2026-09-03T22:37:31.000Z",
-      "description": "https://web.archive.org/web/20260903235256/https://gizmodo.c... Comments URL: https://news.ycombinator.com/item?id=49558086 Points: 85 # Comments: 43",
+      "description": "Article URL: https://gwern.net/xanadu Comments URL: https://news.ycombinator.com/item?id=49559522 Points: 85 # Comments: 23",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -128,23 +144,7 @@
       "title": "Which tools do Claude, Codex and Cursor choose? We measured 17k runs to find out",
       "link": "https://armature.tech/blog/which-tools-coding-agents-install",
       "pubDate": "2026-09-03T21:20:34.000Z",
-      "description": "Article URL: https://armature.tech/blog/which-tools-coding-agents-install Comments URL: https://news.ycombinator.com/item?id=49557206 Points: 135 # Comments: 49",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Tasklet (YC P26) Is Hiring a Customer Success Engineer",
-      "link": "https://tasklet.ai/careers/customer-success-engineer",
-      "pubDate": "2026-09-03T21:01:10.000Z",
-      "description": "Article URL: https://tasklet.ai/careers/customer-success-engineer Comments URL: https://news.ycombinator.com/item?id=49556922 Points: 0 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "OpenAI's GPT-6 Astra on ARC-AGI-3",
-      "link": "https://arcprize.org/blog/astra",
-      "pubDate": "2026-09-03T19:45:00.000Z",
-      "description": "Article URL: https://arcprize.org/blog/astra Comments URL: https://news.ycombinator.com/item?id=49555691 Points: 181 # Comments: 117",
+      "description": "Article URL: https://armature.tech/blog/which-tools-coding-agents-install Comments URL: https://news.ycombinator.com/item?id=49557206 Points: 232 # Comments: 106",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -152,7 +152,7 @@
       "title": "The asteroid currently hitting front end web development",
       "link": "https://nolanlawson.com/2026/08/23/the-asteroid-currently-hitting-frontend-web-development/",
       "pubDate": "2026-09-03T19:17:24.000Z",
-      "description": "Article URL: https://nolanlawson.com/2026/08/23/the-asteroid-currently-hitting-frontend-web-development/ Comments URL: https://news.ycombinator.com/item?id=49555233 Points: 100 # Comments: 112",
+      "description": "Article URL: https://nolanlawson.com/2026/08/23/the-asteroid-currently-hitting-frontend-web-development/ Comments URL: https://news.ycombinator.com/item?id=49555233 Points: 166 # Comments: 194",
       "source": "Hacker News",
       "category": "Tech News"
     },
