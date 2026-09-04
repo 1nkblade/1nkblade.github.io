@@ -1,102 +1,150 @@
 {
-  "generatedAt": "2026-09-03T21:03:01.830Z",
+  "generatedAt": "2026-09-04T04:35:01.102Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "Why I Rewrote My Flutter Tray App as a C++ Daemon",
-      "link": "https://dev.to/muhammetali/why-i-rewrote-my-flutter-tray-app-as-a-c-daemon-1oec",
-      "pubDate": "2026-09-03T20:53:21.000Z",
-      "description": "<p>I built a screen-capture tool for Linux in Flutter. Tray icon, global hotkey, region select, done — that was the plan. It worked, right up until three separate parts of the Linux desktop stack quietly broke it in ways that never showed up as errors. I ended up splitting the app into a long-runnin",
+      "title": "When Code Looks Fine but Isn’t: Building Nice Code for Evidence-Based Review",
+      "link": "https://dev.to/sayanmohsin/when-code-looks-fine-but-isnt-building-nice-code-for-evidence-based-review-212b",
+      "pubDate": "2026-09-04T04:23:23.000Z",
+      "description": "<p>A pull request can pass the compiler, the formatter, and the linter and still leave behind a serious engineering problem.</p> <p>Maybe two independent network requests are being awaited one after another. Maybe a log line includes credentials or personal data. Maybe an error is being discarded wi",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I built a 12-state accountability layer for AI agents here's what I learned",
-      "link": "https://dev.to/yaminbinyoosuf/i-built-a-12-state-accountability-layer-for-ai-agents-heres-what-i-learned-361i",
-      "pubDate": "2026-09-03T20:49:01.000Z",
-      "description": "<p>By the time you finish reading this, your AI agent will have made at least one promise it can't keep.</p> <p>That's not a dig at your code. It's a fundamental property of how we build AI systems today. Agents are brilliant at generating intent and terrible at tracking it. They'll promise to email",
+      "title": "Proving Your AI Agent Rules Hold for Every Input — Not Just the Ones You Tested",
+      "link": "https://dev.to/haorantang/proving-your-ai-agent-rules-hold-for-every-input-not-just-the-ones-you-tested-2984",
+      "pubDate": "2026-09-04T04:21:39.000Z",
+      "description": "<h1> Proving Your AI Agent Rules Hold for Every Input — Not Just the Ones You Tested </h1> <p>Here's a question your auditors will eventually ask: <strong>\"This decision the agent made — on what basis?\"</strong></p> <p>LLMs are probabilistic. Ask twice, get two answers. If your enterprise delegates ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Prompt filters are advisory. Enforce on the execution path.",
-      "link": "https://dev.to/doberman/prompt-filters-are-advisory-enforce-on-the-execution-path-kd4",
-      "pubDate": "2026-09-03T20:46:10.000Z",
-      "description": "<p>Simon Willison calls it the lethal trifecta: private data, untrusted content, and a way to exfiltrate, all in the same session. A coding agent on your laptop has all three by default. It reads your code (private data), it reads whatever a dependency's README or a fetched URL says (untrusted conte",
+      "title": "I built GitCard, a visual portfolio for developers",
+      "link": "https://dev.to/ptb4866/i-built-gitcard-a-visual-portfolio-for-developers-2j1g",
+      "pubDate": "2026-09-04T04:20:29.000Z",
+      "description": "<p>I’ve been working on a side project called <strong>GitCard</strong>, and I’m finally at the point where I’d like other developers to try it.</p> <p>The original idea was pretty simple:</p> <p>Developers have GitHub, LinkedIn, resumes, and personal websites, but it can still be difficult to quickl",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Ressuscitei uma impressora térmica de banco que não fala ESC/POS nem imprime QR Code",
-      "link": "https://dev.to/feliperocha7/ressuscitei-uma-impressora-termica-de-banco-que-nao-fala-escpos-nem-imprime-qr-code-jb0",
-      "pubDate": "2026-09-03T20:44:30.000Z",
-      "description": "<p><em>Como fazer uma impressora que \"imprime tudo errado e não faz QR Code\" voltar a<br> ser útil num PDV moderno — sem trocar nada nela.</em></p> <h2> O problema </h2> <p>Tem uma pilha de impressoras térmicas <strong>Diebold Procomp IM453H</strong> (e primas:<br> IM433, IT4x2, IM1x3I, TSP143M) enc",
+      "title": "How I Built My Personal Blog &amp; Portfolio",
+      "link": "https://dev.to/osafalisayed/how-i-built-my-personal-blog-portfolio-4b9n",
+      "pubDate": "2026-09-04T04:19:02.000Z",
+      "description": "<p>You might be reading this blog on my personal website, which also serves as my portfolio. I use this space to document what I’m building, the decisions I make, and the things I learn along the way as a freelancer.</p> <p>In this article, I’ll walk through the architecture and implementation of my",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The Queen of Computer Vision and Her Kingdoms",
-      "link": "https://dev.to/opaul/the-queen-of-computer-vision-and-her-four-kingdoms-46i8",
-      "pubDate": "2026-09-03T20:44:09.000Z",
-      "description": "<p>Once upon a time, in the Universe of Machine Learning, on the planet of Computer Vision, there lived a powerful queen named OpenCV.</p> <p>Her royal palace stood in the Kingdom of C++, where she had ruled for many years. Her court was magnificent: image processing, object detection, feature extra",
+      "title": "Why I Built Arqen: Giving Backend Infrastructure a Clear Home in Rust",
+      "link": "https://dev.to/sayanmohsin/why-i-built-arqen-giving-backend-infrastructure-a-clear-home-in-rust-429l",
+      "pubDate": "2026-09-04T04:13:22.000Z",
+      "description": "<p>Most backend projects do not become complicated all at once.</p> <p>They start with a route or two. Then come configuration, authentication, storage, background work, health checks, logging, metrics, migrations, and deployment concerns.</p> <p>Each addition is reasonable on its own, but over time",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "DaaC: The Lost XaaC Nobody Talks About",
-      "link": "https://dev.to/hatamabolghasemi/daac-the-lost-xaac-nobody-talks-about-1b77",
-      "pubDate": "2026-09-03T20:23:38.000Z",
-      "description": "<p>I needed three new VMs. Fine, easy, except I needed to know which IPs in the subnet were actually free first, and the \"system of record\" for that was, depending on the day, either a NetBox instance nobody had touched since the person who set it up left, or a Google Sheet that three people had \"th",
+      "title": "GEO for Developers: Structuring Websites for AI Search, Retrieval, and Entity Clarity",
+      "link": "https://dev.to/joynomediaofficial/geo-for-developers-structuring-websites-for-ai-search-retrieval-and-entity-clarity-3dmd",
+      "pubDate": "2026-09-04T04:01:34.000Z",
+      "description": "<p>Generative Engine Optimization (GEO) is not only a content-writing task. Developers influence whether AI-powered search systems can reliably access, interpret, connect, and retrieve the information published on a website.</p> <p>A GEO-friendly website should make important relationships obvious:<",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I set up my first Docker SBX kit, and here's how I did it",
-      "link": "https://dev.to/yhary_arias/i-set-up-my-first-docker-sbx-kit-and-heres-how-i-did-it-b9a",
-      "pubDate": "2026-09-03T20:22:23.000Z",
-      "description": "<p>A practical guide to building a real MLflow mixin kit from scratch, errors included.</p> <p>Hey! Let me tell you something. When I first heard about <strong>Docker Sandbox Kits</strong>, my first reaction was: \"Okay, another YAML thing. How hard can it be?\"</p> <p>Spoiler: it was harder than expe",
+      "title": "Copy Files Between a Mac and AWS EC2 with SCP",
+      "link": "https://dev.to/mike_anderson_d01f52129fb/copy-files-between-a-mac-and-aws-ec2-with-scp-3gem",
+      "pubDate": "2026-09-04T03:59:55.000Z",
+      "description": "<p>If you already connect from your Mac to a Linux Amazon EC2 instance with an SSH key pair, <code>scp</code> is the simplest tool for a one-time file transfer. It uses the same SSH connection, identity, and network path.</p> <p>One detail matters: your <strong>private key stays on the Mac</strong>.",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "5 Reasons to Switch From Google Analytics in 2026",
-      "link": "https://dev.to/zenovay/5-reasons-to-switch-from-google-analytics-in-2026-1019",
-      "pubDate": "2026-09-03T20:21:03.000Z",
-      "description": "<p>Google Analytics has been the default for over a decade. It is free, it is everywhere, and most teams set it up without questioning whether they should.</p> <p>But the product you are using today is not the product you installed five years ago. GA4 arrived in 2023, and with it came a completely d",
+      "title": "Muse Spark 1.3 - A Review",
+      "link": "https://dev.to/gosukiwi/muse-spark-13-a-review-3h7",
+      "pubDate": "2026-09-04T03:56:36.000Z",
+      "description": "<p>In this post I'll talk about my brief experience with <code>muse</code>, Meta's LLM harness for developers, as well as Muse Spark 1.3, their latest frontier-level model.</p> <h1> The Bad </h1> <p>I'll start with the bad, just because I like to end with the positive :)</p> <h2> Skill Usage </h2> <",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Your Observability Bill Is a Codebase Nobody Reviews",
-      "link": "https://dev.to/nishant_arora/your-observability-bill-is-a-codebase-nobody-reviews-3827",
-      "pubDate": "2026-09-03T20:20:08.000Z",
-      "description": "<p><em>It started with one $120K/year config fix. By the time I stopped asking questions, it was $150K+/year in waste — and a FinOps framework I wish I'd had from day one.</em></p> <h2> Observability Spend Feels Like Insurance </h2> <p>I'm an Sr. SRE at a company that processes payroll for hundreds ",
+      "title": "Your OpenSearch aggregation is lying to you: it returns 200 OK",
+      "link": "https://dev.to/ab1109/your-opensearch-aggregation-is-lying-to-you-it-returns-200-ok-4a2p",
+      "pubDate": "2026-09-04T03:54:28.000Z",
+      "description": "<p>A dashboard panel went blank in production. No error in the logs, no failed request, no alert. The panel just showed \"no data\", and the query had been fine for months.</p> <p>The cause: someone renamed an index field from <code>customer_country</code> to <code>country</code>, updated the mapping,",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The Org Chart Is About to Become Obsolete",
-      "link": "https://dev.to/jalal246/the-org-chart-is-about-to-become-obsolete-5bd",
-      "pubDate": "2026-09-03T20:20:00.000Z",
-      "description": "<p>The org chart is about to become obsolete.</p> <p>Not because companies will stop needing people. </p> <p>Because companies will stop needing as many people to coordinate the work.</p> <p>For decades, scaling a company meant scaling management. More employees led to more managers, more coordinato",
+      "title": "What a Linux Safety Certification Actually Covers",
+      "link": "https://dev.to/raghu_bharadwaj_404e60eb0c/what-a-linux-safety-certification-actually-covers-45oh",
+      "pubDate": "2026-09-04T03:51:46.000Z",
+      "description": "<blockquote> <p>A Linux safety certification is a statement about one defined software configuration running on named hardware, assessed by a named body. It is not a statement about the Linux kernel, and it does not give your item its integrity level. The document describing how a component like the",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "Grep beats LSP? Why coding agents ignore your fancier tools",
+      "link": "https://www.agentconnect.md/blog/grep-beat-lsp-harness/",
+      "pubDate": "2026-09-04T03:40:26.000Z",
+      "description": "Article URL: https://www.agentconnect.md/blog/grep-beat-lsp-harness/ Comments URL: https://news.ycombinator.com/item?id=49560260 Points: 12 # Comments: 1",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "A Mysterious Kidney Disease Has Arrived in Texas",
+      "link": "https://www.texasmonthly.com/news-politics/ckdu-kidney-disease-immigration/",
+      "pubDate": "2026-09-04T02:54:16.000Z",
+      "description": "Article URL: https://www.texasmonthly.com/news-politics/ckdu-kidney-disease-immigration/ Comments URL: https://news.ycombinator.com/item?id=49559992 Points: 22 # Comments: 23",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "From Hookswitch to Grave",
+      "link": "https://computer.rip/2026-06-14-hookswitch-to-grave.html",
+      "pubDate": "2026-09-04T02:40:12.000Z",
+      "description": "Article URL: https://computer.rip/2026-06-14-hookswitch-to-grave.html Comments URL: https://news.ycombinator.com/item?id=49559901 Points: 10 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Project Xanadu: Even More Hindsight",
+      "link": "https://gwern.net/xanadu",
+      "pubDate": "2026-09-04T01:45:23.000Z",
+      "description": "Article URL: https://gwern.net/xanadu Comments URL: https://news.ycombinator.com/item?id=49559522 Points: 33 # Comments: 5",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "GLP-1s are being linked to fewer serious infections, including TB",
+      "link": "https://gizmodo.com/ozempic-and-other-glp-1s-are-being-linked-to-fewer-serious-infections-including-tb-2000806796",
+      "pubDate": "2026-09-03T22:37:31.000Z",
+      "description": "https://web.archive.org/web/20260903235256/https://gizmodo.c... Comments URL: https://news.ycombinator.com/item?id=49558086 Points: 85 # Comments: 43",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Which tools do Claude, Codex and Cursor choose? We measured 17k runs to find out",
+      "link": "https://armature.tech/blog/which-tools-coding-agents-install",
+      "pubDate": "2026-09-03T21:20:34.000Z",
+      "description": "Article URL: https://armature.tech/blog/which-tools-coding-agents-install Comments URL: https://news.ycombinator.com/item?id=49557206 Points: 135 # Comments: 49",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Tasklet (YC P26) Is Hiring a Customer Success Engineer",
+      "link": "https://tasklet.ai/careers/customer-success-engineer",
+      "pubDate": "2026-09-03T21:01:10.000Z",
+      "description": "Article URL: https://tasklet.ai/careers/customer-success-engineer Comments URL: https://news.ycombinator.com/item?id=49556922 Points: 0 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "OpenAI's GPT-6 Astra on ARC-AGI-3",
       "link": "https://arcprize.org/blog/astra",
       "pubDate": "2026-09-03T19:45:00.000Z",
-      "description": "Article URL: https://arcprize.org/blog/astra Comments URL: https://news.ycombinator.com/item?id=49555691 Points: 58 # Comments: 25",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "The death of San Francisco's Market Street",
-      "link": "https://www.noahpinion.blog/p/the-death-of-market-street",
-      "pubDate": "2026-09-03T19:33:17.000Z",
-      "description": "Article URL: https://www.noahpinion.blog/p/the-death-of-market-street Comments URL: https://news.ycombinator.com/item?id=49555478 Points: 25 # Comments: 23",
+      "description": "Article URL: https://arcprize.org/blog/astra Comments URL: https://news.ycombinator.com/item?id=49555691 Points: 181 # Comments: 117",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -104,7 +152,7 @@
       "title": "The asteroid currently hitting front end web development",
       "link": "https://nolanlawson.com/2026/08/23/the-asteroid-currently-hitting-frontend-web-development/",
       "pubDate": "2026-09-03T19:17:24.000Z",
-      "description": "Article URL: https://nolanlawson.com/2026/08/23/the-asteroid-currently-hitting-frontend-web-development/ Comments URL: https://news.ycombinator.com/item?id=49555233 Points: 24 # Comments: 15",
+      "description": "Article URL: https://nolanlawson.com/2026/08/23/the-asteroid-currently-hitting-frontend-web-development/ Comments URL: https://news.ycombinator.com/item?id=49555233 Points: 100 # Comments: 112",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -113,54 +161,6 @@
       "link": "https://openai.com/index/gpt-6-astra/",
       "pubDate": "2026-09-03T18:41:05.000Z",
       "description": "System Card: https://deploymentsafety.openai.com/gpt-6-astraRelated ongoing threads:OpenAI's GPT-6 Astra on ARC-AGI-3 - https://news.ycombinator.com/item?id=49555691GPT-6 Astra makes major gains in the Artificial Analysis Coding Agent Index - https://news.ycombinator.com/item?id=49556147 Comments UR",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Qwen 3.8 27B available on Cerebras at 1500 tokens/s",
-      "link": "https://inference-docs.cerebras.ai/models/overview",
-      "pubDate": "2026-09-03T18:32:13.000Z",
-      "description": "Article URL: https://inference-docs.cerebras.ai/models/overview Comments URL: https://news.ycombinator.com/item?id=49554520 Points: 291 # Comments: 96",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "How concerned should we be about Astra's recurrent architecture?",
-      "link": "https://www.lesswrong.com/posts/PLisnSFir8y5AHkmP/how-concerned-should-we-be-about-astra-s-recurrent",
-      "pubDate": "2026-09-03T17:10:06.000Z",
-      "description": "Article URL: https://www.lesswrong.com/posts/PLisnSFir8y5AHkmP/how-concerned-should-we-be-about-astra-s-recurrent Comments URL: https://news.ycombinator.com/item?id=49553321 Points: 44 # Comments: 23",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Gooseworks (YC W23) Is Hiring – Founding Creative Engineer",
-      "link": "https://www.ycombinator.com/companies/gooseworks/jobs/rfgY8La-founding-creative-engineer",
-      "pubDate": "2026-09-03T17:00:16.000Z",
-      "description": "Article URL: https://www.ycombinator.com/companies/gooseworks/jobs/rfgY8La-founding-creative-engineer Comments URL: https://news.ycombinator.com/item?id=49553173 Points: 0 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Launch HN: Mireye (YC S26) – Infrastructure for Physical World AI Agents",
-      "link": "https://news.ycombinator.com/item?id=49552616",
-      "pubDate": "2026-09-03T16:24:13.000Z",
-      "description": "Hi HN, I'm Ansh, founder of Mireye (https://www.mireye.com). I'm building the infrastructure AI agents use to make decisions about physical places: data, enrichment, tools, and signals for any US location, behind one API and MCP server.Here's a demo video: https://www.youtube.com/watch?v=haqO6UbUqU0",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Artificial beaver dams saw juvenile coho salmon survival rates go from 8% to 60%",
-      "link": "https://www.discoverwildlife.com/animal-facts/artificial-beaver-dams-california",
-      "pubDate": "2026-09-03T16:21:33.000Z",
-      "description": "Article URL: https://www.discoverwildlife.com/animal-facts/artificial-beaver-dams-california Comments URL: https://news.ycombinator.com/item?id=49552572 Points: 75 # Comments: 21",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "K2 Horizon: A connected fleet of six open models",
-      "link": "https://ifm.ai/blog/k2/",
-      "pubDate": "2026-09-03T15:36:43.000Z",
-      "description": "Article URL: https://ifm.ai/blog/k2/ Comments URL: https://news.ycombinator.com/item?id=49551760 Points: 203 # Comments: 70",
       "source": "Hacker News",
       "category": "Tech News"
     },
