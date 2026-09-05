@@ -1,94 +1,118 @@
 {
-  "generatedAt": "2026-09-05T15:14:54.223Z",
+  "generatedAt": "2026-09-05T20:21:39.810Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "How SWSH turned 300 monthly builds into a release pipeline nobody has to babysit",
-      "link": "https://dev.to/expo/how-swsh-turned-300-monthly-builds-into-a-release-pipeline-nobody-has-to-babysit-11bl",
-      "pubDate": "2026-09-05T15:04:16.000Z",
-      "description": "<blockquote> <p><em>\"Expo's ecosystem helped us take human error and effort out of the release process, from a local build to a validated release.\"</em></p> <p>— Nathan Ahn, CTO, SWSH</p> </blockquote> <p>You've shipped a mobile app before, so you know the drill: cut the builds, wrestle with signing",
+      "title": "Demystifying LLM Context Windows: How AI Memory Works (and Why It Fails)",
+      "link": "https://dev.to/iar01/demystifying-llm-context-windows-how-ai-memory-works-and-why-it-fails-khd",
+      "pubDate": "2026-09-05T20:09:05.000Z",
+      "description": "<p>Imagine asking an AI coding assistant to help refactor a complex application. At first, it gives sharp, accurate responses. But 20 messages into the session, it suddenly forgets the architecture rules you set at the beginning, re-introduces previously fixed bugs, or hallucinates functions that do",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Infino: fastest VectorDB at a million, still cheaper at a billion",
-      "link": "https://dev.to/muralikpbhat/infino-fastest-vectordb-at-a-million-still-cheaper-at-a-billion-2aaj",
-      "pubDate": "2026-09-05T15:02:38.000Z",
-      "description": "<p>Disclosure: I work on Infino, the engine benchmarked here. This post first appeared on the <a href=\"https://infino.ai/blog/self-transforming-vector-engine/\" rel=\"noopener noreferrer\">Infino blog</a>.</p> <p>Every team that adopts vector search eventually hits the same fork. The index that gives y",
+      "title": "SWE-Gate: Why Passing Tests Isn't Enough for Agent-Generated Code",
+      "link": "https://dev.to/mech_app_ai/swe-gate-why-passing-tests-isnt-enough-for-agent-generated-code-16jf",
+      "pubDate": "2026-09-05T20:06:48.000Z",
+      "description": "<p>Coding agents pass tests but fail code review. Repository-level benchmarks measure test passage but ignore review acceptance criteria. This is the blind spot in every benchmark from SWE-bench onward.</p> <p>SWE-Gate is a new benchmark that measures both. It derives review constraints from real pu",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "My \"reproducible\" build kept returning the same hash after the code changed. That was the bug.",
-      "link": "https://dev.to/maheshwarianmol/my-reproducible-build-kept-returning-the-same-hash-after-the-code-changed-that-was-the-bug-4npj",
-      "pubDate": "2026-09-05T15:01:12.000Z",
-      "description": "<p>TL;DR: I built ZeroTrust — a supply-chain security scanner, zero third-party dependencies, go.mod with no require block — for the Zero Dependency Hackathon (Track E). It catches phantom packages, typosquats, lifecycle-hook backdoors, obfuscated payloads, and eval()-style dynamic execution. The sc",
+      "title": "A New Approach to Form Data Handling in CodeBehind 4.7",
+      "link": "https://dev.to/elanatframework/a-new-approach-to-form-data-handling-in-codebehind-47-1ieh",
+      "pubDate": "2026-09-05T20:05:56.000Z",
+      "description": "<p><a href=\"https://github.com/elanatframework/Code_behind\" rel=\"noopener noreferrer\">CodeBehind</a> 4.7 introduces an important improvement to the way Form data is handled in incoming requests.</p> <p>From this version onward, Form data should no longer be accessed directly through <code>context.Re",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Would you run `curl | sudo bash`? I taught my shell-command explainer to flag the scary parts",
-      "link": "https://dev.to/aurelionakamura/would-you-run-curl-sudo-bash-i-taught-my-shell-command-explainer-to-flag-the-scary-parts-4l08",
-      "pubDate": "2026-09-05T14:54:40.000Z",
-      "description": "<p><em>Maintainer's note: cmdxray is built and maintained by Aurelio Nakamura, an AI software agent. This post was written by that agent. Everything below is real, tested output.</em></p> <p>We've all done it. A README says:<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight sh",
+      "title": "The Map Dropped a Key When Two Expiry Times Matched",
+      "link": "https://dev.to/datacpp_3670/the-map-dropped-a-key-when-two-expiry-times-matched-1lfo",
+      "pubDate": "2026-09-05T20:05:28.000Z",
+      "description": "<p>A C++ map can drop a live cache entry. One <code>&lt;=</code> in a comparator is enough. I forced a timestamp tie and watched a key vanish. Would you have caught that in review?</p> <p>This is a debugging retrospective. It is not a product tour. The artifact is a comparator audit you can run loca",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I Audited My Own CLI",
-      "link": "https://dev.to/semtione/i-audited-my-own-cli-1175",
-      "pubDate": "2026-09-05T14:51:49.000Z",
-      "description": "<p>I maintain standup-bot, a small CLI that drafts your daily standup from git log with a local LLM. I audited it before tagging 0.2.7. It took five pull requests.</p> <p>First finding: a CVE in cryptography 49, the library that encrypts the app's own config. One-line fix.</p> <p>The suite passed at",
+      "title": "How close can explicit HTTP endpoints get to server-function DX?",
+      "link": "https://dev.to/yoshinoriishii/how-close-can-explicit-http-endpoints-get-to-server-function-dx-5b6c",
+      "pubDate": "2026-09-05T19:55:43.000Z",
+      "description": "<p>Next.js, SolidStart, TanStack Start, and SvelteKit all offer some form of server or remote functions. The integrations differ, but being able to connect server code to forms and data fetching is appealing.</p> <p>I've used Nuxt since its early releases, and I like Nuxt 5's work on typed HTTP rout",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Hi, guys!\nI am a 9 years C++ dev, rendering engineer. I just opened dev.to for myself.",
-      "link": "https://dev.to/smarchevsky/hi-guysi-am-a-9-years-c-dev-rendering-engineer-i-just-opened-devto-for-myself-30n4",
-      "pubDate": "2026-09-05T14:51:19.000Z",
-      "description": "",
+      "title": "I Love AI. I Still Don’t Want It in Everything.",
+      "link": "https://dev.to/sizzlebop/i-love-ai-i-still-dont-want-it-in-everything-56g1",
+      "pubDate": "2026-09-05T19:53:23.000Z",
+      "description": "<p>I love AI.</p> <p>I use it constantly, I experiment with new models, I build things with it, and I genuinely think there are a lot of places where it can make software better.</p> <p>But I am also getting more and more tired of seeing AI being forced into literally everything.</p> <p>There’s a bi",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How to Query CSV Files with Natural Language Locally (No Cloud Uploads)",
-      "link": "https://dev.to/veilanalytics/how-to-query-csv-files-with-natural-language-locally-no-cloud-uploads-3fem",
-      "pubDate": "2026-09-05T14:50:13.000Z",
-      "description": "<h2> How to Query CSV Files with Natural Language Locally (No Cloud Uploads) </h2> <p>If you are a data analyst or software engineer, querying multi-gigabyte CSV files usually requires one of two annoying paths:</p> <ol> <li> <strong>Slow Excel / Sheet UIs:</strong> Crashing when loading more than 1",
+      "title": "Mistral Small 3.2 Lands With Sharper Function Calling and a 128K Context Window",
+      "link": "https://dev.to/unfiltered_anshul/mistral-small-32-lands-with-sharper-function-calling-and-a-128k-context-window-odd",
+      "pubDate": "2026-09-05T19:52:27.000Z",
+      "description": "<p>Mistral just pushed Mistral Small 3.2 (24B) to Hugging Face, and the timing is interesting. While OpenAI keeps nudging GPT-4o mini's pricing and Anthropic gates Claude Haiku behind API quotas, Mistral is shipping an open-weight model that handles tool calls more reliably and now ships with a full",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Detecting Ceph LARGE_OMAP_OBJECTS Before Deep Scrub Finds It",
-      "link": "https://dev.to/vexsx/detecting-ceph-largeomapobjects-before-deep-scrub-finds-it-4cpg",
-      "pubDate": "2026-09-05T14:49:51.000Z",
-      "description": "<p><code>LARGE_OMAP_OBJECTS</code> has an annoying property: it tells you about a problem that started days ago. An RGW bucket index shard, a CephFS metadata object, or an application object built on librados grows past the threshold, and nothing in <code>ceph health</code> changes until a deep scru",
+      "title": "The Dependency the Agent Invented: A Myth-Busting FAQ",
+      "link": "https://dev.to/devio_3007/the-dependency-the-agent-invented-a-myth-busting-faq-j3a",
+      "pubDate": "2026-09-05T19:48:57.000Z",
+      "description": "<p>Consider a reconstructed incident that shows up when teams treat an agentic loop as an architecture review. A backend pair watched their coding agent close six steps with a confident summary and a tidy pull request. The suite was green, the changelog mentioned Redis-backed sessions, and nobody ha",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How to ship a Chrome extension: the code is the easy half published: false",
-      "link": "https://dev.to/tigerhuliu/how-to-ship-a-chrome-extension-the-code-is-the-easy-halfpublished-false-mg7",
-      "pubDate": "2026-09-05T14:49:17.000Z",
-      "description": "<p>I have 18 extensions live on the Chrome Web Store. Writing them was never the hard part.</p> <p>Every tutorial I read stopped at the same place: load unpacked, it works, ship it. All the failures that actually cost me time happen after that line. Three of my submissions came back rejected, each w",
+      "title": "I Turned an Old $60 Android Phone into a 24/7 Edge AI and S3 Server (4.2W Draw)",
+      "link": "https://dev.to/soham_pal/i-turned-an-old-60-android-phone-into-a-247-edge-ai-and-s3-server-42w-draw-4g9i",
+      "pubDate": "2026-09-05T19:48:56.000Z",
+      "description": "<p>instead of buying another raspberry pi or letting an old xiaomi redmi 9i rot in a drawer, i turned it into a 24/7 edge ai node and local s3/sqlite storage server running on about 1.2w idle and 4.2w peak.</p> <p>hardware:</p> <ul> <li><p>mediatek helio g25 (8x cortex-a53 cores)</p></li> <li><p>4gb",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How to build a fast global city autocomplete in JavaScript",
-      "link": "https://dev.to/cleyson_mayrink_fa059ec54/how-to-build-a-fast-global-city-autocomplete-in-javascript-1od6",
-      "pubDate": "2026-09-05T14:49:08.000Z",
-      "description": "<p>If you have ever built an address form, shipping calculator, or travel app, you know the struggle: you need a reliable way for users to search for their city or state, but you do not want to maintain a multi-gigabyte geospatial database just for an autocomplete dropdown.</p> <p>Hosting a dedicate",
+      "title": "I pointed my UI-auditing tool at three sites it had never seen. All seven bugs it found were its own.",
+      "link": "https://dev.to/yusufcemres/i-pointed-my-ui-auditing-tool-at-three-sites-it-had-never-seen-all-seven-bugs-it-found-were-its-12cb",
+      "pubDate": "2026-09-05T19:48:45.000Z",
+      "description": "<p>The line at the bottom of the report said:<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight plaintext\"><code>Records with automated findings: 8/4 </code></pre> </div> <p>Eight out of four. More screens with findings than screens.</p> <p>I wrote this tool. It measures web U",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "There's No Limit to How Bad Code Can Get",
-      "link": "https://zachkehs.com/blog/theres_no_limit_to_how_bad_code_can_get/",
-      "pubDate": "2026-09-05T14:13:22.000Z",
-      "description": "Article URL: https://zachkehs.com/blog/theres_no_limit_to_how_bad_code_can_get/ Comments URL: https://news.ycombinator.com/item?id=49576704 Points: 36 # Comments: 16",
+      "title": "The Luxuries in Life",
+      "link": "https://feld.com/archives/2026/09/the-real-luxuries-in-life/",
+      "pubDate": "2026-09-05T17:46:16.000Z",
+      "description": "Article URL: https://feld.com/archives/2026/09/the-real-luxuries-in-life/ Comments URL: https://news.ycombinator.com/item?id=49578866 Points: 159 # Comments: 53",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Learn Programming with OCaml",
+      "link": "https://usr.lmf.cnrs.fr/lpo/",
+      "pubDate": "2026-09-05T16:45:02.000Z",
+      "description": "Article URL: https://usr.lmf.cnrs.fr/lpo/ Comments URL: https://news.ycombinator.com/item?id=49578280 Points: 70 # Comments: 29",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Wikimedia Foundation Workers Overwhelmingly Vote to Form Union with CWA",
+      "link": "https://wikiworkersunited.org/announcements/2026-09-04-us-wikimedia-foundation-workers-overwhelmingly-vote-to-form-union-with-cwa/",
+      "pubDate": "2026-09-05T16:13:57.000Z",
+      "description": "Article URL: https://wikiworkersunited.org/announcements/2026-09-04-us-wikimedia-foundation-workers-overwhelmingly-vote-to-form-union-with-cwa/ Comments URL: https://news.ycombinator.com/item?id=49577975 Points: 191 # Comments: 73",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "How the Disaster of \"Forever Chemicals\" Was Kept Secret",
+      "link": "https://www.propublica.org/podcast/forever-chemicals-pfas-pfos-3m-secret-kris-hansen",
+      "pubDate": "2026-09-05T14:40:52.000Z",
+      "description": "Article URL: https://www.propublica.org/podcast/forever-chemicals-pfas-pfos-3m-secret-kris-hansen Comments URL: https://news.ycombinator.com/item?id=49576986 Points: 243 # Comments: 72",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -96,7 +120,7 @@
       "title": "Meet the Ig Nobel Prize Winners",
       "link": "https://arstechnica.com/science/2026/09/meet-the-2026-ig-nobel-prize-winners/",
       "pubDate": "2026-09-05T14:02:44.000Z",
-      "description": "Article URL: https://arstechnica.com/science/2026/09/meet-the-2026-ig-nobel-prize-winners/ Comments URL: https://news.ycombinator.com/item?id=49576611 Points: 18 # Comments: 2",
+      "description": "Article URL: https://arstechnica.com/science/2026/09/meet-the-2026-ig-nobel-prize-winners/ Comments URL: https://news.ycombinator.com/item?id=49576611 Points: 86 # Comments: 21",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -104,7 +128,15 @@
       "title": "The \"$60 Gaming PC\" – AMD BC-250 (2025)",
       "link": "https://devquasar.com/hardware/the-60-gaming-pc-amd-bc-250/",
       "pubDate": "2026-09-05T13:36:38.000Z",
-      "description": "Article URL: https://devquasar.com/hardware/the-60-gaming-pc-amd-bc-250/ Comments URL: https://news.ycombinator.com/item?id=49576386 Points: 62 # Comments: 21",
+      "description": "Article URL: https://devquasar.com/hardware/the-60-gaming-pc-amd-bc-250/ Comments URL: https://news.ycombinator.com/item?id=49576386 Points: 204 # Comments: 65",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Visualizing Rust's Vtables: How dyn Trait Works In Memory",
+      "link": "https://sofiabelen.github.io/projects/visualizing-rusts-vtables-how-dyn-trait-works-in-memory/",
+      "pubDate": "2026-09-05T13:31:05.000Z",
+      "description": "Article URL: https://sofiabelen.github.io/projects/visualizing-rusts-vtables-how-dyn-trait-works-in-memory/ Comments URL: https://news.ycombinator.com/item?id=49576343 Points: 59 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -112,23 +144,7 @@
       "title": ".gitignore Everything by Default",
       "link": "https://packagemain.tech/p/gitignore-everything-by-default",
       "pubDate": "2026-09-05T13:19:42.000Z",
-      "description": "Article URL: https://packagemain.tech/p/gitignore-everything-by-default Comments URL: https://news.ycombinator.com/item?id=49576258 Points: 17 # Comments: 18",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Pentagon rescinds new testosterone screening policy without explanation",
-      "link": "https://arstechnica.com/health/2026/09/pentagon-releases-then-quickly-removes-testosterone-screening-policy/",
-      "pubDate": "2026-09-05T13:11:14.000Z",
-      "description": "Article URL: https://arstechnica.com/health/2026/09/pentagon-releases-then-quickly-removes-testosterone-screening-policy/ Comments URL: https://news.ycombinator.com/item?id=49576196 Points: 85 # Comments: 79",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Global warming will exceed 1.5-degree limit, UN says",
-      "link": "https://www.pbs.org/newshour/science/global-warming-will-exceed-1-5-degree-limit-un-says-in-report-that-maps-path-back-below-danger-zone",
-      "pubDate": "2026-09-05T13:02:14.000Z",
-      "description": "Article URL: https://www.pbs.org/newshour/science/global-warming-will-exceed-1-5-degree-limit-un-says-in-report-that-maps-path-back-below-danger-zone Comments URL: https://news.ycombinator.com/item?id=49576124 Points: 107 # Comments: 63",
+      "description": "Article URL: https://packagemain.tech/p/gitignore-everything-by-default Comments URL: https://news.ycombinator.com/item?id=49576258 Points: 107 # Comments: 121",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -136,7 +152,7 @@
       "title": "A bizarre Commodore 64 peripheral, a mime, and some pretty bad ads",
       "link": "https://buttondown.com/suchbadtechads/archive/spartan-and-the-mime/",
       "pubDate": "2026-09-05T12:23:51.000Z",
-      "description": "Article URL: https://buttondown.com/suchbadtechads/archive/spartan-and-the-mime/ Comments URL: https://news.ycombinator.com/item?id=49575859 Points: 9 # Comments: 2",
+      "description": "Article URL: https://buttondown.com/suchbadtechads/archive/spartan-and-the-mime/ Comments URL: https://news.ycombinator.com/item?id=49575859 Points: 54 # Comments: 3",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -144,23 +160,7 @@
       "title": "Terpstra Keyboard",
       "link": "http://terpstrakeyboard.com/",
       "pubDate": "2026-09-05T10:33:01.000Z",
-      "description": "Article URL: http://terpstrakeyboard.com/ Comments URL: https://news.ycombinator.com/item?id=49575150 Points: 39 # Comments: 13",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Claude's new system prompt doesn't want to reproduce song lyrics",
-      "link": "https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/",
-      "pubDate": "2026-09-05T10:32:09.000Z",
-      "description": "Article URL: https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/ Comments URL: https://news.ycombinator.com/item?id=49575143 Points: 21 # Comments: 8",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Netherlands pulls gold out of the US for fears of 'geopolitical unrest'",
-      "link": "https://www.abc.net.au/news/2026-09-04/why-the-netherlands-moved-its-gold-from-us-and-canada/107111990",
-      "pubDate": "2026-09-05T10:14:28.000Z",
-      "description": "Article URL: https://www.abc.net.au/news/2026-09-04/why-the-netherlands-moved-its-gold-from-us-and-canada/107111990 Comments URL: https://news.ycombinator.com/item?id=49575034 Points: 195 # Comments: 120",
+      "description": "Article URL: http://terpstrakeyboard.com/ Comments URL: https://news.ycombinator.com/item?id=49575150 Points: 91 # Comments: 40",
       "source": "Hacker News",
       "category": "Tech News"
     },
