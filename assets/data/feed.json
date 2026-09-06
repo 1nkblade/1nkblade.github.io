@@ -1,110 +1,134 @@
 {
-  "generatedAt": "2026-09-06T04:40:32.620Z",
+  "generatedAt": "2026-09-06T10:58:15.632Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "Context Window Flooding: How Attackers Weaponize the Lost-in-the-Middle Attention Gap",
-      "link": "https://dev.to/roxdavirox/context-window-flooding-how-attackers-weaponize-the-lost-in-the-middle-attention-gap-1l4i",
-      "pubDate": "2026-09-06T04:27:08.000Z",
-      "description": "<p>An attacker does not need a clever jailbreak when they can make the model stop reading the system prompt through sheer volume. The vulnerability is architectural: every transformer has non-uniform attention. The position where security instructions live is precisely where models attend least.</p>",
+      "title": "Setting Up Podman Desktop So the Same Containers Work on Both Windows and WSL2",
+      "link": "https://dev.to/onlyutkarsh/setting-up-podman-desktop-so-the-same-containers-work-on-both-windows-and-wsl2-3mc5",
+      "pubDate": "2026-09-06T10:45:06.000Z",
+      "description": "<p>The main goal of this setup is simple: run a container once, and access that exact same container from both PowerShell and WSL2, not two separate copies running in isolation. There are some genuine benefits with this setup in my opinion.</p> <ol> <li> <strong>Work across both shells naturally:</s",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I'm 12. I paused KODA Browser to try something I've never done before.",
-      "link": "https://dev.to/koda2026/im-12-i-paused-koda-browser-to-try-something-ive-never-done-before-47fg",
-      "pubDate": "2026-09-06T04:20:55.000Z",
-      "description": "<p>I was building KODA Browser.</p> <p>Android project.<br> WebView.<br> Custom home screen.<br> Search.<br> GitHub shortcuts.</p> <p>It was starting to become a real browser.</p> <p>And then I paused it.</p> <p>Not because it failed.</p> <p>I paused it because I realized something:</p> <p>I've buil",
+      "title": "My site has 38 free tools and got 24 organic visitors last quarter",
+      "link": "https://dev.to/razi_kallayi/my-site-has-38-free-tools-and-got-24-organic-visitors-last-quarter-1li8",
+      "pubDate": "2026-09-06T10:40:23.000Z",
+      "description": "<p>I run a site with 38 free developer tools on it. JSON formatter, JWT decoder, base64, PDF merge, OCR, background remover — the usual set. There are 113 URLs in the sitemap, JSON-LD on every tool page, an <code>llms.txt</code>, markdown twins of every page for AI crawlers, and three analytics vend",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "OpenBSD Stories: Strange Medieval Devices",
-      "link": "https://dev.to/dzakiamriz/openbsd-stories-strange-medieval-devices-3i8",
-      "pubDate": "2026-09-06T04:20:39.000Z",
-      "description": "<h3> The Problem &amp; Industry Shift </h3> <p>The OpenBSD project is renowned for its security focus, but its hardware support philosophy is equally distinctive: it actively supports a vast array of obscure and obsolete devices, some of which feel like relics from a medieval technological era. Whil",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Your AI builder shipped the Stripe code in an afternoon. Verifying it took a week.",
-      "link": "https://dev.to/fetchsandbox/your-ai-builder-shipped-the-stripe-code-in-an-afternoon-verifying-it-took-a-week-2o6n",
-      "pubDate": "2026-09-06T04:20:21.000Z",
-      "description": "<p>A friend shipped a booking app last month. Lovable built the whole thing, Stripe Checkout included, in something like an afternoon. It looked finished. It <em>was</em> finished, in the sense that you could pay and get a confirmation email.</p> <p>Then a customer got charged twice for one booking.",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Common AWS Free Tier Mistakes Beginners Make",
-      "link": "https://dev.to/gunnerjyo/common-aws-free-tier-mistakes-beginners-make-4co4",
-      "pubDate": "2026-09-06T04:20:00.000Z",
-      "description": "<p>The AWS Free Tier is one of the best ways to start learning cloud infrastructure, but many beginners misunderstand how it actually works.<br> A common misconception is that all AWS usage remains completely free under the Free Tier.<br> In reality, AWS Free Tier has usage limits, service restricti",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Day 1 — ইন্টারনেট আসলে কীভাবে কাজ করে",
-      "link": "https://dev.to/mislam-dev/day-1-inttaarnett-aasle-kiibhaabe-kaaj-kre-18pc",
-      "pubDate": "2026-09-06T04:20:00.000Z",
-      "description": "<p>আকাশ নামের এক ছেলের কাছে একটা ফোন এলো। ওপাশ থেকে একজন খুব সিরিয়াস গলায় বলল, \"আমাদের ব্যাংকের server maintain করা হচ্ছে। আপনার অ্যাকাউন্টে একটু সমস্যা হয়েছে। এখনই ঠিক না করলে অ্যাকাউন্ট freeze হয়ে যাবে।\" আকাশ ঘাবড়ে গেল।</p> <p>\"আপনাকে একটা OTP সেন্ড করেছি, জাস্ট ওটা বলেন। সব ঠিক হয়ে যাবে।\" আকাশ কি",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Keeping Claude Code sessions for your repository in one place",
-      "link": "https://dev.to/scenee/keeping-claude-code-sessions-for-your-repository-in-one-place-3pj8",
-      "pubDate": "2026-09-06T04:17:55.000Z",
-      "description": "<p>I keep my Claude Code sessions in Dropbox so that I can pick up a conversation on another Mac. That works, but it comes with an annoyance: Claude Code names each project folder after the <em>whole</em> working directory path, so the moment a path differs even slightly — a different machine layout",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Vancouver strip club's Instagram taken down over sign featuring lake joke",
-      "link": "https://www.vancouverisawesome.com/local-news/vancouver-strip-club-instagram-taken-down-sign-calls-out-trump-12725993",
-      "pubDate": "2026-09-06T04:07:40.000Z",
-      "description": "Article URL: https://www.vancouverisawesome.com/local-news/vancouver-strip-club-instagram-taken-down-sign-calls-out-trump-12725993 Comments URL: https://news.ycombinator.com/item?id=49583232 Points: 4 # Comments: 1",
+      "title": "I Changed My License",
+      "link": "https://bergie.iki.fi/blog/eupl/",
+      "pubDate": "2026-09-06T10:39:44.000Z",
+      "description": "Article URL: https://bergie.iki.fi/blog/eupl/ Comments URL: https://news.ycombinator.com/item?id=49585161 Points: 7 # Comments: 2",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "DDoS Protection &amp; Rate Limiting Abuse Cases",
-      "link": "https://dev.to/gouranga-das-khulna/ddos-protection-rate-limiting-abuse-cases-3aac",
-      "pubDate": "2026-09-06T04:00:00.000Z",
-      "description": "<blockquote> <h2> <strong>One-liner:</strong> A DDoS (Distributed Denial of Service) attack overwhelms your system with fake traffic until real users can't get through. Defense is layered — no single solution works alone. </h2> </blockquote> <h2> ❓ Types of Attacks </h2> <div class=\"table-wrapper-pa",
+      "title": "The 4-paragraph developer cover letter that actually gets read (under 200 words, with a full example)",
+      "link": "https://dev.to/lluc_verdaguermacias_a09/the-4-paragraph-developer-cover-letter-that-actually-gets-read-under-200-words-with-a-full-52c7",
+      "pubDate": "2026-09-06T10:31:59.000Z",
+      "description": "<p>Most developer cover letters are never read, and the ones that are read are usually read for the wrong reason: the hiring manager is looking for a reason to say no. That is not cynicism, it is what happens when one person has 300 applications and a job to do. So the letter has one goal: survive t",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Checking If a Business's Google Profile Actually Matches Its Own Website",
-      "link": "https://dev.to/orange_k/checking-if-a-businesss-google-profile-actually-matches-its-own-website-413o",
-      "pubDate": "2026-09-06T03:50:33.000Z",
-      "description": "<p>If you do local SEO work, you've run into this: a client's Google Business Profile says one phone number, their website footer says another, and nobody noticed until a customer called the wrong number. Or the postal code on the GBP listing is a leftover from an old office. This kind of drift is c",
+      "title": "FlashList v2 earns its place in every production React Native feed",
+      "link": "https://dev.to/davekurian/flashlist-v2-earns-its-place-in-every-production-react-native-feed-5gh4",
+      "pubDate": "2026-09-06T10:30:35.000Z",
+      "description": "<p>Every production React Native app eventually grows a feed that stutters. The product list, the chat history, the activity timeline — it scrolled fine with two hundred test rows on a simulator, then real users loaded ten thousand items on a three-year-old Android phone and the frame rate fell apar",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Trump signs order to remove endangered species protection for grey wolves",
-      "link": "https://www.bbc.com/news/articles/c62k677d4lzo",
-      "pubDate": "2026-09-06T03:46:51.000Z",
-      "description": "Article URL: https://www.bbc.com/news/articles/c62k677d4lzo Comments URL: https://news.ycombinator.com/item?id=49583144 Points: 8 # Comments: 0",
+      "title": "What Is a Backend Server Actually Doing?",
+      "link": "https://dev.to/tanu_priya/what-is-a-backend-server-actually-doing-1o1f",
+      "pubDate": "2026-09-06T10:30:35.000Z",
+      "description": "<p>When you open an app, submit a form, log in, fetch your profile, or place an order, the frontend is usually not doing all the work.</p> <p>The frontend asks the backend to do something.</p> <p>But what actually happens after that request leaves your browser?</p> <p>A backend server receives the r",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Free financial data for AI agents: what it took to wire four regulators into one schema",
+      "link": "https://dev.to/jake_cho_bd1665179f4c45d5/free-financial-data-for-ai-agents-what-it-took-to-wire-four-regulators-into-one-schema-1e0b",
+      "pubDate": "2026-09-06T10:30:34.000Z",
+      "description": "<p>If you ask a language model \"which free financial data APIs exist?\", you get the same list every time: SEC EDGAR, FRED, a couple of vendor free tiers, and <code>yfinance</code>. It is not wrong. It is just very American, and it stops at \"here is a URL\". This post is about what happens after the U",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "I replaced a paid pomodoro app with a 300-line Python script",
+      "link": "https://dev.to/rezaghm/i-replaced-a-paid-pomodoro-app-with-a-300-line-python-script-42n6",
+      "pubDate": "2026-09-06T10:26:11.000Z",
+      "description": "<p>Most pomodoro apps gate your own history behind a paywall. Marinara and Focus To-Do (among others) only keep a month of data on the free tier. I wanted to actually analyze months of tracked time, not lose it after four weeks. On top of that, I track dates on the Persian (Jalali) calendar, which n",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "24 seconds per iteration instead of 0.4. I paid for six hours of GPU compute and trained on CPU the entire time.",
+      "link": "https://dev.to/franciscobooth/24-seconds-per-iteration-instead-of-04-i-paid-for-six-hours-of-gpu-compute-and-trained-on-cpu-the-3p41",
+      "pubDate": "2026-09-06T10:22:30.000Z",
+      "description": "<p>Failure 1 — CUDA silently fell back to CPU</p> <p>My training job launched on Vast.ai and ran to completion. Iteration time was 24 seconds instead of 0.4 seconds. CUDA had fallen back to CPU silently. PyTorch logged nothing. I had been billed for six hours of GPU compute while training on an unac",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "How We Achieved a 99 PageSpeed Score: A Real-World Web Performance Case Study",
+      "link": "https://dev.to/atulbhattsystem32/how-we-achieved-a-99-pagespeed-score-a-real-world-web-performance-case-study-3e3n",
+      "pubDate": "2026-09-06T10:21:32.000Z",
+      "description": "<p>Most web agencies and SaaS websites suffer from a silent conversion killer: <strong>terrible mobile performance</strong>.</p> <p>It’s surprisingly easy to get a 95+ score on desktop when running Lighthouse on an M3 MacBook over high-speed fiber. But when you switch that toggle to <strong>Mobile</",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "btoa('café') gives you the wrong bytes, and nothing tells you",
+      "link": "https://dev.to/vish045/btoacafe-gives-you-the-wrong-bytes-and-nothing-tells-you-4i20",
+      "pubDate": "2026-09-06T10:16:43.000Z",
+      "description": "<p>Run this in your browser console:<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight javascript\"><code><span class=\"nf\">btoa</span><span class=\"p\">(</span><span class=\"dl\">'</span><span class=\"s1\">café</span><span class=\"dl\">'</span><span class=\"p\">);</span> <span class=\"c1\"",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "You Don't Have a Right to Safe Drinking Water, US Court Rules",
+      "link": "https://www.motherjones.com/politics/2026/09/drinking-water-mississippi-lawsuit/",
+      "pubDate": "2026-09-06T09:14:22.000Z",
+      "description": "Article URL: https://www.motherjones.com/politics/2026/09/drinking-water-mississippi-lawsuit/ Comments URL: https://news.ycombinator.com/item?id=49584637 Points: 112 # Comments: 62",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "My First Python Project: Building a Student Performance Evaluator",
-      "link": "https://dev.to/shree_ram_64fb22e7aece15b/my-first-python-project-building-a-student-performance-evaluator-1oe6",
-      "pubDate": "2026-09-06T03:45:42.000Z",
-      "description": "<p><strong><em>I Built My First Python Student Evaluation Program — What Would You Improve?</em></strong></p> <p>I’ve recently been learning Python, and I built a small student evaluation program as a practical exercise to apply the concepts I’ve learned so far.</p> <p><strong>The program:</strong><",
-      "source": "Dev.to Feed",
-      "category": "Development"
+      "title": "Play GTA Vice City in the Browser",
+      "link": "https://quenq.com/apps/vice-city-online/",
+      "pubDate": "2026-09-06T07:33:17.000Z",
+      "description": "Article URL: https://quenq.com/apps/vice-city-online/ Comments URL: https://news.ycombinator.com/item?id=49584123 Points: 69 # Comments: 29",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Isar Aerospace reaches orbit and deploys payloads on second flight",
+      "link": "https://isaraerospace.com/press/history-for-european-spaceflight-isar-aerospace-reaches-orbit-and-deploys-payloads-on-second-flight",
+      "pubDate": "2026-09-06T07:21:06.000Z",
+      "description": "Article URL: https://isaraerospace.com/press/history-for-european-spaceflight-isar-aerospace-reaches-orbit-and-deploys-payloads-on-second-flight Comments URL: https://news.ycombinator.com/item?id=49584083 Points: 193 # Comments: 28",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "AMD Based FreeBSD Desktop Reloaded",
+      "link": "https://vermaden.wordpress.com/2026/09/06/amd-based-freebsd-desktop-reloaded/",
+      "pubDate": "2026-09-06T02:24:57.000Z",
+      "description": "Article URL: https://vermaden.wordpress.com/2026/09/06/amd-based-freebsd-desktop-reloaded/ Comments URL: https://news.ycombinator.com/item?id=49582719 Points: 58 # Comments: 6",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "AI, Tools and Transformation",
       "link": "https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation",
       "pubDate": "2026-09-06T02:12:46.000Z",
-      "description": "Article URL: https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation Comments URL: https://news.ycombinator.com/item?id=49582656 Points: 6 # Comments: 1",
+      "description": "Article URL: https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation Comments URL: https://news.ycombinator.com/item?id=49582656 Points: 69 # Comments: 23",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -112,7 +136,7 @@
       "title": "GPT-6 Astra on robot arms",
       "link": "https://openai.robocurve.org/gpt-6-astra/",
       "pubDate": "2026-09-06T01:52:45.000Z",
-      "description": "Article URL: https://openai.robocurve.org/gpt-6-astra/ Comments URL: https://news.ycombinator.com/item?id=49582582 Points: 89 # Comments: 48",
+      "description": "Article URL: https://openai.robocurve.org/gpt-6-astra/ Comments URL: https://news.ycombinator.com/item?id=49582582 Points: 193 # Comments: 145",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -120,7 +144,7 @@
       "title": "Cloud in a Bottle: making self-hosting accessible to everyone",
       "link": "https://cloudinabottle.org/blog/launch-post",
       "pubDate": "2026-09-06T00:03:29.000Z",
-      "description": "Article URL: https://cloudinabottle.org/blog/launch-post Comments URL: https://news.ycombinator.com/item?id=49582000 Points: 231 # Comments: 100",
+      "description": "Article URL: https://cloudinabottle.org/blog/launch-post Comments URL: https://news.ycombinator.com/item?id=49582000 Points: 426 # Comments: 203",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -128,15 +152,7 @@
       "title": "Chrome again exempts Google from user site data settings",
       "link": "https://lapcatsoftware.com/articles/2026/9/1.html",
       "pubDate": "2026-09-05T23:39:47.000Z",
-      "description": "Article URL: https://lapcatsoftware.com/articles/2026/9/1.html Comments URL: https://news.ycombinator.com/item?id=49581870 Points: 181 # Comments: 26",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "OKF Agent Memory – Git-native persistent memory for AI coding agents",
-      "link": "https://github.com/okf-memory/okf-agent-memory",
-      "pubDate": "2026-09-05T22:15:52.000Z",
-      "description": "Article URL: https://github.com/okf-memory/okf-agent-memory Comments URL: https://news.ycombinator.com/item?id=49581240 Points: 50 # Comments: 16",
+      "description": "Article URL: https://lapcatsoftware.com/articles/2026/9/1.html Comments URL: https://news.ycombinator.com/item?id=49581870 Points: 419 # Comments: 64",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -144,23 +160,7 @@
       "title": "The revolt of the reader",
       "link": "https://bcantrill.dtrace.org/2026/09/05/the-revolt-of-the-reader/",
       "pubDate": "2026-09-05T21:37:49.000Z",
-      "description": "Article URL: https://bcantrill.dtrace.org/2026/09/05/the-revolt-of-the-reader/ Comments URL: https://news.ycombinator.com/item?id=49580939 Points: 197 # Comments: 70",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Private German rocket makes history, reaches orbit from European soil",
-      "link": "https://www.space.com/space-exploration/launches-spacecraft/isar-aerospace-second-launch-norway-andoya-spaceport-spectrum-rocket",
-      "pubDate": "2026-09-05T20:31:38.000Z",
-      "description": "Article URL: https://www.space.com/space-exploration/launches-spacecraft/isar-aerospace-second-launch-norway-andoya-spaceport-spectrum-rocket Comments URL: https://news.ycombinator.com/item?id=49580369 Points: 425 # Comments: 234",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Finite time blowup for an averaged three-dimensional Navier-Stokes equation (2014)",
-      "link": "https://terrytao.wordpress.com/2014/02/04/finite-time-blowup-for-an-averaged-three-dimensional-navier-stokes-equation/",
-      "pubDate": "2026-09-05T20:25:59.000Z",
-      "description": "Article URL: https://terrytao.wordpress.com/2014/02/04/finite-time-blowup-for-an-averaged-three-dimensional-navier-stokes-equation/ Comments URL: https://news.ycombinator.com/item?id=49580329 Points: 64 # Comments: 31",
+      "description": "Article URL: https://bcantrill.dtrace.org/2026/09/05/the-revolt-of-the-reader/ Comments URL: https://news.ycombinator.com/item?id=49580939 Points: 374 # Comments: 154",
       "source": "Hacker News",
       "category": "Tech News"
     },
