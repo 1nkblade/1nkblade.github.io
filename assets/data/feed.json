@@ -1,94 +1,142 @@
 {
-  "generatedAt": "2026-09-09T04:43:37.614Z",
+  "generatedAt": "2026-09-09T11:24:20.121Z",
   "sourceCount": 4,
   "successCount": 4,
   "errors": [],
   "items": [
     {
-      "title": "¿El tamaño importa?",
-      "link": "https://dev.to/davidcuy/el-tamano-importa-pe3",
-      "pubDate": "2026-09-09T04:39:20.000Z",
-      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F7ojaxofd4qdsnxugvr1s.png\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/",
+      "title": "SQL Joins in PostgreSQL: Patients, Doctors, and the Rows That Go Missing",
+      "link": "https://dev.to/leahkivuti/sql-joins-in-postgresql-patients-doctors-and-the-rows-that-go-missing-67n",
+      "pubDate": "2026-09-09T11:17:04.000Z",
+      "description": "<p>A join is how you ask one question across two tables. The database keeps patients in one table and appointments in another, because storing the patient's name on every appointment row would mean fixing it in ten places when it's misspelled. A join puts them back together for the length of one que",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "My message board for AI agents became a prompt-injection honeypot in 24 hours",
-      "link": "https://dev.to/jo-do/my-message-board-for-ai-agents-became-a-prompt-injection-honeypot-in-24-hours-74f",
-      "pubDate": "2026-09-09T04:39:14.000Z",
-      "description": "<p>Last week I wrote about building <a href=\"https://msgboard.dev\" rel=\"noopener noreferrer\">msgboard.dev</a>, a public message board where AI agents talk to each other, and how agents found it within a day. That story ended with \"the agents did the rest.\"</p> <p>This is what the rest included.</p> ",
+      "title": "Monitor Call Quality in Real Time with Telnyx Webhooks and Python",
+      "link": "https://dev.to/harpreetseehra/monitor-call-quality-in-real-time-with-telnyx-webhooks-and-python-5aad",
+      "pubDate": "2026-09-09T11:06:00.000Z",
+      "description": "<p>Call quality is not a single number you check once. It is a stream of measurements — MOS, jitter, latency, packet loss — that arrive while a call is active and that you need to inspect afterward. This sample puts that stream into a Flask dashboard with live SSE updates, SQL-backed history, and th",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Why Your LangGraph ToolNode Tests Are Failing (And How to Fix Them)",
-      "link": "https://dev.to/peytongreen_dev/why-your-langgraph-toolnode-tests-are-failing-and-how-to-fix-them-6op",
-      "pubDate": "2026-09-09T04:39:00.000Z",
-      "description": "<p>You wrote a clean unit test for your LangGraph tool. It worked fine for months. Then you upgraded your dependencies and got this:<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight plaintext\"><code>ValueError: Missing required config key 'N/A' for 'tools'. </code></pre> </di",
+      "title": "Those Share Buttons Are Guessing What's On My Phone",
+      "link": "https://dev.to/parsajiravand/those-share-buttons-are-guessing-whats-on-my-phone-3dk1",
+      "pubDate": "2026-09-09T11:00:51.000Z",
+      "description": "<p>Scroll to the bottom of almost any blog post and you'll find the same five icons: a bird that got rebranded two years ago, a lowercase \"f\" in a circle, a chain-link for \"copy URL,\" maybe an envelope. Someone built that row once, for the apps that mattered at the time, and it has been quietly lyin",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The AI Code Review Bottleneck: Why Our Merge Time Tripled",
-      "link": "https://dev.to/ji_ai/the-ai-code-review-bottleneck-why-our-merge-time-tripled-5444",
-      "pubDate": "2026-09-09T04:38:59.000Z",
-      "description": "<p>The pull request was 1,140 lines. The description was four bullet points. It had been opened eleven minutes after the ticket was assigned.</p> <p>I looked at it for forty minutes, approved it, and merged something I did not fully understand.</p> <p>That was the week I started keeping numbers, and",
+      "title": "Dependency Parsing: How NLP Understands Sentence Structure",
+      "link": "https://dev.to/javiagu13/dependency-parsing-how-nlp-understands-sentence-structure-4mmd",
+      "pubDate": "2026-09-09T11:00:00.000Z",
+      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F629pqwfw2jlvfiyfikig.png\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "나중에 다시 봐도 유용한 기술 관련 링크를 저장하기 위한 실용적인 체크리스트",
-      "link": "https://dev.to/jusoup/najunge-dasi-bwado-yuyonghan-gisul-gwanryeon-ringkeureul-jeojanghagi-wihan-silyongjeogin-cekeuriseuteu-f1g",
-      "pubDate": "2026-09-09T04:38:38.000Z",
-      "description": "<p>개발자의 하루에는 링크가 끊임없이 쌓인다. 공식 문서, GitHub 이슈, 릴리스 노트, API 레퍼런스, Stack Overflow 답변, 마이그레이션 가이드, 모니터링 대시보드, 디자인 명세, 사내 런북까지 종류도 다양하다. 문제는 링크를 한 번 찾는 일이 아니다. 진짜 어려움은 2주 뒤 같은 링크를 다시 열었을 때 당시의 맥락까지 함께 떠올리는 일이다.</p> <p>Slack 대화 안에서는 너무나 명확했던 주소도 대화 기록이 사라지면 의미가 흐려진다. 디버깅 당시에는 최신이었던 문서가 다음 배포 시점에는 오래된 내용일 수",
+      "title": "Web Developer = Embedded Developer: Real PHP Now Runs on the ESP32 (v1.0.0)",
+      "link": "https://dev.to/gianfriaur/web-developer-embedded-developer-real-php-now-runs-on-the-esp32-v100-l9h",
+      "pubDate": "2026-09-09T10:57:53.000Z",
+      "description": "<p>If you can write <code>index.php</code>, you can already program a microcontroller. That's not a metaphor.</p> <p><strong>PHP on ESP32 just hit <code>1.0.0</code></strong> — the first official release. It takes the <em>real</em> PHP interpreter, the unmodified Zend engine straight from <a href=\"h",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "What I Learned Turning an AI News Crawler into a Working Product",
-      "link": "https://dev.to/hikaru_sato_ce8ce2cff7c01/what-i-learned-turning-an-ai-news-crawler-into-a-working-product-i6g",
-      "pubDate": "2026-09-09T04:38:21.000Z",
-      "description": "<p>Fetching an article is only the beginning of a news pipeline. The harder work is deciding whether the response is an article, whether it belongs in the product, and whether a reader can understand what was published.</p> <p>I am building yocho, an AI industry news and analysis service. This is an",
+      "title": "Navier–Stokes Blows Up, and the Blow-up Is a Vortex You Can Picture",
+      "link": "https://dev.to/javieraguilarai/navier-stokes-blows-up-and-the-blow-up-is-a-vortex-you-can-picture-38oi",
+      "pubDate": "2026-09-09T10:52:39.000Z",
+      "description": "<p>On 8 September OpenAI <a href=\"https://openai.com/index/navier-stokes-solution/\" rel=\"noopener noreferrer\">published a proof</a> that the three-dimensional incompressible Navier–Stokes equations can develop a singularity in finite time: a smooth fluid, starting from rest under a smooth external f",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Giving an AI agent memory is easy. Keeping it true is the hard part.",
-      "link": "https://dev.to/youfuhsu/giving-an-ai-agent-memory-is-easy-keeping-it-true-is-the-hard-part-3f02",
-      "pubDate": "2026-09-09T04:38:16.000Z",
-      "description": "<p>Giving a coding agent memory that survives the session is not a hard engineering problem. A directory of markdown files outside any repo, one fact per file, an index that gets loaded at the start of every session. That is the whole mechanism, and it takes an afternoon.</p> <p>I have been running ",
+      "title": "Designing Healthcare AI for Graceful Failure",
+      "link": "https://dev.to/onyedikachi_onwurah_00ba3/designing-healthcare-ai-for-graceful-failure-2kbj",
+      "pubDate": "2026-09-09T10:51:40.000Z",
+      "description": "<p>A healthcare AI system should not be evaluated only on how well it performs when everything goes according to plan.</p> <p>Real healthcare environments contain uncertainty.</p> <p>Data can be missing.</p> <p>Inputs can change.</p> <p>Patient populations can shift.</p> <p>External services can bec",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Day 14: FastText and Subword Embeddings",
-      "link": "https://dev.to/priyeshdave6/day-14-fasttext-and-subword-embeddings-34ed",
-      "pubDate": "2026-09-09T04:37:17.000Z",
-      "description": "<h3> What Are Word Embeddings? </h3> <p>Words like \"cat,\" \"run,\" or \"happiness\" are just symbols to a computer. Computers operate on numbers, not symbols. To process language, we need a way to turn words into numbers—specifically, into mathematical objects that reflect their meaning and usage.</p> <",
+      "title": "Clavio for Mac: six spoken briefs for coding assistants",
+      "link": "https://dev.to/clavioapp/clavio-for-mac-six-spoken-briefs-for-coding-assistants-b6d",
+      "pubDate": "2026-09-09T10:51:23.000Z",
+      "description": "<p>“Make the form work better” is easy to say. It is much harder to implement: better validation, a different layout and clearer loading feedback are three different tasks.</p> <p>A useful spoken brief gives the assistant something it can inspect and something you can verify. Start with four landmar",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Print preflight for generative art: pixels, crop and physical proof",
-      "link": "https://dev.to/whispart/print-preflight-for-generative-art-pixels-crop-and-physical-proof-21nh",
-      "pubDate": "2026-09-09T04:37:16.000Z",
-      "description": "<p>An image export can pass every file check and still fail as a physical artwork. For anyone building a generative-art export tool, separating those two kinds of approval makes the workflow easier to understand.</p> <p>Whispart develops GAN-based images and gives selected works a physical form. Its",
+      "title": "I Built 20+ Privacy-First Browser Tools That Never Upload Your Data (All Single-File)",
+      "link": "https://dev.to/goodyuanbo/i-built-20-privacy-first-browser-tools-that-never-upload-your-data-all-single-file-5bcd",
+      "pubDate": "2026-09-09T10:50:43.000Z",
+      "description": "<h1> I Built 20+ Privacy-First Browser Tools That Never Upload Your Data (All Single-File) </h1> <p>Every \"free online tool\" I tried had the same catch: your file gets uploaded to somebody's server before anything happens. CSV with customer emails? Uploaded. Invoice PDF? Uploaded. Password list? You",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Why I Stopped Chasing \"Full-Stack\" Perfection (And Why You Should Too)",
-      "link": "https://dev.to/chamod_madhushan/why-i-stopped-chasing-full-stack-perfection-and-why-you-should-too-2mkj",
-      "pubDate": "2026-09-09T04:36:18.000Z",
-      "description": "<p>Let’s be honest—if you look at a modern job description for a junior developer today, it feels less like an engineering role and more like a list of every technology invented in the last decade.</p> <p>React? Required. Node, Docker, Kubernetes, AWS, UI/UX design, and maybe some blockchain just fo",
+      "title": "Open-Source Oracle Database Performance History with PostgreSQL and Grafana",
+      "link": "https://dev.to/dodger_one/open-source-oracle-database-performance-history-with-postgresql-and-grafana-1am3",
+      "pubDate": "2026-09-09T10:47:06.000Z",
+      "description": "<p>Oracle databases expose a huge amount of performance information through dynamic performance views. The difficult part is not obtaining a metric at this exact moment. It is retaining enough connected evidence to investigate what happened after the workload has already changed.</p> <p>That is the ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Harvard study predicts most suicide attempts a week in advance",
-      "link": "https://current.fas.harvard.edu/stories/harvard-study-predicts-most-suicide-attempts-week-advance",
-      "pubDate": "2026-09-09T02:07:13.000Z",
-      "description": "Article URL: https://current.fas.harvard.edu/stories/harvard-study-predicts-most-suicide-attempts-week-advance Comments URL: https://news.ycombinator.com/item?id=49619906 Points: 105 # Comments: 55",
+      "title": "Anthropic researcher believes more than 10% chance AI 'could kill all humans'",
+      "link": "https://www.bbc.co.uk/news/articles/ckgwy1k42w4o",
+      "pubDate": "2026-09-09T10:37:16.000Z",
+      "description": "Article URL: https://www.bbc.co.uk/news/articles/ckgwy1k42w4o Comments URL: https://news.ycombinator.com/item?id=49624255 Points: 5 # Comments: 2",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "How An AI math breakthrough ignited a controversy",
+      "link": "https://www.science.org/content/article/how-ai-math-breakthrough-ignited-controversy",
+      "pubDate": "2026-09-09T10:25:41.000Z",
+      "description": "Article URL: https://www.science.org/content/article/how-ai-math-breakthrough-ignited-controversy Comments URL: https://news.ycombinator.com/item?id=49624163 Points: 37 # Comments: 5",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Lotus Notes and the dangers of starting from scratch",
+      "link": "https://buttondown.com/blog/lotus-notes-email",
+      "pubDate": "2026-09-09T10:01:15.000Z",
+      "description": "Article URL: https://buttondown.com/blog/lotus-notes-email Comments URL: https://news.ycombinator.com/item?id=49623937 Points: 23 # Comments: 10",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "How GPT‑5.6 Sol helps run quantum computing experiments",
+      "link": "https://openai.com/index/codex-quantum-computing-experiments/",
+      "pubDate": "2026-09-09T07:22:46.000Z",
+      "description": "Article URL: https://openai.com/index/codex-quantum-computing-experiments/ Comments URL: https://news.ycombinator.com/item?id=49622561 Points: 84 # Comments: 61",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "On Really Trying (2009)",
+      "link": "https://gwern.net/on-really-trying",
+      "pubDate": "2026-09-09T06:58:44.000Z",
+      "description": "Article URL: https://gwern.net/on-really-trying Comments URL: https://news.ycombinator.com/item?id=49622305 Points: 63 # Comments: 39",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "“Tweet” and the bird logo apparently enter the public domain",
+      "link": "https://blog.ericgoldman.org/archives/2026/09/tweet-and-the-bird-logo-apparently-enter-the-public-domain-but-x-maintains-its-grip-on-the-twitter-mark-for-now-x-v-project-bluebird.htm",
+      "pubDate": "2026-09-09T06:02:07.000Z",
+      "description": "Article URL: https://blog.ericgoldman.org/archives/2026/09/tweet-and-the-bird-logo-apparently-enter-the-public-domain-but-x-maintains-its-grip-on-the-twitter-mark-for-now-x-v-project-bluebird.htm Comments URL: https://news.ycombinator.com/item?id=49621751 Points: 111 # Comments: 66",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "A Biography of Lee Holloway, the Architect of Cloudflare's Technology (Part 1)",
+      "link": "https://note.com/masakazu_urabe/n/n7815f5b64fab?hl=en",
+      "pubDate": "2026-09-09T04:43:46.000Z",
+      "description": "Article URL: https://note.com/masakazu_urabe/n/n7815f5b64fab?hl=en Comments URL: https://news.ycombinator.com/item?id=49621102 Points: 63 # Comments: 15",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -96,15 +144,7 @@
       "title": "27.5KB language-agnostic WebGPU syntax highlighter",
       "link": "https://gpu-lexer.vercel.app/",
       "pubDate": "2026-09-09T01:14:50.000Z",
-      "description": "Article URL: https://gpu-lexer.vercel.app/ Comments URL: https://news.ycombinator.com/item?id=49619464 Points: 38 # Comments: 14",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "I resigned from Anthropic today",
-      "link": "https://twitter.com/hilbertspaess/status/2097476196791709843#m",
-      "pubDate": "2026-09-09T00:40:40.000Z",
-      "description": "Article URL: https://twitter.com/hilbertspaess/status/2097476196791709843#m Comments URL: https://news.ycombinator.com/item?id=49619227 Points: 203 # Comments: 253",
+      "description": "Article URL: https://gpu-lexer.vercel.app/ Comments URL: https://news.ycombinator.com/item?id=49619464 Points: 92 # Comments: 28",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -112,7 +152,7 @@
       "title": "A Topological Picture Book, Rendered",
       "link": "https://e-infinity.space/picture-book/",
       "pubDate": "2026-09-08T22:28:14.000Z",
-      "description": "Article URL: https://e-infinity.space/picture-book/ Comments URL: https://news.ycombinator.com/item?id=49618050 Points: 72 # Comments: 8",
+      "description": "Article URL: https://e-infinity.space/picture-book/ Comments URL: https://news.ycombinator.com/item?id=49618050 Points: 115 # Comments: 12",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -120,47 +160,7 @@
       "title": "Large language models develop novel social biases through adaptive exploration",
       "link": "https://openreview.net/challenge?redirect=%2Fforum%3Fid%3Dpc7fqaOcAH",
       "pubDate": "2026-09-08T21:47:38.000Z",
-      "description": "Article URL: https://openreview.net/challenge?redirect=%2Fforum%3Fid%3Dpc7fqaOcAH Comments URL: https://news.ycombinator.com/item?id=49617581 Points: 121 # Comments: 58",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "How to build a printer",
-      "link": "https://nishantjosh.dev/blogs/how-to-build-a-fking-printer/",
-      "pubDate": "2026-09-08T21:22:11.000Z",
-      "description": "Article URL: https://nishantjosh.dev/blogs/how-to-build-a-fking-printer/ Comments URL: https://news.ycombinator.com/item?id=49617255 Points: 211 # Comments: 39",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Tao: Open math problems being non-renewably mined by AI",
-      "link": "https://mathstodon.xyz/@tao/117237320796901560",
-      "pubDate": "2026-09-08T21:00:52.000Z",
-      "description": "Article URL: https://mathstodon.xyz/@tao/117237320796901560 Comments URL: https://news.ycombinator.com/item?id=49616968 Points: 245 # Comments: 175",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Mercury 2.5",
-      "link": "https://www.inceptionlabs.ai/blog/introducing-mercury-2-5",
-      "pubDate": "2026-09-08T20:14:52.000Z",
-      "description": "Article URL: https://www.inceptionlabs.ai/blog/introducing-mercury-2-5 Comments URL: https://news.ycombinator.com/item?id=49616354 Points: 146 # Comments: 23",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Animation in Bevy: The Big Picture",
-      "link": "https://glocq.com/en/blog/20260827/",
-      "pubDate": "2026-09-08T20:08:44.000Z",
-      "description": "Article URL: https://glocq.com/en/blog/20260827/ Comments URL: https://news.ycombinator.com/item?id=49616272 Points: 57 # Comments: 5",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Kimi K3 (2.8T) at 1 token/s on a MacBook Pro, streamed from four SSDs",
-      "link": "https://github.com/argonautlabsai/deltafin",
-      "pubDate": "2026-09-08T20:07:55.000Z",
-      "description": "Article URL: https://github.com/argonautlabsai/deltafin Comments URL: https://news.ycombinator.com/item?id=49616257 Points: 233 # Comments: 121",
+      "description": "Article URL: https://openreview.net/challenge?redirect=%2Fforum%3Fid%3Dpc7fqaOcAH Comments URL: https://news.ycombinator.com/item?id=49617581 Points: 171 # Comments: 90",
       "source": "Hacker News",
       "category": "Tech News"
     },
