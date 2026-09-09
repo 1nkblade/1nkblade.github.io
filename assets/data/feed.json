@@ -1,166 +1,171 @@
 {
-  "generatedAt": "2026-09-09T11:24:20.121Z",
+  "generatedAt": "2026-09-09T16:39:09.523Z",
   "sourceCount": 4,
-  "successCount": 4,
-  "errors": [],
+  "successCount": 3,
+  "errors": [
+    {
+      "source": "Hack The Box Security Blog",
+      "error": "HTTP 404 Not Found"
+    }
+  ],
   "items": [
     {
-      "title": "SQL Joins in PostgreSQL: Patients, Doctors, and the Rows That Go Missing",
-      "link": "https://dev.to/leahkivuti/sql-joins-in-postgresql-patients-doctors-and-the-rows-that-go-missing-67n",
-      "pubDate": "2026-09-09T11:17:04.000Z",
-      "description": "<p>A join is how you ask one question across two tables. The database keeps patients in one table and appointments in another, because storing the patient's name on every appointment row would mean fixing it in ten places when it's misspelled. A join puts them back together for the length of one que",
+      "title": "Your Agent Wrote the Audit Log You Are Judging It By",
+      "link": "https://dev.to/webofmike/your-agent-wrote-the-audit-log-you-are-judging-it-by-gob",
+      "pubDate": "2026-09-09T16:26:11.000Z",
+      "description": "<p><em>Originally published at <a href=\"https://webofmike.com/agent-audit-log-integrity/?utm_source=devto&amp;utm_medium=syndication&amp;utm_campaign=agent-audit-log-integrity\" rel=\"noopener noreferrer\">webofmike.com</a> on 2026-09-09. The demo repo and every command in it were run before publishing",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Monitor Call Quality in Real Time with Telnyx Webhooks and Python",
-      "link": "https://dev.to/harpreetseehra/monitor-call-quality-in-real-time-with-telnyx-webhooks-and-python-5aad",
-      "pubDate": "2026-09-09T11:06:00.000Z",
-      "description": "<p>Call quality is not a single number you check once. It is a stream of measurements — MOS, jitter, latency, packet loss — that arrive while a call is active and that you need to inspect afterward. This sample puts that stream into a Flask dashboard with live SSE updates, SQL-backed history, and th",
+      "title": "Display graphics without the use of Wayland or XOrg",
+      "link": "https://dev.to/pcmagas/draw-directly-on-linux-framebuffers-using-python-4iih",
+      "pubDate": "2026-09-09T16:25:50.000Z",
+      "description": "<p>As I was looking on the Suburban Railway I noticed that was using Linux:</p> <p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fvdbekc1uhtmqsnk44k1m.jpg\" c",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Those Share Buttons Are Guessing What's On My Phone",
-      "link": "https://dev.to/parsajiravand/those-share-buttons-are-guessing-whats-on-my-phone-3dk1",
-      "pubDate": "2026-09-09T11:00:51.000Z",
-      "description": "<p>Scroll to the bottom of almost any blog post and you'll find the same five icons: a bird that got rebranded two years ago, a lowercase \"f\" in a circle, a chain-link for \"copy URL,\" maybe an envelope. Someone built that row once, for the apps that mattered at the time, and it has been quietly lyin",
+      "title": "Hello DEV! SRE here..👋",
+      "link": "https://dev.to/k-kohli10/hello-dev-sre-here-19o9",
+      "pubDate": "2026-09-09T16:20:46.000Z",
+      "description": "<h1> Hello, DEV 👋 </h1> <p>After spending years working in <strong>Site Reliability and Platform Engineering</strong>, I figured it was finally time to start writing about the things I spend most of my days thinking about.</p> <p>I am a <strong>Staff Site Reliability Engineer based in Canada</stron",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Dependency Parsing: How NLP Understands Sentence Structure",
-      "link": "https://dev.to/javiagu13/dependency-parsing-how-nlp-understands-sentence-structure-4mmd",
-      "pubDate": "2026-09-09T11:00:00.000Z",
-      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F629pqwfw2jlvfiyfikig.png\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/",
+      "title": "AI Integration in Intellectual Fields Reduces Work Satisfaction; Strategies to Reclaim Meaning Explored",
+      "link": "https://dev.to/maxgeris/ai-integration-in-intellectual-fields-reduces-work-satisfaction-strategies-to-reclaim-meaning-4fi6",
+      "pubDate": "2026-09-09T16:19:03.000Z",
+      "description": "<h2> Introduction: The Changing Landscape of Programming </h2> <p>The integration of AI into programming has fundamentally altered the nature of the work, stripping away layers of manual effort and, with it, the emotional rewards that once defined the profession. Consider the process of writing code",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Web Developer = Embedded Developer: Real PHP Now Runs on the ESP32 (v1.0.0)",
-      "link": "https://dev.to/gianfriaur/web-developer-embedded-developer-real-php-now-runs-on-the-esp32-v100-l9h",
-      "pubDate": "2026-09-09T10:57:53.000Z",
-      "description": "<p>If you can write <code>index.php</code>, you can already program a microcontroller. That's not a metaphor.</p> <p><strong>PHP on ESP32 just hit <code>1.0.0</code></strong> — the first official release. It takes the <em>real</em> PHP interpreter, the unmodified Zend engine straight from <a href=\"h",
+      "title": "🏰✨ The Magical Mansion That Taught Me Prompt Engineering Without Saying a Word.",
+      "link": "https://dev.to/rashmidebug43/the-magical-mansion-that-taught-me-prompt-engineering-without-saying-a-word-2mbm",
+      "pubDate": "2026-09-09T16:19:03.000Z",
+      "description": "<p>A whimsical journey through seven magical rooms where every surprise secretly teaches one of the most important skills in Generative AI.</p> <h2> 💌 The Invitation That Changed Everything </h2> <p>It wasn't an ordinary evening.</p> <p>I was about to close my laptop after a long day when something",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Navier–Stokes Blows Up, and the Blow-up Is a Vortex You Can Picture",
-      "link": "https://dev.to/javieraguilarai/navier-stokes-blows-up-and-the-blow-up-is-a-vortex-you-can-picture-38oi",
-      "pubDate": "2026-09-09T10:52:39.000Z",
-      "description": "<p>On 8 September OpenAI <a href=\"https://openai.com/index/navier-stokes-solution/\" rel=\"noopener noreferrer\">published a proof</a> that the three-dimensional incompressible Navier–Stokes equations can develop a singularity in finite time: a smooth fluid, starting from rest under a smooth external f",
+      "title": "Closure in JavaScript",
+      "link": "https://dev.to/abishek_m_82/closure-in-javascript-3ba",
+      "pubDate": "2026-09-09T16:18:36.000Z",
+      "description": "<h2> Introduction </h2> <p>Closure is an important concept in JavaScript. It happens when a function remembers and can access variables from the scope where it was created, even after the outer function has finished executing.</p> <p>In simple words, a closure allows an inner function to remember an",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Designing Healthcare AI for Graceful Failure",
-      "link": "https://dev.to/onyedikachi_onwurah_00ba3/designing-healthcare-ai-for-graceful-failure-2kbj",
-      "pubDate": "2026-09-09T10:51:40.000Z",
-      "description": "<p>A healthcare AI system should not be evaluated only on how well it performs when everything goes according to plan.</p> <p>Real healthcare environments contain uncertainty.</p> <p>Data can be missing.</p> <p>Inputs can change.</p> <p>Patient populations can shift.</p> <p>External services can bec",
+      "title": "Don't Wire the Model Straight to SSH",
+      "link": "https://dev.to/codepro_4664/dont-wire-the-model-straight-to-ssh-1o40",
+      "pubDate": "2026-09-09T16:18:09.000Z",
+      "description": "<p>You must split planner and runner before any generate step. An agent is two hops with unequal privilege, not one brain. Hide that split and the host becomes the chat window.</p> <p>Most generation loops still collapse those hops. A prompt enters, then a remote shell quietly follows. The model rea",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Clavio for Mac: six spoken briefs for coding assistants",
-      "link": "https://dev.to/clavioapp/clavio-for-mac-six-spoken-briefs-for-coding-assistants-b6d",
-      "pubDate": "2026-09-09T10:51:23.000Z",
-      "description": "<p>“Make the form work better” is easy to say. It is much harder to implement: better validation, a different layout and clearer loading feedback are three different tasks.</p> <p>A useful spoken brief gives the assistant something it can inspect and something you can verify. Start with four landmar",
+      "title": "Case Study: Freeze Cursor Pagination Before an Agent Writes the List Client",
+      "link": "https://dev.to/devrs_9381/case-study-freeze-cursor-pagination-before-an-agent-writes-the-list-client-ij4",
+      "pubDate": "2026-09-09T16:17:10.000Z",
+      "description": "<p>You should freeze cursor pagination in a contract test before an agent writes any list client. Coding agents routinely invent page numbers, offset parameters, and decodeable cursors that your public API never documented. Those inventions compile, look tidy during review, and then break the first ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I Built 20+ Privacy-First Browser Tools That Never Upload Your Data (All Single-File)",
-      "link": "https://dev.to/goodyuanbo/i-built-20-privacy-first-browser-tools-that-never-upload-your-data-all-single-file-5bcd",
-      "pubDate": "2026-09-09T10:50:43.000Z",
-      "description": "<h1> I Built 20+ Privacy-First Browser Tools That Never Upload Your Data (All Single-File) </h1> <p>Every \"free online tool\" I tried had the same catch: your file gets uploaded to somebody's server before anything happens. CSV with customer emails? Uploaded. Invoice PDF? Uploaded. Password list? You",
+      "title": "How to Inject UI Into Any Website With a Chrome Extension",
+      "link": "https://dev.to/anoop_kumar_63925e275ea06/how-to-inject-ui-into-any-website-with-a-chrome-extension-1ocb",
+      "pubDate": "2026-09-09T16:15:47.000Z",
+      "description": "<p>Injecting UI into a page you don't control is one of the most powerful things a Chrome extension can do. It is also one of the most fragile — platforms update their DOM, your selectors break, and your injected elements disappear. Here is the approach that works reliably for TokenPulse across five",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Open-Source Oracle Database Performance History with PostgreSQL and Grafana",
-      "link": "https://dev.to/dodger_one/open-source-oracle-database-performance-history-with-postgresql-and-grafana-1am3",
-      "pubDate": "2026-09-09T10:47:06.000Z",
-      "description": "<p>Oracle databases expose a huge amount of performance information through dynamic performance views. The difficult part is not obtaining a metric at this exact moment. It is retaining enough connected evidence to investigate what happened after the workload has already changed.</p> <p>That is the ",
+      "title": "Seven practical SPFx WebAssembly samples for local data work",
+      "link": "https://dev.to/vystartasv/seven-practical-spfx-webassembly-samples-for-local-data-work-3nn2",
+      "pubDate": "2026-09-09T16:13:57.000Z",
+      "description": "<p>SharePoint Framework samples usually stop at the web part. This repository focuses on the harder browser boundary: what can safely happen locally before SharePoint is involved?</p> <p><a href=\"https://github.com/vystartasv/spfx-wasm-samples\" rel=\"noopener noreferrer\">SPFx WASM samples</a> now inc",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Anthropic researcher believes more than 10% chance AI 'could kill all humans'",
-      "link": "https://www.bbc.co.uk/news/articles/ckgwy1k42w4o",
-      "pubDate": "2026-09-09T10:37:16.000Z",
-      "description": "Article URL: https://www.bbc.co.uk/news/articles/ckgwy1k42w4o Comments URL: https://news.ycombinator.com/item?id=49624255 Points: 5 # Comments: 2",
+      "title": "Anthropic Is Building a Predictive Surveillance System to Monitor Activists",
+      "link": "https://prospect.org/2026/09/09/anthropic-artificial-intelligence-surveillance-system-monitor-activists/",
+      "pubDate": "2026-09-09T16:01:41.000Z",
+      "description": "Article URL: https://prospect.org/2026/09/09/anthropic-artificial-intelligence-surveillance-system-monitor-activists/ Comments URL: https://news.ycombinator.com/item?id=49628704 Points: 62 # Comments: 19",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "How An AI math breakthrough ignited a controversy",
-      "link": "https://www.science.org/content/article/how-ai-math-breakthrough-ignited-controversy",
-      "pubDate": "2026-09-09T10:25:41.000Z",
-      "description": "Article URL: https://www.science.org/content/article/how-ai-math-breakthrough-ignited-controversy Comments URL: https://news.ycombinator.com/item?id=49624163 Points: 37 # Comments: 5",
+      "title": "GNU Radio in the Browser",
+      "link": "https://gnuradioworld.com/",
+      "pubDate": "2026-09-09T15:53:06.000Z",
+      "description": "Article URL: https://gnuradioworld.com/ Comments URL: https://news.ycombinator.com/item?id=49628576 Points: 17 # Comments: 4",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Lotus Notes and the dangers of starting from scratch",
-      "link": "https://buttondown.com/blog/lotus-notes-email",
-      "pubDate": "2026-09-09T10:01:15.000Z",
-      "description": "Article URL: https://buttondown.com/blog/lotus-notes-email Comments URL: https://news.ycombinator.com/item?id=49623937 Points: 23 # Comments: 10",
+      "title": "No Man's Sky Cosmos",
+      "link": "https://www.nomanssky.com/cosmos-update/",
+      "pubDate": "2026-09-09T15:47:42.000Z",
+      "description": "Article URL: https://www.nomanssky.com/cosmos-update/ Comments URL: https://news.ycombinator.com/item?id=49628493 Points: 54 # Comments: 29",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "How GPT‑5.6 Sol helps run quantum computing experiments",
-      "link": "https://openai.com/index/codex-quantum-computing-experiments/",
-      "pubDate": "2026-09-09T07:22:46.000Z",
-      "description": "Article URL: https://openai.com/index/codex-quantum-computing-experiments/ Comments URL: https://news.ycombinator.com/item?id=49622561 Points: 84 # Comments: 61",
+      "title": "Better AI code comment detector",
+      "link": "https://entropicthoughts.com/better-ai-comment-classifier",
+      "pubDate": "2026-09-09T15:45:43.000Z",
+      "description": "Article URL: https://entropicthoughts.com/better-ai-comment-classifier Comments URL: https://news.ycombinator.com/item?id=49628454 Points: 11 # Comments: 5",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "On Really Trying (2009)",
-      "link": "https://gwern.net/on-really-trying",
-      "pubDate": "2026-09-09T06:58:44.000Z",
-      "description": "Article URL: https://gwern.net/on-really-trying Comments URL: https://news.ycombinator.com/item?id=49622305 Points: 63 # Comments: 39",
+      "title": "Planet Labs' Open Satellite Feed",
+      "link": "https://tech.marksblogg.com/planet-labs-open-satellite-feed.html",
+      "pubDate": "2026-09-09T15:44:09.000Z",
+      "description": "Article URL: https://tech.marksblogg.com/planet-labs-open-satellite-feed.html Comments URL: https://news.ycombinator.com/item?id=49628429 Points: 17 # Comments: 1",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "“Tweet” and the bird logo apparently enter the public domain",
-      "link": "https://blog.ericgoldman.org/archives/2026/09/tweet-and-the-bird-logo-apparently-enter-the-public-domain-but-x-maintains-its-grip-on-the-twitter-mark-for-now-x-v-project-bluebird.htm",
-      "pubDate": "2026-09-09T06:02:07.000Z",
-      "description": "Article URL: https://blog.ericgoldman.org/archives/2026/09/tweet-and-the-bird-logo-apparently-enter-the-public-domain-but-x-maintains-its-grip-on-the-twitter-mark-for-now-x-v-project-bluebird.htm Comments URL: https://news.ycombinator.com/item?id=49621751 Points: 111 # Comments: 66",
+      "title": "Rails 8 Guide: Features, Requirements and Upgrade Path (2026)",
+      "link": "https://blog.appsignal.com/2024/10/07/whats-new-in-ruby-on-rails-8.html",
+      "pubDate": "2026-09-09T15:42:46.000Z",
+      "description": "Article URL: https://blog.appsignal.com/2024/10/07/whats-new-in-ruby-on-rails-8.html Comments URL: https://news.ycombinator.com/item?id=49628409 Points: 12 # Comments: 3",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "A Biography of Lee Holloway, the Architect of Cloudflare's Technology (Part 1)",
-      "link": "https://note.com/masakazu_urabe/n/n7815f5b64fab?hl=en",
-      "pubDate": "2026-09-09T04:43:46.000Z",
-      "description": "Article URL: https://note.com/masakazu_urabe/n/n7815f5b64fab?hl=en Comments URL: https://news.ycombinator.com/item?id=49621102 Points: 63 # Comments: 15",
+      "title": "Bomb Sense",
+      "link": "https://danboland.net/2021/07/15/bomb-sense.html",
+      "pubDate": "2026-09-09T15:40:19.000Z",
+      "description": "Article URL: https://danboland.net/2021/07/15/bomb-sense.html Comments URL: https://news.ycombinator.com/item?id=49628367 Points: 5 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "27.5KB language-agnostic WebGPU syntax highlighter",
-      "link": "https://gpu-lexer.vercel.app/",
-      "pubDate": "2026-09-09T01:14:50.000Z",
-      "description": "Article URL: https://gpu-lexer.vercel.app/ Comments URL: https://news.ycombinator.com/item?id=49619464 Points: 92 # Comments: 28",
+      "title": "We Accidentally Built a Synthetic Cell Factory",
+      "link": "https://bnext.bio/post/we-accidentally-built-a-synthetic-cell-factory",
+      "pubDate": "2026-09-09T15:34:51.000Z",
+      "description": "Article URL: https://bnext.bio/post/we-accidentally-built-a-synthetic-cell-factory Comments URL: https://news.ycombinator.com/item?id=49628290 Points: 16 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "A Topological Picture Book, Rendered",
-      "link": "https://e-infinity.space/picture-book/",
-      "pubDate": "2026-09-08T22:28:14.000Z",
-      "description": "Article URL: https://e-infinity.space/picture-book/ Comments URL: https://news.ycombinator.com/item?id=49618050 Points: 115 # Comments: 12",
+      "title": "Investing in Mothers? The Long-Run Impact of a Universal Child Care",
+      "link": "https://www.nber.org/papers/w35514",
+      "pubDate": "2026-09-09T14:55:31.000Z",
+      "description": "Article URL: https://www.nber.org/papers/w35514 Comments URL: https://news.ycombinator.com/item?id=49627655 Points: 42 # Comments: 39",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Large language models develop novel social biases through adaptive exploration",
-      "link": "https://openreview.net/challenge?redirect=%2Fforum%3Fid%3Dpc7fqaOcAH",
-      "pubDate": "2026-09-08T21:47:38.000Z",
-      "description": "Article URL: https://openreview.net/challenge?redirect=%2Fforum%3Fid%3Dpc7fqaOcAH Comments URL: https://news.ycombinator.com/item?id=49617581 Points: 171 # Comments: 90",
+      "title": "Show HN: Geiger – See every AI agent on your machine and what it can touch",
+      "link": "https://github.com/Atomburstofficial/geiger",
+      "pubDate": "2026-09-09T14:54:49.000Z",
+      "description": "Article URL: https://github.com/Atomburstofficial/geiger Comments URL: https://news.ycombinator.com/item?id=49627646 Points: 26 # Comments: 15",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -243,86 +248,6 @@
       "description": "Lea's pushing back on light/dark mode implementations that display three state options for visitors: light, dark, and system. Dark mode toggles: two states are enough originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
       "source": "CSS Tricks",
       "category": "Frontend"
-    },
-    {
-      "title": "Meet the HTB Profile: all your skills, in one place",
-      "link": "https://www.hackthebox.com/blog/introducing-htb-profile",
-      "pubDate": "2026-02-12T06:24:00.000Z",
-      "description": "The HTB Profile is now live, bringing your skills, progress, and achievements into one clean view. Show the world where you stand and what you’ve mastered.",
-      "source": "Hack The Box Security Blog",
-      "category": "Security"
-    },
-    {
-      "title": "NetworkMiner on Linux: Where traditional packet analysis still fits in modern incident response",
-      "link": "https://www.hackthebox.com/blog/networkminer-linux-packet-analysis-incident-response",
-      "pubDate": "2026-02-02T12:05:00.000Z",
-      "description": "NetworkMiner remains a practical network forensics tool for Linux-based incident response. Learn where packet analysis still delivers value in modern security operations.",
-      "source": "Hack The Box Security Blog",
-      "category": "Security"
-    },
-    {
-      "title": "The reality of cybersecurity careers: Benefits, challenges, career paths",
-      "link": "https://www.hackthebox.com/blog/cybersecurity-careers-pros-cons-salaries",
-      "pubDate": "2026-01-27T11:11:00.000Z",
-      "description": "Explore the real pros and cons of cybersecurity careers in 2025, including salaries, job security, career paths, and workplace realities.",
-      "source": "Hack The Box Security Blog",
-      "category": "Security"
-    },
-    {
-      "title": "How to learn hacking: The (step-by-step) beginner&#039;s bible for 2026",
-      "link": "https://www.hackthebox.com/blog/learn-to-hack-beginners-bible",
-      "pubDate": "2026-01-19T02:23:00.000Z",
-      "description": "The truth behind learning the wonderful wizardry of hacking. Here's what it takes to learn hacking from scratch and the necessary steps to get started!",
-      "source": "Hack The Box Security Blog",
-      "category": "Security"
-    },
-    {
-      "title": "What is Zero Trust? A guide to the cybersecurity framework everyone’s talking about",
-      "link": "https://www.hackthebox.com/blog/what-is-zero-trust-security",
-      "pubDate": "2025-12-04T10:13:00.000Z",
-      "description": "Learn what Zero Trust really means, the challenges of implementation, key success metrics, and how cyber teams can train for Zero Trust using hands-on labs from Hack The Box.",
-      "source": "Hack The Box Security Blog",
-      "category": "Security"
-    },
-    {
-      "title": "Welcome 2026: Ending HTB’s year with a discount you can’t miss and new releases on the horizon",
-      "link": "https://www.hackthebox.com/blog/HTB-Academy-discounts-and-new-paths",
-      "pubDate": "2025-11-26T07:21:00.000Z",
-      "description": "Prepare for a new year of growth with updated HTB Academy content, expanded learning paths, and a discount on Silver and Gold Annual plans.",
-      "source": "Hack The Box Security Blog",
-      "category": "Security"
-    },
-    {
-      "title": "Hack The Box powers first hands-on cybersecurity labs in LinkedIn Learning",
-      "link": "https://www.hackthebox.com/blog/linkedin-learning-cybersecurity-analyst-path",
-      "pubDate": "2025-11-05T14:13:29.000Z",
-      "description": "Hack The Box partners with LinkedIn Learning to launch hands-on cybersecurity labs, closing the talent gap and preparing defenders for real-world, AI-driven threats.",
-      "source": "Hack The Box Security Blog",
-      "category": "Security"
-    },
-    {
-      "title": "Hashcat 7.0.0 is here: Massive update for password crackers &amp; security pros",
-      "link": "https://www.hackthebox.com/blog/hashcat-7-release-top-new-features",
-      "pubDate": "2025-09-18T12:19:00.000Z",
-      "description": "Hashcat 7.0.0 is here with major speed boosts, new hash types, Docker support, and smarter rules. Learn how this release empowers pentesters, red teamers, and defenders.",
-      "source": "Hack The Box Security Blog",
-      "category": "Security"
-    },
-    {
-      "title": "HTB CJCA: A jumpstart into cybersecurity, the HTB way",
-      "link": "https://www.hackthebox.com/blog/Start-cybersecurity-with-HTB-CJCA",
-      "pubDate": "2025-07-23T02:19:00.000Z",
-      "description": "HTB Certified Junior Cybersecurity Associate (HTB CJCA) is here to equip beginners with the 360 skillset they need to confidently kick off their cybersecurity careers.",
-      "source": "Hack The Box Security Blog",
-      "category": "Security"
-    },
-    {
-      "title": "How to write better security reports (for techies &amp; execs)",
-      "link": "https://www.hackthebox.com/blog/security-report-writing",
-      "pubDate": "2025-01-28T04:43:00.000Z",
-      "description": "Writing reports in cybersecurity might not be as thrilling as catching intrusions in real-time or cracking into systems during a test, but it’s a crucial skill.",
-      "source": "Hack The Box Security Blog",
-      "category": "Security"
     }
   ]
 }
