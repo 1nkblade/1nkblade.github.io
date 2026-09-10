@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T16:24:49.848Z",
+  "generatedAt": "2026-09-10T20:52:59.117Z",
   "sourceCount": 4,
   "successCount": 3,
   "errors": [
@@ -10,162 +10,162 @@
   ],
   "items": [
     {
-      "title": "Session replay knows what the user did. Traces know what the server did. Neither knows both.",
-      "link": "https://dev.to/adithya_hebbar_04afb7db68/session-replay-knows-what-the-user-did-traces-know-what-the-server-did-neither-knows-both-24h6",
-      "pubDate": "2026-09-10T16:15:32.000Z",
-      "description": "<p>A customer called to say OTPs weren't reaching them.</p> <p>We checked the logs. Every request came in. Every SMS went out. The provider said delivered. Nothing looked broken, which is about the worst state a bug report can be in.</p> <p>So we asked for a screen recording. Then two days of guessi",
+      "title": "How to Setup Cloudflare Workers for Serverless Compute",
+      "link": "https://dev.to/slinkyio/how-to-setup-cloudflare-workers-for-serverless-compute-44d5",
+      "pubDate": "2026-09-10T20:43:00.000Z",
+      "description": "<p>I’ve spent a long time looking for a decent yet simple cloud compute solution, and I think Cloudflare Workers solved my issue. I’ve been working on an API project that needs some persistent compute infrastructure and database access. Cloudflare’s generous free tier and hosted worker solution was ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Building a Repository-Aware AI Coding Loop in Rust",
-      "link": "https://dev.to/anggbchtr/building-a-repository-aware-ai-coding-loop-in-rust-1ef5",
-      "pubDate": "2026-09-10T16:13:27.000Z",
-      "description": "<p>Most AI coding examples stop after generating code.</p> <p>The model receives a prompt, returns a proposed implementation, and the application prints the result. That is useful for experimentation, but it is not a complete engineering workflow. Code is only useful after it has been written to the",
+      "title": "Dockerizing ROS 2 and AI Robotics Applications for NVIDIA Jetson",
+      "link": "https://dev.to/vmodal_ai/dockerizing-ros-2-and-ai-robotics-applications-for-nvidia-jetson-ei1",
+      "pubDate": "2026-09-10T20:30:48.000Z",
+      "description": "<h1> Dockerizing ROS 2 and AI Robotics Applications for NVIDIA Jetson </h1> <p>Package your ROS 2 application and AI dependencies into reproducible containers.</p> <p>The tutorial covers Dockerfile structure, NVIDIA container runtime concepts, device access, ROS networking, persistent configuration,",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "One-Line Defense Against BOLA: Killing Data-Level if-else Hell with PHP-Casbin",
-      "link": "https://dev.to/leeqvip/one-line-defense-against-bola-killing-data-level-if-else-hell-with-php-casbin-4hi9",
-      "pubDate": "2026-09-10T16:13:18.000Z",
-      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fmt4pzsqfl8lfjfa0t6hw.jpeg\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image",
+      "title": "Building a Vision-Language Robot with Jetson + ROS 2",
+      "link": "https://dev.to/vmodal_ai/building-a-vision-language-robot-with-jetson-ros-2-1cba",
+      "pubDate": "2026-09-10T20:30:07.000Z",
+      "description": "<h1> Building a Vision-Language Robot with Jetson + ROS 2 </h1> <p>Combine camera perception and language understanding into a robot pipeline.</p> <p>The robot receives a visual scene, extracts useful structured information, combines it with a user instruction, and produces a validated task plan for",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Document Picture-in-Picture is a window, not a video",
-      "link": "https://dev.to/leobaniak/document-picture-in-picture-is-a-window-not-a-video-4bk5",
-      "pubDate": "2026-09-10T16:08:22.000Z",
-      "description": "<p>For a decade the phrase \"picture-in-picture\" meant one thing: a little video that follows you around while you tab away to argue about something on Mastodon. That's it. That was the whole surface. If you wanted a persistent widget — a stock ticker, a timer, a chat pane, a build-status thing — you",
+      "title": "Edge LLMs on NVIDIA Jetson: Building an AI Assistant for Robots",
+      "link": "https://dev.to/vmodal_ai/edge-llms-on-nvidia-jetson-building-an-ai-assistant-for-robots-5h6d",
+      "pubDate": "2026-09-10T20:29:46.000Z",
+      "description": "<h1> Edge LLMs on NVIDIA Jetson: Building an AI Assistant for Robots </h1> <p>Build a robot assistant architecture in which an edge language model interprets natural-language requests but does not directly control actuators.</p> <p>The LLM produces structured intents; a deterministic command layer v",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Trusted Timestamps (RFC 3161): How to Anchor a Hash Chain So No One Can Rewrite the Past",
-      "link": "https://dev.to/gentlyding/trusted-timestamps-rfc-3161-how-to-anchor-a-hash-chain-so-no-one-can-rewrite-the-past-8ce",
-      "pubDate": "2026-09-10T16:08:13.000Z",
-      "description": "<p>A hash chain proves a record was not modified after it was written. It does <em>not</em> prove <em>when</em> it was written, and it does nothing against someone who controls the server and can re-sign the whole chain. RFC 3161 trusted timestamps close that gap. This is a practical look at what th",
+      "title": "Building a Person-Following Robot with Jetson, YOLO and ROS 2",
+      "link": "https://dev.to/vmodal_ai/building-a-person-following-robot-with-jetson-yolo-and-ros-2-5flk",
+      "pubDate": "2026-09-10T20:29:38.000Z",
+      "description": "<h1> Building a Person-Following Robot with Jetson, YOLO and ROS 2 </h1> <p>Create a conceptual person-following pipeline using camera detections, target selection, tracking, distance estimation, and velocity commands.</p> <p>The tutorial includes safety zones and stop conditions so perception failu",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How I parsed all 50 US state landlord codes and built an offline legal defense suite for renters",
-      "link": "https://dev.to/sapan_mozammel/how-i-parsed-all-50-us-state-landlord-codes-and-built-an-offline-legal-defense-suite-for-renters-31ob",
-      "pubDate": "2026-09-10T16:07:30.000Z",
-      "description": "<p>Hey everyone! 👋</p> <p>I'm a full-stack developer, and recently I got fed up seeing friends and fellow renters repeatedly get ripped off by landlords — especially when it comes to bogus security deposit deductions, ignored emergency repairs, and informal roommate disputes.</p> <p>Most tenants do",
+      "title": "Learning Web Development Is Easier When You Build Real Projects",
+      "link": "https://dev.to/webprims/learning-web-development-is-easier-when-you-build-real-projects-1apf",
+      "pubDate": "2026-09-10T20:29:30.000Z",
+      "description": "<p>A lot of beginners start web development by watching tutorials and learning syntax.</p> <p>That is useful, but there is a point where watching more videos stops helping.</p> <p>You start improving when you actually build something.</p> <h2> Start Small </h2> <p>You do not need to build a large ap",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "[Lab Notes] Kubernetes the Hard Way, For Real This Time (Step 03)",
-      "link": "https://dev.to/lugerlogic/lab-notes-kubernetes-the-hard-way-for-real-this-time-step-03-3bc2",
-      "pubDate": "2026-09-10T16:04:45.000Z",
-      "description": "<p>Continuing my <a href=\"https://github.com/kelseyhightower/kubernetes-the-hard-way\" rel=\"noopener noreferrer\">Kubernetes the Hard Way</a> homelab build on Proxmox. Prerequisites and jumpbox setup (<a href=\"https://dev.to/lugerlogic/lab-notes-kubernetes-the-hard-way-for-real-this-time-steps-01-02-n",
+      "title": "Jetson + ROS 2 + Voice AI: Build a Robot You Can Talk To",
+      "link": "https://dev.to/vmodal_ai/jetson-ros-2-voice-ai-build-a-robot-you-can-talk-to-2k37",
+      "pubDate": "2026-09-10T20:29:27.000Z",
+      "description": "<h1> Jetson + ROS 2 + Voice AI: Build a Robot You Can Talk To </h1> <p>Build a voice-command architecture: microphone → speech-to-text → intent extraction → safety validation → ROS 2 command → robot action → text-to-speech response.</p> <p>Keep the language model away from direct motor control. Ever",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "My AI agent copy-pasted SEO tags across 20 files instead of generating them",
-      "link": "https://dev.to/sergei-swh/my-ai-agent-copy-pasted-seo-tags-across-20-files-instead-of-generating-them-4lg2",
-      "pubDate": "2026-09-10T16:01:55.000Z",
-      "description": "<p>I wrote a small generator to stop an AI coding agent from hand-duplicating SEO metadata across a multilingual static site. It has a <code>--check</code> flag that verifies the generated files still match their data source. The day after I shipped it, I found that when the generator silently corru",
+      "title": "NVIDIA Isaac ROS on Jetson: Building Hardware-Accelerated Robot Perception",
+      "link": "https://dev.to/vmodal_ai/nvidia-isaac-ros-on-jetson-building-hardware-accelerated-robot-perception-ec5",
+      "pubDate": "2026-09-10T20:27:34.000Z",
+      "description": "<h1> NVIDIA Isaac ROS on Jetson: Building Hardware-Accelerated Robot Perception </h1> <p>Use NVIDIA Isaac ROS concepts to build a perception pipeline around ROS 2.</p> <p>Isaac ROS provides CUDA-accelerated packages and NITROS-based processing designed to take advantage of NVIDIA hardware in robotic",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The benchmark that disproved its own result",
-      "link": "https://dev.to/thekilteddev/the-benchmark-that-disproved-its-own-result-1kn1",
-      "pubDate": "2026-09-10T16:00:40.000Z",
-      "description": "<div> <iframe src=\"https://www.youtube.com/embed/44fVor5Sz1I\" width=\"315\" height=\"560\"> </iframe> </div> <p>An article came past claiming a two-year-old coding-trained model beats a newer general model at<br> editing structured text that isn't code. Its thesis, verbatim:</p> <blockquote> <p>A genera",
+      "title": "TensorRT Optimization on Jetson: Turning Slow AI Models into Real-Time Inference",
+      "link": "https://dev.to/vmodal_ai/tensorrt-optimization-on-jetson-turning-slow-ai-models-into-real-time-inference-254c",
+      "pubDate": "2026-09-10T20:26:57.000Z",
+      "description": "<h1> TensorRT Optimization on Jetson: Turning Slow AI Models into Real-Time Inference </h1> <p>Learn a repeatable optimization workflow: establish a baseline, profile preprocessing and inference, select precision carefully, build an optimized engine, benchmark on the target device, and verify accura",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Laravel &amp; Design Patterns — Practice Series: Builder",
-      "link": "https://dev.to/demianbuilderdev/laravel-design-patterns-practice-series-builder-1p27",
-      "pubDate": "2026-09-10T16:00:00.000Z",
-      "description": "<p>I was tired of seeing how many articles repeat, again and again, basic examples of using design patterns in development; examples based on shape figures/real-life objects are good for understanding when you are just starting to learn this concept of design patterns. But what about real practice? ",
+      "title": "Review dan Pengalaman Mengenal Tencent EdgeOne Makers",
+      "link": "https://dev.to/elsa_julia_004/review-artikel-tutorial-lengkap-membangun-pharmabot-dengan-edgeone-makers-23pk",
+      "pubDate": "2026-09-10T20:26:32.000Z",
+      "description": "<p>Perkembangan teknologi saat ini semakin cepat dan memberikan banyak kemudahan dalam kehidupan sehari-hari. Salah satu teknologi yang menarik untuk dipelajari adalah Artificial Intelligence atau AI. Saat ini AI sudah banyak digunakan dalam berbagai bidang, mulai dari pendidikan, kesehatan, bisnis,",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Casablanca: How An Unproduced Play Marched into Movie History",
+      "title": "Proof of Capture: Apple Reference Image, but open source and using steganography",
+      "link": "https://merybenavente.me/blog/proof-of-capture",
+      "pubDate": "2026-09-10T19:44:15.000Z",
+      "description": "Article URL: https://merybenavente.me/blog/proof-of-capture Comments URL: https://news.ycombinator.com/item?id=49649222 Points: 9 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Creativity is the New Moat",
+      "link": "https://www.inventbuild.studio/blog/genuine-creativity-is-your-new-moat",
+      "pubDate": "2026-09-10T19:03:34.000Z",
+      "description": "Article URL: https://www.inventbuild.studio/blog/genuine-creativity-is-your-new-moat Comments URL: https://news.ycombinator.com/item?id=49648732 Points: 68 # Comments: 35",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "JEP 544: Ahead-of-Time Code Compilation",
+      "link": "https://openjdk.org/jeps/544",
+      "pubDate": "2026-09-10T17:30:39.000Z",
+      "description": "Article URL: https://openjdk.org/jeps/544 Comments URL: https://news.ycombinator.com/item?id=49647404 Points: 40 # Comments: 19",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Detecting and countering misuse of AI: September 2026",
+      "link": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+      "pubDate": "2026-09-10T17:23:42.000Z",
+      "description": "Article URL: https://www.anthropic.com/threat-intelligence-report-september-2026 Comments URL: https://news.ycombinator.com/item?id=49647300 Points: 19 # Comments: 5",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Music Theory for the 21st-Century Classroom",
+      "link": "https://musictheory.pugetsound.edu/mt21c/MusicTheory.html",
+      "pubDate": "2026-09-10T17:14:12.000Z",
+      "description": "Article URL: https://musictheory.pugetsound.edu/mt21c/MusicTheory.html Comments URL: https://news.ycombinator.com/item?id=49647134 Points: 75 # Comments: 39",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Cognition's SWE-2 achieves 92.8 on Terminal-Bench 2.1",
+      "link": "https://tokenstead.ai/models/swe-2",
+      "pubDate": "2026-09-10T16:52:11.000Z",
+      "description": "Article URL: https://tokenstead.ai/models/swe-2 Comments URL: https://news.ycombinator.com/item?id=49646778 Points: 38 # Comments: 17",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Forgejo <=16.0.3 Critical RCE",
+      "link": "https://codeberg.org/forgejo/forgejo/src/branch/forgejo/release-notes-published/16.0.4.md",
+      "pubDate": "2026-09-10T15:57:40.000Z",
+      "description": "Article URL: https://codeberg.org/forgejo/forgejo/src/branch/forgejo/release-notes-published/16.0.4.md Comments URL: https://news.ycombinator.com/item?id=49645907 Points: 99 # Comments: 41",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Casablanca: How an unproduced play marched into movie history",
       "link": "https://www.thecollector.com/casablanca-unproduced-play-movie-history/",
       "pubDate": "2026-09-10T15:52:02.000Z",
-      "description": "Article URL: https://www.thecollector.com/casablanca-unproduced-play-movie-history/ Comments URL: https://news.ycombinator.com/item?id=49645826 Points: 5 # Comments: 0",
+      "description": "Article URL: https://www.thecollector.com/casablanca-unproduced-play-movie-history/ Comments URL: https://news.ycombinator.com/item?id=49645826 Points: 41 # Comments: 15",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Serverless DTLS",
-      "link": "https://proxylity.com/docs/listeners/dtls.html",
-      "pubDate": "2026-09-10T15:50:30.000Z",
-      "description": "Article URL: https://proxylity.com/docs/listeners/dtls.html Comments URL: https://news.ycombinator.com/item?id=49645804 Points: 3 # Comments: 1",
+      "title": "Show HN: MultiMatte, a Promptable Image Background Removal Model",
+      "link": "https://usefeyn.com/blog/multimatte/",
+      "pubDate": "2026-09-10T15:50:25.000Z",
+      "description": "Hey HN, I'm Shreyash from Feyn. We help companies build custom models from their data.Today we're releasing MultiMatte, a background removal model you can aim with words. Name an object in your image. MultiMatte keeps just that thing, and removes everything else.Try it out on your images: https://us",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Neki by PlanetScale",
-      "link": "https://neki.dev/",
-      "pubDate": "2026-09-10T15:48:14.000Z",
-      "description": "Article URL: https://neki.dev/ Comments URL: https://news.ycombinator.com/item?id=49645763 Points: 10 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Neki",
-      "link": "https://planetscale.com/blog/introducing-neki",
-      "pubDate": "2026-09-10T15:43:49.000Z",
-      "description": "Article URL: https://planetscale.com/blog/introducing-neki Comments URL: https://news.ycombinator.com/item?id=49645686 Points: 11 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Cognition launches new SWE-2 model, Rivaling Fable 5.1 and GPT-Astra",
-      "link": "https://cognition.com/blog/swe-2",
-      "pubDate": "2026-09-10T15:29:47.000Z",
-      "description": "Article URL: https://cognition.com/blog/swe-2 Comments URL: https://news.ycombinator.com/item?id=49645443 Points: 23 # Comments: 2",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Don't Let Anyone Take Away Your Big Box of Cables",
-      "link": "https://blog.jim-nielsen.com/2026/hands-off-my-cables/",
-      "pubDate": "2026-09-10T15:27:22.000Z",
-      "description": "Article URL: https://blog.jim-nielsen.com/2026/hands-off-my-cables/ Comments URL: https://news.ycombinator.com/item?id=49645393 Points: 19 # Comments: 17",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Amazon pilots ad services in ChatGPT",
-      "link": "https://www.marketingdive.com/news/amazon-pilots-ad-services-in-chatgpt-what-marketers-need-to-know/829945/",
-      "pubDate": "2026-09-10T14:13:09.000Z",
-      "description": "Article URL: https://www.marketingdive.com/news/amazon-pilots-ad-services-in-chatgpt-what-marketers-need-to-know/829945/ Comments URL: https://news.ycombinator.com/item?id=49644047 Points: 78 # Comments: 71",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Shopify moves back to Native from React Native",
-      "link": "https://shopify.engineering/back-to-native",
-      "pubDate": "2026-09-10T14:09:31.000Z",
-      "description": "Article URL: https://shopify.engineering/back-to-native Comments URL: https://news.ycombinator.com/item?id=49643982 Points: 303 # Comments: 199",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Who Dung It? (Turdle.fun)",
-      "link": "https://turdle.fun/",
-      "pubDate": "2026-09-10T14:01:15.000Z",
-      "description": "Article URL: https://turdle.fun/ Comments URL: https://news.ycombinator.com/item?id=49643864 Points: 11 # Comments: 13",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Tell HN: OpenAI keeps re-enabling the 'allow training' setting",
-      "link": "https://news.ycombinator.com/item?id=49643556",
-      "pubDate": "2026-09-10T13:39:53.000Z",
-      "description": "I've reset this more than once and the last time I made a careful note of when I did it and to my surprise I found it re-enabled when I checked just now. Make sure you check this thing to see if it hasn't been re-enabled if you believe it to be off right now. Comments URL: https://news.ycombinator.c",
+      "title": "Silicon Valley Is Transforming the Military-Industrial Complex",
+      "link": "https://costsofwar.watson.brown.edu/paper/how-big-tech-and-silicon-valley-are-transforming-military-industrial-complex",
+      "pubDate": "2026-09-10T15:47:50.000Z",
+      "description": "Article URL: https://costsofwar.watson.brown.edu/paper/how-big-tech-and-silicon-valley-are-transforming-military-industrial-complex Comments URL: https://news.ycombinator.com/item?id=49645754 Points: 110 # Comments: 169",
       "source": "Hacker News",
       "category": "Tech News"
     },
