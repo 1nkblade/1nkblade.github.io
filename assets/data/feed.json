@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T04:41:52.095Z",
+  "generatedAt": "2026-09-11T11:22:29.693Z",
   "sourceCount": 4,
   "successCount": 3,
   "errors": [
@@ -10,98 +10,146 @@
   ],
   "items": [
     {
-      "title": "Choosing PDF Endpoints for US/EU SaaS Onboarding Packets: Fidelity Versus Latency",
-      "link": "https://dev.to/godfreysterling1574/choosing-pdf-endpoints-for-useu-saas-onboarding-packets-fidelity-versus-latency-3cph",
-      "pubDate": "2026-09-11T04:40:29.000Z",
-      "description": "<p>Short answer: choose an asynchronous PDF pipeline with a small synchronous preview path, then make fidelity a measured contract rather than a promise. For HR onboarding packets, the winning endpoint is the one that preserves fonts, signatures, page geometry, and audit evidence at the load your te",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Node.js Consumer Capacity: Webhook Delivery, Rate Limits, and Dead-Letter Decisions",
-      "link": "https://dev.to/rasmusberg6592/nodejs-consumer-capacity-webhook-delivery-rate-limits-and-dead-letter-decisions-492m",
-      "pubDate": "2026-09-11T04:21:04.000Z",
-      "description": "<p>Short answer: treat a renewal reminder's business deadline as the primary SLO, then make the Node.js consumer's rate limit, acknowledgement boundary, retry policy, and dead-letter path one explicit contract.</p> <p>That rule matters because a B2B SaaS renewal campaign can look healthy at the tran",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "The Retry That Restored Access",
-      "link": "https://dev.to/anusha_mukka/the-retry-that-restored-access-3cec",
-      "pubDate": "2026-09-11T04:20:52.000Z",
-      "description": "<p>Retries keep distributed systems moving through timeouts and temporary failures. In an access system, though, an old retry can be more dangerous than a failed request.</p> <p>This is Part 2 of Security Infrastructure in Practice, a series about what happens when security design meets production s",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "A happy-path MCP demo proves almost nothing about tenant isolation",
-      "link": "https://dev.to/kielltampubolon/a-happy-path-mcp-demo-proves-almost-nothing-about-tenant-isolation-17p",
-      "pubDate": "2026-09-11T04:20:33.000Z",
-      "description": "<p>Most MCP demos look the same. A tool is registered. A client calls it. The tool returns the expected data. Everyone nods.</p> <p>That demo tells you the tool can work. It tells you nothing about what happens when the tool is given the wrong tenant ID, or when it declares scope it should not have,",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Bridging Webhooks to Your Event Mesh: A Secure Edge Pattern for Kafka, Redpanda, and NATS",
-      "link": "https://dev.to/instawebhook/bridging-webhooks-to-your-event-mesh-a-secure-edge-pattern-for-kafka-redpanda-and-nats-2m8l",
-      "pubDate": "2026-09-11T04:20:20.000Z",
-      "description": "<p>API event standardization<br> API integration middleware<br> API webhook payload mapping<br> AsyncAPI specification<br> AsyncAPI webhook design<br> asyncAPI webhooks<br> CloudEvents 1.0.2<br> CloudEvents 1.0.2 specification<br> CloudEvents JSON schema<br> CloudEvents SDK<br> cloud events specific",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "What actually changes when an MCP server leaves your laptop",
-      "link": "https://dev.to/kielltampubolon/what-actually-changes-when-an-mcp-server-leaves-your-laptop-3fhh",
-      "pubDate": "2026-09-11T04:19:27.000Z",
-      "description": "<p>An MCP server that works locally is not the same as an MCP server that runs behind a gateway other people can reach. Every tutorial shows the local case because the local case is easy. The interesting problems only appear the moment another client, another tenant, or another team needs to talk to",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "A valid payment webhook can still be dangerous to process twice",
-      "link": "https://dev.to/kielltampubolon/a-valid-payment-webhook-can-still-be-dangerous-to-process-twice-bpj",
-      "pubDate": "2026-09-11T04:19:24.000Z",
-      "description": "<p>Payment providers retry. That is normal. What is not normal is what most applications do when the retry arrives.</p> <p>A valid Stripe, Midtrans, Tripay, or Xendit webhook can still be dangerous to process twice. The signature checks out. The payload is well formed. The provider is doing exactly ",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Your CLI Tool Needs an MCP Server: Shipping One in a Day, Protocol by Hand",
-      "link": "https://dev.to/_ab214f84f83a01455a74b/your-cli-tool-needs-an-mcp-server-shipping-one-in-a-day-protocol-by-hand-37de",
-      "pubDate": "2026-09-11T04:15:33.000Z",
-      "description": "<h1> Your CLI Tool Needs an MCP Server: Shipping One in a Day, Protocol by Hand </h1> <blockquote> <p>Published on 2026-09-11 · xbrowser v1.23.1</p> </blockquote> <p>Every CLI tool built before 2026 is asking itself the same question: how do AI agents discover me? The answer the ecosystem converged ",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Difference Between vh, vw &amp; px",
-      "link": "https://dev.to/sajin_joe/difference-between-vh-vw-px-2kd8",
-      "pubDate": "2026-09-11T04:14:27.000Z",
-      "description": "<p>1.px (Pixels)<br> Pixels are the traditional building blocks of web design. If you set an item's width to 300px, it will stay exactly 300 pixels wide whether a user views it on a tiny smartphone or a massive desktop monitor.</p> <p>2.vw (Viewport Width)<br> The \"viewport\" is simply the visible ar",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "The 5-Minute Trick That Landed Me 3 Job Offers",
-      "link": "https://dev.to/rahmanfrr/the-5-minute-trick-that-landed-me-3-job-offers-jff",
-      "pubDate": "2026-09-11T04:12:01.000Z",
-      "description": "<p>I used to prep for interviews the normal way. Read the job post twice. Practice \"tell me about yourself\" in the mirror. Show up hoping for the best.</p> <p>Three offers later, I do one thing differently. Five minutes, right before I log in or walk through the door.</p> <h2> The trick </h2> <p>I w",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Exercise intensity is associated with cardiometabolic health",
-      "link": "https://www.cell.com/cell-reports-medicine/fulltext/S2666-3791(26)00405-2",
-      "pubDate": "2026-09-11T03:48:10.000Z",
-      "description": "Article URL: https://www.cell.com/cell-reports-medicine/fulltext/S2666-3791(26)00405-2 Comments URL: https://news.ycombinator.com/item?id=49653328 Points: 3 # Comments: 0",
+      "title": "RTK reports token savings, but our cost benchmarks disagree",
+      "link": "https://quesma.com/blog/does-rtk-make-ai-coding-cheaper/",
+      "pubDate": "2026-09-11T11:15:13.000Z",
+      "description": "Article URL: https://quesma.com/blog/does-rtk-make-ai-coding-cheaper/ Comments URL: https://news.ycombinator.com/item?id=49656471 Points: 3 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "LLM Visualizer – Build a Transformer from Scratch",
-      "link": "https://jayvisaria.github.io/LLM-Visualizer/#/dashboard",
-      "pubDate": "2026-09-11T02:51:51.000Z",
-      "description": "Article URL: https://jayvisaria.github.io/LLM-Visualizer/#/dashboard Comments URL: https://news.ycombinator.com/item?id=49652996 Points: 11 # Comments: 4",
+      "title": "Logging Like a Jedi: Spotting Problems Before Users Do",
+      "link": "https://dev.to/timevolt/logging-like-a-jedi-spotting-problems-before-users-do-5ahg",
+      "pubDate": "2026-09-11T11:08:36.000Z",
+      "description": "<h2> The Quest Begins (The \"Why\") </h2> <p>Honestly, I still remember the first time a user pinged me at 2 a.m. saying, “The checkout button just spun forever.” I dug through logs, found a cryptic <code>Undefined is not a function</code> buried three hundred lines deep in a console dump, and felt li",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Next.js 16's Turbopack is 2.5x faster, but the bundler is only 4% of your build",
+      "link": "https://dev.to/remdore/nextjs-16s-turbopack-is-25x-faster-but-the-bundler-is-only-4-of-your-build-9j9",
+      "pubDate": "2026-09-11T11:05:00.000Z",
+      "description": "<p>Next.js 16 makes Turbopack the default bundler and puts a number on it: builds 2 to 5 times faster than webpack. I wanted to know whether that holds on something bigger than the starter template, and where the time actually goes, so I built a 60-route app and timed every phase of the build with b",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "My local repos were full of zombie branches and git never told me which ones were safe to delete",
+      "link": "https://dev.to/raknaos/my-local-repos-were-full-of-zombie-branches-and-git-never-told-me-which-ones-were-safe-to-delete-39fn",
+      "pubDate": "2026-09-11T11:03:15.000Z",
+      "description": "<p>Last week I ran <code>git branch</code> in one of my older working trees and got back forty-some local branches. Forty. I work on maybe three things at a time. The rest were residue: half of them were merged into <code>main</code> months ago, a few tracked remote branches that someone had already",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Modern Data Lakehouses: How Apache Iceberg Solved the Pitfalls of Hive Metastore",
+      "link": "https://dev.to/adhishree_21/modern-data-lakehouses-how-apache-iceberg-solved-the-pitfalls-of-hive-metastore-3dhb",
+      "pubDate": "2026-09-11T11:00:23.000Z",
+      "description": "<h2> Introduction </h2> <p>When a data platform grows from a few gigabytes to terabytes or petabytes, storing the data is only one part of the problem.</p> <p>A typical data lake can store huge amounts of data cheaply in systems such as Amazon S3 or HDFS. The real challenge is making that collection",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Building Structured Inter-Agent Communication: A Practical Guide",
+      "link": "https://dev.to/albert_zhang_f468830cf0e6/building-structured-inter-agent-communication-a-practical-guide-4ho",
+      "pubDate": "2026-09-11T11:00:23.000Z",
+      "description": "<p>Every multi-agent tutorial shows \"Agent A talks to Agent B.\" None show <em>how</em> to keep that conversation reliable at scale.</p> <h2> The Problem with String-Based Agent Chat </h2> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight python\"><code><span class=\"c1\"># What most frame",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Word Sense Disambiguation: How NLP Understands Word Meaning in Context",
+      "link": "https://dev.to/javiagu13/word-sense-disambiguation-how-nlp-understands-word-meaning-in-context-130m",
+      "pubDate": "2026-09-11T11:00:00.000Z",
+      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fr72vnixxlsnnr56nitiv.png\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "YARA Rules for Beginners: Writing Your First Malware Detection Signature",
+      "link": "https://dev.to/david_moya_5b6cdd8b4e1219/yara-rules-for-beginners-writing-your-first-malware-detection-signature-1db4",
+      "pubDate": "2026-09-11T10:59:34.000Z",
+      "description": "<h1> YARA Rules for Beginners: Writing Your First Malware Detection Signature </h1> <p><strong>TL;DR:</strong> YARA is a pattern-matching engine used by malware analysts, incident responders, and SOC teams to identify malicious files based on textual or binary signatures. In this tutorial, you'll le",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Front-end Integrative Project – Animalia",
+      "link": "https://dev.to/arthur_guilhermesilvama/front-end-integrative-project-animalia-3g9j",
+      "pubDate": "2026-09-11T10:58:25.000Z",
+      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F6plspxd1962giuaa3cxi.jpg\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Stop drawing the graph: reactive agents over typed, versioned artifacts",
+      "link": "https://dev.to/bzdvdn/stop-drawing-the-graph-reactive-agents-over-typed-versioned-artifacts-43cn",
+      "pubDate": "2026-09-11T10:51:54.000Z",
+      "description": "<p><em>I built this — <a href=\"https://github.com/bzdvdn/reactifact\" rel=\"noopener noreferrer\"><code>reactifact</code></a>, a Python agent runtime that also speaks MCP natively, both as a client and a server. Here's the argument for why it exists.</em></p> <h2> The problem that started this </h2> <p",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Claude is no longer available for minors",
+      "link": "https://support.claude.com/en/articles/15171100-age-assurance-on-claude",
+      "pubDate": "2026-09-11T10:48:00.000Z",
+      "description": "Article URL: https://support.claude.com/en/articles/15171100-age-assurance-on-claude Comments URL: https://news.ycombinator.com/item?id=49656225 Points: 43 # Comments: 37",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "How to Build a Real-Time Notification System for a Classified Marketplace: Architecture, Transport, and Edge Cases",
+      "link": "https://dev.to/viktoriaholikova/how-to-build-a-real-time-notification-system-for-a-classified-marketplace-architecture-transport-580f",
+      "pubDate": "2026-09-11T10:40:46.000Z",
+      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F2oncsmnea7nmwstlra9u.png\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Resist \"AI\"",
+      "link": "https://ronjeffries.com/articles/-v026/x/t/",
+      "pubDate": "2026-09-11T10:19:59.000Z",
+      "description": "Article URL: https://ronjeffries.com/articles/-v026/x/t/ Comments URL: https://news.ycombinator.com/item?id=49656033 Points: 32 # Comments: 12",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "The Death of Shame Is Tearing Us Apart",
+      "link": "https://www.newyorker.com/news/fault-lines/the-death-of-shame-is-tearing-us-apart",
+      "pubDate": "2026-09-11T09:30:50.000Z",
+      "description": "Article URL: https://www.newyorker.com/news/fault-lines/the-death-of-shame-is-tearing-us-apart Comments URL: https://news.ycombinator.com/item?id=49655619 Points: 29 # Comments: 31",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Cherenkov Radiation - traveling faster than light",
+      "link": "http://www.iaea.org/newscenter/news/what-is-cherenkov-radiation",
+      "pubDate": "2026-09-11T08:42:04.000Z",
+      "description": "Article URL: http://www.iaea.org/newscenter/news/what-is-cherenkov-radiation Comments URL: https://news.ycombinator.com/item?id=49655286 Points: 80 # Comments: 53",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Neijuan",
+      "link": "https://en.wikipedia.org/wiki/Neijuan",
+      "pubDate": "2026-09-11T08:26:56.000Z",
+      "description": "Article URL: https://en.wikipedia.org/wiki/Neijuan Comments URL: https://news.ycombinator.com/item?id=49655176 Points: 48 # Comments: 15",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "CSS Curiosities of the Past",
+      "link": "https://vale.rocks/posts/css-relics",
+      "pubDate": "2026-09-11T07:57:17.000Z",
+      "description": "Article URL: https://vale.rocks/posts/css-relics Comments URL: https://news.ycombinator.com/item?id=49654962 Points: 15 # Comments: 4",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "GPT‑Live‑1 in the API",
+      "link": "https://openai.com/index/introducing-gpt-live-1-in-the-api/",
+      "pubDate": "2026-09-11T05:45:19.000Z",
+      "description": "Article URL: https://openai.com/index/introducing-gpt-live-1-in-the-api/ Comments URL: https://news.ycombinator.com/item?id=49653985 Points: 36 # Comments: 26",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -109,39 +157,7 @@
       "title": "Mexican student creates an acoustic fire extinguisher to put out fire in seconds",
       "link": "https://www.upsocl.com/en/16-year-old-mexican-student-creates-an-acoustic-fire-extinguisher-that-uses-sound-waves-to-put-out-fires-in-seconds/",
       "pubDate": "2026-09-11T01:00:56.000Z",
-      "description": "Article URL: https://www.upsocl.com/en/16-year-old-mexican-student-creates-an-acoustic-fire-extinguisher-that-uses-sound-waves-to-put-out-fires-in-seconds/ Comments URL: https://news.ycombinator.com/item?id=49652237 Points: 96 # Comments: 39",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Herdr Studio",
-      "link": "https://powerfooI.github.io/herdr-studio/",
-      "pubDate": "2026-09-11T00:54:36.000Z",
-      "description": "Article URL: https://powerfooI.github.io/herdr-studio/ Comments URL: https://news.ycombinator.com/item?id=49652188 Points: 13 # Comments: 6",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Google will buy half the electricity from one of Finland's nuclear power plants",
-      "link": "https://www.bbc.com/news/articles/c8r6y4me2g6o",
-      "pubDate": "2026-09-11T00:42:41.000Z",
-      "description": "Article URL: https://www.bbc.com/news/articles/c8r6y4me2g6o Comments URL: https://news.ycombinator.com/item?id=49652105 Points: 135 # Comments: 97",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "YuE2 · Frontier Music with Symbolic Planning",
-      "link": "https://map-yue2.github.io/",
-      "pubDate": "2026-09-11T00:33:26.000Z",
-      "description": "Article URL: https://map-yue2.github.io/ Comments URL: https://news.ycombinator.com/item?id=49652028 Points: 67 # Comments: 52",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Thelio Mira AI Linux Workstation: 192 GB GPU Memory",
-      "link": "https://system76.com/workstations/thelio-mira-ai",
-      "pubDate": "2026-09-10T23:10:06.000Z",
-      "description": "Article URL: https://system76.com/workstations/thelio-mira-ai Comments URL: https://news.ycombinator.com/item?id=49651372 Points: 63 # Comments: 38",
+      "description": "Article URL: https://www.upsocl.com/en/16-year-old-mexican-student-creates-an-acoustic-fire-extinguisher-that-uses-sound-waves-to-put-out-fires-in-seconds/ Comments URL: https://news.ycombinator.com/item?id=49652237 Points: 242 # Comments: 83",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -149,23 +165,7 @@
       "title": "Nine coding harnesses vs. your laptop",
       "link": "https://nasutton.notion.site/Nine-coding-harnesses-vs-your-laptop-3d139990182b80d59fa3cf500f0450ba?pvs=74",
       "pubDate": "2026-09-10T22:54:01.000Z",
-      "description": "Article URL: https://nasutton.notion.site/Nine-coding-harnesses-vs-your-laptop-3d139990182b80d59fa3cf500f0450ba?pvs=74 Comments URL: https://news.ycombinator.com/item?id=49651221 Points: 8 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "NTSB issues investigative update on B-767 runway excursion accident in Miami",
-      "link": "https://www.ntsb.gov:443/news/press-releases/Pages/NR20260909.aspx",
-      "pubDate": "2026-09-10T21:30:55.000Z",
-      "description": "Article URL: https://www.ntsb.gov:443/news/press-releases/Pages/NR20260909.aspx Comments URL: https://news.ycombinator.com/item?id=49650418 Points: 78 # Comments: 123",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Proof of Capture: Apple Reference Image, but open source and using steganography",
-      "link": "https://merybenavente.me/blog/proof-of-capture",
-      "pubDate": "2026-09-10T19:44:15.000Z",
-      "description": "Article URL: https://merybenavente.me/blog/proof-of-capture Comments URL: https://news.ycombinator.com/item?id=49649222 Points: 80 # Comments: 51",
+      "description": "Article URL: https://nasutton.notion.site/Nine-coding-harnesses-vs-your-laptop-3d139990182b80d59fa3cf500f0450ba?pvs=74 Comments URL: https://news.ycombinator.com/item?id=49651221 Points: 114 # Comments: 36",
       "source": "Hacker News",
       "category": "Tech News"
     },
