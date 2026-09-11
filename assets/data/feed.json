@@ -1,253 +1,177 @@
 {
-  "generatedAt": "2026-09-11T11:22:29.693Z",
+  "generatedAt": "2026-09-11T16:29:17.728Z",
   "sourceCount": 4,
-  "successCount": 3,
+  "successCount": 2,
   "errors": [
     {
       "source": "Hack The Box Security Blog",
       "error": "HTTP 404 Not Found"
+    },
+    {
+      "source": "CSS Tricks",
+      "error": "HTTP 415 Unsupported Media Type"
     }
   ],
   "items": [
     {
-      "title": "RTK reports token savings, but our cost benchmarks disagree",
-      "link": "https://quesma.com/blog/does-rtk-make-ai-coding-cheaper/",
-      "pubDate": "2026-09-11T11:15:13.000Z",
-      "description": "Article URL: https://quesma.com/blog/does-rtk-make-ai-coding-cheaper/ Comments URL: https://news.ycombinator.com/item?id=49656471 Points: 3 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Logging Like a Jedi: Spotting Problems Before Users Do",
-      "link": "https://dev.to/timevolt/logging-like-a-jedi-spotting-problems-before-users-do-5ahg",
-      "pubDate": "2026-09-11T11:08:36.000Z",
-      "description": "<h2> The Quest Begins (The \"Why\") </h2> <p>Honestly, I still remember the first time a user pinged me at 2 a.m. saying, “The checkout button just spun forever.” I dug through logs, found a cryptic <code>Undefined is not a function</code> buried three hundred lines deep in a console dump, and felt li",
+      "title": "Free Inference Should Not Gate a Merge",
+      "link": "https://dev.to/aiio_6471/free-inference-should-not-gate-a-merge-61a",
+      "pubDate": "2026-09-11T16:19:22.000Z",
+      "description": "<p>A free-tier completion can annotate a pull request. It cannot be the required status that lets that pull request land. The moment an unpaid, uncontracted model holds a merge vote, the CI graph stops being a control plane and starts being a suggestion box with a green checkmark glued on.</p> <p>Th",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Next.js 16's Turbopack is 2.5x faster, but the bundler is only 4% of your build",
-      "link": "https://dev.to/remdore/nextjs-16s-turbopack-is-25x-faster-but-the-bundler-is-only-4-of-your-build-9j9",
-      "pubDate": "2026-09-11T11:05:00.000Z",
-      "description": "<p>Next.js 16 makes Turbopack the default bundler and puts a number on it: builds 2 to 5 times faster than webpack. I wanted to know whether that holds on something bigger than the starter template, and where the time actually goes, so I built a 60-route app and timed every phase of the build with b",
+      "title": "Introducing Tagryn: an offline metadata workbench built with Tauri and Rust",
+      "link": "https://dev.to/fgxhammer/introducing-tagryn-an-offline-metadata-workbench-built-with-tauri-and-rust-3i84",
+      "pubDate": "2026-09-11T16:18:37.000Z",
+      "description": "<p>Two copies of a photo can look identical while telling different stories in their metadata. A timestamp differs. An author appears in one metadata group and is missing from another. A neighboring XMP sidecar contains yet another value.</p> <p>Before changing anything, you need to understand where",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "My local repos were full of zombie branches and git never told me which ones were safe to delete",
-      "link": "https://dev.to/raknaos/my-local-repos-were-full-of-zombie-branches-and-git-never-told-me-which-ones-were-safe-to-delete-39fn",
-      "pubDate": "2026-09-11T11:03:15.000Z",
-      "description": "<p>Last week I ran <code>git branch</code> in one of my older working trees and got back forty-some local branches. Forty. I work on maybe three things at a time. The rest were residue: half of them were merged into <code>main</code> months ago, a few tracked remote branches that someone had already",
+      "title": "How to Generate Karate API Tests from OpenAPI — Without Creating a Maintenance Nightmare",
+      "link": "https://dev.to/muthu_kumarkoodalingam/how-to-generate-karate-api-tests-from-openapi-without-creating-a-maintenance-nightmare-5131",
+      "pubDate": "2026-09-11T16:16:06.000Z",
+      "description": "<h1> How to Generate Karate API Tests from OpenAPI — Without Creating a Maintenance Nightmare </h1> <p>Generating API tests from an OpenAPI file sounds like an easy automation win.</p> <p>Parse the specification. Create one test per endpoint. Add a few assertions. Commit the generated files.</p> <p>",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Modern Data Lakehouses: How Apache Iceberg Solved the Pitfalls of Hive Metastore",
-      "link": "https://dev.to/adhishree_21/modern-data-lakehouses-how-apache-iceberg-solved-the-pitfalls-of-hive-metastore-3dhb",
-      "pubDate": "2026-09-11T11:00:23.000Z",
-      "description": "<h2> Introduction </h2> <p>When a data platform grows from a few gigabytes to terabytes or petabytes, storing the data is only one part of the problem.</p> <p>A typical data lake can store huge amounts of data cheaply in systems such as Amazon S3 or HDFS. The real challenge is making that collection",
+      "title": "The AI Takeover Checklist: A Devil's Advocate Audit",
+      "link": "https://nochan.net/b/Internet-Crap/20260910-Asked-Claude-For-A-Checklist/",
+      "pubDate": "2026-09-11T16:16:05.000Z",
+      "description": "Article URL: https://nochan.net/b/Internet-Crap/20260910-Asked-Claude-For-A-Checklist/ Comments URL: https://news.ycombinator.com/item?id=49660923 Points: 3 # Comments: 1",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "If-Else Statements: When I Finally Got It",
+      "link": "https://dev.to/sameerqaisar17/if-else-statements-when-i-finally-got-it-3f8d",
+      "pubDate": "2026-09-11T16:15:58.000Z",
+      "description": "<h2> 📌 Quick Info </h2> <ul> <li> <strong>Topic:</strong> If-Else Statements in Python</li> <li> <strong>Target Audience:</strong> Upper beginners who know basic Python</li> <li> <strong>Goal:</strong> Help someone understand if-else in 5 minutes</li> </ul> <h2> 1. Introduction </h2> <blockquote> <",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Building Structured Inter-Agent Communication: A Practical Guide",
-      "link": "https://dev.to/albert_zhang_f468830cf0e6/building-structured-inter-agent-communication-a-practical-guide-4ho",
-      "pubDate": "2026-09-11T11:00:23.000Z",
-      "description": "<p>Every multi-agent tutorial shows \"Agent A talks to Agent B.\" None show <em>how</em> to keep that conversation reliable at scale.</p> <h2> The Problem with String-Based Agent Chat </h2> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight python\"><code><span class=\"c1\"># What most frame",
+      "title": "ComfyUI ในวันที่ AI สร้างภาพ วิดีโอ และโมเดล 3 มิติ ได้ด้วยการลากกล่องต่อกัน",
+      "link": "https://dev.to/sarantoon/comfyui-ainwanthii-ai-sraangphaaph-widiio-aelaomedl-3-miti-aiddwykaarlaakklngtkan-3c4m",
+      "pubDate": "2026-09-11T16:13:11.000Z",
+      "description": "<h1> ComfyUI ในวันที่ AI สร้างภาพ วิดีโอ และโมเดล 3 มิติ ได้ด้วยการลากกล่องต่อกัน </h1> <p><em>โดย Nokka (นก-กา) | 11 กันยายน 2026</em></p> <p><em>บทความนี้เขียนโดย AI (deepseek-v4.1-flash) ผ่าน Hermes Agent ตรวจสอบและเรียบเรียงโดย Nokka</em></p> <p>โพสต์จากเพจ GitHub Projects ที่ถูกแชร์ต่อใน Thread",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Word Sense Disambiguation: How NLP Understands Word Meaning in Context",
-      "link": "https://dev.to/javiagu13/word-sense-disambiguation-how-nlp-understands-word-meaning-in-context-130m",
-      "pubDate": "2026-09-11T11:00:00.000Z",
-      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fr72vnixxlsnnr56nitiv.png\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/",
+      "title": "เครื่องมือ CLI ตัวเดียวที่สกัดดีไซน์ทั้งเว็บออกมาเป็นไฟล์ ให้ Claude Code สร้าง UI ตรงแบบเป๊ะ",
+      "link": "https://dev.to/sarantoon/ekhruuengmuue-cli-tawediiywthiiskaddiiaichnthangewbkmaaepnaifl-aih-claude-code-sraang-ui-trngaebbepa-531a",
+      "pubDate": "2026-09-11T16:13:06.000Z",
+      "description": "<h1> เครื่องมือ CLI ตัวเดียวที่สกัดดีไซน์ทั้งเว็บออกมาเป็นไฟล์ ให้ Claude Code สร้าง UI ตรงแบบเป๊ะ </h1> <p><em>โดย Nokka (นก-กา) | 11 กันยายน 2026</em></p> <p><em>บทความนี้เขียนโดย AI (deepseek-v4.1-flash) ผ่าน Hermes Agent ตรวจสอบและเรียบเรียงโดย Nokka</em></p> <p>โพสต์หนึ่งจาก Tom Dörr ที่มีผู้ติ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "YARA Rules for Beginners: Writing Your First Malware Detection Signature",
-      "link": "https://dev.to/david_moya_5b6cdd8b4e1219/yara-rules-for-beginners-writing-your-first-malware-detection-signature-1db4",
-      "pubDate": "2026-09-11T10:59:34.000Z",
-      "description": "<h1> YARA Rules for Beginners: Writing Your First Malware Detection Signature </h1> <p><strong>TL;DR:</strong> YARA is a pattern-matching engine used by malware analysts, incident responders, and SOC teams to identify malicious files based on textual or binary signatures. In this tutorial, you'll le",
+      "title": "นักวิจัย AWS พิสูจน์ว่าตัวจัดการระบบ AI หลายตัว ไม่จำเป็นต้องเป็น AI เลย",
+      "link": "https://dev.to/sarantoon/nakwicchay-aws-phisuucchnwaatawcchadkaarrabb-ai-hlaaytaw-aimcchamepntngepn-ai-ely-1d0o",
+      "pubDate": "2026-09-11T16:13:01.000Z",
+      "description": "<h1> นักวิจัย AWS พิสูจน์ว่าตัวจัดการระบบ AI หลายตัว ไม่จำเป็นต้องเป็น AI เลย </h1> <p><em>โดย Nokka (นก-กา) | 11 กันยายน 2026</em></p> <p><em>บทความนี้เขียนโดย AI (deepseek-v4.1-flash) ผ่าน Hermes Agent ตรวจสอบและเรียบเรียงโดย Nokka</em></p> <p>เมื่อระบบ AI หลายตัวต้องทำงานร่วมกัน ปัญหาที่โผล่ขึ้นม",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Front-end Integrative Project – Animalia",
-      "link": "https://dev.to/arthur_guilhermesilvama/front-end-integrative-project-animalia-3g9j",
-      "pubDate": "2026-09-11T10:58:25.000Z",
-      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F6plspxd1962giuaa3cxi.jpg\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/",
+      "title": "หนังสือฟรีที่สอนสร้างระบบ AI หลายตัวจากศูนย์ พร้อมโค้ดทุกบรรทัดบน GitHub",
+      "link": "https://dev.to/sarantoon/hnangsuuefriithiisnsraangrabb-ai-hlaaytawcchaaksuuny-phrmokhdthukbrrthadbn-github-20mi",
+      "pubDate": "2026-09-11T16:12:57.000Z",
+      "description": "<h1> หนังสือฟรีที่สอนสร้างระบบ AI หลายตัวจากศูนย์ พร้อมโค้ดทุกบรรทัดบน GitHub </h1> <p><em>โดย Nokka (นก-กา) | 11 กันยายน 2026</em></p> <p><em>บทความนี้เขียนโดย AI (deepseek-v4.1-flash) ผ่าน Hermes Agent ตรวจสอบและเรียบเรียงโดย Nokka</em></p> <p>โพสต์สั้น ๆ จาก Tom Dörr บอกว่า \"สร้างระบบ AI หลายตัวจ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Stop drawing the graph: reactive agents over typed, versioned artifacts",
-      "link": "https://dev.to/bzdvdn/stop-drawing-the-graph-reactive-agents-over-typed-versioned-artifacts-43cn",
-      "pubDate": "2026-09-11T10:51:54.000Z",
-      "description": "<p><em>I built this — <a href=\"https://github.com/bzdvdn/reactifact\" rel=\"noopener noreferrer\"><code>reactifact</code></a>, a Python agent runtime that also speaks MCP natively, both as a client and a server. Here's the argument for why it exists.</em></p> <h2> The problem that started this </h2> <p",
+      "title": "RSI คืออะไร, ทำไม Anthropic บอกว่าเราใกล้ถึงจุดที่ AI สร้าง AI ตัวต่อไปได้เองแล้ว",
+      "link": "https://dev.to/sarantoon/rsi-khuueaair-thamaim-anthropic-bkwaaeraaaiklthuengcchudthii-ai-sraang-ai-tawtaipaidengaelw-3gmk",
+      "pubDate": "2026-09-11T16:12:43.000Z",
+      "description": "<h1> RSI คืออะไร, ทำไม Anthropic บอกว่าเราใกล้ถึงจุดที่ AI สร้าง AI ตัวต่อไปได้เองแล้ว </h1> <p><em>โดย Nokka (นก-กา) | 11 กันยายน 2026</em></p> <p><em>บทความนี้เขียนโดย AI (deepseek-v4.1-flash) ผ่าน Hermes Agent ตรวจสอบและเรียบเรียงโดย Nokka</em></p> <p>คลิปสั้นจาก CNBC ที่ออกอากาศวันที่ 10 กันยายน",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Claude is no longer available for minors",
-      "link": "https://support.claude.com/en/articles/15171100-age-assurance-on-claude",
-      "pubDate": "2026-09-11T10:48:00.000Z",
-      "description": "Article URL: https://support.claude.com/en/articles/15171100-age-assurance-on-claude Comments URL: https://news.ycombinator.com/item?id=49656225 Points: 43 # Comments: 37",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "How to Build a Real-Time Notification System for a Classified Marketplace: Architecture, Transport, and Edge Cases",
-      "link": "https://dev.to/viktoriaholikova/how-to-build-a-real-time-notification-system-for-a-classified-marketplace-architecture-transport-580f",
-      "pubDate": "2026-09-11T10:40:46.000Z",
-      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F2oncsmnea7nmwstlra9u.png\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/",
+      "title": "งานวิจัยชี้ AI Overviews ทำให้วิกิพีเดียเสียคลิกจากเสิร์ชเดือนละ 100 ล้านครั้ง",
+      "link": "https://dev.to/sarantoon/ngaanwicchaychii-ai-overviews-thamaihwikiphiiediiyesiiykhlikcchaakesircheduuenla-100-laankhrang-1f5e",
+      "pubDate": "2026-09-11T16:12:29.000Z",
+      "description": "<h1> งานวิจัยชี้ AI Overviews ทำให้วิกิพีเดียเสียคลิกจากเสิร์ชเดือนละ 100 ล้านครั้ง </h1> <p><em>โดย Nokka (นก-กา) | 11 กันยายน 2026</em></p> <p><em>บทความนี้เขียนโดย AI (deepseek-v4.1-flash) ผ่าน Hermes Agent ตรวจสอบและเรียบเรียงโดย Nokka</em></p> <p>งานวิจัยจากมหาวิทยาลัยวอชิงตันโดย Mehrzad Khosra",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Resist \"AI\"",
-      "link": "https://ronjeffries.com/articles/-v026/x/t/",
-      "pubDate": "2026-09-11T10:19:59.000Z",
-      "description": "Article URL: https://ronjeffries.com/articles/-v026/x/t/ Comments URL: https://news.ycombinator.com/item?id=49656033 Points: 32 # Comments: 12",
+      "title": "The Last 24 Hours Are the Opening Scene in a Horror Movie",
+      "link": "https://www.honest-broker.com/p/the-last-24-hours-are-the-opening",
+      "pubDate": "2026-09-11T16:04:47.000Z",
+      "description": "Article URL: https://www.honest-broker.com/p/the-last-24-hours-are-the-opening Comments URL: https://news.ycombinator.com/item?id=49660707 Points: 16 # Comments: 4",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "The Death of Shame Is Tearing Us Apart",
-      "link": "https://www.newyorker.com/news/fault-lines/the-death-of-shame-is-tearing-us-apart",
-      "pubDate": "2026-09-11T09:30:50.000Z",
-      "description": "Article URL: https://www.newyorker.com/news/fault-lines/the-death-of-shame-is-tearing-us-apart Comments URL: https://news.ycombinator.com/item?id=49655619 Points: 29 # Comments: 31",
+      "title": "Godot and Rust based multiplexer (terminal panes and more)",
+      "link": "https://github.com/godot-pty/gpty",
+      "pubDate": "2026-09-11T16:03:05.000Z",
+      "description": "Article URL: https://github.com/godot-pty/gpty Comments URL: https://news.ycombinator.com/item?id=49660676 Points: 9 # Comments: 3",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Cherenkov Radiation - traveling faster than light",
-      "link": "http://www.iaea.org/newscenter/news/what-is-cherenkov-radiation",
-      "pubDate": "2026-09-11T08:42:04.000Z",
-      "description": "Article URL: http://www.iaea.org/newscenter/news/what-is-cherenkov-radiation Comments URL: https://news.ycombinator.com/item?id=49655286 Points: 80 # Comments: 53",
+      "title": "Global Glacier Extinction Explorer",
+      "link": "https://glacierextinction.com",
+      "pubDate": "2026-09-11T15:58:06.000Z",
+      "description": "Article URL: https://glacierextinction.com Comments URL: https://news.ycombinator.com/item?id=49660576 Points: 16 # Comments: 2",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Neijuan",
-      "link": "https://en.wikipedia.org/wiki/Neijuan",
-      "pubDate": "2026-09-11T08:26:56.000Z",
-      "description": "Article URL: https://en.wikipedia.org/wiki/Neijuan Comments URL: https://news.ycombinator.com/item?id=49655176 Points: 48 # Comments: 15",
+      "title": "Hacker News with reduced priority for AI driven content",
+      "link": "https://sprinklz.io/public/pdwt4dve5uai",
+      "pubDate": "2026-09-11T15:52:49.000Z",
+      "description": "Article URL: https://sprinklz.io/public/pdwt4dve5uai Comments URL: https://news.ycombinator.com/item?id=49660482 Points: 36 # Comments: 18",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "CSS Curiosities of the Past",
-      "link": "https://vale.rocks/posts/css-relics",
-      "pubDate": "2026-09-11T07:57:17.000Z",
-      "description": "Article URL: https://vale.rocks/posts/css-relics Comments URL: https://news.ycombinator.com/item?id=49654962 Points: 15 # Comments: 4",
+      "title": "Matt Mullenweg tells Automattic staff in Slack he's back in control after ouster",
+      "link": "https://techcrunch.com/2026/09/11/matt-mullenweg-tells-automattic-staff-in-slack-hes-back-in-control-after-ceo-ouster/",
+      "pubDate": "2026-09-11T15:29:35.000Z",
+      "description": "Article URL: https://techcrunch.com/2026/09/11/matt-mullenweg-tells-automattic-staff-in-slack-hes-back-in-control-after-ceo-ouster/ Comments URL: https://news.ycombinator.com/item?id=49660104 Points: 59 # Comments: 25",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "GPT‑Live‑1 in the API",
-      "link": "https://openai.com/index/introducing-gpt-live-1-in-the-api/",
-      "pubDate": "2026-09-11T05:45:19.000Z",
-      "description": "Article URL: https://openai.com/index/introducing-gpt-live-1-in-the-api/ Comments URL: https://news.ycombinator.com/item?id=49653985 Points: 36 # Comments: 26",
+      "title": "Show HN: Hacker News, without AI",
+      "link": "https://hcker.news/?ai=exclude",
+      "pubDate": "2026-09-11T15:01:19.000Z",
+      "description": "Article URL: https://hcker.news/?ai=exclude Comments URL: https://news.ycombinator.com/item?id=49659647 Points: 79 # Comments: 47",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Mexican student creates an acoustic fire extinguisher to put out fire in seconds",
-      "link": "https://www.upsocl.com/en/16-year-old-mexican-student-creates-an-acoustic-fire-extinguisher-that-uses-sound-waves-to-put-out-fires-in-seconds/",
-      "pubDate": "2026-09-11T01:00:56.000Z",
-      "description": "Article URL: https://www.upsocl.com/en/16-year-old-mexican-student-creates-an-acoustic-fire-extinguisher-that-uses-sound-waves-to-put-out-fires-in-seconds/ Comments URL: https://news.ycombinator.com/item?id=49652237 Points: 242 # Comments: 83",
+      "title": "HuggingFace: Security.txt",
+      "link": "https://huggingface.co/security.txt",
+      "pubDate": "2026-09-11T14:38:13.000Z",
+      "description": "Article URL: https://huggingface.co/security.txt Comments URL: https://news.ycombinator.com/item?id=49659245 Points: 106 # Comments: 16",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Nine coding harnesses vs. your laptop",
-      "link": "https://nasutton.notion.site/Nine-coding-harnesses-vs-your-laptop-3d139990182b80d59fa3cf500f0450ba?pvs=74",
-      "pubDate": "2026-09-10T22:54:01.000Z",
-      "description": "Article URL: https://nasutton.notion.site/Nine-coding-harnesses-vs-your-laptop-3d139990182b80d59fa3cf500f0450ba?pvs=74 Comments URL: https://news.ycombinator.com/item?id=49651221 Points: 114 # Comments: 36",
+      "title": "New York thoracic surgeon: \"For many patients 9/11 is not over\"",
+      "link": "https://www.statnews.com/2026/09/11/sept-11-25th-anniversary-ground-zero-exposure-cancer-moment-of-silence/",
+      "pubDate": "2026-09-11T14:14:56.000Z",
+      "description": "Article URL: https://www.statnews.com/2026/09/11/sept-11-25th-anniversary-ground-zero-exposure-cancer-moment-of-silence/ Comments URL: https://news.ycombinator.com/item?id=49658819 Points: 45 # Comments: 14",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Let’s Use the Emergent CSS random() Function in all the Browsers",
-      "link": "https://css-tricks.com/css-random-function-polyfill/",
-      "pubDate": "2026-08-31T15:12:19.000Z",
-      "description": "The journey to create a polyfill for the upcoming CSS random() function that works in all browsers. Let’s Use the Emergent CSS random() Function in all the Browsers originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "What’s !important #18: &#060;geolocation&gt;, Syntax ::highlight()ing, named-feature(), and More",
-      "link": "https://css-tricks.com/whats-important-18/",
-      "pubDate": "2026-08-31T14:08:55.000Z",
-      "description": "Well, that’s a wrap. No, not a flex-wrap, but rather today marks a new day, week, month, season, aaaand new edition of What’s important (#18), bringing you the best content that developers have produced over the last couple of weeks or so. What’s !important #18: <geolocation>, Syntax ::highlight()in",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Creating Web Widgets Using the Document Picture-in-Picture API",
-      "link": "https://css-tricks.com/creating-web-widgets-using-the-document-picture-in-picture-api/",
-      "pubDate": "2026-08-27T14:41:06.000Z",
-      "description": "The general idea is that we create a Document Picture-in-Picture window (DPIP window), and then we put HTML, CSS, and JavaScript into it. Creating Web Widgets Using the Document Picture-in-Picture API originally handwritten and published with love on CSS-Tricks. You should really get the newsletter ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "animation-trigger",
-      "link": "https://css-tricks.com/almanac/properties/a/animation-trigger/",
-      "pubDate": "2026-08-26T15:38:41.000Z",
-      "description": "The CSS animation-trigger property allows you to delay the start of a CSS animation until a specific trigger occurs. animation-trigger originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "MicroLighter: Syntax Highlighter",
-      "link": "https://css-tricks.com/microlighter-syntax-highlighter/",
-      "pubDate": "2026-08-25T14:10:34.000Z",
-      "description": "Syntax highlighting for code blocks without the complicated markup, spans, classes, and bloated JavaScript, courtesy of Uncle Dave. MicroLighter: Syntax Highlighter originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "WordPress PHP-Only Block Registration",
-      "link": "https://css-tricks.com/wordpress-php-block-registration/",
-      "pubDate": "2026-08-24T13:54:02.000Z",
-      "description": "Seven and half years after blocks arrived in Core, WordPress introduces a way to build blocks without React annd build pipelines. All you need is PHP. WordPress PHP-Only Block Registration originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Resolved: CSS Class Prefix Selector",
-      "link": "https://css-tricks.com/resolved-css-class-prefix-selector/",
-      "pubDate": "2026-08-21T15:13:03.000Z",
-      "description": "A newly resolved proposal would allow us to select classes that are a prefix for variations with a wildcard, like .prefix-*. Resolved: CSS Class Prefix Selector originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "CSS Navigation Matching, Early Days",
-      "link": "https://css-tricks.com/css-navigation-matching-early-days/",
-      "pubDate": "2026-08-19T14:44:41.000Z",
-      "description": "Apply a style when someone navigates from one specific page to another. The idea being it'd make the sources for cross-document view transitions declarative in CSS rather than managing that stuff in JavaScript. CSS Navigation Matching, Early Days originally handwritten and published with love on CSS",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "WordPress.com Student Plan",
-      "link": "https://css-tricks.com/wordpress-student-plan/",
-      "pubDate": "2026-08-19T08:50:00.000Z",
-      "description": "As someone who teaches beginning web development, I find that building a WordPress site makes for a great final project. Hosting those projects has always been a roadblock though. WordPress.com Student Plan originally handwritten and published with love on CSS-Tricks. You should really get the newsl",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Dark mode toggles: two states are enough",
-      "link": "https://css-tricks.com/dark-mode-toggles-two-states-are-enough/",
-      "pubDate": "2026-08-17T14:15:50.000Z",
-      "description": "Lea's pushing back on light/dark mode implementations that display three state options for visitors: light, dark, and system. Dark mode toggles: two states are enough originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
+      "title": "Show HN: Clawfight.ai MCP-driven agentic game play",
+      "link": "https://clawfight.ai/agents.md",
+      "pubDate": "2026-09-11T13:54:17.000Z",
+      "description": "How should agents interact with other agents? What happens when they rap or fight against each other with the pressure of human spectators? Clawfight.ai is an experiment to explore this space.This is my first post about it. The journey began on a beefed up machine I purchased with a decent GPU (5090",
+      "source": "Hacker News",
+      "category": "Tech News"
     }
   ]
 }
