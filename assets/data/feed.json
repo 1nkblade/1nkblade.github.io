@@ -1,177 +1,253 @@
 {
-  "generatedAt": "2026-09-11T16:29:17.728Z",
+  "generatedAt": "2026-09-11T20:58:27.920Z",
   "sourceCount": 4,
-  "successCount": 2,
+  "successCount": 3,
   "errors": [
     {
       "source": "Hack The Box Security Blog",
       "error": "HTTP 404 Not Found"
-    },
-    {
-      "source": "CSS Tricks",
-      "error": "HTTP 415 Unsupported Media Type"
     }
   ],
   "items": [
     {
-      "title": "Free Inference Should Not Gate a Merge",
-      "link": "https://dev.to/aiio_6471/free-inference-should-not-gate-a-merge-61a",
-      "pubDate": "2026-09-11T16:19:22.000Z",
-      "description": "<p>A free-tier completion can annotate a pull request. It cannot be the required status that lets that pull request land. The moment an unpaid, uncontracted model holds a merge vote, the CI graph stops being a control plane and starts being a suggestion box with a green checkmark glued on.</p> <p>Th",
+      "title": "I gave Claude Code a team. Then I caught it grading its own homework.",
+      "link": "https://dev.to/_vjk/i-gave-claude-code-a-team-then-i-caught-it-grading-its-own-homework-5f8i",
+      "pubDate": "2026-09-11T20:44:19.000Z",
+      "description": "<p><em>An AI team that never gets tired also never gets embarrassed.</em></p> <blockquote> <p><strong>Part 1:</strong> <a href=\"https://dev.to/_vjk/i-made-claude-code-think-before-it-codes-heres-the-prompt-bf\">I made Claude Code think before it codes</a><br> <strong>Part 2:</strong> <a href=\"https:/",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Introducing Tagryn: an offline metadata workbench built with Tauri and Rust",
-      "link": "https://dev.to/fgxhammer/introducing-tagryn-an-offline-metadata-workbench-built-with-tauri-and-rust-3i84",
-      "pubDate": "2026-09-11T16:18:37.000Z",
-      "description": "<p>Two copies of a photo can look identical while telling different stories in their metadata. A timestamp differs. An author appears in one metadata group and is missing from another. A neighboring XMP sidecar contains yet another value.</p> <p>Before changing anything, you need to understand where",
+      "title": "Building a Pi-hole Home Lab From an Old PC : Why",
+      "link": "https://dev.to/ghchattaouibit/building-a-pi-hole-home-lab-from-an-old-pc-why-29h2",
+      "pubDate": "2026-09-11T20:26:27.000Z",
+      "description": "<p>I've been learning Linux command line and going through MIT's Missing Semester course over the past few weeks, and I wanted a real project to apply it to instead of just following along with exercises.</p> <p>A friend is sending me an old PC next week, and my plan is to turn it into a Pi-hole — a",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How to Generate Karate API Tests from OpenAPI — Without Creating a Maintenance Nightmare",
-      "link": "https://dev.to/muthu_kumarkoodalingam/how-to-generate-karate-api-tests-from-openapi-without-creating-a-maintenance-nightmare-5131",
-      "pubDate": "2026-09-11T16:16:06.000Z",
-      "description": "<h1> How to Generate Karate API Tests from OpenAPI — Without Creating a Maintenance Nightmare </h1> <p>Generating API tests from an OpenAPI file sounds like an easy automation win.</p> <p>Parse the specification. Create one test per endpoint. Add a few assertions. Commit the generated files.</p> <p>",
+      "title": "Great News for the Rust Community: A New Server-Driven UI Technology in Rust",
+      "link": "https://dev.to/elanatframework/great-news-for-the-rust-community-a-new-server-driven-ui-technology-in-rust-4eo8",
+      "pubDate": "2026-09-11T20:24:25.000Z",
+      "description": "<p>A new option for building interactive web interfaces has arrived in the Rust ecosystem.</p> <p><strong>WebForms Core is a technology owned and developed by <a href=\"https://elanat.net\" rel=\"noopener noreferrer\">Elanat</a>.</strong> It now has a Rust implementation available as the <code>webformsc",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The AI Takeover Checklist: A Devil's Advocate Audit",
-      "link": "https://nochan.net/b/Internet-Crap/20260910-Asked-Claude-For-A-Checklist/",
-      "pubDate": "2026-09-11T16:16:05.000Z",
-      "description": "Article URL: https://nochan.net/b/Internet-Crap/20260910-Asked-Claude-For-A-Checklist/ Comments URL: https://news.ycombinator.com/item?id=49660923 Points: 3 # Comments: 1",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "If-Else Statements: When I Finally Got It",
-      "link": "https://dev.to/sameerqaisar17/if-else-statements-when-i-finally-got-it-3f8d",
-      "pubDate": "2026-09-11T16:15:58.000Z",
-      "description": "<h2> 📌 Quick Info </h2> <ul> <li> <strong>Topic:</strong> If-Else Statements in Python</li> <li> <strong>Target Audience:</strong> Upper beginners who know basic Python</li> <li> <strong>Goal:</strong> Help someone understand if-else in 5 minutes</li> </ul> <h2> 1. Introduction </h2> <blockquote> <",
+      "title": "How Uber Knows Your Driver Is 7 Minutes Away",
+      "link": "https://dev.to/lovestaco/how-uber-knows-your-driver-is-7-minutes-away-ao3",
+      "pubDate": "2026-09-11T20:24:22.000Z",
+      "description": "<p><em>Hello, I'm Maneshwar, and I'm building LiveReview — a blast-radius aware AI code review built for your business-critical systems. <a href=\"https://github.com/HexmosTech/LiveReview/\" rel=\"noopener noreferrer\">Star us</a> to help devs discover the project, give it a try, and share your feedback",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "ComfyUI ในวันที่ AI สร้างภาพ วิดีโอ และโมเดล 3 มิติ ได้ด้วยการลากกล่องต่อกัน",
-      "link": "https://dev.to/sarantoon/comfyui-ainwanthii-ai-sraangphaaph-widiio-aelaomedl-3-miti-aiddwykaarlaakklngtkan-3c4m",
-      "pubDate": "2026-09-11T16:13:11.000Z",
-      "description": "<h1> ComfyUI ในวันที่ AI สร้างภาพ วิดีโอ และโมเดล 3 มิติ ได้ด้วยการลากกล่องต่อกัน </h1> <p><em>โดย Nokka (นก-กา) | 11 กันยายน 2026</em></p> <p><em>บทความนี้เขียนโดย AI (deepseek-v4.1-flash) ผ่าน Hermes Agent ตรวจสอบและเรียบเรียงโดย Nokka</em></p> <p>โพสต์จากเพจ GitHub Projects ที่ถูกแชร์ต่อใน Thread",
+      "title": "I Spent 3 Months Testing Every AI Automation Framework",
+      "link": "https://dev.to/gabriel_omarbergmann_786/i-spent-3-months-testing-every-ai-automation-framework-ep7",
+      "pubDate": "2026-09-11T20:17:16.000Z",
+      "description": "<p># I Spent 3 Months Testing Every AI Automation Framework. Here Is the One That Actually Worked.</p> <p>I tried every \"AI automation\" framework, course, and prompt collection I could find. Most were recycled listicles with zero testing behind them.</p> <p>After 3 months of building real automation",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "เครื่องมือ CLI ตัวเดียวที่สกัดดีไซน์ทั้งเว็บออกมาเป็นไฟล์ ให้ Claude Code สร้าง UI ตรงแบบเป๊ะ",
-      "link": "https://dev.to/sarantoon/ekhruuengmuue-cli-tawediiywthiiskaddiiaichnthangewbkmaaepnaifl-aih-claude-code-sraang-ui-trngaebbepa-531a",
-      "pubDate": "2026-09-11T16:13:06.000Z",
-      "description": "<h1> เครื่องมือ CLI ตัวเดียวที่สกัดดีไซน์ทั้งเว็บออกมาเป็นไฟล์ ให้ Claude Code สร้าง UI ตรงแบบเป๊ะ </h1> <p><em>โดย Nokka (นก-กา) | 11 กันยายน 2026</em></p> <p><em>บทความนี้เขียนโดย AI (deepseek-v4.1-flash) ผ่าน Hermes Agent ตรวจสอบและเรียบเรียงโดย Nokka</em></p> <p>โพสต์หนึ่งจาก Tom Dörr ที่มีผู้ติ",
+      "title": "AICOM is the factory. AIMarket is the economy it ships into.",
+      "link": "https://dev.to/alexar76/aicom-is-the-factory-aimarket-is-the-economy-it-ships-into-1fgf",
+      "pubDate": "2026-09-11T20:15:32.000Z",
+      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F2s0iz6vndu6c52w8pw8d.jpg\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "นักวิจัย AWS พิสูจน์ว่าตัวจัดการระบบ AI หลายตัว ไม่จำเป็นต้องเป็น AI เลย",
-      "link": "https://dev.to/sarantoon/nakwicchay-aws-phisuucchnwaatawcchadkaarrabb-ai-hlaaytaw-aimcchamepntngepn-ai-ely-1d0o",
-      "pubDate": "2026-09-11T16:13:01.000Z",
-      "description": "<h1> นักวิจัย AWS พิสูจน์ว่าตัวจัดการระบบ AI หลายตัว ไม่จำเป็นต้องเป็น AI เลย </h1> <p><em>โดย Nokka (นก-กา) | 11 กันยายน 2026</em></p> <p><em>บทความนี้เขียนโดย AI (deepseek-v4.1-flash) ผ่าน Hermes Agent ตรวจสอบและเรียบเรียงโดย Nokka</em></p> <p>เมื่อระบบ AI หลายตัวต้องทำงานร่วมกัน ปัญหาที่โผล่ขึ้นม",
+      "title": "ChatGPT Traffic Rose 48% in the US as AI Discovery Reshapes Search Measurement",
+      "link": "https://dev.to/alifar/chatgpt-traffic-rose-48-in-the-us-as-ai-discovery-reshapes-search-measurement-2ea5",
+      "pubDate": "2026-09-11T20:15:30.000Z",
+      "description": "<p>ChatGPT is becoming a more significant discovery surface in the United States. Semrush's Traffic Analytics data for July 2026 estimates that <strong>chatgpt.com received about 1.09 billion visits</strong>, a 48.38% increase year over year. In the same dataset, bing.com referrals declined about 50",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "หนังสือฟรีที่สอนสร้างระบบ AI หลายตัวจากศูนย์ พร้อมโค้ดทุกบรรทัดบน GitHub",
-      "link": "https://dev.to/sarantoon/hnangsuuefriithiisnsraangrabb-ai-hlaaytawcchaaksuuny-phrmokhdthukbrrthadbn-github-20mi",
-      "pubDate": "2026-09-11T16:12:57.000Z",
-      "description": "<h1> หนังสือฟรีที่สอนสร้างระบบ AI หลายตัวจากศูนย์ พร้อมโค้ดทุกบรรทัดบน GitHub </h1> <p><em>โดย Nokka (นก-กา) | 11 กันยายน 2026</em></p> <p><em>บทความนี้เขียนโดย AI (deepseek-v4.1-flash) ผ่าน Hermes Agent ตรวจสอบและเรียบเรียงโดย Nokka</em></p> <p>โพสต์สั้น ๆ จาก Tom Dörr บอกว่า \"สร้างระบบ AI หลายตัวจ",
+      "title": "Getting into SQL For Beginners:",
+      "link": "https://dev.to/ian_munene/getting-into-sql-for-beginners-20hd",
+      "pubDate": "2026-09-11T20:12:55.000Z",
+      "description": "<p>Starting new endeavors can feel daunting, but every journey begins with a single step. Learning SQL opens doors to new opportunities. This guide simplifies the fundamentals of SQL, teaching you its essential elements.</p> <h4> <em>1.DDL(Data Definition Language)</em> </h4> <p>DDL defines and modi",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "RSI คืออะไร, ทำไม Anthropic บอกว่าเราใกล้ถึงจุดที่ AI สร้าง AI ตัวต่อไปได้เองแล้ว",
-      "link": "https://dev.to/sarantoon/rsi-khuueaair-thamaim-anthropic-bkwaaeraaaiklthuengcchudthii-ai-sraang-ai-tawtaipaidengaelw-3gmk",
-      "pubDate": "2026-09-11T16:12:43.000Z",
-      "description": "<h1> RSI คืออะไร, ทำไม Anthropic บอกว่าเราใกล้ถึงจุดที่ AI สร้าง AI ตัวต่อไปได้เองแล้ว </h1> <p><em>โดย Nokka (นก-กา) | 11 กันยายน 2026</em></p> <p><em>บทความนี้เขียนโดย AI (deepseek-v4.1-flash) ผ่าน Hermes Agent ตรวจสอบและเรียบเรียงโดย Nokka</em></p> <p>คลิปสั้นจาก CNBC ที่ออกอากาศวันที่ 10 กันยายน",
+      "title": "Quick tip: How to find and free up disk space in Linux",
+      "link": "https://dev.to/prince_maurya_8845cfa6516/quick-tip-how-to-find-and-free-up-disk-space-in-linux-2iak",
+      "pubDate": "2026-09-11T20:12:11.000Z",
+      "description": "<p>A full disk is a common reason for random service crashes in Linux. Here is a quick 3-step checklist to find and fix it:</p> <ol> <li>Check disk usage Find which partition is full: </li> </ol> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight shell\"><code><span class=\"nb\">df</span> ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "งานวิจัยชี้ AI Overviews ทำให้วิกิพีเดียเสียคลิกจากเสิร์ชเดือนละ 100 ล้านครั้ง",
-      "link": "https://dev.to/sarantoon/ngaanwicchaychii-ai-overviews-thamaihwikiphiiediiyesiiykhlikcchaakesircheduuenla-100-laankhrang-1f5e",
-      "pubDate": "2026-09-11T16:12:29.000Z",
-      "description": "<h1> งานวิจัยชี้ AI Overviews ทำให้วิกิพีเดียเสียคลิกจากเสิร์ชเดือนละ 100 ล้านครั้ง </h1> <p><em>โดย Nokka (นก-กา) | 11 กันยายน 2026</em></p> <p><em>บทความนี้เขียนโดย AI (deepseek-v4.1-flash) ผ่าน Hermes Agent ตรวจสอบและเรียบเรียงโดย Nokka</em></p> <p>งานวิจัยจากมหาวิทยาลัยวอชิงตันโดย Mehrzad Khosra",
+      "title": "Modeling Zeotropic Refrigerant Temperature Glide &amp; Mass Addition in Pure TypeScript",
+      "link": "https://dev.to/miad_ea7faef80e5125861119/modeling-zeotropic-refrigerant-temperature-glide-mass-addition-in-pure-typescript-3c27",
+      "pubDate": "2026-09-11T20:09:08.000Z",
+      "description": "<p>With the global phase-down of high-GWP hydrofluorocarbons (HFCs) under the AIM Act and Kigali Amendment, the HVAC/R engineering landscape is undergoing a massive shift toward mildly flammable A2L refrigerants like R-454B and R-32.</p> <p>For software engineers building computational simulation to",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The Last 24 Hours Are the Opening Scene in a Horror Movie",
-      "link": "https://www.honest-broker.com/p/the-last-24-hours-are-the-opening",
-      "pubDate": "2026-09-11T16:04:47.000Z",
-      "description": "Article URL: https://www.honest-broker.com/p/the-last-24-hours-are-the-opening Comments URL: https://news.ycombinator.com/item?id=49660707 Points: 16 # Comments: 4",
+      "title": "GrapheneOS' rewritten Messages app is released",
+      "link": "https://github.com/GrapheneOS/Messaging/releases/tag/13",
+      "pubDate": "2026-09-11T18:50:36.000Z",
+      "description": "Article URL: https://github.com/GrapheneOS/Messaging/releases/tag/13 Comments URL: https://news.ycombinator.com/item?id=49663373 Points: 78 # Comments: 29",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Godot and Rust based multiplexer (terminal panes and more)",
-      "link": "https://github.com/godot-pty/gpty",
-      "pubDate": "2026-09-11T16:03:05.000Z",
-      "description": "Article URL: https://github.com/godot-pty/gpty Comments URL: https://news.ycombinator.com/item?id=49660676 Points: 9 # Comments: 3",
+      "title": "CIA Releases President's Daily Briefs in Commemoration of 9/11",
+      "link": "https://www.cia.gov/stories/story/cia-releases-presidents-daily-briefs-in-commemoration-of-the-25th-anniversary-of-9-11/",
+      "pubDate": "2026-09-11T18:30:07.000Z",
+      "description": "https://www.cia.gov/stories/story/cia-releases-presidents-da... Comments URL: https://news.ycombinator.com/item?id=49663054 Points: 41 # Comments: 15",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Global Glacier Extinction Explorer",
-      "link": "https://glacierextinction.com",
-      "pubDate": "2026-09-11T15:58:06.000Z",
-      "description": "Article URL: https://glacierextinction.com Comments URL: https://news.ycombinator.com/item?id=49660576 Points: 16 # Comments: 2",
+      "title": "I spent $220 on Google app ads. 60% of the installs were robots",
+      "link": "https://dayzlegame.com/blog/google-ads-bot-farm/",
+      "pubDate": "2026-09-11T18:24:55.000Z",
+      "description": "Article URL: https://dayzlegame.com/blog/google-ads-bot-farm/ Comments URL: https://news.ycombinator.com/item?id=49662990 Points: 14 # Comments: 3",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Hacker News with reduced priority for AI driven content",
-      "link": "https://sprinklz.io/public/pdwt4dve5uai",
-      "pubDate": "2026-09-11T15:52:49.000Z",
-      "description": "Article URL: https://sprinklz.io/public/pdwt4dve5uai Comments URL: https://news.ycombinator.com/item?id=49660482 Points: 36 # Comments: 18",
+      "title": "Litelm: LiteLLM Without the Bloat",
+      "link": "https://github.com/kennethwolters/litelm",
+      "pubDate": "2026-09-11T18:10:20.000Z",
+      "description": "Article URL: https://github.com/kennethwolters/litelm Comments URL: https://news.ycombinator.com/item?id=49662767 Points: 50 # Comments: 19",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Matt Mullenweg tells Automattic staff in Slack he's back in control after ouster",
-      "link": "https://techcrunch.com/2026/09/11/matt-mullenweg-tells-automattic-staff-in-slack-hes-back-in-control-after-ceo-ouster/",
-      "pubDate": "2026-09-11T15:29:35.000Z",
-      "description": "Article URL: https://techcrunch.com/2026/09/11/matt-mullenweg-tells-automattic-staff-in-slack-hes-back-in-control-after-ceo-ouster/ Comments URL: https://news.ycombinator.com/item?id=49660104 Points: 59 # Comments: 25",
+      "title": "The EPA is planning to scrap public review rules for data center pollution",
+      "link": "https://capitalbnews.org/data-centers-permit-rules-epa/",
+      "pubDate": "2026-09-11T18:05:21.000Z",
+      "description": "Article URL: https://capitalbnews.org/data-centers-permit-rules-epa/ Comments URL: https://news.ycombinator.com/item?id=49662672 Points: 196 # Comments: 122",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Show HN: Hacker News, without AI",
-      "link": "https://hcker.news/?ai=exclude",
-      "pubDate": "2026-09-11T15:01:19.000Z",
-      "description": "Article URL: https://hcker.news/?ai=exclude Comments URL: https://news.ycombinator.com/item?id=49659647 Points: 79 # Comments: 47",
+      "title": "A misalignment of AI in mathematics",
+      "link": "https://mathandai.org/",
+      "pubDate": "2026-09-11T17:45:12.000Z",
+      "description": "https://terrytao.wordpress.com/2026/09/11/a-severe-misalignm...https://www.economist.com/science-and-technology/2026/09/11/..., https://unwall.app/www.economist.com/science-and-technology/... Comments URL: https://news.ycombinator.com/item?id=49662371 Points: 283 # Comments: 368",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "HuggingFace: Security.txt",
-      "link": "https://huggingface.co/security.txt",
-      "pubDate": "2026-09-11T14:38:13.000Z",
-      "description": "Article URL: https://huggingface.co/security.txt Comments URL: https://news.ycombinator.com/item?id=49659245 Points: 106 # Comments: 16",
+      "title": "Room 641A",
+      "link": "https://en.wikipedia.org/wiki/Room_641A",
+      "pubDate": "2026-09-11T17:45:03.000Z",
+      "description": "Article URL: https://en.wikipedia.org/wiki/Room_641A Comments URL: https://news.ycombinator.com/item?id=49662367 Points: 101 # Comments: 26",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "New York thoracic surgeon: \"For many patients 9/11 is not over\"",
-      "link": "https://www.statnews.com/2026/09/11/sept-11-25th-anniversary-ground-zero-exposure-cancer-moment-of-silence/",
-      "pubDate": "2026-09-11T14:14:56.000Z",
-      "description": "Article URL: https://www.statnews.com/2026/09/11/sept-11-25th-anniversary-ground-zero-exposure-cancer-moment-of-silence/ Comments URL: https://news.ycombinator.com/item?id=49658819 Points: 45 # Comments: 14",
+      "title": "Λ Snap – An inviting programming language for kids and adults for CS study",
+      "link": "https://snap.berkeley.edu/",
+      "pubDate": "2026-09-11T17:36:11.000Z",
+      "description": "Article URL: https://snap.berkeley.edu/ Comments URL: https://news.ycombinator.com/item?id=49662214 Points: 69 # Comments: 45",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Show HN: Clawfight.ai MCP-driven agentic game play",
-      "link": "https://clawfight.ai/agents.md",
-      "pubDate": "2026-09-11T13:54:17.000Z",
-      "description": "How should agents interact with other agents? What happens when they rap or fight against each other with the pressure of human spectators? Clawfight.ai is an experiment to explore this space.This is my first post about it. The journey began on a beefed up machine I purchased with a decent GPU (5090",
+      "title": "Mind-altering drugs played key role in rise of Andean civilization",
+      "link": "https://www.science.org/content/article/mind-altering-drugs-played-key-role-rise-andean-civilization",
+      "pubDate": "2026-09-11T17:25:23.000Z",
+      "description": "Article URL: https://www.science.org/content/article/mind-altering-drugs-played-key-role-rise-andean-civilization Comments URL: https://news.ycombinator.com/item?id=49662020 Points: 41 # Comments: 28",
       "source": "Hacker News",
       "category": "Tech News"
+    },
+    {
+      "title": "Zep AI (YC W24) Is Hiring a Head of Forward Deployed Engineering",
+      "link": "https://www.getzep.com/careers/",
+      "pubDate": "2026-09-11T17:00:17.000Z",
+      "description": "Article URL: https://www.getzep.com/careers/ Comments URL: https://news.ycombinator.com/item?id=49661645 Points: 0 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Let’s Use the Emergent CSS random() Function in all the Browsers",
+      "link": "https://css-tricks.com/css-random-function-polyfill/",
+      "pubDate": "2026-08-31T15:12:19.000Z",
+      "description": "The journey to create a polyfill for the upcoming CSS random() function that works in all browsers. Let’s Use the Emergent CSS random() Function in all the Browsers originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "What’s !important #18: &#060;geolocation&gt;, Syntax ::highlight()ing, named-feature(), and More",
+      "link": "https://css-tricks.com/whats-important-18/",
+      "pubDate": "2026-08-31T14:08:55.000Z",
+      "description": "Well, that’s a wrap. No, not a flex-wrap, but rather today marks a new day, week, month, season, aaaand new edition of What’s important (#18), bringing you the best content that developers have produced over the last couple of weeks or so. What’s !important #18: <geolocation>, Syntax ::highlight()in",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Creating Web Widgets Using the Document Picture-in-Picture API",
+      "link": "https://css-tricks.com/creating-web-widgets-using-the-document-picture-in-picture-api/",
+      "pubDate": "2026-08-27T14:41:06.000Z",
+      "description": "The general idea is that we create a Document Picture-in-Picture window (DPIP window), and then we put HTML, CSS, and JavaScript into it. Creating Web Widgets Using the Document Picture-in-Picture API originally handwritten and published with love on CSS-Tricks. You should really get the newsletter ",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "animation-trigger",
+      "link": "https://css-tricks.com/almanac/properties/a/animation-trigger/",
+      "pubDate": "2026-08-26T15:38:41.000Z",
+      "description": "The CSS animation-trigger property allows you to delay the start of a CSS animation until a specific trigger occurs. animation-trigger originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "MicroLighter: Syntax Highlighter",
+      "link": "https://css-tricks.com/microlighter-syntax-highlighter/",
+      "pubDate": "2026-08-25T14:10:34.000Z",
+      "description": "Syntax highlighting for code blocks without the complicated markup, spans, classes, and bloated JavaScript, courtesy of Uncle Dave. MicroLighter: Syntax Highlighter originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "WordPress PHP-Only Block Registration",
+      "link": "https://css-tricks.com/wordpress-php-block-registration/",
+      "pubDate": "2026-08-24T13:54:02.000Z",
+      "description": "Seven and half years after blocks arrived in Core, WordPress introduces a way to build blocks without React annd build pipelines. All you need is PHP. WordPress PHP-Only Block Registration originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Resolved: CSS Class Prefix Selector",
+      "link": "https://css-tricks.com/resolved-css-class-prefix-selector/",
+      "pubDate": "2026-08-21T15:13:03.000Z",
+      "description": "A newly resolved proposal would allow us to select classes that are a prefix for variations with a wildcard, like .prefix-*. Resolved: CSS Class Prefix Selector originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "CSS Navigation Matching, Early Days",
+      "link": "https://css-tricks.com/css-navigation-matching-early-days/",
+      "pubDate": "2026-08-19T14:44:41.000Z",
+      "description": "Apply a style when someone navigates from one specific page to another. The idea being it'd make the sources for cross-document view transitions declarative in CSS rather than managing that stuff in JavaScript. CSS Navigation Matching, Early Days originally handwritten and published with love on CSS",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "WordPress.com Student Plan",
+      "link": "https://css-tricks.com/wordpress-student-plan/",
+      "pubDate": "2026-08-19T08:50:00.000Z",
+      "description": "As someone who teaches beginning web development, I find that building a WordPress site makes for a great final project. Hosting those projects has always been a roadblock though. WordPress.com Student Plan originally handwritten and published with love on CSS-Tricks. You should really get the newsl",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Dark mode toggles: two states are enough",
+      "link": "https://css-tricks.com/dark-mode-toggles-two-states-are-enough/",
+      "pubDate": "2026-08-17T14:15:50.000Z",
+      "description": "Lea's pushing back on light/dark mode implementations that display three state options for visitors: light, dark, and system. Dark mode toggles: two states are enough originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     }
   ]
 }
