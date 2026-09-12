@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T04:36:07.463Z",
+  "generatedAt": "2026-09-12T10:48:14.933Z",
   "sourceCount": 4,
   "successCount": 3,
   "errors": [
@@ -10,114 +10,138 @@
   ],
   "items": [
     {
-      "title": "How to Regenerate an Old Invoice PDF Identically in Node.js: A Dispute Workflow",
-      "link": "https://dev.to/adalbertcross4085/how-to-regenerate-an-old-invoice-pdf-identically-in-nodejs-a-dispute-workflow-1058",
-      "pubDate": "2026-09-12T04:31:53.000Z",
-      "description": "<p>Short answer: for a dispute, do not “recreate” an old invoice by rerunning today’s template; preserve the original PDF bytes, verify their hash, and only render a replacement when the original artifact is genuinely unavailable.</p> <p>That rule sounds conservative because it is. PDF is a file for",
+      "title": "9 จาก 428 Router ฉีดโค้ดใส่ Agent, ทำไมด่านป้องกันยังไม่พอ",
+      "link": "https://dev.to/sarantoon/9-cchaak-428-router-chiidokhdais-agent-thamaimdaanpngkanyangaimph-3cop",
+      "pubDate": "2026-09-12T10:40:55.000Z",
+      "description": "<h1> 9 จาก 428 Router ฉีดโค้ดใส่ Agent, ทำไมด่านป้องกันยังไม่พอ </h1> <p><em>โดย Nokka (นก-กา) | 12 กันยายน 2026</em></p> <p><em>บทความนี้เขียนโดย AI (deepseek-v4.1-flash) ผ่าน Hermes Agent ตรวจสอบและเรียบเรียงโดย Nokka</em></p> <p>มีคำถามหนึ่งที่คนทำ agent ควรถามตัวเองก่อนอ่านบทความนี้</p> <p>เครื่",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I just did something my AI agents couldn't",
-      "link": "https://dev.to/effessdev/i-just-did-something-my-ai-agents-couldnt-pmi",
-      "pubDate": "2026-09-12T04:30:19.000Z",
-      "description": "<p>It is funny how things work out. You can let AI tools try to fix a code problem for days, but nothing works until you finally step in and do it yourself. </p> <p>I was working on my ESP-IDF project and wanted to organize it better. My goal was to move different pieces of code into a folder named ",
+      "title": "Why Asynchronous Data Processing Matters in Modern Web Architecture",
+      "link": "https://dev.to/usman_c9d4c2a90f76c/why-asynchronous-data-processing-matters-in-modern-web-architecture-3ml6",
+      "pubDate": "2026-09-12T10:39:10.000Z",
+      "description": "<p>When designing web applications that handle real-time interactions, synchronous request handling often becomes a performance bottleneck. Blocking operations—such as third-party API lookups, document formatting, or media rendering—slow down the main thread and degrade the user experience.</p> <p>D",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Memory64 moved the browser ceiling and exposed an ABI gap",
-      "link": "https://dev.to/sarthakagrawal927/memory64-moved-the-browser-ceiling-and-exposed-an-abi-gap-14o5",
-      "pubDate": "2026-09-12T04:30:00.000Z",
-      "description": "<p>A 32-bit WebAssembly heap put the browser playground near a 4 GB ceiling. With weights and AdamW state, that limited the fp32 model size to roughly 250 million parameters.</p> <p>Compiling the same C++ source with Memory64 and BigInt support changed the pointer width. One measured run allocated 4",
+      "title": "Comment relancer un client freelance sans être lourd (7 scripts)",
+      "link": "https://dev.to/farnel_royicktchamaleu_5/comment-relancer-un-client-freelance-sans-etre-lourd-7-scripts-icf",
+      "pubDate": "2026-09-12T10:36:59.000Z",
+      "description": "<p>Tu as envoyé le devis. Trois jours passent. Puis une semaine. Le client a vu le mail — ou pas. Tu ouvres ta boîte, tu réécris trois fois le même message, tu effaces « je me permets de relancer », et tu te demandes si tu ne vas pas passer pour quelqu’un de collant.</p> <p>Relancer un client en fre",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Daxon: Bringing a Complete Data Intelligence Workspace Into VS Code",
-      "link": "https://dev.to/loftytechlabs_/daxon-bringing-a-complete-data-intelligence-workspace-into-vs-code-53if",
-      "pubDate": "2026-09-12T04:28:27.000Z",
-      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F94m7xaouxoh52n80vqd0.png\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/",
+      "title": "At this point I feel like AI companies selling Fear",
+      "link": "https://news.ycombinator.com/item?id=49670907",
+      "pubDate": "2026-09-12T10:26:40.000Z",
+      "description": "AI can do reasoning better But It can't outsmart humans , AI gets trained on data but human have their learning with them ,only about 5% of data a human share as learning, knowledge - rest it just inside us ,So technically AI can't replace human ,We do take inspiration , cross domain analysis and mu",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Designing Resilient Selenium Tests for Highly Dynamic SPAs",
+      "link": "https://dev.to/styrow_dev/designing-resilient-selenium-tests-for-highly-dynamic-spas-2nkm",
+      "pubDate": "2026-09-12T10:20:27.000Z",
+      "description": "<p>🔥 SDET Interview Scenario of the Day:</p> <p>Your team's Selenium tests for a dynamic financial SPA are notoriously flaky. Elements are re-rendered, data updates asynchronously, and <code>StaleElementReferenceException</code> and <code>NoSuchElementException</code> plague your CI pipeline. How d",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Modeling Data Distributions: The Core Idea Behind Generative Models",
-      "link": "https://dev.to/zeromathai/modeling-data-distributions-the-core-idea-behind-generative-models-3hjc",
-      "pubDate": "2026-09-12T04:16:32.000Z",
-      "description": "<p>A generative model is not trying to memorize a dataset. Its real target is the probability structure that could have produced the observed data.</p> <p>That distinction is the foundation of distribution modeling: we can observe finite samples, but we do not know the analytical form of the Data Di",
+      "title": "Can Thai AI Models Beat Global Models at Thai? Here Is Where They Win",
+      "link": "https://dev.to/sarantoon/can-thai-ai-models-beat-global-models-at-thai-here-is-where-they-win-312h",
+      "pubDate": "2026-09-12T10:19:54.000Z",
+      "description": "<h1> Can Thai AI Models Beat Global Models at Thai? Here Is Where They Win </h1> <p><em>By Nokka | September 11, 2026</em></p> <p><em>This article was written by AI (deepseek-v4.1-flash) through Hermes Agent, reviewed and edited by Nokka.</em></p> <p>The most common question in Thai AI circles is wh",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I Typed the Same Docker Command Five Times This Week. So I Built a Snippet Manager That Lives in My Terminal",
-      "link": "https://dev.to/ke_jia_24bb2f9f84f14f728a/i-typed-the-same-docker-command-five-times-this-week-so-i-built-a-snippet-manager-that-lives-in-my-2hoj",
-      "pubDate": "2026-09-12T04:13:37.000Z",
-      "description": "<p>Every developer has a drawer of \"useful code\" scattered across five places:</p> <ol> <li> <strong>Browser bookmarks</strong> — that Stack Overflow answer with the exact flag</li> <li> <strong>Chat history</strong> — the one-liner a coworker sent in Slack three months ago</li> <li> <strong>Old ter",
+      "title": "What Is Web Cache Poisoning? How Can a Cached Response Become a Security Problem?",
+      "link": "https://dev.to/aditya_d_sharma/what-is-web-cache-poisoning-how-can-a-cached-response-become-a-security-problem-3om4",
+      "pubDate": "2026-09-12T10:14:27.000Z",
+      "description": "<p>Here's something that should be completely unremarkable.</p> <p>A user requests <code>/homepage</code>. The origin server generates a response. A cache stores it. The next user requests <code>/homepage</code>. The cache returns the stored response without touching the origin.</p> <p>That's cachin",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Customer Domains and DNS Records: Signed URLs for Secure Asset Delivery",
-      "link": "https://dev.to/mordecainilsson7582/customer-domains-and-dns-records-signed-urls-for-secure-asset-delivery-2nlg",
-      "pubDate": "2026-09-12T04:13:34.000Z",
-      "description": "<p>Short answer: point a customer subdomain at your asset host with a CNAME, then keep authorization in signed URLs. DNS decides where a request goes; it never decides who may make it.</p> <p>For a logistics product, this distinction matters when a shipper wants labels, proof-of-delivery photos, or ",
+      "title": "How AI-Powered Data Analytics Works: From Raw Data to Intelligent Insights in 2026",
+      "link": "https://dev.to/synfinity-dynamics-pvt-ltd/how-ai-powered-data-analytics-works-from-raw-data-to-intelligent-insights-in-2026-672",
+      "pubDate": "2026-09-12T10:11:40.000Z",
+      "description": "<h2> The Shift From Traditional Analytics to AI-Powered Analytics </h2> <p>For decades, businesses have relied on a fairly predictable process to make sense of their data:<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight plaintext\"><code>Raw Data ↓ Data Warehouse ↓ Dashboards",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Scoped API Keys for CI Pipelines: Least-Privilege Rotation After Build Log Leaks",
-      "link": "https://dev.to/celesteraine1783/scoped-api-keys-for-ci-pipelines-least-privilege-rotation-after-build-log-leaks-3oin",
-      "pubDate": "2026-09-12T04:12:37.000Z",
-      "description": "<p>Short answer: give each CI job a short-lived, narrowly scoped API key, keep it out of build output, and make revocation a tested path rather than an incident-day improvisation. The deciding constraint is blast radius: one leaked key should be able to do one job for one repository, not become a st",
+      "title": "Postgres for everything hits a wall the moment dashboards get concurrent",
+      "link": "https://dev.to/adioof/postgres-for-everything-hits-a-wall-the-moment-dashboards-get-concurrent-h43",
+      "pubDate": "2026-09-12T10:11:35.000Z",
+      "description": "<p>I used to say, \"Just use Postgres.\"</p> <p>After that, our dashboards became concurrent, and the read replica we quickly added to offload some of the pressure from the main database began overheating instead.</p> <h2> The meme that traps you </h2> <p>There is a reassuring notion that Postgres can",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Circuit Breaker Pattern",
-      "link": "https://dev.to/gouranga-das-khulna/circuit-breaker-pattern-39op",
-      "pubDate": "2026-09-12T04:00:00.000Z",
-      "description": "<blockquote> <p><strong>One-liner:</strong> A circuit breaker stops calling a failing service to give it time to recover — instead of hammering it with requests that are guaranteed to fail.</p> </blockquote> <h2> ❓ The Problem: Cascading Failures </h2> <div class=\"highlight js-code-highlight\"> <pre ",
+      "title": "How to make your application safer and why you should care 👇",
+      "link": "https://dev.to/dzakh/how-to-make-your-application-safer-and-why-you-should-care-n8d",
+      "pubDate": "2026-09-12T10:08:02.000Z",
+      "description": "<div class=\"ltag__link--embedded\"> <div class=\"crayons-story \"> <a href=\"https://dev.to/dzakh/encode-dont-stringify-how-jsonstringify-lies-to-you-38fk\" class=\"crayons-story__hidden-navigation-link\">Encode, don't stringify - how JSON.stringify lies to you</a> <div class=\"crayons-story__body crayons-s",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Hardening a SaaS login on Cloudflare Free: Turnstile, Google sign-in and email without SMTP",
-      "link": "https://dev.to/alexandroskyv/hardening-a-saas-login-on-cloudflare-free-turnstile-google-sign-in-and-email-without-smtp-1lh",
-      "pubDate": "2026-09-12T03:55:00.000Z",
-      "description": "<p><strong>SyllogOS</strong> is a multi-tenant platform I'm building for Greek cultural associations and the federations they belong to: members, boards, events, documents. Its first tenant is a regional federation, and the people logging in are volunteers, not engineers.</p> <p>That shaped the logi",
+      "title": "I Kept a Shell Alias Just to Pipe stdin Into Workflows. 0.52.0 Retires It.",
+      "link": "https://dev.to/donk8r/i-kept-a-shell-alias-just-to-pipe-stdin-into-workflows-0520-retires-it-22p",
+      "pubDate": "2026-09-12T10:07:57.000Z",
+      "description": "<p>Workflows are my favorite part of Octomind. Multi-step, self-verifying jobs defined in TOML, shipped through taps — the built-in <code>muvon/tap</code> carries eighteen of them: review, develop, debug, deep-review, plan-and-build, research, content, and more.</p> <p>But there's one thing I kept d",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Google no longer provides direct URLs in search results",
+      "title": "Resistance Training Prescription for Muscle Function, Hypertrophy in Health",
+      "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12965823/",
+      "pubDate": "2026-09-12T09:08:54.000Z",
+      "description": "Article URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC12965823/ Comments URL: https://news.ycombinator.com/item?id=49670493 Points: 12 # Comments: 1",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Retrospectively Reverse-Engineering Apple's Neural Engine",
+      "link": "https://eiln.github.io/posts/ane.html",
+      "pubDate": "2026-09-12T07:54:03.000Z",
+      "description": "Article URL: https://eiln.github.io/posts/ane.html Comments URL: https://news.ycombinator.com/item?id=49670032 Points: 88 # Comments: 11",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "WeWorm: Zero-Click WeChat Worm",
+      "link": "https://calif.io/research/weworm",
+      "pubDate": "2026-09-12T05:49:10.000Z",
+      "description": "Article URL: https://calif.io/research/weworm Comments URL: https://news.ycombinator.com/item?id=49669276 Points: 27 # Comments: 1",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Usenet rewind archive search engine",
+      "link": "https://www.usenet-rewind.com/",
+      "pubDate": "2026-09-12T04:19:52.000Z",
+      "description": "Article URL: https://www.usenet-rewind.com/ Comments URL: https://news.ycombinator.com/item?id=49668777 Points: 66 # Comments: 14",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Navier-Stokes Announcement",
+      "link": "https://www.claymath.org/news/navier-stokes-announcement/",
+      "pubDate": "2026-09-12T04:09:43.000Z",
+      "description": "Article URL: https://www.claymath.org/news/navier-stokes-announcement/ Comments URL: https://news.ycombinator.com/item?id=49668706 Points: 176 # Comments: 115",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "google.com/goto: Google's anti-scraping update",
       "link": "https://www.autom.dev/blog/google-search-goto-links",
       "pubDate": "2026-09-12T03:14:20.000Z",
-      "description": "Article URL: https://www.autom.dev/blog/google-search-goto-links Comments URL: https://news.ycombinator.com/item?id=49668386 Points: 75 # Comments: 46",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Pandas Should Go Extinct",
-      "link": "https://eddie.codes/posts/pandas-should-go-extinct/",
-      "pubDate": "2026-09-12T02:42:08.000Z",
-      "description": "Article URL: https://eddie.codes/posts/pandas-should-go-extinct/ Comments URL: https://news.ycombinator.com/item?id=49668198 Points: 66 # Comments: 34",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Starlink Signal Leakage Threatens Radio Astronomy's Most Critical Frequencies",
-      "link": "https://www.gadgetreview.com/starlinks-signal-leakage-is-threatening-radio-astronomys-most-critical-frequencies",
-      "pubDate": "2026-09-12T00:40:32.000Z",
-      "description": "Article URL: https://www.gadgetreview.com/starlinks-signal-leakage-is-threatening-radio-astronomys-most-critical-frequencies Comments URL: https://news.ycombinator.com/item?id=49667375 Points: 70 # Comments: 32",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Show HN: Graphify C# – Compiler-accurate Find Usages for coding agents",
-      "link": "https://github.com/zachsaw/graphify-csharp",
-      "pubDate": "2026-09-12T00:16:10.000Z",
-      "description": "Article URL: https://github.com/zachsaw/graphify-csharp Comments URL: https://news.ycombinator.com/item?id=49667188 Points: 26 # Comments: 10",
+      "description": "Article URL: https://www.autom.dev/blog/google-search-goto-links Comments URL: https://news.ycombinator.com/item?id=49668386 Points: 439 # Comments: 347",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -125,15 +149,7 @@
       "title": "OpenAI agents carried out an undisclosed attack on RubyGems",
       "link": "https://www.rubyhack.ai/",
       "pubDate": "2026-09-11T23:17:42.000Z",
-      "description": "Article URL: https://www.rubyhack.ai/ Comments URL: https://news.ycombinator.com/item?id=49666735 Points: 481 # Comments: 278",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "QueryBrew: System-Agnostic SQL-to-SQL Query Optimization [pdf]",
-      "link": "https://www.vldb.org/pvldb/vol19/p4494-schmidt.pdf",
-      "pubDate": "2026-09-11T22:16:15.000Z",
-      "description": "Article URL: https://www.vldb.org/pvldb/vol19/p4494-schmidt.pdf Comments URL: https://news.ycombinator.com/item?id=49666155 Points: 23 # Comments: 8",
+      "description": "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems... Comments URL: https://news.ycombinator.com/item?id=49666735 Points: 722 # Comments: 404",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -141,7 +157,7 @@
       "title": "Project Blinkenlights",
       "link": "https://blinkenlights.de/en/",
       "pubDate": "2026-09-11T22:15:00.000Z",
-      "description": "Article URL: https://blinkenlights.de/en/ Comments URL: https://news.ycombinator.com/item?id=49666146 Points: 63 # Comments: 25",
+      "description": "Article URL: https://blinkenlights.de/en/ Comments URL: https://news.ycombinator.com/item?id=49666146 Points: 96 # Comments: 31",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -149,23 +165,7 @@
       "title": "Show HN: ResolveHQ – A Helpdesk Built on Cloudflare Workers, D1, R2 and Queues",
       "link": "https://github.com/mirza-rizvi/ResolveHQ",
       "pubDate": "2026-09-11T21:48:00.000Z",
-      "description": "Article URL: https://github.com/mirza-rizvi/ResolveHQ Comments URL: https://news.ycombinator.com/item?id=49665864 Points: 45 # Comments: 14",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "AI researchers debate how close we are to recursive self-improvement",
-      "link": "https://www.dwarkesh.com/p/john-beren-charlie",
-      "pubDate": "2026-09-11T21:35:29.000Z",
-      "description": "Article URL: https://www.dwarkesh.com/p/john-beren-charlie Comments URL: https://news.ycombinator.com/item?id=49665711 Points: 70 # Comments: 60",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "GrapheneOS' rewritten Messages app is released",
-      "link": "https://github.com/GrapheneOS/Messaging/releases/tag/13",
-      "pubDate": "2026-09-11T18:50:36.000Z",
-      "description": "Article URL: https://github.com/GrapheneOS/Messaging/releases/tag/13 Comments URL: https://news.ycombinator.com/item?id=49663373 Points: 223 # Comments: 138",
+      "description": "Article URL: https://github.com/mirza-rizvi/ResolveHQ Comments URL: https://news.ycombinator.com/item?id=49665864 Points: 60 # Comments: 21",
       "source": "Hacker News",
       "category": "Tech News"
     },
