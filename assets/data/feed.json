@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T20:58:27.920Z",
+  "generatedAt": "2026-09-12T04:36:07.463Z",
   "sourceCount": 4,
   "successCount": 3,
   "errors": [
@@ -10,162 +10,162 @@
   ],
   "items": [
     {
-      "title": "I gave Claude Code a team. Then I caught it grading its own homework.",
-      "link": "https://dev.to/_vjk/i-gave-claude-code-a-team-then-i-caught-it-grading-its-own-homework-5f8i",
-      "pubDate": "2026-09-11T20:44:19.000Z",
-      "description": "<p><em>An AI team that never gets tired also never gets embarrassed.</em></p> <blockquote> <p><strong>Part 1:</strong> <a href=\"https://dev.to/_vjk/i-made-claude-code-think-before-it-codes-heres-the-prompt-bf\">I made Claude Code think before it codes</a><br> <strong>Part 2:</strong> <a href=\"https:/",
+      "title": "How to Regenerate an Old Invoice PDF Identically in Node.js: A Dispute Workflow",
+      "link": "https://dev.to/adalbertcross4085/how-to-regenerate-an-old-invoice-pdf-identically-in-nodejs-a-dispute-workflow-1058",
+      "pubDate": "2026-09-12T04:31:53.000Z",
+      "description": "<p>Short answer: for a dispute, do not “recreate” an old invoice by rerunning today’s template; preserve the original PDF bytes, verify their hash, and only render a replacement when the original artifact is genuinely unavailable.</p> <p>That rule sounds conservative because it is. PDF is a file for",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Building a Pi-hole Home Lab From an Old PC : Why",
-      "link": "https://dev.to/ghchattaouibit/building-a-pi-hole-home-lab-from-an-old-pc-why-29h2",
-      "pubDate": "2026-09-11T20:26:27.000Z",
-      "description": "<p>I've been learning Linux command line and going through MIT's Missing Semester course over the past few weeks, and I wanted a real project to apply it to instead of just following along with exercises.</p> <p>A friend is sending me an old PC next week, and my plan is to turn it into a Pi-hole — a",
+      "title": "I just did something my AI agents couldn't",
+      "link": "https://dev.to/effessdev/i-just-did-something-my-ai-agents-couldnt-pmi",
+      "pubDate": "2026-09-12T04:30:19.000Z",
+      "description": "<p>It is funny how things work out. You can let AI tools try to fix a code problem for days, but nothing works until you finally step in and do it yourself. </p> <p>I was working on my ESP-IDF project and wanted to organize it better. My goal was to move different pieces of code into a folder named ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Great News for the Rust Community: A New Server-Driven UI Technology in Rust",
-      "link": "https://dev.to/elanatframework/great-news-for-the-rust-community-a-new-server-driven-ui-technology-in-rust-4eo8",
-      "pubDate": "2026-09-11T20:24:25.000Z",
-      "description": "<p>A new option for building interactive web interfaces has arrived in the Rust ecosystem.</p> <p><strong>WebForms Core is a technology owned and developed by <a href=\"https://elanat.net\" rel=\"noopener noreferrer\">Elanat</a>.</strong> It now has a Rust implementation available as the <code>webformsc",
+      "title": "Memory64 moved the browser ceiling and exposed an ABI gap",
+      "link": "https://dev.to/sarthakagrawal927/memory64-moved-the-browser-ceiling-and-exposed-an-abi-gap-14o5",
+      "pubDate": "2026-09-12T04:30:00.000Z",
+      "description": "<p>A 32-bit WebAssembly heap put the browser playground near a 4 GB ceiling. With weights and AdamW state, that limited the fp32 model size to roughly 250 million parameters.</p> <p>Compiling the same C++ source with Memory64 and BigInt support changed the pointer width. One measured run allocated 4",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How Uber Knows Your Driver Is 7 Minutes Away",
-      "link": "https://dev.to/lovestaco/how-uber-knows-your-driver-is-7-minutes-away-ao3",
-      "pubDate": "2026-09-11T20:24:22.000Z",
-      "description": "<p><em>Hello, I'm Maneshwar, and I'm building LiveReview — a blast-radius aware AI code review built for your business-critical systems. <a href=\"https://github.com/HexmosTech/LiveReview/\" rel=\"noopener noreferrer\">Star us</a> to help devs discover the project, give it a try, and share your feedback",
+      "title": "Daxon: Bringing a Complete Data Intelligence Workspace Into VS Code",
+      "link": "https://dev.to/loftytechlabs_/daxon-bringing-a-complete-data-intelligence-workspace-into-vs-code-53if",
+      "pubDate": "2026-09-12T04:28:27.000Z",
+      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F94m7xaouxoh52n80vqd0.png\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I Spent 3 Months Testing Every AI Automation Framework",
-      "link": "https://dev.to/gabriel_omarbergmann_786/i-spent-3-months-testing-every-ai-automation-framework-ep7",
-      "pubDate": "2026-09-11T20:17:16.000Z",
-      "description": "<p># I Spent 3 Months Testing Every AI Automation Framework. Here Is the One That Actually Worked.</p> <p>I tried every \"AI automation\" framework, course, and prompt collection I could find. Most were recycled listicles with zero testing behind them.</p> <p>After 3 months of building real automation",
+      "title": "Modeling Data Distributions: The Core Idea Behind Generative Models",
+      "link": "https://dev.to/zeromathai/modeling-data-distributions-the-core-idea-behind-generative-models-3hjc",
+      "pubDate": "2026-09-12T04:16:32.000Z",
+      "description": "<p>A generative model is not trying to memorize a dataset. Its real target is the probability structure that could have produced the observed data.</p> <p>That distinction is the foundation of distribution modeling: we can observe finite samples, but we do not know the analytical form of the Data Di",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "AICOM is the factory. AIMarket is the economy it ships into.",
-      "link": "https://dev.to/alexar76/aicom-is-the-factory-aimarket-is-the-economy-it-ships-into-1fgf",
-      "pubDate": "2026-09-11T20:15:32.000Z",
-      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F2s0iz6vndu6c52w8pw8d.jpg\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/",
+      "title": "I Typed the Same Docker Command Five Times This Week. So I Built a Snippet Manager That Lives in My Terminal",
+      "link": "https://dev.to/ke_jia_24bb2f9f84f14f728a/i-typed-the-same-docker-command-five-times-this-week-so-i-built-a-snippet-manager-that-lives-in-my-2hoj",
+      "pubDate": "2026-09-12T04:13:37.000Z",
+      "description": "<p>Every developer has a drawer of \"useful code\" scattered across five places:</p> <ol> <li> <strong>Browser bookmarks</strong> — that Stack Overflow answer with the exact flag</li> <li> <strong>Chat history</strong> — the one-liner a coworker sent in Slack three months ago</li> <li> <strong>Old ter",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "ChatGPT Traffic Rose 48% in the US as AI Discovery Reshapes Search Measurement",
-      "link": "https://dev.to/alifar/chatgpt-traffic-rose-48-in-the-us-as-ai-discovery-reshapes-search-measurement-2ea5",
-      "pubDate": "2026-09-11T20:15:30.000Z",
-      "description": "<p>ChatGPT is becoming a more significant discovery surface in the United States. Semrush's Traffic Analytics data for July 2026 estimates that <strong>chatgpt.com received about 1.09 billion visits</strong>, a 48.38% increase year over year. In the same dataset, bing.com referrals declined about 50",
+      "title": "Customer Domains and DNS Records: Signed URLs for Secure Asset Delivery",
+      "link": "https://dev.to/mordecainilsson7582/customer-domains-and-dns-records-signed-urls-for-secure-asset-delivery-2nlg",
+      "pubDate": "2026-09-12T04:13:34.000Z",
+      "description": "<p>Short answer: point a customer subdomain at your asset host with a CNAME, then keep authorization in signed URLs. DNS decides where a request goes; it never decides who may make it.</p> <p>For a logistics product, this distinction matters when a shipper wants labels, proof-of-delivery photos, or ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Getting into SQL For Beginners:",
-      "link": "https://dev.to/ian_munene/getting-into-sql-for-beginners-20hd",
-      "pubDate": "2026-09-11T20:12:55.000Z",
-      "description": "<p>Starting new endeavors can feel daunting, but every journey begins with a single step. Learning SQL opens doors to new opportunities. This guide simplifies the fundamentals of SQL, teaching you its essential elements.</p> <h4> <em>1.DDL(Data Definition Language)</em> </h4> <p>DDL defines and modi",
+      "title": "Scoped API Keys for CI Pipelines: Least-Privilege Rotation After Build Log Leaks",
+      "link": "https://dev.to/celesteraine1783/scoped-api-keys-for-ci-pipelines-least-privilege-rotation-after-build-log-leaks-3oin",
+      "pubDate": "2026-09-12T04:12:37.000Z",
+      "description": "<p>Short answer: give each CI job a short-lived, narrowly scoped API key, keep it out of build output, and make revocation a tested path rather than an incident-day improvisation. The deciding constraint is blast radius: one leaked key should be able to do one job for one repository, not become a st",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Quick tip: How to find and free up disk space in Linux",
-      "link": "https://dev.to/prince_maurya_8845cfa6516/quick-tip-how-to-find-and-free-up-disk-space-in-linux-2iak",
-      "pubDate": "2026-09-11T20:12:11.000Z",
-      "description": "<p>A full disk is a common reason for random service crashes in Linux. Here is a quick 3-step checklist to find and fix it:</p> <ol> <li>Check disk usage Find which partition is full: </li> </ol> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight shell\"><code><span class=\"nb\">df</span> ",
+      "title": "Circuit Breaker Pattern",
+      "link": "https://dev.to/gouranga-das-khulna/circuit-breaker-pattern-39op",
+      "pubDate": "2026-09-12T04:00:00.000Z",
+      "description": "<blockquote> <p><strong>One-liner:</strong> A circuit breaker stops calling a failing service to give it time to recover — instead of hammering it with requests that are guaranteed to fail.</p> </blockquote> <h2> ❓ The Problem: Cascading Failures </h2> <div class=\"highlight js-code-highlight\"> <pre ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Modeling Zeotropic Refrigerant Temperature Glide &amp; Mass Addition in Pure TypeScript",
-      "link": "https://dev.to/miad_ea7faef80e5125861119/modeling-zeotropic-refrigerant-temperature-glide-mass-addition-in-pure-typescript-3c27",
-      "pubDate": "2026-09-11T20:09:08.000Z",
-      "description": "<p>With the global phase-down of high-GWP hydrofluorocarbons (HFCs) under the AIM Act and Kigali Amendment, the HVAC/R engineering landscape is undergoing a massive shift toward mildly flammable A2L refrigerants like R-454B and R-32.</p> <p>For software engineers building computational simulation to",
+      "title": "Hardening a SaaS login on Cloudflare Free: Turnstile, Google sign-in and email without SMTP",
+      "link": "https://dev.to/alexandroskyv/hardening-a-saas-login-on-cloudflare-free-turnstile-google-sign-in-and-email-without-smtp-1lh",
+      "pubDate": "2026-09-12T03:55:00.000Z",
+      "description": "<p><strong>SyllogOS</strong> is a multi-tenant platform I'm building for Greek cultural associations and the federations they belong to: members, boards, events, documents. Its first tenant is a regional federation, and the people logging in are volunteers, not engineers.</p> <p>That shaped the logi",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "Google no longer provides direct URLs in search results",
+      "link": "https://www.autom.dev/blog/google-search-goto-links",
+      "pubDate": "2026-09-12T03:14:20.000Z",
+      "description": "Article URL: https://www.autom.dev/blog/google-search-goto-links Comments URL: https://news.ycombinator.com/item?id=49668386 Points: 75 # Comments: 46",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Pandas Should Go Extinct",
+      "link": "https://eddie.codes/posts/pandas-should-go-extinct/",
+      "pubDate": "2026-09-12T02:42:08.000Z",
+      "description": "Article URL: https://eddie.codes/posts/pandas-should-go-extinct/ Comments URL: https://news.ycombinator.com/item?id=49668198 Points: 66 # Comments: 34",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Starlink Signal Leakage Threatens Radio Astronomy's Most Critical Frequencies",
+      "link": "https://www.gadgetreview.com/starlinks-signal-leakage-is-threatening-radio-astronomys-most-critical-frequencies",
+      "pubDate": "2026-09-12T00:40:32.000Z",
+      "description": "Article URL: https://www.gadgetreview.com/starlinks-signal-leakage-is-threatening-radio-astronomys-most-critical-frequencies Comments URL: https://news.ycombinator.com/item?id=49667375 Points: 70 # Comments: 32",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Show HN: Graphify C# – Compiler-accurate Find Usages for coding agents",
+      "link": "https://github.com/zachsaw/graphify-csharp",
+      "pubDate": "2026-09-12T00:16:10.000Z",
+      "description": "Article URL: https://github.com/zachsaw/graphify-csharp Comments URL: https://news.ycombinator.com/item?id=49667188 Points: 26 # Comments: 10",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "OpenAI agents carried out an undisclosed attack on RubyGems",
+      "link": "https://www.rubyhack.ai/",
+      "pubDate": "2026-09-11T23:17:42.000Z",
+      "description": "Article URL: https://www.rubyhack.ai/ Comments URL: https://news.ycombinator.com/item?id=49666735 Points: 481 # Comments: 278",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "QueryBrew: System-Agnostic SQL-to-SQL Query Optimization [pdf]",
+      "link": "https://www.vldb.org/pvldb/vol19/p4494-schmidt.pdf",
+      "pubDate": "2026-09-11T22:16:15.000Z",
+      "description": "Article URL: https://www.vldb.org/pvldb/vol19/p4494-schmidt.pdf Comments URL: https://news.ycombinator.com/item?id=49666155 Points: 23 # Comments: 8",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Project Blinkenlights",
+      "link": "https://blinkenlights.de/en/",
+      "pubDate": "2026-09-11T22:15:00.000Z",
+      "description": "Article URL: https://blinkenlights.de/en/ Comments URL: https://news.ycombinator.com/item?id=49666146 Points: 63 # Comments: 25",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Show HN: ResolveHQ – A Helpdesk Built on Cloudflare Workers, D1, R2 and Queues",
+      "link": "https://github.com/mirza-rizvi/ResolveHQ",
+      "pubDate": "2026-09-11T21:48:00.000Z",
+      "description": "Article URL: https://github.com/mirza-rizvi/ResolveHQ Comments URL: https://news.ycombinator.com/item?id=49665864 Points: 45 # Comments: 14",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "AI researchers debate how close we are to recursive self-improvement",
+      "link": "https://www.dwarkesh.com/p/john-beren-charlie",
+      "pubDate": "2026-09-11T21:35:29.000Z",
+      "description": "Article URL: https://www.dwarkesh.com/p/john-beren-charlie Comments URL: https://news.ycombinator.com/item?id=49665711 Points: 70 # Comments: 60",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "GrapheneOS' rewritten Messages app is released",
       "link": "https://github.com/GrapheneOS/Messaging/releases/tag/13",
       "pubDate": "2026-09-11T18:50:36.000Z",
-      "description": "Article URL: https://github.com/GrapheneOS/Messaging/releases/tag/13 Comments URL: https://news.ycombinator.com/item?id=49663373 Points: 78 # Comments: 29",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "CIA Releases President's Daily Briefs in Commemoration of 9/11",
-      "link": "https://www.cia.gov/stories/story/cia-releases-presidents-daily-briefs-in-commemoration-of-the-25th-anniversary-of-9-11/",
-      "pubDate": "2026-09-11T18:30:07.000Z",
-      "description": "https://www.cia.gov/stories/story/cia-releases-presidents-da... Comments URL: https://news.ycombinator.com/item?id=49663054 Points: 41 # Comments: 15",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "I spent $220 on Google app ads. 60% of the installs were robots",
-      "link": "https://dayzlegame.com/blog/google-ads-bot-farm/",
-      "pubDate": "2026-09-11T18:24:55.000Z",
-      "description": "Article URL: https://dayzlegame.com/blog/google-ads-bot-farm/ Comments URL: https://news.ycombinator.com/item?id=49662990 Points: 14 # Comments: 3",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Litelm: LiteLLM Without the Bloat",
-      "link": "https://github.com/kennethwolters/litelm",
-      "pubDate": "2026-09-11T18:10:20.000Z",
-      "description": "Article URL: https://github.com/kennethwolters/litelm Comments URL: https://news.ycombinator.com/item?id=49662767 Points: 50 # Comments: 19",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "The EPA is planning to scrap public review rules for data center pollution",
-      "link": "https://capitalbnews.org/data-centers-permit-rules-epa/",
-      "pubDate": "2026-09-11T18:05:21.000Z",
-      "description": "Article URL: https://capitalbnews.org/data-centers-permit-rules-epa/ Comments URL: https://news.ycombinator.com/item?id=49662672 Points: 196 # Comments: 122",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "A misalignment of AI in mathematics",
-      "link": "https://mathandai.org/",
-      "pubDate": "2026-09-11T17:45:12.000Z",
-      "description": "https://terrytao.wordpress.com/2026/09/11/a-severe-misalignm...https://www.economist.com/science-and-technology/2026/09/11/..., https://unwall.app/www.economist.com/science-and-technology/... Comments URL: https://news.ycombinator.com/item?id=49662371 Points: 283 # Comments: 368",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Room 641A",
-      "link": "https://en.wikipedia.org/wiki/Room_641A",
-      "pubDate": "2026-09-11T17:45:03.000Z",
-      "description": "Article URL: https://en.wikipedia.org/wiki/Room_641A Comments URL: https://news.ycombinator.com/item?id=49662367 Points: 101 # Comments: 26",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Λ Snap – An inviting programming language for kids and adults for CS study",
-      "link": "https://snap.berkeley.edu/",
-      "pubDate": "2026-09-11T17:36:11.000Z",
-      "description": "Article URL: https://snap.berkeley.edu/ Comments URL: https://news.ycombinator.com/item?id=49662214 Points: 69 # Comments: 45",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Mind-altering drugs played key role in rise of Andean civilization",
-      "link": "https://www.science.org/content/article/mind-altering-drugs-played-key-role-rise-andean-civilization",
-      "pubDate": "2026-09-11T17:25:23.000Z",
-      "description": "Article URL: https://www.science.org/content/article/mind-altering-drugs-played-key-role-rise-andean-civilization Comments URL: https://news.ycombinator.com/item?id=49662020 Points: 41 # Comments: 28",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Zep AI (YC W24) Is Hiring a Head of Forward Deployed Engineering",
-      "link": "https://www.getzep.com/careers/",
-      "pubDate": "2026-09-11T17:00:17.000Z",
-      "description": "Article URL: https://www.getzep.com/careers/ Comments URL: https://news.ycombinator.com/item?id=49661645 Points: 0 # Comments: 0",
+      "description": "Article URL: https://github.com/GrapheneOS/Messaging/releases/tag/13 Comments URL: https://news.ycombinator.com/item?id=49663373 Points: 223 # Comments: 138",
       "source": "Hacker News",
       "category": "Tech News"
     },
