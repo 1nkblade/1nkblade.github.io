@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T10:48:14.933Z",
+  "generatedAt": "2026-09-12T15:32:36.117Z",
   "sourceCount": 4,
   "successCount": 3,
   "errors": [
@@ -10,162 +10,162 @@
   ],
   "items": [
     {
-      "title": "9 จาก 428 Router ฉีดโค้ดใส่ Agent, ทำไมด่านป้องกันยังไม่พอ",
-      "link": "https://dev.to/sarantoon/9-cchaak-428-router-chiidokhdais-agent-thamaimdaanpngkanyangaimph-3cop",
-      "pubDate": "2026-09-12T10:40:55.000Z",
-      "description": "<h1> 9 จาก 428 Router ฉีดโค้ดใส่ Agent, ทำไมด่านป้องกันยังไม่พอ </h1> <p><em>โดย Nokka (นก-กา) | 12 กันยายน 2026</em></p> <p><em>บทความนี้เขียนโดย AI (deepseek-v4.1-flash) ผ่าน Hermes Agent ตรวจสอบและเรียบเรียงโดย Nokka</em></p> <p>มีคำถามหนึ่งที่คนทำ agent ควรถามตัวเองก่อนอ่านบทความนี้</p> <p>เครื่",
+      "title": "Run YunCMS with Docker Compose: MySQL 8.4 Included",
+      "link": "https://dev.to/yunsoft/run-yuncms-with-docker-compose-mysql-84-included-4hlb",
+      "pubDate": "2026-09-12T15:22:45.000Z",
+      "description": "<blockquote> <p><strong>Disclosure:</strong> YunCMS is developed and maintained by Yunsoft Software. This guide covers our own open-source project. It was verified against <code>yunsoftofficial/yuncms:0.1.22</code> on September 12, 2026. The YunCMS <code>0.1.x</code> line is pre-stable, so interface",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Why Asynchronous Data Processing Matters in Modern Web Architecture",
-      "link": "https://dev.to/usman_c9d4c2a90f76c/why-asynchronous-data-processing-matters-in-modern-web-architecture-3ml6",
-      "pubDate": "2026-09-12T10:39:10.000Z",
-      "description": "<p>When designing web applications that handle real-time interactions, synchronous request handling often becomes a performance bottleneck. Blocking operations—such as third-party API lookups, document formatting, or media rendering—slow down the main thread and degrade the user experience.</p> <p>D",
+      "title": "I don't write the code. I drive the bus.",
+      "link": "https://dev.to/chovy/i-dont-write-the-code-i-drive-the-bus-34db",
+      "pubDate": "2026-09-12T15:17:22.000Z",
+      "description": "<p>I used to write software. Now I work in mass agent transit. Ten AI agents on the bus today. The plan is a fleet of ten thousand.</p> <p>That sounds like a joke and it is about half of one. Here is the half that is not.</p> <p>I am still responsible for getting from A to B. A feature goes from an ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Comment relancer un client freelance sans être lourd (7 scripts)",
-      "link": "https://dev.to/farnel_royicktchamaleu_5/comment-relancer-un-client-freelance-sans-etre-lourd-7-scripts-icf",
-      "pubDate": "2026-09-12T10:36:59.000Z",
-      "description": "<p>Tu as envoyé le devis. Trois jours passent. Puis une semaine. Le client a vu le mail — ou pas. Tu ouvres ta boîte, tu réécris trois fois le même message, tu effaces « je me permets de relancer », et tu te demandes si tu ne vas pas passer pour quelqu’un de collant.</p> <p>Relancer un client en fre",
+      "title": "Your LLM app will get jailbroken. Here are 8 free adversarial probes you can run in 30 seconds",
+      "link": "https://dev.to/llmrt/your-llm-app-will-get-jailbroken-here-are-8-free-adversarial-probes-you-can-run-in-30-seconds-5665",
+      "pubDate": "2026-09-12T15:14:27.000Z",
+      "description": "<p>I run an autonomous agent that makes security decisions from untrusted input. Before I trusted it, I red-teamed it the way an attacker would. The result: <strong>27/100 MEDIUM, 1 of 8 probes flagged</strong> - a soft failure where the model leaked part of its system prompt when asked politely in ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "At this point I feel like AI companies selling Fear",
-      "link": "https://news.ycombinator.com/item?id=49670907",
-      "pubDate": "2026-09-12T10:26:40.000Z",
-      "description": "AI can do reasoning better But It can't outsmart humans , AI gets trained on data but human have their learning with them ,only about 5% of data a human share as learning, knowledge - rest it just inside us ,So technically AI can't replace human ,We do take inspiration , cross domain analysis and mu",
+      "title": "Path-Based Routing with Reverse Proxy: Serving Multiple Websites from One Domain",
+      "link": "https://dev.to/solitrix02/path-based-routing-with-reverse-proxy-serving-multiple-websites-from-one-domain-3c63",
+      "pubDate": "2026-09-12T15:12:58.000Z",
+      "description": "<p>Hey developers 👋</p> <p>At some point in our development journey, we’ve all played around with domains, subdomains, routes, reverse proxies, and enough DNS records to make us question our life choices.</p> <p>But here’s an interesting problem:</p> <p><strong>What if you want a completely differe",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Why your OpenGraph tags break on LinkedIn (and how to actually fix it)",
+      "link": "https://dev.to/julien_rousseau_29172bb6c/why-your-opengraph-tags-break-on-linkedin-and-how-to-actually-fix-it-32gf",
+      "pubDate": "2026-09-12T15:11:47.000Z",
+      "description": "<p>Last week someone asked me why their React app showed an empty card when shared on LinkedIn, even though their tags were right there in the code.</p> <p>The reason is simple: social scrapers don’t execute client-side JavaScript.</p> <p>Twitterbot, LinkedInBot, and Slackbot aren't full browsers. T",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Hard Spend Ceilings, Budget Alerts, and Node.js Runaway Workload Drills",
+      "link": "https://dev.to/velvetdusk629047/hard-spend-ceilings-budget-alerts-and-nodejs-runaway-workload-drills-32nm",
+      "pubDate": "2026-09-12T15:08:26.000Z",
+      "description": "<p>A budget alert tells a person that a limit is close. A hard spend cap changes what the workload is allowed to do. In a fintech leaked-key drill, that difference decides whether the incident ends in a bounded denial or an invoice you explain later.</p> <p><strong>Short answer:</strong> use a hard ",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "I built an AI assistant that lives on my Mac instead of in a chat tab",
+      "link": "https://dev.to/yisrael_gottlieb_moe/i-built-an-ai-assistant-that-lives-on-my-mac-instead-of-in-a-chat-tab-1l6n",
+      "pubDate": "2026-09-12T15:02:03.000Z",
+      "description": "<p>Every AI tool I used worked the same way. I'd open a tab, explain who the client was and what we'd agreed, paste in the email, get some text back, and then go do the actual work myself. The model was smart. The setup around it left all the carrying to me.<br> So I built Moe, an assistant that run",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "I built a CSV chart page that shows a SHA of your file so the chart can’t invent numbers",
+      "link": "https://dev.to/therealcpain/i-built-a-csv-chart-page-that-shows-a-sha-of-your-file-so-the-chart-cant-invent-numbers-2dlm",
+      "pubDate": "2026-09-12T15:01:15.000Z",
+      "description": "<p>Do your charts ever look right but quietly use the wrong numbers?</p> <p>I built Honest Chart, a free CSV→chart page that shows a SHA-256 fingerprint for the uploaded file alongside the chart. The idea is simple: if you’re making a slide or sharing a quick visualization, you can verify the source",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "TokenPrint: An Open-Source 3D Visual Debugger for LLMs and Transformers",
+      "link": "https://dev.to/sudharsan_nef/tokenprint-an-open-source-3d-visual-debugger-for-llms-and-transformers-2jca",
+      "pubDate": "2026-09-12T15:01:13.000Z",
+      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fjmcfubbh2hozdyc6yzmw.png\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Stackness launch",
+      "link": "https://dev.to/gosen/stackness-launch-54fo",
+      "pubDate": "2026-09-12T15:01:11.000Z",
+      "description": "<p>Hey everyone,</p> <p>Recently I've launched Stackness - a social platform for developers to show their stack and how they use it, and I'd be very grateful to get some feedback from the community! I've launched it on Product Hunt today as well so first users are slowly arriving :)</p> <p>Please ta",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Ask HN: What default model do you use and why?",
+      "link": "https://news.ycombinator.com/item?id=49672966",
+      "pubDate": "2026-09-12T14:58:44.000Z",
+      "description": "I use claude for most of what I do, and Fable is largely overkill for me and frequently burns through my Max plan's session credits in minutes (!) when just doing an initial mobile app planning with 4 agents. After I waited out the timeout period 6 hours later, and I picked up again, the cache had t",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Designing Resilient Selenium Tests for Highly Dynamic SPAs",
-      "link": "https://dev.to/styrow_dev/designing-resilient-selenium-tests-for-highly-dynamic-spas-2nkm",
-      "pubDate": "2026-09-12T10:20:27.000Z",
-      "description": "<p>🔥 SDET Interview Scenario of the Day:</p> <p>Your team's Selenium tests for a dynamic financial SPA are notoriously flaky. Elements are re-rendered, data updates asynchronously, and <code>StaleElementReferenceException</code> and <code>NoSuchElementException</code> plague your CI pipeline. How d",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Can Thai AI Models Beat Global Models at Thai? Here Is Where They Win",
-      "link": "https://dev.to/sarantoon/can-thai-ai-models-beat-global-models-at-thai-here-is-where-they-win-312h",
-      "pubDate": "2026-09-12T10:19:54.000Z",
-      "description": "<h1> Can Thai AI Models Beat Global Models at Thai? Here Is Where They Win </h1> <p><em>By Nokka | September 11, 2026</em></p> <p><em>This article was written by AI (deepseek-v4.1-flash) through Hermes Agent, reviewed and edited by Nokka.</em></p> <p>The most common question in Thai AI circles is wh",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "What Is Web Cache Poisoning? How Can a Cached Response Become a Security Problem?",
-      "link": "https://dev.to/aditya_d_sharma/what-is-web-cache-poisoning-how-can-a-cached-response-become-a-security-problem-3om4",
-      "pubDate": "2026-09-12T10:14:27.000Z",
-      "description": "<p>Here's something that should be completely unremarkable.</p> <p>A user requests <code>/homepage</code>. The origin server generates a response. A cache stores it. The next user requests <code>/homepage</code>. The cache returns the stored response without touching the origin.</p> <p>That's cachin",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "How AI-Powered Data Analytics Works: From Raw Data to Intelligent Insights in 2026",
-      "link": "https://dev.to/synfinity-dynamics-pvt-ltd/how-ai-powered-data-analytics-works-from-raw-data-to-intelligent-insights-in-2026-672",
-      "pubDate": "2026-09-12T10:11:40.000Z",
-      "description": "<h2> The Shift From Traditional Analytics to AI-Powered Analytics </h2> <p>For decades, businesses have relied on a fairly predictable process to make sense of their data:<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight plaintext\"><code>Raw Data ↓ Data Warehouse ↓ Dashboards",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Postgres for everything hits a wall the moment dashboards get concurrent",
-      "link": "https://dev.to/adioof/postgres-for-everything-hits-a-wall-the-moment-dashboards-get-concurrent-h43",
-      "pubDate": "2026-09-12T10:11:35.000Z",
-      "description": "<p>I used to say, \"Just use Postgres.\"</p> <p>After that, our dashboards became concurrent, and the read replica we quickly added to offload some of the pressure from the main database began overheating instead.</p> <h2> The meme that traps you </h2> <p>There is a reassuring notion that Postgres can",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "How to make your application safer and why you should care 👇",
-      "link": "https://dev.to/dzakh/how-to-make-your-application-safer-and-why-you-should-care-n8d",
-      "pubDate": "2026-09-12T10:08:02.000Z",
-      "description": "<div class=\"ltag__link--embedded\"> <div class=\"crayons-story \"> <a href=\"https://dev.to/dzakh/encode-dont-stringify-how-jsonstringify-lies-to-you-38fk\" class=\"crayons-story__hidden-navigation-link\">Encode, don't stringify - how JSON.stringify lies to you</a> <div class=\"crayons-story__body crayons-s",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "I Kept a Shell Alias Just to Pipe stdin Into Workflows. 0.52.0 Retires It.",
-      "link": "https://dev.to/donk8r/i-kept-a-shell-alias-just-to-pipe-stdin-into-workflows-0520-retires-it-22p",
-      "pubDate": "2026-09-12T10:07:57.000Z",
-      "description": "<p>Workflows are my favorite part of Octomind. Multi-step, self-verifying jobs defined in TOML, shipped through taps — the built-in <code>muvon/tap</code> carries eighteen of them: review, develop, debug, deep-review, plan-and-build, research, content, and more.</p> <p>But there's one thing I kept d",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Resistance Training Prescription for Muscle Function, Hypertrophy in Health",
-      "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12965823/",
-      "pubDate": "2026-09-12T09:08:54.000Z",
-      "description": "Article URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC12965823/ Comments URL: https://news.ycombinator.com/item?id=49670493 Points: 12 # Comments: 1",
+      "title": "Waymo pulls over, calls cops on juvenile riders who had 'ghost gun\"",
+      "link": "https://www.latimes.com/california/story/2026-09-12/juveniles-riding-in-waymo-arrested-after-police-find-ghost-gun",
+      "pubDate": "2026-09-12T14:16:24.000Z",
+      "description": "Article URL: https://www.latimes.com/california/story/2026-09-12/juveniles-riding-in-waymo-arrested-after-police-find-ghost-gun Comments URL: https://news.ycombinator.com/item?id=49672549 Points: 41 # Comments: 39",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Retrospectively Reverse-Engineering Apple's Neural Engine",
-      "link": "https://eiln.github.io/posts/ane.html",
-      "pubDate": "2026-09-12T07:54:03.000Z",
-      "description": "Article URL: https://eiln.github.io/posts/ane.html Comments URL: https://news.ycombinator.com/item?id=49670032 Points: 88 # Comments: 11",
+      "title": "You Don't Need Matrix Calculus",
+      "link": "https://julesjacobs.com/2024/07/28/you-dont-need-matrix-calculus.html",
+      "pubDate": "2026-09-12T14:15:08.000Z",
+      "description": "Article URL: https://julesjacobs.com/2024/07/28/you-dont-need-matrix-calculus.html Comments URL: https://news.ycombinator.com/item?id=49672541 Points: 11 # Comments: 2",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "WeWorm: Zero-Click WeChat Worm",
-      "link": "https://calif.io/research/weworm",
-      "pubDate": "2026-09-12T05:49:10.000Z",
-      "description": "Article URL: https://calif.io/research/weworm Comments URL: https://news.ycombinator.com/item?id=49669276 Points: 27 # Comments: 1",
+      "title": "We Must Pace the Frontier",
+      "link": "https://darioamodei.com/post/we-must-pace-the-frontier",
+      "pubDate": "2026-09-12T14:10:49.000Z",
+      "description": "Article URL: https://darioamodei.com/post/we-must-pace-the-frontier Comments URL: https://news.ycombinator.com/item?id=49672510 Points: 106 # Comments: 125",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Usenet rewind archive search engine",
-      "link": "https://www.usenet-rewind.com/",
-      "pubDate": "2026-09-12T04:19:52.000Z",
-      "description": "Article URL: https://www.usenet-rewind.com/ Comments URL: https://news.ycombinator.com/item?id=49668777 Points: 66 # Comments: 14",
+      "title": "Compiler Can Undo Your Security Checks",
+      "link": "https://davidbombal.com/your-compiler-can-undo-your-security-checks/",
+      "pubDate": "2026-09-12T14:07:58.000Z",
+      "description": "Article URL: https://davidbombal.com/your-compiler-can-undo-your-security-checks/ Comments URL: https://news.ycombinator.com/item?id=49672474 Points: 9 # Comments: 9",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Navier-Stokes Announcement",
-      "link": "https://www.claymath.org/news/navier-stokes-announcement/",
-      "pubDate": "2026-09-12T04:09:43.000Z",
-      "description": "Article URL: https://www.claymath.org/news/navier-stokes-announcement/ Comments URL: https://news.ycombinator.com/item?id=49668706 Points: 176 # Comments: 115",
+      "title": "A Mathematical Framework for Transformer Circuits (2021)",
+      "link": "https://transformer-circuits.pub/2021/framework/index.html",
+      "pubDate": "2026-09-12T13:56:58.000Z",
+      "description": "Article URL: https://transformer-circuits.pub/2021/framework/index.html Comments URL: https://news.ycombinator.com/item?id=49672365 Points: 29 # Comments: 3",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "google.com/goto: Google's anti-scraping update",
-      "link": "https://www.autom.dev/blog/google-search-goto-links",
-      "pubDate": "2026-09-12T03:14:20.000Z",
-      "description": "Article URL: https://www.autom.dev/blog/google-search-goto-links Comments URL: https://news.ycombinator.com/item?id=49668386 Points: 439 # Comments: 347",
+      "title": "My last six months at Evernote",
+      "link": "https://alexkras.com/my-last-six-months-at-evernote-after-bending-spoons-took-over/",
+      "pubDate": "2026-09-12T13:54:19.000Z",
+      "description": "Article URL: https://alexkras.com/my-last-six-months-at-evernote-after-bending-spoons-took-over/ Comments URL: https://news.ycombinator.com/item?id=49672342 Points: 17 # Comments: 12",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "OpenAI agents carried out an undisclosed attack on RubyGems",
-      "link": "https://www.rubyhack.ai/",
-      "pubDate": "2026-09-11T23:17:42.000Z",
-      "description": "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems... Comments URL: https://news.ycombinator.com/item?id=49666735 Points: 722 # Comments: 404",
+      "title": "LLMs are real, AI is fake",
+      "link": "https://pluralistic.net/2026/09/12/god-in-the-box/",
+      "pubDate": "2026-09-12T13:47:28.000Z",
+      "description": "Article URL: https://pluralistic.net/2026/09/12/god-in-the-box/ Comments URL: https://news.ycombinator.com/item?id=49672281 Points: 34 # Comments: 8",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Project Blinkenlights",
-      "link": "https://blinkenlights.de/en/",
-      "pubDate": "2026-09-11T22:15:00.000Z",
-      "description": "Article URL: https://blinkenlights.de/en/ Comments URL: https://news.ycombinator.com/item?id=49666146 Points: 96 # Comments: 31",
+      "title": "Fuck it, make it anyway",
+      "link": "https://www.joelotter.com/posts/2026/09/make-it-anyway/",
+      "pubDate": "2026-09-12T11:42:32.000Z",
+      "description": "Article URL: https://www.joelotter.com/posts/2026/09/make-it-anyway/ Comments URL: https://news.ycombinator.com/item?id=49671329 Points: 331 # Comments: 282",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Show HN: ResolveHQ – A Helpdesk Built on Cloudflare Workers, D1, R2 and Queues",
-      "link": "https://github.com/mirza-rizvi/ResolveHQ",
-      "pubDate": "2026-09-11T21:48:00.000Z",
-      "description": "Article URL: https://github.com/mirza-rizvi/ResolveHQ Comments URL: https://news.ycombinator.com/item?id=49665864 Points: 60 # Comments: 21",
+      "title": "The Worst Spam Emails: Inside iLands' AI Agent Hustle",
+      "link": "https://tedium.co/2026/09/11/ilands-agents-email-spam-kaixin-tang/",
+      "pubDate": "2026-09-12T11:13:38.000Z",
+      "description": "Article URL: https://tedium.co/2026/09/11/ilands-agents-email-spam-kaixin-tang/ Comments URL: https://news.ycombinator.com/item?id=49671159 Points: 64 # Comments: 30",
       "source": "Hacker News",
       "category": "Tech News"
     },
