@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T16:18:14.992Z",
+  "generatedAt": "2026-09-13T20:51:09.122Z",
   "sourceCount": 4,
   "successCount": 3,
   "errors": [
@@ -10,162 +10,162 @@
   ],
   "items": [
     {
-      "title": "FAQ: Which Binary Did python Hit?",
-      "link": "https://dev.to/gitlab_3188/faq-which-binary-did-python-hit-2d0",
-      "pubDate": "2026-09-13T16:09:55.000Z",
-      "description": "<p>Ever trust a chat that said tests passed?<br> Then watch the import fail on the box?</p> <p>The chat summary still looks clean and final.<br> The binary on disk is a different story.<br> This FAQ is not about clever prompts.<br> It is about which file actually ran.</p> <p>A free model will type <",
+      "title": "🎧 Your AI Agent Is Thinking. You're Just Staring at a Blank Screen.",
+      "link": "https://dev.to/kiril6/your-ai-agent-is-thinking-youre-just-staring-at-a-blank-screen-b09",
+      "pubDate": "2026-09-13T20:37:24.000Z",
+      "description": "<p>You know the moment. You hit enter, the agent starts \"thinking,\" and for the next 15 to 45 seconds you're left watching a blinking cursor that gives you nothing — not a percentage, not a heartbeat, nothing. Too short to context-switch into something else. Too long to just sit there. So you do the",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Copilot Can Now Approve Pull Requests. Should It Count Toward Your Branch Protection?",
-      "link": "https://dev.to/pwd9000/copilot-can-now-approve-pull-requests-should-it-count-toward-your-branch-protection-2b78",
-      "pubDate": "2026-09-13T16:07:51.000Z",
-      "description": "<h2> Copilot Can Now Approve Pull Requests. Should It Count Toward Your Branch Protection? </h2> <p>Until this month, a Copilot code review was advice. It left a <strong>Comment</strong> review, never an <strong>Approve</strong> or <strong>Request changes</strong>, and GitHub's own documentation was",
+      "title": "First Rollback: Revert the Agent PR You Cannot Explain",
+      "link": "https://dev.to/gitgo_5662/first-rollback-revert-the-agent-pr-you-cannot-explain-3akh",
+      "pubDate": "2026-09-13T20:37:07.000Z",
+      "description": "<p>Your first AI pull request will often need rollback.<br> Plan that rollback before you merge anything.</p> <p>You lack repo history on day one.<br> Agents still produce large and confident diffs today.<br> A rollback plan keeps that blast radius tiny.</p> <h2> What first rollback actually means <",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Opik กับคำถามว่า agent ที่คุณรันอยู่ ทำอะไรผิดไปแล้วบ้าง",
-      "link": "https://dev.to/sarantoon/opik-kabkhamthaamwaa-agent-thiikhunranyuu-thamaairphidaipaelwbaang-54l2",
-      "pubDate": "2026-09-13T16:04:04.000Z",
-      "description": "<h1> Opik กับคำถามว่า agent ที่คุณรันอยู่ ทำอะไรผิดไปแล้วบ้าง </h1> <p><em>โดย Nokka (นก-กา) | 13 กันยายน 2026</em></p> <p><em>บทความนี้เขียนโดย AI (โมเดล deepseek-v4.1-flash ของผู้ให้บริการ ollama-cloud) ผ่าน Hermes Agent จาก Nous Research ตรวจสอบและเรียบเรียงโดย Nokka</em></p> <p>เวลาที่ agent ทำง",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "My end-to-end run is ten of ten, and one of those ten is just my word for it",
-      "link": "https://dev.to/mahirhir/my-end-to-end-run-is-ten-of-ten-and-one-of-those-ten-is-just-my-word-for-it-3f4l",
-      "pubDate": "2026-09-13T16:03:26.000Z",
-      "description": "<p>An end-to-end run across a sandbox, from a clean slate:<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight plaintext\"><code>OK_E2E layers=13/13 steps=10/10 refusals=3/3 receipts=3/3 </code></pre> </div> <p>Ten of ten. One of those ten is not a measurement. It is me asserting",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Modeling Invoice Corrections as New Documents, Not Edits",
-      "link": "https://dev.to/uttrai262005/modeling-invoice-corrections-as-new-documents-not-edits-40el",
-      "pubDate": "2026-09-13T16:01:41.000Z",
-      "description": "<h1> Modeling Invoice Corrections as New Documents, Not Edits </h1> <p>I built a TypeScript/Express REST API for managing invoices through a controlled lifecycle — drafts can be edited, finalized invoices can be issued and exported as PDFs, and corrections are handled as replacement invoices rather ",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "How I Turned the SAM.gov Public Bulk Dataset Into a Searchable Contractor Database",
-      "link": "https://dev.to/bitrixa_limited_b59865030/how-i-turned-the-samgov-public-bulk-dataset-into-a-searchable-contractor-database-421l",
-      "pubDate": "2026-09-13T15:59:08.000Z",
-      "description": "<p>Working with public government datasets often sounds straightforward until you actually try to turn them into something useful.</p> <p>That was my experience with the <strong>SAM.gov public bulk dataset</strong>.</p> <p>The data is valuable because it contains a large amount of publicly available",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "My parser reported a parse error on a file that was never malformed",
-      "link": "https://dev.to/mahirhir/my-parser-reported-a-parse-error-on-a-file-that-was-never-malformed-3agi",
-      "pubDate": "2026-09-13T15:58:37.000Z",
-      "description": "<p>A build step that reads requirement tables out of a document reported this, every run:<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight plaintext\"><code>FAIL_MAP reason=parse </code></pre> </div> <p><code>reason=parse</code> has an obvious reading. Either the document is m",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Migrating from crontab: five everyday schedules, translated into Kairos",
-      "link": "https://dev.to/azathothx/migrating-from-crontab-five-everyday-schedules-translated-into-kairos-16lf",
-      "pubDate": "2026-09-13T15:57:25.000Z",
-      "description": "<p>If you arrived from the <a href=\"https://kairos-lang.org/en/\" rel=\"noopener noreferrer\">Kairos 1.0 announcement</a>, this is the<br> hands-on one: take a crontab you already have and translate it.</p> <p>First, the honest part: <strong>if your jobs are plain fixed-time repeats, stay on cron.</str",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Kairos 1.0 — a schedule language where \"3 business days before month-end\" is an expression",
-      "link": "https://dev.to/azathothx/kairos-10-a-schedule-language-where-3-business-days-before-month-end-is-an-expression-87i",
-      "pubDate": "2026-09-13T15:57:20.000Z",
-      "description": "<p>Today I tagged <strong>1.0</strong> of <a href=\"https://github.com/azathothx/kairos-lang\" rel=\"noopener noreferrer\">Kairos</a>, a schedule<br> definition language I've been building — a small DSL where schedules like \"3 business days<br> before month-end\" or \"payday on the 25th, previous business",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "I Built a Python CLI Toolbox Instead of Writing One-Off Scripts",
-      "link": "https://dev.to/mehakb7/i-built-a-python-cli-toolbox-instead-of-writing-one-off-scripts-2f7i",
-      "pubDate": "2026-09-13T15:51:51.000Z",
-      "description": "<p>Whenever I ask an AI assistant to do a small task, it writes a quick Python script for me.</p> <p>Convert an image.<br> Compress a PDF.<br> Convert a CSV to Excel.</p> <p>The script works, I use it once, and then it disappears.</p> <p>At some point I thought:</p> <blockquote> <p>Why keep asking f",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Libraries Run Rust Inside Python (With PyO3)",
-      "link": "https://belderbos.dev/blog/how-libraries-run-rust-inside-python/",
-      "pubDate": "2026-09-13T15:24:05.000Z",
-      "description": "Article URL: https://belderbos.dev/blog/how-libraries-run-rust-inside-python/ Comments URL: https://news.ycombinator.com/item?id=49685037 Points: 8 # Comments: 5",
+      "title": "Flawed Routers Flood University of Wisconsin Internet Time Server (2003)",
+      "link": "https://pages.cs.wisc.edu/~plonka/netgear-sntp/",
+      "pubDate": "2026-09-13T20:33:18.000Z",
+      "description": "Article URL: https://pages.cs.wisc.edu/~plonka/netgear-sntp/ Comments URL: https://news.ycombinator.com/item?id=49688391 Points: 3 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Predictive intelligence to anticipate anything.",
-      "link": "https://prior.chat/",
-      "pubDate": "2026-09-13T15:11:22.000Z",
-      "description": "Article URL: https://prior.chat/ Comments URL: https://news.ycombinator.com/item?id=49684879 Points: 4 # Comments: 4",
+      "title": "I removed 1,918 comments across twelve workers. 51 of them were load-bearing.",
+      "link": "https://dev.to/mahirhir/i-removed-1918-comments-across-twelve-workers-51-of-them-were-load-bearing-3g23",
+      "pubDate": "2026-09-13T20:30:35.000Z",
+      "description": "<p>The project caps comment blocks per file. A census found 2,886 blocks in the repository and 97 files over the cap. The plan was not to delete the text. Every block was relocated verbatim into an evidence ledger, pinned to the blob and line range it came from, and then stripped out of the source.<",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "When Do You Decide a Project Is Done?",
+      "link": "https://dev.to/sizzlebop/when-do-you-decide-a-project-is-done-343o",
+      "pubDate": "2026-09-13T20:28:24.000Z",
+      "description": "<p>I make A LOT of things.</p> <p>Some turn into bigger projects than I expected. Some are experiments. Some are tiny utilities I made because I wanted one very specific thing and didn't feel like using whatever already existed.</p> <p>And lately I've been thinking about when a project is actually <",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "The AI job market in 2026: who gets hired, what they earn, and which roles are fading",
+      "link": "https://dev.to/ilinmaks/the-ai-job-market-in-2026-who-gets-hired-what-they-earn-and-which-roles-are-fading-3fk2",
+      "pubDate": "2026-09-13T20:24:44.000Z",
+      "description": "<p>In September 2026 I pulled together what the major sources say about the AI labor market: LinkedIn, the World Economic Forum, Stanford AI Index, PwC, Lightcast, Indeed, Bain and Levels.fyi. I needed it for my own decisions, both where to go next and what to offer clients. Here is the short versio",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "[Lab Notes] Kubernetes the Hard Way, For Real This Time (Step 04)",
+      "link": "https://dev.to/lugerlogic/lab-notes-kubernetes-the-hard-way-for-real-this-time-step-04-3cc0",
+      "pubDate": "2026-09-13T20:22:17.000Z",
+      "description": "<p>Continuing my <a href=\"https://github.com/kelseyhightower/kubernetes-the-hard-way\" rel=\"noopener noreferrer\">Kubernetes the Hard Way</a> homelab build on Proxmox. Steps 01-03 are already done, this covers step 04.</p> <p>Original guide: <a href=\"https://github.com/kelseyhightower/kubernetes-the-h",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "The Hidden SEO Cost of E-Commerce Filters",
+      "link": "https://dev.to/sepideh_jafari/the-hidden-seo-cost-of-e-commerce-filters-1d76",
+      "pubDate": "2026-09-13T20:20:29.000Z",
+      "description": "<p>Filters are essential to e-commerce.</p> <p>They're also one of the easiest ways to create thousands of URLs nobody intentionally planned.</p> <p>Imagine a store where users can filter products by:</p> <p>brand, color, price, size, availability, and style.</p> <p>Each filter is useful.</p> <p>The",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "AI Security Cannot Be Legislated Into Existence",
+      "link": "https://dev.to/alifunk/ai-security-cannot-be-legislated-into-existence-m92",
+      "pubDate": "2026-09-13T20:16:49.000Z",
+      "description": "<p><strong>Regulation sets the rules. Architecture enforces them.</strong></p> <p>Conversations about AI safety revolve around model behavior and future regulation. These discussions matter. They remain incomplete.</p> <p>The European Union enforces the AI Act today. Frontier laboratories issue iden",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Your Free Probe Passed. You Still Measured the Wrong Box",
+      "link": "https://dev.to/codex_1135/your-free-probe-passed-you-still-measured-the-wrong-box-c0e",
+      "pubDate": "2026-09-13T20:13:18.000Z",
+      "description": "<p>Your free probe passed on a scratch box. That green badge still measured the wrong machine. A green free endpoint is a cheap probe. It is not a production ship gate. Treat it like a probe, or you ship luck.</p> <p>I keep watching agents pass on free compute. Then the same patch dies on the real m",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "10 CSS Layouts Every Developer Should Know (Grid &amp; Flexbox Explained the Simple Way)",
+      "link": "https://dev.to/codewithdivine/10-css-layouts-every-developer-should-know-grid-flexbox-explained-the-simple-way-4ogh",
+      "pubDate": "2026-09-13T20:12:00.000Z",
+      "description": "<p>You've seen these layouts a hundred times, blogs, dashboards, Pinterest boards, magazine sites. But when you sit down in front of a design file, do you know <em>which</em> CSS tool to reach for, or are you just guessing until something sticks?</p> <p>In this post I'm breaking down 10 of the most ",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Mark Zuckerberg: \"Cambridge Analytica\" (2017)",
+      "link": "https://twitter.com/TechEmails/status/2099214399840059428",
+      "pubDate": "2026-09-13T20:08:45.000Z",
+      "description": "Article URL: https://twitter.com/TechEmails/status/2099214399840059428 Comments URL: https://news.ycombinator.com/item?id=49688157 Points: 65 # Comments: 4",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Cpak – OCI application package format for Linux desktops, servers and devices",
-      "link": "https://cpak.it/",
-      "pubDate": "2026-09-13T15:02:56.000Z",
-      "description": "Article URL: https://cpak.it/ Comments URL: https://news.ycombinator.com/item?id=49684778 Points: 3 # Comments: 1",
+      "title": "There Is No AI (It's Just People) with Jaron Lanier",
+      "link": "https://singjupost.com/startalk-there-is-no-ai-really-its-just-people-w-jaron-lanier-transcript/",
+      "pubDate": "2026-09-13T19:41:06.000Z",
+      "description": "Article URL: https://singjupost.com/startalk-there-is-no-ai-really-its-just-people-w-jaron-lanier-transcript/ Comments URL: https://news.ycombinator.com/item?id=49687869 Points: 26 # Comments: 10",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Astra and Fable still hack on simple variants of alignment evals from 2025",
-      "link": "https://www.lesswrong.com/posts/munJKF7iWMsWJLAH2/astra-and-fable-still-hack-on-simple-variants-of-alignment",
-      "pubDate": "2026-09-13T14:28:36.000Z",
-      "description": "Article URL: https://www.lesswrong.com/posts/munJKF7iWMsWJLAH2/astra-and-fable-still-hack-on-simple-variants-of-alignment Comments URL: https://news.ycombinator.com/item?id=49684393 Points: 83 # Comments: 22",
+      "title": "AI recursive self-improvement might not come so quickly after all (August 2026)",
+      "link": "https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/",
+      "pubDate": "2026-09-13T18:49:44.000Z",
+      "description": "Article URL: https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/ Comments URL: https://news.ycombinator.com/item?id=49687334 Points: 19 # Comments: 14",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "CUDA for AMD on Windows",
-      "link": "https://github.com/Speedstu/CUDA-for-AMD-Windows",
-      "pubDate": "2026-09-13T14:25:13.000Z",
-      "description": "Article URL: https://github.com/Speedstu/CUDA-for-AMD-Windows Comments URL: https://news.ycombinator.com/item?id=49684356 Points: 19 # Comments: 1",
+      "title": "I'm being cyberattacked by Tesla, Inc",
+      "link": "https://dreamstation.systems/personal/tesla.html",
+      "pubDate": "2026-09-13T18:03:09.000Z",
+      "description": "Article URL: https://dreamstation.systems/personal/tesla.html Comments URL: https://news.ycombinator.com/item?id=49686766 Points: 324 # Comments: 91",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Making Startups Powerful",
-      "link": "https://paulgraham.com/powerful.html",
-      "pubDate": "2026-09-13T14:09:53.000Z",
-      "description": "Article URL: https://paulgraham.com/powerful.html Comments URL: https://news.ycombinator.com/item?id=49684196 Points: 12 # Comments: 1",
+      "title": "Global Shortage Has Led to Motor Oil Rationing at Costco",
+      "link": "https://guessingheadlights.com/global-shortage-has-led-to-motor-oil-rationing-at-costco/",
+      "pubDate": "2026-09-13T17:57:59.000Z",
+      "description": "Article URL: https://guessingheadlights.com/global-shortage-has-led-to-motor-oil-rationing-at-costco/ Comments URL: https://news.ycombinator.com/item?id=49686697 Points: 107 # Comments: 69",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Key symbols we lost to time, pt. 1: The PC side",
-      "link": "https://unsung.aresluna.org/key-symbols-we-lost-to-time-pt-1-the-pc-side/",
-      "pubDate": "2026-09-13T14:00:44.000Z",
-      "description": "Article URL: https://unsung.aresluna.org/key-symbols-we-lost-to-time-pt-1-the-pc-side/ Comments URL: https://news.ycombinator.com/item?id=49684101 Points: 31 # Comments: 3",
+      "title": "Device Drivers lab exercise – COSC562",
+      "link": "https://web.eecs.utk.edu/~smarz1/courses/cosc562/drivers.html",
+      "pubDate": "2026-09-13T17:41:50.000Z",
+      "description": "Article URL: https://web.eecs.utk.edu/~smarz1/courses/cosc562/drivers.html Comments URL: https://news.ycombinator.com/item?id=49686503 Points: 15 # Comments: 1",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Paul A. M. Dirac, Interview by Friedrich Hund (1982) [video]",
-      "link": "https://www.youtube.com/watch?v=xJzrU38pGWc",
-      "pubDate": "2026-09-13T13:54:25.000Z",
-      "description": "Article URL: https://www.youtube.com/watch?v=xJzrU38pGWc Comments URL: https://news.ycombinator.com/item?id=49684042 Points: 21 # Comments: 1",
+      "title": "Why is Google still serving dodgy ads?",
+      "link": "https://www.atomic14.com/2026/09/13/why-is-google-still-serving-dodgy-ads",
+      "pubDate": "2026-09-13T17:37:44.000Z",
+      "description": "Article URL: https://www.atomic14.com/2026/09/13/why-is-google-still-serving-dodgy-ads Comments URL: https://news.ycombinator.com/item?id=49686445 Points: 308 # Comments: 148",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "US Customs supervisor busted for stealing hardware from Homeland Security PCs",
-      "link": "https://www.tomshardware.com/pc-components/us-customs-supervisor-busted-for-stealing-core-i7-cpus-ram-and-hard-drives-from-homeland-security-pcs-stolen-tech-swapped-with-inferior-hardware-and-cashed-out-on-newegg",
-      "pubDate": "2026-09-13T13:24:28.000Z",
-      "description": "Article URL: https://www.tomshardware.com/pc-components/us-customs-supervisor-busted-for-stealing-core-i7-cpus-ram-and-hard-drives-from-homeland-security-pcs-stolen-tech-swapped-with-inferior-hardware-and-cashed-out-on-newegg Comments URL: https://news.ycombinator.com/item?id=49683729 Points: 75 # C",
+      "title": "Romania soccer introduces black card to 'combat abusive behaviour' from parents",
+      "link": "https://www.nytimes.com/athletic/7586821/2026/09/12/football-black-card-referee/",
+      "pubDate": "2026-09-13T17:08:16.000Z",
+      "description": "Article URL: https://www.nytimes.com/athletic/7586821/2026/09/12/football-black-card-referee/ Comments URL: https://news.ycombinator.com/item?id=49686134 Points: 70 # Comments: 47",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Why is the x86 undefined instruction called ud2? Why 2?",
-      "link": "https://devblogs.microsoft.com/oldnewthing/20260910-00/?p=112689",
-      "pubDate": "2026-09-13T12:30:15.000Z",
-      "description": "Article URL: https://devblogs.microsoft.com/oldnewthing/20260910-00/?p=112689 Comments URL: https://news.ycombinator.com/item?id=49683262 Points: 31 # Comments: 11",
+      "title": "David Sacks: OpenAI and Anthropic Don't Need Regulations to Pace Frontier Models",
+      "link": "https://twitter.com/DavidSacks/status/2098973625252708460",
+      "pubDate": "2026-09-13T16:52:33.000Z",
+      "description": "Article URL: https://twitter.com/DavidSacks/status/2098973625252708460 Comments URL: https://news.ycombinator.com/item?id=49685991 Points: 169 # Comments: 128",
       "source": "Hacker News",
       "category": "Tech News"
     },
