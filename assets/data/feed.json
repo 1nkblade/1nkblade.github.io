@@ -1,99 +1,159 @@
 {
-  "generatedAt": "2026-09-13T04:49:15.779Z",
+  "generatedAt": "2026-09-13T11:54:01.639Z",
   "sourceCount": 4,
-  "successCount": 3,
+  "successCount": 2,
   "errors": [
     {
       "source": "Hack The Box Security Blog",
       "error": "HTTP 404 Not Found"
+    },
+    {
+      "source": "CSS Tricks",
+      "error": "HTTP 415 Unsupported Media Type"
     }
   ],
   "items": [
     {
-      "title": "Record why an approach was rejected—and when to revisit it",
-      "link": "https://dev.to/masondelan/record-why-an-approach-was-rejected-and-when-to-revisit-it-20op",
-      "pubDate": "2026-09-13T04:38:01.000Z",
-      "description": "<p><em>Disclosure: I maintain Selvedge, an open-source decision-history tool. This article was prepared with AI assistance from Grok and Codex. The example below is hypothetical and uses plain Markdown; it does not require a particular product.</em></p> <p>A repository can show what the code does wh",
+      "title": "An AI Agent Swarm Just Red-Teamed a Package Registry Without Asking Permission",
+      "link": "https://dev.to/coridev/an-ai-agent-swarm-just-red-teamed-a-package-registry-without-asking-permission-2mlc",
+      "pubDate": "2026-09-13T11:37:27.000Z",
+      "description": "<p>Autonomous agents uploaded hundreds of malicious packages to a live public registry, went after API keys, abused webhooks, and knocked out new signups for four days. The part that should actually worry you isn't the exploit. It's that nobody seems to have decided this was okay to do in the first ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "AI Website Handoffs: When a Prototype Needs a Real Code Boundary",
-      "link": "https://dev.to/linxi-ai/ai-website-handoffs-when-a-prototype-needs-a-real-code-boundary-2fcc",
-      "pubDate": "2026-09-13T04:36:15.000Z",
-      "description": "<p>A polished AI-generated website can hide an unfinished delivery model. The hard question is not whether a builder can produce a convincing page. It is whether the next person can safely change the real system without reconstructing the original prompt, platform state, and deployment assumptions.<",
+      "title": "Power BI Data Modelling, Relationships &amp; Joins",
+      "link": "https://dev.to/kunu_wako/power-bi-data-modelling-relationships-joins-hdm",
+      "pubDate": "2026-09-13T11:30:35.000Z",
+      "description": "<h2> Introduction </h2> <p>Data modelling involves organizing tables, defining relationships between them, determining how filters move through the model, and deciding how business data should be represented for analysis. In a typical business intelligence environment, data may come from databases, ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I made two AIs review each other's code for 30 days. A human still caught the bug in 5 minutes.",
-      "link": "https://dev.to/infoinlet1/i-made-two-ais-review-each-others-code-for-30-days-a-human-still-caught-the-bug-in-5-minutes-484a",
-      "pubDate": "2026-09-13T04:33:36.000Z",
-      "description": "<p>Last month I let AI write 100% of my code for 30 days. The single loudest lesson wasn't \"AI is amazing\" or \"AI is useless.\" It was one sentence: <strong>the thing that writes the code can never be the thing that reviews it.</strong> A model grades its own homework and it always passes.</p> <p>So ",
+      "title": "Data Modelling, Relationships &amp; Joins in Power Bi",
+      "link": "https://dev.to/wendy_adika_e0949a228a269/data-modelling-relationships-joins-in-power-bi-2bfk",
+      "pubDate": "2026-09-13T11:29:39.000Z",
+      "description": "<h2> Introduction </h2> <p><strong>Microsoft Power BI</strong> is a business intelligence platform used to find insights within an organization's data. It can help connect disparate data sets, transform and clean the data into a data model and create charts or graphs to provide visuals of the data. ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The more aggressive matmul kernel lost to the register budget",
-      "link": "https://dev.to/sarthakagrawal927/the-more-aggressive-matmul-kernel-lost-to-the-register-budget-1e2i",
-      "pubDate": "2026-09-13T04:30:00.000Z",
-      "description": "<p>The WebGPU matmul sweep started with a naive kernel, then added 16 by 16 workgroup tiling and a 4 by 4 output block per thread.</p> <p>At a 2048 cubed matrix size, the measured time moved from 47.24 ms for the naive kernel to 17.23 ms for tiling and 9.12 ms for the 4 by 4 blocked kernel. The bloc",
+      "title": "Catching a Silent AWS Failure: A Serverless Daily Report for Suspended Auto Scaling Groups",
+      "link": "https://dev.to/siddharth912/catching-a-silent-aws-failure-a-serverless-daily-report-for-suspended-auto-scaling-groups-28ng",
+      "pubDate": "2026-09-13T11:23:30.000Z",
+      "description": "<h1> Catching a Silent AWS Failure: A Serverless Daily Report for Suspended Auto Scaling Groups </h1> <p><em>How I built a zero-cost, zero-server monitoring alert with Lambda, EventBridge, and SES, and the two production bugs I hit along the way.</em></p> <h2> The silent failure nobody watches </h2>",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "\"Gen-Alpha is Cooking\": Why 12 and 13-year-olds are out-shipping adults with zero budget.",
-      "link": "https://dev.to/koda2026/gen-alpha-is-cooking-why-12-and-13-year-olds-are-out-shipping-adults-with-zero-budget-ain",
-      "pubDate": "2026-09-13T04:25:29.000Z",
-      "description": "<h2> \"Gen-Alpha is Cooking\": Why 12 and 13-year-olds are out-shipping adults with zero budget. </h2> <p>A few hours ago, a 13-year-old solo developer commented on my article. He looked at my stack, looked at his own stack, and said: <em>\"Gen-Alpha cooking harder and harder.\"</em></p> <p>He’s right. ",
+      "title": "Your first ASP.NET App: Controllers",
+      "link": "https://dev.to/__f5cd865bec2/your-first-aspnet-app-controllers-5ck7",
+      "pubDate": "2026-09-13T11:20:53.000Z",
+      "description": "<h2> Hello! In this tutorial we continue build your own ASP.NET Service! </h2> <h3> Requirements </h3> <ul> <li>IDE like Visual Studio/JetBrains Rider</li> <li>.NET &gt;= 10</li> <li>Base C# skill</li> </ul> <h3> Creating controller </h3> <p>Lets create our Controller, create file \"MyController.cs\"<",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I tested 31 MCP servers for contract compliance. Only 3% passed.",
-      "link": "https://dev.to/tim860/i-tested-31-mcp-servers-for-contract-compliance-only-3-passed-25gp",
-      "pubDate": "2026-09-13T04:25:02.000Z",
-      "description": "<p>MCP has <code>outputSchema</code> so agents can validate tool results. But does the schema actually <em>reject</em> a wrong answer? I built <a href=\"https://github.com/TimurRakhmatullin86/mcp-drill\" rel=\"noopener noreferrer\">mcp-drill</a> -- a fault-injection harness that speaks MCP -- and scanne",
+      "title": "Why I built an ad-free Android video player to replace bloated alternatives",
+      "link": "https://dev.to/nitesh87409/why-i-built-an-ad-free-android-video-player-to-replace-bloated-alternatives-4nde",
+      "pubDate": "2026-09-13T11:19:07.000Z",
+      "description": "<p>Over the past few years, an annoying trend has taken over the Android ecosystem. Remember when media player apps were just lightweight tools you opened to watch a downloaded movie or an anime episode offline? Fast forward to today, and almost every popular player on the Google Play Store feels li",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The Illusion of String.length: How to safely count Unicode, Emojis, and Words in JS",
-      "link": "https://dev.to/urbanmixo/the-illusion-of-stringlength-how-to-safely-count-unicode-emojis-and-words-in-js-166m",
-      "pubDate": "2026-09-13T04:24:19.000Z",
-      "description": "<p>If you are building a text input that restricts users to a specific character limit (like a tweet, an SMS gateway, or an SEO meta tag), your first instinct is probably to use <code>String.prototype.length</code>.</p> <p>If you are doing this in production today, your character counts are fundamen",
+      "title": "Repository Agent-Security Gap Study — v2h baseline",
+      "link": "https://dev.to/jackymencz/repository-agent-security-gap-study-v2h-baseline-52f5",
+      "pubDate": "2026-09-13T11:16:09.000Z",
+      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F5a1ewmtk8j04fa3zy35t.png\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "AI Is Already Better at Coding Than Most Developers. So Why Would a Company Still Hire You?",
-      "link": "https://dev.to/robertadam987_/ai-is-already-better-at-coding-than-most-developers-so-why-would-a-company-still-hire-you-42h5",
-      "pubDate": "2026-09-13T04:21:27.000Z",
-      "description": "<p>AI can write a React component in seconds.</p> <p>It can create an API, design a database schema, write tests, explain an unfamiliar codebase, debug an error, refactor a function, and generate documentation before you've finished your coffee.</p> <p>And it's getting better.</p> <p>So there's an u",
+      "title": "Scaling transactional email: which provider fits at each growth stage (0 -&gt; 100K+ emails/month)",
+      "link": "https://dev.to/julianros/scaling-transactional-email-which-provider-fits-at-each-growth-stage-0-100k-emailsmonth-2jm",
+      "pubDate": "2026-09-13T11:15:48.000Z",
+      "description": "<p>Picking a transactional email provider feels like a five-minute decision — add an API key, send your first signup confirmation, move on. It stays a five-minute decision until you scale, at which point the plan you casually picked can turn into a migration project: rewriting send logic, re-verifyi",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Make Fully Customizable QR Codes (Actually)",
-      "link": "https://dev.to/monteluke_68ee9b837876551/make-fully-customizable-qr-codes-actually-3cik",
-      "pubDate": "2026-09-13T04:17:29.000Z",
-      "description": "<p>Tired of usual bland QR codes that don't show off your brand? I made a simple API to create fully customizable QR codes!</p> <p>Key features:</p> <ul> <li><p>Custom Body Design: Use custom PNGs to create the body modules.</p></li> <li><p>Add Logos: Embed logo neatly without affecting scannability",
+      "title": "Hacking VaultGate: Three Paths to One Flag",
+      "link": "https://dev.to/__94802c1f2b15/hacking-vaultgate-three-paths-to-one-flag-3mge",
+      "pubDate": "2026-09-13T11:13:18.000Z",
+      "description": "<p><strong>Target:</strong> <code>http://192.168.122.1:3000</code> — a local Docker deployment of VaultGate on my lab network (your target IP will differ).</p> <p><strong>Download VaultGate:</strong> it's open-source — grab it and spin up your own copy in one command (see Section 8): <a href=\"https:",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The best coding agent still gets ~6 in 10 changes wrong. That is your review load.",
-      "link": "https://dev.to/tessainsley/the-best-coding-agent-still-gets-6-in-10-changes-wrong-that-is-your-review-load-3h5n",
-      "pubDate": "2026-09-13T04:15:01.000Z",
-      "description": "<p>While tech review articles argue about what PR length is safe to let an agent produce, the review problem is set by a simpler number: how often the agent is wrong.</p> <p>Specific Labs' Real-SWE benchmark, published September 2026, runs frontier agents on private, licensed enterprise codebases. T",
+      "title": "Power BI Technical Article: Data Modelling, Relationships &amp; Joins",
+      "link": "https://dev.to/sam_manox/power-bi-technical-article-data-modelling-relationships-joins-4l1d",
+      "pubDate": "2026-09-13T11:13:18.000Z",
+      "description": "<h2> Introduction </h2> <p>Power BI is a business intelligence tool that enables the conversion of raw data into reports and dashboards. However, the quality of the Power BI report is influenced by how the data is prepared and structured in advance. <br> Data modelling is the act of organizing the t",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The Succession Crisis That Tore England Apart",
+      "title": "Nvidia dismisses \"circular financing\", says every $1 it invests brings back $100",
+      "link": "https://invezz.com/news/2026/09/11/nvidia-says-every-1-it-invests-brings-back-100-so-why-does-the-stock-keep-falling/",
+      "pubDate": "2026-09-13T10:29:18.000Z",
+      "description": "Article URL: https://invezz.com/news/2026/09/11/nvidia-says-every-1-it-invests-brings-back-100-so-why-does-the-stock-keep-falling/ Comments URL: https://news.ycombinator.com/item?id=49682319 Points: 45 # Comments: 31",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Revolut confirms customer data breach through fake government requests",
+      "link": "https://techcrunch.com/2026/09/12/revolut-confirms-customer-data-breach-through-fake-government-requests/",
+      "pubDate": "2026-09-13T09:59:58.000Z",
+      "description": "Article URL: https://techcrunch.com/2026/09/12/revolut-confirms-customer-data-breach-through-fake-government-requests/ Comments URL: https://news.ycombinator.com/item?id=49682087 Points: 28 # Comments: 13",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Homebrew 7.0.0",
+      "link": "https://brew.sh/2026/09/13/homebrew-7.0.0/",
+      "pubDate": "2026-09-13T08:41:17.000Z",
+      "description": "Article URL: https://brew.sh/2026/09/13/homebrew-7.0.0/ Comments URL: https://news.ycombinator.com/item?id=49681545 Points: 77 # Comments: 25",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "JetKVM Mini",
+      "link": "https://jetkvm.com/blog/introducing-jetkvm-mini",
+      "pubDate": "2026-09-13T07:49:46.000Z",
+      "description": "Article URL: https://jetkvm.com/blog/introducing-jetkvm-mini Comments URL: https://news.ycombinator.com/item?id=49681152 Points: 172 # Comments: 78",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "A wandering black hole caught feeding on the run",
+      "link": "https://phys.org/news/2026-08-black-hole-caught.html",
+      "pubDate": "2026-09-13T03:34:53.000Z",
+      "description": "Article URL: https://phys.org/news/2026-08-black-hole-caught.html Comments URL: https://news.ycombinator.com/item?id=49679734 Points: 26 # Comments: 12",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "A succession crisis that tore England apart (2023)",
       "link": "https://www.historytoday.com/archive/feature/succession-crisis-tore-england-apart",
       "pubDate": "2026-09-13T03:18:29.000Z",
-      "description": "Article URL: https://www.historytoday.com/archive/feature/succession-crisis-tore-england-apart Comments URL: https://news.ycombinator.com/item?id=49679647 Points: 7 # Comments: 1",
+      "description": "Article URL: https://www.historytoday.com/archive/feature/succession-crisis-tore-england-apart Comments URL: https://news.ycombinator.com/item?id=49679647 Points: 37 # Comments: 32",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Aligned to whom?",
+      "link": "https://hyperbo.la/w/aligned-to-whom/",
+      "pubDate": "2026-09-13T03:17:18.000Z",
+      "description": "Article URL: https://hyperbo.la/w/aligned-to-whom/ Comments URL: https://news.ycombinator.com/item?id=49679643 Points: 68 # Comments: 43",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "After Math",
+      "link": "https://terrytao.wordpress.com/2026/09/12/after-math/",
+      "pubDate": "2026-09-13T03:16:41.000Z",
+      "description": "Article URL: https://terrytao.wordpress.com/2026/09/12/after-math/ Comments URL: https://news.ycombinator.com/item?id=49679637 Points: 100 # Comments: 82",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -101,153 +161,17 @@
       "title": "The Interim Computer Museum",
       "link": "https://icm.museum/",
       "pubDate": "2026-09-13T02:43:57.000Z",
-      "description": "Article URL: https://icm.museum/ Comments URL: https://news.ycombinator.com/item?id=49679459 Points: 43 # Comments: 4",
+      "description": "Article URL: https://icm.museum/ Comments URL: https://news.ycombinator.com/item?id=49679459 Points: 122 # Comments: 13",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Apple *deletes* your Apple Music library if you unsubscribe",
-      "link": "https://www.reddit.com/r/apple/comments/7niv58/fyi_apple_deletes_your_apple_music_library_if_you/",
-      "pubDate": "2026-09-13T02:42:26.000Z",
-      "description": "Article URL: https://www.reddit.com/r/apple/comments/7niv58/fyi_apple_deletes_your_apple_music_library_if_you/ Comments URL: https://news.ycombinator.com/item?id=49679450 Points: 13 # Comments: 3",
+      "title": "Why are AI agents lying, cheating and coordinating?",
+      "link": "https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating",
+      "pubDate": "2026-09-13T01:22:31.000Z",
+      "description": "Article URL: https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating Comments URL: https://news.ycombinator.com/item?id=49678969 Points: 282 # Comments: 343",
       "source": "Hacker News",
       "category": "Tech News"
-    },
-    {
-      "title": "Don't call yourself an artisanal programmer",
-      "link": "https://purplesyringa.moe/blog/dont-call-yourself-an-artisanal-programmer/",
-      "pubDate": "2026-09-13T02:29:39.000Z",
-      "description": "Article URL: https://purplesyringa.moe/blog/dont-call-yourself-an-artisanal-programmer/ Comments URL: https://news.ycombinator.com/item?id=49679360 Points: 10 # Comments: 5",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Align AI and Mathematics–To Something Else",
-      "link": "https://liorpachter.wordpress.com/2026/09/12/align-ai-and-mathematics-to-something-else/",
-      "pubDate": "2026-09-13T00:47:48.000Z",
-      "description": "Article URL: https://liorpachter.wordpress.com/2026/09/12/align-ai-and-mathematics-to-something-else/ Comments URL: https://news.ycombinator.com/item?id=49678783 Points: 30 # Comments: 19",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Everyone should slow down AI development except for me",
-      "link": "https://xeiaso.net/notes/2026/everyone-slowdown-but-me/",
-      "pubDate": "2026-09-13T00:30:44.000Z",
-      "description": "Article URL: https://xeiaso.net/notes/2026/everyone-slowdown-but-me/ Comments URL: https://news.ycombinator.com/item?id=49678683 Points: 261 # Comments: 140",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "AgentsDock: An IDE designed for agentic AI research",
-      "link": "https://agentsdock.net/",
-      "pubDate": "2026-09-12T23:45:58.000Z",
-      "description": "Article URL: https://agentsdock.net/ Comments URL: https://news.ycombinator.com/item?id=49678435 Points: 20 # Comments: 10",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Don't be the out of touch Kung Fu master – John Carmack",
-      "link": "https://twitter.com/ID_AA_Carmack/status/2098443262214230095",
-      "pubDate": "2026-09-12T21:51:43.000Z",
-      "description": "Article URL: https://twitter.com/ID_AA_Carmack/status/2098443262214230095 Comments URL: https://news.ycombinator.com/item?id=49677577 Points: 60 # Comments: 33",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "P(doom)",
-      "link": "https://lucumr.pocoo.org/2026/9/12/pdoom/",
-      "pubDate": "2026-09-12T21:35:38.000Z",
-      "description": "Article URL: https://lucumr.pocoo.org/2026/9/12/pdoom/ Comments URL: https://news.ycombinator.com/item?id=49677450 Points: 28 # Comments: 8",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Real-SWE: Benchmarking AI models on private, real-world, enterprise codebases",
-      "link": "https://withspecific.com/benchmarks/real-swe",
-      "pubDate": "2026-09-12T20:25:48.000Z",
-      "description": "Article URL: https://withspecific.com/benchmarks/real-swe Comments URL: https://news.ycombinator.com/item?id=49676820 Points: 167 # Comments: 89",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Let’s Use the Emergent CSS random() Function in all the Browsers",
-      "link": "https://css-tricks.com/css-random-function-polyfill/",
-      "pubDate": "2026-08-31T15:12:19.000Z",
-      "description": "The journey to create a polyfill for the upcoming CSS random() function that works in all browsers. Let’s Use the Emergent CSS random() Function in all the Browsers originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "What’s !important #18: &#060;geolocation&gt;, Syntax ::highlight()ing, named-feature(), and More",
-      "link": "https://css-tricks.com/whats-important-18/",
-      "pubDate": "2026-08-31T14:08:55.000Z",
-      "description": "Well, that’s a wrap. No, not a flex-wrap, but rather today marks a new day, week, month, season, aaaand new edition of What’s important (#18), bringing you the best content that developers have produced over the last couple of weeks or so. What’s !important #18: <geolocation>, Syntax ::highlight()in",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Creating Web Widgets Using the Document Picture-in-Picture API",
-      "link": "https://css-tricks.com/creating-web-widgets-using-the-document-picture-in-picture-api/",
-      "pubDate": "2026-08-27T14:41:06.000Z",
-      "description": "The general idea is that we create a Document Picture-in-Picture window (DPIP window), and then we put HTML, CSS, and JavaScript into it. Creating Web Widgets Using the Document Picture-in-Picture API originally handwritten and published with love on CSS-Tricks. You should really get the newsletter ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "animation-trigger",
-      "link": "https://css-tricks.com/almanac/properties/a/animation-trigger/",
-      "pubDate": "2026-08-26T15:38:41.000Z",
-      "description": "The CSS animation-trigger property allows you to delay the start of a CSS animation until a specific trigger occurs. animation-trigger originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "MicroLighter: Syntax Highlighter",
-      "link": "https://css-tricks.com/microlighter-syntax-highlighter/",
-      "pubDate": "2026-08-25T14:10:34.000Z",
-      "description": "Syntax highlighting for code blocks without the complicated markup, spans, classes, and bloated JavaScript, courtesy of Uncle Dave. MicroLighter: Syntax Highlighter originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "WordPress PHP-Only Block Registration",
-      "link": "https://css-tricks.com/wordpress-php-block-registration/",
-      "pubDate": "2026-08-24T13:54:02.000Z",
-      "description": "Seven and half years after blocks arrived in Core, WordPress introduces a way to build blocks without React annd build pipelines. All you need is PHP. WordPress PHP-Only Block Registration originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Resolved: CSS Class Prefix Selector",
-      "link": "https://css-tricks.com/resolved-css-class-prefix-selector/",
-      "pubDate": "2026-08-21T15:13:03.000Z",
-      "description": "A newly resolved proposal would allow us to select classes that are a prefix for variations with a wildcard, like .prefix-*. Resolved: CSS Class Prefix Selector originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "CSS Navigation Matching, Early Days",
-      "link": "https://css-tricks.com/css-navigation-matching-early-days/",
-      "pubDate": "2026-08-19T14:44:41.000Z",
-      "description": "Apply a style when someone navigates from one specific page to another. The idea being it'd make the sources for cross-document view transitions declarative in CSS rather than managing that stuff in JavaScript. CSS Navigation Matching, Early Days originally handwritten and published with love on CSS",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "WordPress.com Student Plan",
-      "link": "https://css-tricks.com/wordpress-student-plan/",
-      "pubDate": "2026-08-19T08:50:00.000Z",
-      "description": "As someone who teaches beginning web development, I find that building a WordPress site makes for a great final project. Hosting those projects has always been a roadblock though. WordPress.com Student Plan originally handwritten and published with love on CSS-Tricks. You should really get the newsl",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Dark mode toggles: two states are enough",
-      "link": "https://css-tricks.com/dark-mode-toggles-two-states-are-enough/",
-      "pubDate": "2026-08-17T14:15:50.000Z",
-      "description": "Lea's pushing back on light/dark mode implementations that display three state options for visitors: light, dark, and system. Dark mode toggles: two states are enough originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
     }
   ]
 }
