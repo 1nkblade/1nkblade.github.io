@@ -1,115 +1,143 @@
 {
-  "generatedAt": "2026-09-14T21:50:21.959Z",
+  "generatedAt": "2026-09-15T04:55:56.745Z",
   "sourceCount": 4,
-  "successCount": 3,
+  "successCount": 2,
   "errors": [
     {
       "source": "Hack The Box Security Blog",
       "error": "HTTP 404 Not Found"
+    },
+    {
+      "source": "CSS Tricks",
+      "error": "HTTP 415 Unsupported Media Type"
     }
   ],
   "items": [
     {
-      "title": "Maye Enterprise Software Doesn’t Have to Suck Anymore",
-      "link": "https://dev.to/remojansen/maye-enterprise-software-doesnt-have-to-suck-anymore-2163",
-      "pubDate": "2026-09-14T21:37:04.000Z",
-      "description": "<p>There is an uncomfortable truth about most non-tech enterprises: a lot of their software is insanely shit.</p> <p>I don't mean that the engineers are shit. In many cases, the opposite is true. I've worked with plenty of smart engineers who were perfectly capable of building good software. The pro",
+      "title": "An unsigned Windows installer was flagged, but its executable was not",
+      "link": "https://dev.to/californiaalmonds/an-unsigned-windows-installer-was-flagged-but-its-executable-was-not-iin",
+      "pubDate": "2026-09-15T04:45:49.000Z",
+      "description": "<p>While preparing an early release of my Rust and Slint Windows music player, Auricle, I ran into an antivirus discrepancy: the installer was flagged, but the application inside it was not.</p> <p>Here is what the investigation established, and what it did not. This is a snapshot from September 15,",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I built DevRecap: an open-source Codex Skill that reconstructs what you actually worked on",
-      "link": "https://dev.to/jquint/i-built-devrecap-an-open-source-codex-skill-that-reconstructs-what-you-actually-worked-on-1d12",
-      "pubDate": "2026-09-14T21:23:57.000Z",
-      "description": "<p>I built DevRecap: an open-source Codex Skill that reconstructs what you actually worked on</p> <p>After using coding agents more heavily, I kept running into the same problem:</p> <p>At the end of the week, I could remember the commits, but not the full story of what I had actually worked on.</p>",
+      "title": "SQL Joins Made Simple",
+      "link": "https://dev.to/alex_murithi/sql-joins-made-simple-1k6b",
+      "pubDate": "2026-09-15T04:43:51.000Z",
+      "description": "<p>Relational databases often store related information across multiple tables. To answer real-world questions, we need to <strong>connect these tables</strong> using SQL JOINs. <br> The main types of joins - <strong>INNER, LEFT, RIGHT, and SELF JOIN</strong> </p> <p>A <strong>JOIN</strong> allows u",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Prompting Anthropic v5 for Cloud Engineers: Practical Rules for Sonnet 5, Open 5, and Fable 5.1",
-      "link": "https://dev.to/omiossec/prompting-anthropic-v5-for-cloud-engineers-practical-rules-for-sonnet-5-open-5-and-fable-51-5hbe",
-      "pubDate": "2026-09-14T21:22:18.000Z",
-      "description": "<p>With each new model generation, Anthropic updates its prompting best practices, and the 5th generation is no exception. <br> This post distils the practical guidance from Anthropic’s documentation into actionable rules for Sonnet 5, Open 5, and Fable 5.1, focused on cloud engineering workflows.</",
+      "title": "Three AI Agents Corrected Each Other. None of Them Were Talking.",
+      "link": "https://dev.to/henry_dan_81513dd35a2f540/three-ai-agents-corrected-each-other-none-of-them-were-talking-5d2h",
+      "pubDate": "2026-09-15T04:43:01.000Z",
+      "description": "<p>CrewAI is an open-source Python framework for running several AI agents as a team. You give each agent a role and a goal, give the team a list of tasks, and the framework passes the work between them. Before building anything real with it, I wanted to answer one question: when people say the agen",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Building a Gemini-Powered AI Assistant for Android XR Glasses with Kotlin",
-      "link": "https://dev.to/vmodal_ai/building-a-gemini-powered-ai-assistant-for-android-xr-glasses-with-kotlin-41jg",
-      "pubDate": "2026-09-14T21:20:37.000Z",
-      "description": "<h1> Building a Gemini-Powered AI Assistant for Android XR Glasses with Kotlin </h1> <blockquote> <p><strong>Current Android XR note:</strong> Android XR supports immersive and augmented experiences across XR devices, including audio/display glasses. Jetpack XR includes libraries such as Compose Gli",
+      "title": "pytrends is dead. Here is how Google Trends actually loads data in 2026 (including Trending Now)",
+      "link": "https://dev.to/kyungmin_lee_85c597046ee0/pytrends-is-dead-here-is-how-google-trends-actually-loads-data-in-2026-including-trending-now-3bn",
+      "pubDate": "2026-09-15T04:41:15.000Z",
+      "description": "<p>If you have tried <code>pytrends</code> recently you know the story: <code>TooManyRequestsError</code> on the first call, <code>dailytrends</code> returning 404, and an unmaintained repo. Google redesigned Trends in 2024, moved the \"Trending Now\" feed to a different backend, and started returning",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "A single firm is behind OpenAI, Anthropic, and Meta hacking scandals",
-      "link": "https://www.effort.news/irregular",
-      "pubDate": "2026-09-14T21:15:01.000Z",
-      "description": "Article URL: https://www.effort.news/irregular Comments URL: https://news.ycombinator.com/item?id=49704132 Points: 9 # Comments: 0",
+      "title": "10 SDLC Checks AI Will Skip Unless You Make Them a Gate",
+      "link": "https://dev.to/debashish_ghosal/10-sdlc-checks-ai-will-skip-unless-you-make-them-a-gate-581k",
+      "pubDate": "2026-09-15T04:39:00.000Z",
+      "description": "<blockquote> <p>Do you trust AI code? Of course you don't. Not fully.</p> </blockquote> <p>And here is the part that's easy to miss: it usually isn't <em>wrong</em>. It's incomplete. The code compiles, the happy path works, the demo is clean. What's missing is the boring 20%: the dependency nobody v",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Write the reference before debugging the shader",
+      "link": "https://dev.to/sarthakagrawal927/write-the-reference-before-debugging-the-shader-29ap",
+      "pubDate": "2026-09-15T04:30:00.000Z",
+      "description": "<p>The Flash Attention 2 path was easier to finish after the algorithm existed in plain JavaScript first.</p> <p>The forward pass used one workgroup per batch, head, and query tile. It walked keys and values in blocks while keeping the online-softmax state in registers. The backward pass recomputed ",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Introducción a la Notación Big O",
+      "link": "https://dev.to/javier_ee5cb8a318b2596536/introduccion-a-la-notacion-big-o-4c4l",
+      "pubDate": "2026-09-15T04:23:59.000Z",
+      "description": "<p>¿Cómo evaluar el desempeño de un algoritmo?, ¿Qué queremos decir cuando el desempeño de un algoritmo es mejor que otro?, ¿Qué es lo que buscamos de la implementación de nuestro algoritmo?. Al desarrollar un algoritmo surgen estas interrogantes y la ambigüedad se hace presente.</p> <ul> <li>Sea qu",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "How Long Would It Take to Crack Your Password?",
+      "link": "https://dev.to/lucian_lkb_1f009d/how-long-would-it-take-to-crack-your-password-5ak3",
+      "pubDate": "2026-09-15T04:22:29.000Z",
+      "description": "<p>The strength of a randomly generated password is one number — its <strong>entropy</strong>, in bits<br> — and it comes from a single line of arithmetic. I computed it across every length and<br> character-set choice using the exact character sets our <a href=\"https://lkforge.com/tools/generators/",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Are we software engineers doomed? Yes, because of AI!",
+      "link": "https://dev.to/zonayedpca/are-we-software-engineers-doomed-yes-because-of-ai-4g74",
+      "pubDate": "2026-09-15T04:22:14.000Z",
+      "description": "<p>Companies have stopped hiring, and layoffs have become more and more common. Job postings are rarely found. New types of roles are appearing and disappearing so fast that it is now nearly impossible to get experienced in something and then get that job. Even if you prepare for a role, by the time",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "I Built a GitHub Action That Writes and Publishes a DEV.to Post Every Morning",
+      "link": "https://dev.to/staffsystems-lab/i-built-a-github-action-that-writes-and-publishes-a-devto-post-every-morning-1m7f",
+      "pubDate": "2026-09-15T04:22:11.000Z",
+      "description": "<h1> I Built a GitHub Action That Writes and Publishes a DEV.to Post Every Morning </h1> <p>I wanted to answer a simple question:</p> <blockquote> <p><strong>Can I build a technical blog that keeps publishing without me manually writing and publishing every post?</strong></p> </blockquote> <p>So I b",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Oil Executives Say the Great Fuel Crisis Is Here",
+      "link": "https://www.wsj.com/business/energy-oil/oil-executives-say-the-great-fuel-crisis-is-here-b6b32030",
+      "pubDate": "2026-09-15T03:48:55.000Z",
+      "description": "Article URL: https://www.wsj.com/business/energy-oil/oil-executives-say-the-great-fuel-crisis-is-here-b6b32030 Comments URL: https://news.ycombinator.com/item?id=49707477 Points: 36 # Comments: 22",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "I'm Looking for 5 Frontend Developers to Test RollDate in a Real Project",
-      "link": "https://dev.to/rolldate/im-looking-for-5-frontend-developers-to-test-rolldate-in-a-real-project-4hi2",
-      "pubDate": "2026-09-14T21:11:15.000Z",
-      "description": "<p>I have reached the point where another polished demo will tell me less than one honest integration attempt.</p> <p>I’m building <strong>RollDate</strong>, a small family of MIT-licensed JavaScript date components. The demos work, the packages are published, and the documentation covers the public",
-      "source": "Dev.to Feed",
-      "category": "Development"
+      "title": "Ex-FTC boss Khan: break out the handcuffs for AI CEOs, citing 1934 precedent",
+      "link": "https://www.theregister.com/ai-and-ml/2026/09/14/ex-ftc-boss-khan-urges-uncle-sam-to-break-out-the-handcuffs-for-ai-ceos-citing-1934-precedent/5296325",
+      "pubDate": "2026-09-15T00:40:14.000Z",
+      "description": "Article URL: https://www.theregister.com/ai-and-ml/2026/09/14/ex-ftc-boss-khan-urges-uncle-sam-to-break-out-the-handcuffs-for-ai-ceos-citing-1934-precedent/5296325 Comments URL: https://news.ycombinator.com/item?id=49706223 Points: 91 # Comments: 48",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
-      "title": "How to Engineer a Multi-Agent Pipeline for Production Reliability",
-      "link": "https://dev.to/madebymonogram/how-to-engineer-a-multi-agent-pipeline-for-production-reliability-1n2p",
-      "pubDate": "2026-09-14T21:08:21.000Z",
-      "description": "<p>We built a nine-agent pipeline that turns a natural language use case into working code, an interactive preview, and an implementation guide in under 4 minutes. It serves roughly 800 to 1,000 users per day, but its first production version consumed about 30,000 tokens and made 15 to 20 Pro-tier m",
-      "source": "Dev.to Feed",
-      "category": "Development"
+      "title": "Show HN: Macros with a Behringer FCB1010 MIDI Pedalboard in macOS",
+      "link": "https://github.com/JamesRyanATX/fcbnerd",
+      "pubDate": "2026-09-14T23:01:36.000Z",
+      "description": "Article URL: https://github.com/JamesRyanATX/fcbnerd Comments URL: https://news.ycombinator.com/item?id=49705442 Points: 48 # Comments: 9",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
-      "title": "HTB - Tactics",
-      "link": "https://dev.to/zkrnvkf/htb-tactics-1bg9",
-      "pubDate": "2026-09-14T21:05:39.000Z",
-      "description": "<p>OS: Windows<br> Difficulty: Very Easy</p> <p>After Nmap Enumeration<br> <code>nmap -T4 --min-rate 5000 -p- -sC -sV -Pn 10.129.188.198</code></p> <p>We get:<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight console\"><code><span class=\"gp\">└─#</span><span class=\"w\"> </span>nm",
-      "source": "Dev.to Feed",
-      "category": "Development"
+      "title": "Charts built for Chat",
+      "link": "https://dbtcharts.com/blog/charts-built-for-chat/",
+      "pubDate": "2026-09-14T21:22:54.000Z",
+      "description": "Article URL: https://dbtcharts.com/blog/charts-built-for-chat/ Comments URL: https://news.ycombinator.com/item?id=49704246 Points: 153 # Comments: 47",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "Amazon vs. Perplexity – U.S. Court of Appeals for the Ninth Circuit",
       "link": "https://law.justia.com/cases/federal/appellate-courts/ca9/26-1444/26-1444-2026-08-04.html",
       "pubDate": "2026-09-14T21:05:22.000Z",
-      "description": "Article URL: https://law.justia.com/cases/federal/appellate-courts/ca9/26-1444/26-1444-2026-08-04.html Comments URL: https://news.ycombinator.com/item?id=49704008 Points: 73 # Comments: 50",
+      "description": "Article URL: https://law.justia.com/cases/federal/appellate-courts/ca9/26-1444/26-1444-2026-08-04.html Comments URL: https://news.ycombinator.com/item?id=49704008 Points: 190 # Comments: 194",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Your first ASP.NET App: Dependency Injection",
-      "link": "https://dev.to/__f5cd865bec2/your-first-aspnet-app-dependency-injection-741",
-      "pubDate": "2026-09-14T21:04:54.000Z",
-      "description": "<h2> Hello! In this tutorial we will build your own ASP.NET Service Dependency Injection! </h2> <h3> Requirements </h3> <ul> <li>IDE like Visual Studio/JetBrains Rider</li> <li>.NET &gt;= 10</li> <li>Base C# skill</li> <li>CPU (manually)</li> </ul> <h3> What is DI </h3> <p>DI (Dependency Injection) ",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "MobileTopUP: Modeling Airtime, Data, and Bundles Without a Messy Product Schema",
-      "link": "https://dev.to/mobilerings/mobiletopup-modeling-airtime-data-and-bundles-without-a-messy-product-schema-36p2",
-      "pubDate": "2026-09-14T21:00:00.000Z",
-      "description": "<p>One of the easiest mistakes in a recharge platform is assuming that every product can be represented as:<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight plaintext\"><code>amount = 10 currency = GBP </code></pre> </div> <p>That works beautifully until the catalogue contains",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Day 42: A Custom Network Gives You DNS, and DynamoDB Only Declares Its Key",
-      "link": "https://dev.to/ndcodes/day-42-a-custom-network-gives-you-dns-and-dynamodb-only-declares-its-key-232",
-      "pubDate": "2026-09-14T21:00:00.000Z",
-      "description": "<p>Both of today's tasks declare far less than you would expect, and both have a rule waiting in the part you did not declare. A Docker network is three flags and changes how containers find each other. A DynamoDB table declares one attribute out of three, and the one word the task chose for another",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Oracle’s 6am layoff emails hit staff amid new wave of cuts",
-      "link": "https://www.techtimes.co.uk/oracle-new-layoffs-restructuring-costs-2-8-billion-1808676",
-      "pubDate": "2026-09-14T19:05:15.000Z",
-      "description": "Article URL: https://www.techtimes.co.uk/oracle-new-layoffs-restructuring-costs-2-8-billion-1808676 Comments URL: https://news.ycombinator.com/item?id=49702239 Points: 105 # Comments: 71",
+      "title": "Backprop Alternative: Augmented Lagrangian Predictive Coding",
+      "link": "https://pub.sakana.ai/pc-alm/",
+      "pubDate": "2026-09-14T18:03:12.000Z",
+      "description": "https://arxiv.org/abs/2605.31022https://github.com/SakanaAI/pc-alm Comments URL: https://news.ycombinator.com/item?id=49701182 Points: 61 # Comments: 13",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -117,7 +145,7 @@
       "title": "iOS 27, iPadOS 27, and macOS 27",
       "link": "https://www.apple.com/newsroom/2026/09/major-updates-for-apples-software-platforms-are-now-available/",
       "pubDate": "2026-09-14T17:50:29.000Z",
-      "description": "Article URL: https://www.apple.com/newsroom/2026/09/major-updates-for-apples-software-platforms-are-now-available/ Comments URL: https://news.ycombinator.com/item?id=49701004 Points: 269 # Comments: 270",
+      "description": "Article URL: https://www.apple.com/newsroom/2026/09/major-updates-for-apples-software-platforms-are-now-available/ Comments URL: https://news.ycombinator.com/item?id=49701004 Points: 473 # Comments: 517",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -125,7 +153,7 @@
       "title": "Steam Frame starts at $1059",
       "link": "https://store.steampowered.com/hardware/steamframe",
       "pubDate": "2026-09-14T17:27:55.000Z",
-      "description": "Article URL: https://store.steampowered.com/hardware/steamframe Comments URL: https://news.ycombinator.com/item?id=49700661 Points: 400 # Comments: 270",
+      "description": "Article URL: https://store.steampowered.com/hardware/steamframe Comments URL: https://news.ycombinator.com/item?id=49700661 Points: 577 # Comments: 434",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -133,7 +161,7 @@
       "title": "Pion, an agent designed to run any company autonomously",
       "link": "https://andonlabs.com/blog/why-we-built-pion",
       "pubDate": "2026-09-14T17:16:06.000Z",
-      "description": "Article URL: https://andonlabs.com/blog/why-we-built-pion Comments URL: https://news.ycombinator.com/item?id=49700477 Points: 206 # Comments: 223",
+      "description": "Article URL: https://andonlabs.com/blog/why-we-built-pion Comments URL: https://news.ycombinator.com/item?id=49700477 Points: 332 # Comments: 371",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -141,113 +169,9 @@
       "title": "Cloudflare AKE cuts origin HelloRetryRequests from 52% to 3.7%",
       "link": "https://blog.cloudflare.com/automatic-key-exchange-for-origins/",
       "pubDate": "2026-09-14T17:02:34.000Z",
-      "description": "Article URL: https://blog.cloudflare.com/automatic-key-exchange-for-origins/ Comments URL: https://news.ycombinator.com/item?id=49700255 Points: 62 # Comments: 17",
+      "description": "Article URL: https://blog.cloudflare.com/automatic-key-exchange-for-origins/ Comments URL: https://news.ycombinator.com/item?id=49700255 Points: 98 # Comments: 26",
       "source": "Hacker News",
       "category": "Tech News"
-    },
-    {
-      "title": "Cua (YC P25) Is Hiring a Founding Technical GTM Lead",
-      "link": "https://www.ycombinator.com/companies/cua/jobs/1IWEKVH-founding-technical-gtm-lead",
-      "pubDate": "2026-09-14T17:00:53.000Z",
-      "description": "Article URL: https://www.ycombinator.com/companies/cua/jobs/1IWEKVH-founding-technical-gtm-lead Comments URL: https://news.ycombinator.com/item?id=49700218 Points: 0 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Why don't machine learning research agents overfit?",
-      "link": "https://www.amazon.science/blog/why-dont-machine-learning-research-agents-overfit",
-      "pubDate": "2026-09-14T16:32:23.000Z",
-      "description": "Article URL: https://www.amazon.science/blog/why-dont-machine-learning-research-agents-overfit Comments URL: https://news.ycombinator.com/item?id=49699648 Points: 86 # Comments: 50",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "How my e-reader lost its stripes",
-      "link": "https://www.serpentine.com/posts/2026/x3-stripes/",
-      "pubDate": "2026-09-14T16:23:16.000Z",
-      "description": "Article URL: https://www.serpentine.com/posts/2026/x3-stripes/ Comments URL: https://news.ycombinator.com/item?id=49699489 Points: 96 # Comments: 11",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Let’s Use the Emergent CSS random() Function in all the Browsers",
-      "link": "https://css-tricks.com/css-random-function-polyfill/",
-      "pubDate": "2026-08-31T15:12:19.000Z",
-      "description": "The journey to create a polyfill for the upcoming CSS random() function that works in all browsers. Let’s Use the Emergent CSS random() Function in all the Browsers originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "What’s !important #18: &#060;geolocation&gt;, Syntax ::highlight()ing, named-feature(), and More",
-      "link": "https://css-tricks.com/whats-important-18/",
-      "pubDate": "2026-08-31T14:08:55.000Z",
-      "description": "Well, that’s a wrap. No, not a flex-wrap, but rather today marks a new day, week, month, season, aaaand new edition of What’s important (#18), bringing you the best content that developers have produced over the last couple of weeks or so. What’s !important #18: <geolocation>, Syntax ::highlight()in",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Creating Web Widgets Using the Document Picture-in-Picture API",
-      "link": "https://css-tricks.com/creating-web-widgets-using-the-document-picture-in-picture-api/",
-      "pubDate": "2026-08-27T14:41:06.000Z",
-      "description": "The general idea is that we create a Document Picture-in-Picture window (DPIP window), and then we put HTML, CSS, and JavaScript into it. Creating Web Widgets Using the Document Picture-in-Picture API originally handwritten and published with love on CSS-Tricks. You should really get the newsletter ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "animation-trigger",
-      "link": "https://css-tricks.com/almanac/properties/a/animation-trigger/",
-      "pubDate": "2026-08-26T15:38:41.000Z",
-      "description": "The CSS animation-trigger property allows you to delay the start of a CSS animation until a specific trigger occurs. animation-trigger originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "MicroLighter: Syntax Highlighter",
-      "link": "https://css-tricks.com/microlighter-syntax-highlighter/",
-      "pubDate": "2026-08-25T14:10:34.000Z",
-      "description": "Syntax highlighting for code blocks without the complicated markup, spans, classes, and bloated JavaScript, courtesy of Uncle Dave. MicroLighter: Syntax Highlighter originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "WordPress PHP-Only Block Registration",
-      "link": "https://css-tricks.com/wordpress-php-block-registration/",
-      "pubDate": "2026-08-24T13:54:02.000Z",
-      "description": "Seven and half years after blocks arrived in Core, WordPress introduces a way to build blocks without React annd build pipelines. All you need is PHP. WordPress PHP-Only Block Registration originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Resolved: CSS Class Prefix Selector",
-      "link": "https://css-tricks.com/resolved-css-class-prefix-selector/",
-      "pubDate": "2026-08-21T15:13:03.000Z",
-      "description": "A newly resolved proposal would allow us to select classes that are a prefix for variations with a wildcard, like .prefix-*. Resolved: CSS Class Prefix Selector originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "CSS Navigation Matching, Early Days",
-      "link": "https://css-tricks.com/css-navigation-matching-early-days/",
-      "pubDate": "2026-08-19T14:44:41.000Z",
-      "description": "Apply a style when someone navigates from one specific page to another. The idea being it'd make the sources for cross-document view transitions declarative in CSS rather than managing that stuff in JavaScript. CSS Navigation Matching, Early Days originally handwritten and published with love on CSS",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "WordPress.com Student Plan",
-      "link": "https://css-tricks.com/wordpress-student-plan/",
-      "pubDate": "2026-08-19T08:50:00.000Z",
-      "description": "As someone who teaches beginning web development, I find that building a WordPress site makes for a great final project. Hosting those projects has always been a roadblock though. WordPress.com Student Plan originally handwritten and published with love on CSS-Tricks. You should really get the newsl",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Dark mode toggles: two states are enough",
-      "link": "https://css-tricks.com/dark-mode-toggles-two-states-are-enough/",
-      "pubDate": "2026-08-17T14:15:50.000Z",
-      "description": "Lea's pushing back on light/dark mode implementations that display three state options for visitors: light, dark, and system. Dark mode toggles: two states are enough originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
     }
   ]
 }
