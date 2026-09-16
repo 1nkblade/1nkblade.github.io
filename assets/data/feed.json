@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T16:57:18.529Z",
+  "generatedAt": "2026-09-16T21:19:19.361Z",
   "sourceCount": 4,
   "successCount": 3,
   "errors": [
@@ -10,162 +10,162 @@
   ],
   "items": [
     {
-      "title": "Arquitetura Hexagonal em Python do zero: um domínio que não sabe onde mora nem quem o chama",
-      "link": "https://dev.to/m_kocotem_1b69865766c653/arquitetura-hexagonal-em-python-do-zero-um-dominio-que-nao-sabe-onde-mora-nem-quem-o-chama-2bfn",
-      "pubDate": "2026-09-16T16:46:22.000Z",
-      "description": "<p>Durante muito tempo, a minha relação com \"arquitetura\" foi do tipo <em>já ouvi falar</em>. Sabia recitar que o domínio deve ser isolado, que regra de negócio não vai no controller, que acoplamento é ruim. Mas existe uma distância enorme entre repetir princípios e entender o que eles compram na pr",
+      "title": "Why AI Agents Can Burn So Much More Electricity Than a Single Prompt",
+      "link": "https://dev.to/noah_kenji_47b8888ceb81ac/why-ai-agents-can-burn-so-much-more-electricity-than-a-single-prompt-3pi9",
+      "pubDate": "2026-09-16T21:11:34.000Z",
+      "description": "<p>When we talk about the energy cost of AI, it is no longer useful to think only about one chatbot prompt at a time. The move from single-shot prompts to agentic workflows changes the math in a very real way.</p> <p>That is the core point climate scientist Zeke Hausfather was making in a blog post ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Probably you won't like it, but...",
-      "link": "https://dev.to/canro91/probably-you-wont-like-it-but-3m89",
-      "pubDate": "2026-09-16T16:45:00.000Z",
-      "description": "<div class=\"ltag__link--embedded\"> <div class=\"crayons-story \"> <a href=\"https://dev.to/canro91/junior-coders-the-one-rule-you-should-follow-to-adopt-ai-n5e\" class=\"crayons-story__hidden-navigation-link\">If You're Learning Coding, Here's The Only Rule You Need to Adopt AI</a> <div class=\"crayons-sto",
+      "title": "Benchmarking affaan-m/ECC in Cursor: Agent Harness Rules Without Context Exhaustion",
+      "link": "https://dev.to/sloves/benchmarking-affaan-mecc-in-cursor-agent-harness-rules-without-context-exhaustion-4k6k",
+      "pubDate": "2026-09-16T21:11:12.000Z",
+      "description": "<p>When evaluating <strong>affaan-m/ECC</strong> (v2.0, <em>The Agent Harness Operating System</em>), the main attraction is standardization. Instead of manually copying fragmented <code>.cursorrules</code>, skill prompts, and MCP configurations between Claude Code, Codex, and Cursor, ECC packages s",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The Database I Deleted: Migrating an Agentic RAG App to AWS Serverless",
-      "link": "https://dev.to/dmitriy_trunov_9a09a497b1/the-database-i-deleted-migrating-an-agentic-rag-app-to-aws-serverless-n18",
-      "pubDate": "2026-09-16T16:43:58.000Z",
-      "description": "<h3> Part 2 — the five decisions that fought back </h3> <p><em><a href=\"https://dev.to/dmitriy_trunov_9a09a497b1/migrating-an-agentic-rag-app-to-aws-serverless-d2k\">Part 1</a> covered why an agentic RAG assistant — built 284 LLM Zoomcamp capstone submissions — moved off a single EC2 box onto AWS ser",
+      "title": "Why a Reusable Agent Environment Shouldn't Be a Filesystem Snapshot",
+      "link": "https://dev.to/constant_itis/why-a-reusable-agent-environment-shouldnt-be-a-filesystem-snapshot-13g7",
+      "pubDate": "2026-09-16T21:08:43.000Z",
+      "description": "<p>At the end of Part 2, the agent had done real work inside a Bench. It installed a toolchain. It compiled something. It got a pipeline actually working. The task was complete and the Bench was disposable, so it vanished. So did the work.</p> <p>I want to keep it.</p> <p>The question is what \"it\" e",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Rendering share cards on Cloudflare Workers with satori and resvg-wasm, and the 4 things that broke",
-      "link": "https://dev.to/robert_gordon_641551e07b1/rendering-share-cards-on-cloudflare-workers-with-satori-and-resvg-wasm-and-the-4-things-that-broke-kck",
-      "pubDate": "2026-09-16T16:39:05.000Z",
-      "description": "<p>Commit Archive is a yearbook for GitHub repos. Every archived project gets a share card, and every contributor gets a portrait card with their numbers and a superlative like \"Most Likely to Commit After Midnight\". That means a lot of PNGs: a 1200x630 Open Graph image per project and a 1080x1350 c",
+      "title": "Deprecating My Symfony Profiler MCP Bundle: Right About the Problem, Half-Wrong About the Solution",
+      "link": "https://dev.to/hamdi_laadhari/deprecating-my-symfony-profiler-mcp-bundle-right-about-the-problem-half-wrong-about-the-solution-567l",
+      "pubDate": "2026-09-16T21:02:13.000Z",
+      "description": "<p>In March 2025 I built <a href=\"https://github.com/killerwolf/mcp-profiler-bundle\" rel=\"noopener noreferrer\">mcp-profiler-bundle</a>, a Symfony bundle that let AI coding agents read the Symfony Profiler: the requests your app just served, the queries they ran, the exceptions they threw. The bet wa",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "BackToSchool has its own account now, and nixamp is the optional backend",
-      "link": "https://dev.to/chovy/backtoschool-has-its-own-account-now-and-nixamp-is-the-optional-backend-31c4",
-      "pubDate": "2026-09-16T16:39:03.000Z",
-      "description": "<p>backtoschool.help runs on the nixamp codebase, and until today its sign-in dialog said so: \"Your BackToSchool identity is your NixAmp account.\" That line did two things I did not want. It made a password manager file the nixamp password under the school's address, and it made nixamp something eve",
+      "title": "Deploying a real-time voice agent with AgentCore Runtime and Amplify Gen 2",
+      "link": "https://dev.to/aws-builders/deploying-a-real-time-voice-agent-with-agentcore-runtime-and-amplify-gen-2-45bl",
+      "pubDate": "2026-09-16T20:58:25.000Z",
+      "description": "<h1> 🏃 TL;DR </h1> <p>In the <a href=\"https://dev.to/aws-builders/your-database-is-an-ai-tool-semantic-search-with-amazon-dynamodb-vector-search-46ff\">previous article</a> I built a semantic product search on top of Amazon DynamoDB Vector Search, and then gave that capability to an AI agent as a to",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The AI Gateway Is Now a Credential Hub: What the LiteLLM MCP Authentication Bypass Means for Self-Hosted LLM Infrastructure",
-      "link": "https://dev.to/bianliang/the-ai-gateway-is-now-a-credential-hub-what-the-litellm-mcp-authentication-bypass-means-for-55jo",
-      "pubDate": "2026-09-16T16:36:58.000Z",
-      "description": "<h1> The AI Gateway Is Now a Credential Hub: What the LiteLLM MCP Authentication Bypass Means for Self-Hosted LLM Infrastructure </h1> <p>A LiteLLM proxy is rarely just a routing convenience. Teams deploy it so that one gateway holds the API keys for several model providers, issues virtual keys to i",
+      "title": "Codex with ChatGPT: Connect Your ChatGPT Web Subscription as the Planning Brain for Codex",
+      "link": "https://dev.to/terminalchai/codex-with-chatgpt-connect-your-chatgpt-web-subscription-as-the-planning-brain-for-codex-5e6",
+      "pubDate": "2026-09-16T20:57:54.000Z",
+      "description": "<h2> Dual-Engine Agentic Coding: Meet Codex with ChatGPT </h2> <p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fwjua63nj8ucxxm5kzpr7.png\" class=\"article-bod",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Stolen OAuth Tokens Outlive Password Resets: Hardening Session Material in SaaS Estates",
-      "link": "https://dev.to/onaeiuspkz/stolen-oauth-tokens-outlive-password-resets-hardening-session-material-in-saas-estates-46g0",
-      "pubDate": "2026-09-16T16:36:55.000Z",
-      "description": "<h1> Stolen OAuth Tokens Outlive Password Resets: Hardening Session Material in SaaS Estates </h1> <p>When an attacker steals a password, you reset it. When an attacker steals a refresh token, a password reset does not necessarily help, and many incident responders discover this at the worst possibl",
+      "title": "How to Validate FFI Between QM and ASIL-D in Zero-Heap AUTOSAR + HSM",
+      "link": "https://dev.to/kadritalal38/how-to-validate-ffi-between-qm-and-asil-d-in-zero-heap-autosar-hsm-26ln",
+      "pubDate": "2026-09-16T20:53:30.000Z",
+      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fhiuysn2dw1abbpxxry75.jpg\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Benchmaxing: Winning the Exam Is Not Doing Better Work",
-      "link": "https://dev.to/javieraguilarai/benchmaxing-winning-the-exam-is-not-doing-better-work-2pd8",
-      "pubDate": "2026-09-16T16:36:16.000Z",
-      "description": "<p>With Opus 5, I have experienced something that people I speak to directly have also described: better benchmark results do not necessarily feel like a more intelligent model, or one that does better work. Some tables even put it above Fable, which clashes with my experience.</p> <p>That perceptio",
+      "title": "Github Actions: Re-intentar automáticamente los jobs de CI que un reclamo de spot instance mató",
+      "link": "https://dev.to/elchesco_/github-actions-re-intentar-automaticamente-los-jobs-de-ci-que-un-reclamo-de-spot-instance-mato-1f79",
+      "pubDate": "2026-09-16T20:42:58.000Z",
+      "description": "<p>Mi CI corre en un runner spot ARM64 autoalojado. Cuando AWS se lleva la instancia de vuelta a media corrida, GitHub muestra una X roja en cualquier paso que estuviera corriendo, y se ve idéntico a una prueba que falla. <br> Esto es un workflow que lee el log del job, reconoce esa falla específica",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I parsed 24 real food-delivery payout files. Three of them disagree with their own totals.",
-      "link": "https://dev.to/shivang7020/i-parsed-24-real-food-delivery-payout-files-three-of-them-disagree-with-their-own-totals-3g8b",
-      "pubDate": "2026-09-16T16:33:28.000Z",
-      "description": "<p><em>A technical read of the payout files, written after parsing 24 real ones.</em></p> <p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fwxjdr1phu8x4o2s6m",
+      "title": "We All Became Architects",
+      "link": "https://dev.to/atieno_thedvev/we-all-became-architects-4794",
+      "pubDate": "2026-09-16T20:42:37.000Z",
+      "description": "<p>Last week, <strong>Zone01 Kisumu</strong> hosted an <em>AI &amp; Software Engineering</em> mini-conference at Rotary, featuring a panel discussion followed by a keynote from <strong>Amariah Abishai, Founder of Atlarix</strong>.</p> <p>I helped organize the session, but I left with a question that",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Implementing n8n whatsapp business api automation with RAG for Accurate Replies",
-      "link": "https://dev.to/samchenreviews/implementing-n8n-whatsapp-business-api-automation-with-rag-for-accurate-replies-1eb8",
-      "pubDate": "2026-09-16T16:30:32.000Z",
-      "description": "<p>To automate WhatsApp Business API replies using n8n and RAG, you must integrate an LLM node with a vector database reference. First, ingest your specific FAQ documents into a vector store like Chroma or Pinecone using an Embedding node within n8n. When a WhatsApp webhook triggers, pass the user m",
+      "title": "A Pedagogical Introduction to Porting a Conjugate Gradient Solver to CUDA",
+      "link": "https://dev.to/junsik_yoo/a-pedagogical-introduction-to-porting-a-conjugate-gradient-solver-to-cuda-aih",
+      "pubDate": "2026-09-16T20:39:48.000Z",
+      "description": "<p>GPU programming tutorials often begin with isolated examples: vector addition, reductions, matrix multiplication, and memory coalescing. These are useful for learning individual CUDA concepts, but there is another question that quickly arises when working with real scientific software:</p> <p><st",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Code Is Crap",
-      "link": "https://testing.googleblog.com/2011/02/this-code-is-crap.html",
-      "pubDate": "2026-09-16T16:13:55.000Z",
-      "description": "Article URL: https://testing.googleblog.com/2011/02/this-code-is-crap.html Comments URL: https://news.ycombinator.com/item?id=49729228 Points: 35 # Comments: 25",
+      "title": "Xiaomi Mimo 2.6 live post-training dashboard",
+      "link": "https://mimo.xiaomi.com/rl/",
+      "pubDate": "2026-09-16T20:09:18.000Z",
+      "description": "Article URL: https://mimo.xiaomi.com/rl/ Comments URL: https://news.ycombinator.com/item?id=49732270 Points: 75 # Comments: 23",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Small Programming Tricks",
+      "title": "macOS 27 Golden Gate – Review",
+      "link": "https://arstechnica.com/gadgets/2026/09/macos-27-golden-gate-the-ars-technica-review/",
+      "pubDate": "2026-09-16T19:53:36.000Z",
+      "description": "Article URL: https://arstechnica.com/gadgets/2026/09/macos-27-golden-gate-the-ars-technica-review/ Comments URL: https://news.ycombinator.com/item?id=49732036 Points: 35 # Comments: 15",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "How good are frontier models at physics?",
+      "link": "https://arxiv.org/abs/2609.13009",
+      "pubDate": "2026-09-16T19:19:08.000Z",
+      "description": "Article URL: https://arxiv.org/abs/2609.13009 Comments URL: https://news.ycombinator.com/item?id=49731620 Points: 34 # Comments: 12",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Accurate Models of AMD Matrix Cores",
+      "link": "https://arxiv.org/abs/2609.14845",
+      "pubDate": "2026-09-16T18:56:05.000Z",
+      "description": "Article URL: https://arxiv.org/abs/2609.14845 Comments URL: https://news.ycombinator.com/item?id=49731360 Points: 37 # Comments: 5",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Training a 4B model to produce 81% faster query plans than Postgres",
+      "link": "https://rohanbansal.com/qorl",
+      "pubDate": "2026-09-16T18:50:00.000Z",
+      "description": "Article URL: https://rohanbansal.com/qorl Comments URL: https://news.ycombinator.com/item?id=49731285 Points: 194 # Comments: 31",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Vectorized and performance-portable Quicksort (2022)",
+      "link": "https://opensource.googleblog.com/2022/06/Vectorized%20and%20performance%20portable%20Quicksort.html",
+      "pubDate": "2026-09-16T18:31:35.000Z",
+      "description": "Article URL: https://opensource.googleblog.com/2022/06/Vectorized%20and%20performance%20portable%20Quicksort.html Comments URL: https://news.ycombinator.com/item?id=49731054 Points: 148 # Comments: 24",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Training Text-to-Image Models 3.6× Faster",
+      "link": "https://www.linum.ai/field-notes/jit-ddt",
+      "pubDate": "2026-09-16T16:58:13.000Z",
+      "description": "Article URL: https://www.linum.ai/field-notes/jit-ddt Comments URL: https://news.ycombinator.com/item?id=49729816 Points: 9 # Comments: 1",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Claude Cowork and chat are now one Claude",
+      "link": "https://claude.com/blog/cowork-is-now-claude",
+      "pubDate": "2026-09-16T16:26:25.000Z",
+      "description": "Article URL: https://claude.com/blog/cowork-is-now-claude Comments URL: https://news.ycombinator.com/item?id=49729412 Points: 173 # Comments: 183",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Small programming tricks",
       "link": "https://will-keleher.com/posts/small-programming-tricks-matter/",
       "pubDate": "2026-09-16T15:56:47.000Z",
-      "description": "Article URL: https://will-keleher.com/posts/small-programming-tricks-matter/ Comments URL: https://news.ycombinator.com/item?id=49729000 Points: 53 # Comments: 32",
+      "description": "Article URL: https://will-keleher.com/posts/small-programming-tricks-matter/ Comments URL: https://news.ycombinator.com/item?id=49729000 Points: 283 # Comments: 150",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Can we stop with the uptime percentages?",
-      "link": "https://blog.jim-nielsen.com/2026/stop-with-the-uptime-percentage/",
-      "pubDate": "2026-09-16T15:40:04.000Z",
-      "description": "Article URL: https://blog.jim-nielsen.com/2026/stop-with-the-uptime-percentage/ Comments URL: https://news.ycombinator.com/item?id=49728733 Points: 50 # Comments: 40",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Anatomy of a Texture",
-      "link": "https://agentlien.github.io/texture/",
-      "pubDate": "2026-09-16T14:28:28.000Z",
-      "description": "Article URL: https://agentlien.github.io/texture/ Comments URL: https://news.ycombinator.com/item?id=49727592 Points: 22 # Comments: 4",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "OpenAI expands ChatGPT ads with Sponsored Agents",
-      "link": "https://openai.com/index/reimagining-advertising-with-ai/",
-      "pubDate": "2026-09-16T13:51:15.000Z",
-      "description": "Article URL: https://openai.com/index/reimagining-advertising-with-ai/ Comments URL: https://news.ycombinator.com/item?id=49727041 Points: 117 # Comments: 114",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Dream-RSI: Recursive Self-Improvement through Evolving Worlds",
-      "link": "https://arxiv.org/abs/2609.14858",
-      "pubDate": "2026-09-16T13:44:40.000Z",
-      "description": "Article URL: https://arxiv.org/abs/2609.14858 Comments URL: https://news.ycombinator.com/item?id=49726955 Points: 93 # Comments: 23",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Hackers Got Inside a Flock Camera. Its Data Shows How the System Works",
-      "link": "https://www.wired.com/story/hackers-flock-camera-data-shows-how-system-works/",
-      "pubDate": "2026-09-16T13:18:47.000Z",
-      "description": "Article URL: https://www.wired.com/story/hackers-flock-camera-data-shows-how-system-works/ Comments URL: https://news.ycombinator.com/item?id=49726586 Points: 246 # Comments: 117",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Scaling Golang CI by Replacing actions/setup-go",
-      "link": "https://www.cloudx.ai/posts/setup-go",
-      "pubDate": "2026-09-16T13:02:14.000Z",
-      "description": "Article URL: https://www.cloudx.ai/posts/setup-go Comments URL: https://news.ycombinator.com/item?id=49726350 Points: 44 # Comments: 5",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Show HN: How Stale Is Your AI? Release age and training cutoff for 20 models",
-      "link": "https://stale.jock.pl/",
-      "pubDate": "2026-09-16T13:01:52.000Z",
-      "description": "Article URL: https://stale.jock.pl/ Comments URL: https://news.ycombinator.com/item?id=49726343 Points: 30 # Comments: 21",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "DeepSeek v4.1 Flash Is Now Our Best Hacking Model",
-      "link": "https://enclave.ai/blog/deepseek-v41-flash-is-now-our-best-hacking-model",
-      "pubDate": "2026-09-16T12:19:55.000Z",
-      "description": "Article URL: https://enclave.ai/blog/deepseek-v41-flash-is-now-our-best-hacking-model Comments URL: https://news.ycombinator.com/item?id=49725800 Points: 100 # Comments: 32",
+      "title": "Show HN: SeasonMap – when to travel where? visualized with climate data",
+      "link": "https://seasonmap.app",
+      "pubDate": "2026-09-16T15:43:07.000Z",
+      "description": "Author here. I'm trying to visit every country and I've been to 158 so far.Before I decide where to travel, I'd ask a local friend which season to avoid, or open up dozens of browser tabs on climate data to figure out what the place is like in a given month.Climate data still miss things. Cancun in ",
       "source": "Hacker News",
       "category": "Tech News"
     },
