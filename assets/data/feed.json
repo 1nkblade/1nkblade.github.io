@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T21:22:09.746Z",
+  "generatedAt": "2026-09-16T04:50:25.180Z",
   "sourceCount": 4,
   "successCount": 3,
   "errors": [
@@ -10,98 +10,138 @@
   ],
   "items": [
     {
-      "title": "Predicting the Generative AI Boom: My Tech Presentation in March 2021 (20 Months Before ChatGPT)",
-      "link": "https://dev.to/agustindiazcano/predicting-the-generative-ai-boom-my-tech-presentation-in-march-2021-20-months-before-chatgpt-3pp",
-      "pubDate": "2026-09-15T21:06:57.000Z",
-      "description": "<p>_Back in March 2021, the world of software development was obsessed with crypto, NFTs, and traditional web frameworks. ChatGPT wouldn’t exist for another 20 months. However, while attending a full stack programming bootcamp, I decided to give a presentation on something that I knew was about to c",
+      "title": "Three checks that were green for the wrong reason",
+      "link": "https://dev.to/arcticfoxz_255bbe944bc015/three-checks-that-were-green-for-the-wrong-reason-19pk",
+      "pubDate": "2026-09-16T04:43:56.000Z",
+      "description": "<p>I shipped a release yesterday. Four CI rounds, most of a day, and the part worth writing down isn't the release — it's that three checks in my own test suite had been passing for reasons that had nothing to do with what they claimed to test, and I only found out because a platform I don't own ran",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Ten Million Keys, One Missing Index",
-      "link": "https://dev.to/msilberg/ten-million-keys-one-missing-index-2jc5",
-      "pubDate": "2026-09-15T21:03:57.000Z",
-      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fr4ku5ujj3itvjpvsy8gs.png\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/",
+      "title": "The Pairing Froze the Oracle File Before Any Agent Patch Landed",
+      "link": "https://dev.to/codehub_1304/the-pairing-froze-the-oracle-file-before-any-agent-patch-landed-2860",
+      "pubDate": "2026-09-16T04:39:38.000Z",
+      "description": "<p>A pairing session stays honest when the judge of correctness lives in a file the agent cannot edit. That rule sounds small, yet it prevents the most common failure of free-tier coding agents: green tests that no longer mean anything. The senior in this writeup refused every patch until a frozen o",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "A badly written ticket can beat a well-written one",
-      "link": "https://dev.to/scullwm/a-badly-written-ticket-can-beat-a-well-written-one-2ig5",
-      "pubDate": "2026-09-15T21:03:20.000Z",
-      "description": "<h2> When a Ready Ticket Is No Longer Ready </h2> <p>We spend a lot of time discussing what makes a good ticket: clear acceptance criteria, enough context, useful links, a decent description.</p> <p>But there is another factor we rarely talk about: <strong>age</strong>.</p> <p>A ticket created last ",
+      "title": "The Skill-Driven Enterprise Bridging Intent and Execution with Governed AI Agents",
+      "link": "https://dev.to/vikas_mano_870c09cfee793f/the-skill-driven-enterprise-bridging-intent-and-execution-with-governed-ai-agents-4d69",
+      "pubDate": "2026-09-16T04:38:52.000Z",
+      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fiy134rdri8wzgip25n67.png\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "AI Wrote Half My Codebase. The Maintenance Bill Showed Up in Month Three.",
-      "link": "https://dev.to/debashish_ghosal/ai-wrote-half-my-codebase-the-maintenance-bill-showed-up-in-month-three-lhp",
-      "pubDate": "2026-09-15T21:03:14.000Z",
-      "description": "<blockquote> <p>AI made the first draft free. I treated that as the win. The bill arrived later, not in dollars, in the parts of the system nobody on the team fully understood anymore.</p> </blockquote> <p>I like AI coding tools. I use them every day. I've shipped more open-source projects in the la",
+      "title": "Separate DNS Zone vs Subdomain — Non-Production Write Boundary Trade-Offs",
+      "link": "https://dev.to/thomasmoore5082/separate-dns-zone-vs-subdomain-non-production-write-boundary-trade-offs-210j",
+      "pubDate": "2026-09-16T04:36:57.000Z",
+      "description": "<p>TL;DR: give staging a separate DNS zone when its automation must be technically unable to write production records; keep a staging subdomain in one shared zone only when the same small owner can maintain an explicit suffix guard. For a property-management product that verifies tenant custom domai",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "RxJS in Practice: Reactive Programming, Operators, Patterns, and Real-World Examples",
-      "link": "https://dev.to/abanoubkerols/rxjs-in-practice-reactive-programming-operators-patterns-and-real-world-examples-48mj",
-      "pubDate": "2026-09-15T21:01:42.000Z",
-      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F0plqtrpfwvpxyu565lhx.png\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/",
+      "title": "Canary Verdicts Do Not Belong on Free Inference",
+      "link": "https://dev.to/aiio_6471/canary-verdicts-do-not-belong-on-free-inference-1dg6",
+      "pubDate": "2026-09-16T04:36:17.000Z",
+      "description": "<p>A canary is a production contract with a short fuse. Free, best-effort inference can narrate the numbers after the fact. It must not be the function that returns promote or rollback while live traffic is already on the new build.</p> <p>Merge gates fail in a waiting room. Canaries fail in public.",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Jean-Pierre Serre is 100 years old today",
-      "link": "https://mathshistory.st-andrews.ac.uk/Biographies/Serre/",
-      "pubDate": "2026-09-15T20:57:18.000Z",
-      "description": "Article URL: https://mathshistory.st-andrews.ac.uk/Biographies/Serre/ Comments URL: https://news.ycombinator.com/item?id=49718822 Points: 9 # Comments: 0",
+      "title": "I built a tool to check if AI-generated citations actually exist",
+      "link": "https://dev.to/ken_o_14fe4905fb0a82d38a/i-built-a-tool-to-check-if-ai-generated-citations-actually-exist-cle",
+      "pubDate": "2026-09-16T04:35:58.000Z",
+      "description": "<p>I’ve been working on <a href=\"https://citetrue.com/citation-checker\" rel=\"noopener noreferrer\">CiteTrue</a>, a tool that checks whether academic citations actually exist.</p> <p>AI is becoming a normal part of research and writing, but there’s still one problem I kept noticing: it can generate re",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Beyond Proof-of-Work: Understanding Hardware Fingerprinting and Proof-of-Antiquity in Distributed Consensus",
+      "link": "https://dev.to/analebycampos15create/beyond-proof-of-work-understanding-hardware-fingerprinting-and-proof-of-antiquity-in-distributed-43c0",
+      "pubDate": "2026-09-16T04:35:09.000Z",
+      "description": "<h3> Introduction: The Problem with Pure Hashpower and Capital Weight </h3> <p>Contemporary blockchain consensus mechanisms have historically polarized around two dominant paradigms: <strong>Proof-of-Work (PoW)</strong> and <strong>Proof-of-Stake (PoS)</strong>. </p> <ul> <li> <strong>Proof-of-Work<",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "5 Rules for Creating and Reusing Image Presets in Game Catalogs",
+      "link": "https://dev.to/valenciamoss6824/5-rules-for-creating-and-reusing-image-presets-in-game-catalogs-47ha",
+      "pubDate": "2026-09-16T04:33:24.000Z",
+      "description": "<p>Creating and reusing image transformation presets for game catalog derivatives has an awkward constraint: a thumbnail must feel immediate after an asset upload, while every derivative still has to be reproducible months later when a storefront adds another viewport.</p> <p>Short answer: create im",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Back in the same workspace, but which visit owns the result?",
+      "link": "https://dev.to/joinwell52/back-in-the-same-workspace-but-which-visit-owns-the-result-39l9",
+      "pubDate": "2026-09-16T04:33:22.000Z",
+      "description": "<h1> Back in the same workspace, but which visit owns the result? </h1> <p>An A→B→A navigation can make an old request look current again. We controlled its completion time and compared a generation check with a version deliberately missing that check.</p> <p>You open workspace A while its file list",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "T for Tanuj, T for Timestream: Exploring Amazon Timestream",
+      "link": "https://dev.to/tanuj_aj_c22d6688be1eaa79/t-for-tanuj-t-for-timestream-exploring-amazon-timestream-25n2",
+      "pubDate": "2026-09-16T04:33:21.000Z",
+      "description": "<h2> Introduction </h2> <p>As part of my AWS learning activity, I participated in the Rhyming Game Contest, where each student had to select an AWS service connected to the first letter of their name.</p> <p>My name is <strong>Tanuj A J</strong>, so I selected <strong>Amazon Timestream</strong>.</p>",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Negativland, Culture Jamming, and the Art of Making Something New",
+      "link": "https://blog.archive.org/2026/09/11/negativland-culture-jamming-and-the-art-of-making-something-new/",
+      "pubDate": "2026-09-16T02:46:06.000Z",
+      "description": "Article URL: https://blog.archive.org/2026/09/11/negativland-culture-jamming-and-the-art-of-making-something-new/ Comments URL: https://news.ycombinator.com/item?id=49721548 Points: 35 # Comments: 11",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "What Happens If You Give a Fruit Fly Brain External Memory?",
-      "link": "https://dev.to/constant_itis/what-happens-if-you-give-a-fruit-fly-brain-external-memory-1gcm",
-      "pubDate": "2026-09-15T20:54:27.000Z",
-      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F9hpu5anrupjc7v2bjr9i.png\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/",
-      "source": "Dev.to Feed",
-      "category": "Development"
+      "title": "Stay discoverable in search while disallowing AI training",
+      "link": "https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers/",
+      "pubDate": "2026-09-16T02:25:18.000Z",
+      "description": "Article URL: https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers/ Comments URL: https://news.ycombinator.com/item?id=49721435 Points: 37 # Comments: 19",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
-      "title": "Linux plans to remove 247k lines of old ARM code",
-      "link": "https://dev.to/techaiwire/linux-plans-to-remove-247k-lines-of-old-arm-code-2o34",
-      "pubDate": "2026-09-15T20:47:50.000Z",
-      "description": "<p>Linux kernel maintainer Arnd Bergmann has published a branch that would delete roughly 247,000 lines of code. It drops a set of deprecated 32-bit ARM platforms, plus the device drivers that only those platforms used. <a href=\"https://www.phoronix.com/news/Branch-Remove-Old-ARM-Drivers\" rel=\"noope",
-      "source": "Dev.to Feed",
-      "category": "Development"
+      "title": "Apple Reference Image: A New Approach for Verified Photography",
+      "link": "https://security.apple.com/blog/apple-reference-image/",
+      "pubDate": "2026-09-16T02:07:31.000Z",
+      "description": "Article URL: https://security.apple.com/blog/apple-reference-image/ Comments URL: https://news.ycombinator.com/item?id=49721322 Points: 66 # Comments: 39",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
-      "title": "Google Search Console Platform Properties Bring Social and Video Data Into Search Reporting",
-      "link": "https://dev.to/alifar/google-search-console-platform-properties-bring-social-and-video-data-into-search-reporting-350f",
-      "pubDate": "2026-09-15T20:45:30.000Z",
-      "description": "<p>Google has introduced <strong>platform properties</strong> in <a href=\"https://scalevise.com/resources/google-search-console-ai-reporting-controls-global-rollout/\" rel=\"noopener noreferrer\">Search Console</a>, giving creators and publishers a dedicated way to measure how verified Instagram, TikTo",
-      "source": "Dev.to Feed",
-      "category": "Development"
+      "title": "Saving Jet Fuel",
+      "link": "https://tech.marksblogg.com/scikit-decide-openap-optimal-flight-planning.html",
+      "pubDate": "2026-09-15T23:17:20.000Z",
+      "description": "Article URL: https://tech.marksblogg.com/scikit-decide-openap-optimal-flight-planning.html Comments URL: https://news.ycombinator.com/item?id=49720164 Points: 58 # Comments: 23",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
-      "title": "We scheduled a question for an hour when nobody could answer it",
-      "link": "https://dev.to/unmannedops/we-scheduled-a-question-for-an-hour-when-nobody-could-answer-it-22oj",
-      "pubDate": "2026-09-15T20:40:57.000Z",
-      "description": "<p>The run was fully unattended. That was the point. Everything upstream of the final step had been automated for weeks, and the last remaining human touch was an approval — a request sent out, a wait, a decision, a continue-or-stop. We left it in place deliberately, because it felt like the respons",
-      "source": "Dev.to Feed",
-      "category": "Development"
+      "title": "Recreating Voodoo Graphics and a Late-1990s Gaming PC on an FPGA",
+      "link": "https://nand2mario.github.io/posts/2026/zsst-voodoo/",
+      "pubDate": "2026-09-15T22:50:55.000Z",
+      "description": "Article URL: https://nand2mario.github.io/posts/2026/zsst-voodoo/ Comments URL: https://news.ycombinator.com/item?id=49719938 Points: 69 # Comments: 11",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
-      "title": "I expected hexagonal architecture to help my coding agent. It didn't.",
-      "link": "https://dev.to/kstoyanovai/i-expected-hexagonal-architecture-to-help-my-coding-agent-it-didnt-3blg",
-      "pubDate": "2026-09-15T20:39:41.000Z",
-      "description": "<p>I am a principal engineer, and I started this experiment trying to defend something I have believed for years: invest in a good structure now, and later changes should get easier.</p> <p>Two or three years ago, I would have pushed back on the claim that hexagonal architecture was mostly overhead.",
-      "source": "Dev.to Feed",
-      "category": "Development"
+      "title": "German Rheinmetall open-sources its Battlesuite connected weapon system protcol",
+      "link": "https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html",
+      "pubDate": "2026-09-15T21:07:47.000Z",
+      "description": "Article URL: https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html Comments URL: https://news.ycombinator.com/item?id=49718928 Points: 160 # Comments: 46",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
-      "title": "How much oil-market buffer is left?",
-      "link": "https://www.depletion.org",
-      "pubDate": "2026-09-15T19:56:56.000Z",
-      "description": "Article URL: https://www.depletion.org Comments URL: https://news.ycombinator.com/item?id=49718025 Points: 53 # Comments: 71",
+      "title": "Jean-Pierre Serre turns 100",
+      "link": "https://mathshistory.st-andrews.ac.uk/Biographies/Serre/",
+      "pubDate": "2026-09-15T20:57:18.000Z",
+      "description": "Article URL: https://mathshistory.st-andrews.ac.uk/Biographies/Serre/ Comments URL: https://news.ycombinator.com/item?id=49718822 Points: 111 # Comments: 19",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -109,7 +149,7 @@
       "title": "Building a Linux GPU Driver for the M4 Mac Mini in One Month",
       "link": "https://codyho.dev/blog/gpu-driver/",
       "pubDate": "2026-09-15T19:30:03.000Z",
-      "description": "Article URL: https://codyho.dev/blog/gpu-driver/ Comments URL: https://news.ycombinator.com/item?id=49717638 Points: 15 # Comments: 0",
+      "description": "Article URL: https://codyho.dev/blog/gpu-driver/ Comments URL: https://news.ycombinator.com/item?id=49717638 Points: 208 # Comments: 130",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -117,7 +157,7 @@
       "title": "WangNet – 1.8 MB, zero-dependency Numberwang adjudication in 11 languages",
       "link": "https://github.com/GraafHenk/numberwang",
       "pubDate": "2026-09-15T19:27:35.000Z",
-      "description": "Article URL: https://github.com/GraafHenk/numberwang Comments URL: https://news.ycombinator.com/item?id=49717605 Points: 47 # Comments: 15",
+      "description": "Article URL: https://github.com/GraafHenk/numberwang Comments URL: https://news.ycombinator.com/item?id=49717605 Points: 124 # Comments: 47",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -125,47 +165,7 @@
       "title": "Introducing System One Models and Jev",
       "link": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
       "pubDate": "2026-09-15T19:25:03.000Z",
-      "description": "Article URL: https://typesafe.ai/blog/introducing-system-one-models-and-jev Comments URL: https://news.ycombinator.com/item?id=49717558 Points: 313 # Comments: 123",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Chopping up books when they're physically too big",
-      "link": "https://attainablefelicity.mattkirkland.com/20260915/cut-up-your-books.html",
-      "pubDate": "2026-09-15T18:45:31.000Z",
-      "description": "Article URL: https://attainablefelicity.mattkirkland.com/20260915/cut-up-your-books.html Comments URL: https://news.ycombinator.com/item?id=49716953 Points: 53 # Comments: 46",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "We got admin access to Baseten's production GitHub in 25 minutes",
-      "link": "https://www.strix.ai/blog/baseten-harbor-github-pat-takeover",
-      "pubDate": "2026-09-15T18:11:24.000Z",
-      "description": "Article URL: https://www.strix.ai/blog/baseten-harbor-github-pat-takeover Comments URL: https://news.ycombinator.com/item?id=49716476 Points: 143 # Comments: 59",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "An Update on Wayback Machine Access",
-      "link": "https://blog.archive.org/2026/09/15/an-update-on-wayback-machine-access/",
-      "pubDate": "2026-09-15T17:52:18.000Z",
-      "description": "Article URL: https://blog.archive.org/2026/09/15/an-update-on-wayback-machine-access/ Comments URL: https://news.ycombinator.com/item?id=49716176 Points: 236 # Comments: 120",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Gemini 3.8 Live and 3.8 Live Extended Thinking",
-      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/",
-      "pubDate": "2026-09-15T17:38:18.000Z",
-      "description": "Article URL: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/ Comments URL: https://news.ycombinator.com/item?id=49715947 Points: 169 # Comments: 109",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "GEFS on OpenBSD: A Early Preview",
-      "link": "https://marc.info/?l=openbsd-tech&amp;m=178948744271633&amp;w=2",
-      "pubDate": "2026-09-15T17:12:19.000Z",
-      "description": "Article URL: https://marc.info/?l=openbsd-tech&m=178948744271633&w=2 Comments URL: https://news.ycombinator.com/item?id=49715590 Points: 77 # Comments: 40",
+      "description": "Article URL: https://typesafe.ai/blog/introducing-system-one-models-and-jev Comments URL: https://news.ycombinator.com/item?id=49717558 Points: 967 # Comments: 302",
       "source": "Hacker News",
       "category": "Tech News"
     },
