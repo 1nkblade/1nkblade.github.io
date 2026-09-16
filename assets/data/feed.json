@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T04:50:25.180Z",
+  "generatedAt": "2026-09-16T11:35:46.031Z",
   "sourceCount": 4,
   "successCount": 3,
   "errors": [
@@ -10,98 +10,146 @@
   ],
   "items": [
     {
-      "title": "Three checks that were green for the wrong reason",
-      "link": "https://dev.to/arcticfoxz_255bbe944bc015/three-checks-that-were-green-for-the-wrong-reason-19pk",
-      "pubDate": "2026-09-16T04:43:56.000Z",
-      "description": "<p>I shipped a release yesterday. Four CI rounds, most of a day, and the part worth writing down isn't the release — it's that three checks in my own test suite had been passing for reasons that had nothing to do with what they claimed to test, and I only found out because a platform I don't own ran",
+      "title": "Web push from a PHP backend with no vendor: VAPID, ES256, and the six ways it fails silently",
+      "link": "https://dev.to/marketmy_casa/web-push-from-a-php-backend-with-no-vendor-vapid-es256-and-the-six-ways-it-fails-silently-34a5",
+      "pubDate": "2026-09-16T11:32:02.000Z",
+      "description": "<p>I ship a WordPress plugin that real estate agents use to send postcards. When somebody scans the QR code on a card and lands on the agent's page, the agent should know within seconds — on their phone, with a Call button — because the first agent to ring usually gets the listing.</p> <p>That is a ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The Pairing Froze the Oracle File Before Any Agent Patch Landed",
-      "link": "https://dev.to/codehub_1304/the-pairing-froze-the-oracle-file-before-any-agent-patch-landed-2860",
-      "pubDate": "2026-09-16T04:39:38.000Z",
-      "description": "<p>A pairing session stays honest when the judge of correctness lives in a file the agent cannot edit. That rule sounds small, yet it prevents the most common failure of free-tier coding agents: green tests that no longer mean anything. The senior in this writeup refused every patch until a frozen o",
+      "title": "Real Time Communication: SSE vs WebSockets vs WebRTC",
+      "link": "https://dev.to/rai_shiv/real-time-communication-sse-vs-websockets-vs-webrtc-4alb",
+      "pubDate": "2026-09-16T11:27:20.000Z",
+      "description": "<h2> Real Time communication </h2> <p>Real-time communication enables systems to deliver updates as soon as information changes, rather than waiting for clients to ask for new data.</p> <p>In traditional request/response architectures, a client initiates every interaction. If new information is need",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The Skill-Driven Enterprise Bridging Intent and Execution with Governed AI Agents",
-      "link": "https://dev.to/vikas_mano_870c09cfee793f/the-skill-driven-enterprise-bridging-intent-and-execution-with-governed-ai-agents-4d69",
-      "pubDate": "2026-09-16T04:38:52.000Z",
-      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fiy134rdri8wzgip25n67.png\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/",
+      "title": "Vertex AI in Firebase is Now Firebase AI Logic – What Actually Changed",
+      "link": "https://dev.to/wayne_gakuo/vertex-ai-in-firebase-is-now-firebase-ai-logic-what-actually-changed-fbb",
+      "pubDate": "2026-09-16T11:27:18.000Z",
+      "description": "<h2> From Vertex AI in Firebase to Firebase AI Logic </h2> <p>If you learned Vertex AI in Firebase last year and came back in 2026 to find Firebase AI Logic, you’re not alone as I went through the same reset. I’d already shipped an <a href=\"https://bytewiseshop.web.app/\" rel=\"noopener noreferrer\">An",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Separate DNS Zone vs Subdomain — Non-Production Write Boundary Trade-Offs",
-      "link": "https://dev.to/thomasmoore5082/separate-dns-zone-vs-subdomain-non-production-write-boundary-trade-offs-210j",
-      "pubDate": "2026-09-16T04:36:57.000Z",
-      "description": "<p>TL;DR: give staging a separate DNS zone when its automation must be technically unable to write production records; keep a staging subdomain in one shared zone only when the same small owner can maintain an explicit suffix guard. For a property-management product that verifies tenant custom domai",
+      "title": "How to Start Your Journey as a Full-Stack Web Developer",
+      "link": "https://dev.to/wahid_ullah_netdev13/how-to-start-your-journey-as-a-full-stack-web-developer-4pgf",
+      "pubDate": "2026-09-16T11:25:11.000Z",
+      "description": "<p>Becoming a Full-Stack Developer is a practical journey that requires consistent learning, hands-on practice, and real-world projects. Start by building a strong foundation in HTML, CSS, and JavaScript. HTML provides the structure of a website, CSS creates its design and responsive layout, while J",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Canary Verdicts Do Not Belong on Free Inference",
-      "link": "https://dev.to/aiio_6471/canary-verdicts-do-not-belong-on-free-inference-1dg6",
-      "pubDate": "2026-09-16T04:36:17.000Z",
-      "description": "<p>A canary is a production contract with a short fuse. Free, best-effort inference can narrate the numbers after the fact. It must not be the function that returns promote or rollback while live traffic is already on the new build.</p> <p>Merge gates fail in a waiting room. Canaries fail in public.",
+      "title": "What the Agent Pays for Discovery",
+      "link": "https://dev.to/steefjan_wiggers_34a415b/what-the-agent-pays-for-discovery-221a",
+      "pubDate": "2026-09-16T11:15:02.000Z",
+      "description": "<p>A reader of <a href=\"https://dev.to/steefjan_wiggers_34a415b/mcp-vs-api-is-the-wrong-question-392f\">MCP vs API Is the Wrong Question</a> asked the question I could not answer at the time: did you measure the token cost of the live MCP discovery round trip against handing the model a curated tool ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I built a tool to check if AI-generated citations actually exist",
-      "link": "https://dev.to/ken_o_14fe4905fb0a82d38a/i-built-a-tool-to-check-if-ai-generated-citations-actually-exist-cle",
-      "pubDate": "2026-09-16T04:35:58.000Z",
-      "description": "<p>I’ve been working on <a href=\"https://citetrue.com/citation-checker\" rel=\"noopener noreferrer\">CiteTrue</a>, a tool that checks whether academic citations actually exist.</p> <p>AI is becoming a normal part of research and writing, but there’s still one problem I kept noticing: it can generate re",
+      "title": "The models small enough to fit on a phone are the worst at understanding children",
+      "link": "https://dev.to/whywave/the-models-small-enough-to-fit-on-a-phone-are-the-worst-at-understanding-children-5dan",
+      "pubDate": "2026-09-16T11:14:01.000Z",
+      "description": "<p>For an ordinary voice product, the choice between processing on the device and processing in the cloud is a question of money and latency. For a children's product it is a question of market access, and it gets settled before the first line of code. We are building WhyWave, a voice companion for ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Beyond Proof-of-Work: Understanding Hardware Fingerprinting and Proof-of-Antiquity in Distributed Consensus",
-      "link": "https://dev.to/analebycampos15create/beyond-proof-of-work-understanding-hardware-fingerprinting-and-proof-of-antiquity-in-distributed-43c0",
-      "pubDate": "2026-09-16T04:35:09.000Z",
-      "description": "<h3> Introduction: The Problem with Pure Hashpower and Capital Weight </h3> <p>Contemporary blockchain consensus mechanisms have historically polarized around two dominant paradigms: <strong>Proof-of-Work (PoW)</strong> and <strong>Proof-of-Stake (PoS)</strong>. </p> <ul> <li> <strong>Proof-of-Work<",
+      "title": "\"I Was Paying $800/Month for AI APIs. Then I Did This.\"",
+      "link": "https://dev.to/by_ff_0e85527690bd7d01511/i-was-paying-800month-for-ai-apis-then-i-did-this-1818",
+      "pubDate": "2026-09-16T11:10:55.000Z",
+      "description": "<p>How I Cut My AI API Costs by 60% Without Changing a Single Line of Model Code</p> <p>If you're building with LLMs in production, your API bill is probably growing faster than your user base.</p> <p>I've been there. Three months into running an AI-powered app, I was spending $800/month on OpenAI a",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "5 Rules for Creating and Reusing Image Presets in Game Catalogs",
-      "link": "https://dev.to/valenciamoss6824/5-rules-for-creating-and-reusing-image-presets-in-game-catalogs-47ha",
-      "pubDate": "2026-09-16T04:33:24.000Z",
-      "description": "<p>Creating and reusing image transformation presets for game catalog derivatives has an awkward constraint: a thumbnail must feel immediate after an asset upload, while every derivative still has to be reproducible months later when a storefront adds another viewport.</p> <p>Short answer: create im",
+      "title": "Your Website Was Seen 116,181 Times and Clicked 9 Times. Here's What Search Engines and AI Systems Are Actually Doing.",
+      "link": "https://dev.to/edo911/your-website-was-seen-116181-times-and-clicked-9-times-heres-what-search-engines-and-ai-systems-435d",
+      "pubDate": "2026-09-16T11:05:56.000Z",
+      "description": "<h1> Your Website Was Seen 116,181 Times and Clicked 9 Times </h1> <h2> What Search Engines and AI Systems Are Actually Doing With Your Pages </h2> <blockquote> <p><strong>September 2026 · first-party AuditMe data · Google Search Console + AI-performance observations</strong></p> </blockquote> <p>Mo",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Back in the same workspace, but which visit owns the result?",
-      "link": "https://dev.to/joinwell52/back-in-the-same-workspace-but-which-visit-owns-the-result-39l9",
-      "pubDate": "2026-09-16T04:33:22.000Z",
-      "description": "<h1> Back in the same workspace, but which visit owns the result? </h1> <p>An A→B→A navigation can make an old request look current again. We controlled its completion time and compared a generation check with a version deliberately missing that check.</p> <p>You open workspace A while its file list",
+      "title": "Building a Zero-Dependency Cyberpunk AI Prompt Widget for Website Sidebars (Full Source Code)",
+      "link": "https://dev.to/dev_alex_matrix/building-a-zero-dependency-cyberpunk-ai-prompt-widget-for-website-sidebars-full-source-code-23aa",
+      "pubDate": "2026-09-16T11:05:30.000Z",
+      "description": "<p>Hey dev community! 👋</p> <p>I wanted to find a clean way to increase user time-on-page metrics for a tech blog without bloating the server with heavy tracking frameworks or bulky WordPress plugins. </p> <p>To solve this, I engineered a highly compact, hyper-dark cyberpunk <strong>AI Prompt Archi",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "T for Tanuj, T for Timestream: Exploring Amazon Timestream",
-      "link": "https://dev.to/tanuj_aj_c22d6688be1eaa79/t-for-tanuj-t-for-timestream-exploring-amazon-timestream-25n2",
-      "pubDate": "2026-09-16T04:33:21.000Z",
-      "description": "<h2> Introduction </h2> <p>As part of my AWS learning activity, I participated in the Rhyming Game Contest, where each student had to select an AWS service connected to the first letter of their name.</p> <p>My name is <strong>Tanuj A J</strong>, so I selected <strong>Amazon Timestream</strong>.</p>",
+      "title": "Why AI Video Tools Should Focus on the Workflow, Not Just Generation",
+      "link": "https://dev.to/smartappsstudio_1/why-ai-video-tools-should-focus-on-the-workflow-not-just-generation-3m1a",
+      "pubDate": "2026-09-16T11:03:34.000Z",
+      "description": "<p>Creating a short video involves more than producing visuals.</p> <p>Before the final video exists, creators often need to:</p> <p>define the idea<br> write the script<br> create a strong hook<br> decide the length<br> choose a voice<br> prepare captions<br> plan the sequence<br> improve the final",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "Salesforce Global Outage",
+      "link": "https://status.salesforce.com/products/all",
+      "pubDate": "2026-09-16T10:37:08.000Z",
+      "description": "Article URL: https://status.salesforce.com/products/all Comments URL: https://news.ycombinator.com/item?id=49724488 Points: 28 # Comments: 9",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "EU chief opens door for Canada to become 'associate member'",
+      "link": "https://www.bbc.com/news/articles/cjwyzrr9d3dko",
+      "pubDate": "2026-09-16T09:54:05.000Z",
+      "description": "Article URL: https://www.bbc.com/news/articles/cjwyzrr9d3dko Comments URL: https://news.ycombinator.com/item?id=49724141 Points: 168 # Comments: 104",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Learning Programming in an Age of LLMs",
+      "link": "https://blog.ploeh.dk/2026/09/16/on-learning-programming-in-an-age-of-llms/",
+      "pubDate": "2026-09-16T09:12:34.000Z",
+      "description": "Article URL: https://blog.ploeh.dk/2026/09/16/on-learning-programming-in-an-age-of-llms/ Comments URL: https://news.ycombinator.com/item?id=49723873 Points: 66 # Comments: 41",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Mistral X Mozilla: Private, Multilingual AI Browsing",
+      "link": "https://mistral.ai/news/mistral-x-mozilla/",
+      "pubDate": "2026-09-16T08:08:57.000Z",
+      "description": "Article URL: https://mistral.ai/news/mistral-x-mozilla/ Comments URL: https://news.ycombinator.com/item?id=49723408 Points: 79 # Comments: 17",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "MartyPC – A Cycle-Accurate IBM PC/XT Emulator",
+      "link": "https://github.com/dbalsom/martypc",
+      "pubDate": "2026-09-16T05:56:02.000Z",
+      "description": "Article URL: https://github.com/dbalsom/martypc Comments URL: https://news.ycombinator.com/item?id=49722591 Points: 22 # Comments: 2",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "A software thing I built: GPS on a 25MHz 486-SX",
+      "link": "https://forum.vcfed.org/index.php?threads/a-software-thing-i-built-gps-on-a-25mhz-486-sx.1258966/",
+      "pubDate": "2026-09-16T05:43:44.000Z",
+      "description": "Article URL: https://forum.vcfed.org/index.php?threads/a-software-thing-i-built-gps-on-a-25mhz-486-sx.1258966/ Comments URL: https://news.ycombinator.com/item?id=49722521 Points: 32 # Comments: 8",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Datamimic – don't let your coding agent invent its own test world",
+      "link": "https://github.com/rapiddweller/datamimic",
+      "pubDate": "2026-09-16T04:58:36.000Z",
+      "description": "Article URL: https://github.com/rapiddweller/datamimic Comments URL: https://news.ycombinator.com/item?id=49722276 Points: 44 # Comments: 7",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "Negativland, Culture Jamming, and the Art of Making Something New",
       "link": "https://blog.archive.org/2026/09/11/negativland-culture-jamming-and-the-art-of-making-something-new/",
       "pubDate": "2026-09-16T02:46:06.000Z",
-      "description": "Article URL: https://blog.archive.org/2026/09/11/negativland-culture-jamming-and-the-art-of-making-something-new/ Comments URL: https://news.ycombinator.com/item?id=49721548 Points: 35 # Comments: 11",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Stay discoverable in search while disallowing AI training",
-      "link": "https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers/",
-      "pubDate": "2026-09-16T02:25:18.000Z",
-      "description": "Article URL: https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers/ Comments URL: https://news.ycombinator.com/item?id=49721435 Points: 37 # Comments: 19",
+      "description": "Article URL: https://blog.archive.org/2026/09/11/negativland-culture-jamming-and-the-art-of-making-something-new/ Comments URL: https://news.ycombinator.com/item?id=49721548 Points: 88 # Comments: 22",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -109,7 +157,7 @@
       "title": "Apple Reference Image: A New Approach for Verified Photography",
       "link": "https://security.apple.com/blog/apple-reference-image/",
       "pubDate": "2026-09-16T02:07:31.000Z",
-      "description": "Article URL: https://security.apple.com/blog/apple-reference-image/ Comments URL: https://news.ycombinator.com/item?id=49721322 Points: 66 # Comments: 39",
+      "description": "Article URL: https://security.apple.com/blog/apple-reference-image/ Comments URL: https://news.ycombinator.com/item?id=49721322 Points: 293 # Comments: 205",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -117,55 +165,7 @@
       "title": "Saving Jet Fuel",
       "link": "https://tech.marksblogg.com/scikit-decide-openap-optimal-flight-planning.html",
       "pubDate": "2026-09-15T23:17:20.000Z",
-      "description": "Article URL: https://tech.marksblogg.com/scikit-decide-openap-optimal-flight-planning.html Comments URL: https://news.ycombinator.com/item?id=49720164 Points: 58 # Comments: 23",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Recreating Voodoo Graphics and a Late-1990s Gaming PC on an FPGA",
-      "link": "https://nand2mario.github.io/posts/2026/zsst-voodoo/",
-      "pubDate": "2026-09-15T22:50:55.000Z",
-      "description": "Article URL: https://nand2mario.github.io/posts/2026/zsst-voodoo/ Comments URL: https://news.ycombinator.com/item?id=49719938 Points: 69 # Comments: 11",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "German Rheinmetall open-sources its Battlesuite connected weapon system protcol",
-      "link": "https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html",
-      "pubDate": "2026-09-15T21:07:47.000Z",
-      "description": "Article URL: https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html Comments URL: https://news.ycombinator.com/item?id=49718928 Points: 160 # Comments: 46",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Jean-Pierre Serre turns 100",
-      "link": "https://mathshistory.st-andrews.ac.uk/Biographies/Serre/",
-      "pubDate": "2026-09-15T20:57:18.000Z",
-      "description": "Article URL: https://mathshistory.st-andrews.ac.uk/Biographies/Serre/ Comments URL: https://news.ycombinator.com/item?id=49718822 Points: 111 # Comments: 19",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Building a Linux GPU Driver for the M4 Mac Mini in One Month",
-      "link": "https://codyho.dev/blog/gpu-driver/",
-      "pubDate": "2026-09-15T19:30:03.000Z",
-      "description": "Article URL: https://codyho.dev/blog/gpu-driver/ Comments URL: https://news.ycombinator.com/item?id=49717638 Points: 208 # Comments: 130",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "WangNet – 1.8 MB, zero-dependency Numberwang adjudication in 11 languages",
-      "link": "https://github.com/GraafHenk/numberwang",
-      "pubDate": "2026-09-15T19:27:35.000Z",
-      "description": "Article URL: https://github.com/GraafHenk/numberwang Comments URL: https://news.ycombinator.com/item?id=49717605 Points: 124 # Comments: 47",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Introducing System One Models and Jev",
-      "link": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
-      "pubDate": "2026-09-15T19:25:03.000Z",
-      "description": "Article URL: https://typesafe.ai/blog/introducing-system-one-models-and-jev Comments URL: https://news.ycombinator.com/item?id=49717558 Points: 967 # Comments: 302",
+      "description": "Article URL: https://tech.marksblogg.com/scikit-decide-openap-optimal-flight-planning.html Comments URL: https://news.ycombinator.com/item?id=49720164 Points: 102 # Comments: 51",
       "source": "Hacker News",
       "category": "Tech News"
     },
