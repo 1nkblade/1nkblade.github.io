@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T04:54:10.583Z",
+  "generatedAt": "2026-09-17T11:42:42.498Z",
   "sourceCount": 4,
   "successCount": 3,
   "errors": [
@@ -10,90 +10,130 @@
   ],
   "items": [
     {
-      "title": "A Safer Way to Validate Social Publishing Automation",
-      "link": "https://dev.to/noah_taro_1e3297725e3fcbf/a-safer-way-to-validate-social-publishing-automation-kig",
-      "pubDate": "2026-09-17T04:37:17.000Z",
-      "description": "<p>Reliable social publishing automation is not just about making the final click happen. If you only measure whether a post was sent, you can miss the failures that matter most: the wrong account, the wrong page, a half-loaded editor, incomplete content, or missing media. A safer approach is to tre",
+      "title": "SQL Operations in a nutshell :",
+      "link": "https://dev.to/rapidlashes/sql-operations-in-a-nutshell--51fh",
+      "pubDate": "2026-09-17T11:35:59.000Z",
+      "description": "<p>Congratulations, we now have worked on retrieving data. Next step is now how to work on that data to produce ready to use output. In this article we will basically cover how to transform, calculate and reshape data directly inside a querry rather than pulling those raw values and working with the",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The Prompt Changed and There Is No Commit for It",
-      "link": "https://dev.to/sergueyasaelshinder/the-prompt-changed-and-there-is-no-commit-for-it-1nmd",
-      "pubDate": "2026-09-17T04:37:13.000Z",
-      "description": "<p>The answers got worse on Tuesday.</p> <p>Nothing shipped on Monday.</p> <p>The code is identical<br> to the code that worked last week.</p> <p>The branch has not moved.</p> <p>Somebody edited the prompt<br> in a browser console<br> on Friday afternoon.</p> <p>There is no commit.</p> <p>No author.",
+      "title": "\"The agent said it would wait, and didn't\"",
+      "link": "https://dev.to/lisandro_reinoso_d12ac7b9/the-agent-said-it-would-wait-and-didnt-1keb",
+      "pubDate": "2026-09-17T11:35:33.000Z",
+      "description": "<p>This morning, before launching the forks that refined this note's tickets, I exported an environment variable by hand from outside the script that starts the loop. I set it that way every time I run this project. Five nights ago that variable didn't exist anywhere, and not knowing that cost USD 2",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "They Uploaded a File and It Was Not an Image",
-      "link": "https://dev.to/sergueyasaelshinder/they-uploaded-a-file-and-it-was-not-an-image-1dd2",
-      "pubDate": "2026-09-17T04:36:40.000Z",
-      "description": "<p>Somebody uploaded a profile picture.</p> <p>It was not a picture.</p> <p>The endpoint checked the extension.</p> <p>The file was called avatar.png,<br> and an extension is not a fact.</p> <p>It is a claim,<br> typed by the person uploading.</p> <p>The content type header<br> is the same claim,<br",
+      "title": "Apache Iceberg Maintenance Tools: From Spark Procedures to Autonomous Control Planes",
+      "link": "https://dev.to/jonisar/apache-iceberg-maintenance-tools-from-spark-procedures-to-autonomous-control-planes-lbi",
+      "pubDate": "2026-09-17T11:34:50.000Z",
+      "description": "<p>Every write to an Apache Iceberg table creates a new snapshot. Every snapshot pins references to data files. Over weeks of production workloads, this produces thousands of small files, bloated metadata, orphaned storage artifacts, and dangling delete records — all of which silently degrade query ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I built guardrails for Claude Code after it told me a fix \"worked\" when it didn't",
-      "link": "https://dev.to/kuvosuco/i-built-guardrails-for-claude-code-after-it-told-me-a-fix-worked-when-it-didnt-2a32",
-      "pubDate": "2026-09-17T04:32:19.000Z",
-      "description": "<p>Just shipped this after getting burned one too many times: <strong>Claude Code Guardrails Pack</strong> — free hooks and skills that stop an AI coding agent from claiming work is done when it never actually checked.</p> <h2> The problem </h2> <p>You've probably hit this if you use Claude Code (or",
+      "title": "Catching \"invoice.pdf.exe\" before you open it: a tool that identifies a file's real type from its first bytes",
+      "link": "https://dev.to/okinawasoftware/catching-invoicepdfexe-before-you-open-it-a-tool-that-identifies-a-files-real-type-from-its-3kjh",
+      "pubDate": "2026-09-17T11:32:01.000Z",
+      "description": "<p>Windows hides file extensions by default. So an executable named <code>invoice.pdf.exe</code> shows up in Explorer as <code>invoice.pdf</code>. Give it a PDF icon and there is nothing left to tell it apart by looking.</p> <p>An extension, though, is only a <em>claim</em>. A PDF always starts with",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Who Maintains ERP Customisations After Go-Live?",
-      "link": "https://dev.to/aprilaide/who-maintains-erp-customisations-after-go-live-o5",
-      "pubDate": "2026-09-17T04:32:01.000Z",
-      "description": "<p>An ERP can be live and still leave important work outside the system.</p> <p>The finance team may still reconcile production data by hand. A warehouse may keep a side spreadsheet because a customer needs a non-standard format. A report may still take half a day because the ERP data does not match",
+      "title": "I Built Relay_: The Open-Source Layer Between Your API and the Internet",
+      "link": "https://dev.to/mohitdebian/i-built-relay-the-open-source-layer-between-your-api-and-the-internet-g5m",
+      "pubDate": "2026-09-17T11:30:58.000Z",
+      "description": "<p>I almost rage-quit my own side project last month because I spent 14 hours fighting AWS API Gateway just to validate a single API key. </p> <p>Actually, I didn't quit. I just got so unbelievably frustrated with the extortionate pricing and miserable UX of modern API tools that I rage-built my own",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Coupling vs. Cohesion: The Two Forces That Shape Good Software",
-      "link": "https://dev.to/nsikanadaowo/coupling-vs-cohesion-the-two-forces-that-shape-good-software-36gg",
-      "pubDate": "2026-09-17T04:31:45.000Z",
-      "description": "<p>Good software is not only about making each component work.</p> <p>It is also about deciding:</p> <ul> <li>What belongs together?</li> <li>What should stay separate?</li> <li>Which modules should know about each other?</li> <li>How much knowledge should one component have about another?</li> <li>",
+      "title": "The Adventures of Blink S6e3: The First Enhancement [NIST 800-53 CM(3)]",
+      "link": "https://dev.to/linkbenjamin/the-adventures-of-blink-s6e3-the-first-enhancement-nist-800-53-cm3-5eod",
+      "pubDate": "2026-09-17T11:29:00.000Z",
+      "description": "<p>Hey friends! Today on The Adventures of Blink we're continuing our efforts to repair the relationship between Engineering and Governance as we explore the first Enhancement to NIST 800-53 CM-3. The name of the game today is <em>AUTOMATION</em>.</p> <p>Do you think \"Compliance\" means filling out a",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Two days of kernel debugging ended at one default value",
-      "link": "https://dev.to/sarthakagrawal927/two-days-of-kernel-debugging-ended-at-one-default-value-19nd",
-      "pubDate": "2026-09-17T04:30:00.000Z",
-      "description": "<p>Browser training plateaued near a loss of 2.45. The curve was smooth enough to look like a model or kernel limit.</p> <p>The WebGPU kernels were not the cause. The browser used a learning rate of 3e-3 while the Python reference used 3e-4. The default had drifted by a factor of ten.</p> <p>Kernel ",
+      "title": "How to Actually Enforce Clean Architecture in TypeScript",
+      "link": "https://dev.to/argsoftware/how-to-actually-enforce-clean-architecture-in-typescript-1o4a",
+      "pubDate": "2026-09-17T11:28:47.000Z",
+      "description": "<p>You wrote the docs. You did the PR reviews. You explained it during onboarding. And yet, six months later, a bunch of controllers are directly importing a repository, and nobody noticed.</p> <h2> The Real Problem With Architecture </h2> <p>Clean Architecture, Hexagonal Architecture, layered archi",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "TopAccess: Freelancer Review",
-      "link": "https://dev.to/milla_z/topaccess-freelancer-review-2aj7",
-      "pubDate": "2026-09-17T04:29:15.000Z",
-      "description": "<p>The new offer for freelancers. For $29.95 a month, you stop depending on any single job platform's algorithm, any single marketplace's acceptance rate, any single recruiter's mood. Or at least that's the promise. TopAccess — a subscription RemoteOK started selling this year — bundles your freelan",
+      "title": "I put a whole Laravel app inside php-wasm on a phone. Here is what broke.",
+      "link": "https://dev.to/jeffsynister/i-put-a-whole-laravel-app-inside-php-wasm-on-a-phone-here-is-what-broke-29pc",
+      "pubDate": "2026-09-17T11:23:14.000Z",
+      "description": "<p>php-wasm is usually shown running a snippet in a browser tab. I wanted the<br> opposite: the entire Laravel + Livewire app, with <code>vendor/</code>, running on the<br> device, inside a WebView, with no server anywhere. That is what NativeBlade<br> does, and pushing php-wasm that far exposes a s",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Why Important Work Stays “Almost Done” for Weeks",
-      "link": "https://dev.to/ksoft_technologies_33f7f6/why-important-work-stays-almost-done-for-weeks-idh",
-      "pubDate": "2026-09-17T04:23:32.000Z",
-      "description": "<p>A team can be busy all week and still finish almost nothing important.</p> <p>That sounds harsh, but it happens constantly.</p> <p>The project board is active.</p> <p>Standups happen.</p> <p>Tickets move.</p> <p>Updates are posted.</p> <p>People are clearly working.</p> <p>And yet the same strate",
+      "title": "Stop Debouncing Resize. The Browser Already Watches It.",
+      "link": "https://dev.to/parsajiravand/stop-debouncing-resize-the-browser-already-watches-it-1eh6",
+      "pubDate": "2026-09-17T11:19:53.000Z",
+      "description": "<p>Your dashboard has a sidebar that collapses into icons under 900px. Someone on the team drags the browser window slowly from a wide monitor to a narrower one, testing the responsive layout, and watches the sidebar flicker — collapse, expand, collapse, expand — three or four times before it settle",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Which Video Format Is Actually Smallest? H.264 vs VP9 vs AV1, Measured",
-      "link": "https://dev.to/lucian_lkb_1f009d/which-video-format-is-actually-smallest-h264-vs-vp9-vs-av1-measured-1b12",
-      "pubDate": "2026-09-17T04:22:49.000Z",
-      "description": "<p>\"Convert it to MP4 to save space\" is advice you hear constantly, and it's mostly wrong. MP4 is a <strong>container</strong> — a box that holds video, audio and metadata — not a compression method. The thing that actually decides the file size is the <strong>codec</strong> inside it: H.264, VP9 or",
+      "title": "AWS Compute Explained: EC2 vs ECS vs Fargate vs Lambda, and When to Use Which",
+      "link": "https://dev.to/muskan_bandta/aws-compute-explained-ec2-vs-ecs-vs-fargate-vs-lambda-and-when-to-use-which-2nc8",
+      "pubDate": "2026-09-17T11:17:29.000Z",
+      "description": "<p>AWS has a confusing number of ways to run your code, and the names do not tell you how they relate. EC2, ECS, Fargate, Lambda, and more, all \"compute,\" all overlapping. Beginners pick one semi-randomly and stick with it. Let me lay out what each actually is, how much of the work AWS does for you ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The Painful Truth: The RAM Crisis Is Only Just the Beginning",
-      "link": "https://www.madshrimps.be/news/the-painful-truth-the-ram-crisis-is-only-just-the-beginning/",
-      "pubDate": "2026-09-17T03:57:59.000Z",
-      "description": "Article URL: https://www.madshrimps.be/news/the-painful-truth-the-ram-crisis-is-only-just-the-beginning/ Comments URL: https://news.ycombinator.com/item?id=49736220 Points: 22 # Comments: 16",
+      "title": "Neovim have a ~$800k Bitcoin donation sitting untouched since 2023",
+      "link": "https://news.ycombinator.com/item?id=49738879",
+      "pubDate": "2026-09-17T10:44:49.000Z",
+      "description": "I was looking at neovim's donation footer at the bottom of their site and saw a bitcoin donation address.Thought I'd check how much in donations they've gotten. And I saw this massive 10 Bitcoin donation from back in 2023 (worth $800,000 now...)From the activity history, neovim last sent bitcoin out",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Better Vector Search for Long Documents: Chunking Inside Manticore Search",
+      "link": "https://manticoresearch.com/blog/auto-chunking/",
+      "pubDate": "2026-09-17T10:30:52.000Z",
+      "description": "Article URL: https://manticoresearch.com/blog/auto-chunking/ Comments URL: https://news.ycombinator.com/item?id=49738766 Points: 11 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "GLM Built Its Own Inference Infrastructure",
+      "link": "https://z.ai/blog/glm-built-its-inference-infrastructure",
+      "pubDate": "2026-09-17T08:27:09.000Z",
+      "description": "Article URL: https://z.ai/blog/glm-built-its-inference-infrastructure Comments URL: https://news.ycombinator.com/item?id=49737922 Points: 99 # Comments: 67",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "One Year of Sponsored Servo Development",
+      "link": "https://servo.org/blog/2026/09/15/one-year-of-sponsorship/",
+      "pubDate": "2026-09-17T08:13:54.000Z",
+      "description": "Article URL: https://servo.org/blog/2026/09/15/one-year-of-sponsorship/ Comments URL: https://news.ycombinator.com/item?id=49737849 Points: 122 # Comments: 51",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "OpenAI Model Misalignment Report",
+      "link": "https://openai.com/index/model-misalignment-reporting-framework/",
+      "pubDate": "2026-09-17T07:21:19.000Z",
+      "description": "Article URL: https://openai.com/index/model-misalignment-reporting-framework/ Comments URL: https://news.ycombinator.com/item?id=49737503 Points: 60 # Comments: 28",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Cloudflare/Security-Audit-Skill",
+      "link": "https://github.com/cloudflare/security-audit-skill",
+      "pubDate": "2026-09-17T04:36:55.000Z",
+      "description": "Article URL: https://github.com/cloudflare/security-audit-skill Comments URL: https://news.ycombinator.com/item?id=49736466 Points: 83 # Comments: 16",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -101,31 +141,7 @@
       "title": "Keys Not Included: recovering the signing keys for US driver's license barcodes",
       "link": "https://ryan.science/blog/keys-not-included",
       "pubDate": "2026-09-17T03:03:23.000Z",
-      "description": "Article URL: https://ryan.science/blog/keys-not-included Comments URL: https://news.ycombinator.com/item?id=49735930 Points: 62 # Comments: 16",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Monsanto's Cruel, and Dangerous, Monopolization on American Farming (2008)",
-      "link": "https://www.vanityfair.com/news/2008/05/monsanto200805",
-      "pubDate": "2026-09-17T02:19:49.000Z",
-      "description": "Article URL: https://www.vanityfair.com/news/2008/05/monsanto200805 Comments URL: https://news.ycombinator.com/item?id=49735692 Points: 26 # Comments: 9",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "DeepSeek-v4.1 Flash: Pushing the Limits of KV Cache Compression",
-      "link": "https://zartbot.github.io/blog/model_arch/dsv41flash_arch/en.html",
-      "pubDate": "2026-09-17T01:39:47.000Z",
-      "description": "Article URL: https://zartbot.github.io/blog/model_arch/dsv41flash_arch/en.html Comments URL: https://news.ycombinator.com/item?id=49735410 Points: 70 # Comments: 6",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Part-human part-mouse brain developed in science breakthrough",
-      "link": "https://www.bbc.com/news/articles/c60m3k28j81mo",
-      "pubDate": "2026-09-17T01:33:10.000Z",
-      "description": "Article URL: https://www.bbc.com/news/articles/c60m3k28j81mo Comments URL: https://news.ycombinator.com/item?id=49735367 Points: 13 # Comments: 10",
+      "description": "Article URL: https://ryan.science/blog/keys-not-included Comments URL: https://news.ycombinator.com/item?id=49735930 Points: 193 # Comments: 71",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -133,7 +149,7 @@
       "title": "The Return of Sail Power: Cargo Ships Are Turning Back to the Wind",
       "link": "https://gcaptain.com/the-return-of-sail-power-cargo-ships-are-turning-back-to-the-wind/",
       "pubDate": "2026-09-17T00:28:33.000Z",
-      "description": "Article URL: https://gcaptain.com/the-return-of-sail-power-cargo-ships-are-turning-back-to-the-wind/ Comments URL: https://news.ycombinator.com/item?id=49734929 Points: 41 # Comments: 18",
+      "description": "Article URL: https://gcaptain.com/the-return-of-sail-power-cargo-ships-are-turning-back-to-the-wind/ Comments URL: https://news.ycombinator.com/item?id=49734929 Points: 104 # Comments: 71",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -141,7 +157,7 @@
       "title": "OpenSpec – A lightweight and configurable AI spec framework",
       "link": "https://openspec.dev/",
       "pubDate": "2026-09-16T23:06:39.000Z",
-      "description": "Article URL: https://openspec.dev/ Comments URL: https://news.ycombinator.com/item?id=49734264 Points: 100 # Comments: 38",
+      "description": "Article URL: https://openspec.dev/ Comments URL: https://news.ycombinator.com/item?id=49734264 Points: 149 # Comments: 66",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -149,23 +165,7 @@
       "title": "HarnessTax: How Much Does the Harness Matter for Coding Agents?",
       "link": "https://harnesstax.github.io/",
       "pubDate": "2026-09-16T22:10:13.000Z",
-      "description": "Article URL: https://harnesstax.github.io/ Comments URL: https://news.ycombinator.com/item?id=49733726 Points: 73 # Comments: 21",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Breaking the 1.58-bit Barrier for Ternary LLMs",
-      "link": "https://arxiv.org/abs/2609.16338",
-      "pubDate": "2026-09-16T20:59:24.000Z",
-      "description": "Article URL: https://arxiv.org/abs/2609.16338 Comments URL: https://news.ycombinator.com/item?id=49732931 Points: 163 # Comments: 22",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Backups Aren't Simple",
-      "link": "https://filipovski.net/2026/09/16/backups-arent-simple.html",
-      "pubDate": "2026-09-16T20:27:16.000Z",
-      "description": "Article URL: https://filipovski.net/2026/09/16/backups-arent-simple.html Comments URL: https://news.ycombinator.com/item?id=49732513 Points: 137 # Comments: 73",
+      "description": "Article URL: https://harnesstax.github.io/ Comments URL: https://news.ycombinator.com/item?id=49733726 Points: 143 # Comments: 55",
       "source": "Hacker News",
       "category": "Tech News"
     },
