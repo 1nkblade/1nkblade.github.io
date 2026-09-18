@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T04:44:51.516Z",
+  "generatedAt": "2026-09-18T11:16:21.462Z",
   "sourceCount": 4,
   "successCount": 3,
   "errors": [
@@ -10,90 +10,114 @@
   ],
   "items": [
     {
-      "title": "\"Forces Receipts\" Is a Compliment I Haven't Earned Yet",
-      "link": "https://dev.to/starebrain/forces-receipts-is-a-compliment-i-havent-earned-yet-41ei",
-      "pubDate": "2026-09-18T04:35:13.000Z",
-      "description": "<p>Someone replied to a post today calling StareBrain something that \"forces receipts.\" I liked the phrase enough to want it to be true, and honest enough to know it isn't, yet. Worth writing down exactly what's missing between the compliment and the actual system.</p> <p>What a receipt would even m",
+      "title": "Jev vs Claude: Who Wins?",
+      "link": "https://dev.to/bengreenberg/jev-vs-claude-who-wins-4mln",
+      "pubDate": "2026-09-18T11:15:07.000Z",
+      "description": "<p>I did not need Jev to beat Claude or Kimi on a benchmark. I needed to know whether I could trust it with a decision I actually make regularly, where a false pass matters and uncertainty cannot just be hidden behind confident prose.</p> <p><em>That is a much harder test of the product claim.</em><",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Reducing LLM API Costs in Production: What Actually Moves the Needle",
-      "link": "https://dev.to/morgan_67fa9f776ebc6/reducing-llm-api-costs-in-production-what-actually-moves-the-needle-c7j",
-      "pubDate": "2026-09-18T04:33:59.000Z",
-      "description": "<p>If you've shipped an LLM-powered feature, you've probably had the moment where the bill arrives and it's 3x what you modeled. This isn't a \"which model is cheapest\" post it's a rundown of the concrete techniques that actually reduce spend once you're past the prototype stage.</p> <h1> 1. Cache ag",
+      "title": "Troubleshooting .NET MAUI on macOS: From Build Errors to Device Debugging",
+      "link": "https://dev.to/sanket00123/troubleshooting-net-maui-on-macos-from-build-errors-to-device-debugging-3ok2",
+      "pubDate": "2026-09-18T11:12:58.000Z",
+      "description": "<blockquote> <p><strong>Part 2 of 2 - Troubleshooting the development environment</strong></p> </blockquote> <p>In <a href=\"https://dev.to/sanket00123/setting-up-a-reliable-net-maui-development-environment-on-macos-4omb\">Part 1</a>, I covered how I approached setting up a reliable .NET MAUI developm",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "AI pair-programming became useful when every idea met a benchmark",
-      "link": "https://dev.to/sarthakagrawal927/ai-pair-programming-became-useful-when-every-idea-met-a-benchmark-5108",
-      "pubDate": "2026-09-18T04:30:00.000Z",
-      "description": "<p>The most confident optimization suggestions were not always the useful ones.</p> <p>An 8 by 8 register block sounded better than 4 by 4 because it offered more reuse. It ran slower. Packed f16 storage sounded additive with tiling. It was not. A vectorized kernel won its standalone benchmark and i",
+      "title": "Logging in Django: From Basics to Production (Part 2: Python Logging Fundamentals)",
+      "link": "https://dev.to/reza_moon/logging-in-django-from-basics-to-production-part-2-python-logging-fundamentals-230c",
+      "pubDate": "2026-09-18T11:12:04.000Z",
+      "description": "<blockquote> <p>📌 <em>This article is Part 2 of a multi-part series: *</em>\"Logging in Django: From Basics to Production\"*<em>.</em><br><br> <em>If you missed Part 1, check it out here: <a href=\"https://dev.to/reza_moon/logging-in-django-from-basics-to-production-part-1-why-logging-2m03\">Part 1: Wh",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Who Fixes ERP Integrations When the Implementation Partner Leaves?",
-      "link": "https://dev.to/aprilaide/who-fixes-erp-integrations-when-the-implementation-partner-leaves-3gam",
-      "pubDate": "2026-09-18T04:22:45.000Z",
-      "description": "<p>An ERP integration does not stop needing an owner when implementation ends.</p> <p>The direct answer is: <strong>the company needs a named maintenance owner for every custom connection that sits outside the vendor's standard product</strong>. That owner might be the original implementation partne",
+      "title": "Backtracking : Exploring Choices and Undoing Wrong Decisions",
+      "link": "https://dev.to/polyvexr/backtracking-exploring-choices-and-undoing-wrong-decisions-1253",
+      "pubDate": "2026-09-18T11:08:00.000Z",
+      "description": "<h2> Why should you care? </h2> <p>Many problems don't have an obvious single correct choice.</p> <p>Instead, you have multiple possibilities:<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight plaintext\"><code>Choice A Choice B Choice C ... </code></pre> </div> <p>You need to ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Your Company Is Adding AI Faster Than It Can Change How Work Gets Done",
-      "link": "https://dev.to/ksoft_technologies_33f7f6/your-company-is-adding-ai-faster-than-it-can-change-how-work-gets-done-41nd",
-      "pubDate": "2026-09-18T04:22:14.000Z",
-      "description": "<p>What a Fractional Integrator does when AI creates more tools but not better execution.</p> <p>AI adoption is moving faster than most companies can redesign the way work actually happens.</p> <p>That is the part I think technical leaders should pay more attention to.</p> <p>The conversation usuall",
+      "title": "Your SKILL.md is production config. Test it like one.",
+      "link": "https://dev.to/scs0209/your-skillmd-is-production-config-test-it-like-one-d91",
+      "pubDate": "2026-09-18T11:06:59.000Z",
+      "description": "<h1> Your SKILL.md is production config. Test it like one. </h1> <p>You maintain agent skills — the SKILL.md instruction files that steer Claude Code, Cursor, Codex, or any coding agent. Careless edits feel cheap: rewrite one instruction line, done.</p> <p>The problem is what happens next. That one ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I got tired of babysitting coding agents",
-      "link": "https://dev.to/brasthapp/i-got-tired-of-babysitting-coding-agents-jen",
-      "pubDate": "2026-09-18T04:20:40.000Z",
-      "description": "<p>I love coding agents. I also got tired of being their night-shift project manager.</p> <p>The loop looks familiar:</p> <p>prompt → wait → almost right → correct → wait → open a second agent → they step on the same files → exit 0 → you still will not merge.</p> <p>That last part is the one that br",
+      "title": "What a 401 Means to an MCP Client",
+      "link": "https://dev.to/steefjan_wiggers_34a415b/what-a-401-means-to-an-mcp-client-1a5i",
+      "pubDate": "2026-09-18T11:06:43.000Z",
+      "description": "<p>Twice in this series, a client refused to connect to a working MCP server, and both refusals looked like bugs until they turned out to be the specification doing its job.</p> <p>The first was in <a href=\"https://dev.to/steefjan_wiggers_34a415b/mcp-vs-api-is-the-wrong-question-392f\">MCP vs API Is ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Day 12 - NoSQL Deep Dive - Document, Key-Value, Graph কোনটা কখন?",
-      "link": "https://dev.to/mislam-dev/day-12-nosql-deep-dive-document-key-value-graph-konttaa-kkhn-2gda",
-      "pubDate": "2026-09-18T04:20:00.000Z",
-      "description": "<p>একটা জিনিস চিন্তা করুন, আপনি চাইলেই সবসময় organized way-তে থাকতে পারবেন না। এটা nearly impossible। আর যদি হয়ে যান, তাহলে আপনি মানুষ থেকে robot হয়ে গেছেন। কোনোভাবে আপনার অবস্থা কিছুটা হলেও একটু এলোমেলো হবেই, এটাই normal ব্যাপার। এবং মজার ব্যাপার হচ্ছে এই এলোমেলো হওয়ার tendency-টাই আপনাকে productiv",
+      "title": "Alt-g and Readline shortcuts that make Bash completion a bit more convenient",
+      "link": "https://dev.to/vast-cow/alt-g-and-readline-shortcuts-that-make-bash-completion-a-bit-more-convenient-39gl",
+      "pubDate": "2026-09-18T11:05:17.000Z",
+      "description": "<p>Let's say you're using Bash and you have a directory like this:<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight shell\"><code><span class=\"nv\">$ </span><span class=\"nb\">ls </span>aaa-bbb-ccc </code></pre> </div> <p>You want to move to this directory, but you only remember ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Domain Retirement Guard: Log Intent Before a Destructive Automation Operation",
-      "link": "https://dev.to/callumreed2198/domain-retirement-guard-log-intent-before-a-destructive-automation-operation-3i04",
-      "pubDate": "2026-09-18T04:17:52.000Z",
-      "description": "<p>An e-commerce migration changes the answer when one automation account can see both customer-owned and platform-owned zones. <strong>Short answer: permit deletion only for an exact customer-zone allowlist, require a separate approval flag, persist the operator's intent before the call, and dedupl",
+      "title": "My Journey to Becoming a Microsoft Innovative Educator Expert",
+      "link": "https://dev.to/ngtduc693/my-journey-to-becoming-a-microsoft-innovative-educator-expert-5ff0",
+      "pubDate": "2026-09-18T11:04:49.000Z",
+      "description": "<p>Hi, I'm <a href=\"mailto:ngtduc693@gmail.com\">Duke</a> from <a href=\"https://nexus.io.vn/about\" rel=\"noopener noreferrer\">Nexus</a>, I’m proud to share a meaningful milestone in my professional journey:</p> <p><strong>I have officially become a Microsoft Innovative Educator Expert (MIEE).</strong>",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Permissions &amp; Tool Allowlisting in Claude Code: A Beginner's Guide",
-      "link": "https://dev.to/alimurrazi/permissions-tool-allowlisting-in-claude-code-a-beginners-guide-592i",
-      "pubDate": "2026-09-18T04:16:58.000Z",
-      "description": "<h2> The Scenario </h2> <p>Remember the setup from the <a href=\"https://dev.to/alimurrazi/agents-and-skills-in-claude-code-a-beginners-guide-24hk\">first article</a> — a project with <code>CLAUDE.md</code>, an <code>api-conventions</code> skill, and a <code>code-reviewer</code> subagent, all working ",
+      "title": "Should you harness the harness: what Archon is, and how you use it",
+      "link": "https://dev.to/dani_shemesh/should-you-harness-the-harness-what-archon-is-and-how-you-use-it-3e5f",
+      "pubDate": "2026-09-18T11:01:50.000Z",
+      "description": "<p><a href=\"https://fullgc.github.io/should-you-harness-the-harness-part-2/\" rel=\"noopener noreferrer\">Part two</a> defined the category and named two tools in it. This part is one of them from the outside: Archon, the engine we have been evaluating. How a run starts, what composes with what, what t",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "YC Asked for It. I Built It. It Failed Completely.",
-      "link": "https://dev.to/nomiss_justfake/yc-asked-for-it-i-built-it-it-failed-completely-16f9",
-      "pubDate": "2026-09-18T04:16:21.000Z",
-      "description": "<p>I have around 50,000 startup ideas in my head all the time. But this time, I wanted to build something that had more \"proven demand,\" and getting some external validation before my journey sounded good.</p> <p>I found this idea in the Request for Startups Fall 2026 edition. I had been playing wit",
+      "title": "LimeWire just dropped an unhinged manifesto on the AI industry - and they’re terrifyingly right",
+      "link": "https://dev.to/alexv_data/limewire-just-dropped-an-unhinged-manifesto-on-the-ai-industry-and-theyre-terrifyingly-right-2iac",
+      "pubDate": "2026-09-18T11:00:56.000Z",
+      "description": "<p>Like most developers who survived the 2000s, seeing the name <strong>LimeWire</strong> in 2026 usually triggers a mild dose of PTSD involving dial-up tones, ruined hard drives, and suspicious <code>.mp3.exe</code> files. </p> <p>So when a link to their new editorial dispatch landed in our team Sl",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Waymo in Singapore",
-      "link": "https://waymo.com/waymo-in-singapore/",
-      "pubDate": "2026-09-18T03:49:24.000Z",
-      "description": "Article URL: https://waymo.com/waymo-in-singapore/ Comments URL: https://news.ycombinator.com/item?id=49749981 Points: 16 # Comments: 3",
+      "title": "Microsoft exec called AI scraping 'the largest theft of labor in human history'",
+      "link": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/",
+      "pubDate": "2026-09-18T09:45:07.000Z",
+      "description": "Article URL: https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/ Comments URL: https://news.ycombinator.com/item?id=49752056 Points: 113 # Comments: 56",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "OpenJev",
+      "link": "https://openjev.com/",
+      "pubDate": "2026-09-18T09:42:22.000Z",
+      "description": "Article URL: https://openjev.com/ Comments URL: https://news.ycombinator.com/item?id=49752041 Points: 104 # Comments: 50",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Jemalloc 5.4.0",
+      "link": "https://github.com/jemalloc/jemalloc/releases/tag/5.4.0",
+      "pubDate": "2026-09-18T04:20:24.000Z",
+      "description": "Article URL: https://github.com/jemalloc/jemalloc/releases/tag/5.4.0 Comments URL: https://news.ycombinator.com/item?id=49750152 Points: 168 # Comments: 47",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "The scourge of x86 emulation",
+      "link": "https://fex-emu.com/Scourge-of-emulation/",
+      "pubDate": "2026-09-18T04:09:48.000Z",
+      "description": "Article URL: https://fex-emu.com/Scourge-of-emulation/ Comments URL: https://news.ycombinator.com/item?id=49750094 Points: 161 # Comments: 28",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -101,23 +125,15 @@
       "title": "Pre-Greek: The lost language hidden within Ancient Greek",
       "link": "https://linguisticdiscovery.com/posts/pre-greek/",
       "pubDate": "2026-09-18T03:04:38.000Z",
-      "description": "Article URL: https://linguisticdiscovery.com/posts/pre-greek/ Comments URL: https://news.ycombinator.com/item?id=49749771 Points: 10 # Comments: 0",
+      "description": "Article URL: https://linguisticdiscovery.com/posts/pre-greek/ Comments URL: https://news.ycombinator.com/item?id=49749771 Points: 89 # Comments: 40",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Code Scans",
-      "link": "https://devin.ai/blog/introducing-code-scans",
-      "pubDate": "2026-09-18T03:00:40.000Z",
-      "description": "Article URL: https://devin.ai/blog/introducing-code-scans Comments URL: https://news.ycombinator.com/item?id=49749744 Points: 8 # Comments: 1",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Hacking OpenAI",
+      "title": "A heap overflow and SSO misconfiguration to compromise OpenAI internal repos",
       "link": "https://www.hacktron.ai/blog/hacking-openai",
       "pubDate": "2026-09-18T02:47:24.000Z",
-      "description": "Article URL: https://www.hacktron.ai/blog/hacking-openai Comments URL: https://news.ycombinator.com/item?id=49749656 Points: 100 # Comments: 31",
+      "description": "Article URL: https://www.hacktron.ai/blog/hacking-openai Comments URL: https://news.ycombinator.com/item?id=49749656 Points: 366 # Comments: 157",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -125,7 +141,7 @@
       "title": "Shapelearn Qwen 3.8 27B (13.1 GB VRAM)",
       "link": "https://byteshape.com/blogs/Qwen3.8-27B/",
       "pubDate": "2026-09-18T02:04:19.000Z",
-      "description": "Article URL: https://byteshape.com/blogs/Qwen3.8-27B/ Comments URL: https://news.ycombinator.com/item?id=49749393 Points: 13 # Comments: 0",
+      "description": "Article URL: https://byteshape.com/blogs/Qwen3.8-27B/ Comments URL: https://news.ycombinator.com/item?id=49749393 Points: 72 # Comments: 11",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -133,7 +149,7 @@
       "title": "Ask A Monk – A digital wilderness for thoughts with no immediate answer",
       "link": "https://askamonk.online",
       "pubDate": "2026-09-18T01:34:08.000Z",
-      "description": "Article URL: https://askamonk.online Comments URL: https://news.ycombinator.com/item?id=49749171 Points: 17 # Comments: 7",
+      "description": "Article URL: https://askamonk.online Comments URL: https://news.ycombinator.com/item?id=49749171 Points: 44 # Comments: 24",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -141,31 +157,15 @@
       "title": "Telstra outage: The night a network decided the year was 2006",
       "link": "https://www.netnod.se/blog/telstra-outage-night-network-decided-year-was-2006",
       "pubDate": "2026-09-18T01:05:03.000Z",
-      "description": "Article URL: https://www.netnod.se/blog/telstra-outage-night-network-decided-year-was-2006 Comments URL: https://news.ycombinator.com/item?id=49748957 Points: 27 # Comments: 9",
+      "description": "Article URL: https://www.netnod.se/blog/telstra-outage-night-network-decided-year-was-2006 Comments URL: https://news.ycombinator.com/item?id=49748957 Points: 63 # Comments: 29",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Alibaba releases Qwen 3.8 Omni Flash",
+      "title": "Qwen 3.8 Omni Flash",
       "link": "https://qwen.ai/blog?id=qwen3.8-omni-flash",
       "pubDate": "2026-09-17T23:05:48.000Z",
-      "description": "Article URL: https://qwen.ai/blog?id=qwen3.8-omni-flash Comments URL: https://news.ycombinator.com/item?id=49747925 Points: 100 # Comments: 24",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "How to Write with an LLM",
-      "link": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
-      "pubDate": "2026-09-17T21:48:38.000Z",
-      "description": "Article URL: https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/ Comments URL: https://news.ycombinator.com/item?id=49747070 Points: 63 # Comments: 56",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "How Uber Protects Against Retry Storms",
-      "link": "https://www.uber.com/us/en/blog/protecting-against-retry-storms/",
-      "pubDate": "2026-09-17T21:14:32.000Z",
-      "description": "Article URL: https://www.uber.com/us/en/blog/protecting-against-retry-storms/ Comments URL: https://news.ycombinator.com/item?id=49746628 Points: 70 # Comments: 30",
+      "description": "Article URL: https://qwen.ai/blog?id=qwen3.8-omni-flash Comments URL: https://news.ycombinator.com/item?id=49747925 Points: 237 # Comments: 83",
       "source": "Hacker News",
       "category": "Tech News"
     },
