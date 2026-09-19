@@ -1,99 +1,143 @@
 {
-  "generatedAt": "2026-09-19T11:00:47.617Z",
+  "generatedAt": "2026-09-19T15:53:52.751Z",
   "sourceCount": 4,
-  "successCount": 3,
+  "successCount": 2,
   "errors": [
     {
       "source": "Hack The Box Security Blog",
       "error": "HTTP 404 Not Found"
+    },
+    {
+      "source": "CSS Tricks",
+      "error": "HTTP 415 Unsupported Media Type"
     }
   ],
   "items": [
     {
-      "title": "Notes from the Pass: The Cell That Wasn't There",
-      "link": "https://dev.to/ortizfranklindev/notes-from-the-pass-the-cell-that-wasnt-there-18m4",
-      "pubDate": "2026-09-19T10:52:50.000Z",
-      "description": "<p><em>Also available in <a href=\"https://dev.to/ortizfranklindev/notas-desde-el-pase-la-celda-que-no-estaba-alli-dam\">Español</a></em></p> <h2> The Claim Being Tested </h2> <p><a href=\"https://dev.to/ortizfranklindev/your-seo-and-accessibility-problems-have-the-same-root-cause-75j\">Thursday's essay",
+      "title": "Let’s Break Down a Full-Stack RAG Pipeline With React, Node.js &amp; MongoDB",
+      "link": "https://dev.to/sam000/lets-break-down-a-full-stack-rag-pipeline-with-react-nodejs-mongodb-4mmp",
+      "pubDate": "2026-09-19T15:49:48.000Z",
+      "description": "<p>If you've built a normal full-stack application, you probably know this architecture:<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight plaintext\"><code>React → Express → MongoDB </code></pre> </div> <p>Now let's add an AI-powered RAG pipeline.</p> <p>Our architecture becom",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Notas desde el pase: La misma interfaz, reconstruida tres veces",
-      "link": "https://dev.to/ortizfranklindev/notas-desde-el-pase-la-misma-interfaz-reconstruida-tres-veces-40pl",
-      "pubDate": "2026-09-19T10:46:11.000Z",
-      "description": "<p><em>También disponible en <a href=\"https://dev.to/ortizfranklindev/notes-from-the-pass-the-same-interface-rebuilt-three-times-3ajm\">English</a></em></p> <h2> La afirmación a prueba </h2> <p><a href=\"https://dev.to/ortizfranklindev/la-mayoria-de-los-resets-de-html-pierden-el-punto-por-completo-4fc",
+      "title": "Draft Changelog Inventory From Git; Keep Upgrade Claims in a Reviewer Contract",
+      "link": "https://dev.to/github_7727/draft-changelog-inventory-from-git-keep-upgrade-claims-in-a-reviewer-contract-284l",
+      "pubDate": "2026-09-19T15:48:06.000Z",
+      "description": "<p>Generated release notes fail when they treat narrative bullets as contracts that users can follow during an upgrade. A model can inventory commits, paths, and symbols, but it cannot honestly promise a migration path. This workflow keeps those jobs in separate files and rejects changelog text that",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Notes from the Pass: The Same Interface, Rebuilt Three Times",
-      "link": "https://dev.to/ortizfranklindev/notes-from-the-pass-the-same-interface-rebuilt-three-times-3ajm",
-      "pubDate": "2026-09-19T10:44:46.000Z",
-      "description": "<p><em>Also available in <a href=\"https://dev.to/ortizfranklindev/notas-desde-el-pase-la-misma-interfaz-reconstruida-tres-veces-40pl\">Español</a></em></p> <h2> The Claim Being Tested </h2> <p><a href=\"https://dev.to/ortizfranklindev/most-html-resets-miss-the-point-entirely-4kkb\">Tuesday's essay</a> ",
+      "title": "I Sent 50 Emails And Got 12 Bounces. SMTP 250 Failed Me.",
+      "link": "https://dev.to/onizuka/i-sent-50-emails-and-got-12-bounces-smtp-250-failed-me-5gi4",
+      "pubDate": "2026-09-19T15:41:33.000Z",
+      "description": "<h1> api, #cybersecurity, #webdev, #python </h1> <p>On July 15 I queued a campaign to fifty addresses I had already \"verified\" with a plain SMTP handshake. Every single one returned <code>250 OK</code>. Three hours later, twelve of them bounced. That's a 24% failure rate in 38 minutes on addresses t",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How TOTP Authenticator Apps Work?",
-      "link": "https://dev.to/biswasprasana001/how-totp-authenticator-apps-work-19bg",
-      "pubDate": "2026-09-19T10:33:49.000Z",
-      "description": "<h2> Time-based One-Time Password </h2> <p>A <strong>Time-based One-Time Password</strong> (<strong>TOTP</strong>) is a temporary passcode (a secret number) used to confirm a person's identity when logging into a computer system. It forms part of two-factor authentication (a security check that asks",
+      "title": "Como impedir que um agente de programação faça mudanças destrutivas sem aprovação humana",
+      "link": "https://dev.to/werison-kusaki/como-impedir-que-um-agente-de-programacao-faca-mudancas-destrutivas-sem-aprovacao-humana-4hk6",
+      "pubDate": "2026-09-19T15:36:58.000Z",
+      "description": "<p>Agentes de programação reduzem drasticamente o tempo entre uma intenção e uma alteração real no projeto.</p> <p>Esse ganho também muda o tipo de risco.</p> <p>Quando um agente consegue editar dezenas de arquivos, executar comandos, instalar dependências ou alterar configuração em poucos segundos,",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Gemini 4 หลุด แต่ paper ที่ Google เพิ่งตีพิมพ์ตรวจสอบได้ทุกตัวเลข",
-      "link": "https://dev.to/sarantoon/gemini-4-hlud-aet-paper-thii-google-ephingtiiphimphtrwcchsbaidthuktawelkh-21m0",
-      "pubDate": "2026-09-19T10:29:31.000Z",
-      "description": "<h1> Gemini 4 หลุด แต่ paper ที่ Google เพิ่งตีพิมพ์ตรวจสอบได้ทุกตัวเลข </h1> <p><em>โดย Nokka (นก-กา) | 19 กันยายน 2026</em></p> <p><em>บทความนี้เขียนโดย AI (โมเดล deepseek-v4.1-flash ของผู้ให้บริการ ollama-cloud) ผ่าน Hermes Agent จาก Nous Research ตรวจสอบและเรียบเรียงโดย Nokka ข้อความในเครื่องหมา",
+      "title": "How to Move an Unfinished Coding Project to Another AI Agent",
+      "link": "https://dev.to/v1b3_/how-to-move-an-unfinished-coding-project-to-another-ai-agent-2jmg",
+      "pubDate": "2026-09-19T15:33:27.000Z",
+      "description": "<p>You are halfway through a coding project.</p> <p>Your AI coding agent has been working with you for hours, maybe days. It knows why the code looks the way it does. It knows what you tried yesterday, what failed, which ugly workaround is intentional, and what you were planning to do next.</p> <blo",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Nostra Finance $3.5M Exploit: How an 8,000x Oracle Pump Drained a Starknet Money Market",
-      "link": "https://dev.to/qanzhi111/nostra-finance-35m-exploit-how-an-8000x-oracle-pump-drained-a-starknet-money-market-2h2l",
-      "pubDate": "2026-09-19T10:26:36.000Z",
-      "description": "<h2> The Protocol Did Not Need a Broken Function </h2> <p>On <strong>September 17, 2026</strong>, Starknet lending market <strong>Nostra Finance</strong> paused supply, borrow, withdrawal, and liquidation after one account borrowed roughly <strong>$3.5 million</strong> against <strong>NSTR</strong> ",
+      "title": "Marketing for Solo Founders: What Fits in the Time You Actually Have",
+      "link": "https://dev.to/ayucel2/marketing-for-solo-founders-what-fits-in-the-time-you-actually-have-2hjp",
+      "pubDate": "2026-09-19T15:33:27.000Z",
+      "description": "<blockquote> <p><strong>THE SHORT ANSWER · Decide the hours first. Then pick a channel that fits them.</strong></p> <p>Almost every solo founder does this the other way round: read about a channel, decide it sounds right, and then try to find time for it. That ordering guarantees the channel loses, ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I'm building a scripting language for whiteboard animations",
-      "link": "https://dev.to/laakri/im-building-a-scripting-language-for-whiteboard-animations-21gb",
-      "pubDate": "2026-09-19T10:24:50.000Z",
-      "description": "<p>I started <strong>Strokeline</strong> with one dumb, simple idea:</p> <blockquote> <p>What if you could describe an animation the same way you describe a webpage — with text — and something else just... drew it?</p> </blockquote> <p>Not AI-generated video.</p> <p>Not a drag-and-drop editor where ",
+      "title": "Your Team Got Faster With AI. Why Is Your First Move a Layoff?",
+      "link": "https://dev.to/coryntas/your-team-got-faster-with-ai-why-is-your-first-move-a-layoff-5676",
+      "pubDate": "2026-09-19T15:30:10.000Z",
+      "description": "<p>Suppose your implementation team finally gets an AI workflow working. It produces useful first drafts of integrations, catches routine mistakes, and cuts down the time spent writing documentation. Engineers still review the output, but the improvement holds up after review.</p> <p>At the next bud",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Lost in Whitespace? Demystifying Python Indentation for Beginners!",
-      "link": "https://dev.to/_rakesh_ranjan/lost-in-whitespace-demystifying-python-indentation-for-beginners-2p4l",
-      "pubDate": "2026-09-19T10:24:14.000Z",
-      "description": "<p>Hey there, fellow coding adventurer! If you're just starting your journey with Python, you've probably encountered something a little… peculiar. Something that felt like a tiny, silent ninja throwing errors at you from the shadows, even when your code <em>looked</em> perfectly fine. I'm talking a",
+      "title": "Switch Codex accounts seamlessly with AgentHop",
+      "link": "https://dev.to/thegm26/switch-codex-accounts-seamlessly-with-agenthop-11b7",
+      "pubDate": "2026-09-19T15:28:48.000Z",
+      "description": "<h2> Story time </h2> <p>I use separate, legitimate Codex profiles for distinct contexts: personal work, a client workspace, and experiments that should not inherit the same local setup. Keeping those contexts separate is useful; repeatedly navigating between them was not.</p> <p>Each time I needed ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Is AI-Generated Code Safe for Production? What Testing Reveals",
-      "link": "https://dev.to/synfinity-dynamics-pvt-ltd/is-ai-generated-code-safe-for-production-what-testing-reveals-1nke",
-      "pubDate": "2026-09-19T10:07:48.000Z",
-      "description": "<p><strong>Quick answer:</strong> AI-generated code can be safe for production, but only after it has been reviewed and tested. Testing regularly uncovers logic errors, missing edge cases, security vulnerabilities, and hallucinated dependencies that look correct at first glance, so treat AI output a",
+      "title": "A CSS triangle vanished, because one selector matched by substring",
+      "link": "https://dev.to/daniel_pertu/a-css-triangle-vanished-because-one-selector-matched-by-substring-2l8d",
+      "pubDate": "2026-09-19T15:27:07.000Z",
+      "description": "<p>Our stylesheet contains this:<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight css\"><code><span class=\"o\">[</span><span class=\"nt\">class</span><span class=\"o\">*=</span><span class=\"s2\">'bg-card'</span><span class=\"o\">]</span> <span class=\"p\">{</span> <span class=\"nl\">borde",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Factory ระดมทุน 200 ล้าน กับคำถามว่า AI เขียนซอฟต์แวร์แทนคนได้แค่ไหน",
-      "link": "https://dev.to/sarantoon/factory-radmthun-200-laan-kabkhamthaamwaa-ai-ekhiiynchftaewraethnkhnaidaekhaihn-582g",
-      "pubDate": "2026-09-19T10:07:31.000Z",
-      "description": "<h1> Factory ระดมทุน 200 ล้าน กับคำถามว่า AI เขียนซอฟต์แวร์แทนคนได้แค่ไหน </h1> <p><em>โดย Nokka (นก-กา) | 19 กันยายน 2026</em></p> <p><em>บทความนี้เขียนโดย AI (โมเดล deepseek-v4.1-flash ของผู้ให้บริการ ollama-cloud) ผ่าน Hermes Agent จาก Nous Research ตรวจสอบและเรียบเรียงโดย Nokka ข้อความในเครื่องห",
+      "title": "From Prompt to Graph Engineering, Explained With One Bug",
+      "link": "https://dev.to/miruky/from-prompt-to-graph-engineering-explained-with-one-bug-18mb",
+      "pubDate": "2026-09-19T15:27:04.000Z",
+      "description": "<h2> Introduction </h2> <p>Hi, I'm miruky.</p> <p>A timeout parser turns <code>250ms</code> into <code>250.0</code> seconds. The intended value is <code>0.25</code>. The function fits in three lines. Completing the change means specifying accepted input, executing tests, handling failed repairs, and",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "Learning Another Language May Be One of the Best Ways to Keep Your Brain Healthy",
+      "link": "https://theconversation.com/learning-another-language-may-be-one-of-the-best-ways-to-keep-your-brain-healthy-as-you-age-291951",
+      "pubDate": "2026-09-19T14:23:42.000Z",
+      "description": "Article URL: https://theconversation.com/learning-another-language-may-be-one-of-the-best-ways-to-keep-your-brain-healthy-as-you-age-291951 Comments URL: https://news.ycombinator.com/item?id=49766821 Points: 30 # Comments: 21",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "A graphical desktop for the ZX Spectrum",
+      "link": "https://github.com/mindbox77/zxdesk",
+      "pubDate": "2026-09-19T14:01:58.000Z",
+      "description": "Article URL: https://github.com/mindbox77/zxdesk Comments URL: https://news.ycombinator.com/item?id=49766676 Points: 40 # Comments: 18",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "What Zig felt like, coming from Rust",
+      "link": "https://besok.github.io/posts/what-zig-felt-like-coming-from-rust/",
+      "pubDate": "2026-09-19T13:55:18.000Z",
+      "description": "Article URL: https://besok.github.io/posts/what-zig-felt-like-coming-from-rust/ Comments URL: https://news.ycombinator.com/item?id=49766637 Points: 76 # Comments: 62",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Tin: full-text search for Postgres",
+      "link": "https://planetscale.com/blog/introducing-tin",
+      "pubDate": "2026-09-19T13:52:06.000Z",
+      "description": "Article URL: https://planetscale.com/blog/introducing-tin Comments URL: https://news.ycombinator.com/item?id=49766611 Points: 51 # Comments: 12",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Laya the open source version of Jev",
+      "link": "https://laya.convaiinnovations.com/",
+      "pubDate": "2026-09-19T10:46:58.000Z",
+      "description": "Article URL: https://laya.convaiinnovations.com/ Comments URL: https://news.ycombinator.com/item?id=49765348 Points: 414 # Comments: 96",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "AI-generated posters don’t have to be horrible",
       "link": "https://john.hartnup.uk/2026/06/07/ai-event-posters.html",
       "pubDate": "2026-09-19T09:20:58.000Z",
-      "description": "Article URL: https://john.hartnup.uk/2026/06/07/ai-event-posters.html Comments URL: https://news.ycombinator.com/item?id=49764791 Points: 133 # Comments: 82",
+      "description": "Article URL: https://john.hartnup.uk/2026/06/07/ai-event-posters.html Comments URL: https://news.ycombinator.com/item?id=49764791 Points: 658 # Comments: 389",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -101,7 +145,7 @@
       "title": "GPT-6 Astra Solves a WWI German Radio Cipher",
       "link": "https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio",
       "pubDate": "2026-09-19T06:41:44.000Z",
-      "description": "Article URL: https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio Comments URL: https://news.ycombinator.com/item?id=49763987 Points: 129 # Comments: 62",
+      "description": "Article URL: https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio Comments URL: https://news.ycombinator.com/item?id=49763987 Points: 234 # Comments: 123",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -109,15 +153,7 @@
       "title": "If math is more than proof, we need to better celebrate the rest of it",
       "link": "https://terrytao.wordpress.com/2026/09/18/if-math-is-more-than-proof-we-need-to-better-celebrate-the-rest-of-it/",
       "pubDate": "2026-09-19T06:28:02.000Z",
-      "description": "Article URL: https://terrytao.wordpress.com/2026/09/18/if-math-is-more-than-proof-we-need-to-better-celebrate-the-rest-of-it/ Comments URL: https://news.ycombinator.com/item?id=49763928 Points: 112 # Comments: 80",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Apple M6 Pro Achieves the Highest Single-Core CPU Score in Geekbench 7",
-      "link": "https://browser.geekbench.com/v7/cpu/389219",
-      "pubDate": "2026-09-19T06:19:24.000Z",
-      "description": "Article URL: https://browser.geekbench.com/v7/cpu/389219 Comments URL: https://news.ycombinator.com/item?id=49763883 Points: 68 # Comments: 48",
+      "description": "Article URL: https://terrytao.wordpress.com/2026/09/18/if-math-is-more-than-proof-we-need-to-better-celebrate-the-rest-of-it/ Comments URL: https://news.ycombinator.com/item?id=49763928 Points: 222 # Comments: 178",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -125,15 +161,7 @@
       "title": "Human brain is two separate organs, Stanford Medicine-led research finds",
       "link": "https://med.stanford.edu/news/all-news/2026/09/two-separate-brains.html",
       "pubDate": "2026-09-19T05:48:50.000Z",
-      "description": "Article URL: https://med.stanford.edu/news/all-news/2026/09/two-separate-brains.html Comments URL: https://news.ycombinator.com/item?id=49763697 Points: 256 # Comments: 105",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "NASA-IBM Lunar Foundation open-Source Geospatial AI Model",
-      "link": "https://newsroom.usra.edu/usra-contributes-planetary-science-expertise-to-nasa-ibm-lunar-foundation-model/",
-      "pubDate": "2026-09-19T04:44:35.000Z",
-      "description": "Article URL: https://newsroom.usra.edu/usra-contributes-planetary-science-expertise-to-nasa-ibm-lunar-foundation-model/ Comments URL: https://news.ycombinator.com/item?id=49763379 Points: 29 # Comments: 2",
+      "description": "Article URL: https://med.stanford.edu/news/all-news/2026/09/two-separate-brains.html Comments URL: https://news.ycombinator.com/item?id=49763697 Points: 457 # Comments: 170",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -141,113 +169,9 @@
       "title": "San Francisco Onion Futures Company",
       "link": "https://onionfutures.com/",
       "pubDate": "2026-09-19T04:23:30.000Z",
-      "description": "Article URL: https://onionfutures.com/ Comments URL: https://news.ycombinator.com/item?id=49763296 Points: 201 # Comments: 72",
+      "description": "Article URL: https://onionfutures.com/ Comments URL: https://news.ycombinator.com/item?id=49763296 Points: 285 # Comments: 101",
       "source": "Hacker News",
       "category": "Tech News"
-    },
-    {
-      "title": "SDCC – Small Device C Compiler",
-      "link": "https://sdcc.sourceforge.net/",
-      "pubDate": "2026-09-19T02:32:36.000Z",
-      "description": "Article URL: https://sdcc.sourceforge.net/ Comments URL: https://news.ycombinator.com/item?id=49762744 Points: 89 # Comments: 18",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Science Is Open Software",
-      "link": "https://jepedersen.dk/blog/202505_research/",
-      "pubDate": "2026-09-19T02:21:35.000Z",
-      "description": "Article URL: https://jepedersen.dk/blog/202505_research/ Comments URL: https://news.ycombinator.com/item?id=49762687 Points: 100 # Comments: 38",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "How OpenAI Used Its Own LLMs to Design Its Jalapeño Chip",
-      "link": "https://spectrum.ieee.org/llms-for-chip-design",
-      "pubDate": "2026-09-18T23:04:17.000Z",
-      "description": "Article URL: https://spectrum.ieee.org/llms-for-chip-design Comments URL: https://news.ycombinator.com/item?id=49761432 Points: 128 # Comments: 92",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Let’s Use the Emergent CSS random() Function in all the Browsers",
-      "link": "https://css-tricks.com/css-random-function-polyfill/",
-      "pubDate": "2026-08-31T15:12:19.000Z",
-      "description": "The journey to create a polyfill for the upcoming CSS random() function that works in all browsers. Let’s Use the Emergent CSS random() Function in all the Browsers originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "What’s !important #18: &#060;geolocation&gt;, Syntax ::highlight()ing, named-feature(), and More",
-      "link": "https://css-tricks.com/whats-important-18/",
-      "pubDate": "2026-08-31T14:08:55.000Z",
-      "description": "Well, that’s a wrap. No, not a flex-wrap, but rather today marks a new day, week, month, season, aaaand new edition of What’s important (#18), bringing you the best content that developers have produced over the last couple of weeks or so. What’s !important #18: <geolocation>, Syntax ::highlight()in",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Creating Web Widgets Using the Document Picture-in-Picture API",
-      "link": "https://css-tricks.com/creating-web-widgets-using-the-document-picture-in-picture-api/",
-      "pubDate": "2026-08-27T14:41:06.000Z",
-      "description": "The general idea is that we create a Document Picture-in-Picture window (DPIP window), and then we put HTML, CSS, and JavaScript into it. Creating Web Widgets Using the Document Picture-in-Picture API originally handwritten and published with love on CSS-Tricks. You should really get the newsletter ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "animation-trigger",
-      "link": "https://css-tricks.com/almanac/properties/a/animation-trigger/",
-      "pubDate": "2026-08-26T15:38:41.000Z",
-      "description": "The CSS animation-trigger property allows you to delay the start of a CSS animation until a specific trigger occurs. animation-trigger originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "MicroLighter: Syntax Highlighter",
-      "link": "https://css-tricks.com/microlighter-syntax-highlighter/",
-      "pubDate": "2026-08-25T14:10:34.000Z",
-      "description": "Syntax highlighting for code blocks without the complicated markup, spans, classes, and bloated JavaScript, courtesy of Uncle Dave. MicroLighter: Syntax Highlighter originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "WordPress PHP-Only Block Registration",
-      "link": "https://css-tricks.com/wordpress-php-block-registration/",
-      "pubDate": "2026-08-24T13:54:02.000Z",
-      "description": "Seven and half years after blocks arrived in Core, WordPress introduces a way to build blocks without React annd build pipelines. All you need is PHP. WordPress PHP-Only Block Registration originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Resolved: CSS Class Prefix Selector",
-      "link": "https://css-tricks.com/resolved-css-class-prefix-selector/",
-      "pubDate": "2026-08-21T15:13:03.000Z",
-      "description": "A newly resolved proposal would allow us to select classes that are a prefix for variations with a wildcard, like .prefix-*. Resolved: CSS Class Prefix Selector originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "CSS Navigation Matching, Early Days",
-      "link": "https://css-tricks.com/css-navigation-matching-early-days/",
-      "pubDate": "2026-08-19T14:44:41.000Z",
-      "description": "Apply a style when someone navigates from one specific page to another. The idea being it'd make the sources for cross-document view transitions declarative in CSS rather than managing that stuff in JavaScript. CSS Navigation Matching, Early Days originally handwritten and published with love on CSS",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "WordPress.com Student Plan",
-      "link": "https://css-tricks.com/wordpress-student-plan/",
-      "pubDate": "2026-08-19T08:50:00.000Z",
-      "description": "As someone who teaches beginning web development, I find that building a WordPress site makes for a great final project. Hosting those projects has always been a roadblock though. WordPress.com Student Plan originally handwritten and published with love on CSS-Tricks. You should really get the newsl",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Dark mode toggles: two states are enough",
-      "link": "https://css-tricks.com/dark-mode-toggles-two-states-are-enough/",
-      "pubDate": "2026-08-17T14:15:50.000Z",
-      "description": "Lea's pushing back on light/dark mode implementations that display three state options for visitors: light, dark, and system. Dark mode toggles: two states are enough originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
     }
   ]
 }
