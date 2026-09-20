@@ -1,177 +1,253 @@
 {
-  "generatedAt": "2026-09-20T16:07:37.693Z",
+  "generatedAt": "2026-09-20T20:50:09.223Z",
   "sourceCount": 4,
-  "successCount": 2,
+  "successCount": 3,
   "errors": [
     {
       "source": "Hack The Box Security Blog",
       "error": "HTTP 404 Not Found"
-    },
-    {
-      "source": "CSS Tricks",
-      "error": "HTTP 415 Unsupported Media Type"
     }
   ],
   "items": [
     {
-      "title": "Securely Authenticate Users with the Telegram Login Widget in PHP and Yii2",
-      "link": "https://dev.to/serhii_a9c08345ac360cf5c8/securely-authenticate-users-with-the-telegram-login-widget-in-php-and-yii2-4n4l",
-      "pubDate": "2026-09-20T16:00:32.000Z",
-      "description": "<p>Integrating the Telegram Login Widget provides a frictionless authentication flow for web applications. However, accepting raw authentication parameters from the client side without strict cryptographic verification exposes your application to identity spoofing. </p> <p>This guide demonstrates ho",
+      "title": "Every answer our agent reads has an age, and it never asked for one",
+      "link": "https://dev.to/unmannedops/every-answer-our-agent-reads-has-an-age-and-it-never-asked-for-one-4fg",
+      "pubDate": "2026-09-20T20:40:57.000Z",
+      "description": "<p>Our unattended agent publishes on its own schedule, and before it publishes it does the obvious safety check: it asks the platform for a list of what it has already posted, so it does not post the same thing twice. That check is one read query against a listing endpoint. For a long time we treate",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How I Built a Zero-Cost Python Webhook Engine to Bypass a High-Friction Voting System",
-      "link": "https://dev.to/adoryike/how-i-built-a-zero-cost-python-webhook-engine-to-bypass-a-high-friction-voting-system-1o69",
-      "pubDate": "2026-09-20T15:52:13.000Z",
-      "description": "<p>When I entered the CANEX Create-Thon competition, I quickly realized I wasn't just competing against other creators but rather I was also competing against bad UX.</p> <p>The Gebeya platform requires users to complete a full email sign-in just to cast their vote. For organic traffic, that level o",
+      "title": "Port 6443 in the Wild: Measuring Public Kubernetes API Endpoint Exposure",
+      "link": "https://dev.to/stark_zhuang_df5076f35c68/port-6443-in-the-wild-measuring-public-kubernetes-api-endpoint-exposure-3a89",
+      "pubDate": "2026-09-20T20:40:10.000Z",
+      "description": "<h1> Port 6443 in the Wild: Measuring Public Kubernetes API Endpoint Exposure </h1> <p>Kubernetes has become the default control plane of modern infrastructure. It schedules workloads, stores cluster state, issues credentials, and brokers every privileged action inside a cluster. The component that ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Good News For Backend And Devops Buddy",
-      "link": "https://dev.to/nahid625/good-news-for-backend-and-devops-buddy-34n1",
-      "pubDate": "2026-09-20T15:50:22.000Z",
-      "description": "<p>I shipped a Goated tool Today: API Performance Profiler.</p> <p>It answers one question backend devs ask every day: how fast is this route, actually?</p> <p>Most of us guess. Or we add console.time, or we open Postman and eyeball the number. Then we ship, and production tells us the truth.</p> <p",
+      "title": "Looking for collaborators!",
+      "link": "https://dev.to/fortheloveofpointers/looking-for-collaborators-4ned",
+      "pubDate": "2026-09-20T20:31:45.000Z",
+      "description": "<p>Hey, devs! New poster here. I'm starting to build my own open source projects after a few years of experience as a SWE, and wanted to find people willing to collaborate. My new, currently maintained project is this one: </p> <p><a href=\"https://github.com/ForTheLoveOfPointers/blockchain-chaos\" re",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "What Makes You Trust an APK Download?",
-      "link": "https://dev.to/aero_apk/what-makes-you-trust-an-apk-download-1ch1",
-      "pubDate": "2026-09-20T15:47:43.000Z",
-      "description": "<p>If you install Android apps outside Google Play, what makes you trust an APK?</p> <p>There are quite a few things I personally think matter:</p> <p>Who published the app?<br> Is the developer clearly identified?<br> Where did the APK come from?<br> Does the package name match the expected app?<br",
+      "title": "One Iceberg MCP Server, Seven Catalogs: What It Takes to Reach Each One",
+      "link": "https://dev.to/aws-builders/one-iceberg-mcp-server-seven-catalogs-what-it-takes-to-reach-each-one-jp5",
+      "pubDate": "2026-09-20T20:31:06.000Z",
+      "description": "<p>This article provides a step by step guide to one MCP server for Apache Iceberg tables, pointed at seven Iceberg REST catalogs in turn. The server offers four read-only tools, and one environment variable decides which catalog it reads.</p> <p><a href=\"https://github.com/xbill9/lakehouse-iceberg-",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Exact Match Or Fuzzy Logic For OFAC? 1,400 Tests Changed My Mind.",
-      "link": "https://dev.to/onizuka/exact-match-or-fuzzy-logic-for-ofac-1400-tests-changed-my-mind-2pbm",
-      "pubDate": "2026-09-20T15:45:09.000Z",
-      "description": "<h1> api, #security, #compliance, #discuss </h1> <p>Last Tuesday I typed <code>Sergei Ivanov</code> into a sanctions screener and watched it explode. The API came back with <strong>101 total matches</strong>: 50 from OFAC SDN, 1 from the UN Consolidated list, 50 from EU FSF, and zero from UK FCDO or",
+      "title": "One Iceberg MCP Server, Seven Catalogs: What It Takes to Reach Each One",
+      "link": "https://dev.to/gde/one-iceberg-mcp-server-seven-catalogs-what-it-takes-to-reach-each-one-2605",
+      "pubDate": "2026-09-20T20:30:58.000Z",
+      "description": "<p>This article provides a step by step guide to one MCP server for Apache Iceberg tables, pointed at seven Iceberg REST catalogs in turn. The server offers four read-only tools, and one environment variable decides which catalog it reads.</p> <p><a href=\"https://github.com/xbill9/lakehouse-iceberg-",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Site-Wide Structured Data and Social Graph Integration",
-      "link": "https://dev.to/ufebri/site-wide-structured-data-and-social-graph-integration-33cj",
-      "pubDate": "2026-09-20T15:44:52.000Z",
-      "description": "<p><em><a href=\"https://raylabs.app/articles/choosing-a-publishing-stack-for-a-technical-blog/\" rel=\"noopener noreferrer\">Choosing A Publishing Stack A Technical</a> a mobile stack starts with constraints, not a popularity contest.</em></p> <p>When developing static-site platforms or content-heavy p",
+      "title": "Jev TypeSafe AI + LangChain + Vercel AI Gateway",
+      "link": "https://dev.to/dcastillogi/jev-typesafe-ai-langchain-vercel-ai-gateway-427c",
+      "pubDate": "2026-09-20T20:19:51.000Z",
+      "description": "<p>La mayoría de sistemas usan un LLM para decidir cosas como clasificar, priorizar o enrutar.</p> <p><strong>jev está diseñado específicamente para tomar esas decisiones.</strong> En lugar de generar texto, evalúa un estado y devuelve una decisión tipada junto con las probabilidades de cada opción.",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Drop-in Django app to serve a decent LLM-ready documentation site",
-      "link": "https://dev.to/corstiaan84/drop-in-django-app-to-serve-a-decent-llm-ready-documentation-site-3p3o",
-      "pubDate": "2026-09-20T15:42:00.000Z",
-      "description": "<p>Hi all,</p> <p>I'm working on a bigger Python project that I'll release soon, and as part of it I found myself needing a documentation site. Most doc sites are served statically, but every time I fall for the siren song of a static site I end up regretting it the moment I want some dynamic behavi",
+      "title": "Surviving the Breach: A Direct Blueprint for Infrastructure Hardening and Identity Remediation Following Enterprise Data Failure",
+      "link": "https://dev.to/r_yanush/surviving-the-breach-a-direct-blueprint-for-infrastructure-hardening-and-identity-remediation-ehe",
+      "pubDate": "2026-09-20T20:19:08.000Z",
+      "description": "<p>It is a text message at 3:00 AM that changed everything for me in early 2026. For most enterprise technology leaders, an institutional data breach is a metrics crisis—a corporate incident response puzzle involving PR damage control, threat containment vectors, and insurance audits. But when a mas",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Your Agent's Memory Is an Attack Surface",
-      "link": "https://dev.to/constant_itis/your-agents-memory-is-an-attack-surface-3kdg",
-      "pubDate": "2026-09-20T15:38:20.000Z",
-      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F9hpu5anrupjc7v2bjr9i.png\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/",
+      "title": "Hacktoberfest 2026 Changed the Rules. Here's How to Actually Join In This October",
+      "link": "https://dev.to/alexgeorgiev17/hacktoberfest-2026-changed-the-rules-heres-how-to-actually-join-in-this-october-5c40",
+      "pubDate": "2026-09-20T20:17:18.000Z",
+      "description": "<p>If your mental model of Hacktoberfest is still \"open four pull requests against any public repo, get a T-shirt or a tree planted,\" that model is gone in 2026. Good news first: this isn't Hacktoberfest going away or getting stingier, it's a genuine rebuild, and if you've ever felt like the old PR-",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I got tired of rebuilding the same Angular mobile app setup, so I built LaunchKit Mobile",
-      "link": "https://dev.to/alihghaith1990/i-got-tired-of-rebuilding-the-same-angular-mobile-app-setup-so-i-built-launchkit-mobile-4o0c",
-      "pubDate": "2026-09-20T15:38:00.000Z",
-      "description": "<p>Every time I started a new Angular mobile app, I found myself rebuilding the same foundation:</p> <ul> <li>Authentication</li> <li>Refresh tokens</li> <li>Secure storage</li> <li>Offline handling</li> <li>Push notifications</li> <li>Biometrics</li> <li>Translations</li> <li>RTL support</li> <li>D",
+      "title": "+10% de conversão no checkout no mês. A campanha quebrava na hora de pagar",
+      "link": "https://dev.to/tiagovilasboas/10-de-conversao-no-checkout-no-mes-a-campanha-quebrava-na-hora-de-pagar-5566",
+      "pubDate": "2026-09-20T20:16:59.000Z",
+      "description": "<p>Pensa num restaurante que funciona perfeitamente nas tardes de semana. Fila zero, atendimento rápido, prato chega quente.</p> <p>Aí chega o feriado com promoção e o lugar enche três vezes. A cozinha não mudou. O cardápio não mudou. Mas o cliente espera 40 minutos, desiste, e vai embora.</p> <p>Ch",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I upgraded three Flutter apps to API 36. Here is what actually broke",
-      "link": "https://dev.to/devemrep/i-upgraded-three-flutter-apps-to-api-36-here-is-what-actually-broke-1dgd",
-      "pubDate": "2026-09-20T15:37:00.000Z",
-      "description": "<p>Google Play's deadline passed on August 31, 2026. Since that date you cannot publish an update to an existing app unless it targets Android 16, API level 36. Not a new app. Any update. A five year old app with a hundred thousand installs cannot ship a one line crash fix until <code>targetSdk</cod",
+      "title": "O que venho usando para construir meus projetos (1º semestre de Ciência da Computação)",
+      "link": "https://dev.to/pedrohs_cdc/o-que-venho-usando-para-construir-meus-projetos-1o-semestre-de-ciencia-da-computacao-9k9",
+      "pubDate": "2026-09-20T20:15:31.000Z",
+      "description": "<p>Depois de mais de 5 anos em administrativo e logística, decidi migrar para tecnologia. Estou no primeiro semestre de Ciência da Computação na Unifran, e desde a primeira aula venho transformando exercícios e ideias soltas em projetos reais, no ar, documentados. Aqui está o que usei em cada um — e",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "One-Electron Universe",
-      "link": "https://en.wikipedia.org/wiki/One-electron_universe",
-      "pubDate": "2026-09-20T15:28:05.000Z",
-      "description": "Article URL: https://en.wikipedia.org/wiki/One-electron_universe Comments URL: https://news.ycombinator.com/item?id=49776826 Points: 8 # Comments: 4",
+      "title": "Frontier Labs Are Selling Garbage to Fools in Washington",
+      "link": "https://deadneurons.substack.com/p/frontier-labs-are-selling-garbage",
+      "pubDate": "2026-09-20T19:55:36.000Z",
+      "description": "Article URL: https://deadneurons.substack.com/p/frontier-labs-are-selling-garbage Comments URL: https://news.ycombinator.com/item?id=49779432 Points: 22 # Comments: 6",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Singapore Is Paying People to Put Down Their Phones and Read Books",
-      "link": "https://www.gadgetreview.com/singapore-is-paying-people-to-put-down-their-phones-and-read-books",
-      "pubDate": "2026-09-20T15:18:05.000Z",
-      "description": "Article URL: https://www.gadgetreview.com/singapore-is-paying-people-to-put-down-their-phones-and-read-books Comments URL: https://news.ycombinator.com/item?id=49776717 Points: 15 # Comments: 1",
+      "title": "The Hierarchy of Money",
+      "link": "https://gregorygundersen.com/blog/2026/09/20/hierarchy-of-money/",
+      "pubDate": "2026-09-20T19:37:43.000Z",
+      "description": "Article URL: https://gregorygundersen.com/blog/2026/09/20/hierarchy-of-money/ Comments URL: https://news.ycombinator.com/item?id=49779253 Points: 20 # Comments: 3",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Sherline Tools Is Going Out of Business",
-      "link": "https://toolguyd.com/sherline-tools-shutting-down-usa-production/",
-      "pubDate": "2026-09-20T15:09:41.000Z",
-      "description": "Article URL: https://toolguyd.com/sherline-tools-shutting-down-usa-production/ Comments URL: https://news.ycombinator.com/item?id=49776627 Points: 42 # Comments: 10",
+      "title": "Software Sandboxing: The Basics",
+      "link": "https://blog.emilua.org/2025/01/12/software-sandboxing-basics/",
+      "pubDate": "2026-09-20T18:42:47.000Z",
+      "description": "Article URL: https://blog.emilua.org/2025/01/12/software-sandboxing-basics/ Comments URL: https://news.ycombinator.com/item?id=49778670 Points: 20 # Comments: 1",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Mathematical Billiards (2024)",
-      "link": "https://structures.uni-heidelberg.de/blog/posts/2024_01_costa/index.php",
-      "pubDate": "2026-09-20T13:42:10.000Z",
-      "description": "Article URL: https://structures.uni-heidelberg.de/blog/posts/2024_01_costa/index.php Comments URL: https://news.ycombinator.com/item?id=49775802 Points: 5 # Comments: 1",
+      "title": "A Necessary History of the Oddest Letter: W",
+      "link": "https://lithub.com/a-necessary-history-of-the-oddest-letter-w/",
+      "pubDate": "2026-09-20T17:55:57.000Z",
+      "description": "Article URL: https://lithub.com/a-necessary-history-of-the-oddest-letter-w/ Comments URL: https://news.ycombinator.com/item?id=49778195 Points: 53 # Comments: 32",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Do birds have accents? the regional differences in birdsong",
-      "link": "https://theconversation.com/do-birds-have-accents-the-fascinating-regional-differences-in-birdsong-278108",
-      "pubDate": "2026-09-20T13:19:32.000Z",
-      "description": "Article URL: https://theconversation.com/do-birds-have-accents-the-fascinating-regional-differences-in-birdsong-278108 Comments URL: https://news.ycombinator.com/item?id=49775579 Points: 32 # Comments: 2",
+      "title": "I turned Jev into a (lousy) chatbot",
+      "link": "https://github.com/kyle-pena-nlp/jevchat/",
+      "pubDate": "2026-09-20T17:51:27.000Z",
+      "description": "Article URL: https://github.com/kyle-pena-nlp/jevchat/ Comments URL: https://news.ycombinator.com/item?id=49778162 Points: 59 # Comments: 13",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Qwen-Image-2.1: Compact, efficient, and unified image creation",
-      "link": "https://qwen.ai/blog?id=qwen-image-2.1",
-      "pubDate": "2026-09-20T13:09:25.000Z",
-      "description": "Article URL: https://qwen.ai/blog?id=qwen-image-2.1 Comments URL: https://news.ycombinator.com/item?id=49775499 Points: 184 # Comments: 75",
+      "title": "Samsung is expected to more than double output of its HBM4 and HBM4E DRAM",
+      "link": "https://en.sedaily.com/finance/2026/09/20/samsung-to-double-hbm4-output-next-year-sources-say",
+      "pubDate": "2026-09-20T17:38:50.000Z",
+      "description": "Article URL: https://en.sedaily.com/finance/2026/09/20/samsung-to-double-hbm4-output-next-year-sources-say Comments URL: https://news.ycombinator.com/item?id=49778029 Points: 178 # Comments: 141",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Chat-based Large Language Models replicate the mechanisms of a psychic's con",
-      "link": "https://softwarecrisis.dev/letters/llmentalist/",
-      "pubDate": "2026-09-20T12:20:13.000Z",
-      "description": "Article URL: https://softwarecrisis.dev/letters/llmentalist/ Comments URL: https://news.ycombinator.com/item?id=49775104 Points: 120 # Comments: 137",
+      "title": "Resident Evil 4 (GameCube) – complete byte-identical decompilation to C/C++",
+      "link": "https://github.com/adonis-singh/re4",
+      "pubDate": "2026-09-20T17:38:27.000Z",
+      "description": "Article URL: https://github.com/adonis-singh/re4 Comments URL: https://news.ycombinator.com/item?id=49778022 Points: 51 # Comments: 28",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "The Millennium Problems for Biology",
-      "link": "https://millenniumproblems.bio/",
-      "pubDate": "2026-09-20T12:17:54.000Z",
-      "description": "Article URL: https://millenniumproblems.bio/ Comments URL: https://news.ycombinator.com/item?id=49775082 Points: 59 # Comments: 56",
+      "title": "Trying the Software Factory Pattern",
+      "link": "https://lethain.com/software-factory-experiment/",
+      "pubDate": "2026-09-20T17:27:11.000Z",
+      "description": "Article URL: https://lethain.com/software-factory-experiment/ Comments URL: https://news.ycombinator.com/item?id=49777913 Points: 39 # Comments: 24",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "UTF-8000: Unlimited UTF-8",
-      "link": "https://utf-8000.jb2170.com",
-      "pubDate": "2026-09-20T05:15:00.000Z",
-      "description": "Article URL: https://utf-8000.jb2170.com Comments URL: https://news.ycombinator.com/item?id=49772677 Points: 94 # Comments: 73",
+      "title": "US Revokes Limits on Power Plants' Climate Pollution",
+      "link": "https://text.hrw.org/news/2026/09/17/us-revokes-limits-on-power-plants-climate-pollution",
+      "pubDate": "2026-09-20T17:19:52.000Z",
+      "description": "Article URL: https://text.hrw.org/news/2026/09/17/us-revokes-limits-on-power-plants-climate-pollution Comments URL: https://news.ycombinator.com/item?id=49777841 Points: 122 # Comments: 108",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Telling a Computer to Do Things",
-      "link": "https://will-keleher.com/posts/telling-your-computer-to-do-things/",
-      "pubDate": "2026-09-20T05:11:33.000Z",
-      "description": "Article URL: https://will-keleher.com/posts/telling-your-computer-to-do-things/ Comments URL: https://news.ycombinator.com/item?id=49772662 Points: 67 # Comments: 31",
+      "title": "Show HN: Radius – A Meetup.com Alternative",
+      "link": "https://radius.to/",
+      "pubDate": "2026-09-20T16:51:26.000Z",
+      "description": "Hello HN!I'm relaunching Radius [1] - far too long after the original Show HN [2] (I'll blame the day job for that).Radius started out from my frustration with not knowing what was going on around me. The initial plan was to \"show all and every type of event\" from big to small, but over time I narro",
       "source": "Hacker News",
       "category": "Tech News"
+    },
+    {
+      "title": "Let’s Use the Emergent CSS random() Function in all the Browsers",
+      "link": "https://css-tricks.com/css-random-function-polyfill/",
+      "pubDate": "2026-08-31T15:12:19.000Z",
+      "description": "The journey to create a polyfill for the upcoming CSS random() function that works in all browsers. Let’s Use the Emergent CSS random() Function in all the Browsers originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "What’s !important #18: &#060;geolocation&gt;, Syntax ::highlight()ing, named-feature(), and More",
+      "link": "https://css-tricks.com/whats-important-18/",
+      "pubDate": "2026-08-31T14:08:55.000Z",
+      "description": "Well, that’s a wrap. No, not a flex-wrap, but rather today marks a new day, week, month, season, aaaand new edition of What’s important (#18), bringing you the best content that developers have produced over the last couple of weeks or so. What’s !important #18: <geolocation>, Syntax ::highlight()in",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Creating Web Widgets Using the Document Picture-in-Picture API",
+      "link": "https://css-tricks.com/creating-web-widgets-using-the-document-picture-in-picture-api/",
+      "pubDate": "2026-08-27T14:41:06.000Z",
+      "description": "The general idea is that we create a Document Picture-in-Picture window (DPIP window), and then we put HTML, CSS, and JavaScript into it. Creating Web Widgets Using the Document Picture-in-Picture API originally handwritten and published with love on CSS-Tricks. You should really get the newsletter ",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "animation-trigger",
+      "link": "https://css-tricks.com/almanac/properties/a/animation-trigger/",
+      "pubDate": "2026-08-26T15:38:41.000Z",
+      "description": "The CSS animation-trigger property allows you to delay the start of a CSS animation until a specific trigger occurs. animation-trigger originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "MicroLighter: Syntax Highlighter",
+      "link": "https://css-tricks.com/microlighter-syntax-highlighter/",
+      "pubDate": "2026-08-25T14:10:34.000Z",
+      "description": "Syntax highlighting for code blocks without the complicated markup, spans, classes, and bloated JavaScript, courtesy of Uncle Dave. MicroLighter: Syntax Highlighter originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "WordPress PHP-Only Block Registration",
+      "link": "https://css-tricks.com/wordpress-php-block-registration/",
+      "pubDate": "2026-08-24T13:54:02.000Z",
+      "description": "Seven and half years after blocks arrived in Core, WordPress introduces a way to build blocks without React annd build pipelines. All you need is PHP. WordPress PHP-Only Block Registration originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Resolved: CSS Class Prefix Selector",
+      "link": "https://css-tricks.com/resolved-css-class-prefix-selector/",
+      "pubDate": "2026-08-21T15:13:03.000Z",
+      "description": "A newly resolved proposal would allow us to select classes that are a prefix for variations with a wildcard, like .prefix-*. Resolved: CSS Class Prefix Selector originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "CSS Navigation Matching, Early Days",
+      "link": "https://css-tricks.com/css-navigation-matching-early-days/",
+      "pubDate": "2026-08-19T14:44:41.000Z",
+      "description": "Apply a style when someone navigates from one specific page to another. The idea being it'd make the sources for cross-document view transitions declarative in CSS rather than managing that stuff in JavaScript. CSS Navigation Matching, Early Days originally handwritten and published with love on CSS",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "WordPress.com Student Plan",
+      "link": "https://css-tricks.com/wordpress-student-plan/",
+      "pubDate": "2026-08-19T08:50:00.000Z",
+      "description": "As someone who teaches beginning web development, I find that building a WordPress site makes for a great final project. Hosting those projects has always been a roadblock though. WordPress.com Student Plan originally handwritten and published with love on CSS-Tricks. You should really get the newsl",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Dark mode toggles: two states are enough",
+      "link": "https://css-tricks.com/dark-mode-toggles-two-states-are-enough/",
+      "pubDate": "2026-08-17T14:15:50.000Z",
+      "description": "Lea's pushing back on light/dark mode implementations that display three state options for visitors: light, dark, and system. Dark mode toggles: two states are enough originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     }
   ]
 }
