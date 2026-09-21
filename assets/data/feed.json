@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T20:50:09.223Z",
+  "generatedAt": "2026-09-21T04:57:18.609Z",
   "sourceCount": 4,
   "successCount": 3,
   "errors": [
@@ -10,90 +10,154 @@
   ],
   "items": [
     {
-      "title": "Every answer our agent reads has an age, and it never asked for one",
-      "link": "https://dev.to/unmannedops/every-answer-our-agent-reads-has-an-age-and-it-never-asked-for-one-4fg",
-      "pubDate": "2026-09-20T20:40:57.000Z",
-      "description": "<p>Our unattended agent publishes on its own schedule, and before it publishes it does the obvious safety check: it asks the platform for a list of what it has already posted, so it does not post the same thing twice. That check is one read query against a listing endpoint. For a long time we treate",
+      "title": "Four Levels of Using an LLM: From Chat to Agents",
+      "link": "https://dev.to/ai_advisor_jp/four-levels-of-using-an-llm-from-chat-to-agents-20nh",
+      "pubDate": "2026-09-21T04:53:07.000Z",
+      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fkgyybhkjurn1vmmxkcoy.png\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Port 6443 in the Wild: Measuring Public Kubernetes API Endpoint Exposure",
-      "link": "https://dev.to/stark_zhuang_df5076f35c68/port-6443-in-the-wild-measuring-public-kubernetes-api-endpoint-exposure-3a89",
-      "pubDate": "2026-09-20T20:40:10.000Z",
-      "description": "<h1> Port 6443 in the Wild: Measuring Public Kubernetes API Endpoint Exposure </h1> <p>Kubernetes has become the default control plane of modern infrastructure. It schedules workloads, stores cluster state, issues credentials, and brokers every privileged action inside a cluster. The component that ",
+      "title": "The Most Underutilized Part of Tech Is the Media Layer",
+      "link": "https://dev.to/sumit0rn/the-most-underutilized-part-of-tech-is-the-media-layer-367g",
+      "pubDate": "2026-09-21T04:39:08.000Z",
+      "description": "<p>Technology has a strange communication problem.</p> <p>We have never had more powerful tools, more ambitious startups, more capable computers, or more sophisticated software. Yet when most people encounter new technology, they are often given one of two things:</p> <p><strong>Corporate jargon or ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Looking for collaborators!",
-      "link": "https://dev.to/fortheloveofpointers/looking-for-collaborators-4ned",
-      "pubDate": "2026-09-20T20:31:45.000Z",
-      "description": "<p>Hey, devs! New poster here. I'm starting to build my own open source projects after a few years of experience as a SWE, and wanted to find people willing to collaborate. My new, currently maintained project is this one: </p> <p><a href=\"https://github.com/ForTheLoveOfPointers/blockchain-chaos\" re",
+      "title": "Anthropic's sandbox was open. One model knew, and kept going.",
+      "link": "https://dev.to/trustboundary/anthropics-sandbox-was-open-one-model-knew-and-kept-going-96j",
+      "pubDate": "2026-09-21T04:38:47.000Z",
+      "description": "<p><em>Originally published at <a href=\"https://trustboundarystudio.com/posts/anthropic-sandbox-2026/\" rel=\"noopener noreferrer\">trustboundarystudio.com</a>. The video version, with diagrams, is <a href=\"https://youtu.be/0VDWcqpDPLo\" rel=\"noopener noreferrer\">on YouTube</a>.</em></p> <h2> Key facts ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "One Iceberg MCP Server, Seven Catalogs: What It Takes to Reach Each One",
-      "link": "https://dev.to/aws-builders/one-iceberg-mcp-server-seven-catalogs-what-it-takes-to-reach-each-one-jp5",
-      "pubDate": "2026-09-20T20:31:06.000Z",
-      "description": "<p>This article provides a step by step guide to one MCP server for Apache Iceberg tables, pointed at seven Iceberg REST catalogs in turn. The server offers four read-only tools, and one environment variable decides which catalog it reads.</p> <p><a href=\"https://github.com/xbill9/lakehouse-iceberg-",
+      "title": "Regex Testers Can Freeze the Browser: Safer Testing with Timeouts",
+      "link": "https://dev.to/toolexo/regex-testers-can-freeze-the-browser-safer-testing-with-timeouts-e0d",
+      "pubDate": "2026-09-21T04:37:20.000Z",
+      "description": "<p>A regex can look harmless in code review and still lock up a page when someone pastes the wrong input.</p> <p>Most of us learn regular expressions as a compact way to validate a field, find a log line, or clean up text. The trouble starts when a pattern gives the engine many ways to interpret the",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "One Iceberg MCP Server, Seven Catalogs: What It Takes to Reach Each One",
-      "link": "https://dev.to/gde/one-iceberg-mcp-server-seven-catalogs-what-it-takes-to-reach-each-one-2605",
-      "pubDate": "2026-09-20T20:30:58.000Z",
-      "description": "<p>This article provides a step by step guide to one MCP server for Apache Iceberg tables, pointed at seven Iceberg REST catalogs in turn. The server offers four read-only tools, and one environment variable decides which catalog it reads.</p> <p><a href=\"https://github.com/xbill9/lakehouse-iceberg-",
+      "title": "The AI Liability Fight Nobody Wants",
+      "link": "https://dev.to/max_quimby/the-ai-liability-fight-nobody-wants-3kk1",
+      "pubDate": "2026-09-21T04:35:25.000Z",
+      "description": "<h1> The AI Liability Fight Nobody Wants </h1> <blockquote> <p>📖 <a href=\"https://www.computeleap.com/blog/ai-liability-fight-nobody-wants\" rel=\"noopener noreferrer\">Read the full version with charts and embedded sources on ComputeLeap →</a></p> </blockquote> <p>The frontier AI debate just changed ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Jev TypeSafe AI + LangChain + Vercel AI Gateway",
-      "link": "https://dev.to/dcastillogi/jev-typesafe-ai-langchain-vercel-ai-gateway-427c",
-      "pubDate": "2026-09-20T20:19:51.000Z",
-      "description": "<p>La mayoría de sistemas usan un LLM para decidir cosas como clasificar, priorizar o enrutar.</p> <p><strong>jev está diseñado específicamente para tomar esas decisiones.</strong> En lugar de generar texto, evalúa un estado y devuelve una decisión tipada junto con las probabilidades de cada opción.",
+      "title": "AI chatbots give wrong answers to financial queries 'most of the time'",
+      "link": "https://www.ft.com/content/c0cd359d-df84-4208-a789-ffa864b43666",
+      "pubDate": "2026-09-21T04:28:44.000Z",
+      "description": "Article URL: https://www.ft.com/content/c0cd359d-df84-4208-a789-ffa864b43666 Comments URL: https://news.ycombinator.com/item?id=49783062 Points: 10 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Layered Abuse Control for Self-Hosted Laravel Admins",
+      "link": "https://dev.to/maniruzzamanakash/layered-abuse-control-for-self-hosted-laravel-admins-43bp",
+      "pubDate": "2026-09-21T04:20:41.000Z",
+      "description": "<p>You locked HTTPS. You hardened login. Backups are on a calendar.</p> <p>Bots still hammer admin login and public forms all day.</p> <p>Credential stuffing does not need a clever zero-day. It needs an open port and a patient script. A host firewall, a reverse proxy with sane headers, a WAF layer, ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Surviving the Breach: A Direct Blueprint for Infrastructure Hardening and Identity Remediation Following Enterprise Data Failure",
-      "link": "https://dev.to/r_yanush/surviving-the-breach-a-direct-blueprint-for-infrastructure-hardening-and-identity-remediation-ehe",
-      "pubDate": "2026-09-20T20:19:08.000Z",
-      "description": "<p>It is a text message at 3:00 AM that changed everything for me in early 2026. For most enterprise technology leaders, an institutional data breach is a metrics crisis—a corporate incident response puzzle involving PR damage control, threat containment vectors, and insurance audits. But when a mas",
+      "title": "Day 15 — Caching ও Redis — শুধু Cache না, এটা আরও অনেক কিছু",
+      "link": "https://dev.to/mislam-dev/day-15-caching-o-redis-shudhu-cache-naa-ettaa-aaro-anek-kichu-ak8",
+      "pubDate": "2026-09-21T04:20:00.000Z",
+      "description": "<p>একটা জিনিস চিন্তা করুন, $\\pi$ (Pi)-এর মান কি কখনো পরিবর্তন হবে? কিংবা $\\tan 30^\\circ$-এর মান? কখনো না! এগুলো ধ্রুবক বা Constant, পরিবর্তন হওয়ার প্রশ্নই ওঠে না।</p> <p>এবার আরেকটা বিষয় ভেবে দেখুন—এমন কিছু ডাটা আছে যেগুলো সবসময় ফিক্সড না হলেও, একটা দীর্ঘ সময়ের জন্য ফিক্সড থাকে এবং খুব কদাচিৎ পরিবর্",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Hacktoberfest 2026 Changed the Rules. Here's How to Actually Join In This October",
-      "link": "https://dev.to/alexgeorgiev17/hacktoberfest-2026-changed-the-rules-heres-how-to-actually-join-in-this-october-5c40",
-      "pubDate": "2026-09-20T20:17:18.000Z",
-      "description": "<p>If your mental model of Hacktoberfest is still \"open four pull requests against any public repo, get a T-shirt or a tree planted,\" that model is gone in 2026. Good news first: this isn't Hacktoberfest going away or getting stingier, it's a genuine rebuild, and if you've ever felt like the old PR-",
+      "title": "Claim Bench — an agent may extract, only a person can stamp",
+      "link": "https://dev.to/nakabiri_knolz_c215da66a1/claim-bench-an-agent-may-extract-only-a-person-can-stamp-2049",
+      "pubDate": "2026-09-21T04:18:31.000Z",
+      "description": "<p><em>This is a submission for the <a href=\"https://dev.to/challenges/sanity-2026-09-16\">Sanity Challenge</a>, Path Two: Vibe-Code Something Strange</em></p> <h2> What I Built </h2> <p>Claim Bench is the editor side of CabinClaim. It is not another read-only frontend of the desk.</p> <p>The desk in",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "+10% de conversão no checkout no mês. A campanha quebrava na hora de pagar",
-      "link": "https://dev.to/tiagovilasboas/10-de-conversao-no-checkout-no-mes-a-campanha-quebrava-na-hora-de-pagar-5566",
-      "pubDate": "2026-09-20T20:16:59.000Z",
-      "description": "<p>Pensa num restaurante que funciona perfeitamente nas tardes de semana. Fila zero, atendimento rápido, prato chega quente.</p> <p>Aí chega o feriado com promoção e o lugar enche três vezes. A cozinha não mudou. O cardápio não mudou. Mas o cliente espera 40 minutos, desiste, e vai embora.</p> <p>Ch",
+      "title": "When is an aggregate really anonymous? Differencing attacks on AI query layers",
+      "link": "https://dev.to/rene_gerling_f84901249d86/when-is-an-aggregate-really-anonymous-differencing-attacks-on-ai-query-layers-25hm",
+      "pubDate": "2026-09-21T04:15:19.000Z",
+      "description": "<p>A sum is not anonymization. Whether a number over special-category personal data (Art. 9 GDPR) says something about one person does not depend on its shape but on the population behind it. If fewer than k people stand behind a number, the aggregate is a single-person disclosure in table form.</p>",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "O que venho usando para construir meus projetos (1º semestre de Ciência da Computação)",
-      "link": "https://dev.to/pedrohs_cdc/o-que-venho-usando-para-construir-meus-projetos-1o-semestre-de-ciencia-da-computacao-9k9",
-      "pubDate": "2026-09-20T20:15:31.000Z",
-      "description": "<p>Depois de mais de 5 anos em administrativo e logística, decidi migrar para tecnologia. Estou no primeiro semestre de Ciência da Computação na Unifran, e desde a primeira aula venho transformando exercícios e ideias soltas em projetos reais, no ar, documentados. Aqui está o que usei em cada um — e",
+      "title": "Business Central Integration With E-Commerce, CRM, and Reporting Tools: What Works in Practice",
+      "link": "https://dev.to/antony_felix_c24dc325e749/business-central-integration-with-e-commerce-crm-and-reporting-tools-what-works-in-practice-47c7",
+      "pubDate": "2026-09-21T04:14:08.000Z",
+      "description": "<p>When people talk about business central integration, they usually mean one of three connections: the online store, the CRM, or the reporting layer. Those are the places where a disconnected ERP hurts most, because they are where customers, salespeople, and executives feel the delay. A shopper see",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Frontier Labs Are Selling Garbage to Fools in Washington",
-      "link": "https://deadneurons.substack.com/p/frontier-labs-are-selling-garbage",
-      "pubDate": "2026-09-20T19:55:36.000Z",
-      "description": "Article URL: https://deadneurons.substack.com/p/frontier-labs-are-selling-garbage Comments URL: https://news.ycombinator.com/item?id=49779432 Points: 22 # Comments: 6",
+      "title": "Winning the Visa Lottery",
+      "link": "https://www.aeaweb.org/research/immigration-restrictions-firms-workers",
+      "pubDate": "2026-09-21T03:37:02.000Z",
+      "description": "Article URL: https://www.aeaweb.org/research/immigration-restrictions-firms-workers Comments URL: https://news.ycombinator.com/item?id=49782775 Points: 3 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Deterministic Core, Non-Deterministic Shell",
+      "link": "https://outdata.net/blog/260803",
+      "pubDate": "2026-09-21T02:02:45.000Z",
+      "description": "Article URL: https://outdata.net/blog/260803 Comments URL: https://news.ycombinator.com/item?id=49782220 Points: 16 # Comments: 2",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Why back propagation goes backward",
+      "link": "https://gregorygundersen.com/blog/2018/04/15/backprop/",
+      "pubDate": "2026-09-21T00:42:14.000Z",
+      "description": "Article URL: https://gregorygundersen.com/blog/2018/04/15/backprop/ Comments URL: https://news.ycombinator.com/item?id=49781693 Points: 18 # Comments: 4",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Amiga Unix, Again",
+      "link": "https://amigaux.org/",
+      "pubDate": "2026-09-20T23:57:10.000Z",
+      "description": "Article URL: https://amigaux.org/ Comments URL: https://news.ycombinator.com/item?id=49781436 Points: 34 # Comments: 16",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "What happened to the Snowden archive",
+      "link": "https://libroot.org/posts/what-happened-to-the-snowden-archive",
+      "pubDate": "2026-09-20T22:35:49.000Z",
+      "description": "Article URL: https://libroot.org/posts/what-happened-to-the-snowden-archive Comments URL: https://news.ycombinator.com/item?id=49780820 Points: 259 # Comments: 165",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "AX – Google’s Open Agentic Orchestrator",
+      "link": "https://agentexecutor.io",
+      "pubDate": "2026-09-20T22:32:43.000Z",
+      "description": "Article URL: https://agentexecutor.io Comments URL: https://news.ycombinator.com/item?id=49780797 Points: 329 # Comments: 129",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Ogre Battle 64 Recompiled Project at 99.05%",
+      "link": "https://github.com/lfarroco/ogre-battle-64-recomp",
+      "pubDate": "2026-09-20T20:59:02.000Z",
+      "description": "Article URL: https://github.com/lfarroco/ogre-battle-64-recomp Comments URL: https://news.ycombinator.com/item?id=49780022 Points: 49 # Comments: 15",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Why MCP Was Always a Bad Idea?",
+      "link": "https://maharship.com/blog/why-mcp-was-always-a-bad-idea/",
+      "pubDate": "2026-09-20T19:44:40.000Z",
+      "description": "Article URL: https://maharship.com/blog/why-mcp-was-always-a-bad-idea/ Comments URL: https://news.ycombinator.com/item?id=49779329 Points: 83 # Comments: 83",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -101,71 +165,7 @@
       "title": "The Hierarchy of Money",
       "link": "https://gregorygundersen.com/blog/2026/09/20/hierarchy-of-money/",
       "pubDate": "2026-09-20T19:37:43.000Z",
-      "description": "Article URL: https://gregorygundersen.com/blog/2026/09/20/hierarchy-of-money/ Comments URL: https://news.ycombinator.com/item?id=49779253 Points: 20 # Comments: 3",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Software Sandboxing: The Basics",
-      "link": "https://blog.emilua.org/2025/01/12/software-sandboxing-basics/",
-      "pubDate": "2026-09-20T18:42:47.000Z",
-      "description": "Article URL: https://blog.emilua.org/2025/01/12/software-sandboxing-basics/ Comments URL: https://news.ycombinator.com/item?id=49778670 Points: 20 # Comments: 1",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "A Necessary History of the Oddest Letter: W",
-      "link": "https://lithub.com/a-necessary-history-of-the-oddest-letter-w/",
-      "pubDate": "2026-09-20T17:55:57.000Z",
-      "description": "Article URL: https://lithub.com/a-necessary-history-of-the-oddest-letter-w/ Comments URL: https://news.ycombinator.com/item?id=49778195 Points: 53 # Comments: 32",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "I turned Jev into a (lousy) chatbot",
-      "link": "https://github.com/kyle-pena-nlp/jevchat/",
-      "pubDate": "2026-09-20T17:51:27.000Z",
-      "description": "Article URL: https://github.com/kyle-pena-nlp/jevchat/ Comments URL: https://news.ycombinator.com/item?id=49778162 Points: 59 # Comments: 13",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Samsung is expected to more than double output of its HBM4 and HBM4E DRAM",
-      "link": "https://en.sedaily.com/finance/2026/09/20/samsung-to-double-hbm4-output-next-year-sources-say",
-      "pubDate": "2026-09-20T17:38:50.000Z",
-      "description": "Article URL: https://en.sedaily.com/finance/2026/09/20/samsung-to-double-hbm4-output-next-year-sources-say Comments URL: https://news.ycombinator.com/item?id=49778029 Points: 178 # Comments: 141",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Resident Evil 4 (GameCube) – complete byte-identical decompilation to C/C++",
-      "link": "https://github.com/adonis-singh/re4",
-      "pubDate": "2026-09-20T17:38:27.000Z",
-      "description": "Article URL: https://github.com/adonis-singh/re4 Comments URL: https://news.ycombinator.com/item?id=49778022 Points: 51 # Comments: 28",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Trying the Software Factory Pattern",
-      "link": "https://lethain.com/software-factory-experiment/",
-      "pubDate": "2026-09-20T17:27:11.000Z",
-      "description": "Article URL: https://lethain.com/software-factory-experiment/ Comments URL: https://news.ycombinator.com/item?id=49777913 Points: 39 # Comments: 24",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "US Revokes Limits on Power Plants' Climate Pollution",
-      "link": "https://text.hrw.org/news/2026/09/17/us-revokes-limits-on-power-plants-climate-pollution",
-      "pubDate": "2026-09-20T17:19:52.000Z",
-      "description": "Article URL: https://text.hrw.org/news/2026/09/17/us-revokes-limits-on-power-plants-climate-pollution Comments URL: https://news.ycombinator.com/item?id=49777841 Points: 122 # Comments: 108",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Show HN: Radius – A Meetup.com Alternative",
-      "link": "https://radius.to/",
-      "pubDate": "2026-09-20T16:51:26.000Z",
-      "description": "Hello HN!I'm relaunching Radius [1] - far too long after the original Show HN [2] (I'll blame the day job for that).Radius started out from my frustration with not knowing what was going on around me. The initial plan was to \"show all and every type of event\" from big to small, but over time I narro",
+      "description": "Article URL: https://gregorygundersen.com/blog/2026/09/20/hierarchy-of-money/ Comments URL: https://news.ycombinator.com/item?id=49779253 Points: 121 # Comments: 54",
       "source": "Hacker News",
       "category": "Tech News"
     },
