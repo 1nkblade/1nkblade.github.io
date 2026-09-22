@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T16:58:03.792Z",
+  "generatedAt": "2026-09-22T21:19:54.370Z",
   "sourceCount": 4,
   "successCount": 3,
   "errors": [
@@ -10,162 +10,162 @@
   ],
   "items": [
     {
-      "title": "Harness Engineering: el modelo casi nunca es el problema",
-      "link": "https://dev.to/ricardochl/harness-engineering-el-modelo-casi-nunca-es-el-problema-1mg6",
-      "pubDate": "2026-09-22T16:52:18.000Z",
-      "description": "<p>Hace poco monté un experimento pequeño: el mismo modelo de IA, la misma tarea de código, tres configuraciones distintas de lo que tenía permitido hacer. El resultado más revelador no fue que el agente fallara: fue ver, con evidencia en pantalla, que la calidad de lo que produce depende mucho meno",
+      "title": "I Built an AI Upscaler with 6 Specialist Models — Here's What I Learned",
+      "link": "https://dev.to/auroracapital/i-built-an-ai-upscaler-with-6-specialist-models-heres-what-i-learned-16dm",
+      "pubDate": "2026-09-22T21:06:42.000Z",
+      "description": "<h2> Why one model isn't enough </h2> <p>When I started building an AI upscaling service, I thought I'd just wrap Real-ESRGAN and call it done. Wrong.</p> <p>A model trained on photographs produces blurry edges on digital art. A model trained on anime smears skin textures in portraits. And video? Co",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Create calendar invites in Node.js that update and cancel cleanly",
-      "link": "https://dev.to/nikolas_dimitroulakis_d23/create-calendar-invites-in-nodejs-that-update-and-cancel-cleanly-17dh",
-      "pubDate": "2026-09-22T16:50:19.000Z",
-      "description": "<p>Create calendar invites in Node.js that update and cancel cleanly</p> <p>Send .ics calendar invites from Node.js with Nodemailer, then move and cancel them without leaving duplicate events in anyone's calendar.</p> <p>Sending one calendar invite is easy. The bugs show up on the second email.</p> ",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Same Model, Three APIs: Contract-Testing with Docker Model Runner",
-      "link": "https://dev.to/raju_dandigam/same-model-three-apis-contract-testing-with-docker-model-runner-3d67",
-      "pubDate": "2026-09-22T16:49:21.000Z",
-      "description": "<p>“OpenAI-compatible” is useful shorthand. It is not a portability guarantee.</p> <p>Two APIs may accept similar chat messages while differing in streaming events, tool calls, token counts, error shapes, stop reasons, and supported parameters. Swapping a base URL can make a demo work while leaving ",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "I Sent 50 Emails After 250 OK. 24% Still Bounced.",
-      "link": "https://dev.to/onizuka/i-sent-50-emails-after-250-ok-24-still-bounced-4fh2",
-      "pubDate": "2026-09-22T16:47:40.000Z",
-      "description": "<h1> api, #cybersecurity, #webdev, #python </h1> <h2> The 24% That Didn't Make It </h2> <p>On August 26, I took fifty email addresses that had already cleared two gates (syntax regex and a live SMTP handshake) and sent each one a real plain-text message. Twelve came back as hard bounces. Not spam-fo",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Why High-Quality Real-Time Face Swap Is Harder Than Offline Video Face Swap",
-      "link": "https://dev.to/mixcbaea5/why-high-quality-real-time-face-swap-is-harder-than-offline-video-face-swap-b4g",
-      "pubDate": "2026-09-22T16:44:28.000Z",
-      "description": "<p>Offline video face swap and real-time face swap can rely on similar classes of vision and generative techniques, but the engineering problem is not the same.</p> <p>An offline pipeline can spend more time on difficult frames, revisit earlier decisions, and finish when the whole job is done. A rea",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "No Agent Reviews Its Own Work",
-      "link": "https://dev.to/jpwise/no-agent-reviews-its-own-work-3l8m",
-      "pubDate": "2026-09-22T16:43:57.000Z",
-      "description": "<h3> What a four-major-version Angular migration taught me about supervising AI agents on production systems </h3> <p>Most writing about AI coding agents is about speed. This is not that. It is about the part nobody publishes: what you do with the output, and who checks it.</p> <p>I spent a stretch ",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "The Grand Unifying Architecture of Frontend",
-      "link": "https://dev.to/playfulprogramming/the-grand-unifying-architecture-of-frontend-bhk",
-      "pubDate": "2026-09-22T16:43:06.000Z",
-      "description": "<p>I used to joke that the history of frontend development could be retraced by following the argument of who owned the state. And the truth is both sides have gone back and forth on this over the years. We started on the document web where state was on the server. Then we added JavaScript and Apple",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Difference between windows and aggregate functions in sql.",
-      "link": "https://dev.to/gigomkenya/difference-between-windows-and-aggregate-functions-in-sql-of5",
-      "pubDate": "2026-09-22T16:41:39.000Z",
-      "description": "<p>Basically these two are functions used in sql database. They differ with each other in terms of usage.</p> <ol> <li>Aggregate functions. Aggregate functions operate on a set of values to return a single scalar value. These are SQL aggregate functions:</li> </ol> <ul> <li>AVG() returns the average",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Your AI cited a real file. It still lied to you.",
-      "link": "https://dev.to/enhanciar_ai_96a4ba4877e3/how-we-make-an-llm-cite-every-answer-down-to-fileline-and-check-the-citation-is-telling-the-truth-hmj",
-      "pubDate": "2026-09-22T16:39:32.000Z",
-      "description": "<blockquote> <p><strong>TL;DR</strong> — A citation proves a document was <em>retrieved</em>. It does not prove the sentence next to it came from there. We built Enhanciar to (1) force every answer to cite, (2) resolve each citation to a repo file and line, and (3) re-read the cited source and grade",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "What I learned from my Internet of Things Course",
-      "link": "https://dev.to/abdullahimran_io/what-i-learned-from-my-internet-of-things-course-34gm",
-      "pubDate": "2026-09-22T16:39:27.000Z",
-      "description": "<p>The Internet of Things refers to physical devices that can collect, exchange, and sometimes process data through connected networks.</p> <p>A simple example would be a smart temperature sensor that:</p> <ol> <li>Collects temperature data.</li> <li>Sends that data through a network.</li> <li>Allow",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Claude Opus 5.5",
-      "link": "https://www.anthropic.com/claude-opus-5-5",
-      "pubDate": "2026-09-22T16:27:30.000Z",
-      "description": "https://github.com/anthropics/ClaudeForFoundationModels/comm... Comments URL: https://news.ycombinator.com/item?id=49803863 Points: 111 # Comments: 65",
+      "title": "The UV index is not the warm sensation of sunlight on bare skin",
+      "link": "https://blog.asciitweezers.com/the-uv-index-is-not-the-warm-sensation-of-sunlight-on-bare-skin/",
+      "pubDate": "2026-09-22T21:06:40.000Z",
+      "description": "Article URL: https://blog.asciitweezers.com/the-uv-index-is-not-the-warm-sensation-of-sunlight-on-bare-skin/ Comments URL: https://news.ycombinator.com/item?id=49808109 Points: 3 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Show HN: AI·rete·RAG – a Rete rule engine decides, RAG explains why",
-      "link": "https://ai-rete-rag.com/",
-      "pubDate": "2026-09-22T16:15:06.000Z",
-      "description": "Hi HN, I built ai·rete·rag because I kept seeing teams put an LLM in charge of decisions that need to be auditable (lending, fraud, clinical triage), then bolt on \"guardrails\" after the fact.It runs the two in series instead:1. A pure-Python Rete engine evaluates YAML rules against your facts. The v",
+      "title": "No Sloptober",
+      "link": "https://no-sloptober.com/",
+      "pubDate": "2026-09-22T21:05:39.000Z",
+      "description": "Article URL: https://no-sloptober.com/ Comments URL: https://news.ycombinator.com/item?id=49808096 Points: 5 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "16-bit Intel 8088 chip",
-      "link": "https://allpoetry.com/16-bit-Intel-8088-chip",
-      "pubDate": "2026-09-22T16:11:34.000Z",
-      "description": "Article URL: https://allpoetry.com/16-bit-Intel-8088-chip Comments URL: https://news.ycombinator.com/item?id=49803635 Points: 31 # Comments: 2",
+      "title": "Debuggear se va a acabar",
+      "link": "https://dev.to/jvimora/el-debuggear-se-va-a-acabar-246",
+      "pubDate": "2026-09-22T21:03:32.000Z",
+      "description": "<p>Cada vez hay más posts que hablan sobre que la IA va a acabar con el trabajo de los desarrolladores, no voy a ser uno más de esos que dan el tostón con el fin de esta profesión. Me gustaría más centrarme en las pequeñas cosas que sí que vemos que se van quedando olvidadas u obsoletas casi sin dar",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Your AI Meeting Assistant Is Taking Notes. Who Is Doing the Work?",
+      "link": "https://dev.to/shakhbanov/your-ai-meeting-assistant-is-taking-notes-who-is-doing-the-work-3g68",
+      "pubDate": "2026-09-22T20:57:04.000Z",
+      "description": "<p><em>The real value of meeting AI isn't the transcript. It's what happens after everyone leaves the call.</em></p> <blockquote> <p><strong>TL;DR</strong></p> <ul> <li>Transcripts and summaries now ship inside Meet, Teams and Zoom. They're table stakes.</li> <li>The value of meeting AI is moving to",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "OLTP vs. OLAP: Understanding the Foundation of Modern Data Systems",
+      "link": "https://dev.to/venuskennedy/oltp-vs-olap-understanding-the-foundation-of-modern-data-systems-lm3",
+      "pubDate": "2026-09-22T20:54:49.000Z",
+      "description": "<p>Modern organizations generate enormous amounts of data every day.</p> <p>Every customer purchase, bank transaction, online order, employee record, product update, and website interaction can create new data. But storing data is only one part of the challenge. Organizations also need systems that ",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Your Ports Are Lying About Your Business",
+      "link": "https://dev.to/chranditho/your-ports-are-lying-about-your-business-k5m",
+      "pubDate": "2026-09-22T20:52:13.000Z",
+      "description": "<p>Your hexagonal architecture ports might still be speaking HTTP instead of business.</p> <p>In hexagonal architecture, ports exist to isolate your business logic from how<br> it's delivered. In practice, most of them are still named after HTTP operations<br> like <code>createUser</code> or <code>u",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "How I Bypassed Campus Firewall Port Blocks for Low-Ping Gaming Without a Laggy VPN",
+      "link": "https://dev.to/sarcasticlakshay/how-i-bypassed-campus-firewall-port-blocks-for-low-ping-gaming-without-a-laggy-vpn-m95",
+      "pubDate": "2026-09-22T20:51:46.000Z",
+      "description": "<p>Every student who lives in a university hostel or works behind an enterprise firewall knows the exact nightmare: you connect to the campus Wi-Fi, fire up Valorant or Counter-Strike 2, and hit an immediate wall.</p> <p>Either the client refuses to authenticate, your in-game microphone (Vivox) comp",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "HTB - Forest",
+      "link": "https://dev.to/zkrnvkf/htb-forest-23a0",
+      "pubDate": "2026-09-22T20:49:20.000Z",
+      "description": "<p>I’m planning to take the TCM Security PJPT certification exam next Monday. I’ve finished going through the PEH course, and I wanted to spend some time working on HTB machines to put some of the techniques and methodologies I learned into practice and build up my confidence for the exam.</p> <p>Wh",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Criei um SDK para tornar apps React Native mais resilientes a conexões ruins",
+      "link": "https://dev.to/rafael_ges_e03329a04a6bc/criei-um-sdk-para-tornar-apps-react-native-mais-resilientes-a-conexoes-ruins-34lb",
+      "pubDate": "2026-09-22T20:46:54.000Z",
+      "description": "<p>Um aplicativo mobile não precisa estar completamente offline para se tornar praticamente inutilizável.</p> <p>Às vezes o dispositivo está tecnicamente conectado à internet, mas a conexão está extremamente lenta, instável ou sofrendo perdas constantes.</p> <p>E é aí que começam os problemas:</p> <",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "OpenAI's GPT-5.6 Moves Point to a Broader API Price-Performance Strategy",
+      "link": "https://dev.to/alifar/openais-gpt-56-moves-point-to-a-broader-api-price-performance-strategy-3609",
+      "pubDate": "2026-09-22T20:45:30.000Z",
+      "description": "<p>OpenAI's latest GPT-5.6 changes offer concrete evidence of a strategy that matters to anyone building with AI APIs: improving the balance between model capability, speed, and cost rather than treating a single flagship model as the answer to every workload. OpenAI says <a href=\"https://scalevise.",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Automating Bug Reports with Tally and Make",
+      "link": "https://dev.to/benji377/automating-bug-reports-with-tally-and-make-510o",
+      "pubDate": "2026-09-22T20:44:54.000Z",
+      "description": "<p>When building my first proper Android app, <a href=\"https://github.com/Benji377/Timety\" rel=\"noopener noreferrer\">Timety</a>, I ran into a common issue: I wanted to collect user feedback, but since my app is privacy-focused, I wanted to avoid forcing users to create an account just to report a bu",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "The JavaScript Midlife Crisis",
+      "link": "https://maroun-baydoun.com/blog/javascript-midlife-crisis/",
+      "pubDate": "2026-09-22T19:58:47.000Z",
+      "description": "Article URL: https://maroun-baydoun.com/blog/javascript-midlife-crisis/ Comments URL: https://news.ycombinator.com/item?id=49807248 Points: 14 # Comments: 5",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Xbox continues its \"reset\" with dramatic restructuring",
-      "link": "https://arstechnica.com/gaming/2026/09/shuffling-the-deck-chairs-xbox-continues-its-reset-with-dramatic-restructuring/",
-      "pubDate": "2026-09-22T16:10:58.000Z",
-      "description": "Article URL: https://arstechnica.com/gaming/2026/09/shuffling-the-deck-chairs-xbox-continues-its-reset-with-dramatic-restructuring/ Comments URL: https://news.ycombinator.com/item?id=49803626 Points: 16 # Comments: 7",
+      "title": "Native apps written in TypeScript and CSS",
+      "link": "https://github.com/geastack/examples",
+      "pubDate": "2026-09-22T19:42:20.000Z",
+      "description": "Article URL: https://github.com/geastack/examples Comments URL: https://news.ycombinator.com/item?id=49807021 Points: 37 # Comments: 7",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Writing Rust code that's fast by asking agents to make the code faster",
-      "link": "https://minimaxir.com/2026/09/agentic-iteration/",
-      "pubDate": "2026-09-22T15:38:24.000Z",
-      "description": "Article URL: https://minimaxir.com/2026/09/agentic-iteration/ Comments URL: https://news.ycombinator.com/item?id=49803085 Points: 26 # Comments: 8",
+      "title": "A Faster Shortest Path Algorithm",
+      "link": "https://www.vals.ai/blogs/faster-shortest-path-algorithm",
+      "pubDate": "2026-09-22T19:24:58.000Z",
+      "description": "Article URL: https://www.vals.ai/blogs/faster-shortest-path-algorithm Comments URL: https://news.ycombinator.com/item?id=49806778 Points: 24 # Comments: 5",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "I asked Meta’s Muse for its filesystem and it sent me 6.8GB",
-      "link": "https://mouse.dev/blog/muse-runtime-export/",
-      "pubDate": "2026-09-22T15:25:12.000Z",
-      "description": "Article URL: https://mouse.dev/blog/muse-runtime-export/ Comments URL: https://news.ycombinator.com/item?id=49802871 Points: 146 # Comments: 73",
+      "title": "Overreliance on AI contributed to missile strike on Iran school – Pentagon",
+      "link": "https://www.bloomberg.com/graphics/2026-iran-school-attack/",
+      "pubDate": "2026-09-22T19:03:38.000Z",
+      "description": "Article URL: https://www.bloomberg.com/graphics/2026-iran-school-attack/ Comments URL: https://news.ycombinator.com/item?id=49806430 Points: 234 # Comments: 125",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Show HN: InstinctFlash – Run 5B world-action models in real time on Jetson Thor",
-      "link": "https://github.com/General-Instinct/InstinctFlash",
-      "pubDate": "2026-09-22T15:20:06.000Z",
-      "description": "Hey HN, Guanming here, cofounder of General Instinct. We just released InstinctFlash, a high-performance serving framework for robotics models. It’s licensed under AGPL-3.0.On Jetson Thor, we see speedups about 1.2x to 7.9x from runtime optimizations alone and up to 33.78x for LingBot-VA when we com",
+      "title": "SAML: A Fractal of Bad Design",
+      "link": "https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/",
+      "pubDate": "2026-09-22T18:57:17.000Z",
+      "description": "Article URL: https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/ Comments URL: https://news.ycombinator.com/item?id=49806335 Points: 84 # Comments: 31",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Vacate a Drone Restriction That Criminalized Recording Immigration Agents",
-      "link": "https://www.eff.org/deeplinks/2026/09/dc-circuit-must-vacate-drone-flight-restriction-criminalized-recording-immigration",
-      "pubDate": "2026-09-22T15:07:03.000Z",
-      "description": "Article URL: https://www.eff.org/deeplinks/2026/09/dc-circuit-must-vacate-drone-flight-restriction-criminalized-recording-immigration Comments URL: https://news.ycombinator.com/item?id=49802581 Points: 36 # Comments: 7",
+      "title": "Unreal Agent",
+      "link": "https://unreallabs.ai/blog/unreal-agent/",
+      "pubDate": "2026-09-22T18:15:53.000Z",
+      "description": "https://github.com/unreallabsai/unreal-agent Comments URL: https://news.ycombinator.com/item?id=49805748 Points: 65 # Comments: 42",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "OpenAI is well positioned to fast-follow Jev",
-      "link": "https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch/",
-      "pubDate": "2026-09-22T14:42:59.000Z",
-      "description": "Article URL: https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch/ Comments URL: https://news.ycombinator.com/item?id=49802161 Points: 114 # Comments: 88",
+      "title": "An update on how we confirm your age group on Discord",
+      "link": "https://discord.com/blog/safer-for-teens-same-discord-for-adults",
+      "pubDate": "2026-09-22T18:10:31.000Z",
+      "description": "Article URL: https://discord.com/blog/safer-for-teens-same-discord-for-adults Comments URL: https://news.ycombinator.com/item?id=49805677 Points: 54 # Comments: 9",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Jev – A curation of Jev demos on X, tools, skills, and integrations",
-      "link": "https://github.com/Amal-David/awesome-jev",
-      "pubDate": "2026-09-22T14:42:57.000Z",
-      "description": "Article URL: https://github.com/Amal-David/awesome-jev Comments URL: https://news.ycombinator.com/item?id=49802160 Points: 75 # Comments: 21",
+      "title": "GPT-6 Sol and Luna",
+      "link": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+      "pubDate": "2026-09-22T18:00:34.000Z",
+      "description": "Article URL: https://openai.com/index/introducing-gpt-6-sol-and-luna/ Comments URL: https://news.ycombinator.com/item?id=49805509 Points: 825 # Comments: 439",
       "source": "Hacker News",
       "category": "Tech News"
     },
