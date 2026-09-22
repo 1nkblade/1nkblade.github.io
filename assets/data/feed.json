@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T21:59:22.185Z",
+  "generatedAt": "2026-09-22T04:57:40.583Z",
   "sourceCount": 4,
   "successCount": 3,
   "errors": [
@@ -10,98 +10,130 @@
   ],
   "items": [
     {
-      "title": "Building FoxyInvoice — Chapter 6: Accounts, hosting, DNS, email — from zero to a domain",
-      "link": "https://dev.to/seolith/building-foxyinvoice-chapter-6-accounts-hosting-dns-email-from-zero-to-a-domain-2bh5",
-      "pubDate": "2026-09-21T21:48:31.000Z",
-      "description": "<p><em>This series is written in the open, from a real production system. This chapter is the step-by-step shopping list for turning code on a laptop into a URL someone else can type. [All chapters and diagrams live in the public repo.]</em></p> <p>This is the chapter people skip and then suffer: th",
+      "title": "Node.js vs Bun: What Actually Changes When You Switch?",
+      "link": "https://dev.to/huxxaindev/nodejs-vs-bun-what-actually-changes-when-you-switch-2853",
+      "pubDate": "2026-09-22T04:54:51.000Z",
+      "description": "<p>If you've been building JavaScript or TypeScript backends for a while, you've probably seen the same Node.js vs Bun comparison a hundred times.</p> <blockquote> <p>\"Bun is faster.\"</p> <p>\"Bun has a built-in package manager.\"</p> <p>\"Bun can run TypeScript.\"</p> <p>\"Node has a bigger ecosystem.\"<",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Turn Parser-Visible Flags Into a Config Reference Grid; Sign Defaults and Secret Classes",
-      "link": "https://dev.to/github_7727/turn-parser-visible-flags-into-a-config-reference-grid-sign-defaults-and-secret-classes-3l37",
-      "pubDate": "2026-09-21T21:34:09.000Z",
-      "description": "<p>Configuration reference pages fail when generated prose is treated as the source of production defaults, secret classes, or deprecation windows. A parser can list every flag and environment identifier that the current commit actually references in code. A drafting model can rewrite help-text into",
+      "title": "[ Video ] A System One AI Doesn’t Talk, It Only Decides – And It’s Perfect for Assess Decide Do",
+      "link": "https://dev.to/dragos_roua/-video-a-system-one-ai-doesnt-talk-it-only-decides-and-its-perfect-for-assess-decide-do-3nn1",
+      "pubDate": "2026-09-22T04:51:41.000Z",
+      "description": "<p>Last week, a new AI model was released, and it’s nothing like the AIs we already have. It’s called “JEV”, it’s a System One AI, and it only decides, it doesn’t generate any text. I got early access to it and I found an interesting use case: making it the Decide layer of my Assess – Decide – Do fr",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The CI/CD Pipeline Audit I Wish Someone Made Me Do Sooner",
-      "link": "https://dev.to/macrogenltd/the-cicd-pipeline-audit-i-wish-someone-made-me-do-sooner-1k8a",
-      "pubDate": "2026-09-21T21:32:53.000Z",
-      "description": "<p>Most teams don't design their CI/CD pipeline once and leave it. It grows organically — a script here, a manual approval step there, a workaround for that one flaky test nobody's fixed — until eighteen months later you have a pipeline that technically works but that nobody fully understands anymor",
+      "title": "Getting It Actually Done",
+      "link": "https://dev.to/ibrohimislam/getting-it-actually-done-56a8",
+      "pubDate": "2026-09-22T04:49:32.000Z",
+      "description": "<h2> Getting it done, not just declaring it done </h2> <p>Across real production work, a specific failure kept costing me: I'd call something done, and it wasn't done. Not because the code was wrong — because \"done\" had quietly come to mean \"the reported symptom is gone\" instead of \"the job is actua",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The MVP Features That Are Actually Just Multi-Tenancy in Disguise",
-      "link": "https://dev.to/macrogenltd/the-mvp-features-that-are-actually-just-multi-tenancy-in-disguise-439d",
-      "pubDate": "2026-09-21T21:31:57.000Z",
-      "description": "<p>When people talk about \"MVP scope,\" it's usually framed as a features conversation — what to cut, what to keep, what can wait until v2. But some of the decisions hiding inside that conversation aren't really about features at all. They're architecture decisions wearing a feature costume, and they",
+      "title": "Build a Subscription Billing System in India (2026)",
+      "link": "https://dev.to/buildbyravirai/build-a-subscription-billing-system-in-india-2026-1421",
+      "pubDate": "2026-09-22T04:44:47.000Z",
+      "description": "<p>A payment gateway moves rupees once. It authorizes a card or a UPI request, settles the money, and fires a success webhook. That is where most integration guides stop, and that is exactly where the real work of a subscription business begins. Recurring revenue is not one payment repeated. It is a",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "L.U.C.I.A.: al detalle técnico",
-      "link": "https://dev.to/raguilera82/lucia-al-detalle-tecnico-8dk",
-      "pubDate": "2026-09-21T21:30:56.000Z",
-      "description": "<blockquote> <p>Este artículo es la versión escrita —y bastante más larga— de la charla que he llevado a <strong>GDG Madrid</strong>. Los fragmentos de código son <strong>ilustrativos</strong>: reproducen la forma y las decisiones de diseño de nuestra implementación, no un volcado del repositorio. L",
+      "title": "Managing the Hidden Overhead of AI Software Engineering",
+      "link": "https://dev.to/sizzlebop/managing-the-hidden-overhead-of-ai-software-engineering-179a",
+      "pubDate": "2026-09-22T04:43:03.000Z",
+      "description": "<p>There is a scene that is becoming more and more common in software development right now.</p> <p>You have one AI coding agent refactoring something.</p> <p>Another one is writing tests.</p> <p>A third is handling some annoying migration you did not want to touch yourself.</p> <p>You are bouncing ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Why I built Animal Sudoku without a single ad",
-      "link": "https://dev.to/ganchclub/why-i-built-animal-sudoku-without-a-single-ad-25oi",
-      "pubDate": "2026-09-21T21:27:40.000Z",
-      "description": "<p>Screen time for children is broken. Most free games trade a childs focus for ad revenue. Flashing banners and loud interruptions shatter concentration during critical learning moments. I built Animal Sudoku Kids Puzzle to be a safe haven for logic.</p> <h3> The problem that bothered me </h3> <p>I",
+      "title": "Building a Patch Prioritization Rule When a Single Vendor Ships 970 Fixes in a Month",
+      "link": "https://dev.to/onaeiuspkz/building-a-patch-prioritization-rule-when-a-single-vendor-ships-970-fixes-in-a-month-573g",
+      "pubDate": "2026-09-22T04:40:06.000Z",
+      "description": "<h1> Building a Patch Prioritization Rule When a Single Vendor Ships 970 Fixes in a Month </h1> <p>For most of the last two decades, a monthly patch cycle meant a few dozen decisions. In September 2026, Microsoft's security update contained roughly 970 to 997 CVEs depending on how third-party compon",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I Benchmarked Five Ways to Speed Up a Slow React Table. Two of Them Did Nothing.",
-      "link": "https://dev.to/adityaprakash/i-benchmarked-five-ways-to-speed-up-a-slow-react-table-two-of-them-did-nothing-4b0i",
-      "pubDate": "2026-09-21T21:24:17.000Z",
-      "description": "<p>A table of 4,000 rows with a filter box above it. You type \"acme\" and the cursor lags behind your fingers.</p> <p>Every frontend developer hits this shape eventually, and the advice for fixing it is remarkably consistent: wrap the row in <code>React.memo</code>. That advice is where I started too",
+      "title": "Building an Interactive South America Dashboard with Streamlit and World Bank Data",
+      "link": "https://dev.to/dayan_elvisjahuirapilco/building-an-interactive-south-america-dashboard-with-streamlit-and-world-bank-data-1m1e",
+      "pubDate": "2026-09-22T04:38:56.000Z",
+      "description": "<h1> Building an Interactive South America Dashboard with Streamlit and World Bank Data </h1> <p>Open data has enormous potential, but a table containing thousands of rows does not always tell a clear story. For this project, I built <strong>South America Pulse</strong>, an interactive dashboard for",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I built 84 free CSS tools in one place — no login, no ads, just tools",
-      "link": "https://dev.to/nxco02/i-built-84-free-css-tools-in-one-place-no-login-no-ads-just-tools-2mh9",
-      "pubDate": "2026-09-21T21:24:01.000Z",
-      "description": "<h1> I built 84 free CSS tools in one place — no login, no ads, just tools </h1> <p>I got frustrated with CSS tool sites that load slowly, hide features behind a paywall, or require you to sign up just to copy a gradient. So I built <strong><a href=\"https://toolflow.app\" rel=\"noopener noreferrer\">To",
+      "title": "I built a real-time multiplayer brain-games platform on nothing but Firebase and vanilla JS",
+      "link": "https://dev.to/mognotaapp/i-built-a-real-time-multiplayer-brain-games-platform-on-nothing-but-firebase-and-vanilla-js-4k9a",
+      "pubDate": "2026-09-22T04:37:25.000Z",
+      "description": "<p>I've been building <a href=\"https://mognota.com\" rel=\"noopener noreferrer\">Mognota</a> — a free, real-time multiplayer hub of head-to-head brain games (chess variants, word games, mazes) — solo, with no backend game server. Just vanilla JS on the client and Firebase Realtime Database doing all th",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "SpikeForge grew into a toolkit, a model hub and a dashboard",
-      "link": "https://dev.to/w4ffl35/spikeforge-grew-into-a-toolkit-a-model-hub-and-a-dashboard-37k3",
-      "pubDate": "2026-09-21T21:21:52.000Z",
-      "description": "<p><a href=\"https://github.com/Capsize-Games/spikeforge\" rel=\"noopener noreferrer\">SpikeForge</a> is my Python toolkit for building and testing spiking neural networks. It stopped behaving like one big project during this release cycle: the core toolkit, target adapters, model hub and SpikeForge Das",
+      "title": "SHOULD I BE SCARED OF AI OR NOT ?",
+      "link": "https://dev.to/rupak2/should-i-be-scared-of-ai-or-not--elk",
+      "pubDate": "2026-09-22T04:31:06.000Z",
+      "description": "<h2> AI made me a much faster developer… but did it make me a weaker one? </h2> <p>Just a genuine question for other developers who started coding around the same time as me.</p> <p>I’ve been coding professionally for around <strong>1.5 years</strong>, mostly in startups.</p> <p>When I started learn",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Exim 4.100.1 Remediation Guide: Patching, Workarounds and Verification",
-      "link": "https://dev.to/jeffreyciend/exim-41001-remediation-guide-patching-workarounds-and-verification-3939",
-      "pubDate": "2026-09-21T21:20:05.000Z",
-      "description": "<h1> Exim 4.100.1 Remediation Guide: Patching, Workarounds and Verification </h1> <h2> Vulnerability overview </h2> <p>On 18 September 2026 the Exim project published version 4.100.1, fixing four security defects: two High-severity Proxy Protocol bugs, a Low-severity GnuTLS use-after-free and a Medi",
+      "title": "I built a Magic rules agent, then tried to prove it wasn't guessing",
+      "link": "https://dev.to/joshua_gutierrez/i-built-a-magic-rules-agent-then-tried-to-prove-it-wasnt-guessing-d4n",
+      "pubDate": "2026-09-22T04:25:56.000Z",
+      "description": "<p><em>Submission for the DEV x Sanity Challenge, Path One.</em></p> <h2> What I Built </h2> <p>JudgeStack answers Magic: The Gathering rules questions, but the answer itself is only half the job. It also works out which source has the authority to decide that answer.</p> <p>Depending on the questio",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "CBP suspends all personal prescription importation Oct 22",
-      "link": "https://www.personalimportation.org/advocacy",
-      "pubDate": "2026-09-21T20:58:17.000Z",
-      "description": "Article URL: https://www.personalimportation.org/advocacy Comments URL: https://news.ycombinator.com/item?id=49793322 Points: 28 # Comments: 3",
+      "title": "Claude Status – Elevated errors for multiple models",
+      "link": "https://status.claude.com/incidents/7g1qpkyz5gxh",
+      "pubDate": "2026-09-22T01:05:19.000Z",
+      "description": "Article URL: https://status.claude.com/incidents/7g1qpkyz5gxh Comments URL: https://news.ycombinator.com/item?id=49795579 Points: 78 # Comments: 60",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Xiaomi MiMo v2.6",
+      "title": "Socrates vs. the Written Word (2011)",
+      "link": "https://wondermark.com/socrates-vs-writing/",
+      "pubDate": "2026-09-22T00:06:55.000Z",
+      "description": "Article URL: https://wondermark.com/socrates-vs-writing/ Comments URL: https://news.ycombinator.com/item?id=49795122 Points: 24 # Comments: 7",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Looking forward to Git 2.56 – and 3.0",
+      "link": "https://lwn.net/SubscriberLink/1094575/2385e98583715c2b/",
+      "pubDate": "2026-09-21T23:16:51.000Z",
+      "description": "Article URL: https://lwn.net/SubscriberLink/1094575/2385e98583715c2b/ Comments URL: https://news.ycombinator.com/item?id=49794736 Points: 60 # Comments: 24",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Spymarks, Not Watermarks",
+      "link": "https://brand.io/article/spymarks/",
+      "pubDate": "2026-09-21T23:03:49.000Z",
+      "description": "Article URL: https://brand.io/article/spymarks/ Comments URL: https://news.ycombinator.com/item?id=49794615 Points: 234 # Comments: 42",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "I don't want to read what you didn't write",
+      "link": "https://blog.colinbreck.com/i-dont-want-to-read-what-you-didnt-write/",
+      "pubDate": "2026-09-21T22:30:41.000Z",
+      "description": "Article URL: https://blog.colinbreck.com/i-dont-want-to-read-what-you-didnt-write/ Comments URL: https://news.ycombinator.com/item?id=49794330 Points: 445 # Comments: 149",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "MiMo v2.6",
       "link": "https://mimo.xiaomi.com/mimo-v2-6",
       "pubDate": "2026-09-21T20:12:12.000Z",
-      "description": "Article URL: https://mimo.xiaomi.com/mimo-v2-6 Comments URL: https://news.ycombinator.com/item?id=49792730 Points: 245 # Comments: 105",
+      "description": "Article URL: https://mimo.xiaomi.com/mimo-v2-6 Comments URL: https://news.ycombinator.com/item?id=49792730 Points: 680 # Comments: 323",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -109,15 +141,7 @@
       "title": "Transformers Explained Visually",
       "link": "https://poloclub.github.io/transformer-explainer/",
       "pubDate": "2026-09-21T19:43:49.000Z",
-      "description": "Article URL: https://poloclub.github.io/transformer-explainer/ Comments URL: https://news.ycombinator.com/item?id=49792342 Points: 78 # Comments: 11",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Show HN: A website that tracks US food prices every day",
-      "link": "https://www.kadoa.com/food-prices",
-      "pubDate": "2026-09-21T19:24:10.000Z",
-      "description": "The US Department of Agriculture (USDA) publishes daily food price data for about 290 commodities on:- what growers were paid at shipping point- what buyers paid at the big city wholesale markets- what prices supermarkets advertised in their weekly adsThis data comes out as dozens of separate text r",
+      "description": "Article URL: https://poloclub.github.io/transformer-explainer/ Comments URL: https://news.ycombinator.com/item?id=49792342 Points: 261 # Comments: 41",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -125,7 +149,7 @@
       "title": "AI coding has made CI a bottleneck, so we reworked ours to keep up",
       "link": "https://linear.app/now/ci-bottleneck-reworked",
       "pubDate": "2026-09-21T19:23:33.000Z",
-      "description": "Article URL: https://linear.app/now/ci-bottleneck-reworked Comments URL: https://news.ycombinator.com/item?id=49792067 Points: 72 # Comments: 58",
+      "description": "Article URL: https://linear.app/now/ci-bottleneck-reworked Comments URL: https://news.ycombinator.com/item?id=49792067 Points: 173 # Comments: 182",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -133,39 +157,15 @@
       "title": "The Advisory Group on Mathematics and Artificial Intelligence",
       "link": "https://terrytao.wordpress.com/2026/09/21/advisory-group-on-mathematics-and-artificial-intelligence/",
       "pubDate": "2026-09-21T19:17:42.000Z",
-      "description": "Article URL: https://terrytao.wordpress.com/2026/09/21/advisory-group-on-mathematics-and-artificial-intelligence/ Comments URL: https://news.ycombinator.com/item?id=49791997 Points: 50 # Comments: 23",
+      "description": "Article URL: https://terrytao.wordpress.com/2026/09/21/advisory-group-on-mathematics-and-artificial-intelligence/ Comments URL: https://news.ycombinator.com/item?id=49791997 Points: 109 # Comments: 54",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "The NASA/ESA Mars Sample Return mission has been canceled",
+      "title": "NASA’s Mars Sample Return mission is dead",
       "link": "https://www.science.org/content/article/nasa-s-mars-sample-return-mission-dead",
       "pubDate": "2026-09-21T19:14:12.000Z",
-      "description": "Article URL: https://www.science.org/content/article/nasa-s-mars-sample-return-mission-dead Comments URL: https://news.ycombinator.com/item?id=49791939 Points: 193 # Comments: 139",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "In Search of a Compositional Theory of Self-Stabilization",
-      "link": "http://muratbuffalo.blogspot.com/2026/09/in-search-of-compositional-theory-of.html",
-      "pubDate": "2026-09-21T19:04:36.000Z",
-      "description": "Article URL: http://muratbuffalo.blogspot.com/2026/09/in-search-of-compositional-theory-of.html Comments URL: https://news.ycombinator.com/item?id=49791797 Points: 34 # Comments: 3",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Roboharm: Do frontier robot policies refuse unsafe instructions?",
-      "link": "https://robocurve.org/roboharm/",
-      "pubDate": "2026-09-21T18:58:26.000Z",
-      "description": "Article URL: https://robocurve.org/roboharm/ Comments URL: https://news.ycombinator.com/item?id=49791720 Points: 19 # Comments: 6",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Frontier AI on Your Own Hardware",
-      "link": "https://timdettmers.com/2026/09/21/dlab-open-source-week/",
-      "pubDate": "2026-09-21T18:53:01.000Z",
-      "description": "Article URL: https://timdettmers.com/2026/09/21/dlab-open-source-week/ Comments URL: https://news.ycombinator.com/item?id=49791647 Points: 45 # Comments: 16",
+      "description": "Article URL: https://www.science.org/content/article/nasa-s-mars-sample-return-mission-dead Comments URL: https://news.ycombinator.com/item?id=49791939 Points: 341 # Comments: 277",
       "source": "Hacker News",
       "category": "Tech News"
     },
