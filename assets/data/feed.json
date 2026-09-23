@@ -1,177 +1,253 @@
 {
-  "generatedAt": "2026-09-23T04:46:11.044Z",
+  "generatedAt": "2026-09-23T11:38:25.031Z",
   "sourceCount": 4,
-  "successCount": 2,
+  "successCount": 3,
   "errors": [
     {
       "source": "Hack The Box Security Blog",
       "error": "HTTP 404 Not Found"
-    },
-    {
-      "source": "CSS Tricks",
-      "error": "HTTP 415 Unsupported Media Type"
     }
   ],
   "items": [
     {
-      "title": "I went looking for sandwiches and found a DEX pool trading with itself",
-      "link": "https://dev.to/edycutjong/i-went-looking-for-sandwiches-and-found-a-dex-pool-trading-with-itself-2kj8",
-      "pubDate": "2026-09-23T04:37:43.000Z",
-      "description": "<p>A DEX trader sees a quote and a fill and cannot tell what stood between them. I set out to measure the obvious suspect, the sandwich: a bot that buys just before you and sells straight after, in the same block.</p> <p>I found almost none. What I found instead was a pool where two thirds of the vo",
+      "title": "Choosing Amazon Bedrock Managed Knowledge Bases: An Architecture Decision in My RAG Application",
+      "link": "https://dev.to/duubemmm/choosing-amazon-bedrock-managed-knowledge-bases-an-architecture-decision-in-my-rag-application-5afj",
+      "pubDate": "2026-09-23T11:32:10.000Z",
+      "description": "<p>When I started designing the RAG architecture for the internal AI assistant project, one of the first decisions I had to make was:</p> <blockquote> <p><strong>Where should the application's knowledge live, and which component should be responsible for turning that knowledge into something the mod",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Two in three 'liquidity pulled' alerts are the same wallet putting it back",
-      "link": "https://dev.to/edycutjong/two-in-three-liquidity-pulled-alerts-are-the-same-wallet-putting-it-back-5f2f",
-      "pubDate": "2026-09-23T04:37:13.000Z",
-      "description": "<p>A treasury bot pings: <strong>LP removed, −$21,330,275, UNI/WBTC.</strong> Somebody pulls up a chart, somebody asks in the group chat whether the market maker left, and for the next hour the answer is a guess.</p> <p>The answer was sitting in the same API, one query away. 132 seconds later the sa",
+      "title": "I Turned DEV.to Into a Walkable 3D Library — Debugging It Has Been a Nightmare",
+      "link": "https://dev.to/mikachu/i-turned-devto-into-a-walkable-3d-library-debugging-it-has-been-a-nightmare-4lkd",
+      "pubDate": "2026-09-23T11:31:31.000Z",
+      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fmvmps74qb7h7ct5n6i7h.png\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Why I Chose P2P Instead of S3 for My File Transfer Product",
-      "link": "https://dev.to/anirban00537/why-i-chose-p2p-instead-of-s3-for-my-file-transfer-product-3mgo",
-      "pubDate": "2026-09-23T04:34:59.000Z",
-      "description": "<p>When I started thinking seriously about building a large-file transfer product, Amazon S3 felt like the obvious architecture.</p> <p>It is reliable.</p> <p>It scales.</p> <p>It has excellent tooling.</p> <p>Every backend framework knows how to work with it.</p> <p>And the standard implementation ",
+      "title": "Help Us Build an Open, Offline Hands-Free Desktop",
+      "link": "https://dev.to/mskazemi/help-us-build-an-open-offline-hands-free-desktop-13ip",
+      "pubDate": "2026-09-23T11:31:04.000Z",
+      "description": "<p>YazSes started with a simple idea:</p> <p><strong>Hold a key, speak, and have your words typed into almost any desktop application — locally, without sending your audio to a cloud service by default.</strong></p> <p>GitHub:</p> <p>👉 <a href=\"https://github.com/MSKazemi/yazses\" rel=\"noopener nore",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "TVL Trend Analysis &amp; Liquidity Risk Assessment: Gemini",
-      "link": "https://dev.to/dannydoes_2abdf9c/tvl-trend-analysis-liquidity-risk-assessment-gemini-1ila",
-      "pubDate": "2026-09-23T04:34:35.000Z",
-      "description": "<h1> TVL Trend Analysis &amp; Liquidity Risk Assessment: Gemini </h1> <p><strong>Target Protocol</strong>: Gemini (TVL: $5795.0M)</p> <h1> TVL Trend Analysis &amp; Liquidity Risk Assessment – Gemini </h1> <p><strong>Protocol:</strong> Gemini (Ethereum &amp; L2) – <strong>Current TVL:</strong> <stron",
+      "title": "Claude Opus 5.5 vs GPT-6 Astra vs GPT-6 Sol: the effort knob matters more than the model",
+      "link": "https://dev.to/genelab_999/claude-opus-55-vs-gpt-6-astra-vs-gpt-6-sol-the-effort-knob-matters-more-than-the-model-55gm",
+      "pubDate": "2026-09-23T11:27:37.000Z",
+      "description": "<p>On September 22, 2026, Anthropic shipped <strong>Claude Opus 5.5</strong> and OpenAI shipped <strong>GPT-6 Sol</strong> on the same day. OpenAI's flagship, <strong>GPT-6 Astra</strong>, had landed three weeks earlier.</p> <p>If you tried to pick one from the launch posts, you probably noticed the",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I had 47 tabs open during an incident. Never again.",
-      "link": "https://dev.to/karaniph/i-had-47-tabs-open-during-an-incident-never-again-2kg8",
-      "pubDate": "2026-09-23T04:31:00.000Z",
-      "description": "<p>i use my chrome browser alot when SSHing to my VMs. It was killing my laptop.</p> <p>I'm an AWS cloud engineer. I don't live in an IDE all day. I live in Slack, GitHub, our AWS org (12 accounts through SSO), and about six AI chats I'm slightly embarrassed about.</p> <p>Last Tuesday proved it. 2:1",
+      "title": "Stop Being Scared of Git: Learn the Model, Then Quiz the Commands",
+      "link": "https://dev.to/devopsdaily/stop-being-scared-of-git-learn-the-model-then-quiz-the-commands-ic4",
+      "pubDate": "2026-09-23T11:27:34.000Z",
+      "description": "<p>Nobody is scared of Git commands. People are scared of what the commands might do, because they are typing into a system whose model they cannot see. <code>git rebase main</code>: will that neatly replay my work or eat the afternoon? If you cannot picture the answer, every command is a small gamb",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Angular Security Headers: A Practical Guide to Securing Your Angular Application",
-      "link": "https://dev.to/amit-jangid/angular-security-headers-a-practical-guide-to-securing-your-angular-application-g4i",
-      "pubDate": "2026-09-23T04:29:01.000Z",
-      "description": "<p>I've started a new series focused on <strong>hardening Angular applications using browser and HTTP security controls</strong>.</p> <p>In Part 1, I cover the fundamentals of security headers and how they add another layer of protection between an Angular application and the browser.</p> <p>Some of",
+      "title": "KSeF: Poland's e-invoicing API will break your store. Here is where",
+      "link": "https://dev.to/rostislav_havryliuk/polands-e-invoicing-api-will-break-your-store-here-is-where-4kfo",
+      "pubDate": "2026-09-23T11:22:59.000Z",
+      "description": "<p>Poland made B2B e-invoicing mandatory. Biggest companies from 1 February 2026, everyone else from 1 April 2026. Invoices to companies now go through KSeF, a government system. Not a PDF you email. An XML the state accepts or rejects.</p> <p>Two dates that get lost in summaries. <strong>Receiving<",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How I Send 100GB+ Files Directly Between Browsers Without Cloud Storage",
-      "link": "https://dev.to/anirban00537/how-i-send-100gb-files-directly-between-browsers-without-cloud-storage-544j",
-      "pubDate": "2026-09-23T04:24:40.000Z",
-      "description": "<p>Most file-sharing products are built around the same basic idea:</p> <ol> <li>Upload the file to a server.</li> <li>Store it somewhere.</li> <li>Generate a link.</li> <li>Let the recipient download it later.</li> </ol> <p>That model is simple, reliable, and works extremely well for a lot of produ",
+      "title": "48-Hour Field Notes: The Load Test Looked Fast. Keep-Alive Was Reusing One Socket.",
+      "link": "https://dev.to/codepy_1473/48-hour-field-notes-the-load-test-looked-fast-keep-alive-was-reusing-one-socket-516j",
+      "pubDate": "2026-09-23T11:19:09.000Z",
+      "description": "<p>I thought I had a fast API until my laptop printed twelve milliseconds for two hundred sequential GETs. Production p95 then sat near a full network round trip, and nobody could reconcile the two graphs. Have you ever published a latency number that only existed because the TCP handshake never hap",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Production RAG on the Lakehouse with BigQuery Vector Search and Apache Iceberg",
-      "link": "https://dev.to/gde/production-rag-on-the-lakehouse-with-bigquery-vector-search-and-apache-iceberg-5g3",
-      "pubDate": "2026-09-23T04:24:08.000Z",
-      "description": "<p>As teams rush to build with Generative AI, they're creating a dangerous chasm between their data and AI stacks. This common architectural flaw introduces massive technical debt and business risk.</p> <h2> The Problem: The Great Divide Between Data and AI Stacks </h2> <p>The explosion of Generativ",
+      "title": "Your AI Model Isn’t Limited. Your Request Is. So I used jev to fix it.",
+      "link": "https://dev.to/uranusist_99/your-ai-model-isnt-limited-your-request-is-so-i-used-jev-to-fix-it-3ff0",
+      "pubDate": "2026-09-23T11:19:04.000Z",
+      "description": "<p>A prompt sent to an AI is a snapshot of what you know at the exact moment you type it.</p> <p>That sounds obvious, but it carries a consequence people rarely sit with: <strong>the output is bounded not by the model, but by the request.</strong> A better model fills the same shape more fluently. I",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Windows can decode (and encode) HEIC without ImageMagick - but your browser can't decode it at all",
-      "link": "https://dev.to/_8729c5bde46be2/windows-can-decode-and-encode-heic-without-imagemagick-but-your-browser-cant-decode-it-at-all-51ca",
-      "pubDate": "2026-09-23T04:23:43.000Z",
-      "description": "<p>Someone hands you a folder of iPhone photos, every file is <code>.heic</code>, and the form you need to upload them to wants JPG. The usual advice is \"install ImageMagick\" or \"use this website\". Neither is necessary on Windows, and the website advice hides something worth knowing about browsers.<",
+      "title": "UIKit 1.6.0: Lumina Controls and Page Recipes for .NET MAUI",
+      "link": "https://dev.to/niladri_prasadpadhy_ccee/uikit-160-lumina-controls-and-page-recipes-for-net-maui-3b8i",
+      "pubDate": "2026-09-23T11:18:32.000Z",
+      "description": "<p>A MAUI screen can be a stack of stock entries and buttons, or it can share one type scale, one field chrome, and one sign-in recipe with the rest of the app.</p> <p><strong>NuvyntraLabs.UIKit</strong> is that library. Version <strong>1.6.0</strong> is on nuget.org. It is the Lumina catalog: found",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The one law the whole series assumes: an AI that goes down silently is worse than one that's dead",
-      "link": "https://dev.to/derekwang85/the-one-law-the-whole-series-assumes-an-ai-that-goes-down-silently-is-worse-than-one-thats-dead-3fc7",
-      "pubDate": "2026-09-23T04:23:00.000Z",
-      "description": "<p><em>AI Harness Engineering · Essay Six · derek wang (derekwang85)</em></p> <p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fjjwhu7s5oh7dt6gmrwbm.jpg\" cla",
+      "title": "Why Your Contact Form Submissions Are Ruining Your CRM Data (And How to Fix Field Mapping)",
+      "link": "https://dev.to/rahul_sharma_15bd129bc69e/why-your-contact-form-submissions-are-ruining-your-crm-data-and-how-to-fix-field-mapping-3n3o",
+      "pubDate": "2026-09-23T11:16:05.000Z",
+      "description": "<p>A Contact Form 7 integration can return a successful API response, create a CRM record, and still put the wrong data into the wrong fields.</p> <p>That is one of the more frustrating integration bugs because, technically, nothing appears to be broken.</p> <p>The form submits.</p> <p>The API respo",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Data-Only Attacks Are Easier Than You Think",
+      "title": "The Download: why AI's latest breakthroughs and fears may be more hype than rea",
+      "link": "https://www.technologyreview.com/2026/09/22/1144910/the-download-dont-believe-ai-hype/",
+      "pubDate": "2026-09-23T11:01:50.000Z",
+      "description": "Article URL: https://www.technologyreview.com/2026/09/22/1144910/the-download-dont-believe-ai-hype/ Comments URL: https://news.ycombinator.com/item?id=49814211 Points: 13 # Comments: 1",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "The darker side of being a doctor",
+      "link": "https://drericlevi.pages.dev/the-darker-side-of-being-a-doctor/",
+      "pubDate": "2026-09-23T10:54:55.000Z",
+      "description": "Article URL: https://drericlevi.pages.dev/the-darker-side-of-being-a-doctor/ Comments URL: https://news.ycombinator.com/item?id=49814159 Points: 63 # Comments: 27",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Abandoning Scientific Linux Was a Mistake",
+      "link": "https://blog.melashri.net/posts/scientific-linux-mistake/",
+      "pubDate": "2026-09-23T08:46:39.000Z",
+      "description": "Article URL: https://blog.melashri.net/posts/scientific-linux-mistake/ Comments URL: https://news.ycombinator.com/item?id=49813286 Points: 69 # Comments: 41",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "I am done with this shit",
+      "link": "https://www.reddit.com/r/ClaudeAI/comments/1wm5c21/i_am_done_with_this_shit/",
+      "pubDate": "2026-09-23T07:59:14.000Z",
+      "description": "Article URL: https://www.reddit.com/r/ClaudeAI/comments/1wm5c21/i_am_done_with_this_shit/ Comments URL: https://news.ycombinator.com/item?id=49812975 Points: 101 # Comments: 49",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Jev in 25 Lines of Python",
+      "link": "https://www.nobodywho.ai/posts/jev-in-25-lines/",
+      "pubDate": "2026-09-23T07:26:23.000Z",
+      "description": "Article URL: https://www.nobodywho.ai/posts/jev-in-25-lines/ Comments URL: https://news.ycombinator.com/item?id=49812769 Points: 228 # Comments: 77",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "There is no epidemic of loneliness, but there is an epidemic of scurvy",
+      "link": "https://www.experimental-history.com/p/there-is-no-epidemic-of-loneliness",
+      "pubDate": "2026-09-23T06:48:37.000Z",
+      "description": "Article URL: https://www.experimental-history.com/p/there-is-no-epidemic-of-loneliness Comments URL: https://news.ycombinator.com/item?id=49812533 Points: 19 # Comments: 2",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "How often do you think about the 1893 World's Fair?",
+      "link": "https://www.thebirthofacapital.info/chicago-worlds-fair-tataria-ware-larsen/",
+      "pubDate": "2026-09-23T05:32:51.000Z",
+      "description": "Article URL: https://www.thebirthofacapital.info/chicago-worlds-fair-tataria-ware-larsen/ Comments URL: https://news.ycombinator.com/item?id=49812023 Points: 27 # Comments: 9",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Grammarly will send unhinged messages to all your users if you try to cancel",
+      "link": "https://www.reddit.com/r/sysadmin/comments/1wjdpgx/psa_grammarly_will_send_unhinged_messages_to_all/",
+      "pubDate": "2026-09-23T04:00:43.000Z",
+      "description": "Article URL: https://www.reddit.com/r/sysadmin/comments/1wjdpgx/psa_grammarly_will_send_unhinged_messages_to_all/ Comments URL: https://news.ycombinator.com/item?id=49811484 Points: 192 # Comments: 56",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Data-only attacks are easier than you think (2024)",
       "link": "https://www.usenix.org/publications/loginonline/data-only-attacks-are-easier-you-think",
       "pubDate": "2026-09-23T03:49:28.000Z",
-      "description": "Article URL: https://www.usenix.org/publications/loginonline/data-only-attacks-are-easier-you-think Comments URL: https://news.ycombinator.com/item?id=49811429 Points: 6 # Comments: 0",
+      "description": "Article URL: https://www.usenix.org/publications/loginonline/data-only-attacks-are-easier-you-think Comments URL: https://news.ycombinator.com/item?id=49811429 Points: 58 # Comments: 23",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Transit rewards (Waymo pays you to take the train)",
+      "title": "Transit rewards",
       "link": "https://waymo.com/blog/2026/09/transit-rewards/",
       "pubDate": "2026-09-23T02:52:29.000Z",
-      "description": "Article URL: https://waymo.com/blog/2026/09/transit-rewards/ Comments URL: https://news.ycombinator.com/item?id=49811065 Points: 32 # Comments: 13",
+      "description": "Article URL: https://waymo.com/blog/2026/09/transit-rewards/ Comments URL: https://news.ycombinator.com/item?id=49811065 Points: 154 # Comments: 177",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "US criticises Australia's proposed algorithm opt-out laws as 'censorship'",
-      "link": "https://www.bbc.com/news/articles/cqj3dgy8x3vro",
-      "pubDate": "2026-09-23T02:13:52.000Z",
-      "description": "Article URL: https://www.bbc.com/news/articles/cqj3dgy8x3vro Comments URL: https://news.ycombinator.com/item?id=49810829 Points: 84 # Comments: 64",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "Let’s Use the Emergent CSS random() Function in all the Browsers",
+      "link": "https://css-tricks.com/css-random-function-polyfill/",
+      "pubDate": "2026-08-31T15:12:19.000Z",
+      "description": "The journey to create a polyfill for the upcoming CSS random() function that works in all browsers. Let’s Use the Emergent CSS random() Function in all the Browsers originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
-      "title": "The current balance of power in open models",
-      "link": "https://www.interconnects.ai/p/the-current-balance-of-power-in-open",
-      "pubDate": "2026-09-22T22:03:46.000Z",
-      "description": "Article URL: https://www.interconnects.ai/p/the-current-balance-of-power-in-open Comments URL: https://news.ycombinator.com/item?id=49808816 Points: 60 # Comments: 21",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "What’s !important #18: &#060;geolocation&gt;, Syntax ::highlight()ing, named-feature(), and More",
+      "link": "https://css-tricks.com/whats-important-18/",
+      "pubDate": "2026-08-31T14:08:55.000Z",
+      "description": "Well, that’s a wrap. No, not a flex-wrap, but rather today marks a new day, week, month, season, aaaand new edition of What’s important (#18), bringing you the best content that developers have produced over the last couple of weeks or so. What’s !important #18: <geolocation>, Syntax ::highlight()in",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
-      "title": "Microsoft killed FoxPro in 2007. Anyway, here's FoxPro revived",
-      "link": "https://foxscript.org/",
-      "pubDate": "2026-09-22T21:00:30.000Z",
-      "description": "Visual FoxPro stopped at version 9 in 2007. A surprising amount of it is still running, in 32 bits, because rewriting a 20-year-old business app is how you lose the business. A customer wanted to keep milking their app for the foreseeable future, so here it is: the same language on a new runtime (Ru",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "Creating Web Widgets Using the Document Picture-in-Picture API",
+      "link": "https://css-tricks.com/creating-web-widgets-using-the-document-picture-in-picture-api/",
+      "pubDate": "2026-08-27T14:41:06.000Z",
+      "description": "The general idea is that we create a Document Picture-in-Picture window (DPIP window), and then we put HTML, CSS, and JavaScript into it. Creating Web Widgets Using the Document Picture-in-Picture API originally handwritten and published with love on CSS-Tricks. You should really get the newsletter ",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
-      "title": "Native apps written in TypeScript and CSS",
-      "link": "https://github.com/geastack/examples",
-      "pubDate": "2026-09-22T19:42:20.000Z",
-      "description": "Article URL: https://github.com/geastack/examples Comments URL: https://news.ycombinator.com/item?id=49807021 Points: 94 # Comments: 34",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "animation-trigger",
+      "link": "https://css-tricks.com/almanac/properties/a/animation-trigger/",
+      "pubDate": "2026-08-26T15:38:41.000Z",
+      "description": "The CSS animation-trigger property allows you to delay the start of a CSS animation until a specific trigger occurs. animation-trigger originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
-      "title": "Obscura: VPN that can't log your activity",
-      "link": "https://obscura.com/#faq-technical",
-      "pubDate": "2026-09-22T19:40:28.000Z",
-      "description": "Article URL: https://obscura.com/#faq-technical Comments URL: https://news.ycombinator.com/item?id=49807003 Points: 100 # Comments: 84",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "MicroLighter: Syntax Highlighter",
+      "link": "https://css-tricks.com/microlighter-syntax-highlighter/",
+      "pubDate": "2026-08-25T14:10:34.000Z",
+      "description": "Syntax highlighting for code blocks without the complicated markup, spans, classes, and bloated JavaScript, courtesy of Uncle Dave. MicroLighter: Syntax Highlighter originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
-      "title": "Pentagon says overreliance on AI contributed to missile strike on Iran school",
-      "link": "https://www.bloomberg.com/graphics/2026-iran-school-attack/",
-      "pubDate": "2026-09-22T19:03:38.000Z",
-      "description": "https://archive.ph/0V37g Comments URL: https://news.ycombinator.com/item?id=49806430 Points: 514 # Comments: 253",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "WordPress PHP-Only Block Registration",
+      "link": "https://css-tricks.com/wordpress-php-block-registration/",
+      "pubDate": "2026-08-24T13:54:02.000Z",
+      "description": "Seven and half years after blocks arrived in Core, WordPress introduces a way to build blocks without React annd build pipelines. All you need is PHP. WordPress PHP-Only Block Registration originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
-      "title": "SAML: A fractal of bad design",
-      "link": "https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/",
-      "pubDate": "2026-09-22T18:57:17.000Z",
-      "description": "Article URL: https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/ Comments URL: https://news.ycombinator.com/item?id=49806335 Points: 190 # Comments: 116",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "Resolved: CSS Class Prefix Selector",
+      "link": "https://css-tricks.com/resolved-css-class-prefix-selector/",
+      "pubDate": "2026-08-21T15:13:03.000Z",
+      "description": "A newly resolved proposal would allow us to select classes that are a prefix for variations with a wildcard, like .prefix-*. Resolved: CSS Class Prefix Selector originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
-      "title": "Unreal Agent",
-      "link": "https://unreallabs.ai/blog/unreal-agent/",
-      "pubDate": "2026-09-22T18:15:53.000Z",
-      "description": "https://github.com/unreallabsai/unreal-agent Comments URL: https://news.ycombinator.com/item?id=49805748 Points: 147 # Comments: 90",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "CSS Navigation Matching, Early Days",
+      "link": "https://css-tricks.com/css-navigation-matching-early-days/",
+      "pubDate": "2026-08-19T14:44:41.000Z",
+      "description": "Apply a style when someone navigates from one specific page to another. The idea being it'd make the sources for cross-document view transitions declarative in CSS rather than managing that stuff in JavaScript. CSS Navigation Matching, Early Days originally handwritten and published with love on CSS",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "WordPress.com Student Plan",
+      "link": "https://css-tricks.com/wordpress-student-plan/",
+      "pubDate": "2026-08-19T08:50:00.000Z",
+      "description": "As someone who teaches beginning web development, I find that building a WordPress site makes for a great final project. Hosting those projects has always been a roadblock though. WordPress.com Student Plan originally handwritten and published with love on CSS-Tricks. You should really get the newsl",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Dark mode toggles: two states are enough",
+      "link": "https://css-tricks.com/dark-mode-toggles-two-states-are-enough/",
+      "pubDate": "2026-08-17T14:15:50.000Z",
+      "description": "Lea's pushing back on light/dark mode implementations that display three state options for visitors: light, dark, and system. Dark mode toggles: two states are enough originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     }
   ]
 }
