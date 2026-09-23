@@ -1,115 +1,135 @@
 {
-  "generatedAt": "2026-09-22T21:19:54.370Z",
+  "generatedAt": "2026-09-23T04:46:11.044Z",
   "sourceCount": 4,
-  "successCount": 3,
+  "successCount": 2,
   "errors": [
     {
       "source": "Hack The Box Security Blog",
       "error": "HTTP 404 Not Found"
+    },
+    {
+      "source": "CSS Tricks",
+      "error": "HTTP 415 Unsupported Media Type"
     }
   ],
   "items": [
     {
-      "title": "I Built an AI Upscaler with 6 Specialist Models — Here's What I Learned",
-      "link": "https://dev.to/auroracapital/i-built-an-ai-upscaler-with-6-specialist-models-heres-what-i-learned-16dm",
-      "pubDate": "2026-09-22T21:06:42.000Z",
-      "description": "<h2> Why one model isn't enough </h2> <p>When I started building an AI upscaling service, I thought I'd just wrap Real-ESRGAN and call it done. Wrong.</p> <p>A model trained on photographs produces blurry edges on digital art. A model trained on anime smears skin textures in portraits. And video? Co",
+      "title": "I went looking for sandwiches and found a DEX pool trading with itself",
+      "link": "https://dev.to/edycutjong/i-went-looking-for-sandwiches-and-found-a-dex-pool-trading-with-itself-2kj8",
+      "pubDate": "2026-09-23T04:37:43.000Z",
+      "description": "<p>A DEX trader sees a quote and a fill and cannot tell what stood between them. I set out to measure the obvious suspect, the sandwich: a bot that buys just before you and sells straight after, in the same block.</p> <p>I found almost none. What I found instead was a pool where two thirds of the vo",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The UV index is not the warm sensation of sunlight on bare skin",
-      "link": "https://blog.asciitweezers.com/the-uv-index-is-not-the-warm-sensation-of-sunlight-on-bare-skin/",
-      "pubDate": "2026-09-22T21:06:40.000Z",
-      "description": "Article URL: https://blog.asciitweezers.com/the-uv-index-is-not-the-warm-sensation-of-sunlight-on-bare-skin/ Comments URL: https://news.ycombinator.com/item?id=49808109 Points: 3 # Comments: 0",
+      "title": "Two in three 'liquidity pulled' alerts are the same wallet putting it back",
+      "link": "https://dev.to/edycutjong/two-in-three-liquidity-pulled-alerts-are-the-same-wallet-putting-it-back-5f2f",
+      "pubDate": "2026-09-23T04:37:13.000Z",
+      "description": "<p>A treasury bot pings: <strong>LP removed, −$21,330,275, UNI/WBTC.</strong> Somebody pulls up a chart, somebody asks in the group chat whether the market maker left, and for the next hour the answer is a guess.</p> <p>The answer was sitting in the same API, one query away. 132 seconds later the sa",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Why I Chose P2P Instead of S3 for My File Transfer Product",
+      "link": "https://dev.to/anirban00537/why-i-chose-p2p-instead-of-s3-for-my-file-transfer-product-3mgo",
+      "pubDate": "2026-09-23T04:34:59.000Z",
+      "description": "<p>When I started thinking seriously about building a large-file transfer product, Amazon S3 felt like the obvious architecture.</p> <p>It is reliable.</p> <p>It scales.</p> <p>It has excellent tooling.</p> <p>Every backend framework knows how to work with it.</p> <p>And the standard implementation ",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "TVL Trend Analysis &amp; Liquidity Risk Assessment: Gemini",
+      "link": "https://dev.to/dannydoes_2abdf9c/tvl-trend-analysis-liquidity-risk-assessment-gemini-1ila",
+      "pubDate": "2026-09-23T04:34:35.000Z",
+      "description": "<h1> TVL Trend Analysis &amp; Liquidity Risk Assessment: Gemini </h1> <p><strong>Target Protocol</strong>: Gemini (TVL: $5795.0M)</p> <h1> TVL Trend Analysis &amp; Liquidity Risk Assessment – Gemini </h1> <p><strong>Protocol:</strong> Gemini (Ethereum &amp; L2) – <strong>Current TVL:</strong> <stron",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "I had 47 tabs open during an incident. Never again.",
+      "link": "https://dev.to/karaniph/i-had-47-tabs-open-during-an-incident-never-again-2kg8",
+      "pubDate": "2026-09-23T04:31:00.000Z",
+      "description": "<p>i use my chrome browser alot when SSHing to my VMs. It was killing my laptop.</p> <p>I'm an AWS cloud engineer. I don't live in an IDE all day. I live in Slack, GitHub, our AWS org (12 accounts through SSO), and about six AI chats I'm slightly embarrassed about.</p> <p>Last Tuesday proved it. 2:1",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Angular Security Headers: A Practical Guide to Securing Your Angular Application",
+      "link": "https://dev.to/amit-jangid/angular-security-headers-a-practical-guide-to-securing-your-angular-application-g4i",
+      "pubDate": "2026-09-23T04:29:01.000Z",
+      "description": "<p>I've started a new series focused on <strong>hardening Angular applications using browser and HTTP security controls</strong>.</p> <p>In Part 1, I cover the fundamentals of security headers and how they add another layer of protection between an Angular application and the browser.</p> <p>Some of",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "How I Send 100GB+ Files Directly Between Browsers Without Cloud Storage",
+      "link": "https://dev.to/anirban00537/how-i-send-100gb-files-directly-between-browsers-without-cloud-storage-544j",
+      "pubDate": "2026-09-23T04:24:40.000Z",
+      "description": "<p>Most file-sharing products are built around the same basic idea:</p> <ol> <li>Upload the file to a server.</li> <li>Store it somewhere.</li> <li>Generate a link.</li> <li>Let the recipient download it later.</li> </ol> <p>That model is simple, reliable, and works extremely well for a lot of produ",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Production RAG on the Lakehouse with BigQuery Vector Search and Apache Iceberg",
+      "link": "https://dev.to/gde/production-rag-on-the-lakehouse-with-bigquery-vector-search-and-apache-iceberg-5g3",
+      "pubDate": "2026-09-23T04:24:08.000Z",
+      "description": "<p>As teams rush to build with Generative AI, they're creating a dangerous chasm between their data and AI stacks. This common architectural flaw introduces massive technical debt and business risk.</p> <h2> The Problem: The Great Divide Between Data and AI Stacks </h2> <p>The explosion of Generativ",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Windows can decode (and encode) HEIC without ImageMagick - but your browser can't decode it at all",
+      "link": "https://dev.to/_8729c5bde46be2/windows-can-decode-and-encode-heic-without-imagemagick-but-your-browser-cant-decode-it-at-all-51ca",
+      "pubDate": "2026-09-23T04:23:43.000Z",
+      "description": "<p>Someone hands you a folder of iPhone photos, every file is <code>.heic</code>, and the form you need to upload them to wants JPG. The usual advice is \"install ImageMagick\" or \"use this website\". Neither is necessary on Windows, and the website advice hides something worth knowing about browsers.<",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "The one law the whole series assumes: an AI that goes down silently is worse than one that's dead",
+      "link": "https://dev.to/derekwang85/the-one-law-the-whole-series-assumes-an-ai-that-goes-down-silently-is-worse-than-one-thats-dead-3fc7",
+      "pubDate": "2026-09-23T04:23:00.000Z",
+      "description": "<p><em>AI Harness Engineering · Essay Six · derek wang (derekwang85)</em></p> <p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fjjwhu7s5oh7dt6gmrwbm.jpg\" cla",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Data-Only Attacks Are Easier Than You Think",
+      "link": "https://www.usenix.org/publications/loginonline/data-only-attacks-are-easier-you-think",
+      "pubDate": "2026-09-23T03:49:28.000Z",
+      "description": "Article URL: https://www.usenix.org/publications/loginonline/data-only-attacks-are-easier-you-think Comments URL: https://news.ycombinator.com/item?id=49811429 Points: 6 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "No Sloptober",
-      "link": "https://no-sloptober.com/",
-      "pubDate": "2026-09-22T21:05:39.000Z",
-      "description": "Article URL: https://no-sloptober.com/ Comments URL: https://news.ycombinator.com/item?id=49808096 Points: 5 # Comments: 0",
+      "title": "Transit rewards (Waymo pays you to take the train)",
+      "link": "https://waymo.com/blog/2026/09/transit-rewards/",
+      "pubDate": "2026-09-23T02:52:29.000Z",
+      "description": "Article URL: https://waymo.com/blog/2026/09/transit-rewards/ Comments URL: https://news.ycombinator.com/item?id=49811065 Points: 32 # Comments: 13",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Debuggear se va a acabar",
-      "link": "https://dev.to/jvimora/el-debuggear-se-va-a-acabar-246",
-      "pubDate": "2026-09-22T21:03:32.000Z",
-      "description": "<p>Cada vez hay más posts que hablan sobre que la IA va a acabar con el trabajo de los desarrolladores, no voy a ser uno más de esos que dan el tostón con el fin de esta profesión. Me gustaría más centrarme en las pequeñas cosas que sí que vemos que se van quedando olvidadas u obsoletas casi sin dar",
-      "source": "Dev.to Feed",
-      "category": "Development"
+      "title": "US criticises Australia's proposed algorithm opt-out laws as 'censorship'",
+      "link": "https://www.bbc.com/news/articles/cqj3dgy8x3vro",
+      "pubDate": "2026-09-23T02:13:52.000Z",
+      "description": "Article URL: https://www.bbc.com/news/articles/cqj3dgy8x3vro Comments URL: https://news.ycombinator.com/item?id=49810829 Points: 84 # Comments: 64",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
-      "title": "Your AI Meeting Assistant Is Taking Notes. Who Is Doing the Work?",
-      "link": "https://dev.to/shakhbanov/your-ai-meeting-assistant-is-taking-notes-who-is-doing-the-work-3g68",
-      "pubDate": "2026-09-22T20:57:04.000Z",
-      "description": "<p><em>The real value of meeting AI isn't the transcript. It's what happens after everyone leaves the call.</em></p> <blockquote> <p><strong>TL;DR</strong></p> <ul> <li>Transcripts and summaries now ship inside Meet, Teams and Zoom. They're table stakes.</li> <li>The value of meeting AI is moving to",
-      "source": "Dev.to Feed",
-      "category": "Development"
+      "title": "The current balance of power in open models",
+      "link": "https://www.interconnects.ai/p/the-current-balance-of-power-in-open",
+      "pubDate": "2026-09-22T22:03:46.000Z",
+      "description": "Article URL: https://www.interconnects.ai/p/the-current-balance-of-power-in-open Comments URL: https://news.ycombinator.com/item?id=49808816 Points: 60 # Comments: 21",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
-      "title": "OLTP vs. OLAP: Understanding the Foundation of Modern Data Systems",
-      "link": "https://dev.to/venuskennedy/oltp-vs-olap-understanding-the-foundation-of-modern-data-systems-lm3",
-      "pubDate": "2026-09-22T20:54:49.000Z",
-      "description": "<p>Modern organizations generate enormous amounts of data every day.</p> <p>Every customer purchase, bank transaction, online order, employee record, product update, and website interaction can create new data. But storing data is only one part of the challenge. Organizations also need systems that ",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Your Ports Are Lying About Your Business",
-      "link": "https://dev.to/chranditho/your-ports-are-lying-about-your-business-k5m",
-      "pubDate": "2026-09-22T20:52:13.000Z",
-      "description": "<p>Your hexagonal architecture ports might still be speaking HTTP instead of business.</p> <p>In hexagonal architecture, ports exist to isolate your business logic from how<br> it's delivered. In practice, most of them are still named after HTTP operations<br> like <code>createUser</code> or <code>u",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "How I Bypassed Campus Firewall Port Blocks for Low-Ping Gaming Without a Laggy VPN",
-      "link": "https://dev.to/sarcasticlakshay/how-i-bypassed-campus-firewall-port-blocks-for-low-ping-gaming-without-a-laggy-vpn-m95",
-      "pubDate": "2026-09-22T20:51:46.000Z",
-      "description": "<p>Every student who lives in a university hostel or works behind an enterprise firewall knows the exact nightmare: you connect to the campus Wi-Fi, fire up Valorant or Counter-Strike 2, and hit an immediate wall.</p> <p>Either the client refuses to authenticate, your in-game microphone (Vivox) comp",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "HTB - Forest",
-      "link": "https://dev.to/zkrnvkf/htb-forest-23a0",
-      "pubDate": "2026-09-22T20:49:20.000Z",
-      "description": "<p>I’m planning to take the TCM Security PJPT certification exam next Monday. I’ve finished going through the PEH course, and I wanted to spend some time working on HTB machines to put some of the techniques and methodologies I learned into practice and build up my confidence for the exam.</p> <p>Wh",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Criei um SDK para tornar apps React Native mais resilientes a conexões ruins",
-      "link": "https://dev.to/rafael_ges_e03329a04a6bc/criei-um-sdk-para-tornar-apps-react-native-mais-resilientes-a-conexoes-ruins-34lb",
-      "pubDate": "2026-09-22T20:46:54.000Z",
-      "description": "<p>Um aplicativo mobile não precisa estar completamente offline para se tornar praticamente inutilizável.</p> <p>Às vezes o dispositivo está tecnicamente conectado à internet, mas a conexão está extremamente lenta, instável ou sofrendo perdas constantes.</p> <p>E é aí que começam os problemas:</p> <",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "OpenAI's GPT-5.6 Moves Point to a Broader API Price-Performance Strategy",
-      "link": "https://dev.to/alifar/openais-gpt-56-moves-point-to-a-broader-api-price-performance-strategy-3609",
-      "pubDate": "2026-09-22T20:45:30.000Z",
-      "description": "<p>OpenAI's latest GPT-5.6 changes offer concrete evidence of a strategy that matters to anyone building with AI APIs: improving the balance between model capability, speed, and cost rather than treating a single flagship model as the answer to every workload. OpenAI says <a href=\"https://scalevise.",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Automating Bug Reports with Tally and Make",
-      "link": "https://dev.to/benji377/automating-bug-reports-with-tally-and-make-510o",
-      "pubDate": "2026-09-22T20:44:54.000Z",
-      "description": "<p>When building my first proper Android app, <a href=\"https://github.com/Benji377/Timety\" rel=\"noopener noreferrer\">Timety</a>, I ran into a common issue: I wanted to collect user feedback, but since my app is privacy-focused, I wanted to avoid forcing users to create an account just to report a bu",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "The JavaScript Midlife Crisis",
-      "link": "https://maroun-baydoun.com/blog/javascript-midlife-crisis/",
-      "pubDate": "2026-09-22T19:58:47.000Z",
-      "description": "Article URL: https://maroun-baydoun.com/blog/javascript-midlife-crisis/ Comments URL: https://news.ycombinator.com/item?id=49807248 Points: 14 # Comments: 5",
+      "title": "Microsoft killed FoxPro in 2007. Anyway, here's FoxPro revived",
+      "link": "https://foxscript.org/",
+      "pubDate": "2026-09-22T21:00:30.000Z",
+      "description": "Visual FoxPro stopped at version 9 in 2007. A surprising amount of it is still running, in 32 bits, because rewriting a 20-year-old business app is how you lose the business. A customer wanted to keep milking their app for the foreseeable future, so here it is: the same language on a new runtime (Ru",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -117,31 +137,31 @@
       "title": "Native apps written in TypeScript and CSS",
       "link": "https://github.com/geastack/examples",
       "pubDate": "2026-09-22T19:42:20.000Z",
-      "description": "Article URL: https://github.com/geastack/examples Comments URL: https://news.ycombinator.com/item?id=49807021 Points: 37 # Comments: 7",
+      "description": "Article URL: https://github.com/geastack/examples Comments URL: https://news.ycombinator.com/item?id=49807021 Points: 94 # Comments: 34",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "A Faster Shortest Path Algorithm",
-      "link": "https://www.vals.ai/blogs/faster-shortest-path-algorithm",
-      "pubDate": "2026-09-22T19:24:58.000Z",
-      "description": "Article URL: https://www.vals.ai/blogs/faster-shortest-path-algorithm Comments URL: https://news.ycombinator.com/item?id=49806778 Points: 24 # Comments: 5",
+      "title": "Obscura: VPN that can't log your activity",
+      "link": "https://obscura.com/#faq-technical",
+      "pubDate": "2026-09-22T19:40:28.000Z",
+      "description": "Article URL: https://obscura.com/#faq-technical Comments URL: https://news.ycombinator.com/item?id=49807003 Points: 100 # Comments: 84",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Overreliance on AI contributed to missile strike on Iran school – Pentagon",
+      "title": "Pentagon says overreliance on AI contributed to missile strike on Iran school",
       "link": "https://www.bloomberg.com/graphics/2026-iran-school-attack/",
       "pubDate": "2026-09-22T19:03:38.000Z",
-      "description": "Article URL: https://www.bloomberg.com/graphics/2026-iran-school-attack/ Comments URL: https://news.ycombinator.com/item?id=49806430 Points: 234 # Comments: 125",
+      "description": "https://archive.ph/0V37g Comments URL: https://news.ycombinator.com/item?id=49806430 Points: 514 # Comments: 253",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "SAML: A Fractal of Bad Design",
+      "title": "SAML: A fractal of bad design",
       "link": "https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/",
       "pubDate": "2026-09-22T18:57:17.000Z",
-      "description": "Article URL: https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/ Comments URL: https://news.ycombinator.com/item?id=49806335 Points: 84 # Comments: 31",
+      "description": "Article URL: https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/ Comments URL: https://news.ycombinator.com/item?id=49806335 Points: 190 # Comments: 116",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -149,105 +169,9 @@
       "title": "Unreal Agent",
       "link": "https://unreallabs.ai/blog/unreal-agent/",
       "pubDate": "2026-09-22T18:15:53.000Z",
-      "description": "https://github.com/unreallabsai/unreal-agent Comments URL: https://news.ycombinator.com/item?id=49805748 Points: 65 # Comments: 42",
+      "description": "https://github.com/unreallabsai/unreal-agent Comments URL: https://news.ycombinator.com/item?id=49805748 Points: 147 # Comments: 90",
       "source": "Hacker News",
       "category": "Tech News"
-    },
-    {
-      "title": "An update on how we confirm your age group on Discord",
-      "link": "https://discord.com/blog/safer-for-teens-same-discord-for-adults",
-      "pubDate": "2026-09-22T18:10:31.000Z",
-      "description": "Article URL: https://discord.com/blog/safer-for-teens-same-discord-for-adults Comments URL: https://news.ycombinator.com/item?id=49805677 Points: 54 # Comments: 9",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "GPT-6 Sol and Luna",
-      "link": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
-      "pubDate": "2026-09-22T18:00:34.000Z",
-      "description": "Article URL: https://openai.com/index/introducing-gpt-6-sol-and-luna/ Comments URL: https://news.ycombinator.com/item?id=49805509 Points: 825 # Comments: 439",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Let’s Use the Emergent CSS random() Function in all the Browsers",
-      "link": "https://css-tricks.com/css-random-function-polyfill/",
-      "pubDate": "2026-08-31T15:12:19.000Z",
-      "description": "The journey to create a polyfill for the upcoming CSS random() function that works in all browsers. Let’s Use the Emergent CSS random() Function in all the Browsers originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "What’s !important #18: &#060;geolocation&gt;, Syntax ::highlight()ing, named-feature(), and More",
-      "link": "https://css-tricks.com/whats-important-18/",
-      "pubDate": "2026-08-31T14:08:55.000Z",
-      "description": "Well, that’s a wrap. No, not a flex-wrap, but rather today marks a new day, week, month, season, aaaand new edition of What’s important (#18), bringing you the best content that developers have produced over the last couple of weeks or so. What’s !important #18: <geolocation>, Syntax ::highlight()in",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Creating Web Widgets Using the Document Picture-in-Picture API",
-      "link": "https://css-tricks.com/creating-web-widgets-using-the-document-picture-in-picture-api/",
-      "pubDate": "2026-08-27T14:41:06.000Z",
-      "description": "The general idea is that we create a Document Picture-in-Picture window (DPIP window), and then we put HTML, CSS, and JavaScript into it. Creating Web Widgets Using the Document Picture-in-Picture API originally handwritten and published with love on CSS-Tricks. You should really get the newsletter ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "animation-trigger",
-      "link": "https://css-tricks.com/almanac/properties/a/animation-trigger/",
-      "pubDate": "2026-08-26T15:38:41.000Z",
-      "description": "The CSS animation-trigger property allows you to delay the start of a CSS animation until a specific trigger occurs. animation-trigger originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "MicroLighter: Syntax Highlighter",
-      "link": "https://css-tricks.com/microlighter-syntax-highlighter/",
-      "pubDate": "2026-08-25T14:10:34.000Z",
-      "description": "Syntax highlighting for code blocks without the complicated markup, spans, classes, and bloated JavaScript, courtesy of Uncle Dave. MicroLighter: Syntax Highlighter originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "WordPress PHP-Only Block Registration",
-      "link": "https://css-tricks.com/wordpress-php-block-registration/",
-      "pubDate": "2026-08-24T13:54:02.000Z",
-      "description": "Seven and half years after blocks arrived in Core, WordPress introduces a way to build blocks without React annd build pipelines. All you need is PHP. WordPress PHP-Only Block Registration originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Resolved: CSS Class Prefix Selector",
-      "link": "https://css-tricks.com/resolved-css-class-prefix-selector/",
-      "pubDate": "2026-08-21T15:13:03.000Z",
-      "description": "A newly resolved proposal would allow us to select classes that are a prefix for variations with a wildcard, like .prefix-*. Resolved: CSS Class Prefix Selector originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "CSS Navigation Matching, Early Days",
-      "link": "https://css-tricks.com/css-navigation-matching-early-days/",
-      "pubDate": "2026-08-19T14:44:41.000Z",
-      "description": "Apply a style when someone navigates from one specific page to another. The idea being it'd make the sources for cross-document view transitions declarative in CSS rather than managing that stuff in JavaScript. CSS Navigation Matching, Early Days originally handwritten and published with love on CSS",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "WordPress.com Student Plan",
-      "link": "https://css-tricks.com/wordpress-student-plan/",
-      "pubDate": "2026-08-19T08:50:00.000Z",
-      "description": "As someone who teaches beginning web development, I find that building a WordPress site makes for a great final project. Hosting those projects has always been a roadblock though. WordPress.com Student Plan originally handwritten and published with love on CSS-Tricks. You should really get the newsl",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Dark mode toggles: two states are enough",
-      "link": "https://css-tricks.com/dark-mode-toggles-two-states-are-enough/",
-      "pubDate": "2026-08-17T14:15:50.000Z",
-      "description": "Lea's pushing back on light/dark mode implementations that display three state options for visitors: light, dark, and system. Dark mode toggles: two states are enough originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
     }
   ]
 }
