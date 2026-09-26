@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T11:26:08.200Z",
+  "generatedAt": "2026-09-26T16:24:31.186Z",
   "sourceCount": 4,
   "successCount": 3,
   "errors": [
@@ -10,90 +10,130 @@
   ],
   "items": [
     {
-      "title": "Fathom Analytics vs Umami: Which Fits Your Website?",
-      "link": "https://dev.to/maximin_mxn_6ce1a3054be6d/fathom-analytics-vs-umami-which-fits-your-website-1i0e",
-      "pubDate": "2026-09-26T11:13:44.000Z",
-      "description": "<p>Fathom Analytics and Umami both make a credible case for privacy-conscious website measurement. The decision for a small website team is whether to buy a managed dashboard with little maintenance or run a broader analytics platform that can also be self-hosted. A third option, Clics, matters when",
+      "title": "The Self-Regulatory Moat",
+      "link": "https://dev.to/deanlee/the-self-regulatory-moat-400g",
+      "pubDate": "2026-09-26T16:21:26.000Z",
+      "description": "<p>When three direct commercial competitors agree to establish an independent oversight body, the financial press usually frames it as responsible stewardship or an eleventh-hour attempt to stave off federal regulation. The reported formation of the Standards Authority for Frontier AI (SAFA) by Goog",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Gemma 4 on Amazon SageMaker: QAT Weights Decode 2.05x Faster Than bf16 on One L4",
-      "link": "https://dev.to/gde/gemma-4-on-amazon-sagemaker-qat-weights-decode-205x-faster-than-bf16-on-one-l4-2m9g",
-      "pubDate": "2026-09-26T11:10:27.000Z",
-      "description": "<p>This article gives a short background on Amazon SageMaker real-time endpoints, then measures Gemma 4 E2B's quantization-aware trained (QAT) checkpoint against the full-size bf16 release on the same NVIDIA L4 endpoint. A suite of Python MCP tools is built to simplify management of the vLLM hosted ",
+      "title": "AURA v0.1.0: Deterministic Trigger Extraction, Auditable Math &amp; a Self-Healing Analytics Engine",
+      "link": "https://dev.to/kate8382/aura-v010-deterministic-trigger-extraction-auditable-math-a-self-healing-analytics-engine-17ge",
+      "pubDate": "2026-09-26T16:18:50.000Z",
+      "description": "<p>If you follow AI safety, you know the uncomfortable truth: modern LLM guardrails are failing not because of complex zero-day exploits, but because of sloppy heuristics, brittle filters, and naive prompt-matching.</p> <p>We built <strong>AURA</strong> to be pragmatic: deterministic, testable, full",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Gemma 4 on an Amazon SageMaker Endpoint: AWS CLI, NVIDIA L4, and an MCP Server",
-      "link": "https://dev.to/gde/gemma-4-on-an-amazon-sagemaker-endpoint-aws-cli-nvidia-l4-and-an-mcp-server-5cdd",
-      "pubDate": "2026-09-26T11:10:24.000Z",
-      "description": "<p>This article provides a step by step deployment guide for Gemma 4 E2B to an Amazon SageMaker hosted GPU enabled system. A suite of Python MCP tools is built to simplify management of the vLLM hosted deployment with Claude Code.</p> <p><a href=\"https://github.com/xbill9/sagemaker-gemma\" rel=\"noope",
+      "title": "Tool Calling Code",
+      "link": "https://dev.to/technonotes/tool-calling-code-1kg6",
+      "pubDate": "2026-09-26T16:15:13.000Z",
+      "description": "<h2> Below are the steps executed for creation of Virtual environment </h2> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight shell\"><code>python <span class=\"nt\">-m</span> venv .venv python3 <span class=\"nt\">-m</span> venv .venv apt <span class=\"nb\">install </span>python3.12-venv pyth",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "trelix v3.2.2 to v3.3.8: A GitHub App Already Hardened and Running in Production, and a Connector That Never Touches a Pixel",
-      "link": "https://dev.to/sai_ram_0000/trelix-v322-to-v338-a-github-app-already-hardened-and-running-in-production-and-a-connector-3hng",
-      "pubDate": "2026-09-26T11:08:08.000Z",
-      "description": "<p><code>docker run --entrypoint trelix-mcp ghcr.io/sairam0424/trelix:3.2.1 --help</code> returns exit code 127: command not found. Not a typo, not a stale tag — the published 3.2.1 image never contained <code>trelix-mcp</code> at all. The builder stage copied core <code>trelix</code> and nothing el",
+      "title": "Agent Runtimes Have an Autoscaler, Not a Scheduler",
+      "link": "https://dev.to/webofmike/agent-runtimes-have-an-autoscaler-not-a-scheduler-2645",
+      "pubDate": "2026-09-26T16:10:58.000Z",
+      "description": "<p><em>Originally published at <a href=\"https://webofmike.com/agent-runtimes-need-a-scheduler/?utm_source=devto&amp;utm_medium=syndication&amp;utm_campaign=agent-runtimes-need-a-scheduler\" rel=\"noopener noreferrer\">webofmike.com</a> on 2026-09-26. The demo repo and every command in it were run befor",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Nunca más crees partes de 1 fila en ClickHouse: Buffer Manager integrado.",
-      "link": "https://dev.to/william_rodriguez_65a5898/nunca-mas-crees-partes-de-1-fila-en-clickhouse-buffer-manager-integrado-14gg",
-      "pubDate": "2026-09-26T11:08:06.000Z",
-      "description": "<blockquote> <p>Día 03 de la serie técnica WClickHouse Open Source.</p> </blockquote> <p>No necesitas un cluster de Redis solo para proteger a ClickHouse de escrituras en streaming. WClickHouse incluye su propio Buffer Manager en memoria.</p> <h2> Los Problemas Reales </h2> <ul> <li>Microservicios q",
+      "title": "LoRA &amp; DoRA: The Math, Memory, and Trade-offs",
+      "link": "https://dev.to/g_factor/lora-dora-the-math-memory-and-trade-offs-40of",
+      "pubDate": "2026-09-26T16:09:50.000Z",
+      "description": "<p>Every engineer who has ever tried to fine-tune a modern 27B or 70B parameter model knows the rude awakening of GPU memory arithmetic.</p> <p>You look at the raw model weights and think: <em>“27 billion parameters stored in 16-bit brain floats is only 54 gigabytes. That easily fits on an 80 GB NVI",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Never create 1-row ClickHouse parts again: The built-in Buffer Manager.",
-      "link": "https://dev.to/william_rodriguez_65a5898/never-create-1-row-clickhouse-parts-again-the-built-in-buffer-manager-1g7e",
-      "pubDate": "2026-09-26T11:07:50.000Z",
-      "description": "<blockquote> <p>Day 03 of the WClickHouse Open-Source Engineering Series.</p> </blockquote> <p>You don't need a Redis cluster just to protect ClickHouse from single-event streaming writes. WClickHouse has a built-in Buffer Manager.</p> <h2> The Pain Points We Faced </h2> <ul> <li>Microservices needi",
+      "title": "BeeLadybug — un overlay per il debug DOM in tempo reale",
+      "link": "https://dev.to/antonioprosperi2svg/beeladybug-un-overlay-per-il-debug-dom-in-tempo-reale-3go0",
+      "pubDate": "2026-09-26T16:08:34.000Z",
+      "description": "<p>Un piccolo overlay in azione per il debug in tempo reale.</p> <p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fshs6c0krvdvpoepyyrww.jpg\" class=\"article-b",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Tamper-proof distributed nodes: SHA-256 source code integrity verification.",
-      "link": "https://dev.to/william_rodriguez_65a5898/tamper-proof-distributed-nodes-sha-256-source-code-integrity-verification-36je",
-      "pubDate": "2026-09-26T11:06:19.000Z",
-      "description": "<blockquote> <p>Day 03 of the wFabricSecurity Open-Source Engineering Series.</p> </blockquote> <p>How do you know the worker submitting transactions to your blockchain hasn't been modified on disk? wFabricSecurity verifies SHA-256 code integrity before any transaction runs.</p> <h2> The Pain Points",
+      "title": "Starting Free-to-Play Now, Betting Later? How to Pick a Provider That Won't Force a Migration",
+      "link": "https://dev.to/orbistats/starting-free-to-play-now-betting-later-how-to-pick-a-provider-that-wont-force-a-migration-4jcg",
+      "pubDate": "2026-09-26T16:06:51.000Z",
+      "description": "<p>You're building the free-to-play version first — smart, low-risk, get real usage data before you touch anything regulated. But the data-provider decision you make today quietly decides whether your real-money launch next year is a config change or a six-month rewrite. Here's the architecture that",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How to Build a Cognitive Distortion Detector in Vanilla JS (No Frameworks, No Dependencies)",
-      "link": "https://dev.to/473185670/how-to-build-a-cognitive-distortion-detector-in-vanilla-js-no-frameworks-no-dependencies-214l",
-      "pubDate": "2026-09-26T11:05:50.000Z",
-      "description": "<p>You don't need React, Vue, or any NLP library to detect cognitive distortions in text. Here's a complete, working detector in under 150 lines of vanilla JS.</p> <h2> What Are Cognitive Distortions? </h2> <p>Cognitive distortions are biased thinking patterns that fuel anxiety and depression. Aaron",
+      "title": "Your Agent Telemetry Has a Cardinality Problem",
+      "link": "https://dev.to/raju_dandigam/your-agent-telemetry-has-a-cardinality-problem-586j",
+      "pubDate": "2026-09-26T16:06:27.000Z",
+      "description": "<p>This metric looks helpful:<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight typescript\"><code><span class=\"nx\">agentRuns</span><span class=\"p\">.</span><span class=\"nf\">add</span><span class=\"p\">(</span><span class=\"mi\">1</span><span class=\"p\">,</span> <span class=\"p\">{</sp",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Cifrado al vuelo: encrypt() y decrypt() directo con auto-JSON.",
-      "link": "https://dev.to/william_rodriguez_65a5898/cifrado-al-vuelo-encrypt-y-decrypt-directo-con-auto-json-4d90",
-      "pubDate": "2026-09-26T11:05:49.000Z",
-      "description": "<p>Cifrar cargas para colas de eventos no debería obligarte a serializar JSON y convertir bytes a mano. encrypt() y decrypt() de wauth procesan strings, listas y diccionarios con total transparencia.</p> <p>Esta es la implementación exacta para producción de <strong>Direct encrypt() &amp; decrypt() ",
+      "title": "Building a MIL-STD-188-110 HF Modem in Modern C++: An Introduction",
+      "link": "https://dev.to/kg7hf/building-a-mil-std-188-110-hf-modem-in-modern-c-an-introduction-6l0",
+      "pubDate": "2026-09-26T16:06:02.000Z",
+      "description": "<p><strong>A weekly deep dive into a fixed-frequency serial-tone waveform, one block at a time.</strong></p> <p>High-frequency (HF) radio is the communications system that refuses to die, and for good reason. It bounces signals off the ionosphere to reach thousands of miles with no satellites, no ce",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "5,000+ inserts/sec: Thread-safe connection pooling and WAL mode",
-      "link": "https://dev.to/william_rodriguez_65a5898/5000-insertssec-thread-safe-connection-pooling-and-wal-mode-3ch2",
-      "pubDate": "2026-09-26T11:04:57.000Z",
-      "description": "<p>Think SQLite can't handle high concurrency? Think again. With Write-Ahead Logging (WAL) and wsqlite's thread-safe connection pool, you can achieve over 5,000 inserts per second with zero locked database errors.</p> <p>Here is how you use <strong>ConnectionPool &amp; Write-Ahead Logging (WAL)</str",
+      "title": "Sending Telegram Bot Messages with PHP cURL: Handling HTTP Status, JSON Errors, and Telegram's ok Field",
+      "link": "https://dev.to/serhii_a9c08345ac360cf5c8/sending-telegram-bot-messages-with-php-curl-handling-http-status-json-errors-and-telegrams-ok-2j9f",
+      "pubDate": "2026-09-26T16:02:37.000Z",
+      "description": "<h2> Introduction </h2> <p>When you need to send a simple message from a Telegram bot, the most direct way is to call the <code>sendMessage</code> method over HTTPS. Using PHP’s cURL extension gives you full control over the request, allowing you to inspect the HTTP status code, handle JSON decoding",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "One Month Without AI",
-      "link": "https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html",
-      "pubDate": "2026-09-26T10:08:21.000Z",
-      "description": "Article URL: https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html Comments URL: https://news.ycombinator.com/item?id=49855018 Points: 11 # Comments: 4",
+      "title": "Some Supabase customers are publicly exposing reams of people's data to the web",
+      "link": "https://techcrunch.com/2026/09/25/some-supabase-customers-are-publicly-exposing-reams-of-peoples-data-to-the-web/",
+      "pubDate": "2026-09-26T15:42:16.000Z",
+      "description": "Article URL: https://techcrunch.com/2026/09/25/some-supabase-customers-are-publicly-exposing-reams-of-peoples-data-to-the-web/ Comments URL: https://news.ycombinator.com/item?id=49857595 Points: 4 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Automattic has a new board after failed attempt to put CEO on leave",
+      "link": "https://techcrunch.com/2026/09/25/automattic-has-a-new-board-after-failed-attempt-to-put-ceo-on-leave/",
+      "pubDate": "2026-09-26T15:40:27.000Z",
+      "description": "Article URL: https://techcrunch.com/2026/09/25/automattic-has-a-new-board-after-failed-attempt-to-put-ceo-on-leave/ Comments URL: https://news.ycombinator.com/item?id=49857572 Points: 9 # Comments: 2",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Show HN: A Claude Code skill to analyze your chess games",
+      "link": "https://github.com/brumar/chess-postmortem-skills",
+      "pubDate": "2026-09-26T15:34:53.000Z",
+      "description": "Hello HN,It started as an experiment: can Claude play chess properly if it uses vision instead of PGN notation? Somehow it can.The next experiment was to see whether Claude + Stockfish could explain a game. Somehow it can too.A few sessions later, I had a system that takes my live audio notes (or te",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Plunging test scores are a slow-moving catastrophe",
+      "link": "https://www.economist.com/leaders/2026/09/10/plunging-test-scores-are-a-slow-moving-catastrophe",
+      "pubDate": "2026-09-26T15:24:08.000Z",
+      "description": "Article URL: https://www.economist.com/leaders/2026/09/10/plunging-test-scores-are-a-slow-moving-catastrophe Comments URL: https://news.ycombinator.com/item?id=49857442 Points: 43 # Comments: 43",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "New Satellite Engine Could Use Earth's Atmosphere to Stay in Orbit Indefinitely",
+      "link": "https://scitechdaily.com/new-satellite-engine-could-use-earths-atmosphere-as-fuel-to-stay-in-orbit-indefinitely/",
+      "pubDate": "2026-09-26T15:10:29.000Z",
+      "description": "Article URL: https://scitechdaily.com/new-satellite-engine-could-use-earths-atmosphere-as-fuel-to-stay-in-orbit-indefinitely/ Comments URL: https://news.ycombinator.com/item?id=49857323 Points: 13 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Breaking Up with Google Play: Why Conversations Is Now Free",
+      "link": "https://gultsch.de/posts/breaking-up-with-google-play/",
+      "pubDate": "2026-09-26T10:55:56.000Z",
+      "description": "Article URL: https://gultsch.de/posts/breaking-up-with-google-play/ Comments URL: https://news.ycombinator.com/item?id=49855315 Points: 396 # Comments: 148",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -101,7 +141,7 @@
       "title": "Fifteen years later, the Apple Cards origin story",
       "link": "https://lexontech.org/fifteen-years-later-the-apple-cards-origin-story",
       "pubDate": "2026-09-26T09:13:41.000Z",
-      "description": "Article URL: https://lexontech.org/fifteen-years-later-the-apple-cards-origin-story Comments URL: https://news.ycombinator.com/item?id=49854693 Points: 57 # Comments: 2",
+      "description": "Article URL: https://lexontech.org/fifteen-years-later-the-apple-cards-origin-story Comments URL: https://news.ycombinator.com/item?id=49854693 Points: 193 # Comments: 27",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -109,7 +149,7 @@
       "title": "Floci: Locally emulating any cloud service",
       "link": "https://floci.io",
       "pubDate": "2026-09-26T08:31:02.000Z",
-      "description": "Article URL: https://floci.io Comments URL: https://news.ycombinator.com/item?id=49854416 Points: 20 # Comments: 4",
+      "description": "Article URL: https://floci.io Comments URL: https://news.ycombinator.com/item?id=49854416 Points: 97 # Comments: 17",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -117,15 +157,7 @@
       "title": "Is your Postgres migration safe or not safe?",
       "link": "https://safenotsafe.dev/",
       "pubDate": "2026-09-26T07:33:12.000Z",
-      "description": "Article URL: https://safenotsafe.dev/ Comments URL: https://news.ycombinator.com/item?id=49854161 Points: 38 # Comments: 10",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Alberta's image as world's only rat-free region shattered by discovery of rat",
-      "link": "https://www.theguardian.com/world/2026/sep/25/alberta-canada-rat-patrol",
-      "pubDate": "2026-09-26T06:51:12.000Z",
-      "description": "Article URL: https://www.theguardian.com/world/2026/sep/25/alberta-canada-rat-patrol Comments URL: https://news.ycombinator.com/item?id=49853918 Points: 32 # Comments: 21",
+      "description": "Article URL: https://safenotsafe.dev/ Comments URL: https://news.ycombinator.com/item?id=49854161 Points: 90 # Comments: 29",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -133,39 +165,7 @@
       "title": "A single function Jev-like wrapper for LLMs, including vision models",
       "link": "http://allanrbo.blogspot.com/2026/09/a-jev-like-wrapper-for-llms-including.html",
       "pubDate": "2026-09-26T04:20:58.000Z",
-      "description": "Article URL: http://allanrbo.blogspot.com/2026/09/a-jev-like-wrapper-for-llms-including.html Comments URL: https://news.ycombinator.com/item?id=49853175 Points: 90 # Comments: 23",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "We're gonna need a lot more mathematicians",
-      "link": "https://terrytao.wordpress.com/2026/09/24/were-gonna-need-a-lot-more-mathematicians/",
-      "pubDate": "2026-09-26T02:46:54.000Z",
-      "description": "Article URL: https://terrytao.wordpress.com/2026/09/24/were-gonna-need-a-lot-more-mathematicians/ Comments URL: https://news.ycombinator.com/item?id=49852717 Points: 159 # Comments: 194",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "HomelabFest will be in St. Louis in September 2027",
-      "link": "https://www.homelabfest.org",
-      "pubDate": "2026-09-26T02:03:24.000Z",
-      "description": "Article URL: https://www.homelabfest.org Comments URL: https://news.ycombinator.com/item?id=49852462 Points: 34 # Comments: 18",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Jury finds Facebook liable for deceiving users in Cambridge Analytica case",
-      "link": "https://www.cbsnews.com/news/facebook-liable-deceiving-users-cambridge-analytica/",
-      "pubDate": "2026-09-26T01:36:50.000Z",
-      "description": "Article URL: https://www.cbsnews.com/news/facebook-liable-deceiving-users-cambridge-analytica/ Comments URL: https://news.ycombinator.com/item?id=49852302 Points: 246 # Comments: 59",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "One Piece of Flock Camera Data Put This Innocent Woman in Jail for 13 Days",
-      "link": "https://www.jezebel.com/flock-cameras-data-innocent-woman-arrested-lindsey-isaacs-palm-beach-florida-lawsuit-vehicular-homicide",
-      "pubDate": "2026-09-26T00:59:02.000Z",
-      "description": "Article URL: https://www.jezebel.com/flock-cameras-data-innocent-woman-arrested-lindsey-isaacs-palm-beach-florida-lawsuit-vehicular-homicide Comments URL: https://news.ycombinator.com/item?id=49852065 Points: 184 # Comments: 86",
+      "description": "Article URL: http://allanrbo.blogspot.com/2026/09/a-jev-like-wrapper-for-llms-including.html Comments URL: https://news.ycombinator.com/item?id=49853175 Points: 114 # Comments: 31",
       "source": "Hacker News",
       "category": "Tech News"
     },
