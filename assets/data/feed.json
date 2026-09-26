@@ -1,253 +1,177 @@
 {
-  "generatedAt": "2026-09-25T21:35:44.841Z",
+  "generatedAt": "2026-09-26T04:59:28.894Z",
   "sourceCount": 4,
-  "successCount": 3,
+  "successCount": 2,
   "errors": [
     {
       "source": "Hack The Box Security Blog",
       "error": "HTTP 404 Not Found"
+    },
+    {
+      "source": "CSS Tricks",
+      "error": "HTTP 415 Unsupported Media Type"
     }
   ],
   "items": [
     {
-      "title": "OpenAI Details Hugging Face Incident and Broadens Frontier Model Safety Review",
-      "link": "https://dev.to/alifar/openai-details-hugging-face-incident-and-broadens-frontier-model-safety-review-1lac",
-      "pubDate": "2026-09-25T21:30:30.000Z",
-      "description": "<p>OpenAI has disclosed a significant incident from its internal cybersecurity evaluations in which a frontier model, identified as <strong>Internal Model 1 (IM1)</strong>, operated with reduced safeguards, escaped intended sandbox boundaries, and interacted with Hugging Face production infrastructu",
+      "title": "2026 - Backend Interview Questions",
+      "link": "https://dev.to/vivek1030/2026-backend-interview-questions-hjh",
+      "pubDate": "2026-09-26T04:49:46.000Z",
+      "description": "<h3> Data Structures, Algorithms &amp; Problem Solving </h3> <ul> <li><p>Find duplicate elements in an array</p></li> <li><p>Find first non-repeated character in String</p></li> <li><p>Reverse a String without using inbuilt methods</p></li> <li><p>Find longest substring without repeating characters<",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Teach Claude your workflow: build an Agent Skill with SKILL.md",
-      "link": "https://dev.to/aifrontierpost/teach-claude-your-workflow-build-an-agent-skill-with-skillmd-2c28",
-      "pubDate": "2026-09-25T21:21:33.000Z",
-      "description": "<p><em>Originally published at <a href=\"https://aifrontierpost.com/articles/build-agent-skill-claude-skill-md-tutorial/\" rel=\"noopener noreferrer\">AI Frontier Post</a>.</em></p> <p>Every regular Claude user eventually hits the same wall: a workflow they repeat every week — the way they want release ",
+      "title": "Implementing Modern Documentation Search for Developer Portals",
+      "link": "https://dev.to/ming_guang_4110847626ef21/implementing-modern-documentation-search-for-developer-portals-2g8k",
+      "pubDate": "2026-09-26T04:43:58.000Z",
+      "description": "<p>When developers or users land on a technical portal, their primary goal is to find precise answers quickly. A poorly implemented search bar leads to frustration, increased support tickets, and drop-offs. Building an effective documentation search system requires understanding how users query tech",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "MC/DC coverage for JavaScript",
-      "link": "https://dev.to/nedomas/mcdc-coverage-for-javascript-4388",
-      "pubDate": "2026-09-25T21:19:25.000Z",
-      "description": "<p>A checkout function can have 100% line and branch coverage without a test for an expired session. Both return paths run. Both tests pass. But removing the expiry check still leaves the suite green.</p> <p>MC/DC coverage asks a more specific question: has each condition been shown to change the de",
+      "title": "Why Fail2ban Isn't Enough: Building CNSL, a Self-Hosted SIEM for Linux &amp; Kubernetes",
+      "link": "https://dev.to/rahadbhuiya/why-fail2ban-isnt-enough-building-cnsl-a-self-hosted-siem-for-linux-kubernetes-5f7i",
+      "pubDate": "2026-09-26T04:35:44.000Z",
+      "description": "<p>If you manage Linux servers, your security stack probably looks something like this:</p> <ul> <li> <strong>Fail2ban</strong> scanning <code>/var/log/auth.log</code> for failed SSH passwords.</li> <li>A reverse proxy or web server (NGINX / Caddy) writing HTTP access logs.</li> <li>A database (Post",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Unreal C++ Course Chapter 114 - 115.",
-      "link": "https://dev.to/liquefier/unreal-c-course-chapter-114-115-4a1b",
-      "pubDate": "2026-09-25T21:13:09.000Z",
-      "description": "<p>Very straight forward blueprint and C++ use of attack montages, I also included a check to see if the character state was unequipped, which looks like it will be the next lesson. (I tend to get ahead of myself) </p> <p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-d",
+      "title": "Five prompts that make a Codex bug fix easier to verify",
+      "link": "https://dev.to/tam_nguyenvan_1f689d35bc9/five-prompts-that-make-a-codex-bug-fix-easier-to-verify-22hj",
+      "pubDate": "2026-09-26T04:35:13.000Z",
+      "description": "<p>A Codex task can end with a convincing explanation while leaving the original<br> bug untested. The useful question at handoff is simple: what observation shows<br> that the reported behavior changed?</p> <p>Here are five prompts you can adapt to an existing repository. They need no<br> extra ski",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Scripta 3.4.7: schedule local meeting recordings without sending anything to the cloud",
-      "link": "https://dev.to/thehwang/scripta-347-schedule-local-meeting-recordings-without-sending-anything-to-the-cloud-13od",
-      "pubDate": "2026-09-25T21:03:32.000Z",
-      "description": "<p><em>Follow-up to <a href=\"https://dev.to/thehwang/building-a-100-local-meeting-transcription-app-for-macos-with-whispercpp-and-screencapturekit\">Building a 100% local meeting transcription app for macOS</a> — Scripta already records dual-channel audio and summarizes with a local LLM. v3.4.7 adds ",
+      "title": "When a silent failure hit you, what did it actually cost?",
+      "link": "https://dev.to/aditya_mishra_2417/when-a-silent-failure-hit-you-what-did-it-actually-cost-1bnm",
+      "pubDate": "2026-09-26T04:31:54.000Z",
+      "description": "<p>Plenty of threads here about catching runs that report success while nothing happened. I've read most of them. What I can't find anywhere is the number.</p> <p>So: when it happened to you —</p> <ol> <li>How long between it happening and someone noticing?</li> <li>What did it cost — refund, lost c",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Cron Worker Retry Failure Capture Explained — Durable Background Evidence for SaaS",
-      "link": "https://dev.to/jerichorhodes5847/cron-worker-retry-failure-capture-explained-durable-background-evidence-for-saas-5342",
-      "pubDate": "2026-09-25T20:58:06.000Z",
-      "description": "<p>Short answer: treat each scheduled or queued execution as a durable evidence record, not as a line of application logging. Give the logical job a stable ID, give every attempt its own ID, write state transitions to Postgres, and store a sanitized error summary plus a pointer to detailed telemetry",
+      "title": "Day 21 - Scaling - Horizontal vs Vertical Scaling - কোনটা কখন করবেন?",
+      "link": "https://dev.to/mislam-dev/day-21-scaling-horizontal-vs-vertical-scaling-konttaa-kkhn-krben-ge7",
+      "pubDate": "2026-09-26T04:20:00.000Z",
+      "description": "<p>আপনার build করা application-টি এতই viral হয়ে গেছে যে, এর user base lakh cross করে গেছে। এবং concurrent user লাখের কাছাকাছি। এই অবস্থায় আপনার যে server আছে, তা user-দের load নিতে পারছে না। Peak time-এ user-দের wait করতে হচ্ছে। Data inconsistency-র একটা issue দেখা দিচ্ছে। মাঝে মাঝে server crash করছ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Integração com o iFood: o bug escondido por semanas",
-      "link": "https://dev.to/felipebufelli/integracao-com-o-ifood-o-bug-escondido-por-semanas-2ob7",
-      "pubDate": "2026-09-25T20:53:03.000Z",
-      "description": "<h2> O desafio </h2> <p>Hoje eu quero falar da Temperô, um SaaS multi-tenant de gestão de restaurantes: pedidos, cozinha, caixa, comandas, várias unidades por restaurante. Stack em Node/TypeScript/Express, Postgres com pg puro (sem ORM, SQL cru, migrations numeradas).</p> <p>O objetivo era simples d",
+      "title": "สร้าง AI Dojo ในทีมเล็ก: สนามซ้อมขั้นต่ำที่เริ่มได้ในวันหยุด",
+      "link": "https://dev.to/sarantoon/sraang-ai-dojo-ainthiimelk-snaamchmkhantamthiierimaidainwanhyud-4f2o",
+      "pubDate": "2026-09-26T04:15:18.000Z",
+      "description": "<h1> สร้าง AI Dojo ในทีมเล็ก: สนามซ้อมขั้นต่ำที่เริ่มได้ในวันหยุด </h1> <p><em>โดย Nokka (นก-กา) | 26 กันยายน 2026</em></p> <p><em>บทความนี้เขียนโดย AI (โมเดล glm-5.3 ของผู้ให้บริการ ollama-cloud) ผ่าน Hermes Agent จาก Nous Research ตรวจสอบและเรียบเรียงโดย Nokka</em></p> <p><em>บทที่ 5 จาก 5 ของชุด ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Integração com o iFood: o problema na homologação do developer",
-      "link": "https://dev.to/felipebufelli/integracao-com-o-ifood-o-bug-que-ficou-escondido-por-semanas-e-a-investigacao-que-terminou-numa-30hf",
-      "pubDate": "2026-09-25T20:48:48.000Z",
-      "description": "<h2> O desafio </h2> <p>Hoje eu quero falar da Temperô, um SaaS multi-tenant de gestão de restaurantes: pedidos, cozinha, caixa, comandas, várias unidades por restaurante. Stack em Node/TypeScript/Express, Postgres com pg puro (sem ORM, SQL cru, migrations numeradas).</p> <p>O objetivo era simples d",
+      "title": "How to Audit Your Company for Repeated Work in One Afternoon",
+      "link": "https://dev.to/ksoft_technologies_33f7f6/how-to-audit-your-company-for-repeated-work-in-one-afternoon-mdi",
+      "pubDate": "2026-09-26T04:10:43.000Z",
+      "description": "<p>Most companies do not need a six-month transformation program to discover where time is disappearing.<br> You can learn a lot by tracing three real workflows for a few hours.<br> Not asking teams where the process is inefficient.<br> Not drawing the ideal workflow from memory.<br> Actually follow",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "DORA metrics + SLOs without external infrastructure: a Cloudflare Workers approach",
-      "link": "https://dev.to/trimtabsignal/dora-metrics-slos-without-external-infrastructure-a-cloudflare-workers-approach-423c",
-      "pubDate": "2026-09-25T20:48:37.000Z",
-      "description": "<p>You do not need Prometheus, a metrics SaaS, or a dedicated observability stack<br> to run DORA-style delivery metrics and service-level objectives. On Cloudflare<br> Workers you already own the two things SLOs need: an execution environment and<br> a durable store. This post shows the P31 approac",
+      "title": "inner_text() Doesn't Read Form Fields: An 18-Day Blocker That Never Existed",
+      "link": "https://dev.to/dbsoul/innertext-doesnt-read-form-fields-an-18-day-blocker-that-never-existed-2pac",
+      "pubDate": "2026-09-26T04:10:06.000Z",
+      "description": "<p><em>A field note from the autonomous Claude Code agent I run every day on one Windows PC. The numbers come from its own ledgers, not from memory.</em></p> <p>This one is short, and I wish someone had told my agent earlier.</p> <h2> The setup </h2> <p>My agent manages a few storefronts through a h",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The spoon-dial: capacity-aware financial UI for neurodivergent users",
-      "link": "https://dev.to/trimtabsignal/the-spoon-dial-capacity-aware-financial-ui-for-neurodivergent-users-1eo1",
-      "pubDate": "2026-09-25T20:48:36.000Z",
-      "description": "<p>Financial dashboards are built for peak attention. Dense grids, live tickers,<br> twenty widgets competing for one pair of eyes. For the roughly 1.3 billion<br> people living with significant disability — 16% of the global population —<br> that interface is not merely unfriendly, it is a barrier ",
+      "title": "The Retry That Wasn't the Fix",
+      "link": "https://dev.to/amankumar1905/the-retry-that-wasnt-the-fix-343o",
+      "pubDate": "2026-09-26T04:04:48.000Z",
+      "description": "<p>Every engineer knows this feeling: a request fails, you retry it, it works, and you tell yourself you'll come back to figure out why later. Later rarely comes. The retry quietly becomes the fix, and the real cause gets buried under a try/except block nobody reads again.</p> <p>I almost did exactl",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Too AI; Didn't Read",
-      "link": "https://www.tai-dr.com/",
-      "pubDate": "2026-09-25T20:37:56.000Z",
-      "description": "Article URL: https://www.tai-dr.com/ Comments URL: https://news.ycombinator.com/item?id=49849625 Points: 30 # Comments: 22",
+      "title": "We're gonna need a lot more mathematicians",
+      "link": "https://terrytao.wordpress.com/2026/09/24/were-gonna-need-a-lot-more-mathematicians/",
+      "pubDate": "2026-09-26T02:46:54.000Z",
+      "description": "Article URL: https://terrytao.wordpress.com/2026/09/24/were-gonna-need-a-lot-more-mathematicians/ Comments URL: https://news.ycombinator.com/item?id=49852717 Points: 38 # Comments: 23",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Rising sea destroys homes, erases beaches in California",
-      "link": "https://www.reuters.com/business/environment/rising-sea-destroys-homes-erases-beaches-california-is-worse-come-2026-09-25/",
-      "pubDate": "2026-09-25T20:13:23.000Z",
-      "description": "Article URL: https://www.reuters.com/business/environment/rising-sea-destroys-homes-erases-beaches-california-is-worse-come-2026-09-25/ Comments URL: https://news.ycombinator.com/item?id=49849312 Points: 28 # Comments: 21",
+      "title": "Jury finds Facebook liable for deceiving users in Cambridge Analytica case",
+      "link": "https://www.cbsnews.com/news/facebook-liable-deceiving-users-cambridge-analytica/",
+      "pubDate": "2026-09-26T01:36:50.000Z",
+      "description": "Article URL: https://www.cbsnews.com/news/facebook-liable-deceiving-users-cambridge-analytica/ Comments URL: https://news.ycombinator.com/item?id=49852302 Points: 124 # Comments: 22",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Bug: Border radius has infected VSCode editor",
-      "link": "https://github.com/microsoft/vscode/issues/338035",
-      "pubDate": "2026-09-25T19:27:37.000Z",
-      "description": "Article URL: https://github.com/microsoft/vscode/issues/338035 Comments URL: https://news.ycombinator.com/item?id=49848838 Points: 50 # Comments: 23",
+      "title": "One Piece of Flock Camera Data Put This Innocent Woman in Jail for 13 Days",
+      "link": "https://www.jezebel.com/flock-cameras-data-innocent-woman-arrested-lindsey-isaacs-palm-beach-florida-lawsuit-vehicular-homicide",
+      "pubDate": "2026-09-26T00:59:02.000Z",
+      "description": "Article URL: https://www.jezebel.com/flock-cameras-data-innocent-woman-arrested-lindsey-isaacs-palm-beach-florida-lawsuit-vehicular-homicide Comments URL: https://news.ycombinator.com/item?id=49852065 Points: 105 # Comments: 33",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Letterboxd Is Up for Sale, and A24, Sony and the New York Times Are Bidding",
-      "link": "https://www.worldofreel.com/blog/2026/9/24/letterboxd-is-up-for-sale-and-a24-sony-and-the-new-york-times-bidding",
-      "pubDate": "2026-09-25T19:26:10.000Z",
-      "description": "Article URL: https://www.worldofreel.com/blog/2026/9/24/letterboxd-is-up-for-sale-and-a24-sony-and-the-new-york-times-bidding Comments URL: https://news.ycombinator.com/item?id=49848819 Points: 41 # Comments: 17",
+      "title": "TiddlyInstall: A universal, reusable, install system",
+      "link": "https://robertsdotpm.github.io/_static/tiddlyinstall.html",
+      "pubDate": "2026-09-26T00:29:48.000Z",
+      "description": "Article URL: https://robertsdotpm.github.io/_static/tiddlyinstall.html Comments URL: https://news.ycombinator.com/item?id=49851879 Points: 11 # Comments: 11",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Advice to a Beginning Graduate Student (2001)",
-      "link": "https://www.cs.cmu.edu/~mblum/research/pdf/grad.html",
-      "pubDate": "2026-09-25T19:12:45.000Z",
-      "description": "Article URL: https://www.cs.cmu.edu/~mblum/research/pdf/grad.html Comments URL: https://news.ycombinator.com/item?id=49848680 Points: 38 # Comments: 11",
+      "title": "Show HN: A game about fake news and memes",
+      "link": "https://unspin.app/",
+      "pubDate": "2026-09-26T00:11:33.000Z",
+      "description": "I made this game to help me with media literacy. View it like Wordle but for fake news.I would appreciate your honest feedback since I'm serious about making it way better. Comments URL: https://news.ycombinator.com/item?id=49851776 Points: 13 # Comments: 9",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Alan Kay: Shannon gave us a way of dealing with noisy channels [video]",
-      "link": "https://www.youtube.com/watch?v=Cjntrqhn8pk",
-      "pubDate": "2026-09-25T18:37:05.000Z",
-      "description": "The following explanation is taken from https://news.ycombinator.com/item?id=49622607:Alan Kay performs an improvisational avant garde layered audio feedback loop about Claude Shannon, live online during Kristen Nygaard's 100-year birthday celebration.Alan was scheduled to talk about how encounterin",
+      "title": "Lab on a Contact Lens Can Measure Stress Through Serotonin",
+      "link": "https://spectrum.ieee.org/serotonin-stress-smart-contact-lens",
+      "pubDate": "2026-09-25T22:28:02.000Z",
+      "description": "Article URL: https://spectrum.ieee.org/serotonin-stress-smart-contact-lens Comments URL: https://news.ycombinator.com/item?id=49850781 Points: 28 # Comments: 5",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Ollaya – Ollama for open-source, Jev-style decision models",
-      "link": "https://ollaya.dev/",
-      "pubDate": "2026-09-25T18:33:50.000Z",
-      "description": "Article URL: https://ollaya.dev/ Comments URL: https://news.ycombinator.com/item?id=49848269 Points: 201 # Comments: 56",
+      "title": "What even is an OS now?",
+      "link": "https://sockpuppet.org/blog/2026/09/25/what-even-is-an-os-now/",
+      "pubDate": "2026-09-25T21:36:56.000Z",
+      "description": "Article URL: https://sockpuppet.org/blog/2026/09/25/what-even-is-an-os-now/ Comments URL: https://news.ycombinator.com/item?id=49850305 Points: 127 # Comments: 225",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Astronomer watches Starlink satellites sinking to build a 'planetary barometer'",
-      "link": "https://www.theregister.com/science/2026/09/25/astronomer-watches-starlink-satellites-sinking-to-build-a-planetary-barometer/5299036",
-      "pubDate": "2026-09-25T18:29:49.000Z",
-      "description": "Article URL: https://www.theregister.com/science/2026/09/25/astronomer-watches-starlink-satellites-sinking-to-build-a-planetary-barometer/5299036 Comments URL: https://news.ycombinator.com/item?id=49848227 Points: 37 # Comments: 12",
+      "title": "Show HN: Ekselio – Loveable for finance workflows (local first)",
+      "link": "https://www.gptbeyond.com/try?home=1",
+      "pubDate": "2026-09-25T21:09:28.000Z",
+      "description": "Hi everyone, I am KD - Back in my college days, I dabbled with coding, learned the basics, HTML, CSS etc. but somehow I ended up in Finance which consumed the next 20 years. Then, during covid I picked up coding again, learned react, typescript, etc - even built a rudimentary site - and then came th",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Meta's Muse appears to use an OpenAI model labeled muse-special",
-      "link": "https://mouse.dev/blog/muse-special/",
-      "pubDate": "2026-09-25T18:18:06.000Z",
-      "description": "Article URL: https://mouse.dev/blog/muse-special/ Comments URL: https://news.ycombinator.com/item?id=49848095 Points: 70 # Comments: 32",
+      "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
+      "link": "https://swarmtraces.org/",
+      "pubDate": "2026-09-25T21:09:27.000Z",
+      "description": "Article URL: https://swarmtraces.org/ Comments URL: https://news.ycombinator.com/item?id=49849985 Points: 321 # Comments: 185",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Show HN: Doom or Bloom, map your AI worldview",
-      "link": "https://www.doom-or-bloom.com",
-      "pubDate": "2026-09-25T16:51:28.000Z",
-      "description": "Map your AI worldview by answering a few questions, and see how you compare with others.only takes a few minutes && free & open source && private by default && powered by JevI think this is a really important question for everyone to be asking themselves, and my hope is that this lil project helps t",
+      "title": "Excel now supports multiple values in a single cell",
+      "link": "https://techcommunity.microsoft.com/blog/microsoft365insiderblog/put-multiple-values-in-one-cell-with-lists-and-arrays-in-excel/4559395",
+      "pubDate": "2026-09-25T20:55:00.000Z",
+      "description": "Related: https://techcommunity.microsoft.com/blog/excelblog/excel-now... Comments URL: https://news.ycombinator.com/item?id=49849832 Points: 137 # Comments: 101",
       "source": "Hacker News",
       "category": "Tech News"
-    },
-    {
-      "title": "Let’s Use the Emergent CSS random() Function in all the Browsers",
-      "link": "https://css-tricks.com/css-random-function-polyfill/",
-      "pubDate": "2026-08-31T15:12:19.000Z",
-      "description": "The journey to create a polyfill for the upcoming CSS random() function that works in all browsers. Let’s Use the Emergent CSS random() Function in all the Browsers originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "What’s !important #18: &#060;geolocation&gt;, Syntax ::highlight()ing, named-feature(), and More",
-      "link": "https://css-tricks.com/whats-important-18/",
-      "pubDate": "2026-08-31T14:08:55.000Z",
-      "description": "Well, that’s a wrap. No, not a flex-wrap, but rather today marks a new day, week, month, season, aaaand new edition of What’s important (#18), bringing you the best content that developers have produced over the last couple of weeks or so. What’s !important #18: <geolocation>, Syntax ::highlight()in",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Creating Web Widgets Using the Document Picture-in-Picture API",
-      "link": "https://css-tricks.com/creating-web-widgets-using-the-document-picture-in-picture-api/",
-      "pubDate": "2026-08-27T14:41:06.000Z",
-      "description": "The general idea is that we create a Document Picture-in-Picture window (DPIP window), and then we put HTML, CSS, and JavaScript into it. Creating Web Widgets Using the Document Picture-in-Picture API originally handwritten and published with love on CSS-Tricks. You should really get the newsletter ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "animation-trigger",
-      "link": "https://css-tricks.com/almanac/properties/a/animation-trigger/",
-      "pubDate": "2026-08-26T15:38:41.000Z",
-      "description": "The CSS animation-trigger property allows you to delay the start of a CSS animation until a specific trigger occurs. animation-trigger originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "MicroLighter: Syntax Highlighter",
-      "link": "https://css-tricks.com/microlighter-syntax-highlighter/",
-      "pubDate": "2026-08-25T14:10:34.000Z",
-      "description": "Syntax highlighting for code blocks without the complicated markup, spans, classes, and bloated JavaScript, courtesy of Uncle Dave. MicroLighter: Syntax Highlighter originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "WordPress PHP-Only Block Registration",
-      "link": "https://css-tricks.com/wordpress-php-block-registration/",
-      "pubDate": "2026-08-24T13:54:02.000Z",
-      "description": "Seven and half years after blocks arrived in Core, WordPress introduces a way to build blocks without React annd build pipelines. All you need is PHP. WordPress PHP-Only Block Registration originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Resolved: CSS Class Prefix Selector",
-      "link": "https://css-tricks.com/resolved-css-class-prefix-selector/",
-      "pubDate": "2026-08-21T15:13:03.000Z",
-      "description": "A newly resolved proposal would allow us to select classes that are a prefix for variations with a wildcard, like .prefix-*. Resolved: CSS Class Prefix Selector originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "CSS Navigation Matching, Early Days",
-      "link": "https://css-tricks.com/css-navigation-matching-early-days/",
-      "pubDate": "2026-08-19T14:44:41.000Z",
-      "description": "Apply a style when someone navigates from one specific page to another. The idea being it'd make the sources for cross-document view transitions declarative in CSS rather than managing that stuff in JavaScript. CSS Navigation Matching, Early Days originally handwritten and published with love on CSS",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "WordPress.com Student Plan",
-      "link": "https://css-tricks.com/wordpress-student-plan/",
-      "pubDate": "2026-08-19T08:50:00.000Z",
-      "description": "As someone who teaches beginning web development, I find that building a WordPress site makes for a great final project. Hosting those projects has always been a roadblock though. WordPress.com Student Plan originally handwritten and published with love on CSS-Tricks. You should really get the newsl",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Dark mode toggles: two states are enough",
-      "link": "https://css-tricks.com/dark-mode-toggles-two-states-are-enough/",
-      "pubDate": "2026-08-17T14:15:50.000Z",
-      "description": "Lea's pushing back on light/dark mode implementations that display three state options for visitors: light, dark, and system. Dark mode toggles: two states are enough originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
     }
   ]
 }
