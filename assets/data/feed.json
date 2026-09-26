@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T16:24:31.186Z",
+  "generatedAt": "2026-09-26T21:11:16.714Z",
   "sourceCount": 4,
   "successCount": 3,
   "errors": [
@@ -10,90 +10,122 @@
   ],
   "items": [
     {
-      "title": "The Self-Regulatory Moat",
-      "link": "https://dev.to/deanlee/the-self-regulatory-moat-400g",
-      "pubDate": "2026-09-26T16:21:26.000Z",
-      "description": "<p>When three direct commercial competitors agree to establish an independent oversight body, the financial press usually frames it as responsible stewardship or an eleventh-hour attempt to stave off federal regulation. The reported formation of the Standards Authority for Frontier AI (SAFA) by Goog",
+      "title": "Designing a 12-Seat Voice Room: WebRTC/SFU, Server-Authoritative Coins, and Moderation",
+      "link": "https://dev.to/fahswe/designing-a-12-seat-voice-room-webrtcsfu-server-authoritative-coins-and-moderation-4l0p",
+      "pubDate": "2026-09-26T21:03:38.000Z",
+      "description": "<p>Social voice rooms look simple: a grid of 10–12 mic seats, a chat strip, some gift animations. Underneath, they combine three hard problems — real-time media, money, and trust &amp; safety. Get any one wrong and the room either lags, leaks money, or turns toxic.</p> <p>This post walks through a p",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "AURA v0.1.0: Deterministic Trigger Extraction, Auditable Math &amp; a Self-Healing Analytics Engine",
-      "link": "https://dev.to/kate8382/aura-v010-deterministic-trigger-extraction-auditable-math-a-self-healing-analytics-engine-17ge",
-      "pubDate": "2026-09-26T16:18:50.000Z",
-      "description": "<p>If you follow AI safety, you know the uncomfortable truth: modern LLM guardrails are failing not because of complex zero-day exploits, but because of sloppy heuristics, brittle filters, and naive prompt-matching.</p> <p>We built <strong>AURA</strong> to be pragmatic: deterministic, testable, full",
+      "title": "Kubernetes - Day - 07 - Questions Docker ( 1 to 6 )",
+      "link": "https://dev.to/technonotes/kubernetes-day-07-questions-docker-1-to-6--4ghf",
+      "pubDate": "2026-09-26T20:54:42.000Z",
+      "description": "<h1> 1 . Install Docker on your local machine. Verify the installation by running the hello-world container. </h1> <p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fart",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Tool Calling Code",
-      "link": "https://dev.to/technonotes/tool-calling-code-1kg6",
-      "pubDate": "2026-09-26T16:15:13.000Z",
-      "description": "<h2> Below are the steps executed for creation of Virtual environment </h2> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight shell\"><code>python <span class=\"nt\">-m</span> venv .venv python3 <span class=\"nt\">-m</span> venv .venv apt <span class=\"nb\">install </span>python3.12-venv pyth",
+      "title": "The five editing passes I run before anyone else reads the page",
+      "link": "https://dev.to/marcusedits/the-five-editing-passes-i-run-before-anyone-else-reads-the-page-33k4",
+      "pubDate": "2026-09-26T20:53:11.000Z",
+      "description": "<p>Most people edit by rereading. Rereading catches typos. It does not catch why the page isn't working.</p> <p>I edit prose for other people, in English and French. I only ever run five passes, one problem each, in this order. I don't mix them, because each pass is blind to the others.</p> <p><stro",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Agent Runtimes Have an Autoscaler, Not a Scheduler",
-      "link": "https://dev.to/webofmike/agent-runtimes-have-an-autoscaler-not-a-scheduler-2645",
-      "pubDate": "2026-09-26T16:10:58.000Z",
-      "description": "<p><em>Originally published at <a href=\"https://webofmike.com/agent-runtimes-need-a-scheduler/?utm_source=devto&amp;utm_medium=syndication&amp;utm_campaign=agent-runtimes-need-a-scheduler\" rel=\"noopener noreferrer\">webofmike.com</a> on 2026-09-26. The demo repo and every command in it were run befor",
+      "title": "From HTML to JavaScript: My Learning Journey",
+      "link": "https://dev.to/fafacodes/from-html-to-javascript-my-learning-journey-15j9",
+      "pubDate": "2026-09-26T20:48:41.000Z",
+      "description": "<p><em>Every developer starts somewhere. This is the story of how I began learning HTML, CSS, and JavaScript, and the lessons I've learned along the way</em></p> <p><strong>Introduction</strong> </p> <p>Technology has always fascinated me, especially websites and how they are built. When I started l",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "LoRA &amp; DoRA: The Math, Memory, and Trade-offs",
-      "link": "https://dev.to/g_factor/lora-dora-the-math-memory-and-trade-offs-40of",
-      "pubDate": "2026-09-26T16:09:50.000Z",
-      "description": "<p>Every engineer who has ever tried to fine-tune a modern 27B or 70B parameter model knows the rude awakening of GPU memory arithmetic.</p> <p>You look at the raw model weights and think: <em>“27 billion parameters stored in 16-bit brain floats is only 54 gigabytes. That easily fits on an 80 GB NVI",
+      "title": "Mailcow vs Stalwart vs Mailu at 10,000 Mailboxes: What Holds Up in Production",
+      "link": "https://dev.to/hamzezn/mailcow-vs-stalwart-vs-mailu-at-10000-mailboxes-what-holds-up-in-production-12d7",
+      "pubDate": "2026-09-26T20:47:49.000Z",
+      "description": "<p>Most \"mailcow vs Stalwart vs Mailu\" posts are written from a homelab: one domain, a handful of mailboxes, a feature checklist. That's a fine way to pick a server for your family. It tells you very little about what happens at 10,000 mailboxes, where the questions change from \"does it have a spam ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "BeeLadybug — un overlay per il debug DOM in tempo reale",
-      "link": "https://dev.to/antonioprosperi2svg/beeladybug-un-overlay-per-il-debug-dom-in-tempo-reale-3go0",
-      "pubDate": "2026-09-26T16:08:34.000Z",
-      "description": "<p>Un piccolo overlay in azione per il debug in tempo reale.</p> <p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fshs6c0krvdvpoepyyrww.jpg\" class=\"article-b",
+      "title": "Why Instagram labels your real photo \"AI info\" (and how to see the metadata behind it)",
+      "link": "https://dev.to/sebastian_balog_c88dc2913/why-instagram-labels-your-real-photo-ai-info-and-how-to-see-the-metadata-behind-it-4j0f",
+      "pubDate": "2026-09-26T20:46:48.000Z",
+      "description": "<p>You take a real photo, remove a stray object with a generative fill tool, post it, and Instagram adds <strong>\"AI info\"</strong> under your name. The picture is 99% camera, but the label says otherwise.</p> <p>The label usually isn't about the pixels. It's about <strong>metadata</strong> the edit",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Starting Free-to-Play Now, Betting Later? How to Pick a Provider That Won't Force a Migration",
-      "link": "https://dev.to/orbistats/starting-free-to-play-now-betting-later-how-to-pick-a-provider-that-wont-force-a-migration-4jcg",
-      "pubDate": "2026-09-26T16:06:51.000Z",
-      "description": "<p>You're building the free-to-play version first — smart, low-risk, get real usage data before you touch anything regulated. But the data-provider decision you make today quietly decides whether your real-money launch next year is a config change or a six-month rewrite. Here's the architecture that",
+      "title": "Your RAG Searches by Meaning. But What About Exact Words? Meet BM25",
+      "link": "https://dev.to/rijultp/your-rag-searches-by-meaning-but-what-about-exact-words-meet-bm25-50m5",
+      "pubDate": "2026-09-26T20:44:55.000Z",
+      "description": "<p><em>Hello, I'm Rijul, and I'm building LiveReview — a blast-radius aware AI code review built for your business-critical systems. <a href=\"https://github.com/HexmosTech/LiveReview/\" rel=\"noopener noreferrer\">Star us</a> to help devs discover the project, give it a try, and share your feedback to ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Your Agent Telemetry Has a Cardinality Problem",
-      "link": "https://dev.to/raju_dandigam/your-agent-telemetry-has-a-cardinality-problem-586j",
-      "pubDate": "2026-09-26T16:06:27.000Z",
-      "description": "<p>This metric looks helpful:<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight typescript\"><code><span class=\"nx\">agentRuns</span><span class=\"p\">.</span><span class=\"nf\">add</span><span class=\"p\">(</span><span class=\"mi\">1</span><span class=\"p\">,</span> <span class=\"p\">{</sp",
+      "title": "Building Tanexa: Making Personal Finance Simpler for India 🇮🇳",
+      "link": "https://dev.to/tanexa/building-tanexa-making-personal-finance-simpler-for-india-5dgk",
+      "pubDate": "2026-09-26T20:43:02.000Z",
+      "description": "<p>Hey DEV community! 👋</p> <p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fnyf9eapvu2rripeps2v0.jpg\" class=\"article-body-image-wrapper\"><img src=\"https:/",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Building a MIL-STD-188-110 HF Modem in Modern C++: An Introduction",
-      "link": "https://dev.to/kg7hf/building-a-mil-std-188-110-hf-modem-in-modern-c-an-introduction-6l0",
-      "pubDate": "2026-09-26T16:06:02.000Z",
-      "description": "<p><strong>A weekly deep dive into a fixed-frequency serial-tone waveform, one block at a time.</strong></p> <p>High-frequency (HF) radio is the communications system that refuses to die, and for good reason. It bounces signals off the ionosphere to reach thousands of miles with no satellites, no ce",
+      "title": "Authentication vs Authorization: Reaching an Admin Panel Without the Password",
+      "link": "https://dev.to/armando284/authentication-vs-authorization-reaching-an-admin-panel-without-the-password-55p9",
+      "pubDate": "2026-09-26T20:41:23.000Z",
+      "description": "<h1> Authentication vs Authorization: Reaching an Admin Panel Without the Password </h1> <p><strong>TL;DR:</strong> The login worked the entire time. The button that led to the admin panel didn't render for my role, the route behind it still answered, and the server never asked what my role was allo",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Sending Telegram Bot Messages with PHP cURL: Handling HTTP Status, JSON Errors, and Telegram's ok Field",
-      "link": "https://dev.to/serhii_a9c08345ac360cf5c8/sending-telegram-bot-messages-with-php-curl-handling-http-status-json-errors-and-telegrams-ok-2j9f",
-      "pubDate": "2026-09-26T16:02:37.000Z",
-      "description": "<h2> Introduction </h2> <p>When you need to send a simple message from a Telegram bot, the most direct way is to call the <code>sendMessage</code> method over HTTPS. Using PHP’s cURL extension gives you full control over the request, allowing you to inspect the HTTP status code, handle JSON decoding",
+      "title": "I built an async, self-improving AI coding agent that never leaves my machine. Now it runs in my browser, on my phone, and learns from its own work.",
+      "link": "https://dev.to/natuworkguy/i-built-an-async-self-improving-ai-coding-agent-that-never-leaves-my-machine-now-it-runs-in-my-2k9p",
+      "pubDate": "2026-09-26T20:40:13.000Z",
+      "description": "<p>Every AI coding tool I tried had the same fine print.</p> <p>It runs commands on your machine. It reads files on your machine. It feels local.</p> <p>Then you check where the model lives, and it's on somebody else's server. Every file it reads, every command it runs, every line of your code takes",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Some Supabase customers are publicly exposing reams of people's data to the web",
-      "link": "https://techcrunch.com/2026/09/25/some-supabase-customers-are-publicly-exposing-reams-of-peoples-data-to-the-web/",
-      "pubDate": "2026-09-26T15:42:16.000Z",
-      "description": "Article URL: https://techcrunch.com/2026/09/25/some-supabase-customers-are-publicly-exposing-reams-of-peoples-data-to-the-web/ Comments URL: https://news.ycombinator.com/item?id=49857595 Points: 4 # Comments: 0",
+      "title": "Welcome to the Medical Clinic at the Interplanetary Relay Station",
+      "link": "https://www.lightspeedmagazine.com/fiction/welcome-to-the-medical-clinic-at-the-interplanetary-relay-station/",
+      "pubDate": "2026-09-26T20:08:50.000Z",
+      "description": "Article URL: https://www.lightspeedmagazine.com/fiction/welcome-to-the-medical-clinic-at-the-interplanetary-relay-station/ Comments URL: https://news.ycombinator.com/item?id=49860074 Points: 3 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "DeepSeek Elastic Compute (DSec)",
+      "link": "https://arxiv.org/abs/2609.22978",
+      "pubDate": "2026-09-26T18:22:41.000Z",
+      "description": "Article URL: https://arxiv.org/abs/2609.22978 Comments URL: https://news.ycombinator.com/item?id=49859112 Points: 36 # Comments: 10",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Show HN: Reladraw – A diagram language where you decide where to place things",
+      "link": "https://github.com/reladraw/reladraw",
+      "pubDate": "2026-09-26T17:10:40.000Z",
+      "description": "I love making diagrams to help understand, plan, etc. However, the options are (A) auto-placement languages like Mermaid or Graphviz (which don't let me decide how the diagram looks), or (B) software like Draw.io which are powerful but are very time consuming (and inefficient for agents to manipulat",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Drawgent: Coding agent on a live Excalidraw canvas",
+      "link": "https://tangled.org/yanndegat.tngl.sh/drawgent",
+      "pubDate": "2026-09-26T15:56:34.000Z",
+      "description": "Article URL: https://tangled.org/yanndegat.tngl.sh/drawgent Comments URL: https://news.ycombinator.com/item?id=49857729 Points: 72 # Comments: 24",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Banks and Credit Unions to Team Up Against Apple Pay Fees",
+      "link": "https://www.macrumors.com/2026/09/25/apple-pay-antitrust-lawsuit-advances/",
+      "pubDate": "2026-09-26T15:48:18.000Z",
+      "description": "Article URL: https://www.macrumors.com/2026/09/25/apple-pay-antitrust-lawsuit-advances/ Comments URL: https://news.ycombinator.com/item?id=49857651 Points: 92 # Comments: 69",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -101,15 +133,7 @@
       "title": "Automattic has a new board after failed attempt to put CEO on leave",
       "link": "https://techcrunch.com/2026/09/25/automattic-has-a-new-board-after-failed-attempt-to-put-ceo-on-leave/",
       "pubDate": "2026-09-26T15:40:27.000Z",
-      "description": "Article URL: https://techcrunch.com/2026/09/25/automattic-has-a-new-board-after-failed-attempt-to-put-ceo-on-leave/ Comments URL: https://news.ycombinator.com/item?id=49857572 Points: 9 # Comments: 2",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Show HN: A Claude Code skill to analyze your chess games",
-      "link": "https://github.com/brumar/chess-postmortem-skills",
-      "pubDate": "2026-09-26T15:34:53.000Z",
-      "description": "Hello HN,It started as an experiment: can Claude play chess properly if it uses vision instead of PGN notation? Somehow it can.The next experiment was to see whether Claude + Stockfish could explain a game. Somehow it can too.A few sessions later, I had a system that takes my live audio notes (or te",
+      "description": "Article URL: https://techcrunch.com/2026/09/25/automattic-has-a-new-board-after-failed-attempt-to-put-ceo-on-leave/ Comments URL: https://news.ycombinator.com/item?id=49857572 Points: 94 # Comments: 99",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -117,15 +141,15 @@
       "title": "Plunging test scores are a slow-moving catastrophe",
       "link": "https://www.economist.com/leaders/2026/09/10/plunging-test-scores-are-a-slow-moving-catastrophe",
       "pubDate": "2026-09-26T15:24:08.000Z",
-      "description": "Article URL: https://www.economist.com/leaders/2026/09/10/plunging-test-scores-are-a-slow-moving-catastrophe Comments URL: https://news.ycombinator.com/item?id=49857442 Points: 43 # Comments: 43",
+      "description": "https://archive.ph/n8Akh Comments URL: https://news.ycombinator.com/item?id=49857442 Points: 135 # Comments: 249",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "New Satellite Engine Could Use Earth's Atmosphere to Stay in Orbit Indefinitely",
-      "link": "https://scitechdaily.com/new-satellite-engine-could-use-earths-atmosphere-as-fuel-to-stay-in-orbit-indefinitely/",
-      "pubDate": "2026-09-26T15:10:29.000Z",
-      "description": "Article URL: https://scitechdaily.com/new-satellite-engine-could-use-earths-atmosphere-as-fuel-to-stay-in-orbit-indefinitely/ Comments URL: https://news.ycombinator.com/item?id=49857323 Points: 13 # Comments: 0",
+      "title": "OpenAI bots meddled with multiple US Government agency sites",
+      "link": "https://www.bbc.com/news/articles/cw62jje658dlo",
+      "pubDate": "2026-09-26T14:03:54.000Z",
+      "description": "Article URL: https://www.bbc.com/news/articles/cw62jje658dlo Comments URL: https://news.ycombinator.com/item?id=49856665 Points: 76 # Comments: 106",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -133,39 +157,15 @@
       "title": "Breaking Up with Google Play: Why Conversations Is Now Free",
       "link": "https://gultsch.de/posts/breaking-up-with-google-play/",
       "pubDate": "2026-09-26T10:55:56.000Z",
-      "description": "Article URL: https://gultsch.de/posts/breaking-up-with-google-play/ Comments URL: https://news.ycombinator.com/item?id=49855315 Points: 396 # Comments: 148",
+      "description": "Article URL: https://gultsch.de/posts/breaking-up-with-google-play/ Comments URL: https://news.ycombinator.com/item?id=49855315 Points: 593 # Comments: 227",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Fifteen years later, the Apple Cards origin story",
-      "link": "https://lexontech.org/fifteen-years-later-the-apple-cards-origin-story",
-      "pubDate": "2026-09-26T09:13:41.000Z",
-      "description": "Article URL: https://lexontech.org/fifteen-years-later-the-apple-cards-origin-story Comments URL: https://news.ycombinator.com/item?id=49854693 Points: 193 # Comments: 27",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Floci: Locally emulating any cloud service",
-      "link": "https://floci.io",
-      "pubDate": "2026-09-26T08:31:02.000Z",
-      "description": "Article URL: https://floci.io Comments URL: https://news.ycombinator.com/item?id=49854416 Points: 97 # Comments: 17",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Is your Postgres migration safe or not safe?",
-      "link": "https://safenotsafe.dev/",
-      "pubDate": "2026-09-26T07:33:12.000Z",
-      "description": "Article URL: https://safenotsafe.dev/ Comments URL: https://news.ycombinator.com/item?id=49854161 Points: 90 # Comments: 29",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "A single function Jev-like wrapper for LLMs, including vision models",
-      "link": "http://allanrbo.blogspot.com/2026/09/a-jev-like-wrapper-for-llms-including.html",
-      "pubDate": "2026-09-26T04:20:58.000Z",
-      "description": "Article URL: http://allanrbo.blogspot.com/2026/09/a-jev-like-wrapper-for-llms-including.html Comments URL: https://news.ycombinator.com/item?id=49853175 Points: 114 # Comments: 31",
+      "title": "How to keep enjoying programming in a world of LLMs",
+      "link": "https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705",
+      "pubDate": "2026-09-26T09:41:58.000Z",
+      "description": "Article URL: https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705 Comments URL: https://news.ycombinator.com/item?id=49854875 Points: 108 # Comments: 156",
       "source": "Hacker News",
       "category": "Tech News"
     },
