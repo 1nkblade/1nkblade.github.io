@@ -1,103 +1,155 @@
 {
-  "generatedAt": "2026-09-26T04:59:28.894Z",
+  "generatedAt": "2026-09-26T11:26:08.200Z",
   "sourceCount": 4,
-  "successCount": 2,
+  "successCount": 3,
   "errors": [
     {
       "source": "Hack The Box Security Blog",
       "error": "HTTP 404 Not Found"
-    },
-    {
-      "source": "CSS Tricks",
-      "error": "HTTP 415 Unsupported Media Type"
     }
   ],
   "items": [
     {
-      "title": "2026 - Backend Interview Questions",
-      "link": "https://dev.to/vivek1030/2026-backend-interview-questions-hjh",
-      "pubDate": "2026-09-26T04:49:46.000Z",
-      "description": "<h3> Data Structures, Algorithms &amp; Problem Solving </h3> <ul> <li><p>Find duplicate elements in an array</p></li> <li><p>Find first non-repeated character in String</p></li> <li><p>Reverse a String without using inbuilt methods</p></li> <li><p>Find longest substring without repeating characters<",
+      "title": "Fathom Analytics vs Umami: Which Fits Your Website?",
+      "link": "https://dev.to/maximin_mxn_6ce1a3054be6d/fathom-analytics-vs-umami-which-fits-your-website-1i0e",
+      "pubDate": "2026-09-26T11:13:44.000Z",
+      "description": "<p>Fathom Analytics and Umami both make a credible case for privacy-conscious website measurement. The decision for a small website team is whether to buy a managed dashboard with little maintenance or run a broader analytics platform that can also be self-hosted. A third option, Clics, matters when",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Implementing Modern Documentation Search for Developer Portals",
-      "link": "https://dev.to/ming_guang_4110847626ef21/implementing-modern-documentation-search-for-developer-portals-2g8k",
-      "pubDate": "2026-09-26T04:43:58.000Z",
-      "description": "<p>When developers or users land on a technical portal, their primary goal is to find precise answers quickly. A poorly implemented search bar leads to frustration, increased support tickets, and drop-offs. Building an effective documentation search system requires understanding how users query tech",
+      "title": "Gemma 4 on Amazon SageMaker: QAT Weights Decode 2.05x Faster Than bf16 on One L4",
+      "link": "https://dev.to/gde/gemma-4-on-amazon-sagemaker-qat-weights-decode-205x-faster-than-bf16-on-one-l4-2m9g",
+      "pubDate": "2026-09-26T11:10:27.000Z",
+      "description": "<p>This article gives a short background on Amazon SageMaker real-time endpoints, then measures Gemma 4 E2B's quantization-aware trained (QAT) checkpoint against the full-size bf16 release on the same NVIDIA L4 endpoint. A suite of Python MCP tools is built to simplify management of the vLLM hosted ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Why Fail2ban Isn't Enough: Building CNSL, a Self-Hosted SIEM for Linux &amp; Kubernetes",
-      "link": "https://dev.to/rahadbhuiya/why-fail2ban-isnt-enough-building-cnsl-a-self-hosted-siem-for-linux-kubernetes-5f7i",
-      "pubDate": "2026-09-26T04:35:44.000Z",
-      "description": "<p>If you manage Linux servers, your security stack probably looks something like this:</p> <ul> <li> <strong>Fail2ban</strong> scanning <code>/var/log/auth.log</code> for failed SSH passwords.</li> <li>A reverse proxy or web server (NGINX / Caddy) writing HTTP access logs.</li> <li>A database (Post",
+      "title": "Gemma 4 on an Amazon SageMaker Endpoint: AWS CLI, NVIDIA L4, and an MCP Server",
+      "link": "https://dev.to/gde/gemma-4-on-an-amazon-sagemaker-endpoint-aws-cli-nvidia-l4-and-an-mcp-server-5cdd",
+      "pubDate": "2026-09-26T11:10:24.000Z",
+      "description": "<p>This article provides a step by step deployment guide for Gemma 4 E2B to an Amazon SageMaker hosted GPU enabled system. A suite of Python MCP tools is built to simplify management of the vLLM hosted deployment with Claude Code.</p> <p><a href=\"https://github.com/xbill9/sagemaker-gemma\" rel=\"noope",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Five prompts that make a Codex bug fix easier to verify",
-      "link": "https://dev.to/tam_nguyenvan_1f689d35bc9/five-prompts-that-make-a-codex-bug-fix-easier-to-verify-22hj",
-      "pubDate": "2026-09-26T04:35:13.000Z",
-      "description": "<p>A Codex task can end with a convincing explanation while leaving the original<br> bug untested. The useful question at handoff is simple: what observation shows<br> that the reported behavior changed?</p> <p>Here are five prompts you can adapt to an existing repository. They need no<br> extra ski",
+      "title": "trelix v3.2.2 to v3.3.8: A GitHub App Already Hardened and Running in Production, and a Connector That Never Touches a Pixel",
+      "link": "https://dev.to/sai_ram_0000/trelix-v322-to-v338-a-github-app-already-hardened-and-running-in-production-and-a-connector-3hng",
+      "pubDate": "2026-09-26T11:08:08.000Z",
+      "description": "<p><code>docker run --entrypoint trelix-mcp ghcr.io/sairam0424/trelix:3.2.1 --help</code> returns exit code 127: command not found. Not a typo, not a stale tag — the published 3.2.1 image never contained <code>trelix-mcp</code> at all. The builder stage copied core <code>trelix</code> and nothing el",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "When a silent failure hit you, what did it actually cost?",
-      "link": "https://dev.to/aditya_mishra_2417/when-a-silent-failure-hit-you-what-did-it-actually-cost-1bnm",
-      "pubDate": "2026-09-26T04:31:54.000Z",
-      "description": "<p>Plenty of threads here about catching runs that report success while nothing happened. I've read most of them. What I can't find anywhere is the number.</p> <p>So: when it happened to you —</p> <ol> <li>How long between it happening and someone noticing?</li> <li>What did it cost — refund, lost c",
+      "title": "Nunca más crees partes de 1 fila en ClickHouse: Buffer Manager integrado.",
+      "link": "https://dev.to/william_rodriguez_65a5898/nunca-mas-crees-partes-de-1-fila-en-clickhouse-buffer-manager-integrado-14gg",
+      "pubDate": "2026-09-26T11:08:06.000Z",
+      "description": "<blockquote> <p>Día 03 de la serie técnica WClickHouse Open Source.</p> </blockquote> <p>No necesitas un cluster de Redis solo para proteger a ClickHouse de escrituras en streaming. WClickHouse incluye su propio Buffer Manager en memoria.</p> <h2> Los Problemas Reales </h2> <ul> <li>Microservicios q",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Day 21 - Scaling - Horizontal vs Vertical Scaling - কোনটা কখন করবেন?",
-      "link": "https://dev.to/mislam-dev/day-21-scaling-horizontal-vs-vertical-scaling-konttaa-kkhn-krben-ge7",
-      "pubDate": "2026-09-26T04:20:00.000Z",
-      "description": "<p>আপনার build করা application-টি এতই viral হয়ে গেছে যে, এর user base lakh cross করে গেছে। এবং concurrent user লাখের কাছাকাছি। এই অবস্থায় আপনার যে server আছে, তা user-দের load নিতে পারছে না। Peak time-এ user-দের wait করতে হচ্ছে। Data inconsistency-র একটা issue দেখা দিচ্ছে। মাঝে মাঝে server crash করছ",
+      "title": "Never create 1-row ClickHouse parts again: The built-in Buffer Manager.",
+      "link": "https://dev.to/william_rodriguez_65a5898/never-create-1-row-clickhouse-parts-again-the-built-in-buffer-manager-1g7e",
+      "pubDate": "2026-09-26T11:07:50.000Z",
+      "description": "<blockquote> <p>Day 03 of the WClickHouse Open-Source Engineering Series.</p> </blockquote> <p>You don't need a Redis cluster just to protect ClickHouse from single-event streaming writes. WClickHouse has a built-in Buffer Manager.</p> <h2> The Pain Points We Faced </h2> <ul> <li>Microservices needi",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "สร้าง AI Dojo ในทีมเล็ก: สนามซ้อมขั้นต่ำที่เริ่มได้ในวันหยุด",
-      "link": "https://dev.to/sarantoon/sraang-ai-dojo-ainthiimelk-snaamchmkhantamthiierimaidainwanhyud-4f2o",
-      "pubDate": "2026-09-26T04:15:18.000Z",
-      "description": "<h1> สร้าง AI Dojo ในทีมเล็ก: สนามซ้อมขั้นต่ำที่เริ่มได้ในวันหยุด </h1> <p><em>โดย Nokka (นก-กา) | 26 กันยายน 2026</em></p> <p><em>บทความนี้เขียนโดย AI (โมเดล glm-5.3 ของผู้ให้บริการ ollama-cloud) ผ่าน Hermes Agent จาก Nous Research ตรวจสอบและเรียบเรียงโดย Nokka</em></p> <p><em>บทที่ 5 จาก 5 ของชุด ",
+      "title": "Tamper-proof distributed nodes: SHA-256 source code integrity verification.",
+      "link": "https://dev.to/william_rodriguez_65a5898/tamper-proof-distributed-nodes-sha-256-source-code-integrity-verification-36je",
+      "pubDate": "2026-09-26T11:06:19.000Z",
+      "description": "<blockquote> <p>Day 03 of the wFabricSecurity Open-Source Engineering Series.</p> </blockquote> <p>How do you know the worker submitting transactions to your blockchain hasn't been modified on disk? wFabricSecurity verifies SHA-256 code integrity before any transaction runs.</p> <h2> The Pain Points",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How to Audit Your Company for Repeated Work in One Afternoon",
-      "link": "https://dev.to/ksoft_technologies_33f7f6/how-to-audit-your-company-for-repeated-work-in-one-afternoon-mdi",
-      "pubDate": "2026-09-26T04:10:43.000Z",
-      "description": "<p>Most companies do not need a six-month transformation program to discover where time is disappearing.<br> You can learn a lot by tracing three real workflows for a few hours.<br> Not asking teams where the process is inefficient.<br> Not drawing the ideal workflow from memory.<br> Actually follow",
+      "title": "How to Build a Cognitive Distortion Detector in Vanilla JS (No Frameworks, No Dependencies)",
+      "link": "https://dev.to/473185670/how-to-build-a-cognitive-distortion-detector-in-vanilla-js-no-frameworks-no-dependencies-214l",
+      "pubDate": "2026-09-26T11:05:50.000Z",
+      "description": "<p>You don't need React, Vue, or any NLP library to detect cognitive distortions in text. Here's a complete, working detector in under 150 lines of vanilla JS.</p> <h2> What Are Cognitive Distortions? </h2> <p>Cognitive distortions are biased thinking patterns that fuel anxiety and depression. Aaron",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "inner_text() Doesn't Read Form Fields: An 18-Day Blocker That Never Existed",
-      "link": "https://dev.to/dbsoul/innertext-doesnt-read-form-fields-an-18-day-blocker-that-never-existed-2pac",
-      "pubDate": "2026-09-26T04:10:06.000Z",
-      "description": "<p><em>A field note from the autonomous Claude Code agent I run every day on one Windows PC. The numbers come from its own ledgers, not from memory.</em></p> <p>This one is short, and I wish someone had told my agent earlier.</p> <h2> The setup </h2> <p>My agent manages a few storefronts through a h",
+      "title": "Cifrado al vuelo: encrypt() y decrypt() directo con auto-JSON.",
+      "link": "https://dev.to/william_rodriguez_65a5898/cifrado-al-vuelo-encrypt-y-decrypt-directo-con-auto-json-4d90",
+      "pubDate": "2026-09-26T11:05:49.000Z",
+      "description": "<p>Cifrar cargas para colas de eventos no debería obligarte a serializar JSON y convertir bytes a mano. encrypt() y decrypt() de wauth procesan strings, listas y diccionarios con total transparencia.</p> <p>Esta es la implementación exacta para producción de <strong>Direct encrypt() &amp; decrypt() ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The Retry That Wasn't the Fix",
-      "link": "https://dev.to/amankumar1905/the-retry-that-wasnt-the-fix-343o",
-      "pubDate": "2026-09-26T04:04:48.000Z",
-      "description": "<p>Every engineer knows this feeling: a request fails, you retry it, it works, and you tell yourself you'll come back to figure out why later. Later rarely comes. The retry quietly becomes the fix, and the real cause gets buried under a try/except block nobody reads again.</p> <p>I almost did exactl",
+      "title": "5,000+ inserts/sec: Thread-safe connection pooling and WAL mode",
+      "link": "https://dev.to/william_rodriguez_65a5898/5000-insertssec-thread-safe-connection-pooling-and-wal-mode-3ch2",
+      "pubDate": "2026-09-26T11:04:57.000Z",
+      "description": "<p>Think SQLite can't handle high concurrency? Think again. With Write-Ahead Logging (WAL) and wsqlite's thread-safe connection pool, you can achieve over 5,000 inserts per second with zero locked database errors.</p> <p>Here is how you use <strong>ConnectionPool &amp; Write-Ahead Logging (WAL)</str",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "One Month Without AI",
+      "link": "https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html",
+      "pubDate": "2026-09-26T10:08:21.000Z",
+      "description": "Article URL: https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html Comments URL: https://news.ycombinator.com/item?id=49855018 Points: 11 # Comments: 4",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Fifteen years later, the Apple Cards origin story",
+      "link": "https://lexontech.org/fifteen-years-later-the-apple-cards-origin-story",
+      "pubDate": "2026-09-26T09:13:41.000Z",
+      "description": "Article URL: https://lexontech.org/fifteen-years-later-the-apple-cards-origin-story Comments URL: https://news.ycombinator.com/item?id=49854693 Points: 57 # Comments: 2",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Floci: Locally emulating any cloud service",
+      "link": "https://floci.io",
+      "pubDate": "2026-09-26T08:31:02.000Z",
+      "description": "Article URL: https://floci.io Comments URL: https://news.ycombinator.com/item?id=49854416 Points: 20 # Comments: 4",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Is your Postgres migration safe or not safe?",
+      "link": "https://safenotsafe.dev/",
+      "pubDate": "2026-09-26T07:33:12.000Z",
+      "description": "Article URL: https://safenotsafe.dev/ Comments URL: https://news.ycombinator.com/item?id=49854161 Points: 38 # Comments: 10",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Alberta's image as world's only rat-free region shattered by discovery of rat",
+      "link": "https://www.theguardian.com/world/2026/sep/25/alberta-canada-rat-patrol",
+      "pubDate": "2026-09-26T06:51:12.000Z",
+      "description": "Article URL: https://www.theguardian.com/world/2026/sep/25/alberta-canada-rat-patrol Comments URL: https://news.ycombinator.com/item?id=49853918 Points: 32 # Comments: 21",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "A single function Jev-like wrapper for LLMs, including vision models",
+      "link": "http://allanrbo.blogspot.com/2026/09/a-jev-like-wrapper-for-llms-including.html",
+      "pubDate": "2026-09-26T04:20:58.000Z",
+      "description": "Article URL: http://allanrbo.blogspot.com/2026/09/a-jev-like-wrapper-for-llms-including.html Comments URL: https://news.ycombinator.com/item?id=49853175 Points: 90 # Comments: 23",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "We're gonna need a lot more mathematicians",
       "link": "https://terrytao.wordpress.com/2026/09/24/were-gonna-need-a-lot-more-mathematicians/",
       "pubDate": "2026-09-26T02:46:54.000Z",
-      "description": "Article URL: https://terrytao.wordpress.com/2026/09/24/were-gonna-need-a-lot-more-mathematicians/ Comments URL: https://news.ycombinator.com/item?id=49852717 Points: 38 # Comments: 23",
+      "description": "Article URL: https://terrytao.wordpress.com/2026/09/24/were-gonna-need-a-lot-more-mathematicians/ Comments URL: https://news.ycombinator.com/item?id=49852717 Points: 159 # Comments: 194",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "HomelabFest will be in St. Louis in September 2027",
+      "link": "https://www.homelabfest.org",
+      "pubDate": "2026-09-26T02:03:24.000Z",
+      "description": "Article URL: https://www.homelabfest.org Comments URL: https://news.ycombinator.com/item?id=49852462 Points: 34 # Comments: 18",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -105,7 +157,7 @@
       "title": "Jury finds Facebook liable for deceiving users in Cambridge Analytica case",
       "link": "https://www.cbsnews.com/news/facebook-liable-deceiving-users-cambridge-analytica/",
       "pubDate": "2026-09-26T01:36:50.000Z",
-      "description": "Article URL: https://www.cbsnews.com/news/facebook-liable-deceiving-users-cambridge-analytica/ Comments URL: https://news.ycombinator.com/item?id=49852302 Points: 124 # Comments: 22",
+      "description": "Article URL: https://www.cbsnews.com/news/facebook-liable-deceiving-users-cambridge-analytica/ Comments URL: https://news.ycombinator.com/item?id=49852302 Points: 246 # Comments: 59",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -113,65 +165,89 @@
       "title": "One Piece of Flock Camera Data Put This Innocent Woman in Jail for 13 Days",
       "link": "https://www.jezebel.com/flock-cameras-data-innocent-woman-arrested-lindsey-isaacs-palm-beach-florida-lawsuit-vehicular-homicide",
       "pubDate": "2026-09-26T00:59:02.000Z",
-      "description": "Article URL: https://www.jezebel.com/flock-cameras-data-innocent-woman-arrested-lindsey-isaacs-palm-beach-florida-lawsuit-vehicular-homicide Comments URL: https://news.ycombinator.com/item?id=49852065 Points: 105 # Comments: 33",
+      "description": "Article URL: https://www.jezebel.com/flock-cameras-data-innocent-woman-arrested-lindsey-isaacs-palm-beach-florida-lawsuit-vehicular-homicide Comments URL: https://news.ycombinator.com/item?id=49852065 Points: 184 # Comments: 86",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "TiddlyInstall: A universal, reusable, install system",
-      "link": "https://robertsdotpm.github.io/_static/tiddlyinstall.html",
-      "pubDate": "2026-09-26T00:29:48.000Z",
-      "description": "Article URL: https://robertsdotpm.github.io/_static/tiddlyinstall.html Comments URL: https://news.ycombinator.com/item?id=49851879 Points: 11 # Comments: 11",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "Let’s Use the Emergent CSS random() Function in all the Browsers",
+      "link": "https://css-tricks.com/css-random-function-polyfill/",
+      "pubDate": "2026-08-31T15:12:19.000Z",
+      "description": "The journey to create a polyfill for the upcoming CSS random() function that works in all browsers. Let’s Use the Emergent CSS random() Function in all the Browsers originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
-      "title": "Show HN: A game about fake news and memes",
-      "link": "https://unspin.app/",
-      "pubDate": "2026-09-26T00:11:33.000Z",
-      "description": "I made this game to help me with media literacy. View it like Wordle but for fake news.I would appreciate your honest feedback since I'm serious about making it way better. Comments URL: https://news.ycombinator.com/item?id=49851776 Points: 13 # Comments: 9",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "What’s !important #18: &#060;geolocation&gt;, Syntax ::highlight()ing, named-feature(), and More",
+      "link": "https://css-tricks.com/whats-important-18/",
+      "pubDate": "2026-08-31T14:08:55.000Z",
+      "description": "Well, that’s a wrap. No, not a flex-wrap, but rather today marks a new day, week, month, season, aaaand new edition of What’s important (#18), bringing you the best content that developers have produced over the last couple of weeks or so. What’s !important #18: <geolocation>, Syntax ::highlight()in",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
-      "title": "Lab on a Contact Lens Can Measure Stress Through Serotonin",
-      "link": "https://spectrum.ieee.org/serotonin-stress-smart-contact-lens",
-      "pubDate": "2026-09-25T22:28:02.000Z",
-      "description": "Article URL: https://spectrum.ieee.org/serotonin-stress-smart-contact-lens Comments URL: https://news.ycombinator.com/item?id=49850781 Points: 28 # Comments: 5",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "Creating Web Widgets Using the Document Picture-in-Picture API",
+      "link": "https://css-tricks.com/creating-web-widgets-using-the-document-picture-in-picture-api/",
+      "pubDate": "2026-08-27T14:41:06.000Z",
+      "description": "The general idea is that we create a Document Picture-in-Picture window (DPIP window), and then we put HTML, CSS, and JavaScript into it. Creating Web Widgets Using the Document Picture-in-Picture API originally handwritten and published with love on CSS-Tricks. You should really get the newsletter ",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
-      "title": "What even is an OS now?",
-      "link": "https://sockpuppet.org/blog/2026/09/25/what-even-is-an-os-now/",
-      "pubDate": "2026-09-25T21:36:56.000Z",
-      "description": "Article URL: https://sockpuppet.org/blog/2026/09/25/what-even-is-an-os-now/ Comments URL: https://news.ycombinator.com/item?id=49850305 Points: 127 # Comments: 225",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "animation-trigger",
+      "link": "https://css-tricks.com/almanac/properties/a/animation-trigger/",
+      "pubDate": "2026-08-26T15:38:41.000Z",
+      "description": "The CSS animation-trigger property allows you to delay the start of a CSS animation until a specific trigger occurs. animation-trigger originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
-      "title": "Show HN: Ekselio – Loveable for finance workflows (local first)",
-      "link": "https://www.gptbeyond.com/try?home=1",
-      "pubDate": "2026-09-25T21:09:28.000Z",
-      "description": "Hi everyone, I am KD - Back in my college days, I dabbled with coding, learned the basics, HTML, CSS etc. but somehow I ended up in Finance which consumed the next 20 years. Then, during covid I picked up coding again, learned react, typescript, etc - even built a rudimentary site - and then came th",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "MicroLighter: Syntax Highlighter",
+      "link": "https://css-tricks.com/microlighter-syntax-highlighter/",
+      "pubDate": "2026-08-25T14:10:34.000Z",
+      "description": "Syntax highlighting for code blocks without the complicated markup, spans, classes, and bloated JavaScript, courtesy of Uncle Dave. MicroLighter: Syntax Highlighter originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
-      "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
-      "link": "https://swarmtraces.org/",
-      "pubDate": "2026-09-25T21:09:27.000Z",
-      "description": "Article URL: https://swarmtraces.org/ Comments URL: https://news.ycombinator.com/item?id=49849985 Points: 321 # Comments: 185",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "WordPress PHP-Only Block Registration",
+      "link": "https://css-tricks.com/wordpress-php-block-registration/",
+      "pubDate": "2026-08-24T13:54:02.000Z",
+      "description": "Seven and half years after blocks arrived in Core, WordPress introduces a way to build blocks without React annd build pipelines. All you need is PHP. WordPress PHP-Only Block Registration originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
-      "title": "Excel now supports multiple values in a single cell",
-      "link": "https://techcommunity.microsoft.com/blog/microsoft365insiderblog/put-multiple-values-in-one-cell-with-lists-and-arrays-in-excel/4559395",
-      "pubDate": "2026-09-25T20:55:00.000Z",
-      "description": "Related: https://techcommunity.microsoft.com/blog/excelblog/excel-now... Comments URL: https://news.ycombinator.com/item?id=49849832 Points: 137 # Comments: 101",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "Resolved: CSS Class Prefix Selector",
+      "link": "https://css-tricks.com/resolved-css-class-prefix-selector/",
+      "pubDate": "2026-08-21T15:13:03.000Z",
+      "description": "A newly resolved proposal would allow us to select classes that are a prefix for variations with a wildcard, like .prefix-*. Resolved: CSS Class Prefix Selector originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "CSS Navigation Matching, Early Days",
+      "link": "https://css-tricks.com/css-navigation-matching-early-days/",
+      "pubDate": "2026-08-19T14:44:41.000Z",
+      "description": "Apply a style when someone navigates from one specific page to another. The idea being it'd make the sources for cross-document view transitions declarative in CSS rather than managing that stuff in JavaScript. CSS Navigation Matching, Early Days originally handwritten and published with love on CSS",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "WordPress.com Student Plan",
+      "link": "https://css-tricks.com/wordpress-student-plan/",
+      "pubDate": "2026-08-19T08:50:00.000Z",
+      "description": "As someone who teaches beginning web development, I find that building a WordPress site makes for a great final project. Hosting those projects has always been a roadblock though. WordPress.com Student Plan originally handwritten and published with love on CSS-Tricks. You should really get the newsl",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Dark mode toggles: two states are enough",
+      "link": "https://css-tricks.com/dark-mode-toggles-two-states-are-enough/",
+      "pubDate": "2026-08-17T14:15:50.000Z",
+      "description": "Lea's pushing back on light/dark mode implementations that display three state options for visitors: light, dark, and system. Dark mode toggles: two states are enough originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     }
   ]
 }
