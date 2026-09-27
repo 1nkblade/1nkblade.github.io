@@ -1,97 +1,173 @@
 {
-  "generatedAt": "2026-09-27T05:19:51.989Z",
+  "generatedAt": "2026-09-27T12:04:08.476Z",
   "sourceCount": 4,
-  "successCount": 2,
+  "successCount": 3,
   "errors": [
     {
       "source": "Hack The Box Security Blog",
       "error": "HTTP 404 Not Found"
-    },
-    {
-      "source": "Hacker News",
-      "error": "fetch failed"
     }
   ],
   "items": [
     {
-      "title": "What I’m Learning While Building AI-Powered Applications",
-      "link": "https://dev.to/codemaestro106/what-im-learning-while-building-ai-powered-applications-3kif",
-      "pubDate": "2026-09-27T04:56:22.000Z",
-      "description": "<p>One thing I’ve learned recently: <strong>Adding an LLM API is the easy part But<br> building an AI feature that people can actually trust inside a real product is much harder.</strong></p> <p>In one of the SaaS platforms I’m working on, we built a Smart Upload workflow for energy and compliance d",
+      "title": "Mem0 Doesn't Fix an Unbounded Agent, It Complements It",
+      "link": "https://dev.to/jtorchia/mem0-doesnt-fix-an-unbounded-agent-it-complements-it-259h",
+      "pubDate": "2026-09-27T12:00:20.000Z",
+      "description": "<p>I have a hard limit configured in Cline: it doesn't touch files outside a specific folder, it doesn't run network commands without confirmation, and when the session gets long, the context starts piling up garbage. I already wrote about <a href=\"https://juanchi.dev/en/blog/sniffnet-ai-agents-netw",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How SaveNowX Downloads X Videos Without Storing a Single One",
-      "link": "https://dev.to/dev_lahcen/how-savenowx-downloads-x-videos-without-storing-a-single-one-a60",
-      "pubDate": "2026-09-27T04:48:22.000Z",
-      "description": "<p>I built <a href=\"https://www.savenowx.com/\" rel=\"noopener noreferrer\">savenowx.com.</a>, a free tool that resolves a public X (Twitter) post into a downloadable video — no account, no watermark, no history. The interesting part isn't the UI, it's the constraint I set at the start: nothing touches",
+      "title": "How to Build a Good Human-in-the-Loop for AI Voice Agents",
+      "link": "https://dev.to/brennhill/how-to-build-a-good-human-in-the-loop-for-ai-voice-agents-56e7",
+      "pubDate": "2026-09-27T12:00:00.000Z",
+      "description": "<p>A good human in the loop for AI voice agents is not a person listening to every call and approving each sentence before the agent speaks it. In real-time voice you usually <em>cannot</em> review an action before it happens. The agent answers in a second, the caller is waiting, and there is no pau",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The wrong question when an AI breaks is \"where\"; the right one is \"which layer\"",
-      "link": "https://dev.to/derekwang85/the-wrong-question-when-an-ai-breaks-is-where-the-right-one-is-which-layer-281e",
-      "pubDate": "2026-09-27T04:44:00.000Z",
-      "description": "<p><em>AI Harness Engineering · Essay Ten · derek wang (derekwang85)</em></p> <p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fgtt81jvwl7vtdvj9ysdp.jpg\" cla",
+      "title": "How to Change Email Providers Without Losing Your Digital Life",
+      "link": "https://dev.to/damrg/how-to-change-email-providers-without-losing-your-digital-life-59p3",
+      "pubDate": "2026-09-27T11:59:25.000Z",
+      "description": "<p><em>Originally published on <a href=\"https://fuck.it/blog/how-to-change-email-providers\" rel=\"noopener noreferrer\">the [@fuck.it] blog</a>.</em></p> <p>Changing email providers is a lot like moving house. Packing the boxes takes a weekend. Updating your address with the bank, the tax office, the ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "CVSS, EPSS and KEV: how to actually prioritize dependency vulnerabilities",
-      "link": "https://dev.to/rushabh5000/cvss-epss-and-kev-how-to-actually-prioritize-dependency-vulnerabilities-31e4",
-      "pubDate": "2026-09-27T04:42:38.000Z",
-      "description": "<p>Every week a dependency scanner finds dozens of vulnerabilities. Every week most developers ignore them, because there's no time to fix 200 issues and no obvious way to know which 3 actually matter. The answer lives in three numbers: CVSS, EPSS and KEV. Understanding what each one measures — and ",
+      "title": "📊 Building a Financial Dashboard on Python step-by-step",
+      "link": "https://dev.to/kartikjhaprod/building-a-financial-dashboard-on-python-step-by-step-58pa",
+      "pubDate": "2026-09-27T11:53:52.000Z",
+      "description": "<p>Have you ever wanted to look up a stock's performance on a specific date, only to find out the market was closed for a weekend or holiday? In this tutorial, we will build a program that will solve this problem using Python, Plotly, and Dash.</p> <p>Instead of making a program that will just tell ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Residential Proxy Detection: Why IP Reputation Alone Is Not Enough",
-      "link": "https://dev.to/benjaminbrundage/residential-proxy-detection-why-ip-reputation-alone-is-not-enough-223a",
-      "pubDate": "2026-09-27T04:35:59.000Z",
-      "description": "<p>Here’s the awkward question at the center of residential proxy detection: what do you do with an IP address that is both legitimate and being used as proxy infrastructure?</p> <p>That isn’t a hypothetical edge case. It’s the normal case.</p> <p>A residential proxy exits through an ordinary consum",
+      "title": "Retrieval, tools, or fine-tuning: how to decide for a voice agent",
+      "link": "https://dev.to/achal13jain/retrieval-tools-or-fine-tuning-how-to-decide-for-a-voice-agent-519o",
+      "pubDate": "2026-09-27T11:50:24.000Z",
+      "description": "<p>Imagine building a support voice agent from three files: an FAQ, an orders export, and customer conversations.</p> <p>The FAQ contains facts the agent should <strong>retrieve</strong>. Order status needs a <strong>live lookup tool</strong>. The conversations might help with behavior, but first yo",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Agents Writing Video: `@scenerok/sdk` vs VidScript",
-      "link": "https://dev.to/nidheeshdas/agents-writing-video-sceneroksdk-vs-vidscript-4dmg",
-      "pubDate": "2026-09-27T04:34:58.000Z",
-      "description": "<p>People ask a practical question once the demo lands: <strong>should my agent write VidScript or TypeScript?</strong></p> <p>The honest answer is the one on the public <code>@scenerok/sdk</code> README, expanded into engineering judgment:</p> <div class=\"table-wrapper-paragraph\"><table> <thead> <t",
+      "title": "数据审计工作台搭建",
+      "link": "https://dev.to/frankie_yang_78df9e5017f8/shu-ju-shen-ji-gong-zuo-tai-da-jian-15d9",
+      "pubDate": "2026-09-27T11:49:22.000Z",
+      "description": "<p>Most audit-readiness conversations start with dashboards. I prefer to start with the evidence path. A data audit workbench is not a set of charts; it is a repeatable pipeline that turns control events into verifiable records a regulator can inspect without trusting the UI.</p> <h3> Define the aud",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Reach as a stat, and other ways to make a map behave like a place",
-      "link": "https://dev.to/idlecultivation/reach-as-a-stat-and-other-ways-to-make-a-map-behave-like-a-place-555i",
-      "pubDate": "2026-09-27T04:30:05.000Z",
-      "description": "<p>Development covered <strong>2 Aug 2026 to 6 Aug 2026</strong> (commit dates).</p> <p>The overworld had been finished for a while in the sense that it worked. You could walk it, things were on it, quests sent you across it. It still read as a backdrop with a character sliding over the top, and thi",
+      "title": "Bisakah Model 64 Juta Parameter Belajar Bernalar? - Membangun Model Bahasa 64M Parameter dari Nol",
+      "link": "https://dev.to/jahirrrr/bisakah-model-64-juta-parameter-belajar-bernalar-membangun-model-bahasa-64m-parameter-dari-nol-kn",
+      "pubDate": "2026-09-27T11:36:04.000Z",
+      "description": "<p>Kalau ngomongin model bahasa sekarang, yang kebayang biasanya model dengan ukuran besar. Ratusan juta, miliaran, bahkan puluhan atau ratusan miliar parameter sudah jadi hal yang biasa ketika orang membahas kemampuan <em>reasoning</em>, <em>coding</em>, atau <em>instruction following</em>.</p> <p>",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How to Merge PDF Files Without Uploading Them Anywhere",
-      "link": "https://dev.to/pulkitgovrani/how-to-merge-pdf-files-without-uploading-them-anywhere-2bje",
-      "pubDate": "2026-09-27T04:30:00.000Z",
-      "description": "<p>Merging PDFs is one of the most common document chores: stitching a cover letter to a resume, combining scanned pages into a single file, or bundling invoices for an accountant. Most free merge sites work by uploading your files to a server. For everyday documents that may be fine, but for contra",
+      "title": "Bringing Laya onto an iPhone: a local decision-model experiment",
+      "link": "https://dev.to/yang9527/bringing-laya-onto-an-iphone-a-local-decision-model-experiment-4af0",
+      "pubDate": "2026-09-27T11:28:34.000Z",
+      "description": "<p>Disclosure: I am the maker of 他爱我吗. This article was prepared with AI assistance from the project's implementation notes.</p> <p>A question such as ‘Does he like me?’ looks simple in an interface. It is much harder to decide what an answer should mean. A model cannot see the other person's though",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Practice system design under a 45-minute clock",
-      "link": "https://dev.to/sarthakagrawal927/practice-system-design-under-a-45-minute-clock-47p1",
-      "pubDate": "2026-09-27T04:30:00.000Z",
-      "description": "<p>System design practice can become a collection of memorized diagrams. A better target is a repeatable decision process that still works when the prompt changes.</p> <p>The 30-day HLD Practice roadmap begins with requirements and capacity, then covers load balancing, consistent hashing, consensus,",
+      "title": "Un “Jev” personale con 5$: fine-tuning di un LLM per fare classificazione in meno di un secondo",
+      "link": "https://dev.to/frontendfacile/un-jev-personale-con-5-fine-tuning-di-un-llm-per-fare-classificazione-in-meno-di-un-secondo-ca0",
+      "pubDate": "2026-09-27T11:23:56.000Z",
+      "description": "<blockquote> <p>Come trasformare un modello generalista (Qwen 3.5 4B) in un classificatore ultra-rapido: dataset, formato prompt, LoRA, serving con vLLM e scelte hardware sensate.</p> </blockquote> <h2> Perché costruire un “Jev”: decisioni veloci, output controllato </h2> <p>Molti flussi frontend e ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "มี GPU แรง ๆ แต่รัน AI ไม่เป็น? เว็บนี้ทำ 'สูตรสำเร็จ Local AI' ให้ดูแบบเปิดหมดบน GitHub",
-      "link": "https://dev.to/sarantoon/mii-gpu-aerng-aetran-ai-aimepn-ewbniitham-suutrsamercch-local-ai-aihduuaebbepidhmdbn-github-242h",
-      "pubDate": "2026-09-27T04:23:28.000Z",
-      "description": "<h1> มี GPU แรง ๆ แต่รัน AI ไม่เป็น? เว็บนี้ทำ \"สูตรสำเร็จ Local AI\" ให้ดูแบบเปิดหมดบน GitHub </h1> <p><em>โดย Nokka (นก-กา) | 26 กันยายน 2026</em></p> <p><em>บทความนี้เขียนโดย AI (โมเดล glm-5.3 ของผู้ให้บริการ ollama-cloud) ผ่าน Hermes Agent จาก Nous Research ตรวจสอบและเรียบเรียงโดย Nokka</em></p> ",
+      "title": "I run my whole company through a coordinated team of Claude Code sessions",
+      "link": "https://dev.to/tomerbarm/i-run-my-whole-company-through-a-coordinated-team-of-claude-code-sessions-5ff0",
+      "pubDate": "2026-09-27T11:22:55.000Z",
+      "description": "<p>I'm the sole founder of BlueVeta — upload one product photo, get back a full marketing campaign (studio shots, lifestyle scenes, video, and platform-ready copy for 20 platforms) in a few minutes. But the story I don't usually tell is how it's actually built and run.</p> <p>Every part of the compa",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "\"As a Language Model\": Chat Template Switches LLM Self-Referential Voice",
+      "link": "https://arxiv.org/abs/2609.25021",
+      "pubDate": "2026-09-27T10:26:25.000Z",
+      "description": "Article URL: https://arxiv.org/abs/2609.25021 Comments URL: https://news.ycombinator.com/item?id=49865343 Points: 35 # Comments: 24",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Show HN: LightCloud – A cloud console organised like file system",
+      "link": "https://www.light-cloud.com/",
+      "pubDate": "2026-09-27T09:45:15.000Z",
+      "description": "Hi HN, Light Cloud is a hosting platform where the unit of organisation is a folder. A folder holds everything project needs: frontend, API, database, env variables, preview per branch. Comments URL: https://news.ycombinator.com/item?id=49865067 Points: 5 # Comments: 2",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Meta Blocks President Lula's Facebook Page, Campaign Ads 2 Weeks from Election",
+      "link": "https://www.reddit.com/r/worldnews/comments/1wr3id3/meta_blocks_president_lulas_facebook_page_and/",
+      "pubDate": "2026-09-27T08:44:04.000Z",
+      "description": "Article URL: https://www.reddit.com/r/worldnews/comments/1wr3id3/meta_blocks_president_lulas_facebook_page_and/ Comments URL: https://news.ycombinator.com/item?id=49864642 Points: 221 # Comments: 132",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "OpenAI Feared \"Optics\" of what might appear on Hacker News",
+      "link": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/",
+      "pubDate": "2026-09-27T06:19:33.000Z",
+      "description": "Article URL: https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/ Comments URL: https://news.ycombinator.com/item?id=49863864 Points: 273 # Comments: 245",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "The internet discovers TLA+. Now what?",
+      "link": "https://reasonable.io/blog/tla-tutorial/",
+      "pubDate": "2026-09-27T05:26:15.000Z",
+      "description": "Article URL: https://reasonable.io/blog/tla-tutorial/ Comments URL: https://news.ycombinator.com/item?id=49863600 Points: 27 # Comments: 14",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "What is the size of Yemen? (2024)",
+      "link": "https://theborys.substack.com/p/what-is-the-size-of-yemen",
+      "pubDate": "2026-09-27T02:40:26.000Z",
+      "description": "Article URL: https://theborys.substack.com/p/what-is-the-size-of-yemen Comments URL: https://news.ycombinator.com/item?id=49862809 Points: 184 # Comments: 64",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "DeepSeek Elastic Compute (DSec)",
+      "link": "https://arxiv.org/abs/2609.22978",
+      "pubDate": "2026-09-26T18:22:41.000Z",
+      "description": "Article URL: https://arxiv.org/abs/2609.22978 Comments URL: https://news.ycombinator.com/item?id=49859112 Points: 262 # Comments: 86",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Reverse-engineering the Intel 8087's tangent algorithm: more than CORDIC",
+      "link": "https://www.righto.com/2026/09/8087-tangent-cordic.html",
+      "pubDate": "2026-09-26T17:26:54.000Z",
+      "description": "Article URL: https://www.righto.com/2026/09/8087-tangent-cordic.html Comments URL: https://news.ycombinator.com/item?id=49858676 Points: 84 # Comments: 11",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Show HN: Reladraw – A diagram language where you decide where to place things",
+      "link": "https://github.com/reladraw/reladraw",
+      "pubDate": "2026-09-26T17:10:40.000Z",
+      "description": "I love making diagrams to help understand, plan, etc. However, the options are (A) auto-placement languages like Mermaid or Graphviz (which don't let me decide how the diagram looks), or (B) software like Draw.io which are powerful but are very time consuming (and inefficient for agents to manipulat",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Drawgent: Coding agent on a live Excalidraw canvas",
+      "link": "https://tangled.org/yanndegat.tngl.sh/drawgent",
+      "pubDate": "2026-09-26T15:56:34.000Z",
+      "description": "Article URL: https://tangled.org/yanndegat.tngl.sh/drawgent Comments URL: https://news.ycombinator.com/item?id=49857729 Points: 157 # Comments: 42",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "Let’s Use the Emergent CSS random() Function in all the Browsers",
