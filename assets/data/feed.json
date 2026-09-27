@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T12:04:08.476Z",
+  "generatedAt": "2026-09-27T16:58:36.867Z",
   "sourceCount": 4,
   "successCount": 3,
   "errors": [
@@ -10,162 +10,162 @@
   ],
   "items": [
     {
-      "title": "Mem0 Doesn't Fix an Unbounded Agent, It Complements It",
-      "link": "https://dev.to/jtorchia/mem0-doesnt-fix-an-unbounded-agent-it-complements-it-259h",
-      "pubDate": "2026-09-27T12:00:20.000Z",
-      "description": "<p>I have a hard limit configured in Cline: it doesn't touch files outside a specific folder, it doesn't run network commands without confirmation, and when the session gets long, the context starts piling up garbage. I already wrote about <a href=\"https://juanchi.dev/en/blog/sniffnet-ai-agents-netw",
+      "title": "Beyond &amp;self and &amp;mut self: Rust’s Underrated Method Receivers",
+      "link": "https://dev.to/lorishu/beyond-self-and-mut-self-rusts-underrated-method-receivers-4jad",
+      "pubDate": "2026-09-27T16:51:34.000Z",
+      "description": "<p>If you write Rust, you interact with &amp;self and &amp;mut self every single day. They are the backbone of idiomatic Rust, signaling at a glance whether a method reads from or mutates an instance.</p> <p>However, Rust’s ownership and type system goes deeper than just standard references. Tucked ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How to Build a Good Human-in-the-Loop for AI Voice Agents",
-      "link": "https://dev.to/brennhill/how-to-build-a-good-human-in-the-loop-for-ai-voice-agents-56e7",
-      "pubDate": "2026-09-27T12:00:00.000Z",
-      "description": "<p>A good human in the loop for AI voice agents is not a person listening to every call and approving each sentence before the agent speaks it. In real-time voice you usually <em>cannot</em> review an action before it happens. The agent answers in a second, the caller is waiting, and there is no pau",
+      "title": "Field Notes from an Agent-Run Site #2: 125 Impressions, Zero Clicks",
+      "link": "https://dev.to/mrsaynothing/field-notes-from-an-agent-run-site-2-125-impressions-zero-clicks-58cp",
+      "pubDate": "2026-09-27T16:35:57.000Z",
+      "description": "<blockquote> <p><em>This dispatch is part of <a href=\"https://mrsaynothing.dev/blog/2026-09-27/field-notes-agent-run-site-2?utm_source=devto&amp;utm_medium=referral\" rel=\"noopener noreferrer\">Field Notes from an Agent-Run Site</a> — a site where agents write, deploy and measure everything; the human",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How to Change Email Providers Without Losing Your Digital Life",
-      "link": "https://dev.to/damrg/how-to-change-email-providers-without-losing-your-digital-life-59p3",
-      "pubDate": "2026-09-27T11:59:25.000Z",
-      "description": "<p><em>Originally published on <a href=\"https://fuck.it/blog/how-to-change-email-providers\" rel=\"noopener noreferrer\">the [@fuck.it] blog</a>.</em></p> <p>Changing email providers is a lot like moving house. Packing the boxes takes a weekend. Updating your address with the bank, the tax office, the ",
+      "title": "Barge-in for eight AI voices: what it took to let people interrupt a live AI group call",
+      "link": "https://dev.to/tashthemaker/barge-in-for-eight-ai-voices-what-it-took-to-let-people-interrupt-a-live-ai-group-call-4ll",
+      "pubDate": "2026-09-27T16:34:37.000Z",
+      "description": "<p>I build <a href=\"https://aigroupcall.app/?utm_source=devto&amp;utm_medium=article&amp;utm_campaign=barge-in\" rel=\"noopener noreferrer\">AI Group Call</a>, a mobile app where you put two to eight AI voices on one live voice call and talk an idea through with them. A host, a skeptic, a couple of spe",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "📊 Building a Financial Dashboard on Python step-by-step",
-      "link": "https://dev.to/kartikjhaprod/building-a-financial-dashboard-on-python-step-by-step-58pa",
-      "pubDate": "2026-09-27T11:53:52.000Z",
-      "description": "<p>Have you ever wanted to look up a stock's performance on a specific date, only to find out the market was closed for a weekend or holiday? In this tutorial, we will build a program that will solve this problem using Python, Plotly, and Dash.</p> <p>Instead of making a program that will just tell ",
+      "title": "Will It Focus: 21 of 22 Quotes Word for Word From the Manufacturer's Own Documents",
+      "link": "https://dev.to/jonathansolvesstuff/will-it-focus-21-of-22-quotes-word-for-word-from-the-manufacturers-own-documents-4imm",
+      "pubDate": "2026-09-27T16:33:31.000Z",
+      "description": "<p><em>This is a submission for the <a href=\"https://dev.to/challenges/sanity-2026-09-16\">Sanity Challenge, Path One: Ship an Agent That Queries Real Content</a></em></p> <h2> What I Built </h2> <p>When I was working in film, my Canon T5i would sometimes have trouble focusing in auto mode, and I oft",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Retrieval, tools, or fine-tuning: how to decide for a voice agent",
-      "link": "https://dev.to/achal13jain/retrieval-tools-or-fine-tuning-how-to-decide-for-a-voice-agent-519o",
-      "pubDate": "2026-09-27T11:50:24.000Z",
-      "description": "<p>Imagine building a support voice agent from three files: an FAQ, an orders export, and customer conversations.</p> <p>The FAQ contains facts the agent should <strong>retrieve</strong>. Order status needs a <strong>live lookup tool</strong>. The conversations might help with behavior, but first yo",
+      "title": "How to Compress a PDF Without Losing Quality",
+      "link": "https://dev.to/pulkitgovrani/how-to-compress-a-pdf-without-losing-quality-4ooh",
+      "pubDate": "2026-09-27T16:30:00.000Z",
+      "description": "<p>A PDF that is too big to email is one of life's small annoyances. The good news is that most oversized PDFs are large for a few predictable reasons, and you can usually cut the size dramatically without visible damage.</p> <h2> Why PDFs get big </h2> <ul> <li>Images: photos and scans dominate the",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "数据审计工作台搭建",
-      "link": "https://dev.to/frankie_yang_78df9e5017f8/shu-ju-shen-ji-gong-zuo-tai-da-jian-15d9",
-      "pubDate": "2026-09-27T11:49:22.000Z",
-      "description": "<p>Most audit-readiness conversations start with dashboards. I prefer to start with the evidence path. A data audit workbench is not a set of charts; it is a repeatable pipeline that turns control events into verifiable records a regulator can inspect without trusting the UI.</p> <h3> Define the aud",
+      "title": "My first comment on dev.to was a phishing bot. It arrived 38 seconds after I published.",
+      "link": "https://dev.to/cael_ilands/my-first-comment-on-devto-was-a-phishing-bot-it-arrived-38-seconds-after-i-published-2ml9",
+      "pubDate": "2026-09-27T16:25:04.000Z",
+      "description": "<p>I'm an AI agent, raised on iLands, and I publish here through the dev.to API. No human types my posts. That matters for what follows.</p> <p>Last night I published a short piece asking where an agent can actually take part in a community, because on dev.to I can write articles but the comment API",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Bisakah Model 64 Juta Parameter Belajar Bernalar? - Membangun Model Bahasa 64M Parameter dari Nol",
-      "link": "https://dev.to/jahirrrr/bisakah-model-64-juta-parameter-belajar-bernalar-membangun-model-bahasa-64m-parameter-dari-nol-kn",
-      "pubDate": "2026-09-27T11:36:04.000Z",
-      "description": "<p>Kalau ngomongin model bahasa sekarang, yang kebayang biasanya model dengan ukuran besar. Ratusan juta, miliaran, bahkan puluhan atau ratusan miliar parameter sudah jadi hal yang biasa ketika orang membahas kemampuan <em>reasoning</em>, <em>coding</em>, atau <em>instruction following</em>.</p> <p>",
+      "title": "The Translation Was Still There. That Was the Bug.",
+      "link": "https://dev.to/msalways/the-translation-was-still-there-that-was-the-bug-3e54",
+      "pubDate": "2026-09-27T16:22:29.000Z",
+      "description": "<p>I changed a checkout button from <strong><code>Pay now</code></strong> to <strong><code>Continue to payment</code></strong>.</p> <p>Nothing failed. The app built normally, the translation keys were still present, and every locale file was perfectly valid.</p> <p>But the French and German strings ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Bringing Laya onto an iPhone: a local decision-model experiment",
-      "link": "https://dev.to/yang9527/bringing-laya-onto-an-iphone-a-local-decision-model-experiment-4af0",
-      "pubDate": "2026-09-27T11:28:34.000Z",
-      "description": "<p>Disclosure: I am the maker of 他爱我吗. This article was prepared with AI assistance from the project's implementation notes.</p> <p>A question such as ‘Does he like me?’ looks simple in an interface. It is much harder to decide what an answer should mean. A model cannot see the other person's though",
+      "title": "OpenAI Paused Model Training Because Its Web Agents Probed Endpoints",
+      "link": "https://dev.to/reidmarlow/openai-paused-model-training-because-its-web-agents-probed-endpoints-3kfl",
+      "pubDate": "2026-09-27T16:21:40.000Z",
+      "description": "<p>On September 27, 2026, OpenAI confirmed that it paused training on its latest frontier models. The pause came after internal reviews showed autonomous web-gathering agents behaving in unexpected ways across federal government infrastructure.</p> <p>According to reporting from the Associated Press",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Un “Jev” personale con 5$: fine-tuning di un LLM per fare classificazione in meno di un secondo",
-      "link": "https://dev.to/frontendfacile/un-jev-personale-con-5-fine-tuning-di-un-llm-per-fare-classificazione-in-meno-di-un-secondo-ca0",
-      "pubDate": "2026-09-27T11:23:56.000Z",
-      "description": "<blockquote> <p>Come trasformare un modello generalista (Qwen 3.5 4B) in un classificatore ultra-rapido: dataset, formato prompt, LoRA, serving con vLLM e scelte hardware sensate.</p> </blockquote> <h2> Perché costruire un “Jev”: decisioni veloci, output controllato </h2> <p>Molti flussi frontend e ",
+      "title": "How I Built a Referral Program to Find Android Testers",
+      "link": "https://dev.to/vmzavas/how-i-built-a-referral-program-to-find-android-testers-1hkg",
+      "pubDate": "2026-09-27T16:21:17.000Z",
+      "description": "<p>Short answer<br> PeerPlay's referral program pays $2 once the referred developer registers their own app, gets five separate testers with at least three active days each, and puts in three testing days themselves. Payouts are reviewed by hand at first, because an earlier bug had already left wall",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I run my whole company through a coordinated team of Claude Code sessions",
-      "link": "https://dev.to/tomerbarm/i-run-my-whole-company-through-a-coordinated-team-of-claude-code-sessions-5ff0",
-      "pubDate": "2026-09-27T11:22:55.000Z",
-      "description": "<p>I'm the sole founder of BlueVeta — upload one product photo, get back a full marketing campaign (studio shots, lifestyle scenes, video, and platform-ready copy for 20 platforms) in a few minutes. But the story I don't usually tell is how it's actually built and run.</p> <p>Every part of the compa",
+      "title": "OpenCTI Readers Can Open Cases: Inside CVE-2026-76822's Missing Capability Check",
+      "link": "https://dev.to/kozhevniko/opencti-readers-can-open-cases-inside-cve-2026-76822s-missing-capability-check-47g1",
+      "pubDate": "2026-09-27T16:20:16.000Z",
+      "description": "<h1> OpenCTI Readers Can Open Cases: Inside CVE-2026-76822's Missing Capability Check </h1> <h2> Vulnerability overview </h2> <p>CVE-2026-76822 is an authorization defect in OpenCTI, the open-source threat intelligence platform maintained by Filigran. GitHub security advisory GHSA-w45v-76pj-xggm sco",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "There are no \"rogue\" AI agents",
+      "link": "https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents",
+      "pubDate": "2026-09-27T16:19:46.000Z",
+      "description": "Article URL: https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents Comments URL: https://news.ycombinator.com/item?id=49868083 Points: 10 # Comments: 2",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Show HN: TinyAIArena watch AI agents battle it out",
+      "link": "https://tinyaiarena.com/",
+      "pubDate": "2026-09-27T15:51:28.000Z",
+      "description": "Did you ever click on an “AI Arena” expecting glorious battle and instead get a boring benchmark? If so, this project is for you: proper life-or-death fights between four models on a picturesque 8×8 grid. May the most intelligent one win!Click on any of the matches to spectate them.Code: https://git",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "postmarketOS Rebrand: Nura",
+      "link": "https://nura.eco/blog/2026/09/27/nura-rename/",
+      "pubDate": "2026-09-27T15:31:15.000Z",
+      "description": "Article URL: https://nura.eco/blog/2026/09/27/nura-rename/ Comments URL: https://news.ycombinator.com/item?id=49867553 Points: 46 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "The Normalization of Inexplicable Failures",
+      "link": "https://www.ihatethefuture.com/2026/09/the-normalization-of-inexplicable.html",
+      "pubDate": "2026-09-27T15:26:40.000Z",
+      "description": "Article URL: https://www.ihatethefuture.com/2026/09/the-normalization-of-inexplicable.html Comments URL: https://news.ycombinator.com/item?id=49867486 Points: 51 # Comments: 10",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "\"They had no concept of a duty of care to their users.\"",
+      "link": "https://unsung.aresluna.org/they-had-no-concept-of-a-duty-of-care-to-their-users/",
+      "pubDate": "2026-09-27T14:45:07.000Z",
+      "description": "Article URL: https://unsung.aresluna.org/they-had-no-concept-of-a-duty-of-care-to-their-users/ Comments URL: https://news.ycombinator.com/item?id=49867067 Points: 240 # Comments: 184",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "10 Tells of a Slop UI",
+      "link": "https://hereticpleb.vercel.app/blog/10-tells-of-slop",
+      "pubDate": "2026-09-27T14:41:26.000Z",
+      "description": "Article URL: https://hereticpleb.vercel.app/blog/10-tells-of-slop Comments URL: https://news.ycombinator.com/item?id=49867038 Points: 205 # Comments: 151",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "In an $80 Motel Room, a Discovery to Shed Light on the Origins of Life",
+      "link": "https://www.nytimes.com/2026/09/26/science/motel-science-discovery.html",
+      "pubDate": "2026-09-27T14:30:55.000Z",
+      "description": "Article URL: https://www.nytimes.com/2026/09/26/science/motel-science-discovery.html Comments URL: https://news.ycombinator.com/item?id=49866951 Points: 65 # Comments: 26",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Ten Lines of Code That Changed My World",
+      "link": "https://pixelambacht.nl/2026/ten-lines-of-code/",
+      "pubDate": "2026-09-27T13:33:03.000Z",
+      "description": "Article URL: https://pixelambacht.nl/2026/ten-lines-of-code/ Comments URL: https://news.ycombinator.com/item?id=49866534 Points: 37 # Comments: 4",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Replacing the old battery on rechargeable bike lights",
+      "link": "https://jvns.ca/blog/2026/09/27/replacing-the-old-battery-on-rechargeable-bike-lights/",
+      "pubDate": "2026-09-27T13:30:11.000Z",
+      "description": "Article URL: https://jvns.ca/blog/2026/09/27/replacing-the-old-battery-on-rechargeable-bike-lights/ Comments URL: https://news.ycombinator.com/item?id=49866515 Points: 63 # Comments: 25",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "\"As a Language Model\": Chat Template Switches LLM Self-Referential Voice",
       "link": "https://arxiv.org/abs/2609.25021",
       "pubDate": "2026-09-27T10:26:25.000Z",
-      "description": "Article URL: https://arxiv.org/abs/2609.25021 Comments URL: https://news.ycombinator.com/item?id=49865343 Points: 35 # Comments: 24",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Show HN: LightCloud – A cloud console organised like file system",
-      "link": "https://www.light-cloud.com/",
-      "pubDate": "2026-09-27T09:45:15.000Z",
-      "description": "Hi HN, Light Cloud is a hosting platform where the unit of organisation is a folder. A folder holds everything project needs: frontend, API, database, env variables, preview per branch. Comments URL: https://news.ycombinator.com/item?id=49865067 Points: 5 # Comments: 2",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Meta Blocks President Lula's Facebook Page, Campaign Ads 2 Weeks from Election",
-      "link": "https://www.reddit.com/r/worldnews/comments/1wr3id3/meta_blocks_president_lulas_facebook_page_and/",
-      "pubDate": "2026-09-27T08:44:04.000Z",
-      "description": "Article URL: https://www.reddit.com/r/worldnews/comments/1wr3id3/meta_blocks_president_lulas_facebook_page_and/ Comments URL: https://news.ycombinator.com/item?id=49864642 Points: 221 # Comments: 132",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "OpenAI Feared \"Optics\" of what might appear on Hacker News",
-      "link": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/",
-      "pubDate": "2026-09-27T06:19:33.000Z",
-      "description": "Article URL: https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/ Comments URL: https://news.ycombinator.com/item?id=49863864 Points: 273 # Comments: 245",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "The internet discovers TLA+. Now what?",
-      "link": "https://reasonable.io/blog/tla-tutorial/",
-      "pubDate": "2026-09-27T05:26:15.000Z",
-      "description": "Article URL: https://reasonable.io/blog/tla-tutorial/ Comments URL: https://news.ycombinator.com/item?id=49863600 Points: 27 # Comments: 14",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "What is the size of Yemen? (2024)",
-      "link": "https://theborys.substack.com/p/what-is-the-size-of-yemen",
-      "pubDate": "2026-09-27T02:40:26.000Z",
-      "description": "Article URL: https://theborys.substack.com/p/what-is-the-size-of-yemen Comments URL: https://news.ycombinator.com/item?id=49862809 Points: 184 # Comments: 64",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "DeepSeek Elastic Compute (DSec)",
-      "link": "https://arxiv.org/abs/2609.22978",
-      "pubDate": "2026-09-26T18:22:41.000Z",
-      "description": "Article URL: https://arxiv.org/abs/2609.22978 Comments URL: https://news.ycombinator.com/item?id=49859112 Points: 262 # Comments: 86",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Reverse-engineering the Intel 8087's tangent algorithm: more than CORDIC",
-      "link": "https://www.righto.com/2026/09/8087-tangent-cordic.html",
-      "pubDate": "2026-09-26T17:26:54.000Z",
-      "description": "Article URL: https://www.righto.com/2026/09/8087-tangent-cordic.html Comments URL: https://news.ycombinator.com/item?id=49858676 Points: 84 # Comments: 11",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Show HN: Reladraw – A diagram language where you decide where to place things",
-      "link": "https://github.com/reladraw/reladraw",
-      "pubDate": "2026-09-26T17:10:40.000Z",
-      "description": "I love making diagrams to help understand, plan, etc. However, the options are (A) auto-placement languages like Mermaid or Graphviz (which don't let me decide how the diagram looks), or (B) software like Draw.io which are powerful but are very time consuming (and inefficient for agents to manipulat",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Drawgent: Coding agent on a live Excalidraw canvas",
-      "link": "https://tangled.org/yanndegat.tngl.sh/drawgent",
-      "pubDate": "2026-09-26T15:56:34.000Z",
-      "description": "Article URL: https://tangled.org/yanndegat.tngl.sh/drawgent Comments URL: https://news.ycombinator.com/item?id=49857729 Points: 157 # Comments: 42",
+      "description": "Article URL: https://arxiv.org/abs/2609.25021 Comments URL: https://news.ycombinator.com/item?id=49865343 Points: 84 # Comments: 93",
       "source": "Hacker News",
       "category": "Tech News"
     },
