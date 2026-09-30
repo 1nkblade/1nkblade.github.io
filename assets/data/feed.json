@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T22:16:01.302Z",
+  "generatedAt": "2026-09-30T05:33:39.056Z",
   "sourceCount": 4,
   "successCount": 3,
   "errors": [
@@ -10,114 +10,154 @@
   ],
   "items": [
     {
-      "title": "EF Core vs Marten and Polecat",
-      "link": "https://dev.to/ondej_podhorny/ef-core-vs-marten-and-polecat-1k9m",
-      "pubDate": "2026-09-29T22:07:05.000Z",
-      "description": "<p>EF Core is the .NET default long after the thing you are saving has stopped being a set of rows. An order with its lines, discounts, and address is one decision. The template still models it as a join.</p> <p>I reach for EF Core when the model is rows: a line that is queried without its parent, a",
+      "title": "JavaScript Functions &amp; CRUD Operations on Objects 🚀",
+      "link": "https://dev.to/narasimma/javascript-functions-crud-operations-on-objects-5ejj",
+      "pubDate": "2026-09-30T05:24:37.000Z",
+      "description": "<p>As a beginner in JavaScript, I learned that functions help us organize and reuse code, while objects help us store related data.</p> <p>Let's understand both with simple examples.</p> <ol> <li>Types of Functions in JavaScript Normal Function</li> </ol> <p>A normal function is created using the fu",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "DocumentDB 0.109: $match $sort $limit $project covered by index scan",
-      "link": "https://dev.to/franckpachot/documentdb-0109-match-sort-limit-project-covered-by-index-scan-5hbf",
-      "pubDate": "2026-09-29T22:05:28.000Z",
-      "description": "<p>This should have been the first post of this series. A few months ago, I demonstrated (<a href=\"https://youtu.be/Hq9CFhxSqgw?si=g6CnDuv_PqPHRquc\" rel=\"noopener noreferrer\">video</a>) what I see as one of the key advantages of a document model: a compound index can support filtering, sorting, and ",
+      "title": "SRE: aislar fallos de email en Kubernetes",
+      "link": "https://dev.to/alexcarteruk/sre-aislar-fallos-de-email-en-kubernetes-3470",
+      "pubDate": "2026-09-30T05:23:44.000Z",
+      "description": "<h1> SRE: aislar fallos de email en Kubernetes </h1> <p>Cuando un smoke test de registro falla en Kubernetes, el primer impulso suele ser culpar al clúster. A veces el problema está en el proveedor de correo, en un buzón temporal que expiró o en un selector demasiado estricto. Otras veces sí es un <",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How I Built an AI Studio That Turns Manhwa Chapters into Narrated Recap Videos",
-      "link": "https://dev.to/aashish124/how-i-built-an-ai-studio-that-turns-manhwa-chapters-into-narrated-recap-videos-5enl",
-      "pubDate": "2026-09-29T22:02:41.000Z",
-      "description": "<p>If you've ever fallen down the rabbit hole of manhwa recap channels on YouTube — \"The Weakest Hunter Becomes the Strongest...\" — you know the format: dramatic narration over panning comic panels, 10 minutes per video, millions of views. I kept wondering: could that entire pipeline be automated, r",
+      "title": "The Day All Our AI Agents Stopped Working 💀",
+      "link": "https://dev.to/frederickpeal/the-day-all-our-ai-agents-stopped-working-1iia",
+      "pubDate": "2026-09-30T05:23:24.000Z",
+      "description": "<p><a href=\"https://dev.to/frederickpeal/el-dia-que-todos-nuestros-agentes-dejaron-de-funcionar-3b2f\">Spanish Version Here</a><br> <strong>September 24th.</strong></p> <p>Kanvas is right in the middle of a presentation.</p> <p>The tests from the day before? All successful.</p> <p>Our PO was happy wi",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Animated Icons Need a Motion Contract",
-      "link": "https://dev.to/svgicons/animated-icons-need-a-motion-contract-4bgm",
-      "pubDate": "2026-09-29T22:02:19.000Z",
-      "description": "<p><em>Trigger, duration, looping, accessibility and reduced motion should travel with the asset.</em></p> <p>An SVG icon is usually easy to describe.</p> <p>It has a name.<br><br> A size.<br><br> A viewBox.<br><br> A style.<br><br> Maybe a stroke width, a category and a license.</p> <p>But once tha",
+      "title": "We checked 100 WooCommerce stores for AI-shopping readiness",
+      "link": "https://dev.to/nick_t_eac6be7ee8e88de2f3/we-checked-100-woocommerce-stores-for-ai-shopping-readiness-4hjl",
+      "pubDate": "2026-09-30T05:23:03.000Z",
+      "description": "<p>AI shopping agents (ChatGPT's shopping answers, Perplexity, Google's AI results) decide which products to show<br> by reading what a store publishes. We make a free plugin that checks this from inside WordPress, and we<br> wanted to know how common each problem really is. So on 27 September 2026 ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "AI Visibility Metrics Need to Move Beyond Mentions, GEO Experiments Show",
-      "link": "https://dev.to/alifar/ai-visibility-metrics-need-to-move-beyond-mentions-geo-experiments-show-2032",
-      "pubDate": "2026-09-29T22:00:30.000Z",
-      "description": "<p>Brand mentions in AI answers are becoming a useful visibility signal, but they are not a business outcome on their own. Two <a href=\"https://scalevise.com/resources/geo/\" rel=\"noopener noreferrer\">Generative Engine Optimization, or GEO</a> experiments reported by Search Engine Land show why measu",
+      "title": "What Happens When Multiple Coding Agents Edit the Same Codebase?",
+      "link": "https://dev.to/baza17/what-happens-when-multiple-coding-agents-edit-the-same-codebase-4d1n",
+      "pubDate": "2026-09-30T05:21:44.000Z",
+      "description": "<p>Running two or more coding agents against the same codebase can work well when their tasks are clearly separated.</p> <p>It gets harder when agents run for longer periods, humans are mostly out of the loop, and multiple agents frequently read or edit the same large modules.</p> <p>At that point, ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Building an Open-Source Git Client with a Tool-Use AI Agent Loop (Electron + React + TS)",
-      "link": "https://dev.to/mirocow/building-an-open-source-git-client-with-a-tool-use-ai-agent-loop-electron-react-ts-3mo",
-      "pubDate": "2026-09-29T21:55:46.000Z",
-      "description": "<p>As developers, we interact with Git every single day. While terminal wizards swear by CLI, many of us prefer visual clients like SmartGit or GitKraken for complex operations like interactive rebasing or 3-pane conflict resolution.</p> <p>But I felt something was missing in modern Git clients: dee",
+      "title": "LangGraph Orchestration",
+      "link": "https://dev.to/rmatam/langgraph-orchestration-hoh",
+      "pubDate": "2026-09-30T05:20:51.000Z",
+      "description": "<p>LangGraph Orchestration<br> An In-Depth Technical Guide</p> <ol> <li>What Is LangGraph? LangGraph is a low-level orchestration framework and runtime, built by the LangChain team, for constructing stateful, long-running, multi-step AI agents and workflows. Where a simple LLM call or a linear chain",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "My Journey Building AI Agents, RAG Systems, and AI-Powered Applications",
-      "link": "https://dev.to/unni_ta_1bf8d143dac1c4a0/my-journey-building-ai-agents-rag-systems-and-ai-powered-applications-4424",
-      "pubDate": "2026-09-29T21:52:55.000Z",
-      "description": "<p>I have been building AI applications to understand what happens when an LLM has to do more than just answer a prompt.</p> <p>My projects cover research, agentic workflows, RAG, memory, automation, document processing, financial analysis, and AI-powered applications.</p> <p>Here are some of the pr",
+      "title": "DoH JSON from the browser: 5 ways Cloudflare and Google differ",
+      "link": "https://dev.to/kassol/doh-json-from-the-browser-5-ways-cloudflare-and-google-differ-4o1o",
+      "pubDate": "2026-09-30T05:20:27.000Z",
+      "description": "<p>Two public resolvers answer DNS queries over HTTPS in JSON: Cloudflare at <code>https://cloudflare-dns.com/dns-query</code> and Google at <code>https://dns.google/resolve</code>. Both send <code>access-control-allow-origin: *</code>, so a web page can call them with <code>fetch()</code>. The resp",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Step-by-Step Walkthrough: Building a 30-Day Autopilot Video Queue on Shadow",
-      "link": "https://dev.to/biffer_rowley_4cdbf203087/step-by-step-walkthrough-building-a-30-day-autopilot-video-queue-on-shadow-5056",
-      "pubDate": "2026-09-29T21:51:54.000Z",
-      "description": "<h1> Step-by-Step Walkthrough: Building a 30-Day Autopilot Video Queue on Shadow </h1> <h2> 1. The Core Bottleneck </h2> <p>Most creator pipelines die at the same junction: ideation, rendering, and scheduling all live in separate tools, glued together by manual prompting and copy-paste rituals. I ha",
+      "title": "Translating carrier scan text: all-or-nothing, or don't bother",
+      "link": "https://dev.to/support24htrack/translating-carrier-scan-text-all-or-nothing-or-dont-bother-4p54",
+      "pubDate": "2026-09-30T05:19:19.000Z",
+      "description": "<p>Every cross-border tracking UI eventually hits the same wall: a scan line arrives in a language your users cannot read, and you have to decide what to render.<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight plaintext\"><code>邮件离开处理中心【广州】 已妥投【US California Olivehurst 95961】",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "A 6-Case Single API Key Acceptance Harness for Compatible SaaS Chat",
-      "link": "https://dev.to/evanshepherd8274/a-6-case-single-api-key-acceptance-harness-for-compatible-saas-chat-19",
-      "pubDate": "2026-09-29T21:51:12.000Z",
-      "description": "<p>A single API key saves deployment work, but it does not make model behavior portable. For a SaaS that scores candidates against a job rubric, the useful unit of portability is a versioned scoring contract backed by six acceptance cases. My choice is one small adapter boundary, validation on every",
+      "title": "A sandboxed agent asked for one wider tier. The answer had to be a protocol, not a dialog box.",
+      "link": "https://dev.to/pm25coder/a-sandboxed-agent-asked-for-one-wider-tier-the-answer-had-to-be-a-protocol-not-a-dialog-box-3klb",
+      "pubDate": "2026-09-30T05:18:54.000Z",
+      "description": "<p>Our agent runs commands through three confinement tiers: <code>read-only</code>, <code>workspace-write</code>, <code>danger-full-access</code>. The tier a task is configured with is that session's default, and most commands never need anything else.</p> <p>But \"most\" is not \"all\". Sooner or later",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "E-commerce Error Tracking: A Practical React Frontend and FastAPI Backend Choice",
-      "link": "https://dev.to/tony_chen_2026/e-commerce-error-tracking-a-practical-react-frontend-and-fastapi-backend-choice-54df",
-      "pubDate": "2026-09-29T21:47:44.000Z",
-      "description": "<p>TL;DR: For a React storefront backed by FastAPI or Node.js, simple exception tracking is a practical choice when the incident question is narrow: which release, operation, and request failed? Keep a small, tested evidence envelope and correlate browser and API exceptions with a request ID. Choose",
+      "title": "Smart Contract Vulnerability Surface Analysis: Grove Finance",
+      "link": "https://dev.to/dannydoes_2abdf9c/smart-contract-vulnerability-surface-analysis-grove-finance-58cf",
+      "pubDate": "2026-09-30T05:18:14.000Z",
+      "description": "<h1> Smart Contract Vulnerability Surface Analysis: Grove Finance </h1> <p><strong>Target Protocol</strong>: Grove Finance (TVL: $1271.0M)</p> <h1> Grove Finance – Smart Contract Vulnerability Surface Analysis </h1> <p><strong>Prepared by:</strong> [Your Company / Team] – Senior DeFi Security Resear",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "Tesla takes on $30B in credit as it approaches unprofitability",
+      "link": "https://electrek.co/2026/09/29/tesla-takes-on-30-billion-in-credit-as-it-approaches-unprofitability/",
+      "pubDate": "2026-09-30T04:37:37.000Z",
+      "description": "Article URL: https://electrek.co/2026/09/29/tesla-takes-on-30-billion-in-credit-as-it-approaches-unprofitability/ Comments URL: https://news.ycombinator.com/item?id=49904408 Points: 15 # Comments: 4",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "LinkedIn Larpmaxxing",
+      "link": "https://hereticpleb.vercel.app/blog/linkedin-larpmaxxing/",
+      "pubDate": "2026-09-30T04:19:57.000Z",
+      "description": "Article URL: https://hereticpleb.vercel.app/blog/linkedin-larpmaxxing/ Comments URL: https://news.ycombinator.com/item?id=49904314 Points: 23 # Comments: 15",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "PSSA: A non-transformer language model written from scratch in Rust",
+      "link": "https://github.com/Sparticle62ops/pssa",
+      "pubDate": "2026-09-30T03:19:54.000Z",
+      "description": "Article URL: https://github.com/Sparticle62ops/pssa Comments URL: https://news.ycombinator.com/item?id=49903993 Points: 44 # Comments: 11",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "RSS Feeds for Last.fm",
+      "link": "https://lfm.xiffy.nl/",
+      "pubDate": "2026-09-30T03:00:05.000Z",
+      "description": "Article URL: https://lfm.xiffy.nl/ Comments URL: https://news.ycombinator.com/item?id=49903862 Points: 14 # Comments: 4",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Responsible Release of AI-Generated Mathematics",
+      "link": "https://agmai.org/general-sep29/",
+      "pubDate": "2026-09-30T02:36:12.000Z",
+      "description": "Article URL: https://agmai.org/general-sep29/ Comments URL: https://news.ycombinator.com/item?id=49903713 Points: 17 # Comments: 5",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Ballmer Peak",
+      "link": "https://en.wikipedia.org/wiki/Ballmer_Peak",
+      "pubDate": "2026-09-30T02:35:58.000Z",
+      "description": "Article URL: https://en.wikipedia.org/wiki/Ballmer_Peak Comments URL: https://news.ycombinator.com/item?id=49903712 Points: 25 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Strange Parodies of Atari 2600 Video Game Box Cover Art (2008)",
+      "link": "https://mightygodking.com/2008/04/21/fun-from-yesterday/",
+      "pubDate": "2026-09-30T01:47:14.000Z",
+      "description": "Article URL: https://mightygodking.com/2008/04/21/fun-from-yesterday/ Comments URL: https://news.ycombinator.com/item?id=49903383 Points: 25 # Comments: 20",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Livenerf: Has Opus 5.5 been nerfed yet?",
+      "link": "https://github.com/ninjahawk/livenerf",
+      "pubDate": "2026-09-29T22:36:14.000Z",
+      "description": "Article URL: https://github.com/ninjahawk/livenerf Comments URL: https://news.ycombinator.com/item?id=49901736 Points: 405 # Comments: 163",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "U.S. postal inspectors shut down website selling counterfeit postage labels",
       "link": "https://postalemployeenetwork.com/news/2026/09/26/u-s-postal-inspectors-shut-down-website-selling-millions-of-counterfeit-postage-labels/",
       "pubDate": "2026-09-29T19:30:17.000Z",
-      "description": "Article URL: https://postalemployeenetwork.com/news/2026/09/26/u-s-postal-inspectors-shut-down-website-selling-millions-of-counterfeit-postage-labels/ Comments URL: https://news.ycombinator.com/item?id=49899090 Points: 97 # Comments: 47",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Galaxy Game – Interim Computer Museum",
-      "link": "https://icm.museum/blog/?p=698",
-      "pubDate": "2026-09-29T19:24:27.000Z",
-      "description": "Article URL: https://icm.museum/blog/?p=698 Comments URL: https://news.ycombinator.com/item?id=49899004 Points: 8 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Show HN: TurboGPT: train 22KiB transformer in 13s",
-      "link": "https://github.com/lostmsu/TurboGPT",
-      "pubDate": "2026-09-29T19:20:02.000Z",
-      "description": "Inspired by minGPT for home experiments.Requires CUDA 13.4; build script is Windows only. Comments URL: https://news.ycombinator.com/item?id=49898931 Points: 29 # Comments: 4",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Nicholas Polson has authored 258 academic papers in 2026 so far",
-      "link": "https://statmodeling.stat.columbia.edu/2026/08/27/258/",
-      "pubDate": "2026-09-29T19:15:58.000Z",
-      "description": "Article URL: https://statmodeling.stat.columbia.edu/2026/08/27/258/ Comments URL: https://news.ycombinator.com/item?id=49898877 Points: 114 # Comments: 83",
+      "description": "Article URL: https://postalemployeenetwork.com/news/2026/09/26/u-s-postal-inspectors-shut-down-website-selling-millions-of-counterfeit-postage-labels/ Comments URL: https://news.ycombinator.com/item?id=49899090 Points: 200 # Comments: 118",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -125,47 +165,7 @@
       "title": "Show HN: Real-time Solar System with 526k asteroids and all tracked satellites",
       "link": "https://space.bl2.net/",
       "pubDate": "2026-09-29T19:08:01.000Z",
-      "description": "Article URL: https://space.bl2.net/ Comments URL: https://news.ycombinator.com/item?id=49898778 Points: 36 # Comments: 10",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "GLM-5.3 and the spread of advanced cyber capabilities",
-      "link": "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
-      "pubDate": "2026-09-29T17:31:26.000Z",
-      "description": "Article URL: https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities Comments URL: https://news.ycombinator.com/item?id=49897075 Points: 139 # Comments: 99",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "ChatGPT Pro 500",
-      "link": "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers",
-      "pubDate": "2026-09-29T17:26:27.000Z",
-      "description": "Article URL: https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers Comments URL: https://news.ycombinator.com/item?id=49896975 Points: 164 # Comments: 171",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Tcl/Tk 9.1",
-      "link": "https://www.tcl-lang.org/software/tcltk/9.1.html",
-      "pubDate": "2026-09-29T17:13:38.000Z",
-      "description": "Article URL: https://www.tcl-lang.org/software/tcltk/9.1.html Comments URL: https://news.ycombinator.com/item?id=49896712 Points: 214 # Comments: 65",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Dots: Always-on agents",
-      "link": "https://openai.com/index/introducing-dots/",
-      "pubDate": "2026-09-29T17:07:57.000Z",
-      "description": "Article URL: https://openai.com/index/introducing-dots/ Comments URL: https://news.ycombinator.com/item?id=49896604 Points: 408 # Comments: 317",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "DevDay 2026 Recap",
-      "link": "https://openai.com/index/devday-2026-recap/",
-      "pubDate": "2026-09-29T17:07:45.000Z",
-      "description": "Article URL: https://openai.com/index/devday-2026-recap/ Comments URL: https://news.ycombinator.com/item?id=49896600 Points: 83 # Comments: 38",
+      "description": "Article URL: https://space.bl2.net/ Comments URL: https://news.ycombinator.com/item?id=49898778 Points: 174 # Comments: 39",
       "source": "Hacker News",
       "category": "Tech News"
     },
