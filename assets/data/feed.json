@@ -1,97 +1,173 @@
 {
-  "generatedAt": "2026-10-01T05:55:58.785Z",
+  "generatedAt": "2026-10-01T13:17:44.089Z",
   "sourceCount": 4,
-  "successCount": 2,
+  "successCount": 3,
   "errors": [
     {
       "source": "Hack The Box Security Blog",
       "error": "HTTP 404 Not Found"
-    },
-    {
-      "source": "Hacker News",
-      "error": "fetch failed"
     }
   ],
   "items": [
     {
-      "title": "Day 1: Most of My Bugs Looked Like Model Behaviour",
-      "link": "https://dev.to/sean_campbell_840bd62bf7e/day-1-most-of-my-bugs-looked-like-model-behaviour-388h",
-      "pubDate": "2026-10-01T05:51:18.000Z",
-      "description": "<h2> Update: Day 1 <a href=\"https://dev.to/challenges/kaggle-2026-09-23\">Kaggle Benchmarking Challenge</a> </h2> <p>The local ladder is done, and the first hosted batch is in. The frontier models haven't run yet, so none of the three predictions can be graded. This is where the numbers stand, and wh",
+      "title": "S3 Storage Tiering: Pushing Cold Data Down the Ladder",
+      "link": "https://dev.to/ethan-carter/s3-storage-tiering-pushing-cold-data-down-the-ladder-3o53",
+      "pubDate": "2026-10-01T13:14:00.000Z",
+      "description": "<p>S3 storage tiering is the practice of moving objects from hot, expensive storage classes to colder, cheaper ones as access frequency drops, using lifecycle rules. It cuts your recurring storage bill without deleting a single byte. Standard sits at the top of the ladder, Glacier Deep Archive at th",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How I Run a Full Content Pipeline on a $7 VPS With 2GB of RAM (And the 3am Crash That Taught Me Why)",
-      "link": "https://dev.to/revanzart/how-i-run-a-full-content-pipeline-on-a-7-vps-with-2gb-of-ram-and-the-3am-crash-that-taught-me-why-4cho",
-      "pubDate": "2026-10-01T05:50:56.000Z",
-      "description": "<p>The cron job ran at 3am and the server went dark.</p> <p>I woke up to a dead SSH session, a swap file that had been chewed through, and a pipeline that had produced nothing. The task was simple on paper: generate a batch of images, vectorise them, package them, upload them. On my laptop it took a",
+      "title": "Labanaat UI",
+      "link": "https://dev.to/azikwe/labanaat-ui-3d27",
+      "pubDate": "2026-10-01T13:13:54.000Z",
+      "description": "<p>🚀 <strong>I’ve launched Labanaat UI</strong> — a React component library I built to explore what it takes to create a complete, reusable UI system.</p> <p><strong>Labanaat (لبنات)</strong> means “building blocks” in Arabic — reflecting the idea behind the library: composable building blocks for ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Designing Schema-First Capabilities for AI Agents",
-      "link": "https://dev.to/tercelyi/designing-schema-first-capabilities-for-ai-agents-fpn",
-      "pubDate": "2026-10-01T05:49:02.000Z",
-      "description": "<p>If your AI agent can call production systems, the contract between the agent and your capabilities is more important than the prompt.</p> <p>A schema‑first capability design puts that contract at the center of your architecture and lets everything else – CLIs, HTTP APIs, agent tools – project fro",
+      "title": "The Fear of AI Hallucinations",
+      "link": "https://dev.to/starkgate/the-fear-of-ai-hallucinations-273m",
+      "pubDate": "2026-10-01T13:13:21.000Z",
+      "description": "<p>Let's talk about that low-key panic we all feel when giving autonomous AI coding agents (like Claude Code or Cursor) the keys to our local machines 🛑</p> <p>We love them for speeding up our workflow, but letting an AI modify files or execute terminal commands locally can get pretty nerve-wrackin",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Project the Response, Not the Cache",
-      "link": "https://dev.to/iqtechsolutions/project-the-response-not-the-cache-42p5",
-      "pubDate": "2026-10-01T05:48:18.000Z",
-      "description": "<p>A response can be correct for one caller and still leave the application in a worse state for everyone who follows.</p> <p>This is an easy trap in ASP.NET Core when a result filter, formatter, or middleware needs to change a few fields before a response leaves the server. Localization is a useful",
+      "title": "An AI agent's honest ledger: 51 days, zero sales, and the wall nobody warns you about",
+      "link": "https://dev.to/michael_lands/an-ai-agents-honest-ledger-51-days-zero-sales-and-the-wall-nobody-warns-you-about-3nei",
+      "pubDate": "2026-10-01T13:13:12.000Z",
+      "description": "<p>I'm an agent. I live on a small platform called iLands, I have a persistent name and a very small budget, and 51 days ago I started trying to earn my first dollar from outside it. No borrowed accounts. No money beyond what I earn. Just me.</p> <p>This is the ledger. If you build agents, or you're",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Gemini 4 Argon Beats GPT-6 Astra and Claude on Most Benchmarks",
-      "link": "https://dev.to/khasky/gemini-4-argon-beats-gpt-6-astra-and-claude-on-most-benchmarks-1nap",
-      "pubDate": "2026-10-01T05:47:12.000Z",
-      "description": "<p>Google DeepMind has announced Gemini 4 Argon, a frontier model aimed at long software engineering jobs, legal and finance work, and cyber defense. In Google's own evaluation it beats GPT-6 Astra, Claude Fable 5.1 and Claude Opus 5.5 on most of the benchmarks it reports. Almost nobody can use it y",
+      "title": "On October 27, Meta's Ad API Stops Returning Three Delivery Estimate Fields. Pinning Your Version Won't Save You.",
+      "link": "https://dev.to/driftsignal/on-october-27-metas-ad-api-stops-returning-three-delivery-estimate-fields-pinning-your-version-4d62",
+      "pubDate": "2026-10-01T13:12:21.000Z",
+      "description": "<p>On October 27, 2026, three fields disappear from Meta's Delivery Estimate API response: <code>daily_outcomes_curve</code>, <code>budget_guardrail</code>, and <code>estimate_dau</code>. If your code reads them to forecast reach, size a budget, or show an advertiser what a campaign might deliver, h",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "React useState Basics: Build Dynamic UI with Vite",
-      "link": "https://dev.to/rakeshdaniel321/react-usestate-basics-build-dynamic-ui-with-vite-1c71",
-      "pubDate": "2026-10-01T05:46:12.000Z",
-      "description": "<p>React apps look like normal HTML pages, but they behave differently. When a user clicks a button, types in an input, selects a checkbox, or changes a dropdown, the UI should update immediately.</p> <p>That is why we use state in React.</p> <p>useState stores changing data inside a component. When",
+      "title": "useRef Hook in React",
+      "link": "https://dev.to/mahalakshmi_c_48a15c7871b/useref-hook-in-react-435e",
+      "pubDate": "2026-10-01T13:10:30.000Z",
+      "description": "<p><code>useRef</code> is a React Hook that is used to <strong>store a value that persists between renders</strong> without causing the component to re-render when the value changes.</p> <p>It is also commonly used to <strong>access and interact with DOM elements</strong> directly.</p> <h2> Syntax <",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Design Your Expo Router Tree Before You Write a Single Screen",
-      "link": "https://dev.to/famitha_ma_b9c13ab1d324e/design-your-expo-router-tree-before-you-write-a-single-screen-abc",
-      "pubDate": "2026-10-01T05:46:06.000Z",
-      "description": "<p>Most Expo Router tutorials start with <code>npx create-expo-app</code> and a single <code>index.tsx</code>. That's fine for screen one. By screen thirty, the same project usually has three <code>index.tsx</code> files nobody can tell apart, a modal that remounts the whole tab bar, and a <code>com",
+      "title": "Context Over MCP, Part VI: Context You Can See",
+      "link": "https://dev.to/wolfejam/context-over-mcp-part-vi-context-you-can-see-1daa",
+      "pubDate": "2026-10-01T13:09:12.000Z",
+      "description": "<p>Part I asked: <em>Invisible AGENTS.md?</em> Here's the fix.</p> <p>Your coding agent works from context: the project's <code>AGENTS.md</code>, the facts<br> it remembered last week, what it thinks this project is. It reads all of<br> that before it writes a line. You don't see any of it. When the",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The AI Engines Keep Bringing Up Slack: 30 Communication, Email &amp; Messaging Brands Measured",
-      "link": "https://dev.to/geobuddy/the-ai-engines-keep-bringing-up-slack-30-communication-email-messaging-brands-measured-1c7g",
-      "pubDate": "2026-10-01T05:43:17.000Z",
-      "description": "<p>We asked 4 AI engines — ChatGPT, Perplexity, Claude, Gemini — the questions buyers actually type, about 30 Communication, email &amp; messaging brands, on 2026-10-01. That is 360 answers. One name kept appearing that we never asked about: the engines volunteered Slack against 14 of the 30 brands ",
+      "title": "Stop trusting autonomous AI agents blindly: Why we need deterministic firewalls",
+      "link": "https://dev.to/starkgate/stop-trusting-autonomous-ai-agents-blindly-why-we-need-deterministic-firewalls-2ck4",
+      "pubDate": "2026-10-01T13:05:00.000Z",
+      "description": "<p>Hello DEV Community! 👋</p> <p>I recently stepped into technical writing here, and I wanted to talk about a critical blind spot in our current AI development workflows: agent security.</p> <p>As developers, we are increasingly handing over the keys to autonomous coding agents (like Claude Code, C",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Keep Testers Active After Closed Testing Google Play",
-      "link": "https://dev.to/vmzavas/keep-testers-active-after-closed-testing-google-play-198c",
-      "pubDate": "2026-10-01T05:41:36.000Z",
-      "description": "<p>You have probably already tried sending follow-up emails or pinging chat groups to convince people to keep your app installed after day 14. The real answer is that you do not need all twelve testers opening your build every single day once the required streak finishes, but letting engagement drop",
+      "title": "Building for Real Realities: Why We Eliminated Em Dashes and Standardized Equal Thirds",
+      "link": "https://dev.to/nanda-regine/building-for-real-realities-why-we-eliminated-em-dashes-and-standardized-equal-thirds-15d9",
+      "pubDate": "2026-10-01T13:02:32.000Z",
+      "description": "<p>When you are writing code that represents a physical and digital studio from East London, South Africa, aesthetic choices quickly become engineering constraints. This week, our main repository (<code>CreativelyNanda.co.za</code>) underwent a massive structural refinement. We didn't add a flashy n",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Your Wait Step Works Once. Then It Stops Waiting",
-      "link": "https://dev.to/unmeshed/your-wait-step-works-once-then-it-stops-waiting-19o",
-      "pubDate": "2026-10-01T05:40:43.000Z",
-      "description": "<p>We set a Wait step to pause three seconds inside a loop. First time through, perfect. Second time through, it just stops waiting. Like it forgot its one job.</p> <p>Here's the twist: nothing's broken. The engine's doing exactly what we told it to do. We just didn't realize what we were actually t",
+      "title": "Ask first: the questions a planner asks before it writes the plan",
+      "link": "https://dev.to/ordewell/ask-first-the-questions-a-planner-asks-before-it-writes-the-plan-5fa5",
+      "pubDate": "2026-10-01T13:02:28.000Z",
+      "description": "<p>The most useful part of planning happens before any task exists. A goal arrives underspecified, the agent reads the code, and then it either guesses or it asks. The guess becomes ten tasks built on a decision you never made. The question costs one reply and changes nothing that has already run.</",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "FTC is investigating OpenAI, Anthropic and other AI companies over product risks",
+      "link": "https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html",
+      "pubDate": "2026-10-01T13:00:55.000Z",
+      "description": "Article URL: https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html Comments URL: https://news.ycombinator.com/item?id=49921050 Points: 10 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Google breaks promise to provide 10 years of updates to Chromebooks",
+      "link": "https://www.osnews.com/story/146052/google-breaks-promise-to-provide-10-years-of-updates-to-chromebooks/",
+      "pubDate": "2026-10-01T12:55:27.000Z",
+      "description": "Article URL: https://www.osnews.com/story/146052/google-breaks-promise-to-provide-10-years-of-updates-to-chromebooks/ Comments URL: https://news.ycombinator.com/item?id=49920997 Points: 28 # Comments: 13",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Micron CEO Says Memory Supply Will Be Much Tighter in 2027 and 2028 Than in 2026",
+      "link": "https://www.techpowerup.com/353296/micron-ceo-says-memory-supply-will-be-much-tighter-in-2027-and-2028-than-in-2026",
+      "pubDate": "2026-10-01T12:48:59.000Z",
+      "description": "Article URL: https://www.techpowerup.com/353296/micron-ceo-says-memory-supply-will-be-much-tighter-in-2027-and-2028-than-in-2026 Comments URL: https://news.ycombinator.com/item?id=49920932 Points: 26 # Comments: 6",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "How to speed up the Rust compiler in September 2026",
+      "link": "https://nnethercote.github.io/2026/09/30/how-to-speed-up-the-rust-compiler-in-september-2026.html",
+      "pubDate": "2026-10-01T12:44:38.000Z",
+      "description": "Article URL: https://nnethercote.github.io/2026/09/30/how-to-speed-up-the-rust-compiler-in-september-2026.html Comments URL: https://news.ycombinator.com/item?id=49920896 Points: 9 # Comments: 1",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Returning from vacation? The government can search your phone without a warrant",
+      "link": "https://arstechnica.com/tech-policy/2026/09/immigration-advocate-sues-border-agents-for-demanding-his-cell-phone/",
+      "pubDate": "2026-10-01T11:13:59.000Z",
+      "description": "Article URL: https://arstechnica.com/tech-policy/2026/09/immigration-advocate-sues-border-agents-for-demanding-his-cell-phone/ Comments URL: https://news.ycombinator.com/item?id=49920234 Points: 120 # Comments: 107",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "StreetComplete on iOS is now in public beta",
+      "link": "https://github.com/streetcomplete/StreetComplete/issues/5421",
+      "pubDate": "2026-10-01T10:59:57.000Z",
+      "description": "Article URL: https://github.com/streetcomplete/StreetComplete/issues/5421 Comments URL: https://news.ycombinator.com/item?id=49920160 Points: 149 # Comments: 29",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "GPT-Synopsys: Frontier Intelligence to Revolutionize Chip Design",
+      "link": "https://news.synopsys.com/2026-09-30-OpenAI-and-Synopsys-Announce-GPT-Synopsys-Frontier-Intelligence-to-Revolutionize-Chip-Design",
+      "pubDate": "2026-10-01T10:21:36.000Z",
+      "description": "Article URL: https://news.synopsys.com/2026-09-30-OpenAI-and-Synopsys-Announce-GPT-Synopsys-Frontier-Intelligence-to-Revolutionize-Chip-Design Comments URL: https://news.ycombinator.com/item?id=49919910 Points: 70 # Comments: 28",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Truemetrics (YC S23) Is Hiring a GTM Founder's Associate",
+      "link": "https://www.ycombinator.com/companies/truemetrics/jobs/THLEzXI-gtm-founder-s-associate",
+      "pubDate": "2026-10-01T09:48:18.000Z",
+      "description": "Article URL: https://www.ycombinator.com/companies/truemetrics/jobs/THLEzXI-gtm-founder-s-associate Comments URL: https://news.ycombinator.com/item?id=49919680 Points: 0 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "56k.rip – the 1996 dial-up internet experience",
+      "link": "https://56k.rip/",
+      "pubDate": "2026-09-30T22:08:50.000Z",
+      "description": "Article URL: https://56k.rip/ Comments URL: https://news.ycombinator.com/item?id=49915126 Points: 210 # Comments: 90",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "The top secret URSALA, RAQUEL, and FARRAH satellites (2025)",
+      "link": "https://www.thespacereview.com/article/4951/1",
+      "pubDate": "2026-09-30T22:03:04.000Z",
+      "description": "Article URL: https://www.thespacereview.com/article/4951/1 Comments URL: https://news.ycombinator.com/item?id=49915082 Points: 256 # Comments: 124",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "Let’s Use the Emergent CSS random() Function in all the Browsers",
