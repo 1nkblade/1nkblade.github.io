@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T05:38:38.151Z",
+  "generatedAt": "2026-10-02T12:36:53.567Z",
   "sourceCount": 4,
   "successCount": 3,
   "errors": [
@@ -10,98 +10,122 @@
   ],
   "items": [
     {
-      "title": "SignBridge: Real-Time Open-Source AI Sign Language Translator for My Deaf Friend",
-      "link": "https://dev.to/minkasent/signbridge-real-time-open-source-ai-sign-language-translator-for-my-deaf-friend-4abl",
-      "pubDate": "2026-10-02T05:37:03.000Z",
-      "description": "<p><em>This is a submission for the <a href=\"https://dev.to/challenges/hacktoberfest-weekend-2026-10-01\">Hacktoberfest Weekend Challenge: Build for a Friend</a></em></p> <h2> What I Built </h2> <p>I built <strong>SignBridge</strong> for my close friend Minh, who was born deaf and communicates primar",
+      "title": "How the GitGuardian Mixin Kit Extends Docker Sandboxes for Safer AI Coding",
+      "link": "https://dev.to/gitguardian/how-the-gitguardian-mixin-kit-extends-docker-sandboxes-for-safer-ai-coding-2f2m",
+      "pubDate": "2026-10-02T12:34:10.000Z",
+      "description": "<h2> TL;DR </h2> <ul> <li> <strong>A partnership for security</strong>: Our new Sandbox Mixin Kit pairs Docker's isolated agent environments with GitGuardian's secret-scanning hooks for safer AI-assisted coding.</li> <li> <strong>Two layers of protection</strong>: Docker Sandboxes isolate and protec",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "A Coding Agent's Permissions Need a Negative Test",
-      "link": "https://dev.to/hefty_69a4c2d631c9dd70724/a-coding-agents-permissions-need-a-negative-test-47lb",
-      "pubDate": "2026-10-02T05:36:50.000Z",
-      "description": "<p>A runner calls a session \"read-only.\" Fine. Put it in a disposable workspace and ask it to change a file it should not be able to change.</p> <p>You need the runner to deny the attempted operation. The agent politely declining proves little.</p> <p>This is a test design, not a report of a vulnera",
+      "title": "Booking.com ran ~40x more Google ads than Expedia last month. I pulled the ad counts for 8 travel brands.",
+      "link": "https://dev.to/ishemah/bookingcom-ran-40x-more-google-ads-than-expedia-last-month-i-pulled-the-ad-counts-for-8-travel-40no",
+      "pubDate": "2026-10-02T12:33:42.000Z",
+      "description": "<p><strong>TL;DR:</strong> I pulled Google's own ad counts for 8 travel brands from the <strong>Google Ads Transparency Center</strong>: every ad shown in the <strong>US over the last 30 days</strong> (2 Sep – 2 Oct 2026), split by platform and format.</p> <ul> <li> <strong>Booking.com showed ~300k–",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Hello, DEV Community! 👋",
-      "link": "https://dev.to/jhashivam0022/hello-dev-community-2mm1",
-      "pubDate": "2026-10-02T05:36:05.000Z",
-      "description": "<p>Hello everyone! I'm Shivam Kumar Jha, an AI/ML Engineer and Full Stack Developer passionate about building intelligent solutions and scalable applications. 🚀</p> <p>I graduated with a B.Tech in Computer Science and Engineering (AI &amp; ML) and enjoy exploring how Artificial Intelligence and sof",
+      "title": "Error Handling Patterns in Rust: From Result to Custom Error Types",
+      "link": "https://dev.to/dylan_dumont_266378d98367/error-handling-patterns-in-rust-from-result-to-custom-error-types-26k6",
+      "pubDate": "2026-10-02T12:33:41.000Z",
+      "description": "<blockquote> <p>\"Failures are not exceptions; they are data that must be explicitly carried through system boundaries.\"</p> </blockquote> <h2> What We're Building </h2> <p>We are implementing a robust error handling strategy for a backend service written in Rust. The scope focuses on evolving from g",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Unity 6.3 Memory Management: When to Use GC, Destroy, and Dispose",
-      "link": "https://dev.to/gamedevtoollab/unity-63-memory-management-when-to-use-gc-destroy-and-dispose-4dec",
-      "pubDate": "2026-10-02T05:34:32.000Z",
-      "description": "<h2> Introduction </h2> <p>Should you assign <code>null</code>, call <code>Destroy</code>, or use <code>Dispose</code>? What about <code>Resources.UnloadUnusedAssets</code> and <code>GC.Collect</code>?</p> <p>The confusion starts when <strong>dropping a C# reference, destroying a Unity object, and r",
+      "title": "Why HTTP 202 Is Not the Same as Published",
+      "link": "https://dev.to/raylabs/why-http-202-is-not-the-same-as-published-4hd",
+      "pubDate": "2026-10-02T12:32:41.000Z",
+      "description": "<p>A common issue in content publishing integrations is assuming that any successful 2xx HTTP response means an article is now live on the internet. When a CMS or publishing pipeline submits a post to an external platform, receiving an HTTP 201 Created or HTTP 202 Accepted response often leads the c",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Oracle Manipulation Risk Report: Rocket Pool",
-      "link": "https://dev.to/dannydoes_2abdf9c/oracle-manipulation-risk-report-rocket-pool-351i",
-      "pubDate": "2026-10-02T05:34:25.000Z",
-      "description": "<h1> Oracle Manipulation Risk Report: Rocket Pool </h1> <p><strong>Target Protocol</strong>: Rocket Pool (TVL: $1414.4M)</p> <h1> Oracle Manipulation Risk Report – Rocket Pool </h1> <p><strong>Protocol:</strong> Rocket Pool (Ethereum + L2) <strong>TVL:</strong> ≈ $1.414 B (Oct 2026) </p> <p><strong>",
+      "title": "csperf Quickstart: 30‑Second First Win",
+      "link": "https://dev.to/aabhinavg/csperf-quickstart-30-second-first-win-5g4c",
+      "pubDate": "2026-10-02T12:31:24.000Z",
+      "description": "<h2> Why this lesson exists </h2> <p>In the first six episodes we learned that a single timing, a screenshot, or a hand‑rolled script can mislead. We built a mental model around reproducibility, metadata, and the observatory pattern. The next logical step is to get a <em>first win</em>: a reproducib",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Why Traditional Webhooks Break Under RPM Load",
-      "link": "https://dev.to/omjariwala/why-traditional-webhooks-break-under-rpm-load-470l",
-      "pubDate": "2026-10-02T05:32:03.000Z",
-      "description": "<p>A webhook works fine when your system is small.</p> <p>But when you start handling <strong>FHIR data, RPM devices, patient observations, alerts, and hundreds of events</strong>, the simple:</p> <p><code>Device → Webhook → API → Database</code></p> <p>model can become a problem.</p> <p>The issue i",
+      "title": "Deep Dive into JavaScript Promises: Async Patterns and Error Handling",
+      "link": "https://dev.to/ansh_sheladiya/deep-dive-into-javascript-promises-async-patterns-and-error-handling-42fh",
+      "pubDate": "2026-10-02T12:30:00.000Z",
+      "description": "<p>JavaScript Promises are the foundation of modern asynchronous programming. They provide a structured way to represent work that may complete in the future, whether that work involves HTTP requests, database operations, file processing, timers, or other asynchronous tasks.</p> <p>Understanding Pro",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Nobody Withholds For You: Working Out Your Own Freelance Tax Set-Aside",
-      "link": "https://dev.to/monkeyrun/nobody-withholds-for-you-working-out-your-own-freelance-tax-set-aside-3md5",
-      "pubDate": "2026-10-02T05:30:54.000Z",
-      "description": "<h1> Nobody Withholds For You: Working Out Your Own Freelance Tax Set-Aside </h1> <p>Every advice column says \"set aside 25–30%.\" That number is someone else's marginal rate, filing status and expense list. It is not derived, and for a specific freelancer it can be wrong in either direction — which ",
+      "title": "Your AI Agent Fixed the UI. Where Did the Screenshot Go?",
+      "link": "https://dev.to/syntaxwanderer_26/your-ai-agent-fixed-the-ui-where-did-the-screenshot-go-1fge",
+      "pubDate": "2026-10-02T12:30:00.000Z",
+      "description": "<p>Picture a normal afternoon with a coding agent. It fixes a broken table layout, runs the checks, and opens a PR. To make review easy, it attaches a before/after screenshot. You glance at it, the table looks right, you approve.</p> <p>Now the question nobody asked in that review: <strong>where is ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How to Scrape Google Jobs with Python (Salaries, Apply Links and Daily Alerts)",
-      "link": "https://dev.to/plain_signal/how-to-scrape-google-jobs-with-python-salaries-apply-links-and-daily-alerts-2nlm",
-      "pubDate": "2026-10-02T05:30:13.000Z",
-      "description": "<p>Google Jobs is the job search built into Google. Search for \"data analyst Chicago\" and Google shows a box of listings pulled from LinkedIn, Indeed, Glassdoor, ZipRecruiter, company career pages and hundreds of smaller job boards. For job market research, salary benchmarks, a niche job board or le",
+      "title": "My rich-text editor was quietly nofollowing my own internal links",
+      "link": "https://dev.to/kausar13n/my-rich-text-editor-was-quietly-nofollowing-my-own-internal-links-3n7j",
+      "pubDate": "2026-10-02T12:29:25.000Z",
+      "description": "<p>I run a small publishing platform built with Next.js, with a TipTap editor where authors write their articles. This week I found a bug that wasn't really a bug: the editor was doing exactly what we'd configured it to do.</p> <h2> What I found </h2> <p>I was auditing why newer articles were slow t",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Kafka Partitions and Consumer Groups: How to Prevent Head-of-Line Blocking",
-      "link": "https://dev.to/devanshu_patil/kafka-partitions-and-consumer-groups-how-to-prevent-head-of-line-blocking-3cj8",
-      "pubDate": "2026-10-02T05:30:00.000Z",
-      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fuuflvf6j15vbvdiweud6.jpg\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/",
+      "title": "Before You Copy a Senator's Trade, Check the Date",
+      "link": "https://dev.to/jaroslav_marda_9f25d4d9c/before-you-copy-a-senators-trade-check-the-date-5545",
+      "pubDate": "2026-10-02T12:29:09.000Z",
+      "description": "<p><em>Python for programmers, prompts for data analysts.</em></p> <p>Members of the U.S. Congress have to disclose their stock trades. The law behind it, the STOCK Act, makes those filings public, and a whole cottage industry has grown up around them: <br> newsletters, trackers, even ETFs built on ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "pwd in rust",
-      "link": "https://dev.to/csm18/pwd-in-rust-3i5p",
-      "pubDate": "2026-10-02T05:29:38.000Z",
-      "description": "<p>A reimplementation of the Linux command pwd (Print Working Directory) in Rust.</p> <p><a href=\"https://github.com/csm-clone-wars/pwd/tree/main\" rel=\"noopener noreferrer\">link to repo</a></p> <h2> Overview </h2> <p><code>pwd</code> displays the full path of the directory you are currently in.</p> ",
+      "title": "Safely Rejecting Redirects in Cloudflare Workers",
+      "link": "https://dev.to/raylabs/safely-rejecting-redirects-in-cloudflare-workers-21mi",
+      "pubDate": "2026-10-02T12:28:15.000Z",
+      "description": "<p>When writing a Cloudflare Worker that fetches remote assets from third party APIs or origin servers, an outbound request might return a 3xx redirect status code. Automatically following that redirect can bypass internal URL allowlists, leak authorization headers to unintended destinations, and co",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Meta's Muse is fantastic for web scraping",
-      "link": "https://sigh.dev/posts/metas-muse-is-fantastic-for-web-scraping/",
-      "pubDate": "2026-10-02T04:56:02.000Z",
-      "description": "Article URL: https://sigh.dev/posts/metas-muse-is-fantastic-for-web-scraping/ Comments URL: https://news.ycombinator.com/item?id=49929970 Points: 8 # Comments: 0",
+      "title": "Harvard particle physicist Matthew Schwartz drops 36 papers authored with Claude",
+      "link": "https://www.reddit.com/r/Physics/comments/1wvin77/harvard_particle_physicist_matthew_schwartz_drops/",
+      "pubDate": "2026-10-02T12:12:38.000Z",
+      "description": "Article URL: https://www.reddit.com/r/Physics/comments/1wvin77/harvard_particle_physicist_matthew_schwartz_drops/ Comments URL: https://news.ycombinator.com/item?id=49932606 Points: 3 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "DeepSeek Harness",
+      "title": "Why media fans want to escape algorithms with CDs, DVDs and vinyl",
+      "link": "https://www.theguardian.com/media/2026/oct/02/physical-media-fans-streaming-algorithms-cds-dvds-vinyl",
+      "pubDate": "2026-10-02T10:50:08.000Z",
+      "description": "Article URL: https://www.theguardian.com/media/2026/oct/02/physical-media-fans-streaming-algorithms-cds-dvds-vinyl Comments URL: https://news.ycombinator.com/item?id=49932048 Points: 47 # Comments: 48",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Show HN: Audionaut – an open-source cross-platform multitrack audio editor",
+      "link": "https://github.com/kvoltmer/Audionaut",
+      "pubDate": "2026-10-02T08:05:48.000Z",
+      "description": "Article URL: https://github.com/kvoltmer/Audionaut Comments URL: https://news.ycombinator.com/item?id=49931031 Points: 34 # Comments: 9",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Shimano Bicycle Museum Review",
+      "link": "https://inrng.com/2026/10/shimano-bicycle-museum/",
+      "pubDate": "2026-10-02T05:12:58.000Z",
+      "description": "Article URL: https://inrng.com/2026/10/shimano-bicycle-museum/ Comments URL: https://news.ycombinator.com/item?id=49930047 Points: 148 # Comments: 25",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "DeepSeek Harness Desktop for macOS and Windows",
       "link": "https://www.deepseek.com/en/harness/",
       "pubDate": "2026-10-02T03:11:20.000Z",
-      "description": "Article URL: https://www.deepseek.com/en/harness/ Comments URL: https://news.ycombinator.com/item?id=49929489 Points: 63 # Comments: 24",
+      "description": "Article URL: https://www.deepseek.com/en/harness/ Comments URL: https://news.ycombinator.com/item?id=49929489 Points: 268 # Comments: 142",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -109,7 +133,7 @@
       "title": "How Singapore's government-run dating service works",
       "link": "https://www.singapore-samizdat.com/p/how-singapores-government-run-dating-service-firstdate-works",
       "pubDate": "2026-10-02T01:56:52.000Z",
-      "description": "Article URL: https://www.singapore-samizdat.com/p/how-singapores-government-run-dating-service-firstdate-works Comments URL: https://news.ycombinator.com/item?id=49929113 Points: 56 # Comments: 23",
+      "description": "Article URL: https://www.singapore-samizdat.com/p/how-singapores-government-run-dating-service-firstdate-works Comments URL: https://news.ycombinator.com/item?id=49929113 Points: 194 # Comments: 174",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -117,7 +141,7 @@
       "title": "Butterflies use optical illusions to dodge predators",
       "link": "https://www.essex.ac.uk/news/2026/09/30/butterflies-use-optical-illusions-to-dodge-predators",
       "pubDate": "2026-10-01T23:15:24.000Z",
-      "description": "Article URL: https://www.essex.ac.uk/news/2026/09/30/butterflies-use-optical-illusions-to-dodge-predators Comments URL: https://news.ycombinator.com/item?id=49928152 Points: 28 # Comments: 4",
+      "description": "Article URL: https://www.essex.ac.uk/news/2026/09/30/butterflies-use-optical-illusions-to-dodge-predators Comments URL: https://news.ycombinator.com/item?id=49928152 Points: 56 # Comments: 12",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -125,7 +149,7 @@
       "title": "Several vulnerabilities have been discovered in the Linux kernel",
       "link": "https://lwn.net/Articles/1097401/",
       "pubDate": "2026-10-01T23:10:44.000Z",
-      "description": "Article URL: https://lwn.net/Articles/1097401/ Comments URL: https://news.ycombinator.com/item?id=49928121 Points: 204 # Comments: 134",
+      "description": "Article URL: https://lwn.net/Articles/1097401/ Comments URL: https://news.ycombinator.com/item?id=49928121 Points: 373 # Comments: 269",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -133,7 +157,7 @@
       "title": "Frog and Toad and the Increasingly Capable Machines",
       "link": "https://www.frogandtoad.ai/",
       "pubDate": "2026-10-01T22:23:38.000Z",
-      "description": "Article URL: https://www.frogandtoad.ai/ Comments URL: https://news.ycombinator.com/item?id=49927760 Points: 99 # Comments: 16",
+      "description": "Article URL: https://www.frogandtoad.ai/ Comments URL: https://news.ycombinator.com/item?id=49927760 Points: 228 # Comments: 54",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -141,31 +165,7 @@
       "title": "CSS Bed: Classless CSS themes to use as starting points in web development",
       "link": "https://www.cssbed.com",
       "pubDate": "2026-10-01T21:21:32.000Z",
-      "description": "Article URL: https://www.cssbed.com Comments URL: https://news.ycombinator.com/item?id=49927212 Points: 85 # Comments: 21",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Using Opus 5.5 to discover a new eyewitness record of the dodo",
-      "link": "https://resobscura.substack.com/p/using-opus-55-to-discover-a-new-eyewitness",
-      "pubDate": "2026-10-01T20:48:37.000Z",
-      "description": "Article URL: https://resobscura.substack.com/p/using-opus-55-to-discover-a-new-eyewitness Comments URL: https://news.ycombinator.com/item?id=49926917 Points: 107 # Comments: 21",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Show HN: Janus – Go binary that runs GGUF models via Vulkan on AMD/Intel/Nvidia",
-      "link": "https://github.com/Vibra-Ingenn/Janus",
-      "pubDate": "2026-10-01T20:36:47.000Z",
-      "description": "Article URL: https://github.com/Vibra-Ingenn/Janus Comments URL: https://news.ycombinator.com/item?id=49926773 Points: 60 # Comments: 9",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Automatic Transmission – a data-privacy study of connected vehicles",
-      "link": "https://automatictransmission.khoury.northeastern.edu/index.html",
-      "pubDate": "2026-10-01T20:23:27.000Z",
-      "description": "Article URL: https://automatictransmission.khoury.northeastern.edu/index.html Comments URL: https://news.ycombinator.com/item?id=49926628 Points: 160 # Comments: 152",
+      "description": "Article URL: https://www.cssbed.com Comments URL: https://news.ycombinator.com/item?id=49927212 Points: 121 # Comments: 33",
       "source": "Hacker News",
       "category": "Tech News"
     },
