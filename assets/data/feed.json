@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T22:14:59.939Z",
+  "generatedAt": "2026-10-03T05:19:57.404Z",
   "sourceCount": 4,
   "successCount": 3,
   "errors": [
@@ -10,106 +10,130 @@
   ],
   "items": [
     {
-      "title": "Can AI Really Detect Fake News? What the Research Shows",
-      "link": "https://dev.to/md_tauhid_hossain_rubel/can-ai-really-detect-fake-news-what-the-research-shows-1a5j",
-      "pubDate": "2026-10-02T22:13:38.000Z",
-      "description": "<h2> Why I Looked Into This </h2> <p>I work with data every day, and I wanted to know one thing. Can AI models tell real news from AI-generated fakes? The short answer is yes, sometimes. The longer answer is more interesting, and it has real lessons for anyone building detection tools.</p> <p>This a",
+      "title": "O Harness, o SDD e o Vibe-Coding: uma abordagem de engenharia",
+      "link": "https://dev.to/maiquelleonel/o-harness-o-sdd-e-o-vibe-coding-uma-abordagem-de-engenharia-1p19",
+      "pubDate": "2026-10-03T05:15:55.000Z",
+      "description": "<h2> Infraestrutura como contrato: o Harness contendo a entropia da automação </h2> <p>Mover um software além da fase “mashup” exige substituir a intuição por uma governança de engenharia rígida. No cenário atual, onde agentes de IA escrevem linhas de código em segundos, o papel do engenheiro muda d",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Webhook Security Is Distributed Systems Security",
-      "link": "https://dev.to/harrisonsec/webhook-security-is-distributed-systems-security-62f",
-      "pubDate": "2026-10-02T22:12:55.000Z",
-      "description": "<p>A webhook looks like the easiest thing in your system. A provider sends you a POST, you read the JSON, you do the thing. Three lines.</p> <p>It is one of the most dangerous. Not because the parsing is hard, but because a webhook is not really an HTTP request. It is a message from a queue you do n",
+      "title": "Which Port Is Nginx Listening On? Check and Change It Safely",
+      "link": "https://dev.to/__3381495fd2b/which-port-is-nginx-listening-on-check-and-change-it-safely-j20",
+      "pubDate": "2026-10-03T05:15:51.000Z",
+      "description": "<p>Nginx commonly serves HTTP on TCP port 80 and HTTPS on TCP port 443, but those conventions don’t tell you what a particular server is actually listening on. The active <code>listen</code> directives and the running system do.</p> <p>If a site won’t load, start by checking both: what Nginx is conf",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "AI Daily Digest: October 3, 2026 - Claude Code Mods, Muse on Smart Glasses, DGX Spark 64GB, Tesla Q3 Beat",
-      "link": "https://dev.to/hiroki-ii-ai/ai-daily-digest-october-3-2026-claude-code-mods-muse-on-smart-glasses-dgx-spark-64gb-tesla-olp",
-      "pubDate": "2026-10-02T22:12:52.000Z",
-      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F3bjuot7a7csj6gp5b0kk.png\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/",
+      "title": "Deploying Django with Gunicorn and Nginx: A Practical Ubuntu Setup",
+      "link": "https://dev.to/__3381495fd2b/deploying-django-with-gunicorn-and-nginx-a-practical-ubuntu-setup-4113",
+      "pubDate": "2026-10-03T05:15:26.000Z",
+      "description": "<p>A Django app needs more than a development server to handle production traffic. A common setup gives each layer one job: Nginx accepts web requests, Gunicorn runs Django’s WSGI application, and systemd manages Gunicorn as a service.</p> <p>The request path looks like this:<br> </p> <div class=\"hi",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "🚀 Starting my Hacktoberfest journey!",
-      "link": "https://dev.to/prem2006/starting-my-hacktoberfest-journey-21k5",
-      "pubDate": "2026-10-02T22:12:04.000Z",
-      "description": "<p>This is my first time participating in <strong>Hacktoberfest</strong>, and I'm excited to dive deeper into open source.</p> <p>I’m looking forward to:<br> 🔹 Contributing to real-world projects<br> 🔹 Exploring new repositories and technologies<br> 🔹 Learning from other contributors<br> 🔹 Makin",
+      "title": "SPRINT: O método para validar e lançar grandes ideias em apenas 5 dias",
+      "link": "https://dev.to/maiquelleonel/sprint-o-metodo-para-validar-e-lancar-grandes-ideias-em-apenas-5-dias-1pek",
+      "pubDate": "2026-10-03T05:15:19.000Z",
+      "description": "<p>Sabe aquelas reuniões intermináveis que nunca chegam a lugar nenhum? Aquele produto que você passou meses construindo para descobrir que ninguém queria usar? O livro <strong>SPRINT: O método usado no Google para testar e aplicar novas ideias em apenas cinco dias</strong> traz a resposta direta pa",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Your security gate always passes. Can it actually block a release?",
-      "link": "https://dev.to/mspro3210/your-security-gate-always-passes-can-it-actually-block-a-release-522n",
-      "pubDate": "2026-10-02T22:11:52.000Z",
-      "description": "<p>Agent developers have started publishing oversight numbers.</p> <p>For example, Anthropic reports that of more than a billion decisions by its research and engineering agents in August 2026, about 1 in 47,000 were blocked by an online monitor.</p> <p>A block rate tells you how often the gate said",
+      "title": "Port 25 Explained: How SMTP Email Delivery Works",
+      "link": "https://dev.to/__3381495fd2b/port-25-explained-how-smtp-email-delivery-works-29b2",
+      "pubDate": "2026-10-03T05:14:58.000Z",
+      "description": "<p>Port 25 is mainly for email moving <strong>between mail servers</strong>. If you’re configuring a website, script, or email app to send messages through a provider, you’ll usually need that provider’s submission service on port 587 or 465 instead.</p> <p>That distinction matters: the ports are al",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "What getting into thirteen database projects' docs actually took",
-      "link": "https://dev.to/kaya-abdullah/what-getting-into-thirteen-database-projects-docs-actually-took-1g15",
-      "pubDate": "2026-10-02T22:11:51.000Z",
-      "description": "<p>Thirteen database projects now list LibreDB Studio, our open source browser SQL IDE, in their official documentation: <a href=\"https://www.postgresql.org/download/products/1#:~:text=LibreDB%20Studio\" rel=\"noopener noreferrer\">PostgreSQL</a>, <a href=\"https://redis.io/docs/latest/develop/tools/#li",
+      "title": "Listing DNF Repositories: Enabled, Disabled, and DNF4 vs DNF5",
+      "link": "https://dev.to/__3381495fd2b/listing-dnf-repositories-enabled-disabled-and-dnf4-vs-dnf5-1g28",
+      "pubDate": "2026-10-03T05:14:28.000Z",
+      "description": "<p>When a repository seems to be missing, the first question is whether it is disabled or whether your system uses a different DNF command than the one you tried.</p> <p>DNF4 and DNF5 use different syntax for listing repositories. Both show enabled repositories by default; add <code>--all</code> to ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Vom Dachratgeber zur digitalen Checkliste: Unbekannte Daten sauber modellieren",
-      "link": "https://dev.to/spreedachwerk/vom-dachratgeber-zur-digitalen-checkliste-unbekannte-daten-sauber-modellieren-21ah",
-      "pubDate": "2026-10-02T22:10:21.000Z",
-      "description": "<p>Ein Bauprojekt zeigt ein typisches Problem digitaler Formulare: Ein Pflichtfeld kann Nutzer dazu bringen, einen Wert zu schätzen, obwohl er gar nicht bekannt ist. Bei Dachprojekten betrifft das etwa den Zustand verdeckter Bauteile. Ein hilfreiches Formular trennt Beobachtung, Vermutung und offene",
+      "title": "CosmoDex: Making Coding Practice Feel Like a Game 🚀",
+      "link": "https://dev.to/harsha_nandi_d66568aa75c4/cosmodex-making-coding-practice-feel-like-a-game-4iki",
+      "pubDate": "2026-10-03T05:14:22.000Z",
+      "description": "<h1> CosmoDex: Making Coding Practice Feel Like a Game 🚀 </h1> <p>Learning to code is easy to start, but difficult to stay consistent with.</p> <p>You solve a few problems, get stuck, lose motivation, switch between different platforms, and eventually stop practicing.</p> <p>We wanted to experiment",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Claim Ledger gives a project review a paper trail",
-      "link": "https://dev.to/sharonbasovich/claim-ledger-gives-a-project-review-a-paper-trail-1nae",
-      "pubDate": "2026-10-02T22:10:16.000Z",
-      "description": "<h2> What I Built </h2> <p>Claim Ledger is a browser-based review desk for a teammate who does an independent second pass on my projects. A handoff can include a README, setup notes, test records and known limitations. Claim Ledger helps connect a specific claim to the passages worth checking, then ",
+      "title": "DNS Port 53: When to Use UDP, TCP, DoT, or DoH",
+      "link": "https://dev.to/__3381495fd2b/dns-port-53-when-to-use-udp-tcp-dot-or-doh-ob7",
+      "pubDate": "2026-10-03T05:13:56.000Z",
+      "description": "<p>When a DNS lookup times out, the problem may not be the domain name. Traditional DNS uses <strong>port 53 over both UDP and TCP</strong>, and allowing only one transport can break some queries or DNS operations. Encrypted DNS uses different transports and commonly different ports.</p> <p>Knowing ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "We Tried ISO-AdamW. AdamW Kept Its Job.",
-      "link": "https://dev.to/g_factor/we-tried-iso-adamw-adamw-kept-its-job-35o4",
-      "pubDate": "2026-10-02T22:08:03.000Z",
-      "description": "<p>Four answers. After implementing a new optimizer, fixing a painfully slow matrix operation, and running both versions through the same math exam, that was the gap: <strong>758 correct answers for ISO-AdamW</strong> versus <strong>754 for our baseline AdamW</strong> on a 1,000-question held-out te",
+      "title": "Caddy or Nginx Proxy Manager? Choose the Workflow You’ll Maintain",
+      "link": "https://dev.to/__3381495fd2b/caddy-or-nginx-proxy-manager-choose-the-workflow-youll-maintain-2jc9",
+      "pubDate": "2026-10-03T05:13:24.000Z",
+      "description": "<p>Choosing a reverse proxy is partly a technical decision and partly a question of how you want to manage changes. Caddy and Nginx Proxy Manager can both route requests to self-hosted apps over HTTPS, but they offer different day-to-day workflows: Caddy is commonly configured with text files, while",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "C23, CMake e vcpkg: Como estruturar um projeto C moderno",
-      "link": "https://dev.to/matheusgondra/c23-cmake-e-vcpkg-como-estruturar-um-projeto-c-moderno-42o0",
-      "pubDate": "2026-10-02T22:07:05.000Z",
-      "description": "<p>A linguagem C evolui ao longo do tempo atualizando sua <a href=\"https://dev.to/matheusgondra/liguagem-c-moderna-e-suas-versoes-4k89\">versão</a>, até a atual <strong>C23</strong>. As ferramentas do ambiente C também evoluíram, e isso que quero mostrar.</p> <h2> Criando projeto </h2> <p>Não vamos c",
+      "title": "DHCP Ports Explained: UDP 67/68 for IPv4 and 546/547 for IPv6",
+      "link": "https://dev.to/__3381495fd2b/dhcp-ports-explained-udp-6768-for-ipv4-and-546547-for-ipv6-b1f",
+      "pubDate": "2026-10-03T05:12:59.000Z",
+      "description": "<p>A device joins a network, asks for an address, and waits. If it never gets a lease, checking whether “DHCP is open” is not enough: DHCP uses different UDP ports for IPv4 and IPv6, and relays can add another leg to the path.</p> <h2> The ports to remember </h2> <div class=\"table-wrapper-paragraph\"",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The Harness Is the Company",
-      "link": "https://blog.sshh.io/p/the-harness-is-the-company",
-      "pubDate": "2026-10-02T21:06:56.000Z",
-      "description": "Article URL: https://blog.sshh.io/p/the-harness-is-the-company Comments URL: https://news.ycombinator.com/item?id=49938616 Points: 13 # Comments: 3",
+      "title": "Extra Big Ass Intelligence",
+      "link": "https://www.extrabigassintelligence.com/",
+      "pubDate": "2026-10-03T03:19:10.000Z",
+      "description": "Article URL: https://www.extrabigassintelligence.com/ Comments URL: https://news.ycombinator.com/item?id=49941114 Points: 41 # Comments: 5",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Zig v0.17.0",
-      "link": "https://ziglang.org/download/0.17.0/release-notes.html",
-      "pubDate": "2026-10-02T20:56:36.000Z",
-      "description": "Article URL: https://ziglang.org/download/0.17.0/release-notes.html Comments URL: https://news.ycombinator.com/item?id=49938521 Points: 107 # Comments: 47",
+      "title": "Cloudflare OHTTP gateway",
+      "link": "https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway/",
+      "pubDate": "2026-10-03T03:15:05.000Z",
+      "description": "Article URL: https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway/ Comments URL: https://news.ycombinator.com/item?id=49941091 Points: 25 # Comments: 6",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Everyone's Packing Up",
-      "link": "https://widdershins.verja.net/everyones-packing-up/",
-      "pubDate": "2026-10-02T20:13:04.000Z",
-      "description": "Article URL: https://widdershins.verja.net/everyones-packing-up/ Comments URL: https://news.ycombinator.com/item?id=49938047 Points: 79 # Comments: 53",
+      "title": "NTSB Preliminary Report: Prime Air 767 Runway Overrun [pdf]",
+      "link": "https://www.ntsb.gov/investigations/Documents/DCA26MA352%20Prelim.pdf",
+      "pubDate": "2026-10-03T01:09:01.000Z",
+      "description": "Article URL: https://www.ntsb.gov/investigations/Documents/DCA26MA352%20Prelim.pdf Comments URL: https://news.ycombinator.com/item?id=49940467 Points: 32 # Comments: 12",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Newgrounds.com – A community of games, music, and art",
+      "link": "https://www.newgrounds.com/",
+      "pubDate": "2026-10-03T00:55:25.000Z",
+      "description": "Article URL: https://www.newgrounds.com/ Comments URL: https://news.ycombinator.com/item?id=49940394 Points: 116 # Comments: 28",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Where Is the Planet",
+      "link": "http://whereistheplanet.com",
+      "pubDate": "2026-10-03T00:26:19.000Z",
+      "description": "Article URL: http://whereistheplanet.com Comments URL: https://news.ycombinator.com/item?id=49940233 Points: 20 # Comments: 1",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Things that apparently cause cancer",
+      "link": "https://www.breakthroughjournal.org/p/things-that-apparently-cause-cancer",
+      "pubDate": "2026-10-03T00:23:11.000Z",
+      "description": "Article URL: https://www.breakthroughjournal.org/p/things-that-apparently-cause-cancer Comments URL: https://news.ycombinator.com/item?id=49940219 Points: 142 # Comments: 55",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -122,10 +146,10 @@
       "category": "Tech News"
     },
     {
-      "title": "GrapheneOS has fixed the Android 17 QPR1 kernel performance regression",
-      "link": "https://discuss.grapheneos.org/d/42511-grapheneos-has-fixed-the-massive-android-17-qpr1-kernel-performance-regression",
-      "pubDate": "2026-10-02T19:45:06.000Z",
-      "description": "Article URL: https://discuss.grapheneos.org/d/42511-grapheneos-has-fixed-the-massive-android-17-qpr1-kernel-performance-regression Comments URL: https://news.ycombinator.com/item?id=49937718 Points: 81 # Comments: 18",
+      "title": "Updates to Full Disk Access in macOS",
+      "link": "https://developer.apple.com/news/?id=p6zjojqw",
+      "pubDate": "2026-10-02T19:37:01.000Z",
+      "description": "Article URL: https://developer.apple.com/news/?id=p6zjojqw Comments URL: https://news.ycombinator.com/item?id=49937631 Points: 162 # Comments: 96",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -133,15 +157,7 @@
       "title": "Muse Gadgets",
       "link": "https://gadgets.muse.ai",
       "pubDate": "2026-10-02T19:26:54.000Z",
-      "description": "Article URL: https://gadgets.muse.ai Comments URL: https://news.ycombinator.com/item?id=49937504 Points: 52 # Comments: 35",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "\"The only intuitive interface is the nipple\" (2012)",
-      "link": "https://www.greenend.org.uk/rjk/misc/nipple.html",
-      "pubDate": "2026-10-02T19:18:12.000Z",
-      "description": "Article URL: https://www.greenend.org.uk/rjk/misc/nipple.html Comments URL: https://news.ycombinator.com/item?id=49937387 Points: 27 # Comments: 31",
+      "description": "Article URL: https://gadgets.muse.ai Comments URL: https://news.ycombinator.com/item?id=49937504 Points: 168 # Comments: 76",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -149,23 +165,7 @@
       "title": "Apple Pass Designer",
       "link": "https://developer.apple.com/pass-designer/",
       "pubDate": "2026-10-02T19:06:56.000Z",
-      "description": "Article URL: https://developer.apple.com/pass-designer/ Comments URL: https://news.ycombinator.com/item?id=49937276 Points: 220 # Comments: 151",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "From the creator of Redis; run LLM locally with ds4",
-      "link": "https://dwarfstar.sh/",
-      "pubDate": "2026-10-02T18:01:16.000Z",
-      "description": "Article URL: https://dwarfstar.sh/ Comments URL: https://news.ycombinator.com/item?id=49936575 Points: 90 # Comments: 16",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "STS-51-F Abort-to-Orbit (1985)",
-      "link": "https://en.wikipedia.org/wiki/STS-51-F",
-      "pubDate": "2026-10-02T16:56:47.000Z",
-      "description": "Today I learned that one Space Shuttle flight (in 1985) successfully used the Abort-to-Orbit recovery plan (changing its flight path in real time in response to an engine failure during ascent). The overall mission continued, accomplished its other objectives, and was considered a success despite th",
+      "description": "Article URL: https://developer.apple.com/pass-designer/ Comments URL: https://news.ycombinator.com/item?id=49937276 Points: 372 # Comments: 232",
       "source": "Hacker News",
       "category": "Tech News"
     },
