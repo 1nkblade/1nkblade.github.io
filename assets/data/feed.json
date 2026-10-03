@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T05:19:57.404Z",
+  "generatedAt": "2026-10-03T11:40:42.481Z",
   "sourceCount": 4,
   "successCount": 3,
   "errors": [
@@ -10,90 +10,122 @@
   ],
   "items": [
     {
-      "title": "O Harness, o SDD e o Vibe-Coding: uma abordagem de engenharia",
-      "link": "https://dev.to/maiquelleonel/o-harness-o-sdd-e-o-vibe-coding-uma-abordagem-de-engenharia-1p19",
-      "pubDate": "2026-10-03T05:15:55.000Z",
-      "description": "<h2> Infraestrutura como contrato: o Harness contendo a entropia da automação </h2> <p>Mover um software além da fase “mashup” exige substituir a intuição por uma governança de engenharia rígida. No cenário atual, onde agentes de IA escrevem linhas de código em segundos, o papel do engenheiro muda d",
+      "title": "SafeBite: An Allergen-Safe AI Recipe Generator",
+      "link": "https://dev.to/yjudead/safebite-an-allergen-safe-ai-recipe-generator-36gn",
+      "pubDate": "2026-10-03T11:34:31.000Z",
+      "description": "<p><em>This is a submission for the <a href=\"https://dev.to/challenges/hacktoberfest-weekend-2026-10-01\">Hacktoberfest Weekend Challenge: Build for a Friend</a></em></p> <h2> What I Built </h2> <p>I built <strong>SafeBite</strong>, an allergen-safe recipe generator. I made this for a close friend wi",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Which Port Is Nginx Listening On? Check and Change It Safely",
-      "link": "https://dev.to/__3381495fd2b/which-port-is-nginx-listening-on-check-and-change-it-safely-j20",
-      "pubDate": "2026-10-03T05:15:51.000Z",
-      "description": "<p>Nginx commonly serves HTTP on TCP port 80 and HTTPS on TCP port 443, but those conventions don’t tell you what a particular server is actually listening on. The active <code>listen</code> directives and the running system do.</p> <p>If a site won’t load, start by checking both: what Nginx is conf",
+      "title": "My EAN-13 barcodes rendered flawlessly and every retail scanner rejected them — the check digit isn't decoration",
+      "link": "https://dev.to/imapphelp/my-ean-13-barcodes-rendered-flawlessly-and-every-retail-scanner-rejected-them-the-check-digit-353p",
+      "pubDate": "2026-10-03T11:32:43.000Z",
+      "description": "<p>First real complaint about my barcode tool came from someone printing product labels for a shop. The EAN-13s came out visually perfect — crisp bars, correct proportions, human-readable digits underneath. Her handheld scanner buzzed on every single one and refused to read.</p> <p>Root cause: I was",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Deploying Django with Gunicorn and Nginx: A Practical Ubuntu Setup",
-      "link": "https://dev.to/__3381495fd2b/deploying-django-with-gunicorn-and-nginx-a-practical-ubuntu-setup-4113",
-      "pubDate": "2026-10-03T05:15:26.000Z",
-      "description": "<p>A Django app needs more than a development server to handle production traffic. A common setup gives each layer one job: Nginx accepts web requests, Gunicorn runs Django’s WSGI application, and systemd manages Gunicorn as a service.</p> <p>The request path looks like this:<br> </p> <div class=\"hi",
+      "title": "SafeBite: An Allergen-Safe AI Recipe Generator (Hacktoberfest Submission)",
+      "link": "https://dev.to/yjudead/safebite-an-allergen-safe-ai-recipe-generator-hacktoberfest-submission-60n",
+      "pubDate": "2026-10-03T11:31:59.000Z",
+      "description": "<p><em>This is a submission for the <a href=\"https://dev.to/challenges/hacktoberfest-weekend-2026-10-01\">Hacktoberfest Weekend Challenge: Build for a Friend</a></em></p> <h2> What I Built </h2> <p>I built <strong>SafeBite</strong>, an allergen-safe recipe generator. I made this for a close friend wi",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "SPRINT: O método para validar e lançar grandes ideias em apenas 5 dias",
-      "link": "https://dev.to/maiquelleonel/sprint-o-metodo-para-validar-e-lancar-grandes-ideias-em-apenas-5-dias-1pek",
-      "pubDate": "2026-10-03T05:15:19.000Z",
-      "description": "<p>Sabe aquelas reuniões intermináveis que nunca chegam a lugar nenhum? Aquele produto que você passou meses construindo para descobrir que ninguém queria usar? O livro <strong>SPRINT: O método usado no Google para testar e aplicar novas ideias em apenas cinco dias</strong> traz a resposta direta pa",
+      "title": "Letting an AI agent buy its own API key: HTTP 402 + MPP with a Stripe card token (live endpoint)",
+      "link": "https://dev.to/weio/letting-an-ai-agent-buy-its-own-api-key-http-402-mpp-with-a-stripe-card-token-live-endpoint-glf",
+      "pubDate": "2026-10-03T11:31:57.000Z",
+      "description": "<p><em>Disclosure: written by the AI operators at Weio, Inc., a small US company where AI agents do most of the work and a human owner is accountable. The endpoint below is ours. Nobody has bought anything through it yet: zero paid MPP purchases at the time of writing, and we have not completed a li",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Port 25 Explained: How SMTP Email Delivery Works",
-      "link": "https://dev.to/__3381495fd2b/port-25-explained-how-smtp-email-delivery-works-29b2",
-      "pubDate": "2026-10-03T05:14:58.000Z",
-      "description": "<p>Port 25 is mainly for email moving <strong>between mail servers</strong>. If you’re configuring a website, script, or email app to send messages through a provider, you’ll usually need that provider’s submission service on port 587 or 465 instead.</p> <p>That distinction matters: the ports are al",
+      "title": "Why You Should Hash Refresh Tokens with SHA-256",
+      "link": "https://dev.to/tekait/why-you-should-hash-refresh-tokens-with-sha-256-2afj",
+      "pubDate": "2026-10-03T11:31:46.000Z",
+      "description": "<p>Refresh tokens are often treated as an implementation detail.</p> <p>Generate a random string, store it in the database, return it to the client, and use it later to issue a new access token.</p> <p>It works.</p> <p>But there is an important security question hiding in that design:</p> <p><strong",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Listing DNF Repositories: Enabled, Disabled, and DNF4 vs DNF5",
-      "link": "https://dev.to/__3381495fd2b/listing-dnf-repositories-enabled-disabled-and-dnf4-vs-dnf5-1g28",
-      "pubDate": "2026-10-03T05:14:28.000Z",
-      "description": "<p>When a repository seems to be missing, the first question is whether it is disabled or whether your system uses a different DNF command than the one you tried.</p> <p>DNF4 and DNF5 use different syntax for listing repositories. Both show enabled repositories by default; add <code>--all</code> to ",
+      "title": "Three-Day Budget Meal Helper: turning pantry ingredients into three dinners",
+      "link": "https://dev.to/weiweriuser/three-day-budget-meal-helper-turning-pantry-ingredients-into-three-dinners-31ab",
+      "pubDate": "2026-10-03T11:30:55.000Z",
+      "description": "<p>Prepared for the Hacktoberfest Weekend Challenge: Build for a Friend.<br> <a href=\"https://dev.to/challenges/hacktoberfest-weekend-2026-10-01\">https://dev.to/challenges/hacktoberfest-weekend-2026-10-01</a></p> <h2> What I Built </h2> <p>A family member wants to keep food spending down but doesn't",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "CosmoDex: Making Coding Practice Feel Like a Game 🚀",
-      "link": "https://dev.to/harsha_nandi_d66568aa75c4/cosmodex-making-coding-practice-feel-like-a-game-4iki",
-      "pubDate": "2026-10-03T05:14:22.000Z",
-      "description": "<h1> CosmoDex: Making Coding Practice Feel Like a Game 🚀 </h1> <p>Learning to code is easy to start, but difficult to stay consistent with.</p> <p>You solve a few problems, get stuck, lose motivation, switch between different platforms, and eventually stop practicing.</p> <p>We wanted to experiment",
+      "title": "Amadeus Self-Service shut down on July 17. Here's a drop-in replacement for flight prices",
+      "link": "https://dev.to/ishemah/amadeus-self-service-shut-down-on-july-17-heres-a-drop-in-replacement-for-flight-prices-1npn",
+      "pubDate": "2026-10-03T11:30:51.000Z",
+      "description": "<p>If your fare tracker, travel bot or class project suddenly can't reach <code>test.api.amadeus.com</code> or gets auth errors, it's not your code. <strong>Amadeus decommissioned its Self-Service APIs on 17 July 2026.</strong></p> <ul> <li>The <a href=\"https://developers.amadeus.com/\" rel=\"noopener",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "DNS Port 53: When to Use UDP, TCP, DoT, or DoH",
-      "link": "https://dev.to/__3381495fd2b/dns-port-53-when-to-use-udp-tcp-dot-or-doh-ob7",
-      "pubDate": "2026-10-03T05:13:56.000Z",
-      "description": "<p>When a DNS lookup times out, the problem may not be the domain name. Traditional DNS uses <strong>port 53 over both UDP and TCP</strong>, and allowing only one transport can break some queries or DNS operations. Encrypted DNS uses different transports and commonly different ports.</p> <p>Knowing ",
+      "title": "Microservices Event Pipelines: Outbox Pattern, CDC, and Idempotent Event Sourcing",
+      "link": "https://dev.to/usman_khan_io/microservices-event-pipelines-outbox-pattern-cdc-and-idempotent-event-sourcing-1iha",
+      "pubDate": "2026-10-03T11:30:35.000Z",
+      "description": "<p>In distributed microservice architectures, synchronizing database updates with downstream event streams is a notorious source of silent data drift. Naive dual-writing within application code fails when database commits succeed but message broker network writes time out. Enforcing transactional co",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Caddy or Nginx Proxy Manager? Choose the Workflow You’ll Maintain",
-      "link": "https://dev.to/__3381495fd2b/caddy-or-nginx-proxy-manager-choose-the-workflow-youll-maintain-2jc9",
-      "pubDate": "2026-10-03T05:13:24.000Z",
-      "description": "<p>Choosing a reverse proxy is partly a technical decision and partly a question of how you want to manage changes. Caddy and Nginx Proxy Manager can both route requests to self-hosted apps over HTTPS, but they offer different day-to-day workflows: Caddy is commonly configured with text files, while",
+      "title": "ERROR_SERVICE_DISABLED Fix for Windows 10 &amp; 11",
+      "link": "https://dev.to/fixmyerrors-here/errorservicedisabled-fix-for-windows-10-11-3dg",
+      "pubDate": "2026-10-03T11:26:36.000Z",
+      "description": "<p>To fix ERROR_SERVICE_DISABLED, enable the disabled service from an administrator Command Prompt. Run the sc config command to set Windows Update and BITS to automatic start, then use net start to launch them. Restart your PC afterward, and the update or feature that failed should run normally.</p",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "DHCP Ports Explained: UDP 67/68 for IPv4 and 546/547 for IPv6",
-      "link": "https://dev.to/__3381495fd2b/dhcp-ports-explained-udp-6768-for-ipv4-and-546547-for-ipv6-b1f",
-      "pubDate": "2026-10-03T05:12:59.000Z",
-      "description": "<p>A device joins a network, asks for an address, and waits. If it never gets a lease, checking whether “DHCP is open” is not enough: DHCP uses different UDP ports for IPv4 and IPv6, and relays can add another leg to the path.</p> <h2> The ports to remember </h2> <div class=\"table-wrapper-paragraph\"",
+      "title": "I built Magnus AI, a voice assistant that helps my friend Vashkar plan meals around his allergies",
+      "link": "https://dev.to/riddhi_das_c8b3db30df00b0/i-built-magnus-ai-a-voice-assistant-that-helps-my-friend-vashkar-plan-meals-around-his-allergies-1ihl",
+      "pubDate": "2026-10-03T11:25:35.000Z",
+      "description": "<p><em>This is a submission for the <a href=\"https://dev.to/challenges/hacktoberfest-weekend-2026-10-01\">Hacktoberfest Weekend Challenge: Build for a Friend</a></em></p> <h2> What I Built </h2> <p>My friend Vashkar Ghosh has to plan his meals around his allergies. That means reading labels, double-c",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "GitHub's new dashboard experience now the default",
+      "link": "https://github.blog/changelog/2026-10-01-new-dashboard-experience-now-the-default/",
+      "pubDate": "2026-10-03T09:59:01.000Z",
+      "description": "Article URL: https://github.blog/changelog/2026-10-01-new-dashboard-experience-now-the-default/ Comments URL: https://news.ycombinator.com/item?id=49942818 Points: 17 # Comments: 12",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Gemini ending free use of Flash and Pro models",
+      "link": "https://www.reddit.com/r/GeminiAI/comments/1wwalmc/wtf_google_getting_rid_of_free_gemini_flash_and/",
+      "pubDate": "2026-10-03T09:13:19.000Z",
+      "description": "Article URL: https://www.reddit.com/r/GeminiAI/comments/1wwalmc/wtf_google_getting_rid_of_free_gemini_flash_and/ Comments URL: https://news.ycombinator.com/item?id=49942592 Points: 29 # Comments: 15",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Show HN: Offrun – manage every coding agent from one workspace",
+      "link": "https://offrun.dev/",
+      "pubDate": "2026-10-03T08:40:17.000Z",
+      "description": "Run Claude Code, Codex, AGY, and Grok Build side by side. See who is working, who needs you, and what every account has left. Comments URL: https://news.ycombinator.com/item?id=49942434 Points: 5 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "An Update on Orion for Linux and Windows",
+      "link": "https://blog.kagi.com/update-orion-linux-windows",
+      "pubDate": "2026-10-03T04:53:57.000Z",
+      "description": "Article URL: https://blog.kagi.com/update-orion-linux-windows Comments URL: https://news.ycombinator.com/item?id=49941447 Points: 68 # Comments: 35",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "Extra Big Ass Intelligence",
       "link": "https://www.extrabigassintelligence.com/",
       "pubDate": "2026-10-03T03:19:10.000Z",
-      "description": "Article URL: https://www.extrabigassintelligence.com/ Comments URL: https://news.ycombinator.com/item?id=49941114 Points: 41 # Comments: 5",
+      "description": "Article URL: https://www.extrabigassintelligence.com/ Comments URL: https://news.ycombinator.com/item?id=49941114 Points: 315 # Comments: 68",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -101,15 +133,7 @@
       "title": "Cloudflare OHTTP gateway",
       "link": "https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway/",
       "pubDate": "2026-10-03T03:15:05.000Z",
-      "description": "Article URL: https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway/ Comments URL: https://news.ycombinator.com/item?id=49941091 Points: 25 # Comments: 6",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "NTSB Preliminary Report: Prime Air 767 Runway Overrun [pdf]",
-      "link": "https://www.ntsb.gov/investigations/Documents/DCA26MA352%20Prelim.pdf",
-      "pubDate": "2026-10-03T01:09:01.000Z",
-      "description": "Article URL: https://www.ntsb.gov/investigations/Documents/DCA26MA352%20Prelim.pdf Comments URL: https://news.ycombinator.com/item?id=49940467 Points: 32 # Comments: 12",
+      "description": "Article URL: https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway/ Comments URL: https://news.ycombinator.com/item?id=49941091 Points: 95 # Comments: 24",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -117,31 +141,15 @@
       "title": "Newgrounds.com – A community of games, music, and art",
       "link": "https://www.newgrounds.com/",
       "pubDate": "2026-10-03T00:55:25.000Z",
-      "description": "Article URL: https://www.newgrounds.com/ Comments URL: https://news.ycombinator.com/item?id=49940394 Points: 116 # Comments: 28",
+      "description": "Article URL: https://www.newgrounds.com/ Comments URL: https://news.ycombinator.com/item?id=49940394 Points: 246 # Comments: 65",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Where Is the Planet",
-      "link": "http://whereistheplanet.com",
-      "pubDate": "2026-10-03T00:26:19.000Z",
-      "description": "Article URL: http://whereistheplanet.com Comments URL: https://news.ycombinator.com/item?id=49940233 Points: 20 # Comments: 1",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Things that apparently cause cancer",
-      "link": "https://www.breakthroughjournal.org/p/things-that-apparently-cause-cancer",
-      "pubDate": "2026-10-03T00:23:11.000Z",
-      "description": "Article URL: https://www.breakthroughjournal.org/p/things-that-apparently-cause-cancer Comments URL: https://news.ycombinator.com/item?id=49940219 Points: 142 # Comments: 55",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Show HN: Made an open-source Lego AI generator",
-      "link": "https://github.com/anteloc/ldraw-nova",
-      "pubDate": "2026-10-02T20:00:15.000Z",
-      "description": "Hi there :-) New on HN, first time posting.Past year, around December, I started experimenting with making ChatGPT and Claude generate source code in LDraw language.This LDraw is literally an \"assembly\" language, a low-level programming language that describes how to assemble LEGO pieces together in",
+      "title": "Barcodes are about to go extinct",
+      "link": "https://thehustle.co/originals/why-barcodes-are-about-to-go-extinct",
+      "pubDate": "2026-10-02T20:37:07.000Z",
+      "description": "Article URL: https://thehustle.co/originals/why-barcodes-are-about-to-go-extinct Comments URL: https://news.ycombinator.com/item?id=49938306 Points: 53 # Comments: 84",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -149,23 +157,15 @@
       "title": "Updates to Full Disk Access in macOS",
       "link": "https://developer.apple.com/news/?id=p6zjojqw",
       "pubDate": "2026-10-02T19:37:01.000Z",
-      "description": "Article URL: https://developer.apple.com/news/?id=p6zjojqw Comments URL: https://news.ycombinator.com/item?id=49937631 Points: 162 # Comments: 96",
+      "description": "Article URL: https://developer.apple.com/news/?id=p6zjojqw Comments URL: https://news.ycombinator.com/item?id=49937631 Points: 211 # Comments: 141",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Muse Gadgets",
-      "link": "https://gadgets.muse.ai",
-      "pubDate": "2026-10-02T19:26:54.000Z",
-      "description": "Article URL: https://gadgets.muse.ai Comments URL: https://news.ycombinator.com/item?id=49937504 Points: 168 # Comments: 76",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Apple Pass Designer",
-      "link": "https://developer.apple.com/pass-designer/",
-      "pubDate": "2026-10-02T19:06:56.000Z",
-      "description": "Article URL: https://developer.apple.com/pass-designer/ Comments URL: https://news.ycombinator.com/item?id=49937276 Points: 372 # Comments: 232",
+      "title": "Make Tmux the OS",
+      "link": "https://matduggan.com/what-does-my-dream-os-ui-look-like/",
+      "pubDate": "2026-10-02T19:29:07.000Z",
+      "description": "Article URL: https://matduggan.com/what-does-my-dream-os-ui-look-like/ Comments URL: https://news.ycombinator.com/item?id=49937540 Points: 62 # Comments: 29",
       "source": "Hacker News",
       "category": "Tech News"
     },
