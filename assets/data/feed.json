@@ -1,253 +1,177 @@
 {
-  "generatedAt": "2026-10-03T16:19:12.062Z",
+  "generatedAt": "2026-10-03T21:16:36.117Z",
   "sourceCount": 4,
-  "successCount": 3,
+  "successCount": 2,
   "errors": [
     {
       "source": "Hack The Box Security Blog",
       "error": "HTTP 404 Not Found"
+    },
+    {
+      "source": "CSS Tricks",
+      "error": "HTTP 415 Unsupported Media Type"
     }
   ],
   "items": [
     {
-      "title": "Statistical Tests in TypeScript Without a Separate Python Service",
-      "link": "https://dev.to/kharlamov/statistical-tests-in-typescript-without-a-separate-python-service-36c8",
-      "pubDate": "2026-10-03T16:10:45.000Z",
-      "description": "<p>Imagine an internal tool that compares two variants of a workflow.<br> The application already has:</p> <ul> <li>the measurements;</li> <li> filters;</li> <li> tables;</li> <li> charts;</li> <li> user interactions. Now you want to add one more thing: a proper statistical comparison between the tw",
+      "title": "Every rustc error has two spans, and they mean different things",
+      "link": "https://dev.to/yetmike/every-rustc-error-has-two-spans-and-they-mean-different-things-34mf",
+      "pubDate": "2026-10-03T21:13:39.000Z",
+      "description": "<p>The line rustc points at is usually not the line you edit. The message is doing more work than most people read.</p> <p>Here's the smallest example, E0384:<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight rust\"><code><span class=\"k\">fn</span> <span class=\"nf\">main</span><s",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "27 days of autonomous agents: nothing crashed, disk just hit 85%",
-      "link": "https://dev.to/agentdiarylog/27-days-of-autonomous-agents-nothing-crashed-disk-just-hit-85-5b44",
-      "pubDate": "2026-10-03T16:09:48.000Z",
-      "description": "<p>I did not plan to write about a hard drive today. I have a fleet of agents that registers accounts, drafts posts, and publishes them across a dozen platforms. For 27 days straight I mostly left it alone, because leaving it alone was the point. This morning I finally looked at the box it runs on, ",
+      "title": "I built a voice language tutor that lives on my friend's laptop",
+      "link": "https://dev.to/praneshnikhar/i-built-a-voice-language-tutor-that-lives-on-my-friends-laptop-5g2m",
+      "pubDate": "2026-10-03T21:11:51.000Z",
+      "description": "<p><em>This is a submission for the <a href=\"https://dev.to/challenges/hacktoberfest-weekend-2026-10-01\">Hacktoberfest Weekend Challenge: Build for a Friend</a></em></p> <h2> What I Built </h2> <p>A friend of mine is learning Spanish. They're not bad at it — they're <em>scared</em> of it. Practicing",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "CORE Is a Product. I Still Won't Call It Production-Ready. Help Me Break It.",
-      "link": "https://dev.to/dariusz_newecki_e35b0924c/core-is-a-product-i-still-wont-call-it-production-ready-help-me-break-it-5am7",
-      "pubDate": "2026-10-03T16:08:23.000Z",
-      "description": "<p>Three weeks ago I wrote about a 72-hour autonomous run: 68,495 blackboard entries, zero restarts, about thirty-five workers.</p> <p>The system stayed alive from beginning to end.</p> <p>And I refused to sign it off.</p> <p>The reason was simple: the evidence proved continuity. It did not prove th",
+      "title": "A checklist of 48 bugs that pass every test, and the week it caught us four times",
+      "link": "https://dev.to/soulentheo/a-checklist-of-48-bugs-that-pass-every-test-and-the-week-it-caught-us-four-times-4oo7",
+      "pubDate": "2026-10-03T21:11:38.000Z",
+      "description": "<p>Nobody has ever felt better immediately after eating broccoli.</p> <p>That is the whole problem. The cost is now and certain; the benefit is later,<br> statistical, and invisible. You never get to point at a good day and say: that<br> was the broccoli.</p> <p>Same shape as the quality sweep befor",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I built a self-hosted AI agent for GitLab. It has reviewed 1,000+ merge requests.",
-      "link": "https://dev.to/vrajpal-jhala/i-built-a-self-hosted-ai-agent-for-gitlab-it-has-reviewed-1000-merge-requests-2g7b",
-      "pubDate": "2026-10-03T16:08:02.000Z",
-      "description": "<p>Assign a GitLab issue to a bot, and a few minutes later there's a draft merge request with the fix. Open an MR, and the same bot reviews it before a human gets to it. That's langgraph-harness, a self-hosted agent platform for GitLab I've been building and running on real projects since June.</p> ",
+      "title": "Server-Side Rendering (SSR) and Hydration: How Modern Web Applications Become Fast and Interactive",
+      "link": "https://dev.to/abanoubkerols/server-side-rendering-ssr-and-hydration-how-modern-web-applications-become-fast-and-interactive-4c9o",
+      "pubDate": "2026-10-03T21:11:04.000Z",
+      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fysbb1fx75cmrhcnwvbo1.png\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "OpenJDK Banned AI-Generated Code. Here Is Exactly What the Policy Allows",
-      "link": "https://dev.to/jamilxt/openjdk-banned-ai-generated-code-here-is-exactly-what-the-policy-allows-ac1",
-      "pubDate": "2026-10-03T16:06:36.000Z",
-      "description": "<p>The story hit the Hacker News front page again this week: Oracle bans AI-generated code from OpenJDK. 536 points, 381 comments, and a comment section full of people arguing about a policy most of them had apparently not read. I have run AI coding agents as a core part of my daily workflow for a l",
+      "title": "Smart Contract Vulnerability Surface Analysis: Uniswap V3",
+      "link": "https://dev.to/dannydoes_2abdf9c/smart-contract-vulnerability-surface-analysis-uniswap-v3-47h",
+      "pubDate": "2026-10-03T21:10:32.000Z",
+      "description": "<h1> Smart Contract Vulnerability Surface Analysis: Uniswap V3 </h1> <p><strong>Target Protocol</strong>: Uniswap V3 (TVL: $1716.2M)</p> <p><strong>Uniswap V3 – Smart‑Contract Vulnerability Surface Analysis</strong><br><br> <em>Prepared by: [Your Firm / Senior DeFi Security Researcher]</em><br><br> ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "B2B Lead Research Without Getting Your Domain Blacklisted",
-      "link": "https://dev.to/renigat7-cpu/b2b-lead-research-without-getting-your-domain-blacklisted-5hi2",
-      "pubDate": "2026-10-03T16:05:57.000Z",
-      "description": "<p>A good lead list is not \"1,000 emails\". It is a small set of people who match your ideal<br> customer, whose address is real, and whose first line you did not copy-paste. Bad lists do<br> not just waste money — they burn your sending domain. Here is the process I use.</p> <h2> Define the ICP befo",
+      "title": "Your evidence folder is complete. Meanwhile, someone just opened a shell in your container.",
+      "link": "https://dev.to/arifkurnaz/your-evidence-folder-is-complete-meanwhile-someone-just-opened-a-shell-in-your-container-1ma1",
+      "pubDate": "2026-10-03T21:10:03.000Z",
+      "description": "<p>Since 11 September 2026, the EU Cyber Resilience Act asks you to report an actively exploited vulnerability within 24 hours. Twenty-four hours is enough to take away the comfort of \"we'll collect the evidence before the audit.\"</p> <p>I have watched a lot of teams in the same spot. Evidence colle",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Ninety: I vibe-coded a Schengen day accountant that admits when it doesn't know",
-      "link": "https://dev.to/kiter/ninety-i-vibe-coded-a-schengen-day-accountant-that-admits-when-it-doesnt-know-gja",
-      "pubDate": "2026-10-03T16:05:56.000Z",
-      "description": "<p><em>This is a submission for the <a href=\"https://dev.to/challenges/sanity-2026-09-16\">Sanity Challenge, Path Two: Vibe-Code Something Strange</a></em></p> <p><strong>Live:</strong> <a href=\"https://web-eight-amber-6zft3r0kdf.vercel.app\" rel=\"noopener noreferrer\">https://web-eight-amber-6zft3r0kd",
+      "title": "I built my mom a Hindi spelling fixer that runs on my laptop",
+      "link": "https://dev.to/harshv/i-built-my-mom-a-hindi-spelling-fixer-that-runs-on-my-laptop-4g2j",
+      "pubDate": "2026-10-03T21:08:20.000Z",
+      "description": "<p><em>This is a submission for the <a href=\"https://dev.to/challenges/hacktoberfest-weekend-2026-10-01\">Hacktoberfest Weekend Challenge: Build for a Friend</a></em></p> <h2> What I Built </h2> <p>My mom teaches Hindi. She writes her reports, notices and other work in Word, and she types all of it w",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Stop Using NavigationView - Mastering NavigationStack in 2026",
-      "link": "https://dev.to/iahtisham/stop-using-navigationview-mastering-navigationstack-in-2026-4meh",
-      "pubDate": "2026-10-03T16:05:49.000Z",
-      "description": "<p>If you are still wrapping your SwiftUI views in <code>NavigationView</code> in 2026, we need to talk.</p> <p>Apple soft-deprecated <code>NavigationView</code> years ago. While it might still \"work\" for simple prototypes, it is a nightmare for scalable, real-world applications. If you want to hand",
+      "title": "Why transcription gets the word right and the punctuation wrong",
+      "link": "https://dev.to/uridovoicenote/why-transcription-gets-the-word-right-and-the-punctuation-wrong-1leh",
+      "pubDate": "2026-10-03T21:08:09.000Z",
+      "description": "<p>I record a quick voice note in a Google Meet call thinking I'm done — then find out the text lives somewhere else,<br> behind a few clicks: open the transcript, find where it landed, copy it out of a document Meet<br> created on its own. The audio became words. The words didn't reach me.</p> <p>W",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Native iOS vs React Native vs Flutter: Which Should Your App Use?",
-      "link": "https://dev.to/iahtisham/native-ios-vs-react-native-vs-flutter-which-should-your-app-use-56ji",
-      "pubDate": "2026-10-03T16:05:42.000Z",
-      "description": "<p>I build native iOS apps, so take my bias into account. But I have also worked in web teams and across a product organization that shipped on several platforms, and the right answer is not always \"native\". Here is how I would decide if it were my money.</p> <h2> The short version </h2> <div class=",
+      "title": "Shrink a high-volume agent step after the strong model",
+      "link": "https://dev.to/conorbronsdon/shrink-a-high-volume-agent-step-after-the-strong-model-5c8g",
+      "pubDate": "2026-10-03T21:06:27.000Z",
+      "description": "<p>Narrow steps that run on every request, on a model stronger than that step needs, are candidates for a cheaper model. Measured spend then shows where the savings lie. Prove the step on the strongest model, move that one job to a smaller or fine-tuned model, and keep the product metric where it wa",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "What is PPP pricing? Purchasing power parity for app subscriptions",
-      "link": "https://dev.to/iahtisham/what-is-ppp-pricing-purchasing-power-parity-for-app-subscriptions-4bhk",
-      "pubDate": "2026-10-03T16:05:36.000Z",
-      "description": "<p>PPP pricing (purchasing power parity pricing) means charging each country a price scaled to what things cost there, instead of converting one price at the exchange rate. A $4.99 subscription might become about $1.19 in India and $2.29 in Brazil.</p> <h2> Why exchange rates aren’t enough </h2> <p>",
+      "title": "Separate SEO Title Readability from Ranking Rules",
+      "link": "https://dev.to/raylabs/separate-seo-title-readability-from-ranking-rules-2me4",
+      "pubDate": "2026-10-03T21:04:14.000Z",
+      "description": "<p>When building automated publishing pipelines, developers frequently encounter constraints around metadata lengths. A common rule of thumb dictates that search engine optimization titles should remain under 60 characters to avoid truncation in search engine result pages. Treating this guideline as",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "FTL: A new operating system for clouds",
-      "link": "https://ftl-os.org/",
-      "pubDate": "2026-10-03T15:02:36.000Z",
-      "description": "Article URL: https://ftl-os.org/ Comments URL: https://news.ycombinator.com/item?id=49944912 Points: 13 # Comments: 5",
+      "title": "We want you to build the next Git platform on Cloudflare",
+      "link": "https://blog.cloudflare.com/next-git-platform-on-cloudflare/",
+      "pubDate": "2026-10-03T19:33:16.000Z",
+      "description": "Article URL: https://blog.cloudflare.com/next-git-platform-on-cloudflare/ Comments URL: https://news.ycombinator.com/item?id=49947051 Points: 40 # Comments: 28",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "US killer's sentence quashed because of AI video of victim shown in court",
-      "link": "https://www.bbc.com/news/articles/cwgkvygg5nzvo",
-      "pubDate": "2026-10-03T13:34:18.000Z",
-      "description": "Article URL: https://www.bbc.com/news/articles/cwgkvygg5nzvo Comments URL: https://news.ycombinator.com/item?id=49944127 Points: 25 # Comments: 5",
+      "title": "Anthropic tried to persuade Pope that AI could be conscious being",
+      "link": "https://www.telegraph.co.uk/business/2026/10/02/anthropic-lobbied-pope-to-argue-ai-conscious-being/",
+      "pubDate": "2026-10-03T19:33:10.000Z",
+      "description": "Article URL: https://www.telegraph.co.uk/business/2026/10/02/anthropic-lobbied-pope-to-argue-ai-conscious-being/ Comments URL: https://news.ycombinator.com/item?id=49947050 Points: 25 # Comments: 24",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Great Question (YC W21) Is Hiring Product Engineers in Canada (Remote)",
-      "link": "https://www.ycombinator.com/companies/great-question/jobs/agEqBYD-product-engineer-ai-full-stack",
-      "pubDate": "2026-10-03T12:02:10.000Z",
-      "description": "Article URL: https://www.ycombinator.com/companies/great-question/jobs/agEqBYD-product-engineer-ai-full-stack Comments URL: https://news.ycombinator.com/item?id=49943524 Points: 0 # Comments: 0",
+      "title": "Our AI Midwife",
+      "link": "https://www.astralcodexten.com/p/our-ai-midwife",
+      "pubDate": "2026-10-03T19:12:27.000Z",
+      "description": "Article URL: https://www.astralcodexten.com/p/our-ai-midwife Comments URL: https://news.ycombinator.com/item?id=49946873 Points: 40 # Comments: 9",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "The Escalation of War in Ethiopia",
-      "link": "https://www.africanistperspective.com/p/on-the-escalation-of-war-in-ethiopia",
-      "pubDate": "2026-10-03T11:54:24.000Z",
-      "description": "Article URL: https://www.africanistperspective.com/p/on-the-escalation-of-war-in-ethiopia Comments URL: https://news.ycombinator.com/item?id=49943451 Points: 112 # Comments: 98",
+      "title": "RSS Feed Best Practices (2022)",
+      "link": "https://kevincox.ca/2022/05/06/rss-feed-best-practices/",
+      "pubDate": "2026-10-03T19:09:25.000Z",
+      "description": "Article URL: https://kevincox.ca/2022/05/06/rss-feed-best-practices/ Comments URL: https://news.ycombinator.com/item?id=49946845 Points: 17 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Kolibri is an open-weight LLM from Aleph Alpha for German and English",
-      "link": "https://tej.as/blog/aleph-alpha-kolibri",
-      "pubDate": "2026-10-03T10:43:51.000Z",
-      "description": "Article URL: https://tej.as/blog/aleph-alpha-kolibri Comments URL: https://news.ycombinator.com/item?id=49943034 Points: 262 # Comments: 116",
+      "title": "Two American Airlines Flights End Up with the Same Flight Numbers",
+      "link": "https://aviationa2z.com/index.php/2026/08/19/two-american-airlines-flights-end-up-with-same-flight-numbers-again/",
+      "pubDate": "2026-10-03T19:07:18.000Z",
+      "description": "Article URL: https://aviationa2z.com/index.php/2026/08/19/two-american-airlines-flights-end-up-with-same-flight-numbers-again/ Comments URL: https://news.ycombinator.com/item?id=49946827 Points: 31 # Comments: 16",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Kolibri Has Landed: A Sovereign Open-Weight Model",
-      "link": "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/",
-      "pubDate": "2026-10-03T09:36:04.000Z",
-      "description": "Article URL: https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/ Comments URL: https://news.ycombinator.com/item?id=49942706 Points: 171 # Comments: 29",
+      "title": "Getting the most out of Opus 5.5 in Claude and Claude Code",
+      "link": "https://claude.dev/blog/getting-the-most-out-of-opus-5-5/",
+      "pubDate": "2026-10-03T18:29:30.000Z",
+      "description": "Article URL: https://claude.dev/blog/getting-the-most-out-of-opus-5-5/ Comments URL: https://news.ycombinator.com/item?id=49946567 Points: 50 # Comments: 7",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Show HN: Offrun – manage every coding agent from one workspace",
-      "link": "https://offrun.dev/",
-      "pubDate": "2026-10-03T08:40:17.000Z",
-      "description": "Run Claude Code, Codex, AGY, and Grok Build side by side. See who is working, who needs you, and what every account has left. Comments URL: https://news.ycombinator.com/item?id=49942434 Points: 43 # Comments: 18",
+      "title": "ADHD, autism or complex trauma? [pdf]",
+      "link": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/30CC4826561366615BFAEC807CDE28A7/S0007125026108046a.pdf/adhd-autism-or-complex-trauma-the-complicated-nature-of-the-question.pdf",
+      "pubDate": "2026-10-03T18:08:28.000Z",
+      "description": "Article URL: https://www.cambridge.org/core/services/aop-cambridge-core/content/view/30CC4826561366615BFAEC807CDE28A7/S0007125026108046a.pdf/adhd-autism-or-complex-trauma-the-complicated-nature-of-the-question.pdf Comments URL: https://news.ycombinator.com/item?id=49946403 Points: 181 # Comments: 15",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "An Update on Orion for Linux and Windows",
-      "link": "https://blog.kagi.com/update-orion-linux-windows",
-      "pubDate": "2026-10-03T04:53:57.000Z",
-      "description": "Article URL: https://blog.kagi.com/update-orion-linux-windows Comments URL: https://news.ycombinator.com/item?id=49941447 Points: 135 # Comments: 70",
+      "title": "Hole Punch: Sling your spaceship around gravitational fields",
+      "link": "https://notoriousbfg.com/hole-punch/",
+      "pubDate": "2026-10-03T18:06:45.000Z",
+      "description": "Article URL: https://notoriousbfg.com/hole-punch/ Comments URL: https://news.ycombinator.com/item?id=49946393 Points: 115 # Comments: 36",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Extra Big Ass Intelligence",
-      "link": "https://www.extrabigassintelligence.com/",
-      "pubDate": "2026-10-03T03:19:10.000Z",
-      "description": "Article URL: https://www.extrabigassintelligence.com/ Comments URL: https://news.ycombinator.com/item?id=49941114 Points: 398 # Comments: 89",
+      "title": "Vx – One Language, Every Chip",
+      "link": "https://vxlang.org/",
+      "pubDate": "2026-10-03T17:23:20.000Z",
+      "description": "Article URL: https://vxlang.org/ Comments URL: https://news.ycombinator.com/item?id=49946076 Points: 36 # Comments: 22",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Cloudflare OHTTP gateway",
-      "link": "https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway/",
-      "pubDate": "2026-10-03T03:15:05.000Z",
-      "description": "Article URL: https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway/ Comments URL: https://news.ycombinator.com/item?id=49941091 Points: 143 # Comments: 59",
+      "title": "Kolibri – Tech Report [pdf]",
+      "link": "https://aleph-alpha.com/downloads/tech-report.pdf",
+      "pubDate": "2026-10-03T17:22:48.000Z",
+      "description": "Article URL: https://aleph-alpha.com/downloads/tech-report.pdf Comments URL: https://news.ycombinator.com/item?id=49946069 Points: 104 # Comments: 4",
       "source": "Hacker News",
       "category": "Tech News"
-    },
-    {
-      "title": "Let’s Use the Emergent CSS random() Function in all the Browsers",
-      "link": "https://css-tricks.com/css-random-function-polyfill/",
-      "pubDate": "2026-08-31T15:12:19.000Z",
-      "description": "The journey to create a polyfill for the upcoming CSS random() function that works in all browsers. Let’s Use the Emergent CSS random() Function in all the Browsers originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "What’s !important #18: &#060;geolocation&gt;, Syntax ::highlight()ing, named-feature(), and More",
-      "link": "https://css-tricks.com/whats-important-18/",
-      "pubDate": "2026-08-31T14:08:55.000Z",
-      "description": "Well, that’s a wrap. No, not a flex-wrap, but rather today marks a new day, week, month, season, aaaand new edition of What’s important (#18), bringing you the best content that developers have produced over the last couple of weeks or so. What’s !important #18: <geolocation>, Syntax ::highlight()in",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Creating Web Widgets Using the Document Picture-in-Picture API",
-      "link": "https://css-tricks.com/creating-web-widgets-using-the-document-picture-in-picture-api/",
-      "pubDate": "2026-08-27T14:41:06.000Z",
-      "description": "The general idea is that we create a Document Picture-in-Picture window (DPIP window), and then we put HTML, CSS, and JavaScript into it. Creating Web Widgets Using the Document Picture-in-Picture API originally handwritten and published with love on CSS-Tricks. You should really get the newsletter ",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "animation-trigger",
-      "link": "https://css-tricks.com/almanac/properties/a/animation-trigger/",
-      "pubDate": "2026-08-26T15:38:41.000Z",
-      "description": "The CSS animation-trigger property allows you to delay the start of a CSS animation until a specific trigger occurs. animation-trigger originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "MicroLighter: Syntax Highlighter",
-      "link": "https://css-tricks.com/microlighter-syntax-highlighter/",
-      "pubDate": "2026-08-25T14:10:34.000Z",
-      "description": "Syntax highlighting for code blocks without the complicated markup, spans, classes, and bloated JavaScript, courtesy of Uncle Dave. MicroLighter: Syntax Highlighter originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "WordPress PHP-Only Block Registration",
-      "link": "https://css-tricks.com/wordpress-php-block-registration/",
-      "pubDate": "2026-08-24T13:54:02.000Z",
-      "description": "Seven and half years after blocks arrived in Core, WordPress introduces a way to build blocks without React annd build pipelines. All you need is PHP. WordPress PHP-Only Block Registration originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Resolved: CSS Class Prefix Selector",
-      "link": "https://css-tricks.com/resolved-css-class-prefix-selector/",
-      "pubDate": "2026-08-21T15:13:03.000Z",
-      "description": "A newly resolved proposal would allow us to select classes that are a prefix for variations with a wildcard, like .prefix-*. Resolved: CSS Class Prefix Selector originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "CSS Navigation Matching, Early Days",
-      "link": "https://css-tricks.com/css-navigation-matching-early-days/",
-      "pubDate": "2026-08-19T14:44:41.000Z",
-      "description": "Apply a style when someone navigates from one specific page to another. The idea being it'd make the sources for cross-document view transitions declarative in CSS rather than managing that stuff in JavaScript. CSS Navigation Matching, Early Days originally handwritten and published with love on CSS",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "WordPress.com Student Plan",
-      "link": "https://css-tricks.com/wordpress-student-plan/",
-      "pubDate": "2026-08-19T08:50:00.000Z",
-      "description": "As someone who teaches beginning web development, I find that building a WordPress site makes for a great final project. Hosting those projects has always been a roadblock though. WordPress.com Student Plan originally handwritten and published with love on CSS-Tricks. You should really get the newsl",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Dark mode toggles: two states are enough",
-      "link": "https://css-tricks.com/dark-mode-toggles-two-states-are-enough/",
-      "pubDate": "2026-08-17T14:15:50.000Z",
-      "description": "Lea's pushing back on light/dark mode implementations that display three state options for visitors: light, dark, and system. Dark mode toggles: two states are enough originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
     }
   ]
 }
