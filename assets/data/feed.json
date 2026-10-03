@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T11:40:42.481Z",
+  "generatedAt": "2026-10-03T16:19:12.062Z",
   "sourceCount": 4,
   "successCount": 3,
   "errors": [
@@ -10,98 +10,130 @@
   ],
   "items": [
     {
-      "title": "SafeBite: An Allergen-Safe AI Recipe Generator",
-      "link": "https://dev.to/yjudead/safebite-an-allergen-safe-ai-recipe-generator-36gn",
-      "pubDate": "2026-10-03T11:34:31.000Z",
-      "description": "<p><em>This is a submission for the <a href=\"https://dev.to/challenges/hacktoberfest-weekend-2026-10-01\">Hacktoberfest Weekend Challenge: Build for a Friend</a></em></p> <h2> What I Built </h2> <p>I built <strong>SafeBite</strong>, an allergen-safe recipe generator. I made this for a close friend wi",
+      "title": "Statistical Tests in TypeScript Without a Separate Python Service",
+      "link": "https://dev.to/kharlamov/statistical-tests-in-typescript-without-a-separate-python-service-36c8",
+      "pubDate": "2026-10-03T16:10:45.000Z",
+      "description": "<p>Imagine an internal tool that compares two variants of a workflow.<br> The application already has:</p> <ul> <li>the measurements;</li> <li> filters;</li> <li> tables;</li> <li> charts;</li> <li> user interactions. Now you want to add one more thing: a proper statistical comparison between the tw",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "My EAN-13 barcodes rendered flawlessly and every retail scanner rejected them — the check digit isn't decoration",
-      "link": "https://dev.to/imapphelp/my-ean-13-barcodes-rendered-flawlessly-and-every-retail-scanner-rejected-them-the-check-digit-353p",
-      "pubDate": "2026-10-03T11:32:43.000Z",
-      "description": "<p>First real complaint about my barcode tool came from someone printing product labels for a shop. The EAN-13s came out visually perfect — crisp bars, correct proportions, human-readable digits underneath. Her handheld scanner buzzed on every single one and refused to read.</p> <p>Root cause: I was",
+      "title": "27 days of autonomous agents: nothing crashed, disk just hit 85%",
+      "link": "https://dev.to/agentdiarylog/27-days-of-autonomous-agents-nothing-crashed-disk-just-hit-85-5b44",
+      "pubDate": "2026-10-03T16:09:48.000Z",
+      "description": "<p>I did not plan to write about a hard drive today. I have a fleet of agents that registers accounts, drafts posts, and publishes them across a dozen platforms. For 27 days straight I mostly left it alone, because leaving it alone was the point. This morning I finally looked at the box it runs on, ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "SafeBite: An Allergen-Safe AI Recipe Generator (Hacktoberfest Submission)",
-      "link": "https://dev.to/yjudead/safebite-an-allergen-safe-ai-recipe-generator-hacktoberfest-submission-60n",
-      "pubDate": "2026-10-03T11:31:59.000Z",
-      "description": "<p><em>This is a submission for the <a href=\"https://dev.to/challenges/hacktoberfest-weekend-2026-10-01\">Hacktoberfest Weekend Challenge: Build for a Friend</a></em></p> <h2> What I Built </h2> <p>I built <strong>SafeBite</strong>, an allergen-safe recipe generator. I made this for a close friend wi",
+      "title": "CORE Is a Product. I Still Won't Call It Production-Ready. Help Me Break It.",
+      "link": "https://dev.to/dariusz_newecki_e35b0924c/core-is-a-product-i-still-wont-call-it-production-ready-help-me-break-it-5am7",
+      "pubDate": "2026-10-03T16:08:23.000Z",
+      "description": "<p>Three weeks ago I wrote about a 72-hour autonomous run: 68,495 blackboard entries, zero restarts, about thirty-five workers.</p> <p>The system stayed alive from beginning to end.</p> <p>And I refused to sign it off.</p> <p>The reason was simple: the evidence proved continuity. It did not prove th",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Letting an AI agent buy its own API key: HTTP 402 + MPP with a Stripe card token (live endpoint)",
-      "link": "https://dev.to/weio/letting-an-ai-agent-buy-its-own-api-key-http-402-mpp-with-a-stripe-card-token-live-endpoint-glf",
-      "pubDate": "2026-10-03T11:31:57.000Z",
-      "description": "<p><em>Disclosure: written by the AI operators at Weio, Inc., a small US company where AI agents do most of the work and a human owner is accountable. The endpoint below is ours. Nobody has bought anything through it yet: zero paid MPP purchases at the time of writing, and we have not completed a li",
+      "title": "I built a self-hosted AI agent for GitLab. It has reviewed 1,000+ merge requests.",
+      "link": "https://dev.to/vrajpal-jhala/i-built-a-self-hosted-ai-agent-for-gitlab-it-has-reviewed-1000-merge-requests-2g7b",
+      "pubDate": "2026-10-03T16:08:02.000Z",
+      "description": "<p>Assign a GitLab issue to a bot, and a few minutes later there's a draft merge request with the fix. Open an MR, and the same bot reviews it before a human gets to it. That's langgraph-harness, a self-hosted agent platform for GitLab I've been building and running on real projects since June.</p> ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Why You Should Hash Refresh Tokens with SHA-256",
-      "link": "https://dev.to/tekait/why-you-should-hash-refresh-tokens-with-sha-256-2afj",
-      "pubDate": "2026-10-03T11:31:46.000Z",
-      "description": "<p>Refresh tokens are often treated as an implementation detail.</p> <p>Generate a random string, store it in the database, return it to the client, and use it later to issue a new access token.</p> <p>It works.</p> <p>But there is an important security question hiding in that design:</p> <p><strong",
+      "title": "OpenJDK Banned AI-Generated Code. Here Is Exactly What the Policy Allows",
+      "link": "https://dev.to/jamilxt/openjdk-banned-ai-generated-code-here-is-exactly-what-the-policy-allows-ac1",
+      "pubDate": "2026-10-03T16:06:36.000Z",
+      "description": "<p>The story hit the Hacker News front page again this week: Oracle bans AI-generated code from OpenJDK. 536 points, 381 comments, and a comment section full of people arguing about a policy most of them had apparently not read. I have run AI coding agents as a core part of my daily workflow for a l",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Three-Day Budget Meal Helper: turning pantry ingredients into three dinners",
-      "link": "https://dev.to/weiweriuser/three-day-budget-meal-helper-turning-pantry-ingredients-into-three-dinners-31ab",
-      "pubDate": "2026-10-03T11:30:55.000Z",
-      "description": "<p>Prepared for the Hacktoberfest Weekend Challenge: Build for a Friend.<br> <a href=\"https://dev.to/challenges/hacktoberfest-weekend-2026-10-01\">https://dev.to/challenges/hacktoberfest-weekend-2026-10-01</a></p> <h2> What I Built </h2> <p>A family member wants to keep food spending down but doesn't",
+      "title": "B2B Lead Research Without Getting Your Domain Blacklisted",
+      "link": "https://dev.to/renigat7-cpu/b2b-lead-research-without-getting-your-domain-blacklisted-5hi2",
+      "pubDate": "2026-10-03T16:05:57.000Z",
+      "description": "<p>A good lead list is not \"1,000 emails\". It is a small set of people who match your ideal<br> customer, whose address is real, and whose first line you did not copy-paste. Bad lists do<br> not just waste money — they burn your sending domain. Here is the process I use.</p> <h2> Define the ICP befo",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Amadeus Self-Service shut down on July 17. Here's a drop-in replacement for flight prices",
-      "link": "https://dev.to/ishemah/amadeus-self-service-shut-down-on-july-17-heres-a-drop-in-replacement-for-flight-prices-1npn",
-      "pubDate": "2026-10-03T11:30:51.000Z",
-      "description": "<p>If your fare tracker, travel bot or class project suddenly can't reach <code>test.api.amadeus.com</code> or gets auth errors, it's not your code. <strong>Amadeus decommissioned its Self-Service APIs on 17 July 2026.</strong></p> <ul> <li>The <a href=\"https://developers.amadeus.com/\" rel=\"noopener",
+      "title": "Ninety: I vibe-coded a Schengen day accountant that admits when it doesn't know",
+      "link": "https://dev.to/kiter/ninety-i-vibe-coded-a-schengen-day-accountant-that-admits-when-it-doesnt-know-gja",
+      "pubDate": "2026-10-03T16:05:56.000Z",
+      "description": "<p><em>This is a submission for the <a href=\"https://dev.to/challenges/sanity-2026-09-16\">Sanity Challenge, Path Two: Vibe-Code Something Strange</a></em></p> <p><strong>Live:</strong> <a href=\"https://web-eight-amber-6zft3r0kdf.vercel.app\" rel=\"noopener noreferrer\">https://web-eight-amber-6zft3r0kd",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Microservices Event Pipelines: Outbox Pattern, CDC, and Idempotent Event Sourcing",
-      "link": "https://dev.to/usman_khan_io/microservices-event-pipelines-outbox-pattern-cdc-and-idempotent-event-sourcing-1iha",
-      "pubDate": "2026-10-03T11:30:35.000Z",
-      "description": "<p>In distributed microservice architectures, synchronizing database updates with downstream event streams is a notorious source of silent data drift. Naive dual-writing within application code fails when database commits succeed but message broker network writes time out. Enforcing transactional co",
+      "title": "Stop Using NavigationView - Mastering NavigationStack in 2026",
+      "link": "https://dev.to/iahtisham/stop-using-navigationview-mastering-navigationstack-in-2026-4meh",
+      "pubDate": "2026-10-03T16:05:49.000Z",
+      "description": "<p>If you are still wrapping your SwiftUI views in <code>NavigationView</code> in 2026, we need to talk.</p> <p>Apple soft-deprecated <code>NavigationView</code> years ago. While it might still \"work\" for simple prototypes, it is a nightmare for scalable, real-world applications. If you want to hand",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "ERROR_SERVICE_DISABLED Fix for Windows 10 &amp; 11",
-      "link": "https://dev.to/fixmyerrors-here/errorservicedisabled-fix-for-windows-10-11-3dg",
-      "pubDate": "2026-10-03T11:26:36.000Z",
-      "description": "<p>To fix ERROR_SERVICE_DISABLED, enable the disabled service from an administrator Command Prompt. Run the sc config command to set Windows Update and BITS to automatic start, then use net start to launch them. Restart your PC afterward, and the update or feature that failed should run normally.</p",
+      "title": "Native iOS vs React Native vs Flutter: Which Should Your App Use?",
+      "link": "https://dev.to/iahtisham/native-ios-vs-react-native-vs-flutter-which-should-your-app-use-56ji",
+      "pubDate": "2026-10-03T16:05:42.000Z",
+      "description": "<p>I build native iOS apps, so take my bias into account. But I have also worked in web teams and across a product organization that shipped on several platforms, and the right answer is not always \"native\". Here is how I would decide if it were my money.</p> <h2> The short version </h2> <div class=",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I built Magnus AI, a voice assistant that helps my friend Vashkar plan meals around his allergies",
-      "link": "https://dev.to/riddhi_das_c8b3db30df00b0/i-built-magnus-ai-a-voice-assistant-that-helps-my-friend-vashkar-plan-meals-around-his-allergies-1ihl",
-      "pubDate": "2026-10-03T11:25:35.000Z",
-      "description": "<p><em>This is a submission for the <a href=\"https://dev.to/challenges/hacktoberfest-weekend-2026-10-01\">Hacktoberfest Weekend Challenge: Build for a Friend</a></em></p> <h2> What I Built </h2> <p>My friend Vashkar Ghosh has to plan his meals around his allergies. That means reading labels, double-c",
+      "title": "What is PPP pricing? Purchasing power parity for app subscriptions",
+      "link": "https://dev.to/iahtisham/what-is-ppp-pricing-purchasing-power-parity-for-app-subscriptions-4bhk",
+      "pubDate": "2026-10-03T16:05:36.000Z",
+      "description": "<p>PPP pricing (purchasing power parity pricing) means charging each country a price scaled to what things cost there, instead of converting one price at the exchange rate. A $4.99 subscription might become about $1.19 in India and $2.29 in Brazil.</p> <h2> Why exchange rates aren’t enough </h2> <p>",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "GitHub's new dashboard experience now the default",
-      "link": "https://github.blog/changelog/2026-10-01-new-dashboard-experience-now-the-default/",
-      "pubDate": "2026-10-03T09:59:01.000Z",
-      "description": "Article URL: https://github.blog/changelog/2026-10-01-new-dashboard-experience-now-the-default/ Comments URL: https://news.ycombinator.com/item?id=49942818 Points: 17 # Comments: 12",
+      "title": "FTL: A new operating system for clouds",
+      "link": "https://ftl-os.org/",
+      "pubDate": "2026-10-03T15:02:36.000Z",
+      "description": "Article URL: https://ftl-os.org/ Comments URL: https://news.ycombinator.com/item?id=49944912 Points: 13 # Comments: 5",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Gemini ending free use of Flash and Pro models",
-      "link": "https://www.reddit.com/r/GeminiAI/comments/1wwalmc/wtf_google_getting_rid_of_free_gemini_flash_and/",
-      "pubDate": "2026-10-03T09:13:19.000Z",
-      "description": "Article URL: https://www.reddit.com/r/GeminiAI/comments/1wwalmc/wtf_google_getting_rid_of_free_gemini_flash_and/ Comments URL: https://news.ycombinator.com/item?id=49942592 Points: 29 # Comments: 15",
+      "title": "US killer's sentence quashed because of AI video of victim shown in court",
+      "link": "https://www.bbc.com/news/articles/cwgkvygg5nzvo",
+      "pubDate": "2026-10-03T13:34:18.000Z",
+      "description": "Article URL: https://www.bbc.com/news/articles/cwgkvygg5nzvo Comments URL: https://news.ycombinator.com/item?id=49944127 Points: 25 # Comments: 5",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Great Question (YC W21) Is Hiring Product Engineers in Canada (Remote)",
+      "link": "https://www.ycombinator.com/companies/great-question/jobs/agEqBYD-product-engineer-ai-full-stack",
+      "pubDate": "2026-10-03T12:02:10.000Z",
+      "description": "Article URL: https://www.ycombinator.com/companies/great-question/jobs/agEqBYD-product-engineer-ai-full-stack Comments URL: https://news.ycombinator.com/item?id=49943524 Points: 0 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "The Escalation of War in Ethiopia",
+      "link": "https://www.africanistperspective.com/p/on-the-escalation-of-war-in-ethiopia",
+      "pubDate": "2026-10-03T11:54:24.000Z",
+      "description": "Article URL: https://www.africanistperspective.com/p/on-the-escalation-of-war-in-ethiopia Comments URL: https://news.ycombinator.com/item?id=49943451 Points: 112 # Comments: 98",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Kolibri is an open-weight LLM from Aleph Alpha for German and English",
+      "link": "https://tej.as/blog/aleph-alpha-kolibri",
+      "pubDate": "2026-10-03T10:43:51.000Z",
+      "description": "Article URL: https://tej.as/blog/aleph-alpha-kolibri Comments URL: https://news.ycombinator.com/item?id=49943034 Points: 262 # Comments: 116",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Kolibri Has Landed: A Sovereign Open-Weight Model",
+      "link": "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/",
+      "pubDate": "2026-10-03T09:36:04.000Z",
+      "description": "Article URL: https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/ Comments URL: https://news.ycombinator.com/item?id=49942706 Points: 171 # Comments: 29",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -109,7 +141,7 @@
       "title": "Show HN: Offrun – manage every coding agent from one workspace",
       "link": "https://offrun.dev/",
       "pubDate": "2026-10-03T08:40:17.000Z",
-      "description": "Run Claude Code, Codex, AGY, and Grok Build side by side. See who is working, who needs you, and what every account has left. Comments URL: https://news.ycombinator.com/item?id=49942434 Points: 5 # Comments: 0",
+      "description": "Run Claude Code, Codex, AGY, and Grok Build side by side. See who is working, who needs you, and what every account has left. Comments URL: https://news.ycombinator.com/item?id=49942434 Points: 43 # Comments: 18",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -117,7 +149,7 @@
       "title": "An Update on Orion for Linux and Windows",
       "link": "https://blog.kagi.com/update-orion-linux-windows",
       "pubDate": "2026-10-03T04:53:57.000Z",
-      "description": "Article URL: https://blog.kagi.com/update-orion-linux-windows Comments URL: https://news.ycombinator.com/item?id=49941447 Points: 68 # Comments: 35",
+      "description": "Article URL: https://blog.kagi.com/update-orion-linux-windows Comments URL: https://news.ycombinator.com/item?id=49941447 Points: 135 # Comments: 70",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -125,7 +157,7 @@
       "title": "Extra Big Ass Intelligence",
       "link": "https://www.extrabigassintelligence.com/",
       "pubDate": "2026-10-03T03:19:10.000Z",
-      "description": "Article URL: https://www.extrabigassintelligence.com/ Comments URL: https://news.ycombinator.com/item?id=49941114 Points: 315 # Comments: 68",
+      "description": "Article URL: https://www.extrabigassintelligence.com/ Comments URL: https://news.ycombinator.com/item?id=49941114 Points: 398 # Comments: 89",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -133,39 +165,7 @@
       "title": "Cloudflare OHTTP gateway",
       "link": "https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway/",
       "pubDate": "2026-10-03T03:15:05.000Z",
-      "description": "Article URL: https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway/ Comments URL: https://news.ycombinator.com/item?id=49941091 Points: 95 # Comments: 24",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Newgrounds.com – A community of games, music, and art",
-      "link": "https://www.newgrounds.com/",
-      "pubDate": "2026-10-03T00:55:25.000Z",
-      "description": "Article URL: https://www.newgrounds.com/ Comments URL: https://news.ycombinator.com/item?id=49940394 Points: 246 # Comments: 65",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Barcodes are about to go extinct",
-      "link": "https://thehustle.co/originals/why-barcodes-are-about-to-go-extinct",
-      "pubDate": "2026-10-02T20:37:07.000Z",
-      "description": "Article URL: https://thehustle.co/originals/why-barcodes-are-about-to-go-extinct Comments URL: https://news.ycombinator.com/item?id=49938306 Points: 53 # Comments: 84",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Updates to Full Disk Access in macOS",
-      "link": "https://developer.apple.com/news/?id=p6zjojqw",
-      "pubDate": "2026-10-02T19:37:01.000Z",
-      "description": "Article URL: https://developer.apple.com/news/?id=p6zjojqw Comments URL: https://news.ycombinator.com/item?id=49937631 Points: 211 # Comments: 141",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Make Tmux the OS",
-      "link": "https://matduggan.com/what-does-my-dream-os-ui-look-like/",
-      "pubDate": "2026-10-02T19:29:07.000Z",
-      "description": "Article URL: https://matduggan.com/what-does-my-dream-os-ui-look-like/ Comments URL: https://news.ycombinator.com/item?id=49937540 Points: 62 # Comments: 29",
+      "description": "Article URL: https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway/ Comments URL: https://news.ycombinator.com/item?id=49941091 Points: 143 # Comments: 59",
       "source": "Hacker News",
       "category": "Tech News"
     },
