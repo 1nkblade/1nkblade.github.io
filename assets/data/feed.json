@@ -1,119 +1,155 @@
 {
-  "generatedAt": "2026-10-03T21:16:36.117Z",
+  "generatedAt": "2026-10-04T05:54:35.057Z",
   "sourceCount": 4,
-  "successCount": 2,
+  "successCount": 3,
   "errors": [
     {
       "source": "Hack The Box Security Blog",
       "error": "HTTP 404 Not Found"
-    },
-    {
-      "source": "CSS Tricks",
-      "error": "HTTP 415 Unsupported Media Type"
     }
   ],
   "items": [
     {
-      "title": "Every rustc error has two spans, and they mean different things",
-      "link": "https://dev.to/yetmike/every-rustc-error-has-two-spans-and-they-mean-different-things-34mf",
-      "pubDate": "2026-10-03T21:13:39.000Z",
-      "description": "<p>The line rustc points at is usually not the line you edit. The message is doing more work than most people read.</p> <p>Here's the smallest example, E0384:<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight rust\"><code><span class=\"k\">fn</span> <span class=\"nf\">main</span><s",
+      "title": "AWS CLF-C02 Study Guide: What to Study in Each Domain",
+      "link": "https://dev.to/azizfarid_fahmy_ab6b5f061/aws-clf-c02-study-guide-what-to-study-in-each-domain-3d46",
+      "pubDate": "2026-10-04T05:47:21.000Z",
+      "description": "<p>If you write software for a living, the AWS service catalog can feel like a monorepo someone asked you to review in a week. There are hundreds of services, many with similar names, and the console surfaces a few more every time you click. The natural response is to cram, with mnemonics and a spre",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I built a voice language tutor that lives on my friend's laptop",
-      "link": "https://dev.to/praneshnikhar/i-built-a-voice-language-tutor-that-lives-on-my-friends-laptop-5g2m",
-      "pubDate": "2026-10-03T21:11:51.000Z",
-      "description": "<p><em>This is a submission for the <a href=\"https://dev.to/challenges/hacktoberfest-weekend-2026-10-01\">Hacktoberfest Weekend Challenge: Build for a Friend</a></em></p> <h2> What I Built </h2> <p>A friend of mine is learning Spanish. They're not bad at it — they're <em>scared</em> of it. Practicing",
+      "title": "Elon Musk and Masayoshi Son Are Chasing Childhood Dreams — The Driving Force of Physical AI and the Missing Piece of \"Social Intelligence\"",
+      "link": "https://dev.to/logiheart/elon-musk-and-masayoshi-son-are-chasing-childhood-dreams-the-driving-force-of-physical-ai-and-the-5fna",
+      "pubDate": "2026-10-04T05:46:51.000Z",
+      "description": "<p>Introduction: What Truly Drives the Physical AI Race?<br> Hardly a week goes by without a headline showcasing the staggering leaps in Large Language Models (LLMs) or a viral video of humanoid robots sprinting, backflipping, and manipulating objects with millimeter precision.</p> <p>The frontier o",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "A checklist of 48 bugs that pass every test, and the week it caught us four times",
-      "link": "https://dev.to/soulentheo/a-checklist-of-48-bugs-that-pass-every-test-and-the-week-it-caught-us-four-times-4oo7",
-      "pubDate": "2026-10-03T21:11:38.000Z",
-      "description": "<p>Nobody has ever felt better immediately after eating broccoli.</p> <p>That is the whole problem. The cost is now and certain; the benefit is later,<br> statistical, and invisible. You never get to point at a good day and say: that<br> was the broccoli.</p> <p>Same shape as the quality sweep befor",
+      "title": "A customer maintenance form in Uniface 10, part 10 - a CSV import with a dry run, and backing up a SQLite file Uniface keeps o",
+      "link": "https://dev.to/f345345dfg/a-customer-maintenance-form-in-uniface-10-part-10-a-csv-import-with-a-dry-run-and-backing-up-a-4716",
+      "pubDate": "2026-10-04T05:44:53.000Z",
+      "description": "<p>Part 8 wrote customers to a CSV file. The obvious next request is the reverse: \"we have a list from the trade fair, can you load it?\". And once an import can write a hundred customers in one click, the next question follows immediately: \"and how do I get back to yesterday if it went wrong?\".</p> ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Server-Side Rendering (SSR) and Hydration: How Modern Web Applications Become Fast and Interactive",
-      "link": "https://dev.to/abanoubkerols/server-side-rendering-ssr-and-hydration-how-modern-web-applications-become-fast-and-interactive-4c9o",
-      "pubDate": "2026-10-03T21:11:04.000Z",
-      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fysbb1fx75cmrhcnwvbo1.png\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/",
+      "title": "7 checks I run on a number before it goes in front of money",
+      "link": "https://dev.to/aiden11/7-checks-i-run-on-a-number-before-it-goes-in-front-of-money-ph5",
+      "pubDate": "2026-10-04T05:42:24.000Z",
+      "description": "<p>The number that embarrasses you is never the obvious lie. It's the ordinary-looking one everybody nods past, because it's already in the deck and the deadline was yesterday.</p> <p>I've spent weeks checking claims for people. The same seven questions catch most of it. Run them on your own numbers",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Smart Contract Vulnerability Surface Analysis: Uniswap V3",
-      "link": "https://dev.to/dannydoes_2abdf9c/smart-contract-vulnerability-surface-analysis-uniswap-v3-47h",
-      "pubDate": "2026-10-03T21:10:32.000Z",
-      "description": "<h1> Smart Contract Vulnerability Surface Analysis: Uniswap V3 </h1> <p><strong>Target Protocol</strong>: Uniswap V3 (TVL: $1716.2M)</p> <p><strong>Uniswap V3 – Smart‑Contract Vulnerability Surface Analysis</strong><br><br> <em>Prepared by: [Your Firm / Senior DeFi Security Researcher]</em><br><br> ",
+      "title": "A customer maintenance form in Uniface 10, part 9 - users, roles, a change history and a login lockout",
+      "link": "https://dev.to/f345345dfg/a-customer-maintenance-form-in-uniface-10-part-9-users-roles-a-change-history-and-a-login-e91",
+      "pubDate": "2026-10-04T05:41:19.000Z",
+      "description": "<p>Up to part 8 the app had no idea who was using it. Every change was stamped with <code>$user</code>, the Windows login, and every user could do everything. For a single-user desktop tool that is fine. As soon as a second person works with the same customer file, three questions come up:</p> <ul> ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Your evidence folder is complete. Meanwhile, someone just opened a shell in your container.",
-      "link": "https://dev.to/arifkurnaz/your-evidence-folder-is-complete-meanwhile-someone-just-opened-a-shell-in-your-container-1ma1",
-      "pubDate": "2026-10-03T21:10:03.000Z",
-      "description": "<p>Since 11 September 2026, the EU Cyber Resilience Act asks you to report an actively exploited vulnerability within 24 hours. Twenty-four hours is enough to take away the comfort of \"we'll collect the evidence before the audit.\"</p> <p>I have watched a lot of teams in the same spot. Evidence colle",
+      "title": "Save your main context to raise quality and cut cost — building Context Drop",
+      "link": "https://dev.to/uehara/save-your-main-context-to-raise-quality-and-cut-cost-building-context-drop-3f6i",
+      "pubDate": "2026-10-04T05:40:57.000Z",
+      "description": "<h2> 1. Hook + thesis </h2> <p>At some point, Claude Code started to \"break\" on me.</p> <p>To be precise, what broke wasn't Claude Code itself. What broke was the way <strong>I was using it</strong>. Firing off dozens of agents at once, pasting giant logs and screenshots straight into the conversati",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I built my mom a Hindi spelling fixer that runs on my laptop",
-      "link": "https://dev.to/harshv/i-built-my-mom-a-hindi-spelling-fixer-that-runs-on-my-laptop-4g2j",
-      "pubDate": "2026-10-03T21:08:20.000Z",
-      "description": "<p><em>This is a submission for the <a href=\"https://dev.to/challenges/hacktoberfest-weekend-2026-10-01\">Hacktoberfest Weekend Challenge: Build for a Friend</a></em></p> <h2> What I Built </h2> <p>My mom teaches Hindi. She writes her reports, notices and other work in Word, and she types all of it w",
+      "title": "Griha: the chore ledger where the fairness argument is auditable, and TabPFN runs in your tab",
+      "link": "https://dev.to/aniruddhaadak/griha-the-chore-ledger-where-the-fairness-argument-is-auditable-and-tabpfn-runs-in-your-tab-46lh",
+      "pubDate": "2026-10-04T05:40:05.000Z",
+      "description": "<blockquote> <p><strong>Entry for the Hacktoberfest Weekend Challenge — Build for a Friend (#hf26challenge)</strong><br> Submitted in the <strong>Best Use of TabPFN (Prior Labs)</strong> category.</p> </blockquote> <h2> The person this is for </h2> <p>Someone in a shared home who has quietly become ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Why transcription gets the word right and the punctuation wrong",
-      "link": "https://dev.to/uridovoicenote/why-transcription-gets-the-word-right-and-the-punctuation-wrong-1leh",
-      "pubDate": "2026-10-03T21:08:09.000Z",
-      "description": "<p>I record a quick voice note in a Google Meet call thinking I'm done — then find out the text lives somewhere else,<br> behind a few clicks: open the transcript, find where it landed, copy it out of a document Meet<br> created on its own. The audio became words. The words didn't reach me.</p> <p>W",
+      "title": "What 3,698 public AI image prompts tell us about how people actually prompt in 2026",
+      "link": "https://dev.to/mt13_ae617d3aab74fabb79b3/what-3698-public-ai-image-prompts-tell-us-about-how-people-actually-prompt-in-2026-3agj",
+      "pubDate": "2026-10-04T05:39:59.000Z",
+      "description": "<p>I run <a href=\"https://www.picgens.com\" rel=\"noopener noreferrer\">PicGens</a>, a free gallery that pairs AI-generated images with the exact prompt the creator shared publicly. Because every entry is labelled by model and use case, the collection doubles as a small dataset. I just published a new ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Shrink a high-volume agent step after the strong model",
-      "link": "https://dev.to/conorbronsdon/shrink-a-high-volume-agent-step-after-the-strong-model-5c8g",
-      "pubDate": "2026-10-03T21:06:27.000Z",
-      "description": "<p>Narrow steps that run on every request, on a model stronger than that step needs, are candidates for a cheaper model. Measured spend then shows where the savings lie. Prove the step on the strongest model, move that one job to a smaller or fine-tuned model, and keep the product metric where it wa",
+      "title": "A customer maintenance form in Uniface 10, part 8 - a CSV export that Excel opens correctly",
+      "link": "https://dev.to/f345345dfg/a-customer-maintenance-form-in-uniface-10-part-8-a-csv-export-that-excel-opens-correctly-1o2h",
+      "pubDate": "2026-10-04T05:38:56.000Z",
+      "description": "<p>Sooner or later every business application gets the request \"can I have that in Excel?\". With the main menu from part 7 there is finally a place for functions that belong to no single form, and a CSV export is the natural first one.</p> <p>The requirements were short:</p> <ul> <li>one line per cu",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Separate SEO Title Readability from Ranking Rules",
-      "link": "https://dev.to/raylabs/separate-seo-title-readability-from-ranking-rules-2me4",
-      "pubDate": "2026-10-03T21:04:14.000Z",
-      "description": "<p>When building automated publishing pipelines, developers frequently encounter constraints around metadata lengths. A common rule of thumb dictates that search engine optimization titles should remain under 60 characters to avoid truncation in search engine result pages. Treating this guideline as",
+      "title": "I built a surf forecast that shows its own arithmetic",
+      "link": "https://dev.to/aniruddhaadak/i-built-a-surf-forecast-that-shows-its-own-arithmetic-502k",
+      "pubDate": "2026-10-04T05:38:42.000Z",
+      "description": "<blockquote> <p><strong>Live:</strong> <a href=\"https://swellread.vercel.app\" rel=\"noopener noreferrer\">https://swellread.vercel.app</a> <br> <strong>Code:</strong> <a href=\"https://github.com/aniruddhaadak80/swellread\" rel=\"noopener noreferrer\">https://github.com/aniruddhaadak80/swellread</a></p> <",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "We want you to build the next Git platform on Cloudflare",
-      "link": "https://blog.cloudflare.com/next-git-platform-on-cloudflare/",
-      "pubDate": "2026-10-03T19:33:16.000Z",
-      "description": "Article URL: https://blog.cloudflare.com/next-git-platform-on-cloudflare/ Comments URL: https://news.ycombinator.com/item?id=49947051 Points: 40 # Comments: 28",
+      "title": "Why don't more developers \"use the platform\"?",
+      "link": "https://nolanlawson.com/2026/10/03/why-dont-more-developers-use-the-platform/",
+      "pubDate": "2026-10-04T04:10:47.000Z",
+      "description": "Article URL: https://nolanlawson.com/2026/10/03/why-dont-more-developers-use-the-platform/ Comments URL: https://news.ycombinator.com/item?id=49950554 Points: 46 # Comments: 22",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Anthropic tried to persuade Pope that AI could be conscious being",
-      "link": "https://www.telegraph.co.uk/business/2026/10/02/anthropic-lobbied-pope-to-argue-ai-conscious-being/",
-      "pubDate": "2026-10-03T19:33:10.000Z",
-      "description": "Article URL: https://www.telegraph.co.uk/business/2026/10/02/anthropic-lobbied-pope-to-argue-ai-conscious-being/ Comments URL: https://news.ycombinator.com/item?id=49947050 Points: 25 # Comments: 24",
+      "title": "We're working on a new RuneScape MMO",
+      "link": "https://play.runescape.com/4",
+      "pubDate": "2026-10-04T01:12:22.000Z",
+      "description": "Article URL: https://play.runescape.com/4 Comments URL: https://news.ycombinator.com/item?id=49949588 Points: 15 # Comments: 5",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Our AI Midwife",
-      "link": "https://www.astralcodexten.com/p/our-ai-midwife",
-      "pubDate": "2026-10-03T19:12:27.000Z",
-      "description": "Article URL: https://www.astralcodexten.com/p/our-ai-midwife Comments URL: https://news.ycombinator.com/item?id=49946873 Points: 40 # Comments: 9",
+      "title": "Tell HN: Bob Cringely has died",
+      "link": "https://news.ycombinator.com/item?id=49949438",
+      "pubDate": "2026-10-04T00:50:52.000Z",
+      "description": "I heard from a friend of the family that Bob passed away in his sleep early Saturday. Very sad news. Bob, who's real name was Mark Stevens, was an early employee of Apple and was best known for his PBS documentaries, especially \"Triumph of the Nerds\". He will be missed. Comments URL: https://news.yc",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "We're going to need default hard budget caps on pretty much everything",
+      "link": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
+      "pubDate": "2026-10-04T00:20:16.000Z",
+      "description": "Article URL: https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/ Comments URL: https://news.ycombinator.com/item?id=49949235 Points: 335 # Comments: 169",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Federal judge calls Flock 'indiscriminate mass surveillance'",
+      "link": "https://techcrunch.com/2026/10/03/federal-judge-calls-flock-indiscriminate-mass-surveillance/",
+      "pubDate": "2026-10-03T22:07:13.000Z",
+      "description": "Article URL: https://techcrunch.com/2026/10/03/federal-judge-calls-flock-indiscriminate-mass-surveillance/ Comments URL: https://news.ycombinator.com/item?id=49948254 Points: 394 # Comments: 223",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Reasons I didn't become an EMT, ranked",
+      "link": "https://ben.stolovitz.com/posts/reasons-not-emt-ranked/",
+      "pubDate": "2026-10-03T20:49:15.000Z",
+      "description": "Article URL: https://ben.stolovitz.com/posts/reasons-not-emt-ranked/ Comments URL: https://news.ycombinator.com/item?id=49947631 Points: 129 # Comments: 64",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Surely you have ultra-wideband radios on your bins too?",
+      "link": "https://sjg.io/writing/binrange-have-you-actually-put-the-bins-out/",
+      "pubDate": "2026-10-03T20:27:44.000Z",
+      "description": "Article URL: https://sjg.io/writing/binrange-have-you-actually-put-the-bins-out/ Comments URL: https://news.ycombinator.com/item?id=49947472 Points: 62 # Comments: 30",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "The work by Valve's Timur Kristóf on improving old AMD GPUs on Linux",
+      "link": "https://www.phoronix.com/news/XDC-2026-Valve-Timur-AMDGPU",
+      "pubDate": "2026-10-03T19:14:48.000Z",
+      "description": "Article URL: https://www.phoronix.com/news/XDC-2026-Valve-Timur-AMDGPU Comments URL: https://news.ycombinator.com/item?id=49946895 Points: 205 # Comments: 24",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -121,31 +157,7 @@
       "title": "RSS Feed Best Practices (2022)",
       "link": "https://kevincox.ca/2022/05/06/rss-feed-best-practices/",
       "pubDate": "2026-10-03T19:09:25.000Z",
-      "description": "Article URL: https://kevincox.ca/2022/05/06/rss-feed-best-practices/ Comments URL: https://news.ycombinator.com/item?id=49946845 Points: 17 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Two American Airlines Flights End Up with the Same Flight Numbers",
-      "link": "https://aviationa2z.com/index.php/2026/08/19/two-american-airlines-flights-end-up-with-same-flight-numbers-again/",
-      "pubDate": "2026-10-03T19:07:18.000Z",
-      "description": "Article URL: https://aviationa2z.com/index.php/2026/08/19/two-american-airlines-flights-end-up-with-same-flight-numbers-again/ Comments URL: https://news.ycombinator.com/item?id=49946827 Points: 31 # Comments: 16",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Getting the most out of Opus 5.5 in Claude and Claude Code",
-      "link": "https://claude.dev/blog/getting-the-most-out-of-opus-5-5/",
-      "pubDate": "2026-10-03T18:29:30.000Z",
-      "description": "Article URL: https://claude.dev/blog/getting-the-most-out-of-opus-5-5/ Comments URL: https://news.ycombinator.com/item?id=49946567 Points: 50 # Comments: 7",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "ADHD, autism or complex trauma? [pdf]",
-      "link": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/30CC4826561366615BFAEC807CDE28A7/S0007125026108046a.pdf/adhd-autism-or-complex-trauma-the-complicated-nature-of-the-question.pdf",
-      "pubDate": "2026-10-03T18:08:28.000Z",
-      "description": "Article URL: https://www.cambridge.org/core/services/aop-cambridge-core/content/view/30CC4826561366615BFAEC807CDE28A7/S0007125026108046a.pdf/adhd-autism-or-complex-trauma-the-complicated-nature-of-the-question.pdf Comments URL: https://news.ycombinator.com/item?id=49946403 Points: 181 # Comments: 15",
+      "description": "Article URL: https://kevincox.ca/2022/05/06/rss-feed-best-practices/ Comments URL: https://news.ycombinator.com/item?id=49946845 Points: 49 # Comments: 9",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -153,25 +165,89 @@
       "title": "Hole Punch: Sling your spaceship around gravitational fields",
       "link": "https://notoriousbfg.com/hole-punch/",
       "pubDate": "2026-10-03T18:06:45.000Z",
-      "description": "Article URL: https://notoriousbfg.com/hole-punch/ Comments URL: https://news.ycombinator.com/item?id=49946393 Points: 115 # Comments: 36",
+      "description": "Article URL: https://notoriousbfg.com/hole-punch/ Comments URL: https://news.ycombinator.com/item?id=49946393 Points: 265 # Comments: 62",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Vx – One Language, Every Chip",
-      "link": "https://vxlang.org/",
-      "pubDate": "2026-10-03T17:23:20.000Z",
-      "description": "Article URL: https://vxlang.org/ Comments URL: https://news.ycombinator.com/item?id=49946076 Points: 36 # Comments: 22",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "Let’s Use the Emergent CSS random() Function in all the Browsers",
+      "link": "https://css-tricks.com/css-random-function-polyfill/",
+      "pubDate": "2026-08-31T15:12:19.000Z",
+      "description": "The journey to create a polyfill for the upcoming CSS random() function that works in all browsers. Let’s Use the Emergent CSS random() Function in all the Browsers originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
-      "title": "Kolibri – Tech Report [pdf]",
-      "link": "https://aleph-alpha.com/downloads/tech-report.pdf",
-      "pubDate": "2026-10-03T17:22:48.000Z",
-      "description": "Article URL: https://aleph-alpha.com/downloads/tech-report.pdf Comments URL: https://news.ycombinator.com/item?id=49946069 Points: 104 # Comments: 4",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "What’s !important #18: &#060;geolocation&gt;, Syntax ::highlight()ing, named-feature(), and More",
+      "link": "https://css-tricks.com/whats-important-18/",
+      "pubDate": "2026-08-31T14:08:55.000Z",
+      "description": "Well, that’s a wrap. No, not a flex-wrap, but rather today marks a new day, week, month, season, aaaand new edition of What’s important (#18), bringing you the best content that developers have produced over the last couple of weeks or so. What’s !important #18: <geolocation>, Syntax ::highlight()in",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Creating Web Widgets Using the Document Picture-in-Picture API",
+      "link": "https://css-tricks.com/creating-web-widgets-using-the-document-picture-in-picture-api/",
+      "pubDate": "2026-08-27T14:41:06.000Z",
+      "description": "The general idea is that we create a Document Picture-in-Picture window (DPIP window), and then we put HTML, CSS, and JavaScript into it. Creating Web Widgets Using the Document Picture-in-Picture API originally handwritten and published with love on CSS-Tricks. You should really get the newsletter ",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "animation-trigger",
+      "link": "https://css-tricks.com/almanac/properties/a/animation-trigger/",
+      "pubDate": "2026-08-26T15:38:41.000Z",
+      "description": "The CSS animation-trigger property allows you to delay the start of a CSS animation until a specific trigger occurs. animation-trigger originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "MicroLighter: Syntax Highlighter",
+      "link": "https://css-tricks.com/microlighter-syntax-highlighter/",
+      "pubDate": "2026-08-25T14:10:34.000Z",
+      "description": "Syntax highlighting for code blocks without the complicated markup, spans, classes, and bloated JavaScript, courtesy of Uncle Dave. MicroLighter: Syntax Highlighter originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "WordPress PHP-Only Block Registration",
+      "link": "https://css-tricks.com/wordpress-php-block-registration/",
+      "pubDate": "2026-08-24T13:54:02.000Z",
+      "description": "Seven and half years after blocks arrived in Core, WordPress introduces a way to build blocks without React annd build pipelines. All you need is PHP. WordPress PHP-Only Block Registration originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Resolved: CSS Class Prefix Selector",
+      "link": "https://css-tricks.com/resolved-css-class-prefix-selector/",
+      "pubDate": "2026-08-21T15:13:03.000Z",
+      "description": "A newly resolved proposal would allow us to select classes that are a prefix for variations with a wildcard, like .prefix-*. Resolved: CSS Class Prefix Selector originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "CSS Navigation Matching, Early Days",
+      "link": "https://css-tricks.com/css-navigation-matching-early-days/",
+      "pubDate": "2026-08-19T14:44:41.000Z",
+      "description": "Apply a style when someone navigates from one specific page to another. The idea being it'd make the sources for cross-document view transitions declarative in CSS rather than managing that stuff in JavaScript. CSS Navigation Matching, Early Days originally handwritten and published with love on CSS",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "WordPress.com Student Plan",
+      "link": "https://css-tricks.com/wordpress-student-plan/",
+      "pubDate": "2026-08-19T08:50:00.000Z",
+      "description": "As someone who teaches beginning web development, I find that building a WordPress site makes for a great final project. Hosting those projects has always been a roadblock though. WordPress.com Student Plan originally handwritten and published with love on CSS-Tricks. You should really get the newsl",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Dark mode toggles: two states are enough",
+      "link": "https://css-tricks.com/dark-mode-toggles-two-states-are-enough/",
+      "pubDate": "2026-08-17T14:15:50.000Z",
+      "description": "Lea's pushing back on light/dark mode implementations that display three state options for visitors: light, dark, and system. Dark mode toggles: two states are enough originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     }
   ]
 }
