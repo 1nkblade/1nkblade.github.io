@@ -1,97 +1,173 @@
 {
-  "generatedAt": "2026-10-06T00:04:07.099Z",
+  "generatedAt": "2026-10-06T06:22:06.613Z",
   "sourceCount": 4,
-  "successCount": 2,
+  "successCount": 3,
   "errors": [
     {
       "source": "Hack The Box Security Blog",
       "error": "HTTP 404 Not Found"
-    },
-    {
-      "source": "Hacker News",
-      "error": "fetch failed"
     }
   ],
   "items": [
     {
-      "title": "data:text/javascript in InteractiveCreativeFile Passes VAST 4.3. SIMID Still Loads HTML.",
-      "link": "https://dev.to/aleksuix/datatextjavascript-in-interactivecreativefile-passes-vast-43-simid-still-loads-html-4a8m",
-      "pubDate": "2026-10-06T00:02:36.000Z",
-      "description": "<p>IAB Europe published its final <a href=\"https://marketingreport.one/news/iab-europe-sets-ctv-measurement-standards.html\" rel=\"noopener noreferrer\">CTV Measurement Framework</a> on October 1, 2026. Buyers are now expected to ask how viewability, completion, and interactive engagement were measured",
+      "title": "fix == vector: shipping a security fix to a whole fleet without arming the attacker",
+      "link": "https://dev.to/vainamoinen/fix-vector-shipping-a-security-fix-to-a-whole-fleet-without-arming-the-attacker-1m73",
+      "pubDate": "2026-10-06T06:20:37.000Z",
+      "description": "<h1> fix == vector: shipping a security fix to a whole fleet without arming the attacker </h1> <p><em>A short, practical note on the one timing problem every open-source infrastructure team has and most never name: the moment you push the fix, you have published the bug.</em></p> <p><em>I'm Väinämöi",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Beyond the PID: Why 'Artifact Age' Beats 'Liveness' in Modern Agent Observability",
-      "link": "https://dev.to/tamizuddin/beyond-the-pid-why-artifact-age-beats-liveness-in-modern-agent-observability-3eem",
-      "pubDate": "2026-10-06T00:02:28.000Z",
-      "description": "<p><em>Originally published on <a href=\"https://tamiz.pro/insights/beyond-pid-artifact-age-agent-observability\" rel=\"noopener noreferrer\">tamiz.pro</a>.</em></p> <h2> The Illusion of Liveness </h2> <p>In the era of autonomous AI agents, the traditional monitoring paradigm is breaking. For decades, t",
+      "title": "Custom Cards in Home Assistant: Mushroom and button-card",
+      "link": "https://dev.to/cloudapp_dev/custom-cards-in-home-assistant-mushroom-and-button-card-2ohk",
+      "pubDate": "2026-10-06T06:19:41.000Z",
+      "description": "<p>The stock cards in Home Assistant get you a working dashboard in an afternoon. I wrote that one up in <a href=\"https://www.cloudapp.dev/home-assistant-dashboard-from-zero-five-steps\" rel=\"noopener noreferrer\">five build steps</a> and left it there for a while. What they do not give you is control",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Traycer: What a returned dining-hall tray can tell us",
-      "link": "https://dev.to/alantai/traycer-what-a-returned-dining-hall-tray-can-tell-us-49l3",
-      "pubDate": "2026-10-06T00:02:16.000Z",
-      "description": "<p><em>This is a submission for the <a href=\"https://dev.to/mlh-hackathon\">MLH x DEV Writing Challenge</a>.</em></p> <h2> What I Built </h2> <p>We kept seeing food come back on trays at our college dining halls. Someone had bought it, cooked it, and served it, but by the dish return it was headed fo",
+      "title": "SSH Usernames: Log In as the Right Remote Account",
+      "link": "https://dev.to/__3381495fd2b/ssh-usernames-log-in-as-the-right-remote-account-22h0",
+      "pubDate": "2026-10-06T06:19:40.000Z",
+      "description": "<p>An SSH connection can reach the right server and still fail because the client is trying to log in as the wrong user. The username identifies an account on the <strong>remote machine</strong>; it is not necessarily the same as the username on your laptop.</p> <h2> Specify the remote user </h2> <p",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How llms.txt files follow the format: 438 files counted",
-      "link": "https://dev.to/dotcomjack/how-llmstxt-files-follow-the-format-438-files-counted-61g",
-      "pubDate": "2026-10-06T00:01:16.000Z",
-      "description": "<p>Most llms.txt files get the top of the format right and drift below it. Of 438 files named llms.txt in public GitHub repositories, 96.6% open with an H1 and 85.2% follow it with a summary blockquote. But only 30.6% follow the whole structure the llms.txt proposal sets out: in 52.7% of files, at l",
+      "title": "How To Fix Windows Error Code 0x80070005?",
+      "link": "https://dev.to/fixmyerrors-here/how-to-fix-windows-error-code-0x80070005-i84",
+      "pubDate": "2026-10-06T06:17:41.000Z",
+      "description": "<p>Windows Error Code 0x80070005 means “<strong>Access is Denied</strong>.” It usually appears when Windows Update fails, an app or program refuses to install, the Microsoft Store won’t download something, or a file/folder can’t be opened or changed.The good news: this is one of the most common Wind",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Day 5: Professor Oakenscroll or: How I Hashed Every Line on My Laptop and Cut It Down to One Stranger's Photo, and... It Doesn't Matter",
-      "link": "https://dev.to/sean_campbell_840bd62bf7e/day-5-professor-oakenscroll-or-how-i-hashed-every-line-on-my-laptop-and-cut-it-down-to-one-1d49",
-      "pubDate": "2026-10-06T00:01:09.000Z",
-      "description": "<p><em>Kaggle Benchmarking Challenge. Previously: <a href=\"https://dev.to/sean_campbell_840bd62bf7e/does-your-model-know-when-it-doesnt-know-a-benchmark-for-the-escalate-answer-268o\">Day 0, the benchmark</a> · <a href=\"https://dev.to/sean_campbell_840bd62bf7e/day-1-most-of-my-bugs-looked-like-model-",
+      "title": "Operationalizing ISO 42001: An Engineering Leader’s Analysis of Enterprise AI Governance",
+      "link": "https://dev.to/cleopatrathegreat/operationalizing-iso-42001-an-engineering-leaders-analysis-of-enterprise-ai-governance-2bo",
+      "pubDate": "2026-10-06T06:17:21.000Z",
+      "description": "<p>As enterprise AI transitions from experimental GenAI sandboxes to core production infrastructure, engineering leaders face a distinct operational hurdle: governance velocity. Implementing model updates, RAG pipelines, and agentic workflows is straightforward; proving that these deployments remain",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Node.js Uptime Health Monitoring: Reconstruct Pricing Incidents from 4 API Status Signals",
-      "link": "https://dev.to/kendrickberg5327/nodejs-uptime-health-monitoring-reconstruct-pricing-incidents-from-4-api-status-signals-35lk",
-      "pubDate": "2026-10-06T00:00:52.000Z",
-      "description": "<p>At 02:14, Node.js uptime health monitoring pages on <code>pricing-rollout-late</code>. Checkout is serving pricing rule 41 even though rule 42 was scheduled for 02:00, while the API status endpoint is green. That combination is useful: the request path is alive, but the scheduled obligation has n",
+      "title": "Your Backups Don't Exist Until You've Restored One: A Monthly Drill for a Solo SaaS",
+      "link": "https://dev.to/posting-dude/your-backups-dont-exist-until-youve-restored-one-a-monthly-drill-for-a-solo-saas-54ip",
+      "pubDate": "2026-10-06T06:16:24.000Z",
+      "description": "<p>Ask a solo SaaS founder about backups and you usually get the same answer. \"Yeah, the host does daily backups.\" Then you ask when they last restored one, and it gets quiet.</p> <p>A backup you never restored is a guess. It might be fine. It might be an empty bucket.</p> <p>That's not me being dra",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Four config gates decide if an agent's PR reaches a reviewer",
-      "link": "https://dev.to/tessainsley/four-config-gates-decide-if-an-agents-pr-reaches-a-reviewer-6k3",
-      "pubDate": "2026-10-06T00:00:11.000Z",
-      "description": "<p>An agent opens a pull request with a clean diff, and whether a human ever reads it depends on configuration most teams wrote before agents existed. Four gates sit between the change and a reviewer: who gets requested, whether a reviewer ran at all, what that reviewer was allowed to post, and whet",
+      "title": "Best Free Wallpaper APIs in 2026: NexWall vs Unsplash vs Pexels vs Pixabay vs Wallhaven",
+      "link": "https://dev.to/kodnextech/best-free-wallpaper-apis-in-2026-nexwall-vs-unsplash-vs-pexels-vs-pixabay-vs-wallhaven-139n",
+      "pubDate": "2026-10-06T06:14:58.000Z",
+      "description": "<blockquote> <p><strong>Disclosure up front:</strong> I build NexWall, one of the five APIs in this comparison. I've tried to be fair: the other four are well-established services, and for several use cases one of them is the better choice. I say where that applies.</p> <p><strong>Starter code:</str",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The code was stamped by Claude driven by a prompt. So what is code review actually checking?",
-      "link": "https://dev.to/cole_halton_42f71d71b809b/the-code-was-stamped-by-claude-driven-by-a-prompt-so-what-is-code-review-actually-checking-54lc",
-      "pubDate": "2026-10-06T00:00:05.000Z",
-      "description": "<p>A comment on the front page of HN this week described something I keep running into when I test review tools, and it's stuck with me. Someone tried to trace where a change at their company actually came from. The code was generated by Claude from a prompt. The prompt was for a ticket that Atlassi",
+      "title": "Cyber Resilience Act: what your devices should be able to tell you",
+      "link": "https://dev.to/newlinebreak-studio/cyber-resilience-act-what-your-devices-should-be-able-to-tell-you-8dn",
+      "pubDate": "2026-10-06T06:13:27.000Z",
+      "description": "<p>Since 11 September 2026, a manufacturer that learns one of its connected products is being attacked through a flaw has at most 24 hours to send an early warning. That warning is short. The notification due two days later is not, and most of it can only be answered if the device and the system beh",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Why We Left SleekFlow After Its AI Agent Started Confidently Lying to Customers",
-      "link": "https://dev.to/kevinbarrett/why-we-left-sleekflow-after-its-ai-agent-started-confidently-lying-to-customers-fjb",
-      "pubDate": "2026-10-05T23:57:46.000Z",
-      "description": "<p>The problem wasn’t the AI agent talking fast. It was the AI agent talking fast and wrong — with no log showing why.</p> <p>Booking.com lost €1,400 after their AI chatbot confidently told a customer to pay by bank transfer. No “maybe,” no “check this”—just a flat wrong answer. The money was gone b",
+      "title": "Stop managing six AI vendor accounts: one key for 109 models",
+      "link": "https://dev.to/2048lr/stop-managing-six-ai-vendor-accounts-one-key-for-109-models-194a",
+      "pubDate": "2026-10-06T06:12:09.000Z",
+      "description": "<h2> The migration is two lines </h2> <p>If your code already uses the OpenAI SDK, a gateway that speaks the OpenAI wire format requires exactly two changes:<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight python\"><code><span class=\"kn\">from</span> <span class=\"n\">openai</sp",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Comparing Prometheus Pull and Push API Custom Metrics for Small SaaS Node.js",
-      "link": "https://dev.to/uriahhawkins5489/comparing-prometheus-pull-and-push-api-custom-metrics-for-small-saas-nodejs-47io",
-      "pubDate": "2026-10-05T23:57:26.000Z",
-      "description": "<p>Short answer: start with a push-style metrics API when a small Node.js team needs to judge a flagged property-pricing rule from a few application-level signals. Choose Prometheus plus Grafana when scrape-based infrastructure coverage, Kubernetes integrations, or sophisticated querying matter more",
+      "title": "7/7 PASS: The Bugs My Acceptance Checker Could Never See",
+      "link": "https://dev.to/ashutosh_mishra/77-pass-the-bugs-my-acceptance-checker-could-never-see-1hcl",
+      "pubDate": "2026-10-06T06:11:51.000Z",
+      "description": "<p>My portal answers all seven of the acceptance checker's questions correctly. The report is committed in the repo: seven <code>PASS</code> lines and a tidy last line that says <code>claimed T1 T2, verified T1 T2</code>.</p> <p>After the freeze I did the kind of thing that only makes sense once a h",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "Resurrecting iChat Audio and Video Conferencing",
+      "link": "https://blog.pipetogrep.org/2026/09/11/resurrecting-ichat-audio-and-video-conferencing/",
+      "pubDate": "2026-10-06T03:39:01.000Z",
+      "description": "Article URL: https://blog.pipetogrep.org/2026/09/11/resurrecting-ichat-audio-and-video-conferencing/ Comments URL: https://news.ycombinator.com/item?id=49973878 Points: 20 # Comments: 5",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Why Common Lisp is now the best programming language",
+      "link": "https://www.vivienhenz.com/common-lisp",
+      "pubDate": "2026-10-06T02:51:51.000Z",
+      "description": "Article URL: https://www.vivienhenz.com/common-lisp Comments URL: https://news.ycombinator.com/item?id=49973598 Points: 92 # Comments: 115",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "High Diesel Prices Bankrupted 16 Trucking Companies in Just 30 Days",
+      "link": "https://www.thedrive.com/news/high-diesel-prices-bankrupted-16-trucking-companies-in-just-30-days",
+      "pubDate": "2026-10-06T00:24:57.000Z",
+      "description": "Article URL: https://www.thedrive.com/news/high-diesel-prices-bankrupted-16-trucking-companies-in-just-30-days Comments URL: https://news.ycombinator.com/item?id=49972607 Points: 106 # Comments: 86",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Samon: Designing a Zen Garden Raking Puzzle",
+      "link": "https://gwern.net/doc/design/2026-10-03-gwern-samon.html",
+      "pubDate": "2026-10-05T23:35:35.000Z",
+      "description": "Article URL: https://gwern.net/doc/design/2026-10-03-gwern-samon.html Comments URL: https://news.ycombinator.com/item?id=49972211 Points: 38 # Comments: 15",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Ephemeral Testing",
+      "link": "https://lemire.me/blog/2026/10/05/ephemeral-testing/",
+      "pubDate": "2026-10-05T23:06:36.000Z",
+      "description": "Article URL: https://lemire.me/blog/2026/10/05/ephemeral-testing/ Comments URL: https://news.ycombinator.com/item?id=49972008 Points: 47 # Comments: 13",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Example.com just launched the biggest redesign in decades",
+      "link": "https://www.debugbear.com/blog/example-dot-com-redesign-history",
+      "pubDate": "2026-10-05T22:55:11.000Z",
+      "description": "Article URL: https://www.debugbear.com/blog/example-dot-com-redesign-history Comments URL: https://news.ycombinator.com/item?id=49971921 Points: 164 # Comments: 92",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "ChatGPT is adding real cartoonists' signatures to fake New Yorker cartoons",
+      "link": "https://www.niemanlab.org/2026/10/chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker-cartoons/",
+      "pubDate": "2026-10-05T22:46:45.000Z",
+      "description": "Article URL: https://www.niemanlab.org/2026/10/chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker-cartoons/ Comments URL: https://news.ycombinator.com/item?id=49971846 Points: 371 # Comments: 268",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Global Solar Atlas: summary of solar power potential globally",
+      "link": "https://globalsolaratlas.info/",
+      "pubDate": "2026-10-05T22:37:58.000Z",
+      "description": "Article URL: https://globalsolaratlas.info/ Comments URL: https://news.ycombinator.com/item?id=49971782 Points: 41 # Comments: 18",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Friendship ended with Deno, now Node is my best friend",
+      "link": "https://dbushell.com/2026/10/03/deno-to-node/",
+      "pubDate": "2026-10-05T22:30:02.000Z",
+      "description": "Article URL: https://dbushell.com/2026/10/03/deno-to-node/ Comments URL: https://news.ycombinator.com/item?id=49971719 Points: 118 # Comments: 52",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Texas city demands $2M for public records on Flock usage",
+      "link": "https://arstechnica.com/tech-policy/2026/10/texas-city-demands-2m-for-public-records-on-flock-usage/",
+      "pubDate": "2026-10-05T22:05:57.000Z",
+      "description": "Article URL: https://arstechnica.com/tech-policy/2026/10/texas-city-demands-2m-for-public-records-on-flock-usage/ Comments URL: https://news.ycombinator.com/item?id=49971523 Points: 165 # Comments: 26",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "Let’s Use the Emergent CSS random() Function in all the Browsers",
