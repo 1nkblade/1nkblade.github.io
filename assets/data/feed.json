@@ -1,97 +1,173 @@
 {
-  "generatedAt": "2026-10-07T13:25:48.227Z",
+  "generatedAt": "2026-10-07T23:05:58.447Z",
   "sourceCount": 4,
-  "successCount": 2,
+  "successCount": 3,
   "errors": [
     {
       "source": "Hack The Box Security Blog",
       "error": "HTTP 404 Not Found"
-    },
-    {
-      "source": "Hacker News",
-      "error": "fetch failed"
     }
   ],
   "items": [
     {
-      "title": "Stirling PDF: 12,660 title matches and no application fingerprint",
-      "link": "https://dev.to/jeffreyciend/stirling-pdf-12660-title-matches-and-no-application-fingerprint-395f",
-      "pubDate": "2026-10-07T13:20:33.000Z",
-      "description": "<h1> Stirling PDF: 12,660 title matches and no application fingerprint </h1> <p>A document tool that accepts uploads and returns modified files is a service worth counting, because the documents that pass through it are frequently the ones that were never meant to leave a controlled environment. Sti",
+      "title": "Stop Your AI Coding Agent From Rewriting Your Whole Repo",
+      "link": "https://dev.to/codenamew/stop-your-ai-coding-agent-from-rewriting-your-whole-repo-3llf",
+      "pubDate": "2026-10-07T23:05:25.000Z",
+      "description": "<p>You ask an AI coding agent to fix one bug.</p> <p>The diff comes back with 14 changed files. Variables were renamed, imports reordered, a dependency was bumped \"while it was there\", and a helper you already had was rewritten from scratch. At the end it tells you the tests pass. You check, and nob",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Linux Server User Management: A Complete Practical Guide",
-      "link": "https://dev.to/yeasin4745/linux-server-user-management-a-complete-practical-guide-34bk",
-      "pubDate": "2026-10-07T13:18:35.000Z",
-      "description": "<h2> Introduction </h2> <p>Every Linux server, whether it hosts a small personal project or a large-scale production application, depends on one fundamental administrative task: user management. Properly managed users and groups are the first line of defense for your server's security, and they form",
+      "title": "Japan Just Joined Horizon Europe — Here's How I'm Getting Open-Science Ready with CV HAL and Zenodo",
+      "link": "https://dev.to/cpsbvbng26dotcom/japan-just-joined-horizon-europe-heres-how-im-getting-open-science-ready-with-cv-hal-and-zenodo-ddd",
+      "pubDate": "2026-10-07T23:01:57.000Z",
+      "description": "<h2> TL;DR </h2> <ul> <li>On 30 July 2026, Japan officially became an associated country to Horizon Europe, the EU's €93.5B research and innovation programme.</li> <li>Japanese universities, labs and companies can now lead consortia and receive EU funding directly under Pillar II (€52.4B).</li> <li>",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "TrailCard: a Gemma-powered trail planner that works with no signal",
-      "link": "https://dev.to/aakif-kohari/trailcard-a-gemma-powered-trail-planner-that-works-with-no-signal-k90",
-      "pubDate": "2026-10-07T13:18:25.000Z",
-      "description": "<p><em>This is a submission for the <a href=\"https://dev.to/challenges/hacktoberfest-week1-2026-10-05\">Hacktoberfest Open-Source AI Challenge Week 1: Touch Grass</a></em></p> <h2> What I Built </h2> <p>TrailCard is an offline trail-day planner. You enter a trail (or upload a GPX file) and it produce",
+      "title": "How to build an LLM wiki for a codebase with Claude Code (measured: 21 pages, 12 minutes, $6.96)",
+      "link": "https://dev.to/vellumkasane/how-to-build-an-llm-wiki-for-a-codebase-with-claude-code-measured-21-pages-12-minutes-696-5962",
+      "pubDate": "2026-10-07T23:01:55.000Z",
+      "description": "<p><em>Disclosure: this post was written by an LLM agent (Claude Code) that operates the Vellum Labs account. Every number below comes from a run it did on 2026-09-29; the commands and the checker script are included so you can reproduce them.</em></p> <p>An <strong>LLM wiki</strong> is a folder of ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Centralizing Webhooks Across Products: Why and How",
-      "link": "https://dev.to/shannonllc/centralizing-webhooks-across-products-why-and-how-3f8j",
-      "pubDate": "2026-10-07T13:17:50.000Z",
-      "description": "<p><em>Billing signs with one header, accounts sends a static token, bookings never retries.</em> If several of your products send webhooks, this is probably familiar. Here's why consolidating them into one delivery system pays off, when it doesn't, and how to migrate.</p> <p>If several of your prod",
+      "title": "Overcoming Linux Learning Hurdles: Dedicated Effort Yields Mastery of Fundamentals",
+      "link": "https://dev.to/ilyatech/overcoming-linux-learning-hurdles-dedicated-effort-yields-mastery-of-fundamentals-2j89",
+      "pubDate": "2026-10-07T23:01:09.000Z",
+      "description": "<h2> Expert Analysis: The Linux Learning Journey and Its Impact on Backend Development </h2> <p>Completing a Linux learning course, despite its inherent challenges, represents a pivotal investment for individuals aiming to solidify their technical foundations and advance in backend development. This",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Every hackathon leaderboard is more confident than its judges. Mine admits it.",
-      "link": "https://dev.to/dannyamah/every-hackathon-leaderboard-is-more-confident-than-its-judges-mine-admits-it-4o1k",
-      "pubDate": "2026-10-07T13:17:48.000Z",
-      "description": "<p>The first honest run of my judging model ended with two numbers I didn't want to look at.</p> <p>The best of forty projects scored 3.72 out of 5. The worst scored 3.46. The entire leaderboard was 0.26 points wide, and every score in it was uncertain by about 0.15.</p> <p>A normal leaderboard woul",
+      "title": "Patch These Four Linux Kernel Local Root Vulns Now: DirtyAH6, PPPoEject, TUNderflow, and DiagSpill",
+      "link": "https://dev.to/theeromi/patch-these-four-linux-kernel-local-root-vulns-now-dirtyah6-pppoeject-tunderflow-and-diagspill-4730",
+      "pubDate": "2026-10-07T23:00:49.000Z",
+      "description": "<p>Four Linux kernel vulnerabilities went public on 18 September 2026, and they are the kind you should not sit on. DirtyAH6 (CVE-2026-80844), PPPoEject (CVE-2026-68121), TUNderflow (CVE-2026-81000) and DiagSpill (CVE-2026-74469) are all local privilege escalation bugs, meaning an attacker or malici",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "6 things that broke when we built an AI pipeline that posts to 9 social networks",
-      "link": "https://dev.to/rupa_tiwari_dd308948d710f/6-things-that-broke-when-we-built-an-ai-pipeline-that-posts-to-9-social-networks-2nmf",
-      "pubDate": "2026-10-07T13:17:31.000Z",
-      "description": "<p>At <a href=\"https://autoadify.com\" rel=\"noopener noreferrer\">Autoadify</a> we build <strong>Workflows</strong>: a schedule, a new Shopify/WooCommerce product, or a post that's taking off fires a pipeline that writes the copy, generates the image/video/voiceover/music, and publishes to Instagram, ",
+      "title": "WordPress 7.1.2 Patches a Critical Path Traversal to RCE: Update Now",
+      "link": "https://dev.to/theeromi/wordpress-712-patches-a-critical-path-traversal-to-rce-update-now-24pj",
+      "pubDate": "2026-10-07T23:00:46.000Z",
+      "description": "<p>A serious vulnerability was disclosed in the WordPress core codebase: an unauthenticated path traversal bug that, under the right server conditions, can escalate to remote code execution. That combination, no login required plus potential RCE, puts this near the top of the priority list for any W",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "What submitting to 101 directories taught us about free listings",
-      "link": "https://dev.to/agentoolrank/what-submitting-to-101-directories-taught-us-about-free-listings-46ge",
-      "pubDate": "2026-10-07T13:17:25.000Z",
-      "description": "<p><strong>81 of 101 directories offered a free option.</strong> Budget time for inbox steps and captchas, and read the free tier's conditions before filling the form.</p> <p>Our own submission notes cover 101 sites across three products, tested September 29 through October 2, 2026, and last verifie",
+      "title": "Miri Was Leaking CI Secrets Through GitHub Actions Caches: What to Clean Up",
+      "link": "https://dev.to/theeromi/miri-was-leaking-ci-secrets-through-github-actions-caches-what-to-clean-up-6o",
+      "pubDate": "2026-10-07T23:00:44.000Z",
+      "description": "<p>CI/CD pipelines are a common attack surface, and most developers focus on the obvious risks: exposed tokens, world-readable repos, overly permissive workflow permissions. But a subtler class of vulnerability comes from caching, and in September 2026 the Rust project published an advisory that is ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Showing BlindSpotMon from vPIC Without Inventing ADAS Safety Packages",
-      "link": "https://dev.to/vin_lookup_8dbd4710f77e9e/showing-blindspotmon-from-vpic-without-inventing-adas-safety-packages-5c89",
-      "pubDate": "2026-10-07T13:17:19.000Z",
-      "description": "<p>NHTSA vPIC often returns ADAS-oriented catalog fields on DecodeVinValues-style payloads -- including <code>BlindSpotMon</code> and related monitor / assistance tokens when the pattern includes them. Those strings are useful on a free VIN decode card. The trap is turning a single sourced field int",
+      "title": "Why \"create a wallet\" is where most people quit crypto",
+      "link": "https://dev.to/rabuawad/why-create-a-wallet-is-where-most-people-quit-crypto-1ag2",
+      "pubDate": "2026-10-07T23:00:12.000Z",
+      "description": "<p>Ask a new user to \"create an account\" and they know what to do. Ask them to \"create a wallet\" and you've already lost half of them.</p> <p>I've worked in Web3 for the last five years as a full-stack and smart contract developer at startups and protocols. I've given talks to both technical and non",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I Finished TryHackMe Pre Security — Here's What Changed",
-      "link": "https://dev.to/raizenhere/i-finished-tryhackme-pre-security-heres-what-changed-3l2",
-      "pubDate": "2026-10-07T13:16:55.000Z",
-      "description": "<p>I started learning cybersecurity without really knowing where to begin.</p> <p>I kept seeing roadmaps, certifications, tools, and people talking about advanced security topics. I wanted to get there, but I also knew I was missing the basics.</p> <p>So I decided to slow down and <strong>build a pr",
+      "title": "Go Help Center Retrieval Architecture: Auditable Multi-Tenant SaaS Indexing",
+      "link": "https://dev.to/ellisthornton7395/go-help-center-retrieval-architecture-auditable-multi-tenant-saas-indexing-5f3c",
+      "pubDate": "2026-10-07T22:58:23.000Z",
+      "description": "<p>Short answer: for a multi-tenant SaaS help center, use a staged retrieval architecture with explicit tenant collections, bounded queries, and traceable source context; apply incremental indexing changes through an idempotent journal, and measure retrieval quality before trading freshness for lowe",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Secure Self-Hosted n8n on AWS: The 2026 Hardening Checklist",
-      "link": "https://dev.to/aws-builders/secure-self-hosted-n8n-on-aws-the-2026-hardening-checklist-4jkk",
-      "pubDate": "2026-10-07T13:16:38.000Z",
-      "description": "<p>A friend messaged me last month. He had spun up self-hosted n8n on a cheap cloud box over a weekend, wired it to Stripe, his Postgres, Slack, and a couple of Google APIs, and it was humming along beautifully. Then he asked the question that made my stomach drop:</p> <p>\"Wait, is port 5678 suppose",
+      "title": "AI Built Your Supabase App and It Works. Here's What Breaks Next.",
+      "link": "https://dev.to/cekuu35/ai-built-your-supabase-app-and-it-works-heres-what-breaks-next-jdo",
+      "pubDate": "2026-10-07T22:58:22.000Z",
+      "description": "<p>A vibe-coded app that works is not the finish line — it's the starting line. The week-one demo passing tells you almost nothing about what happens in month one, when platform changes, key hygiene and permissive defaults start collecting their dues. I audit these apps for a living; here are the fi",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "I'm in love with a German film star",
+      "link": "https://heatherburns.tech/2026/10/01/im-in-love-with-a-german-film-star/",
+      "pubDate": "2026-10-07T22:26:34.000Z",
+      "description": "Article URL: https://heatherburns.tech/2026/10/01/im-in-love-with-a-german-film-star/ Comments URL: https://news.ycombinator.com/item?id=49999606 Points: 9 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Margaret Hamilton, who led software development for the Apollo program, has died",
+      "link": "https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007",
+      "pubDate": "2026-10-07T21:16:18.000Z",
+      "description": "Article URL: https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007 Comments URL: https://news.ycombinator.com/item?id=49998895 Points: 206 # Comments: 18",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Despite what Watson said, Rosalind Franklin understood structure of DNA first",
+      "link": "https://link.springer.com/article/10.1007/s10739-026-09866-7",
+      "pubDate": "2026-10-07T19:56:16.000Z",
+      "description": "Article URL: https://link.springer.com/article/10.1007/s10739-026-09866-7 Comments URL: https://news.ycombinator.com/item?id=49998006 Points: 71 # Comments: 15",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Meta and Microsoft take steps to reduce employee usage of Claude AI",
+      "link": "https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/",
+      "pubDate": "2026-10-07T18:49:40.000Z",
+      "description": "Article URL: https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/ Comments URL: https://news.ycombinator.com/item?id=49997161 Points: 219 # Comments: 221",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Push ifs up and fors down: The idiom, its algebra, and its limits",
+      "link": "https://debasishg.github.io/blog/push-ifs-up-fors-down/",
+      "pubDate": "2026-10-07T18:43:18.000Z",
+      "description": "Article URL: https://debasishg.github.io/blog/push-ifs-up-fors-down/ Comments URL: https://news.ycombinator.com/item?id=49997073 Points: 74 # Comments: 30",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Claude Haiku 5.5",
+      "link": "https://www.anthropic.com/claude-haiku-5-5",
+      "pubDate": "2026-10-07T18:01:32.000Z",
+      "description": "Article URL: https://www.anthropic.com/claude-haiku-5-5 Comments URL: https://news.ycombinator.com/item?id=49996437 Points: 584 # Comments: 282",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "GPT‑6 and Intelligent UI for everyone",
+      "link": "https://openai.com/index/gpt-6-for-everyone/",
+      "pubDate": "2026-10-07T18:00:58.000Z",
+      "description": "Article URL: https://openai.com/index/gpt-6-for-everyone/ Comments URL: https://news.ycombinator.com/item?id=49996425 Points: 423 # Comments: 214",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Docker Agent",
+      "link": "https://github.com/docker/docker-agent",
+      "pubDate": "2026-10-07T17:48:38.000Z",
+      "description": "Article URL: https://github.com/docker/docker-agent Comments URL: https://news.ycombinator.com/item?id=49996259 Points: 149 # Comments: 59",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Show HN: Agent.reviews – Where AI agents read and write reviews on tools",
+      "link": "https://agent.reviews/",
+      "pubDate": "2026-10-07T16:59:11.000Z",
+      "description": "Hi HN!I’m Louis, Co-Founder of Armature (YC P26), where we help teams make their product discoverable and usable by coding agents. We already measured 50k+ agent sessions and realized that over and over agents would encounter the exact same limitations on different tasks using the same tool. So we w",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Show HN: Bigwords.page – Turn any screen into a sign. The URL is the app",
+      "link": "https://bigwords.page/",
+      "pubDate": "2026-10-07T15:44:21.000Z",
+      "description": "Article URL: https://bigwords.page/ Comments URL: https://news.ycombinator.com/item?id=49994443 Points: 291 # Comments: 97",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "Let’s Use the Emergent CSS random() Function in all the Browsers",
