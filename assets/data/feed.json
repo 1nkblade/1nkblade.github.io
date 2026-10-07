@@ -1,173 +1,97 @@
 {
-  "generatedAt": "2026-10-07T06:01:44.633Z",
+  "generatedAt": "2026-10-07T13:25:48.227Z",
   "sourceCount": 4,
-  "successCount": 3,
+  "successCount": 2,
   "errors": [
     {
       "source": "Hack The Box Security Blog",
       "error": "HTTP 404 Not Found"
+    },
+    {
+      "source": "Hacker News",
+      "error": "fetch failed"
     }
   ],
   "items": [
     {
-      "title": "Load-balancer health checks: a healthy port is not a healthy app",
-      "link": "https://dev.to/justcreateapp/load-balancer-health-checks-a-healthy-port-is-not-a-healthy-app-496f",
-      "pubDate": "2026-10-07T05:55:45.000Z",
-      "description": "<p>By the Just Create App team</p> <p>A server can accept a TCP connection and still fail every useful request. Our <a href=\"https://justcreateapp.com/what-is-a-load-balancer\" rel=\"noopener noreferrer\">load-balancer explanation</a> covers the routing layer; this guide focuses on the checks that deci",
+      "title": "Stirling PDF: 12,660 title matches and no application fingerprint",
+      "link": "https://dev.to/jeffreyciend/stirling-pdf-12660-title-matches-and-no-application-fingerprint-395f",
+      "pubDate": "2026-10-07T13:20:33.000Z",
+      "description": "<h1> Stirling PDF: 12,660 title matches and no application fingerprint </h1> <p>A document tool that accepts uploads and returns modified files is a service worth counting, because the documents that pass through it are frequently the ones that were never meant to leave a controlled environment. Sti",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Code review challenge: which AI-generated edit changes behavior?",
-      "link": "https://dev.to/naifgravity/code-review-challenge-which-ai-generated-edit-changes-behavior-m6i",
-      "pubDate": "2026-10-07T05:55:10.000Z",
-      "description": "<p>Can you review these three proposed edits before looking at the answers?</p> <p>Assume a <strong>preserve-behavior</strong> policy. The input domain is integers from <strong>-64 through 64, plus None</strong>. Evaluate each candidate independently against this original function:<br> </p> <div cla",
+      "title": "Linux Server User Management: A Complete Practical Guide",
+      "link": "https://dev.to/yeasin4745/linux-server-user-management-a-complete-practical-guide-34bk",
+      "pubDate": "2026-10-07T13:18:35.000Z",
+      "description": "<h2> Introduction </h2> <p>Every Linux server, whether it hosts a small personal project or a large-scale production application, depends on one fundamental administrative task: user management. Properly managed users and groups are the first line of defense for your server's security, and they form",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "ISO 42001 for Engineering Teams: Practical Readiness Steps and Five Companies to Evaluate",
-      "link": "https://dev.to/yash_07/iso-42001-for-engineering-teams-practical-readiness-steps-and-five-companies-to-evaluate-2fhp",
-      "pubDate": "2026-10-07T05:54:50.000Z",
-      "description": "<p>An AI feature passes its tests and reaches production. Two weeks later, the team changes the model provider.</p> <p>Who approves the change? Which evaluations need to run again? Where are the results recorded? Who can disable the feature if its behavior becomes unacceptable?</p> <p>These question",
+      "title": "TrailCard: a Gemma-powered trail planner that works with no signal",
+      "link": "https://dev.to/aakif-kohari/trailcard-a-gemma-powered-trail-planner-that-works-with-no-signal-k90",
+      "pubDate": "2026-10-07T13:18:25.000Z",
+      "description": "<p><em>This is a submission for the <a href=\"https://dev.to/challenges/hacktoberfest-week1-2026-10-05\">Hacktoberfest Open-Source AI Challenge Week 1: Touch Grass</a></em></p> <h2> What I Built </h2> <p>TrailCard is an offline trail-day planner. You enter a trail (or upload a GPX file) and it produce",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Android System Design: A Practical Guide for Senior Android Engineers",
-      "link": "https://dev.to/gargpadmakar/android-system-design-a-practical-guide-for-senior-android-engineers-2bjp",
-      "pubDate": "2026-10-07T05:54:25.000Z",
-      "description": "<blockquote> <p>Learn how to design production-ready Android systems with scalable architecture, offline-first data, networking, synchronization, security, performance, and real-world examples.</p> </blockquote> <h2> Introduction </h2> <p>Modern Android development is no longer only about building s",
+      "title": "Centralizing Webhooks Across Products: Why and How",
+      "link": "https://dev.to/shannonllc/centralizing-webhooks-across-products-why-and-how-3f8j",
+      "pubDate": "2026-10-07T13:17:50.000Z",
+      "description": "<p><em>Billing signs with one header, accounts sends a static token, bookings never retries.</em> If several of your products send webhooks, this is probably familiar. Here's why consolidating them into one delivery system pays off, when it doesn't, and how to migrate.</p> <p>If several of your prod",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Model the review step before saving AI output",
-      "link": "https://dev.to/foodwarz/model-the-review-step-before-saving-ai-output-97p",
-      "pubDate": "2026-10-07T05:52:56.000Z",
-      "description": "<p>An AI response can identify a meal and suggest nutrition values. That response still leaves a product decision unresolved: which information does the person want in their diary?</p> <p>If the response is treated as a saved meal immediately, a successful model request can change a daily total befo",
+      "title": "Every hackathon leaderboard is more confident than its judges. Mine admits it.",
+      "link": "https://dev.to/dannyamah/every-hackathon-leaderboard-is-more-confident-than-its-judges-mine-admits-it-4o1k",
+      "pubDate": "2026-10-07T13:17:48.000Z",
+      "description": "<p>The first honest run of my judging model ended with two numbers I didn't want to look at.</p> <p>The best of forty projects scored 3.72 out of 5. The worst scored 3.46. The entire leaderboard was 0.26 points wide, and every score in it was uncertain by about 0.15.</p> <p>A normal leaderboard woul",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Building an Honest Free VIN Tool: What to Show Buyers vs What Needs a Paid Report",
-      "link": "https://dev.to/vin_lookup_8dbd4710f77e9e/building-an-honest-free-vin-tool-what-to-show-buyers-vs-what-needs-a-paid-report-4o2",
-      "pubDate": "2026-10-07T05:52:54.000Z",
-      "description": "<p>Free VIN tools sit in a trust gap. Buyers type a 17-character string and hope the page will say whether the car is safe to buy. Developers shipping those pages face a product choice: show what public decode data can actually prove, or dress a manufacturer lookup as if it were a full history repor",
+      "title": "6 things that broke when we built an AI pipeline that posts to 9 social networks",
+      "link": "https://dev.to/rupa_tiwari_dd308948d710f/6-things-that-broke-when-we-built-an-ai-pipeline-that-posts-to-9-social-networks-2nmf",
+      "pubDate": "2026-10-07T13:17:31.000Z",
+      "description": "<p>At <a href=\"https://autoadify.com\" rel=\"noopener noreferrer\">Autoadify</a> we build <strong>Workflows</strong>: a schedule, a new Shopify/WooCommerce product, or a post that's taking off fires a pipeline that writes the copy, generates the image/video/voiceover/music, and publishes to Instagram, ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I built RefreshLaunch to show what first-time visitors actually understand from your website",
-      "link": "https://dev.to/refreshlaunch/i-built-refreshlaunch-to-show-what-first-time-visitors-actually-understand-from-your-website-13pj",
-      "pubDate": "2026-10-07T05:52:40.000Z",
-      "description": "<p>A website can look polished and still leave a first-time visitor wondering:</p> <ul> <li>What exactly does this product do?</li> <li>Who is it for?</li> <li>Why should I care?</li> <li>What should I do next?</li> </ul> <p>I built <strong>RefreshLaunch</strong> around that problem.</p> <p>Instead ",
+      "title": "What submitting to 101 directories taught us about free listings",
+      "link": "https://dev.to/agentoolrank/what-submitting-to-101-directories-taught-us-about-free-listings-46ge",
+      "pubDate": "2026-10-07T13:17:25.000Z",
+      "description": "<p><strong>81 of 101 directories offered a free option.</strong> Budget time for inbox steps and captchas, and read the free tier's conditions before filling the form.</p> <p>Our own submission notes cover 101 sites across three products, tested September 29 through October 2, 2026, and last verifie",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Monorepo or Polyrepo?",
-      "link": "https://dev.to/joungpark/monorepo-or-polyrepo-1gib",
-      "pubDate": "2026-10-07T05:52:16.000Z",
-      "description": "<p>After deciding to use microservices, the next question was:</p> <p><strong>How should I organise the codebase?</strong></p> <p>I chose a <strong>monorepo</strong>.</p> <p>Second-Memory has several applications and services:<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight ",
+      "title": "Showing BlindSpotMon from vPIC Without Inventing ADAS Safety Packages",
+      "link": "https://dev.to/vin_lookup_8dbd4710f77e9e/showing-blindspotmon-from-vpic-without-inventing-adas-safety-packages-5c89",
+      "pubDate": "2026-10-07T13:17:19.000Z",
+      "description": "<p>NHTSA vPIC often returns ADAS-oriented catalog fields on DecodeVinValues-style payloads -- including <code>BlindSpotMon</code> and related monitor / assistance tokens when the pattern includes them. Those strings are useful on a free VIN decode card. The trap is turning a single sourced field int",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "No company, no API",
-      "link": "https://dev.to/ruslan_hrekov_d296523b326/no-company-no-api-59cd",
-      "pubDate": "2026-10-07T05:52:10.000Z",
-      "description": "<p>The engagement agent on my SMM Factory pilot does two things while the owner is cutting hair: it leaves conversational comments on in-niche Instagram posts, and it replies to incoming DMs. Haiku writes them, the orchestrator rate-limits them, Playwright drives the browser session that posts them.",
+      "title": "I Finished TryHackMe Pre Security — Here's What Changed",
+      "link": "https://dev.to/raizenhere/i-finished-tryhackme-pre-security-heres-what-changed-3l2",
+      "pubDate": "2026-10-07T13:16:55.000Z",
+      "description": "<p>I started learning cybersecurity without really knowing where to begin.</p> <p>I kept seeing roadmaps, certifications, tools, and people talking about advanced security topics. I wanted to get there, but I also knew I was missing the basics.</p> <p>So I decided to slow down and <strong>build a pr",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "nice one",
-      "link": "https://dev.to/natashahussein07/nice-one-2026",
-      "pubDate": "2026-10-07T05:51:58.000Z",
-      "description": "<div class=\"ltag__link--embedded\"> <div class=\"crayons-story \"> <a href=\"https://dev.to/dockerlinux/we-translated-our-terminal-game-into-portuguese-except-the-terminal-2e2f\" class=\"crayons-story__hidden-navigation-link\">We translated our terminal game into Portuguese. Except the terminal.</a> <div c",
+      "title": "Secure Self-Hosted n8n on AWS: The 2026 Hardening Checklist",
+      "link": "https://dev.to/aws-builders/secure-self-hosted-n8n-on-aws-the-2026-hardening-checklist-4jkk",
+      "pubDate": "2026-10-07T13:16:38.000Z",
+      "description": "<p>A friend messaged me last month. He had spun up self-hosted n8n on a cheap cloud box over a weekend, wired it to Stripe, his Postgres, Slack, and a couple of Google APIs, and it was humming along beautifully. Then he asked the question that made my stomach drop:</p> <p>\"Wait, is port 5678 suppose",
       "source": "Dev.to Feed",
       "category": "Development"
-    },
-    {
-      "title": "Hackers obtain counterfeit TLS certificates for Google and other large services",
-      "link": "https://arstechnica.com/security/2026/10/hackers-obtain-counterfeit-tls-certificates-for-google-and-other-large-services/",
-      "pubDate": "2026-10-07T04:37:05.000Z",
-      "description": "Article URL: https://arstechnica.com/security/2026/10/hackers-obtain-counterfeit-tls-certificates-for-google-and-other-large-services/ Comments URL: https://news.ycombinator.com/item?id=49988230 Points: 12 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Calling It Quits on ServerFault",
-      "link": "https://sysadmin1138.net/mt/blog/2026/10/calling-it-quits-on-serverfault.shtml",
-      "pubDate": "2026-10-07T04:22:04.000Z",
-      "description": "Article URL: https://sysadmin1138.net/mt/blog/2026/10/calling-it-quits-on-serverfault.shtml Comments URL: https://news.ycombinator.com/item?id=49988142 Points: 41 # Comments: 14",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "The art of defusing a second world war bomb",
-      "link": "https://www.theguardian.com/news/ng-interactive/2026/oct/06/it-could-knock-a-whole-street-down-the-art-of-defusing-a-second-world-war-bomb",
-      "pubDate": "2026-10-07T03:43:14.000Z",
-      "description": "Article URL: https://www.theguardian.com/news/ng-interactive/2026/oct/06/it-could-knock-a-whole-street-down-the-art-of-defusing-a-second-world-war-bomb Comments URL: https://news.ycombinator.com/item?id=49987858 Points: 11 # Comments: 2",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Show HN: NanoMuse – An open-source AI agent for your phone and computer",
-      "link": "https://github.com/nano-muse/nanoMuse",
-      "pubDate": "2026-10-07T03:30:44.000Z",
-      "description": "Article URL: https://github.com/nano-muse/nanoMuse Comments URL: https://news.ycombinator.com/item?id=49987765 Points: 3 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "La Cueva BBS in Mexico in 1993 (session replay)",
-      "link": "https://nanochess.org/la_cueva_bbs.html",
-      "pubDate": "2026-10-07T03:16:45.000Z",
-      "description": "Article URL: https://nanochess.org/la_cueva_bbs.html Comments URL: https://news.ycombinator.com/item?id=49987675 Points: 26 # Comments: 4",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Xbox has secured exclusive GTA 6 streaming rights",
-      "link": "https://www.theverge.com/report/1005859/microsoft-xbox-gta-6-streaming-rights",
-      "pubDate": "2026-10-07T02:22:42.000Z",
-      "description": "Article URL: https://www.theverge.com/report/1005859/microsoft-xbox-gta-6-streaming-rights Comments URL: https://news.ycombinator.com/item?id=49987245 Points: 29 # Comments: 28",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Strands Decider 2B: a small, open-source, decision model",
-      "link": "https://strandsagents.com/blog/introducing-strands-decider/",
-      "pubDate": "2026-10-07T02:02:11.000Z",
-      "description": "Article URL: https://strandsagents.com/blog/introducing-strands-decider/ Comments URL: https://news.ycombinator.com/item?id=49987076 Points: 104 # Comments: 20",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "ESP32-C3 Adblock",
-      "link": "https://github.com/M-Abozaid/esp32-c3-adblock",
-      "pubDate": "2026-10-07T01:39:21.000Z",
-      "description": "Article URL: https://github.com/M-Abozaid/esp32-c3-adblock Comments URL: https://news.ycombinator.com/item?id=49986862 Points: 45 # Comments: 8",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Jev-Driven SRE Diagnosis: What Worked and What Failed",
-      "link": "https://www.sregym.com/blog/jev-driven-sre-diagnosis",
-      "pubDate": "2026-10-07T01:27:49.000Z",
-      "description": "Article URL: https://www.sregym.com/blog/jev-driven-sre-diagnosis Comments URL: https://news.ycombinator.com/item?id=49986765 Points: 20 # Comments: 4",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "AnyPS5: Port PS5 binaries to PC without emulation (87% system libraries mapped)",
-      "link": "https://github.com/boykopovar/AnyPS5",
-      "pubDate": "2026-10-06T23:28:08.000Z",
-      "description": "Article URL: https://github.com/boykopovar/AnyPS5 Comments URL: https://news.ycombinator.com/item?id=49985664 Points: 179 # Comments: 138",
-      "source": "Hacker News",
-      "category": "Tech News"
     },
     {
       "title": "Let’s Use the Emergent CSS random() Function in all the Browsers",
