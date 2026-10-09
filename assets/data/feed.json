@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T23:21:36.022Z",
+  "generatedAt": "2026-10-09T06:10:20.735Z",
   "sourceCount": 4,
   "successCount": 3,
   "errors": [
@@ -10,90 +10,106 @@
   ],
   "items": [
     {
-      "title": "Anthropic Cyber Mission Expands AI Security Work for Infrastructure and Open Source",
-      "link": "https://dev.to/alifar/anthropic-cyber-mission-expands-ai-security-work-for-infrastructure-and-open-source-13hn",
-      "pubDate": "2026-10-08T23:15:30.000Z",
-      "description": "<p>Anthropic has launched the <strong>Anthropic Cyber Mission</strong>, a long-term security initiative focused on two areas with broad downstream importance: defending critical infrastructure and improving open-source software security. Announced on October 8, 2026, the program combines AI capabili",
+      "title": "QuantumScape's AI battery design: test the power envelope behind the runtime claim",
+      "link": "https://dev.to/da-li-at-pl/quantumscapes-ai-battery-design-test-the-power-envelope-behind-the-runtime-claim-12fj",
+      "pubDate": "2026-10-09T06:07:17.000Z",
+      "description": "<p>QuantumScape introduced QS PowerBlock on October 8, an adaptable reference design for in-rack energy storage in AI data centers. Its <a href=\"https://www.quantumscape.com/quantumscape-announces-qs-powerblock-for-in-rack-energy-storage-in-ai-data-centers/\" rel=\"noopener noreferrer\">primary announc",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Node.js SaaS Error Alerting API: Reconstructing Checkout Attempts from Events",
-      "link": "https://dev.to/pernilsson3147/nodejs-saas-error-alerting-api-reconstructing-checkout-attempts-from-events-2ca0",
-      "pubDate": "2026-10-08T23:14:56.000Z",
-      "description": "<p>TL;DR: For a Node.js SaaS error alerting API, preserve queryable checkout events, then let a cron worker poll them with a durable cursor and notify your support channel. The deciding constraint is incident reconstruction: an alert that says \"checkout failed\" is cheap to send and expensive to inve",
+      "title": "Track Your Water Like You Track Your Habits — The Case for a Daily Water Log",
+      "link": "https://dev.to/nutricounternetcmyk/track-your-water-like-you-track-your-habits-the-case-for-a-daily-water-log-4fnh",
+      "pubDate": "2026-10-09T06:06:20.000Z",
+      "description": "<p>Developers instrument everything. Uptime dashboards, error budgets, CI pipelines with graphs for days. Then we run our actual bodies on vibes — 'I probably drank enough water today' — and wonder why the 3 PM slump hits like clockwork. Hydration is one of the few health inputs that's fully measura",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Node.js Checkout Failure Alerts (Polling Postgres Metrics With Cost Attribution)",
-      "link": "https://dev.to/wilfredknight8447/nodejs-checkout-failure-alerts-polling-postgres-metrics-with-cost-attribution-4129",
-      "pubDate": "2026-10-08T23:13:52.000Z",
-      "description": "<p>For a Node.js checkout worker, a failure count alert should come from Postgres metrics that preserve who incurred each API error and what the attempt cost. A global counter hides both.</p> <p>Short answer: record one sanitized failure fact per checkout attempt, aggregate those facts in Postgres b",
+      "title": "A sharper eye did not make a more careful model.",
+      "link": "https://dev.to/shiva_58957fc81dcd9b82868/a-sharper-eye-did-not-make-a-more-careful-model-1lb0",
+      "pubDate": "2026-10-09T06:05:46.000Z",
+      "description": "<p><em>This is a submission for the <a href=\"https://dev.to/challenges/kaggle-2026-09-23\">Kaggle Benchmarking Challenge</a></em></p> <h2> What I Benchmarked </h2> <p>I wanted a test that could separate two stories people tell about these systems.</p> <p><a href=\"https://media2.dev.to/dynamic/image/w",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Ko-fi vs Patreon fees on a $3 gift, and why I built a third option anyway",
-      "link": "https://dev.to/pennygood/ko-fi-vs-patreon-fees-on-a-3-gift-and-why-i-built-a-third-option-anyway-5873",
-      "pubDate": "2026-10-08T23:13:47.000Z",
-      "description": "<p><em>I'm Kir, and I built <a href=\"https://pennygood.me\" rel=\"noopener noreferrer\">Pennygood</a>: simple monthly support pages, from $3/mo. Before building it I had to work out where Ko-fi and Patreon actually fit and where they don't. This is that comparison, including the parts where my own prod",
+      "title": "ig-harvester: an open-source Instagram OSINT toolkit built on Playwright + CDP",
+      "link": "https://dev.to/anurag_panda/ig-harvester-an-open-source-instagram-osint-toolkit-built-on-playwright-cdp-33l7",
+      "pubDate": "2026-10-09T06:05:07.000Z",
+      "description": "<p>Instagram doesn't have a public API for the kind of data OSINT work actually needs —<br> comment threads with reply hierarchies, full follower lists, carousel slides at original<br> resolution. So most tools in this space either reverse-engineer the private API (fragile)<br> or drive a browser (s",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "AI Weekly — 2026-10-02 to 2026-10-09 | The week compute financing ate the news cycle",
-      "link": "https://dev.to/yang_goufang_23c7ba674984/ai-weekly-2026-10-02-to-2026-10-09-the-week-compute-financing-ate-the-news-cycle-3j5d",
-      "pubDate": "2026-10-08T23:13:08.000Z",
-      "description": "<div class=\"highlight js-code-highlight\"> <pre class=\"highlight plaintext\"><code> &gt; This week, the loudest signal in AI was not a model release but a financing arms race: SpaceX pursuing roughly $40B for Nvidia GPUs and Broadcom eyeing over $50B to fund OpenAI's custom chips landed in the same ne",
+      "title": "Sovereign AI in Europe: what Mistral and OVHcloud already enable, and what is still missing",
+      "link": "https://dev.to/julesrobineau/sovereign-ai-in-europe-what-mistral-and-ovhcloud-already-enable-and-what-is-still-missing-5518",
+      "pubDate": "2026-10-09T06:03:00.000Z",
+      "description": "<blockquote> <p><strong>TL;DR.</strong> Europe already has models and cloud services that let you control several layers of an AI system. Mistral and OVHcloud offer practical options, but dependencies remain. European hosting alone will not keep a service running after a provider cuts access. You ne",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How to Implement Human-Above-The-Loop AI Governance Programmatically",
-      "link": "https://dev.to/tarikmostafa/how-to-implement-human-above-the-loop-ai-governance-programmatically-19em",
-      "pubDate": "2026-10-08T23:11:51.000Z",
-      "description": "<h1> How to Implement Human-Above-The-Loop AI Governance Programmatically </h1> <p><em>A practical, code-first architectural breakdown of moving from subjective human review to deterministic execution gates, policy engines, and statistical circuit breakers.</em></p> <p>In enterprise AI systems, almo",
+      "title": "GitHub Actions OIDC Trust Policy for AWS",
+      "link": "https://dev.to/shahidyousuf/github-actions-oidc-trust-policy-for-aws-380n",
+      "pubDate": "2026-10-09T06:02:53.000Z",
+      "description": "<p>Plenty of AWS accounts have an IAM user that exists only so a GitHub Actions workflow can push an image or run a deploy. Its access key sits in a repository secret and never expires. GitHub Actions OIDC is the better answer.</p> <p>The trust policy is where this goes wrong, and it got harder this",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "AI 週報 — 2026-10-02 to 2026-10-09 | 模型、商業與硬體三方同時加速",
-      "link": "https://dev.to/yang_goufang_23c7ba674984/ai-zhou-bao-2026-10-02-to-2026-10-09-mo-xing-shang-ye-yu-ying-ti-san-fang-tong-shi-jia-su-19b4",
-      "pubDate": "2026-10-08T23:07:16.000Z",
-      "description": "<blockquote> <p>$0.10 / 百萬輸入 token、1.56 TB 開源權重、400 億美元籌資買 GPU、整合本機推論的 AI PC——四個數字同時落到一週之內。本期拉出三條線：小型模型與長脈絡的成本曲線被重新畫、算力供需的資金壓力來到本季新高、終端推論被 Microsoft 與 NVIDIA 重新押注。下游工程團隊要重新評估成本、部署邊界與供應商風險。</p> </blockquote> <h2> 小型模型與長脈絡：成本曲線被重新定義 </h2> <p>Anthropic 釋出 Claude Haiku 5.5，主打一百萬 token 脈絡與每百萬輸入 token 0.1",
+      "title": "SCP vs RCP vs Declarative Policies in AWS",
+      "link": "https://dev.to/shahidyousuf/scp-vs-rcp-vs-declarative-policies-in-aws-40ne",
+      "pubDate": "2026-10-09T06:02:48.000Z",
+      "description": "<p>Once an AWS organization has more than a handful of accounts, guardrails stop being something each account team sets up for itself. A typical request: S3 Block Public Access switched on in every account, and kept on. AWS Organizations has three policy types that look like they could do that, a se",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Sentence embeddings in JAX, after Transformers v5 dropped it",
-      "link": "https://dev.to/xquantize/sentence-embeddings-in-jax-after-transformers-v5-dropped-it-137k",
-      "pubDate": "2026-10-08T23:05:00.000Z",
-      "description": "<p><a href=\"https://huggingface.co/docs/transformers/en/index\" rel=\"noopener noreferrer\">Hugging Face Transformers</a> v5 removed its TensorFlow and JAX code to focus on PyTorch. If you used FlaxBertModel or FlaxAutoModel to compute sentence embeddings in JAX, those classes are gone.</p> <p>This pos",
+      "title": "Move an AWS Account to Another Organization",
+      "link": "https://dev.to/shahidyousuf/move-an-aws-account-to-another-organization-5f95",
+      "pubDate": "2026-10-09T06:02:44.000Z",
+      "description": "<p>When you need to move an AWS account to another organization, the move itself takes minutes. Getting the account governed afterwards is the real work. In a multi-account <a href=\"https://shahidyousuf.dev/work/aws-multi-account-governance/\" rel=\"noopener noreferrer\">AWS governance engagement</a>, ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "EP05: How Simulcast works and what it's for",
-      "link": "https://dev.to/greg_tham_9527/ep05-how-simulcast-works-and-what-its-for-3dl9",
-      "pubDate": "2026-10-08T23:03:03.000Z",
-      "description": "<p><em>Episode 5 of 20 in the **PPCDN Low-Latency Live Streaming Course</em>* — building a self-hosted, low-latency live-streaming CDN from protocols to global delivery. Originally published on the <a href=\"https://docs.pp-cdn.org/en/course/EP05-Simulcast%E7%9A%84%E5%8E%9F%E7%90%86%E5%92%8C%E7%94%A8",
+      "title": "Media Send Accepted but Not Delivered? A URL-First Debugging Guide",
+      "link": "https://dev.to/unifyport/media-send-accepted-but-not-delivered-a-url-first-debugging-guide-ipp",
+      "pubDate": "2026-10-09T06:02:18.000Z",
+      "description": "<p>Sending media through an API looks simple:<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight plaintext\"><code>Choose a file Build JSON POST the request </code></pre> </div> <p>In production, failures usually happen across several separate boundaries:<br> </p> <div class=\"hi",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "MCP connection errors explained: 404 on /sse, 406 Not Acceptable, session 400s, 402",
-      "link": "https://dev.to/tanod/mcp-connection-errors-explained-404-on-sse-406-not-acceptable-session-400s-402-dik",
-      "pubDate": "2026-10-08T23:01:40.000Z",
-      "description": "<p>MCP Streamable HTTP is one URL. The client POSTs JSON-RPC to it and may open a GET stream on the same URL; nothing else is part of the address. Most connection failures we see in our own server log are a client talking to a different address than the one it was given, or sending the wrong headers",
+      "title": "Stop Burning Tokens: Why Multi-Agent Orchestration Beats Single-Prompt Bloat in AI Coding",
+      "link": "https://dev.to/tamizuddin/stop-burning-tokens-why-multi-agent-orchestration-beats-single-prompt-bloat-in-ai-coding-34gk",
+      "pubDate": "2026-10-09T06:01:45.000Z",
+      "description": "<p><em>Originally published on <a href=\"https://tamiz.pro/insights/stop-burning-tokens-why-multi-agent-orchestration-beats-single-prompt-bloat-in-ai-coding\" rel=\"noopener noreferrer\">tamiz.pro</a>.</em></p> <h2> The Hidden Cost of \"One-Shot\" AI Coding </h2> <p>When building AI-assisted development w",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Show HN: Free open source Adobe Lightroom alternative, completely local with AI",
-      "link": "https://github.com/thesnarkitecht/rembrandt",
-      "pubDate": "2026-10-08T21:00:55.000Z",
-      "description": "Article URL: https://github.com/thesnarkitecht/rembrandt Comments URL: https://news.ycombinator.com/item?id=50012199 Points: 36 # Comments: 32",
+      "title": "Show HN: Quake ported to safe Rust, playable in browser",
+      "link": "https://quake-srp.pages.dev/",
+      "pubDate": "2026-10-09T05:22:58.000Z",
+      "description": "Article URL: https://quake-srp.pages.dev/ Comments URL: https://news.ycombinator.com/item?id=50016312 Points: 36 # Comments: 10",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Reducing undefined behavior in the C language",
+      "link": "https://lwn.net/Articles/1095811/",
+      "pubDate": "2026-10-09T02:02:53.000Z",
+      "description": "Article URL: https://lwn.net/Articles/1095811/ Comments URL: https://news.ycombinator.com/item?id=50015074 Points: 77 # Comments: 47",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Bevy 0.20",
+      "link": "https://bevy.org/news/bevy-0-20/",
+      "pubDate": "2026-10-08T22:57:50.000Z",
+      "description": "Article URL: https://bevy.org/news/bevy-0-20/ Comments URL: https://news.ycombinator.com/item?id=50013610 Points: 119 # Comments: 21",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -101,7 +117,7 @@
       "title": "AI-ready biological data: $1.8B global commitment",
       "link": "https://biohub.org/news/virtual-biology-initiative-expansion/",
       "pubDate": "2026-10-08T20:46:25.000Z",
-      "description": "Article URL: https://biohub.org/news/virtual-biology-initiative-expansion/ Comments URL: https://news.ycombinator.com/item?id=50011999 Points: 42 # Comments: 1",
+      "description": "Article URL: https://biohub.org/news/virtual-biology-initiative-expansion/ Comments URL: https://news.ycombinator.com/item?id=50011999 Points: 104 # Comments: 14",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -109,7 +125,7 @@
       "title": "ADHD as a circadian rhythm disorder: evidence and implications for chronotherapy (2025)",
       "link": "https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2025.1697900/full",
       "pubDate": "2026-10-08T20:42:16.000Z",
-      "description": "Article URL: https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2025.1697900/full Comments URL: https://news.ycombinator.com/item?id=50011928 Points: 104 # Comments: 85",
+      "description": "Article URL: https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2025.1697900/full Comments URL: https://news.ycombinator.com/item?id=50011928 Points: 250 # Comments: 146",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -117,7 +133,7 @@
       "title": "The value of not getting to the point (2015)",
       "link": "https://ken.arneson.name/2015/11/the-value-of-not-getting-to-the-point/",
       "pubDate": "2026-10-08T19:04:56.000Z",
-      "description": "Article URL: https://ken.arneson.name/2015/11/the-value-of-not-getting-to-the-point/ Comments URL: https://news.ycombinator.com/item?id=50010470 Points: 92 # Comments: 29",
+      "description": "Article URL: https://ken.arneson.name/2015/11/the-value-of-not-getting-to-the-point/ Comments URL: https://news.ycombinator.com/item?id=50010470 Points: 143 # Comments: 46",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -125,7 +141,15 @@
       "title": "Theranos.world",
       "link": "https://www.theranos.world/",
       "pubDate": "2026-10-08T17:51:49.000Z",
-      "description": "Article URL: https://www.theranos.world/ Comments URL: https://news.ycombinator.com/item?id=50009295 Points: 211 # Comments: 98",
+      "description": "Article URL: https://www.theranos.world/ Comments URL: https://news.ycombinator.com/item?id=50009295 Points: 376 # Comments: 134",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Scaling and benchmarking a critical message bus using a new indexing strategy",
+      "link": "https://blog.janestreet.com/scaling-and-benchmarking-a-critical-message-bus/",
+      "pubDate": "2026-10-08T17:39:26.000Z",
+      "description": "Article URL: https://blog.janestreet.com/scaling-and-benchmarking-a-critical-message-bus/ Comments URL: https://news.ycombinator.com/item?id=50009066 Points: 35 # Comments: 3",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -133,7 +157,7 @@
       "title": "Whistle: Speech to Text in 16.9 MB",
       "link": "https://cactuscompute.com/blog/whistle",
       "pubDate": "2026-10-08T16:59:39.000Z",
-      "description": "Article URL: https://cactuscompute.com/blog/whistle Comments URL: https://news.ycombinator.com/item?id=50008427 Points: 445 # Comments: 104",
+      "description": "Article URL: https://cactuscompute.com/blog/whistle Comments URL: https://news.ycombinator.com/item?id=50008427 Points: 675 # Comments: 143",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -141,31 +165,7 @@
       "title": "Show HN: Making a flexible \"neon\" t-shirt with LED filaments",
       "link": "http://scottbezek.blogspot.com/2026/10/making-flexible-neon-t-shirt-with-leds.html",
       "pubDate": "2026-10-08T16:37:24.000Z",
-      "description": "Article URL: http://scottbezek.blogspot.com/2026/10/making-flexible-neon-t-shirt-with-leds.html Comments URL: https://news.ycombinator.com/item?id=50008047 Points: 85 # Comments: 15",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Step 5 Preview, a 1M-context MoE from StepFun, shows up on OpenRouter",
-      "link": "https://openrouter.ai/stepfun/step-5-preview",
-      "pubDate": "2026-10-08T16:20:20.000Z",
-      "description": "Article URL: https://openrouter.ai/stepfun/step-5-preview Comments URL: https://news.ycombinator.com/item?id=50007764 Points: 76 # Comments: 23",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "New gTLD Application for .lan",
-      "link": "https://newgtldprogram-aps.icann.org/applications/CD2694T-T26351/summary",
-      "pubDate": "2026-10-08T15:51:51.000Z",
-      "description": "Article URL: https://newgtldprogram-aps.icann.org/applications/CD2694T-T26351/summary Comments URL: https://news.ycombinator.com/item?id=50007353 Points: 92 # Comments: 112",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Trump administration is suspending Microsoft from a green card program",
-      "link": "https://apnews.com/article/h1b-visa-program-vance-microsoft-e7b3a407f822702b269ee277d21343ea",
-      "pubDate": "2026-10-08T15:15:00.000Z",
-      "description": "Article URL: https://apnews.com/article/h1b-visa-program-vance-microsoft-e7b3a407f822702b269ee277d21343ea Comments URL: https://news.ycombinator.com/item?id=50006832 Points: 788 # Comments: 1360",
+      "description": "Article URL: http://scottbezek.blogspot.com/2026/10/making-flexible-neon-t-shirt-with-leds.html Comments URL: https://news.ycombinator.com/item?id=50008047 Points: 144 # Comments: 28",
       "source": "Hacker News",
       "category": "Tech News"
     },
