@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T05:53:59.867Z",
+  "generatedAt": "2026-10-10T12:33:35.458Z",
   "sourceCount": 4,
   "successCount": 3,
   "errors": [
@@ -10,106 +10,130 @@
   ],
   "items": [
     {
-      "title": "Same Korean sunscreen, two stores: Korea writes reviews 5x faster, the rest of the world posts 2x the photos",
-      "link": "https://dev.to/cocomoon/same-korean-sunscreen-two-stores-korea-writes-reviews-5x-faster-the-rest-of-the-world-posts-2x-2244",
-      "pubDate": "2026-10-10T05:53:07.000Z",
-      "description": "<p>Olive Young, Korea's biggest beauty retailer, runs two stores. The Korean one (oliveyoung.co.kr) sells to people in Korea. The Global one (global.oliveyoung.com) ships abroad. A product that is on both has two separate review sections, written by two different sets of buyers.</p> <p>I wanted to s",
+      "title": "We built a web workspace for our terminals, RDP sessions and Claude Code, and made it work from a phone",
+      "link": "https://dev.to/tecnologicachile/we-built-a-web-workspace-for-our-terminals-rdp-sessions-and-claude-code-and-made-it-work-from-a-d4d",
+      "pubDate": "2026-10-10T12:31:01.000Z",
+      "description": "<p>We run a small IT services company in Santiago, Chile. A normal day for us is a dozen Linux servers, a handful of Windows machines we reach over RDP, and, since last year, three or four Claude Code sessions doing real work in parallel. For a long time that meant a laptop with too many tabs, a pho",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I let 10 AI models grade their own homework. Only 2 went easy on themselves.",
-      "link": "https://dev.to/anishisbusy/i-let-10-ai-models-grade-their-own-homework-only-2-went-easy-on-themselves-3bdi",
-      "pubDate": "2026-10-10T05:53:07.000Z",
-      "description": "<p><em>This is a submission for the <a href=\"https://dev.to/challenges/kaggle-2026-09-23\">Kaggle Benchmarking Challenge</a></em></p> <p>Gemini 3.8 Flash solved a counting question correctly: how many integers from 849 to 7,877 are divisible by at least two of 7, 10 and 14? I changed its final answer",
+      "title": "Best practices for implementing LLM access controls and monitoring",
+      "link": "https://dev.to/resk/best-practices-for-implementing-llm-access-controls-and-monitoring-5gli",
+      "pubDate": "2026-10-10T12:30:27.000Z",
+      "description": "<h2> The question engineers actually ask </h2> <p>When a team ships an LLM feature, the first review question is usually about prompt quality. The second, quieter question is about access. Who can call the model, with what context, and what happens when the model decides to call a tool on their beha",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Building a Secure AWS VPC with EC2: A Hands-On Networking Lab",
-      "link": "https://dev.to/omayrashraf/building-a-secure-aws-vpc-with-ec2-a-hands-on-networking-lab-20k4",
-      "pubDate": "2026-10-10T05:52:49.000Z",
-      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F5983ayqewn9vs35x3xr2.png\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/",
+      "title": "Noise Sources: Affinity, Frequency, and Background Load — How to isolate and quantify non‑compiler variance with csperf",
+      "link": "https://dev.to/aabhinavg/noise-sources-affinity-frequency-and-background-load-how-to-isolate-and-quantify-non-compiler-2e",
+      "pubDate": "2026-10-10T12:30:08.000Z",
+      "description": "<h2> Why this lesson exists </h2> <p>Unexplained variance in a csperf run often gets blamed on the compiler, when in fact the machine is the culprit. This episode shows how to read the noise metadata that csperf records and how to isolate affinity, frequency, and background load.</p> <h2> Recap — wh",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Handling Concurrent Requests and Duplicate Checkouts in Spring Boot",
-      "link": "https://dev.to/shitanshu686/handling-concurrent-requests-and-duplicate-checkouts-in-spring-boot-386e",
-      "pubDate": "2026-10-10T05:52:34.000Z",
-      "description": "<p><strong>While building ShopEase, my e-commerce backend project, I reached a stage where implementing CRUD endpoints was no longer enough.</strong></p> <p>I needed to think about what happens when multiple customers try to update the same inventory or submit the same checkout request simultaneousl",
+      "title": "The hard part is not connecting systems. It is predictable behavior.",
+      "link": "https://dev.to/usehive/the-hard-part-is-not-connecting-systems-it-is-predictable-behavior-11p",
+      "pubDate": "2026-10-10T12:30:02.000Z",
+      "description": "<p>Connecting systems is the easy part. The hard part is predictable behavior. The same request should do the same thing every time. Edge cases should fail the same way twice. Permissions should hold under pressure, not just in the demo. Error handling should tell you what happened, not just that so",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Cross-post your unify blog to dev.to",
-      "link": "https://dev.to/fwdslsh/cross-post-your-unify-blog-to-devto-ai2",
-      "pubDate": "2026-10-10T05:52:31.000Z",
-      "description": "<p>Posting on your own site and on dev.to gets you two audiences, but only if the copies stay honest. Search engines should credit your site, not the copy. A post should land once, not once per deploy. And when you fix a tag at home, the copy should pick it up.</p> <p>This site now does all three: <",
+      "title": "Building SaaS Products with Node.js: A Practical Guide to Architecture, Security, and Scaling",
+      "link": "https://dev.to/ansh_sheladiya/building-saas-products-with-nodejs-a-practical-guide-to-architecture-security-and-scaling-52cg",
+      "pubDate": "2026-10-10T12:30:00.000Z",
+      "description": "<p>Building a SaaS product is about much more than creating a few API endpoints and connecting a database. You need an architecture that supports multiple customers, secure authentication, subscription plans, reliable data isolation, and predictable performance as your user base grows.</p> <p>Node.j",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Tauri vs Electron vs Neutralinojs: Bundle Size and RAM, Measured",
-      "link": "https://dev.to/guang_diyuzhi_74b0fec2c09/tauri-vs-electron-vs-neutralinojs-bundle-size-and-ram-measured-2a21",
-      "pubDate": "2026-10-10T05:52:30.000Z",
-      "description": "<p>Tauri vs Electron vs Neutralinojs 2026: Best Desktop App Framework Compared\\n\\n</p> <p>Building desktop applications with web technologies has never been more popular — or more confusing. In 2026, you have three serious contenders: Electron (the established standard), Tauri (the Rust-powered chal",
+      "title": "An offline voice agent for my terminal in 52 MB (Whistle + Needle)",
+      "link": "https://dev.to/neeraj_sharma_757fbb49aa7/an-offline-voice-agent-for-my-terminal-in-52-mb-whistle-needle-40le",
+      "pubDate": "2026-10-10T12:29:34.000Z",
+      "description": "<p>Two of the biggest Hacker News threads this week were about Whistle, a 16.9 MB speech-to-text model, and DeepSeek V4.1 Flash. I wanted to see what you can build with the first one, so I put a voice front end on my terminal, with the second as a fallback.</p> <p>Say \"show me the last fifteen minut",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Capturing coding sessions while the desktop app is closed",
-      "link": "https://dev.to/ashikvarma11/capturing-coding-sessions-while-the-desktop-app-is-closed-14pb",
-      "pubDate": "2026-10-10T05:51:03.000Z",
-      "description": "<p><em>Current stage: Windows desktop development build. Updated 10 October 2026.</em></p> <p>A memory app that must stay open throughout every coding session adds another thing to remember. Mind Palace separates the capture process from the desktop interface.</p> <p>Approved Codex hooks invoke a sm",
+      "title": "Live Score Widget in React: Embed or Build It in 10 Minutes",
+      "link": "https://dev.to/orbistats/live-score-widget-in-react-embed-or-build-it-in-10-minutes-2dn4",
+      "pubDate": "2026-10-10T12:26:47.000Z",
+      "description": "<p>Liquid syntax error: Variable '{{% raw %}' was not properly terminated with regexp: /\\}\\}/</p>",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "🌿TraceBack: Step Outside, Capture Something, Trace It Back",
-      "link": "https://dev.to/tanya_garg_5315/traceback-step-outside-capture-something-trace-it-back-1d0m",
-      "pubDate": "2026-10-10T05:51:00.000Z",
-      "description": "<h2> 🌿 TraceBack: Step Outside, Capture Something, Trace It Back </h2> <p><em>This is a submission for the <a href=\"https://dev.to/challenges/hacktoberfest-week1-2026-10-05\">Hacktoberfest Open-Source AI Challenge Week 1: Touch Grass</a></em></p> <h2> What I Built </h2> <p>What if discovering someth",
+      "title": "A Swollen Battery Cracked the Back Cover. Here Is How Much Room a Battery Compartment Actually Needs.",
+      "link": "https://dev.to/asher_hu_42c5945e09721211/a-swollen-battery-cracked-the-back-cover-here-is-how-much-room-a-battery-compartment-actually-2i3n",
+      "pubDate": "2026-10-10T12:25:48.000Z",
+      "description": "<p>When a swollen battery cracks the back cover, most of the time it is not a cell quality problem — the structure simply never gave the battery room to expand. After a few hundred cycles, a lithium cell growing 3% to 8% in thickness is normal, and pouch cells are worse. In the projects we have run ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "AI Agent Decision Logs: Record Evidence Without Storing Chain of Thought",
-      "link": "https://dev.to/jackm-singularity/ai-agent-decision-logs-record-evidence-without-storing-chain-of-thought-3gp0",
-      "pubDate": "2026-10-10T05:50:28.000Z",
-      "description": "<p>An agent can update a customer record, trigger a refund, or route a support case while every dashboard stays green. Then someone asks the only question that matters: <strong>why was this action allowed, and what actually changed?</strong> A trace may show tokens and latency. An application log ma",
+      "title": "Before an AI agent acts: a shared contract for intent, provenance and evidence",
+      "link": "https://dev.to/fabsalvadori/before-an-ai-agent-acts-a-shared-contract-for-intent-provenance-and-evidence-4262",
+      "pubDate": "2026-10-10T12:24:44.000Z",
+      "description": "<p>I maintain PIC Standard (Provenance &amp; Intent Contracts), an Apache-2.0 protocol for making AI agent actions checkable before they happen.</p> <h2> The idea </h2> <p>When an agent wants to do something with consequences (send a payment, export personal data, delete resources), PIC asks it to f",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Finding coding decisions with exact source quotes",
-      "link": "https://dev.to/ashikvarma11/finding-coding-decisions-with-exact-source-quotes-4omk",
-      "pubDate": "2026-10-10T05:50:26.000Z",
-      "description": "<p><em>Current stage: Windows desktop development build. Updated 10 October 2026.</em></p> <p>“Why did we choose SQLite?” is a retrieval question before it is a writing task. If the reason already exists in a coding conversation, I want to read that passage and check who said it.</p> <p>That is the ",
+      "title": "Best Prompt Injection Detection and Defense Tools for Enterprise AI Agents in 2026",
+      "link": "https://dev.to/arcade/best-prompt-injection-detection-and-defense-tools-for-enterprise-ai-agents-in-2026-3ede",
+      "pubDate": "2026-10-10T12:23:57.000Z",
+      "description": "<p>Prompt injection becomes a different security problem when an AI agent can send an email, update a CRM, modify a record, or trigger a workflow. Detecting the malicious instruction matters, but so does controlling what happens if detection misses it.</p> <p>This guide compares 10 tools across the ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "If AI is conscient, then we are making slaves",
-      "link": "https://www.groundlevel-ai.com/p/anthropic-ai-consciousness-new-york-times-rabbi",
-      "pubDate": "2026-10-10T04:51:26.000Z",
-      "description": "Article URL: https://www.groundlevel-ai.com/p/anthropic-ai-consciousness-new-york-times-rabbi Comments URL: https://news.ycombinator.com/item?id=50029681 Points: 8 # Comments: 10",
+      "title": "LLMs Aren't Inevitable",
+      "link": "https://deadsimpletech.com/blog/llms-arent-inevitable",
+      "pubDate": "2026-10-10T12:04:04.000Z",
+      "description": "Article URL: https://deadsimpletech.com/blog/llms-arent-inevitable Comments URL: https://news.ycombinator.com/item?id=50032064 Points: 5 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Lobbying",
-      "link": "https://geohot.github.io//blog/jekyll/update/2026/10/10/lobbying.html",
-      "pubDate": "2026-10-10T04:40:36.000Z",
-      "description": "Article URL: https://geohot.github.io//blog/jekyll/update/2026/10/10/lobbying.html Comments URL: https://news.ycombinator.com/item?id=50029630 Points: 136 # Comments: 40",
+      "title": "Apple/macOS silently removed from official Unix registry",
+      "link": "https://www.opengroup.org//openbrand/register/",
+      "pubDate": "2026-10-10T10:57:31.000Z",
+      "description": "Article URL: https://www.opengroup.org//openbrand/register/ Comments URL: https://news.ycombinator.com/item?id=50031653 Points: 30 # Comments: 13",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Data Center Darling's $30B IPO Dream Crushed in 48 Hours",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-09/data-center-darling-s-30-billion-ipo-dream-crushed-in-48-hours",
-      "pubDate": "2026-10-10T04:04:17.000Z",
-      "description": "Article URL: https://www.bloomberg.com/news/articles/2026-10-09/data-center-darling-s-30-billion-ipo-dream-crushed-in-48-hours Comments URL: https://news.ycombinator.com/item?id=50029452 Points: 17 # Comments: 6",
+      "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
+      "link": "https://github.com/rociiu/talorys",
+      "pubDate": "2026-10-10T10:52:09.000Z",
+      "description": "Article URL: https://github.com/rociiu/talorys Comments URL: https://news.ycombinator.com/item?id=50031614 Points: 42 # Comments: 16",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "`123456' password used in Danish CPR data breach",
+      "link": "https://cphpost.dk/2026-10-10/news/round-up/123456-password-used-in-massive-danish-cpr-data-breach/",
+      "pubDate": "2026-10-10T09:51:49.000Z",
+      "description": "Article URL: https://cphpost.dk/2026-10-10/news/round-up/123456-password-used-in-massive-danish-cpr-data-breach/ Comments URL: https://news.ycombinator.com/item?id=50031269 Points: 152 # Comments: 90",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Computers Cannot Make Decisions",
+      "link": "https://wiki.cateat.fish/art:computers_cannot_make_decisions",
+      "pubDate": "2026-10-10T05:47:46.000Z",
+      "description": "Article URL: https://wiki.cateat.fish/art:computers_cannot_make_decisions Comments URL: https://news.ycombinator.com/item?id=50029982 Points: 124 # Comments: 102",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Food processing influences metabolism and brain activity",
+      "link": "https://news.vt.edu/articles/2026/10/research_fralinbiomed_upfhutelin.html",
+      "pubDate": "2026-10-10T05:22:30.000Z",
+      "description": "Article URL: https://news.vt.edu/articles/2026/10/research_fralinbiomed_upfhutelin.html Comments URL: https://news.ycombinator.com/item?id=50029830 Points: 58 # Comments: 44",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -117,23 +141,7 @@
       "title": "Telegram Desktop vulnerability allowed any user's file to be stolen",
       "link": "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/",
       "pubDate": "2026-10-10T03:02:47.000Z",
-      "description": "Article URL: https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/ Comments URL: https://news.ycombinator.com/item?id=50029123 Points: 38 # Comments: 8",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Put a price on breakthroughs",
-      "link": "https://alexwang.ai/posts/put-a-price-on-breakthroughs/",
-      "pubDate": "2026-10-10T02:37:47.000Z",
-      "description": "Article URL: https://alexwang.ai/posts/put-a-price-on-breakthroughs/ Comments URL: https://news.ycombinator.com/item?id=50028982 Points: 10 # Comments: 2",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Next.js 16.4",
-      "link": "https://nextjs.org/blog/next-16-4",
-      "pubDate": "2026-10-10T02:13:44.000Z",
-      "description": "Article URL: https://nextjs.org/blog/next-16-4 Comments URL: https://news.ycombinator.com/item?id=50028855 Points: 6 # Comments: 1",
+      "description": "Article URL: https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/ Comments URL: https://news.ycombinator.com/item?id=50029123 Points: 220 # Comments: 106",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -141,15 +149,7 @@
       "title": "REA Reverse – Engineer Anything",
       "link": "https://rea.tools/",
       "pubDate": "2026-10-10T00:37:07.000Z",
-      "description": "Article URL: https://rea.tools/ Comments URL: https://news.ycombinator.com/item?id=50028275 Points: 244 # Comments: 81",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Has the Autonomous Trucking Revolution Arrived?",
-      "link": "https://phenomenalworld.org/analysis/has-the-autonomous-trucking-revolution-arrived/",
-      "pubDate": "2026-10-09T23:57:12.000Z",
-      "description": "Article URL: https://phenomenalworld.org/analysis/has-the-autonomous-trucking-revolution-arrived/ Comments URL: https://news.ycombinator.com/item?id=50028062 Points: 22 # Comments: 36",
+      "description": "Article URL: https://rea.tools/ Comments URL: https://news.ycombinator.com/item?id=50028275 Points: 478 # Comments: 195",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -157,7 +157,7 @@
       "title": "Clinical trial of a prion disease drug candidate begins enrolling participants",
       "link": "https://www.broadinstitute.org/news/clinical-trial-prion-disease-drug-candidate-begins-enrolling-participants",
       "pubDate": "2026-10-09T23:53:08.000Z",
-      "description": "Article URL: https://www.broadinstitute.org/news/clinical-trial-prion-disease-drug-candidate-begins-enrolling-participants Comments URL: https://news.ycombinator.com/item?id=50028027 Points: 28 # Comments: 2",
+      "description": "Article URL: https://www.broadinstitute.org/news/clinical-trial-prion-disease-drug-candidate-begins-enrolling-participants Comments URL: https://news.ycombinator.com/item?id=50028027 Points: 87 # Comments: 19",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -165,7 +165,7 @@
       "title": "Compiling Rust to readable C with Eurydice",
       "link": "https://lwn.net/Articles/1055211/",
       "pubDate": "2026-10-09T23:28:36.000Z",
-      "description": "Article URL: https://lwn.net/Articles/1055211/ Comments URL: https://news.ycombinator.com/item?id=50027853 Points: 47 # Comments: 7",
+      "description": "Article URL: https://lwn.net/Articles/1055211/ Comments URL: https://news.ycombinator.com/item?id=50027853 Points: 93 # Comments: 26",
       "source": "Hacker News",
       "category": "Tech News"
     },
