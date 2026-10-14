@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T22:45:36.995Z",
+  "generatedAt": "2026-10-14T04:55:00.010Z",
   "sourceCount": 4,
   "successCount": 3,
   "errors": [
@@ -10,90 +10,154 @@
   ],
   "items": [
     {
-      "title": "Gemini 4 Argon Video Understanding and Canvas Audio Tools: What Is Documented",
-      "link": "https://dev.to/alifar/gemini-4-argon-video-understanding-and-canvas-audio-tools-what-is-documented-1nck",
-      "pubDate": "2026-10-13T22:45:30.000Z",
-      "description": "<p>Google has rolled out <strong>Gemini 4 Argon</strong>, a multimodal model that can work with text, images, audio and video, alongside a Canvas environment that includes a built-in Music Synthesizer. Together, those documented capabilities create an interesting path for interactive multimedia prot",
+      "title": "A receipt sorter that never leaves your laptop (Gemma + Ollama)",
+      "link": "https://dev.to/dhanush_gowda_0affeff0dba/a-receipt-sorter-that-never-leaves-your-laptop-gemma-ollama-2644",
+      "pubDate": "2026-10-14T04:47:31.000Z",
+      "description": "<p>This is a submission for the Hacktoberfest Challenge, Week 2: Side Hustle.</p> <p>What I Built</p> <p>Freelancers collect receipts and invoices from many places: email PDFs, phone photos, app screenshots. At tax time someone has to type each one into a spreadsheet. Those documents hold client nam",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Next.js 14: Server Components and the Future of React – Like Taking the Red Pill",
-      "link": "https://dev.to/timevolt/nextjs-14-server-components-and-the-future-of-react-like-taking-the-red-pill-3100",
-      "pubDate": "2026-10-13T22:45:11.000Z",
-      "description": "<h2> The Quest Begins (The \"Why\") </h2> <p>Honestly, I was tired of shipping React apps that felt like they were dragging a backpack full of rocks. Every time I added a new feature, the bundle grew, the first‑paint slowed, and I found myself constantly wrestling with data‑fetching waterfalls. I’d fe",
+      "title": "Framework Success Isn't Outcome Success: Why Your Hiring Workflow Ran But Did Nothing",
+      "link": "https://dev.to/opsveritas/framework-success-isnt-outcome-success-why-your-hiring-workflow-ran-but-did-nothing-2ea8",
+      "pubDate": "2026-10-14T04:46:08.000Z",
+      "description": "<p>Your hiring round just moved a candidate to Interview. Three systems fired: the notification queue sent emails to panelists, the assignment table logged their names, the scheduler queued up a booking reminder. All of it logged as success. But five days later, no interview was actually scheduled.<",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "⚠️ ARE YOU AWARE OF THE DANGER?",
-      "link": "https://dev.to/pilder_of/are-you-aware-of-the-danger-4o54",
-      "pubDate": "2026-10-13T22:44:58.000Z",
-      "description": "<p><strong>Are we heading toward a problem far bigger than AI putting software developers out of work?</strong></p> <p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Far",
+      "title": "DukaanAI: Turn Product Photos into a Shop Inventory with Open-Weight AI Tags: #hf26challenge #devchallenge #hacktoberfest #ai",
+      "link": "https://dev.to/manish_ray_f05a723b517119/dukaanai-turn-product-photos-into-a-shop-inventory-with-open-weight-ai-tags-hf26challenge-1ag2",
+      "pubDate": "2026-10-14T04:45:39.000Z",
+      "description": "<p>The problem</p> <p>Small retailers often need to maintain product catalogues containing product names, categories, descriptions, prices, and stock quantities. Entering this information manually can be repetitive, especially for shops with many products.</p> <p>I wanted to explore a simple questio",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Confere: Local Receipt Reading With a Paper Trail",
-      "link": "https://dev.to/brunof94_debug/confere-local-receipt-reading-with-a-paper-trail-4gn4",
-      "pubDate": "2026-10-13T22:44:56.000Z",
-      "description": "<p><em>This is a submission for the <a href=\"https://dev.to/challenges/hacktoberfest-week2-2026-10-12\">Hacktoberfest Open-Source AI Challenge Week 2: Side Hustle</a>.</em></p> <h2> What I Built </h2> <p>A receipt photo is not yet an expense you should trust.</p> <p>It might be the same photo sent tw",
+      "title": "5 Ways to Debug Password Reset Email Retries Causing Duplicate Links",
+      "link": "https://dev.to/urbandonovan1576/5-ways-to-debug-password-reset-email-retries-causing-duplicate-links-7m6",
+      "pubDate": "2026-10-14T04:44:21.000Z",
+      "description": "<p>Use suppression checks, one active reset token per request window, and idempotent sends before adding another retry. <strong>The practical fix is to make retries repeat one delivery intent, not create a new password-reset event.</strong> Then poll delivery events to separate a temporary deferral ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Why I Built Checkers: Making Company Data More Accessible",
-      "link": "https://dev.to/checkers/why-i-built-checkers-making-company-data-more-accessible-3eco",
-      "pubDate": "2026-10-13T22:44:43.000Z",
-      "description": "<p>When I started looking into French company data, one thing quickly became frustrating: the information was technically public, but actually using it wasn't always easy.</p> <p>There are already several platforms where you can look up French companies, find their financial statements, check their ",
+      "title": "Password Reset Email API Request Timeout Guide (2 Ownership Guards)",
+      "link": "https://dev.to/chrysostomhayes8537/password-reset-email-api-request-timeout-guide-2-ownership-guards-2ego",
+      "pubDate": "2026-10-14T04:43:34.000Z",
+      "description": "<p>Short answer: issue one reset token, record that decision atomically, and let retries reuse the same send operation. A timeout is an unknown result, not permission to mint another token or fire another email. For a fintech contact flow, keep the reset template owned by the authentication path; th",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "🎉 Update: JPersist v1.6.0 is Live &amp; Open for Contributors!",
-      "link": "https://dev.to/yannickebongue/update-jpersist-v160-is-live-open-for-contributors-4e88",
-      "pubDate": "2026-10-13T22:40:22.000Z",
-      "description": "<p>We just shipped v1.6.0 to the Gradle Plugin Portal alongside our core query parsing engine libraries (v2.0.0) on Maven Central! </p> <p>To celebrate, we have officially opened the repository to outside contributors and structured our very first automated issue templates. If you are looking to get",
+      "title": "Local Seller AI: An AI-Powered Marketing Copilot for Small Businesses",
+      "link": "https://dev.to/pravin_kumar_06/local-seller-ai-an-ai-powered-marketing-copilot-for-small-businesses-iff",
+      "pubDate": "2026-10-14T04:41:23.000Z",
+      "description": "<p><em>This is a submission for the <a href=\"https://dev.to/challenges/hacktoberfest-week2-2026-10-12\">Hacktoberfest Open-Source AI Challenge Week 2: Side Hustle</a></em></p> <h2> What I Built </h2> <p>I built <strong>Local Seller AI</strong>, an AI-powered marketing copilot for small business owner",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How to Secure Java Docker Images and Reduce CVE Risk",
-      "link": "https://dev.to/aerabi/how-to-secure-java-docker-images-and-reduce-cve-risk-a78",
-      "pubDate": "2026-10-13T22:40:21.000Z",
-      "description": "<p><strong>The Black Forest Commandos' field guide to CVEs, SBOMs, hardened images, attestations, and software supply chain security.</strong></p> <p>Your Java application can inherit vulnerable dependencies and packages from your base image before you write a single line of application code. Also, ",
+      "title": "Meta's Muse Wonder Scores Big and Delivers Little",
+      "link": "https://dev.to/max_quimby/metas-muse-wonder-scores-big-and-delivers-little-4ig1",
+      "pubDate": "2026-10-14T04:40:30.000Z",
+      "description": "<h1> Meta's Muse Wonder Scores Big and Delivers Little </h1> <p>Meta Superintelligence Labs just shipped <a href=\"https://theaiinsider.tech/2026/10/13/meta-superintelligence-lab-releases-muse-wonder-models-in-first-push-into-frontier-ai/\" rel=\"noopener noreferrer\">Muse Wonder and Muse Wonder Full</a",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Prep Sheet: A Cafe Prep Planner",
-      "link": "https://dev.to/scar3max/prep-sheet-a-cafe-prep-planner-3l0n",
-      "pubDate": "2026-10-13T22:40:05.000Z",
-      "description": "<p><em>This is a submission for the <a href=\"https://dev.to/challenges/hacktoberfest-week2-2026-10-12\">Hacktoberfest Open-Source AI Challenge Week 2: Side Hustle</a></em></p> <h2> What I Built </h2> <p><strong>Prep Sheet</strong> is a prep-planning prototype for independent cafes, bakeries, and food",
+      "title": "AI Made Me Faster at Coding. So Why Did I Feel Like a Worse Developer?",
+      "link": "https://dev.to/sanikbajrachary/ai-made-me-faster-at-coding-so-why-did-i-feel-like-a-worse-developer-4gj9",
+      "pubDate": "2026-10-14T04:37:42.000Z",
+      "description": "<p>I’ve been working with React, Node.js BFFs, and Python for years. We use them at work, so there hasn’t been much reason to pick up something new.</p> <p>But with AI making it easier to get started, I figured, why not try Svelte and Go?</p> <p>I watched a few YouTube videos, learned the basics, an",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Why Smarter AI Doesn't Mean Smarter Robots (Yet)",
-      "link": "https://dev.to/robin_singh_456fbe1f602b9/why-smarter-ai-doesnt-mean-smarter-robots-yet-1ebm",
-      "pubDate": "2026-10-13T22:40:01.000Z",
-      "description": "<p>Robots and AI are often talked about as if they are the same project, but they are not. The AI research that gets headlines (big vision models, reinforcement learning, large language models) mostly runs in simulation or in a data center. The robot has to deal with gravity, friction, battery drain",
+      "title": "I built a WhatsApp AI agent in under 60 minutes, with low-code agent builder",
+      "link": "https://dev.to/aharna/i-built-a-whatsapp-ai-agent-in-under-60-minutes-with-low-code-agent-builder-3p53",
+      "pubDate": "2026-10-14T04:37:39.000Z",
+      "description": "<p>Building a WhatsApp agent is trickier than it looks. You write a pile of code for webhooks and message handling. You wire up an LLM, write the prompts, and manage conversation state so the agent remembers what the user said two messages ago. You set up a Meta Business account, get it verified, ap",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Excel Ctrl+; Shortcut: Insert Today's Date as a Fixed Value",
-      "link": "https://dev.to/hodadak_official/excel-ctrl-shortcut-insert-todays-date-as-a-fixed-value-29bo",
-      "pubDate": "2026-10-13T22:40:00.000Z",
-      "description": "<p>Logs, checklists and request trackers all need a date column. Typing the full date into each cell is about ten keystrokes every time, and it is easy to mistype a digit when you are doing it for the twentieth row.</p> <p><strong>TL;DR:</strong> Ctrl+; enters today's date in the active cell. Select",
+      "title": "Why I Put My Flowchart and My Calculations on the Same Canvas",
+      "link": "https://dev.to/yhdm12345/why-i-put-my-flowchart-and-my-calculations-on-the-same-canvas-3man",
+      "pubDate": "2026-10-14T04:37:10.000Z",
+      "description": "<p>I spent the last eight years as a process engineer. Most of that time went into two things: drawing flowcharts in Visio, and doing mass balances in Excel.</p> <p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-upl",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Running Qwen3.8 at 255 tok/s on a single 5090",
-      "link": "https://meshapplied.com",
-      "pubDate": "2026-10-13T22:31:48.000Z",
-      "description": "Article URL: https://meshapplied.com Comments URL: https://news.ycombinator.com/item?id=50079842 Points: 5 # Comments: 0",
+      "title": "Is 'Attention' the Essence of Intelligence?",
+      "link": "https://www.quantamagazine.org/is-attention-the-essence-of-intelligence-20261012/",
+      "pubDate": "2026-10-14T03:10:25.000Z",
+      "description": "Article URL: https://www.quantamagazine.org/is-attention-the-essence-of-intelligence-20261012/ Comments URL: https://news.ycombinator.com/item?id=50081930 Points: 19 # Comments: 4",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "I built a tool to track what AI leaders say and how their views change on video",
+      "link": "https://blumify.io/people",
+      "pubDate": "2026-10-14T01:09:13.000Z",
+      "description": "Article URL: https://blumify.io/people Comments URL: https://news.ycombinator.com/item?id=50081151 Points: 47 # Comments: 27",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "High-speed video reveals how honey bee stingers pump venom",
+      "link": "https://arstechnica.com/science/2026/10/honey-bee-stingers-are-double-piston-venom-pumps/",
+      "pubDate": "2026-10-14T01:05:23.000Z",
+      "description": "Article URL: https://arstechnica.com/science/2026/10/honey-bee-stingers-are-double-piston-venom-pumps/ Comments URL: https://news.ycombinator.com/item?id=50081133 Points: 39 # Comments: 7",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Do Frameworks Matter Anymore?",
+      "link": "https://brookslybrand.com/posts/do-frameworks-matter-anymore/",
+      "pubDate": "2026-10-14T01:01:08.000Z",
+      "description": "Article URL: https://brookslybrand.com/posts/do-frameworks-matter-anymore/ Comments URL: https://news.ycombinator.com/item?id=50081092 Points: 15 # Comments: 3",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Show HN: Pulse Local, a Mac budgeting app whose AI models run on your machine",
+      "link": "https://pulseos.finance",
+      "pubDate": "2026-10-13T23:13:23.000Z",
+      "description": "Hi HN, I'm Niz. Pulse Local is a budgeting app for Mac (Apple Silicon, beta) that answers questions about your spending with models that run on your machine. Local mode needs no account. The ledger and your questions stay on the machine, and the app sends no analytics or crash logs.I felt there are ",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Grace Hopper Celebration Cancelled",
+      "link": "https://anitab.org/press-release",
+      "pubDate": "2026-10-13T22:46:49.000Z",
+      "description": "Article URL: https://anitab.org/press-release Comments URL: https://news.ycombinator.com/item?id=50080007 Points: 49 # Comments: 6",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Recreational Programming",
+      "link": "https://www.cphiri.dev/presentations/recreational-programming",
+      "pubDate": "2026-10-13T22:33:33.000Z",
+      "description": "Article URL: https://www.cphiri.dev/presentations/recreational-programming Comments URL: https://news.ycombinator.com/item?id=50079865 Points: 101 # Comments: 34",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "AlphaNIST",
+      "link": "https://alpha-nist.github.io/",
+      "pubDate": "2026-10-13T21:57:29.000Z",
+      "description": "Article URL: https://alpha-nist.github.io/ Comments URL: https://news.ycombinator.com/item?id=50079464 Points: 58 # Comments: 17",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Physical Intelligence API Beta: Frontier Models for Every Robot",
+      "link": "https://www.pi.website/blog/api-beta",
+      "pubDate": "2026-10-13T21:55:25.000Z",
+      "description": "Article URL: https://www.pi.website/blog/api-beta Comments URL: https://news.ycombinator.com/item?id=50079437 Points: 48 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -102,70 +166,6 @@
       "link": "https://jobs.lever.co/postera/c7d50a36-db0a-4574-bfe4-8700b74a22c0",
       "pubDate": "2026-10-13T21:01:12.000Z",
       "description": "Article URL: https://jobs.lever.co/postera/c7d50a36-db0a-4574-bfe4-8700b74a22c0 Comments URL: https://news.ycombinator.com/item?id=50078686 Points: 0 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "OpenAI engineer arrested in bugging of executive conference room",
-      "link": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
-      "pubDate": "2026-10-13T20:23:55.000Z",
-      "description": "https://x.com/OpenAINewsroom/status/2110095403198849132 Comments URL: https://news.ycombinator.com/item?id=50078141 Points: 199 # Comments: 189",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Show HN: Parsimony – an open-source benchmark for how much code AI models add",
-      "link": "https://parsimony.lasu.dev/",
-      "pubDate": "2026-10-13T19:50:31.000Z",
-      "description": "Existing benchmarks measure solve rate and token output/cost, but don't punish excess code, which makes a codebase harder to work with in the long term. I wanted to measure this since it matters most for long-term projects.Method: it takes the patches that benchmarks already publish (DeepSWE, SWE-be",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "The Four Colour Theorem: The first time machines mogged mathematicians",
-      "link": "https://newsletter.pessimistsarchive.org/p/the-1st-time-machines-mogged-mathematicians",
-      "pubDate": "2026-10-13T19:17:19.000Z",
-      "description": "https://celebratio.org/Appel_KI/article/796/#sender Comments URL: https://news.ycombinator.com/item?id=50077096 Points: 15 # Comments: 15",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Show HN: Guitoro, a virtual guitar you strum with your keyboard",
-      "link": "https://guitoro.com/",
-      "pubDate": "2026-10-13T19:11:48.000Z",
-      "description": "Guitoro is a free browser guitar using recordings of real instruments. You can strum with your keyboard, mouse, or touchscreen, choose acoustic, classical, electric guitar or bass, and see chord fingering and each stroke. Song practice can be slowed to 20%, and there are free chord tools and tuners.",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Show HN: How Random Are You?",
-      "link": "https://lab.specr.net/rigged-draw/",
-      "pubDate": "2026-10-13T16:57:57.000Z",
-      "description": "Article URL: https://lab.specr.net/rigged-draw/ Comments URL: https://news.ycombinator.com/item?id=50074909 Points: 62 # Comments: 30",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Gemini 4 Argon for Robotics",
-      "link": "https://developers.googleblog.com/gemini-4-argon-for-robotics/",
-      "pubDate": "2026-10-13T16:55:47.000Z",
-      "description": "Main thread: Gemini 4 Argon - https://news.ycombinator.com/item?id=50073879 Comments URL: https://news.ycombinator.com/item?id=50074869 Points: 164 # Comments: 40",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Gemini 4 Argon",
-      "link": "https://deepmind.google/models/gemini/",
-      "pubDate": "2026-10-13T16:03:16.000Z",
-      "description": "See also: Gemini 4 Argon for Robotics - https://news.ycombinator.com/item?id=50074869 Comments URL: https://news.ycombinator.com/item?id=50073879 Points: 854 # Comments: 674",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Redesigning source control at Anthropic",
-      "link": "https://www.anthropic.com/engineering/redesigning-source-control",
-      "pubDate": "2026-10-13T15:49:56.000Z",
-      "description": "Article URL: https://www.anthropic.com/engineering/redesigning-source-control Comments URL: https://news.ycombinator.com/item?id=50073633 Points: 434 # Comments: 426",
       "source": "Hacker News",
       "category": "Tech News"
     },
