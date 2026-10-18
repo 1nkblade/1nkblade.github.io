@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T04:35:25.680Z",
+  "generatedAt": "2026-10-18T11:06:50.945Z",
   "sourceCount": 4,
   "successCount": 3,
   "errors": [
@@ -10,84 +10,140 @@
   ],
   "items": [
     {
-      "title": "Cutting Vector Index Costs in a Developer Changelog Tracker (and When Web Search Wins)",
-      "link": "https://dev.to/ethanbrooks1647/cutting-vector-index-costs-in-a-developer-changelog-tracker-and-when-web-search-wins-1nl7",
-      "pubDate": "2026-10-18T04:29:10.000Z",
-      "description": "<p>Short answer: use a staged retrieval design with explicit collections, bounded queries, and traceable source context. Keep the vector index for known changelog material, and use web search as a bounded recovery path when the index is stale or missing a source.</p> <p>For an edtech changelog track",
+      "title": "Contains: I built an allergen checker for home bakers that says “I’m not sure” instead of guessing",
+      "link": "https://dev.to/abeera_lodhi/contains-i-built-an-allergen-checker-for-home-bakers-that-says-im-not-sure-instead-of-guessing-29g8",
+      "pubDate": "2026-10-18T11:06:17.000Z",
+      "description": "<p><em>This is a submission for the <a href=\"https://dev.to/challenges/hacktoberfest-week2-2026-10-12\">Hacktoberfest Open-Source AI Challenge: Side Hustle</a>.</em></p> <p>Here is a cake recipe. Tell me whether it is safe for someone with a soy allergy.</p> <blockquote> <p>all purpose flour, butter,",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Is a Chatbot Worth It for a Small Business? An Honest Test",
-      "link": "https://dev.to/chenwengui23/is-a-chatbot-worth-it-for-a-small-business-an-honest-test-53ab",
-      "pubDate": "2026-10-18T04:28:41.000Z",
-      "description": "<p>The answer depends on three conditions, not on the product. Here is the scoring sheet, the honest no, and the cheaper alternatives that win more often than anyone admits.</p> <p>A two-chair barbershop paid for setup and a monthly subscription on a chatbot that handled nine conversations in its fi",
+      "title": "Window Functions, Joins, CTEs and Subqueries Using a Hospital Database",
+      "link": "https://dev.to/lucy_anyango_d6aa9788c23a/window-functions-joins-ctes-and-subqueries-using-a-hospital-database-49b9",
+      "pubDate": "2026-10-18T11:05:50.000Z",
+      "description": "<h2> Introduction </h2> <p>SQL allows us to store, retrieve, organize and analyze data in relational databases. In a hospital, SQL can help management understand patient visits, identify doctors handling the most cases, compare hospital bills, track admissions and investigate patterns in diagnoses a",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Auditable Compliance Policy Lookup in 2026 — Versioned Citations at Retrieval Time",
-      "link": "https://dev.to/nyxenl29/auditable-compliance-policy-lookup-in-2026-versioned-citations-at-retrieval-time-3o7p",
-      "pubDate": "2026-10-18T04:28:39.000Z",
-      "description": "<p>Index cost changes this decision: a compliance bot must retain superseded policy chunks, so size grows with every revision instead of tracking only the current corpus. <strong>Short answer:</strong> choose a retrieval service only after proving that its metadata filters can select an effective po",
+      "title": "DrawerLocal: Your receipts, sorted. Your data, never uploaded.",
+      "link": "https://dev.to/kumarvarnit16/drawerlocal-your-receipts-sorted-your-data-never-uploaded-1g28",
+      "pubDate": "2026-10-18T11:04:40.000Z",
+      "description": "<p><em>This is a submission for the <a href=\"https://dev.to/challenges/hacktoberfest-week2-2026-10-12\">Hacktoberfest Open-Source AI Challenge Week 2: Side Hustle</a></em></p> <h2> What I Built </h2> <p>Every tax season, millions of freelancers, consultants, and boutique agency owners face the same d",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "FollowUp Local: a Gemma model on your laptop that tells you why the customer went quiet",
-      "link": "https://dev.to/dongweipolyred/followup-local-a-gemma-model-on-your-laptop-that-tells-you-why-the-customer-went-quiet-o9d",
-      "pubDate": "2026-10-18T04:28:06.000Z",
-      "description": "<p><em>This is a submission for the <a href=\"https://dev.to/challenges/hacktoberfest-week2-2026-10-12\">Hacktoberfest Open-Source AI Challenge Week 2: Side Hustle</a></em></p> <h2> What I Built </h2> <p>Most small sales don't die with a \"no\". They die with \"let me check with her and get back to you\",",
+      "title": "We tested 4 AI app builders with the same prompt. Here's what broke.",
+      "link": "https://dev.to/vibetierlist/we-tested-4-ai-app-builders-with-the-same-prompt-heres-what-broke-7ei",
+      "pubDate": "2026-10-18T11:04:23.000Z",
+      "description": "<p><strong>Disclosure:</strong> VibeTierList is run by an AI agent with a human owner. There are no affiliate links here, and no tool paid for its placement.</p> <p>We kept seeing \"best AI app builder\" lists with no evidence behind them. So we gave <strong>Lovable, Bolt, Base44 and v0</strong> the e",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How Much Does an AI Agent Cost a Small Business?",
-      "link": "https://dev.to/chenwengui23/how-much-does-an-ai-agent-cost-a-small-business-48co",
-      "pubDate": "2026-10-18T04:28:00.000Z",
-      "description": "<p>The monthly fee on the quote is one of four cost lines. Here is the full structure — including the two that show up on no invoice — and a worksheet to price it from your own inputs.</p> <p>A five-person HVAC company was quoted one monthly number for an AI receptionist and budgeted for exactly tha",
+      "title": "My DOCX converter trusted Word's styles, and Word betrayed it completely",
+      "link": "https://dev.to/imapphelp/my-docx-converter-trusted-words-styles-and-word-betrayed-it-completely-hne",
+      "pubDate": "2026-10-18T11:03:40.000Z",
+      "description": "<p>I built a DOCX-to-Markdown converter assuming heading styles were reliable. <code>Heading 1</code> means a section title. <code>Heading 2</code> means a subsection. Word agrees — until a human opens the file and does something creative.</p> <p>The breaking case: a 40-page contract where the autho",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Designing APIs for Massive Datasets (Cursor Pagination, Sparse Fields, Caching)",
-      "link": "https://dev.to/tejaswipandava/designing-apis-for-massive-datasets-cursor-pagination-sparse-fields-caching-1dh3",
-      "pubDate": "2026-10-18T04:28:00.000Z",
-      "description": "<p><strong>The scenario:</strong> <em>Your API returns a list of 2 million products. A mobile app needs to display them. How do you design this so the app doesn't crash and the server doesn't melt?</em></p> <p>The naive answer — return everything in one response — fails immediately at scale: 2 milli",
+      "title": "My First Impressions Learning a Programming Language",
+      "link": "https://dev.to/brian_builds/my-first-impressions-learning-a-programming-language-4013",
+      "pubDate": "2026-10-18T11:03:26.000Z",
+      "description": "<p>As a first-year Bachelor of Science in Computer Science (BSCS) student, I am still beginning my journey in the world of programming. Learning a programming language is a new experience for me, and it has taught me that programming requires patience, practice, and logical thinking.</p> <p>When I f",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "What a week of agent-run Dependabot triage and AI code review taught me (karasu weekly)",
-      "link": "https://dev.to/kompiro/what-a-week-of-agent-run-dependabot-triage-and-ai-code-review-taught-me-karasu-weekly-41af",
-      "pubDate": "2026-10-18T04:27:45.000Z",
-      "description": "<p><a href=\"https://github.com/kompiro/karasu\" rel=\"noopener noreferrer\">karasu</a> is a text modeling language for system architecture, inspired by the C4 model.<br> You describe your system in <code>.krs</code> files and karasu draws the views: system, deployment, and team structure.<br> I haven't",
+      "title": "Building a Custom Slither Detector for CEX Interface Security",
+      "link": "https://dev.to/rdin777/building-a-custom-slither-detector-for-cex-interface-security-285b",
+      "pubDate": "2026-10-18T11:03:20.000Z",
+      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fswwj6b8tozhtf0yrm7r7.PNG\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "ChaosProxy: Bulletproof Your Microservices with Automated Fault Injection and Network Chaos Testing",
-      "link": "https://dev.to/alessio99xx/chaosproxy-bulletproof-your-microservices-with-automated-fault-injection-and-network-chaos-testing-ini",
-      "pubDate": "2026-10-18T04:26:57.000Z",
-      "description": "<p>Modern distributed architectures are inherently fragile. Microservices, multi-region database clusters, third-party payment gateways, and external SaaS dependencies fail continuously, unpredictably, and silently. </p> <p>Most engineering teams rely on unit tests, integration tests, and staging en",
+      "title": "PedigreeGraph: Built an AI agent that reads a family tree",
+      "link": "https://dev.to/vanya_mittal_009fd2d47161/pedigreegraph-built-an-ai-agent-that-reads-a-family-tree-4m72",
+      "pubDate": "2026-10-18T11:03:02.000Z",
+      "description": "<p><strong>Built for Graph Hacks: Context for AI Agents (FalkorDB x WeMakeDevs), Track 01: Agents That Act on Connected Data.</strong></p> <p><strong>## The story nobody told</strong></p> <p>Most of us know our families through stories: who laughed the loudest, who cooked the best, who we lost too s",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The trust account invariant: one bank balance, many owners, and the check that catches commingling",
-      "link": "https://dev.to/zerabooks/the-trust-account-invariant-one-bank-balance-many-owners-and-the-check-that-catches-commingling-3p50",
-      "pubDate": "2026-10-18T04:25:47.000Z",
-      "description": "<p>A property manager's trust account obeys one invariant: <strong>bank balance = every owner's balance + every security deposit held</strong>, at every moment. A second rule catches quieter commingling: <strong>no single owner's balance may go below zero</strong>, because if it does, another owner'",
+      "title": "MovAlong: A Zero-Cost, Air-Gapped RFC &amp; Diagram Generator for Software Consultants",
+      "link": "https://dev.to/surendrat/movalong-a-zero-cost-air-gapped-rfc-diagram-generator-for-software-consultants-2d9i",
+      "pubDate": "2026-10-18T11:02:57.000Z",
+      "description": "<p><em>This is a submission for the <a href=\"https://dev.to/challenges/hacktoberfest-week2-2026-10-12\">Hacktoberfest Open-Source AI Challenge Week 2: Side Hustle</a></em></p> <h2> What I Built </h2> <p>If you do freelance software architecture, technical consulting, or backend contracting, you know ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "One Prometheus for unRaid, a Synology NAS, and a VPS: What I Got Wrong",
-      "link": "https://dev.to/hoelee/one-prometheus-for-unraid-a-synology-nas-and-a-vps-what-i-got-wrong-2g4g",
-      "pubDate": "2026-10-18T04:25:24.000Z",
-      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fvk0o4y990lci3wkiogik.webp\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/width=800%2Ch",
+      "title": "Event Data APIs Compared (2026): Which One Should You Build On?",
+      "link": "https://dev.to/eventcast_online/event-data-apis-compared-2026-which-one-should-you-build-on-45cf",
+      "pubDate": "2026-10-18T11:02:37.000Z",
+      "description": "<p>I needed worldwide event data (concerts, festivals, conferences, civic disruptions such as strikes and protests) for a side project and couldn't find one honest comparison, so I wrote it.</p> <p>The guide compares PredictHQ, Ticketmaster Discovery, Eventbrite, SeatGeek, EventCast and others on:</",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "Parser Combinators",
+      "link": "https://t3.at/blog/2026-10-17-parser-combinators/",
+      "pubDate": "2026-10-18T08:19:53.000Z",
+      "description": "Article URL: https://t3.at/blog/2026-10-17-parser-combinators/ Comments URL: https://news.ycombinator.com/item?id=50139067 Points: 20 # Comments: 4",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "DeepSeek search and fetch – $0.75 per 1000 successful requests",
+      "link": "https://api-docs.deepseek.com/guides/search/",
+      "pubDate": "2026-10-18T06:50:36.000Z",
+      "description": "Article URL: https://api-docs.deepseek.com/guides/search/ Comments URL: https://news.ycombinator.com/item?id=50138531 Points: 213 # Comments: 101",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Matthew Prince on why Cloudflare offers a free version and always will (2016)",
+      "link": "https://webmasters.stackexchange.com/questions/88659/how-can-cloudflare-offer-a-free-cdn-with-unlimited-bandwidth/88685#88685",
+      "pubDate": "2026-10-18T05:09:14.000Z",
+      "description": "Article URL: https://webmasters.stackexchange.com/questions/88659/how-can-cloudflare-offer-a-free-cdn-with-unlimited-bandwidth/88685#88685 Comments URL: https://news.ycombinator.com/item?id=50138087 Points: 102 # Comments: 80",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "A Mole Infiltrated the Highest Ranks of American Militias (2025)",
+      "link": "https://www.propublica.org/article/ap3-oath-keepers-militia-mole",
+      "pubDate": "2026-10-18T04:59:24.000Z",
+      "description": "Article URL: https://www.propublica.org/article/ap3-oath-keepers-militia-mole Comments URL: https://news.ycombinator.com/item?id=50138044 Points: 94 # Comments: 20",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Notes on the Complex Roots of Unity",
+      "link": "https://eli.thegreenplace.net/2026/notes-on-the-complex-roots-of-unity/",
+      "pubDate": "2026-10-18T04:49:31.000Z",
+      "description": "Article URL: https://eli.thegreenplace.net/2026/notes-on-the-complex-roots-of-unity/ Comments URL: https://news.ycombinator.com/item?id=50138002 Points: 27 # Comments: 4",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping",
+      "link": "https://sphinx-six-theta.vercel.app/",
+      "pubDate": "2026-10-18T04:33:49.000Z",
+      "description": "FOSS, Basically it plugs into your existing coding agent workflow and every time you push to prod it'll throw up a questionnaire that checks if you understand how the code you're pushing works. Comments URL: https://news.ycombinator.com/item?id=50137950 Points: 139 # Comments: 42",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "How the Elizabeth Holmes documentary “You Can See Everything” is deceiving",
+      "link": "https://www.readtheprofile.com/p/elizabeth-holmes-documentary-you-can-see-everything",
+      "pubDate": "2026-10-18T03:19:49.000Z",
+      "description": "Article URL: https://www.readtheprofile.com/p/elizabeth-holmes-documentary-you-can-see-everything Comments URL: https://news.ycombinator.com/item?id=50137620 Points: 151 # Comments: 166",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "NY announces game ownership bill requiring ownership rather than licensing",
@@ -98,26 +154,10 @@
       "category": "Tech News"
     },
     {
-      "title": "Chrome and Edge are removing XSLT: what breaks and what does not",
-      "link": "https://doctor-seo.net/en/blog/news/chrome-edge-removing-xslt/",
-      "pubDate": "2026-10-17T20:07:33.000Z",
-      "description": "Article URL: https://doctor-seo.net/en/blog/news/chrome-edge-removing-xslt/ Comments URL: https://news.ycombinator.com/item?id=50134617 Points: 103 # Comments: 112",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
       "title": "Codex Desktop continuously generates Crashpad pending dumps",
       "link": "https://github.com/openai/codex/issues/25921",
       "pubDate": "2026-10-17T17:45:08.000Z",
-      "description": "Article URL: https://github.com/openai/codex/issues/25921 Comments URL: https://news.ycombinator.com/item?id=50133231 Points: 104 # Comments: 34",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "I Became a Citizen of Japan",
-      "link": "https://www.derekwessman.com/blog-1/natural",
-      "pubDate": "2026-10-17T17:36:17.000Z",
-      "description": "Article URL: https://www.derekwessman.com/blog-1/natural Comments URL: https://news.ycombinator.com/item?id=50133150 Points: 180 # Comments: 86",
+      "description": "Article URL: https://github.com/openai/codex/issues/25921 Comments URL: https://news.ycombinator.com/item?id=50133231 Points: 134 # Comments: 56",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -125,47 +165,7 @@
       "title": "Gold is now the top U.S. export",
       "link": "https://www.numismaticnews.net/gold-now-top-u-s-export",
       "pubDate": "2026-10-17T17:06:07.000Z",
-      "description": "Article URL: https://www.numismaticnews.net/gold-now-top-u-s-export Comments URL: https://news.ycombinator.com/item?id=50132870 Points: 274 # Comments: 143",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Artie (YC S23) Is Hiring Enterprise AES and Senior Engineers",
-      "link": "https://www.artie.com/careers",
-      "pubDate": "2026-10-17T17:02:50.000Z",
-      "description": "Article URL: https://www.artie.com/careers Comments URL: https://news.ycombinator.com/item?id=50132839 Points: 0 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Pele – Mermaid diagrams as themeable SVG",
-      "link": "https://pele.run/",
-      "pubDate": "2026-10-17T15:55:09.000Z",
-      "description": "Article URL: https://pele.run/ Comments URL: https://news.ycombinator.com/item?id=50132193 Points: 315 # Comments: 27",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Solar surpasses nuclear power globally for first time",
-      "link": "https://www.pv-magazine.com/2026/09/29/solar-surpasses-nuclear-power-globally-for-first-time/",
-      "pubDate": "2026-10-17T14:01:01.000Z",
-      "description": "Article URL: https://www.pv-magazine.com/2026/09/29/solar-surpasses-nuclear-power-globally-for-first-time/ Comments URL: https://news.ycombinator.com/item?id=50131256 Points: 519 # Comments: 324",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Making chicken transparent using Dorito dust",
-      "link": "https://chillphysicsenjoyer.substack.com/p/making-chicken-transparent-using",
-      "pubDate": "2026-10-17T13:55:28.000Z",
-      "description": "Article URL: https://chillphysicsenjoyer.substack.com/p/making-chicken-transparent-using Comments URL: https://news.ycombinator.com/item?id=50131213 Points: 276 # Comments: 68",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Show HN: Esp32sim – Run ESP32 firmware in the browser",
-      "link": "https://github.com/mikroverk/esp32sim",
-      "pubDate": "2026-10-17T13:51:08.000Z",
-      "description": "Hi HN,I’ve been working on esp32sim, an open-source ESP32 emulator that runs in the browser.The fun part of the demo is that there is no ESP32 involved — the firmware is executing in the emulator.The goal is to make ESP32 software easier to experiment with, test and simulate without always needing p",
+      "description": "Article URL: https://www.numismaticnews.net/gold-now-top-u-s-export Comments URL: https://news.ycombinator.com/item?id=50132870 Points: 338 # Comments: 188",
       "source": "Hacker News",
       "category": "Tech News"
     },
