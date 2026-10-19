@@ -1,97 +1,173 @@
 {
-  "generatedAt": "2026-10-19T04:42:09.488Z",
+  "generatedAt": "2026-10-19T13:17:57.900Z",
   "sourceCount": 4,
-  "successCount": 2,
+  "successCount": 3,
   "errors": [
     {
       "source": "Hack The Box Security Blog",
       "error": "HTTP 404 Not Found"
-    },
-    {
-      "source": "Hacker News",
-      "error": "fetch failed"
     }
   ],
   "items": [
     {
-      "title": "Putting a Control Plane Between the LLM and the Bank: Architecture for Governed AI Execution",
-      "link": "https://dev.to/vaibhav_shakya_e6b352bfc4/putting-a-control-plane-between-the-llm-and-the-bank-architecture-for-governed-ai-execution-52ke",
-      "pubDate": "2026-10-19T04:32:13.000Z",
-      "description": "<p>An AI assistant receives a simple instruction: “Pay the approved supplier invoice.”</p> <p>It identifies the invoice, generates valid JSON, and calls an authenticated tool. Yet the backend still needs to establish whether the customer authorized this exact payment, whether the beneficiary details",
+      "title": "🕵️ \"It Was Working Yesterday!\" Use Reliability Monitor to Find What Changed",
+      "link": "https://dev.to/supbrice/it-was-working-yesterday-use-reliability-monitor-to-find-what-changed-3020",
+      "pubDate": "2026-10-19T13:08:19.000Z",
+      "description": "<p>\"It was working fine yesterday, and I didn't change anything.\" 😅</p> <p>If you work help desk, you've heard this one a hundred times. Here's the thing: something almost always <em>did</em> change. A Windows update, a driver, a new app, a crash nobody noticed.</p> <p>The good news? Windows quietl",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Consistent hashing explained: the trick that keeps a cluster calm when a node joins or dies",
-      "link": "https://dev.to/gowthampotureddi/consistent-hashing-explained-the-trick-that-keeps-a-cluster-calm-when-a-node-joins-or-dies-3bb9",
-      "pubDate": "2026-10-19T04:31:13.000Z",
-      "description": "<h2> Consistent hashing explained: the trick that keeps a cluster calm when a node joins or dies </h2> <p><strong>Consistent hashing</strong> is one of those <strong>system design interview</strong> ideas that sounds like trivia until the follow-up lands: you have a fleet of cache servers or a shard",
+      "title": "🎧 What's Your Go-To Playlist When Your Code Is Compiling?",
+      "link": "https://dev.to/star123/whats-your-go-to-playlist-when-your-code-is-compiling-1g4b",
+      "pubDate": "2026-10-19T13:08:19.000Z",
+      "description": "<p>Hello I am star!!</p> <p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F59014hi8hac6mcrywpoq.jpg\" class=\"article-body-image-wrapper\"><img src=\"https://med",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "AI Coding Agents in 2026: What Ops Teams Can Build",
-      "link": "https://dev.to/abhijeet_singh_4577af3ef9/ai-coding-agents-in-2026-what-ops-teams-can-build-30nj",
-      "pubDate": "2026-10-19T04:31:01.000Z",
-      "description": "<p>Something changed in 2026 that most operations teams have not priced in yet. AI coding agents stopped being autocomplete inside an editor and became orchestration consoles that plan work, run it in their own cloud environments, and hand back a finished change for review. The interesting question ",
+      "title": "Supabase MCP for Claude Code: A Read-Only, One-Project Setup in 2 Minutes",
+      "link": "https://dev.to/juholee/supabase-mcp-for-claude-code-a-read-only-one-project-setup-in-2-minutes-3ha",
+      "pubDate": "2026-10-19T13:08:19.000Z",
+      "description": "<p>Ask Claude Code to write a query against your Supabase database and it guesses: column names from the variable names in your code, a <code>user_id</code> that’s actually <code>owner_id</code>, a migration that collides with one you already ran. It can’t see the schema, so you end up pasting table",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "What Breaks When a Database Diagram Reaches 1,000 Tables, and What We Redesigned",
-      "link": "https://dev.to/tbson87/what-breaks-when-a-database-diagram-reaches-1000-tables-and-what-we-redesigned-4k8f",
-      "pubDate": "2026-10-19T04:30:41.000Z",
-      "description": "<p><em>Disclosure: I build <a href=\"https://schemity.com\" rel=\"noopener noreferrer\">Schemity</a>, a desktop ERD tool - this post is from our blog and uses it for the examples.</em></p> <blockquote> <p><strong>TL;DR:</strong> Around 1,000 tables a database diagram stops being a drawing problem and be",
+      "title": "Prove Reach Before You Move: A Coverage Gate for Characterization Tests",
+      "link": "https://dev.to/hackrs_6393/prove-reach-before-you-move-a-coverage-gate-for-characterization-tests-fhl",
+      "pubDate": "2026-10-19T13:08:09.000Z",
+      "description": "<p>A characterization test only protects the lines it executes.</p> <p>If your test never reaches the branch you plan to move, it cannot tell you the move broke it. That sounds obvious. It is also the most common reason messy-repo refactors roll back.</p> <p>This post describes one gate. Measure rea",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "React Native, from a blank machine to a shipped app · 1. What a React Native app actually is",
-      "link": "https://dev.to/techamit95ch/react-native-from-a-blank-machine-to-a-shipped-app-1-what-a-react-native-app-actually-is-gg7",
-      "pubDate": "2026-10-19T04:30:10.000Z",
-      "description": "<blockquote> <p><strong>React Native, from a blank machine to a shipped app</strong> · Chapter 1 of 12 · Mobile · new chapter every Monday morning</p> <p><strong>By the end of this chapter:</strong> Separate the JavaScript thread, the native threads and the renderer, so that every later chapter has ",
+      "title": "Building Invoice Integrations for Germany? Meet the Kontelio API and Open-Source SDKs",
+      "link": "https://dev.to/paulobalmer/building-invoice-integrations-for-germany-meet-the-kontelio-api-and-open-source-sdks-436c",
+      "pubDate": "2026-10-19T13:08:08.000Z",
+      "description": "<p>If you're building a SaaS platform, ERP, CRM, or business application for the German market, you've probably encountered a common challenge: <strong>German invoicing requirements can get complicated.</strong></p> <p>Between VAT regulations, structured electronic invoices, XRechnung, ZUGFeRD, and ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Measuring the impact of a React Native Skia rewrite before you commit",
-      "link": "https://dev.to/techamit95ch/measuring-the-impact-of-a-react-native-skia-rewrite-before-you-commit-45oe",
-      "pubDate": "2026-10-19T04:30:04.000Z",
-      "description": "<h2> The situation </h2> <p><em>You are a lead mobile engineer on a feature team that ships a complex data‑visualisation screen.</em> <br> The screen currently uses a hierarchy of <code>View</code>/<code>Animated.View</code> components to draw dozens of animated charts. During a sprint review the pr",
+      "title": "Message Queues Explained Using a Cafe Example",
+      "link": "https://dev.to/khushindpatel/message-queues-explained-using-a-cafe-example-31",
+      "pubDate": "2026-10-19T13:07:20.000Z",
+      "description": "<h4> What Is a Message Queue? </h4> <p>Imagine a busy café during lunch time. Many customers place orders at<br> once, but the café has only four chefs. If the cashier had to wait for a<br> chef to finish every order before accepting the next one, the line would<br> move very slowly.</p> <p>Instead,",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "MailApp's Daily Limit Counts Recipients: Routing Sheet Email Between MailApp and a Provider",
-      "link": "https://dev.to/hayrullahkar/mailapps-daily-limit-counts-recipients-routing-sheet-email-between-mailapp-and-a-provider-3khc",
-      "pubDate": "2026-10-19T04:30:01.000Z",
-      "description": "<p>A Google Sheet that sends email usually ends up with two senders. <code>MailApp</code> for internal alerts, because it needs no account and costs nothing. A provider such as Mailjet for anything a customer sees, because that mail should come from a verified domain with bounce data. My <a href=\"ht",
+      "title": "From file to flag: reversing \"kindling\" (Malware Space Village) with nothing but GDB",
+      "link": "https://dev.to/higordiego/from-file-to-flag-reversing-kindling-malware-space-village-with-nothing-but-gdb-27fb",
+      "pubDate": "2026-10-19T13:06:27.000Z",
+      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fb48cbq2kqvdfct0qi7f9.png\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Java Conditional Statements and Loops in AI",
-      "link": "https://dev.to/manislab96/java-conditional-statements-and-loops-in-ai-22n5",
-      "pubDate": "2026-10-19T04:30:00.000Z",
-      "description": "<h2> Introduction </h2> <p>Java conditional statements and loops help control the flow of an application.<br><br> Conditional statements make decisions based on specific conditions.<br><br> Loops repeat tasks until a condition is met.<br><br> In AI applications, they help validate inputs and process",
+      "title": "Why I Made APX Stop Reading When You Take the Browser",
+      "link": "https://dev.to/tecnomanu/why-i-made-apx-stop-reading-when-you-take-the-browser-23lm",
+      "pubDate": "2026-10-19T13:06:21.000Z",
+      "description": "<p>The browser is where agent work starts to feel useful—and where a vague idea of control becomes dangerous. An agent can open a page, read it, click through a flow, and fill ordinary fields. Then a login page, a 2FA challenge, or a payment form appears. At that moment I do not want a polite conven",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Do Not Refresh Declining Content Until You Diagnose the Loss",
-      "link": "https://dev.to/isabelle_dubuis_d858453d7/do-not-refresh-declining-content-until-you-diagnose-the-loss-4bj1",
-      "pubDate": "2026-10-19T04:29:46.000Z",
-      "description": "<h1> Do Not Refresh Declining Content Until You Diagnose the Loss </h1> <p>A page loses clicks. The instinctive response is to update the introduction, add a few paragraphs, change the title, and request indexing. That sequence feels productive. It is also how teams destroy useful evidence.</p> <p>T",
+      "title": "My 27 Top Dev Posts from 7 Years",
+      "link": "https://dev.to/ingosteinke/my-27-top-dev-posts-from-7-years-45e9",
+      "pubDate": "2026-10-19T13:06:20.000Z",
+      "description": "<p>I have been thinking about not publishing my posts anymore, to prevent commercial companies profiting from other people's creativity and findings without giving them credit and compensation.</p> <p>But I trust the internet more than my own backups, and I need to do marketing. Lucky you, dear read",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "ArchiveRescue — Restore Old Documents with Open-Source AI",
-      "link": "https://dev.to/shadowe1ite/archiverescue-restore-old-documents-with-open-source-ai-13eb",
-      "pubDate": "2026-10-19T04:29:22.000Z",
-      "description": "<p><em>This is a submission for the <a href=\"https://dev.to/challenges/hacktoberfest-week2-2026-10-12\">Hacktoberfest Open-Source AI Challenge Week 2: Side Hustle</a></em></p> <h2> What I Built </h2> <p>I built <strong>ArchiveRescue</strong>, a tool that helps restore and digitize old scanned documen",
+      "title": "Nuxt 4 vs SvelteKit vs Remix: Full-Stack JS Frameworks in 2026",
+      "link": "https://dev.to/guang_diyuzhi_74b0fec2c09/nuxt-4-vs-sveltekit-vs-remix-full-stack-js-frameworks-in-2026-4edc",
+      "pubDate": "2026-10-19T13:06:09.000Z",
+      "description": "<p>Nuxt 4 vs SvelteKit vs Remix 2026: Best Full-Stack JavaScript Framework Compared</p> <p>Next.js dominates the full-stack JavaScript framework landscape, but it's not the only option — and for many projects, it's not even the best one. In 2026, three compelling alternatives compete for your attent",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "Harness Engineering 101: The LLM is the brain, the harness is the body",
+      "link": "https://github.com/IsuruMaduranga/harness-engineering-101",
+      "pubDate": "2026-10-19T12:07:41.000Z",
+      "description": "Article URL: https://github.com/IsuruMaduranga/harness-engineering-101 Comments URL: https://news.ycombinator.com/item?id=50151390 Points: 37 # Comments: 17",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "ESA's Hera Will View Asteroid Scars from DART's Strike",
+      "link": "https://spectrum.ieee.org/esa-hera-dimorphos-rendezvous",
+      "pubDate": "2026-10-19T11:12:02.000Z",
+      "description": "Article URL: https://spectrum.ieee.org/esa-hera-dimorphos-rendezvous Comments URL: https://news.ycombinator.com/item?id=50150935 Points: 19 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Alternatives to Animal Testing Are Finally Taking Off",
+      "link": "https://spectrum.ieee.org/alternatives-to-animal-testing",
+      "pubDate": "2026-10-19T11:10:54.000Z",
+      "description": "Article URL: https://spectrum.ieee.org/alternatives-to-animal-testing Comments URL: https://news.ycombinator.com/item?id=50150927 Points: 38 # Comments: 5",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Let's Encrypt is adding two additional remote perspectives for domain validation",
+      "link": "https://community.letsencrypt.org/t/lets-encrypt-is-adding-two-additional-remote-perspectives-for-domain-validation/252166",
+      "pubDate": "2026-10-19T10:53:39.000Z",
+      "description": "Article URL: https://community.letsencrypt.org/t/lets-encrypt-is-adding-two-additional-remote-perspectives-for-domain-validation/252166 Comments URL: https://news.ycombinator.com/item?id=50150809 Points: 54 # Comments: 13",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Documents: Police officer gave her Flock login to her ICE agent husband",
+      "link": "https://www.wjcl.com/article/savannah-police-officer-ice-agent-flock-access/74135816",
+      "pubDate": "2026-10-19T10:45:14.000Z",
+      "description": "Article URL: https://www.wjcl.com/article/savannah-police-officer-ice-agent-flock-access/74135816 Comments URL: https://news.ycombinator.com/item?id=50150750 Points: 226 # Comments: 116",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Timestral: Mistral release time-series foundation models",
+      "link": "https://mistral.ai/news/timestral/",
+      "pubDate": "2026-10-19T09:59:32.000Z",
+      "description": "Article URL: https://mistral.ai/news/timestral/ Comments URL: https://news.ycombinator.com/item?id=50150434 Points: 139 # Comments: 27",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Linux 7.3 Released",
+      "link": "https://lwn.net/Articles/1101143/",
+      "pubDate": "2026-10-19T07:23:57.000Z",
+      "description": "Article URL: https://lwn.net/Articles/1101143/ Comments URL: https://news.ycombinator.com/item?id=50149392 Points: 338 # Comments: 152",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Tmux and Claude Code: Sessions, Send-Keys, and the Ceiling",
+      "link": "https://crystl.dev/guides/tmux-for-ai-agents/",
+      "pubDate": "2026-10-19T05:55:31.000Z",
+      "description": "Article URL: https://crystl.dev/guides/tmux-for-ai-agents/ Comments URL: https://news.ycombinator.com/item?id=50148855 Points: 74 # Comments: 49",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Superlite: A Faster Alternatie to Superpowers",
+      "link": "https://contextfirst.blog/superlite-hand-an-agent-a-spec/",
+      "pubDate": "2026-10-19T02:01:16.000Z",
+      "description": "Article URL: https://contextfirst.blog/superlite-hand-an-agent-a-spec/ Comments URL: https://news.ycombinator.com/item?id=50147492 Points: 110 # Comments: 53",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "William Gibson and the trademarking of cyberspace",
+      "link": "https://colo.to/cyberspace.html",
+      "pubDate": "2026-10-18T23:37:57.000Z",
+      "description": "Article URL: https://colo.to/cyberspace.html Comments URL: https://news.ycombinator.com/item?id=50146625 Points: 215 # Comments: 87",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "Let’s Use the Emergent CSS random() Function in all the Browsers",
