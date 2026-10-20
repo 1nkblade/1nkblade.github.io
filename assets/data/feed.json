@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T04:52:20.792Z",
+  "generatedAt": "2026-10-20T11:38:37.304Z",
   "sourceCount": 4,
   "successCount": 3,
   "errors": [
@@ -10,90 +10,138 @@
   ],
   "items": [
     {
-      "title": "What Dussehra knows about building with AI",
-      "link": "https://dev.to/kalpak_kale/what-dussehra-knows-about-building-with-ai-47dj",
-      "pubDate": "2026-10-20T04:46:34.000Z",
-      "description": "<p>Every October the effigy goes up in the ground near my home in Akola, forty feet of bamboo and paper, and every October I watch it burn with a few hundred people and think about nothing at all. This year I thought about work. Not because the festival is about work, but because the story it tells ",
+      "title": "Why a 2% APY upgrade can lose money: DeFi vault switching costs",
+      "link": "https://dev.to/livasticvm2primary/why-a-2-apy-upgrade-can-lose-money-defi-vault-switching-costs-3h42",
+      "pubDate": "2026-10-20T11:28:20.000Z",
+      "description": "<p><em>Original numerical examples · independently tested code · AI-assisted, fully autonomous author disclosure.</em></p> <p>An attractive DeFi yield dashboard might show your current stablecoin vault at 3% APY and another at 5%. The instinct is to move.</p> <p>But <strong>APY is the numerator of y",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "데이터 전달 설명서 만들기: 열의 뜻·단위·빈칸을 함께 정리하기",
-      "link": "https://dev.to/charos_j/deiteo-jeondal-seolmyeongseo-mandeulgi-yeolyi-ddeusdanwibinkaneul-hamgge-jeongrihagi-2pn0",
-      "pubDate": "2026-10-20T04:46:08.000Z",
-      "description": "<p>집계표를 보냈는데 “이 숫자는 장인가요, 쪽인가요?”, “빈칸은 사용량이 없다는 뜻인가요?”라는 질문을 받았다면 파일과 함께 읽을 설명서가 필요합니다. 표가 열리는 것과 값을 같은 뜻으로 읽는 것은 별개의 일입니다.</p> <p>이번에는 공용 프린터의 일별 집계 4행·6열에 붙일 데이터 전달 설명서를 만듭니다. 한 행의 의미, 열별 단위, 빈칸과 0, 수정본을 반영하는 범위까지 담은 완성 예시와 빈 양식을 제공합니다. 파일을 내려받지 않아도 아래 내용을 복사해 쓸 수 있습니다.</p> <p>이 글의 본문은 AI가 작성·재구성한",
+      "title": "HTTPS Redirect Loops: Find the Conflicting Rule Before Changing WordPress",
+      "link": "https://dev.to/alifhost/https-redirect-loops-find-the-conflicting-rule-before-changing-wordpress-46hc",
+      "pubDate": "2026-10-20T11:28:00.000Z",
+      "description": "<p>An HTTPS redirect loop happens when requests keep being redirected instead of reaching the intended page. The browser eventually stops following them. A new certificate or another WordPress plugin will not necessarily resolve the disagreement between the systems issuing those redirects.</p> <p>St",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The Success Signal That Lies: When Execution Isn't Outcome",
-      "link": "https://dev.to/opsveritas/the-success-signal-that-lies-when-execution-isnt-outcome-30dk",
-      "pubDate": "2026-10-20T04:45:37.000Z",
-      "description": "<p>Your system just reported success. Every metric looks healthy. But did it actually do what you asked?</p> <p>This is the gap most builders miss. A workflow can execute perfectly, every node can fire, every API can return HTTP 200, and yet produce zero real consequence. A hiring round can move can",
+      "title": "17 CVEs across 12 AI agent frameworks — one disclosure wave, same three design failures.",
+      "link": "https://dev.to/threataft_dev/17-cves-across-12-ai-agent-frameworks-one-disclosure-wave-same-three-design-failures-556j",
+      "pubDate": "2026-10-20T11:27:25.000Z",
+      "description": "<p>6× CVSS 9.8 unauthenticated RCE:</p> <ul> <li>Piflow: POST /chat → exec_shell, no auth</li> <li>Langchain-Chatchat: /tools/call invokes shell tool, no auth</li> <li>DB-GPT: mock auth grants everyone admin</li> <li>Letta: compose.yaml omits LETTA_SERVER_SECURE, all routes open</li> <li>Cognition: ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "A brief goes in, software comes out. Shipping client products without a dev team assigned.",
-      "link": "https://dev.to/kalpak_kale/a-brief-goes-in-software-comes-out-shipping-client-products-without-a-dev-team-assigned-1bmg",
-      "pubDate": "2026-10-20T04:45:24.000Z",
-      "description": "<p>I am not a developer by title. I run operations for an IT services firm. Yet in the last year I have taken several client briefs to deployed, paying, production software without a development team assigned to them. Not prototypes: systems with payments, encryption, QA cycles and clients using the",
+      "title": "How to Choose an AI Automation Agency",
+      "link": "https://dev.to/anas_kanafani/how-to-choose-an-ai-automation-agency-1ii7",
+      "pubDate": "2026-10-20T11:26:58.000Z",
+      "description": "<p>To choose the right team, look for an engineering group that verifies accuracy against your operational files before deployment, insists on written scope, and delivers full source code ownership. A capable partner never relies on generic vendor claims or public benchmarks. Instead, they measure p",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "No CS Degree? Here’s How to Answer “Do You Have a CS Degree?” in a Full Stack Developer Interview",
-      "link": "https://dev.to/sourabh_singh_1948d2e0f0a/no-cs-degree-heres-how-to-answer-do-you-have-a-cs-degree-in-a-full-stack-developer-interview-3aec",
-      "pubDate": "2026-10-20T04:44:54.000Z",
-      "description": "<p>Quick Answer: How Should You Answer “Do You Have a CS Degree?”<br> If an interviewer asks, “Do you have a CS degree?” answer honestly, confidently, and professionally. If you do not have a Computer Science degree, explain how you learned programming, which full stack development projects you have",
+      "title": "Fell in Love: Ephemeral Environments and DevEx",
+      "link": "https://dev.to/najeen182/fell-in-love-ephemeral-environments-and-devex-1a21",
+      "pubDate": "2026-10-20T11:25:47.000Z",
+      "description": "<p><em>How a conference talk, a hardcoded branch, and too many deployment requests led me to ephemeral environments.</em></p> <blockquote> <p>Remember how it started?<br> I was at a conference, volunteering.<br> Someone said \"ephemeral,\" and I got hooked.<br> Remember when I fell in love?</p> </bloc",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How We Scanned 1 Million Solana Token Accounts Without Timing Out",
-      "link": "https://dev.to/solstack/how-we-scanned-1-million-solana-token-accounts-without-timing-out-4bhp",
-      "pubDate": "2026-10-20T04:44:12.000Z",
-      "description": "<p>Our Holder Snapshot tool answers a simple question: who holds a token, and how much do they hold?</p> <p>Projects use it to airdrop tokens to another community, calculate governance voting power, or check whether a token claiming to have 10,000 holders actually has 10,000 distinct owners.</p> <p>",
+      "title": "I built ~2,200 pages with AI agents. The hard part was my own analytics.",
+      "link": "https://dev.to/sungprofile/i-built-2200-pages-with-ai-agents-the-hard-part-was-my-own-analytics-22ek",
+      "pubDate": "2026-10-20T11:23:53.000Z",
+      "description": "<p>I run a small Korean information site (guides on labor rules, taxes, game-store sales) and I let AI agents generate most of the pages. As of 2026-10-20 the sitemap has about 2,180 unique URLs. That same day, at 17:35 KST, the site had 161 visitors.</p> <p>Building pages got cheap. Getting people ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How one Desk Studio job gets from roughs to sign-off",
-      "link": "https://dev.to/adityareddy_dev/how-one-desk-studio-job-gets-from-roughs-to-sign-off-4h22",
-      "pubDate": "2026-10-20T04:43:48.000Z",
-      "description": "<p>The awkward part of a design job is deciding whether it's done. A file exists, the headline fits, and it's easy to accept it cause opening another round means deciding what to ask for. I built Desk Studio around that decision. I wanted the roughs and the reason for the pick to stay visible, and I",
+      "title": "Tko održava agenta nakon isporuke?",
+      "link": "https://dev.to/omarbaruzzo/tko-odrzava-agenta-nakon-isporuke-53d2",
+      "pubDate": "2026-10-20T11:23:04.000Z",
+      "description": "<p>Ukratko: isporučite runbook, klijentov eval set, zaključane verzije s rollbackom, imenovanog primatelja alerta i čitljiv decision log.</p> <p>AI agent radi na dan isporuke. Hoće li raditi i nakon šest mjeseci ovisi o tome tko za njega odgovara i što ima u rukama. Handover je dio projekta, a ne sa",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Vertical Models Just Stole the Inference Stack",
-      "link": "https://dev.to/max_quimby/vertical-models-just-stole-the-inference-stack-1991",
-      "pubDate": "2026-10-20T04:43:28.000Z",
-      "description": "<h1> Vertical Models Just Stole the Inference Stack </h1> <p>Three announcements landed in the same week — and if you only read the headlines, you'd think they had nothing in common. Mistral released <a href=\"https://mistral.ai/news/timestral/\" rel=\"noopener noreferrer\">Timestral</a>, a family of ti",
+      "title": "Census the Names a Function Reads Before You Extract It",
+      "link": "https://dev.to/hackrs_6393/census-the-names-a-function-reads-before-you-extract-it-1gil",
+      "pubDate": "2026-10-20T11:23:01.000Z",
+      "description": "<p>Most extractions do not fail in review. They fail two weeks later, when a test hits a module global nobody remembered. The repair costs more than the extraction did.</p> <p>So start with a count, not a diff. Census every name the target function reads. Then move exactly that much and no more.</p>",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Your proxy says New York, your browser says Shanghai: finding time zone leaks in 10 lines of Playwright",
-      "link": "https://dev.to/nullprintai/your-proxy-says-new-york-your-browser-says-shanghai-finding-time-zone-leaks-in-10-lines-of-354b",
-      "pubDate": "2026-10-20T04:43:12.000Z",
-      "description": "<p>You bought a good residential proxy in Texas. Your scraper or your multi-account setup still gets flagged. The IP looks clean, so what gave you away?</p> <p>Very often it's not the IP. It's the clock.</p> <h2> The check that sites actually run </h2> <p>A website sees two places at once: where you",
+      "title": "Email Automation Needs a Dry-Run Contract",
+      "link": "https://dev.to/mrdapperx/email-automation-needs-a-dry-run-contract-45p6",
+      "pubDate": "2026-10-20T11:22:51.000Z",
+      "description": "<p>Email automation often fails before the email provider is actually the problem. A test creates a user, requests a verification message, waits for a mailbox, and then reports only “timeout.” The next developer reruns it with a longer timeout. That helps sometimes, but it doesnt explain what the te",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Constant State Detection in Time Series with Python.",
-      "link": "https://dev.to/andreikeino/constant-state-detection-in-time-series-with-python-504e",
-      "pubDate": "2026-10-20T04:42:43.000Z",
-      "description": "<h2> Constant State Detection in Time Series with Python. </h2> <p><a href=\"https://github.com/AndreiKeino/constant-state-detection-client\" rel=\"noopener noreferrer\">See this code on Github</a></p> <h2> In this article we will detect constant state section in time series with Python. </h2> <h2> <a h",
+      "title": "Your zero is not evidence: run the control query",
+      "link": "https://dev.to/bella_ilands/your-zero-is-not-evidence-run-the-control-query-2e4c",
+      "pubDate": "2026-10-20T11:20:49.000Z",
+      "description": "<p>Nine weeks of zero clicks usually means the instrument is broken, not that nobody came. I learned that from the other side this week, and it cost me a published retraction.</p> <p>I run a small desk that writes letters and answers research questions, and for weeks I have been measuring one thing:",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "Google cloud outage takes down banks",
+      "link": "https://www.neowin.net/news/google-cloud-outage-takes-down-hsbc-revolut-bank-of-scotland-llyods-equifax-more/",
+      "pubDate": "2026-10-20T10:26:02.000Z",
+      "description": "Article URL: https://www.neowin.net/news/google-cloud-outage-takes-down-hsbc-revolut-bank-of-scotland-llyods-equifax-more/ Comments URL: https://news.ycombinator.com/item?id=50163961 Points: 29 # Comments: 9",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Revolut down as users report app not working",
+      "link": "https://www.bbc.com/news/articles/cxdd8mm6qy4mo",
+      "pubDate": "2026-10-20T09:54:48.000Z",
+      "description": "Article URL: https://www.bbc.com/news/articles/cxdd8mm6qy4mo Comments URL: https://news.ycombinator.com/item?id=50163625 Points: 51 # Comments: 24",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "DeepSeek just open-sourced its inference engine",
+      "link": "https://github.com/deepseek-ai/DeepInfer",
+      "pubDate": "2026-10-20T09:08:54.000Z",
+      "description": "Article URL: https://github.com/deepseek-ai/DeepInfer Comments URL: https://news.ycombinator.com/item?id=50163277 Points: 430 # Comments: 142",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Fizzpoker – No-login Online Poker with friends",
+      "link": "https://www.fizzpoker.com",
+      "pubDate": "2026-10-20T08:55:50.000Z",
+      "description": "Article URL: https://www.fizzpoker.com Comments URL: https://news.ycombinator.com/item?id=50163173 Points: 7 # Comments: 6",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "There is no official XScreenSaver GitHub repository",
+      "link": "https://github.com/xscreensaver-official/xscreensaver",
+      "pubDate": "2026-10-20T08:51:31.000Z",
+      "description": "Article URL: https://github.com/xscreensaver-official/xscreensaver Comments URL: https://news.ycombinator.com/item?id=50163142 Points: 37 # Comments: 16",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "MicroG: Free-libre re-implementation of Google's proprietary Android user space",
+      "link": "https://github.com/microg/GmsCore/wiki",
+      "pubDate": "2026-10-20T06:37:07.000Z",
+      "description": "Article URL: https://github.com/microg/GmsCore/wiki Comments URL: https://news.ycombinator.com/item?id=50162177 Points: 88 # Comments: 5",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "Go will reject certificate chains containing eight distrusted SPKIs",
       "link": "https://github.com/golang/go/issues/82345",
       "pubDate": "2026-10-20T03:05:07.000Z",
-      "description": "Article URL: https://github.com/golang/go/issues/82345 Comments URL: https://news.ycombinator.com/item?id=50160877 Points: 28 # Comments: 6",
+      "description": "Article URL: https://github.com/golang/go/issues/82345 Comments URL: https://news.ycombinator.com/item?id=50160877 Points: 107 # Comments: 41",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -101,23 +149,7 @@
       "title": "OpenBSD 8.0",
       "link": "https://www.openbsd.org/80.html",
       "pubDate": "2026-10-20T02:06:40.000Z",
-      "description": "Article URL: https://www.openbsd.org/80.html Comments URL: https://news.ycombinator.com/item?id=50160494 Points: 79 # Comments: 21",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "OpenBSD 8.0: released Oct 20, 2026",
-      "link": "https://marc.info/?l=openbsd-misc&amp;m=179245849770356&amp;w=2",
-      "pubDate": "2026-10-20T01:53:51.000Z",
-      "description": "Article URL: https://marc.info/?l=openbsd-misc&m=179245849770356&w=2 Comments URL: https://news.ycombinator.com/item?id=50160419 Points: 21 # Comments: 2",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Developing Taste",
-      "link": "https://emilkowal.ski/ui/developing-taste",
-      "pubDate": "2026-10-20T01:12:03.000Z",
-      "description": "Article URL: https://emilkowal.ski/ui/developing-taste Comments URL: https://news.ycombinator.com/item?id=50160135 Points: 21 # Comments: 14",
+      "description": "Article URL: https://www.openbsd.org/80.html Comments URL: https://news.ycombinator.com/item?id=50160494 Points: 324 # Comments: 103",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -125,7 +157,7 @@
       "title": "France's supermarket fridges were vulnerable online for months",
       "link": "https://ipinfo.io/blog/france-fridges-hack",
       "pubDate": "2026-10-20T00:00:49.000Z",
-      "description": "Article URL: https://ipinfo.io/blog/france-fridges-hack Comments URL: https://news.ycombinator.com/item?id=50159616 Points: 81 # Comments: 66",
+      "description": "Related: Hackers activate automatic defrosting in supermarket fridges across Europe - https://news.ycombinator.com/item?id=50055304 - Oct 2026 (1007 comments) Comments URL: https://news.ycombinator.com/item?id=50159616 Points: 181 # Comments: 161",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -133,39 +165,7 @@
       "title": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
       "link": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
       "pubDate": "2026-10-19T23:22:18.000Z",
-      "description": "Article URL: https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions Comments URL: https://news.ycombinator.com/item?id=50159341 Points: 133 # Comments: 21",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "An ad-free Android TV",
-      "link": "https://cretezy.com/2026/ad-free-android-tv",
-      "pubDate": "2026-10-19T22:32:37.000Z",
-      "description": "Article URL: https://cretezy.com/2026/ad-free-android-tv Comments URL: https://news.ycombinator.com/item?id=50158942 Points: 80 # Comments: 27",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "OpenBSD 8.0 release will have inteldrm/radeondrm/amdgpu drivers from Linux 6.18",
-      "link": "https://bsd.network/@brynet/117407035545900963",
-      "pubDate": "2026-10-19T21:11:45.000Z",
-      "description": "Article URL: https://bsd.network/@brynet/117407035545900963 Comments URL: https://news.ycombinator.com/item?id=50158138 Points: 123 # Comments: 28",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Putting Linux on my RTX Spark laptop because I don't have a Microsoft account",
-      "link": "https://josie.lol/blog/linux-rtx-spark",
-      "pubDate": "2026-10-19T21:08:18.000Z",
-      "description": "Article URL: https://josie.lol/blog/linux-rtx-spark Comments URL: https://news.ycombinator.com/item?id=50158100 Points: 206 # Comments: 97",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "One Hash Bloom Filters",
-      "link": "https://calabro.io/ohbf",
-      "pubDate": "2026-10-19T20:50:08.000Z",
-      "description": "Article URL: https://calabro.io/ohbf Comments URL: https://news.ycombinator.com/item?id=50157865 Points: 73 # Comments: 10",
+      "description": "Article URL: https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions Comments URL: https://news.ycombinator.com/item?id=50159341 Points: 484 # Comments: 143",
       "source": "Hacker News",
       "category": "Tech News"
     },
