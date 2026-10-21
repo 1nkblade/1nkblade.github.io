@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T04:49:35.379Z",
+  "generatedAt": "2026-10-21T11:50:26.138Z",
   "sourceCount": 4,
   "successCount": 3,
   "errors": [
@@ -10,90 +10,146 @@
   ],
   "items": [
     {
-      "title": "Phương Thức (Method) Trong Java",
-      "link": "https://dev.to/tieushare/phuong-thuc-method-trong-java-4b5g",
-      "pubDate": "2026-10-21T04:44:22.000Z",
-      "description": "<p><span id=\"docs-internal-guid-89ac409e-7fff-b9cd-38a1-05c5c550a23e\"></span></p> <p><span><b><a href=\"https://www.tieushare.com/2026/10/phuong-thuc-method-trong-java.html\" rel=\"noopener noreferrer\">Phương thức (method) trong Java</a></b> là một khối mã được định nghĩa trong một lớp, có nhiệm vụ thự",
+      "title": "Feature flags are not a strategy",
+      "link": "https://dev.to/kamikun_johnson_24a543b41/feature-flags-are-not-a-strategy-2aig",
+      "pubDate": "2026-10-21T11:41:07.000Z",
+      "description": "<p>Feature flags are not a strategy.</p> <p>They're a deployment crutch - one that turns every release into a high-stakes experiment. The problem isn't the flags themselves. It's the teams that treat them as a substitute for clarity.</p> <p>A flagged feature without a clear hypothesis, a defined suc",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How to Connect AI Agents to Web Apps with Durable Action Receipts &amp; Clean DOM Inspection: An MCP Browser Bridge",
-      "link": "https://dev.to/johann_schiffer/how-to-connect-ai-agents-to-web-apps-with-durable-action-receipts-clean-dom-inspection-an-mcp-2ng4",
-      "pubDate": "2026-10-21T04:44:06.000Z",
-      "description": "<h1> How to Connect AI Agents to Web Apps with Durable Action Receipts &amp; Clean DOM Inspection: An MCP Browser Bridge in Python </h1> <p>In 2026, autonomous AI agents (Claude Desktop, Cursor, OpenAI Codex, LangGraph) are routinely tasked with interacting with live web applications: filling checko",
+      "title": "Nine Junos Builds, One Flaw: Mapping CVE-2026-33792 to Your Fleet",
+      "link": "https://dev.to/sorrelthorncroft/nine-junos-builds-one-flaw-mapping-cve-2026-33792-to-your-fleet-2beh",
+      "pubDate": "2026-10-21T11:40:11.000Z",
+      "description": "<h1> Nine Junos Builds, One Flaw: Mapping CVE-2026-33792 to Your Fleet </h1> <p>The fixed-release list in an advisory is the least read part and the most operationally important. For CVE-2026-33792 it spans a wide set of trains, and the shape of that list tells you how much work a mixed estate faces",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Ways to Generate IDs in JavaScript",
-      "link": "https://dev.to/ragul_kannadasan/ways-to-generate-ids-in-javascript-4e3n",
-      "pubDate": "2026-10-21T04:42:59.000Z",
-      "description": "<p><strong>ID generation in JavaScript</strong> is the process of creating identifiers, usually strings or numbers, that distinguish one record, element, or session from another in a JavaScript program. Common approaches include random numbers, timestamps, universally unique identifiers (UUIDs), and",
+      "title": "Docker.raw: Why Is My Mac Out of Space When Docker Is Empty?",
+      "link": "https://dev.to/diskinsight/dockerraw-why-is-my-mac-out-of-space-when-docker-is-empty-3eb9",
+      "pubDate": "2026-10-21T11:40:02.000Z",
+      "description": "<p>You pull one image, run it for an afternoon, and four months later your Mac is out of space even though <code>docker ps</code> shows nothing running. The culprit is <code>Docker.raw</code> — the file Docker Desktop uses as its virtual hard disk.</p> <p>It only ever grows, and nothing you do with ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "AI Agent Autonomy: A Measurable Enterprise Framework",
-      "link": "https://dev.to/ariftly/ai-agent-autonomy-a-measurable-enterprise-framework-54j3",
-      "pubDate": "2026-10-21T04:40:15.000Z",
-      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fb6abn9lv3m2qnuq2lv0i.webp\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/width=800%2Ch",
+      "title": "Angular Performance Optimization: Signals, Lazy Loading, and Hydration",
+      "link": "https://dev.to/convergesol/angular-performance-optimization-signals-lazy-loading-and-hydration-1ia5",
+      "pubDate": "2026-10-21T11:40:00.000Z",
+      "description": "<p>A common challenge with Angular applications is that they often perform well when they are small, but things can change as the application grows.</p> <p>More components, larger JavaScript bundles, complex state management, and third-party libraries can gradually affect loading speed and responsiv",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The 13% Penalty: Why Synchronous APIs Still Scale Better Than You Think\"",
-      "link": "https://dev.to/drawfig/the-13-penalty-why-synchronous-apis-still-scale-better-than-you-think-2m03",
-      "pubDate": "2026-10-21T04:38:30.000Z",
-      "description": "<p>When I built a lightweight framework to act as a data marshal for my decoupled single page apps, I didn’t intend to write an architectural thesis, but along the way, the data forced me to confront three pervasive myths in modern web development. First, PHP is inherently slow, second that synchron",
+      "title": "How bots probe a small website, and the six answers they hope to get",
+      "link": "https://dev.to/_abbdc2/how-bots-probe-a-small-website-and-the-six-answers-they-hope-to-get-153g",
+      "pubDate": "2026-10-21T11:39:37.000Z",
+      "description": "<p>Small business sites rarely get a targeted attack. They get the same few requests that bots send to every address on a list. This post shows six of those requests, the response a bot hopes for, and the command to test your own site.</p> <h2> Why the volume keeps going up </h2> <p>Three public dat",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "WebP vs PNG vs JPEG: Which Format Should You Serve in 2026?",
-      "link": "https://dev.to/nawalshrestha/webp-vs-png-vs-jpeg-which-format-should-you-serve-in-2026-207c",
-      "pubDate": "2026-10-21T04:38:16.000Z",
-      "description": "<h1> WebP vs PNG vs JPEG: Which Format Should You Serve in 2026? </h1> <p>Last week I ran SnapShrink's batch converter over a folder of 200 demo images for the tool's gallery. One PNG screenshot went in at 412 KB and came out at 96 KB as WebP. Same pixels, no visible difference. That folder is why I",
+      "title": "Why Model Context Protocol (MCP) is the Future of AI Assistant Workflows",
+      "link": "https://dev.to/polo_6r_784e20ab43e1c96d7/why-model-context-protocol-mcp-is-the-future-of-ai-assistant-workflows-290p",
+      "pubDate": "2026-10-21T11:39:19.000Z",
+      "description": "<h2> Why Standardizing Tool Calling via MCP Matters </h2> <p>Integrating LLMs with external tools traditionally required custom webhooks, complex API wrappers, or proprietary function-calling schemas for every single platform. </p> <p>The <strong>Model Context Protocol (MCP)</strong> solves this fra",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "deadman.switch: so your crypto doesn't die with you",
-      "link": "https://dev.to/chovy/deadmanswitch-so-your-crypto-doesnt-die-with-you-1f7",
-      "pubDate": "2026-10-21T04:37:36.000Z",
-      "description": "<h1> deadman.switch: so your crypto doesn't die with you </h1> <p>Most people who hold crypto have the same quiet problem. The coins are safe because only they know where the keys are. That is also exactly why the coins are gone the day something happens to them. The family knows there was \"some Bit",
+      "title": "Letter Moth vs Lavender: Cold Email Tools Compared",
+      "link": "https://dev.to/vishalmauryadev/letter-moth-vs-lavender-cold-email-tools-compared-4gg7",
+      "pubDate": "2026-10-21T11:38:47.000Z",
+      "description": "<p>Letter Moth and Lavender both help you write better outreach emails, but they are built for different people. Lavender is generally described as an email coaching tool oriented toward sales teams. Letter Moth is a lightweight Chrome extension that drafts a message from the page you have open, for",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Local Webhook Inspection with Cloudflare Tunnel",
-      "link": "https://dev.to/pmlongg/local-webhook-inspection-with-cloudflare-tunnel-41me",
-      "pubDate": "2026-10-21T04:36:14.000Z",
-      "description": "<p>When developing webhook integrations locally, engineers are increasingly migrating from ngrok to <strong>Cloudflare Tunnel (<code>cloudflared</code>)</strong>. Cloudflare Tunnel offers a generous, production-grade free tier with stable custom domains, zero bandwidth throttling, and no disruptive ",
+      "title": "Letter Moth vs ChatGPT for LinkedIn Messages: Which Fits?",
+      "link": "https://dev.to/vishalmauryadev/letter-moth-vs-chatgpt-for-linkedin-messages-which-fits-345d",
+      "pubDate": "2026-10-21T11:38:10.000Z",
+      "description": "<p>If you want a general-purpose assistant that can also write a LinkedIn message, ChatGPT works well. If you write outreach regularly and want drafts built from the profile you have open, with the character limit handled, a purpose-built Chrome extension like Letter Moth saves steps. They solve ove",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The Second Run Is Where the Lies Show Up",
-      "link": "https://dev.to/galagent/the-second-run-is-where-the-lies-show-up-23il",
-      "pubDate": "2026-10-21T04:36:01.000Z",
-      "description": "<p>Every agent demo I have ever seen works on the first run. Mine did too. The first run has a clean state, a fresh context, and a demo-friendly task that was probably chosen after a few attempts.</p> <p>The second run is different, and it is the only run I trust.</p> <h2> What changes between run o",
+      "title": "cPanel Emails Going to Spam? Fix SPF, DKIM &amp; DMARC",
+      "link": "https://dev.to/faizan050/cpanel-emails-going-to-spam-fix-spf-dkim-dmarc-3bp9",
+      "pubDate": "2026-10-21T11:37:36.000Z",
+      "description": "<p>Why does mail from your cPanel mailbox look fine in your own inbox but land in a client's Gmail spam folder?</p> <p>Usually, the receiving server cannot authenticate the sender properly, the sending domain has a reputation problem, or the message triggers spam filtering.</p> <p>When I see <strong",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Why Roblox Bet on a Custom Engine and Luau: The Boring C++ Sandbox Behind 85 Million Daily Players",
-      "link": "https://dev.to/wlz/why-roblox-bet-on-a-custom-engine-and-luau-the-boring-c-sandbox-behind-85-million-daily-players-21pl",
-      "pubDate": "2026-10-21T04:35:15.000Z",
-      "description": "<h1> Why Roblox Bet on a Custom Engine and Luau: The Boring C++ Sandbox Behind 85 Million Daily Players </h1> <p><strong>Short answer:</strong> Roblox runs on its own C++ engine plus Roblox Studio and a Lua fork called Luau — not Unity or Unreal — because it is not selling a game, it is running a ma",
+      "title": "LazyDesk 💤 — A Little Less Busywork, A Little More Life",
+      "link": "https://dev.to/bhavit_goyal_d55923ee6528/lazydesk-a-little-less-busywork-a-little-more-life-37fl",
+      "pubDate": "2026-10-21T11:37:23.000Z",
+      "description": "<p><em>This is a submission for the <a href=\"https://dev.to/challenges/hacktoberfest-week3-2026-10-19\">Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady</a></em></p> <h2> What I Built </h2> <p>&lt;!-- What does it do, and what effort does it save? Who gets to be a little lazier because ",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "Whatever Happened to Fire Escapes",
+      "link": "https://practical.engineering/blog/2026/10/20/whatever-happened-to-fire-escapes",
+      "pubDate": "2026-10-21T10:14:43.000Z",
+      "description": "Article URL: https://practical.engineering/blog/2026/10/20/whatever-happened-to-fire-escapes Comments URL: https://news.ycombinator.com/item?id=50178455 Points: 28 # Comments: 7",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Show HN: Linkit – AI bookmark manager, 100% free and open source",
+      "link": "https://github.com/blue-idea/linkit",
+      "pubDate": "2026-10-21T09:51:41.000Z",
+      "description": "Article URL: https://github.com/blue-idea/linkit Comments URL: https://news.ycombinator.com/item?id=50178218 Points: 7 # Comments: 1",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Eight Bits of Trust; eMudhra's CA keys cracked in milliseconds",
+      "link": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+      "pubDate": "2026-10-21T09:08:08.000Z",
+      "description": "Article URL: https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/ Comments URL: https://news.ycombinator.com/item?id=50177916 Points: 210 # Comments: 88",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "The 1.5°C goal of the Paris Agreement is no longer viable",
+      "link": "https://unric.org/en/unep-emissions-gap-report-2026-1-5-degree-overshoot/",
+      "pubDate": "2026-10-21T09:07:49.000Z",
+      "description": "Article URL: https://unric.org/en/unep-emissions-gap-report-2026-1-5-degree-overshoot/ Comments URL: https://news.ycombinator.com/item?id=50177911 Points: 324 # Comments: 347",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Finland Buying a Million Landmines",
+      "link": "https://yle.fi/a/74-20252139",
+      "pubDate": "2026-10-21T08:43:25.000Z",
+      "description": "Article URL: https://yle.fi/a/74-20252139 Comments URL: https://news.ycombinator.com/item?id=50177734 Points: 9 # Comments: 2",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Using Claude to reduce the attack surface of code",
+      "link": "https://www.anthropic.com/research/attack-surface-reduction",
+      "pubDate": "2026-10-21T03:36:43.000Z",
+      "description": "Article URL: https://www.anthropic.com/research/attack-surface-reduction Comments URL: https://news.ycombinator.com/item?id=50175779 Points: 62 # Comments: 28",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "C# now beats Rust on WASM size",
+      "link": "https://github.com/zion-sati/NetWasm",
+      "pubDate": "2026-10-21T02:53:47.000Z",
+      "description": "Article URL: https://github.com/zion-sati/NetWasm Comments URL: https://news.ycombinator.com/item?id=50175510 Points: 90 # Comments: 32",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "In Hilbert space, all things are quantumly possible",
       "link": "https://www.quantamagazine.org/in-hilbert-space-all-things-are-quantumly-possible-20260826/",
       "pubDate": "2026-10-21T02:04:15.000Z",
-      "description": "Article URL: https://www.quantamagazine.org/in-hilbert-space-all-things-are-quantumly-possible-20260826/ Comments URL: https://news.ycombinator.com/item?id=50175185 Points: 41 # Comments: 17",
+      "description": "Article URL: https://www.quantamagazine.org/in-hilbert-space-all-things-are-quantumly-possible-20260826/ Comments URL: https://news.ycombinator.com/item?id=50175185 Points: 102 # Comments: 58",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -101,7 +157,7 @@
       "title": "The Future of CSS",
       "link": "https://www.joshwcomeau.com/css/interop-2027/",
       "pubDate": "2026-10-21T01:47:28.000Z",
-      "description": "Article URL: https://www.joshwcomeau.com/css/interop-2027/ Comments URL: https://news.ycombinator.com/item?id=50175070 Points: 115 # Comments: 36",
+      "description": "Article URL: https://www.joshwcomeau.com/css/interop-2027/ Comments URL: https://news.ycombinator.com/item?id=50175070 Points: 411 # Comments: 167",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -109,63 +165,7 @@
       "title": "Good type against all odds",
       "link": "https://unsung.aresluna.org/good-type-against-all-odds/",
       "pubDate": "2026-10-21T01:45:07.000Z",
-      "description": "Article URL: https://unsung.aresluna.org/good-type-against-all-odds/ Comments URL: https://news.ycombinator.com/item?id=50175059 Points: 52 # Comments: 8",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Muse exposes users' personal and business secrets when they share conversations",
-      "link": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
-      "pubDate": "2026-10-21T00:45:59.000Z",
-      "description": "Article URL: https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/ Comments URL: https://news.ycombinator.com/item?id=50174687 Points: 29 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "The Other Epidemic: Trying to get off benzodiazepines",
-      "link": "https://www.thebeliever.net/the-other-epidemic/",
-      "pubDate": "2026-10-20T23:04:09.000Z",
-      "description": "https://web.archive.org/web/20261020230542/https://www.thebe...https://archive.ph/Tb1SZ Comments URL: https://news.ycombinator.com/item?id=50173891 Points: 116 # Comments: 78",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "PingCap TiDB Leaks",
-      "link": "https://fulcrumsec.vg/pingcap/",
-      "pubDate": "2026-10-20T22:45:39.000Z",
-      "description": "Article URL: https://fulcrumsec.vg/pingcap/ Comments URL: https://news.ycombinator.com/item?id=50173716 Points: 68 # Comments: 9",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Feds suspect ransom negotiator ran ShinyHunters extortion site",
-      "link": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
-      "pubDate": "2026-10-20T22:21:05.000Z",
-      "description": "Article URL: https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/ Comments URL: https://news.ycombinator.com/item?id=50173487 Points: 139 # Comments: 55",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Upcoming critical PHP security release",
-      "link": "https://news-web.php.net/php.announce/509",
-      "pubDate": "2026-10-20T20:15:50.000Z",
-      "description": "Article URL: https://news-web.php.net/php.announce/509 Comments URL: https://news.ycombinator.com/item?id=50172041 Points: 276 # Comments: 89",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Show HN: SimCity, but with Permits",
-      "link": "https://permit.petercai.com/",
-      "pubDate": "2026-10-20T18:29:09.000Z",
-      "description": "Article URL: https://permit.petercai.com/ Comments URL: https://news.ycombinator.com/item?id=50170593 Points: 657 # Comments: 341",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Advanced coding in low-resource programming languages",
-      "link": "https://openai.com/index/low-resource-programming-languages/",
-      "pubDate": "2026-10-20T17:43:11.000Z",
-      "description": "Article URL: https://openai.com/index/low-resource-programming-languages/ Comments URL: https://news.ycombinator.com/item?id=50169955 Points: 52 # Comments: 65",
+      "description": "Article URL: https://unsung.aresluna.org/good-type-against-all-odds/ Comments URL: https://news.ycombinator.com/item?id=50175059 Points: 139 # Comments: 12",
       "source": "Hacker News",
       "category": "Tech News"
     },
