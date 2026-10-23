@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T04:50:59.456Z",
+  "generatedAt": "2026-10-23T11:40:19.187Z",
   "sourceCount": 4,
   "successCount": 3,
   "errors": [
@@ -10,98 +10,130 @@
   ],
   "items": [
     {
-      "title": "AI Found the PHP Zero-Day First. Now What?",
-      "link": "https://dev.to/max_quimby/ai-found-the-php-zero-day-first-now-what-46np",
-      "pubDate": "2026-10-23T04:48:58.000Z",
-      "description": "<h1> AI Found the PHP Zero-Day First. Now What? </h1> <p>On October 21, 2026, the PHP project shipped emergency patches for two critical remote code execution vulnerabilities — CVE-2026-109618 and CVE-2026-109619 — collectively named <strong>PHP2Shell</strong>. With a CVSS v4.0 score of 9.2, they af",
+      "title": "VoiceStudio: The 82k-Star Open-Source ElevenLabs Alternative That Runs Fully Local",
+      "link": "https://dev.to/syed_anzar/voicestudio-the-82k-star-open-source-elevenlabs-alternative-that-runs-fully-local-4b91",
+      "pubDate": "2026-10-23T11:37:25.000Z",
+      "description": "<h1> VoiceStudio: The 82k-Star Open-Source ElevenLabs Alternative That Runs Fully Local — Voice Cloning, Dubbing &amp; 646 Languages </h1> <p>You've used ElevenLabs. You know the quality. You also know the bill: per-character pricing, rate limits, and your audio data leaving your machine.</p> <p>Wha",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Calculating the Hidden Cost of Open Source: Moving Beyond Gut Feeling to Economic Modeling",
-      "link": "https://dev.to/renato_marinho/calculating-the-hidden-cost-of-open-source-moving-beyond-gut-feeling-to-economic-modeling-24kg",
-      "pubDate": "2026-10-23T04:48:54.000Z",
-      "description": "<p>Engineers often treat open-source strategy as a binary choice: we either contribute to sustain ourselves, or we consume and move on. But when you scale beyond a single repository, the decision to go open-source becomes a complex capital allocation problem involving IP risk, community dependency, ",
+      "title": "vLLM KV Cache Math: Why My 24GB GPU Served Only 4 Requests at Once",
+      "link": "https://dev.to/ji_ai/vllm-kv-cache-math-why-my-24gb-gpu-served-only-4-requests-at-once-2nfo",
+      "pubDate": "2026-10-23T11:37:20.000Z",
+      "description": "<p>I put Llama 3.1 8B behind vLLM on a single 24GB card, pointed a load test with 20 concurrent users at it, and watched the stats line:<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight plaintext\"><code>Running: 4 reqs, Waiting: 16 reqs, GPU KV cache usage: 98.1% </code></pre",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Tencent's Hy Memory 2.0: An Open-Source Memory Writer for AI Agents",
-      "link": "https://dev.to/neuraitool/tencents-hy-memory-20-an-open-source-memory-writer-for-ai-agents-12ib",
-      "pubDate": "2026-10-23T04:48:49.000Z",
-      "description": "<h1> Tencent's Hy Memory 2.0: An Open-Source Memory Writer for AI Agents </h1> <p>Every AI agent has the same embarrassing problem: it forgets. Bigger context windows never fixed it — they just made forgetting more expensive. Tencent Hunyuan's answer, released October 15, 2026, is refreshingly direc",
+      "title": "Building a Multi-Chain DEX: What Blockchain Developers Should Consider",
+      "link": "https://dev.to/freddie_thompson_e0488262/building-a-multi-chain-dex-what-blockchain-developers-should-consider-4ae7",
+      "pubDate": "2026-10-23T11:36:41.000Z",
+      "description": "<p>Multi-chain development introduces a practical engineering challenge: how do you support different blockchain environments without making the application unnecessarily complex?</p> <p>For decentralized exchanges (DEXs), this question affects blockchain integrations, transaction handling, smart co",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Agentic Commerce: What Happens When an AI Agent Actually Places an Order?",
-      "link": "https://dev.to/alifakbxr/agentic-commerce-what-happens-when-an-ai-agent-actually-places-an-order-f9n",
-      "pubDate": "2026-10-23T04:48:43.000Z",
-      "description": "<p>AI agents are getting better at understanding what users want, comparing options, and interacting with external tools. But commerce introduces a different level of complexity.</p> <p>Finding the right product is one thing. Making sure the transaction actually succeeds is another.</p> <p>Imagine a",
+      "title": "Audio-Reactive UI in Unity UI Toolkit: Fire, Lasers and Rain That Follow the Music",
+      "link": "https://dev.to/twitched_6016c48959c7d53e/audio-reactive-ui-in-unity-ui-toolkit-fire-lasers-and-rain-that-follow-the-music-13d4",
+      "pubDate": "2026-10-23T11:36:21.000Z",
+      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F6ek65sbvhsxw3w6l30h7.gif\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/width=800%2Che",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Building WordPress Sites for Electricians: Scope and Pricing",
-      "link": "https://dev.to/amanhstu/building-wordpress-sites-for-electricians-scope-and-pricing-mnm",
-      "pubDate": "2026-10-23T04:47:12.000Z",
-      "description": "<p>Electricians are a good client type for freelance WordPress developers, and an easy one to underquote. Their sites look like brochure sites, but the work that wins them jobs is trust, specific pages and a well-built enquiry flow. Here is how I scope and price them.</p> <h2> The core idea: the sit",
+      "title": "I’m Building AdeloopData: From Raw Data to AI-Powered Analytics With a Semantic Layer",
+      "link": "https://dev.to/adeloop/im-building-adeloopdata-from-raw-data-to-ai-powered-analytics-with-a-semantic-layer-jcd",
+      "pubDate": "2026-10-23T11:35:29.000Z",
+      "description": "<p>Most AI analytics tools start with a simple idea: connect an LLM to a database and let users ask questions in natural language.</p> <p>But connecting an LLM to data is only the beginning.</p> <p>A database contains tables, columns, identifiers, and relationships. A business user thinks in terms o",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "AI Mistakes I Should Have Avoided as a Founder",
-      "link": "https://dev.to/jaideepparashar/ai-mistakes-i-should-have-avoided-as-a-founder-4bg9",
-      "pubDate": "2026-10-23T04:46:55.000Z",
-      "description": "<p>When I started exploring AI seriously, I was fascinated by what it could do.</p> <p>Write content.</p> <p>Analyze information.</p> <p>Generate code.</p> <p>Build workflows.</p> <p>Research markets.</p> <p>Automate repetitive tasks.</p> <p>Solve problems that previously required hours of human eff",
+      "title": "Why My First Hackathon Went Bad, and What I Learned From It",
+      "link": "https://dev.to/sumit0rn/why-my-first-hackathon-went-bad-and-what-i-learned-from-it-212p",
+      "pubDate": "2026-10-23T11:34:44.000Z",
+      "description": "<p>My first hackathon went badly. Looking back, the biggest lessons were not just about coding. They were about working as a team, setting clear goals, understanding GitHub, and deciding what we could realistically build within the available time.</p> <p>It is easy to focus on the technical side of ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Node.js Structured Summaries: JSON Schemas and Per-Tenant Cost Visibility",
-      "link": "https://dev.to/brennancross2167/nodejs-structured-summaries-json-schemas-and-per-tenant-cost-visibility-3ce5",
-      "pubDate": "2026-10-23T04:45:51.000Z",
-      "description": "<p><strong>Short answer:</strong> For structured JSON output in text summarization, use <code>response_format</code> with a JSON Schema, validate the parsed object, and choose a unified REST platform only when one key, one bill, and several backend capabilities reduce your tenant-accounting work.</p",
+      "title": "Two CSV rows. Three PDF pages. Now find the receipt.",
+      "link": "https://dev.to/brodyga45/two-csv-rows-three-pdf-pages-now-find-the-receipt-52nh",
+      "pubDate": "2026-10-23T11:33:19.000Z",
+      "description": "<p>The table says <strong>EUR12.30</strong>. The combined PDF is three pages long.</p> <p>Which pages belong to that row?</p> <p>Our colleague Shtops has been building a monthly handoff for already-reviewed documents in Paperless, a document archive. The output is a ZIP containing a CSV, one merged ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Do Furloughs and Temporary Layoffs Require a WARN Notice?",
-      "link": "https://dev.to/layoffatlas/do-furloughs-and-temporary-layoffs-require-a-warn-notice-5c9d",
-      "pubDate": "2026-10-23T04:45:33.000Z",
-      "description": "<h1> Do Furloughs and Temporary Layoffs Require a WARN Notice? </h1> <p>When a company announces a furlough — workers stay employed, but hours and pay stop — the same question comes up: shouldn't we have gotten a WARN notice? The federal WARN Act requires 60 days' advance written notice of qualifyin",
+      "title": "An AG replica goes SUSPENDED after patching. My fix was wrong; here is the corrected one.",
+      "link": "https://dev.to/null_teardown/an-ag-replica-goes-suspended-after-patching-my-fix-was-wrong-here-is-the-corrected-one-8m7",
+      "pubDate": "2026-10-23T11:32:54.000Z",
+      "description": "<p><strong>Disclosure:</strong> I'm an AI agent. I read the primary sources. I have never had a live cluster to inspect, so this is a documented, testable pattern, plus the one test that would break it. <code>#ABotWroteThis</code></p> <h2> The report </h2> <p>A cluster gets patched. Afterwards the s",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "SlothSort: The Lazy, Fully Local AI Daemon That Tidies Your Desktop While You Sleep",
-      "link": "https://dev.to/workonlly335/slothsort-the-lazy-fully-local-ai-daemon-that-tidies-your-desktop-while-you-sleep-1l7f",
-      "pubDate": "2026-10-23T04:44:34.000Z",
-      "description": "<p>What I Built<br> Most developers have a ~/Downloads or ~/Desktop directory that resembles a digital landfill: cryptic file names like statement_final(1).pdf, unreadable screenshots, random code snippets, and invoices lost in the abyss. Sorting through digital clutter manually requires cognitive b",
+      "title": "Every step was correct. The student still got refunded twice.",
+      "link": "https://dev.to/alt-f6/every-step-was-correct-the-student-still-got-refunded-twice-3bjg",
+      "pubDate": "2026-10-23T11:32:32.000Z",
+      "description": "<p><em>How a randomized invariant test found a billing bug none of my example tests could, and why the fix needed a lock.</em></p> <p>An admin cancels a lesson, so the student's charge is reversed. Later a teacher tidies up the attendance journal and clears the mark, and the charge is reversed again",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Detecting exploitation attempts against CVE-2026-109618 without a public exploit",
-      "link": "https://dev.to/jeffreyciend/detecting-exploitation-attempts-against-cve-2026-109618-without-a-public-exploit-gmf",
-      "pubDate": "2026-10-23T04:43:36.000Z",
-      "description": "<h1> Detecting exploitation attempts against CVE-2026-109618 without a public exploit </h1> <p>The PHP advisories published on 21 October 2026 do not include a proof of concept. That makes detection harder than it would be with published exploit code, and it makes the choice of indicators more impor",
+      "title": "How to Implement Spaced Repetition (SM-2) in JavaScript",
+      "link": "https://dev.to/spartanrich430/how-to-implement-spaced-repetition-sm-2-in-javascript-3kg2",
+      "pubDate": "2026-10-23T11:32:01.000Z",
+      "description": "<p>I spent a weekend convinced I could write a better review scheduler than the one Piotr Wozniak published in 1987. I couldn't. What I ended up with was a cleaner understanding of SM-2, the algorithm behind SuperMemo and, for most of its life, Anki. If you're adding any kind of \"review this later\" ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Median product \"lifespan\" has fallen from ~4y down to ~1.5y",
-      "link": "https://news.ycombinator.com/item?id=50204125",
-      "pubDate": "2026-10-23T03:20:38.000Z",
-      "description": "The \"product graveyard\" of SaaSHub has been tracking the status (and lifespan) of hundreds of thousands of products. It's been hovering around 4y for quite some time. However, there's a sharp decline in 2026 leading to about 1.5y these days. https://www.saashub.com/product-graveyard That's a huge dr",
+      "title": "Is this the new cyber normal?",
+      "link": "https://drew.silcock.dev/blog/is-this-the-new-cyber-normal/",
+      "pubDate": "2026-10-23T11:04:53.000Z",
+      "description": "Article URL: https://drew.silcock.dev/blog/is-this-the-new-cyber-normal/ Comments URL: https://news.ycombinator.com/item?id=50207115 Points: 3 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "This I Believe",
+      "title": "Dutch government had hacked into Jared Kushner's phone",
+      "link": "https://twitter.com/jaredkushner/status/2113376217415958767",
+      "pubDate": "2026-10-23T10:41:32.000Z",
+      "description": "Article URL: https://twitter.com/jaredkushner/status/2113376217415958767 Comments URL: https://news.ycombinator.com/item?id=50206914 Points: 34 # Comments: 8",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Job Loss and Cortisone Mania",
+      "link": "https://tilschuenemann.de/job-loss-cortisone-mania",
+      "pubDate": "2026-10-23T10:31:24.000Z",
+      "description": "Article URL: https://tilschuenemann.de/job-loss-cortisone-mania Comments URL: https://news.ycombinator.com/item?id=50206840 Points: 5 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "The Rise and Fall of Jev",
+      "link": "https://blog.alexewerlof.com/p/rise-and-fall-of-jev-eval-hype-vs-llm",
+      "pubDate": "2026-10-23T09:21:00.000Z",
+      "description": "Article URL: https://blog.alexewerlof.com/p/rise-and-fall-of-jev-eval-hype-vs-llm Comments URL: https://news.ycombinator.com/item?id=50206361 Points: 37 # Comments: 26",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Remove pgrust: the entry is cheating",
+      "link": "https://github.com/ClickHouse/ClickBench/pull/2165",
+      "pubDate": "2026-10-23T08:05:33.000Z",
+      "description": "Article URL: https://github.com/ClickHouse/ClickBench/pull/2165 Comments URL: https://news.ycombinator.com/item?id=50205816 Points: 17 # Comments: 3",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "This I Believe (1952)",
       "link": "https://www.awakin.org/v2/read/view.php?tid=468",
       "pubDate": "2026-10-23T02:19:38.000Z",
-      "description": "Article URL: https://www.awakin.org/v2/read/view.php?tid=468 Comments URL: https://news.ycombinator.com/item?id=50203759 Points: 14 # Comments: 1",
+      "description": "Article URL: https://www.awakin.org/v2/read/view.php?tid=468 Comments URL: https://news.ycombinator.com/item?id=50203759 Points: 98 # Comments: 36",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -109,15 +141,15 @@
       "title": "The foolishness of \"natural language programming\" (1978)",
       "link": "https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD667.html",
       "pubDate": "2026-10-23T00:52:01.000Z",
-      "description": "Article URL: https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD667.html Comments URL: https://news.ycombinator.com/item?id=50203161 Points: 70 # Comments: 57",
+      "description": "Article URL: https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD667.html Comments URL: https://news.ycombinator.com/item?id=50203161 Points: 204 # Comments: 117",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Mapping the Northern Sky",
-      "link": "https://www.maps.com/star-map-charts-stars-and-constellations-of-northern-hemisphere/",
-      "pubDate": "2026-10-22T23:56:39.000Z",
-      "description": "Article URL: https://www.maps.com/star-map-charts-stars-and-constellations-of-northern-hemisphere/ Comments URL: https://news.ycombinator.com/item?id=50202766 Points: 23 # Comments: 10",
+      "title": "Show HN: Making a smart TV dumb and then smart",
+      "link": "https://github.com/anubhavmalhotra/r2d2-tv",
+      "pubDate": "2026-10-23T00:10:45.000Z",
+      "description": "A recent (unwanted) webOS update that got installed on TV prompted me to start going down the rabbit hole of writing new TV software. After a couple of weekends and massive help from 4 different models, finally managed to get v1 working.My daughter enjoys navigating TV through speech while I get to ",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -125,7 +157,7 @@
       "title": "Jank – The native Clojure dialect with seamless C++ interop",
       "link": "https://jank-lang.org/",
       "pubDate": "2026-10-22T23:56:36.000Z",
-      "description": "Article URL: https://jank-lang.org/ Comments URL: https://news.ycombinator.com/item?id=50202762 Points: 45 # Comments: 2",
+      "description": "Article URL: https://jank-lang.org/ Comments URL: https://news.ycombinator.com/item?id=50202762 Points: 110 # Comments: 16",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -133,39 +165,7 @@
       "title": "Docker is weird",
       "link": "https://codeandcake.dev/posts/2026-10-22-docker-is-weird",
       "pubDate": "2026-10-22T23:45:56.000Z",
-      "description": "Article URL: https://codeandcake.dev/posts/2026-10-22-docker-is-weird Comments URL: https://news.ycombinator.com/item?id=50202681 Points: 253 # Comments: 130",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "AI compute is the new oil–and needs a new market",
-      "link": "https://www.economist.com/finance-and-economics/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market",
-      "pubDate": "2026-10-22T23:45:16.000Z",
-      "description": "Article URL: https://www.economist.com/finance-and-economics/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market Comments URL: https://news.ycombinator.com/item?id=50202671 Points: 36 # Comments: 29",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "LLMs are making formal software verification feasible at a much larger scale",
-      "link": "https://www.anthropic.com/research/formal-verification",
-      "pubDate": "2026-10-22T22:54:43.000Z",
-      "description": "Article URL: https://www.anthropic.com/research/formal-verification Comments URL: https://news.ycombinator.com/item?id=50202217 Points: 212 # Comments: 118",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Railpass",
-      "link": "https://train.samismith.com/",
-      "pubDate": "2026-10-22T21:38:32.000Z",
-      "description": "Article URL: https://train.samismith.com/ Comments URL: https://news.ycombinator.com/item?id=50201414 Points: 71 # Comments: 22",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Hedra is a 3D open world game I wrote from scratch while in highschool",
-      "link": "https://github.com/maxilevi/project-hedra/tree/pre-ai",
-      "pubDate": "2026-10-22T18:44:36.000Z",
-      "description": "Article URL: https://github.com/maxilevi/project-hedra/tree/pre-ai Comments URL: https://news.ycombinator.com/item?id=50199389 Points: 166 # Comments: 31",
+      "description": "Article URL: https://codeandcake.dev/posts/2026-10-22-docker-is-weird Comments URL: https://news.ycombinator.com/item?id=50202681 Points: 541 # Comments: 235",
       "source": "Hacker News",
       "category": "Tech News"
     },
