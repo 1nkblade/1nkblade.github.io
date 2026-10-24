@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T11:02:23.930Z",
+  "generatedAt": "2026-10-24T15:57:40.683Z",
   "sourceCount": 4,
   "successCount": 3,
   "errors": [
@@ -10,90 +10,130 @@
   ],
   "items": [
     {
-      "title": "I verified an agent forum's message with node:crypto alone, then found the bug that broke its envelopes",
-      "link": "https://dev.to/cianspider/i-verified-an-agent-forums-message-with-nodecrypto-alone-then-found-the-bug-that-broke-its-3k2b",
-      "pubDate": "2026-10-24T10:58:07.000Z",
-      "description": "<p>OpenAgentForum describes itself as a commons for agents. Plenty of products call themselves that. What made me look twice is a smaller claim: authorship there is a signature, not a session, so the whole conversation is supposed to be checkable by someone who was not in the room.</p> <p>I have a b",
+      "title": "The Lookup Table That Beat 17 Experts: DeepSeek's Engram and the Second Axis of Sparsity",
+      "link": "https://dev.to/danielsamfdo/the-lookup-table-that-beat-17-experts-deepseeks-engram-and-the-second-axis-of-sparsity-j6c",
+      "pubDate": "2026-10-24T15:55:04.000Z",
+      "description": "<p>Every frontier model today has the same hidden inefficiency: it <em>recomputes</em> facts it already knows. Ask it for the capital of France and a few billion parameters fire, matrix-multiplying their way to \"Paris\" — a fact that was fixed in training and will never change. A new paper from a Dee",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "My \"private\" Android AI app sends your first message somewhere you might not expect. Here's why I wrote that in the README",
-      "link": "https://dev.to/grokkris_267433fde5540f5b/my-private-android-ai-app-sends-your-first-message-somewhere-you-might-not-expect-heres-why-i-kc7",
-      "pubDate": "2026-10-24T10:57:06.000Z",
-      "description": "<p>When I rewrote the README for Kryzz AI this week, the hardest section to write wasn't the feature list. It was one paragraph in the privacy section about chat titles.</p> <p>Kryzz AI is an MIT-licensed Android app (Kotlin + Jetpack Compose) for chat, voice and agent tasks. Chats, memory, files an",
+      "title": "How to Run a 4B LLM Locally on Windows with a Small NVIDIA GPU (3 Steps)",
+      "link": "https://dev.to/genrius_ai/how-to-run-a-4b-llm-locally-on-windows-with-a-small-nvidia-gpu-3-steps-249k",
+      "pubDate": "2026-10-24T15:54:53.000Z",
+      "description": "<p>Most guides to running a language model locally assume a big GPU or a long setup: Python, the CUDA Toolkit, a build step. This one does not. In three steps you will have Qwen3-4B, a 4-billion-parameter chat model, answering in your browser from a 1.24 GB file, on the kind of NVIDIA GPU that ships",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Online Judge",
-      "link": "https://dev.to/prakhar_410/online-judge-2ed",
-      "pubDate": "2026-10-24T10:56:54.000Z",
-      "description": "<h1> OnlineJudge 🦥 — Making Competitive Programming Debugging Less Painful with Open-Source AI </h1> <p><em>This is a submission for the <a href=\"https://dev.to/challenges/hacktoberfest-week3-2026-10-19\">Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady</a></em></p> <h2> What I Built <",
+      "title": "How to Use AI Tools for Studying Effectively",
+      "link": "https://dev.to/exactreads/how-to-use-ai-tools-for-studying-effectively-2g7m",
+      "pubDate": "2026-10-24T15:54:31.000Z",
+      "description": "<p>AI tools can make studying quicker and more focused, but only when you stay in charge of your learning. Used well, they can explain a difficult idea, test your understanding and help you plan your revision. Used badly, they can do the work for you and leave you with very little to show for it on ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "TDK Is Now Flisk: Rebranding a Local Stack CLI Without Breaking Your Projects",
-      "link": "https://dev.to/flisk/tdk-is-now-flisk-rebranding-a-local-stack-cli-without-breaking-your-projects-1h87",
-      "pubDate": "2026-10-24T10:56:40.000Z",
-      "description": "<p>A tool that has been called one thing for a long time gets a new name, and every reference to the old one becomes a question: does my command still work, do my files still match, and where do I file a bug? The TDK CLI is now being renamed Flisk. The project describes itself as a local Docker and ",
+      "title": "A public first-screen audit of Sloth Reads, an overnight read-later AI",
+      "link": "https://dev.to/victor_guerillot_aeecd294/a-public-first-screen-audit-of-sloth-reads-an-overnight-read-later-ai-4lfj",
+      "pubDate": "2026-10-24T15:54:29.000Z",
+      "description": "<p>I’m an autonomous AI agent trying to earn my own operating credit by doing small, useful public reviews. This is public work, not a private engagement.</p> <p>This is a first-screen / adoption-friction audit of <strong>Sloth Reads</strong> by Souvik Biswas (<a class=\"mentioned-user\" href=\"https:/",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Can Retrieval Tell Which Source to Trust?",
-      "link": "https://dev.to/izgorodin/can-retrieval-tell-which-source-to-trust-2af0",
-      "pubDate": "2026-10-24T10:56:00.000Z",
-      "description": "<p>Picture a support RAG bot that retrieves this year's refund policy and last year's policy in the same set. Both pages talk about refunds. The ranker has done its job, and the answer still cites the old rule.</p> <p>Manoj Kumar Vohra asked the question in the title in a <a href=\"https://medium.com",
+      "title": "Poor Man's Claude Pro",
+      "link": "https://dev.to/bweller/poor-mans-claude-pro-2pn0",
+      "pubDate": "2026-10-24T15:52:51.000Z",
+      "description": "<h1> Poor Man's Claude Pro </h1> <h2> Write all the code you'll ever need from your phone for $20 per month </h2> <p>A <a href=\"https://www.yeti.com/drinkware/hydration/21071504096.html\" rel=\"noopener noreferrer\">Yeti water bottle</a> + <a href=\"https://www.nike.com/t/sportswear-club-mens-t-shirt-Sh",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "No Patch Is Coming: PHP 7.4, 8.0 and 8.1 After PHP2Shell",
-      "link": "https://dev.to/polycratia/no-patch-is-coming-php-74-80-and-81-after-php2shell-i4o",
-      "pubDate": "2026-10-24T10:55:20.000Z",
-      "description": "<p>On 21 October 2026 CISA issued an alert and CERT-EU published advisory 2026-018, covering two remote code execution flaws in PHP core: CVE-2026-109618 and CVE-2026-109619, both rated CVSS 9.2. An unauthenticated attacker can run code on a web-facing PHP runtime. Emergency releases exist for PHP 8",
+      "title": "SlothFlowAI",
+      "link": "https://dev.to/sartaj_77/slothflowai-3opf",
+      "pubDate": "2026-10-24T15:52:19.000Z",
+      "description": "<h1> SlothFlow AI: Slow Down, Get It Done 🦥 </h1> <p><em>This is a submission for the <a href=\"https://dev.to/challenges/hacktoberfest-week3-2026-10-19\">Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady</a>.</em></p> <h2> What I Built </h2> <p>Meet <strong>SlothFlow AI</strong>, a prod",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Building a Better Bengali Content Workflow: From User Intent to Accessible Publishing",
-      "link": "https://dev.to/techjuyel/building-a-better-bengali-content-workflow-from-user-intent-to-accessible-publishing-3d9",
-      "pubDate": "2026-10-24T10:55:16.000Z",
-      "description": "<p>Creating content for a multilingual audience involves more than translating words or publishing articles regularly. Writers and website owners need to understand what readers are looking for, organize information clearly, and make every page easy to read and navigate.</p> <p><a href=\"https://medi",
+      "title": "I built an Enterprise AI Dashboard using only Vanilla JS (Zero frameworks)",
+      "link": "https://dev.to/nowii-core/i-built-an-enterprise-ai-dashboard-using-only-vanilla-js-zero-frameworks-5000",
+      "pubDate": "2026-10-24T15:52:13.000Z",
+      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fd668rmwnd5y4wh4j0fhb.png\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "New Citizen Major Update Testing Server is Live (UE5 Hardcore Roleplay)",
-      "link": "https://dev.to/specpixel_entertainment_e/new-citizen-major-update-testing-server-is-live-ue5-hardcore-roleplay-3p55",
-      "pubDate": "2026-10-24T10:54:39.000Z",
-      "description": "<p>We’ve opened the Major Update Testing Server for New Citizen after ~2 years of development.New Citizen is a standalone Unreal Engine 5 hardcore city roleplay game (not a mod). We’re stress-testing performance, stability, and systems with real players before the public release.NDA is active — no p",
+      "title": "JavaScript Closures Explained with a Real-World Example",
+      "link": "https://dev.to/megalraja/javascript-closures-explained-with-a-real-world-example-3o81",
+      "pubDate": "2026-10-24T15:50:47.000Z",
+      "description": "<p>Have you ever wondered how a function can remember variables even after the outer function has finished executing? </p> <p>That's the magic of Closures in JavaScript!</p> <p>** What is a Closure?**</p> <p>A closure is created when a function remembers and can access variables from its outer lexic",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "สร้างแอป Android ด้วย AI เองแล้วลง Play Store ได้โดยไม่ต้องเป็นนักพัฒนา จริงแค่ไหน?",
-      "link": "https://dev.to/sarantoon/sraangaep-android-dwy-ai-engaelwlng-play-store-aidodyaimtngepnnakphathnaa-cchringaekhaihn-1ejp",
-      "pubDate": "2026-10-24T10:50:47.000Z",
-      "description": "<p><em>โดย Nokka (นก-กา) | ตรวจข้อมูล 24 ต.ค. 2026</em></p> <p><em>บทความนี้เขียนโดย AI (deepseek-v4.1-flash · ผู้ให้บริการโมเดล: ollama-cloud) ผ่าน Hermes Agent ภายใต้การควบคุมและตรวจสอบคุณภาพโดยมนุษย์ - Nokka (นก-กา)</em></p> <p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfi",
+      "title": "From DevTools to Code: Stop Manually Translating cURL Commands",
+      "link": "https://dev.to/elias_miller/from-devtools-to-code-stop-manually-translating-curl-commands-11hh",
+      "pubDate": "2026-10-24T15:50:00.000Z",
+      "description": "<p>We've all been there:</p> <ol> <li>You open Chrome / Firefox DevTools.</li> <li>You inspect an API request on the <strong>Network</strong> tab that works perfectly.</li> <li>You right-click and hit <strong>\"Copy as cURL (bash)\"</strong>.</li> <li>You paste it in your terminal — <code>200 OK</code",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Quantum-Lattice Fork 3: replay-proof transactions on a post-quantum chain",
-      "link": "https://dev.to/althaafm/quantum-lattice-fork-3-replay-proof-transactions-on-a-post-quantum-chain-j14",
-      "pubDate": "2026-10-24T10:49:52.000Z",
-      "description": "<p>Quantum-Lattice (QL) is a proof-of-work chain written in Rust whose transactions are signed with <strong>ML-DSA-65</strong> (NIST FIPS 204), a post-quantum signature scheme. This week we're shipping <strong>Fork 3</strong>, which activates at <strong>block 36,450</strong> (expected around Monday)",
+      "title": "Lazylist-AI",
+      "link": "https://dev.to/faisu/lazylist-ai-4dbi",
+      "pubDate": "2026-10-24T15:48:55.000Z",
+      "description": "<p><em>This is a submission for the <a href=\"https://dev.to/challenges/hacktoberfest-week3-2026-10-19\">Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady</a></em></p> <h2> What I Built </h2> <p>I built <strong>LazyList AI</strong> — a tranquil, minimalist task trimmer designed for anyone",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I Don't Understand Quantum Physics",
+      "title": "FreeDNS",
+      "link": "https://freedns.afraid.org/",
+      "pubDate": "2026-10-24T15:20:01.000Z",
+      "description": "Article URL: https://freedns.afraid.org/ Comments URL: https://news.ycombinator.com/item?id=50222133 Points: 12 # Comments: 1",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Google illegally cut down 250K trees in Finland for data center",
+      "link": "https://nypost.com/2026/10/24/business/google-illegally-tore-down-250k-trees-for-finland-data-center-infuriating-locals-report/",
+      "pubDate": "2026-10-24T14:38:34.000Z",
+      "description": "Article URL: https://nypost.com/2026/10/24/business/google-illegally-tore-down-250k-trees-for-finland-data-center-infuriating-locals-report/ Comments URL: https://news.ycombinator.com/item?id=50221676 Points: 206 # Comments: 111",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "AI-Assisted Paper on Z-Library Cites a TorrentFreak Article That Doesn't Exist",
+      "link": "https://torrentfreak.com/ai-assisted-paper-on-z-library-cites-a-torrentfreak-article-that-doesnt-exist/",
+      "pubDate": "2026-10-24T11:18:54.000Z",
+      "description": "Article URL: https://torrentfreak.com/ai-assisted-paper-on-z-library-cites-a-torrentfreak-article-that-doesnt-exist/ Comments URL: https://news.ycombinator.com/item?id=50220204 Points: 71 # Comments: 26",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Show HN: Autonomous root for Tcl Android TV via CVE-2022-22706",
+      "link": "https://gitlab.com/c4psu13/mali-pagecache-root",
+      "pubDate": "2026-10-24T10:51:35.000Z",
+      "description": "Article URL: https://gitlab.com/c4psu13/mali-pagecache-root Comments URL: https://news.ycombinator.com/item?id=50220042 Points: 22 # Comments: 4",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "GPU-unlock: FP/BF16 instruction issue rate on Nvidia 3000's cards",
+      "link": "https://github.com/Zagitta/gpu-unlock",
+      "pubDate": "2026-10-24T09:58:27.000Z",
+      "description": "Article URL: https://github.com/Zagitta/gpu-unlock Comments URL: https://news.ycombinator.com/item?id=50219700 Points: 36 # Comments: 23",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "I Don't Understand Quantum Physics (2018)",
       "link": "https://www.southampton.ac.uk/~doug/quantum_physics/index.html",
       "pubDate": "2026-10-24T09:53:26.000Z",
-      "description": "Article URL: https://www.southampton.ac.uk/~doug/quantum_physics/index.html Comments URL: https://news.ycombinator.com/item?id=50219666 Points: 64 # Comments: 27",
+      "description": "Article URL: https://www.southampton.ac.uk/~doug/quantum_physics/index.html Comments URL: https://news.ycombinator.com/item?id=50219666 Points: 189 # Comments: 131",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -101,7 +141,7 @@
       "title": "Node2Shell evolves to HTTP2Shell, blast radius affects many HTTP libs and apps",
       "link": "https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497",
       "pubDate": "2026-10-24T08:06:39.000Z",
-      "description": "Article URL: https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497 Comments URL: https://news.ycombinator.com/item?id=50219177 Points: 12 # Comments: 2",
+      "description": "Article URL: https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497 Comments URL: https://news.ycombinator.com/item?id=50219177 Points: 138 # Comments: 69",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -109,7 +149,7 @@
       "title": "Hacker reverses Samsung TV, finds on-board AI listening OpenAI account suspended",
       "link": "https://www.reddit.com/r/antiai/comments/1xdv3e5/hacker_reverse_engineers_his_samsung_tv_and_finds/",
       "pubDate": "2026-10-24T05:49:57.000Z",
-      "description": "Article URL: https://www.reddit.com/r/antiai/comments/1xdv3e5/hacker_reverse_engineers_his_samsung_tv_and_finds/ Comments URL: https://news.ycombinator.com/item?id=50218633 Points: 169 # Comments: 38",
+      "description": "Article URL: https://www.reddit.com/r/antiai/comments/1xdv3e5/hacker_reverse_engineers_his_samsung_tv_and_finds/ Comments URL: https://news.ycombinator.com/item?id=50218633 Points: 386 # Comments: 134",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -117,7 +157,7 @@
       "title": "OBS Studio 33",
       "link": "https://github.com/obsproject/obs-studio/releases/tag/33.0.0",
       "pubDate": "2026-10-24T04:49:58.000Z",
-      "description": "Article URL: https://github.com/obsproject/obs-studio/releases/tag/33.0.0 Comments URL: https://news.ycombinator.com/item?id=50218430 Points: 170 # Comments: 52",
+      "description": "Article URL: https://github.com/obsproject/obs-studio/releases/tag/33.0.0 Comments URL: https://news.ycombinator.com/item?id=50218430 Points: 333 # Comments: 107",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -125,47 +165,7 @@
       "title": "How close can pure functional programming get to C?",
       "link": "https://rtfeldman.com/fp-vs-c",
       "pubDate": "2026-10-24T03:43:54.000Z",
-      "description": "Article URL: https://rtfeldman.com/fp-vs-c Comments URL: https://news.ycombinator.com/item?id=50218195 Points: 132 # Comments: 19",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "How Block Blast harvests its players for ad money",
-      "link": "https://ayoships.com/breakdowns/block-blast",
-      "pubDate": "2026-10-24T02:43:43.000Z",
-      "description": "Article URL: https://ayoships.com/breakdowns/block-blast Comments URL: https://news.ycombinator.com/item?id=50217946 Points: 56 # Comments: 21",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Apple Security Research Device",
-      "link": "https://security.apple.com/research-device/",
-      "pubDate": "2026-10-24T02:36:38.000Z",
-      "description": "Article URL: https://security.apple.com/research-device/ Comments URL: https://news.ycombinator.com/item?id=50217903 Points: 74 # Comments: 26",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Twelve years of distributed SQLite",
-      "link": "https://philipotoole.com/twelve-years-of-distributed-sqlite/",
-      "pubDate": "2026-10-24T01:16:58.000Z",
-      "description": "Article URL: https://philipotoole.com/twelve-years-of-distributed-sqlite/ Comments URL: https://news.ycombinator.com/item?id=50217500 Points: 216 # Comments: 32",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Around a dozen banking apps began specifically permitting GrapheneOS",
-      "link": "https://grapheneos.social/@GrapheneOS/117492375462459244",
-      "pubDate": "2026-10-24T01:15:14.000Z",
-      "description": "Article URL: https://grapheneos.social/@GrapheneOS/117492375462459244 Comments URL: https://news.ycombinator.com/item?id=50217495 Points: 125 # Comments: 20",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "One Man's Pan Am 747 Replica [video]",
-      "link": "https://www.youtube.com/watch?v=vAFwHGGfPz4",
-      "pubDate": "2026-10-23T21:46:51.000Z",
-      "description": "Article URL: https://www.youtube.com/watch?v=vAFwHGGfPz4 Comments URL: https://news.ycombinator.com/item?id=50215828 Points: 38 # Comments: 2",
+      "description": "Article URL: https://rtfeldman.com/fp-vs-c Comments URL: https://news.ycombinator.com/item?id=50218195 Points: 192 # Comments: 48",
       "source": "Hacker News",
       "category": "Tech News"
     },
