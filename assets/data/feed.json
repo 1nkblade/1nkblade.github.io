@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T11:31:42.424Z",
+  "generatedAt": "2026-10-25T16:21:49.460Z",
   "sourceCount": 4,
   "successCount": 3,
   "errors": [
@@ -10,98 +10,146 @@
   ],
   "items": [
     {
-      "title": "Pausing the one Amazon SES lane that's bouncing, and proving the pause took",
-      "link": "https://dev.to/voyagi/pausing-the-one-amazon-ses-lane-thats-bouncing-and-proving-the-pause-took-3b7j",
-      "pubDate": "2026-10-25T11:24:26.000Z",
-      "description": "<p>A small shop usually sends all its mail through one Amazon SES account: receipts, password resets, the newsletter. SES judges bounces across the whole account, so one stale list imported into the newsletter can take the password resets down with it.</p> <p>I built Fothering for the AWS CDS Agenti",
+      "title": "Check the stock plan before automating order fulfillment",
+      "link": "https://dev.to/ai_automationblueprint_8/check-the-stock-plan-before-automating-order-fulfillment-10ce",
+      "pubDate": "2026-10-25T16:17:52.000Z",
+      "description": "<p>Check the stock plan before letting an agent fulfill an order. An order with two lines for the same SKU can pass two separate availability checks and still request more units than the warehouse has.</p> <p>This article adapts AI Automation Blueprint's order-fulfillment automation topic into a sma",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How to Ask Questions About a 500-Page PDF on Your Mac in 2026 (Page Citations, No Cloud)",
-      "link": "https://dev.to/alichherawalla/how-to-ask-questions-about-a-500-page-pdf-on-your-mac-in-2026-page-citations-no-cloud-4opc",
-      "pubDate": "2026-10-25T11:23:27.000Z",
-      "description": "<p>You have a 500-page contract, annual report or textbook as a PDF on your Mac. You want to ask \"what does it say about termination?\" and get an answer you can check, not a guess. Off Grid AI Desktop reads the whole file on your Mac, answers from it, and puts a small page chip such as <strong>p. 21",
+      "title": "Processing Pool Sensor Readings with Python",
+      "link": "https://dev.to/freelancing_2b362430a47f8/processing-pool-sensor-readings-with-python-105n",
+      "pubDate": "2026-10-25T16:17:24.000Z",
+      "description": "<p>IoT applications often collect readings from sensors and turn them into information that people can understand. A pool-monitoring application is one example: it might collect water temperature, pH readings, and equipment status.</p> <p>The first challenge is not creating a dashboard. It is decidi",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "MotifAI 7.2.0: Building a Local-First AI Music Studio in Rust",
-      "link": "https://dev.to/shamelesabyss/motifai-720-building-a-local-first-ai-music-studio-in-rust-3aff",
-      "pubDate": "2026-10-25T11:22:08.000Z",
-      "description": "<p>I've been building <strong>MotifAI</strong> to make AI-assisted music composition feel less like asking a model for a block of code and more like working in a creative studio.</p> <p>MotifAI connects locally installed <a href=\"https://ollama.com\" rel=\"noopener noreferrer\">Ollama</a> models to <a ",
+      "title": "Building a Vehicle Maintenance Data Validator with JavaScript",
+      "link": "https://dev.to/freelancing_2b362430a47f8/building-a-vehicle-maintenance-data-validator-with-javascript-4b41",
+      "pubDate": "2026-10-25T16:16:35.000Z",
+      "description": "<p>When building a vehicle maintenance application, accepting user input is easy. Making sure that input is valid, consistent, and useful is the harder part.</p> <p>Consider an application that records tyre pressure, tread depth, and vehicle registration details. Incorrect values can make reports un",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "What 9,483 small business websites actually serve to an AI crawler",
-      "link": "https://dev.to/gaash-ai/what-9483-small-business-websites-actually-serve-to-an-ai-crawler-1d74",
-      "pubDate": "2026-10-25T11:21:35.000Z",
-      "description": "<p>Over two weeks I pointed a crawler at 11,060 small business websites with JavaScript off, a self-identifying user agent and three pages per site, and stored what came back. This is what the schema, the robots files and the served HTML look like across 9,483 sites that responded, and why an assist",
+      "title": "I Built SlowCommit: A Local-First AI Git Commit Message Generator 🦥",
+      "link": "https://dev.to/mohitsaini2829/i-built-slowcommit-a-local-first-ai-git-commit-message-generator-jfc",
+      "pubDate": "2026-10-25T16:16:28.000Z",
+      "description": "<p><em>This is a submission for the <a href=\"https://dev.to/challenges/hacktoberfest-week3-2026-10-19\">Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady</a></em></p> <h2> What I Built </h2> <p>I built <strong>SlowCommit 🦥</strong>, a local-first AI-powered Git commit message generator ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Why any X-Plex-Token value matters in the Plex timeline SSRF",
-      "link": "https://dev.to/sorrelthorncroft/why-any-x-plex-token-value-matters-in-the-plex-timeline-ssrf-1mmf",
-      "pubDate": "2026-10-25T11:20:26.000Z",
-      "description": "<h1> Why any X-Plex-Token value matters in the Plex timeline SSRF </h1> <p>Most SSRF advisories stop at the request the attacker can make. The CNA record for CVE-2026-96652 adds a detail that changes how defenders should read the flaw: the server accepts any X-Plex-Token value on the vulnerable path",
+      "title": "How to Change the Price of Existing Stripe Subscriptions Without Cancelling Anyone",
+      "link": "https://dev.to/pricepilot/how-to-change-the-price-of-existing-stripe-subscriptions-without-cancelling-anyone-3an8",
+      "pubDate": "2026-10-25T16:15:51.000Z",
+      "description": "<p>Sooner or later every membership site and SaaS hits the same wall. You raise your price, update the pricing page, and then realize the new price only applies to people who sign up from today onward. Everyone who subscribed last year keeps paying the old rate forever, because that is how Stripe wo",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "An unknown note category should stop the write",
-      "link": "https://dev.to/renga154/an-unknown-note-category-should-stop-the-write-5cgi",
-      "pubDate": "2026-10-25T11:19:33.000Z",
-      "description": "<p>Reorganizing notes into content categories does not update the code that saves the next note. If that code still defaults to the old shared folder, it can recreate the location you just retired.</p> <p>My AI assistant had a note tool that appended to a project folder when a project was supplied, ",
+      "title": "SMX Next 2026 Puts Assistive Agent Optimization on the Search Agenda",
+      "link": "https://dev.to/alifar/smx-next-2026-puts-assistive-agent-optimization-on-the-search-agenda-2467",
+      "pubDate": "2026-10-25T16:15:30.000Z",
+      "description": "<p>SMX Next 2026 is placing the relationship between conventional search, AI assistants and autonomous agents directly on its program. A session in the event's SEO &amp; GEO track argues that organizations need one visibility strategy across search engines, assistive AI and agents, rather than treat",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Rework Flows Backwards: Modelling Rework Lots, Allergen Rules and Recursive Traceability in a Food ERP",
-      "link": "https://dev.to/yit2022/rework-flows-backwards-modelling-rework-lots-allergen-rules-and-recursive-traceability-in-a-food-2fk3",
-      "pubDate": "2026-10-25T11:18:54.000Z",
-      "description": "<p><em>By Isaac Muthui, CEO, Tamalaki Business Network Ltd. Originally published at <a href=\"https://factoraerp.com/en/blog/rework-control-checklist-food-factories-kenya\" rel=\"noopener noreferrer\">factoraerp.com</a>.</em></p> <p>In most inventory systems, material flows one way: raw material in, fin",
+      "title": "Roku GitLab move, GrapheneOS bank apps, Denmark's Office pilot and the RTX 4090 unlock",
+      "link": "https://dev.to/axrisi/roku-gitlab-move-grapheneos-bank-apps-denmarks-office-pilot-and-the-rtx-4090-unlock-1hnm",
+      "pubDate": "2026-10-25T16:15:00.000Z",
+      "description": "<p>Four developer stories landed in the same weekend, and they share a question: who holds the switch? Roku moved all of its developer code from GitHub to GitLab, GrapheneOS says a dozen banking apps now permit it, Denmark's digitalisation ministry reportedly shelved its open source Office pilot, an",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I built an AI email assistant in .NET with SerpApi and a local LLM. Here's what broke.",
-      "link": "https://dev.to/barbarosalagoz/i-built-an-ai-email-assistant-in-net-with-serpapi-and-a-local-llm-heres-what-broke-37od",
-      "pubDate": "2026-10-25T11:17:20.000Z",
-      "description": "<p>I had 53 unread emails and no idea which ones actually needed me. Newsletters, payment notices, receipts, and somewhere in between, a few real people waiting for an answer.</p> <p>I taught English for 16 years before I switched to software in 2023. If teaching taught me one thing, it's that you l",
+      "title": "Prompt Caching in Production Agents",
+      "link": "https://dev.to/tridaai/prompt-caching-in-production-agents-439g",
+      "pubDate": "2026-10-25T16:14:53.000Z",
+      "description": "<p><em>Originally published at <a href=\"https://trida.ai/blog/prompt-caching-in-production-agents\" rel=\"noopener noreferrer\">Trida AI</a>.</em></p> <p>Step nine of a document review looks almost identical to step eight. Same instructions. Same tool definitions, same contract, same conversation so fa",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "English and Sinhala",
-      "link": "https://dev.to/savinduthathsara/english-and-sinhala-4cdj",
-      "pubDate": "2026-10-25T11:17:06.000Z",
-      "description": "<h1> English and Sinhala </h1> <p>The Sinhala voice said \"ආයුබෝවන්. මම හර්ත්ලන්.\" Inference took 112 milliseconds. The greeting itself was 2.04 seconds of audio.</p> <p>Savindu Thathsara, <a href=\"https://savithathsara.me\" rel=\"noopener noreferrer\">savithathsara.me</a>. This is a Hearthlen note from",
+      "title": "Group-Chat-Summarizer",
+      "link": "https://dev.to/priyansh_9331_k/group-chat-summarizer-48o8",
+      "pubDate": "2026-10-25T16:14:22.000Z",
+      "description": "<p><em>This is a submission for the <a href=\"https://dev.to/challenges/hacktoberfest-week3-2026-10-19\">Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady</a></em></p> <h2> What I Built </h2> <p>I built <strong>Group Chat Summarizer</strong>, a lazy sloth agent that reads your group chats",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Removing Microsoft's Bloatware",
-      "link": "https://dev.to/eugene-zimin/removing-microsofts-bloatware-12g7",
-      "pubDate": "2026-10-25T11:16:46.000Z",
-      "description": "<h2> The updater that outlived its apps </h2> <p>About a year ago I deleted Office from my Mac the way every Mac user is taught to delete anything, by dragging it to the Trash, and two weeks later Microsoft AutoUpdate opened a window to offer me updates for the applications I no longer had. The mome",
+      "title": "I built an audio recorder inside Firefox that never touches a server",
+      "link": "https://dev.to/weatherclockdash/i-built-an-audio-recorder-inside-firefox-that-never-touches-a-server-59l1",
+      "pubDate": "2026-10-25T16:14:03.000Z",
+      "description": "<p>I've been thinking about this for a while: almost every browser-based audio recording tool eventually phones home. You hit record, your voice travels to some server, gets processed there, and comes back. Sometimes that's fine. But if you're recording meeting notes, voice memos, personal thoughts ",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "Show HN: I put employees inside S&P 500 market-cap bubbles",
+      "link": "https://bigwhalehunting.com/workforce/",
+      "pubDate": "2026-10-25T15:05:39.000Z",
+      "description": "Article URL: https://bigwhalehunting.com/workforce/ Comments URL: https://news.ycombinator.com/item?id=50232312 Points: 53 # Comments: 12",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "A Few Thoughts on Intensity",
+      "link": "https://www.tylerhogge.com/blog/a-few-thoughts-on-intensity/",
+      "pubDate": "2026-10-25T14:37:49.000Z",
+      "description": "Article URL: https://www.tylerhogge.com/blog/a-few-thoughts-on-intensity/ Comments URL: https://news.ycombinator.com/item?id=50232035 Points: 16 # Comments: 3",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Show HN: Farol – a risk map of a pull request for the person who approves it",
+      "link": "https://github.com/winnin/farol",
+      "pubDate": "2026-10-25T13:28:06.000Z",
+      "description": "Article URL: https://github.com/winnin/farol Comments URL: https://news.ycombinator.com/item?id=50231349 Points: 41 # Comments: 25",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Samsung TVs look for microphones in your house via Bluetooth and then spy events",
+      "link": "https://twitter.com/freddier/status/2114042326758867453",
+      "pubDate": "2026-10-25T13:11:22.000Z",
+      "description": "Article URL: https://twitter.com/freddier/status/2114042326758867453 Comments URL: https://news.ycombinator.com/item?id=50231189 Points: 37 # Comments: 13",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Imagine an AI future where being banned means you are now economically useless",
+      "link": "https://twitter.com/boneGPT/status/2114035719853265264",
+      "pubDate": "2026-10-25T12:47:20.000Z",
+      "description": "Article URL: https://twitter.com/boneGPT/status/2114035719853265264 Comments URL: https://news.ycombinator.com/item?id=50230995 Points: 57 # Comments: 36",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Tool book of a Nuremberg knight from 1505",
+      "link": "https://loeffelholz-codex.org/en/",
+      "pubDate": "2026-10-25T12:37:54.000Z",
+      "description": "Article URL: https://loeffelholz-codex.org/en/ Comments URL: https://news.ycombinator.com/item?id=50230917 Points: 124 # Comments: 62",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "fheroes2: A recreation of Heroes of Might and Magic II game engine",
+      "link": "https://github.com/ihhub/fheroes2",
+      "pubDate": "2026-10-25T11:09:12.000Z",
+      "description": "Article URL: https://github.com/ihhub/fheroes2 Comments URL: https://news.ycombinator.com/item?id=50230384 Points: 118 # Comments: 39",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "Samsung running a TensorFlow lite model on 960x540 image to track you",
       "link": "https://twitter.com/mike64_t/status/2114150399406202896",
       "pubDate": "2026-10-25T10:42:01.000Z",
-      "description": "Article URL: https://twitter.com/mike64_t/status/2114150399406202896 Comments URL: https://news.ycombinator.com/item?id=50230181 Points: 12 # Comments: 2",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "France asked ISPs to prepare temporary DNS blocks for major social platforms",
-      "link": "https://www.blast-info.fr/articles/2026/information-exclusive-blast-le-premier-ministre-a-prepare-la-coupure-des-reseaux-sociaux-pour-le-24-octobre-9D8cgrU5S5iiW14Sb9nMzQ",
-      "pubDate": "2026-10-25T09:56:49.000Z",
-      "description": "Article URL: https://www.blast-info.fr/articles/2026/information-exclusive-blast-le-premier-ministre-a-prepare-la-coupure-des-reseaux-sociaux-pour-le-24-octobre-9D8cgrU5S5iiW14Sb9nMzQ Comments URL: https://news.ycombinator.com/item?id=50229861 Points: 66 # Comments: 47",
+      "description": "Article URL: https://twitter.com/mike64_t/status/2114150399406202896 Comments URL: https://news.ycombinator.com/item?id=50230181 Points: 239 # Comments: 147",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -109,23 +157,7 @@
       "title": "Nikon photography contest winner loses title after scientists spot signs of AI",
       "link": "https://www.techspot.com/news/114171-nikon-photography-contest-winner-loses-title-after-scientists.html",
       "pubDate": "2026-10-25T09:51:17.000Z",
-      "description": "Article URL: https://www.techspot.com/news/114171-nikon-photography-contest-winner-loses-title-after-scientists.html Comments URL: https://news.ycombinator.com/item?id=50229827 Points: 8 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Online censorship is crushing indie webcomics",
-      "link": "https://xtramagazine.com/culture/online-censorship-indie-webcomics-284463",
-      "pubDate": "2026-10-25T09:04:13.000Z",
-      "description": "Article URL: https://xtramagazine.com/culture/online-censorship-indie-webcomics-284463 Comments URL: https://news.ycombinator.com/item?id=50229599 Points: 71 # Comments: 55",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Meta Ignores Brazilian Court Order to End Bolsonaro Favoritism",
-      "link": "https://www.panamericandispatch.org/p/meta-ignores-brazilian-court-order",
-      "pubDate": "2026-10-25T09:00:40.000Z",
-      "description": "Article URL: https://www.panamericandispatch.org/p/meta-ignores-brazilian-court-order Comments URL: https://news.ycombinator.com/item?id=50229587 Points: 202 # Comments: 135",
+      "description": "Article URL: https://www.techspot.com/news/114171-nikon-photography-contest-winner-loses-title-after-scientists.html Comments URL: https://news.ycombinator.com/item?id=50229827 Points: 85 # Comments: 21",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -133,39 +165,7 @@
       "title": "Cerebras Deploys Trillion-Parameter AI Models",
       "link": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
       "pubDate": "2026-10-25T01:33:49.000Z",
-      "description": "Article URL: https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras Comments URL: https://news.ycombinator.com/item?id=50227356 Points: 191 # Comments: 63",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Why Gopher in 2026?",
-      "link": "https://gopher.muffinlabs.com/sdf.org/users/nervtoji/phlog/001.txt",
-      "pubDate": "2026-10-24T23:33:19.000Z",
-      "description": "Article URL: https://gopher.muffinlabs.com/sdf.org/users/nervtoji/phlog/001.txt Comments URL: https://news.ycombinator.com/item?id=50226577 Points: 83 # Comments: 33",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
-      "link": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
-      "pubDate": "2026-10-24T23:11:54.000Z",
-      "description": "Article URL: https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class Comments URL: https://news.ycombinator.com/item?id=50226419 Points: 379 # Comments: 384",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "We should be more ambitious with the software we build",
-      "link": "https://danluu.com/ambitious/",
-      "pubDate": "2026-10-24T21:47:31.000Z",
-      "description": "Article URL: https://danluu.com/ambitious/ Comments URL: https://news.ycombinator.com/item?id=50225695 Points: 459 # Comments: 408",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Small Programs and Languages",
-      "link": "https://ratfactor.com/cards/pl-small",
-      "pubDate": "2026-10-24T21:44:23.000Z",
-      "description": "Article URL: https://ratfactor.com/cards/pl-small Comments URL: https://news.ycombinator.com/item?id=50225674 Points: 125 # Comments: 17",
+      "description": "Article URL: https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras Comments URL: https://news.ycombinator.com/item?id=50227356 Points: 276 # Comments: 93",
       "source": "Hacker News",
       "category": "Tech News"
     },
