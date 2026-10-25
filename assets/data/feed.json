@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T04:42:31.533Z",
+  "generatedAt": "2026-10-25T11:31:42.424Z",
   "sourceCount": 4,
   "successCount": 3,
   "errors": [
@@ -10,114 +10,122 @@
   ],
   "items": [
     {
-      "title": "False Sharing: Why Your Lock-Free Counter Is Slower Than a Mutex",
-      "link": "https://dev.to/speed_engineer/false-sharing-why-your-lock-free-counter-is-slower-than-a-mutex-375",
-      "pubDate": "2026-10-25T04:40:31.000Z",
-      "description": "<p>A team I was pairing with had \"fixed\" a hot path by replacing a mutex-protected counter with four separate atomic counters — one per worker thread — summed up on read. No lock contention, right? Throughput dropped by roughly 6x under load, worse than the mutex version it replaced.</p> <p>Nothing ",
+      "title": "Pausing the one Amazon SES lane that's bouncing, and proving the pause took",
+      "link": "https://dev.to/voyagi/pausing-the-one-amazon-ses-lane-thats-bouncing-and-proving-the-pause-took-3b7j",
+      "pubDate": "2026-10-25T11:24:26.000Z",
+      "description": "<p>A small shop usually sends all its mail through one Amazon SES account: receipts, password resets, the newsletter. SES judges bounces across the whole account, so one stale list imported into the newsletter can take the password resets down with it.</p> <p>I built Fothering for the AWS CDS Agenti",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Implement Delayed Reminders Using a Message Queue (Payment Recovery)",
-      "link": "https://dev.to/magnusnilsson2124/implement-delayed-reminders-using-a-message-queue-payment-recovery-3b11",
-      "pubDate": "2026-10-25T04:39:12.000Z",
-      "description": "<p>For a B2B SaaS product that reconciles payments every night, the least complex delayed-reminder design is a durable message with a due timestamp, an idempotency key, and a retry record kept outside the queue. The queue wakes work up; it does not become the payment ledger.</p> <p>That is the whole",
+      "title": "How to Ask Questions About a 500-Page PDF on Your Mac in 2026 (Page Citations, No Cloud)",
+      "link": "https://dev.to/alichherawalla/how-to-ask-questions-about-a-500-page-pdf-on-your-mac-in-2026-page-citations-no-cloud-4opc",
+      "pubDate": "2026-10-25T11:23:27.000Z",
+      "description": "<p>You have a 500-page contract, annual report or textbook as a PDF on your Mac. You want to ask \"what does it say about termination?\" and get an answer you can check, not a guess. Off Grid AI Desktop reads the whole file on your Mac, answers from it, and puts a small page chip such as <strong>p. 21",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Queue-Based Daily Scheduled Email: A Node.js Example for Fintech Deadlines",
-      "link": "https://dev.to/dawnli2026/queue-based-daily-scheduled-email-a-nodejs-example-for-fintech-deadlines-3bni",
-      "pubDate": "2026-10-25T04:38:41.000Z",
-      "description": "<p>Short answer: for a queue-based daily scheduled email in Node.js, schedule a small, durable due-record for each business deadline, then let a worker publish an email job to a queue. Keep the scheduler's transaction separate from email delivery, acknowledge a job only after the provider accepts it",
+      "title": "MotifAI 7.2.0: Building a Local-First AI Music Studio in Rust",
+      "link": "https://dev.to/shamelesabyss/motifai-720-building-a-local-first-ai-music-studio-in-rust-3aff",
+      "pubDate": "2026-10-25T11:22:08.000Z",
+      "description": "<p>I've been building <strong>MotifAI</strong> to make AI-assisted music composition feel less like asking a model for a block of code and more like working in a creative studio.</p> <p>MotifAI connects locally installed <a href=\"https://ollama.com\" rel=\"noopener noreferrer\">Ollama</a> models to <a ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Protocol Upgrade Compatibility Review: EigenCloud",
-      "link": "https://dev.to/dannydoes_2abdf9c/protocol-upgrade-compatibility-review-eigencloud-3f5d",
-      "pubDate": "2026-10-25T04:38:10.000Z",
-      "description": "<h1> Protocol Upgrade Compatibility Review: EigenCloud </h1> <p><strong>Target Protocol</strong>: EigenCloud (TVL: $6109.2M)</p> <h1> EigenCloud </h1> <p><strong>Protocol Upgrade Compatibility Review</strong><br><br> <strong>TVL:</strong> ≈ $6.11 B (Ethereum + L2)<br><br> <strong>Date:</strong> 25 O",
+      "title": "What 9,483 small business websites actually serve to an AI crawler",
+      "link": "https://dev.to/gaash-ai/what-9483-small-business-websites-actually-serve-to-an-ai-crawler-1d74",
+      "pubDate": "2026-10-25T11:21:35.000Z",
+      "description": "<p>Over two weeks I pointed a crawler at 11,060 small business websites with JavaScript off, a self-identifying user agent and three pages per site, and stored what came back. This is what the schema, the robots files and the served HTML look like across 9,483 sites that responded, and why an assist",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Give same-named image files separate batch IDs",
-      "link": "https://dev.to/morphio/give-same-named-image-files-separate-batch-ids-31gj",
-      "pubDate": "2026-10-25T04:37:25.000Z",
-      "description": "<p>Assign image-batch rows identifiers that do not depend on File.name being unique. MDN documents that name excludes the path. A name does not establish that two selected files are the same file.</p> <p>Assign the row IDs when accepting the batch. Display the original filename separately.<br> </p> ",
+      "title": "Why any X-Plex-Token value matters in the Plex timeline SSRF",
+      "link": "https://dev.to/sorrelthorncroft/why-any-x-plex-token-value-matters-in-the-plex-timeline-ssrf-1mmf",
+      "pubDate": "2026-10-25T11:20:26.000Z",
+      "description": "<h1> Why any X-Plex-Token value matters in the Plex timeline SSRF </h1> <p>Most SSRF advisories stop at the request the attacker can make. The CNA record for CVE-2026-96652 adds a detail that changes how defenders should read the flaw: the server accepts any X-Plex-Token value on the vulnerable path",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Running Several Radars in One Home: Two Kinds of ID, One Broker, and How to Group Them",
-      "link": "https://dev.to/249263431/running-several-radars-in-one-home-two-kinds-of-id-one-broker-and-how-to-group-them-1ao6",
-      "pubDate": "2026-10-25T04:37:17.000Z",
-      "description": "<p>Setting up one radar is a single sequence in the <a href=\"https://249263431.github.io/60GHz-Radar-SDK/guide/2026/10/17/radar-setup-guide.html\" rel=\"noopener noreferrer\">setup guide</a>. Setting up five is not the same sequence five times — it is a small design exercise. Almost every multi-radar f",
+      "title": "An unknown note category should stop the write",
+      "link": "https://dev.to/renga154/an-unknown-note-category-should-stop-the-write-5cgi",
+      "pubDate": "2026-10-25T11:19:33.000Z",
+      "description": "<p>Reorganizing notes into content categories does not update the code that saves the next note. If that code still defaults to the old shared folder, it can recreate the location you just retired.</p> <p>My AI assistant had a note tool that appended to a project folder when a project was supplied, ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "OpenAI's Deprecation Calendar: Nov + Dec + Jan Shutdowns — What to Check Before Each",
-      "link": "https://dev.to/paullovelace/openais-deprecation-calendar-nov-dec-jan-shutdowns-what-to-check-before-each-4922",
-      "pubDate": "2026-10-25T04:35:15.000Z",
-      "description": "<p>The October 23 shutdown got the headlines. Twelve model IDs, one deadline, a lot of us grepping at midnight.</p> <p>But the calendar didn't stop on the 23rd — and the person who pointed that out wasn't me. In the comments on <a href=\"https://dev.to/paullovelace/openai-kills-12-model-apis-tomorrow",
+      "title": "Rework Flows Backwards: Modelling Rework Lots, Allergen Rules and Recursive Traceability in a Food ERP",
+      "link": "https://dev.to/yit2022/rework-flows-backwards-modelling-rework-lots-allergen-rules-and-recursive-traceability-in-a-food-2fk3",
+      "pubDate": "2026-10-25T11:18:54.000Z",
+      "description": "<p><em>By Isaac Muthui, CEO, Tamalaki Business Network Ltd. Originally published at <a href=\"https://factoraerp.com/en/blog/rework-control-checklist-food-factories-kenya\" rel=\"noopener noreferrer\">factoraerp.com</a>.</em></p> <p>In most inventory systems, material flows one way: raw material in, fin",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "We showed 8 real Facebook ads to 120 simulated buyers. It ranked them backwards, and still found the leak.",
-      "link": "https://dev.to/ayushniroula/we-showed-8-real-facebook-ads-to-120-simulated-buyers-it-ranked-them-backwards-and-still-found-245d",
-      "pubDate": "2026-10-25T04:34:50.000Z",
-      "description": "<p>Simulation tools love to show the run where they were right. This is a run where one was wrong, and why it was still worth doing.</p> <h2> The setup </h2> <p>csca.ai sells prep for the CSCA exam (the test for studying in China) to students and parents in South and Southeast Asia. They ran 11 Face",
+      "title": "I built an AI email assistant in .NET with SerpApi and a local LLM. Here's what broke.",
+      "link": "https://dev.to/barbarosalagoz/i-built-an-ai-email-assistant-in-net-with-serpapi-and-a-local-llm-heres-what-broke-37od",
+      "pubDate": "2026-10-25T11:17:20.000Z",
+      "description": "<p>I had 53 unread emails and no idea which ones actually needed me. Newsletters, payment notices, receipts, and somewhere in between, a few real people waiting for an answer.</p> <p>I taught English for 16 years before I switched to software in 2023. If teaching taught me one thing, it's that you l",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I highlight paper books. A small open model types my quotes while I sleep",
-      "link": "https://dev.to/teo_furlan/i-highlight-paper-books-a-small-open-model-types-my-quotes-while-i-sleep-4197",
-      "pubDate": "2026-10-25T04:33:04.000Z",
-      "description": "<p><em>This is a submission for the <a href=\"https://dev.to/challenges/hacktoberfest-week3-2026-10-19\">Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady</a>.</em></p> <h2> What I Built </h2> <p>I read on paper, with a highlighter in hand. Every quote that stops me ends up in a Notion da",
+      "title": "English and Sinhala",
+      "link": "https://dev.to/savinduthathsara/english-and-sinhala-4cdj",
+      "pubDate": "2026-10-25T11:17:06.000Z",
+      "description": "<h1> English and Sinhala </h1> <p>The Sinhala voice said \"ආයුබෝවන්. මම හර්ත්ලන්.\" Inference took 112 milliseconds. The greeting itself was 2.04 seconds of audio.</p> <p>Savindu Thathsara, <a href=\"https://savithathsara.me\" rel=\"noopener noreferrer\">savithathsara.me</a>. This is a Hearthlen note from",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Critical Limits Are Data, Deviations Are Events: Modelling HACCP CCP Monitoring and Batch Holds in a Food ERP",
-      "link": "https://dev.to/yit2022/critical-limits-are-data-deviations-are-events-modelling-haccp-ccp-monitoring-and-batch-holds-in-1h99",
-      "pubDate": "2026-10-25T04:33:01.000Z",
-      "description": "<p><em>By Isaac Muthui, CEO, Tamalaki Business Network Ltd. Originally published at <a href=\"https://factoraerp.com/en/blog/haccp-ccp-monitoring-checklist-food-factories-kenya\" rel=\"noopener noreferrer\">factoraerp.com</a>.</em></p> <p>Most food factories store HACCP in two places that never meet. Th",
+      "title": "Removing Microsoft's Bloatware",
+      "link": "https://dev.to/eugene-zimin/removing-microsofts-bloatware-12g7",
+      "pubDate": "2026-10-25T11:16:46.000Z",
+      "description": "<h2> The updater that outlived its apps </h2> <p>About a year ago I deleted Office from my Mac the way every Mac user is taught to delete anything, by dragging it to the Trash, and two weeks later Microsoft AutoUpdate opened a window to offer me updates for the applications I no longer had. The mome",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Five Qwen3.8-27B models match Fable 5 Using GVS5H Harness",
-      "link": "https://github.com/slee-persis/GVS5H",
-      "pubDate": "2026-10-25T03:56:01.000Z",
-      "description": "Article URL: https://github.com/slee-persis/GVS5H Comments URL: https://news.ycombinator.com/item?id=50228167 Points: 28 # Comments: 2",
+      "title": "Samsung running a TensorFlow lite model on 960x540 image to track you",
+      "link": "https://twitter.com/mike64_t/status/2114150399406202896",
+      "pubDate": "2026-10-25T10:42:01.000Z",
+      "description": "Article URL: https://twitter.com/mike64_t/status/2114150399406202896 Comments URL: https://news.ycombinator.com/item?id=50230181 Points: 12 # Comments: 2",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Xbox Turns Down Netflix $500M Offer",
-      "link": "https://www.darkhorizons.com/xbox-turns-down-netflix-500-million-offer/",
-      "pubDate": "2026-10-25T03:05:53.000Z",
-      "description": "Article URL: https://www.darkhorizons.com/xbox-turns-down-netflix-500-million-offer/ Comments URL: https://news.ycombinator.com/item?id=50227892 Points: 59 # Comments: 60",
+      "title": "France asked ISPs to prepare temporary DNS blocks for major social platforms",
+      "link": "https://www.blast-info.fr/articles/2026/information-exclusive-blast-le-premier-ministre-a-prepare-la-coupure-des-reseaux-sociaux-pour-le-24-octobre-9D8cgrU5S5iiW14Sb9nMzQ",
+      "pubDate": "2026-10-25T09:56:49.000Z",
+      "description": "Article URL: https://www.blast-info.fr/articles/2026/information-exclusive-blast-le-premier-ministre-a-prepare-la-coupure-des-reseaux-sociaux-pour-le-24-octobre-9D8cgrU5S5iiW14Sb9nMzQ Comments URL: https://news.ycombinator.com/item?id=50229861 Points: 66 # Comments: 47",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Attention people who think UB is fine",
-      "link": "https://blog.habets.se/2026/10/Attention-people-who-think-UB-is-fine.html",
-      "pubDate": "2026-10-25T02:50:32.000Z",
-      "description": "Article URL: https://blog.habets.se/2026/10/Attention-people-who-think-UB-is-fine.html Comments URL: https://news.ycombinator.com/item?id=50227814 Points: 4 # Comments: 3",
+      "title": "Nikon photography contest winner loses title after scientists spot signs of AI",
+      "link": "https://www.techspot.com/news/114171-nikon-photography-contest-winner-loses-title-after-scientists.html",
+      "pubDate": "2026-10-25T09:51:17.000Z",
+      "description": "Article URL: https://www.techspot.com/news/114171-nikon-photography-contest-winner-loses-title-after-scientists.html Comments URL: https://news.ycombinator.com/item?id=50229827 Points: 8 # Comments: 0",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Meta employees say Lula’s accounts restricted in Brazil election: Report",
-      "link": "https://www.aljazeera.com/economy/2026/10/16/meta-employees-say-lulas-accounts-restricted-in-brazil-election-report",
-      "pubDate": "2026-10-25T02:18:35.000Z",
-      "description": "Article URL: https://www.aljazeera.com/economy/2026/10/16/meta-employees-say-lulas-accounts-restricted-in-brazil-election-report Comments URL: https://news.ycombinator.com/item?id=50227639 Points: 61 # Comments: 13",
+      "title": "Online censorship is crushing indie webcomics",
+      "link": "https://xtramagazine.com/culture/online-censorship-indie-webcomics-284463",
+      "pubDate": "2026-10-25T09:04:13.000Z",
+      "description": "Article URL: https://xtramagazine.com/culture/online-censorship-indie-webcomics-284463 Comments URL: https://news.ycombinator.com/item?id=50229599 Points: 71 # Comments: 55",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Meta Ignores Brazilian Court Order to End Bolsonaro Favoritism",
+      "link": "https://www.panamericandispatch.org/p/meta-ignores-brazilian-court-order",
+      "pubDate": "2026-10-25T09:00:40.000Z",
+      "description": "Article URL: https://www.panamericandispatch.org/p/meta-ignores-brazilian-court-order Comments URL: https://news.ycombinator.com/item?id=50229587 Points: 202 # Comments: 135",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -125,15 +133,7 @@
       "title": "Cerebras Deploys Trillion-Parameter AI Models",
       "link": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
       "pubDate": "2026-10-25T01:33:49.000Z",
-      "description": "Article URL: https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras Comments URL: https://news.ycombinator.com/item?id=50227356 Points: 44 # Comments: 15",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "FindMyWeb: Apple Find My, reverse enginiered",
-      "link": "https://codeberg.org/Misom/FindMyWeb",
-      "pubDate": "2026-10-24T23:42:52.000Z",
-      "description": "Article URL: https://codeberg.org/Misom/FindMyWeb Comments URL: https://news.ycombinator.com/item?id=50226646 Points: 38 # Comments: 8",
+      "description": "Article URL: https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras Comments URL: https://news.ycombinator.com/item?id=50227356 Points: 191 # Comments: 63",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -141,7 +141,7 @@
       "title": "Why Gopher in 2026?",
       "link": "https://gopher.muffinlabs.com/sdf.org/users/nervtoji/phlog/001.txt",
       "pubDate": "2026-10-24T23:33:19.000Z",
-      "description": "Article URL: https://gopher.muffinlabs.com/sdf.org/users/nervtoji/phlog/001.txt Comments URL: https://news.ycombinator.com/item?id=50226577 Points: 44 # Comments: 12",
+      "description": "Article URL: https://gopher.muffinlabs.com/sdf.org/users/nervtoji/phlog/001.txt Comments URL: https://news.ycombinator.com/item?id=50226577 Points: 83 # Comments: 33",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -149,7 +149,7 @@
       "title": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
       "link": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
       "pubDate": "2026-10-24T23:11:54.000Z",
-      "description": "Article URL: https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class Comments URL: https://news.ycombinator.com/item?id=50226419 Points: 242 # Comments: 251",
+      "description": "Article URL: https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class Comments URL: https://news.ycombinator.com/item?id=50226419 Points: 379 # Comments: 384",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -157,7 +157,7 @@
       "title": "We should be more ambitious with the software we build",
       "link": "https://danluu.com/ambitious/",
       "pubDate": "2026-10-24T21:47:31.000Z",
-      "description": "Article URL: https://danluu.com/ambitious/ Comments URL: https://news.ycombinator.com/item?id=50225695 Points: 268 # Comments: 229",
+      "description": "Article URL: https://danluu.com/ambitious/ Comments URL: https://news.ycombinator.com/item?id=50225695 Points: 459 # Comments: 408",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -165,7 +165,7 @@
       "title": "Small Programs and Languages",
       "link": "https://ratfactor.com/cards/pl-small",
       "pubDate": "2026-10-24T21:44:23.000Z",
-      "description": "Article URL: https://ratfactor.com/cards/pl-small Comments URL: https://news.ycombinator.com/item?id=50225674 Points: 65 # Comments: 5",
+      "description": "Article URL: https://ratfactor.com/cards/pl-small Comments URL: https://news.ycombinator.com/item?id=50225674 Points: 125 # Comments: 17",
       "source": "Hacker News",
       "category": "Tech News"
     },
