@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T04:48:35.637Z",
+  "generatedAt": "2026-10-26T13:05:04.310Z",
   "sourceCount": 4,
   "successCount": 3,
   "errors": [
@@ -10,90 +10,114 @@
   ],
   "items": [
     {
-      "title": "Your agent already knows which project this is",
-      "link": "https://dev.to/labyrinthanalytics/your-agent-already-knows-which-project-this-is-2900",
-      "pubDate": "2026-10-26T04:39:51.000Z",
-      "description": "<p>Every session starts with the same question: \"What project are we working on?\" For a data engineer or an AI practitioner, the answer is never one line. It is a schema definition, a handful of transformation scripts, a note about the data catalog conventions, maybe a reference to last week's exper",
+      "title": "Why Input Latency Symptoms Can Mislead Developers: A Deep Dive Into the Real Causes",
+      "link": "https://dev.to/mspk97/why-input-latency-symptoms-can-mislead-developers-a-deep-dive-into-the-real-causes-1hf",
+      "pubDate": "2026-10-26T13:02:03.000Z",
+      "description": "<p>You’re clicking a button or typing in a form, and the UI feels sluggish. Maybe the button highlight or input response lags behind your finger or mouse by a noticeable fraction of a second. You open your profiler, see some long frames, and assume the culprit is obvious: your JavaScript is blocking",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Eight pre-registered tests on U.S. power plants that slip a month: what held, and what I take back",
-      "link": "https://dev.to/munimv2/eight-pre-registered-tests-on-us-power-plants-that-slip-a-month-what-held-and-what-i-take-back-d58",
-      "pubDate": "2026-10-26T04:39:50.000Z",
-      "description": "<p>EIA's monthly generator inventory, EIA-860M, lists generators planned to start next month. Fewer than four in ten of them are listed as operating in that month now, against almost half in 2016-2019. Over the last few days I ran eight tests on why, and on whether a generator's earlier slips say an",
+      "title": "Meta open sources code to let you make Muse AI gadgets",
+      "link": "https://dev.to/ashish_624379625242c5d263/meta-open-sources-code-to-let-you-make-muse-ai-gadgets-abi",
+      "pubDate": "2026-10-26T13:01:58.000Z",
+      "description": "<h1> When Open Source Meets Vision Therapy: A Builder's Reflection on Meta's Muse and Amblyotube </h1> <p>I still remember the night I cloned the Amblyotube repo onto a spare Raspberry Pi, hoping to turn a dusty hallway into a low‑latency gaze‑tracking lab. The README promised sub‑30 ms frame‑to‑pho",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "AI's Payoff Problem Is Bigger Than You Think",
-      "link": "https://dev.to/max_quimby/ais-payoff-problem-is-bigger-than-you-think-61e",
-      "pubDate": "2026-10-26T04:39:44.000Z",
-      "description": "<h1> AI's Payoff Problem Is Bigger Than You Think </h1> <p>Four independent signals converged this week to deliver a message the AI industry doesn't want to hear: the money is flowing in, but the returns are not flowing out. Apollo's chief economist says the S&amp;P 493 — every company outside the M",
+      "title": "Canary Mutations for Fixtures: A Sensitivity Gate for Agent-Written Patches",
+      "link": "https://dev.to/datacpp_8185/canary-mutations-for-fixtures-a-sensitivity-gate-for-agent-written-patches-21d7",
+      "pubDate": "2026-10-26T13:01:55.000Z",
+      "description": "<p>A green suite is the weakest evidence an agent-authored patch can hand you. Gate on fixture sensitivity instead: every fixture a patch touches must still be able to fail something. This post gives you three layers — property obligations, canary mutations, and a freeze registry with an expiry — pl",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Message Queue Timeout Issues: BullMQ vs SQS for Delayed Webhook Delivery",
-      "link": "https://dev.to/zorvyngale1729/message-queue-timeout-issues-bullmq-vs-sqs-for-delayed-webhook-delivery-4bjp",
-      "pubDate": "2026-10-26T04:39:42.000Z",
-      "description": "<p>The constraint that changes this decision is the business deadline. A renewal reminder can arrive late and be useless, but a retry can also deliver it twice. For a delayed webhook that must wait until a deadline, I would choose Amazon SQS when the team wants a managed queue contract, and BullMQ w",
+      "title": "DREX Programável: O Governo Pode Bloquear Como Você Gasta Seu Dinheiro?",
+      "link": "https://dev.to/andr_diasmoreiraprol_b/drex-programavel-o-governo-pode-bloquear-como-voce-gasta-seu-dinheiro-b2d",
+      "pubDate": "2026-10-26T13:01:53.000Z",
+      "description": "<p>Imagine receber um salário que só pode ser usado para comprar comida, ou um auxílio emergencial que expira em 30 dias. Isso não é ficção científica: é uma possibilidade técnica real embutida na arquitetura do DREX, a moeda digital do Banco Central do Brasil. Ao longo de mais de 20 anos trabalhand",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Browser Uploads for Web Apps: Direct-to-Storage Tenant Recovery",
-      "link": "https://dev.to/yukikobayashi880/browser-uploads-for-web-apps-direct-to-storage-tenant-recovery-p3k",
-      "pubDate": "2026-10-26T04:39:14.000Z",
-      "description": "<p>The least complex way to implement direct-to-storage browser uploads is to issue one short-lived presigned URL for one tenant-owned object, then let the browser upload directly. The application server keeps the authorization decision and metadata; it does not become a file relay.</p> <p><strong>S",
+      "title": "Your UUID Column Is 9x Bigger Than It Needs to Be",
+      "link": "https://dev.to/zhihu_wu_dea1d82af01a04d7/your-uuid-column-is-9x-bigger-than-it-needs-to-be-2omi",
+      "pubDate": "2026-10-26T13:01:49.000Z",
+      "description": "<p>A UUID is 16 bytes. In a surprising number of schemas, it occupies 144 bytes — and the index copy occupies 144 more.</p> <p>That's not a rounding error. It's the difference between an index that fits in memory and one that doesn't.</p> <h2> The 16-byte value stored as 144 bytes </h2> <p>If your O",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Add to Cart Rate: How to Find the WooCommerce Products That Lose Buyers",
-      "link": "https://dev.to/opti-behavior/add-to-cart-rate-how-to-find-the-woocommerce-products-that-lose-buyers-54ic",
-      "pubDate": "2026-10-26T04:38:23.000Z",
-      "description": "<p>Add to cart rate is the first number to read when a WooCommerce product gets visits but few sales. This is the guide we published on optiuser.com: how to measure it per product, how to find the pages that lose buyers, and how to fix them. Disclosure: we build Opti-Behavior, the plugin mentioned i",
+      "title": "Stop Waiting for Your Coding Agent to Finish. Interrupting Early Is the Skill",
+      "link": "https://dev.to/gabrielanhaia/stop-waiting-for-your-coding-agent-to-finish-interrupting-early-is-the-skill-47hp",
+      "pubDate": "2026-10-26T13:01:41.000Z",
+      "description": "<ul> <li> <strong>Book:</strong> <a href=\"https://www.amazon.de/-/en/dp/B0GXNNMKVF\" rel=\"noopener noreferrer\">Observability for LLM Applications</a> </li> <li> <strong>Also by me:</strong> <em>Thinking in Go</em> (2-book series) — <a href=\"https://xgabriel.com/go-book\" rel=\"noopener noreferrer\">Comp",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Running Regular Ethernet Cables Outside Is Possible but Not Advisable, Engadget Explains",
-      "link": "https://dev.to/madhavsharma99/running-regular-ethernet-cables-outside-is-possible-but-not-advisable-engadget-explains-k78",
-      "pubDate": "2026-10-26T04:36:50.000Z",
-      "description": "<p>Running regular Ethernet cables outside is technically possible, but experts caution against it. Engadget reports that while the physical act of installing standard Ethernet cabling outdoors can be done, the practice is generally discouraged because exposure to the elements can degrade performanc",
+      "title": "While I Was Away: a local Gemma briefing for the context I forgot",
+      "link": "https://dev.to/rishavrajsingh44/while-i-was-away-a-local-gemma-briefing-for-the-context-i-forgot-228e",
+      "pubDate": "2026-10-26T13:01:38.000Z",
+      "description": "<p><em>This is a submission for the <a href=\"https://dev.to/challenges/hacktoberfest-week3-2026-10-19\">Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady</a></em></p> <h2> What I Built </h2> <p>When I return to a repository after a break, I need to reconstruct more than the latest diff. ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "PHP2Shell: The AI-Hunted PHP Bugs That Put the Web on Emergency Patch Alert",
-      "link": "https://dev.to/techpulse01239/php2shell-the-ai-hunted-php-bugs-that-put-the-web-on-emergency-patch-alert-14h9",
-      "pubDate": "2026-10-26T04:36:44.000Z",
-      "description": "<h1> PHP2Shell: The AI-Hunted PHP Bugs That Put the Web on Emergency Patch Alert </h1> <p>In a week that will be remembered as one of the most chaotic in recent open-source security history, the PHP project rushed out emergency security releases on October 21 to fix two critical vulnerabilities lurk",
+      "title": "New Federal Contracts This Week: Issue #2 (2026-10-20 to 2026-10-25)",
+      "link": "https://dev.to/loomwise/new-federal-contracts-this-week-issue-2-2026-10-20-to-2026-10-25-4nbn",
+      "pubDate": "2026-10-26T13:01:19.000Z",
+      "description": "<p><em>A free weekly roundup of new SAM.gov solicitations, built from SAM.gov's official public data with the <a href=\"https://apify.com/loomwise/federal-opportunities\" rel=\"noopener noreferrer\">Federal Contract Opportunities feed</a>. Not affiliated with GSA or SAM.gov. Always confirm details on th",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Shipping WhatsApp Flows: The JSON Version That Expires and the Limits Meta Doesn't Enforce",
-      "link": "https://dev.to/wapgrowai_org/shipping-whatsapp-flows-the-json-version-that-expires-and-the-limits-meta-doesnt-enforce-m6g",
-      "pubDate": "2026-10-26T04:36:41.000Z",
-      "description": "<p>WhatsApp Flows let a business put a real form inside a chat: screens, inputs, dropdowns, date pickers, a submit button. They're also the part of the WhatsApp platform with the most surprising rules. The Flow JSON version you publish with gets frozen on a schedule, published Flows can never be edi",
+      "title": "If the user is waiting, it is not a worker",
+      "link": "https://dev.to/kayashaolu/if-the-user-is-waiting-it-is-not-a-worker-1h9f",
+      "pubDate": "2026-10-26T13:01:18.000Z",
+      "description": "<p>Every piece of compute in your system is one of two things. A service answers someone who is waiting. A worker does the job nobody is waiting for.</p> <p>When a customer submits a payment, a service handles it, because the customer needs the answer now. The receipt email and the revenue sync go t",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Should a tool tell you what it cannot check?",
-      "link": "https://dev.to/mingcheng_kang_1e9c515672/should-a-tool-tell-you-what-it-cannot-check-4fid",
-      "pubDate": "2026-10-26T04:34:45.000Z",
-      "description": "<p>My answer is yes. I also think most of us do it badly, me included, and I only noticed how badly after strangers on the internet read my post more carefully than I did.</p> <p>I build small open source tools on my own. Two of them are built around this idea.</p> <p><strong>HousingWizard</strong> ",
+      "title": "How to Catch Japanese Text in Automated dev.to Crossposts",
+      "link": "https://dev.to/orca_forge/how-to-catch-japanese-text-in-automated-devto-crossposts-3imo",
+      "pubDate": "2026-10-26T13:01:18.000Z",
+      "description": "<blockquote> <p>📝 Originally published (in Japanese) at <a href=\"https://forge.workstyle.tech/blog/devto-translation-shipped-in-japanese/?utm_source=devto&amp;utm_medium=crosspost&amp;utm_campaign=devto-translation-shipped-in-japanese\" rel=\"noopener noreferrer\">forge.workstyle.tech</a>.</p> </block",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "US Wages Share of GDI at 75 Year Low",
-      "link": "https://fred.stlouisfed.org/series/W270RE1A156NBEA",
-      "pubDate": "2026-10-26T03:51:10.000Z",
-      "description": "Article URL: https://fred.stlouisfed.org/series/W270RE1A156NBEA Comments URL: https://news.ycombinator.com/item?id=50238884 Points: 9 # Comments: 2",
+      "title": "Writing Is Closer to Thought Than Code",
+      "link": "https://danielmiessler.com/blog/writing-is-closer-to-thought-than-code",
+      "pubDate": "2026-10-26T12:32:15.000Z",
+      "description": "Article URL: https://danielmiessler.com/blog/writing-is-closer-to-thought-than-code Comments URL: https://news.ycombinator.com/item?id=50242555 Points: 3 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Tasks as Code: Move Your Tickets into the Repository",
+      "link": "https://typemill.net/knowledge-hub/tasks-as-code",
+      "pubDate": "2026-10-26T11:15:43.000Z",
+      "description": "Article URL: https://typemill.net/knowledge-hub/tasks-as-code Comments URL: https://news.ycombinator.com/item?id=50241924 Points: 8 # Comments: 7",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Websites Should Be Printable",
+      "link": "https://brennenputh.me/blog/printable-websites/",
+      "pubDate": "2026-10-26T10:32:14.000Z",
+      "description": "Article URL: https://brennenputh.me/blog/printable-websites/ Comments URL: https://news.ycombinator.com/item?id=50241664 Points: 62 # Comments: 40",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Switzerland. Block by block. At 1:1 scale",
+      "link": "https://blocks.manifold3d.ch/",
+      "pubDate": "2026-10-26T08:46:09.000Z",
+      "description": "Article URL: https://blocks.manifold3d.ch/ Comments URL: https://news.ycombinator.com/item?id=50240922 Points: 242 # Comments: 100",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -101,7 +125,7 @@
       "title": "Behind the scenes at the NeXT Computer office",
       "link": "https://exhibits.stanford.edu/menuez/browse/next-computer-inc?per_page=96&amp;sort=pub_year_isi+asc%2C+title_sort+asc&amp;view=masonry",
       "pubDate": "2026-10-26T03:31:11.000Z",
-      "description": "Article URL: https://exhibits.stanford.edu/menuez/browse/next-computer-inc?per_page=96&sort=pub_year_isi+asc%2C+title_sort+asc&view=masonry Comments URL: https://news.ycombinator.com/item?id=50238763 Points: 17 # Comments: 5",
+      "description": "Article URL: https://exhibits.stanford.edu/menuez/browse/next-computer-inc?per_page=96&sort=pub_year_isi+asc%2C+title_sort+asc&view=masonry Comments URL: https://news.ycombinator.com/item?id=50238763 Points: 161 # Comments: 86",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -109,7 +133,7 @@
       "title": "PaperPilot – Zero-Cloud, Pure-Rust PDF Engine with WASM and MCP",
       "link": "https://github.com/KrushnaVardhanReddy/PaperPilot",
       "pubDate": "2026-10-26T03:29:05.000Z",
-      "description": "Article URL: https://github.com/KrushnaVardhanReddy/PaperPilot Comments URL: https://news.ycombinator.com/item?id=50238739 Points: 21 # Comments: 1",
+      "description": "Article URL: https://github.com/KrushnaVardhanReddy/PaperPilot Comments URL: https://news.ycombinator.com/item?id=50238739 Points: 175 # Comments: 65",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -117,47 +141,15 @@
       "title": "Show HN: TitleArt – Make text like it's 1997",
       "link": "https://titleart.dvy.io/",
       "pubDate": "2026-10-26T03:23:57.000Z",
-      "description": "Article URL: https://titleart.dvy.io/ Comments URL: https://news.ycombinator.com/item?id=50238708 Points: 37 # Comments: 8",
+      "description": "Article URL: https://titleart.dvy.io/ Comments URL: https://news.ycombinator.com/item?id=50238708 Points: 283 # Comments: 47",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Microsoft Decision-1: 9B Qwen Model Launch Explained",
-      "link": "https://shattered.io/microsoft-decision-1-qwen3-5-9b-model-2026/",
-      "pubDate": "2026-10-26T03:12:05.000Z",
-      "description": "Article URL: https://shattered.io/microsoft-decision-1-qwen3-5-9b-model-2026/ Comments URL: https://news.ycombinator.com/item?id=50238620 Points: 4 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Brazil elections: Lula secures fourth term after dramatic comeback",
-      "link": "https://www.bbc.com/news/articles/cmvg7p001qj9o",
-      "pubDate": "2026-10-26T03:04:08.000Z",
-      "description": "Article URL: https://www.bbc.com/news/articles/cmvg7p001qj9o Comments URL: https://news.ycombinator.com/item?id=50238557 Points: 67 # Comments: 7",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "If AI displaces human workers, they will lose more than just pay",
-      "link": "https://www.economist.com/business/2026/10/22/if-ai-displaces-human-workers-they-will-lose-more-than-just-pay",
-      "pubDate": "2026-10-26T02:22:38.000Z",
-      "description": "Article URL: https://www.economist.com/business/2026/10/22/if-ai-displaces-human-workers-they-will-lose-more-than-just-pay Comments URL: https://news.ycombinator.com/item?id=50238351 Points: 19 # Comments: 24",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "IBM CEO says open weight models are now irresistibly good and cheap on-prem",
+      "title": "IBM CEO says open weight models are now good and cheap on-prem",
       "link": "https://www.theregister.com/systems/2026/10/22/ibm-ceo-says-open-weight-models-are-now-irresistibly-good-and-cheap-on-prem/5304640",
       "pubDate": "2026-10-26T01:47:46.000Z",
-      "description": "Article URL: https://www.theregister.com/systems/2026/10/22/ibm-ceo-says-open-weight-models-are-now-irresistibly-good-and-cheap-on-prem/5304640 Comments URL: https://news.ycombinator.com/item?id=50238088 Points: 98 # Comments: 54",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "iPhone Duo Teardown",
-      "link": "https://www.ifixit.com/News/119895/iphone-duo-teardown",
-      "pubDate": "2026-10-26T01:23:24.000Z",
-      "description": "Article URL: https://www.ifixit.com/News/119895/iphone-duo-teardown Comments URL: https://news.ycombinator.com/item?id=50237896 Points: 76 # Comments: 40",
+      "description": "Article URL: https://www.theregister.com/systems/2026/10/22/ibm-ceo-says-open-weight-models-are-now-irresistibly-good-and-cheap-on-prem/5304640 Comments URL: https://news.ycombinator.com/item?id=50238088 Points: 322 # Comments: 227",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -165,7 +157,15 @@
       "title": "Removing Next.js Got My Blog to 100 on Every Lighthouse Category",
       "link": "https://korindiehacker.bloffy.blog/en/removing-nextjs-got-my-blog-to-100-on-every-lighthouse-category",
       "pubDate": "2026-10-26T01:03:39.000Z",
-      "description": "Article URL: https://korindiehacker.bloffy.blog/en/removing-nextjs-got-my-blog-to-100-on-every-lighthouse-category Comments URL: https://news.ycombinator.com/item?id=50237712 Points: 82 # Comments: 36",
+      "description": "Article URL: https://korindiehacker.bloffy.blog/en/removing-nextjs-got-my-blog-to-100-on-every-lighthouse-category Comments URL: https://news.ycombinator.com/item?id=50237712 Points: 164 # Comments: 98",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Steal My Bitcoin CTF PoC",
+      "link": "https://github.com/KillaBoi/StealMyBitcoin-PoC",
+      "pubDate": "2026-10-26T00:15:17.000Z",
+      "description": "Article URL: https://github.com/KillaBoi/StealMyBitcoin-PoC Comments URL: https://news.ycombinator.com/item?id=50237379 Points: 138 # Comments: 36",
       "source": "Hacker News",
       "category": "Tech News"
     },
