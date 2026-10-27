@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T22:40:33.161Z",
+  "generatedAt": "2026-10-27T05:06:56.019Z",
   "sourceCount": 4,
   "successCount": 3,
   "errors": [
@@ -10,114 +10,122 @@
   ],
   "items": [
     {
-      "title": "How to find every subscription you're paying for in 15 minutes (a simple Google Sheets audit)",
-      "link": "https://dev.to/maggieb_ailstudio/how-to-find-every-subscription-youre-paying-for-in-15-minutes-a-simple-google-sheets-audit-29fo",
-      "pubDate": "2026-10-26T22:35:37.000Z",
-      "description": "<p><strong><a href=\"https://ailstudio.gumroad.com/l/ipnphp?utm_source=devto\" rel=\"noopener noreferrer\">Get Subscription Audit Lite</a></strong>: a free ($0+) .xlsx audit sheet for Google Sheets or Excel. It has 30 rows, Monthly/Yearly cycles, Keep/Cancel/Review dropdowns, and totals for monthly cost",
+      "title": "Federated Learning: Why Averaging Model Updates Works - and When It Fails",
+      "link": "https://dev.to/umeshtharukaofficial/federated-learning-why-averaging-model-updates-works-and-when-it-fails-2jd1",
+      "pubDate": "2026-10-27T05:03:33.000Z",
+      "description": "<p>Most machine learning still assumes a convenient fiction: all the data sits in one place, ready to be shuffled, split, and trained on. Real data rarely cooperates. It lives on phones, in hospitals, in banks, and in factories, where moving it is expensive, slow, or simply not allowed. Federated le",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I Tried to Make an Agent Like Claude Duet Leak My Card Number With One Email",
-      "link": "https://dev.to/bobbyhalljr/i-tried-to-make-an-agent-like-claude-duet-leak-my-card-number-with-one-email-234m",
-      "pubDate": "2026-10-26T22:32:57.000Z",
-      "description": "<p>Claude Duet reads your email and keeps working while you sleep.</p> <p>So I tried to make an agent like it leak my card number with one email.</p> <p>It took one try.</p> <p>Code: <a href=\"https://github.com/bobbyhalljr/tiny-poisoned-inbox\" rel=\"noopener noreferrer\">https://github.com/bobbyhalljr",
+      "title": "Matter Over Thread vs Tuya ZigBee: What Actually Changes in 2026",
+      "link": "https://dev.to/xingliao/matter-over-thread-vs-tuya-zigbee-what-actually-changes-in-2026-2408",
+      "pubDate": "2026-10-27T05:03:11.000Z",
+      "description": "<p>Matter and ZigBee get compared as if they are the same kind of thing. They are not, and that is why the comparison keeps producing bad advice.</p> <h2> The layer confusion </h2> <p>ZigBee is both a mesh radio protocol and an application layer. It defines how devices route packets and it defines w",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Overcoming Challenges in Reading Technical Documentation for Java Spring Boot and Cloud Hosting",
-      "link": "https://dev.to/ilyatech/overcoming-challenges-in-reading-technical-documentation-for-java-spring-boot-and-cloud-hosting-317p",
-      "pubDate": "2026-10-26T22:32:02.000Z",
-      "description": "<h2> Mastering Technical Documentation: Overcoming Challenges for Enhanced Productivity </h2> <p>Effectively reading and processing technical documentation is a cornerstone skill for programmers. Mastery in this area not only enhances productivity but also ensures success in both learning and profes",
+      "title": "Adding Tuya Smart Switches to Home Assistant: Three Paths and What Breaks",
+      "link": "https://dev.to/xingliao/adding-tuya-smart-switches-to-home-assistant-three-paths-and-what-breaks-1ieo",
+      "pubDate": "2026-10-27T05:03:06.000Z",
+      "description": "<p>\"Tuya\" on the box is not one thing. It is a cloud platform, a Wi-Fi firmware stack, and — in the ZigBee range — a ZigBee profile. Which of the three your device actually uses decides what you can do with it in Home Assistant, and where the pain is.</p> <h2> Path 1: the official cloud integration ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Title tags and meta descriptions that actually help small WordPress sites",
-      "link": "https://dev.to/riichimirza/title-tags-and-meta-descriptions-that-actually-help-small-wordpress-sites-423n",
-      "pubDate": "2026-10-26T22:27:38.000Z",
-      "description": "<p>Title tags and meta descriptions are still the first sales pitch most people see for a small WordPress site — in Google, Bing, and social previews that fall back to them. They are not Core Web Vitals, not soft-404 triage, and not a substitute for <a href=\"https://riichimirza.com/how-to-fix-duplic",
+      "title": "EchoLantern: A Private Little Archive for Memories",
+      "link": "https://dev.to/yagnik_satani_01cca6905ed/echolantern-a-private-little-archive-for-memories-2iag",
+      "pubDate": "2026-10-27T05:03:06.000Z",
+      "description": "<p>A memory doesn't always arrive as a grand story. Sometimes it's a rattling ceiling fan, a pet waiting at the door, a phrase someone always used, or a small ritual that made an ordinary day feel like home. I built EchoLantern to give those details a place to stay.</p> <h2> What I Built </h2> <p>Ec",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Rate-Limited Webhook Cleanup from HTTP Cron Tasks — Queue Design for Safe Retries",
-      "link": "https://dev.to/jasperflint6947/rate-limited-webhook-cleanup-from-http-cron-tasks-queue-design-for-safe-retries-319b",
-      "pubDate": "2026-10-26T22:27:19.000Z",
-      "description": "<p><strong>Short answer:</strong> configure a queue for rate-limiting, let an HTTP-based cron handler publish bounded cleanup jobs, and let an idempotent worker own retries and webhook delivery.</p> <p>The least complex design is a short HTTP cron handler that publishes a cleanup job, followed by a ",
+      "title": "8 Field Techniques for Smart Contract Auditing — Forged by Refuting My Own Findings",
+      "link": "https://dev.to/aaannvv/8-field-techniques-for-smart-contract-auditing-forged-by-refuting-my-own-findings-49if",
+      "pubDate": "2026-10-27T05:03:05.000Z",
+      "description": "<h1> 8 Field Techniques for Smart Contract Auditing — Forged by Refuting My Own Findings </h1> <p>I recently spent 24 focused rounds auditing a lending-and-automation codebase for a<br> security competition. I opened 7 attack hypotheses. I closed all 7 — six with proofs,<br> one by refuting my own d",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Switching agent harnesses may be noise: a 447-task study",
-      "link": "https://dev.to/devinios/switching-agent-harnesses-may-be-noise-a-447-task-study-4ppd",
-      "pubDate": "2026-10-26T22:26:25.000Z",
-      "description": "<p>Rerunning the same agent configuration changed the outcome on 13% of tasks. Swapping the harness — the system prompt, tool set, and context management wrapped around the model — changed the outcome on 13% of tasks too.</p> <p>That is the central result of \"What Does a Harness Buy? Tokens, Mostly,",
+      "title": "CVE-2026-6653 is an SBOM problem before it is a patch problem",
+      "link": "https://dev.to/jeffreyciend/cve-2026-6653-is-an-sbom-problem-before-it-is-a-patch-problem-5dm3",
+      "pubDate": "2026-10-27T05:02:04.000Z",
+      "description": "<h1> CVE-2026-6653 is an SBOM problem before it is a patch problem </h1> <p>The advisory for CVE-2026-6653 lists libxml2 2.9.11 through versions before 2.11.0 as affected and names 2.11.0 as the fixed release. Reading that as a single package upgrade is the fastest way to leave the vulnerability in ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Your browser tab runs as root on Omarchy",
-      "link": "https://dev.to/randomchaos/your-browser-tab-runs-as-root-on-omarchy-21df",
-      "pubDate": "2026-10-26T22:25:54.000Z",
-      "description": "<p>On an Omarchy install before 4.0.1, the default user could read <code>/etc/shadow</code> with a single command:<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight shell\"><code><span class=\"nv\">$ </span>docker run <span class=\"nt\">--rm</span> <span class=\"nt\">-v</span> /:/hos",
+      "title": "Choosing Ticket Management for an Air-Gapped Environment: A Practitioner’s Guide",
+      "link": "https://dev.to/subramanyamc/choosing-ticket-management-for-an-air-gapped-environment-a-practitioners-guide-2pgi",
+      "pubDate": "2026-10-27T05:01:24.000Z",
+      "description": "<p>Ticket management in an air-gapped environment is not just a choice of ticket form or queue. Installation, licensing, authentication, notifications, integrations, updates, and recovery all need to work within the network boundary.</p> <p>This guide compares eight options and outlines the trade-of",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I Tried To Own My Agent's Brain",
-      "link": "https://dev.to/kenielzep97/i-tried-to-own-my-agents-brain-3ngp",
-      "pubDate": "2026-10-26T22:25:39.000Z",
-      "description": "<p>Here is the exact exchange. The model is llama3.2:latest (3.2B, Q4_K_M), running locally through Ollama 0.40.11 on a 2020 MacBook Air, temperature 0, no internet in the loop. (llama3.2:latest is a tag — digest a80c4f17acd5 the day I ran it. Temperature 0 cuts sampling variance; it is not a promis",
+      "title": "Same Architecture, Different Deployment: Why Traffic Shape Beats Diagrams",
+      "link": "https://dev.to/sureshcodes/same-architecture-different-deployment-why-traffic-shape-beats-diagrams-5d7p",
+      "pubDate": "2026-10-27T05:00:42.000Z",
+      "description": "<p>Most deployment advice starts with architecture. Draw the boxes, pick the services, ship it. I believed that was the whole job until a client project showed me otherwise.</p> <p>Two projects can have the same architecture diagram and still need very different deployments. What decides it is the f",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Scraping Cloudflare-Protected SPAs for Agentic Workflows: PyPI crawlengine-mcp Guide",
-      "link": "https://dev.to/johann_schiffer/scraping-cloudflare-protected-spas-for-agentic-workflows-pypi-crawlengine-mcp-guide-27pj",
-      "pubDate": "2026-10-26T22:24:37.000Z",
-      "description": "<p>Autonomous coding agents (in Claude Desktop, Cursor, Windsurf, or custom agent loops) increasingly rely on real-time web scraping to ingest API documentation, dynamic issue trackers, research papers, and market data.</p> <p>However, standard scraping utilities (<code>urllib</code>, <code>requests",
+      "title": "Inference-time expression controller for a frozen talking-face adapter — prosody stream without training?",
+      "link": "https://dev.to/futurexindiafxgif/inference-time-expression-controller-for-a-frozen-talking-face-adapter-prosody-stream-without-3k0a",
+      "pubDate": "2026-10-27T05:00:10.000Z",
+      "description": "<p>Disclosure: I am asking because I am building a photoreal talking-face product and want to learn from other builders' experience, not from any vendor. Setup (generic): a frozen diffusion talking-face adapter that lip-syncs well but renders flat expressions. Retraining is not on the table for this",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Debug Log #10: A Post Didn't Publish On Schedule, and I Can't Fully Explain Why",
-      "link": "https://dev.to/just_a_side_project/debug-log-10-a-post-didnt-publish-on-schedule-and-i-cant-fully-explain-why-1c6l",
-      "pubDate": "2026-10-26T22:24:14.000Z",
-      "description": "<p>One post out of thirty didn't go out on schedule, and the exit code it left behind means \"something killed this process,\" not \"something went wrong inside it.\" I found this by accident, checking in on the blog two days after it should have published. Here's what I can establish and what I genuine",
+      "title": "Building a K Command Palette (and a Fake Terminal) for My Portfolio",
+      "link": "https://dev.to/asimplecode/building-a-k-command-palette-and-a-fake-terminal-for-my-portfolio-4976",
+      "pubDate": "2026-10-27T05:00:02.000Z",
+      "description": "<p>Press <strong>⌘K</strong> (or Ctrl+K) anywhere on <a href=\"https://www.simplecode.ca\" rel=\"noopener noreferrer\">my site</a> and you get a search box that jumps to any page, case study, game, blog post or Dota 2 hero. Press <strong><code>~</code></strong> and you get a terminal. Neither is essenti",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Working with academic communities to build scientific understanding",
+      "title": "16-bit Windows (Windows 1.x, 2.x, 3.0, 3.1, etc.) on 64-bit Windows",
+      "link": "https://github.com/otya128/winevdm",
+      "pubDate": "2026-10-27T01:15:04.000Z",
+      "description": "Article URL: https://github.com/otya128/winevdm Comments URL: https://news.ycombinator.com/item?id=50253529 Points: 51 # Comments: 3",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)",
+      "link": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
+      "pubDate": "2026-10-26T22:41:48.000Z",
+      "description": "Article URL: https://blog.cloudflare.com/kv-cache-exposure-remediation/ Comments URL: https://news.ycombinator.com/item?id=50252159 Points: 101 # Comments: 33",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Is PHP Running on Your ColdFusion Server? How to Check, and Remove It",
+      "link": "https://www.gregoryalexander.com/blog/2026/10/23/is-php-quietly-running-on-your-coldfusion-server-how-to-check-and-remove-it",
+      "pubDate": "2026-10-26T22:27:17.000Z",
+      "description": "Article URL: https://www.gregoryalexander.com/blog/2026/10/23/is-php-quietly-running-on-your-coldfusion-server-how-to-check-and-remove-it Comments URL: https://news.ycombinator.com/item?id=50252008 Points: 34 # Comments: 28",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "The Exponential Time Hypothesis Is False [pdf]",
+      "link": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf",
+      "pubDate": "2026-10-26T21:59:15.000Z",
+      "description": "See also: Announcing three new discoveries in mathematics, computer science, and physics - https://news.ycombinator.com/item?id=50251344 Comments URL: https://news.ycombinator.com/item?id=50251661 Points: 450 # Comments: 170",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Three new discoveries in mathematics, computer science, and physics",
       "link": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
       "pubDate": "2026-10-26T21:35:28.000Z",
-      "description": "Article URL: https://openai.com/index/building-scientific-understanding-with-academic-communities/ Comments URL: https://news.ycombinator.com/item?id=50251344 Points: 121 # Comments: 22",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "CorridorKey 2.0",
-      "link": "https://corridorkey.com/",
-      "pubDate": "2026-10-26T21:18:05.000Z",
-      "description": "Article URL: https://corridorkey.com/ Comments URL: https://news.ycombinator.com/item?id=50251127 Points: 70 # Comments: 7",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "The EPA Is Quietly Killing Its Web Archive",
-      "link": "https://www.motherjones.com/environment/2026/10/epa-online-archive-deletion-zeldin-camp-lejeune-trump-clean-power/",
-      "pubDate": "2026-10-26T19:05:41.000Z",
-      "description": "Article URL: https://www.motherjones.com/environment/2026/10/epa-online-archive-deletion-zeldin-camp-lejeune-trump-clean-power/ Comments URL: https://news.ycombinator.com/item?id=50249275 Points: 178 # Comments: 28",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "US designates helium as a critical material",
-      "link": "https://apnews.com/article/energy-critical-materials-minerals-helium-43da160adc1bad389fba0b9ffbd14c3c",
-      "pubDate": "2026-10-26T18:31:39.000Z",
-      "description": "Article URL: https://apnews.com/article/energy-critical-materials-minerals-helium-43da160adc1bad389fba0b9ffbd14c3c Comments URL: https://news.ycombinator.com/item?id=50248665 Points: 144 # Comments: 77",
+      "description": "Related:The Exponential Time Hypothesis Is False [pdf] - https://news.ycombinator.com/item?id=50251661 Comments URL: https://news.ycombinator.com/item?id=50251344 Points: 660 # Comments: 284",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -125,7 +133,7 @@
       "title": "Type Server Protocol",
       "link": "https://github.com/microsoft/pylance-release/blob/main/docs/tsp/type-server-protocol.md",
       "pubDate": "2026-10-26T18:14:49.000Z",
-      "description": "Article URL: https://github.com/microsoft/pylance-release/blob/main/docs/tsp/type-server-protocol.md Comments URL: https://news.ycombinator.com/item?id=50248371 Points: 166 # Comments: 124",
+      "description": "Article URL: https://github.com/microsoft/pylance-release/blob/main/docs/tsp/type-server-protocol.md Comments URL: https://news.ycombinator.com/item?id=50248371 Points: 215 # Comments: 145",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -133,7 +141,7 @@
       "title": "GPT-6.1 Terra",
       "link": "https://openai.com/index/introducing-gpt-6-1-terra/",
       "pubDate": "2026-10-26T18:01:17.000Z",
-      "description": "Article URL: https://openai.com/index/introducing-gpt-6-1-terra/ Comments URL: https://news.ycombinator.com/item?id=50248124 Points: 431 # Comments: 272",
+      "description": "https://developers.openai.com/api/docs/models/gpt-6.1-terra Comments URL: https://news.ycombinator.com/item?id=50248124 Points: 553 # Comments: 347",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -141,15 +149,7 @@
       "title": "Oldest GUI application that still runs on Windows 11",
       "link": "https://blog.enlyth.com/posts/oldest-windows-gui-app-win-11/",
       "pubDate": "2026-10-26T17:56:55.000Z",
-      "description": "Article URL: https://blog.enlyth.com/posts/oldest-windows-gui-app-win-11/ Comments URL: https://news.ycombinator.com/item?id=50248055 Points: 210 # Comments: 120",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "In Leaked Audio, Flock CEO Tells Cops Backlash to the Company Isn't Real",
-      "link": "https://www.404media.co/in-leaked-audio-flock-ceo-tells-cops-backlash-to-the-company-isnt-real/",
-      "pubDate": "2026-10-26T17:54:00.000Z",
-      "description": "Article URL: https://www.404media.co/in-leaked-audio-flock-ceo-tells-cops-backlash-to-the-company-isnt-real/ Comments URL: https://news.ycombinator.com/item?id=50248005 Points: 217 # Comments: 130",
+      "description": "Article URL: https://blog.enlyth.com/posts/oldest-windows-gui-app-win-11/ Comments URL: https://news.ycombinator.com/item?id=50248055 Points: 349 # Comments: 208",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -157,15 +157,15 @@
       "title": "A Man from the Future: Why Johnny Can't Stop Abstracting",
       "link": "http://muratbuffalo.blogspot.com/2026/10/the-man-from-future-why-johnny-cant.html",
       "pubDate": "2026-10-26T17:49:55.000Z",
-      "description": "Article URL: http://muratbuffalo.blogspot.com/2026/10/the-man-from-future-why-johnny-cant.html Comments URL: https://news.ycombinator.com/item?id=50247928 Points: 87 # Comments: 42",
+      "description": "Article URL: http://muratbuffalo.blogspot.com/2026/10/the-man-from-future-why-johnny-cant.html Comments URL: https://news.ycombinator.com/item?id=50247928 Points: 147 # Comments: 71",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "ChatGPT Keeps Telling People 404 Media Can Solve Their Tech Support Problems",
-      "link": "https://www.404media.co/chatgpt-keeps-telling-people-404-media-can-solve-their-tech-support-problems/",
-      "pubDate": "2026-10-26T17:32:16.000Z",
-      "description": "Article URL: https://www.404media.co/chatgpt-keeps-telling-people-404-media-can-solve-their-tech-support-problems/ Comments URL: https://news.ycombinator.com/item?id=50247630 Points: 193 # Comments: 74",
+      "title": "Nietzschian Debugger",
+      "link": "https://github.com/DilawarShafiq/nietzschian-debugger",
+      "pubDate": "2026-10-26T17:25:30.000Z",
+      "description": "Article URL: https://github.com/DilawarShafiq/nietzschian-debugger Comments URL: https://news.ycombinator.com/item?id=50247493 Points: 149 # Comments: 50",
       "source": "Hacker News",
       "category": "Tech News"
     },
