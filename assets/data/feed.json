@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T05:06:56.019Z",
+  "generatedAt": "2026-10-27T12:13:02.350Z",
   "sourceCount": 4,
   "successCount": 3,
   "errors": [
@@ -10,162 +10,162 @@
   ],
   "items": [
     {
-      "title": "Federated Learning: Why Averaging Model Updates Works - and When It Fails",
-      "link": "https://dev.to/umeshtharukaofficial/federated-learning-why-averaging-model-updates-works-and-when-it-fails-2jd1",
-      "pubDate": "2026-10-27T05:03:33.000Z",
-      "description": "<p>Most machine learning still assumes a convenient fiction: all the data sits in one place, ready to be shuffled, split, and trained on. Real data rarely cooperates. It lives on phones, in hospitals, in banks, and in factories, where moving it is expensive, slow, or simply not allowed. Federated le",
+      "title": "หลักสูตร AI ฟรีจาก Karpathy 7 รีโป 3 แสนดาว เรียนยังไงให้ได้ผลจริง?",
+      "link": "https://dev.to/sarantoon/hlaksuutr-ai-friicchaak-karpathy-7-riiop-3-aesndaaw-eriiynyangaingaihaidphlcchring-164h",
+      "pubDate": "2026-10-27T12:10:47.000Z",
+      "description": "<p><em>โดย Nokka (นก-กา) | ตรวจข้อมูล 27 ต.ค. 2026</em></p> <p><em>บทความนี้เขียนโดย AI (deepseek-v4.1-flash · ผู้ให้บริการโมเดล: ollama-cloud) ผ่าน Hermes Agent ภายใต้การควบคุมและตรวจสอบคุณภาพโดยมนุษย์ - Nokka (นก-กา)</em></p> <p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfi",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Matter Over Thread vs Tuya ZigBee: What Actually Changes in 2026",
-      "link": "https://dev.to/xingliao/matter-over-thread-vs-tuya-zigbee-what-actually-changes-in-2026-2408",
-      "pubDate": "2026-10-27T05:03:11.000Z",
-      "description": "<p>Matter and ZigBee get compared as if they are the same kind of thing. They are not, and that is why the comparison keeps producing bad advice.</p> <h2> The layer confusion </h2> <p>ZigBee is both a mesh radio protocol and an application layer. It defines how devices route packets and it defines w",
+      "title": "Ghostlight: Turning Personal Memories into Stories with Local AI 👻",
+      "link": "https://dev.to/spandanatripurala3/ghostlight-turning-personal-memories-into-stories-with-local-ai-25il",
+      "pubDate": "2026-10-27T12:10:30.000Z",
+      "description": "<h2> What I Built </h2> <p>Have you ever remembered a small moment from your past and wished you could put that feeling into words?</p> <p>That was the idea behind <strong>Ghostlight — Memories That Stay</strong>.</p> <p>Ghostlight is a small project I built to turn personal memories into written st",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Adding Tuya Smart Switches to Home Assistant: Three Paths and What Breaks",
-      "link": "https://dev.to/xingliao/adding-tuya-smart-switches-to-home-assistant-three-paths-and-what-breaks-1ieo",
-      "pubDate": "2026-10-27T05:03:06.000Z",
-      "description": "<p>\"Tuya\" on the box is not one thing. It is a cloud platform, a Wi-Fi firmware stack, and — in the ZigBee range — a ZigBee profile. Which of the three your device actually uses decides what you can do with it in Home Assistant, and where the pain is.</p> <h2> Path 1: the official cloud integration ",
+      "title": "How an AI agent can e-file a tax return",
+      "link": "https://dev.to/maxwelldubin/how-an-ai-agent-can-e-file-a-tax-return-1co1",
+      "pubDate": "2026-10-27T12:09:57.000Z",
+      "description": "<p>If you've asked an AI agent to \"send my return to the IRS,\" you've probably watched it go looking for an IRS e-file API that doesn't exist. Only Authorized IRS e-file Providers can send returns to the IRS, so an agent can't post a 1040 there directly.</p> <p>I built Terminal Tax (terminal.tax) to",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "EchoLantern: A Private Little Archive for Memories",
-      "link": "https://dev.to/yagnik_satani_01cca6905ed/echolantern-a-private-little-archive-for-memories-2iag",
-      "pubDate": "2026-10-27T05:03:06.000Z",
-      "description": "<p>A memory doesn't always arrive as a grand story. Sometimes it's a rattling ceiling fan, a pet waiting at the door, a phrase someone always used, or a small ritual that made an ordinary day feel like home. I built EchoLantern to give those details a place to stay.</p> <h2> What I Built </h2> <p>Ec",
+      "title": "All Types of Caching in .NET: When to Use Each (Deep Dive, Part 1)",
+      "link": "https://dev.to/antonmartyniuk/all-types-of-caching-in-net-when-to-use-each-deep-dive-part-1-24ej",
+      "pubDate": "2026-10-27T12:08:00.000Z",
+      "description": "<p>Your API is slow and Claude recommends you to add caching.</p> <p>It adds <code>IMemoryCache</code> to the shipment tracking API, and the p95 latency drops from 120 ms to 5 ms.</p> <p>Everyone is happy.</p> <p>Then they scale to two instances.</p> <p>A customer updates the delivery address, refre",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "8 Field Techniques for Smart Contract Auditing — Forged by Refuting My Own Findings",
-      "link": "https://dev.to/aaannvv/8-field-techniques-for-smart-contract-auditing-forged-by-refuting-my-own-findings-49if",
-      "pubDate": "2026-10-27T05:03:05.000Z",
-      "description": "<h1> 8 Field Techniques for Smart Contract Auditing — Forged by Refuting My Own Findings </h1> <p>I recently spent 24 focused rounds auditing a lending-and-automation codebase for a<br> security competition. I opened 7 attack hypotheses. I closed all 7 — six with proofs,<br> one by refuting my own d",
+      "title": "I Built a Free Case Converter That Runs Entirely in Your Browser",
+      "link": "https://dev.to/ahmad_mir_884db38d52c9eac/i-built-a-free-case-converter-that-runs-entirely-in-your-browser-19k1",
+      "pubDate": "2026-10-27T12:07:47.000Z",
+      "description": "<p>As developers, we rename things constantly. A variable name for JavaScript, a function name for Python, a slug for a URL, a constant for an env file — and every one of them wants a different letter case.</p> <p>I kept fixing capitalization by hand, so I built a small free tool for it: <a href=\"ht",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "CVE-2026-6653 is an SBOM problem before it is a patch problem",
-      "link": "https://dev.to/jeffreyciend/cve-2026-6653-is-an-sbom-problem-before-it-is-a-patch-problem-5dm3",
-      "pubDate": "2026-10-27T05:02:04.000Z",
-      "description": "<h1> CVE-2026-6653 is an SBOM problem before it is a patch problem </h1> <p>The advisory for CVE-2026-6653 lists libxml2 2.9.11 through versions before 2.11.0 as affected and names 2.11.0 as the fixed release. Reading that as a single package upgrade is the fastest way to leave the vulnerability in ",
+      "title": "How to Fix a Crackling Laptop Speaker: 6 Practical Solutions",
+      "link": "https://dev.to/junaid_tariq_1/how-to-fix-a-crackling-laptop-speaker-6-practical-solutions-1f9n",
+      "pubDate": "2026-10-27T12:07:44.000Z",
+      "description": "<p>Have you ever heard crackling, buzzing, or distorted sounds coming from your laptop speakers? This can affect music, videos, online meetings, and everyday work.</p> <p>Before replacing your speakers, try these six troubleshooting steps.</p> <h2> 1. <strong>Lower the Volume</strong> </h2> <p>Reduc",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Choosing Ticket Management for an Air-Gapped Environment: A Practitioner’s Guide",
-      "link": "https://dev.to/subramanyamc/choosing-ticket-management-for-an-air-gapped-environment-a-practitioners-guide-2pgi",
-      "pubDate": "2026-10-27T05:01:24.000Z",
-      "description": "<p>Ticket management in an air-gapped environment is not just a choice of ticket form or queue. Installation, licensing, authentication, notifications, integrations, updates, and recovery all need to work within the network boundary.</p> <p>This guide compares eight options and outlines the trade-of",
+      "title": "Get UK supermarket prices into an AI assistant via MCP: a free index server and a paid full-data route",
+      "link": "https://dev.to/yappman/get-uk-supermarket-prices-into-an-ai-assistant-via-mcp-a-free-index-server-and-a-paid-full-data-4l7o",
+      "pubDate": "2026-10-27T12:07:00.000Z",
+      "description": "<p>If you ask an AI assistant what groceries cost, it will usually guess or search the web. I would rather it read a dataset. The Model Context Protocol (MCP) lets an assistant call tools on a remote server, so a price dataset can be one of those tools.</p> <p>This article covers two routes. One is ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Same Architecture, Different Deployment: Why Traffic Shape Beats Diagrams",
-      "link": "https://dev.to/sureshcodes/same-architecture-different-deployment-why-traffic-shape-beats-diagrams-5d7p",
-      "pubDate": "2026-10-27T05:00:42.000Z",
-      "description": "<p>Most deployment advice starts with architecture. Draw the boxes, pick the services, ship it. I believed that was the whole job until a client project showed me otherwise.</p> <p>Two projects can have the same architecture diagram and still need very different deployments. What decides it is the f",
+      "title": "Connecting a Netlify Function to a Home Server via a Dynamic Cloudflare Tunnel",
+      "link": "https://dev.to/the_bomber_f1e42beb1feaec/connecting-a-netlify-function-to-a-home-server-via-a-dynamic-cloudflare-tunnel-4bl7",
+      "pubDate": "2026-10-27T12:06:43.000Z",
+      "description": "<h2> Introduction </h2> <p>I run a small automation server at home that powers a few cron jobs and a private API for my own website. The site lives on Netlify, which gives me serverless functions for things like contact‑form handling. The challenge was: <strong>how do I call my home server from a Ne",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Inference-time expression controller for a frozen talking-face adapter — prosody stream without training?",
-      "link": "https://dev.to/futurexindiafxgif/inference-time-expression-controller-for-a-frozen-talking-face-adapter-prosody-stream-without-3k0a",
-      "pubDate": "2026-10-27T05:00:10.000Z",
-      "description": "<p>Disclosure: I am asking because I am building a photoreal talking-face product and want to learn from other builders' experience, not from any vendor. Setup (generic): a frozen diffusion talking-face adapter that lip-syncs well but renders flat expressions. Retraining is not on the table for this",
+      "title": "[Boost]",
+      "link": "https://dev.to/vad_user/-2pc4",
+      "pubDate": "2026-10-27T12:06:25.000Z",
+      "description": "<div class=\"ltag__link--embedded\"> <div class=\"crayons-story \"> <a href=\"https://dev.to/redeyed/the-rsync-algorithm-is-brilliant-why-dont-we-see-it-everywhere-3hhc\" class=\"crayons-story__hidden-navigation-link\">The rsync Algorithm Is Brilliant. Why Don't We See It Everywhere?</a> <div class=\"crayons",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Building a K Command Palette (and a Fake Terminal) for My Portfolio",
-      "link": "https://dev.to/asimplecode/building-a-k-command-palette-and-a-fake-terminal-for-my-portfolio-4976",
-      "pubDate": "2026-10-27T05:00:02.000Z",
-      "description": "<p>Press <strong>⌘K</strong> (or Ctrl+K) anywhere on <a href=\"https://www.simplecode.ca\" rel=\"noopener noreferrer\">my site</a> and you get a search box that jumps to any page, case study, game, blog post or Dota 2 hero. Press <strong><code>~</code></strong> and you get a terminal. Neither is essenti",
+      "title": "Shop ko Google par kaise dale? A free 2027 guide for small clothing shops",
+      "link": "https://dev.to/shoplocalnotes/shop-ko-google-par-kaise-dale-a-free-2027-guide-for-small-clothing-shops-3gm3",
+      "pubDate": "2026-10-27T12:05:57.000Z",
+      "description": "<p><strong>Shop ko Google par kaise dale? Short answer: create a free Google Business Profile for your shop, verify it, and give Google a web page that lists what you sell with prices.</strong> That is the whole job. Everything below is the detail, written for a small clothing shop owner who has a p",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "Software may be getting worse, but it used to be horrible",
+      "link": "https://www.bitlog.com/2026/10/27/software-may-be-getting-worse-but-it-used-to-be-horrible/",
+      "pubDate": "2026-10-27T11:30:35.000Z",
+      "description": "Article URL: https://www.bitlog.com/2026/10/27/software-may-be-getting-worse-but-it-used-to-be-horrible/ Comments URL: https://news.ycombinator.com/item?id=50257548 Points: 42 # Comments: 15",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Python's experimental JIT to be removed",
+      "link": "https://lwn.net/SubscriberLink/1102102/0c00e4d550f25f8c/",
+      "pubDate": "2026-10-27T11:17:57.000Z",
+      "description": "Article URL: https://lwn.net/SubscriberLink/1102102/0c00e4d550f25f8c/ Comments URL: https://news.ycombinator.com/item?id=50257419 Points: 21 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Wikipedia's Cleanup of AI-Generated Content",
+      "link": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
+      "pubDate": "2026-10-27T11:08:15.000Z",
+      "description": "Article URL: https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup Comments URL: https://news.ycombinator.com/item?id=50257326 Points: 33 # Comments: 12",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Roblox downloaded 145GB models from us (including adult content) without asking",
+      "link": "https://open3dlab.com/news/roblox-downloaded-145-gb-of-models-from-our-sites/",
+      "pubDate": "2026-10-27T10:27:50.000Z",
+      "description": "Article URL: https://open3dlab.com/news/roblox-downloaded-145-gb-of-models-from-our-sites/ Comments URL: https://news.ycombinator.com/item?id=50256985 Points: 143 # Comments: 105",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Gforth 1.0",
+      "link": "https://gforth.org/manual/1.0/NEWS.html",
+      "pubDate": "2026-10-27T10:23:21.000Z",
+      "description": "Article URL: https://gforth.org/manual/1.0/NEWS.html Comments URL: https://news.ycombinator.com/item?id=50256952 Points: 27 # Comments: 1",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "I will no longer upload to NEW",
+      "link": "https://lists.debian.org/debian-devel/2026/10/msg00263.html",
+      "pubDate": "2026-10-27T09:59:05.000Z",
+      "description": "Article URL: https://lists.debian.org/debian-devel/2026/10/msg00263.html Comments URL: https://news.ycombinator.com/item?id=50256738 Points: 123 # Comments: 50",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "The Mythical Man-Month in the Age of AI",
+      "link": "https://j11g.com/the-mythical-man-month-in-the-age-of-ai",
+      "pubDate": "2026-10-27T06:25:37.000Z",
+      "description": "Article URL: https://j11g.com/the-mythical-man-month-in-the-age-of-ai Comments URL: https://news.ycombinator.com/item?id=50255298 Points: 220 # Comments: 156",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Writing about pratt parsing so I remember it",
+      "link": "https://www.unix.dog/~yosh/blog/2026-10-25_pratt-parsing.html",
+      "pubDate": "2026-10-27T06:02:23.000Z",
+      "description": "Article URL: https://www.unix.dog/~yosh/blog/2026-10-25_pratt-parsing.html Comments URL: https://news.ycombinator.com/item?id=50255177 Points: 47 # Comments: 6",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "I still teach OpenGL ES 3.0",
+      "link": "https://eliasfarhan.ch/graphics/cpp/2026/01/27/why-i-teach-opengles.html",
+      "pubDate": "2026-10-27T02:15:10.000Z",
+      "description": "Article URL: https://eliasfarhan.ch/graphics/cpp/2026/01/27/why-i-teach-opengles.html Comments URL: https://news.ycombinator.com/item?id=50253939 Points: 82 # Comments: 49",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "16-bit Windows (Windows 1.x, 2.x, 3.0, 3.1, etc.) on 64-bit Windows",
       "link": "https://github.com/otya128/winevdm",
       "pubDate": "2026-10-27T01:15:04.000Z",
-      "description": "Article URL: https://github.com/otya128/winevdm Comments URL: https://news.ycombinator.com/item?id=50253529 Points: 51 # Comments: 3",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)",
-      "link": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
-      "pubDate": "2026-10-26T22:41:48.000Z",
-      "description": "Article URL: https://blog.cloudflare.com/kv-cache-exposure-remediation/ Comments URL: https://news.ycombinator.com/item?id=50252159 Points: 101 # Comments: 33",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Is PHP Running on Your ColdFusion Server? How to Check, and Remove It",
-      "link": "https://www.gregoryalexander.com/blog/2026/10/23/is-php-quietly-running-on-your-coldfusion-server-how-to-check-and-remove-it",
-      "pubDate": "2026-10-26T22:27:17.000Z",
-      "description": "Article URL: https://www.gregoryalexander.com/blog/2026/10/23/is-php-quietly-running-on-your-coldfusion-server-how-to-check-and-remove-it Comments URL: https://news.ycombinator.com/item?id=50252008 Points: 34 # Comments: 28",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "The Exponential Time Hypothesis Is False [pdf]",
-      "link": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf",
-      "pubDate": "2026-10-26T21:59:15.000Z",
-      "description": "See also: Announcing three new discoveries in mathematics, computer science, and physics - https://news.ycombinator.com/item?id=50251344 Comments URL: https://news.ycombinator.com/item?id=50251661 Points: 450 # Comments: 170",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Three new discoveries in mathematics, computer science, and physics",
-      "link": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
-      "pubDate": "2026-10-26T21:35:28.000Z",
-      "description": "Related:The Exponential Time Hypothesis Is False [pdf] - https://news.ycombinator.com/item?id=50251661 Comments URL: https://news.ycombinator.com/item?id=50251344 Points: 660 # Comments: 284",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Type Server Protocol",
-      "link": "https://github.com/microsoft/pylance-release/blob/main/docs/tsp/type-server-protocol.md",
-      "pubDate": "2026-10-26T18:14:49.000Z",
-      "description": "Article URL: https://github.com/microsoft/pylance-release/blob/main/docs/tsp/type-server-protocol.md Comments URL: https://news.ycombinator.com/item?id=50248371 Points: 215 # Comments: 145",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "GPT-6.1 Terra",
-      "link": "https://openai.com/index/introducing-gpt-6-1-terra/",
-      "pubDate": "2026-10-26T18:01:17.000Z",
-      "description": "https://developers.openai.com/api/docs/models/gpt-6.1-terra Comments URL: https://news.ycombinator.com/item?id=50248124 Points: 553 # Comments: 347",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Oldest GUI application that still runs on Windows 11",
-      "link": "https://blog.enlyth.com/posts/oldest-windows-gui-app-win-11/",
-      "pubDate": "2026-10-26T17:56:55.000Z",
-      "description": "Article URL: https://blog.enlyth.com/posts/oldest-windows-gui-app-win-11/ Comments URL: https://news.ycombinator.com/item?id=50248055 Points: 349 # Comments: 208",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "A Man from the Future: Why Johnny Can't Stop Abstracting",
-      "link": "http://muratbuffalo.blogspot.com/2026/10/the-man-from-future-why-johnny-cant.html",
-      "pubDate": "2026-10-26T17:49:55.000Z",
-      "description": "Article URL: http://muratbuffalo.blogspot.com/2026/10/the-man-from-future-why-johnny-cant.html Comments URL: https://news.ycombinator.com/item?id=50247928 Points: 147 # Comments: 71",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Nietzschian Debugger",
-      "link": "https://github.com/DilawarShafiq/nietzschian-debugger",
-      "pubDate": "2026-10-26T17:25:30.000Z",
-      "description": "Article URL: https://github.com/DilawarShafiq/nietzschian-debugger Comments URL: https://news.ycombinator.com/item?id=50247493 Points: 149 # Comments: 50",
+      "description": "Article URL: https://github.com/otya128/winevdm Comments URL: https://news.ycombinator.com/item?id=50253529 Points: 102 # Comments: 27",
       "source": "Hacker News",
       "category": "Tech News"
     },
