@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T22:14:52.818Z",
+  "generatedAt": "2026-10-28T05:43:37.919Z",
   "sourceCount": 4,
   "successCount": 3,
   "errors": [
@@ -10,90 +10,114 @@
   ],
   "items": [
     {
-      "title": "Fix \"Function ADD parameter 2 expects number values\" (#VALUE!) in Google Sheets",
-      "link": "https://dev.to/sheeterror/fix-function-add-parameter-2-expects-number-values-value-in-google-sheets-383f",
-      "pubDate": "2026-10-27T22:13:03.000Z",
-      "description": "<p>You type <code>=A2+B2</code>, and instead of a total the cell shows <strong>#VALUE!</strong>. Hover it and the tooltip says:</p> <blockquote> <p>Function ADD parameter 2 expects number values. But 'pcs' is a text and cannot be coerced to a number.</p> </blockquote> <p>The formula parsed and the f",
+      "title": "Your Tesla Wrap Is Missing? Check These Four Things Before Downloading Another PNG",
+      "link": "https://dev.to/wraplab3d/your-tesla-wrap-is-missing-check-these-four-things-before-downloading-another-png-3amb",
+      "pubDate": "2026-10-28T05:42:33.000Z",
+      "description": "<p>You picked a design, copied the file, and opened Paint Shop. The wrap is missing. Downloading another design is tempting, but it can repeat the same problem if the filename, folder, or vehicle template is wrong.</p> <p>Start with one PNG and work through four checks: the vehicle template, the exp",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "AI Data Sharing Isn’t Just a Search Problem. It’s a Security Engineering Problem.",
-      "link": "https://dev.to/dpietro/ai-data-sharing-isnt-just-a-search-problem-its-a-security-engineering-problem-1e5l",
-      "pubDate": "2026-10-27T22:12:58.000Z",
-      "description": "<p><strong><em>What developers should understand about anonymization, AI-powered inference, and the hidden risks of connecting datasets.</em></strong></p> <p>The internet has spent decades turning information into something searchable. Now, artificial intelligence is turning searchable information i",
+      "title": "A rental yield calculator should show the scenario that loses money",
+      "link": "https://dev.to/novasiaestate/a-rental-yield-calculator-should-show-the-scenario-that-loses-money-3gb7",
+      "pubDate": "2026-10-28T05:42:29.000Z",
+      "description": "<p>A positive rental yield is easy to demonstrate with a friendly input. The more useful question for a property-data tool is what happens when occupancy falls while fixed costs and loan payments remain due.</p> <p>We added a browser-based <a href=\"https://podkopov-hub.github.io/southeast-asia-real-",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 4: Ghost in the Machine",
-      "link": "https://dev.to/rudra_dixit_be84220bc0f3c/this-is-a-submission-for-the-hacktoberfest-open-source-ai-challenge-week-4-ghost-in-the-machine-4b6",
-      "pubDate": "2026-10-27T22:11:54.000Z",
-      "description": "<p>What I Built</p> <p>Shadow Puppet Theater: Haunted Edition is a hand-gesture puzzle game where your shadow is the only way to talk to a ghost.</p> <p>A ghost haunts a candlelit wall and speaks in riddles: “Something heavy sleeps beneath the floorboards. Show me its shadow.” You answer with your h",
+      "title": "How to Speed Up Local AI Replies With MTP on Your iPhone in 2026 (No Setup)",
+      "link": "https://dev.to/alichherawalla/how-to-speed-up-local-ai-replies-with-mtp-on-your-iphone-in-2026-no-setup-kf5",
+      "pubDate": "2026-10-28T05:41:48.000Z",
+      "description": "<p>You run a model like Gemma 4 on your iPhone and the reply comes out one word at a time. You want the same answer sooner, without dropping to a smaller model and without learning what a draft model is. Off Grid AI Mobile (OGAM) supports MTP, multi-token prediction. A model built for it guesses a f",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Running Claude Code in CI: what -p silently turns off",
-      "link": "https://dev.to/ottoflightrules/running-claude-code-in-ci-what-p-silently-turns-off-10gj",
-      "pubDate": "2026-10-27T22:10:15.000Z",
-      "description": "<p>Most of what you know about Claude Code permissions you learned in an<br> interactive session, where a prompt had someone to answer it. In CI<br> there is nobody. That changes more than \"the prompt gets denied\". Under<br> <code>-p</code> (print mode) Claude Code holds back one thing you were coun",
+      "title": "A learning series of Python , Day-2",
+      "link": "https://dev.to/ajay_056/a-learning-series-of-python-day-2-5ek1",
+      "pubDate": "2026-10-28T05:41:25.000Z",
+      "description": "<h3> What is Identifier ? </h3> <p>A name in python program is known as Identifier / Reference variable /variable<br> A used-defined name to discribe something to machine.</p> <h3> Rules of declaring Identifiers </h3> <ul> <li>Starts with alphabets[lowerCase / upperCase ]</li> <li>Digits are permitt",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Two Duplicate Rows in 48 Hours: My Unique Index Treats NULL as a New Value",
-      "link": "https://dev.to/codepy_1473/two-duplicate-rows-in-48-hours-my-unique-index-treats-null-as-a-new-value-3jmb",
-      "pubDate": "2026-10-27T22:09:57.000Z",
-      "description": "<p>I shipped a nightly enrichment job with a unique index on <code>(tenant_id, source_hash)</code> and called it idempotent.<br> Forty-eight hours later I had three rows for one tenant and one source document, all identical, and the index had approved every one of them.<br> If a unique index is uniq",
+      "title": "25 Million Records Later: Why Your RAG Pipeline Still Isn't Production-Ready",
+      "link": "https://dev.to/sanukhandev/25-million-records-later-why-your-rag-pipeline-still-isnt-production-ready-32al",
+      "pubDate": "2026-10-28T05:39:33.000Z",
+      "description": "<blockquote> <p><strong>25 million records. Distributed GPUs. Two vector databases. And still, the most difficult part of production RAG is not embedding generation.</strong></p> </blockquote> <p>A RAG prototype is easy to demo:<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highligh",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I built an open-source AI agent for EasyEDA that can design schematics and PCBs",
-      "link": "https://dev.to/biosshot/i-built-an-open-source-ai-agent-for-easyeda-that-can-design-schematics-and-pcbs-1ko2",
-      "pubDate": "2026-10-27T22:09:19.000Z",
-      "description": "<p>Hi! I want to share my open-source project, EasyEDA Copilot. It allows AI agents to create and edit schematics and PCBs directly in EasyEDA Pro.</p> <p>I work with both programming and electronics. I studied electronics in college, where we learned to use EasyEDA. I found it much easier to learn ",
+      "title": "Two Claudes, one app",
+      "link": "https://dev.to/hrekov/two-claudes-one-app-133l",
+      "pubDate": "2026-10-28T05:39:17.000Z",
+      "description": "<p>You have Claude Code running in a split tmux pane on your laptop, and Claude open in your browser or phone while away from your desk. Both are working on the same product. Both have access to context, both can draft ideas, and both will happily overwrite each other's work if you don't give them a",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "React has Two Kinds of Data",
-      "link": "https://dev.to/nenedoesfrontend/react-has-two-kinds-of-data-4c68",
-      "pubDate": "2026-10-27T22:09:13.000Z",
-      "description": "<p>Imagine a shopping website that has the cart counter icon in the navbar, on the checkout button and the mini cart dropdown. Now imagine if whenever you add a another item to the cart, you'd have to go everywhere to update it to make sure the counter increases in all the places it was used.</p> <p",
+      "title": "Automating Student Attendance with n8n: A Practical Workflow Using Google Sheets and Email OTP",
+      "link": "https://dev.to/aftab_2c552f27112804d01cc/automating-student-attendance-with-n8n-a-practical-workflow-using-google-sheets-and-email-otp-4254",
+      "pubDate": "2026-10-28T05:39:07.000Z",
+      "description": "<h1> Automating Student Attendance with n8n: A Practical Workflow Using Google Sheets and Email OTP </h1> <p>Managing student attendance manually can become time-consuming when multiple classes, student records, and verification steps are involved. Workflow automation can help reduce repetitive task",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Your App Is Up, Your Model Call Is Down: Five Coupling Myths and a Two-Probe Check",
-      "link": "https://dev.to/gitlab_3188/your-app-is-up-your-model-call-is-down-five-coupling-myths-and-a-two-probe-check-4fpb",
-      "pubDate": "2026-10-27T22:09:05.000Z",
-      "description": "<h1> Your App Is Up, Your Model Call Is Down: Five Coupling Myths and a Two-Probe Check </h1> <p>A 200 from your own health endpoint proves one thing. Your process is alive. It says nothing about the network path to your model provider.</p> <p>I keep seeing the same five claims in code review. Each ",
+      "title": "Turn a Repeated Manual Correction into a Testable Requirement",
+      "link": "https://dev.to/acadify_fef2ecf72cca30a3d/turn-a-repeated-manual-correction-into-a-testable-requirement-2608",
+      "pubDate": "2026-10-28T05:38:50.000Z",
+      "description": "<p>The report is correct because someone fixed it before it left the team.</p> <p>If you test only the final report, you can miss the repair that made it correct.</p> <p>Consider a fictional application that exports service records. A reviewer repeatedly corrects one field before the export is used.",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Did the Patch Cause the Flake, or Find It? A Base/Head Attribution Gate for Agent Patches",
-      "link": "https://dev.to/datacpp_8185/did-the-patch-cause-the-flake-or-find-it-a-basehead-attribution-gate-for-agent-patches-3j8i",
-      "pubDate": "2026-10-27T22:08:20.000Z",
-      "description": "<p><strong>Short version:</strong> when an agent patch surfaces a flaky test, run that test on the base tree and the patch tree with matched seeds before you touch anything. Only a base-tree failure buys a freeze. If the base tree is clean run after run, the flake is the patch's fingerprint — and fr",
+      "title": "A true claim can still be a hallucination",
+      "link": "https://dev.to/hualiphd/a-true-claim-can-still-be-a-hallucination-30n2",
+      "pubDate": "2026-10-28T05:36:01.000Z",
+      "description": "<p><strong>Summary.</strong> Most discussion of hallucination is about claims that are false. A harder case is a claim that is true but not supported by the sources an answer cites. Summarization research calls this a <em>factual hallucination</em>, and grounding checkers used in production RAG syst",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Human Sign-Off Expires: Bind Doc Attestations to Fact Hashes",
-      "link": "https://dev.to/github_7727/human-sign-off-expires-bind-doc-attestations-to-fact-hashes-4gfi",
-      "pubDate": "2026-10-27T22:07:22.000Z",
-      "description": "<p>A documentation approval should never be permanent. It should be a short lease on one specific, machine-checkable fact, and it should expire the moment that fact moves. The workflow below turns every human-owned sentence in a generated doc into a hashed attestation, so a stale approval fails CI i",
+      "title": "Confidential computing AI inference in the UAE: GPU TEEs",
+      "link": "https://dev.to/azrty/confidential-computing-ai-inference-in-the-uae-gpu-tees-5ag6",
+      "pubDate": "2026-10-28T05:34:39.000Z",
+      "description": "<p>Residency says where your data sits. Confidential computing says who can read it while the model runs. Inference on a rented or colocated GPU in a UAE data centre gives you the first and not the second. Here is what a GPU TEE protects, what it costs, and what to demand from a vendor.</p> <p>If a ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "One year of Dioxus fullstack in production: the good, the painful",
-      "link": "https://oxidt.com/blog/one-year-of-dioxus-fullstack-in-production-the-good-the-painful",
-      "pubDate": "2026-10-27T21:19:15.000Z",
-      "description": "Article URL: https://oxidt.com/blog/one-year-of-dioxus-fullstack-in-production-the-good-the-painful Comments URL: https://news.ycombinator.com/item?id=50265960 Points: 10 # Comments: 3",
+      "title": "Git for the US Code",
+      "link": "https://lexifina.com/blog/git-for-the-us-code",
+      "pubDate": "2026-10-28T01:47:50.000Z",
+      "description": "Article URL: https://lexifina.com/blog/git-for-the-us-code Comments URL: https://news.ycombinator.com/item?id=50268380 Points: 151 # Comments: 69",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Moxnox 1.0: NT-Like, POSIX-Compatible OS Running Atop Btrfs",
+      "link": "https://github.com/maharmstone/moxnox",
+      "pubDate": "2026-10-27T23:53:41.000Z",
+      "description": "Article URL: https://github.com/maharmstone/moxnox Comments URL: https://news.ycombinator.com/item?id=50267569 Points: 42 # Comments: 8",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Reviewers rarely talk about reliability. Owners bring it up twice as often",
+      "link": "https://www.bettascore.ai/research/reliability-reviewers-vs-owners",
+      "pubDate": "2026-10-27T22:31:15.000Z",
+      "description": "Article URL: https://www.bettascore.ai/research/reliability-reviewers-vs-owners Comments URL: https://news.ycombinator.com/item?id=50266780 Points: 95 # Comments: 78",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
+      "link": "https://www.anthropic.com/news/expanding-partnership-gsa",
+      "pubDate": "2026-10-27T22:23:37.000Z",
+      "description": "Article URL: https://www.anthropic.com/news/expanding-partnership-gsa Comments URL: https://news.ycombinator.com/item?id=50266701 Points: 34 # Comments: 26",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -101,7 +125,7 @@
       "title": "Early progress on accelerating drug development with Claude",
       "link": "https://www.anthropic.com/research/early-progress-drug-development",
       "pubDate": "2026-10-27T20:50:42.000Z",
-      "description": "Article URL: https://www.anthropic.com/research/early-progress-drug-development Comments URL: https://news.ycombinator.com/item?id=50265609 Points: 43 # Comments: 24",
+      "description": "Article URL: https://www.anthropic.com/research/early-progress-drug-development Comments URL: https://news.ycombinator.com/item?id=50265609 Points: 189 # Comments: 167",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -109,15 +133,15 @@
       "title": "Raspberry Pi Zero 3W and Pi 4 Model A spotted in device trees",
       "link": "https://bret.dk/raspberry-pi-zero-3-w-pi-4-model-a/",
       "pubDate": "2026-10-27T20:48:49.000Z",
-      "description": "Article URL: https://bret.dk/raspberry-pi-zero-3-w-pi-4-model-a/ Comments URL: https://news.ycombinator.com/item?id=50265594 Points: 23 # Comments: 2",
+      "description": "Article URL: https://bret.dk/raspberry-pi-zero-3-w-pi-4-model-a/ Comments URL: https://news.ycombinator.com/item?id=50265594 Points: 131 # Comments: 59",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Hex Raises $100M",
-      "link": "https://hex.tech/blog/hex-new-era/",
-      "pubDate": "2026-10-27T20:36:38.000Z",
-      "description": "Article URL: https://hex.tech/blog/hex-new-era/ Comments URL: https://news.ycombinator.com/item?id=50265413 Points: 7 # Comments: 0",
+      "title": "Code-execution flaw in UEFI firmware threatens most servers on planet Earth",
+      "link": "https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth/",
+      "pubDate": "2026-10-27T20:35:09.000Z",
+      "description": "Article URL: https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth/ Comments URL: https://news.ycombinator.com/item?id=50265393 Points: 77 # Comments: 19",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -125,7 +149,7 @@
       "title": "Four Months of Zig",
       "link": "https://gracefulliberty.com/articles/four-months-of-zig/",
       "pubDate": "2026-10-27T20:13:27.000Z",
-      "description": "Article URL: https://gracefulliberty.com/articles/four-months-of-zig/ Comments URL: https://news.ycombinator.com/item?id=50265128 Points: 24 # Comments: 7",
+      "description": "Article URL: https://gracefulliberty.com/articles/four-months-of-zig/ Comments URL: https://news.ycombinator.com/item?id=50265128 Points: 99 # Comments: 58",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -133,7 +157,7 @@
       "title": "Tailscale SSH: Investigation and remediation update",
       "link": "https://tailscale.com/ssh-investigation-update",
       "pubDate": "2026-10-27T19:55:21.000Z",
-      "description": "Article URL: https://tailscale.com/ssh-investigation-update Comments URL: https://news.ycombinator.com/item?id=50264857 Points: 111 # Comments: 58",
+      "description": "Article URL: https://tailscale.com/ssh-investigation-update Comments URL: https://news.ycombinator.com/item?id=50264857 Points: 248 # Comments: 124",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -141,31 +165,7 @@
       "title": "Survival LLM: AI assistant and emergency library that runs on your own computer",
       "link": "https://www.brangus.io/survival-llm",
       "pubDate": "2026-10-27T19:55:06.000Z",
-      "description": "Article URL: https://www.brangus.io/survival-llm Comments URL: https://news.ycombinator.com/item?id=50264853 Points: 85 # Comments: 58",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Discord will soon let anyone find public server messages through Google",
-      "link": "https://discord.com/blog/making-content-from-discoverable-servers-easier-to-discover",
-      "pubDate": "2026-10-27T18:44:17.000Z",
-      "description": "Article URL: https://discord.com/blog/making-content-from-discoverable-servers-easier-to-discover Comments URL: https://news.ycombinator.com/item?id=50263854 Points: 146 # Comments: 95",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Three TLS Bugs in GoAhead",
-      "link": "https://foxio.io/blog/choose-your-backend-three-tls-bugs-in-goahead",
-      "pubDate": "2026-10-27T18:33:48.000Z",
-      "description": "Article URL: https://foxio.io/blog/choose-your-backend-three-tls-bugs-in-goahead Comments URL: https://news.ycombinator.com/item?id=50263701 Points: 38 # Comments: 4",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Introducing LFM3: Every Modality for Specialized Intelligence",
-      "link": "https://www.liquid.ai/blog/lfm3",
-      "pubDate": "2026-10-27T17:04:50.000Z",
-      "description": "Article URL: https://www.liquid.ai/blog/lfm3 Comments URL: https://news.ycombinator.com/item?id=50262229 Points: 86 # Comments: 31",
+      "description": "Article URL: https://www.brangus.io/survival-llm Comments URL: https://news.ycombinator.com/item?id=50264853 Points: 268 # Comments: 120",
       "source": "Hacker News",
       "category": "Tech News"
     },
