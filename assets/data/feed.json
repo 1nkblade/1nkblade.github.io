@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T06:06:28.144Z",
+  "generatedAt": "2026-11-01T13:26:14.088Z",
   "sourceCount": 4,
   "successCount": 3,
   "errors": [
@@ -10,90 +10,130 @@
   ],
   "items": [
     {
-      "title": "Hacktoberfest Open-source AI Challenge l: Week 4",
-      "link": "https://dev.to/nitinshekhar27/hacktoberfest-open-source-ai-challenge-l-week-4-55hi",
-      "pubDate": "2026-11-01T06:05:34.000Z",
-      "description": "<p><em>This is a submission for the <a href=\"https://dev.to/challenges/hacktoberfest-week4-2026-10-26\">Hacktoberfest Open-Source AI Challenge Week 4: Ghost in the Machine</a></em></p> <h1> 🕯️ Velaria — A Ghost in the Machine </h1> <h2> What I Built </h2> <p>I built <strong>Velaria</strong>, a priva",
+      "title": "Kimi K2 closes in December: what moving to K3.1 Pro changes, and what the default reasoning effort costs",
+      "link": "https://dev.to/ai_maya_063fc568e157562fd/kimi-k2-closes-in-december-what-moving-to-k31-pro-changes-and-what-the-default-reasoning-effort-fld",
+      "pubDate": "2026-11-01T13:25:38.000Z",
+      "description": "<h2> TL;DR </h2> <p>Moonshot AI's documentation says that since 2026-10-31 the Kimi K2 series (<code>kimi-k2.6</code>, <code>kimi-k2.7-code</code> and its highspeed variant) is closed to newly registered accounts. Existing accounts keep working, and Moonshot plans to retire every K2 model by the end",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Ghosts in the Machine: Why Dead Code Haunts Developers and How Open-Source Tools Can Save Them",
-      "link": "https://dev.to/tamizuddin/ghosts-in-the-machine-why-dead-code-haunts-developers-and-how-open-source-tools-can-save-them-175d",
-      "pubDate": "2026-11-01T06:04:51.000Z",
-      "description": "<p><em>Originally published on <a href=\"https://tamiz.pro/insights/dead-code-ghosts-open-source-tools\" rel=\"noopener noreferrer\">tamiz.pro</a>.</em></p> <p>Every codebase has ghosts. They're not the kind that go bump in the night — they're the functions nobody calls, the branches nobody reaches, and",
+      "title": "小規模叢集可以不裝 Alertmanager：用 Grafana 內建告警同時管 metrics 與 logs（實測）",
+      "link": "https://dev.to/jimmy_3c703d/xiao-gui-mo-cong-ji-ke-yi-bu-zhuang-alertmanageryong-grafana-nei-jian-gao-jing-tong-shi-guan-metrics-yu-logsshi-ce--4270",
+      "pubDate": "2026-11-01T13:25:24.000Z",
+      "description": "<blockquote> <p>一句話結論：小規模叢集可以把 Alertmanager 關掉，改用 Grafana 內建的告警引擎，用同一套規則、同一套通知策略處理指標與日誌。代價是 Prometheus 自己那一百多條預設規則，不會再通知任何人，要的規則得在 Grafana 裡重寫。</p> </blockquote> <h2> 遇到的問題 </h2> <p>kube-prometheus-stack 預設的告警路徑是這樣：Prometheus 評估規則，把觸發的告警送給 Alertmanager，再由 Alertmanager 分組、路由、發通知。</p> <p>指標告警這樣做沒問題。但叢",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Kubernetes priority classes can preempt security controls",
-      "link": "https://dev.to/bianliang/kubernetes-priority-classes-can-preempt-security-controls-1nj1",
-      "pubDate": "2026-11-01T06:04:11.000Z",
-      "description": "<h1> Kubernetes priority classes can preempt security controls </h1> <p>Kubernetes priority controls scheduling order, not trust. A PriorityClass maps a name to an integer, and a pod with a higher value may cause lower-priority pods to be evicted when the cluster needs capacity. The feature is usefu",
+      "title": "How LLM Training Works: A Car Factory Analogy",
+      "link": "https://dev.to/qlooptech/how-llm-training-works-a-car-factory-analogy-7hh",
+      "pubDate": "2026-11-01T13:24:42.000Z",
+      "description": "<p>This is the written companion to a short visual walkthrough I made. The full explanation and runnable example are below; the video follows the same car factory analogy.</p> <p> <iframe src=\"https://www.youtube.com/embed/3zYnFgajooQ\" width=\"710\" height=\"399\"> </iframe> </p> <p><strong>Large langua",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Kurumsal ulaşım operasyonunu dijitalleştirmek: nereden başlanır",
-      "link": "https://dev.to/arndevelopment/kurumsal-ulasim-operasyonunu-dijitallestirmek-nereden-baslanir-20md",
-      "pubDate": "2026-11-01T06:03:43.000Z",
-      "description": "<h2> Sorun teknik değil, operasyonel </h2> <p>Saha ile çalışan çoğu firmada ulaşım operasyonu hâlâ aynı şekilde yürüyor: bir WhatsApp grubu, birkaç excel dosyası ve telefonla teyit edilen güzergâhlar. Bu düzen küçük ölçekte işliyor gibi görünür, ama personel sayısı ve araç sayısı büyüdükçe çatlaklar",
+      "title": "The cost of change is the tolerance a changeless search needs",
+      "link": "https://dev.to/polycratia/the-cost-of-change-is-the-tolerance-a-changeless-search-needs-1m9n",
+      "pubDate": "2026-11-01T13:23:28.000Z",
+      "description": "<p>A coin selection that makes no change output will often pay the miner more than its size implies, and that overpayment is usually the right outcome rather than a bug. A change output gets billed twice (once as an output in this transaction, once as an input in some later one), so the amount a cha",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "What we learned building a personal AI assistant that lives in WhatsApp",
-      "link": "https://dev.to/heykubi/what-we-learned-building-a-personal-ai-assistant-that-lives-in-whatsapp-27po",
-      "pubDate": "2026-11-01T06:03:13.000Z",
-      "description": "<p>Most people we wanted to help were never going to install another AI app. Parents, busy friends, people running a small business: they already live in WhatsApp. So we built Kubi, a personal AI assistant that lives there. You text it, send it a photo or a voice note, and it does the task.</p> <p>T",
+      "title": "From `main.js` Leaks to Hidden Tailwind CSS v4 Bloat — How I Built `angular-bundle-guard` with Antigravity `/learn` [GDE]",
+      "link": "https://dev.to/gde/from-mainjs-leaks-to-hidden-tailwind-css-v4-bloat-how-i-built-angular-bundle-guard-with-geg",
+      "pubDate": "2026-11-01T13:23:27.000Z",
+      "description": "<h1> Day 33: From <code>main.js</code> Leaks to Hidden Tailwind CSS v4 Bloat — How I Built <code>angular-bundle-guard</code> with Antigravity <code>/learn</code> </h1> <p>I briefly paused this series for a side quest that started with a faded memory of what my Angular bundle size <em>used</em> to be",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Why Generic Backends Fail AI Agents in 2026",
-      "link": "https://dev.to/forgeflows/why-generic-backends-fail-ai-agents-in-2026-45kb",
-      "pubDate": "2026-11-01T06:02:54.000Z",
-      "description": "<h2> The Infrastructure Gap Nobody Warned You About </h2> <p>In 2026, according to McKinsey's <a href=\"https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai\" rel=\"noopener noreferrer\">State of AI 2024 report</a>, 72% of organizations use AI in at least one business function",
+      "title": "Maximum-Severity GitLab Flaw Is Under Active Attack — and It Nearly Broke Into Alpine Linux",
+      "link": "https://dev.to/dailytechwatch/maximum-severity-gitlab-flaw-is-under-active-attack-and-it-nearly-broke-into-alpine-linux-2jb9",
+      "pubDate": "2026-11-01T13:23:25.000Z",
+      "description": "<p><em>CISA has added GitLab's CVE-2026-97229, a perfect 10.0, and a Cisco firewall flaw to its exploited list. Federal agencies have until 1 November to patch.</em></p> <p>Some vulnerabilities are theoretical. These are not. On Thursday, the US Cybersecurity and Infrastructure Security Agency (CISA",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The Last Commit — Bringing Forgotten Codebases Back to Life 👻",
-      "link": "https://dev.to/guptaswastika2k7/the-last-commit-bringing-forgotten-codebases-back-to-life-2gei",
-      "pubDate": "2026-11-01T06:02:49.000Z",
-      "description": "<p><em>This is a submission for the <a href=\"https://dev.to/challenges/hacktoberfest-week4-2026-10-26\">Hacktoberfest Open-Source AI Challenge Week 4: Ghost in the Machine</a></em></p> <h2> What I'm Building </h2> <p>Every abandoned codebase has a story.</p> <p>Somewhere inside its files are traces o",
+      "title": "Sora vs Kling vs Runway: Which AI Video Model Wins in 2026?",
+      "link": "https://dev.to/guang_diyuzhi_74b0fec2c09/sora-vs-kling-vs-runway-which-ai-video-model-wins-in-2026-32e5",
+      "pubDate": "2026-11-01T13:22:20.000Z",
+      "description": "<p>The AI video generation landscape in 2026 is a three-way race. OpenAI's Sora finally shipped. Kling AI from Kuaishou went global. Runway Gen-4 raised the bar for creative professionals. But which one actually delivers when you need real footage — not just cool demos?</p> <h2> Quick Verdict </h2> ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I built a way for Claude Code to report progress through my home Alexa",
-      "link": "https://dev.to/kohei_wada/i-built-a-way-for-claude-code-to-report-progress-through-my-home-alexa-4moi",
-      "pubDate": "2026-11-01T06:02:46.000Z",
-      "description": "<h2> Introduction </h2> <p>When I hand a long-running job to Claude Code, I can't tell what's happening unless I'm watching the screen. So I built a skill that has the Echo Dot beside me read out \"I'm about to do this\" and \"done\" in Japanese. It looks simple, but the implementation hits a string of ",
+      "title": "Our Redis replica spent three days restarting the same sync",
+      "link": "https://dev.to/sergey_shinder_ab2d943365/our-redis-replica-spent-three-days-restarting-the-same-sync-l1h",
+      "pubDate": "2026-11-01T13:22:09.000Z",
+      "description": "<p>In October we patched the host running the primary of our delivery tracking Redis, expecting Sentinel to promote the replica as it always had. It did not. The driver app could not sync for six minutes while the host rebooted, and when we looked at the replica it had not held a current copy of the",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "OpenAI Says Test Agents Escaped Sandbox and Breached Hugging Face",
-      "link": "https://dev.to/the_daily_flare/openai-says-test-agents-escaped-sandbox-and-breached-hugging-face-23d",
-      "pubDate": "2026-11-01T06:02:39.000Z",
-      "description": "<p>Originally published on <a href=\"https://thedailyflare.com\" rel=\"noopener noreferrer\">The Daily Flare</a>.</p> <p>OpenAI said on Oct. 29 that monitors replayed against its July cybersecurity exercise would have detected agents escaping a test sandbox about 30 minutes later, more than 30 hours bef",
+      "title": "Is Vercel free? What the Hobby plan covers in 2026",
+      "link": "https://dev.to/abhijais1/is-vercel-free-what-the-hobby-plan-covers-in-2026-2ke",
+      "pubDate": "2026-11-01T13:21:23.000Z",
+      "description": "<p>Yes, for personal projects. Vercel's Hobby plan costs $0, but it is for personal, non-commercial use only. Once anyone involved makes money from a project, including a freelancer paid to build it, Vercel expects it on Pro at $20 per developer seat a month. Hobby usage is also capped. You can't pa",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Building insurance-renewal calls with current policy state and advisor handoff",
-      "link": "https://dev.to/programmatic_dib/building-insurance-renewal-calls-with-current-policy-state-and-advisor-handoff-32en",
-      "pubDate": "2026-11-01T06:01:44.000Z",
-      "description": "<p><em>Originally published as a <a href=\"https://antengage.com/products/fonix/ai-insurance-renewal-calls\" rel=\"noopener noreferrer\">Fonix.AI practical guide</a> by AntEngage. This republication uses the same guide content.</em></p> <p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=",
+      "title": "🗂️ Path Traversal: Why Your ../ Filter Fails (and the Fix That Holds)",
+      "link": "https://dev.to/krishna_kumar_75bdf350b26/path-traversal-why-your-filter-fails-and-the-fix-that-holds-6ob",
+      "pubDate": "2026-11-01T13:20:52.000Z",
+      "description": "<p>Somewhere in most web apps there's an endpoint like <code>GET /download?file=report.pdf</code>. The code takes the filename, sticks it onto a folder path and reads the file. It works, the tests pass, and nobody looks at it again.</p> <p>Then someone sends <code>?file=../../../etc/passwd</code>, a",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Model Aero Engines Free Manufacturable Plans/Blueprints",
-      "link": "https://outerzone.co.uk/plans.asp?cat=Engines",
-      "pubDate": "2026-11-01T05:43:13.000Z",
-      "description": "Article URL: https://outerzone.co.uk/plans.asp?cat=Engines Comments URL: https://news.ycombinator.com/item?id=50322994 Points: 3 # Comments: 0",
+      "title": "The question we should all be asking about AI",
+      "link": "https://www.cnn.com/2026/10/30/business/ai-stocks-bonds-debt",
+      "pubDate": "2026-11-01T12:44:36.000Z",
+      "description": "Article URL: https://www.cnn.com/2026/10/30/business/ai-stocks-bonds-debt Comments URL: https://news.ycombinator.com/item?id=50325107 Points: 3 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "noyb win: French electronics retailer Fnac Darty fined €7M",
+      "link": "https://noyb.eu/en/noyb-win-french-electronics-retailer-fnac-darty-fined-eu7-million",
+      "pubDate": "2026-11-01T11:17:15.000Z",
+      "description": "Article URL: https://noyb.eu/en/noyb-win-french-electronics-retailer-fnac-darty-fined-eu7-million Comments URL: https://news.ycombinator.com/item?id=50324533 Points: 24 # Comments: 3",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Norway makes shithouses great again",
+      "link": "https://www.visitnorway.com/plan-your-trip/travel-tips-a-z/norwegian-scenic-routes/worlds-best-toilets/",
+      "pubDate": "2026-11-01T10:47:58.000Z",
+      "description": "Article URL: https://www.visitnorway.com/plan-your-trip/travel-tips-a-z/norwegian-scenic-routes/worlds-best-toilets/ Comments URL: https://news.ycombinator.com/item?id=50324388 Points: 304 # Comments: 138",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Domain hacks with unusual Unicode characters (2018)",
+      "link": "https://xn--69f31l4t57c0mag4b613h.xn--7uh4898msjaso/🆆🆃🅵/",
+      "pubDate": "2026-11-01T10:44:20.000Z",
+      "description": "Article URL: https://xn--69f31l4t57c0mag4b613h.xn--7uh4898msjaso/🆆🆃🅵/ Comments URL: https://news.ycombinator.com/item?id=50324371 Points: 20 # Comments: 11",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "A tiny Pacific country rolls out universal basic income",
+      "link": "https://www.economist.com/asia/2026/10/29/a-tiny-pacific-country-rolls-out-universal-basic-income",
+      "pubDate": "2026-11-01T10:05:09.000Z",
+      "description": "Article URL: https://www.economist.com/asia/2026/10/29/a-tiny-pacific-country-rolls-out-universal-basic-income Comments URL: https://news.ycombinator.com/item?id=50324118 Points: 65 # Comments: 37",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "The AI cost of JavaScript frameworks",
+      "link": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
+      "pubDate": "2026-11-01T06:06:19.000Z",
+      "description": "Article URL: https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/ Comments URL: https://news.ycombinator.com/item?id=50323088 Points: 132 # Comments: 82",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -101,39 +141,15 @@
       "title": "Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing",
       "link": "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/",
       "pubDate": "2026-11-01T02:19:53.000Z",
-      "description": "Article URL: https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/ Comments URL: https://news.ycombinator.com/item?id=50322173 Points: 59 # Comments: 22",
+      "description": "Article URL: https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/ Comments URL: https://news.ycombinator.com/item?id=50322173 Points: 171 # Comments: 73",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Leaking Secrets from Air-Gap Computers by Spelling Radio Signals from RAM",
+      "title": "Leaking Secrets from Air-Gap Computers by Spelling Radio Signals from RAM (2024)",
       "link": "https://arxiv.org/abs/2409.02292",
       "pubDate": "2026-11-01T01:46:29.000Z",
-      "description": "Article URL: https://arxiv.org/abs/2409.02292 Comments URL: https://news.ycombinator.com/item?id=50322022 Points: 42 # Comments: 19",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Show HN: BBRouter – Ben Eater's 8-bit computer, simulated on 3D breadboards",
-      "link": "https://bbrouter.com/bbrouter/ben-eater-sap-1",
-      "pubDate": "2026-11-01T00:10:30.000Z",
-      "description": "Hi HN,I kept wiring Ben Eater's 8-bit computer wrong, so I built a realistic virtual breadboard editor.Some of the nice features are side-by-side diff, scope, schematics auto-sync, auto-router (BBRouter stands for breadboard router), and my favorites: upload from the real Arduino IDE and connect to ",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Constructing a Quine from Kleene's Second Recursion Theorem",
-      "link": "https://emarzion.github.io/KSRT/",
-      "pubDate": "2026-10-31T23:55:21.000Z",
-      "description": "Article URL: https://emarzion.github.io/KSRT/ Comments URL: https://news.ycombinator.com/item?id=50321436 Points: 15 # Comments: 1",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "When electric cars were for women",
-      "link": "https://spectrum.ieee.org/early-electric-vehicles",
-      "pubDate": "2026-10-31T23:08:12.000Z",
-      "description": "Article URL: https://spectrum.ieee.org/early-electric-vehicles Comments URL: https://news.ycombinator.com/item?id=50321130 Points: 58 # Comments: 43",
+      "description": "Article URL: https://arxiv.org/abs/2409.02292 Comments URL: https://news.ycombinator.com/item?id=50322022 Points: 105 # Comments: 55",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -141,7 +157,7 @@
       "title": "Altoids Project",
       "link": "https://uvdn7.github.io/altoids-project/",
       "pubDate": "2026-10-31T22:54:55.000Z",
-      "description": "Article URL: https://uvdn7.github.io/altoids-project/ Comments URL: https://news.ycombinator.com/item?id=50321048 Points: 83 # Comments: 4",
+      "description": "Article URL: https://uvdn7.github.io/altoids-project/ Comments URL: https://news.ycombinator.com/item?id=50321048 Points: 123 # Comments: 7",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -149,23 +165,7 @@
       "title": "Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard",
       "link": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
       "pubDate": "2026-10-31T22:46:12.000Z",
-      "description": "Article URL: https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve Comments URL: https://news.ycombinator.com/item?id=50320995 Points: 163 # Comments: 89",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "An Italian farmer found some unknown seeds in his attic and planted them",
-      "link": "https://www.smithsonianmag.com/science-nature/italian-farmer-found-unknown-seeds-attic-with-nothing-lose-planted-them-result-biblical-180989644/",
-      "pubDate": "2026-10-31T22:41:06.000Z",
-      "description": "Article URL: https://www.smithsonianmag.com/science-nature/italian-farmer-found-unknown-seeds-attic-with-nothing-lose-planted-them-result-biblical-180989644/ Comments URL: https://news.ycombinator.com/item?id=50320963 Points: 283 # Comments: 77",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "AI text watermarking and quality loss",
-      "link": "https://blog.keyvan.net/p/ai-text-watermarking-and-quality",
-      "pubDate": "2026-10-31T21:50:13.000Z",
-      "description": "Article URL: https://blog.keyvan.net/p/ai-text-watermarking-and-quality Comments URL: https://news.ycombinator.com/item?id=50320599 Points: 43 # Comments: 7",
+      "description": "Article URL: https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve Comments URL: https://news.ycombinator.com/item?id=50320995 Points: 290 # Comments: 132",
       "source": "Hacker News",
       "category": "Tech News"
     },
