@@ -1,173 +1,105 @@
 {
-  "generatedAt": "2026-11-04T06:23:48.566Z",
+  "generatedAt": "2026-11-04T19:46:02.763Z",
   "sourceCount": 4,
-  "successCount": 3,
+  "successCount": 2,
   "errors": [
     {
       "source": "Hack The Box Security Blog",
       "error": "HTTP 404 Not Found"
+    },
+    {
+      "source": "Hacker News",
+      "error": "fetch failed"
     }
   ],
   "items": [
     {
-      "title": "AI Code Review Tools, What They Catch and What They Miss",
-      "link": "https://dev.to/guideaitools/ai-code-review-tools-what-they-catch-and-what-they-miss-5bm0",
-      "pubDate": "2026-11-04T06:21:54.000Z",
-      "description": "<h1> AI Code Review Tools, What They Catch and What They Miss </h1> <p>Every developer knows the feeling. You open a pull request, you see 400 lines changed, and your eyes start to glaze over by line 80. That is where AI code review tools earn their keep, and also where they can quietly let you down",
+      "title": "How to Keep Secrets in Python Without Pushing Them to GitHub",
+      "link": "https://dev.to/sergio_gmez_9533652d3b3c/how-to-keep-secrets-in-python-without-pushing-them-to-github-174j",
+      "pubDate": "2026-11-04T19:36:13.000Z",
+      "description": "<h1> How to Keep Secrets in Python Without Pushing Them to GitHub </h1> <p>In Python application development it’s common to work with API keys, access tokens, or database credentials. Accidentally publishing these values in a public repository can compromise your project’s security and generate unex",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Tomcat RemoteIpValve needs a trusted proxy boundary",
-      "link": "https://dev.to/facilishz/tomcat-remoteipvalve-needs-a-trusted-proxy-boundary-2a4l",
-      "pubDate": "2026-11-04T06:21:23.000Z",
-      "description": "<h1> Tomcat RemoteIpValve needs a trusted proxy boundary </h1> <p>Applications often use the client address for rate limits, audit records, access rules, and session decisions. Behind a reverse proxy, the socket peer is the proxy rather than the user. Tomcat's <code>RemoteIpValve</code> can recover ",
+      "title": "XSS: the most common web vulnerability, explained with examples",
+      "link": "https://dev.to/sergio_gmez_9533652d3b3c/xss-the-most-common-web-vulnerability-explained-with-examples-3mgh",
+      "pubDate": "2026-11-04T19:35:47.000Z",
+      "description": "<h1> XSS: the most common web vulnerability, explained with examples </h1> <p>Cross‑Site Scripting (<strong>XSS</strong>) attacks continue to top the lists of web vulnerabilities. The reason is simple: a single point where the application turns user‑supplied data into code is enough for the browser ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "LED Bulbs and Dimmers: Why Lights Flicker When Appliance Turns On",
-      "link": "https://dev.to/chattanoogatnelectrician_/led-bulbs-and-dimmers-why-lights-flicker-when-appliance-turns-on-4o20",
-      "pubDate": "2026-11-04T06:20:56.000Z",
-      "description": "<p>Introduction</p> <p>Many people never noticed flicker until they switched to LED bulbs. The old bulbs hid it. The new ones show every small dip in voltage, and suddenly lights flicker when appliance turns on in rooms that seemed fine for years.</p> <p>Before you blame the wiring, it helps to sepa",
+      "title": "Evaluating Auth0 FGA? Four questions to ask before the Enterprise call",
+      "link": "https://dev.to/authbyexample1/evaluating-auth0-fga-four-questions-to-ask-before-the-enterprise-call-5335",
+      "pubDate": "2026-11-04T19:35:36.000Z",
+      "description": "<p>I work at Permit, and a colleague just published our comparison of Auth0 FGA and Permit. We compete with Auth0 FGA, so treat this as a vendor's read. I've tried to pull out the questions that matter whichever one you pick.</p> <p>Auth0 FGA is Okta's managed fine-grained authorization service. It ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "No more humans visit your website. How warm are you in welcoming the new breed?",
-      "link": "https://dev.to/galascribe/no-more-humans-visit-your-website-how-warm-are-you-in-welcoming-the-new-breed-2ng0",
-      "pubDate": "2026-11-04T06:20:40.000Z",
-      "description": "<blockquote> <p><strong>TL;DR:</strong> My Cloudflare overview said 467 unique visitors in 24 hours. My own admin said zero real users. The AI crawler tab explained the gap: 229 crawler requests, the sitemap fetched 41 times, ClaudeBot at the top. We had spent a month laying out everything a bot cou",
+      "title": "Open Source AI Booms: Hugging Face on Who Really Profits",
+      "link": "https://dev.to/chandan_kumar_1afaffcf991/open-source-ai-booms-hugging-face-on-who-really-profits-58nd",
+      "pubDate": "2026-11-04T19:34:32.000Z",
+      "description": "<p>The insight that changes how you think about building with open source AI: the model itself is rarely where the money is made.</p> <p>As Hugging Face recently detailed, the boom in open source AI models — from Meta’s Llama to Chinese entrants like Qwen and DeepSeek — has shifted the value capture",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Friday, 21:47, Checkout Is Slow Again: Twenty Minutes of Troubleshooting with CMS MCP",
-      "link": "https://dev.to/observabilityguy/friday-2147-checkout-is-slow-again-twenty-minutes-of-troubleshooting-with-cms-mcp-39gj",
-      "pubDate": "2026-11-04T06:20:36.000Z",
-      "description": "<blockquote> <p>This article introduces Alibaba Cloud CMS MCP, which enables AI agents to securely and directly troubleshoot cloud observability issues without local environment setup.</p> </blockquote> <p>It was 21:47 on a Friday night when Chen's DingTalk went off again.</p> <p>The alert title was",
+      "title": "More than half of developers are worried about their careers due to artificial intelligence",
+      "link": "https://dev.to/hacksgr/more-than-half-of-developers-are-worried-about-their-careers-due-to-artificial-intelligence-lom",
+      "pubDate": "2026-11-04T19:33:30.000Z",
+      "description": "<p>New research from Adaptavist explores developer sentiment around artificial intelligence, revealing that 54% of software developers feel anxious about their long-term career prospects.</p> <p>The report highlights shifting workplace expectations, with 55% reporting pressure to work faster and 51%",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Part 4: The Alert That Could Never Fire",
-      "link": "https://dev.to/ndcodes/part-4-the-alert-that-could-never-fire-3434",
-      "pubDate": "2026-11-04T06:20:32.000Z",
-      "description": "<p>Since the first week of this project, <code>observability/prometheus/alerts.yml</code> has contained this:<br> </p> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight yaml\"><code><span class=\"pi\">-</span> <span class=\"na\">alert</span><span class=\"pi\">:</span> <span class=\"s\">PDSCircu",
+      "title": "Clean Diff, Broken Prod: Why Line-by-Line Review Isn’t Enough for AI Code",
+      "link": "https://dev.to/parsam/clean-diff-broken-prod-why-line-by-line-review-isnt-enough-for-ai-code-31he",
+      "pubDate": "2026-11-04T19:32:49.000Z",
+      "description": "<p>most \"best AI code review tool\" lists put CodeRabbit and Tomosu in the same row. they look at the same pull request, but they're answering different questions about it, and the difference matters most for the person who has to read every PR an agent opens.</p> <p>there's a question from a r/coder",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "From Vibe Coding to Production Agents: Designing MCP Toolchains That Don’t Hallucinate, Leak, or Break",
-      "link": "https://dev.to/tamizuddin/from-vibe-coding-to-production-agents-designing-mcp-toolchains-that-dont-hallucinate-leak-or-ldd",
-      "pubDate": "2026-11-04T06:20:31.000Z",
-      "description": "<p><em>Originally published on <a href=\"https://tamiz.pro/insights/production-mcp-toolchains-agent-security\" rel=\"noopener noreferrer\">tamiz.pro</a>.</em></p> <p>Vibe coding gets you a working prototype. Production agents require something else entirely: a toolchain where every call is schema-valida",
+      "title": "# React Tree Node View – A Customizable Tree View for React 🌳",
+      "link": "https://dev.to/hossein_najafi81/-react-tree-node-view-a-customizable-tree-view-for-react-3kia",
+      "pubDate": "2026-11-04T19:32:17.000Z",
+      "description": "<p><a href=\"https://dev.to/t/showdev\">#showdev</a> <a href=\"https://dev.to/t/react\">#react</a> <a href=\"https://dev.to/t/opensource\">#opensource</a> <a href=\"https://dev.to/t/typescript\">#typescript</a></p> <p>Hey everyone! 👋</p> <p>I'd like to introduce my new React component: <strong>React Tree N",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Why Your First ML Model Can’t Talk Like ChatGPT",
-      "link": "https://dev.to/subraatakumar/why-your-first-ml-model-cant-talk-like-chatgpt-2f99",
-      "pubDate": "2026-11-04T06:19:36.000Z",
-      "description": "<p>You train your first machine-learning model. It accepts study hours and sleep hours, then predicts whether a student will pass or fail.</p> <p>Then a reasonable question appears:</p> <blockquote> <p>“If this is AI, why can’t it answer questions like ChatGPT? Would more training data help?”</p> </",
+      "title": "WooCommerce Abandoned Cart: Why Shoppers Leave and How to Find the Step",
+      "link": "https://dev.to/opti-behavior/woocommerce-abandoned-cart-why-shoppers-leave-and-how-to-find-the-step-4a8d",
+      "pubDate": "2026-11-04T19:30:52.000Z",
+      "description": "<p>Disclosure: we build Opti-Behavior, the WordPress plugin shown in the last section. The method works with any analytics tool.</p> <p>A WooCommerce abandoned cart is a cart a shopper filled and never turned into an order. WooCommerce does not list these carts for you, so most store owners only not",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "A heartbeat that goes quiet when the route is dead: signed presence records with a short TTL",
-      "link": "https://dev.to/ashwar_sadh_f7abe6f82c8e9/a-heartbeat-that-goes-quiet-when-the-route-is-dead-signed-presence-records-with-a-short-ttl-26e8",
-      "pubDate": "2026-11-04T06:19:13.000Z",
-      "description": "<p><em>Disclosure: I'm the developer of the app described here, and this post was drafted and published by an AI agent from the project's source code.</em></p> <p><a href=\"https://play.google.com/store/apps/details?id=com.ashwar.bolo&amp;referrer=utm_source%3Ddevto%26utm_medium%3Darticle\" rel=\"noope",
+      "title": "CVE-2026-93363: CVE-2026-93363: Improper Access Control in Payload CMS Storage Upload Route",
+      "link": "https://dev.to/cverports/cve-2026-93363-cve-2026-93363-improper-access-control-in-payload-cms-storage-upload-route-71f",
+      "pubDate": "2026-11-04T19:30:49.000Z",
+      "description": "<h1> CVE-2026-93363: Improper Access Control in Payload CMS Storage Upload Route </h1> <blockquote> <p><strong>Vulnerability ID:</strong> CVE-2026-93363<br> <strong>CVSS Score:</strong> 4.3<br> <strong>Published:</strong> 2026-11-04</p> </blockquote> <p>Payload CMS contains a missing authorization v",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I Built a Scraper That Turns 1,000 Book Listings Into a Clean Excel Report — Here's How",
-      "link": "https://dev.to/malikali777/i-built-a-scraper-that-turns-1000-book-listings-into-a-clean-excel-report-heres-how-4h25",
-      "pubDate": "2026-11-04T06:18:53.000Z",
-      "description": "<p>Most \"learn web scraping\" tutorials stop at printing a few titles to the terminal. That never felt like a finished tool to me, so I built one that goes all the way: scrape a catalogue, clean the data, and hand over a formatted Excel report someone could actually use.</p> <p>The stack is plain Pyt",
+      "title": "SQL Injection Explained for Beginners: How It Works and How to Prevent It",
+      "link": "https://dev.to/sergio_gmez_9533652d3b3c/sql-injection-explained-for-beginners-how-it-works-and-how-to-prevent-it-45c6",
+      "pubDate": "2026-11-04T19:30:31.000Z",
+      "description": "<h1> SQL Injection Explained for Beginners: How It Works and How to Prevent It </h1> <p>SQL injection (SQLi) is one of the oldest and most dangerous attacks against web applications that handle databases. Despite its long history, it remains a frequent threat because many developers build dynamic qu",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "US midterm elections 2026 live updates: Democrats win Senate control and edge",
-      "link": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
-      "pubDate": "2026-11-04T06:00:30.000Z",
-      "description": "Article URL: https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates Comments URL: https://news.ycombinator.com/item?id=50361936 Points: 27 # Comments: 3",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Jelly Sheet",
-      "link": "https://mrdoob.github.io/codevember-2026/01/",
-      "pubDate": "2026-11-04T03:40:50.000Z",
-      "description": "Article URL: https://mrdoob.github.io/codevember-2026/01/ Comments URL: https://news.ycombinator.com/item?id=50361268 Points: 70 # Comments: 14",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Distinct cellular and genetic differences in colorectal cancer in young patients",
-      "link": "https://www.dana-farber.org/newsroom/news-releases/2026/study-reveals-distinct-cellular-and-genetic-differences-in-colorectal-cancer-in-younger-patients",
-      "pubDate": "2026-11-04T03:20:13.000Z",
-      "description": "Article URL: https://www.dana-farber.org/newsroom/news-releases/2026/study-reveals-distinct-cellular-and-genetic-differences-in-colorectal-cancer-in-younger-patients Comments URL: https://news.ycombinator.com/item?id=50361154 Points: 44 # Comments: 1",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Arrows to arrows, categories to queries (2025)",
-      "link": "https://reasonablypolymorphic.com/blog/arrows-to-arrows/",
-      "pubDate": "2026-11-04T03:11:27.000Z",
-      "description": "Article URL: https://reasonablypolymorphic.com/blog/arrows-to-arrows/ Comments URL: https://news.ycombinator.com/item?id=50361107 Points: 20 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Giant canyon on Mars is still tectonically active",
-      "link": "https://lamont.columbia.edu/news/giant-canyon-mars-still-tectonically-active-today",
-      "pubDate": "2026-11-04T01:40:42.000Z",
-      "description": "Article URL: https://lamont.columbia.edu/news/giant-canyon-mars-still-tectonically-active-today Comments URL: https://news.ycombinator.com/item?id=50360573 Points: 60 # Comments: 3",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "C++26 Disapproved",
-      "link": "https://andreasfertig.com/blog/2026/11/cpp26-dis-failed-how-does-cpp-survive/",
-      "pubDate": "2026-11-04T00:33:22.000Z",
-      "description": "Article URL: https://andreasfertig.com/blog/2026/11/cpp26-dis-failed-how-does-cpp-survive/ Comments URL: https://news.ycombinator.com/item?id=50360164 Points: 202 # Comments: 95",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "The Internals of PostgreSQL",
-      "link": "https://www.interdb.jp/pg/index.html",
-      "pubDate": "2026-11-03T21:51:06.000Z",
-      "description": "Article URL: https://www.interdb.jp/pg/index.html Comments URL: https://news.ycombinator.com/item?id=50358702 Points: 214 # Comments: 13",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer",
-      "link": "https://arxiv.org/abs/2605.29713",
-      "pubDate": "2026-11-03T21:40:53.000Z",
-      "description": "Article URL: https://arxiv.org/abs/2605.29713 Comments URL: https://news.ycombinator.com/item?id=50358582 Points: 296 # Comments: 49",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Safari introduces Adaptive Dark Mode in 27.3",
-      "link": "https://webkit.org/blog/18541/introducing-adaptive-dark-mode/",
-      "pubDate": "2026-11-03T21:39:05.000Z",
-      "description": "Article URL: https://webkit.org/blog/18541/introducing-adaptive-dark-mode/ Comments URL: https://news.ycombinator.com/item?id=50358562 Points: 379 # Comments: 208",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Show HN: Uncracked City, detective game where you question LLM suspects that lie",
-      "link": "https://uncracked.city",
-      "pubDate": "2026-11-03T21:20:03.000Z",
-      "description": "To give you some context on the project. I'm a solo founder and I use AI heavily in my work. The idea came from wanting players to discover cities. Each city has its own history, so every case is set in a real city with real public places. The crime and the people are on other hand invented. The par",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "Smashing AI Conference",
+      "link": "https://css-tricks.com/smashing-ai-conference/",
+      "pubDate": "2026-11-04T15:02:51.000Z",
+      "description": "The AI 2027 Conference is a live online day for designers and engineers on where AI stands today, what to expect in 2027, and where teams are getting it right. Smashing AI Conference originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
       "title": "Re-Implementing :nth-child() With Modern CSS",
@@ -238,14 +170,6 @@
       "link": "https://css-tricks.com/almanac/properties/a/animation-trigger/",
       "pubDate": "2026-08-26T15:38:41.000Z",
       "description": "The CSS animation-trigger property allows you to delay the start of a CSS animation until a specific trigger occurs. animation-trigger originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "MicroLighter: Syntax Highlighter",
-      "link": "https://css-tricks.com/microlighter-syntax-highlighter/",
-      "pubDate": "2026-08-25T14:10:34.000Z",
-      "description": "Syntax highlighting for code blocks without the complicated markup, spans, classes, and bloated JavaScript, courtesy of Uncle Dave. MicroLighter: Syntax Highlighter originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
       "source": "CSS Tricks",
       "category": "Frontend"
     }
