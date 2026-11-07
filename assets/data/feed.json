@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T19:25:08.398Z",
+  "generatedAt": "2026-11-07T05:59:22.341Z",
   "sourceCount": 4,
   "successCount": 3,
   "errors": [
@@ -10,84 +10,164 @@
   ],
   "items": [
     {
-      "title": "How to Remove a Photo Background Without Uploading It (Free, Runs Locally in Your Browser)",
-      "link": "https://dev.to/aniruddhaadak/how-to-remove-a-photo-background-without-uploading-it-free-runs-locally-in-your-browser-1jje",
-      "pubDate": "2026-11-06T19:20:17.000Z",
-      "description": "<p>Most background remover sites work the same way. You drop your photo on a page, it goes to a server, a model runs there, and you get a cut out back. That is fine for a mug photo. It is less fine for a passport style picture, a photo of your kid, or a product shot that is not public yet.</p> <p>Th",
+      "title": "App Store and Google Play screenshot sizes in November 2026: what the spec pages actually say",
+      "link": "https://dev.to/flashtiger/app-store-and-google-play-screenshot-sizes-in-november-2026-what-the-spec-pages-actually-say-1fng",
+      "pubDate": "2026-11-07T05:49:02.000Z",
+      "description": "<p><em>This article was created with the help of AI. The sizes were checked against Apple's and Google's spec pages on November 6, 2026, and the check script was run on macOS 15.2 (Python 3.14, Pillow 13.0.0) with screenshots from an iOS 18.3 simulator in Xcode 16.2. The spec pages can change, so th",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Claude Code said \"all tests pass\". It had skipped them. So I built a fail-closed gate.",
-      "link": "https://dev.to/billbin1969debug/claude-code-said-all-tests-pass-it-had-skipped-them-so-i-built-a-fail-closed-gate-3dfm",
-      "pubDate": "2026-11-06T19:20:01.000Z",
-      "description": "<p>If you use an AI coding agent long enough, you will see this: the agent says <strong>\"Done - all tests pass\"</strong>, and it's true only because a test was skipped, deleted, or quietly weakened in the same change.</p> <p>It's a known failure mode (see <a href=\"https://github.com/anthropics/claud",
+      "title": "I put 7 Claude Code agents in my research lab's group chat with Switch. Here's how to set it up (and what broke on Windows)",
+      "link": "https://dev.to/riponcm/i-put-7-claude-code-agents-in-my-research-labs-group-chat-with-switch-heres-how-to-set-it-up-3nf7",
+      "pubDate": "2026-11-07T05:47:55.000Z",
+      "description": "<p>I'm a PhD researcher. Every lab I've worked in runs on one group chat, and every Friday the professor asks the same three questions: <strong>What did we decide? Who is blocked? Is it really done?</strong> The answers exist, but they're scattered across meeting notes, more than 1000 of chat messag",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I need 3 more Android testers to launch my basketball game on Google Play",
-      "link": "https://dev.to/luke_mcneelcaird_8593b5f/i-need-3-more-android-testers-to-launch-my-basketball-game-on-google-play-29cg",
-      "pubDate": "2026-11-06T19:19:21.000Z",
-      "description": "<p>I'm a solo dev building DunkBall, a free 3-on-3 arcade basketball game (8.5-ft rims, dunks are worth 2, a shot from half court is worth 3). New Google Play developer accounts have to run a 14-day closed test with at least 12 opted-in testers before the app can go public. I'm at 9.</p> <p>If you h",
+      "title": "Cursor's Build Live Apps Turns a Prompt Into a Hosted Web App",
+      "link": "https://dev.to/paullovelace/cursors-build-live-apps-turns-a-prompt-into-a-hosted-web-app-3oil",
+      "pubDate": "2026-11-07T05:46:17.000Z",
+      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fgi2a8own36m2dsmvuhsu.jpg\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How to Upload an AI-Generated Image from Node.js to Object Storage: Retention Rules",
-      "link": "https://dev.to/kendrickberg5327/how-to-upload-an-ai-generated-image-from-nodejs-to-object-storage-retention-rules-30ad",
-      "pubDate": "2026-11-06T19:18:45.000Z",
-      "description": "<p><strong>Short answer:</strong> Use <code>PUT /v1/storage/object/put/{bucket}/{key}</code> with the image bytes, a private bucket, and a deterministic key; keep retention and deletion decisions in your application database.</p> <p>The upload is the easy part. For a fintech receipt, the harder deci",
+      "title": "How to Match Your Resume to a Job Description With AI (Free Keyword Check)",
+      "link": "https://dev.to/alldonetools/how-to-match-your-resume-to-a-job-description-with-ai-free-keyword-check-5f7m",
+      "pubDate": "2026-11-07T05:45:30.000Z",
+      "description": "<p><em>Disclosure: I'm the maker of <a href=\"https://all-done.xyz\" rel=\"noopener noreferrer\">All Done (all-done.xyz)</a>, a site of free online tools — no signup, no cost. This is a cross-post of the <a href=\"https://all-done.xyz/blog/how-to-match-resume-to-job-description-ai\" rel=\"noopener noreferr",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Lessons from putting 14 coding-agent CLIs behind one interface",
-      "link": "https://dev.to/tesseract_app/lessons-from-putting-14-coding-agent-clis-behind-one-interface-gch",
-      "pubDate": "2026-11-06T19:18:21.000Z",
-      "description": "<p>We build a desktop app where one chat can be driven by any of 14 agent CLIs: Claude Code, Codex, OpenCode, Gemini<br> CLI, Kimi Code, Qwen Code, MiniMax Code, CodeBuddy, Grok Build, Cursor, Hermes Agent, OpenClaw, NanoClaw and<br> Antigravity CLI. You can switch the framework partway through a co",
+      "title": "Compress Images Without Uploading: How Browser-Only Tools Protect Your Files",
+      "link": "https://dev.to/cuelark/compress-images-without-uploading-how-browser-only-tools-protect-your-files-24eo",
+      "pubDate": "2026-11-07T05:42:08.000Z",
+      "description": "<h1> Compress images without uploading: the short answer </h1> <p>Yes, you can compress an image without uploading it. A browser can read a file you choose, resize or re-encode it on your device, and generate a download. A remote server does not need to receive the image to make it smaller.</p> <p>T",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Scoped Realtime Tokens for Express Chat Rooms — Reconnects, Fan-out, and Retention",
-      "link": "https://dev.to/ashtonblake6879/scoped-realtime-tokens-for-express-chat-rooms-reconnects-fan-out-and-retention-2425",
-      "pubDate": "2026-11-06T19:18:14.000Z",
-      "description": "<p>Short answer: verify the session on the server, issue a short-lived token limited to the browser user's channels, and renew it before expiry. The browser should never receive the server key. For an edtech chat room, that policy is the least complicated way to keep reconnects from becoming an auth",
+      "title": "What Is Webflow? Explained Simply for Beginners",
+      "link": "https://dev.to/kushkrg/what-is-webflow-explained-simply-for-beginners-4277",
+      "pubDate": "2026-11-07T05:41:44.000Z",
+      "description": "<p><em>Originally published on <a href=\"https://codingcush.com/what-is-webflow-explained-simply\" rel=\"noopener noreferrer\">CodingCush</a>.</em></p> <p>Webflow is a visual website builder that lets you design, build and host websites by dragging and arranging elements on a canvas, while it writes cle",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "A Version Check Won't Recover a Lost Response",
-      "link": "https://dev.to/smtasker-official/a-version-check-wont-recover-a-lost-response-3npc",
-      "pubDate": "2026-11-06T19:17:23.000Z",
-      "description": "<p>Both attempts used version 1. The first changed the row to version 2. Its response never reached the client.</p> <p>The retry now fails the version check.</p> <p>That is a useful refusal: the old request cannot overwrite another edit. But it doesn't answer the client's question: <strong>did this ",
+      "title": "Python Data Structures Explained: Lists, Tuples, Sets and Dictionaries",
+      "link": "https://dev.to/kushkrg/python-data-structures-explained-lists-tuples-sets-and-dictionaries-32o",
+      "pubDate": "2026-11-07T05:40:53.000Z",
+      "description": "<p><em>Originally published on <a href=\"https://codingcush.com/python-data-structures-explained\" rel=\"noopener noreferrer\">CodingCush</a>.</em></p> <p>Python data structures are the built-in containers that hold groups of values in your program: lists for ordered, changeable collections; tuples for ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I built a local AI coding agent for VS Code in 4 days — here's how it works",
-      "link": "https://dev.to/caimari/i-built-a-local-ai-coding-agent-for-vs-code-in-4-days-heres-how-it-works-2cd9",
-      "pubDate": "2026-11-06T19:16:42.000Z",
-      "description": "<p>During Meta's Global AI Developer Hackathon, I spent roughly four intensive days building <strong>RAME Code</strong>, a free, Apache-2.0 open-source AI coding agent for Visual Studio Code.</p> <p>It runs <strong>Meta Muse Glimmer 30B locally</strong>, through compatible inference servers such as ",
+      "title": "Squid forward-proxy security depends on ACL order and a closed default",
+      "link": "https://dev.to/onaeiuspkz/squid-forward-proxy-security-depends-on-acl-order-and-a-closed-default-5c4c",
+      "pubDate": "2026-11-07T05:40:44.000Z",
+      "description": "<h1> Squid forward-proxy security depends on ACL order and a closed default </h1> <p>A Squid forward proxy can be a controlled egress gateway or an open relay into internal networks. The difference is configuration. Squid evaluates <code>http_access</code> rules in order, and the first matching rule",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Build Buddy, Day 1: a local model fixed 6 of 6 C# build errors (and how I checked)",
-      "link": "https://dev.to/gabby_gill_23c85a86800564/build-buddy-day-1-a-local-model-fixed-6-of-6-c-build-errors-and-how-i-checked-26m2",
-      "pubDate": "2026-11-06T19:16:10.000Z",
-      "description": "<p>I'm spending MLH Global Hack Week: Builders Week (Nov 6–12) on <strong>Build Buddy</strong>, a small .NET tool that runs <code>dotnet build</code>, catches compiler errors, and asks a local model to explain each one and suggest a fix. Nothing leaves my laptop.</p> <h2> What it does </h2> <ul> <li",
+      "title": "Catch Overlapping Labels Before Rendering With a Sweep Over X",
+      "link": "https://dev.to/mohd_yusufkhan_6c2088c04/catch-overlapping-labels-before-rendering-with-a-sweep-over-x-4fnj",
+      "pubDate": "2026-11-07T05:40:11.000Z",
+      "description": "<p><em>First published on <a href=\"https://homingolearn.blogspot.com/2026/11/catch-overlapping-labels-before.html\" rel=\"noopener noreferrer\">Homingo Learn</a>.</em></p> <p>A label that fits today can land on its neighbor tomorrow when someone renames a metric or adds a series, and you may not notice",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "osFoundry 的 Local Model 能做什麼？從挑選開源模型到在自己的電腦上微調",
-      "link": "https://dev.to/tauchi-zh/osfoundry-de-local-model-neng-zuo-shi-mo-cong-tiao-xuan-kai-yuan-mo-xing-dao-zai-zi-ji-de-dian-nao-shang-wei-diao-36bg",
-      "pubDate": "2026-11-06T19:15:58.000Z",
-      "description": "<p>星期四下午 4:40，一個視窗裡開著合約草稿。你想讓 AI 幫忙把文字修得更精簡，但這份文件不能離開你的筆電，而且你也不確定 Hugging Face 上那上百個開源模型，哪一個在 16 GB 記憶體上跑得起來。你更不想為了搞清楚這件事，整個晚上泡在終端機裡。</p> <h2> 用開源模型做的所有事，都集中在側邊欄的一個群組 </h2> <p>Local Model 是 <a href=\"https://osfoundry.io/zh\" rel=\"noopener noreferrer\">osFoundry</a> 裡專門處理開放權重（open-weight）模型的部分，這些模型跑在你自",
+      "title": "Email, SMS, and In-App Alerts Do Different Jobs. Stop Scoring Them as Rivals.",
+      "link": "https://dev.to/swipe-again/email-sms-and-in-app-alerts-do-different-jobs-stop-scoring-them-as-rivals-334p",
+      "pubDate": "2026-11-07T05:40:10.000Z",
+      "description": "<p>Dunning channel debates usually start with open rates, which is a little like choosing a vehicle by top speed. The question is never which channel is best in the abstract. It is which job needs doing at this point in a failed-payment sequence — getting attention, explaining a problem, or collecti",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "A barbarian tribe's mythic origin story is true, ancient DNA reveals",
+      "link": "https://www.science.org/content/article/barbarian-tribe-s-mythic-origin-story-true-ancient-dna-reveals",
+      "pubDate": "2026-11-07T04:54:36.000Z",
+      "description": "Article URL: https://www.science.org/content/article/barbarian-tribe-s-mythic-origin-story-true-ancient-dna-reveals Comments URL: https://news.ycombinator.com/item?id=50401740 Points: 13 # Comments: 1",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Show HN: Did prediction markets do any predicting this midterms?",
+      "link": "https://app.artifactbin.dev/@vivek/AQTt2H-did-prediction-markets-predict-the-midterms",
+      "pubDate": "2026-11-07T03:50:21.000Z",
+      "description": "I've heard so much about how prediction markets are the guiding light in this dark world. But when put head to head against polls or Nate Silver's FLIPR model, they are really a wash. Especially looking at flipped or close-by-polls races, there is no alpha compared to a traditional poll-based model.",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Lighting the Skies",
+      "link": "https://computer.rip/2026-10-25-searchlights.html",
+      "pubDate": "2026-11-07T03:40:34.000Z",
+      "description": "Article URL: https://computer.rip/2026-10-25-searchlights.html Comments URL: https://news.ycombinator.com/item?id=50401414 Points: 11 # Comments: 1",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "The AI sell-off compared to well-known stock market crashes",
+      "link": "https://www.kadoa.com/companies/insights/ai-selloff-perspective",
+      "pubDate": "2026-11-07T02:20:06.000Z",
+      "description": "Article URL: https://www.kadoa.com/companies/insights/ai-selloff-perspective Comments URL: https://news.ycombinator.com/item?id=50401029 Points: 39 # Comments: 27",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "I toured Unitree's factory. I'm more bullish on the West",
+      "link": "https://josef.cn/blog/unitree",
+      "pubDate": "2026-11-07T01:05:16.000Z",
+      "description": "Article URL: https://josef.cn/blog/unitree Comments URL: https://news.ycombinator.com/item?id=50400597 Points: 87 # Comments: 55",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "RealPage rent-pricing case wraps with nearly $360M to renters",
+      "link": "https://www.multifamilydive.com/news/realpage-rent-pricing-case-360m-renters/873553/",
+      "pubDate": "2026-11-06T23:37:19.000Z",
+      "description": "Article URL: https://www.multifamilydive.com/news/realpage-rent-pricing-case-360m-renters/873553/ Comments URL: https://news.ycombinator.com/item?id=50399991 Points: 77 # Comments: 33",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Libghostty 1.0",
+      "link": "https://mitchellh.com/writing/libghostty-1-0",
+      "pubDate": "2026-11-06T23:30:52.000Z",
+      "description": "Article URL: https://mitchellh.com/writing/libghostty-1-0 Comments URL: https://news.ycombinator.com/item?id=50399933 Points: 440 # Comments: 71",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Sodium-ion batteries approach cost parity with LFP",
+      "link": "https://www.pv-magazine.com/2026/11/06/sodium-ion-batteries-approach-cost-parity-with-lfp-with-70-gwh-covered-by-supply-agreements/",
+      "pubDate": "2026-11-06T23:00:46.000Z",
+      "description": "Article URL: https://www.pv-magazine.com/2026/11/06/sodium-ion-batteries-approach-cost-parity-with-lfp-with-70-gwh-covered-by-supply-agreements/ Comments URL: https://news.ycombinator.com/item?id=50399657 Points: 158 # Comments: 78",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "AI is dramatically accelerating AI research",
+      "link": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
+      "pubDate": "2026-11-06T20:27:23.000Z",
+      "description": "Article URL: https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai Comments URL: https://news.ycombinator.com/item?id=50397994 Points: 253 # Comments: 204",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Google has acquired Crusoe's data center site in southeast Wyoming",
+      "link": "https://www.crusoe.ai/resources/newsroom/crusoe-wyoming-data-center-campus-update",
+      "pubDate": "2026-11-06T20:09:14.000Z",
+      "description": "Article URL: https://www.crusoe.ai/resources/newsroom/crusoe-wyoming-data-center-campus-update Comments URL: https://news.ycombinator.com/item?id=50397711 Points: 60 # Comments: 11",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "RSS Club: CSS-Tricks Redesign Preview",
@@ -96,86 +176,6 @@
       "description": "Hey you wonderful RSS subscribers! We just soft-pushed a site redesign and wanted to give ya'll the first heads-up. A full write-up is coming but here are the high-level details. RSS Club: CSS-Tricks Redesign Preview originally handwritten and published with love on CSS-Tricks. You should really get",
       "source": "CSS Tricks",
       "category": "Frontend"
-    },
-    {
-      "title": "40C3 halfnarp – Submit talk preferences to aid scheduling",
-      "link": "https://halfnarp.events.ccc.de",
-      "pubDate": "2026-11-06T18:16:43.000Z",
-      "description": "Article URL: https://halfnarp.events.ccc.de Comments URL: https://news.ycombinator.com/item?id=50396108 Points: 5 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "We know 15k websites are infected. how do we tell them?",
-      "link": "https://scotthelme.co.uk/we-know-15-579-websites-are-infected-how-do-we-tell-them/",
-      "pubDate": "2026-11-06T18:13:35.000Z",
-      "description": "Article URL: https://scotthelme.co.uk/we-know-15-579-websites-are-infected-how-do-we-tell-them/ Comments URL: https://news.ycombinator.com/item?id=50396064 Points: 36 # Comments: 22",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Microsoft is winding down Oracle deal to rent AI cloud capacity",
-      "link": "https://www.reuters.com/business/microsoft-is-winding-down-oracle-deal-rent-ai-cloud-capacity-bloomberg-news-2026-11-06/",
-      "pubDate": "2026-11-06T18:04:06.000Z",
-      "description": "Article URL: https://www.reuters.com/business/microsoft-is-winding-down-oracle-deal-rent-ai-cloud-capacity-bloomberg-news-2026-11-06/ Comments URL: https://news.ycombinator.com/item?id=50395933 Points: 36 # Comments: 8",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Memorilla: Latent Semantic Memory for LLMs",
-      "link": "https://arxiv.org/abs/2610.21375",
-      "pubDate": "2026-11-06T18:03:33.000Z",
-      "description": "Article URL: https://arxiv.org/abs/2610.21375 Comments URL: https://news.ycombinator.com/item?id=50395919 Points: 20 # Comments: 1",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Kalshi court losses pile up as judges refuse to block state gambling laws",
-      "link": "https://arstechnica.com/tech-policy/2026/11/kalshi-court-losses-pile-up-as-judges-refuse-to-block-state-gambling-laws/",
-      "pubDate": "2026-11-06T18:02:34.000Z",
-      "description": "Article URL: https://arstechnica.com/tech-policy/2026/11/kalshi-court-losses-pile-up-as-judges-refuse-to-block-state-gambling-laws/ Comments URL: https://news.ycombinator.com/item?id=50395905 Points: 47 # Comments: 27",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Size-It-Up (Game)",
-      "link": "https://magnitudle.com/size-it-up",
-      "pubDate": "2026-11-06T17:59:59.000Z",
-      "description": "Article URL: https://magnitudle.com/size-it-up Comments URL: https://news.ycombinator.com/item?id=50395869 Points: 24 # Comments: 8",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Perplexity launches AI agents for work",
-      "link": "https://www.perplexity.ai/en-GB/hub/blog/teammates-are-agents-for-complex-ongoing-work",
-      "pubDate": "2026-11-06T17:59:41.000Z",
-      "description": "Article URL: https://www.perplexity.ai/en-GB/hub/blog/teammates-are-agents-for-complex-ongoing-work Comments URL: https://news.ycombinator.com/item?id=50395866 Points: 19 # Comments: 19",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Flawless UI-UX Skill 1.0.0",
-      "link": "https://github.com/smokeeaasd/flawless-ui-ux/releases/tag/v1.0.0",
-      "pubDate": "2026-11-06T17:52:34.000Z",
-      "description": "Article URL: https://github.com/smokeeaasd/flawless-ui-ux/releases/tag/v1.0.0 Comments URL: https://news.ycombinator.com/item?id=50395747 Points: 12 # Comments: 9",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Devvm.dev: One VM for every project",
-      "link": "https://devvm.dev/",
-      "pubDate": "2026-11-06T17:30:22.000Z",
-      "description": "Article URL: https://devvm.dev/ Comments URL: https://news.ycombinator.com/item?id=50395450 Points: 23 # Comments: 9",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "UpCodes (YC S17) is hiring SDR's to sell AI compliance software",
-      "link": "https://up.codes/careers?utm_source=HN",
-      "pubDate": "2026-11-06T17:03:33.000Z",
-      "description": "Article URL: https://up.codes/careers?utm_source=HN Comments URL: https://news.ycombinator.com/item?id=50395043 Points: 0 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
     },
     {
       "title": "Taming Typography: Building a Modern CSS Reset",
