@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T21:51:42.905Z",
+  "generatedAt": "2026-11-08T06:02:30.236Z",
   "sourceCount": 4,
   "successCount": 3,
   "errors": [
@@ -10,162 +10,162 @@
   ],
   "items": [
     {
-      "title": "Show HN: An offline desktop companion to help maintain a healthy blink rhythm",
-      "link": "https://eyesrhythm.com/",
-      "pubDate": "2026-11-07T21:47:47.000Z",
-      "description": "Profession like software engineer, mechanical / graphics designer takes a lot of strain on your eyes, observing minute details for hours and hours on screen can significantly reduce the blink rate which you might not even notice until it gets irreversibly painful, leaving you with dry eyes. I am alr",
+      "title": "Why an Empty Test Result Is Not a Pass",
+      "link": "https://dev.to/jeff_pdc/why-an-empty-test-result-is-not-a-pass-4p4b",
+      "pubDate": "2026-11-08T05:54:54.000Z",
+      "description": "<p>Quick answer: An empty test result means no evidence was collected, so it cannot be treated as a pass. When a check does not run, there is no output showing the code worked, and the correct verdict is inconclusive. A missing script is reported as unverified, and a lack of verified evidence stays ",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "CompTIA Network+ N10-009: The Exam That Rewards Troubleshooters, Not Memorizers",
+      "link": "https://dev.to/study4pass/comptia-network-n10-009-the-exam-that-rewards-troubleshooters-not-memorizers-6b3",
+      "pubDate": "2026-11-08T05:54:43.000Z",
+      "description": "<p>Most people study for CompTIA Network+ the way they studied for a school exam: flashcards, acronym lists, and a quiet hope that the test asks them to define things. Then they sit down in front of N10-009 and discover the exam has other plans. It hands you a broken network and asks what you would ",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Rebuilding a Tailwind v4 theme from an existing site",
+      "link": "https://dev.to/casper_tran_59c6a8b1e1f3d/rebuilding-a-tailwind-v4-theme-from-an-existing-site-49fl",
+      "pubDate": "2026-11-08T05:54:16.000Z",
+      "description": "<p>A client sends a link: \"make the new app feel like our site\". The site isn't built with Tailwind, the original designer is gone, and there's no style guide. You need a theme.</p> <p>Here is how I go from a live page to a Tailwind CSS v4 <code>@theme</code> block, first by hand, then the shortcut ",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "How ATS Parses Location, Remote &amp; Relocation",
+      "link": "https://dev.to/muhammadalimughal/how-ats-parses-location-remote-relocation-181o",
+      "pubDate": "2026-11-08T05:54:14.000Z",
+      "description": "<p>A recruiter filters candidates to \"Remote — US only\" or \"Austin, TX / open to relocate.\" Your header says \"Karachi | Open to opportunities.\" Depending on how Greenhouse, Workday, Lever, iCIMS or Taleo tokenizes that line, you either land in the shortlist or get screened out before a human reads a",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Catch the Risk Before the First Dose - Building an AI Drug Safety Reviewer That Remembers",
+      "link": "https://dev.to/sohapatel26/catch-the-risk-before-the-first-dose-building-an-ai-drug-safety-reviewer-that-remembers-npo",
+      "pubDate": "2026-11-08T05:53:55.000Z",
+      "description": "<blockquote> <p>💡 <strong>In one line:</strong> I built <strong>TrialSleuth AI</strong>, an agent that reviews a new drug <em>before</em> its first human trial and remembers every past drug result, so it gets smarter with each one.</p> <p>🚀 <a href=\"https://trialsleuthai.streamlit.app/\" rel=\"noope",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Why AI Fills Gaps but Cannot Invent Routes",
+      "link": "https://dev.to/jeff_pdc/why-ai-fills-gaps-but-cannot-invent-routes-52cf",
+      "pubDate": "2026-11-08T05:53:10.000Z",
+      "description": "<p>Quick answer: AI fills gaps with small per-handler slices tied to specific gap codes, but it cannot invent a route, method, or path. The deterministic scan first proves the structure through framework tracing and AST analysis, leaving only explicit unknowns. The model then addresses those named g",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "pd.to_numeric(errors=\"coerce\") Hid a $22.6M Bug in My Test Billing Feed",
+      "link": "https://dev.to/endlessfountain/pdtonumericerrorscoerce-hid-a-226m-bug-in-my-test-billing-feed-2f6p",
+      "pubDate": "2026-11-08T05:51:27.000Z",
+      "description": "<p>Whenever a nightly CSV import starts failing on dirty strings, somebody eventually opens a pull request with this one-liner:</p> <h2> python </h2> <div class=\"highlight js-code-highlight\"> <pre class=\"highlight python\"><code><span class=\"n\">df</span><span class=\"p\">[</span><span class=\"sh\">\"</spa",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "When a 200 Response Still Breaks the Contract",
+      "link": "https://dev.to/jeff_pdc/when-a-200-response-still-breaks-the-contract-5858",
+      "pubDate": "2026-11-08T05:51:23.000Z",
+      "description": "<p>Quick answer: A 200 status only means the request was accepted and returned a response. It does not confirm the body matches the contract, so a wrong field, a bad type, or a missing value can break the spec while the status stays green. Assert the response fields and check them against the schema",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "The AI Brain: SageMaker BGE Cross-Encoder Reranking &amp; Sub-100ms Bedrock ConverseStream SSE (Part 4)",
+      "link": "https://dev.to/nagachaitanya_inamdar_56c/the-ai-brain-sagemaker-bge-cross-encoder-reranking-sub-100ms-bedrock-conversestream-sse-part-4-2pm3",
+      "pubDate": "2026-11-08T05:50:33.000Z",
+      "description": "<p>In <a href=\"https://dev.to/\">Part 3 of this series</a>, we built our Storage Vault in PostgreSQL 16: co-locating dense <code>pgvector</code> embeddings and full-text BM25 indexes, using Reciprocal Rank Fusion (RRF) to merge candidate chunks into a unified pool of 15 relevant documents.</p> <p>At ",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "How to message the AI agent on your laptop from your phone with Telegram",
+      "link": "https://dev.to/bestaitool/how-to-message-the-ai-agent-on-your-laptop-from-your-phone-with-telegram-194a",
+      "pubDate": "2026-11-08T05:50:30.000Z",
+      "description": "<p>An AI agent running on a laptop can read your files, run your tools and use your keys, but only while you are sitting in front of it. Away from the desk, the usual answers are a remote desktop app or a cloud copy of the agent, and both mean either a tiny screen or moving your files somewhere else",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Kirlian Photography: Building Your Own Equipment",
+      "link": "https://imagesco.com/articles/kirlian/kirlian-photography.html",
+      "pubDate": "2026-11-08T04:14:12.000Z",
+      "description": "Article URL: https://imagesco.com/articles/kirlian/kirlian-photography.html Comments URL: https://news.ycombinator.com/item?id=50410359 Points: 9 # Comments: 1",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Bagaimana osFoundry mencegah edit dari Claude menimpa edit seseorang di Note yang sama?",
-      "link": "https://dev.to/bbt-id/bagaimana-osfoundry-mencegah-edit-dari-claude-menimpa-edit-seseorang-di-note-yang-sama-1pak",
-      "pubDate": "2026-11-07T21:43:46.000Z",
-      "description": "<p>Inilah tool tulis yang didapat chat Claude untuk Notes di <a href=\"https://osfoundry.io/id\" rel=\"noopener noreferrer\">osFoundry</a>, sesuai daftar di endpoint MCP publiknya. Data ini diambil lewat <code>tools/list</code> tanpa autentikasi pada 2026-11-06, lalu dipangkas ke field yang relevan di s",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Schlägt semantische Code-Suche grep wirklich in einem echten Repository?",
-      "link": "https://dev.to/bestaitools-de/schlagt-semantische-code-suche-grep-wirklich-in-einem-echten-repository-5mm",
-      "pubDate": "2026-11-07T21:43:33.000Z",
-      "description": "<p>Der Pitch fürs Einbetten einer Codebasis ist immer dieselbe Demo: Man fragt „Wo sperren wir Nutzer aus?“, grep findet nichts, weil der Code das Cooldown nennt, und die Vektorsuche landet in der richtigen Funktion. Eine gute Demo. Die Frage ist, wie oft das bei Code funktioniert, den niemand für d",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "How to keep the same character across AI video clips with reference images (Kling 3.0 Omni, MiniMax H3, Wan, Seedance)",
-      "link": "https://dev.to/ref_vid/how-to-keep-the-same-character-across-ai-video-clips-with-reference-images-kling-30-omni-minimax-187f",
-      "pubDate": "2026-11-07T21:42:57.000Z",
-      "description": "<p>The most common complaint about AI video is not quality. It is that clip two shows a different person from clip one. You describe \"a woman with a copper-red bob and an olive jacket\", and the model draws a new woman who fits that description every time you press Generate.</p> <p>The fix that works",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Tabs in One: združite vse zavihke Chrome v en stolpec (in sprostite RAM)",
-      "link": "https://dev.to/tabsinone/tabs-in-one-zdruzite-vse-zavihke-chrome-v-en-stolpec-in-sprostite-ram-18lf",
-      "pubDate": "2026-11-07T21:41:40.000Z",
-      "description": "<p>Če berete to, imate verjetno prav zdaj odprtih več kot 40 zavihkov. Chrome požre 4 GB RAM, ventilator prenosnika kriči in ne najdete tistega zavihka, ki ste ga odprli pred 20 minutami.</p> <p>Zgradil sem <strong>Tabs in One</strong>, da reši točno to.</p> <h2> Težava </h2> <p>Vrstica zavihkov v C",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Find the case that breaks your boolean logic: Tangibool's free version is live",
-      "link": "https://dev.to/muazn/find-the-case-that-breaks-your-boolean-logic-tangibools-free-version-is-live-d1l",
-      "pubDate": "2026-11-07T21:41:09.000Z",
-      "description": "<p>Two lines written from the same spec:</p> <p><code>// \"Allow entry to members and invited guests, unless they are banned.\"<br> const allowA = (member || invited) &amp;&amp; !banned;<br> const allowB = member || (invited &amp;&amp; !banned);</code></p> <p>The two lines disagree in two of the eight",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "AI search can reach almost every site we audited. Most give it little worth quoting",
-      "link": "https://dev.to/kaustavbasak/ai-search-can-reach-almost-every-site-we-audited-most-give-it-little-worth-quoting-dni",
-      "pubDate": "2026-11-07T21:40:49.000Z",
-      "description": "<p>Every month we publish totals from the websites people audit on <a href=\"https://seoaiaudits.com\" rel=\"noopener noreferrer\">SEO AI Audits</a>, a free SEO audit tool our team builds. In October 2026, 106 websites were audited, 24,184 pages in all. This post looks at one question: when ChatGPT, Per",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "DataMiner's 1,482 Title Matches Do Not Find BrokerGateway",
-      "link": "https://dev.to/johnettagaweraks/dataminers-1482-title-matches-do-not-find-brokergateway-4l21",
-      "pubDate": "2026-11-07T21:40:36.000Z",
-      "description": "<h1> DataMiner's 1,482 Title Matches Do Not Find BrokerGateway </h1> <p>Skyline DataMiner manages monitoring and orchestration across media, satellite, and network operations. A ZoomEye observation on November 7, 2026 returned zero for <code>app=\"Skyline DataMiner\"</code>, 1,482 for <code>title=\"Dat",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "osFoundry처럼 Codex CLI를 Python으로 감싸는 방법",
-      "link": "https://dev.to/bbt-ko/osfoundryceoreom-codex-clireul-pythoneuro-gamssaneun-bangbeob-84k",
-      "pubDate": "2026-11-07T21:40:13.000Z",
-      "description": "<p><a href=\"https://osfoundry.io/ko\" rel=\"noopener noreferrer\">osFoundry</a> 데스크톱 앱에서 Codex의 \"로그인 확인\"을 누르면 아래 명령이 실행된다. 명령을 조립하는 건 <code>src-tauri/src/providers/agent_cli.rs</code>의 <code>build_codex_command</code>이고, <code>cli:codex:agent</code>로 도는 실제 작업도 전부 이 함수를 거친다.<br> </p> <div class=\"highlig",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Rebuilding Praecepta: From a Trie to Bitsets, and a Fair Benchmark Against Camunda and Drools",
-      "link": "https://dev.to/brunopacheco1/rebuilding-praecepta-from-a-trie-to-bitsets-and-a-fair-benchmark-against-camunda-and-drools-3f4p",
-      "pubDate": "2026-11-07T21:38:35.000Z",
-      "description": "<p>In January 2023 I wrote about <a href=\"https://bruno.pacheco.lu/posts/optimizing-decision-making-with-trie-tree/\" rel=\"noopener noreferrer\">optimizing decision-making with a trie</a>. The idea worked in principle: part of it was implemented, and is still maintained, at <a href=\"https://www.pictet",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "How do you run AI agent evals in parallel on cloud GPUs?",
-      "link": "https://dev.to/viswaretas_kotra/how-do-you-run-ai-agent-evals-in-parallel-on-cloud-gpus-1nma",
-      "pubDate": "2026-11-07T21:38:20.000Z",
-      "description": "<p>Give every eval episode its own isolated sandbox, cap what each episode may spend, cap the whole batch, and let a separate grader score the answers. On Nodus that is one AgentGroup with a concurrency limit, a per-run model cap and a group cap, grading a fixed, versioned task set in sandboxes with",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Shadow of the Sun",
-      "link": "https://mattlakeman.org/2021/07/27/shadow-of-the-sun/",
-      "pubDate": "2026-11-07T21:11:05.000Z",
-      "description": "Article URL: https://mattlakeman.org/2021/07/27/shadow-of-the-sun/ Comments URL: https://news.ycombinator.com/item?id=50408104 Points: 4 # Comments: 2",
+      "title": "I Use Development-Driven Specs, Not Spec-Driven Development",
+      "link": "https://github.com/waywardgeek/ensemble",
+      "pubDate": "2026-11-08T03:51:55.000Z",
+      "description": "Article URL: https://github.com/waywardgeek/ensemble Comments URL: https://news.ycombinator.com/item?id=50410279 Points: 12 # Comments: 8",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Show HN: Where Were We",
-      "link": "https://wherewerewe.app/",
-      "pubDate": "2026-11-07T21:08:35.000Z",
-      "description": "A little web game I made as an anniversary present for my wife.Upload vacation photos and make them into a game.WWW uses EXIF to determine where and when the photo was taken. This is then turned into a game you can send to anyone. Comments URL: https://news.ycombinator.com/item?id=50408082 Points: 1",
+      "title": "Show HN: Maple – Sub-2-BPW Moe Pruning to Run Gemma 4 26B at 45 TPS on a 6GB GPU",
+      "link": "https://github.com/AmSach/maple",
+      "pubDate": "2026-11-08T03:48:04.000Z",
+      "description": "Article URL: https://github.com/AmSach/maple Comments URL: https://news.ycombinator.com/item?id=50410253 Points: 3 # Comments: 1",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
-      "link": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
-      "pubDate": "2026-11-07T20:45:32.000Z",
-      "description": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 39 # Comments: 21",
+      "title": "Goodbye Claude, Hello Pi",
+      "link": "https://caleb.software/posts/claude-to-pi.html",
+      "pubDate": "2026-11-08T03:11:48.000Z",
+      "description": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 58 # Comments: 31",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "What I run on my $10 USD OpenStick homelab",
-      "link": "https://blog.bosscher.ch/posts/openstick/",
-      "pubDate": "2026-11-07T18:12:12.000Z",
-      "description": "Article URL: https://blog.bosscher.ch/posts/openstick/ Comments URL: https://news.ycombinator.com/item?id=50406670 Points: 186 # Comments: 41",
+      "title": "Consumer brain wave headsets threaten privacy",
+      "link": "https://www.science.org/content/article/wearable-device-makers-are-harvesting-brain-data-train-ai-without-telling-users?referrer=https%3A%2F%2Fwww.google.com%2F",
+      "pubDate": "2026-11-08T02:02:38.000Z",
+      "description": "Article URL: https://www.science.org/content/article/wearable-device-makers-are-harvesting-brain-data-train-ai-without-telling-users?referrer=https%3A%2F%2Fwww.google.com%2F Comments URL: https://news.ycombinator.com/item?id=50409856 Points: 10 # Comments: 3",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "The end of Microsoft Research's AI Frontiers group",
-      "link": "https://hunch.net/?p=13764006",
-      "pubDate": "2026-11-07T18:02:17.000Z",
-      "description": "https://archive.is/AaY5Ohttps://businessexaminer.ca/victoria-articles/item/microsoft... Comments URL: https://news.ycombinator.com/item?id=50406563 Points: 248 # Comments: 139",
+      "title": "ZapFast: A fast, native WhatsApp client in Rust and egui",
+      "link": "https://github.com/crmne/zapfast",
+      "pubDate": "2026-11-08T02:02:27.000Z",
+      "description": "Article URL: https://github.com/crmne/zapfast Comments URL: https://news.ycombinator.com/item?id=50409855 Points: 28 # Comments: 15",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "GeoWorks, Microsoft Windows' Upstart '90s Competitor (2016)",
-      "link": "https://www.atlasobscura.com/articles/the-history-of-geoworks-microsoft-windows-upstart-90s-competitor",
-      "pubDate": "2026-11-07T17:54:56.000Z",
-      "description": "Article URL: https://www.atlasobscura.com/articles/the-history-of-geoworks-microsoft-windows-upstart-90s-competitor Comments URL: https://news.ycombinator.com/item?id=50406502 Points: 26 # Comments: 5",
+      "title": "Commodore PET – The Worlds First Personal Computer",
+      "link": "https://www.commodore.ca/commodore-products/commodore-pet-the-worlds-first-personal-computer/",
+      "pubDate": "2026-11-07T23:15:34.000Z",
+      "description": "Article URL: https://www.commodore.ca/commodore-products/commodore-pet-the-worlds-first-personal-computer/ Comments URL: https://news.ycombinator.com/item?id=50408961 Points: 36 # Comments: 14",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Five memorable books about programming (2008)",
-      "link": "https://prog21.dadgum.com/19.html",
-      "pubDate": "2026-11-07T17:30:49.000Z",
-      "description": "Article URL: https://prog21.dadgum.com/19.html Comments URL: https://news.ycombinator.com/item?id=50406319 Points: 56 # Comments: 26",
+      "title": "GitHub New pull request overview page in public preview",
+      "link": "https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview/",
+      "pubDate": "2026-11-07T23:09:40.000Z",
+      "description": "Article URL: https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview/ Comments URL: https://news.ycombinator.com/item?id=50408931 Points: 106 # Comments: 75",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Show HN: Coldframe, a honeypot that poses as a supermarket fridge controller",
-      "link": "https://github.com/hedgerow-dev/coldframe",
-      "pubDate": "2026-11-07T17:27:30.000Z",
-      "description": "I built Coldframe, a honeypot that pretends to be a supermarket refrigeration controller. Inspired by the events on industrial fridge installations in the past weeks, I wanted to see what people would try against a convincing fake.To learn more about this I built a honeypot that resembled perfectly ",
+      "title": "IRA Velinsky – Commodore's Industrial Designer",
+      "link": "https://www.commodore.ca/commodore-history/ira-velinsky-commodores-amazing-industrial-designer/",
+      "pubDate": "2026-11-07T22:45:39.000Z",
+      "description": "Article URL: https://www.commodore.ca/commodore-history/ira-velinsky-commodores-amazing-industrial-designer/ Comments URL: https://news.ycombinator.com/item?id=50408750 Points: 25 # Comments: 1",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "MaxxBench – \"Nice DeepSWE score. But is it true?\"",
-      "link": "https://maxxbench.unlap.ai/research/why-maxxbench/",
-      "pubDate": "2026-11-07T17:19:00.000Z",
-      "description": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/ Comments URL: https://news.ycombinator.com/item?id=50406222 Points: 125 # Comments: 32",
+      "title": "Making any integer with four 2s (2025)",
+      "link": "https://eli.thegreenplace.net/2025/making-any-integer-with-four-2s/",
+      "pubDate": "2026-11-07T22:38:58.000Z",
+      "description": "Article URL: https://eli.thegreenplace.net/2025/making-any-integer-with-four-2s/ Comments URL: https://news.ycombinator.com/item?id=50408713 Points: 92 # Comments: 25",
       "source": "Hacker News",
       "category": "Tech News"
     },
