@@ -1,173 +1,97 @@
 {
-  "generatedAt": "2026-11-08T22:06:18.990Z",
+  "generatedAt": "2026-11-09T06:31:47.279Z",
   "sourceCount": 4,
-  "successCount": 3,
+  "successCount": 2,
   "errors": [
     {
       "source": "Hack The Box Security Blog",
       "error": "HTTP 404 Not Found"
+    },
+    {
+      "source": "Hacker News",
+      "error": "fetch failed"
     }
   ],
   "items": [
     {
-      "title": "Three Tauri bugs I found by not trusting a green build",
-      "link": "https://dev.to/ubrodev/three-tauri-bugs-i-found-by-not-trusting-a-green-build-1fc9",
-      "pubDate": "2026-11-08T22:02:57.000Z",
-      "description": "<blockquote> <p><strong>TL;DR</strong> 🧵 Last week I wrote about one Tauri bug. Someone in the comments told me to check the updater manifest, not just the files it points at. That one nudge turned one bug into three, and my pipeline into something I actually trust. Short version: a green build tel",
+      "title": "Claude Code Leaked 2,539 Secrets Onto GitHub. I Checked My Own Repos the Same Morning",
+      "link": "https://dev.to/aheadkit/claude-code-leaked-2539-secrets-onto-github-i-checked-my-own-repos-the-same-morning-l39",
+      "pubDate": "2026-11-09T06:22:26.000Z",
+      "description": "<p>I found out about it the way you find out about most things that ruin your morning: a link in a group chat, no context — \"bro check your repos.\"</p> <p>Apiiro had scanned public GitHub for copies of <code>.claude/settings.local.json</code> — the file where Claude Code keeps your local settings — ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "SteamVR schärft das Streaming-Bild – aber Sehtraining ist kein Rendering-Problem",
-      "link": "https://dev.to/ashish_624379625242c5d263/steamvr-scharft-das-streaming-bild-aber-sehtraining-ist-kein-rendering-problem-1c7j",
-      "pubDate": "2026-11-08T22:02:28.000Z",
-      "description": "<h1> SteamVR schärft das Streaming-Bild – aber Sehtraining ist kein Rendering-Problem </h1> <p>Wer diese Woche die SteamVR-Beta installiert hat, kennt die Schlagzeile: Valve hat ein Beta-Update veröffentlicht, das die Bildqualität beim Streaming über Steam Link für alle unterstützten Standalone-Head",
+      "title": "AMR Sensors and Perception — Ch.06: Thermal Cameras [KR]",
+      "link": "https://dev.to/richard_minsoogo/amr-sensors-and-perception-ch06-thermal-cameras-kr-2ad6",
+      "pubDate": "2026-11-09T06:22:23.000Z",
+      "description": "<blockquote> <p>STATERA Library · Series 02 · Volume 03 · Chapter 06 · KR<br> Source: <a href=\"https://github.com/Statera-Library/02_Vol_03_AMR_Sensors_and_Perception/blob/main/06_Thermal_Cameras/06_Thermal_Cameras_KR.md\" rel=\"noopener noreferrer\">https://github.com/Statera-Library/02_Vol_03_AMR_Sen",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Make Your Coding Agent Wait 7 Days for New Packages: npm, pnpm, Yarn, Bun and uv",
-      "link": "https://dev.to/gabrielanhaia/make-your-coding-agent-wait-7-days-for-new-packages-npm-pnpm-yarn-bun-and-uv-1021",
-      "pubDate": "2026-11-08T22:01:17.000Z",
-      "description": "<ul> <li> <strong>Book:</strong> <a href=\"https://www.amazon.com/dp/B0HBTDV75G\" rel=\"noopener noreferrer\">AI That Acts</a> </li> <li> <strong>The series:</strong> <em>AI in TypeScript</em> — 5 books, from your first LLM call to agents in production — <a href=\"https://xgabriel.com/ai-in-typescript\" r",
+      "title": "AMR Sensors and Perception — Ch.05: Depth Cameras [KR]",
+      "link": "https://dev.to/richard_minsoogo/amr-sensors-and-perception-ch05-depth-cameras-kr-4lda",
+      "pubDate": "2026-11-09T06:22:09.000Z",
+      "description": "<blockquote> <p>STATERA Library · Series 02 · Volume 03 · Chapter 05 · KR<br> Source: <a href=\"https://github.com/Statera-Library/02_Vol_03_AMR_Sensors_and_Perception/blob/main/05_Depth_Cameras/05_Depth_Cameras_KR.md\" rel=\"noopener noreferrer\">https://github.com/Statera-Library/02_Vol_03_AMR_Sensors",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Axelor Permissions Need Review Across Objects, Fields, and Roles",
-      "link": "https://dev.to/onaeiuspkz/axelor-permissions-need-review-across-objects-fields-and-roles-29oh",
-      "pubDate": "2026-11-08T22:01:17.000Z",
-      "description": "<h1> Axelor Permissions Need Review Across Objects, Fields, and Roles </h1> <p>Axelor Open Suite combines CRM, sales, finance, inventory, production, HR, and project modules on a low-code platform. That breadth is the point of an integrated business suite. It also creates a permission graph that a s",
+      "title": "What should a scheduled job do when the laptop was asleep?",
+      "link": "https://dev.to/bestaitool/what-should-a-scheduled-job-do-when-the-laptop-was-asleep-1dc4",
+      "pubDate": "2026-11-09T06:22:06.000Z",
+      "description": "<p>A cron expression says when a job runs and nothing else. On a server that is enough, because the machine is always on and a run rarely outlasts the gap to the next one. On a laptop neither is true. The lid is closed at 09:00, the app that owns the schedule isn't running, and an AI agent run can t",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Don't Paste AI Answers Into Your Study Group Chat. I Did. It Went Badly.",
-      "link": "https://dev.to/aheadkit/dont-paste-ai-answers-into-your-study-group-chat-i-did-it-went-badly-3g2i",
-      "pubDate": "2026-11-08T22:00:00.000Z",
-      "description": "<p>It was 11:48 at night when I pasted the answer into our class group chat and hit send before my brain caught up.</p> <p>I am a naval architecture student in Bangladesh, the problem set was due at 8 the next morning, and I had spent exactly <strong>0 minutes</strong> on it. The AI had spent about ",
+      "title": "AMR Sensors and Perception — Ch.04: RGB Cameras [KR]",
+      "link": "https://dev.to/richard_minsoogo/amr-sensors-and-perception-ch04-rgb-cameras-kr-2cd9",
+      "pubDate": "2026-11-09T06:21:58.000Z",
+      "description": "<blockquote> <p>STATERA Library · Series 02 · Volume 03 · Chapter 04 · KR<br> Source: <a href=\"https://github.com/Statera-Library/02_Vol_03_AMR_Sensors_and_Perception/blob/main/04_RGB_Cameras/04_RGB_Cameras_KR.md\" rel=\"noopener noreferrer\">https://github.com/Statera-Library/02_Vol_03_AMR_Sensors_and",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "What Governance Policies Are Necessary for Auditing Autonomous Agent Actions?",
-      "link": "https://dev.to/kami_butt_69b922ade8de012/what-governance-policies-are-necessary-for-auditing-autonomous-agent-actions-aej",
-      "pubDate": "2026-11-08T21:57:09.000Z",
-      "description": "<h1> What Governance Policies Are Necessary for Auditing Autonomous Agent Actions? </h1> <p>Your agent just booked a refund, moved money, or emailed a customer — and nobody watched it do any of it. That's not a logging problem. That's a governance vacuum, and the numbers are ugly: 88% of organisatio",
+      "title": "AMR Sensors and Perception — Ch.03: 3D LiDAR [KR]",
+      "link": "https://dev.to/richard_minsoogo/amr-sensors-and-perception-ch03-3d-lidar-kr-3jhj",
+      "pubDate": "2026-11-09T06:21:45.000Z",
+      "description": "<blockquote> <p>STATERA Library · Series 02 · Volume 03 · Chapter 03 · KR<br> Source: <a href=\"https://github.com/Statera-Library/02_Vol_03_AMR_Sensors_and_Perception/blob/main/03_3D_LiDAR/03_3D_LiDAR_KR.md\" rel=\"noopener noreferrer\">https://github.com/Statera-Library/02_Vol_03_AMR_Sensors_and_Perce",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Zero-Bloat Frontend Architecture for High-Speed Publishing",
-      "link": "https://dev.to/slobodnium/zero-bloat-frontend-architecture-for-high-speed-publishing-5053",
-      "pubDate": "2026-11-08T21:55:16.000Z",
-      "description": "<h1> Zero-Bloat Frontend Architecture for High-Speed Publishing </h1> <p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fnvdtogal3d3x8ntmbkmk.png\" class=\"arti",
+      "title": "AMR Sensors and Perception — Ch.02: 2D LiDAR [KR]",
+      "link": "https://dev.to/richard_minsoogo/amr-sensors-and-perception-ch02-2d-lidar-kr-jbo",
+      "pubDate": "2026-11-09T06:21:31.000Z",
+      "description": "<blockquote> <p>STATERA Library · Series 02 · Volume 03 · Chapter 02 · KR<br> Source: <a href=\"https://github.com/Statera-Library/02_Vol_03_AMR_Sensors_and_Perception/blob/main/02_2D_LiDAR/02_2D_LiDAR_KR.md\" rel=\"noopener noreferrer\">https://github.com/Statera-Library/02_Vol_03_AMR_Sensors_and_Perce",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "GitHub Actions \"Resource not accessible by integration\": Fix It With the Smallest GITHUB_TOKEN Permission",
-      "link": "https://dev.to/libme/github-actions-resource-not-accessible-by-integration-fix-it-with-the-smallest-githubtoken-2gk7",
-      "pubDate": "2026-11-08T21:54:39.000Z",
-      "description": "<p>The error means the <code>GITHUB_TOKEN</code> your job runs with lacks the permission for the API call it just made. Fix it by adding a <code>permissions:</code> block to the specific job with only the scope that call needs (for example <code>pull-requests: write</code> to comment on a PR). Don't",
+      "title": "AMR Sensors and Perception — Ch.01: Robot Perception Overview [KR]",
+      "link": "https://dev.to/richard_minsoogo/amr-sensors-and-perception-ch01-robot-perception-overview-kr-1p3",
+      "pubDate": "2026-11-09T06:21:19.000Z",
+      "description": "<blockquote> <p>STATERA Library · Series 02 · Volume 03 · Chapter 01 · KR<br> Source: <a href=\"https://github.com/Statera-Library/02_Vol_03_AMR_Sensors_and_Perception/blob/main/01_Robot_Perception_Overview/01_Robot_Perception_Overview_KR.md\" rel=\"noopener noreferrer\">https://github.com/Statera-Libra",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Optimizing Over-Engineered Home Lab: Maximizing EMC Gen4T M1200 Avamar Nodes and 2U NVR Chassis Utilization",
-      "link": "https://dev.to/elenbit/optimizing-over-engineered-home-lab-maximizing-emc-gen4t-m1200-avamar-nodes-and-2u-nvr-chassis-45pk",
-      "pubDate": "2026-11-08T21:53:19.000Z",
-      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fn8uhtmjgxjpi9a25cfdr.jpeg\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image",
+      "title": "AMR Sensors and Perception — Ch.25: Future Robot Perception [EN]",
+      "link": "https://dev.to/richard_minsoogo/amr-sensors-and-perception-ch25-future-robot-perception-en-1e2a",
+      "pubDate": "2026-11-09T06:21:07.000Z",
+      "description": "<blockquote> <p>STATERA Library · Series 02 · Volume 03 · Chapter 25 · EN<br> Source: <a href=\"https://github.com/Statera-Library/02_Vol_03_AMR_Sensors_and_Perception/blob/main/25_Future_Robot_Perception/25_Future_Robot_Perception_EN.md\" rel=\"noopener noreferrer\">https://github.com/Statera-Library/0",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "From SoWa Power Station to the Binding Pocket: Why Structural Biology Needs Its Hallway Moment",
-      "link": "https://dev.to/ashish_624379625242c5d263/from-sowa-power-station-to-the-binding-pocket-why-structural-biology-needs-its-hallway-moment-9kj",
-      "pubDate": "2026-11-08T21:51:28.000Z",
-      "description": "<h1> From SoWa Power Station to the Binding Pocket: Why Structural Biology Needs Its Hallway Moment </h1> <p>I still remember the hum of the SoWa Power Station on a rainy Tuesday in Boston. The old brick building, repurposed into a co‑working space, smelled of cold coffee and solder. I was hunched o",
+      "title": "Construction Estimation as a Career: Skills, Tools, and Growth Path",
+      "link": "https://dev.to/construwx_dm_71a65fd991e2/construction-estimation-as-a-career-skills-tools-and-growth-path-5hb5",
+      "pubDate": "2026-11-09T06:20:59.000Z",
+      "description": "<p>Estimation is one of the most misunderstood <a href=\"https://construwx.in/\" rel=\"noopener noreferrer\">career paths in construction</a>.</p> <p>Many students think it means “calculate quantities.” Some fresh engineers think it means preparing Excel sheets. Some people treat it as a back-office tas",
       "source": "Dev.to Feed",
       "category": "Development"
-    },
-    {
-      "title": "Ask HN: What are you working on? (November 2026)",
-      "link": "https://news.ycombinator.com/item?id=50417407",
-      "pubDate": "2026-11-08T21:20:20.000Z",
-      "description": "What are you working on? What have you been curious about lately? Comments URL: https://news.ycombinator.com/item?id=50417407 Points: 12 # Comments: 8",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Nvidia Board of Directors Is Investigating Jensen Huang",
-      "link": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
-      "pubDate": "2026-11-08T20:26:43.000Z",
-      "description": "Article URL: https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors Comments URL: https://news.ycombinator.com/item?id=50416801 Points: 208 # Comments: 160",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Starship Flight 15 on 11/13 plans to catch both booster and ship",
-      "link": "https://www.spacex.com/launches/starship-flight-15",
-      "pubDate": "2026-11-08T19:49:46.000Z",
-      "description": "Article URL: https://www.spacex.com/launches/starship-flight-15 Comments URL: https://news.ycombinator.com/item?id=50416471 Points: 42 # Comments: 18",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "The Web Is More Than Enough, by Paul Ford",
-      "link": "https://ftrain.com/aboard-the-web-is-more-than-enough",
-      "pubDate": "2026-11-08T19:48:32.000Z",
-      "description": "Article URL: https://ftrain.com/aboard-the-web-is-more-than-enough Comments URL: https://news.ycombinator.com/item?id=50416456 Points: 16 # Comments: 4",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "How I Fight AI Brain Fry",
-      "link": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
-      "pubDate": "2026-11-08T19:37:42.000Z",
-      "description": "Article URL: https://sergeykuhne.com/blog/fighting-ai-brain-fry Comments URL: https://news.ycombinator.com/item?id=50416363 Points: 92 # Comments: 79",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Outlook.com Is Quietly Rejecting Email from Domains Without DMARC",
-      "link": "https://mailroute.net/blog/outlook-rejecting-email-without-dmarc",
-      "pubDate": "2026-11-08T19:20:32.000Z",
-      "description": "Article URL: https://mailroute.net/blog/outlook-rejecting-email-without-dmarc Comments URL: https://news.ycombinator.com/item?id=50416158 Points: 125 # Comments: 102",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Dux: Free, open-source Wayland desktop shell with file manager and theming",
-      "link": "https://duxlabs.dev/",
-      "pubDate": "2026-11-08T19:08:51.000Z",
-      "description": "Article URL: https://duxlabs.dev/ Comments URL: https://news.ycombinator.com/item?id=50416053 Points: 96 # Comments: 32",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Playing with the STM32MP2",
-      "link": "https://serd.es/2026/11/08/playing-with-stm32mp2.html",
-      "pubDate": "2026-11-08T19:04:07.000Z",
-      "description": "Article URL: https://serd.es/2026/11/08/playing-with-stm32mp2.html Comments URL: https://news.ycombinator.com/item?id=50416014 Points: 6 # Comments: 1",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Playing Zork 1 on a CP/M emulator on Linux (2021)",
-      "link": "https://kevinboone.me/cpmzork.html",
-      "pubDate": "2026-11-08T18:33:50.000Z",
-      "description": "Article URL: https://kevinboone.me/cpmzork.html Comments URL: https://news.ycombinator.com/item?id=50415750 Points: 20 # Comments: 11",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Goldman Sachs Is Pulling Claude Code from Its Bankers and Traders",
-      "link": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
-      "pubDate": "2026-11-08T18:16:07.000Z",
-      "description": "Article URL: https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers Comments URL: https://news.ycombinator.com/item?id=50415628 Points: 447 # Comments: 277",
-      "source": "Hacker News",
-      "category": "Tech News"
     },
     {
       "title": "RSS Club: CSS-Tricks Redesign Preview",
