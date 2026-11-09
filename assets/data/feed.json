@@ -1,97 +1,181 @@
 {
-  "generatedAt": "2026-11-09T06:31:47.279Z",
+  "generatedAt": "2026-11-09T22:22:28.624Z",
   "sourceCount": 4,
-  "successCount": 2,
+  "successCount": 3,
   "errors": [
     {
       "source": "Hack The Box Security Blog",
       "error": "HTTP 404 Not Found"
-    },
-    {
-      "source": "Hacker News",
-      "error": "fetch failed"
     }
   ],
   "items": [
     {
-      "title": "Claude Code Leaked 2,539 Secrets Onto GitHub. I Checked My Own Repos the Same Morning",
-      "link": "https://dev.to/aheadkit/claude-code-leaked-2539-secrets-onto-github-i-checked-my-own-repos-the-same-morning-l39",
-      "pubDate": "2026-11-09T06:22:26.000Z",
-      "description": "<p>I found out about it the way you find out about most things that ruin your morning: a link in a group chat, no context — \"bro check your repos.\"</p> <p>Apiiro had scanned public GitHub for copies of <code>.claude/settings.local.json</code> — the file where Claude Code keeps your local settings — ",
+      "title": "ttyd auth headers and client certificates are different trust paths",
+      "link": "https://dev.to/jeffreyciend/ttyd-auth-headers-and-client-certificates-are-different-trust-paths-m6j",
+      "pubDate": "2026-11-09T22:20:58.000Z",
+      "description": "<h1> ttyd auth headers and client certificates are different trust paths </h1> <p>ttyd shares a terminal over the web. Its documentation offers basic authentication, an authentication header for a reverse proxy, and client-certificate verification. Those options are often treated as interchangeable ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "AMR Sensors and Perception — Ch.06: Thermal Cameras [KR]",
-      "link": "https://dev.to/richard_minsoogo/amr-sensors-and-perception-ch06-thermal-cameras-kr-2ad6",
-      "pubDate": "2026-11-09T06:22:23.000Z",
-      "description": "<blockquote> <p>STATERA Library · Series 02 · Volume 03 · Chapter 06 · KR<br> Source: <a href=\"https://github.com/Statera-Library/02_Vol_03_AMR_Sensors_and_Perception/blob/main/06_Thermal_Cameras/06_Thermal_Cameras_KR.md\" rel=\"noopener noreferrer\">https://github.com/Statera-Library/02_Vol_03_AMR_Sen",
+      "title": "PdfCraft: leitor e editor de PDF de código aberto feito em Rust",
+      "link": "https://dev.to/victor_hugo_a07c85ac09eea/pdfcraft-leitor-e-editor-de-pdf-de-codigo-aberto-feito-em-rust-phc",
+      "pubDate": "2026-11-09T22:20:49.000Z",
+      "description": "<h2> O que é </h2> <p>O PdfCraft é um leitor e editor de arquivos PDF de código aberto, construído do zero na linguagem Rust. O aplicativo funciona nativamente sem exigir contas de usuário, serviços em nuvem ou coleta de telemetria. Ele oferece renderização precisa de tipografias e elementos visuais",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "AMR Sensors and Perception — Ch.05: Depth Cameras [KR]",
-      "link": "https://dev.to/richard_minsoogo/amr-sensors-and-perception-ch05-depth-cameras-kr-4lda",
-      "pubDate": "2026-11-09T06:22:09.000Z",
-      "description": "<blockquote> <p>STATERA Library · Series 02 · Volume 03 · Chapter 05 · KR<br> Source: <a href=\"https://github.com/Statera-Library/02_Vol_03_AMR_Sensors_and_Perception/blob/main/05_Depth_Cameras/05_Depth_Cameras_KR.md\" rel=\"noopener noreferrer\">https://github.com/Statera-Library/02_Vol_03_AMR_Sensors",
+      "title": "Property Catalog Vector Search 2026 — Top K, Similarity Thresholds, Citation Retention",
+      "link": "https://dev.to/kaelvyn47/property-catalog-vector-search-2026-top-k-similarity-thresholds-citation-retention-208",
+      "pubDate": "2026-11-09T22:19:42.000Z",
+      "description": "<p>To pick top k and a similarity threshold for production vector search in a property management catalog, first count the evidence you will retain. The observability bill includes query summaries, retrieved text, retained traces, and indexes for searching those traces. Before choosing a logging sys",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "What should a scheduled job do when the laptop was asleep?",
-      "link": "https://dev.to/bestaitool/what-should-a-scheduled-job-do-when-the-laptop-was-asleep-1dc4",
-      "pubDate": "2026-11-09T06:22:06.000Z",
-      "description": "<p>A cron expression says when a job runs and nothing else. On a server that is enough, because the machine is always on and a run rarely outlasts the gap to the next one. On a laptop neither is true. The lid is closed at 09:00, the app that owns the schedule isn't running, and an AI agent run can t",
+      "title": "I published the beta of my bubble chart library. Help me break it!",
+      "link": "https://dev.to/cascadinggeek/i-published-the-beta-of-my-bubble-chart-library-help-me-break-it-3m6o",
+      "pubDate": "2026-11-09T22:19:31.000Z",
+      "description": "<p>In January I posted a crypto bubble chart I'd built from scratch on Threads. Few people saw it.</p> <p>Ten months, one redesign and a lot of tests later, it's a library: <strong>OrbFlow</strong>. It's a bubble chart for the web where the bubbles act like bubbles. They rise in when the chart scrol",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "AMR Sensors and Perception — Ch.04: RGB Cameras [KR]",
-      "link": "https://dev.to/richard_minsoogo/amr-sensors-and-perception-ch04-rgb-cameras-kr-2cd9",
-      "pubDate": "2026-11-09T06:21:58.000Z",
-      "description": "<blockquote> <p>STATERA Library · Series 02 · Volume 03 · Chapter 04 · KR<br> Source: <a href=\"https://github.com/Statera-Library/02_Vol_03_AMR_Sensors_and_Perception/blob/main/04_RGB_Cameras/04_RGB_Cameras_KR.md\" rel=\"noopener noreferrer\">https://github.com/Statera-Library/02_Vol_03_AMR_Sensors_and",
+      "title": "How to write an AGENTS.md for Codex (with a starter template)",
+      "link": "https://dev.to/pickaplugin/how-to-write-an-agentsmd-for-codex-with-a-starter-template-ibb",
+      "pubDate": "2026-11-09T22:19:31.000Z",
+      "description": "<p><em>Disclosure: I run <a href=\"https://pickaplugin.com\" rel=\"noopener noreferrer\">PickAPlugin</a>, an independent catalog of ChatGPT and Codex plugins. This is adapted from our guide on the same topic.</em></p> <p>AGENTS.md is a plain markdown file that Codex reads before it touches your repo. Th",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "AMR Sensors and Perception — Ch.03: 3D LiDAR [KR]",
-      "link": "https://dev.to/richard_minsoogo/amr-sensors-and-perception-ch03-3d-lidar-kr-3jhj",
-      "pubDate": "2026-11-09T06:21:45.000Z",
-      "description": "<blockquote> <p>STATERA Library · Series 02 · Volume 03 · Chapter 03 · KR<br> Source: <a href=\"https://github.com/Statera-Library/02_Vol_03_AMR_Sensors_and_Perception/blob/main/03_3D_LiDAR/03_3D_LiDAR_KR.md\" rel=\"noopener noreferrer\">https://github.com/Statera-Library/02_Vol_03_AMR_Sensors_and_Perce",
+      "title": "From Lab to Code #4: Exploring Neural Network Efficiency with Python and PyTorch",
+      "link": "https://dev.to/ertugrulmutlu/from-lab-to-code-4-exploring-neural-network-efficiency-with-python-and-pytorch-1732",
+      "pubDate": "2026-11-09T22:18:11.000Z",
+      "description": "<p>A larger neural network can often achieve better accuracy.</p> <p>But does that always make it the better model?</p> <p>When working with neural networks, it is easy to focus on a single metric: accuracy. We train a model, evaluate it on a test dataset, and compare the percentage of correct predi",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "AMR Sensors and Perception — Ch.02: 2D LiDAR [KR]",
-      "link": "https://dev.to/richard_minsoogo/amr-sensors-and-perception-ch02-2d-lidar-kr-jbo",
-      "pubDate": "2026-11-09T06:21:31.000Z",
-      "description": "<blockquote> <p>STATERA Library · Series 02 · Volume 03 · Chapter 02 · KR<br> Source: <a href=\"https://github.com/Statera-Library/02_Vol_03_AMR_Sensors_and_Perception/blob/main/02_2D_LiDAR/02_2D_LiDAR_KR.md\" rel=\"noopener noreferrer\">https://github.com/Statera-Library/02_Vol_03_AMR_Sensors_and_Perce",
+      "title": "Wenn KI Moleküle vorschlägt – und du sie betreten kannst: Die Dimensionslücke schließen",
+      "link": "https://dev.to/ashish_624379625242c5d263/wenn-ki-molekule-vorschlagt-und-du-sie-betreten-kannst-die-dimensionslucke-schliessen-3jlg",
+      "pubDate": "2026-11-09T22:17:57.000Z",
+      "description": "<h1> Wenn KI Moleküle vorschlägt – und du sie betreten kannst: Die Dimensionslücke schließen </h1> <p>Ein Molekülmodell auf einem flachen Bildschirm ist wie ein Grundriss ohne Gebäude. Man sieht die Linien, die Winkel, die Atome – aber man kann nicht hineingehen. Genau das ist die Dimensionslücke, d",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "AMR Sensors and Perception — Ch.01: Robot Perception Overview [KR]",
-      "link": "https://dev.to/richard_minsoogo/amr-sensors-and-perception-ch01-robot-perception-overview-kr-1p3",
-      "pubDate": "2026-11-09T06:21:19.000Z",
-      "description": "<blockquote> <p>STATERA Library · Series 02 · Volume 03 · Chapter 01 · KR<br> Source: <a href=\"https://github.com/Statera-Library/02_Vol_03_AMR_Sensors_and_Perception/blob/main/01_Robot_Perception_Overview/01_Robot_Perception_Overview_KR.md\" rel=\"noopener noreferrer\">https://github.com/Statera-Libra",
+      "title": "How an AI agent discovers a 3PL over x402",
+      "link": "https://dev.to/nettrux/how-an-ai-agent-discovers-a-3pl-over-x402-3d2c",
+      "pubDate": "2026-11-09T22:17:16.000Z",
+      "description": "<h1> How an AI agent discovers a 3PL over x402 </h1> <p>Agent builders keep asking the same first question: <em>where does my agent look?</em></p> <p>Nettrux is the first 3PL on x402, so the answer is deliberately boring and HTTP-native. Before any quote, before any payment header, an agent should f",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "AMR Sensors and Perception — Ch.25: Future Robot Perception [EN]",
-      "link": "https://dev.to/richard_minsoogo/amr-sensors-and-perception-ch25-future-robot-perception-en-1e2a",
-      "pubDate": "2026-11-09T06:21:07.000Z",
-      "description": "<blockquote> <p>STATERA Library · Series 02 · Volume 03 · Chapter 25 · EN<br> Source: <a href=\"https://github.com/Statera-Library/02_Vol_03_AMR_Sensors_and_Perception/blob/main/25_Future_Robot_Perception/25_Future_Robot_Perception_EN.md\" rel=\"noopener noreferrer\">https://github.com/Statera-Library/0",
+      "title": "Steam Frame, 한 달 만에 5위 — VR이 '일상의 도구'가 된 날, 시각 트레이닝의 설계는 어떻게 바뀌는가",
+      "link": "https://dev.to/ashish_624379625242c5d263/steam-frame-han-dal-mane-5wi-vri-ilsangyi-doguga-doen-nal-sigag-teureiningyi-seolgyeneun-eoddeohge-baggwineunga-4ahf",
+      "pubDate": "2026-11-09T22:16:29.000Z",
+      "description": "<h1> Steam Frame, 한 달 만에 5위 — VR이 '일상의 도구'가 된 날, 시각 트레이닝의 설계는 어떻게 바뀌는가 </h1> <h2> 먼저, 뉴스부터 </h2> <p>밸브의 최신 Steam 하드웨어 조사에 Steam Frame이 처음 등장했습니다. 발매한 지 약 한 달, 게다가 백오더가 계속되는 상황인데도 이미 '다섯 번째로 많이 쓰이는 헤드셋' 자리에 올랐습니다.</p> <p>숫자 자체보다 중요한 건 그 의미입니다. VR 헤드셋은 일부 애호가가 가진 특별한 기계에서, 일반 사람이 일상적으로 쓰는 기기로 이동하고 있습니",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Construction Estimation as a Career: Skills, Tools, and Growth Path",
-      "link": "https://dev.to/construwx_dm_71a65fd991e2/construction-estimation-as-a-career-skills-tools-and-growth-path-5hb5",
-      "pubDate": "2026-11-09T06:20:59.000Z",
-      "description": "<p>Estimation is one of the most misunderstood <a href=\"https://construwx.in/\" rel=\"noopener noreferrer\">career paths in construction</a>.</p> <p>Many students think it means “calculate quantities.” Some fresh engineers think it means preparing Excel sheets. Some people treat it as a back-office tas",
+      "title": "Transactional Email Template Ownership: Custom Domain Controls for Expiring Reset Links",
+      "link": "https://dev.to/finnmorgan226/transactional-email-template-ownership-custom-domain-controls-for-expiring-reset-links-1ac1",
+      "pubDate": "2026-11-09T22:15:30.000Z",
+      "description": "<p>TL;DR: Keep the password-reset token, expiry, and approved template revision under application ownership; use a verified custom sending domain and an API to deliver the message. For a logistics portal, the decisive trade-off is whether a template editor can change security-sensitive copy independ",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "Supply chain attack on Qubole customers",
+      "link": "https://sentra.io/blog/breaches/inside-the-qubole-supply-chain-attack",
+      "pubDate": "2026-11-09T21:07:26.000Z",
+      "description": "Article URL: https://sentra.io/blog/breaches/inside-the-qubole-supply-chain-attack Comments URL: https://news.ycombinator.com/item?id=50432147 Points: 9 # Comments: 4",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Claude Fable 5.2 Scores 65 on Artificial Analysis, Highest So Far",
+      "link": "https://artificialanalysis.ai/models/claude-fable-5-2",
+      "pubDate": "2026-11-09T20:04:55.000Z",
+      "description": "Article URL: https://artificialanalysis.ai/models/claude-fable-5-2 Comments URL: https://news.ycombinator.com/item?id=50431144 Points: 150 # Comments: 79",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "USPS now offers official ZIP Code boundary polygons",
+      "link": "https://postalpro.usps.com/zcb",
+      "pubDate": "2026-11-09T19:58:59.000Z",
+      "description": "Article URL: https://postalpro.usps.com/zcb Comments URL: https://news.ycombinator.com/item?id=50431058 Points: 267 # Comments: 128",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Parking-app convenience fees in 312 U.S. cities (median $0.35 per session)",
+      "link": "https://parkgraph.com/parking-app-fees",
+      "pubDate": "2026-11-09T19:55:53.000Z",
+      "description": "Article URL: https://parkgraph.com/parking-app-fees Comments URL: https://news.ycombinator.com/item?id=50430991 Points: 22 # Comments: 7",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "CUI – Native UI components for C",
+      "link": "https://yappologistic.github.io/CUI/",
+      "pubDate": "2026-11-09T19:35:16.000Z",
+      "description": "Article URL: https://yappologistic.github.io/CUI/ Comments URL: https://news.ycombinator.com/item?id=50430621 Points: 91 # Comments: 56",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "link": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "pubDate": "2026-11-09T18:56:29.000Z",
+      "description": "Article URL: https://www.anthropic.com/claude-fable-and-mythos-5-2 Comments URL: https://news.ycombinator.com/item?id=50429906 Points: 770 # Comments: 444",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Show HN: Someone Was Here – Find out who used your Mac while you were away",
+      "link": "https://someonewashere.app/",
+      "pubDate": "2026-11-09T18:50:56.000Z",
+      "description": "Many thanks to my ex for inspiring my new MacOS app, Someone Was Here.It takes a photo of whoever uses your Mac while you're away, whether you left it unlocked or they know your password, and sends their photo to your iPhone if the face isn't yours.I built Someone Was Here as a menu bar app making u",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "E-means: 10x faster k-means at equal loss",
+      "link": "https://e-means.github.io/",
+      "pubDate": "2026-11-09T18:45:43.000Z",
+      "description": "Article URL: https://e-means.github.io/ Comments URL: https://news.ycombinator.com/item?id=50429734 Points: 180 # Comments: 11",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Show HN: MeowDisplay Is iPhone Mirroring, but in Reverse",
+      "link": "https://meowdisplay.app/",
+      "pubDate": "2026-11-09T18:39:22.000Z",
+      "description": "Hey HN and Cats, thank you for checking this out!Github: https://github.com/raiseCatError/meowdisplayEDIT 2: I should've mentioned that MeowDisplay started as a fork of OpenDisplay: https://github.com/peetzweg/opendisplay which provided the foundational screen capture, virtual display, encoding and ",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "DeepX claims inference up to 100B parameters at less than 5 W",
+      "link": "https://www.eetimes.com/deepx-tapes-out-second-gen-chip-projects-6-7x-performance-gain-with-lpddr5x-pim/",
+      "pubDate": "2026-11-09T18:33:58.000Z",
+      "description": "Article URL: https://www.eetimes.com/deepx-tapes-out-second-gen-chip-projects-6-7x-performance-gain-with-lpddr5x-pim/ Comments URL: https://news.ycombinator.com/item?id=50429545 Points: 115 # Comments: 16",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "CSS-Tricks, Version 20",
+      "link": "https://css-tricks.com/css-tricks-version-20/",
+      "pubDate": "2026-11-09T15:49:48.000Z",
+      "description": "Things look a little different around here? I hope so because we just pushed a site redesign! Here's everything new with the 20th(!!) version of CSS-Tricks. CSS-Tricks, Version 20 originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
       "title": "RSS Club: CSS-Tricks Redesign Preview",
@@ -162,14 +246,6 @@
       "link": "https://css-tricks.com/css-random-function-polyfill/",
       "pubDate": "2026-08-31T15:12:19.000Z",
       "description": "The journey to create a polyfill for the upcoming CSS random() function that works in all browsers. Let’s Use the Emergent CSS random() Function in all the Browsers originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "What’s !important #18: &#060;geolocation&gt;, Syntax ::highlight()ing, named-feature(), and More",
-      "link": "https://css-tricks.com/whats-important-18/",
-      "pubDate": "2026-08-31T14:08:55.000Z",
-      "description": "Well, that’s a wrap. No, not a flex-wrap, but rather today marks a new day, week, month, season, aaaand new edition of What’s important (#18), bringing you the best content that developers have produced over the last couple of weeks or so. What’s !important #18: <geolocation>, Syntax ::highlight()in",
       "source": "CSS Tricks",
       "category": "Frontend"
     }
