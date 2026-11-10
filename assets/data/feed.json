@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T07:19:23.276Z",
+  "generatedAt": "2026-11-10T19:44:15.722Z",
   "sourceCount": 4,
   "successCount": 3,
   "errors": [
@@ -10,164 +10,172 @@
   ],
   "items": [
     {
-      "title": "How I'd Pick the First Task to Hand to an AI Agent (With a 20-Line Scoring Script)",
-      "link": "https://dev.to/awais_aezad_6c3abb84995ef/how-id-pick-the-first-task-to-hand-to-an-ai-agent-with-a-20-line-scoring-script-5acb",
-      "pubDate": "2026-11-10T07:17:29.000Z",
-      "description": "<p>AI agents are the big topic this month, but most people I talk to outside tech haven't tried one yet. The most common mistake I see is picking the tool first and the task second.</p> <p>As a developer, I'd reverse that. Here's the small framework I use to choose a first task, plus a script you ca",
+      "title": "The Death of the Prompt: Why Autonomous Agents Are the Real Paradigm Shift in Python Development",
+      "link": "https://dev.to/programmingcentral/the-death-of-the-prompt-why-autonomous-agents-are-the-real-paradigm-shift-in-python-development-8ng",
+      "pubDate": "2026-11-10T19:00:00.000Z",
+      "description": "<p>We’ve all been there. You spend hours meticulously engineering a prompt. You add a few \"few-shot\" examples, inject some XML tags to keep the output formatted, and wrap it in a clean Python script using the OpenAI SDK. It works brilliantly for the exact test case you wrote. Then, you hand it to a ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Freight Math in JavaScript: CBM, Dimensional Weight, Chargeable Weight and Fuel Surcharges",
-      "link": "https://dev.to/usman_ali_6845e9b597f4180/freight-math-in-javascript-cbm-dimensional-weight-chargeable-weight-and-fuel-surcharges-4pda",
-      "pubDate": "2026-11-10T07:17:07.000Z",
-      "description": "<p>Shipping quotes look simple until you try to calculate one in code. A carton is billed on whichever is larger, its real weight or its size, and every mode of transport converts size to weight with a different number. Get one divisor wrong and an invoice check is off by 20 percent.</p> <p>These ar",
+      "title": "Front End Observability: Why Your window.onerror Reports Say \"Script error.\" (and How to Fix Them)",
+      "link": "https://dev.to/codewithrajat/front-end-observability-why-your-windowonerror-reports-say-script-error-and-how-to-fix-them-43a2",
+      "pubDate": "2026-11-10T19:00:00.000Z",
+      "description": "<p><em>A practical guide to browser error monitoring with window.onerror, covering the cross-origin blind spot, resource failures that never bubble, and error reports that die when the tab closes. Includes tests and Angular wiring.</em></p> <p>It's late on a Friday. Support forwards a screenshot: a ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Reversing a video in the browser without running out of memory",
-      "link": "https://dev.to/usman_ali_6845e9b597f4180/reversing-a-video-in-the-browser-without-running-out-of-memory-3n5n",
-      "pubDate": "2026-11-10T07:16:59.000Z",
-      "description": "<p>Playing a video backwards sounds trivial: decode the frames, flip the order, encode again. In a browser tab it isn't, because a decoded 1080p frame is about 8 MB of RGBA. A 15 second clip at 30 fps is 450 frames, so \"just keep them all\" means roughly 3.7 GB of memory. The tab dies long before tha",
+      "title": "Back-of-the-Envelope Estimation for System Design, With Worked Examples",
+      "link": "https://dev.to/mdazlaanzubair/back-of-the-envelope-estimation-for-system-design-with-worked-examples-2gni",
+      "pubDate": "2026-11-10T19:00:00.000Z",
+      "description": "<p>System design estimation is a way to turn an ambiguous product description into approximate traffic, storage, bandwidth, and capacity requirements. The goal is not to predict an exact production number. It is to expose the order of magnitude, make assumptions visible, and identify which part of t",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "What is actually making your PDF so big? Measure it in 20 lines of Python",
-      "link": "https://dev.to/usman_ali_6845e9b597f4180/what-is-actually-making-your-pdf-so-big-measure-it-in-20-lines-of-python-1cll",
-      "pubDate": "2026-11-10T07:16:41.000Z",
-      "description": "<p>\"Compress it\" is the usual answer to a heavy PDF, but it's a guess. Before you change any export settings, it's worth knowing which objects take the bytes. With PyMuPDF that takes about 20 lines.</p> <h2> A test file that looks like real life </h2> <p>We built a 3 page PDF the way people actually",
+      "title": "My Store Turned Into Wingdings for Exactly One Reason, and It Was 3,410 Bytes",
+      "link": "https://dev.to/aheadkit/my-store-turned-into-wingdings-for-exactly-one-reason-and-it-was-3410-bytes-570m",
+      "pubDate": "2026-11-10T19:00:00.000Z",
+      "description": "<p>On 7 November 2026 I added analytics to my store and rewarded myself by breaking the entire site's text. Every word on every page rendered as garbled symbols in my browser. The build was fine. The files were fine. The words were fine, somewhere underneath whatever my browser had decided they were",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "10 SQL Interview Questions for Data Engineers (2027), with Answers",
-      "link": "https://dev.to/atsdatalabs/10-sql-interview-questions-for-data-engineers-2027-with-answers-1pe3",
-      "pubDate": "2026-11-10T07:15:42.000Z",
-      "description": "<p>SQL is the round almost every data-engineer interview starts with. Interviewers watch three things: whether you clarify the data first (what is one row, what is the key, can it have duplicates or NULLs), whether your query survives edge cases, and whether you can explain why it will or will not s",
+      "title": "Starlink Mini 2",
+      "link": "https://starlink.com/mini-2",
+      "pubDate": "2026-11-10T18:22:32.000Z",
+      "description": "Article URL: https://starlink.com/mini-2 Comments URL: https://news.ycombinator.com/item?id=50444129 Points: 64 # Comments: 38",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Work at the Frontier: AI's effect on freelance work",
+      "link": "https://openai.com/index/ai-effect-on-freelance-work",
+      "pubDate": "2026-11-10T18:02:54.000Z",
+      "description": "Article URL: https://openai.com/index/ai-effect-on-freelance-work Comments URL: https://news.ycombinator.com/item?id=50443838 Points: 20 # Comments: 9",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Synaptics patent claims stop work on DisplayLink drivers",
+      "link": "https://lwn.net/SubscriberLink/1102549/acbc92e00cee3a3f/",
+      "pubDate": "2026-11-10T18:02:02.000Z",
+      "description": "Article URL: https://lwn.net/SubscriberLink/1102549/acbc92e00cee3a3f/ Comments URL: https://news.ycombinator.com/item?id=50443824 Points: 81 # Comments: 37",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
+      "link": "https://github.com/GoogleChrome/modern-web-guidance",
+      "pubDate": "2026-11-10T18:01:15.000Z",
+      "description": "Browsers natively handle a lot of what used to take 50 lines of JS (or a dependency): `CSS.highlights` for text range highlighting without s everywhere, `` and showModal() give you backdrops and ideal focus management, `field-sizing` to auto-grow textareas as the user types.. (Something yesterday's ",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Fixing the Front Door",
+      "link": "https://dev.to/elijahpaul/fixing-the-front-door-3h5n",
+      "pubDate": "2026-11-10T18:00:00.000Z",
+      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fgnpuvjnw0s9tzcddim9v.png\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "What Does an AI Agent Actually Pay Across Five x402 Network Routes?",
-      "link": "https://dev.to/scriptmasterlabs01/what-does-an-ai-agent-actually-pay-across-five-x402-network-routes-4hag",
-      "pubDate": "2026-11-10T07:15:25.000Z",
-      "description": "<h1> What Does an AI Agent Actually Pay Across Five x402 Network Routes? </h1> <p><strong>Short answer (November 10, 2026):</strong> Script Master Labs publicly documents five network payment routes across two facilitators: OMNIGATE handles <strong>Base and Arc</strong>, while 402Proof handles <stro",
+      "title": "Your setTimeout Didn't Break — Chrome Killed It",
+      "link": "https://dev.to/dmitry_cherstvyi_0c87fabd/your-settimeout-didnt-break-chrome-killed-it-1d2l",
+      "pubDate": "2026-11-10T18:00:00.000Z",
+      "description": "<p>The log said the sync was scheduled. Two minutes later, nothing had run. No error, no rejected promise, no missed callback warning — just a line that promised future work and a database that never changed.</p> <p>Here is the excerpt that ended a week of blaming my own debounce logic:<br> </p> <di",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Happy Diwali! 🪔",
-      "link": "https://dev.to/kryonex-labs/happy-diwali-3l7",
-      "pubDate": "2026-11-10T07:15:19.000Z",
-      "description": "<p>From wireframe meshes to glowing diyas — light finds a way through every network.</p> <p>Wishing the dev community a season of clean builds, zero bugs, and bright new ideas.</p> <p>— Team Kryonex Labs</p> <h1> HappyDiwali #Diwali2026 #DevCommunity </h1>",
+      "title": "6 Planning Patterns for AI Agents and When Each One Fits",
+      "link": "https://dev.to/shaheryaryousaf/6-planning-patterns-for-ai-agents-and-when-each-one-fits-3ac3",
+      "pubDate": "2026-11-10T18:00:00.000Z",
+      "description": "<blockquote> <p><strong>TL;DR for devs</strong></p> <ul> <li>Start from the task, not from a popular reasoning pattern.</li> <li>Use a fixed workflow for predictable steps; consider model-generated plans when tasks vary.</li> <li>Other patterns: plan then execute, ReAct-style tool use, routing to sp",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The verified agent pattern: building outbound agents for a web that blocks them by default",
-      "link": "https://dev.to/draganristicrsjpg/the-verified-agent-pattern-building-outbound-agents-for-a-web-that-blocks-them-by-default-59dm",
-      "pubDate": "2026-11-10T07:15:02.000Z",
-      "description": "<h2> § 01 · The assumption that just expired </h2> <p>Every outbound agent built in the last two years rests on an assumption nobody wrote down: that the open web will serve a request from an automated client the same way it serves a request from a browser, provided the request is polite.</p> <p>Tha",
+      "title": "Claude Whiteboards, Claude Sheets, and Claude Data",
+      "link": "https://claude.com/resources/articles/sheets-whiteboards-data",
+      "pubDate": "2026-11-10T17:55:07.000Z",
+      "description": "Article URL: https://claude.com/resources/articles/sheets-whiteboards-data Comments URL: https://news.ycombinator.com/item?id=50443716 Points: 13 # Comments: 4",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "An Open Field Guide to Inference Engineering",
+      "link": "https://docs.modelplane.ai/guides/inference-guide",
+      "pubDate": "2026-11-10T17:55:07.000Z",
+      "description": "Article URL: https://docs.modelplane.ai/guides/inference-guide Comments URL: https://news.ycombinator.com/item?id=50443714 Points: 8 # Comments: 1",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Val Town is winding down",
+      "link": "https://blog.val.town/winding-down",
+      "pubDate": "2026-11-10T17:31:14.000Z",
+      "description": "Article URL: https://blog.val.town/winding-down Comments URL: https://news.ycombinator.com/item?id=50443427 Points: 117 # Comments: 31",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "AMD's Zen 6 Family: Feeding the Beast",
+      "link": "https://chipsandcheese.com/p/amds-zen-6-family-feeding-the-beast",
+      "pubDate": "2026-11-10T17:02:32.000Z",
+      "description": "Article URL: https://chipsandcheese.com/p/amds-zen-6-family-feeding-the-beast Comments URL: https://news.ycombinator.com/item?id=50443090 Points: 81 # Comments: 28",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Store Timestamps in UTC, Display Them Locally",
+      "link": "https://dev.to/chirag191094/store-timestamps-in-utc-display-them-locally-fec",
+      "pubDate": "2026-11-10T17:00:00.000Z",
+      "description": "<p>A CRM stores '10:30' beside a follow-up task. One representative reads it in Jaipur and another in London. Neither knows which timezone the value represents.</p> <p>Time data needs to describe either an instant or a local scheduling intention. Those are different requirements.</p> <h2> Store inst",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Email That Never Landed: SPF/DKIM/DMARC Drift &amp; Bounce Pipelines",
-      "link": "https://dev.to/muhammadalimughal/email-that-never-landed-spfdkimdmarc-drift-bounce-pipelines-999",
-      "pubDate": "2026-11-10T07:14:16.000Z",
-      "description": "<p>The support ticket said: \"I never got the password reset email.\" Then three more like it. Our mail provider's dashboard showed every message as \"delivered\". The application logs showed every send as successful. What had actually happened was a marketing team adding a new newsletter tool to the SP",
+      "title": "How to answer Claude Code or Codex from your phone",
+      "link": "https://dev.to/heylittlepan/how-to-answer-claude-code-or-codex-from-your-phone-10a7",
+      "pubDate": "2026-11-10T17:00:00.000Z",
+      "description": "<p>You start an agent on the computer at home and leave. An hour later your phone shows that it stopped to ask for permission to run a command. It stays stopped until you answer, and you're nowhere near the desk.</p> <p>Each of the big agents has a way to answer from your phone. They just don't work",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "CSP, Trusted Types &amp; Residual XSS: Reading Reports Like a Forensics Log",
-      "link": "https://dev.to/muhammadalimughal/csp-trusted-types-residual-xss-reading-reports-like-a-forensics-log-h4g",
-      "pubDate": "2026-11-10T07:14:01.000Z",
-      "description": "<p>The first time I turned on Content Security Policy reporting for a busy storefront, the endpoint received tens of thousands of reports in a day. Almost all of them were noise: browser extensions, translation overlays, injected ad scripts from someone's ISP. Buried in that pile were a handful of r",
+      "title": "CSS Optimization: Is Using Declarations Just Once (UDJO) Still Effective Today?",
+      "link": "https://css-tricks.com/css-using-declarations-just-once/",
+      "pubDate": "2026-11-10T16:42:18.000Z",
+      "description": "Is the technique inspired by the DRY principle by identifying and reducing (if not eliminating) CSS declaration repetition still a relevant optimization strategy? CSS Optimization: Is Using Declarations Just Once (UDJO) Still Effective Today? originally handwritten and published with love on CSS-Tri",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": ".name Grandfathered",
+      "link": "https://neil.fraser.name/news/2026/11/10/",
+      "pubDate": "2026-11-10T16:37:44.000Z",
+      "description": "Article URL: https://neil.fraser.name/news/2026/11/10/ Comments URL: https://news.ycombinator.com/item?id=50442736 Points: 369 # Comments: 64",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Tailscale's DNS IPv6 spells out \"Tailscale\"",
+      "link": "https://www.reddit.com/r/Tailscale/comments/1xsr24r/tailscales_dns_ipv6_spells_out_tailscale_easter/",
+      "pubDate": "2026-11-10T16:34:45.000Z",
+      "description": "Article URL: https://www.reddit.com/r/Tailscale/comments/1xsr24r/tailscales_dns_ipv6_spells_out_tailscale_easter/ Comments URL: https://news.ycombinator.com/item?id=50442691 Points: 104 # Comments: 43",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "UUIDv4 Is Not Free: Why Random Primary Keys Are Silently Crushing Your Write Performance",
+      "link": "https://dev.to/johnnylemonny/uuidv4-is-not-free-why-random-primary-keys-are-silently-crushing-your-write-performance-2ea8",
+      "pubDate": "2026-11-10T16:30:00.000Z",
+      "description": "<p>When my database write latency spiked by 340% after crossing 50 million rows, my CPU wasn't maxed out. My queries weren't missing indexes. Instead, my storage IOPS was completely saturated by a single architectural default I set up on day one: using <code>UUIDv4</code> as my primary key.</p> <p>M",
       "source": "Dev.to Feed",
       "category": "Development"
-    },
-    {
-      "title": "Amazon saves millions by replacing Sonnet 4.6 with Strands Decider",
-      "link": "https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/",
-      "pubDate": "2026-11-10T06:01:08.000Z",
-      "description": "Article URL: https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/ Comments URL: https://news.ycombinator.com/item?id=50436640 Points: 94 # Comments: 21",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Mathematicians Are Like Luddites",
-      "link": "https://alok.blog/luddite/",
-      "pubDate": "2026-11-10T05:52:38.000Z",
-      "description": "Article URL: https://alok.blog/luddite/ Comments URL: https://news.ycombinator.com/item?id=50436587 Points: 11 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Your TV can see through walls",
-      "link": "https://maurycyz.com/projects/fading/",
-      "pubDate": "2026-11-10T05:24:45.000Z",
-      "description": "Article URL: https://maurycyz.com/projects/fading/ Comments URL: https://news.ycombinator.com/item?id=50436410 Points: 41 # Comments: 11",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Ultorg: The User Interface for Relational Databases",
-      "link": "https://www.ultorg.com/",
-      "pubDate": "2026-11-10T03:59:39.000Z",
-      "description": "Article URL: https://www.ultorg.com/ Comments URL: https://news.ycombinator.com/item?id=50435898 Points: 27 # Comments: 6",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "CoreWeave bond yield tops 16% as AI credit stress rises",
-      "link": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
-      "pubDate": "2026-11-10T03:20:06.000Z",
-      "description": "Article URL: https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html Comments URL: https://news.ycombinator.com/item?id=50435660 Points: 110 # Comments: 53",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Formalizing CPython",
-      "link": "https://broyojo.com/python-formalization/",
-      "pubDate": "2026-11-10T01:56:48.000Z",
-      "description": "Article URL: https://broyojo.com/python-formalization/ Comments URL: https://news.ycombinator.com/item?id=50435105 Points: 41 # Comments: 15",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Locating the source of a mysterious beep",
-      "link": "https://simonwillison.net/2026/Nov/9/mysterious-beeps/",
-      "pubDate": "2026-11-10T00:10:46.000Z",
-      "description": "Article URL: https://simonwillison.net/2026/Nov/9/mysterious-beeps/ Comments URL: https://news.ycombinator.com/item?id=50434310 Points: 120 # Comments: 58",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Horible public key tricks",
-      "link": "https://maurycyz.com/projects/badcert/",
-      "pubDate": "2026-11-10T00:07:17.000Z",
-      "description": "Article URL: https://maurycyz.com/projects/badcert/ Comments URL: https://news.ycombinator.com/item?id=50434264 Points: 121 # Comments: 39",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Fable 5.2 one-shotted my nephew's dream game",
-      "link": "https://notesbylex.com/fable-5-2-one-shotted-my-nephews-dream-game",
-      "pubDate": "2026-11-09T23:08:13.000Z",
-      "description": "Article URL: https://notesbylex.com/fable-5-2-one-shotted-my-nephews-dream-game Comments URL: https://news.ycombinator.com/item?id=50433659 Points: 330 # Comments: 231",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Exact – a new cross platform UI framework",
-      "link": "https://github.com/expo/exact",
-      "pubDate": "2026-11-09T22:59:13.000Z",
-      "description": "Article URL: https://github.com/expo/exact Comments URL: https://news.ycombinator.com/item?id=50433541 Points: 110 # Comments: 69",
-      "source": "Hacker News",
-      "category": "Tech News"
     },
     {
       "title": "CSS-Tricks, Version 20",
@@ -238,14 +246,6 @@
       "link": "https://css-tricks.com/css-tricks-has-a-new-owner/",
       "pubDate": "2026-10-26T15:29:36.000Z",
       "description": "Yes, I've got the keys to the castle, so to speak. And, even after 12 years of working on the site, I'll admit I'm a little overwhelmed and nervous about that. CSS-Tricks has a new owner! originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
-      "source": "CSS Tricks",
-      "category": "Frontend"
-    },
-    {
-      "title": "Let’s Use the Emergent CSS random() Function in all the Browsers",
-      "link": "https://css-tricks.com/css-random-function-polyfill/",
-      "pubDate": "2026-08-31T15:12:19.000Z",
-      "description": "The journey to create a polyfill for the upcoming CSS random() function that works in all browsers. Let’s Use the Emergent CSS random() Function in all the Browsers originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
       "source": "CSS Tricks",
       "category": "Frontend"
     }
