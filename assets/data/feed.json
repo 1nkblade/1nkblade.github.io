@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T19:44:15.722Z",
+  "generatedAt": "2026-11-11T06:23:20.068Z",
   "sourceCount": 4,
   "successCount": 3,
   "errors": [
@@ -10,140 +10,164 @@
   ],
   "items": [
     {
-      "title": "The Death of the Prompt: Why Autonomous Agents Are the Real Paradigm Shift in Python Development",
-      "link": "https://dev.to/programmingcentral/the-death-of-the-prompt-why-autonomous-agents-are-the-real-paradigm-shift-in-python-development-8ng",
-      "pubDate": "2026-11-10T19:00:00.000Z",
-      "description": "<p>We’ve all been there. You spend hours meticulously engineering a prompt. You add a few \"few-shot\" examples, inject some XML tags to keep the output formatted, and wrap it in a clean Python script using the OpenAI SDK. It works brilliantly for the exact test case you wrote. Then, you hand it to a ",
+      "title": "AI Can Write Code Faster Than Your Team Can Verify It. That's the New Engineering Bottleneck.",
+      "link": "https://dev.to/projtl/ai-can-write-code-faster-than-your-team-can-verify-it-thats-the-new-engineering-bottleneck-5f6",
+      "pubDate": "2026-11-11T06:22:44.000Z",
+      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F0gnk2uobed3h3rpnm9vb.png\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Front End Observability: Why Your window.onerror Reports Say \"Script error.\" (and How to Fix Them)",
-      "link": "https://dev.to/codewithrajat/front-end-observability-why-your-windowonerror-reports-say-script-error-and-how-to-fix-them-43a2",
-      "pubDate": "2026-11-10T19:00:00.000Z",
-      "description": "<p><em>A practical guide to browser error monitoring with window.onerror, covering the cross-origin blind spot, resource failures that never bubble, and error reports that die when the tab closes. Includes tests and Angular wiring.</em></p> <p>It's late on a Friday. Support forwards a screenshot: a ",
+      "title": "Arduino IDE Tutorial: From First Install to Your First Blinking LED",
+      "link": "https://dev.to/rehman_ahmadchaudhry_007/arduino-ide-tutorial-from-first-install-to-your-first-blinking-led-1hhk",
+      "pubDate": "2026-11-11T06:22:29.000Z",
+      "description": "<p>My first board was a cheap Arduino Uno clone, a USB cable stolen from a phone charger, and an afternoon that went nowhere — drivers missing, the wrong port selected, an error message that read like a riddle. The board sat in a drawer for a month.</p> <p>This <strong>Arduino IDE tutorial</strong> ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Back-of-the-Envelope Estimation for System Design, With Worked Examples",
-      "link": "https://dev.to/mdazlaanzubair/back-of-the-envelope-estimation-for-system-design-with-worked-examples-2gni",
-      "pubDate": "2026-11-10T19:00:00.000Z",
-      "description": "<p>System design estimation is a way to turn an ambiguous product description into approximate traffic, storage, bandwidth, and capacity requirements. The goal is not to predict an exact production number. It is to expose the order of magnitude, make assumptions visible, and identify which part of t",
+      "title": "Tracking Progress to 4,000 YouTube Watch Hours with a Tiny Python Script",
+      "link": "https://dev.to/seo_nttechinnovation_/tracking-progress-to-4000-youtube-watch-hours-with-a-tiny-python-script-ina",
+      "pubDate": "2026-11-11T06:22:28.000Z",
+      "description": "<p>Indian creators chasing YouTube monetization usually check Studio, see a number and feel either hope or panic. What they rarely do is track the <em>rate</em>. Are you on pace? When will you cross 4,000 hours at your current speed?</p> <p>So here's a small script that answers exactly that. Export ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "My Store Turned Into Wingdings for Exactly One Reason, and It Was 3,410 Bytes",
-      "link": "https://dev.to/aheadkit/my-store-turned-into-wingdings-for-exactly-one-reason-and-it-was-3410-bytes-570m",
-      "pubDate": "2026-11-10T19:00:00.000Z",
-      "description": "<p>On 7 November 2026 I added analytics to my store and rewarded myself by breaking the entire site's text. Every word on every page rendered as garbled symbols in my browser. The build was fine. The files were fine. The words were fine, somewhere underneath whatever my browser had decided they were",
+      "title": "Licensing Software That Runs on Ephemeral CI and Cloud Build Agents Without Burning Seats",
+      "link": "https://dev.to/zero_heartbeat_06a3625d7a/licensing-software-that-runs-on-ephemeral-ci-and-cloud-build-agents-without-burning-seats-1285",
+      "pubDate": "2026-11-11T06:21:02.000Z",
+      "description": "<p>Licensing models were mostly designed for machines that stay put — a desktop, a server, a workstation. CI and cloud build agents violate that assumption on purpose: they exist for the duration of one job and then vanish, and the next job gets a brand-new VM or container. Point a node-locked licen",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Starlink Mini 2",
-      "link": "https://starlink.com/mini-2",
-      "pubDate": "2026-11-10T18:22:32.000Z",
-      "description": "Article URL: https://starlink.com/mini-2 Comments URL: https://news.ycombinator.com/item?id=50444129 Points: 64 # Comments: 38",
+      "title": "Node.js Permission Checks Are a Seat Belt, Not a Container",
+      "link": "https://dev.to/facilishz/nodejs-permission-checks-are-a-seat-belt-not-a-container-4lgi",
+      "pubDate": "2026-11-11T06:20:22.000Z",
+      "description": "<h1> Node.js Permission Checks Are a Seat Belt, Not a Container </h1> <p>The Node.js permission model is now stable, and it gives an application a way to refuse several sensitive operations at runtime. That can reduce the blast radius of a compromised dependency or a bad configuration. It becomes da",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Your AI Second Brain Should Remember When You Changed Your Mind",
+      "link": "https://dev.to/affineofficial/your-ai-second-brain-should-remember-when-you-changed-your-mind-561g",
+      "pubDate": "2026-11-11T06:20:15.000Z",
+      "description": "<p>This week on X, the second-brain lists are back again: Karpathy's LLM Wiki, Garry Tan's GBrain, a pile of Claude-plus-Obsidian hooks. The pitch is persistence. Don't reload context every chat. Keep the facts.</p> <p>That is necessary. It is not sufficient.</p> <p>A sharper point showed up in the ",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Building a Lock-Free Single-Producer Single-Consumer (SPSC) Ring Buffer in C++20: Memory Orders and False Sharing Elimination",
+      "link": "https://dev.to/diya_eed3b08acbaa5cd7175e/building-a-lock-free-single-producer-single-consumer-spsc-ring-buffer-in-c20-memory-orders-and-53p5",
+      "pubDate": "2026-11-11T06:18:38.000Z",
+      "description": "<p><a href=\"https://dev.tourl\"></a> In high-performance concurrent systems, real-time audio processing pipelines, and low-latency financial order routers, passing messages between threads using standard mutex-protected queues (std::queue wrapped in std::mutex) introduces severe performance penalties",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Decompiling P/Invoke and DllImport: Reading a .NET Assembly''s Native Interop",
+      "link": "https://dev.to/zero_heartbeat_06a3625d7a/decompiling-pinvoke-and-dllimport-reading-a-net-assemblys-native-interop-1fjl",
+      "pubDate": "2026-11-11T06:18:28.000Z",
+      "description": "<p>When you need to understand what an unfamiliar .NET assembly actually <em>does</em> — not to its own data, but to the machine — the native interop is where the answer lives. Managed code that stays inside the CLR is sandboxed by it; the moment it calls into native code via P/Invoke, it can do any",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "What Is Crypto Restaking? Same ETH, Extra Yield — and Extra Slashing",
+      "link": "https://dev.to/biacryptotrading/what-is-crypto-restaking-same-eth-extra-yield-and-extra-slashing-1jo4",
+      "pubDate": "2026-11-11T06:17:59.000Z",
+      "description": "<h1> What Is Crypto Restaking? Same ETH, Extra Yield — and Extra Slashing </h1> <p>Restaking is taking ETH you have already staked to secure Ethereum and committing that same stake a second time to help secure other protocols — called Actively Validated Services, or AVSs — in exchange for extra yiel",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Keeping a changelog current when commits land faster than you can write",
+      "link": "https://dev.to/lixingliangsy/keeping-a-changelog-current-when-commits-land-faster-than-you-can-write-565",
+      "pubDate": "2026-11-11T06:17:50.000Z",
+      "description": "<p>Our CHANGELOG.md was last updated three releases ago. Not because we stopped shipping, but because writing the notes always happened at the worst possible moment: at release time, when I was trying to remember everything that had landed since the last tag. Reconstructing two weeks of work from me",
+      "source": "Dev.to Feed",
+      "category": "Development"
+    },
+    {
+      "title": "Greg Kurtzer's Ginux is now a userspace kernel",
+      "link": "https://github.com/gmkurtzer/ginux",
+      "pubDate": "2026-11-11T05:25:54.000Z",
+      "description": "Article URL: https://github.com/gmkurtzer/ginux Comments URL: https://news.ycombinator.com/item?id=50450007 Points: 18 # Comments: 2",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Work at the Frontier: AI's effect on freelance work",
-      "link": "https://openai.com/index/ai-effect-on-freelance-work",
-      "pubDate": "2026-11-10T18:02:54.000Z",
-      "description": "Article URL: https://openai.com/index/ai-effect-on-freelance-work Comments URL: https://news.ycombinator.com/item?id=50443838 Points: 20 # Comments: 9",
+      "title": "Protecting SSH Keys with macOS Secure Enclave",
+      "link": "https://gatezh.com/posts/macos-secure-enclave-ssh-keys/",
+      "pubDate": "2026-11-11T04:28:57.000Z",
+      "description": "Article URL: https://gatezh.com/posts/macos-secure-enclave-ssh-keys/ Comments URL: https://news.ycombinator.com/item?id=50449748 Points: 59 # Comments: 16",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Synaptics patent claims stop work on DisplayLink drivers",
-      "link": "https://lwn.net/SubscriberLink/1102549/acbc92e00cee3a3f/",
-      "pubDate": "2026-11-10T18:02:02.000Z",
-      "description": "Article URL: https://lwn.net/SubscriberLink/1102549/acbc92e00cee3a3f/ Comments URL: https://news.ycombinator.com/item?id=50443824 Points: 81 # Comments: 37",
+      "title": "To deter bioterrorism, U.S. imposes new rules on ordering synthetic DNA",
+      "link": "https://www.science.org/content/article/deter-bioterrorism-u-s-imposes-new-rules-ordering-synthetic-dna",
+      "pubDate": "2026-11-11T02:57:08.000Z",
+      "description": "Article URL: https://www.science.org/content/article/deter-bioterrorism-u-s-imposes-new-rules-ordering-synthetic-dna Comments URL: https://news.ycombinator.com/item?id=50449275 Points: 50 # Comments: 25",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
-      "link": "https://github.com/GoogleChrome/modern-web-guidance",
-      "pubDate": "2026-11-10T18:01:15.000Z",
-      "description": "Browsers natively handle a lot of what used to take 50 lines of JS (or a dependency): `CSS.highlights` for text range highlighting without s everywhere, `` and showModal() give you backdrops and ideal focus management, `field-sizing` to auto-grow textareas as the user types.. (Something yesterday's ",
+      "title": "Hooked on Tuna",
+      "link": "https://theconversation.com/hooked-on-tuna-people-have-been-harvesting-these-ocean-predators-for-44-000-years-292428",
+      "pubDate": "2026-11-11T02:23:25.000Z",
+      "description": "https://blue-continuum.com/hooked-on-tuna Comments URL: https://news.ycombinator.com/item?id=50449080 Points: 22 # Comments: 1",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Fixing the Front Door",
-      "link": "https://dev.to/elijahpaul/fixing-the-front-door-3h5n",
-      "pubDate": "2026-11-10T18:00:00.000Z",
-      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fgnpuvjnw0s9tzcddim9v.png\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Your setTimeout Didn't Break — Chrome Killed It",
-      "link": "https://dev.to/dmitry_cherstvyi_0c87fabd/your-settimeout-didnt-break-chrome-killed-it-1d2l",
-      "pubDate": "2026-11-10T18:00:00.000Z",
-      "description": "<p>The log said the sync was scheduled. Two minutes later, nothing had run. No error, no rejected promise, no missed callback warning — just a line that promised future work and a database that never changed.</p> <p>Here is the excerpt that ended a week of blaming my own debounce logic:<br> </p> <di",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "6 Planning Patterns for AI Agents and When Each One Fits",
-      "link": "https://dev.to/shaheryaryousaf/6-planning-patterns-for-ai-agents-and-when-each-one-fits-3ac3",
-      "pubDate": "2026-11-10T18:00:00.000Z",
-      "description": "<blockquote> <p><strong>TL;DR for devs</strong></p> <ul> <li>Start from the task, not from a popular reasoning pattern.</li> <li>Use a fixed workflow for predictable steps; consider model-generated plans when tasks vary.</li> <li>Other patterns: plan then execute, ReAct-style tool use, routing to sp",
-      "source": "Dev.to Feed",
-      "category": "Development"
-    },
-    {
-      "title": "Claude Whiteboards, Claude Sheets, and Claude Data",
-      "link": "https://claude.com/resources/articles/sheets-whiteboards-data",
-      "pubDate": "2026-11-10T17:55:07.000Z",
-      "description": "Article URL: https://claude.com/resources/articles/sheets-whiteboards-data Comments URL: https://news.ycombinator.com/item?id=50443716 Points: 13 # Comments: 4",
+      "title": "A great old-timey game-programming hack (2013)",
+      "link": "https://blog.moertel.com/posts/2013-12-14-great-old-timey-game-programming-hack.html",
+      "pubDate": "2026-11-11T01:56:31.000Z",
+      "description": "Article URL: https://blog.moertel.com/posts/2013-12-14-great-old-timey-game-programming-hack.html Comments URL: https://news.ycombinator.com/item?id=50448921 Points: 91 # Comments: 14",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "An Open Field Guide to Inference Engineering",
-      "link": "https://docs.modelplane.ai/guides/inference-guide",
-      "pubDate": "2026-11-10T17:55:07.000Z",
-      "description": "Article URL: https://docs.modelplane.ai/guides/inference-guide Comments URL: https://news.ycombinator.com/item?id=50443714 Points: 8 # Comments: 1",
+      "title": "LLMs Play Zachtronics' TIS-100",
+      "link": "https://tis-100.wincon.dev/",
+      "pubDate": "2026-11-11T00:37:05.000Z",
+      "description": "Article URL: https://tis-100.wincon.dev/ Comments URL: https://news.ycombinator.com/item?id=50448340 Points: 37 # Comments: 5",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Val Town is winding down",
-      "link": "https://blog.val.town/winding-down",
-      "pubDate": "2026-11-10T17:31:14.000Z",
-      "description": "Article URL: https://blog.val.town/winding-down Comments URL: https://news.ycombinator.com/item?id=50443427 Points: 117 # Comments: 31",
+      "title": "AI is becoming an information gateway. Audiences still don’t want it making news",
+      "link": "https://www.niemanlab.org/2026/11/ai-is-becoming-an-information-gateway-audiences-still-dont-want-it-making-their-news/",
+      "pubDate": "2026-11-11T00:15:33.000Z",
+      "description": "Article URL: https://www.niemanlab.org/2026/11/ai-is-becoming-an-information-gateway-audiences-still-dont-want-it-making-their-news/ Comments URL: https://news.ycombinator.com/item?id=50448174 Points: 38 # Comments: 19",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "AMD's Zen 6 Family: Feeding the Beast",
-      "link": "https://chipsandcheese.com/p/amds-zen-6-family-feeding-the-beast",
-      "pubDate": "2026-11-10T17:02:32.000Z",
-      "description": "Article URL: https://chipsandcheese.com/p/amds-zen-6-family-feeding-the-beast Comments URL: https://news.ycombinator.com/item?id=50443090 Points: 81 # Comments: 28",
+      "title": "Tracking Anthropic-discovered vulnerabilities",
+      "link": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
+      "pubDate": "2026-11-10T22:17:56.000Z",
+      "description": "Article URL: https://www.vulncheck.com/blog/anthropic-glasswing-november-update Comments URL: https://news.ycombinator.com/item?id=50447074 Points: 369 # Comments: 169",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Store Timestamps in UTC, Display Them Locally",
-      "link": "https://dev.to/chirag191094/store-timestamps-in-utc-display-them-locally-fec",
-      "pubDate": "2026-11-10T17:00:00.000Z",
-      "description": "<p>A CRM stores '10:30' beside a follow-up task. One representative reads it in Jaipur and another in London. Neither knows which timezone the value represents.</p> <p>Time data needs to describe either an instant or a local scheduling intention. Those are different requirements.</p> <h2> Store inst",
-      "source": "Dev.to Feed",
-      "category": "Development"
+      "title": "$30M Raised to Redo the CPU",
+      "link": "https://tendrils.co/blog/2026-11-10/30m-raised",
+      "pubDate": "2026-11-10T22:14:03.000Z",
+      "description": "Article URL: https://tendrils.co/blog/2026-11-10/30m-raised Comments URL: https://news.ycombinator.com/item?id=50447036 Points: 68 # Comments: 57",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
-      "title": "How to answer Claude Code or Codex from your phone",
-      "link": "https://dev.to/heylittlepan/how-to-answer-claude-code-or-codex-from-your-phone-10a7",
-      "pubDate": "2026-11-10T17:00:00.000Z",
-      "description": "<p>You start an agent on the computer at home and leave. An hour later your phone shows that it stopped to ask for permission to run a command. It stays stopped until you answer, and you're nowhere near the desk.</p> <p>Each of the big agents has a way to answer from your phone. They just don't work",
-      "source": "Dev.to Feed",
-      "category": "Development"
+      "title": "Apple has new Mac app coming to make running local AI models easy",
+      "link": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/",
+      "pubDate": "2026-11-10T21:25:03.000Z",
+      "description": "Article URL: https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/ Comments URL: https://news.ycombinator.com/item?id=50446520 Points: 128 # Comments: 97",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "CSS Optimization: Is Using Declarations Just Once (UDJO) Still Effective Today?",
@@ -152,30 +176,6 @@
       "description": "Is the technique inspired by the DRY principle by identifying and reducing (if not eliminating) CSS declaration repetition still a relevant optimization strategy? CSS Optimization: Is Using Declarations Just Once (UDJO) Still Effective Today? originally handwritten and published with love on CSS-Tri",
       "source": "CSS Tricks",
       "category": "Frontend"
-    },
-    {
-      "title": ".name Grandfathered",
-      "link": "https://neil.fraser.name/news/2026/11/10/",
-      "pubDate": "2026-11-10T16:37:44.000Z",
-      "description": "Article URL: https://neil.fraser.name/news/2026/11/10/ Comments URL: https://news.ycombinator.com/item?id=50442736 Points: 369 # Comments: 64",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Tailscale's DNS IPv6 spells out \"Tailscale\"",
-      "link": "https://www.reddit.com/r/Tailscale/comments/1xsr24r/tailscales_dns_ipv6_spells_out_tailscale_easter/",
-      "pubDate": "2026-11-10T16:34:45.000Z",
-      "description": "Article URL: https://www.reddit.com/r/Tailscale/comments/1xsr24r/tailscales_dns_ipv6_spells_out_tailscale_easter/ Comments URL: https://news.ycombinator.com/item?id=50442691 Points: 104 # Comments: 43",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "UUIDv4 Is Not Free: Why Random Primary Keys Are Silently Crushing Your Write Performance",
-      "link": "https://dev.to/johnnylemonny/uuidv4-is-not-free-why-random-primary-keys-are-silently-crushing-your-write-performance-2ea8",
-      "pubDate": "2026-11-10T16:30:00.000Z",
-      "description": "<p>When my database write latency spiked by 340% after crossing 50 million rows, my CPU wasn't maxed out. My queries weren't missing indexes. Instead, my storage IOPS was completely saturated by a single architectural default I set up on day one: using <code>UUIDv4</code> as my primary key.</p> <p>M",
-      "source": "Dev.to Feed",
-      "category": "Development"
     },
     {
       "title": "CSS-Tricks, Version 20",
