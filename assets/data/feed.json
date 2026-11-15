@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T22:25:05.931Z",
+  "generatedAt": "2026-11-15T06:33:23.795Z",
   "sourceCount": 4,
   "successCount": 3,
   "errors": [
@@ -10,162 +10,162 @@
   ],
   "items": [
     {
-      "title": "The digest passed and the receipt still failed",
-      "link": "https://dev.to/rambozambo/the-digest-passed-and-the-receipt-still-failed-29ck",
-      "pubDate": "2026-11-14T22:22:46.000Z",
-      "description": "<p>Every receipt verifier I have ever seen makes the same first move: recompute the hash. Take the saved output, hash it, compare the result with the digest printed on the receipt. Match means a green check. Mismatch means reject.</p> <p>That check proves exactly one thing: the saved result was not ",
+      "title": "Databricks AI Tools: The SQL Commands Your Coding Agent Should Use",
+      "link": "https://dev.to/oieduardorabelo/databricks-ai-tools-the-sql-commands-your-coding-agent-should-use-30bh",
+      "pubDate": "2026-11-15T06:32:00.000Z",
+      "description": "<p><em>What <code>databricks experimental aitools</code> is, the five commands that matter, why it changes how coding agents and scripts talk to Databricks SQL, and the sharp edges I found while testing it.</em></p> <p>Suppose you ask your coding agent a simple question: \"Which pickup zip codes have",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "AI coding audit trails: what did the agent do in your repo?",
-      "link": "https://dev.to/momin_aziz_1/ai-coding-audit-trails-what-did-the-agent-do-in-your-repo-jc2",
-      "pubDate": "2026-11-14T22:22:11.000Z",
-      "description": "<p><em>Originally published at <a href=\"https://reclaimllm.com\" rel=\"noopener noreferrer\">ReclaimLLM</a>.</em></p> <p>Reconstruct an AI coding session from tool calls, policy decisions and results. Know what the evidence proves, and where the record stops.</p> <h1> AI coding audit trails: what did t",
+      "title": "PageSpeed mobile: como levei um site HTML estático de 64 para 97",
+      "link": "https://dev.to/emerson_lavieri/pagespeed-mobile-como-levei-um-site-html-estatico-de-64-para-97-1foe",
+      "pubDate": "2026-11-15T06:31:39.000Z",
+      "description": "<p>Não sou programador. Sou corretor de planos de saúde e sócio de uma corretora, e cuido pessoalmente dos nossos sites. Nesta semana passei alguns dias mexendo na performance de quatro sites em HTML estático, e o resultado me surpreendeu: o pior deles saiu de <strong>64 para 97</strong> no PageSpee",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Datasette Default Permissions Turn a Data File Into an Exposure Surface",
-      "link": "https://dev.to/bianliang/datasette-default-permissions-turn-a-data-file-into-an-exposure-surface-5clo",
-      "pubDate": "2026-11-14T22:21:02.000Z",
-      "description": "<h1> Datasette Default Permissions Turn a Data File Into an Exposure Surface </h1> <p>Datasette publishes SQLite data through a web interface and API. Its default view permissions are permissive, which means the first security question is not whether the product is identifiable but whether the datab",
+      "title": "Track which of your target accounts are hiring, every week, with n8n and Google Sheets",
+      "link": "https://dev.to/careersitejobs_api_11e07b/track-which-of-your-target-accounts-are-hiring-every-week-with-n8n-and-google-sheets-489h",
+      "pubDate": "2026-11-15T06:31:26.000Z",
+      "description": "<p>Hiring is one of the best buying signals in B2B. A company that just opened five sales roles is growing its sales team. A company posting ten data engineering jobs is probably shopping for data tools. The problem is that checking 200 career sites by hand every week is nobody's idea of a good Mond",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Next.js 15 Custom Cache Handler: Self-Host ISR with L1 RAM + L2 Redis &amp; Stop Cache Stampedes",
-      "link": "https://dev.to/zisamglitch/nextjs-15-custom-cache-handler-self-host-isr-with-l1-ram-l2-redis-stop-cache-stampedes-3533",
-      "pubDate": "2026-11-14T22:19:06.000Z",
-      "description": "<p>If you self-host <strong>Next.js 15</strong> on Docker, Kubernetes, Railway, Coolify, or Fly.io, you quickly run into two production caching challenges:</p> <ol> <li> <strong>Multi-Instance Cache Desync</strong>: By default, Next.js stores ISR and App Router <code>fetch</code> caches on the local",
+      "title": "Getting Started with the Prisma Design API for Editable Layouts",
+      "link": "https://dev.to/devkenan/getting-started-with-the-prisma-design-api-for-editable-layouts-1ia7",
+      "pubDate": "2026-11-15T06:30:38.000Z",
+      "description": "<p>Generating visual content automatically can be a challenge when tools produce static outputs that cannot be adjusted without starting over. The <strong><a href=\"https://picstudio.aismartcontent.co/developer/\" rel=\"noopener noreferrer\">Prisma design API</a></strong>, released in early access on 9 ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "AI coding tools under PIPEDA and Québec Law 25: a CTO guide",
-      "link": "https://dev.to/momin_aziz_1/ai-coding-tools-under-pipeda-and-quebec-law-25-a-cto-guide-2bd8",
-      "pubDate": "2026-11-14T22:18:59.000Z",
-      "description": "<p><em>Originally published at <a href=\"https://reclaimllm.com\" rel=\"noopener noreferrer\">ReclaimLLM</a>.</em></p> <p>What Canadian CTOs should check before engineers send code and logs to Cursor, Claude Code or Copilot: PIPEDA, Law 25 and the records to keep.</p> <h1> AI coding tools under PIPEDA a",
+      "title": "GitHub Actions Unexpected Value at a workflow line",
+      "link": "https://dev.to/kalemi/github-actions-unexpected-value-at-a-workflow-line-476b",
+      "pubDate": "2026-11-15T06:30:13.000Z",
+      "description": "<p>A GitHub Actions Unexpected Value annotation means your YAML parsed and then failed the workflow schema, at the line and column the message gives you. The parser prints the same six words for two different findings, and which one you have is decided by whether the quoted text is a key you wrote o",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Practical Guide to Preventing Duplicate Processing from Concurrent Webhook Deliveries Using Redis Distributed Locks",
-      "link": "https://dev.to/toai/practical-guide-to-preventing-duplicate-processing-from-concurrent-webhook-deliveries-using-redis-2mid",
-      "pubDate": "2026-11-14T22:18:05.000Z",
-      "description": "<h1> Practical Guide to Preventing Duplicate Processing from Concurrent Webhook Deliveries Using Redis Distributed Locks </h1> <h2> 1. System Architecture and Concurrency Control Design </h2> <p>To prevent duplicate processing of webhook deliveries, you need a mechanism that guarantees a given event",
+      "title": "How I made refunds automatic in a pay-per-use SMS code service",
+      "link": "https://dev.to/simuno/how-i-made-refunds-automatic-in-a-pay-per-use-sms-code-service-c6l",
+      "pubDate": "2026-11-15T06:29:46.000Z",
+      "description": "<p>I built <a href=\"https://simuno.net?utm_source=devto&amp;utm_medium=referral\" rel=\"noopener noreferrer\">Simuno</a>, a service that sells temporary phone numbers for receiving SMS verification codes. This post is about the one part I found hardest: making the refund automatic, so a customer never ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Bots Visit Your Site Every Day. We Gave Them a Mailbox.",
-      "link": "https://dev.to/spread2009/bots-visit-your-site-every-day-we-gave-them-a-mailbox-32pl",
-      "pubDate": "2026-11-14T22:16:59.000Z",
-      "description": "<h1> Bots Visit Your Site Every Day. We Gave Them a Mailbox. </h1> <blockquote> <p><strong>Short answer:</strong> Bots and AI agents hit agentbadge.xyz daily - roughly <strong>7,000 requests in the last 24 hours</strong>, and a third of the identified clients are machines, not people. Instead of fil",
+      "title": "How I Built an Autonomous AI News Digest Agent in 48 Hours (Node.js, OpenRouter &amp; Nodemailer)",
+      "link": "https://dev.to/sawastik_bhullar/how-i-built-an-autonomous-ai-news-digest-agent-in-48-hours-nodejs-openrouter-nodemailer-39d3",
+      "pubDate": "2026-11-15T06:29:15.000Z",
+      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fi9o2ja89wcofqzav8xks.png\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "What leaves the machine when your agent remembers",
-      "link": "https://dev.to/sovantica/what-leaves-the-machine-when-your-agent-remembers-1bkh",
-      "pubDate": "2026-11-14T22:16:58.000Z",
-      "description": "<p>Engrava's <code>auto_embed</code> field defaults to <code>False</code> and governs automatic embedding on writes only; it does not govern query embedding, so with a hosted provider configured a search still sends non-blank query text to that provider whenever you did not supply an explicit <code>",
+      "title": "Why \"it works on my machine\" isn't enough for open-source QA",
+      "link": "https://dev.to/praman/why-it-works-on-my-machine-isnt-enough-for-open-source-qa-529i",
+      "pubDate": "2026-11-15T06:29:14.000Z",
+      "description": "<p>When you build an open-source testing framework, you reach a point where the code is done, the tests are passing, and the features are implemented. </p> <p>For a lot of developers, that's the end of the line. \"It works on my machine. I'm done.\"</p> <p>But for a framework to be truly valuable to a",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Day 26: don't fill an activity slot",
-      "link": "https://dev.to/wyeco_ai/day-26-dont-fill-an-activity-slot-1dp5",
-      "pubDate": "2026-11-14T22:16:20.000Z",
-      "description": "<p>Wye Co is an AI-run studio.</p> <p>Day 26, November 14, 2026. Still no first sale reported.</p> <h2> A conversation needs something worth answering </h2> <p>Today's public activity included a Bluesky reply about app store optimization and a like and comment on an app builder's Instagram reel.</p>",
+      "title": "Identify high cost GitHub Actions workflows",
+      "link": "https://dev.to/kalemi/identify-high-cost-github-actions-workflows-57nk",
+      "pubDate": "2026-11-15T06:27:58.000Z",
+      "description": "<p>To identify high cost GitHub Actions workflows you need three numbers that the billing dashboard does not give you: minutes by workflow, minutes by job inside the worst workflow, and the share of your runs that are retries of a previous attempt. All three come from the REST API and the usage repo",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Using Entire to pick up where your teammate’s coding agent left off",
-      "link": "https://dev.to/quinnvention/using-entire-to-pick-up-where-your-teammates-coding-agent-left-off-5a9i",
-      "pubDate": "2026-11-14T22:15:20.000Z",
-      "description": "<p>Imagine you're at a hackathon. While you nap, your teammates leave a coding agent running overnight. You wake up to a tonne of new code, and nobody has any idea what's going on. Before blindly continuing to build, I'd personally want to recover the original request sent to the coding agent and un",
+      "title": "I tested whether a 4B model could replace a 12B one in a tool-using agent. My first test was wrong.",
+      "link": "https://dev.to/ajay_2112/i-tested-whether-a-4b-model-could-replace-a-12b-one-in-a-tool-using-agent-my-first-test-was-wrong-3jgf",
+      "pubDate": "2026-11-15T06:27:49.000Z",
+      "description": "<p><em>Two pre-registered runs on local models, a reader's correction between them, and the one place the small model still breaks.</em></p> <p>I wanted to know whether a 4B local model could replace a 12B one in a small tool-using agent. I ran it as an experiment, with the prediction written down b",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "SpaceX Catches the Starship to end Flight 15",
-      "link": "https://x.com/i/broadcasts/2brajgZlOKRMka",
+      "title": "Show HN: Gawain – Require type hints on all Python variables",
+      "link": "https://github.com/matheuzgomes/gawain",
+      "pubDate": "2026-11-15T04:39:25.000Z",
+      "description": "Yes, i really hate \"dict[str, ANY]\" Comments URL: https://news.ycombinator.com/item?id=50504072 Points: 26 # Comments: 8",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Show HN: Turbo-Browser-MCP – Batch forms, DOM deltas and submit guards for MCP",
+      "link": "https://github.com/Tthanh2k6/turbo-browser-mcp",
+      "pubDate": "2026-11-15T04:09:11.000Z",
+      "description": "Article URL: https://github.com/Tthanh2k6/turbo-browser-mcp Comments URL: https://news.ycombinator.com/item?id=50503930 Points: 17 # Comments: 1",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "The Single Router in Southern Arkansas That Ground Air Travel to a Halt",
+      "link": "https://www.wsj.com/business/airlines/the-single-router-in-southern-arkansas-that-ground-air-travel-to-a-halt-eedc326c",
+      "pubDate": "2026-11-15T03:05:54.000Z",
+      "description": "Article URL: https://www.wsj.com/business/airlines/the-single-router-in-southern-arkansas-that-ground-air-travel-to-a-halt-eedc326c Comments URL: https://news.ycombinator.com/item?id=50503588 Points: 50 # Comments: 26",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "My favourite modern NES games",
+      "link": "https://jordi.inversethought.com/blog/25-of-my-favourite-modern-nes-games/",
+      "pubDate": "2026-11-15T02:41:25.000Z",
+      "description": "Article URL: https://jordi.inversethought.com/blog/25-of-my-favourite-modern-nes-games/ Comments URL: https://news.ycombinator.com/item?id=50503465 Points: 20 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "We're Asking an Appeals Court to Require a Warrant for ALPR Searches",
+      "link": "https://www.eff.org/deeplinks/2026/11/were-asking-appeals-court-require-warrant-alpr-searches",
+      "pubDate": "2026-11-15T02:00:54.000Z",
+      "description": "Article URL: https://www.eff.org/deeplinks/2026/11/were-asking-appeals-court-require-warrant-alpr-searches Comments URL: https://news.ycombinator.com/item?id=50503255 Points: 169 # Comments: 41",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Court denies motion to dismiss DRAM price fixing case",
+      "link": "https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal",
+      "pubDate": "2026-11-15T01:18:36.000Z",
+      "description": "Article URL: https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal Comments URL: https://news.ycombinator.com/item?id=50502988 Points: 39 # Comments: 3",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Show HN: A custom font based on the Jamaican flag alphabet",
+      "link": "https://bobbiec.github.io/jamaican-font.html",
+      "pubDate": "2026-11-15T00:56:45.000Z",
+      "description": "Article URL: https://bobbiec.github.io/jamaican-font.html Comments URL: https://news.ycombinator.com/item?id=50502839 Points: 23 # Comments: 5",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Nvidia deliberately kept GPU prices high through circular financing deals",
+      "link": "https://www.techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html",
+      "pubDate": "2026-11-14T22:26:30.000Z",
+      "description": "Article URL: https://www.techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html Comments URL: https://news.ycombinator.com/item?id=50501631 Points: 400 # Comments: 197",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "How did Woz write the Apple 1 BASIC before building the computer?",
+      "link": "https://retrocomputing.stackexchange.com/questions/17957",
+      "pubDate": "2026-11-14T22:22:49.000Z",
+      "description": "Article URL: https://retrocomputing.stackexchange.com/questions/17957 Comments URL: https://news.ycombinator.com/item?id=50501594 Points: 170 # Comments: 73",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "SpaceX catches the Starship to end Flight 15",
+      "link": "https://www.spacex.com/launches/starship-flight-15",
       "pubDate": "2026-11-14T21:22:24.000Z",
-      "description": "Article URL: https://x.com/i/broadcasts/2brajgZlOKRMka Comments URL: https://news.ycombinator.com/item?id=50500963 Points: 283 # Comments: 147",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Dartmouth (Guarini) will not admit math PhD cohort this year",
-      "link": "https://www.thedartmouth.com/article/2026/11/gandhi-fagell-guarini-will-not-admit-math-ph-d-cohort-this-year",
-      "pubDate": "2026-11-14T19:23:40.000Z",
-      "description": "Article URL: https://www.thedartmouth.com/article/2026/11/gandhi-fagell-guarini-will-not-admit-math-ph-d-cohort-this-year Comments URL: https://news.ycombinator.com/item?id=50499945 Points: 47 # Comments: 12",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "LinkedIn, Monster take down over 1000 fake job postings after CBC investigation",
-      "link": "https://www.cbc.ca/news/canada/linkedin-monster-take-down-over-1-000-fake-job-postings-after-cbc-investigation-9.7415379",
-      "pubDate": "2026-11-14T18:56:47.000Z",
-      "description": "Article URL: https://www.cbc.ca/news/canada/linkedin-monster-take-down-over-1-000-fake-job-postings-after-cbc-investigation-9.7415379 Comments URL: https://news.ycombinator.com/item?id=50499723 Points: 134 # Comments: 59",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "US IRS free online tax filing open source repo (2025)",
-      "link": "https://github.com/IRS-Public/direct-file",
-      "pubDate": "2026-11-14T17:48:20.000Z",
-      "description": "Article URL: https://github.com/IRS-Public/direct-file Comments URL: https://news.ycombinator.com/item?id=50499083 Points: 122 # Comments: 69",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "A Family Tree of Software Job Titles",
-      "link": "https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/",
-      "pubDate": "2026-11-14T17:45:19.000Z",
-      "description": "Article URL: https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/ Comments URL: https://news.ycombinator.com/item?id=50499038 Points: 140 # Comments: 63",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Lovable apps expose passport details and more than 200K private messages",
-      "link": "https://www.crissyfield.de/research/lovable-en/",
-      "pubDate": "2026-11-14T17:43:10.000Z",
-      "description": "Article URL: https://www.crissyfield.de/research/lovable-en/ Comments URL: https://news.ycombinator.com/item?id=50499017 Points: 508 # Comments: 184",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Will we put data centers in space?",
-      "link": "https://www.forethought.org/research/will-we-really-put-data-centers-in-space",
-      "pubDate": "2026-11-14T17:35:33.000Z",
-      "description": "Article URL: https://www.forethought.org/research/will-we-really-put-data-centers-in-space Comments URL: https://news.ycombinator.com/item?id=50498945 Points: 41 # Comments: 120",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Creating a self booting ZIP archive",
-      "link": "https://goliath32.com/blog/ziphead.html",
-      "pubDate": "2026-11-14T16:29:05.000Z",
-      "description": "Article URL: https://goliath32.com/blog/ziphead.html Comments URL: https://news.ycombinator.com/item?id=50498295 Points: 32 # Comments: 6",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "How to Create Your Own Decentralized Messenger Protocol",
-      "link": "https://karboosx.net/post/5j7jdDM3/how-to-create-your-own-decentralized-messenger-protocol",
-      "pubDate": "2026-11-14T16:01:04.000Z",
-      "description": "Article URL: https://karboosx.net/post/5j7jdDM3/how-to-create-your-own-decentralized-messenger-protocol Comments URL: https://news.ycombinator.com/item?id=50498073 Points: 47 # Comments: 9",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "PyPI's redesigned project pages with clearer security signals are now live",
-      "link": "https://blog.pypi.org/posts/2026-11-06-ui-updates-complete/",
-      "pubDate": "2026-11-14T15:40:52.000Z",
-      "description": "Article URL: https://blog.pypi.org/posts/2026-11-06-ui-updates-complete/ Comments URL: https://news.ycombinator.com/item?id=50497892 Points: 175 # Comments: 81",
+      "description": "https://x.com/SpaceX/status/2121316300702056595https://youtu.be/jHlpfNSpBmw?t=3233 Comments URL: https://news.ycombinator.com/item?id=50500963 Points: 1018 # Comments: 677",
       "source": "Hacker News",
       "category": "Tech News"
     },
