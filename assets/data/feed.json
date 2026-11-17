@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T22:03:05.972Z",
+  "generatedAt": "2026-11-17T07:56:00.363Z",
   "sourceCount": 4,
   "successCount": 3,
   "errors": [
@@ -10,162 +10,162 @@
   ],
   "items": [
     {
-      "title": "What Philippine Fintechs Must Learn From the US Bank Outage",
-      "link": "https://dev.to/yanoai/what-philippine-fintechs-must-learn-from-the-us-bank-outage-5fg",
-      "pubDate": "2026-11-16T22:02:26.000Z",
-      "description": "<p>Digital payments accounted for 64.7% of Philippine retail payment volume in 2025, up from 57.4% in 2024 (Source: Bangko Sentral ng Pilipinas, 2026). On November 16, 2026, customers of JPMorgan Chase, Bank of America, Wells Fargo and other US banks reported service problems after Chase disclosed a",
+      "title": "How I Earned Trust Without a Degree or Certificates",
+      "link": "https://dev.to/sumit0rn/how-i-earned-trust-without-a-degree-or-certificates-29fa",
+      "pubDate": "2026-11-17T07:53:19.000Z",
+      "description": "<p>I don't have a formal degree or professional certificates, yet I often find myself working alongside highly qualified professionals. So, how did I earn their trust?</p> <p>By making myself valuable.</p> <h2> Contribution Over Credentials </h2> <p>A certificate can demonstrate what you have learne",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "TRENDnet TEW-657BRM Returns Seven App Matches and No Patch Path",
-      "link": "https://dev.to/jeffreyciend/trendnet-tew-657brm-returns-seven-app-matches-and-no-patch-path-3dch",
-      "pubDate": "2026-11-16T22:02:15.000Z",
-      "description": "<h1> TRENDnet TEW-657BRM Returns Seven App Matches and No Patch Path </h1> <p>The TRENDnet TEW-657BRM is a 150 Mbps wireless ADSL modem router. It is an old device with a small public fingerprint, which makes a count useful for an inventory conversation rather than for a vulnerability claim. On 2026",
+      "title": "Fitting a raw-to-scaled score curve without an official table (Digital SAT)",
+      "link": "https://dev.to/blusguo/fitting-a-raw-to-scaled-score-curve-without-an-official-table-digital-sat-elj",
+      "pubDate": "2026-11-17T07:52:54.000Z",
+      "description": "<p>College Board does not publish a raw-score-to-scaled-score conversion table for the Digital SAT. On the old paper test they did, one table per form. On the digital test the conversion is module-dependent, so there is no single table to publish. That is the whole problem in one sentence, and it is",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Python AI-Generated Image Lifecycles: Object Storage, Database BLOBs, and Disk",
-      "link": "https://dev.to/lukasschmidt295/python-ai-generated-image-lifecycles-object-storage-database-blobs-and-disk-2paa",
-      "pubDate": "2026-11-16T22:02:15.000Z",
-      "description": "<p>The simplest production choice is usually to put generated image bytes in object storage and keep the object key plus searchable workflow state in a database. Use database binary columns only when the payload is deliberately small and atomic byte-plus-metadata commits matter; treat local disk as ",
+      "title": "We set maxUnavailable to zero, the platform team set a pod quota, and no release could start",
+      "link": "https://dev.to/sergey_shinder_ab2d943365/we-set-maxunavailable-to-zero-the-platform-team-set-a-pod-quota-and-no-release-could-start-1aef",
+      "pubDate": "2026-11-17T07:52:15.000Z",
+      "description": "<p>Our checkout service runs twenty replicas, and its rolling update has maxUnavailable set to zero and maxSurge at twenty five percent. Zero unavailable was a rule we were proud of: a release never takes capacity away. It adds five new pods, waits for them to be ready, then removes five old ones.</",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Una base de negocios gratis con Common Crawl y OpenStreetMap para montar un directorio",
-      "link": "https://dev.to/uniamos/una-base-de-negocios-gratis-con-common-crawl-y-openstreetmap-para-montar-un-directorio-491p",
-      "pubDate": "2026-11-16T22:02:09.000Z",
-      "description": "<p>Para montar un directorio necesitas una base de negocios con nombre, web, teléfono, correo y horarios. Si no la tienes, hay dos fuentes públicas y gratuitas que, combinadas, cubren casi todo: OpenStreetMap y Common Crawl. Las usamos para un directorio de cafeterías, pero el método sirve para cual",
+      "title": "Before You Batch-Convert a Folder of Videos, Test One File from Each Source",
+      "link": "https://dev.to/dongyu8186/before-you-batch-convert-a-folder-of-videos-test-one-file-from-each-source-33h0",
+      "pubDate": "2026-11-17T07:52:13.000Z",
+      "description": "<p>Suppose your project folder contains phone clips, camera footage, and a screen recording. You want them all to work in one editor or upload destination. If you use unsuitable settings for the whole folder, you may have to convert every file again.</p> <p>Start with a small pilot: one representati",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How to show regulators exactly which code handled your data",
-      "link": "https://dev.to/litprotocol/how-to-show-regulators-exactly-which-code-handled-your-data-3b7a",
-      "pubDate": "2026-11-16T22:01:44.000Z",
-      "description": "<p>To show a regulator exactly which code handled a piece of data, run the code in an attested hardware enclave and have it sign every result with a key that belongs to that exact code. On Lit Protocol, a Lit Action is identified by a hash of its source, and every action has its own signing key that",
+      "title": "Before You Upload a Large Video to an Online Compressor, Do the Transfer Math",
+      "link": "https://dev.to/dongyu8186/before-you-upload-a-large-video-to-an-online-compressor-do-the-transfer-math-1g1p",
+      "pubDate": "2026-11-17T07:52:00.000Z",
+      "description": "<p>Suppose you have a 2 GB camera clip and want a compact copy to share. A cloud compressor needs to receive the source footage. On a slow upload connection, that transfer can take much of the time you have available, before you account for compression time.</p> <p>Before choosing a tool, estimate t",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Ecommerce Schema: What Shopify and WooCommerce Miss in 2026",
-      "link": "https://dev.to/8bitenterprise/ecommerce-schema-what-shopify-and-woocommerce-miss-in-2026-3726",
-      "pubDate": "2026-11-16T22:01:44.000Z",
-      "description": "<p><em>This article was first published on the <a href=\"https://8bitenterprise.com/blog/ecommerce-schema/\" rel=\"noopener noreferrer\">8Bit Enterprise blog</a>.</em></p> <p><strong>Quick answer:</strong> Ecommerce schema is code on your product pages that tells Google the product's name, price, stock ",
+      "title": "Will Your Photo Come Out Sideways? A Python EXIF Orientation Preflight Before You Pay for a Bama Bound Clip (Tested)",
+      "link": "https://dev.to/lpgit/will-your-photo-come-out-sideways-a-python-exif-orientation-preflight-before-you-pay-for-a-bama-3g5e",
+      "pubDate": "2026-11-17T07:51:53.000Z",
+      "description": "<p><em>Checked November 17, 2026 (15:19–15:21 CST, UTC+8). I build <a href=\"https://bamabound.app/\" rel=\"noopener noreferrer\">bamabound.app</a>, an independent studio that turns one photo of one person into a vertical clip of them holding a red I'M BAMA BOUND banner. It is not the University of Alab",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Productivity Anxiety: 6 Cognitive Distortions That Fuel Output Guilt",
-      "link": "https://dev.to/473185670/productivity-anxiety-6-cognitive-distortions-that-fuel-output-guilt-49lm",
-      "pubDate": "2026-11-16T22:01:39.000Z",
-      "description": "<h1> Productivity Anxiety: 6 Cognitive Distortions That Fuel Output Guilt </h1> <p><em>How to break the productivity guilt cycle with CBT techniques for developers</em></p> <p>You've been \"productive\" all day. 12 hours at the desk. 8 PRs merged. 3 meetings attended. And yet... you feel guilty. Like ",
+      "title": "How Does Co-Channel Interference Occur in Wireless Communication? Causes, Troubleshooting and Mitigation",
+      "link": "https://dev.to/jamesliu/how-does-co-channel-interference-occur-in-wireless-communication-causes-troubleshooting-and-1dk9",
+      "pubDate": "2026-11-17T07:51:45.000Z",
+      "description": "<p>The answer: Co-channel interference occurs when two or more devices transmitting on the same frequency and channel overlap in the air: the receiving antenna picks up the vector superposition of all their energy, and once the interference approaches or exceeds the desired signal, the receiver's de",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Projeto de Banco de Dados - Normalização",
-      "link": "https://dev.to/max_santos/projeto-de-banco-de-dados-normalizacao-5b7e",
-      "pubDate": "2026-11-16T22:01:31.000Z",
-      "description": "<p>O processo de normalização de banco de dados relacionais, proposto por Edgar F. Codd na IBM, visa organizar o armazenamento das informações para garantir a eficácia das restrições de integridade e eliminar dependências indesejadas estruturadas incorretamente, conhecidas como anomalias. Essas falh",
+      "title": "Stop asking one prompt to do three jobs",
+      "link": "https://dev.to/mgazar_/stop-asking-one-prompt-to-do-three-jobs-lk0",
+      "pubDate": "2026-11-17T07:51:41.000Z",
+      "description": "<p><em>Adapted from the first lesson of <a href=\"https://learnvoro.com/courses/designing-multi-agent-systems-build-collaborative-ai?utm_source=devto&amp;utm_medium=post&amp;utm_campaign=multi-agent-roles\" rel=\"noopener noreferrer\">Designing Multi-Agent Systems</a> on Learnvoro. Originally published ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Stream a tool-using Claude agent to the browser with SSE in Next.js",
-      "link": "https://dev.to/agentwright/stream-a-tool-using-claude-agent-to-the-browser-with-sse-in-nextjs-1317",
-      "pubDate": "2026-11-16T22:00:38.000Z",
-      "description": "<p>Streaming a chat answer token by token is the easy part. An agent also pauses to call tools, sometimes several in parallel, runs for many seconds, and costs money on every turn. This post shows a small event protocol that carries all of that from a Next.js route handler to a React client, and the",
+      "title": "Why Do Wireless Modules Suffer Communication Latency? Common Causes and Optimization Strategies",
+      "link": "https://dev.to/jamesliu/why-do-wireless-modules-suffer-communication-latency-common-causes-and-optimization-strategies-5627",
+      "pubDate": "2026-11-17T07:51:21.000Z",
+      "description": "<p>The answer: In industrial automation, security alarm and remote telemetry projects, many engineers face delayed data transmission — after the system sends a control command, the receiver may take hundreds of milliseconds or even seconds to respond. Wireless transparent-transmission modules (such ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "AI in Your SOC 2 Environment: 3 Worked Examples, From Risk to Audit Evidence",
-      "link": "https://dev.to/paul_wenham_4548e1d296d9b/ai-in-your-soc-2-environment-3-worked-examples-from-risk-to-audit-evidence-3jd",
-      "pubDate": "2026-11-16T22:00:00.000Z",
-      "description": "<p>AI shows up in SOC 2 environments in three ways: it supports the people who operate the system, it performs compliance controls, and it acts directly in production. Each one changes the risk differently, so each changes what a credible control looks like.</p> <p>Below is one worked example of eac",
+      "title": "Bus factor: how to break up knowledge silos in teams",
+      "link": "https://dev.to/sascha-ms/bus-factor-how-to-break-up-knowledge-silos-in-teams-1755",
+      "pubDate": "2026-11-17T07:51:19.000Z",
+      "description": "<p>The bus factor of a team is a number hardly anyone likes to talk about: how many people could drop out tomorrow before something important grinds to a halt? If the honest answer is “one person”, you have a knowledge silo. And you usually notice it only when exactly that person is on holiday and t",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "Show HN: Pulsar – cross-harness agent to agent communication and messaging",
+      "link": "https://github.com/yocontra/pulsar",
+      "pubDate": "2026-11-17T03:18:53.000Z",
+      "description": "Article URL: https://github.com/yocontra/pulsar Comments URL: https://news.ycombinator.com/item?id=50526967 Points: 10 # Comments: 0",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Tokendoctor – See what your Claude Code use overpays",
+      "link": "https://github.com/localixai/tokendoctor",
+      "pubDate": "2026-11-17T02:19:50.000Z",
+      "description": "Article URL: https://github.com/localixai/tokendoctor Comments URL: https://news.ycombinator.com/item?id=50526584 Points: 20 # Comments: 9",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "If an App Asks for Full Disk Access or System and App Protection Override",
+      "link": "https://support.apple.com/en-us/149699",
+      "pubDate": "2026-11-17T02:17:04.000Z",
+      "description": "Article URL: https://support.apple.com/en-us/149699 Comments URL: https://news.ycombinator.com/item?id=50526560 Points: 97 # Comments: 53",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Mem Is Shutting Down",
+      "link": "https://get.mem.ai/blog/mem-is-shutting-down",
+      "pubDate": "2026-11-17T02:13:41.000Z",
+      "description": "Article URL: https://get.mem.ai/blog/mem-is-shutting-down Comments URL: https://news.ycombinator.com/item?id=50526537 Points: 49 # Comments: 64",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Running coding agents without handing them my credentials",
+      "link": "https://blog.antonio.cx/running-agents-with-lend",
+      "pubDate": "2026-11-17T01:18:56.000Z",
+      "description": "Article URL: https://blog.antonio.cx/running-agents-with-lend Comments URL: https://news.ycombinator.com/item?id=50526152 Points: 100 # Comments: 57",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Why 3dfx 1 cards had such a washed out color output?",
+      "link": "https://twitter.com/id_aa_carmack/status/2122478083319992513",
+      "pubDate": "2026-11-17T00:16:24.000Z",
+      "description": "Article URL: https://twitter.com/id_aa_carmack/status/2122478083319992513 Comments URL: https://news.ycombinator.com/item?id=50525575 Points: 95 # Comments: 14",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Optimizely compromised, served malware on Zoom, GitLab",
+      "link": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
+      "pubDate": "2026-11-16T23:00:34.000Z",
+      "description": "Article URL: https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/ Comments URL: https://news.ycombinator.com/item?id=50524767 Points: 288 # Comments: 122",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Windows 11 Is Collecting Data on Which Coding Agents and Developer Tools You Use",
+      "link": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
+      "pubDate": "2026-11-16T22:58:20.000Z",
+      "description": "Article URL: https://xusheng.dev/posts/windows-coding-agent-telemetry/ Comments URL: https://news.ycombinator.com/item?id=50524736 Points: 529 # Comments: 367",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "How to Break into Security, Ptacek Edition (2012)",
+      "link": "https://krebsonsecurity.com/2012/06/how-to-break-into-security-ptacek-edition/",
+      "pubDate": "2026-11-16T22:19:23.000Z",
+      "description": "Article URL: https://krebsonsecurity.com/2012/06/how-to-break-into-security-ptacek-edition/ Comments URL: https://news.ycombinator.com/item?id=50524225 Points: 101 # Comments: 24",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "Spamhaus new email sender requirements in November",
       "link": "https://www.spamhaus.org/sender-guidelines/",
       "pubDate": "2026-11-16T21:47:19.000Z",
-      "description": "Article URL: https://www.spamhaus.org/sender-guidelines/ Comments URL: https://news.ycombinator.com/item?id=50523784 Points: 3 # Comments: 0",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "BugMeNot Has Closed",
-      "link": "https://www.bugmenot.com/",
-      "pubDate": "2026-11-16T21:32:17.000Z",
-      "description": "Article URL: https://www.bugmenot.com/ Comments URL: https://news.ycombinator.com/item?id=50523601 Points: 51 # Comments: 24",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "My Quest to push native Three.js quality match AAA Game Engines",
-      "link": "https://ben3d.ca/blog/building-the-aaa-lighting-pipeline-in-threejs",
-      "pubDate": "2026-11-16T21:07:43.000Z",
-      "description": "Article URL: https://ben3d.ca/blog/building-the-aaa-lighting-pipeline-in-threejs Comments URL: https://news.ycombinator.com/item?id=50523291 Points: 30 # Comments: 1",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Comcast's \"fiber-powered Wi-Fi\" is cable, AT&T says in false advertising case",
-      "link": "https://arstechnica.com/tech-policy/2026/11/comcast-falsely-advertises-cable-internet-as-fiber-powered-att-lawsuit-says/",
-      "pubDate": "2026-11-16T20:48:08.000Z",
-      "description": "Article URL: https://arstechnica.com/tech-policy/2026/11/comcast-falsely-advertises-cable-internet-as-fiber-powered-att-lawsuit-says/ Comments URL: https://news.ycombinator.com/item?id=50523025 Points: 31 # Comments: 20",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Caltech professor no longer grades homework's because everyone uses AI",
-      "link": "https://www.businessinsider.com/ai-math-class-university-homework-caltech-careers-2026-11",
-      "pubDate": "2026-11-16T20:47:53.000Z",
-      "description": "Article URL: https://www.businessinsider.com/ai-math-class-university-homework-caltech-careers-2026-11 Comments URL: https://news.ycombinator.com/item?id=50523022 Points: 33 # Comments: 20",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Launch HN: Axonnic (YC F26) – Sleeves that track fingers and estimate force",
-      "link": "https://news.ycombinator.com/item?id=50522776",
-      "pubDate": "2026-11-16T20:29:48.000Z",
-      "description": "Hi HN! We’re Arsh and Max, founders of Axonnic (https://axonnic.com). We’ve developed a forearm sleeve that reads muscle activity to decode finger movements and estimate fingertip force, while leaving the hands bare. It’s used to record human movement and generate training data for dextrous robots.H",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Chemistry Is Geometry",
-      "link": "https://chillphysicsenjoyer.substack.com/p/chemistry-is-actually-geometry",
-      "pubDate": "2026-11-16T20:22:18.000Z",
-      "description": "Article URL: https://chillphysicsenjoyer.substack.com/p/chemistry-is-actually-geometry Comments URL: https://news.ycombinator.com/item?id=50522643 Points: 8 # Comments: 1",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Rust changed me as a developer",
-      "link": "https://blog.startifact.com/posts/how-rust-changed-me/",
-      "pubDate": "2026-11-16T20:16:50.000Z",
-      "description": "Article URL: https://blog.startifact.com/posts/how-rust-changed-me/ Comments URL: https://news.ycombinator.com/item?id=50522563 Points: 59 # Comments: 20",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "How to Intercept HTTP/3 Traffic: QUIC and Qpack",
-      "link": "https://interceptsuite.com/blog/intercept-http3-traffic-quic-qpack-explained/",
-      "pubDate": "2026-11-16T19:29:17.000Z",
-      "description": "Article URL: https://interceptsuite.com/blog/intercept-http3-traffic-quic-qpack-explained/ Comments URL: https://news.ycombinator.com/item?id=50521870 Points: 33 # Comments: 3",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Outages reported at Bank of America, Chase, U.S. Bank, Wells Fargo and Zelle",
-      "link": "https://apnews.com/article/bank-outage-chase-wells-fargo-truist-50fee2693c22f597fa6ca51a97ef2cda",
-      "pubDate": "2026-11-16T18:31:30.000Z",
-      "description": "Article URL: https://apnews.com/article/bank-outage-chase-wells-fargo-truist-50fee2693c22f597fa6ca51a97ef2cda Comments URL: https://news.ycombinator.com/item?id=50521045 Points: 574 # Comments: 438",
+      "description": "Article URL: https://www.spamhaus.org/sender-guidelines/ Comments URL: https://news.ycombinator.com/item?id=50523784 Points: 97 # Comments: 86",
       "source": "Hacker News",
       "category": "Tech News"
     },
