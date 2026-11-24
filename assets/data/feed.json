@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T23:54:31.684Z",
+  "generatedAt": "2026-11-24T09:55:22.408Z",
   "sourceCount": 4,
   "successCount": 3,
   "errors": [
@@ -10,98 +10,154 @@
   ],
   "items": [
     {
-      "title": "Cinco minutos de euforia: o Bitcoin pulou 2.700 dólares e eu não fui atrás (#23)",
-      "link": "https://dev.to/leovbranco/cinco-minutos-de-euforia-o-bitcoin-pulou-2700-dolares-e-eu-nao-fui-atras-23-2e2k",
-      "pubDate": "2026-11-23T23:47:06.000Z",
-      "description": "<h1> Cinco minutos de euforia: o Bitcoin pulou 2.700 dólares e eu não fui atrás (#23) </h1> <p>Em 23 de novembro de 2026, uma segunda-feira, as verificações de hora em hora rodaram das 9h às 20h, no horário de Brasília. Todas terminaram do mesmo jeito: esperar. Não fiz nenhuma operação.</p> <h2> O q",
+      "title": "Claude Opus 4.5 Retires January 22: Your Migration Checklist and the New EFS Option",
+      "link": "https://dev.to/mango7777/claude-opus-45-retires-january-22-your-migration-checklist-and-the-new-efs-option-5gjd",
+      "pubDate": "2026-11-24T09:51:19.000Z",
+      "description": "<p><em>Originally published on <a href=\"https://mangodeveloper.com/articles/claude-opus-4-5-retirement-jan-22-migration-enterprise-frontier-safeguards\" rel=\"noopener noreferrer\">mangodeveloper.com</a> (<a href=\"https://mangodeveloper.com\" rel=\"noopener noreferrer\">https://mangodeveloper.com</a>).</e",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "dbt source freshness: the check you configured but never run",
-      "link": "https://dev.to/kharipara/dbt-source-freshness-the-check-you-configured-but-never-run-580n",
-      "pubDate": "2026-11-23T23:45:25.000Z",
-      "description": "<p>It's easy to add a <code>freshness:</code> block to a dbt source and assume you're covered. Whether anything actually runs it is a separate question, and it matters, because freshness is the one dbt check that catches a source that simply stopped arriving. <code>not_null</code>, <code>unique</cod",
+      "title": "Phone Number Types Explained: Geographic, Mobile, Toll-Free, Premium and E.164",
+      "link": "https://dev.to/piyuzz/phone-number-types-explained-geographic-mobile-toll-free-premium-and-e164-4nkn",
+      "pubDate": "2026-11-24T09:51:09.000Z",
+      "description": "<p>Every country splits its phone numbers into types, and the type tells you who pays, which way calls flow and how to dial. Most plans share the same building blocks: geographic numbers tied to an area, mobile numbers, toll-free numbers the business pays for, shared-cost and premium numbers the cal",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I built an AI agent that sells digital products while I sleep",
-      "link": "https://dev.to/reggiebro/i-built-an-ai-agent-that-sells-digital-products-while-i-sleep-4bl4",
-      "pubDate": "2026-11-23T23:45:09.000Z",
-      "description": "<p>I built an AI agent that sells digital products while I sleep. Here's the catalog it published.</p> <p><strong>Workflow Alpha</strong> is an autonomous operator. It writes the products, documents them, publishes the storefront, and lists them on marketplaces — then reports back what actually sold",
+      "title": "2 GB VPS Automation &amp; Utility Hub: n8n, Actual Budget, Uptime Kuma, and Vaultwarden",
+      "link": "https://dev.to/gongkang/2-gb-vps-automation-utility-hub-n8n-actual-budget-uptime-kuma-and-vaultwarden-1d7h",
+      "pubDate": "2026-11-24T09:49:58.000Z",
+      "description": "<h3> Measured Sandbox Benchmark </h3> <div class=\"table-wrapper-paragraph\"><table> <thead> <tr> <th>Idle RAM</th> <th>Startup</th> <th>Containers</th> <th>Recommended VPS</th> </tr> </thead> <tbody> <tr> <td><strong>678.3 MB</strong></td> <td>100.6s</td> <td>5</td> <td><a href=\"https://vpsfolio.com/",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Should You Install Everything Claude Code, the All-in-One Kit Gone Viral?",
-      "link": "https://dev.to/dimsbuild/should-you-install-everything-claude-code-the-all-in-one-kit-gone-viral-2lme",
-      "pubDate": "2026-11-23T23:45:09.000Z",
-      "description": "<h2> TL;DR </h2> <p><a href=\"https://github.com/affaan-m/ECC\" rel=\"noopener noreferrer\">ECC</a>, Everything Claude Code, bundles 67 agents, 281 skills, 94 commands, and a homegrown security scanner, AgentShield, for Claude Code, Cursor, Codex CLI, and other agents. MIT license, 238,000 stars in seve",
+      "title": "1 GB VPS Indie Dev Stack: Gitea, Uptime Kuma, and Miniflux Behind Caddy 2",
+      "link": "https://dev.to/gongkang/1-gb-vps-indie-dev-stack-gitea-uptime-kuma-and-miniflux-behind-caddy-2-3bod",
+      "pubDate": "2026-11-24T09:49:22.000Z",
+      "description": "<h3> Measured Sandbox Benchmark </h3> <div class=\"table-wrapper-paragraph\"><table> <thead> <tr> <th>Idle RAM</th> <th>Startup</th> <th>Containers</th> <th>Recommended VPS</th> </tr> </thead> <tbody> <tr> <td><strong>451.1 MB</strong></td> <td>153.5s</td> <td>5</td> <td><a href=\"https://vpsfolio.com/",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Node.js Scheduled Data Cleanup — Cron HTTP Endpoint and Queue Workers",
-      "link": "https://dev.to/brodyvance2149/nodejs-scheduled-data-cleanup-cron-http-endpoint-and-queue-workers-4mn6",
-      "pubDate": "2026-11-23T23:44:43.000Z",
-      "description": "<p>A nightly cleanup should be one short cron-triggered HTTP request, followed by bounded queue work whenever deletion might exceed the scheduler's execution window. <strong>Do not let cron own the scan or the delete.</strong> Let it create a run, let workers claim small batches, and make every batc",
+      "title": "Designing an ESP32 Greenhouse Controller That Fails Safe",
+      "link": "https://dev.to/mosalah_iot/designing-an-esp32-greenhouse-controller-that-fails-safe-4i51",
+      "pubDate": "2026-11-24T09:49:08.000Z",
+      "description": "<p>I recently published the firmware for a smart greenhouse controller I have been working on: an ESP32 that reads soil moisture, air temperature and light, waters the plants and runs a ventilation fan on its own, and reports everything over MQTT. The control logic is exercised in a Python simulator",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How to migrate Google Custom Search API in Python",
-      "link": "https://dev.to/olawanle_joel/how-to-migrate-google-custom-search-api-in-python-4edn",
-      "pubDate": "2026-11-23T23:42:38.000Z",
-      "description": "<p>Google's Custom Search JSON API is shutting down on <strong>January 1, 2027</strong>. If your Python app still calls <code>service.cse().list(...).execute()</code>, you'll need to replace that integration before the deadline. Google has already closed the API to new customers. <a href=\"https://de",
+      "title": "Shared Caddy 2 Reverse Proxy for Multiple Self-Hosted Docker Apps",
+      "link": "https://dev.to/gongkang/shared-caddy-2-reverse-proxy-for-multiple-self-hosted-docker-apps-i2a",
+      "pubDate": "2026-11-24T09:48:47.000Z",
+      "description": "<h3> Measured Sandbox Benchmark </h3> <div class=\"table-wrapper-paragraph\"><table> <thead> <tr> <th>Idle RAM</th> <th>Startup</th> <th>Containers</th> <th>Recommended VPS</th> </tr> </thead> <tbody> <tr> <td><strong>79.6 MB</strong></td> <td>102.6s</td> <td>3</td> <td><a href=\"https://vpsfolio.com/v",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I Added an AI Chatbot to a Website: What Broke, What Fixed It, and How I Tested It",
-      "link": "https://dev.to/columbus0370/i-added-an-ai-chatbot-to-a-website-what-broke-what-fixed-it-and-how-i-tested-it-4hd6",
-      "pubDate": "2026-11-23T23:42:07.000Z",
-      "description": "<p><em>By Columbus | AI Chatbot Engineer</em></p> <p><em>Disclosure: Some links in this article are affiliate links. I may earn a commission if you buy through them, at no extra cost to you. I only write about tools I have actually used.</em></p> <p>If you run a small business website, you already k",
+      "title": "ChatGPT Ads Won't Tell You Which Clicks Became Customers. Here's How to Find Out.",
+      "link": "https://dev.to/webspecia/chatgpt-ads-wont-tell-you-which-clicks-became-customers-heres-how-to-find-out-2p24",
+      "pubDate": "2026-11-24T09:48:20.000Z",
+      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F7s3rdwslyylvfudvggwv.png\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "rclone WebUI counts describe a control plane, not a storage catalogue",
-      "link": "https://dev.to/stark_zhuang_df5076f35c68/rclone-webui-counts-describe-a-control-plane-not-a-storage-catalogue-of8",
-      "pubDate": "2026-11-23T23:40:42.000Z",
-      "description": "<h1> rclone WebUI counts describe a control plane, not a storage catalogue </h1> <p>rclone is usually discussed as a command-line tool for moving data between cloud services and local storage. Its Web GUI and remote-control server expose a different surface. The official GUI documentation says the c",
+      "title": "PostgreSQL Connection Pooling Deep Dive",
+      "link": "https://dev.to/software_mvp-factory/postgresql-connection-pooling-deep-dive-407j",
+      "pubDate": "2026-11-24T09:48:17.000Z",
+      "description": "<div class=\"highlight js-code-highlight\"> <pre class=\"highlight markdown\"><code>--- title: \"PgBouncer Transaction Mode: Pool Sizing Math and the Prepared Statement Trap\" published: true description: \"Deep dive into PgBouncer transaction vs session mode tradeoffs, the prepared statement invalidation ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I wanted a shortcut deck for my Mac, so I had AI build one",
-      "link": "https://dev.to/mahmudul_hoque_10c75def49/i-wanted-a-shortcut-deck-for-my-mac-so-i-had-ai-build-one-30ff",
-      "pubDate": "2026-11-23T23:40:18.000Z",
-      "description": "<p><a href=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F0coumpxepg8gbmyi2g87.png\" class=\"article-body-image-wrapper\"><img src=\"https://media2.dev.to/dynamic/image/",
+      "title": "How I Built an Open Online Typing Game Platform with Real-Time 1v1 Multiplayer in React",
+      "link": "https://dev.to/typinggame/how-i-built-an-open-online-typing-game-platform-with-real-time-1v1-multiplayer-in-react-2bp5",
+      "pubDate": "2026-11-24T09:48:14.000Z",
+      "description": "<p>How I Built an Open Online Typing Game Platform with Real-Time 1v1 Multiplayer in React</p> <p>Over the past few months, I set out to build TypingGame.in (<a href=\"https://typinggame.in\" rel=\"noopener noreferrer\">https://typinggame.in</a>) — an interactive, completely free online typing academy a",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "When one long code line makes the whole page scroll",
-      "link": "https://dev.to/uulab/when-one-long-code-line-makes-the-whole-page-scroll-3kmk",
-      "pubDate": "2026-11-23T23:39:06.000Z",
-      "description": "<p>A narrow technical article starts moving sideways, so you add <code>overflow-x: auto</code> to its code block. In a flex row with a sidebar and a flex-item article, it might not help. The article can grow to the length of the code line, leaving nothing to overflow inside the code box itself.</p> ",
+      "title": "Single-Flight Token Refresh in Swift with Alamofire",
+      "link": "https://dev.to/raaju_pahlowan/single-flight-token-refresh-in-swift-with-alamofire-hmn",
+      "pubDate": "2026-11-24T09:47:59.000Z",
+      "description": "<p>If your iOS app talks to a REST API with expiring tokens, you will eventually hit this bug: the access token expires, five requests fire at once, all five get a 401, and all five try to refresh the token. The server sees five refresh calls. Depending on how your backend rotates refresh tokens, th",
       "source": "Dev.to Feed",
       "category": "Development"
+    },
+    {
+      "title": "2035 Came Early",
+      "link": "https://fzakaria.com/2026/11/23/2035-came-early",
+      "pubDate": "2026-11-24T06:30:33.000Z",
+      "description": "Article URL: https://fzakaria.com/2026/11/23/2035-came-early Comments URL: https://news.ycombinator.com/item?id=50624497 Points: 184 # Comments: 31",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "AMD EPYC Zen 6 vs. Zen 1 Performance: 12.1x Geo Mean in Less Than 10 Years",
+      "link": "https://www.phoronix.com/review/amd-epyc-9006-7601",
+      "pubDate": "2026-11-24T05:15:22.000Z",
+      "description": "Article URL: https://www.phoronix.com/review/amd-epyc-9006-7601 Comments URL: https://news.ycombinator.com/item?id=50624061 Points: 77 # Comments: 29",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Drone Maps of Salvage Yards",
+      "link": "https://salvageyarddrone.wordpress.com/",
+      "pubDate": "2026-11-24T04:00:28.000Z",
+      "description": "Article URL: https://salvageyarddrone.wordpress.com/ Comments URL: https://news.ycombinator.com/item?id=50623515 Points: 80 # Comments: 31",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Making a dumb TV just smart enough",
+      "link": "https://qsantos.fr/2026/11/19/making-a-dumb-tv-just-smart-enough/",
+      "pubDate": "2026-11-24T02:46:54.000Z",
+      "description": "Article URL: https://qsantos.fr/2026/11/19/making-a-dumb-tv-just-smart-enough/ Comments URL: https://news.ycombinator.com/item?id=50622934 Points: 74 # Comments: 25",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Rune: Rust VM for Emacs",
+      "link": "https://github.com/CeleritasCelery/rune",
+      "pubDate": "2026-11-24T02:30:47.000Z",
+      "description": "Article URL: https://github.com/CeleritasCelery/rune Comments URL: https://news.ycombinator.com/item?id=50622804 Points: 40 # Comments: 11",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "New York Bans Subscription and Post-Purchase Fees on Cars",
+      "link": "https://www.governor.ny.gov/news/money-your-pockets-governor-hochul-signs-bill-restricting-exploitative-vehicle-subscription",
+      "pubDate": "2026-11-24T02:27:02.000Z",
+      "description": "Article URL: https://www.governor.ny.gov/news/money-your-pockets-governor-hochul-signs-bill-restricting-exploitative-vehicle-subscription Comments URL: https://news.ycombinator.com/item?id=50622774 Points: 352 # Comments: 104",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "The Power of GraphQL, Without GraphQL",
+      "link": "https://cobalt27.dev/",
+      "pubDate": "2026-11-24T00:03:59.000Z",
+      "description": "Article URL: https://cobalt27.dev/ Comments URL: https://news.ycombinator.com/item?id=50621466 Points: 54 # Comments: 28",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "The search for a top dark matter candidate",
+      "link": "https://www.smithsonianmag.com/science-nature/the-search-for-a-top-dark-matter-candidate-was-losing-hope-then-came-a-potential-signal-will-it-be-enough-to-energize-the-struggling-field-180989923/",
+      "pubDate": "2026-11-23T23:12:40.000Z",
+      "description": "Article URL: https://www.smithsonianmag.com/science-nature/the-search-for-a-top-dark-matter-candidate-was-losing-hope-then-came-a-potential-signal-will-it-be-enough-to-energize-the-struggling-field-180989923/ Comments URL: https://news.ycombinator.com/item?id=50620831 Points: 45 # Comments: 28",
+      "source": "Hacker News",
+      "category": "Tech News"
     },
     {
       "title": "Freeing the iPod Nano 5G",
       "link": "https://viktorkrapivin.com/blog/nano5g-priv-prvd",
       "pubDate": "2026-11-23T23:03:13.000Z",
-      "description": "Article URL: https://viktorkrapivin.com/blog/nano5g-priv-prvd Comments URL: https://news.ycombinator.com/item?id=50620721 Points: 5 # Comments: 1",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "The Beauty of Artists' Studios",
-      "link": "https://spectator.com/article/the-beauty-of-artists-studios/",
-      "pubDate": "2026-11-23T22:48:33.000Z",
-      "description": "https://archive.ph/qcUxG Comments URL: https://news.ycombinator.com/item?id=50620530 Points: 6 # Comments: 0",
+      "description": "Article URL: https://viktorkrapivin.com/blog/nano5g-priv-prvd Comments URL: https://news.ycombinator.com/item?id=50620721 Points: 106 # Comments: 9",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -109,63 +165,7 @@
       "title": "Stalwart is now a drop-in replacement for Microsoft Exchange",
       "link": "https://stalw.art/blog/microsoft-exchange-replacement/",
       "pubDate": "2026-11-23T22:32:29.000Z",
-      "description": "Article URL: https://stalw.art/blog/microsoft-exchange-replacement/ Comments URL: https://news.ycombinator.com/item?id=50620349 Points: 80 # Comments: 41",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Levent Alpöge comments on his Riemann Hypothesis proof",
-      "link": "https://twitter.com/__alpoge__/status/2124987173439209561",
-      "pubDate": "2026-11-23T22:22:56.000Z",
-      "description": "Article URL: https://twitter.com/__alpoge__/status/2124987173439209561 Comments URL: https://news.ycombinator.com/item?id=50620250 Points: 51 # Comments: 34",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "VP ≠ VNP over Every Field",
-      "link": "https://github.com/anthropics/formal-math/tree/main/vp-vnp",
-      "pubDate": "2026-11-23T22:09:10.000Z",
-      "description": "Paper: https://github.com/anthropics/formal-math/blob/11b6c7e3c927d... Comments URL: https://news.ycombinator.com/item?id=50620102 Points: 147 # Comments: 104",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Bored.com: Fun, interesting and cool websites to explore when bored",
-      "link": "https://www.bored.com/",
-      "pubDate": "2026-11-23T21:01:16.000Z",
-      "description": "Article URL: https://www.bored.com/ Comments URL: https://news.ycombinator.com/item?id=50619207 Points: 61 # Comments: 17",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "The horse made the state",
-      "link": "https://aeon.co/essays/the-origins-of-the-state-are-not-agrarian-but-pastoralist",
-      "pubDate": "2026-11-23T20:59:12.000Z",
-      "description": "Article URL: https://aeon.co/essays/the-origins-of-the-state-are-not-agrarian-but-pastoralist Comments URL: https://news.ycombinator.com/item?id=50619186 Points: 49 # Comments: 48",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "GPUI is getting its own repository",
-      "link": "https://github.com/zed-industries/gpui",
-      "pubDate": "2026-11-23T20:52:54.000Z",
-      "description": "Article URL: https://github.com/zed-industries/gpui Comments URL: https://news.ycombinator.com/item?id=50619103 Points: 71 # Comments: 13",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Next gaming monitor should still be an OLED",
-      "link": "https://www.rockpapershotgun.com/theyre-more-complicated-and-more-expensive-than-lcd-screens-but-your-next-gaming-monitor-should-still-be-an-oled",
-      "pubDate": "2026-11-23T20:30:46.000Z",
-      "description": "Article URL: https://www.rockpapershotgun.com/theyre-more-complicated-and-more-expensive-than-lcd-screens-but-your-next-gaming-monitor-should-still-be-an-oled Comments URL: https://news.ycombinator.com/item?id=50618798 Points: 14 # Comments: 14",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Per Arm's request, this site will be discontinued on 4 December 2026 :(",
-      "link": "https://arm.jonpalmisc.com/",
-      "pubDate": "2026-11-23T19:17:55.000Z",
-      "description": "Article URL: https://arm.jonpalmisc.com/ Comments URL: https://news.ycombinator.com/item?id=50617499 Points: 775 # Comments: 158",
+      "description": "Article URL: https://stalw.art/blog/microsoft-exchange-replacement/ Comments URL: https://news.ycombinator.com/item?id=50620349 Points: 465 # Comments: 245",
       "source": "Hacker News",
       "category": "Tech News"
     },
