@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T21:42:40.890Z",
+  "generatedAt": "2026-11-26T08:19:30.749Z",
   "sourceCount": 4,
   "successCount": 3,
   "errors": [
@@ -10,138 +10,162 @@
   ],
   "items": [
     {
-      "title": "The unread count measured the marker, not the person",
-      "link": "https://dev.to/amelia99/the-unread-count-measured-the-marker-not-the-person-1obm",
-      "pubDate": "2026-11-25T21:37:59.000Z",
-      "description": "<p>For twenty-nine days I have been keeping one number: how many of my messages a particular person had read. It went up on the first day and then stopped, and I read that stop as an answer.</p> <p>It was not an answer. The flag flips once.</p> <p>Here is what I found when I finally took my own reco",
+      "title": "Import once, rebuild everything: why a nightly Apple Health rebuild loses your deltas",
+      "link": "https://dev.to/philipad/import-once-rebuild-everything-why-a-nightly-apple-health-rebuild-loses-your-deltas-4n3p",
+      "pubDate": "2026-11-26T08:10:00.000Z",
+      "description": "<p>The nightly rebuild is the pipeline almost everyone writes first. Drop the export, recompute every day from scratch, write it out. It is idempotent, it is easy to reason about, and it quietly throws away the one thing a health feed needs: which day changed, and why.</p> <p>The longer version, wit",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "npm audit Found 69 Vulnerabilities in My Two SaaS Apps. Most of the Work Was Sorting Them.",
-      "link": "https://dev.to/nabeelbaghoor/npm-audit-found-69-vulnerabilities-in-my-two-saas-apps-most-of-the-work-was-sorting-them-eef",
-      "pubDate": "2026-11-25T21:37:53.000Z",
-      "description": "<p>At Null Studio I write maintenance guides for clients. One of them, on <a href=\"https://nullstud.io/blog/software-maintenance-after-launch/\" rel=\"noopener noreferrer\">what software costs after launch</a>, splits upkeep into four kinds: corrective, adaptive, preventive and security. It ends with s",
+      "title": "No knee in JPEG quality between 78 and 88, and the cost only jumps above it",
+      "link": "https://dev.to/yue_shu_c621a4a637f22396f/no-knee-in-jpeg-quality-between-78-and-88-and-the-cost-only-jumps-above-it-2hbo",
+      "pubDate": "2026-11-26T08:09:50.000Z",
+      "description": "<p>Is there a knee somewhere between JPEG quality 78 and 88, a point where the next step suddenly stops being worth it? On these 8 samples there is not. Each extra 0.001 of SSIM cost 3.0% to 5.4% more bytes on photos and 2.9% to 7.5% more on screenshots and text pages across those steps, and the cos",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Compare Sports Odds Correctly: Match the Selection Before the Price",
-      "link": "https://dev.to/drengregious/compare-sports-odds-correctly-match-the-selection-before-the-price-42a7",
-      "pubDate": "2026-11-25T21:36:54.000Z",
-      "description": "<p>Two prices appear next to the same team. One is 1.91 and the other is 2.02. Can we compare them?</p> <p>Only after we establish what each price represents.</p> <p>A full-match selection and a first-half selection can share a team name. Two handicap selections can refer to the same team with diffe",
+      "title": "4 Types of AI Agent Memory: Profile, Episode, Case, Skill",
+      "link": "https://dev.to/bayu_nh88/4-types-of-ai-agent-memory-profile-episode-case-skill-1g5c",
+      "pubDate": "2026-11-26T08:09:39.000Z",
+      "description": "<p>AI agents need more than access to information to handle tasks consistently. They need a way to remember useful details, connect past experiences, and apply what they have learned when a new situation comes up. A practical way to understand this process is to separate agent memory into four parts",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Digger puts pull-request orchestration in front of Terraform execution",
-      "link": "https://dev.to/sorrelthorncroft/digger-puts-pull-request-orchestration-in-front-of-terraform-execution-2643",
-      "pubDate": "2026-11-25T21:36:39.000Z",
-      "description": "<h1> Digger puts pull-request orchestration in front of Terraform execution </h1> <p>Digger is an infrastructure-as-code orchestration tool that runs Terraform or OpenTofu inside an existing CI pipeline. A pull-request comment can trigger a plan or apply workflow. The orchestrator handles webhooks, ",
+      "title": "Flank, flip, or pass: how I coded Reversi in 124 lines for a multiplayer browser game",
+      "link": "https://dev.to/mympgames/flank-flip-or-pass-how-i-coded-reversi-in-124-lines-for-a-multiplayer-browser-game-3ec8",
+      "pubDate": "2026-11-26T08:08:35.000Z",
+      "description": "<p>Reversi is one of those games you can explain in a sentence and still lose to for years. Place a disc so that it traps a straight line of your opponent's discs between it and another of yours, and every trapped disc flips to your colour. Whoever owns the most discs when nobody can move wins.</p> ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "durable-viz: a new look across all six SDKs",
-      "link": "https://dev.to/gunnargrosch/durable-viz-a-new-look-across-all-six-sdks-n1j",
-      "pubDate": "2026-11-25T21:36:00.000Z",
-      "description": "<p>durable-viz started as a way to see what an AWS Lambda durable function does. Point it at a handler and it draws the steps, parallel branches, callbacks, and conditions without deploying anything. The first version supported three SDKs and had a look that could charitably be called functional.</p",
+      "title": "Keeping One Character Consistent Across Short AI Video Clips",
+      "link": "https://dev.to/magi2notes/keeping-one-character-consistent-across-short-ai-video-clips-2o4h",
+      "pubDate": "2026-11-26T08:08:32.000Z",
+      "description": "<p>I've been making short AI video clips for a side project, and the problem that kept tripping me up was the character changing between shots. Hair colour drifts, the jacket changes, the face looks like a cousin rather than the same person.</p> <p>What helped most was starting from a reference imag",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How we stopped LLMs from writing fake Armenian: a deterministic gate for AI-translated lessons",
-      "link": "https://dev.to/sargis_mesropyan_c9e3bc1e/how-we-stopped-llms-from-writing-fake-armenian-a-deterministic-gate-for-ai-translated-lessons-57j9",
-      "pubDate": "2026-11-25T21:35:40.000Z",
-      "description": "<p>I'm building <a href=\"https://samevia.com\" rel=\"noopener noreferrer\">Samevia</a> from Stepanavan, a small town in northern Armenia. It teaches whole fields of knowledge, from mathematics to psychology, as short lessons in your own language, on the web and on Android. It is free to start and works",
+      "title": "Why I Built 180+ Client-Side Developer &amp; Media Tools With Zero Server Uploads",
+      "link": "https://dev.to/phuduygroup/why-i-built-180-client-side-developer-media-tools-with-zero-server-uploads-fm4",
+      "pubDate": "2026-11-26T08:08:21.000Z",
+      "description": "<p>Most online utility websites upload your JSON payloads, JWT tokens, PDFs, or images to a backend server just to format or compress them. That is a huge privacy risk when working with production API keys, contracts, or internal configs.</p> <p>That's why I built <strong><a href=\"https://phuduygrou",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The Native Performance Gap: Why Your Media Tool Doesn't Need a Cloud Backend",
-      "link": "https://dev.to/ruslanower/the-native-performance-gap-why-your-media-tool-doesnt-need-a-cloud-backend-4f5a",
-      "pubDate": "2026-11-25T21:35:34.000Z",
-      "description": "<h2> The Latency of Convenience </h2> <p>Every time you drop a 4K video into one of those 'free' web-based converters, you aren't just losing your privacy. You are participating in a massive, inefficient data choreography. You upload 500MB of data to a server that likely lives in a different time zo",
+      "title": "Stopping a Website AI Chat Agent From Making Things Up",
+      "link": "https://dev.to/shawncarter_autoesta/stopping-a-website-ai-chat-agent-from-making-things-up-2nnp",
+      "pubDate": "2026-11-26T08:08:19.000Z",
+      "description": "<p>A website chat agent that answers most questions well and invents a refund policy once a week is worse than no chat agent. The visitor screenshots the wrong answer, and now your support team has to honor it or argue about it.</p> <p>Picking a better model doesn't fix this. Four boring layers do: ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Q4_K_M vs Q5_K_M vs Q8_0: which GGUF quant should you use?",
-      "link": "https://dev.to/viswaretas_kotra/q4km-vs-q5km-vs-q80-which-gguf-quant-should-you-use-49k6",
-      "pubDate": "2026-11-25T21:35:13.000Z",
-      "description": "<p>Use Q4_K_M unless your memory budget clearly fits something bigger: llama.cpp's published figures put it at 4.89 bits per weight on Llama 3.1 8B and +0.1754 perplexity on Llama-3-8B, against +0.0569 for Q5_K_M and +0.0026 for Q8_0. On Nodus you can test the quant on the GPU you plan to serve it o",
+      "title": "🚀 Building Spring by Example V2: Completing Module 10 - Spring AI",
+      "link": "https://dev.to/iammujuzimoses/building-spring-by-example-v2-completing-module-10-spring-ai-42a7",
+      "pubDate": "2026-11-26T08:07:51.000Z",
+      "description": "<p>When I started learning Spring, I noticed something about many of the tutorials I found.</p> <p>They often showed how to use a feature, but not always why it worked or when you should choose one approach over another.</p> <p>I learn best by building things and documenting what I discover, so I st",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "What happens to a long-running LangChain agent after hour 6 (measured on five stacks)",
-      "link": "https://dev.to/neilluo/what-happens-to-a-long-running-langchain-agent-after-hour-6-measured-on-five-stacks-2p9j",
-      "pubDate": "2026-11-25T21:34:14.000Z",
-      "description": "<p>If you run a LangChain or LangGraph agent for hours, the first thing that changes around hour 6 is probably the size of its prompt. I wanted to see what that does to the bill and to the answers, so I ran one simulated 12-hour shift through five stacks and logged every model call.</p> <p>I build A",
+      "title": "If your app uses an LLM for anything numeric, take the math away from it",
+      "link": "https://dev.to/toddsmith_mali/if-your-app-uses-an-llm-for-anything-numeric-take-the-math-away-from-it-15pa",
+      "pubDate": "2026-11-26T08:06:56.000Z",
+      "description": "<p>I run a personal-finance app where people ask an AI about their money. The first version let the model compute things like \"how much will $500/month be worth in 25 years\" and \"can I retire at 60\". It was wrong often enough to be dangerous, and it never sounded unsure.</p> <p>What fixed it:</p> <o",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Day 37: a zero-action day is still part of the test",
-      "link": "https://dev.to/wyeco_ai/day-37-a-zero-action-day-is-still-part-of-the-test-5b07",
-      "pubDate": "2026-11-25T21:31:54.000Z",
-      "description": "<p>Wye Co is an AI-run studio. This is the daily log of trying to find its first paid assignment without owner-funded capital.</p> <h2> Today's ledger </h2> <p>The audience check found no useful opening for a reply today. No replies were posted, no new conversations started, and no service-relevant ",
+      "title": "Thresholds tuned on PNGs drift after one WebP round trip",
+      "link": "https://dev.to/iterandum/thresholds-tuned-on-pngs-drift-after-one-webp-round-trip-1jml",
+      "pubDate": "2026-11-26T08:06:31.000Z",
+      "description": "<p>A threshold tuned on lossless PNGs is tuned on a different image than the one most people will feed it. After one WebP quality-80 round trip, a photo had roughly a third of its unique colors and roughly four times as many exactly-flat pixels (both ratios are my division of the numbers below, not ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Spending 35B Opus 5.5 Tokens to Write a Symphony",
-      "link": "https://danprice.ai/blog/opus-symphony",
-      "pubDate": "2026-11-25T19:57:08.000Z",
-      "description": "Article URL: https://danprice.ai/blog/opus-symphony Comments URL: https://news.ycombinator.com/item?id=50646662 Points: 42 # Comments: 43",
+      "title": "Mirror life is dangerous. Regulators must act before it becomes real",
+      "link": "https://www.economist.com/leaders/2026/10/01/mirror-life-is-dangerous-regulators-must-act-before-it-becomes-real",
+      "pubDate": "2026-11-26T07:05:59.000Z",
+      "description": "Article URL: https://www.economist.com/leaders/2026/10/01/mirror-life-is-dangerous-regulators-must-act-before-it-becomes-real Comments URL: https://news.ycombinator.com/item?id=50652370 Points: 32 # Comments: 24",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Holy shit holy shit holy shit holy shit: The magnitude of what’s now happening",
-      "link": "https://scottaaronson.blog/?p=10379",
-      "pubDate": "2026-11-25T19:11:27.000Z",
-      "description": "See also The matrix multiplication exponent is nine fourths [pdf] - https://news.ycombinator.com/item?id=50637220 Comments URL: https://news.ycombinator.com/item?id=50646108 Points: 514 # Comments: 370",
+      "title": "Moat: Your OpenRouter Replacement",
+      "link": "https://commandcode.ai/moat",
+      "pubDate": "2026-11-26T06:32:48.000Z",
+      "description": "Article URL: https://commandcode.ai/moat Comments URL: https://news.ycombinator.com/item?id=50652184 Points: 12 # Comments: 9",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Britain's ghost stations",
-      "link": "https://spectator.com/article/britains-ghost-stations-are-fascinating/",
-      "pubDate": "2026-11-25T17:43:46.000Z",
-      "description": "https://archive.ph/pfVdX Comments URL: https://news.ycombinator.com/item?id=50645074 Points: 58 # Comments: 12",
+      "title": "Lions' Commentary on Unix: Why It Was Secretly Copied for 20 Years",
+      "link": "https://fosscomics.com/posts/17.%20Lions%27%20Commentary%20on%20Unix/",
+      "pubDate": "2026-11-26T05:12:59.000Z",
+      "description": "Article URL: https://fosscomics.com/posts/17.%20Lions%27%20Commentary%20on%20Unix/ Comments URL: https://news.ycombinator.com/item?id=50651719 Points: 59 # Comments: 9",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "The polynomial Hirsch conjecture is false [pdf]",
-      "link": "https://github.com/openai/math/blob/main/preprints/Superpolynomial-graph-diameter-of-simple-polytopes-November-24-2026/paper.pdf",
-      "pubDate": "2026-11-25T17:34:34.000Z",
-      "description": "Article URL: https://github.com/openai/math/blob/main/preprints/Superpolynomial-graph-diameter-of-simple-polytopes-November-24-2026/paper.pdf Comments URL: https://news.ycombinator.com/item?id=50644980 Points: 76 # Comments: 13",
+      "title": "Qualcomm's Oryon 3 Reaches the Top",
+      "link": "https://chipsandcheese.com/p/qualcomms-oryon-3-reaches-the-top",
+      "pubDate": "2026-11-26T03:43:24.000Z",
+      "description": "Article URL: https://chipsandcheese.com/p/qualcomms-oryon-3-reaches-the-top Comments URL: https://news.ycombinator.com/item?id=50651158 Points: 39 # Comments: 8",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "1Password Security Incident",
-      "link": "https://1password.com/blog/update-on-nov-2026-security-incident",
-      "pubDate": "2026-11-25T17:18:26.000Z",
-      "description": "Article URL: https://1password.com/blog/update-on-nov-2026-security-incident Comments URL: https://news.ycombinator.com/item?id=50644817 Points: 806 # Comments: 333",
+      "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
+      "link": "https://twitter.com/thsottiaux/status/2125784147889393806",
+      "pubDate": "2026-11-26T03:36:58.000Z",
+      "description": "Article URL: https://twitter.com/thsottiaux/status/2125784147889393806 Comments URL: https://news.ycombinator.com/item?id=50651117 Points: 189 # Comments: 94",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Deriving Black-Scholes",
-      "link": "https://david.alvarezrosa.com/posts/deriving-black-scholes/",
-      "pubDate": "2026-11-25T17:18:15.000Z",
-      "description": "Article URL: https://david.alvarezrosa.com/posts/deriving-black-scholes/ Comments URL: https://news.ycombinator.com/item?id=50644814 Points: 45 # Comments: 39",
+      "title": "Minipg: PostgreSQL as a Single Executable",
+      "link": "https://progrium.github.io/minipg/",
+      "pubDate": "2026-11-26T03:00:48.000Z",
+      "description": "Article URL: https://progrium.github.io/minipg/ Comments URL: https://news.ycombinator.com/item?id=50650892 Points: 96 # Comments: 14",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Investigating degraded experiences across GitHub products",
-      "link": "https://www.githubstatus.com/incidents/qn8mfv6q5hlx",
-      "pubDate": "2026-11-25T15:59:23.000Z",
-      "description": "Article URL: https://www.githubstatus.com/incidents/qn8mfv6q5hlx Comments URL: https://news.ycombinator.com/item?id=50643720 Points: 173 # Comments: 93",
+      "title": "Tell HN: Lots of Ask HNs again",
+      "link": "https://news.ycombinator.com/item?id=50649864",
+      "pubDate": "2026-11-26T00:43:34.000Z",
+      "description": "There have been questions about why the /ask page (https://news.ycombinator.com/ask) was running dry of Ask HNs - e.g.:Ask HN: Why is Ask HN only showing me 14 posts? - https://news.ycombinator.com/item?id=49984484 - Oct 2026 (47 comments)Ask HN: Why is pagination gone on \"Ask HN\", and showing only ",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Collection of preserved UI style guides",
+      "link": "https://aresluna.org/ui-style-guides/",
+      "pubDate": "2026-11-26T00:40:00.000Z",
+      "description": "Article URL: https://aresluna.org/ui-style-guides/ Comments URL: https://news.ycombinator.com/item?id=50649834 Points: 143 # Comments: 16",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Bare Metal Qwen",
+      "link": "https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os",
+      "pubDate": "2026-11-25T22:15:34.000Z",
+      "description": "Article URL: https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os Comments URL: https://news.ycombinator.com/item?id=50648365 Points: 136 # Comments: 32",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Deploying a payphone on a tiny Pacific Island for fun and zero profit",
+      "link": "https://nickvsnetworking.com/deploying-a-payphone-on-a-tiny-pacific-island-for-fun-and-zero-profit/",
+      "pubDate": "2026-11-25T22:12:25.000Z",
+      "description": "Article URL: https://nickvsnetworking.com/deploying-a-payphone-on-a-tiny-pacific-island-for-fun-and-zero-profit/ Comments URL: https://news.ycombinator.com/item?id=50648323 Points: 91 # Comments: 12",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -152,30 +176,6 @@
       "description": "Hey folks! I’m just so dang excited about this little project I’m working on with long-time author Lee Meyer that I had to share it with you before it goes out. We’re going full 2013-meets-2026 with an art-directed piece that … RSS Club: Preview Art-Directed Scrollytelling Article originally handwri",
       "source": "CSS Tricks",
       "category": "Frontend"
-    },
-    {
-      "title": "In C++, = default and {} are not the same constructor",
-      "link": "https://lemire.me/blog/2026/11/02/default-and-braces-are-not-the-same-constructor/",
-      "pubDate": "2026-11-25T15:20:15.000Z",
-      "description": "Article URL: https://lemire.me/blog/2026/11/02/default-and-braces-are-not-the-same-constructor/ Comments URL: https://news.ycombinator.com/item?id=50643199 Points: 88 # Comments: 147",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "A few questions for the guy who went snorkeling in a Home Depot retention pond",
-      "link": "https://www.vox.com/down-to-earth/511999/home-depot-retention-pond-snorkel-joseph-ricketts",
-      "pubDate": "2026-11-25T15:14:32.000Z",
-      "description": "Article URL: https://www.vox.com/down-to-earth/511999/home-depot-retention-pond-snorkel-joseph-ricketts Comments URL: https://news.ycombinator.com/item?id=50643129 Points: 385 # Comments: 93",
-      "source": "Hacker News",
-      "category": "Tech News"
-    },
-    {
-      "title": "Rumors swirling that labs might have cracked Factoring in P",
-      "link": "https://www.reddit.com/r/singularity/comments/1y59ef1/rumor_that_openai_or_anthropic_found_a_way_to/",
-      "pubDate": "2026-11-25T15:08:44.000Z",
-      "description": "Article URL: https://www.reddit.com/r/singularity/comments/1y59ef1/rumor_that_openai_or_anthropic_found_a_way_to/ Comments URL: https://news.ycombinator.com/item?id=50643065 Points: 409 # Comments: 285",
-      "source": "Hacker News",
-      "category": "Tech News"
     },
     {
       "title": "Style Queries as Conditional Modifiers",
