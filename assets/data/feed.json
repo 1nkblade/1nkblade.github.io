@@ -1,177 +1,253 @@
 {
-  "generatedAt": "2026-11-26T21:32:57.674Z",
+  "generatedAt": "2026-11-27T08:35:20.713Z",
   "sourceCount": 4,
-  "successCount": 2,
+  "successCount": 3,
   "errors": [
     {
       "source": "Hack The Box Security Blog",
       "error": "HTTP 404 Not Found"
-    },
-    {
-      "source": "CSS Tricks",
-      "error": "HTTP 415 Unsupported Media Type"
     }
   ],
   "items": [
     {
-      "title": "I built 67 file tools that never upload your files. Here's how the browser does it all",
-      "link": "https://dev.to/kevinrusev/i-built-67-file-tools-that-never-upload-your-files-heres-how-the-browser-does-it-all-461l",
-      "pubDate": "2026-11-26T21:32:07.000Z",
-      "description": "<p><em>Disclosure: I'm the founder of <a href=\"https://capyfiles.com/?utm_source=devto\" rel=\"noopener noreferrer\">Capy Files</a>. This post is about how it works, including the parts that were hard.</em></p> <p>Most \"free online PDF tools\" work the same way: you upload your file to their server, the",
+      "title": "Site Context as Data: Building a Reproducible Terrain and Context Pipeline with TopoExport, GenAnywhere, CADMapper, Meshy and CityEngine",
+      "link": "https://dev.to/aimodelingdaily/site-context-as-data-building-a-reproducible-terrain-and-context-pipeline-with-topoexport-f9g",
+      "pubDate": "2026-11-27T08:33:37.000Z",
+      "description": "<p>Site context is the least glamorous input in any spatial project and the most expensive to hand-build. It is also the input most likely to be wrong in a way nobody notices until review. Five tools dominate this space, and they differ less in what they produce than in what they promise: measured g",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How Many Draws Does It Take to See All 49 Numbers?",
-      "link": "https://dev.to/marksixdata/how-many-draws-does-it-take-to-see-all-49-numbers-5gj5",
-      "pubDate": "2026-11-26T21:32:00.000Z",
-      "description": "<p>Imagine a lottery that draws seven different numbers, from 1 to 49, in every draw. How long would you have to watch before you had seen every one of the 49 numbers at least once?</p> <p>It is a classic probability problem, known as the coupon collector problem: with 49 items to collect, and seven",
+      "title": "Building &amp; Booting ARKM Kernel: A 64-Bit x86_64 UEFI-Only Kernel Showcase (QEMU + OVMF)",
+      "link": "https://dev.to/adityaadi/building-booting-arkm-kernel-a-64-bit-x8664-uefi-only-kernel-showcase-qemu-ovmf-17bp",
+      "pubDate": "2026-11-27T08:33:22.000Z",
+      "description": "<h1> ARKM Kernel: Open-Sourced Prototype Codebase Showcase </h1> <p>We’ve just open-sourced a <strong>prototype codebase showcase</strong> of <strong>ARKM Kernel</strong>, a custom <strong>64-bit (<code>x86_64</code>) UEFI-only kernel</strong> written in <strong>C</strong> and <strong>x86-64 Assembl",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "SFP+ transceivers and DACs for your homelab: coding, compatibility, and the traps",
-      "link": "https://dev.to/itandoffice/sfp-transceivers-and-dacs-for-your-homelab-coding-compatibility-and-the-traps-38f7",
-      "pubDate": "2026-11-26T21:31:21.000Z",
-      "description": "<p>10GbE at home is cheap now. A used dual-port Intel X520 or Mellanox ConnectX-3 costs less than a decent mechanical keyboard, and a second-hand SFP+ switch (MikroTik CRS309/CRS317, Dell N4032F, Brocade ICX6610, Arista 7050S) has come way down. The part that still bites people is the little module ",
+      "title": "How to connect Google Analytics 4 and Search Console to Claude Code (free, local, 15 minutes)",
+      "link": "https://dev.to/kkvlabs/how-to-connect-google-analytics-4-and-search-console-to-claude-code-free-local-15-minutes-2i0j",
+      "pubDate": "2026-11-27T08:32:57.000Z",
+      "description": "<p>I run a few websites. Every week I opened Google Analytics 4 (GA4) in one tab and Google Search Console (GSC) in another, then tried to match the numbers by hand. Which page lost clicks? Did that page also lose sign-ups? It was slow and I made mistakes.</p> <p>So we built an open-source MCP serve",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The Model Was Up. Your AI Agent Was Still Broken: Lessons From the Microsoft 365 Outage",
-      "link": "https://dev.to/aviasoletechnologies/the-model-was-up-your-ai-agent-was-still-broken-lessons-from-the-microsoft-365-outage-1a1c",
-      "pubDate": "2026-11-26T21:31:00.000Z",
-      "description": "<p>On the afternoon of November 12, 2026, an AI assistant that reads a sales team's Outlook inbox starts giving the same answer to every question: <em>\"I couldn't find any emails about that.\"</em> No error page. Nobody gets paged. The model provider's dashboard is green.</p> <p>The assistant asked f",
+      "title": "Calculating percentiles at scale",
+      "link": "https://dev.to/ashuto7h/calculating-percentiles-at-scale-1lf5",
+      "pubDate": "2026-11-27T08:31:42.000Z",
+      "description": "<p>Some times ago, We designed an analytics dashboard with lots of analytical aggregated information, most of which we didn't know why was needed there.</p> <p>We had a bunch of Third Party APIs, and based on the requests, their responses and timings used to differ. It was decided that all the reque",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "OpenTelemetry Java agent for Dynatrace: instrument an application and send its data",
-      "link": "https://dev.to/spanobserver/opentelemetry-java-agent-for-dynatrace-instrument-an-application-and-send-its-data-3b8a",
-      "pubDate": "2026-11-26T21:30:23.000Z",
-      "description": "<p>Your team wants standard, portable instrumentation for a Spring Boot application without changing its code. It has no OneAgent on these containers, or it has chosen OpenTelemetry as the platform standard. The OpenTelemetry Java agent for Dynatrace meets that need: one JAR file added at JVM startu",
+      "title": "Gmail MCP Server: AI Agent làm được gì và không làm được gì",
+      "link": "https://dev.to/sebbasstian/gmail-mcp-server-ai-agent-lam-duoc-gi-va-khong-lam-duoc-gi-19cd",
+      "pubDate": "2026-11-27T08:31:01.000Z",
+      "description": "<p><strong>Trả lời nhanh:</strong> Gmail MCP server là endpoint do Google lưu trữ (<code>https://gmailmcp.googleapis.com/mcp/v1</code>) cho phép AI agent tìm kiếm thread, đọc tin nhắn, quản lý nhãn và bộ lọc, đồng thời tạo hoặc cập nhật bản nháp. Trang tham chiếu của Google cũng liệt kê <code>send_m",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "My attempt at SEO for rayr.uk",
-      "link": "https://dev.to/rayrdotuk/my-attempt-at-seo-for-rayruk-1gc7",
-      "pubDate": "2026-11-26T21:30:17.000Z",
-      "description": "<p>I own rayr.uk and I want it to show up when people search \"rayr uk\" or \"ray r uk\". Right now it doesn't really. The site is one page with a neon animation and an email button, which looks fine but gives Google almost nothing to read.<br> So I'm trying a few things.<br> First, the boring HTML stuf",
+      "title": "Gmail MCP Server: Apa yang Bisa dan Tidak Bisa Dilakukan Agen AI",
+      "link": "https://dev.to/walse/gmail-mcp-server-apa-yang-bisa-dan-tidak-bisa-dilakukan-agen-ai-15mc",
+      "pubDate": "2026-11-27T08:30:08.000Z",
+      "description": "<h1> Server Gmail MCP: apa yang bisa dilakukan agen AI dan di mana batas pengiriman </h1> <p><strong>Jawaban singkat:</strong> Server Gmail MCP adalah endpoint yang dihosting Google (<code>https://gmailmcp.googleapis.com/mcp/v1</code>) yang memungkinkan agen AI mencari thread, membaca pesan, mengelo",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Building Production-Grade APIs with FastAPI: The Parts You Actually Need",
-      "link": "https://dev.to/mango7777/building-production-grade-apis-with-fastapi-the-parts-you-actually-need-37jc",
-      "pubDate": "2026-11-26T21:30:00.000Z",
-      "description": "<p>The first FastAPI app I shipped to production took about two hours to write and three weeks to harden. That ratio is honest-the framework gets you to a working endpoint fast, then leaves you to figure out the database sessions, the auth middleware, the test fixtures, and the worker count that won",
+      "title": "Tutoriel n8n : brancher un agent IA sur WhatsApp avec la Cloud API (WhatsApp Trigger, fenêtre de 24 h et modèles)",
+      "link": "https://dev.to/fluxintelligent/tutoriel-n8n-brancher-un-agent-ia-sur-whatsapp-avec-la-cloud-api-whatsapp-trigger-fenetre-de-24-1m6o",
+      "pubDate": "2026-11-27T08:30:08.000Z",
+      "description": "<p>Au Maroc, beaucoup de clients écrivent d'abord sur WhatsApp. Brancher un agent IA sur ce canal est donc une demande fréquente, mais c'est aussi le canal le plus encadré : Meta impose une application, un numéro dédié, des règles d'envoi et des modèles de messages validés. Ce tutoriel montre commen",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Let OpenAI Codex deploy to production safely",
-      "link": "https://dev.to/hpoyrazk/let-openai-codex-deploy-to-production-safely-5h1",
-      "pubDate": "2026-11-26T21:30:00.000Z",
-      "description": "<p><em>Originally published on <a href=\"https://gregale.dev/articles/codex-deploy-production-safely\" rel=\"noopener noreferrer\">gregale.dev</a>. I build Gregale, so read this as a vendor's page. This post was written with AI assistance.</em></p> <p><strong>To let OpenAI Codex deploy to production saf",
+      "title": "Forward Deployed AI Engineer: The Job, the Work and Who Hires",
+      "link": "https://dev.to/szymonpaluch/forward-deployed-ai-engineer-the-job-the-work-and-who-hires-218a",
+      "pubDate": "2026-11-27T08:30:02.000Z",
+      "description": "<p>A forward deployed AI engineer puts models and agents to work inside a customer's business. You scope the problem with the customer, build in the customer's own stack, write the evals, secure the system and stay until people use it every day. OpenAI, Anthropic, Google Cloud, Salesforce and Cohere",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Cloudflare auto-trailing-slash still answers 307. _redirects can do 301.",
-      "link": "https://dev.to/safaktepecik/cloudflare-auto-trailing-slash-still-answers-307-redirects-can-do-301-4j33",
-      "pubDate": "2026-11-26T21:29:34.000Z",
-      "description": "<p>I looked after two static sites on Cloudflare Workers Assets. Internal links already used the canonical form with or without a trailing slash, depending on whether the page is a directory or a file. A crawler of the sites found no internal links that hit a 3xx. The messy cases were typed URLs: so",
+      "title": "How to Build WebSocket Apps That Scale Past One Server",
+      "link": "https://dev.to/mango7777/how-to-build-websocket-apps-that-scale-past-one-server-22al",
+      "pubDate": "2026-11-27T08:30:00.000Z",
+      "description": "<p>The first WebSocket app I shipped worked great in dev and died on the second production pod. The reason was simple and embarrassing: each pod kept its own connection registry, so a user connected to pod A couldn't send a message to a user connected to pod B. The \"real-time\" chat was actually \"rea",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "What an AI Assistant Should Forget",
-      "link": "https://dev.to/instinctai/what-an-ai-assistant-should-forget-56d0",
-      "pubDate": "2026-11-26T21:27:23.000Z",
-      "description": "<p><em>Written by an AI assistant.</em></p> <p>Most talk about AI memory is about remembering more: longer context, bigger stores, better retrieval. I think the harder design question is the opposite one. What should an assistant let go of?</p> <p>Here is the short list I would use.</p> <p><strong>1",
+      "title": "Gmail MCP 서버: AI 에이전트가 할 수 있는 일과 할 수 없는 일",
+      "link": "https://dev.to/rihpig/gmail-mcp-seobeo-ai-eijeonteuga-hal-su-issneun-ilgwa-hal-su-eobsneun-il-5g01",
+      "pubDate": "2026-11-27T08:29:24.000Z",
+      "description": "<p><strong>빠른 답변:</strong> Gmail MCP 서버는 Google이 호스팅하는 엔드포인트(<code>https://gmailmcp.googleapis.com/mcp/v1</code>)로, AI 에이전트가 스레드를 검색하고, 메시지를 읽고, 라벨과 필터를 관리하며, 초안을 생성하거나 수정할 수 있게 해줍니다. Google의 레퍼런스 페이지에는 <code>send_message</code>, <code>reply</code>, <code>forward</code>도 나열되어 있지만, 2026년 11월 26일 자 보도",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The USA as a Civilizations-esque map",
-      "link": "https://karpathy.ai/usaciv/",
-      "pubDate": "2026-11-26T19:53:58.000Z",
-      "description": "Article URL: https://karpathy.ai/usaciv/ Comments URL: https://news.ycombinator.com/item?id=50658997 Points: 57 # Comments: 38",
+      "title": "Ladybird browser's first downloadable alpha is surprisingly capable",
+      "link": "https://arstechnica.com/gadgets/2026/11/ladybirds-new-alpha-shows-theres-life-beyond-chromium/",
+      "pubDate": "2026-11-27T06:53:52.000Z",
+      "description": "Article URL: https://arstechnica.com/gadgets/2026/11/ladybirds-new-alpha-shows-theres-life-beyond-chromium/ Comments URL: https://news.ycombinator.com/item?id=50663666 Points: 39 # Comments: 23",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Rvoip 0.5 the complete VoIP stack in Rust",
-      "link": "https://github.com/eisenzopf/rvoip",
-      "pubDate": "2026-11-26T19:18:09.000Z",
-      "description": "Article URL: https://github.com/eisenzopf/rvoip Comments URL: https://news.ycombinator.com/item?id=50658632 Points: 18 # Comments: 4",
+      "title": "The group chat where your AI talks behind your back",
+      "link": "https://construct22.com/",
+      "pubDate": "2026-11-27T06:44:34.000Z",
+      "description": "Article URL: https://construct22.com/ Comments URL: https://news.ycombinator.com/item?id=50663595 Points: 129 # Comments: 41",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Largest 2D Chart library in the world using BUI: BlenderUI",
-      "link": "https://bui.preetham.top/charts/",
-      "pubDate": "2026-11-26T18:37:24.000Z",
-      "description": "Article URL: https://bui.preetham.top/charts/ Comments URL: https://news.ycombinator.com/item?id=50658193 Points: 9 # Comments: 2",
+      "title": "Buy Nothing Day – Friday November 27th 2026",
+      "link": "https://www.buynothingday.co.uk/",
+      "pubDate": "2026-11-27T05:52:42.000Z",
+      "description": "Article URL: https://www.buynothingday.co.uk/ Comments URL: https://news.ycombinator.com/item?id=50663261 Points: 44 # Comments: 7",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Show HN: Fuck_data_brokers.py",
-      "link": "https://github.com/gary23w/f-ck_data_brokers",
-      "pubDate": "2026-11-26T18:37:21.000Z",
-      "description": "Article URL: https://github.com/gary23w/f-ck_data_brokers Comments URL: https://news.ycombinator.com/item?id=50658191 Points: 96 # Comments: 13",
+      "title": "The need for a formally verifiable mainstream programming language",
+      "link": "https://blainehansen.me/post/mainstream-verifiable-language/",
+      "pubDate": "2026-11-27T05:22:06.000Z",
+      "description": "Article URL: https://blainehansen.me/post/mainstream-verifiable-language/ Comments URL: https://news.ycombinator.com/item?id=50663089 Points: 123 # Comments: 90",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "IBM gives H-1B, green card holders 3 weeks to relocate from US or leave company",
-      "link": "https://economictimes.indiatimes.com/nri/work/ibm-gives-h-1b-green-card-holders-3-weeks-to-relocate-from-us-or-leave-company-december-31-deadline-set/articleshow/136180168.cms?from=mdr",
-      "pubDate": "2026-11-26T18:35:37.000Z",
-      "description": "Article URL: https://economictimes.indiatimes.com/nri/work/ibm-gives-h-1b-green-card-holders-3-weeks-to-relocate-from-us-or-leave-company-december-31-deadline-set/articleshow/136180168.cms?from=mdr Comments URL: https://news.ycombinator.com/item?id=50658170 Points: 31 # Comments: 12",
+      "title": "\"What's Claude's Fursona?\" and Other Questions",
+      "link": "https://herecomesthemoon.net/2026/11/whats-claudes-fursona/",
+      "pubDate": "2026-11-27T04:56:18.000Z",
+      "description": "Article URL: https://herecomesthemoon.net/2026/11/whats-claudes-fursona/ Comments URL: https://news.ycombinator.com/item?id=50662933 Points: 78 # Comments: 53",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "George Whitesides, 1939-2026",
-      "link": "https://www.science.org/content/blog-post/george-whitesides-1939-2026",
-      "pubDate": "2026-11-26T18:13:07.000Z",
-      "description": "Article URL: https://www.science.org/content/blog-post/george-whitesides-1939-2026 Comments URL: https://news.ycombinator.com/item?id=50657936 Points: 24 # Comments: 4",
+      "title": "The Cutthroat Business of Shipwrecks",
+      "link": "https://daily.jstor.org/the-cutthroat-business-of-shipwrecks/",
+      "pubDate": "2026-11-27T01:21:49.000Z",
+      "description": "Article URL: https://daily.jstor.org/the-cutthroat-business-of-shipwrecks/ Comments URL: https://news.ycombinator.com/item?id=50661705 Points: 22 # Comments: 2",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "CTO of 'RansomwareHelp' Indicted for Wire Fraud",
-      "link": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
-      "pubDate": "2026-11-26T17:47:45.000Z",
-      "description": "Article URL: https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/ Comments URL: https://news.ycombinator.com/item?id=50657645 Points: 137 # Comments: 57",
+      "title": "Hard Drive pricing has gotten bad",
+      "link": "https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up/",
+      "pubDate": "2026-11-27T01:13:49.000Z",
+      "description": "Article URL: https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up/ Comments URL: https://news.ycombinator.com/item?id=50661646 Points: 315 # Comments: 213",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "YouTube Ad Punisher – Auto-reloads YouTube pages when an ad plays",
-      "link": "https://github.com/antonpictures/youtube-punisher",
-      "pubDate": "2026-11-26T17:36:47.000Z",
-      "description": "Article URL: https://github.com/antonpictures/youtube-punisher Comments URL: https://news.ycombinator.com/item?id=50657530 Points: 131 # Comments: 190",
+      "title": "Novita, StreamLake, etc. are ByteDance Ark wrappers",
+      "link": "https://kendell.dev/blog/arkwrapper/",
+      "pubDate": "2026-11-26T21:59:19.000Z",
+      "description": "Article URL: https://kendell.dev/blog/arkwrapper/ Comments URL: https://news.ycombinator.com/item?id=50660273 Points: 95 # Comments: 14",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "AMD Specific Patches for Llama.cpp",
-      "link": "https://devnull.land/amd-specific-llama-cpp",
-      "pubDate": "2026-11-26T17:11:29.000Z",
-      "description": "Article URL: https://devnull.land/amd-specific-llama-cpp Comments URL: https://news.ycombinator.com/item?id=50657265 Points: 194 # Comments: 50",
+      "title": "AI made self-hosting fun again",
+      "link": "https://janlukas.blog/posts/ai-self-hosting",
+      "pubDate": "2026-11-26T21:47:45.000Z",
+      "description": "Article URL: https://janlukas.blog/posts/ai-self-hosting Comments URL: https://news.ycombinator.com/item?id=50660180 Points: 615 # Comments: 316",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Show HN: SimDrop – Running iOS simulators in the macOS Finder sidebar",
-      "link": "https://github.com/rxliuli/sim-drop",
-      "pubDate": "2026-11-26T16:51:38.000Z",
-      "description": "Hi HN, I made a small macOS utility for my own iOS simulator workflow.I kept running into two annoyances: getting config files in and out of a simulator is clunky (digging into CoreSimulator UUID folders or running simctl), and on the iPhone Duo simulator I couldn't even drag and drop images onto th",
+      "title": "Kamil Khan Mumtaz: Pakistani architect, admired at home, almost invisible abroad",
+      "link": "https://worksinprogress.co/issue/the-greatest-architect-youve-never-heard-of-is-in-pakistan/",
+      "pubDate": "2026-11-26T21:08:05.000Z",
+      "description": "Article URL: https://worksinprogress.co/issue/the-greatest-architect-youve-never-heard-of-is-in-pakistan/ Comments URL: https://news.ycombinator.com/item?id=50659841 Points: 354 # Comments: 84",
       "source": "Hacker News",
       "category": "Tech News"
+    },
+    {
+      "title": "RSS Club: Preview Art-Directed Scrollytelling Article",
+      "link": "https://css-tricks.com/rss-club-preview-art-directed-scrollytelling-article/",
+      "pubDate": "2026-11-25T15:32:42.000Z",
+      "description": "Hey folks! I’m just so dang excited about this little project I’m working on with long-time author Lee Meyer that I had to share it with you before it goes out. We’re going full 2013-meets-2026 with an art-directed piece that … RSS Club: Preview Art-Directed Scrollytelling Article originally handwri",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Style Queries as Conditional Modifiers",
+      "link": "https://css-tricks.com/css-style-queries-as-conditional-modifiers/",
+      "pubDate": "2026-11-25T14:06:34.000Z",
+      "description": "Where style queries shine is when the condition and the styles need to live in different places, or when one condition needs to affect several things at once: components that keep working, and adapt sensibly, no matter where they end up. Style Queries as Conditional Modifiers originally handwritten ",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Using Fallbacks for a Robust Front-End",
+      "link": "https://css-tricks.com/using-frontend-fallbacks/",
+      "pubDate": "2026-11-23T14:21:44.000Z",
+      "description": "It’s important to use fallbacks to build a robust front end, either to quietly and discreetly avoid the error or to communicate it to our users. Using Fallbacks for a Robust Front-End originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Dev Material Archive",
+      "link": "https://css-tricks.com/dev-material-archive/",
+      "pubDate": "2026-11-23T14:18:50.000Z",
+      "description": "A new resource resurrecting lost web-dev articles and posts: This is an archive of written articles about web development, web design, and web accessibility that once existed on the World Wide Web and which would otherwise be lost to … Dev Material Archive originally handwritten and published with l",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Andy Clarke answers six questions about Standout Designs for the Web",
+      "link": "https://css-tricks.com/andy-clarke-standout-designs-for-the-web-interview/",
+      "pubDate": "2026-11-20T15:03:47.000Z",
+      "description": "Web designer, author, and Stuff & Nonsense founder Andy Clarke has released Standout Designs for the Web, a new e-book that encourages designers to move beyond familiar templates and conventional layouts to create more personality-driven websites. The book draws … Andy Clarke answers six questions a",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "scroll-state()",
+      "link": "https://css-tricks.com/almanac/functions/s/scroll-state/",
+      "pubDate": "2026-11-19T14:57:54.000Z",
+      "description": "The CSS scroll-state() query, surprisingly, has nothing to do with whether you’re doom-scrolling in a state of existential dread. It does, however, allow you to change the CSS used based on scrolling behavior. scroll-state() originally handwritten and published with love on CSS-Tricks. You should re",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "When Everything Has Changed, What Do We Do Next?",
+      "link": "https://css-tricks.com/when-everything-has-changed/",
+      "pubDate": "2026-11-18T14:55:21.000Z",
+      "description": "It’s been a… year, huh? I think the most common emoji I’ve seen this year is “Face with Bags Under Eyes” (🫩) and that says a lot. One thing is for sure: the industry we make a living in is … When Everything Has Changed, What Do We Do Next? originally handwritten and published with love on CSS-Trick",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Staggering Scroll-Driven Animations with animation-range-start",
+      "link": "https://css-tricks.com/staggering-scroll-driven-animations-with-animation-range-start/",
+      "pubDate": "2026-11-16T16:47:05.000Z",
+      "description": "Imagine a CSS karaoke machine that displays a ball bouncing on text that incrementally highlights, based on progress through via speech recognition and running that kind of animation as a single predictable, holistic effect driven by one progress value. Staggering Scroll-Driven Animations with anima",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "10 Big Ol&#8217; 2027 Black Friday Deals",
+      "link": "https://css-tricks.com/2027-front-end-black-friday-deals/",
+      "pubDate": "2026-11-13T14:05:24.000Z",
+      "description": "A big ol' roundup of Black Friday deals on front-end courses from the best independent publishers and educators in the business. 10 Big Ol’ 2027 Black Friday Deals originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Beyond 12 Columns: Designing Layouts With Personality",
+      "link": "https://css-tricks.com/beyond-12-columns/",
+      "pubDate": "2026-11-12T16:06:55.000Z",
+      "description": "Too many websites look alike. They use familiar layouts, repeat the same patterns, and often leave little impression once you’ve moved on. Andy Clarke explores how understanding a company’s story can lead to more distinctive designs, using modular and compound grids to create layouts with character.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     }
   ]
 }
