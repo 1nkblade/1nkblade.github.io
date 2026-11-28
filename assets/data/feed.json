@@ -1,103 +1,147 @@
 {
-  "generatedAt": "2026-11-27T21:18:05.858Z",
+  "generatedAt": "2026-11-28T07:50:30.295Z",
   "sourceCount": 4,
-  "successCount": 2,
+  "successCount": 3,
   "errors": [
     {
       "source": "Hack The Box Security Blog",
       "error": "HTTP 404 Not Found"
-    },
-    {
-      "source": "CSS Tricks",
-      "error": "HTTP 415 Unsupported Media Type"
     }
   ],
   "items": [
     {
-      "title": "Absorbing JWT Validation Bursts from External APIs: A Resilient Asyncio Slotting &amp; Throttling Architecture",
-      "link": "https://dev.to/toai/absorbing-jwt-validation-bursts-from-external-apis-a-resilient-asyncio-slotting-throttling-1a7g",
-      "pubDate": "2026-11-27T21:13:23.000Z",
-      "description": "<h1> Absorbing JWT Validation Bursts from External APIs: A Resilient Asyncio Slotting &amp; Throttling Architecture </h1> <p>When building services that consume webhooks or bursty payloads from external APIs, sudden spikes in JSON Web Token (JWT) verification can silently degrade event-loop responsi",
+      "title": "Scrape LinkedIn Jobs Without an Account - Salaries, Applicant Counts and Hiring Signals for Sales and Recruiting",
+      "link": "https://dev.to/rabah_karaouat_e35d5e348e/scrape-linkedin-jobs-without-an-account-salaries-applicant-counts-and-hiring-signals-for-sales-4gp9",
+      "pubDate": "2026-11-28T07:40:25.000Z",
+      "description": "<p>A job posting is one of the strongest public business signals there is. When a company posts \"Senior Data Engineer\", it has budget, a problem and a deadline. That's useful whether you are:</p> <ul> <li>a <strong>recruiter</strong> who wants to reach the hiring manager before 300 other agencies do",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "When a client won't pay: an escalation path for freelancers, with the email wording",
-      "link": "https://dev.to/thesuperemployeestore/when-a-client-wont-pay-an-escalation-path-for-freelancers-with-the-email-wording-n1",
-      "pubDate": "2026-11-27T21:12:51.000Z",
-      "description": "<p>You have sent the reminders. The invoice is 30, 40, maybe 60 days late. The client is not confused about the amount and not waiting on a purchase order. They are choosing not to pay, or they are in trouble and hiding from you. Either way the friendly stage is over, and the thing that gets money m",
+      "title": "Almost Is the Most Expensive Word in Any Startup",
+      "link": "https://dev.to/sergheipogor/almost-is-the-most-expensive-word-in-any-startup-a94",
+      "pubDate": "2026-11-28T07:40:15.000Z",
+      "description": "<p>Almost done. Almost launched. Almost profitable.</p> <p>If you've built anything, you know these phrases. You've probably said them in a standup, to a cofounder, or to yourself at midnight. I've said all three. They sound like you're nearly there. Very often they mean you're stuck and comfortable",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The MP3 Header Said 7:15. The Audio Ran 3:03, and I Bill by the Minute",
-      "link": "https://dev.to/matveyg/the-mp3-header-said-715-the-audio-ran-303-and-i-bill-by-the-minute-4c1o",
-      "pubDate": "2026-11-27T21:12:41.000Z",
-      "description": "<p>I run a visa agency in Bali, and in the evenings I build data tools on Apify. One of them is <a href=\"https://apify.com/lergassy/mp3-to-text?fpr=wmeplu\" rel=\"noopener noreferrer\">MP3 to Text</a>: you give it MP3 links and it returns a transcript with timed passages. Under the hood it is Whisper b",
+      "title": "Amazon Product Research with Real Demand Data - Monthly Sales, BSR, Reviews and Price in One Spreadsheet",
+      "link": "https://dev.to/rabah_karaouat_e35d5e348e/amazon-product-research-with-real-demand-data-monthly-sales-bsr-reviews-and-price-in-one-di8",
+      "pubDate": "2026-11-28T07:39:28.000Z",
+      "description": "<p>Every Amazon seller asks the same three questions before launching a product:</p> <ol> <li> <strong>Is there demand?</strong> How many units sell per month?</li> <li> <strong>How hard is the competition?</strong> How many reviews do the top listings have?</li> <li> <strong>Where does it rank?</st",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I Built a Web Application on AWS With Zero Inbound Ports — Then Tried to Break Its Security",
-      "link": "https://dev.to/george_koufie_8e53af2660b/i-built-a-web-application-on-aws-with-zero-inbound-ports-then-tried-to-break-its-security-1e8o",
-      "pubDate": "2026-11-27T21:12:33.000Z",
-      "description": "<p>Building CloudSecure with AWS, Cloudflare Tunnel, Terraform, Python, and evidence-driven security validation.</p> <p>By George Koufie | AWS Community Builder — Networking &amp; Content Delivery</p> <p>The Challenge: Can a Website Be Publicly Accessible Without Exposing Its Server?</p> <p>Every or",
+      "title": "Difflin: a zero-dependency text/JSON diff engine (LCS) that runs entirely in your browser",
+      "link": "https://dev.to/bi_quang_f7db903e86c1505/difflin-a-zero-dependency-textjson-diff-engine-lcs-that-runs-entirely-in-your-browser-36fb",
+      "pubDate": "2026-11-28T07:38:41.000Z",
+      "description": "<p>Every time I need to compare two JSON payloads or two config files, I end up pasting internal data into some random diff website. That is a bad trade: convenience in exchange for shipping logs and API responses to a third party.</p> <p>So I built <strong>Difflin</strong>: a diff tool with no back",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "What a small business needs on a one-page website: a simple checklist",
-      "link": "https://dev.to/sitekitstudio/what-a-small-business-needs-on-a-one-page-website-a-simple-checklist-1k5d",
-      "pubDate": "2026-11-27T21:12:16.000Z",
-      "description": "<p>Most local businesses do not need a big website. One well-organised page is enough for a customer to decide whether to call you. Here is a checklist for what to put on it, in the order people usually look for it.</p> <h2> 1. What you do and where, in one line </h2> <p>At the very top: your busine",
+      "title": "Docker Image with JDK 8 for Legacy CI Builds",
+      "link": "https://dev.to/noah_1/docker-image-with-jdk-8-for-legacy-ci-builds-4942",
+      "pubDate": "2026-11-28T07:37:27.000Z",
+      "description": "<p>Legacy Java 8 services still need to compile and test, but the base images many pipelines inherited are no longer maintained. A Docker image with JDK 8 for a legacy CI build should be small, pinned, and predictable: an explicit <code>JAVA_HOME</code>, a known JDK patch level, a non-root user, and",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Modeling Multi-Bay Overhead Garage Doors, 60-Inch Commercial ADA Restroom Circles, and Pocket-Door Laundry Clearances in TypeScript",
-      "link": "https://dev.to/clara_sutton/modeling-multi-bay-overhead-garage-doors-60-inch-commercial-ada-restroom-circles-and-pocket-door-3k3o",
-      "pubDate": "2026-11-27T21:11:24.000Z",
-      "description": "<p>When you expand a browser-based architectural CAD template library past residential bedrooms and kitchens into detached 3-car garages, small commercial salon suites, backyard pool houses, A-frame cabins, and mudroom/laundry remodels, three geometric invariants immediately separate real floor plan",
+      "title": "Zero Crypto APIs MCP Body Matches and the Streamable HTTP Endpoint Behind Them",
+      "link": "https://dev.to/sorrelthorncroft/zero-crypto-apis-mcp-body-matches-and-the-streamable-http-endpoint-behind-them-51f7",
+      "pubDate": "2026-11-28T07:37:09.000Z",
+      "description": "<h1> Zero Crypto APIs MCP Body Matches and the Streamable HTTP Endpoint Behind Them </h1> <p>A package body search is a narrow way to find a server that may not reveal its package name. Crypto APIs publishes several MCP packages, but the network service is identified by its route and behavior as muc",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "How to Build a B2B Lead List from Google Maps with Emails (No Code, ~$6 per 1,000 Leads)",
-      "link": "https://dev.to/rabah_karaouat_e35d5e348e/how-to-build-a-b2b-lead-list-from-google-maps-with-emails-no-code-6-per-1000-leads-54h3",
-      "pubDate": "2026-11-27T21:11:02.000Z",
-      "description": "<p>If you sell to local businesses, like dentists, restaurants, gyms, law firms or contractors, Google Maps is the best free directory on the planet. Every listing has a name, category, phone number, website, address, rating and number of reviews.</p> <p>There's one problem: <strong>Google Maps does",
+      "title": "The Chip Ban Became a Compute Ban",
+      "link": "https://dev.to/rpgbyters/the-chip-ban-became-a-compute-ban-4cem",
+      "pubDate": "2026-11-28T07:36:17.000Z",
+      "description": "<h1> The Chip Ban Became a Compute Ban </h1> <p>Yesterday afternoon, Nvidia told its manufacturing partners to stop shipping AI servers to Malaysia, Singapore, Thailand and Indonesia. Dell and Supermicro have told buyers in those four countries that Nvidia will not authorise their orders. That is th",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "استفاده ایجنت‌های هوش مصنوعی از ایکس (توییتر) بدون نیاز به API و مرورگر با ابزار متن‌باز x-use",
-      "link": "https://dev.to/dalroot/stfdh-yjnthy-hwsh-msnwy-z-ykhs-twyytr-bdwn-nyz-bh-api-w-mrwrgr-b-bzr-mtnbz-x-use-2oop",
-      "pubDate": "2026-11-27T21:10:47.000Z",
-      "description": "<h2> ۱. مشکل ابزارهای ایجنتیک مبتنی بر مرورگر </h2> <p>وقتی می‌خواهید ایجنت‌های کدنویسی و اتوماسیون (مثل Antigravity، Claude Code یا Cursor) را به پلتفرم‌هایی مثل X متصل کنید، بیشتر آموزش‌ها سراغ Puppeteer یا Playwright می‌روند.</p> <p>اما در محیط واقعی و پایپ‌لاین‌های خودکار، این روش چند مشکل جدی ا",
+      "title": "GigaChat Omni vs SaluteSpeech: API Pricing and Call Costs",
+      "link": "https://dev.to/altrouter/gigachat-omni-vs-salutespeech-api-pricing-and-call-costs-5fei",
+      "pubDate": "2026-11-28T07:35:19.000Z",
+      "description": "<p>Setting up call analytics for a new business entity hits an unexpected roadblock: buying standard minute bundles in SaluteSpeech is no longer possible. The classic pipeline pairing standalone ASR with a text LLM breaks down at the billing stage.</p> <p>This guide examines the unit economics of sw",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "The TXT record that exists in your panel but not in your zone",
-      "link": "https://dev.to/initsoft/the-txt-record-that-exists-in-your-panel-but-not-in-your-zone-5755",
-      "pubDate": "2026-11-27T21:10:27.000Z",
-      "description": "<p>Domain verification looks like the simplest task in the book. A service hands you a record name and a value, you paste both into your DNS panel, you hit \"verify\". Then you spend an hour staring at a failure while the record sits right there in the table.</p> <p>Here is the failure mode I keep run",
+      "title": "Structured Data for Local Schools: A Hands-On Guide to EducationalOrganization, Course and FAQ Schema",
+      "link": "https://dev.to/brilliant_dental/structured-data-for-local-schools-a-hands-on-guide-to-educationalorganization-course-and-faq-i83",
+      "pubDate": "2026-11-28T07:34:48.000Z",
+      "description": "<p>If you build websites for small, local schools (a trade school, a career program, a community music academy), you will eventually be asked to \"add schema.\" Usually that request comes with a screenshot of a competitor's search result and a vague hope that some markup will produce stars, carousels,",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "Is Your Eval Too Small?",
-      "link": "https://dev.to/0xadityaa/is-your-eval-too-small-436g",
-      "pubDate": "2026-11-27T21:10:02.000Z",
-      "description": "<p>Picture this: you spend an afternoon tweaking a prompt, run your 100-example eval suite, and watch accuracy jump from 80% to 83%. Three whole points. You merge the PR.</p> <p>The question I wanted to answer: <strong>did you improve anything, or did you get lucky?</strong></p> <p>To find out, I ra",
+      "title": "AI Agents Will Surprise Us Vertically Before They Become Generally…",
+      "link": "https://dev.to/rpgbyters/ai-agents-will-surprise-us-vertically-before-they-become-generally-3jp7",
+      "pubDate": "2026-11-28T07:34:11.000Z",
+      "description": "<h2> TL;DR </h2> <p>The next major capability surprise from AI will not be a single machine that works like a person across every domain. It will be thousands of narrow agents doing serious work at once: fixing software, reconciling claims, discovering algorithms, operating equipment, and producing ",
       "source": "Dev.to Feed",
       "category": "Development"
     },
     {
-      "title": "I am scared: Careless People – Sarah Wynn-Williams on living under a gag order",
-      "link": "https://www.theguardian.com/books/2026/nov/27/careless-people-author-sarah-wynn-williams-the-silence-is-mine-it-doesnt-have-to-be-yours",
-      "pubDate": "2026-11-27T20:25:15.000Z",
-      "description": "Article URL: https://www.theguardian.com/books/2026/nov/27/careless-people-author-sarah-wynn-williams-the-silence-is-mine-it-doesnt-have-to-be-yours Comments URL: https://news.ycombinator.com/item?id=50671301 Points: 19 # Comments: 0",
+      "title": "Unkernel: Real Linux kernel, compiled to WebAssembly",
+      "link": "https://unkernel.dev",
+      "pubDate": "2026-11-28T03:19:20.000Z",
+      "description": "Article URL: https://unkernel.dev Comments URL: https://news.ycombinator.com/item?id=50674218 Points: 172 # Comments: 22",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Atari Homebrew Awards Cancelled",
+      "link": "https://forums.atariage.com/topic/394894-atari-homebrew-awards-cancelled/",
+      "pubDate": "2026-11-28T02:03:25.000Z",
+      "description": "Article URL: https://forums.atariage.com/topic/394894-atari-homebrew-awards-cancelled/ Comments URL: https://news.ycombinator.com/item?id=50673688 Points: 176 # Comments: 172",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Google's DeepCrossAttention achieves comparable model quality up to 3x faster",
+      "link": "https://research.google/blog/supercharging-transformer-residual-connections/",
+      "pubDate": "2026-11-27T23:06:29.000Z",
+      "description": "Article URL: https://research.google/blog/supercharging-transformer-residual-connections/ Comments URL: https://news.ycombinator.com/item?id=50672565 Points: 314 # Comments: 129",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Tabernetes: A Kubernetes cluster whose nodes are browser tabs",
+      "link": "https://tabernet.es/",
+      "pubDate": "2026-11-27T23:00:30.000Z",
+      "description": "Article URL: https://tabernet.es/ Comments URL: https://news.ycombinator.com/item?id=50672521 Points: 93 # Comments: 33",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "9/UX: a Macintosh-inspired desktop for 9front",
+      "link": "https://progrium.github.io/9ux/",
+      "pubDate": "2026-11-27T21:48:14.000Z",
+      "description": "Article URL: https://progrium.github.io/9ux/ Comments URL: https://news.ycombinator.com/item?id=50672008 Points: 114 # Comments: 27",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "SessionGraph: Visualize all your coding agent sessions in one interactive graph",
+      "link": "https://sessiongraph.ai/",
+      "pubDate": "2026-11-27T21:07:34.000Z",
+      "description": "Article URL: https://sessiongraph.ai/ Comments URL: https://news.ycombinator.com/item?id=50671651 Points: 46 # Comments: 23",
+      "source": "Hacker News",
+      "category": "Tech News"
+    },
+    {
+      "title": "Prospero: Bloat-free, native AI coding harness with ImGui",
+      "link": "https://github.com/skeeto/prospero",
+      "pubDate": "2026-11-27T20:23:14.000Z",
+      "description": "Article URL: https://github.com/skeeto/prospero Comments URL: https://news.ycombinator.com/item?id=50671275 Points: 56 # Comments: 20",
       "source": "Hacker News",
       "category": "Tech News"
     },
@@ -113,65 +157,97 @@
       "title": "The AT&T Unix PC (3B1) VM",
       "link": "https://virtuallyfun.com/2026/11/22/the-ultimate-att-unix-pc-3b1-vm-w-tcp-ip-and-apps/",
       "pubDate": "2026-11-27T19:40:33.000Z",
-      "description": "Article URL: https://virtuallyfun.com/2026/11/22/the-ultimate-att-unix-pc-3b1-vm-w-tcp-ip-and-apps/ Comments URL: https://news.ycombinator.com/item?id=50670841 Points: 16 # Comments: 2",
+      "description": "Article URL: https://virtuallyfun.com/2026/11/22/the-ultimate-att-unix-pc-3b1-vm-w-tcp-ip-and-apps/ Comments URL: https://news.ycombinator.com/item?id=50670841 Points: 78 # Comments: 13",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
       "title": "Michael Nielsen took down his book on neural nets",
-      "link": "https://twitter.com/michael_nielsen/status/2126359767362748777",
+      "link": "https://neuralnetworksanddeeplearning.com/",
       "pubDate": "2026-11-27T19:31:01.000Z",
-      "description": "Article URL: https://twitter.com/michael_nielsen/status/2126359767362748777 Comments URL: https://news.ycombinator.com/item?id=50670757 Points: 139 # Comments: 92",
+      "description": "Article URL: https://neuralnetworksanddeeplearning.com/ Comments URL: https://news.ycombinator.com/item?id=50670757 Points: 495 # Comments: 306",
       "source": "Hacker News",
       "category": "Tech News"
     },
     {
-      "title": "Michael Giles, co-founder and drummer of King Crimson, dies aged 84",
-      "link": "https://www.theguardian.com/music/2026/nov/26/michael-giles-co-founder-and-drummer-of-king-crimson-dies-aged-84",
-      "pubDate": "2026-11-27T19:25:16.000Z",
-      "description": "Article URL: https://www.theguardian.com/music/2026/nov/26/michael-giles-co-founder-and-drummer-of-king-crimson-dies-aged-84 Comments URL: https://news.ycombinator.com/item?id=50670694 Points: 24 # Comments: 1",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "Using light-dark() without getting caught out",
+      "link": "https://css-tricks.com/using-light-dark-without-getting-caught-out/",
+      "pubDate": "2026-11-27T16:01:31.000Z",
+      "description": "I honestly hadn't thought about \"getting caught\" by light-dark() — particularly when leaning heavily on it for this site — but Martin Underhill explains the user and rendering considerations, making me reflect on my choices as well. Using light-dark() without getting caught out originally handwritte",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
-      "title": "Euclidean geometry in the asymptotic spectrum of tensors [pdf]",
-      "link": "https://github.com/openai/math/blob/main/preprints/Euclidean-geometry-in-the-asymptotic-spectrum-of-tensors-November-24-2026/paper.pdf",
-      "pubDate": "2026-11-27T18:28:29.000Z",
-      "description": "Article URL: https://github.com/openai/math/blob/main/preprints/Euclidean-geometry-in-the-asymptotic-spectrum-of-tensors-November-24-2026/paper.pdf Comments URL: https://news.ycombinator.com/item?id=50670088 Points: 12 # Comments: 1",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "RSS Club: Preview Art-Directed Scrollytelling Article",
+      "link": "https://css-tricks.com/rss-club-preview-art-directed-scrollytelling-article/",
+      "pubDate": "2026-11-25T15:32:42.000Z",
+      "description": "Hey folks! I’m just so dang excited about this little project I’m working on with long-time author Lee Meyer that I had to share it with you before it goes out. We’re going full 2013-meets-2026 with an art-directed piece that … RSS Club: Preview Art-Directed Scrollytelling Article originally handwri",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
-      "title": "Convex skills send the user's app idea to a remote server without telling them",
-      "link": "https://github.com/convex/convex-backend-skill/issues/64",
-      "pubDate": "2026-11-27T18:02:45.000Z",
-      "description": "Article URL: https://github.com/convex/convex-backend-skill/issues/64 Comments URL: https://news.ycombinator.com/item?id=50669765 Points: 119 # Comments: 45",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "Style Queries as Conditional Modifiers",
+      "link": "https://css-tricks.com/css-style-queries-as-conditional-modifiers/",
+      "pubDate": "2026-11-25T14:06:34.000Z",
+      "description": "Where style queries shine is when the condition and the styles need to live in different places, or when one condition needs to affect several things at once: components that keep working, and adapt sensibly, no matter where they end up. Style Queries as Conditional Modifiers originally handwritten ",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
-      "title": "Show HN: DragDropMath – Learn math by feel",
-      "link": "https://dragdropmath.com/",
-      "pubDate": "2026-11-27T17:56:28.000Z",
-      "description": "Hi HN!I am a professional physicist and I shuffle symbols in equations and mathematical expressions all day long. During my PhD (almost 20 years ago) I noticed that it is as if the symbols have their own 'physics', which makes the wrong moves impossible and the right ones obvious.So I created DragDr",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "Using Fallbacks for a Robust Front-End",
+      "link": "https://css-tricks.com/using-frontend-fallbacks/",
+      "pubDate": "2026-11-23T14:21:44.000Z",
+      "description": "It’s important to use fallbacks to build a robust front end, either to quietly and discreetly avoid the error or to communicate it to our users. Using Fallbacks for a Robust Front-End originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
-      "title": "Credit card skimming scripts using WebRTC found on popular shopping sites",
-      "link": "https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer",
-      "pubDate": "2026-11-27T15:40:31.000Z",
-      "description": "Article URL: https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer Comments URL: https://news.ycombinator.com/item?id=50668145 Points: 284 # Comments: 160",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "Dev Material Archive",
+      "link": "https://css-tricks.com/dev-material-archive/",
+      "pubDate": "2026-11-23T14:18:50.000Z",
+      "description": "A new resource resurrecting lost web-dev articles and posts: This is an archive of written articles about web development, web design, and web accessibility that once existed on the World Wide Web and which would otherwise be lost to … Dev Material Archive originally handwritten and published with l",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     },
     {
-      "title": "False computer-checked proofs",
-      "link": "https://cr.yp.to/proofs/falseccp.html",
-      "pubDate": "2026-11-27T15:26:09.000Z",
-      "description": "Article URL: https://cr.yp.to/proofs/falseccp.html Comments URL: https://news.ycombinator.com/item?id=50667989 Points: 135 # Comments: 60",
-      "source": "Hacker News",
-      "category": "Tech News"
+      "title": "Andy Clarke answers six questions about Standout Designs for the Web",
+      "link": "https://css-tricks.com/andy-clarke-standout-designs-for-the-web-interview/",
+      "pubDate": "2026-11-20T15:03:47.000Z",
+      "description": "Web designer, author, and Stuff & Nonsense founder Andy Clarke has released Standout Designs for the Web, a new e-book that encourages designers to move beyond familiar templates and conventional layouts to create more personality-driven websites. The book draws … Andy Clarke answers six questions a",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "scroll-state()",
+      "link": "https://css-tricks.com/almanac/functions/s/scroll-state/",
+      "pubDate": "2026-11-19T14:57:54.000Z",
+      "description": "The CSS scroll-state() query, surprisingly, has nothing to do with whether you’re doom-scrolling in a state of existential dread. It does, however, allow you to change the CSS used based on scrolling behavior. scroll-state() originally handwritten and published with love on CSS-Tricks. You should re",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "When Everything Has Changed, What Do We Do Next?",
+      "link": "https://css-tricks.com/when-everything-has-changed/",
+      "pubDate": "2026-11-18T14:55:21.000Z",
+      "description": "It’s been a… year, huh? I think the most common emoji I’ve seen this year is “Face with Bags Under Eyes” (🫩) and that says a lot. One thing is for sure: the industry we make a living in is … When Everything Has Changed, What Do We Do Next? originally handwritten and published with love on CSS-Trick",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "Staggering Scroll-Driven Animations with animation-range-start",
+      "link": "https://css-tricks.com/staggering-scroll-driven-animations-with-animation-range-start/",
+      "pubDate": "2026-11-16T16:47:05.000Z",
+      "description": "Imagine a CSS karaoke machine that displays a ball bouncing on text that incrementally highlights, based on progress through via speech recognition and running that kind of animation as a single predictable, holistic effect driven by one progress value. Staggering Scroll-Driven Animations with anima",
+      "source": "CSS Tricks",
+      "category": "Frontend"
+    },
+    {
+      "title": "10 Big Ol&#8217; 2027 Black Friday Deals",
+      "link": "https://css-tricks.com/2027-front-end-black-friday-deals/",
+      "pubDate": "2026-11-13T14:05:24.000Z",
+      "description": "A big ol' roundup of Black Friday deals on front-end courses from the best independent publishers and educators in the business. 10 Big Ol’ 2027 Black Friday Deals originally handwritten and published with love on CSS-Tricks. You should really get the newsletter as well.",
+      "source": "CSS Tricks",
+      "category": "Frontend"
     }
   ]
 }
